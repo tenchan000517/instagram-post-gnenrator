@@ -1,0 +1,91 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --border: 214.3 31.8% 91.4%;
+  }
+  
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 font-japanese;
+  }
+}
+
+@layer components {
+  .gradient-bg {
+    @apply bg-gradient-to-br from-find-blue via-find-purple to-find-pink;
+  }
+  
+  .card-shadow {
+    @apply shadow-lg shadow-gray-200/50 border border-gray-100;
+  }
+  
+  .btn-primary {
+    @apply bg-find-blue hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-3 px-6 rounded-xl transition-all duration-200;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-find-blue/20 focus:border-find-blue transition-colors;
+  }
+  
+  .post-preview {
+    @apply bg-white rounded-2xl p-6 card-shadow;
+  }
+}
+
+/* Instagram投稿スタイル */
+.instagram-post {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.instagram-story {
+  width: 1080px;
+  height: 1920px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* カラー定義 */
+:root {
+  --orange-primary: #FF6B4A;
+  --orange-light: #FFE4C4;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+}
+
+.reel-timeline {
+  background: #1a1a1a;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* アニメーション */
+.animate-typing {
+  overflow: hidden;
+  border-right: 2px solid #3B82F6;
+  white-space: nowrap;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #3B82F6 }
+}
