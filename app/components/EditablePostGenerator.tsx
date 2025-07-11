@@ -40,7 +40,7 @@ export default function EditablePostGenerator({
       pageNumber: page.pageNumber,
       title: page.content.title || `Page ${page.pageNumber}`,
       selected: false,
-      element: pageRefs.current[page.pageNumber - 1]
+      element: pageRefs.current[page.pageNumber - 1] || undefined
     }))
     setDownloadItems(items)
   }, [currentContent])
@@ -50,7 +50,7 @@ export default function EditablePostGenerator({
     const timer = setTimeout(() => {
       setDownloadItems(prev => prev.map(item => ({
         ...item,
-        element: pageRefs.current[item.pageNumber - 1]
+        element: pageRefs.current[item.pageNumber - 1] || undefined
       })))
     }, 100)
     
@@ -155,19 +155,12 @@ export default function EditablePostGenerator({
     setIsGenerating(true)
     try {
       const canvas = await html2canvas(currentPageElement, {
-        scale: 2,
-        backgroundColor: '#ffffff',
+        background: '#ffffff',
         width: 850,
         height: 899,
         useCORS: true,
         logging: false,
         allowTaint: true,
-        foreignObjectRendering: false,
-        removeContainer: false,
-        ignoreElements: (element: Element) => {
-          // iframeやsvgなどの問題要素を無視
-          return element.tagName === 'IFRAME' || element.tagName === 'SVG'
-        }
       })
 
       const link = document.createElement('a')
@@ -220,8 +213,8 @@ export default function EditablePostGenerator({
         // 少し待機してレンダリング完了を待つ
         await new Promise(resolve => setTimeout(resolve, 500))
         
-        // 現在表示中のページ要素を取得（単一ダウンロードと同じ方法）
-        const currentPageElement = pageRefs.current[currentPage]
+        // 該当ページの要素を取得
+        const currentPageElement = pageRefs.current[pageIndex]
         if (!currentPageElement) {
           console.warn(`Page ${pageIndex + 1} element not found, skipping`)
           continue
@@ -229,18 +222,12 @@ export default function EditablePostGenerator({
 
         // 単一ダウンロードと同じ方法で画像生成
         const canvas = await html2canvas(currentPageElement, {
-          scale: 2,
-          backgroundColor: '#ffffff',
+            background: '#ffffff',
           width: 850,
           height: 899,
           useCORS: true,
           logging: false,
-          allowTaint: true,
-          foreignObjectRendering: false,
-          removeContainer: false,
-          ignoreElements: (element: Element) => {
-            return element.tagName === 'IFRAME' || element.tagName === 'SVG'
-          }
+          allowTaint: true
         })
 
         // ダウンロード実行
@@ -280,8 +267,6 @@ export default function EditablePostGenerator({
     return (
       <TemplateComponent
         data={page.templateData}
-        pageNumber={currentPage + 1}
-        totalPages={currentContent.pages.length}
       />
     )
   }
@@ -294,7 +279,7 @@ export default function EditablePostGenerator({
       return (
         <div
           key={`download-page-${index}`}
-          ref={el => pageRefs.current[index] = el}
+          ref={el => { pageRefs.current[page.pageNumber - 1] = el }}
           style={{
             width: '850px',
             height: '899px',
@@ -309,8 +294,6 @@ export default function EditablePostGenerator({
         >
           <TemplateComponent
             data={page.templateData}
-            pageNumber={index + 1}
-            totalPages={currentContent.pages.length}
           />
         </div>
       )
@@ -495,7 +478,7 @@ export default function EditablePostGenerator({
               <div className="flex justify-center">
                 <div ref={previewRef}>
                   <Viewport width={850} height={800}>
-                    <div ref={el => pageRefs.current[currentPage] = el}>
+                    <div ref={el => { pageRefs.current[currentPage] = el }}>
                       {renderCurrentPage()}
                     </div>
                   </Viewport>
@@ -599,26 +582,75 @@ export default function EditablePostGenerator({
             <div className="bg-white rounded-lg shadow-sm p-4">
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-lg font-semibold">キャプション・ハッシュタグ</h3>
-                <button
-                  onClick={async () => {
-                    // キャプション・ハッシュタグ再生成
-                    try {
-                      setIsGenerating(true)
-                      // 簡単な再生成（実際にはサービスを呼び出す）
-                      await new Promise(resolve => setTimeout(resolve, 1000))
-                      alert('キャプション・ハッシュタグを再生成しました')
-                    } catch (error) {
-                      alert('再生成に失敗しました')
-                    } finally {
-                      setIsGenerating(false)
-                    }
-                  }}
-                  disabled={isGenerating}
-                  className="flex items-center gap-2 px-3 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600 disabled:opacity-50 text-sm"
-                >
-                  <RefreshCw size={14} />
-                  再生成
-                </button>
+                <div className="flex gap-2">
+                  <button
+                    onClick={async () => {
+                      // キャプション再生成
+                      try {
+                        setIsGenerating(true)
+                        // 全ページの内容を結合してキャプション生成
+                        const contentForCaption = currentContent.pages.map(page => 
+                          `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
+                        ).join(' ')
+                        
+                        // 簡単なキャプション生成
+                        const newCaption = `✨ ${currentContent.pages[0]?.content.title || '成長のヒント'}\n\n${contentForCaption.substring(0, 100)}...\n\n一緒に成長しませんか？`
+                        
+                        setCurrentContent({
+                          ...currentContent,
+                          caption: newCaption
+                        })
+                      } catch (error) {
+                        alert('キャプション再生成に失敗しました')
+                      } finally {
+                        setIsGenerating(false)
+                      }
+                    }}
+                    disabled={isGenerating}
+                    className="flex items-center gap-2 px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 disabled:opacity-50 text-sm"
+                  >
+                    <RefreshCw size={14} />
+                    キャプション再生成
+                  </button>
+                  <button
+                    onClick={async () => {
+                      // ハッシュタグ再生成
+                      try {
+                        setIsGenerating(true)
+                        // 全ページの内容を結合してハッシュタグ生成
+                        const contentForHashtags = currentContent.pages.map(page => 
+                          `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
+                        ).join(' ')
+                        
+                        // HashtagServiceを使用してハッシュタグ生成
+                        const { hashtagService } = await import('../config/hashtags')
+                        const newHashtags = hashtagService.selectHashtags(contentForHashtags)
+                        
+                        setCurrentContent({
+                          ...currentContent,
+                          hashtags: {
+                            primary: newHashtags.large,
+                            secondary: newHashtags.medium,
+                            trending: newHashtags.small,
+                            large: newHashtags.large,
+                            medium: newHashtags.medium,
+                            small: newHashtags.small,
+                            all: newHashtags.all
+                          }
+                        })
+                      } catch (error) {
+                        alert('ハッシュタグ再生成に失敗しました')
+                      } finally {
+                        setIsGenerating(false)
+                      }
+                    }}
+                    disabled={isGenerating}
+                    className="flex items-center gap-2 px-3 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600 disabled:opacity-50 text-sm"
+                  >
+                    <RefreshCw size={14} />
+                    ハッシュタグ再生成
+                  </button>
+                </div>
               </div>
               <div className="space-y-3">
                 <div>

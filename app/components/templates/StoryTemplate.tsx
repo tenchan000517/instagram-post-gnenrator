@@ -78,7 +78,7 @@ export function StoryTemplate({ data }: StoryTemplateProps) {
                       <CheckCircle className="w-3 h-3 text-white" />
                     </div>
                     <p className="text-sm text-gray-800 font-medium">
-                      {item}
+                      {typeof item === 'string' ? item : (item.title || item.content || '')}
                     </p>
                   </div>
                 ))}

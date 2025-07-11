@@ -88,14 +88,14 @@ export default function ContentApprovalComponent({
     const typeMap: Record<TemplateType, string> = {
       enumeration: '列挙型',
       explanation: '説明型',
-      explanation_two: '解説型2',
+      explanation2: '解説型2',
       list: 'リスト型',
       simple: 'シンプル型',
-      simple_two: 'シンプル型2',
-      simple_three: 'シンプル型3',
-      simple_four: 'シンプル型4',
-      simple_five: 'シンプル型5',
-      simple_six: 'シンプル型6',
+      simple2: 'シンプル型2',
+      simple3: 'シンプル型3',
+      simple4: 'シンプル型4',
+      simple5: 'シンプル型5',
+      simple6: 'シンプル型6',
       story: 'ストーリー型',
       table: '表型'
     }

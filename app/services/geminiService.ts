@@ -1,6 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import { StrategyType } from '../types/post'
 import { TemplateType, TemplateData, TemplateSelector } from '../components/templates'
+import { hashtagService } from '../config/hashtags'
 
 // Gemini AI クライアントの初期化
 const getGeminiClient = () => {
@@ -337,11 +338,18 @@ ${templateSelectionPrompt}
           }
         })
       },
-      hashtags: {
-        primary: ['#FIND_to_DO', '#学生成長', '#就活'],
-        secondary: ['#キャリア', '#スキルアップ', '#大学生'],
-        trending: ['#自己成長', '#instagood']
-      },
+      hashtags: (() => {
+        const properHashtags = hashtagService.selectHashtags(content)
+        return {
+          primary: properHashtags.large,
+          secondary: properHashtags.medium,
+          trending: properHashtags.small,
+          large: properHashtags.large,
+          medium: properHashtags.medium,
+          small: properHashtags.small,
+          all: properHashtags.all
+        }
+      })(),
       caption: `✨ 学生の成長を応援！\n\n${content.substring(0, 100)}...\n\nFIND to DO で一緒に成長しませんか？\n\n#学生成長 #就活 #キャリア`
     }
   }

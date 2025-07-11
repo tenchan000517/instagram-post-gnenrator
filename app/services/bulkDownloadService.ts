@@ -47,19 +47,12 @@ export class BulkDownloadService {
 
     try {
       const canvas = await html2canvas(item.element, {
-        scale: 2,
-        backgroundColor: '#ffffff',
+        background: '#ffffff',
         width: 850,
         height: 899,
         useCORS: true,
         logging: false,
-        allowTaint: true,
-        foreignObjectRendering: false,
-        removeContainer: false,
-        ignoreElements: (element) => {
-          // iframeやsvgなどの問題要素を無視
-          return element.tagName === 'IFRAME' || element.tagName === 'SVG'
-        }
+        allowTaint: true
       })
 
       const link = document.createElement('a')
@@ -91,15 +84,12 @@ export class BulkDownloadService {
         }
 
         const canvas = await html2canvas(item.element, {
-          scale: 2,
-          backgroundColor: '#ffffff',
+            background: '#ffffff',
           width: 850,
           height: 899,
           useCORS: true,
           logging: false,
           allowTaint: true,
-          foreignObjectRendering: false,
-          removeContainer: false
         })
 
         const imageData = canvas.toDataURL('image/png').split(',')[1]
@@ -248,10 +238,12 @@ export class BulkDownloadService {
         }
 
         // デバッグ用：要素の存在確認
-        console.log(`Processing page ${item.pageNumber}, element dimensions:`, {
+        console.log(`Processing page ${item.pageNumber}, element info:`, {
           width: item.element.offsetWidth,
           height: item.element.offsetHeight,
-          visible: item.element.offsetParent !== null
+          visible: item.element.offsetParent !== null,
+          className: item.element.className,
+          innerHTML: item.element.innerHTML.substring(0, 100) + '...'
         })
 
         // 少し待機してからキャプチャを実行
@@ -259,19 +251,12 @@ export class BulkDownloadService {
 
         try {
           const canvas = await html2canvas(item.element, {
-            scale: 2,
-            backgroundColor: '#ffffff',
+                background: '#ffffff',
             width: 850,
             height: 800,
             useCORS: true,
             logging: false,
-            allowTaint: true,
-            foreignObjectRendering: false,
-            removeContainer: false,
-            ignoreElements: (element) => {
-              // iframeやsvgなどの問題要素を無視
-              return element.tagName === 'IFRAME' || element.tagName === 'SVG'
-            }
+            allowTaint: true
           })
 
           const imageData = canvas.toDataURL('image/png').split(',')[1]

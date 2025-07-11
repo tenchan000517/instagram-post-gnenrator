@@ -469,8 +469,10 @@ export default function PartialEditComponent({
             <div>
               <strong>項目:</strong>
               <ul className="list-disc list-inside ml-4 mt-1">
-                {editingData.items.map((item: string, index: number) => (
-                  <li key={index}>{item}</li>
+                {editingData.items.map((item: string | { title?: string; content?: string }, index: number) => (
+                  <li key={index}>
+                    {typeof item === 'string' ? item : (item.title || item.content || '')}
+                  </li>
                 ))}
               </ul>
             </div>

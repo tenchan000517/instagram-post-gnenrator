@@ -204,7 +204,6 @@ export default function TemplateViewer() {
                 style={{ 
                   width: '95%', 
                   height: '95%',
-                  border: '4px solid red',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center'

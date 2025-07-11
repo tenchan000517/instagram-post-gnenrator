@@ -24,8 +24,9 @@ export interface TemplateData {
   title: string
   content?: string
   subtitle?: string
+  description?: string  // 説明文
   badgeText?: string  // バッジに表示するテキスト
-  items?: string[]
+  items?: (string | { title?: string; content?: string })[]
   points?: Array<{
     title: string
     description: string
@@ -43,9 +44,15 @@ export interface TemplateData {
     content: string
   }>
   twoColumn?: {
-    left: string[]
-    right: string[]
+    left: (string | { title?: string; content?: string })[]
+    right: (string | { title?: string; content?: string })[]
   }
+  sections?: Array<{
+    title: string
+    content: string
+    items?: (string | { title?: string; content?: string })[]
+  }>
+  [key: string]: any  // For dynamic field access
 }
 
 // 12個のテンプレートタイプ

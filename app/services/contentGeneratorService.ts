@@ -2,6 +2,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai'
 import { TemplateType, TemplateData } from '../components/templates/TemplateTypes'
 import { hashtagService } from '../config/hashtags'
 import { captionService } from '../config/captionFormat'
+import { MarkdownUtils } from '../utils/markdownUtils'
 
 export interface GeneratedPage {
   pageNumber: number
@@ -291,6 +292,13 @@ ${additionalInstructions || '品質を向上させて再生成してください
       const cleanText = text.replace(/```json\n?|```\n?/g, '').trim()
       const parsed = JSON.parse(cleanText)
       
+      // HashtagServiceを使用して適切なハッシュタグを生成
+      const contentForHashtags = parsed.pages.map((page: any) => 
+        `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
+      ).join(' ')
+      
+      const properHashtags = hashtagService.selectHashtags(contentForHashtags)
+      
       return {
         pages: parsed.pages.map((page: any) => ({
           pageNumber: page.pageNumber,
@@ -300,7 +308,15 @@ ${additionalInstructions || '品質を向上させて再生成してください
         })),
         totalPages: parsed.totalPages,
         caption: parsed.caption,
-        hashtags: parsed.hashtags,
+        hashtags: {
+          primary: properHashtags.large,
+          secondary: properHashtags.medium,
+          trending: properHashtags.small,
+          large: properHashtags.large,
+          medium: properHashtags.medium,
+          small: properHashtags.small,
+          all: properHashtags.all
+        },
         summary: parsed.summary
       }
     } catch (error) {
@@ -328,26 +344,31 @@ ${additionalInstructions || '品質を向上させて再生成してください
 
   private convertToTemplateData(content: any, templateType: TemplateType): TemplateData {
     const baseData: TemplateData = {
-      title: content.title || '',
-      content: content.description || '',
-      subtitle: content.subtitle || '',
-      badgeText: content.badgeText || '',
-      items: content.items || [],
+      title: MarkdownUtils.removeMarkdown(content.title || ''),
+      content: MarkdownUtils.removeMarkdown(content.description || ''),
+      subtitle: MarkdownUtils.removeMarkdown(content.subtitle || ''),
+      badgeText: MarkdownUtils.removeMarkdown(content.badgeText || ''),
+      items: content.items ? content.items.map((item: any) => 
+        typeof item === 'string' ? MarkdownUtils.removeMarkdown(item) : {
+          title: MarkdownUtils.removeMarkdown(item.title || ''),
+          content: MarkdownUtils.removeMarkdown(item.content || '')
+        }
+      ) : [],
       tableData: content.tableData || { headers: [], rows: [] }
     }
 
     // Convert sections to points if available
     if (content.sections && content.sections.length > 0) {
       baseData.points = content.sections.map((section: any) => ({
-        title: section.title || '',
-        description: section.content || ''
+        title: MarkdownUtils.removeMarkdown(section.title || ''),
+        description: MarkdownUtils.removeMarkdown(section.content || '')
       }))
     }
 
     // Convert checklist items to checklist format
     if (content.checklistItems && content.checklistItems.length > 0) {
       baseData.checklist = content.checklistItems.map((item: any) => ({
-        text: item.text || '',
+        text: MarkdownUtils.removeMarkdown(item.text || ''),
         checked: false
       }))
     }
@@ -358,8 +379,14 @@ ${additionalInstructions || '品質を向上させて再生成してください
       const rightItems = content.sections.slice(Math.ceil(content.sections.length / 2))
       
       baseData.twoColumn = {
-        left: leftItems.map((item: any) => typeof item === 'string' ? item : item.title || item.content || String(item)),
-        right: rightItems.map((item: any) => typeof item === 'string' ? item : item.title || item.content || String(item))
+        left: leftItems.map((item: any) => typeof item === 'string' ? 
+          MarkdownUtils.removeMarkdown(item) : 
+          MarkdownUtils.removeMarkdown(item.title || item.content || String(item))
+        ),
+        right: rightItems.map((item: any) => typeof item === 'string' ? 
+          MarkdownUtils.removeMarkdown(item) : 
+          MarkdownUtils.removeMarkdown(item.title || item.content || String(item))
+        )
       }
     }
 

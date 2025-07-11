@@ -19,7 +19,6 @@ export default function Viewport({
     <div 
       className={`bg-gray-50 rounded-lg overflow-hidden ${className}`}
       style={{ 
-        border: '4px solid darkblue',
         width: `${width}px`,
         height: `${height}px`,
         display: 'flex',

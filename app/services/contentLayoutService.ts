@@ -1,5 +1,7 @@
 // ContentLayoutService - コンテンツをテンプレートに配置（改変なし）
 import { TemplateType, TemplateData } from '../components/templates/TemplateTypes'
+import { templateRegistry } from '../components/templates/TemplateRegistry'
+import { MarkdownUtils } from '../utils/markdownUtils'
 
 export interface ContentLayoutResult {
   templateType: TemplateType
@@ -39,10 +41,14 @@ export class ContentLayoutService {
     console.log('📊 構造化結果:', structure)
     
     // 2. テンプレートタイプに応じて配置
-    const templateData = this.mapToTemplateData(structure, templateType)
-    console.log('🎨 テンプレートデータ:', templateData)
+    const rawTemplateData = this.mapToTemplateData(structure, templateType)
+    console.log('🎨 生テンプレートデータ:', rawTemplateData)
     
-    // 3. 配置結果を検証
+    // 3. 文字数制限に従って調整
+    const templateData = this.trimContentToLimits(rawTemplateData, templateType)
+    console.log('✂️ 調整後テンプレートデータ:', templateData)
+    
+    // 4. 配置結果を検証
     const validation = this.validateLayout(structure, templateData, templateType)
     
     const result = {
@@ -73,7 +79,10 @@ export class ContentLayoutService {
       // 先頭・末尾の空白を除去
       .trim()
     
-    console.log('✨ 構造化マーカー除去後:', cleaned.substring(0, 200) + '...')
+    // マークダウン記法を除去
+    cleaned = MarkdownUtils.removeMarkdown(cleaned)
+    
+    console.log('✨ 構造化マーカー・マークダウン除去後:', cleaned.substring(0, 200) + '...')
     return cleaned
   }
 
@@ -204,7 +213,7 @@ export class ContentLayoutService {
     // 短い行で、次の行が詳細説明の場合
     return line.length > 5 && line.length < 50 && 
            !line.includes('。') && !line.includes('！') && !line.includes('？') &&
-           nextLine && nextLine.length > 20
+           Boolean(nextLine && nextLine.length > 20)
   }
 
   /**
@@ -429,6 +438,76 @@ export class ContentLayoutService {
   }
 
   /**
+   * 文字数制限に従ってコンテンツを調整
+   */
+  static trimContentToLimits(
+    templateData: TemplateData, 
+    templateType: TemplateType
+  ): TemplateData {
+    const template = templateRegistry[templateType]
+    if (!template) {
+      return templateData
+    }
+    
+    const limits = template.characterLimits
+    const trimmed = { ...templateData }
+    
+    // タイトルの調整
+    if (trimmed.title && trimmed.title.length > limits.title) {
+      trimmed.title = trimmed.title.substring(0, limits.title - 3) + '...'
+    }
+    
+    // コンテンツの調整
+    if (trimmed.content && limits.content > 0 && trimmed.content.length > limits.content) {
+      trimmed.content = trimmed.content.substring(0, limits.content - 3) + '...'
+    }
+    
+    // サブタイトルの調整
+    if (trimmed.subtitle && limits.subtitle > 0 && trimmed.subtitle.length > limits.subtitle) {
+      trimmed.subtitle = trimmed.subtitle.substring(0, limits.subtitle - 3) + '...'
+    }
+    
+    // 項目の調整
+    if (trimmed.items && limits.items > 0) {
+      trimmed.items = trimmed.items.map(item => {
+        if (typeof item === 'string') {
+          if (item.length > limits.items) {
+            return item.substring(0, limits.items - 3) + '...'
+          }
+          return item
+        } else {
+          // Object type item
+          const result = { ...item }
+          if (result.title && result.title.length > limits.items) {
+            result.title = result.title.substring(0, limits.items - 3) + '...'
+          }
+          if (result.content && result.content.length > limits.items) {
+            result.content = result.content.substring(0, limits.items - 3) + '...'
+          }
+          return result
+        }
+      })
+    }
+    
+    // テーブルデータの調整
+    if (trimmed.tableData && limits.items > 0) {
+      trimmed.tableData = {
+        ...trimmed.tableData,
+        rows: trimmed.tableData.rows.map(row => 
+          row.map(cell => {
+            if (cell.length > limits.items) {
+              return cell.substring(0, limits.items - 3) + '...'
+            }
+            return cell
+          })
+        )
+      }
+    }
+    
+    return trimmed
+  }
+
+  /**
    * 配置結果を検証
    */
   private static validateLayout(
@@ -440,10 +519,45 @@ export class ContentLayoutService {
     const notes: string[] = []
     let success = true
 
+    // テンプレートの文字数制限を取得
+    const template = templateRegistry[templateType]
+    if (!template) {
+      notes.push(`テンプレート ${templateType} が見つかりません`)
+      return { success: false, notes }
+    }
+    
+    const limits = template.characterLimits
+
     // 基本的な検証
     if (!templateData.title) {
       notes.push('タイトルが設定されていません')
       success = false
+    }
+
+    // 文字数制限の検証
+    if (templateData.title && templateData.title.length > limits.title) {
+      notes.push(`タイトルが長すぎます (${templateData.title.length}文字/${limits.title}文字)`)
+      success = false
+    }
+    
+    if (templateData.content && limits.content > 0 && templateData.content.length > limits.content) {
+      notes.push(`コンテンツが長すぎます (${templateData.content.length}文字/${limits.content}文字)`)
+      success = false
+    }
+    
+    if (templateData.subtitle && limits.subtitle > 0 && templateData.subtitle.length > limits.subtitle) {
+      notes.push(`サブタイトルが長すぎます (${templateData.subtitle.length}文字/${limits.subtitle}文字)`)
+      success = false
+    }
+    
+    if (templateData.items && limits.items > 0) {
+      templateData.items.forEach((item, index) => {
+        const itemText = typeof item === 'string' ? item : (item.title || item.content || '')
+        if (itemText.length > limits.items) {
+          notes.push(`項目${index + 1}が長すぎます (${itemText.length}文字/${limits.items}文字)`)
+          success = false
+        }
+      })
     }
 
     // テンプレートタイプ固有の検証
@@ -467,6 +581,17 @@ export class ContentLayoutService {
         if (!templateData.tableData || templateData.tableData.rows.length === 0) {
           notes.push('テーブルデータが不足しています')
           success = false
+        }
+        // テーブルセルの文字数制限もチェック
+        if (templateData.tableData && limits.items > 0) {
+          templateData.tableData.rows.forEach((row, rowIndex) => {
+            row.forEach((cell, cellIndex) => {
+              if (cell.length > limits.items) {
+                notes.push(`テーブル行${rowIndex + 1}列${cellIndex + 1}が長すぎます (${cell.length}文字/${limits.items}文字)`)
+                success = false
+              }
+            })
+          })
         }
         break
     }

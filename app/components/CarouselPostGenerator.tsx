@@ -137,13 +137,11 @@ export default function CarouselPostGenerator({
 
   return (
     <div className="relative" style={{ 
-      border: '3px solid purple',
       width: '800px',
       height: '800px'
     }}>
       {/* CarouselPostGenerator 外側コンテナ - 紫ライン */}
       <div className="overflow-hidden rounded-lg" style={{ 
-        border: '3px solid orange',
         width: '800px',
         height: '800px'
       }}>
@@ -152,7 +150,6 @@ export default function CarouselPostGenerator({
           className="flex transition-transform duration-300 ease-in-out"
           style={{ 
             transform: `translateX(-${currentSlide * 100}%)`, 
-            border: '3px solid cyan',
             width: '800px',
             height: '800px'
           }}
@@ -160,7 +157,6 @@ export default function CarouselPostGenerator({
           {/* スライド移動コンテナ - シアンライン */}
           {displaySlides.map((slide, index) => (
             <div key={index} className="flex-shrink-0" data-page={index} style={{ 
-              border: '3px solid yellow',
               width: '800px',
               height: '800px'
             }}>
@@ -168,7 +164,6 @@ export default function CarouselPostGenerator({
               <div className="flex justify-center items-center" style={{ 
                 width: '800px',
                 height: '800px', 
-                border: '3px solid pink',
                 overflow: 'hidden',
                 position: 'relative'
               }}>
@@ -176,7 +171,6 @@ export default function CarouselPostGenerator({
                 <div style={{ 
                   width: '750px', 
                   height: '750px',
-                  border: '3px solid lime',
                   overflow: 'hidden'
                 }}>
                   {/* テンプレートタイプに応じて適切なコンポーネントを表示 */}
@@ -227,7 +221,6 @@ export default function CarouselPostGenerator({
 
       {/* ナビゲーション - 絶対位置で1080x1080内に配置 */}
       <div className="flex justify-between items-center" style={{ 
-        border: '3px solid brown',
         position: 'absolute',
         bottom: '10px',
         left: '10px',
@@ -238,14 +231,13 @@ export default function CarouselPostGenerator({
         <button
           onClick={prevSlide}
           className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
-          style={{ border: '2px solid black' }}
         >
           {/* 前ボタン - 黒ライン */}
           <ChevronLeft className="w-6 h-6" />
         </button>
 
         {/* インジケーター */}
-        <div className="flex gap-2" style={{ border: '2px solid gray' }}>
+        <div className="flex gap-2">
           {/* インジケーターコンテナ - グレーライン */}
           {displaySlides.map((_, index) => (
             <button
@@ -261,7 +253,6 @@ export default function CarouselPostGenerator({
         <button
           onClick={nextSlide}
           className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
-          style={{ border: '2px solid black' }}
         >
           {/* 次ボタン - 黒ライン */}
           <ChevronRight className="w-6 h-6" />
