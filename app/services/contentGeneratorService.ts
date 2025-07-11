@@ -93,6 +93,72 @@ export class ContentGeneratorService {
   }
 
 
+  async regenerateCaption(content: GeneratedContent): Promise<string> {
+    // AI呼び出しの直列化（503エラー対策）
+    if (this.isGenerating) {
+      console.log('⏳ AI生成中のためキャプション再生成をスキップ...')
+      throw new Error('他のAI生成が進行中です。少し待ってから再度お試しください。')
+    }
+
+    this.isGenerating = true
+    const contentForCaption = content.pages.map(page => 
+      `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
+    ).join(' ')
+
+    const prompt = `
+以下のコンテンツから、Instagram投稿用のプロフェッショナルなキャプションを生成してください。
+
+【コンテンツ】
+${contentForCaption}
+
+【キャプション生成制約】
+- キャプションにはハッシュタグを一切含めない
+- キャプションはテキストのみで構成（ハッシュタグは別セクション）
+- 絵文字は✅のみ使用可（他の絵文字は使用禁止）
+- プロフェッショナルで上品なトーンで作成
+- 就活・キャリア系の専門的な内容に相応しい文体
+- 読者にとって価値のある情報を簡潔に伝える
+- 「応援してるよー！」「頑張ろう！」等のカジュアルな表現は使用しない
+- 敬語を適切に使用し、学生に対して有益な情報を提供する姿勢
+- 400-500文字程度で適切なボリュームにまとめる
+
+【文体の指針】
+- 就活・キャリア系の専門的な内容に相応しい丁寧な文体
+- 導入部分で背景や重要性を説明（2-3文）
+- コンテンツの要点を✅を使って3-5個程度で整理
+- 各✅項目に簡潔な説明を付加
+- 読者にとって具体的で実践的な価値を提供
+- 最後に投稿内容への誘導を自然に含める
+- 句点（。）の後は必ず改行する（文章の区切りを明確に）
+- 文章が長い場合は、適切な箇所で改行を入れて読みやすくする
+- 適切なボリュームで情報量を確保する
+
+【出力形式】
+キャプションのテキストのみを出力してください。JSONやその他の形式は不要です。
+
+【重要な改行ルール】
+- 文章が終わったら必ず改行（改行コード\nを使用）
+- 長い文章は読みやすくするため適切な箇所で改行
+- ✅項目の間には空行を入れる
+- 段落と段落の間には空行を入れる
+`
+
+    try {
+      console.log('🚀 キャプション再生成開始...')
+      const result = await this.model.generateContent(prompt)
+      const response = await result.response
+      const caption = response.text().trim()
+      
+      console.log('✅ キャプション再生成成功')
+      return caption
+    } catch (error) {
+      console.error('Caption regeneration failed:', error)
+      throw new Error('キャプションの再生成に失敗しました。もう一度お試しください。')
+    } finally {
+      this.isGenerating = false
+    }
+  }
+
   async regenerateSpecificPage(
     originalContent: GeneratedContent, 
     pageNumber: number, 
@@ -138,6 +204,8 @@ export class ContentGeneratorService {
 
 【重要な制約（改善要件④対応）】
 - 事実ベースのコンテンツのみ作成（憶測・推測は一切禁止）
+- 絵文字の使用は一切禁止（テキストのみで表現）
+- タイトル、キャプション、すべてのテキストで絵文字を使用しない
 - 学生にとって実践的で価値のある情報
 - 具体的で実用的な内容
 - 高品質で専門的な内容（小学生レベルの内容は排除）
@@ -224,6 +292,12 @@ ${userInput}
 - 希薄な情報は統合し、1ページあたりの価値を最大化する
 - 具体的な数値・期間・ツール名・手法名を含める（例：「3週間で」「SWOT分析を使って」「上位10%に入るための」）
 - 実践的なアクション項目を各ページに含める
+
+【キャプション生成制約】
+- キャプションにはハッシュタグを一切含めない
+- キャプションはテキストのみで構成（ハッシュタグは別セクション）
+- キャプションでは✅のみ使用可（他の絵文字は使用禁止）
+- ハッシュタグとキャプションは完全に分離して生成
 `;
   }
 
@@ -249,6 +323,8 @@ ${additionalInstructions || '品質を向上させて再生成してください
 
 【制約】
 - 事実ベースのコンテンツのみ
+- 絵文字の使用は一切禁止（テキストのみで表現）
+- タイトル、キャプション、すべてのテキストで絵文字を使用しない
 - 実践的で具体的な内容
 - プレースホルダー禁止
 - 学生にとって価値のある情報

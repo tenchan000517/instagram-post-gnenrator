@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { ArrowLeft, Download, RefreshCw, ChevronLeft, ChevronRight, Edit, Palette, Eye, Save, CheckSquare, Square, PackageOpen } from 'lucide-react'
-import { GeneratedContent, GeneratedPage } from '../services/contentGeneratorService'
+import { GeneratedContent, GeneratedPage, contentGeneratorService } from '../services/contentGeneratorService'
 import { templateMatchingService } from '../services/templateMatchingService'
 import { ContentLayoutService } from '../services/contentLayoutService'
 import { templateComponents } from './templates'
@@ -587,21 +587,23 @@ export default function EditablePostGenerator({
                     onClick={async () => {
                       // キャプション再生成
                       try {
+                        console.log('🔄 キャプション再生成開始')
                         setIsGenerating(true)
-                        // 全ページの内容を結合してキャプション生成
-                        const contentForCaption = currentContent.pages.map(page => 
-                          `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
-                        ).join(' ')
                         
-                        // 簡単なキャプション生成
-                        const newCaption = `✨ ${currentContent.pages[0]?.content.title || '成長のヒント'}\n\n${contentForCaption.substring(0, 100)}...\n\n一緒に成長しませんか？`
+                        // AI生成を使用してキャプション再生成
+                        const newCaption = await contentGeneratorService.regenerateCaption(currentContent)
+                        
+                        console.log('📝 新しいキャプション:', newCaption)
                         
                         setCurrentContent({
                           ...currentContent,
                           caption: newCaption
                         })
+                        
+                        console.log('✅ キャプション再生成完了')
                       } catch (error) {
-                        alert('キャプション再生成に失敗しました')
+                        console.error('❌ キャプション再生成エラー:', error)
+                        alert('キャプション再生成に失敗しました: ' + (error instanceof Error ? error.message : '不明なエラー'))
                       } finally {
                         setIsGenerating(false)
                       }
@@ -609,7 +611,11 @@ export default function EditablePostGenerator({
                     disabled={isGenerating}
                     className="flex items-center gap-2 px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 disabled:opacity-50 text-sm"
                   >
-                    <RefreshCw size={14} />
+                    {isGenerating ? (
+                      <RefreshCw size={14} className="animate-spin" />
+                    ) : (
+                      <RefreshCw size={14} />
+                    )}
                     キャプション再生成
                   </button>
                   <button
@@ -683,7 +689,41 @@ export default function EditablePostGenerator({
                           {tag}
                         </span>
                       ))}
+                      {currentContent.hashtags.trending.map((tag, index) => (
+                        <span key={`trending-${index}`} className="bg-green-100 text-green-800 px-2 py-1 rounded-full text-sm">
+                          {tag}
+                        </span>
+                      ))}
                     </div>
+                  </div>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    統合コピー用（キャプション + ハッシュタグ）
+                  </label>
+                  <div className="relative">
+                    <textarea
+                      value={`${currentContent.caption}\n\n${currentContent.hashtags.all.join(' ')}`}
+                      readOnly
+                      className="w-full p-3 border rounded-md resize-none bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      rows={6}
+                    />
+                    <button
+                      onClick={() => {
+                        const combinedText = `${currentContent.caption}\n\n${currentContent.hashtags.all.join(' ')}`
+                        navigator.clipboard.writeText(combinedText)
+                        // 簡単なフィードバックを表示
+                        const btn = document.activeElement as HTMLButtonElement
+                        const originalText = btn.textContent
+                        btn.textContent = 'コピー完了！'
+                        setTimeout(() => {
+                          btn.textContent = originalText
+                        }, 1000)
+                      }}
+                      className="absolute top-2 right-2 bg-blue-500 text-white px-3 py-1 rounded text-sm hover:bg-blue-600"
+                    >
+                      コピー
+                    </button>
                   </div>
                 </div>
               </div>

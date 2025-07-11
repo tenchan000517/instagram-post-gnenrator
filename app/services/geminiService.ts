@@ -83,6 +83,7 @@ export class GeminiService {
 ${content}
 
 【コンテンツ最適化の指針】
+- 絵文字は使用せず、テキストのみで表現
 - 各テンプレートの文字数制限を厳守
 - 具体例や数字を含める
 - 行動につながる実用的な情報を重視
@@ -108,6 +109,11 @@ ${templateSelectionPrompt}
 
 【FIND to DO について】
 学生向けビジネスモデル。学生の「何もない」を「これがある」に変えるプロジェクトを提供。実践的なスキルアップ、一生続く仲間との出会い、企業との直接連携、自分の可能性発見を支援。
+
+【キャプション生成ルール】
+- キャプションにはハッシュタグを絶対に含めない
+- キャプションとハッシュタグは独立した要素として処理
+- ハッシュタグはhashtags配列で別途生成
 
 以下のJSON形式で回答してください：
 
@@ -152,7 +158,7 @@ ${templateSelectionPrompt}
     "secondary": ["補助ハッシュタグ"],
     "trending": ["トレンドハッシュタグ"]
   },
-  "caption": "完全なキャプション文"
+  "caption": "完全なキャプション文（ハッシュタグは絶対に含めない）"
 }
 `
 
@@ -350,7 +356,7 @@ ${templateSelectionPrompt}
           all: properHashtags.all
         }
       })(),
-      caption: `✨ 学生の成長を応援！\n\n${content.substring(0, 100)}...\n\nFIND to DO で一緒に成長しませんか？\n\n#学生成長 #就活 #キャリア`
+      caption: `✨ 学生の成長を応援！\n\n${content.substring(0, 100)}...\n\nFIND to DO で一緒に成長しませんか？`
     }
   }
 

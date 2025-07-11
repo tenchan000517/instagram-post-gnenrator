@@ -141,7 +141,7 @@ export class HashtagService {
 
   /**
    * コンテンツに基づいて最適なハッシュタグを選択
-   * 大カテゴリ4つ、中カテゴリ4つ、小カテゴリ3つ = 計11個
+   * 大カテゴリ3つ、中カテゴリ3つ、小カテゴリ2つ、メインジャンル3つ = 計11個
    */
   selectHashtags(content: string, additionalKeywords: string[] = []): {
     large: string[]
@@ -152,35 +152,38 @@ export class HashtagService {
     const contentLower = content.toLowerCase()
     const allKeywords = [...additionalKeywords.map(k => k.toLowerCase())]
 
-    // 大カテゴリから4つ選択
+    // メインジャンル3つ（必須）
+    const mainGenres = ['#就活', '#キャリア', '#インターン']
+    
+    // 大カテゴリから3つ選択（メインジャンルを除く）
     const selectedLarge = this.selectFromCategory(
-      this.config.large,
+      this.config.large.filter(tag => !mainGenres.includes(tag)),
       contentLower,
       allKeywords,
-      4
+      3
     )
 
-    // 中カテゴリから4つ選択
+    // 中カテゴリから3つ選択
     const selectedMedium = this.selectFromCategory(
       this.config.medium,
       contentLower,
       allKeywords,
-      4
+      3
     )
 
-    // 小カテゴリから3つ選択
+    // 小カテゴリから2つ選択
     const selectedSmall = this.selectFromCategory(
       this.config.small,
       contentLower,
       allKeywords,
-      3
+      2
     )
 
     return {
       large: selectedLarge,
       medium: selectedMedium,
       small: selectedSmall,
-      all: [...selectedLarge, ...selectedMedium, ...selectedSmall]
+      all: [...mainGenres, ...selectedLarge, ...selectedMedium, ...selectedSmall]
     }
   }
 
