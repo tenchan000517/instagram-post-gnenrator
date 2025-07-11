@@ -13,6 +13,7 @@ import { templateComponents, TemplateType, TemplateData, TemplateSelector } from
 import { IntelligentContentProcessor, ProcessedContent } from '../services/intelligentContentProcessor'
 import { ExtractedContent } from '../services/contentExtractor'
 import CarouselPostGenerator from './CarouselPostGenerator'
+import NewFlowController from './NewFlowController'
 import Viewport from './Viewport'
 import html2canvas from 'html2canvas'
 import { jsPDF } from 'jspdf'
@@ -43,32 +44,67 @@ export default function PostGenerator({
   const [processedContents, setProcessedContents] = useState<ProcessedContent[]>([])
   const [selectedContent, setSelectedContent] = useState<ProcessedContent | null>(null)
   const [showContentSelection, setShowContentSelection] = useState(false)
+  const [useNewFlow, setUseNewFlow] = useState(false)
+  const [showNewFlow, setShowNewFlow] = useState(false)
+  const [generatedContentForNewFlow, setGeneratedContentForNewFlow] = useState<string>('')
   const previewRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     generatePost()
-  }, [content, strategy])
+  }, [content, strategy, useNewFlow])
 
   const generatePost = async () => {
+    console.log('🎯 generatePost 開始')
+    console.log('🔄 useNewFlow:', useNewFlow)
+    
     setGenerating(true)
     setAiOptimized(true)
     setGeneratingStatus('AI分析を実行中...')
     
     try {
+      console.log('📡 Gemini API 呼び出し開始')
       // Gemini AIだけを使用してコンテンツを分析・生成
       const aiAnalysis = await geminiService.analyzeContentForOptimalPost(content, strategy)
-      const generatedPost = createPostFromAIAnalysis(content, aiAnalysis)
+      console.log('✅ Gemini API 呼び出し完了')
       
-      setPostData(generatedPost)
-      onPostGenerated(generatedPost)
-      setGeneratingStatus('生成完了!')
-      setAiAnalysis(aiAnalysis)
+      // 新フローを使用する場合
+      if (useNewFlow) {
+        console.log('🚀 新フロー分岐: 実行開始')
+        
+        // ①Gemini AIが生成した高品質コンテンツを新フローに渡す
+        const generatedContent = aiAnalysis.pageStructure.contentDistribution
+          .map(page => page.content)
+          .join('\n\n')
+        console.log('📝 Gemini生成コンテンツ:', generatedContent.substring(0, 200) + '...')
+        
+        setGeneratedContentForNewFlow(generatedContent)
+        setShowNewFlow(true)
+        setGeneratingStatus('新フローを開始中...')
+        setGenerating(false) // 新フロー開始時に生成状態を終了
+        console.log('🎊 新フロー開始完了 - 従来フローをスキップ')
+        return // 従来フローの処理をスキップ
+      } else {
+        console.log('📊 従来フロー分岐: 実行開始')
+        // 従来のフロー
+        const generatedPost = createPostFromAIAnalysis(content, aiAnalysis)
+        setPostData(generatedPost)
+        onPostGenerated(generatedPost)
+        setGeneratingStatus('生成完了!')
+        setAiAnalysis(aiAnalysis)
+      }
       
     } catch (error: any) {
       console.error('Gemini API Error:', error)
       setGeneratingStatus('エラーが発生しました')
       
-      // エラー時は単純なフォールバック（リトライなし）
+      // 新フローの場合はエラー表示のみ
+      if (useNewFlow) {
+        alert('新フローでエラーが発生しました。従来フローをお試しください。')
+        setUseNewFlow(false)
+        return
+      }
+      
+      // 従来フローのエラー時は単純なフォールバック（リトライなし）
       const fallbackPost: PostData = {
         type: 'carousel',
         strategy,
@@ -94,6 +130,42 @@ export default function PostGenerator({
     }
     
     setGenerating(false)
+  }
+
+  // 新フローの完了処理
+  const handleNewFlowComplete = (finalData: { templateType: TemplateType; templateData: TemplateData }) => {
+    // 新フローの結果を従来のPostData形式に変換
+    const newPostData: PostData = {
+      type: 'carousel',
+      strategy,
+      title: finalData.templateData.title || 'タイトル',
+      content: content,
+      pages: [{
+        pageNumber: 1,
+        totalPages: 1,
+        content: finalData.templateData.content || content,
+        type: 'content' as const,
+        highlight: finalData.templateData.title || '',
+        template: finalData.templateType,
+        templateType: finalData.templateType,
+        templateData: finalData.templateData
+      }],
+      hashtags: getEffectiveHashtags(strategy, content),
+      caption: generateCaption(content, strategy),
+      cta: 'FIND to DOで一緒に成長しよう！'
+    }
+    
+    setPostData(newPostData)
+    onPostGenerated(newPostData)
+    setShowNewFlow(false)
+    setGeneratingStatus('新フローで生成完了!')
+  }
+
+  // 新フローのキャンセル処理
+  const handleNewFlowCancel = () => {
+    setShowNewFlow(false)
+    setUseNewFlow(false)
+    setGeneratingStatus('キャンセルされました')
   }
 
   // 処理されたコンテンツから投稿を生成
@@ -419,6 +491,58 @@ export default function PostGenerator({
     ])
   }
 
+  // コンテンツ構造を解析する関数
+  const parseContentStructure = (content: string) => {
+    const result = {
+      items: [] as string[],
+      sectionContent: '',
+      sections: [] as { title: string; content: string }[]
+    }
+    
+    // 「項目:」セクションを検出
+    const itemsMatch = content.match(/項目:\s*\n((?:[^\n]+\n?)+?)(?=\n\n|セクション:|$)/s)
+    if (itemsMatch) {
+      result.items = itemsMatch[1]
+        .split('\n')
+        .filter(line => line.trim().length > 0)
+        .map(line => line.trim())
+        .slice(0, 5)
+    }
+    
+    // 「セクション:」セクションを検出
+    const sectionMatches = content.matchAll(/セクション:\s*\n([^]*?)(?=\n\nセクション:|$)/g)
+    for (const match of sectionMatches) {
+      const sectionText = match[1].trim()
+      const lines = sectionText.split('\n')
+      
+      if (lines.length > 0) {
+        const sectionTitle = lines[0].trim()
+        const sectionBody = lines.slice(1).join('\n').trim()
+        
+        result.sections.push({
+          title: sectionTitle,
+          content: sectionBody
+        })
+      }
+    }
+    
+    // セクション内容を統合
+    if (result.sections.length > 0) {
+      result.sectionContent = result.sections
+        .map(section => section.content)
+        .join('\n\n')
+        .substring(0, 150) // 文字数制限
+    }
+    
+    // 項目が取得できなかった場合のフォールバック
+    if (result.items.length === 0) {
+      const sentences = content.split(/[。！？]/).filter(s => s.trim().length > 0)
+      result.items = sentences.slice(0, 5).map(s => s.trim().substring(0, 30))
+    }
+    
+    return result
+  }
+
   // 重要部分を抽出してハイライト
   const extractHighlights = (content: string, templateType: TemplateType) => {
     const sentences = content.split(/[。！？]/).filter(s => s.trim().length > 0)
@@ -446,9 +570,10 @@ export default function PostGenerator({
     return highlights.length > 0 ? highlights[0] : sentences[0]
   }
 
-  // テンプレートデータを生成する関数
+  // テンプレートデータを生成する関数（統合版）
   const generateTemplateData = (templateType: TemplateType, content: string, highlight?: string): TemplateData => {
-    const sentences = content.split(/[。！？]/).filter(s => s.trim().length > 0)
+    // コンテンツ構造を解析
+    const structuredContent = parseContentStructure(content)
     
     // より有益で具体的なタイトルを生成
     const title = generateBetterTitle(content, templateType, highlight)
@@ -462,16 +587,18 @@ export default function PostGenerator({
           title,
           subtitle,
           badgeText,
-          items: generateEnumerationItems(sentences)
+          items: structuredContent.items,
+          description: structuredContent.sectionContent // セクション内容を追加
         }
       
       case 'explanation':
       case 'explanation2':
         return {
           title,
-          content: sentences.slice(0, 3).join('。')?.substring(0, 120) || '',
+          content: structuredContent.sectionContent || content.substring(0, 120),
           subtitle,
-          badgeText
+          badgeText,
+          sections: structuredContent.sections // セクション構造を追加
         }
       
       case 'story':
@@ -891,6 +1018,17 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
     )
   }
 
+  // 新フローの表示
+  if (showNewFlow && generatedContentForNewFlow) {
+    return (
+      <NewFlowController
+        generatedContent={generatedContentForNewFlow}
+        onComplete={handleNewFlowComplete}
+        onCancel={handleNewFlowCancel}
+      />
+    )
+  }
+
   if (generating) {
     return (
       <div className="post-preview text-center py-12">
@@ -900,7 +1038,7 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
           </div>
         </div>
         <h2 className="text-xl font-semibold text-gray-800 mb-2">
-          🔍 新しいコンテンツ分析システム
+          🔍 {useNewFlow ? '新フロー' : '従来の'}コンテンツ分析システム
         </h2>
         <p className="text-gray-600 mb-2">
           {generatingStatus}
@@ -918,7 +1056,62 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
     )
   }
 
-  if (!postData) return null
+  // 新フロー切り替えボタンは常に表示
+  if (!postData) {
+    return (
+      <div className="space-y-6 flex flex-col items-center">
+        <div className="post-preview">
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center space-x-2">
+              <h2 className="text-xl font-semibold text-gray-800">
+                投稿生成準備
+              </h2>
+            </div>
+            <div className="flex space-x-3">
+              <button onClick={onBack} className="btn-secondary flex items-center space-x-2">
+                <ArrowLeft className="w-4 h-4" />
+                <span>戻る</span>
+              </button>
+              <button onClick={onReset} className="btn-secondary flex items-center space-x-2">
+                <RefreshCw className="w-4 h-4" />
+                <span>最初から</span>
+              </button>
+            </div>
+          </div>
+
+          {/* 新フロー切り替えボタン */}
+          <div className="mb-6 p-4 bg-blue-50 rounded-lg">
+            <h3 className="font-medium text-blue-800 mb-2">🚀 新フロー（テスト）</h3>
+            <p className="text-sm text-blue-700 mb-3">
+              コンテンツ劣化なしの新フロー体験
+            </p>
+            <div className="flex items-center space-x-3">
+              <button
+                onClick={() => setUseNewFlow(!useNewFlow)}
+                className={`px-4 py-2 rounded-lg transition-all ${
+                  useNewFlow
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-white border border-blue-200 text-blue-600 hover:bg-blue-50'
+                }`}
+              >
+                {useNewFlow ? '新フロー ON' : '新フロー OFF'}
+              </button>
+              <span className="text-sm text-blue-600">
+                {useNewFlow ? '新フロー体験モード' : '従来フロー'}
+              </span>
+            </div>
+          </div>
+
+          <div className="text-center py-8">
+            <p className="text-gray-600">投稿生成の準備が整いました</p>
+            <p className="text-sm text-gray-500 mt-2">
+              新フローを{useNewFlow ? 'ON' : 'OFF'}にして、再度生成を実行してください
+            </p>
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="space-y-6 flex flex-col items-center">
@@ -945,6 +1138,29 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
               <RefreshCw className="w-4 h-4" />
               <span>最初から</span>
             </button>
+          </div>
+        </div>
+
+        {/* 新フロー切り替えボタン */}
+        <div className="mb-6 p-4 bg-blue-50 rounded-lg">
+          <h3 className="font-medium text-blue-800 mb-2">🚀 新フロー（テスト）</h3>
+          <p className="text-sm text-blue-700 mb-3">
+            コンテンツ劣化なしの新フロー体験
+          </p>
+          <div className="flex items-center space-x-3">
+            <button
+              onClick={() => setUseNewFlow(!useNewFlow)}
+              className={`px-4 py-2 rounded-lg transition-all ${
+                useNewFlow
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-white border border-blue-200 text-blue-600 hover:bg-blue-50'
+              }`}
+            >
+              {useNewFlow ? '新フロー ON' : '新フロー OFF'}
+            </button>
+            <span className="text-sm text-blue-600">
+              {useNewFlow ? '新フロー体験モード' : '従来フロー'}
+            </span>
           </div>
         </div>
 

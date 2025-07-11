@@ -1,3 +1,5 @@
+import { TemplateType, TemplateData } from '../components/templates/TemplateTypes'
+
 export type PostType = 'reel' | 'story' | 'feed' | 'highlight' | 'carousel'
 
 export type StrategyType = 
@@ -27,7 +29,9 @@ export interface PostPage {
   content: string
   type: 'intro' | 'problem' | 'solution' | 'result' | 'cta' | 'warning' | 'problems' | 'consequences' | 'solutions' | 'opportunity' | 'benefits' | 'methods' | 'timeline' | 'deadline' | 'risks' | 'actions' | 'connection' | 'community' | 'growth' | 'content' | 'urgency'
   highlight?: string
-  template?: string
+  template?: TemplateType
+  templateType?: TemplateType
+  templateData?: TemplateData
 }
 
 export interface ReelScript {

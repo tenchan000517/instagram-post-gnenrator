@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import { StrategyType } from '../types/post'
+import { TemplateType, TemplateData, TemplateSelector } from '../components/templates'
 
 // Gemini AI クライアントの初期化
 const getGeminiClient = () => {
@@ -30,8 +31,8 @@ export interface AIAnalysisResult {
       highlight: string
       visualSuggestion: string
       emphasis: string[]
-      templateType?: 'table' | 'checklist' | 'labeled-list' | 'point-explanation' | 'hybrid' | 'standard'
-      templateData?: any
+      templateType: TemplateType
+      templateData: TemplateData
     }[]
   }
   hashtags: {
@@ -65,6 +66,8 @@ export class GeminiService {
     content: string, 
     strategy: StrategyType
   ): Promise<AIAnalysisResult> {
+    const templateSelectionPrompt = TemplateSelector.generateSelectionPrompt()
+    
     const prompt = `
 あなたはInstagram投稿戦略の専門家です。以下のコンテンツを分析して、Instagram投稿に最適化された内容を抽出・要約し、投稿構造を提案してください。
 
@@ -79,11 +82,11 @@ export class GeminiService {
 ${content}
 
 【コンテンツ最適化の指針】
-- 長文は要点を3-5個に絞る
+- 各テンプレートの文字数制限を厳守
 - 具体例や数字を含める
 - 行動につながる実用的な情報を重視
 - 感情に訴える表現を使う
-- 1スライドあたり20-30文字程度の簡潔さ
+- デザイン崩れを防ぐため制限内に収める
 
 【選択された戦略】
 ${strategy}
@@ -95,30 +98,7 @@ ${strategy}
 - urgency: 緊急性（今すぐ行動）
 - relationships: 人間関係（仲間・メンター）
 
-【分析項目】
-1. コンテンツの主要テーマと感情的トーン
-2. ターゲットオーディエンス
-3. 最適な戦略（選択された戦略が最適か、別の戦略を推奨するか）
-4. 最適なページ数と構成
-5. 各ページの内容配分
-6. 効果的なハッシュタグ
-7. エンゲージメントを高めるキャプション
-
-【利用可能なテンプレートタイプ】
-- table: 表形式での比較や一覧表示に適している（スケジュール、比較表、データ表示など）
-- checklist: チェックリスト形式（やることリスト、確認事項、条件リストなど）
-- labeled-list: ラベル付きリスト（企業リスト、締切リスト、ランキングなど）
-- point-explanation: ポイントと説明の組み合わせ（手順説明、理由説明、メリット説明など）
-- hybrid: 複数の要素を組み合わせた複合型
-- standard: 通常のビジュアル重視のテンプレート
-
-【テンプレート選択の指針】
-- 数値データや比較が多い → table
-- 確認事項や条件が多い → checklist
-- 企業名や締切情報など → labeled-list
-- 詳細な説明が必要 → point-explanation
-- 複数の情報タイプ → hybrid
-- シンプルなメッセージ → standard
+${templateSelectionPrompt}
 
 【利用可能なハッシュタグカテゴリ】
 - キャリア系: #キャリア #キャリアアップ #就職活動 #自己成長 #夢を叶える #成功 #社会人 #働き方 #働く女性 #キャリアデザイン #転職 #ポジティブ #やりがい #目標設定 #自己啓発 #大学生 #キャリア支援 #インスピレーション
@@ -151,13 +131,17 @@ ${strategy}
         "highlight": "ハイライト文",
         "visualSuggestion": "ビジュアル提案",
         "emphasis": ["強調ポイント1", "強調ポイント2"],
-        "templateType": "table/checklist/labeled-list/point-explanation/hybrid/standard",
+        "templateType": "enumeration/explanation/story/list/explanation2/simple/simple2/simple3/table/simple4/simple5/simple6",
         "templateData": {
-          "// table用": {"headers": ["列1", "列2"], "rows": [["データ1", "データ2"]]},
-          "// checklist用": {"items": ["項目1", "項目2"], "checkedItems": [0]},
-          "// labeled-list用": {"items": [{"label": "締切", "title": "企業A", "subtitle": "詳細"}]},
-          "// point-explanation用": {"points": [{"title": "ポイント1", "explanation": "説明"}]},
-          "// hybrid用": {"sections": [{"type": "checklist", "data": {}}]}
+          "title": "テンプレートタイトル",
+          "content": "メインコンテンツ",
+          "subtitle": "サブタイトル",
+          "items": ["項目1", "項目2"],
+          "points": [{"title": "ポイント1", "description": "説明"}],
+          "checklist": [{"text": "チェック項目", "checked": true}],
+          "tableData": {"headers": ["列1", "列2"], "rows": [["データ1", "データ2"]]},
+          "boxes": [{"title": "ボックス1", "content": "内容"}],
+          "twoColumn": {"left": ["左項目1"], "right": ["右項目1"]}
         }
       }
     ]
@@ -171,60 +155,43 @@ ${strategy}
 }
 `
 
-    // リトライ機能付きでAPIを呼び出し
-    for (let attempt = 1; attempt <= 3; attempt++) {
-      try {
-        console.log(`Gemini API attempt ${attempt}...`)
-        
-        const result = await this.model.generateContent(prompt)
-        const response = await result.response
-        const text = response.text()
-        
-        console.log('Gemini API response received')
-        
-        // JSONレスポンスを解析
-        const jsonMatch = text.match(/\{[\s\S]*\}/)
-        if (jsonMatch) {
-          const parsed = JSON.parse(jsonMatch[0])
+    // 単一試行のみ（リトライなし、負荷軽減）
+    try {
+      console.log('Gemini API call...')
+      
+      const result = await this.model.generateContent(prompt)
+      const response = await result.response
+      const text = response.text()
+      
+      console.log('Gemini API response received')
+      
+      // JSONレスポンスを解析
+      const jsonMatch = text.match(/\{[\s\S]*\}/)
+      if (jsonMatch) {
+        try {
+          // 制御文字を除去してからパース
+          const cleanJson = jsonMatch[0]
+            .replace(/[\x00-\x1F\x7F-\x9F]/g, '') // 制御文字を除去
+            .replace(/\n/g, '\\n') // 改行をエスケープ
+            .replace(/\r/g, '\\r') // 復帰文字をエスケープ
+            .replace(/\t/g, '\\t') // タブをエスケープ
+          
+          const parsed = JSON.parse(cleanJson)
           console.log('Successfully parsed AI analysis')
           return parsed
-        }
-        
-        throw new Error('Invalid JSON response from Gemini')
-        
-      } catch (error: any) {
-        console.error(`Gemini API Error (attempt ${attempt}):`, error)
-        
-        // 503エラー（過負荷）の場合は待機してリトライ
-        if (error.message?.includes('overloaded') || error.message?.includes('503')) {
-          if (attempt < 3) {
-            const waitTime = attempt * 3000 // 3秒、6秒と待機時間を増加
-            console.log(`API overloaded, waiting ${waitTime}ms before retry...`)
-            await new Promise(resolve => setTimeout(resolve, waitTime))
-            continue
-          }
-        }
-        
-        // レート制限エラーの場合も同様に処理
-        if (error.message?.includes('429') || error.message?.includes('rate')) {
-          if (attempt < 3) {
-            const waitTime = attempt * 5000 // 5秒、10秒と待機時間を増加
-            console.log(`Rate limited, waiting ${waitTime}ms before retry...`)
-            await new Promise(resolve => setTimeout(resolve, waitTime))
-            continue
-          }
-        }
-        
-        // 最後の試行でも失敗した場合はフォールバック
-        if (attempt === 3) {
-          console.log('All API attempts failed, using fallback analysis')
-          return this.getFallbackAnalysis(content, strategy)
+        } catch (parseError) {
+          console.error('JSON parse error:', parseError)
+          console.error('Raw response:', jsonMatch[0])
+          throw new Error('Failed to parse JSON response from Gemini')
         }
       }
+      
+      throw new Error('Invalid JSON response from Gemini')
+      
+    } catch (error: any) {
+      console.error('Gemini API Error:', error)
+      throw error // エラーをそのまま投げる（PostGeneratorでハンドリング）
     }
-    
-    // 到達しないはずだが、型安全性のため
-    return this.getFallbackAnalysis(content, strategy)
   }
 
   // コンテンツを要約・最適化する関数
@@ -274,24 +241,73 @@ ${strategy}
     const recommendedPages = optimizedContent.length
     
     // コンテンツを分析してテンプレートタイプを決定
-    const analyzeTemplateType = (text: string): { type: 'table' | 'checklist' | 'labeled-list' | 'point-explanation' | 'hybrid' | 'standard', data?: any } => {
-      // 表形式のキーワード
-      if (text.includes('比較') || text.includes('スケジュール') || text.includes('時間') || text.includes('日程')) {
-        return { type: 'table', data: { headers: ['項目', '詳細'], rows: [['サンプル', 'データ']] } }
+    const analyzeTemplateType = (text: string): { type: TemplateType, data: TemplateData } => {
+      // TemplateSelector を使用して最適なテンプレートを選択
+      const templateType = TemplateSelector.selectOptimalTemplate(text)
+      
+      // テンプレートタイプに応じたサンプルデータを生成
+      const generateSampleData = (type: TemplateType): TemplateData => {
+        switch (type) {
+          case 'table':
+            return {
+              title: text.substring(0, 25),
+              tableData: { headers: ['項目', '詳細'], rows: [['サンプル', 'データ']] }
+            }
+          case 'simple4':
+          case 'simple5':
+          case 'simple6':
+            return {
+              title: text.substring(0, 25),
+              checklist: [
+                { text: '項目1', checked: true },
+                { text: '項目2', checked: false }
+              ],
+              points: [
+                { title: 'ポイント1', description: '説明1' },
+                { title: 'ポイント2', description: '説明2' }
+              ]
+            }
+          case 'story':
+            return {
+              title: text.substring(0, 30),
+              boxes: [
+                { title: '問題', content: '課題の説明' },
+                { title: '解決策', content: '解決方法' },
+                { title: '結果', content: '成果' }
+              ]
+            }
+          case 'enumeration':
+          case 'list':
+            return {
+              title: text.substring(0, 25),
+              items: ['項目1', '項目2', '項目3']
+            }
+          case 'simple2':
+            return {
+              title: text.substring(0, 25),
+              boxes: [
+                { title: 'ボックス1', content: '内容1' },
+                { title: 'ボックス2', content: '内容2' }
+              ]
+            }
+          case 'simple3':
+            return {
+              title: text.substring(0, 25),
+              twoColumn: {
+                left: ['左項目1', '左項目2'],
+                right: ['右項目1', '右項目2']
+              },
+              content: '重要ポイント'
+            }
+          default:
+            return {
+              title: text.substring(0, 25),
+              content: text.substring(0, 120)
+            }
+        }
       }
-      // チェックリストのキーワード
-      if (text.includes('チェック') || text.includes('確認') || text.includes('必要な') || text.includes('条件')) {
-        return { type: 'checklist', data: { items: ['項目1', '項目2', '項目3'], checkedItems: [0] } }
-      }
-      // ラベル付きリストのキーワード
-      if (text.includes('企業') || text.includes('締切') || text.includes('期限') || text.includes('募集')) {
-        return { type: 'labeled-list', data: { items: [{ label: '締切', title: '企業名', subtitle: '詳細' }] } }
-      }
-      // ポイント説明のキーワード
-      if (text.includes('理由') || text.includes('ポイント') || text.includes('メリット') || text.includes('手順')) {
-        return { type: 'point-explanation', data: { points: [{ title: 'ポイント1', explanation: '説明' }] } }
-      }
-      return { type: 'standard' }
+      
+      return { type: templateType, data: generateSampleData(templateType) }
     }
     
     return {
