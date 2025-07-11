@@ -7,13 +7,11 @@ import {
   PostSlide, 
   Illustrations, 
   FindToDoPostTemplate, 
-  PerfectionistToCompletionistPost,
-  TableTemplate,
-  ChecklistTemplate,
-  LabeledListTemplate,
-  PointExplanationTemplate,
-  HybridTemplate
+  PerfectionistToCompletionistPost
 } from './InstagramPostTemplate'
+import { templateComponents, TemplateType, TemplateData, TemplateSelector } from './templates'
+import { IntelligentContentProcessor, ProcessedContent } from '../services/intelligentContentProcessor'
+import { ExtractedContent } from '../services/contentExtractor'
 import CarouselPostGenerator from './CarouselPostGenerator'
 import Viewport from './Viewport'
 import html2canvas from 'html2canvas'
@@ -42,6 +40,9 @@ export default function PostGenerator({
   const [aiOptimized, setAiOptimized] = useState(false)
   const [generatingStatus, setGeneratingStatus] = useState('AI分析中...')
   const [currentCarouselPage, setCurrentCarouselPage] = useState(0)
+  const [processedContents, setProcessedContents] = useState<ProcessedContent[]>([])
+  const [selectedContent, setSelectedContent] = useState<ProcessedContent | null>(null)
+  const [showContentSelection, setShowContentSelection] = useState(false)
   const previewRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -50,56 +51,172 @@ export default function PostGenerator({
 
   const generatePost = async () => {
     setGenerating(true)
-    setAiOptimized(false)
-    setGeneratingStatus('コンテンツを分析中...')
+    setAiOptimized(true)
+    setGeneratingStatus('AI分析を実行中...')
     
-    // レイアウトテスト用モック
-    setGeneratingStatus('モック分析中...')
-    await new Promise(resolve => setTimeout(resolve, 500)) // 0.5秒待機
-    
-    // フォールバック: 従来の方法で生成
-    const generatedPost = createPostFromStrategy(content, strategy)
-    setPostData(generatedPost)
-    onPostGenerated(generatedPost)
-    setGeneratingStatus('生成完了!')
-    
-    setGenerating(false)
-    
-    /* 本番用AI呼び出し（コメントアウト）
     try {
-      setGeneratingStatus('AI分析でコンテンツを最適化中...')
-      // Gemini AIを使用してコンテンツを分析
-      const analysis = await geminiService.analyzeContentForOptimalPost(content, strategy)
-      setAiAnalysis(analysis)
+      // Gemini AIだけを使用してコンテンツを分析・生成
+      const aiAnalysis = await geminiService.analyzeContentForOptimalPost(content, strategy)
+      const generatedPost = createPostFromAIAnalysis(content, aiAnalysis)
       
-      setGeneratingStatus('投稿構造を生成中...')
-      // AI分析結果を基に投稿データを生成
-      const generatedPost = createPostFromAIAnalysis(content, analysis)
       setPostData(generatedPost)
       onPostGenerated(generatedPost)
-      setAiOptimized(true)
       setGeneratingStatus('生成完了!')
-    } catch (error: any) {
-      console.error('AI analysis failed, using fallback:', error)
+      setAiAnalysis(aiAnalysis)
       
-      // エラーの種類に応じてメッセージを変更
-      if (error.message?.includes('overloaded') || error.message?.includes('503')) {
-        setGeneratingStatus('AI分析が混雑中です。従来の方法で生成中...')
-      } else if (error.message?.includes('429') || error.message?.includes('rate')) {
-        setGeneratingStatus('API制限に達しました。従来の方法で生成中...')
-      } else {
-        setGeneratingStatus('フォールバック分析を実行中...')
+    } catch (error: any) {
+      console.error('Gemini API Error:', error)
+      setGeneratingStatus('エラーが発生しました')
+      
+      // エラー時は単純なフォールバック（リトライなし）
+      const fallbackPost: PostData = {
+        type: 'carousel',
+        strategy,
+        title: 'コンテンツ生成エラー',
+        content: content,
+        pages: [{
+          pageNumber: 1,
+          totalPages: 1,
+          content: 'エラーが発生しました。しばらく待ってから再度お試しください。',
+          type: 'content' as const,
+          highlight: 'エラー',
+          template: 'simple' as TemplateType,
+          templateType: 'simple' as TemplateType,
+          templateData: { title: 'エラー', content: 'コンテンツの生成に失敗しました' }
+        }],
+        hashtags: ['#エラー'],
+        caption: 'エラーが発生しました',
+        cta: '再度お試しください'
       }
       
-      // フォールバック: 従来の方法で生成
-      const generatedPost = createPostFromStrategy(content, strategy)
-      setPostData(generatedPost)
-      onPostGenerated(generatedPost)
-      setGeneratingStatus('生成完了!')
+      setPostData(fallbackPost)
+      onPostGenerated(fallbackPost)
     }
     
     setGenerating(false)
-    */
+  }
+
+  // 処理されたコンテンツから投稿を生成
+  const generatePostFromProcessedContent = async (selectedContent: ProcessedContent) => {
+    setGeneratingStatus('投稿を生成中...')
+    
+    // 全てのProcessedContentを使用して複数ページの投稿を生成
+    const pages = processedContents.map((content, index) => ({
+      pageNumber: index + 1,
+      totalPages: processedContents.length,
+      content: content.title,
+      type: 'content' as const,
+      highlight: content.title,
+      template: content.templateType,
+      templateType: content.templateType,
+      templateData: content.templateData
+    }))
+    
+    const generatedPost: PostData = {
+      type: 'carousel',
+      strategy,
+      title: selectedContent.title,
+      content: content,
+      pages: pages, // 複数ページ
+      hashtags: getEffectiveHashtags(strategy, content),
+      caption: generateCaption(content, strategy),
+      cta: 'FIND to DOで一緒に成長しよう！'
+    }
+    
+    setPostData(generatedPost)
+    onPostGenerated(generatedPost)
+    setSelectedContent(selectedContent)
+    setGeneratingStatus('生成完了!')
+  }
+
+  // 構造から適切なテンプレートデータを生成
+  const generateTemplateDataFromStructure = (extractedContent: ExtractedContent): TemplateData => {
+    const { structure } = extractedContent
+    
+    switch (structure.type) {
+      case 'title-list':
+        return {
+          title: extractedContent.title,
+          badgeText: generateBadgeText(extractedContent.rawContent, 'enumeration'),
+          items: structure.elements
+            .filter(el => el.type === 'list-item')
+            .map(el => el.content)
+            .slice(0, 5),
+          subtitle: 'FIND to DOで実践しよう'
+        }
+        
+      case 'title-subtitle-descriptions':
+        const points = structure.elements
+          .filter(el => el.type === 'subtitle')
+          .map((el, i) => ({
+            title: el.content,
+            description: structure.elements.find(desc => 
+              desc.type === 'description' && 
+              structure.elements.indexOf(desc) === structure.elements.indexOf(el) + 1
+            )?.content || ''
+          }))
+        
+        return {
+          title: extractedContent.title,
+          badgeText: generateBadgeText(extractedContent.rawContent, 'explanation'),
+          points: points.slice(0, 3),
+          subtitle: 'FIND to DOで実践しよう'
+        }
+        
+      case 'step-by-step':
+        return {
+          title: extractedContent.title,
+          badgeText: generateBadgeText(extractedContent.rawContent, 'enumeration'),
+          items: structure.elements
+            .filter(el => el.type === 'list-item')
+            .map(el => el.content)
+            .slice(0, 5),
+          subtitle: 'ステップバイステップで成長しよう'
+        }
+        
+      case 'comparison-table':
+        return {
+          title: extractedContent.title,
+          badgeText: generateBadgeText(extractedContent.rawContent, 'table'),
+          tableData: {
+            headers: ['項目', '内容', '評価'],
+            rows: structure.elements
+              .filter(el => el.type === 'table-row')
+              .map(el => el.content.split('|'))
+              .slice(0, 5)
+          },
+          subtitle: 'データで比較・検討しよう'
+        }
+        
+      case 'story-narrative':
+        return {
+          title: extractedContent.title,
+          badgeText: generateBadgeText(extractedContent.rawContent, 'story'),
+          content: structure.elements
+            .filter(el => el.type === 'story-section')
+            .map(el => el.content)
+            .join('\n\n'),
+          subtitle: 'あなたも同じように成長できる'
+        }
+        
+      default:
+        return {
+          title: extractedContent.title,
+          badgeText: 'ポイント',
+          content: extractedContent.rawContent.substring(0, 120),
+          subtitle: 'FIND to DOで一緒に成長しよう'
+        }
+    }
+  }
+
+  // コンテンツ選択のハンドラー
+  const handleContentSelection = async (content: ProcessedContent) => {
+    setShowContentSelection(false)
+    setGenerating(true)
+    setGeneratingStatus('選択されたコンテンツで投稿を生成中...')
+    
+    await generatePostFromProcessedContent(content)
+    setGenerating(false)
   }
 
   // コンテンツ分析してキーワードを抽出
@@ -127,52 +244,201 @@ export default function PostGenerator({
     return scores
   }
 
-  // 最適なテンプレートを選択
-  const selectOptimalTemplate = (content: string, pageType: string, pageNumber: number, totalPages: number): 'intro' | 'problem' | 'solution' | 'result' | 'cta' | 'warning' | 'problems' | 'consequences' | 'solutions' | 'opportunity' | 'benefits' | 'methods' | 'timeline' | 'deadline' | 'risks' | 'actions' | 'connection' | 'community' | 'growth' | 'content' | 'urgency' => {
-    const analysis = analyzeContent(content)
-    const maxScore = Math.max(...Object.values(analysis))
-    const dominantTheme = Object.keys(analysis).find(key => analysis[key] === maxScore) || 'content'
-
-    // ページ位置による調整
-    if (pageNumber === 1) return 'intro'
-    if (pageNumber === totalPages) return 'cta'
+  // より有益で具体的なタイトルを生成
+  const generateBetterTitle = (content: string, templateType: TemplateType, highlight?: string): string => {
+    const contentLower = content.toLowerCase()
     
-    // コンテンツ分析による最適化
-    if (analysis.problem > 2) return 'problem'
-    if (analysis.solution > 2) return 'solution'
-    if (analysis.result > 1) return 'result'
-    if (analysis.warning > 1) return 'warning'
-    if (analysis.benefit > 1) return 'benefits'
-    if (analysis.urgency > 1) return 'urgency'
-    if (analysis.community > 1) return 'community'
-
-    // デフォルトの型チェック付きの戻り値
-    const validTypes = ['intro', 'problem', 'solution', 'result', 'cta', 'warning', 'problems', 'consequences', 'solutions', 'opportunity', 'benefits', 'methods', 'timeline', 'deadline', 'risks', 'actions', 'connection', 'community', 'growth', 'content', 'urgency'] as const
-    
-    if (validTypes.includes(pageType as any)) {
-      return pageType as any
+    // テンプレートタイプに応じたタイトル生成
+    if (templateType === 'table') {
+      if (/インターン|エントリー|締切/.test(contentLower)) {
+        return 'インターン締切情報'
+      }
+      if (/企業|会社|選考/.test(contentLower)) {
+        return '企業情報まとめ'
+      }
+      if (/比較|ランキング/.test(contentLower)) {
+        return '項目別比較'
+      }
     }
     
-    return 'content'
+    if (templateType === 'enumeration') {
+      if (/ポイント|コツ/.test(contentLower)) {
+        return '成功のポイント'
+      }
+      if (/方法|やり方/.test(contentLower)) {
+        return '実践的な方法'
+      }
+      if (/選|おすすめ/.test(contentLower)) {
+        return 'おすすめ選択肢'
+      }
+    }
+    
+    if (templateType === 'story') {
+      if (/体験|経験/.test(contentLower)) {
+        return '実体験レポート'
+      }
+      if (/変化|成長/.test(contentLower)) {
+        return '成長ストーリー'
+      }
+    }
+    
+    // デフォルト：コンテンツから重要な部分を抽出
+    return highlight?.substring(0, 20) || content.substring(0, 20).replace(/[。！？].*$/, '')
+  }
+
+  // より有益なサブタイトルを生成
+  const generateBetterSubtitle = (content: string, templateType: TemplateType): string => {
+    const contentLower = content.toLowerCase()
+    
+    if (templateType === 'table') {
+      return '今すぐ確認して行動しよう'
+    }
+    
+    if (templateType === 'enumeration') {
+      return '実践して結果を出そう'
+    }
+    
+    if (templateType === 'story') {
+      return 'あなたも同じように成長できる'
+    }
+    
+    return 'FIND to DOで一緒に成長しよう'
+  }
+
+  // バッジテキストを生成
+  const generateBadgeText = (content: string, templateType: TemplateType): string => {
+    const contentLower = content.toLowerCase()
+    
+    // テンプレートタイプに応じたバッジテキスト
+    if (templateType === 'table') {
+      if (/インターン|エントリー|締切/.test(contentLower)) {
+        return '締切情報'
+      }
+      if (/比較|ランキング/.test(contentLower)) {
+        return '比較データ'
+      }
+      return 'データ'
+    }
+    
+    if (templateType === 'enumeration') {
+      if (/ポイント|コツ/.test(contentLower)) {
+        return '重要ポイント'
+      }
+      if (/方法|やり方/.test(contentLower)) {
+        return '実践方法'
+      }
+      return 'チェック'
+    }
+    
+    if (templateType === 'story') {
+      if (/体験|経験/.test(contentLower)) {
+        return '体験談'
+      }
+      return 'ストーリー'
+    }
+    
+    if (templateType === 'list') {
+      if (/チェック|確認/.test(contentLower)) {
+        return 'チェックリスト'
+      }
+      return 'リスト'
+    }
+    
+    if (templateType === 'explanation' || templateType === 'explanation2') {
+      if (/手順|ステップ/.test(contentLower)) {
+        return 'ステップ解説'
+      }
+      return '詳細解説'
+    }
+    
+    // デフォルト
+    return 'ポイント'
+  }
+
+  // 列挙型のアイテムをより具体的に生成
+  const generateEnumerationItems = (sentences: string[]): string[] => {
+    return sentences.slice(0, 5).map((sentence, index) => {
+      // 不要な文字を削除し、より読みやすく
+      let item = sentence.replace(/^[①②③④⑤⑥⑦⑧⑨⑩]|^\d+\.?/, '').trim()
+      
+      // 文字数制限内で意味のある内容に
+      if (item.length > 25) {
+        item = item.substring(0, 22) + '...'
+      }
+      
+      // 空の場合はデフォルト
+      if (!item) {
+        item = `ポイント${index + 1}`
+      }
+      
+      return item
+    })
+  }
+
+  // インターン締切テーブルの行を生成
+  const generateInternDeadlineRows = (sentences: string[]): string[][] => {
+    const companies = ['A社', 'B社', 'C社', 'D社', 'E社']
+    const deadlines = ['1/15', '1/20', '1/25', '2/01', '2/05']
+    
+    return sentences.slice(0, 5).map((sentence, i) => [
+      companies[i] || `企業${i + 1}`,
+      deadlines[i] || `1/${15 + i}`,
+      sentence.substring(0, 15) || '詳細確認'
+    ])
+  }
+
+  // 比較テーブルの行を生成
+  const generateComparisonRows = (sentences: string[]): string[][] => {
+    const items = ['給与', '福利厚生', '成長性', '安定性', '働きやすさ']
+    const evaluations = ['高', '中', '高', '中', '高']
+    
+    return sentences.slice(0, 5).map((sentence, i) => [
+      items[i] || `項目${i + 1}`,
+      sentence.substring(0, 20) || '特徴',
+      evaluations[i] || (i % 2 === 0 ? '高' : '中')
+    ])
+  }
+
+  // ランキングテーブルの行を生成
+  const generateRankingRows = (sentences: string[]): string[][] => {
+    return sentences.slice(0, 5).map((sentence, i) => [
+      `${i + 1}位`,
+      sentence.substring(0, 15) || `選択肢${i + 1}`,
+      sentence.substring(15, 35) || '詳細理由'
+    ])
+  }
+
+  // デフォルトテーブルの行を生成
+  const generateDefaultTableRows = (sentences: string[]): string[][] => {
+    const priorities = ['高', '中', '高', '中', '高']
+    
+    return sentences.slice(0, 5).map((sentence, i) => [
+      `項目${i + 1}`,
+      sentence.substring(0, 20) || '内容',
+      priorities[i] || (i % 2 === 0 ? '高' : '中')
+    ])
   }
 
   // 重要部分を抽出してハイライト
-  const extractHighlights = (content: string, templateType: string) => {
+  const extractHighlights = (content: string, templateType: TemplateType) => {
     const sentences = content.split(/[。！？]/).filter(s => s.trim().length > 0)
     
-    const highlightPatterns = {
-      intro: ['初めて', '始まり', 'スタート', '最初'],
-      problem: ['問題', '課題', '困る', '悩み', '難しい'],
-      solution: ['解決', '方法', '対策', 'やり方', 'コツ'],
-      result: ['成功', '結果', '効果', '変化', '成長'],
-      warning: ['注意', '危険', '避ける', '失敗', 'ダメ'],
-      benefits: ['メリット', '利益', '価値', '得', '良い'],
-      urgency: ['今すぐ', '急ぎ', '時間', '期限'],
-      community: ['仲間', 'チーム', '一緒', 'みんな'],
-      cta: ['始めよう', 'やってみる', 'チャレンジ', '行動']
-    } as const
+    const highlightPatterns: Record<TemplateType, string[]> = {
+      enumeration: ['ポイント', '項目', '方法', '手順'],
+      explanation: ['説明', '解説', '詳細', '理由'],
+      story: ['体験', '実例', '事例', '実際'],
+      list: ['チェック', 'リスト', '確認', '項目'],
+      explanation2: ['解説', '詳細', '分析', '考察'],
+      simple: ['シンプル', '簡単', '基本', '要点'],
+      simple2: ['重要', 'ポイント', '必要', '基本'],
+      simple3: ['要約', 'まとめ', '結論', '要点'],
+      table: ['比較', '違い', 'データ', '表'],
+      simple4: ['基本', '必須', '重要', '核心'],
+      simple5: ['バランス', '調和', '最適', '効率'],
+      simple6: ['メッセージ', '伝達', '明確', '直接']
+    }
 
-    const patterns = highlightPatterns[templateType as keyof typeof highlightPatterns] || []
+    const patterns = highlightPatterns[templateType] || []
     const highlights = sentences.filter((sentence: string) => 
       patterns.some((pattern: string) => sentence.includes(pattern))
     )
@@ -180,42 +446,113 @@ export default function PostGenerator({
     return highlights.length > 0 ? highlights[0] : sentences[0]
   }
 
-  // 投稿内容を複数ページに分割する関数（改良版）
+  // テンプレートデータを生成する関数
+  const generateTemplateData = (templateType: TemplateType, content: string, highlight?: string): TemplateData => {
+    const sentences = content.split(/[。！？]/).filter(s => s.trim().length > 0)
+    
+    // より有益で具体的なタイトルを生成
+    const title = generateBetterTitle(content, templateType, highlight)
+    const subtitle = generateBetterSubtitle(content, templateType)
+    const badgeText = generateBadgeText(content, templateType)
+    
+    // テンプレートタイプに応じてデータを生成
+    switch (templateType) {
+      case 'enumeration':
+        return {
+          title,
+          subtitle,
+          badgeText,
+          items: generateEnumerationItems(sentences)
+        }
+      
+      case 'explanation':
+      case 'explanation2':
+        return {
+          title,
+          content: sentences.slice(0, 3).join('。')?.substring(0, 120) || '',
+          subtitle,
+          badgeText
+        }
+      
+      case 'story':
+        return {
+          title,
+          content: sentences.slice(0, 2).join('。')?.substring(0, 80) || '',
+          subtitle,
+          badgeText,
+          checklist: sentences.slice(0, 3).map(s => ({ text: s.substring(0, 25), checked: true }))
+        }
+      
+      case 'list':
+        return {
+          title,
+          badgeText,
+          items: sentences.slice(0, 5).map(s => s.substring(0, 30))
+        }
+      
+      case 'table':
+        // コンテンツの内容に応じて適切なテーブルヘッダーを生成
+        const isInternDeadline = /インターン|エントリー|〆切|締切/.test(content)
+        const isComparison = /比較|違い|vs|料金|価格/.test(content)
+        const isRanking = /選|ランキング|オススメ|おすすめ/.test(content)
+        
+        let headers: string[], rows: string[][]
+        
+        if (isInternDeadline) {
+          headers = ['企業名', '締切日', '詳細']
+          rows = generateInternDeadlineRows(sentences)
+        } else if (isComparison) {
+          headers = ['項目', '特徴', '評価']
+          rows = generateComparisonRows(sentences)
+        } else if (isRanking) {
+          headers = ['順位', '項目', '理由']
+          rows = generateRankingRows(sentences)
+        } else {
+          headers = ['項目', '内容', '重要度']
+          rows = generateDefaultTableRows(sentences)
+        }
+        
+        return {
+          title,
+          badgeText,
+          tableData: { headers, rows }
+        }
+      
+      case 'simple':
+      case 'simple2':
+      case 'simple3':
+      case 'simple4':
+      case 'simple5':
+      case 'simple6':
+        return {
+          title,
+          content: sentences.slice(0, 2).join('。')?.substring(0, 80) || '',
+          subtitle,
+          badgeText,
+          checklist: sentences.slice(0, 3).map(s => ({ text: s.substring(0, 25), checked: true })),
+          points: sentences.slice(0, 3).map(s => ({ 
+            title: s.substring(0, 15), 
+            description: s.substring(0, 30) 
+          }))
+        }
+      
+      default:
+        return {
+          title,
+          content: content.substring(0, 120),
+          subtitle,
+          badgeText
+        }
+    }
+  }
+
+  // 投稿内容を複数ページに分割する関数（コンテンツ主導）
   const splitContentIntoPages = (content: string, strategy: StrategyType) => {
     const sentences = content.split(/[。！？]/).filter(s => s.trim().length > 0)
     const pages = []
     
-    // 戦略別のページ構成
-    const strategyConfig = {
-      'self-realization': {
-        pageTypes: ['intro', 'problem', 'solution', 'result', 'cta'],
-        minPages: 4,
-        maxPages: 6
-      },
-      'loss-avoidance': {
-        pageTypes: ['warning', 'problems', 'consequences', 'solutions', 'cta'],
-        minPages: 4,
-        maxPages: 7
-      },
-      'investment': {
-        pageTypes: ['opportunity', 'benefits', 'methods', 'timeline', 'cta'],
-        minPages: 4,
-        maxPages: 6
-      },
-      'urgency': {
-        pageTypes: ['deadline', 'risks', 'actions', 'timeline', 'cta'],
-        minPages: 4,
-        maxPages: 5
-      },
-      'relationships': {
-        pageTypes: ['connection', 'benefits', 'community', 'growth', 'cta'],
-        minPages: 4,
-        maxPages: 6
-      }
-    }
-
-    const config = strategyConfig[strategy]
-    const targetPages = Math.min(config.maxPages, Math.max(config.minPages, Math.ceil(sentences.length / 2)))
+    // コンテンツ量に応じたページ数を決定（4-8ページ）
+    const targetPages = Math.min(8, Math.max(4, Math.ceil(sentences.length / 2)))
     
     // センテンスをページに分割
     const sentencesPerPage = Math.ceil(sentences.length / targetPages)
@@ -224,21 +561,32 @@ export default function PostGenerator({
       const startIndex = i * sentencesPerPage
       const endIndex = Math.min(startIndex + sentencesPerPage, sentences.length)
       const pageContent = sentences.slice(startIndex, endIndex).join('。') + '。'
-      const baseType = config.pageTypes[i] || 'content'
       
-      // 最適なテンプレートを選択
-      const optimalType = selectOptimalTemplate(pageContent, baseType, i + 1, targetPages)
+      // 最適なテンプレートを選択（改善されたアルゴリズムを使用）
+      const optimalType = TemplateSelector.selectOptimalTemplate(pageContent, undefined, content)
+      
+      // デバッグログ
+      console.log(`📄 ページ${i + 1} テンプレート選択:`, {
+        content: pageContent.substring(0, 50) + '...',
+        selectedTemplate: optimalType,
+        contentLength: pageContent.length
+      })
       
       // 重要部分を抽出
       const highlight = extractHighlights(pageContent, optimalType)
+      
+      // テンプレートデータを生成
+      const templateData = generateTemplateData(optimalType, pageContent, highlight)
       
       pages.push({
         pageNumber: i + 1,
         totalPages: targetPages,
         content: pageContent,
-        type: optimalType,
+        type: 'content' as const, // シンプルに統一
         highlight: highlight,
-        template: optimalType
+        template: optimalType as TemplateType,
+        templateType: optimalType,
+        templateData: templateData
       })
     }
 
@@ -254,14 +602,21 @@ export default function PostGenerator({
     ]
 
     // AI分析によるページ構造を使用
-    const aiPages = analysis.pageStructure.contentDistribution.map(page => ({
-      pageNumber: page.pageNumber,
-      totalPages: analysis.pageStructure.recommendedPages,
-      content: page.content,
-      type: page.type as any, // 型アサーション（必要に応じて型を調整）
-      highlight: page.highlight,
-      template: page.type
-    }))
+    const aiPages = analysis.pageStructure.contentDistribution.map(page => {
+      const templateType = TemplateSelector.selectOptimalTemplate(page.content) as TemplateType
+      const templateData = generateTemplateData(templateType, page.content, page.highlight)
+      
+      return {
+        pageNumber: page.pageNumber,
+        totalPages: analysis.pageStructure.recommendedPages,
+        content: page.content,
+        type: page.type as any, // 型アサーション（必要に応じて型を調整）
+        highlight: page.highlight,
+        template: templateType,
+        templateType: templateType,
+        templateData: templateData
+      }
+    })
 
     return {
       type: 'carousel',
@@ -423,7 +778,14 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
 
   const downloadImage = async () => {
     if (previewRef.current) {
-      const canvas = await html2canvas(previewRef.current)
+      const canvas = await html2canvas(previewRef.current, {
+        scale: 2,
+        backgroundColor: '#ffffff',
+        width: 850,
+        height: 899,
+        useCORS: true,
+        allowTaint: true
+      })
       
       const link = document.createElement('a')
       if (previewType === 'carousel' && postData?.pages) {
@@ -438,7 +800,14 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
 
   const downloadPDF = async () => {
     if (previewRef.current) {
-      const canvas = await html2canvas(previewRef.current)
+      const canvas = await html2canvas(previewRef.current, {
+        scale: 2,
+        backgroundColor: '#ffffff',
+        width: 850,
+        height: 899,
+        useCORS: true,
+        allowTaint: true
+      })
       const imgData = canvas.toDataURL('image/png')
       
       const pdf = new jsPDF()
@@ -463,6 +832,65 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
     }
   }
 
+  // コンテンツ選択画面
+  if (showContentSelection) {
+    return (
+      <div className="post-preview">
+        <div className="mb-6">
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">
+            📋 抽出されたコンテンツから選択
+          </h2>
+          <p className="text-gray-600">
+            リサーチ内容から{processedContents.length}つの有益なコンテンツを抽出しました。投稿に使用するコンテンツを選択してください。
+          </p>
+        </div>
+        
+        <div className="grid gap-4 max-h-96 overflow-y-auto">
+          {processedContents.map((content, index) => (
+            <div
+              key={content.id}
+              className="border rounded-lg p-4 hover:bg-blue-50 cursor-pointer transition-colors"
+              onClick={() => handleContentSelection(content)}
+            >
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="font-medium text-gray-800">{content.title}</h3>
+                <div className="flex items-center space-x-2">
+                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">
+                    {content.contentType}
+                  </span>
+                  <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">
+                    優先度: {(content.priority * 100).toFixed(0)}%
+                  </span>
+                  <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded">
+                    {content.templateType}
+                  </span>
+                </div>
+              </div>
+              
+              <p className="text-sm text-gray-600 mb-2">
+                テンプレート: {content.templateType} | タイトル: {content.title}
+              </p>
+              
+              <div className="flex items-center space-x-4 text-xs text-gray-500">
+                <span>コンテンツタイプ: {content.contentType}</span>
+                <span>優先度: {content.priority.toFixed(2)}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+        
+        <div className="mt-6 flex justify-center">
+          <button
+            onClick={() => setShowContentSelection(false)}
+            className="btn-secondary"
+          >
+            キャンセル
+          </button>
+        </div>
+      </div>
+    )
+  }
+
   if (generating) {
     return (
       <div className="post-preview text-center py-12">
@@ -472,14 +900,14 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
           </div>
         </div>
         <h2 className="text-xl font-semibold text-gray-800 mb-2">
-          🤖 Gemini AI で最適化中...
+          🔍 新しいコンテンツ分析システム
         </h2>
         <p className="text-gray-600 mb-2">
           {generatingStatus}
         </p>
         <p className="text-sm text-gray-500">
-          コンテンツから有益性の高い情報を抽出し<br />
-          Instagram投稿に最適化しています
+          リサーチ内容から密度の高い有益な情報を抽出し<br />
+          構造に基づいて最適なテンプレートを選択しています
         </p>
         <div className="mt-4 flex items-center justify-center space-x-2 text-sm text-blue-600">
           <div className="w-2 h-2 bg-blue-600 rounded-full animate-bounce"></div>
@@ -542,24 +970,22 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
 
       {/* プレビューエリア（独立） */}
       <div className="post-preview" style={{ 
-        border: '5px solid magenta',
-        width: '900px',
-        height: '900px'
+        width: '850px',
+        height: '899px'
       }}>
-        {/* プレビューエリア全体コンテナ - マゼンタライン */}
         <h3 className="text-lg font-medium text-gray-800 mb-4">
           プレビュー
         </h3>
         
         <Viewport 
           width={850} 
-          height={800}
+          height={899}
         >
           <div ref={previewRef} style={{ 
-            width: '95%', 
-            height: '95%',
-            border: '4px solid red',
-            margin: 'auto'
+            width: '850px', 
+            height: '899px',
+            overflow: 'hidden',
+            position: 'relative'
           }}>
             {previewType === 'reel' && strategy === 'self-realization' && (
               <PostSlide
@@ -683,30 +1109,55 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
             )}
             
             {previewType === 'carousel' && postData.pages && postData.pages.length > 0 && (
-              <PostSlide
-                title={postData.title}
-                number={postData.pages[currentCarouselPage].pageNumber}
-                highlight={postData.pages[currentCarouselPage].highlight || (currentCarouselPage === 0 ? "重要なポイントをご紹介" : undefined)}
-                content={
-                  <div>
-                    <p className="text-3xl leading-relaxed" style={{ color: '#1e40af' }}>
-                      {postData.pages[currentCarouselPage].content}
-                    </p>
-                    {currentCarouselPage === postData.pages.length - 1 && (
-                      <div className="mt-8">
-                        <div className="bg-blue-50 rounded-2xl p-6 border-l-4 border-blue-500">
-                          <p className="text-2xl font-bold text-blue-700">
-                            FIND to DO で一緒に成長しませんか？
-                          </p>
-                        </div>
-                      </div>
-                    )}
-                  </div>
+              (() => {
+                const currentPage = postData.pages[currentCarouselPage]
+                const templateType = currentPage.templateType as TemplateType
+                const TemplateComponent = templateComponents[templateType]
+                
+                // デバッグログ
+                console.log('🔍 テンプレート選択デバッグ:', {
+                  pageNumber: currentPage.pageNumber,
+                  content: currentPage.content.substring(0, 100) + '...',
+                  templateType,
+                  hasTemplateComponent: !!TemplateComponent,
+                  hasTemplateData: !!currentPage.templateData,
+                  templateData: currentPage.templateData
+                })
+                
+                if (TemplateComponent && currentPage.templateData) {
+                  console.log('✅ 新しいテンプレートを使用:', templateType)
+                  return <TemplateComponent data={currentPage.templateData} />
                 }
-                {...(currentCarouselPage === postData.pages.length - 1 && { 
-                  ctaButton: { text: "詳しくはプロフィールから" }
-                })}
-              />
+                
+                // フォールバック: 従来のPostSlideを使用
+                console.log('⚠️ フォールバック処理を使用')
+                return (
+                  <PostSlide
+                    title={postData.title}
+                    number={currentPage.pageNumber}
+                    highlight={currentPage.highlight || (currentCarouselPage === 0 ? "重要なポイントをご紹介" : undefined)}
+                    content={
+                      <div>
+                        <p className="text-3xl leading-relaxed" style={{ color: '#1e40af' }}>
+                          {currentPage.content}
+                        </p>
+                        {currentCarouselPage === postData.pages.length - 1 && (
+                          <div className="mt-8">
+                            <div className="bg-blue-50 rounded-2xl p-6 border-l-4 border-blue-500">
+                              <p className="text-2xl font-bold text-blue-700">
+                                FIND to DO で一緒に成長しませんか？
+                              </p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    }
+                    {...(currentCarouselPage === postData.pages.length - 1 && { 
+                      ctaButton: { text: "詳しくはプロフィールから" }
+                    })}
+                  />
+                )
+              })()
             )}
           </div>
         </Viewport>
@@ -836,7 +1287,7 @@ FIND to DO では、学生の「何もない」を「これがある」に変え
                     <div className="flex-1">
                       <div className="flex justify-between items-start mb-1">
                         <p className="font-medium text-blue-800">{page.type}</p>
-                        {page.template && page.template !== page.type && (
+                        {page.template && (
                           <span className="text-xs bg-blue-200 text-blue-700 px-2 py-1 rounded">
                             最適化: {page.template}
                           </span>
