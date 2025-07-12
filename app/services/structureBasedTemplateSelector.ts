@@ -23,13 +23,13 @@ export class StructureBasedTemplateSelector {
         return 'table'
         
       case 'story-narrative':
-        return 'story'
+        return 'section-items'
         
       case 'qa-format':
-        return 'explanation'
+        return 'explanation2'
         
       default:
-        return 'simple'
+        return 'simple3'
     }
   }
 
@@ -45,7 +45,7 @@ export class StructureBasedTemplateSelector {
     } else if (listItems.length >= 3) {
       return 'enumeration' // 列挙型テンプレート
     } else {
-      return 'simple2' // シンプル型
+      return 'simple3' // シンプル型
     }
   }
 
@@ -60,7 +60,7 @@ export class StructureBasedTemplateSelector {
     if (subtitles.length >= 3 && descriptions.length >= 3) {
       return 'explanation2' // 解説型2
     } else if (subtitles.length >= 2 && descriptions.length >= 2) {
-      return 'explanation' // 解説型
+      return 'explanation2' // 解説型
     } else {
       return 'simple3' // シンプル型3
     }
@@ -78,7 +78,7 @@ export class StructureBasedTemplateSelector {
     } else if (steps.length >= 3) {
       return 'list' // リスト型
     } else {
-      return 'simple2' // シンプル型
+      return 'simple3' // シンプル型
     }
   }
 

@@ -264,16 +264,16 @@ ${userInput}
 
 【利用可能なテンプレートタイプ】
 - enumeration: 列挙型（①②③のリスト）
-- explanation: 説明型（概要→詳細解説）
+- explanation2: 説明型（概要→詳細解説）
 - explanation2: 解説型2（複数のタイトル→解説）
 - list: リスト型（カード形式のリスト）
 - simple: シンプル型（タイトル→箇条書き）
-- simple2: シンプル型2（2つのポイント）
+- simple3: シンプル型2（2つのポイント）
 - simple3: シンプル型3（対比解説）
-- simple4: シンプル型4（チェックリスト）
+- simple5: シンプル型4（チェックリスト）
 - simple5: シンプル型5（ステップ確認）
 - simple6: シンプル型6（6つのポイント）
-- story: ストーリー型（問題提起→解決）
+- section-items: ストーリー型（問題提起→解決）
 - table: 表型（テーブル形式）
 
 【出力形式】
@@ -283,7 +283,7 @@ ${userInput}
   "pages": [
     {
       "pageNumber": 1,
-      "templateType": "explanation",
+      "templateType": "explanation2",
       "content": {
         "title": "具体的なタイトル",
         "subtitle": "副題（必要に応じて）",
@@ -503,7 +503,7 @@ ${additionalInstructions || '品質を向上させて再生成してください
     }
 
     // Handle boxes data for SimpleTwoTemplate
-    if (templateType === 'simple2' && content.items && content.items.length === 2) {
+    if (templateType === 'simple3' && content.items && content.items.length === 2) {
       baseData.boxes = content.items.map((item: any) => ({
         title: MarkdownUtils.removeMarkdown(item.title || ''),
         content: MarkdownUtils.removeMarkdown(item.description || item.content || '')

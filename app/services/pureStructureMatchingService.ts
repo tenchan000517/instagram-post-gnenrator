@@ -160,47 +160,33 @@ export class PureStructureMatchingService {
       priority: 11 // simple2より高い優先度
     },
 
-    // Pattern C2: simple2型 (2つのポイント比較構造 - 緩い条件)
+    // Pattern C2: list型 (チェックリスト構造)
     {
-      templateType: 'simple2',
-      description: '2つのポイント比較構造',
+      templateType: 'list',
+      description: 'チェックリスト型構造（順番なしリスト専用）',
       structureCheck: (content) => {
-        const sections = content?.sections || []
-        const directItems = content?.items || []
+        const checklist = content?.checklist || []
         
-        // sectionsは空で、直接itemsがちょうど2個
-        return sections.length === 0 && 
-               directItems.length === 2 &&
-               directItems.every(item => item.title && (item.description || item.content))
+        // checklistが明確にある場合のみマッチ（厳密化）
+        return checklist.length > 0
       },
       structureScore: (content) => {
-        const sections = content?.sections || []
-        const directItems = content?.items || []
+        const checklist = content?.checklist || []
         
-        if (sections.length === 0 && directItems.length === 2) {
-          const hasTitle = !!content?.title
-          const hasDescription = !!content?.description
-          const itemsComplete = directItems.every(item => 
-            item.title && (item.description || item.content)
-          )
-          
+        if (checklist.length > 0) {
+          // checklist構造がある場合は高スコア
           let score = 0
-          // 2個ちょうどで完全スコア
-          score += 3
+          if (checklist.length >= 3 && checklist.length <= 7) score += 4
+          else if (checklist.length >= 2 && checklist.length <= 8) score += 3
+          else score += 2
           
-          // アイテムの完全性
-          if (itemsComplete) score += 2
-          else score += 1
+          if (content?.title) score += 1
           
-          // 基本構造要素
-          if (hasTitle) score += 1
-          if (hasDescription) score += 0.5
-          
-          return score / 6.5 // 最大6.5点で正規化
+          return score / 5 // 最大5点で正規化
         }
         return 0
       },
-      priority: 10 // enumerationより高い優先度
+      priority: 10 // チェックリスト専用として高優先度
     },
 
     // Pattern C1: simple5型 (ステップ構造 - step番号付きアイテム)
@@ -351,12 +337,12 @@ export class PureStructureMatchingService {
     // Pattern C: items型 (発見された副パターン) 
     {
       templateType: 'enumeration',
-      description: '直接アイテムリスト構造',
+      description: '直接アイテムリスト構造（順番・ソートあり）',
       structureCheck: (content) => {
         const sections = content?.sections || []
         const directItems = content?.items || []
         
-        // sectionsは空で、直接itemsに3-8個のアイテムがある
+        // sectionsは空で、直接itemsに3-8個のアイテムがある（元の条件に戻す）
         return sections.length === 0 && 
                directItems.length >= 3 &&
                directItems.length <= 8
@@ -371,7 +357,7 @@ export class PureStructureMatchingService {
           const hasDescription = !!content?.description
           
           let score = 0
-          // アイテム数が適正範囲
+          // アイテム数が適正範囲（元の条件に戻す）
           if (itemCount >= 3 && itemCount <= 7) score += 3
           else if (itemCount >= 2 && itemCount <= 8) score += 2
           else score += 1
@@ -392,7 +378,7 @@ export class PureStructureMatchingService {
 
     // フォールバック: 既存テンプレート（低優先度）
     {
-      templateType: 'story',
+      templateType: 'section-items',
       description: 'セクション構造（フォールバック）',
       structureCheck: (content) => {
         const sections = content?.sections || []
@@ -407,7 +393,7 @@ export class PureStructureMatchingService {
     },
 
     {
-      templateType: 'simple',
+      templateType: 'simple3',
       description: 'アイテムリスト（フォールバック）',
       structureCheck: (content) => {
         const directItems = content?.items || []
@@ -422,7 +408,7 @@ export class PureStructureMatchingService {
     },
 
     {
-      templateType: 'explanation',
+      templateType: 'explanation2',
       description: '基本構造（最終フォールバック）',
       structureCheck: (content) => {
         return !!content?.title
@@ -473,6 +459,37 @@ export class PureStructureMatchingService {
             title: section.title,
             description: section.content
           }))
+        }
+      }
+      if (bestTemplate === 'enumeration' && page.content?.items) {
+        // enumeration用の処理 - itemsを適切に設定
+        updatedTemplateData.items = page.content.items
+      }
+      if (bestTemplate === 'list' && page.content?.items) {
+        // list用の処理 - itemsを適切に設定
+        updatedTemplateData.items = page.content.items
+      }
+      if (bestTemplate === 'simple5') {
+        // simple5用の処理 - steps, checklist, pointsを適切に設定
+        if (page.content?.items) {
+          // itemsにstep番号がある場合はstepsに変換
+          const hasStepNumbers = page.content.items.some((item: any) => 
+            typeof item === 'object' && typeof item.step === 'number'
+          )
+          if (hasStepNumbers) {
+            updatedTemplateData.steps = page.content.items
+          } else {
+            updatedTemplateData.items = page.content.items
+          }
+        }
+        if (page.content?.checklist) {
+          updatedTemplateData.checklist = page.content.checklist
+        }
+        if (page.content?.points) {
+          updatedTemplateData.points = page.content.points
+        }
+        if (page.content?.steps) {
+          updatedTemplateData.steps = page.content.steps
         }
       }
       

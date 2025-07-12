@@ -170,8 +170,8 @@ export class TemplateRecommendationService {
    */
   private static evaluateAllTemplates(content: string, analysis: any): TemplateRecommendation[] {
     const templateTypes: TemplateType[] = [
-      'enumeration', 'explanation', 'explanation2', 'table', 'story', 'list',
-      'simple', 'simple2', 'simple3', 'simple4', 'simple5', 'simple6'
+      'enumeration', 'explanation2', 'table', 'section-items', 'list',
+      'simple3', 'simple5', 'simple6', 'two-column-section-items'
     ]
 
     return templateTypes.map(templateType => 
@@ -220,7 +220,7 @@ export class TemplateRecommendationService {
         }
         break
 
-      case 'explanation':
+      case 'explanation2':
         if (analysis.hasSections) {
           fitScore += 35
           reason += '詳細なセクション説明があります'
@@ -269,7 +269,7 @@ export class TemplateRecommendationService {
         fitScore += tableability * 15
         break
 
-      case 'story':
+      case 'section-items':
         if (analysis.hasStoryElements) {
           fitScore += 60
           reason += '体験談・事例の要素があります'
@@ -356,17 +356,14 @@ export class TemplateRecommendationService {
   private static evaluateLengthFit(length: number, templateType: TemplateType): number {
     const optimalLengths: Record<TemplateType, [number, number]> = {
       enumeration: [100, 400],
-      explanation: [200, 800],
-      explanation2: [300, 1200],
+      explanation2: [200, 800],
       table: [150, 500],
-      story: [200, 600],
+      'section-items': [200, 600],
       list: [80, 300],
-      simple: [50, 200],
-      simple2: [60, 250],
-      simple3: [70, 300],
-      simple4: [80, 350],
-      simple5: [90, 400],
-      simple6: [100, 450]
+      simple3: [50, 200],
+      simple5: [80, 350],
+      simple6: [100, 450],
+      'two-column-section-items': [200, 600]
     }
     
     const [min, max] = optimalLengths[templateType]
@@ -384,17 +381,14 @@ export class TemplateRecommendationService {
   private static evaluateComplexityFit(analysis: any, templateType: TemplateType): number {
     const complexityScores: Record<TemplateType, number> = {
       enumeration: analysis.hasLists ? 15 : 5,
-      explanation: analysis.hasSections ? 15 : 5,
-      explanation2: (analysis.hasSections && analysis.contentLength > 300) ? 15 : 5,
+      explanation2: analysis.hasSections ? 15 : 5,
       table: analysis.hasComparisons ? 15 : 5,
-      story: analysis.hasStoryElements ? 15 : 5,
+      'section-items': analysis.hasStoryElements ? 15 : 5,
       list: analysis.hasLists ? 15 : 5,
-      simple: (!analysis.hasLists && !analysis.hasSections) ? 15 : 5,
-      simple2: 10,
-      simple3: 10,
-      simple4: 10,
+      simple3: (!analysis.hasLists && !analysis.hasSections) ? 15 : 5,
       simple5: 10,
-      simple6: 10
+      simple6: 10,
+      'two-column-section-items': 10
     }
     
     return complexityScores[templateType] || 5
@@ -460,17 +454,14 @@ export class TemplateRecommendationService {
     
     const templateDescriptions: Record<TemplateType, string> = {
       enumeration: '項目リスト + 説明文で構成',
-      explanation: '詳細な解説文中心',
-      explanation2: '複数セクションの詳細解説',
+      explanation2: '詳細な解説文中心',
       table: '比較表形式で整理',
-      story: '体験談・事例として表現',
+      'section-items': '体験談・事例として表現',
       list: 'シンプルなリスト形式',
-      simple: '簡潔なポイント形式',
-      simple2: '重要ポイント強調',
-      simple3: '要約・まとめ形式',
-      simple4: '核心要素強調',
-      simple5: 'バランス型表現',
-      simple6: 'メッセージ型表現'
+      simple3: '簡潔なポイント形式',
+      simple5: '核心要素強調',
+      simple6: 'メッセージ型表現',
+      'two-column-section-items': '2カラムセクション形式'
     }
 
     return `${templateDescriptions[templateType]}\n→ ${contentSummary}`

@@ -405,11 +405,11 @@ export class IntelligentContentProcessor {
       case 'steps':
         return 'enumeration'
       case 'story':
-        return 'story'
+        return 'section-items'
       case 'qa':
-        return 'explanation'
+        return 'explanation2'
       default:
-        return 'simple2'
+        return 'simple3'
     }
   }
 

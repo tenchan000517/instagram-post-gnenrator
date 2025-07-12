@@ -138,7 +138,7 @@ ${templateSelectionPrompt}
         "highlight": "ハイライト文",
         "visualSuggestion": "ビジュアル提案",
         "emphasis": ["強調ポイント1", "強調ポイント2"],
-        "templateType": "enumeration/explanation/story/list/explanation2/simple/simple2/simple3/table/simple4/simple5/simple6",
+        "templateType": "enumeration/explanation2/section-items/list/explanation2/simple3/simple3/simple3/table/simple5/simple5/simple6",
         "templateData": {
           "title": "テンプレートタイトル",
           "content": "メインコンテンツ",
@@ -272,7 +272,7 @@ ${templateSelectionPrompt}
               title: text.substring(0, 25),
               tableData: { headers: ['項目', '詳細'], rows: [['サンプル', 'データ']] }
             }
-          case 'simple4':
+          case 'simple5':
           case 'simple5':
           case 'simple6':
             return {
@@ -286,7 +286,7 @@ ${templateSelectionPrompt}
                 { title: 'ポイント2', description: '説明2' }
               ]
             }
-          case 'story':
+          case 'section-items':
             return {
               title: text.substring(0, 30),
               boxes: [
@@ -301,7 +301,7 @@ ${templateSelectionPrompt}
               title: text.substring(0, 25),
               items: ['項目1', '項目2', '項目3']
             }
-          case 'simple2':
+          case 'simple3':
             return {
               title: text.substring(0, 25),
               boxes: [

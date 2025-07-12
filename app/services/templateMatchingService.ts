@@ -21,7 +21,7 @@ export class TemplateMatchingService {
       priority: 8
     },
     {
-      templateType: 'explanation',
+      templateType: 'explanation2',
       expressionPattern: '説明・解説形式',
       contentStructure: ['title', 'description', 'sections'],
       bestFor: ['概念説明', '詳細解説', '理論的内容'],
@@ -45,7 +45,7 @@ export class TemplateMatchingService {
       priority: 7
     },
     {
-      templateType: 'simple',
+      templateType: 'simple3',
       expressionPattern: 'シンプル箇条書き',
       contentStructure: ['title', 'items'],
       bestFor: ['簡潔な要点', '箇条書きリスト', '要約'],
@@ -53,7 +53,7 @@ export class TemplateMatchingService {
       priority: 5
     },
     {
-      templateType: 'simple2',
+      templateType: 'simple3',
       expressionPattern: '2つのポイント形式',
       contentStructure: ['title', 'sections'],
       bestFor: ['対比説明', '2つの要素', 'Before/After'],
@@ -69,7 +69,7 @@ export class TemplateMatchingService {
       priority: 9
     },
     {
-      templateType: 'simple4',
+      templateType: 'simple5',
       expressionPattern: 'チェックリスト形式',
       contentStructure: ['title', 'checklistItems'],
       bestFor: ['チェックリスト', '確認項目', 'ToDoリスト'],
@@ -93,7 +93,7 @@ export class TemplateMatchingService {
       priority: 6
     },
     {
-      templateType: 'story',
+      templateType: 'section-items',
       expressionPattern: 'ストーリー・体験談形式',
       contentStructure: ['title', 'sections'],
       bestFor: ['体験談', 'ストーリー', '事例紹介'],
@@ -495,16 +495,16 @@ export class TemplateMatchingService {
     // テンプレートタイプに適したコンテンツ量かチェック
     const volumeRequirements = {
       'enumeration': { min: 3, max: 7 },
-      'explanation': { min: 1, max: 3 },
+      'explanation2': { min: 1, max: 3 },
       'explanation2': { min: 2, max: 5 },
       'list': { min: 3, max: 8 },
-      'simple': { min: 2, max: 6 },
-      'simple2': { min: 2, max: 2 },
+      'simple3': { min: 2, max: 6 },
+      'simple3': { min: 2, max: 2 },
       'simple3': { min: 2, max: 4 },
-      'simple4': { min: 3, max: 8 },
+      'simple5': { min: 3, max: 8 },
       'simple5': { min: 3, max: 6 },
       'simple6': { min: 4, max: 8 },
-      'story': { min: 1, max: 4 },
+      'section-items': { min: 1, max: 4 },
       'table': { min: 2, max: 10 }
     }
 
@@ -530,16 +530,16 @@ export class TemplateMatchingService {
 
     const volumeRequirements = {
       'enumeration': { min: 3, max: 7 },
-      'explanation': { min: 1, max: 3 },
+      'explanation2': { min: 1, max: 3 },
       'explanation2': { min: 2, max: 5 },
       'list': { min: 3, max: 8 },
-      'simple': { min: 2, max: 6 },
-      'simple2': { min: 2, max: 2 },
+      'simple3': { min: 2, max: 6 },
+      'simple3': { min: 2, max: 2 },
       'simple3': { min: 2, max: 4 },
-      'simple4': { min: 3, max: 8 },
+      'simple5': { min: 3, max: 8 },
       'simple5': { min: 3, max: 6 },
       'simple6': { min: 4, max: 8 },
-      'story': { min: 1, max: 4 },
+      'section-items': { min: 1, max: 4 },
       'table': { min: 2, max: 10 }
     }
 
@@ -597,17 +597,14 @@ export class TemplateMatchingService {
   private getTemplateDisplayName(templateType: TemplateType): string {
     const displayNames: Record<TemplateType, string> = {
       enumeration: '列挙型',
-      explanation: '説明型',
-      explanation2: '解説型2',
       list: 'リスト型',
-      simple: 'シンプル型',
-      simple2: 'シンプル型2',
+      explanation2: '解説型2',
       simple3: 'シンプル型3',
-      simple4: 'シンプル型4',
+      table: '表型',
       simple5: 'シンプル型5',
       simple6: 'シンプル型6',
-      story: 'ストーリー型',
-      table: '表型'
+      'section-items': 'セクション+アイテム型',
+      'two-column-section-items': '2カラムセクション+アイテム型'
     }
     return displayNames[templateType] || templateType
   }
