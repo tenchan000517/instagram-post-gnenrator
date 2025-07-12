@@ -282,3 +282,178 @@
 ### 関連Issue
 - Issue #5: テンプレートシステムの包括的改善
 - Issue #6: テンプレートマッチング精度の実戦的改善
+
+---
+
+## Issue #8: ステップ型コンテンツのテンプレートマッチング不適合 🔧 要対応
+
+### 概要
+2025年1月12日発見。AI生成で`simple5`（ステップ型）として生成されたコンテンツが、`enumeration`（列挙型）にマッチングされ、ステップ番号と詳細説明が失われる問題。
+
+### 具体的問題
+
+#### **問題データ例（ページ2）:**
+```json
+// AI生成時の意図: simple5（ステップ型）
+{
+  "templateType": "simple5",
+  "content": {
+    "title": "効率的なスケジュール管理術：ToDoリストとデジタルツール",
+    "description": "計画的なスケジュール管理は必須。ToDoリストとデジタルツールを駆使し、効率的にタスクをこなしましょう。",
+    "items": [
+      {
+        "step": 1,
+        "title": "ToDoリスト作成",
+        "description": "抱えているタスクを全て書き出し、「今日中」「今週中」「今月中」に分類。色分けして時間帯を決める。"
+      },
+      {
+        "step": 2,
+        "title": "デジタルツール活用", 
+        "description": "Googleカレンダー（スケジュール管理）、Googleスプレッドシート（企業リスト・面接日程）..."
+      }
+      // ... step: 3, 4, 5
+    ]
+  }
+}
+```
+
+#### **マッチング結果:**
+```
+🏆 マッチング結果:
+  🥇 1位: enumeration (スコア: 9.000)
+  🥈 2位: simple (スコア: 0.800)
+  📏 差分: 8.200
+
+🔄 テンプレート変更: simple5 → enumeration
+```
+
+#### **情報損失:**
+```json
+// 失われる情報
+- step番号 (1, 2, 3, 4, 5)
+- 詳細なdescription（長文の説明）
+
+// 残る情報
+- title のみ（簡潔なステップ名のみ）
+```
+
+### 根本原因分析
+
+#### **1. simple5パターンが未定義**
+- **現状**: `pureStructureMatchingService.ts`に`simple5`パターンが存在しない
+- **結果**: AI生成で`simple5`を指定されても認識できない
+
+#### **2. enumeration優先度の問題**  
+- **enumeration条件**: `directItems.length >= 3 && <= 8` (5個でマッチ)
+- **enumeration優先度**: 9 (高優先度)
+- **simple優先度**: 2 (低優先度)
+- **結果**: ステップ型でも列挙型が優先選択される
+
+#### **3. ステップ構造の特殊性無視**
+- **ステップ型特徴**: `step`番号 + 順序性 + 詳細説明
+- **列挙型特徴**: 番号なし + 簡潔リスト
+- **問題**: 構造分析でステップ型の特殊性が考慮されていない
+
+### 技術的詳細
+
+#### **現在のマッチング計算:**
+```
+📊 enumeration:
+  ├─ 構造チェック: ✅ 適合 (5個のアイテム)
+  ├─ 構造スコア: 1.000 (完全スコア)
+  ├─ 優先度: 9
+  ├─ 最終スコア: 9.000 (1.000 × 9)
+
+📊 simple:
+  ├─ 構造チェック: ✅ 適合 (フォールバック)
+  ├─ 構造スコア: 0.400 (低スコア)
+  ├─ 優先度: 2  
+  ├─ 最終スコア: 0.800 (0.400 × 2)
+```
+
+#### **問題のデータ構造:**
+```
+🏗️ 構造詳細:
+  ├─ タイトル: ✅
+  ├─ 説明文: ✅  
+  ├─ セクション数: 0
+  ├─ 直接アイテム数: 5 ← enumeration条件に合致
+  └─ テーブルデータ: ❌
+```
+
+### 必要な修正
+
+#### **修正1: simple5パターンの追加** 
+```typescript
+// pureStructureMatchingService.ts に追加
+{
+  templateType: 'simple5',
+  description: 'ステップ型構造（step番号付き）',
+  structureCheck: (content) => {
+    const directItems = content?.items || []
+    return directItems.length >= 3 && 
+           directItems.length <= 8 &&
+           directItems.every(item => item.step && item.title && item.description)
+  },
+  structureScore: (content) => {
+    // ステップ番号の連続性、詳細説明の完全性を評価
+    return 計算ロジック
+  },
+  priority: 12 // enumerationより高い優先度
+}
+```
+
+#### **修正2: データ変換の対応**
+```typescript
+// contentGeneratorService.ts に追加  
+if (templateType === 'simple5' && content.items) {
+  baseData.steps = content.items.map((item: any) => ({
+    step: item.step,
+    title: MarkdownUtils.removeMarkdown(item.title || ''),
+    description: MarkdownUtils.removeMarkdown(item.description || '')
+  }))
+}
+```
+
+#### **修正3: SimpleFiveTemplateの確認**
+- 既存の`SimpleFiveTemplate.tsx`が`steps`データ構造に対応しているか確認
+- 必要に応じてテンプレート修正
+
+### 期待される効果
+
+#### **修正前:**
+```
+AI生成: simple5 → マッチング: enumeration → 表示: 番号なし・説明なし
+```
+
+#### **修正後:**
+```  
+AI生成: simple5 → マッチング: simple5 → 表示: ①②③④⑤ + 詳細説明
+```
+
+### 影響するコンテンツパターン
+
+この問題は以下のようなコンテンツで発生する可能性があります：
+- **手順説明系**: 「○○の方法」「△△のステップ」
+- **プロセス解説系**: 「準備から実行まで」「段階的アプローチ」
+- **チュートリアル系**: 「初心者向けガイド」「実践方法」
+
+### 対象ファイル
+
+- `/app/services/pureStructureMatchingService.ts` - パターン追加
+- `/app/services/contentGeneratorService.ts` - データ変換追加
+- `/app/components/templates/SimpleFiveTemplate.tsx` - 表示確認
+
+### 優先度
+🔶 **P1 (高)** - コンテンツ表現力の大幅な改善
+
+### 関連Issue
+- Issue #7: テンプレートマッチング・データ変換の重大不具合（完了）
+- Issue #5: テンプレートシステムの包括的改善
+- Issue #6: テンプレートマッチング精度の実戦的改善
+
+### 実装時の注意点
+1. **既存のenumerationパターンとの競合回避**: step番号の有無で明確に区別
+2. **優先度設定**: simple5 > enumeration > simple の順序を確保
+3. **データ構造の一貫性**: 他のsimple系テンプレートとの整合性確保
+4. **テンプレートビューワー更新**: ステップ型の適切なモック表示
