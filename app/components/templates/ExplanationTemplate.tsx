@@ -1,6 +1,6 @@
 // ②説明型テンプレート - タイトル、概要、解説
 import React from 'react'
-import { BookOpen, Target } from 'lucide-react'
+import { Lightbulb, Info, CheckCircle } from 'lucide-react'
 import { TemplateData } from './TemplateTypes'
 
 interface ExplanationTemplateProps {
@@ -8,6 +8,16 @@ interface ExplanationTemplateProps {
 }
 
 export function ExplanationTemplate({ data }: ExplanationTemplateProps) {
+  // 🎨 テンプレートデータ挿入ロギング - explanation
+  console.log('🎨 テンプレートデータ挿入 - explanation')
+  console.log('================================================================================')
+  console.log('📋 挿入データ詳細:')
+  console.log(`  - title: "${data.title || 'なし'}"`)
+  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
+  console.log(`  - content: "${data.content || 'なし'}"`)
+  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log('================================================================================')
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
       {/* 背景装飾パターン */}
@@ -20,9 +30,9 @@ export function ExplanationTemplate({ data }: ExplanationTemplateProps) {
       
       <div className="relative z-10 p-6 flex flex-col h-full">
         {/* ヘッダー部分 */}
-        <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <BookOpen className="w-4 h-4" />
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
+            <Lightbulb className="w-4 h-4" />
             <span>{data.badgeText || '詳しく解説'}</span>
           </div>
           <h1 className="text-3xl font-bold text-gray-800 leading-tight">
@@ -32,14 +42,15 @@ export function ExplanationTemplate({ data }: ExplanationTemplateProps) {
 
         {/* 概要セクション */}
         {data.subtitle && (
-          <div className="mb-6">
+          <div className="mb-8">
             <div className="bg-white rounded-2xl p-6 border border-blue-200 shadow-sm">
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-gradient-to-b from-blue-500 to-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Target className="w-4 h-4 text-white" />
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-gradient-to-b from-blue-500 to-blue-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <Info className="w-4 h-4 text-white" />
                 </div>
                 <div className="flex-1">
-                  <p className="text-xl font-bold text-blue-800 leading-tight">
+                  <h2 className="text-lg font-bold text-blue-800 mb-2">概要</h2>
+                  <p className="text-base text-gray-700 leading-relaxed">
                     {data.subtitle}
                   </p>
                 </div>
@@ -50,21 +61,15 @@ export function ExplanationTemplate({ data }: ExplanationTemplateProps) {
 
         {/* メイン解説 */}
         <div className="flex-1">
-          <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+          <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 h-full flex flex-col justify-center">
             <div className="text-center">
+              <div className="w-10 h-10 bg-gradient-to-b from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="w-5 h-5 text-white" />
+              </div>
               <p className="text-lg text-gray-800 leading-relaxed font-medium">
                 {data.content}
               </p>
             </div>
-          </div>
-        </div>
-
-        {/* フッター部分 */}
-        <div className="mt-4 text-center">
-          <div className="bg-white rounded-2xl p-4 border-l-4 border-blue-400">
-            <p className="text-base text-blue-800 font-medium">
-              理解を深めて実践に活かしましょう
-            </p>
           </div>
         </div>
         

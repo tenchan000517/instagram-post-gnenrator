@@ -14,6 +14,7 @@ import { tableMetadata } from './TableTemplate'
 import { simpleFourMetadata } from './SimpleFourTemplate'
 import { simpleFiveMetadata } from './SimpleFiveTemplate'
 import { simpleSixMetadata } from './SimpleSixTemplate'
+import { sectionItemsMetadata } from './SectionItemsTemplate'
 
 // テンプレートレジストリ
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
@@ -28,7 +29,8 @@ export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   table: tableMetadata,
   simple4: simpleFourMetadata,
   simple5: simpleFiveMetadata,
-  simple6: simpleSixMetadata
+  simple6: simpleSixMetadata,
+  'section-items': sectionItemsMetadata
 }
 
 // コンテンツジャンルとテンプレートの対応

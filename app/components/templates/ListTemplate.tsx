@@ -8,6 +8,20 @@ interface ListTemplateProps {
 }
 
 export function ListTemplate({ data }: ListTemplateProps) {
+  // 🎨 テンプレートデータ挿入ロギング - list
+  console.log('🎨 テンプレートデータ挿入 - list')
+  console.log('================================================================================')
+  console.log('📋 挿入データ詳細:')
+  console.log(`  - title: "${data.title || 'なし'}"`)
+  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
+  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log(`  - items: [${data.items?.length || 0}個]`)
+  data.items?.forEach((item, index) => {
+    const itemText = typeof item === 'string' ? item : (item.title || item.content || String(item))
+    console.log(`    └─ ${index + 1}. "${itemText}"`)
+  })
+  console.log('================================================================================')
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
       {/* 背景装飾 */}

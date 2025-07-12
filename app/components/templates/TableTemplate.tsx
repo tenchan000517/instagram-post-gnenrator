@@ -1,6 +1,6 @@
 // ⑨表型テンプレート - テーブル、日付、名前、解説の３カラムテーブル
 import React from 'react'
-import { Table, BarChart3 } from 'lucide-react'
+import { BarChart3 } from 'lucide-react'
 import { TemplateData } from './TemplateTypes'
 
 interface TableTemplateProps {
@@ -8,6 +8,22 @@ interface TableTemplateProps {
 }
 
 export function TableTemplate({ data }: TableTemplateProps) {
+  // 🎨 テンプレートデータ挿入ロギング - table
+  console.log('🎨 テンプレートデータ挿入 - table')
+  console.log('================================================================================')
+  console.log('📋 挿入データ詳細:')
+  console.log(`  - title: "${data.title || 'なし'}"`)
+  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
+  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log(`  - tableData: headers[${data.tableData?.headers?.length || 0}], rows[${data.tableData?.rows?.length || 0}]`)
+  if (data.tableData?.headers) {
+    console.log(`    ヘッダー: [${data.tableData.headers.join(', ')}]`)
+  }
+  data.tableData?.rows?.forEach((row, index) => {
+    console.log(`    └─ 行${index + 1}: [${row.join(', ')}]`)
+  })
+  console.log('================================================================================')
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
       {/* 背景装飾 */}

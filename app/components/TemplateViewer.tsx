@@ -117,6 +117,33 @@ const sampleData = {
         ]
       }
     ]
+  },
+  'two-column-section-items': {
+    title: '情報収集と振り返りの習慣：自己成長を加速させる',
+    content: '情報収集と振り返りは、就職活動の質を高め、自己成長を促進します。日々の活動と振り返りを組み合わせることで、内定獲得へと繋がる好循環を生み出しましょう。',
+    sections: [
+      {
+        title: '情報収集：多様な情報源からインプット',
+        content: '業界研究、企業研究、面接対策に役立つ情報を積極的に収集しましょう。',
+        items: [
+          '新聞/ニュースサイトのチェック',
+          'ランチでの新店舗開拓',
+          '書店での情報収集',
+          'ニュース/情報番組の視聴',
+          '週1本以上の映画鑑賞',
+          '交流会への参加'
+        ]
+      },
+      {
+        title: '振り返り：自己分析と改善',
+        content: '一日の終わりに、15分程度の就職活動日記をつけましょう。具体的な記録は、自己分析を深め、改善に繋がります。',
+        items: [
+          '活動内容、学び、感情、自己分析の進展を記録',
+          '説明会/面接の感想、反省点を記録',
+          '具体的な気づきを記録（例：○○企業の戦略から得た学び）'
+        ]
+      }
+    ]
   }
 }
 
@@ -136,7 +163,8 @@ export default function TemplateViewer() {
     { type: 'simple4', name: '⑩シンプル型４', description: 'ミニマルデザイン' },
     { type: 'simple5', name: '⑪シンプル型５', description: 'バランス重視' },
     { type: 'simple6', name: '⑫シンプル型６', description: 'メッセージ特化' },
-    { type: 'section-items', name: '⑬セクション+アイテム型', description: 'コンテンツ+アクションリスト' }
+    { type: 'section-items', name: '⑬セクション+アイテム型', description: 'コンテンツ+アクションリスト' },
+    { type: 'two-column-section-items', name: '⑭2カラムセクション+アイテム型', description: '2セクション左右配置+各アイテムリスト' }
   ]
   
   const currentIndex = templates.findIndex(t => t.type === currentTemplate)

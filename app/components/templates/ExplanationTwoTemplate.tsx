@@ -8,10 +8,28 @@ interface ExplanationTwoTemplateProps {
 }
 
 export function ExplanationTwoTemplate({ data }: ExplanationTwoTemplateProps) {
+  // 🎨 テンプレートデータ挿入ロギング - explanation2
+  console.log('🎨 テンプレートデータ挿入 - explanation2')
+  console.log('================================================================================')
+  console.log('📋 挿入データ詳細:')
+  console.log(`  - title: "${data.title || 'なし'}"`)
+  console.log(`  - content: "${data.content || 'なし'}"`)
+  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
+  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log(`  - sections: [${data.sections?.length || 0}個]`)
+  data.sections?.forEach((section, index) => {
+    console.log(`    └─ ${index + 1}. "${section.title}" - "${section.content}"`)
+  })
+  console.log(`  - points: [${data.points?.length || 0}個]`)
+  data.points?.forEach((point, index) => {
+    console.log(`    └─ ${index + 1}. "${point.title}" - "${point.description}"`)
+  })
+  console.log('================================================================================')
+
   return (
-    <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
+    <div className="w-full h-full bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
       {/* 背景装飾 */}
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-30">
         <div className="absolute top-20 right-20 w-40 h-40 bg-blue-200 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 left-20 w-32 h-32 bg-blue-300 rounded-full blur-2xl"></div>
       </div>
@@ -31,7 +49,7 @@ export function ExplanationTwoTemplate({ data }: ExplanationTwoTemplateProps) {
         {/* メインコンテンツ */}
         {data.content && (
           <div className="text-center mb-6">
-            <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+            <div className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
               <p className="text-base font-medium text-gray-800 leading-relaxed">
                 {data.content}
               </p>
@@ -39,25 +57,43 @@ export function ExplanationTwoTemplate({ data }: ExplanationTwoTemplateProps) {
           </div>
         )}
 
-        {/* セクション */}
-        <div className="flex-1 space-y-4">
-          {data.sections?.map((section, index) => (
-            <div key={index} className="bg-white rounded-2xl p-4 border border-blue-200">
-              <h3 className="text-lg font-bold text-blue-800 mb-2">
-                {section.title}
-              </h3>
-              <p className="text-base text-gray-800 leading-relaxed">
-                {section.content}
-              </p>
-            </div>
-          ))}
-        </div>
+        {/* ポイント型コンテンツ */}
+        {data.points && data.points.length > 0 && (
+          <div className="flex-1 space-y-4">
+            {data.points.map((point, index) => (
+              <div key={index} className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
+                <h3 className="text-lg font-bold text-blue-600 mb-2">
+                  {point.title}
+                </h3>
+                <p className="text-base text-gray-800 leading-relaxed">
+                  {point.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* セクション型コンテンツ */}
+        {data.sections && data.sections.length > 0 && (
+          <div className="flex-1 space-y-4">
+            {data.sections.map((section, index) => (
+              <div key={index} className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
+                <h3 className="text-lg font-bold text-blue-600 mb-2">
+                  {section.title}
+                </h3>
+                <p className="text-base text-gray-800 leading-relaxed">
+                  {section.content}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* 補足説明 */}
         {data.subtitle && (
           <div className="mt-4 text-center">
-            <div className="bg-white rounded-2xl p-4 border-l-4 border-blue-400">
-              <p className="text-base text-blue-800 font-medium">
+            <div className="bg-white rounded-2xl p-4 border-l-4 border-blue-600">
+              <p className="text-base text-blue-600 font-medium">
                 {data.subtitle}
               </p>
             </div>

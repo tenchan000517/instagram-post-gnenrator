@@ -185,6 +185,18 @@ ${templateSelectionPrompt}
           
           const parsed = JSON.parse(cleanJson)
           console.log('Successfully parsed AI analysis')
+          
+          // 🎯 生成された生のデータをコンソールに出力
+          console.log('='.repeat(60))
+          console.log('🤖 AI生成成功 - 生のデータ')
+          console.log('='.repeat(60))
+          console.log('📝 生のレスポンステキスト:')
+          console.log(text)
+          console.log('-'.repeat(40))
+          console.log('🗂️ パース済みデータ:')
+          console.log(JSON.stringify(parsed, null, 2))
+          console.log('='.repeat(60))
+          
           return parsed
         } catch (parseError) {
           console.error('JSON parse error:', parseError)

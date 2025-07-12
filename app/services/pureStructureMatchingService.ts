@@ -60,7 +60,86 @@ export class PureStructureMatchingService {
       priority: 10 // 最高優先度
     },
 
-    // Pattern B: items型 (発見された副パターン) 
+    // Pattern B: 2カラムセクション+アイテム型 (2セクション + 各セクションにアイテム)
+    {
+      templateType: 'two-column-section-items',
+      description: '2セクション + 各セクションにアイテムリスト構造',
+      structureCheck: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        // 正確に2個のセクションがあり、直接itemsは空で、各セクションにitemsがある
+        return sections.length === 2 &&
+               directItems.length === 0 &&
+               sections.every(s => s.title && s.content) &&
+               sections.every(s => s.items && s.items.length >= 3)
+      },
+      structureScore: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        if (sections.length === 2 && directItems.length === 0) {
+          let score = 0
+          
+          // 正確に2セクション
+          score += 3
+          
+          // 各セクションの品質チェック（title + content + items）
+          const allSectionsComplete = sections.every(s => s.title && s.content && s.items && s.items.length >= 3)
+          if (allSectionsComplete) score += 3
+          else score += 1
+          
+          // タイトルがある場合
+          if (content?.title) score += 1
+          
+          return score / 7 // 最大7点で正規化
+        }
+        return 0
+      },
+      priority: 11 // section-itemsより高い優先度
+    },
+
+    // Pattern C: points型 (複数ポイント解説構造)
+    {
+      templateType: 'explanation2',
+      description: '複数ポイント解説構造（sections→pointsパターン）',
+      structureCheck: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        // 2-4個のセクションがあり、直接itemsは空で、各セクションにitemsが少ないか無い（points相当）
+        return sections.length >= 2 && sections.length <= 4 &&
+               directItems.length === 0 &&
+               sections.every(s => s.title && s.content) &&
+               sections.every(s => !s.items || s.items.length <= 2) // セクション内itemsが少ないかゼロ
+      },
+      structureScore: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        if (sections.length >= 2 && sections.length <= 4 && directItems.length === 0) {
+          let score = 0
+          
+          // セクション数が適正範囲（2-4個）
+          if (sections.length >= 2 && sections.length <= 3) score += 3
+          else if (sections.length === 4) score += 2
+          
+          // 各セクションの品質チェック（title + content）
+          const allSectionsComplete = sections.every(s => s.title && s.content)
+          if (allSectionsComplete) score += 2
+          else score += 1
+          
+          // タイトルがある場合
+          if (content?.title) score += 1
+          
+          return score / 6 // 最大6点で正規化
+        }
+        return 0
+      },
+      priority: 9
+    },
+
+    // Pattern C: items型 (発見された副パターン) 
     {
       templateType: 'enumeration',
       description: '直接アイテムリスト構造',
@@ -153,10 +232,25 @@ export class PureStructureMatchingService {
     return pages.map(page => {
       const bestTemplate = this.findBestTemplate(page)
       
-      // templateDataにsectionsデータを追加（section-items型用）
+      // templateDataにデータを追加
       const updatedTemplateData = { ...page.templateData }
       if (bestTemplate === 'section-items' && page.content?.sections) {
         updatedTemplateData.sections = page.content.sections
+      }
+      if (bestTemplate === 'two-column-section-items' && page.content?.sections) {
+        updatedTemplateData.sections = page.content.sections
+      }
+      if (bestTemplate === 'explanation2') {
+        // pointsデータの生成（直接pointsまたはsectionsから変換）
+        if (page.content?.points) {
+          updatedTemplateData.points = page.content.points
+        } else if (page.content?.sections) {
+          // sectionsをpointsに変換
+          updatedTemplateData.points = page.content.sections.map(section => ({
+            title: section.title,
+            description: section.content
+          }))
+        }
       }
       
       return {

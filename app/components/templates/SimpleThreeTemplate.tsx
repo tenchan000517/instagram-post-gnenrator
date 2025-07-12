@@ -8,6 +8,29 @@ interface SimpleThreeTemplateProps {
 }
 
 export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
+  // 🎨 テンプレートデータ挿入ロギング - simple3
+  console.log('🎨 テンプレートデータ挿入 - simple3')
+  console.log('================================================================================')
+  console.log('📋 挿入データ詳細:')
+  console.log(`  - title: "${data.title || 'なし'}"`)
+  console.log(`  - content: "${data.content || 'なし'}"`)
+  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
+  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log(`  - twoColumn: [左${data.twoColumn?.left?.length || 0}個, 右${data.twoColumn?.right?.length || 0}個]`)
+  if (data.twoColumn?.left) {
+    data.twoColumn.left.forEach((item, index) => {
+      const itemText = typeof item === 'string' ? item : (item.title || item.content || String(item))
+      console.log(`    左列${index + 1}. "${itemText}"`)
+    })
+  }
+  if (data.twoColumn?.right) {
+    data.twoColumn.right.forEach((item, index) => {
+      const itemText = typeof item === 'string' ? item : (item.title || item.content || String(item))
+      console.log(`    右列${index + 1}. "${itemText}"`)
+    })
+  }
+  console.log('================================================================================')
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
       {/* 背景装飾 */}

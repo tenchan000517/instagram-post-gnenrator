@@ -78,7 +78,20 @@ export class ContentGeneratorService {
       const text = response.text()
       
       console.log('✅ AI生成成功')
-      return this.parseGeneratedContent(text)
+      
+      // 🎯 高品質コンテンツ生成の生のデータをコンソールに出力
+      console.log('='.repeat(60))
+      console.log('🎨 高品質コンテンツ生成 - 生のレスポンス')
+      console.log('='.repeat(60))
+      console.log('生のレスポンステキスト:', text)
+      console.log('-'.repeat(40))
+      
+      const parsedContent = this.parseGeneratedContent(text)
+      
+      console.log('パース済みコンテンツ:', JSON.stringify(parsedContent, null, 2))
+      console.log('='.repeat(60))
+      
+      return parsedContent
     } catch (error) {
       console.error('❌ AI生成失敗:', error)
       
@@ -150,6 +163,16 @@ ${contentForCaption}
       const caption = response.text().trim()
       
       console.log('✅ キャプション再生成成功')
+      
+      // 🎯 キャプション再生成データをコンソールに出力
+      console.log('='.repeat(60))
+      console.log('📝 キャプション再生成成功 - 生のデータ')
+      console.log('='.repeat(60))
+      console.log('生のレスポンス:', response.text())
+      console.log('-'.repeat(40))
+      console.log('処理済みキャプション:', caption)
+      console.log('='.repeat(60))
+      
       return caption
     } catch (error) {
       console.error('Caption regeneration failed:', error)
@@ -189,7 +212,20 @@ ${contentForCaption}
       const text = response.text()
       
       console.log('✅ ページ再生成成功')
-      return this.parseRegeneratedPage(text, pageNumber)
+      
+      // 🎯 ページ再生成データをコンソールに出力
+      console.log('='.repeat(60))
+      console.log(`📄 ページ${pageNumber}再生成成功 - 生のデータ`)
+      console.log('='.repeat(60))
+      console.log('生のレスポンス:', text)
+      console.log('-'.repeat(40))
+      
+      const parsedPage = this.parseRegeneratedPage(text, pageNumber)
+      
+      console.log('処理済みページデータ:', JSON.stringify(parsedPage, null, 2))
+      console.log('='.repeat(60))
+      
+      return parsedPage
     } catch (error) {
       console.error('Page regeneration failed:', error)
       throw new Error('ページの再生成に失敗しました。もう一度お試しください。')

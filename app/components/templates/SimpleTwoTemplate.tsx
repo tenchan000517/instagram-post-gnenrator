@@ -8,6 +8,20 @@ interface SimpleTwoTemplateProps {
 }
 
 export function SimpleTwoTemplate({ data }: SimpleTwoTemplateProps) {
+  // 🎨 テンプレートデータ挿入ロギング - simple2
+  console.log('🎨 テンプレートデータ挿入 - simple2')
+  console.log('================================================================================')
+  console.log('📋 挿入データ詳細:')
+  console.log(`  - title: "${data.title || 'なし'}"`)
+  console.log(`  - content: "${data.content || 'なし'}"`)
+  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
+  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log(`  - boxes: [${data.boxes?.length || 0}個]`)
+  data.boxes?.forEach((box, index) => {
+    console.log(`    └─ ${index + 1}. "${box.title}" - "${box.content}"`)
+  })
+  console.log('================================================================================')
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-cyan-50 to-cyan-100 relative overflow-hidden">
       {/* 背景装飾 */}

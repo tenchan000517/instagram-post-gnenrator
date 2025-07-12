@@ -6,7 +6,7 @@ import ContentInput from './ContentInput'
 import ContentApprovalComponent from './ContentApprovalComponent'
 import EditablePostGenerator from './EditablePostGenerator'
 import { contentGeneratorService, GeneratedContent } from '../services/contentGeneratorService'
-import { templateMatchingService } from '../services/templateMatchingService'
+import { pureStructureMatchingService } from '../services/pureStructureMatchingService'
 
 type FlowStep = 'input' | 'generation' | 'approval' | 'editing' | 'final'
 
@@ -31,11 +31,25 @@ export default function NewFlowPostGenerator({ onBack, onReset }: NewFlowPostGen
     try {
       const generated = await contentGeneratorService.generateHighQualityContent(content)
       
+      // 🎯 高品質コンテンツ生成データをコンソールに出力
+      console.log('='.repeat(60))
+      console.log('🎨 高品質コンテンツ生成成功 - 生のデータ')
+      console.log('='.repeat(60))
+      console.log('生成されたコンテンツ:', JSON.stringify(generated, null, 2))
+      console.log('='.repeat(60))
+      
       setGenerationStatus('最適なテンプレートを選択中...')
       const optimizedContent = {
         ...generated,
-        pages: templateMatchingService.matchTemplateToContent(generated.pages)
+        pages: pureStructureMatchingService.matchTemplateToContent(generated.pages)
       }
+      
+      // 🎯 テンプレートマッチング後のデータもログ出力
+      console.log('='.repeat(60))
+      console.log('🎯 テンプレートマッチング完了 - 最適化データ')
+      console.log('='.repeat(60))
+      console.log('最適化後コンテンツ:', JSON.stringify(optimizedContent, null, 2))
+      console.log('='.repeat(60))
       
       setGeneratedContent(optimizedContent)
       setCurrentStep('approval')

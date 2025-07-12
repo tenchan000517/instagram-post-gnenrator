@@ -12,6 +12,7 @@ export { SimpleFourTemplate } from './SimpleFourTemplate'
 export { SimpleFiveTemplate } from './SimpleFiveTemplate'
 export { SimpleSixTemplate } from './SimpleSixTemplate'
 export { SectionItemsTemplate } from './SectionItemsTemplate'
+export { TwoColumnSectionItemsTemplate } from './TwoColumnSectionItemsTemplate'
 
 // 型定義とユーティリティ
 export * from './TemplateTypes'
@@ -31,6 +32,7 @@ import { SimpleFourTemplate } from './SimpleFourTemplate'
 import { SimpleFiveTemplate } from './SimpleFiveTemplate'
 import { SimpleSixTemplate } from './SimpleSixTemplate'
 import { SectionItemsTemplate } from './SectionItemsTemplate'
+import { TwoColumnSectionItemsTemplate } from './TwoColumnSectionItemsTemplate'
 
 import { TemplateType } from './TemplateTypes'
 
@@ -47,7 +49,8 @@ export const templateComponents = {
   simple4: SimpleFourTemplate,
   simple5: SimpleFiveTemplate,
   simple6: SimpleSixTemplate,
-  'section-items': SectionItemsTemplate
+  'section-items': SectionItemsTemplate,
+  'two-column-section-items': TwoColumnSectionItemsTemplate
 } as const
 
 // テンプレートレンダラー

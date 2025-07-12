@@ -8,6 +8,28 @@ interface SimpleFourTemplateProps {
 }
 
 export function SimpleFourTemplate({ data }: SimpleFourTemplateProps) {
+  // 🎨 テンプレートデータ挿入ロギング - simple4
+  console.log('🎨 テンプレートデータ挿入 - simple4')
+  console.log('================================================================================')
+  console.log('📋 挿入データ詳細:')
+  console.log(`  - title: "${data.title || 'なし'}"`)
+  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
+  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log(`  - checklist: [${data.checklist?.length || 0}個]`)
+  data.checklist?.forEach((item, index) => {
+    console.log(`    └─ ${index + 1}. "${item.text || item}"`)
+  })
+  console.log(`  - items: [${data.items?.length || 0}個]`)
+  data.items?.forEach((item, index) => {
+    const itemText = typeof item === 'string' ? item : (item.title || item.content || String(item))
+    console.log(`    └─ ${index + 1}. "${itemText}"`)
+  })
+  console.log(`  - points: [${data.points?.length || 0}個]`)
+  data.points?.forEach((point, index) => {
+    console.log(`    └─ ${index + 1}. "${point.description || point}"`)
+  })
+  console.log('================================================================================')
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
       {/* 背景装飾 */}

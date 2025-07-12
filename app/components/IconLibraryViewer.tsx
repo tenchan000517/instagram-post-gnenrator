@@ -19,6 +19,102 @@ interface IconData {
 
 // よく使用されるアイコンをカテゴリ別に整理（複数ライブラリ混在）
 const iconCategories: Record<string, IconData[]> = {
+  '🎯 Instagram投稿生成 - キャリア・ビジネス': [
+    { name: 'IconBriefcase', library: 'tabler' },        // カバン・仕事
+    { name: 'IconBuilding', library: 'tabler' },         // オフィスビル
+    { name: 'IconUserTie', library: 'tabler' },          // ビジネスマン
+    { name: 'IconChartLine', library: 'tabler' },        // 成長グラフ
+    { name: 'IconTarget', library: 'tabler' },           // ターゲット・目標
+    { name: 'IconAward', library: 'tabler' },            // 受賞・成果
+    { name: 'IconHandshake', library: 'tabler' },        // 握手・協力
+    { name: 'IconPresentation', library: 'tabler' },     // プレゼンテーション
+    { name: 'IconClipboardCheck', library: 'tabler' },   // タスク完了
+    { name: 'IconBrandLinkedin', library: 'tabler' },    // LinkedIn
+    { name: 'IconCertificate', library: 'tabler' },      // 資格・証明書
+    { name: 'IconTrendingUp', library: 'tabler' },       // 上昇トレンド
+    { name: 'IconBulb', library: 'tabler' },             // アイデア・ひらめき
+    { name: 'IconRocket', library: 'tabler' },           // 成長・スタートアップ
+    { name: 'IconCrown', library: 'tabler' },            // リーダーシップ
+  ],
+  '🔢 Instagram投稿生成 - 数字・チェック・リスト': [
+    { name: 'IconSquareNumber1', library: 'tabler' },    // 番号1
+    { name: 'IconSquareNumber2', library: 'tabler' },    // 番号2
+    { name: 'IconSquareNumber3', library: 'tabler' },    // 番号3
+    { name: 'IconSquareNumber4', library: 'tabler' },    // 番号4
+    { name: 'IconSquareNumber5', library: 'tabler' },    // 番号5
+    { name: 'IconSquareNumber6', library: 'tabler' },    // 番号6
+    { name: 'IconSquareNumber7', library: 'tabler' },    // 番号7
+    { name: 'IconSquareNumber8', library: 'tabler' },    // 番号8
+    { name: 'IconSquareNumber9', library: 'tabler' },    // 番号9
+    { name: 'IconListCheck', library: 'tabler' },        // チェックリスト
+    { name: 'IconListNumbers', library: 'tabler' },      // 番号付きリスト
+    { name: 'IconCheck', library: 'tabler' },            // チェックマーク
+    { name: 'IconCheckbox', library: 'tabler' },         // チェックボックス
+    { name: 'IconCircleCheck', library: 'tabler' },      // 円形チェック
+    { name: 'IconSquareCheck', library: 'tabler' },      // 四角チェック
+    { name: 'IconList', library: 'tabler' },             // リスト
+    { name: 'IconAlertCircle', library: 'tabler' },      // 注意・警告
+    { name: 'IconInfoCircle', library: 'tabler' },       // 情報
+  ],
+  '💬 Instagram投稿生成 - コミュニケーション・ソーシャル': [
+    { name: 'IconBrandInstagram', library: 'tabler' },   // Instagram
+    { name: 'IconBrandTwitter', library: 'tabler' },     // Twitter/X
+    { name: 'IconBrandFacebook', library: 'tabler' },    // Facebook
+    { name: 'IconBrandLinkedin', library: 'tabler' },    // LinkedIn
+    { name: 'IconBrandYoutube', library: 'tabler' },     // YouTube
+    { name: 'IconBrandTiktok', library: 'tabler' },      // TikTok
+    { name: 'IconMessage', library: 'tabler' },          // メッセージ
+    { name: 'IconMessageCircle', library: 'tabler' },    // チャット
+    { name: 'IconMail', library: 'tabler' },             // メール
+    { name: 'IconShare', library: 'tabler' },            // シェア
+    { name: 'IconHeart', library: 'tabler' },            // いいね
+    { name: 'IconThumbUp', library: 'tabler' },          // 高評価
+    { name: 'IconEye', library: 'tabler' },              // 閲覧
+    { name: 'IconUsers', library: 'tabler' },            // コミュニティ
+    { name: 'IconSpeakerphone', library: 'tabler' },     // 拡散・発信
+    { name: 'IconAt', library: 'tabler' },               // メンション
+  ],
+  '📱 Instagram投稿生成 - メディア・テクノロジー': [
+    { name: 'IconDeviceMobile', library: 'tabler' },     // スマートフォン
+    { name: 'IconDeviceDesktop', library: 'tabler' },    // デスクトップ
+    { name: 'IconCamera', library: 'tabler' },           // カメラ
+    { name: 'IconPhoto', library: 'tabler' },            // 写真
+    { name: 'IconVideo', library: 'tabler' },            // 動画
+    { name: 'IconMicrophone', library: 'tabler' },       // マイク
+    { name: 'IconHeadphones', library: 'tabler' },       // ヘッドフォン
+    { name: 'IconCloud', library: 'tabler' },            // クラウド
+    { name: 'IconDatabase', library: 'tabler' },         // データベース
+    { name: 'IconCode', library: 'tabler' },             // プログラミング
+    { name: 'IconBrandAi', library: 'tabler' },          // AI
+    { name: 'IconRobot', library: 'tabler' },            // ロボット・AI
+    { name: 'IconWorldWww', library: 'tabler' },         // ウェブ
+    { name: 'IconWifi', library: 'tabler' },             // インターネット
+  ],
+  '✅ Instagram投稿生成 - チェック・確認・ティップス': [
+    { name: 'IconTips', library: 'tabler' },             // ティップス
+    { name: 'IconLightbulb', library: 'tabler' },        // ひらめき・コツ
+    { name: 'IconAlertTriangle', library: 'tabler' },    // 注意・警告
+    { name: 'IconInfoCircle', library: 'tabler' },       // 情報・お知らせ
+    { name: 'IconQuestionMark', library: 'tabler' },     // 質問・疑問
+    { name: 'IconExclamationMark', library: 'tabler' },  // 重要
+    { name: 'IconShield', library: 'tabler' },           // 安全・保護
+    { name: 'IconBadgeCheck', library: 'tabler' },       // バッジ・認定
+    { name: 'IconFlag', library: 'tabler' },             // フラグ・重要
+    { name: 'IconStar', library: 'tabler' },             // おすすめ・評価
+    { name: 'IconFocus', library: 'tabler' },            // フォーカス・重点
+  ],
+  '📦 Instagram投稿生成 - ボックス・コンテナ・タイトル': [
+    { name: 'IconBox', library: 'tabler' },              // ボックス
+    { name: 'IconSquare', library: 'tabler' },           // 四角形
+    { name: 'IconRectangle', library: 'tabler' },        // 長方形
+    { name: 'IconContainer', library: 'tabler' },        // コンテナ
+    { name: 'IconLayoutGrid', library: 'tabler' },       // グリッドレイアウト
+    { name: 'IconLayoutCards', library: 'tabler' },      // カードレイアウト
+    { name: 'IconTemplate', library: 'tabler' },         // テンプレート
+    { name: 'IconFolder', library: 'tabler' },           // フォルダ
+    { name: 'IconArchive', library: 'tabler' },          // アーカイブ
+    { name: 'IconPackage', library: 'tabler' },          // パッケージ
+  ],
   '数字・順序': [
     // Tabler Numbers (最も豊富)
     { name: 'IconNumber1', library: 'tabler' },

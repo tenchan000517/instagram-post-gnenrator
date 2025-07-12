@@ -1,6 +1,6 @@
 // ③一枚ストーリー型テンプレート - 問題提起・悩み、ボックス回答、逆説、最後に結論
 import React from 'react'
-import { BookOpen, CheckCircle, Target } from 'lucide-react'
+import { BookHeart, CheckCircle, Star } from 'lucide-react'
 import { TemplateData } from './TemplateTypes'
 
 interface StoryTemplateProps {
@@ -8,6 +8,25 @@ interface StoryTemplateProps {
 }
 
 export function StoryTemplate({ data }: StoryTemplateProps) {
+  // 🎨 テンプレートデータ挿入ロギング - story
+  console.log('🎨 テンプレートデータ挿入 - story')
+  console.log('================================================================================')
+  console.log('📋 挿入データ詳細:')
+  console.log(`  - title: "${data.title || 'なし'}"`)
+  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
+  console.log(`  - content: "${data.content || 'なし'}"`)
+  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log(`  - checklist: [${data.checklist?.length || 0}個]`)
+  data.checklist?.forEach((item, index) => {
+    console.log(`    └─ ${index + 1}. "${item.text || item}"`)
+  })
+  console.log(`  - items: [${data.items?.length || 0}個]`)
+  data.items?.forEach((item, index) => {
+    const itemText = typeof item === 'string' ? item : (item.title || item.content || String(item))
+    console.log(`    └─ ${index + 1}. "${itemText}"`)
+  })
+  console.log('================================================================================')
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
       {/* 背景装飾 */}
@@ -20,7 +39,7 @@ export function StoryTemplate({ data }: StoryTemplateProps) {
         {/* ヘッダー部分 */}
         <div className="text-center mb-4">
           <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <BookOpen className="w-4 h-4" />
+            <BookHeart className="w-4 h-4" />
             <span>{data.badgeText || 'ストーリー'}</span>
           </div>
           <h1 className="text-2xl font-bold text-gray-800 leading-tight">
@@ -90,8 +109,8 @@ export function StoryTemplate({ data }: StoryTemplateProps) {
           {data.subtitle && (
             <div className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
               <div className="text-center">
-                <div className="w-8 h-8 bg-gradient-to-b from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Target className="w-4 h-4 text-white" />
+                <div className="w-8 h-8 bg-gradient-to-b from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Star className="w-4 h-4 text-white" />
                 </div>
                 <p className="text-lg font-bold text-blue-800">
                   {data.subtitle}
@@ -101,16 +120,6 @@ export function StoryTemplate({ data }: StoryTemplateProps) {
           )}
         </div>
 
-        {/* フッター部分 - 追加のサブタイトル表示（あれば） */}
-        {data.content && data.content.length > 0 && (
-          <div className="mt-3 text-center">
-            <div className="bg-white rounded-2xl p-3 border-l-4 border-blue-400">
-              <p className="text-sm text-blue-800 font-medium">
-                {data.content}
-              </p>
-            </div>
-          </div>
-        )}
         
       </div>
     </div>
