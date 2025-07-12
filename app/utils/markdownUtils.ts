@@ -7,6 +7,8 @@ export class MarkdownUtils {
     if (!text) return text
     
     return text
+      // 絵文字を完全除去（結合文字・修飾子含む）
+      .replace(/[\u{1F000}-\u{1FAFF}]|[\u{2600}-\u{27BF}]|[\u{FE00}-\u{FE0F}]|[\u{200D}]/gu, '')
       // **太字** を除去
       .replace(/\*\*([^*]+)\*\*/g, '$1')
       // *斜体* を除去
