@@ -1,44 +1,36 @@
 // テンプレート登録・選択システム
 import { TemplateMetadata, TemplateType } from './TemplateTypes'
 
-// 各テンプレートのメタデータをインポート
+// アクティブテンプレートのメタデータをインポート（アーカイブ済みを除外）
 import { enumerationMetadata } from './EnumerationTemplate'
-import { explanationMetadata } from './ExplanationTemplate'
-import { storyMetadata } from './StoryTemplate'
 import { listMetadata } from './ListTemplate'
 import { explanationTwoMetadata } from './ExplanationTwoTemplate'
-import { simpleMetadata } from './SimpleTemplate'
-import { simpleTwoMetadata } from './SimpleTwoTemplate'
 import { simpleThreeMetadata } from './SimpleThreeTemplate'
 import { tableMetadata } from './TableTemplate'
-import { simpleFourMetadata } from './SimpleFourTemplate'
 import { simpleFiveMetadata } from './SimpleFiveTemplate'
 import { simpleSixMetadata } from './SimpleSixTemplate'
 import { sectionItemsMetadata } from './SectionItemsTemplate'
+import { twoColumnSectionItemsMetadata } from './TwoColumnSectionItemsTemplate'
 
-// テンプレートレジストリ
+// アクティブテンプレートレジストリ（アーカイブ済みを除外）
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   enumeration: enumerationMetadata,
-  explanation: explanationMetadata,
-  story: storyMetadata,
   list: listMetadata,
   explanation2: explanationTwoMetadata,
-  simple: simpleMetadata,
-  simple2: simpleTwoMetadata,
   simple3: simpleThreeMetadata,
   table: tableMetadata,
-  simple4: simpleFourMetadata,
   simple5: simpleFiveMetadata,
   simple6: simpleSixMetadata,
-  'section-items': sectionItemsMetadata
+  'section-items': sectionItemsMetadata,
+  'two-column-section-items': twoColumnSectionItemsMetadata
 }
 
-// コンテンツジャンルとテンプレートの対応
+// アクティブテンプレートのジャンル対応（アーカイブ済みを除外し更新）
 export const genreTemplateMapping = {
-  'インターン・エントリー〆切系': ['table', 'list', 'simple4', 'simple5'] as TemplateType[],
-  'ナレッジ系': ['story', 'explanation', 'explanation2', 'enumeration'] as TemplateType[],
-  '〇〇選みたいな感じでの紹介系': ['list', 'enumeration', 'simple', 'simple2'] as TemplateType[],
-  'ノウハウ系': ['explanation2', 'simple4', 'simple5', 'simple6'] as TemplateType[]
+  'インターン・エントリー〆切系': ['table', 'list', 'simple5'] as TemplateType[],
+  'ナレッジ系': ['explanation2', 'enumeration', 'section-items'] as TemplateType[],
+  '〇〇選みたいな感じでの紹介系': ['list', 'enumeration', 'simple3'] as TemplateType[],
+  'ノウハウ系': ['explanation2', 'simple5', 'simple6', 'two-column-section-items'] as TemplateType[]
 }
 
 // テンプレート選択ロジック
@@ -74,9 +66,8 @@ export class TemplateSelector {
       // 元のコンテンツの特徴に基づいて適切なテンプレートを選択
       if (analysisResult.hasTableData) return 'table'
       if (analysisResult.hasEnumerationStructure) return 'enumeration'
-      if (analysisResult.hasStoryStructure) return 'story'
       if (analysisResult.hasChecklistStructure) return 'list'
-      return 'simple2' // デフォルトをより適切なテンプレートに
+      return 'simple3' // デフォルトをより適切なテンプレートに
     }
     
     return selectedTemplate
@@ -103,9 +94,9 @@ export class TemplateSelector {
       return 'table'
     }
     
-    // 体験談・事例系（ストーリー形式）
+    // 体験談・事例系（セクション+アイテム形式）
     if (/体験談|事例|実体験|実際に|やってみた|レビュー/.test(contentLower)) {
-      return 'story'
+      return 'section-items'
     }
     
     // 比較系（表形式）
@@ -165,22 +156,22 @@ export class TemplateSelector {
     if (analysis.hasTableData) return 'table'
     
     // ストーリー性の検出
-    if (analysis.hasStoryStructure) return 'story'
+    if (analysis.hasStoryStructure) return 'section-items'
     
     // チェックリストの検出
-    if (analysis.hasChecklistStructure) return 'simple4'
+    if (analysis.hasChecklistStructure) return 'list'
     
     // 列挙型の検出
     if (analysis.hasEnumerationStructure) return 'enumeration'
     
     // 比較構造の検出
-    if (analysis.hasComparisonStructure) return 'simple2'
+    if (analysis.hasComparisonStructure) return 'simple3'
     
     // 複数セクションの検出
     if (analysis.hasMultipleExplanations) return 'explanation2'
     
     // デフォルト
-    return 'simple'
+    return 'simple6'
   }
 
   /**

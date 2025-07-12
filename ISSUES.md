@@ -498,3 +498,236 @@ AI生成: simple5 → マッチング: simple5 → 表示: ①②③④⑤ + 詳
 - **SimpleFiveTemplate**: 統合ボックス + Tablerアイコン + ライトグリーンラベル
 - **TemplateTypes**: steps型定義追加
 - **TemplateViewer**: 実データモック更新
+
+---
+
+## Issue #9: テンプレートマッチング・データ損失問題 (simple3, simple6) ✅ 完了
+
+### 概要
+2025年1月12日発見。Issue #8修正後に新たに発見された、simple3とsimple6テンプレートのマッチングとデータ損失問題。
+
+### 具体的問題
+
+#### **問題1: ページ2 - simple3 → simple2への不適切な変換**
+```json
+// 元データ（content）
+{
+  "pageNumber": 2,
+  "templateType": "simple3",
+  "content": {
+    "title": "朝活のススメ",
+    "items": [
+      {
+        "title": "NG習慣：二度寝・スマホいじり",
+        "description": "睡眠の質を低下させ、集中力を阻害します。情報過多にもなりがちです。"
+      },
+      {
+        "title": "推奨習慣：朝食・軽い運動・身だしなみ",
+        "description": "脳を活性化し、自己肯定感を高めます。1日の始まりに達成感を得て、活動への意欲を向上させましょう。"
+      }
+    ]
+  }
+}
+
+// 変換後データ（templateData）
+{
+  "templateType": "simple2",
+  "templateData": {
+    "title": "朝活のススメ",
+    "content": "",  // ← メインコンテンツが空
+    "subtitle": "",
+    "badgeText": "",
+    "items": [...],  // アイテムは残るが
+    "boxes": []      // ← simple2用のboxesデータが空
+  }
+}
+```
+
+#### **問題2: ページ7 - simple6 → enumerationへの不適切な変換**
+```json
+// 元データ
+{
+  "pageNumber": 7,
+  "templateType": "simple6",
+  "content": {
+    "title": "まとめ：内定獲得への道",
+    "description": "これらの習慣を実践し、自己管理能力を高めることで...",
+    "items": ["早起き", "ToDoリスト作成", "デジタルツール活用", "情報収集", "就活日記", "セルフケア"]
+  }
+}
+
+// マッチング結果
+🏆 マッチング結果:
+  🥇 1位: enumeration (スコア: 9.000)
+  🥈 2位: simple5 (スコア: 7.429)
+🔄 テンプレート変更: simple6 → enumeration
+```
+
+### 根本原因分析
+
+#### **1. simple3パターンが未定義**
+- `pureStructureMatchingService.ts`に`simple3`パターンが存在しない
+- 2つのアイテムは`simple2`にマッチしてしまう
+- `simple3`の特性（2カラム表示）が考慮されていない
+
+#### **2. simple6パターンが未定義**
+- `simple6`パターンが存在しないため、`enumeration`にフォールバック
+- まとめ型の特性が失われる
+
+#### **3. データ変換時の情報損失**
+- `content → templateData`変換時に、テンプレート特有のフィールドが適切に設定されない
+- 特に`twoColumn`、`steps`等の特殊構造への変換が不完全
+
+### 解決状況 ✅
+**修正完了日**: 2025年1月12日
+
+#### 1. simple3パターンの追加 ✅
+- **対象**: `/app/services/pureStructureMatchingService.ts:120-161`
+- **修正内容**: 
+  - `simple3`パターンを優先度11で追加（simple2より高い優先度）
+  - 2カラム型構造（左右比較表示）の認識機能
+  - `description`必須条件による厳密なマッチング
+- **効果**: ページ2でsimple3が正しく選択される
+
+#### 2. simple6パターンの追加 ✅
+- **対象**: `/app/services/pureStructureMatchingService.ts:264-309`
+- **修正内容**:
+  - `simple6`パターンを優先度10で追加（enumerationより高い優先度）
+  - まとめ型構造（結論+リスト）の認識機能
+  - `description`必須 + 文字列アイテム4-8個の条件
+- **効果**: ページ7でsimple6が正しく選択される
+
+#### 3. データ変換ロジックの改善 ✅
+- **対象**: `/app/services/pureStructureMatchingService.ts:452-465`
+- **修正内容**:
+  - simple3用の`twoColumn`変換（左右のアイテムを分離）
+  - simple6用の処理（descriptionをcontentに、itemsをそのまま保持）
+- **効果**: データ損失の防止と適切なテンプレートデータ構造の生成
+
+#### 4. SimpleThreeTemplateの改善 ✅
+- **対象**: `/app/components/templates/SimpleThreeTemplate.tsx`
+- **修正内容**:
+  - フォールバックデータの完全削除
+  - タイトル分割処理（「NG習慣：二度寝」→ラベル+タイトル）
+  - 2カラム比較レイアウトの最適化
+  - テキストサイズ拡大と余白調整
+- **効果**: 実際のデータ構造に対応した美しい2カラム比較表示
+
+#### 5. SimpleSixTemplateの改善 ✅
+- **対象**: `/app/components/templates/SimpleSixTemplate.tsx`
+- **修正内容**:
+  - フォールバックデータの完全削除
+  - まとめ構造対応（メイン説明文 + 2カラムグリッドのアイテムリスト）
+  - データ構造の調整（`data.content` + `data.items`）
+- **効果**: ページ7のまとめ型コンテンツの適切な表示
+
+#### 6. TemplateViewerのサンプルデータ更新 ✅
+- **対象**: `/app/components/TemplateViewer.tsx:70-154`
+- **修正内容**:
+  - simple3: ページ2の実際のデータに置き換え
+  - simple6: ページ7の実際のデータに置き換え
+- **効果**: テンプレートビューワーでの正確な表示確認
+
+### simple6の選択条件
+```typescript
+// simple6が選択される条件
+structureCheck: (content) => {
+  const sections = content?.sections || []
+  const directItems = content?.items || []
+  
+  return sections.length === 0 &&           // セクションは空
+         directItems.length >= 4 &&         // 直接アイテムが4-8個
+         directItems.length <= 8 &&
+         !!content?.description &&           // description が存在する（必須）
+         directItems.every(item => typeof item === 'string')  // 全アイテムが文字列
+}
+```
+
+### 期待される効果
+
+#### **修正前:**
+```
+simple3 → simple2 (データ損失)
+simple6 → enumeration (まとめ情報損失)  
+```
+
+#### **修正後:**
+```
+simple3 → simple3 (2カラム適切表示)
+simple6 → simple6 (まとめ+リスト適切表示)
+```
+
+### 対象ファイル
+- `/app/services/pureStructureMatchingService.ts` ✅
+- `/app/services/contentGeneratorService.ts` ✅
+- `/app/components/templates/SimpleThreeTemplate.tsx` ✅
+- `/app/components/templates/SimpleSixTemplate.tsx` ✅
+- `/app/components/TemplateViewer.tsx` ✅
+
+### 優先度
+🔴 **P0 (最高)** - データ損失とテンプレート表現力の重大な問題
+
+### 関連Issue
+- Issue #8: ステップ型コンテンツのテンプレートマッチング不適合（完了）
+- Issue #7: テンプレートマッチング・データ変換の重大不具合（完了）
+
+---
+
+## Issue #10: SimpleSixTemplate UIデザインの改善が必要
+
+### 概要
+2025年1月12日発見。simple6テンプレートの選択条件は正常に動作しているが、UIデザインが不適切でユーザーエクスペリエンスを損なっている。
+
+### simple6の選択条件（正常動作中）
+```typescript
+// 以下の条件でsimple6が選択される
+{
+  sections: [],                    // セクションは空
+  items: 4-8個の文字列配列,        // 直接アイテムが4-8個
+  description: "説明文が存在",      // description必須
+  items: ["文字列1", "文字列2", ...] // 全アイテムが文字列
+}
+
+// 実際のページ7データ例
+{
+  "title": "まとめ：内定獲得への道",
+  "description": "これらの習慣を実践し、自己管理能力を高めることで...",
+  "items": ["早起き", "ToDoリスト作成", "デジタルツール活用", "情報収集", "就活日記", "セルフケア"]
+}
+```
+
+### 問題点
+- **UIデザインがダサい**: 現在の表示レイアウトが美しくない
+- **まとめ型コンテンツに不適切**: 「結論+キーワードリスト」の構造を効果的に表現できていない
+- **視覚的インパクト不足**: Instagram投稿として魅力的でない
+
+### 改善が必要な要素
+1. **レイアウト構成の見直し**
+   - メイン説明文の表示方法
+   - アイテムリストの配置とデザイン
+   - 全体的なバランスと視覚的階層
+
+2. **デザイン要素の改善**
+   - 色彩・フォント・アイコンの選択
+   - スペーシングと余白の調整
+   - Instagram投稿として映えるビジュアル
+
+3. **ユーザビリティの向上**
+   - 読みやすさの改善
+   - 情報の整理と強調表示
+   - モバイル表示での視認性
+
+### 対象ファイル
+- `/app/components/templates/SimpleSixTemplate.tsx` - メインのUIコンポーネント
+
+### 優先度
+🟡 **P2 (中)** - UIの美観とユーザーエクスペリエンスの改善
+
+### 関連Issue
+- Issue #9: テンプレートマッチング・データ損失問題（完了）
+- Issue #5: テンプレートシステムの包括的改善
+
+### 期待される成果
+- まとめ型コンテンツに適した美しいUI
+- Instagram投稿として魅力的なビジュアルデザイン
+- ユーザーの利用満足度向上

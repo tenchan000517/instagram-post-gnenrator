@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Viewport from './Viewport'
 import { templateComponents, TemplateType } from './templates'
 
-// テンプレートのサンプルデータ
+// アクティブテンプレートのサンプルデータ（アーカイブ済みテンプレートを除外）
 const sampleData = {
   enumeration: {
     title: '面接対策：基本的な準備ポイント',
@@ -17,18 +17,6 @@ const sampleData = {
       'OB/OG訪問を積極的に行う',
       '早期からインターンに参加'
     ]
-  },
-  explanation: {
-    title: '企業研究：効果的な情報収集方法',
-    pageNumber: 2,
-    content: '多くの学生が就活で失敗する理由は、企業研究不足にあります。企業の価値観や求める人材像を理解せずに、表面的な志望動機しか作れないからです。',
-    subtitle: '本当に必要なのは深い企業理解'
-  },
-  story: {
-    title: '失敗談：面接で緊張して撃沈した話',
-    pageNumber: 3,
-    content: '大手企業の最終面接で、準備万端だったはずなのに、想定外の質問で頭が真っ白になってしまいました。',
-    subtitle: '準備不足が招いた結果'
   },
   list: {
     title: '面接で避けるべき失敗',
@@ -49,28 +37,19 @@ const sampleData = {
       { title: '人脈形成', description: '社員との繋がりで情報収集' }
     ]
   },
-  simple: {
-    title: '就活準備',
-    content: 'まずは自己分析から始めましょう'
-  },
-  simple2: {
-    title: 'アナログツールとのハイブリッド戦略',
-    content: 'デジタルツールとアナログツールを組み合わせることで、就活の管理精度を最大化できます。',
-    boxes: [
-      {
-        title: 'アナログツールのメリット',
-        content: '手書きによる思考整理、記憶の定着、自由なレイアウト。'
-      },
-      {
-        title: 'ハイブリッド戦略のメリット', 
-        content: 'エントリー忘れ防止、選考対策時間の確保、プライベートとの両立。'
-      }
-    ]
-  },
   simple3: {
-    title: 'ES対策',
-    content: '企業が求める人材像を意識した内容作成',
-    subtitle: '差別化がポイント'
+    title: '朝活のススメ',
+    pageNumber: 2,
+    twoColumn: {
+      left: [{
+        title: 'NG習慣：二度寝・スマホいじり',
+        description: '睡眠の質を低下させ、集中力を阻害します。情報過多にもなりがちです。'
+      }],
+      right: [{
+        title: '推奨習慣：朝食・軽い運動・身だしなみ',
+        description: '脳を活性化し、自己肯定感を高めます。1日の始まりに達成感を得て、活動への意欲を向上させましょう。'
+      }]
+    }
   },
   table: {
     title: '業界別平均年収',
@@ -84,19 +63,6 @@ const sampleData = {
         ['コンサル', '900万円', '高']
       ]
     }
-  },
-  simple4: {
-    title: 'ガクチカ作成チェックリスト',
-    checklist: [
-      { text: '結果だけでなく過程を重視', checked: true },
-      { text: '具体的な数字や事実を含める', checked: true },
-      { text: '学んだことと成長を明記', checked: true }
-    ],
-    points: [
-      { description: '何をどのように達成したかの過程が重要' },
-      { description: '定量的なデータで説得力を高める' },
-      { description: '経験から得た学びを明確に示す' }
-    ]
   },
   simple5: {
     title: '効率的なスケジュール管理術：ToDoリストとデジタルツール',
@@ -131,9 +97,17 @@ const sampleData = {
     ]
   },
   simple6: {
-    title: '内定獲得',
-    content: '準備と実践の積み重ねが成果に',
-    subtitle: '最後まで諦めない'
+    title: 'まとめ：内定獲得への道',
+    pageNumber: 7,
+    content: 'これらの習慣を実践し、自己管理能力を高めることで、就職活動を有利に進めることができます。継続は力なり。日々の努力が、必ず結果に繋がります。',
+    items: [
+      '早起き',
+      'ToDoリスト作成',
+      'デジタルツール活用',
+      '情報収集',
+      '就活日記',
+      'セルフケア'
+    ]
   },
   'section-items': {
     title: '内定獲得への道：最強就活ルーティーン構築術',
@@ -190,21 +164,17 @@ const sampleData = {
 export default function TemplateViewer() {
   const [currentTemplate, setCurrentTemplate] = useState<TemplateType>('enumeration')
   
+  // アクティブテンプレートのみ（アーカイブ済みを除外: explanation, story, simple, simple2, simple4）
   const templates: { type: TemplateType; name: string; description: string }[] = [
-    { type: 'enumeration', name: '①列挙型', description: 'ポイントを箇条書きで整理' },
-    { type: 'explanation', name: '②説明型', description: '詳しい解説とサブタイトル' },
-    { type: 'story', name: '③ストーリー型', description: '体験談や事例紹介' },
-    { type: 'list', name: '④リスト型', description: 'チェックリスト形式' },
-    { type: 'explanation2', name: '⑤解説型２', description: 'ポイント別詳細解説' },
-    { type: 'simple', name: '⑥シンプル型', description: '最小限の構成' },
-    { type: 'simple2', name: '⑦シンプル型２', description: 'タイトル+コンテンツ+サブタイトル' },
-    { type: 'simple3', name: '⑧シンプル型３', description: 'コンテンツ重視レイアウト' },
-    { type: 'table', name: '⑨表型', description: 'テーブル形式の情報整理' },
-    { type: 'simple4', name: '⑩シンプル型４', description: 'ミニマルデザイン' },
-    { type: 'simple5', name: '⑪シンプル型５', description: 'バランス重視' },
-    { type: 'simple6', name: '⑫シンプル型６', description: 'メッセージ特化' },
-    { type: 'section-items', name: '⑬セクション+アイテム型', description: 'コンテンツ+アクションリスト' },
-    { type: 'two-column-section-items', name: '⑭2カラムセクション+アイテム型', description: '2セクション左右配置+各アイテムリスト' }
+    { type: 'enumeration', name: '①列挙型', description: '順番・ソートありの単純リスト専用' },
+    { type: 'list', name: '②リスト型', description: '順番なしチェックリスト専用' },
+    { type: 'explanation2', name: '③解説型２', description: 'タイトル→解説の繰り返し構造' },
+    { type: 'simple3', name: '④シンプル型３', description: '2カラム比較構造専用' },
+    { type: 'table', name: '⑤表型', description: 'テーブル構造専用（特殊ケース）' },
+    { type: 'simple5', name: '⑥シンプル型５', description: 'ステップ型（完成度高）' },
+    { type: 'simple6', name: '⑦シンプル型６', description: 'まとめ構造専用' },
+    { type: 'section-items', name: '⑧セクション+アイテム型', description: 'コンテンツ+アクションリスト（新規実装）' },
+    { type: 'two-column-section-items', name: '⑨2カラムセクション+アイテム型', description: '2セクション左右配置+各アイテムリスト（新規実装）' }
   ]
   
   const currentIndex = templates.findIndex(t => t.type === currentTemplate)
@@ -232,7 +202,7 @@ export default function TemplateViewer() {
             Instagram投稿テンプレートビューワー
           </h1>
           <p className="text-gray-600">
-            13種類のテンプレートデザインを確認できます
+            9種類のアクティブテンプレートデザインを確認できます
           </p>
         </div>
         
@@ -343,20 +313,6 @@ export default function TemplateViewer() {
                     <li>• ポイントを整理して伝えたい時</li>
                     <li>• 複数の項目を比較する時</li>
                     <li>• 箇条書きで分かりやすく</li>
-                  </>
-                )}
-                {currentTemplate === 'explanation' && (
-                  <>
-                    <li>• 詳しい解説が必要な時</li>
-                    <li>• 背景情報も含めて説明</li>
-                    <li>• サブタイトルで補足</li>
-                  </>
-                )}
-                {currentTemplate === 'story' && (
-                  <>
-                    <li>• 体験談を共有する時</li>
-                    <li>• 感情に訴えかけたい時</li>
-                    <li>• 実例で説得力を高める</li>
                   </>
                 )}
                 {currentTemplate === 'list' && (

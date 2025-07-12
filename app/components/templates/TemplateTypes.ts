@@ -95,19 +95,14 @@ export interface TemplateData {
   [key: string]: any  // For dynamic field access
 }
 
-// 13個のテンプレートタイプ（純粋構造ベース設計）
+// アクティブテンプレートタイプ（9個、アーカイブ済みを除外）
 export type TemplateType = 
   | 'enumeration'      // ①列挙型
-  | 'explanation'      // ②説明型
-  | 'story'            // ③一枚ストーリー型
-  | 'list'             // ④リスト型
-  | 'explanation2'     // ⑤解説型２
-  | 'simple'           // ⑥シンプル型
-  | 'simple2'          // ⑦シンプル型２
-  | 'simple3'          // ⑧シンプル型３
-  | 'table'            // ⑨表型
-  | 'simple4'          // ⑩シンプル型４
-  | 'simple5'          // ⑪シンプル型５
-  | 'simple6'          // ⑫シンプル型６
-  | 'section-items'    // ⑬セクション+アイテム型（純粋構造ベース）
-  | 'two-column-section-items' // ⑭2カラムセクション+アイテム型
+  | 'list'             // ②リスト型
+  | 'explanation2'     // ③解説型２
+  | 'simple3'          // ④シンプル型３
+  | 'table'            // ⑤表型
+  | 'simple5'          // ⑥シンプル型５
+  | 'simple6'          // ⑦シンプル型６
+  | 'section-items'    // ⑧セクション+アイテム型
+  | 'two-column-section-items' // ⑨2カラムセクション+アイテム型

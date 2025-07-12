@@ -37,7 +37,7 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
       <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>
       <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-300 rounded-full translate-y-12 -translate-x-12 opacity-40"></div>
       
-      <div className="relative z-10 p-5 flex flex-col h-full">
+      <div className="relative z-10 p-5 flex flex-col min-h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-4">
           {(() => {
@@ -59,96 +59,58 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
           })()}
         </div>
 
-        {/* 2カラムボックス */}
-        <div className="mb-4">
-          <div className="grid grid-cols-2 gap-3">
-            {data.twoColumn ? (
-              <>
-                <div className="bg-white rounded-2xl p-4 border-2 border-blue-200">
-                  <div className="space-y-2">
-                    {data.twoColumn.left.map((item, index) => (
-                      <div key={index} className="flex items-start gap-2">
-                        <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
-                        <p className="text-sm text-blue-800 font-medium">
-                          {typeof item === 'string' ? item : item.title || item.content || String(item)}
-                        </p>
+        {/* 2カラム比較 */}
+        <div>
+          <div className="grid grid-cols-2 gap-6">
+            <div className="bg-white rounded-3xl p-8 border-4 border-red-300 shadow-lg">
+              <div className="flex flex-col justify-start space-y-6">
+                {data.twoColumn?.left?.map((item, index) => {
+                  const titleParts = (typeof item === 'string' ? item : item.title || '').split('：')
+                  const label = titleParts[0] || ''
+                  const title = titleParts[1] || titleParts[0] || ''
+                  
+                  return (
+                    <div key={index} className="text-center space-y-4">
+                      <div className="inline-block bg-red-100 text-red-700 px-8 py-4 rounded-lg text-3xl font-bold">
+                        {label}
                       </div>
-                    ))}
-                  </div>
-                </div>
-                <div className="bg-white rounded-2xl p-4 border-2 border-blue-200">
-                  <div className="space-y-2">
-                    {data.twoColumn.right.map((item, index) => (
-                      <div key={index} className="flex items-start gap-2">
-                        <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
-                        <p className="text-sm text-blue-800 font-medium">
-                          {typeof item === 'string' ? item : item.title || item.content || String(item)}
+                      <h3 className="text-2xl font-bold text-gray-800 leading-tight">
+                        {title}
+                      </h3>
+                      {typeof item === 'object' && item.description && (
+                        <p className="text-xl text-gray-700 leading-relaxed">
+                          {item.description}
                         </p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </>
-            ) : (
-              // フォールバック: デフォルトの2カラム
-              <>
-                <div className="bg-white rounded-2xl p-4 border-2 border-blue-200">
-                  <div className="space-y-2">
-                    <div className="flex items-start gap-2">
-                      <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
-                      <p className="text-sm text-blue-800 font-medium">
-                        企業研究を徹底的に行う
-                      </p>
+                      )}
                     </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
-                      <p className="text-sm text-blue-800 font-medium">
-                        面接練習を重ねる
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="bg-white rounded-2xl p-4 border-2 border-blue-200">
-                  <div className="space-y-2">
-                    <div className="flex items-start gap-2">
-                      <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
-                      <p className="text-sm text-blue-800 font-medium">
-                        自己分析を深める
-                      </p>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
-                      <p className="text-sm text-blue-800 font-medium">
-                        コネクションを築く
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </>
-            )}
-          </div>
-        </div>
-
-        {/* ポイント */}
-        <div className="mb-4">
-          <div className="text-center">
-            <div className="inline-flex items-center gap-2 bg-gradient-to-b from-blue-500 to-blue-600 text-white px-4 py-2 rounded-full">
-              <Lightbulb className="w-4 h-4" />
-              <span className="text-sm font-bold">{data.badgeText || '重要ポイント'}</span>
-            </div>
-          </div>
-        </div>
-
-        {/* ボックス解説 */}
-        <div className="flex-1 flex items-center justify-center">
-          <div className="w-full bg-white rounded-2xl p-6 shadow-sm border border-blue-100">
-            <div className="text-center">
-              <div className="w-8 h-8 bg-gradient-to-b from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <ArrowRight className="w-4 h-4 text-white" />
+                  )
+                }) || []}
               </div>
-              <p className="text-lg text-gray-800 leading-relaxed font-medium">
-                {data.content || data.subtitle || "差別化がポイント"}
-              </p>
+            </div>
+            <div className="bg-white rounded-3xl p-8 border-4 border-green-300 shadow-lg">
+              <div className="flex flex-col justify-start space-y-6">
+                {data.twoColumn?.right?.map((item, index) => {
+                  const titleParts = (typeof item === 'string' ? item : item.title || '').split('：')
+                  const label = titleParts[0] || ''
+                  const title = titleParts[1] || titleParts[0] || ''
+                  
+                  return (
+                    <div key={index} className="text-center space-y-4">
+                      <div className="inline-block bg-green-100 text-green-700 px-8 py-4 rounded-lg text-3xl font-bold">
+                        {label}
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-800 leading-tight">
+                        {title}
+                      </h3>
+                      {typeof item === 'object' && item.description && (
+                        <p className="text-xl text-gray-700 leading-relaxed">
+                          {item.description}
+                        </p>
+                      )}
+                    </div>
+                  )
+                }) || []}
+              </div>
             </div>
           </div>
         </div>

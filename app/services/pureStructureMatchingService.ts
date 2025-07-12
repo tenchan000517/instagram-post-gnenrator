@@ -117,7 +117,50 @@ export class PureStructureMatchingService {
       priority: 11 // section-itemsより高い優先度
     },
 
-    // Pattern C: simple2型 (2つのポイント比較構造)
+    // Pattern C1: simple3型 (2カラム比較構造 - description必須)
+    {
+      templateType: 'simple3',
+      description: '2カラム型構造（左右比較表示）',
+      structureCheck: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        // sectionsは空で、直接itemsがちょうど2個、各アイテムにtitleとdescriptionがある（厳密）
+        return sections.length === 0 && 
+               directItems.length === 2 &&
+               directItems.every(item => item.title && item.description)
+      },
+      structureScore: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        if (sections.length === 0 && directItems.length === 2) {
+          const hasTitle = !!content?.title
+          const hasDescription = !!content?.description
+          const itemsComplete = directItems.every(item => 
+            item.title && item.description
+          )
+          
+          let score = 0
+          // 2個ちょうどで完全スコア
+          score += 3
+          
+          // アイテムの完全性（description必須で高スコア）
+          if (itemsComplete) score += 3
+          else score += 1
+          
+          // 基本構造要素
+          if (hasTitle) score += 1
+          if (hasDescription) score += 0.5
+          
+          return score / 7.5 // 最大7.5点で正規化
+        }
+        return 0
+      },
+      priority: 11 // simple2より高い優先度
+    },
+
+    // Pattern C2: simple2型 (2つのポイント比較構造 - 緩い条件)
     {
       templateType: 'simple2',
       description: '2つのポイント比較構造',
@@ -216,6 +259,53 @@ export class PureStructureMatchingService {
         return 0
       },
       priority: 12 // enumerationより高い優先度（重要な特殊構造）
+    },
+
+    // Pattern C3: simple6型 (まとめ構造 - description + 文字列アイテムリスト)
+    {
+      templateType: 'simple6',
+      description: 'まとめ型構造（結論+リスト）',
+      structureCheck: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        // sectionsは空で、直接itemsが4-8個、descriptionがあり、itemsがすべて文字列
+        return sections.length === 0 && 
+               directItems.length >= 4 &&
+               directItems.length <= 8 &&
+               !!content?.description &&
+               directItems.every(item => typeof item === 'string')
+      },
+      structureScore: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        if (sections.length === 0 && directItems.length >= 4 && directItems.length <= 8) {
+          const hasTitle = !!content?.title
+          const hasDescription = !!content?.description
+          const allItemsAreStrings = directItems.every(item => typeof item === 'string')
+          
+          let score = 0
+          // アイテム数が適正範囲（4-8個）
+          if (directItems.length >= 4 && directItems.length <= 6) score += 3
+          else if (directItems.length >= 7 && directItems.length <= 8) score += 2
+          
+          // descriptionの存在（必須）
+          if (hasDescription) score += 3
+          else score += 0
+          
+          // アイテムが文字列のみ（簡潔なまとめリスト）
+          if (allItemsAreStrings) score += 2
+          else score += 1
+          
+          // 基本構造要素
+          if (hasTitle) score += 1
+          
+          return score / 9 // 最大9点で正規化
+        }
+        return 0
+      },
+      priority: 10 // enumerationより高い優先度
     },
 
     // Pattern D: points型 (複数ポイント解説構造)
@@ -358,6 +448,20 @@ export class PureStructureMatchingService {
       }
       if (bestTemplate === 'two-column-section-items' && page.content?.sections) {
         updatedTemplateData.sections = page.content.sections
+      }
+      if (bestTemplate === 'simple3' && page.content?.items && page.content.items.length === 2) {
+        // simple3用のtwoColumn変換
+        updatedTemplateData.twoColumn = {
+          left: [page.content.items[0]],
+          right: [page.content.items[1]]
+        }
+      }
+      if (bestTemplate === 'simple6' && page.content?.items) {
+        // simple6用の処理 - descriptionとitemsを適切に設定
+        if (!updatedTemplateData.content && page.content?.description) {
+          updatedTemplateData.content = page.content.description
+        }
+        updatedTemplateData.items = page.content.items
       }
       if (bestTemplate === 'explanation2') {
         // pointsデータの生成（直接pointsまたはsectionsから変換）

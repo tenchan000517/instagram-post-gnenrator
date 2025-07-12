@@ -7,6 +7,7 @@ import { templateMatchingService } from '../services/templateMatchingService'
 import { ContentLayoutService } from '../services/contentLayoutService'
 import { templateComponents } from './templates'
 import { TemplateType } from './templates/TemplateTypes'
+import { templateRegistry } from './templates/TemplateRegistry'
 import Viewport from './Viewport'
 import html2canvas from 'html2canvas'
 import { bulkDownloadService, DownloadItem } from '../services/bulkDownloadService'
@@ -26,6 +27,8 @@ export default function EditablePostGenerator({
   const [currentPage, setCurrentPage] = useState(0)
   const [isTemplateSelectionMode, setIsTemplateSelectionMode] = useState(false)
   const [selectedPageForTemplateChange, setSelectedPageForTemplateChange] = useState<number | null>(null)
+  const [isEditMode, setIsEditMode] = useState(false)
+  const [editingPage, setEditingPage] = useState<number | null>(null)
   const [isGenerating, setIsGenerating] = useState(false)
   const [downloadItems, setDownloadItems] = useState<DownloadItem[]>([])
   const [isDownloading, setIsDownloading] = useState(false)
@@ -177,6 +180,26 @@ export default function EditablePostGenerator({
 
   const handleSave = () => {
     onSave(currentContent)
+  }
+
+  const handlePageTextEdit = (pageIndex: number, field: string, value: string) => {
+    const updatedPages = currentContent.pages.map((page, index) => {
+      if (index === pageIndex) {
+        return {
+          ...page,
+          templateData: {
+            ...page.templateData,
+            [field]: value
+          }
+        }
+      }
+      return page
+    })
+
+    setCurrentContent({
+      ...currentContent,
+      pages: updatedPages
+    })
   }
 
   const handleDownloadItemToggle = (itemId: string) => {
@@ -384,6 +407,285 @@ export default function EditablePostGenerator({
     )
   }
 
+  const renderTextEditModal = () => {
+    if (!isEditMode || editingPage === null) return null
+
+    const page = currentContent.pages[editingPage]
+    if (!page) return null
+
+    const handleArrayItemEdit = (field: string, index: number, itemField: string, value: string) => {
+      const updatedPages = currentContent.pages.map((p, i) => {
+        if (i === editingPage) {
+          const currentArray = p.templateData?.[field] || []
+          const updatedArray = [...currentArray]
+          if (updatedArray[index]) {
+            updatedArray[index] = {
+              ...updatedArray[index],
+              [itemField]: value
+            }
+          }
+          return {
+            ...p,
+            templateData: {
+              ...p.templateData,
+              [field]: updatedArray
+            }
+          }
+        }
+        return p
+      })
+
+      setCurrentContent({
+        ...currentContent,
+        pages: updatedPages
+      })
+    }
+
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="bg-white rounded-lg p-6 max-w-4xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+          <div className="flex justify-between items-center mb-4">
+            <h3 className="text-xl font-bold">ページ {editingPage + 1} - テキスト編集 ({templateRegistry[page.templateType]?.name || page.templateType})</h3>
+            <button
+              onClick={() => {
+                setIsEditMode(false)
+                setEditingPage(null)
+              }}
+              className="text-gray-500 hover:text-gray-700"
+            >
+              ✕
+            </button>
+          </div>
+
+          <div className="space-y-6">
+            {/* デバッグ情報 */}
+            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3">
+              <h4 className="text-sm font-semibold text-yellow-800 mb-2">デバッグ情報</h4>
+              <pre className="text-xs text-yellow-700 whitespace-pre-wrap">
+                {JSON.stringify({
+                  templateType: page.templateType,
+                  hasItems: !!page.templateData?.items,
+                  itemsLength: page.templateData?.items?.length || 0,
+                  hasSteps: !!page.templateData?.steps,
+                  hasPoints: !!page.templateData?.points,
+                  hasBoxes: !!page.templateData?.boxes,
+                  templateDataKeys: Object.keys(page.templateData || {})
+                }, null, 2)}
+              </pre>
+            </div>
+
+            {/* 基本フィールド */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">タイトル</label>
+                <input
+                  type="text"
+                  value={page.templateData?.title || ''}
+                  onChange={(e) => handlePageTextEdit(editingPage, 'title', e.target.value)}
+                  className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-2">サブタイトル</label>
+                <input
+                  type="text"
+                  value={page.templateData?.subtitle || ''}
+                  onChange={(e) => handlePageTextEdit(editingPage, 'subtitle', e.target.value)}
+                  className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">メインコンテンツ</label>
+              <textarea
+                value={page.templateData?.content || ''}
+                onChange={(e) => handlePageTextEdit(editingPage, 'content', e.target.value)}
+                className="w-full p-3 border rounded-md resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
+                rows={3}
+              />
+            </div>
+
+            {/* Steps編集 (simple5用) */}
+            {page.templateData?.steps && (
+              <div>
+                <h4 className="text-lg font-semibold mb-3">ステップ</h4>
+                <div className="space-y-3">
+                  {page.templateData.steps.map((step: any, index: number) => (
+                    <div key={index} className="border rounded-lg p-4 bg-gray-50">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">ステップ {step.step}</span>
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1">タイトル</label>
+                          <input
+                            type="text"
+                            value={step.title || ''}
+                            onChange={(e) => handleArrayItemEdit('steps', index, 'title', e.target.value)}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
+                          />
+                        </div>
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1">説明</label>
+                          <textarea
+                            value={step.description || ''}
+                            onChange={(e) => handleArrayItemEdit('steps', index, 'description', e.target.value)}
+                            className="w-full p-2 border rounded-md resize-none focus:outline-none focus:ring-1 focus:ring-blue-500"
+                            rows={2}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Points編集 (explanation2用) */}
+            {page.templateData?.points && (
+              <div>
+                <h4 className="text-lg font-semibold mb-3">ポイント</h4>
+                <div className="space-y-3">
+                  {page.templateData.points.map((point: any, index: number) => (
+                    <div key={index} className="border rounded-lg p-4 bg-gray-50">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1">タイトル</label>
+                          <input
+                            type="text"
+                            value={point.title || ''}
+                            onChange={(e) => handleArrayItemEdit('points', index, 'title', e.target.value)}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
+                          />
+                        </div>
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1">説明</label>
+                          <textarea
+                            value={point.description || ''}
+                            onChange={(e) => handleArrayItemEdit('points', index, 'description', e.target.value)}
+                            className="w-full p-2 border rounded-md resize-none focus:outline-none focus:ring-1 focus:ring-blue-500"
+                            rows={2}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Items編集 (enumeration等用) */}
+            {page.templateData?.items && page.templateData.items.length > 0 && (
+              <div>
+                <h4 className="text-lg font-semibold mb-3">アイテム ({page.templateData.items.length}個)</h4>
+                <div className="space-y-3">
+                  {page.templateData.items.map((item: any, index: number) => (
+                    <div key={index} className="border rounded-lg p-4 bg-gray-50">
+                      {typeof item === 'string' ? (
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1">アイテム {index + 1}</label>
+                          <input
+                            type="text"
+                            value={item}
+                            onChange={(e) => {
+                              const updatedPages = currentContent.pages.map((p, i) => {
+                                if (i === editingPage) {
+                                  const updatedItems = [...(p.templateData?.items || [])]
+                                  updatedItems[index] = e.target.value
+                                  return {
+                                    ...p,
+                                    templateData: {
+                                      ...p.templateData,
+                                      items: updatedItems
+                                    }
+                                  }
+                                }
+                                return p
+                              })
+                              setCurrentContent({ ...currentContent, pages: updatedPages })
+                            }}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
+                          />
+                        </div>
+                      ) : (
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-1">タイトル</label>
+                            <input
+                              type="text"
+                              value={item.title || ''}
+                              onChange={(e) => handleArrayItemEdit('items', index, 'title', e.target.value)}
+                              className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
+                            />
+                          </div>
+                          <div>
+                            <label className="block text-sm font-medium text-gray-700 mb-1">内容</label>
+                            <textarea
+                              value={item.content || ''}
+                              onChange={(e) => handleArrayItemEdit('items', index, 'content', e.target.value)}
+                              className="w-full p-2 border rounded-md resize-none focus:outline-none focus:ring-1 focus:ring-blue-500"
+                              rows={2}
+                            />
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Boxes編集 (simple2用) */}
+            {page.templateData?.boxes && (
+              <div>
+                <h4 className="text-lg font-semibold mb-3">ボックス</h4>
+                <div className="space-y-3">
+                  {page.templateData.boxes.map((box: any, index: number) => (
+                    <div key={index} className="border rounded-lg p-4 bg-gray-50">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1">タイトル</label>
+                          <input
+                            type="text"
+                            value={box.title || ''}
+                            onChange={(e) => handleArrayItemEdit('boxes', index, 'title', e.target.value)}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
+                          />
+                        </div>
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-1">内容</label>
+                          <textarea
+                            value={box.content || ''}
+                            onChange={(e) => handleArrayItemEdit('boxes', index, 'content', e.target.value)}
+                            className="w-full p-2 border rounded-md resize-none focus:outline-none focus:ring-1 focus:ring-blue-500"
+                            rows={2}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          <div className="mt-6 flex justify-end gap-3">
+            <button
+              onClick={() => {
+                setIsEditMode(false)
+                setEditingPage(null)
+              }}
+              className="px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50"
+            >
+              閉じる
+            </button>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* ヘッダー */}
@@ -547,10 +849,10 @@ export default function EditablePostGenerator({
                           onClick={() => setCurrentPage(index)}
                         >
                           <div className="font-medium text-sm">
-                            {index + 1}. {String(page.content.title || 'タイトルなし')}
+                            {index + 1}. {page.templateData?.title || page.content?.title || 'タイトルなし'}
                           </div>
                           <div className="text-xs text-gray-500 mt-1">
-                            {templateMatchingService.getRecommendedTemplates(page)[0]?.displayName || page.templateType}
+                            {templateRegistry[page.templateType]?.name || page.templateType}
                           </div>
                         </div>
                         <div className="flex items-center gap-2">
@@ -568,11 +870,11 @@ export default function EditablePostGenerator({
                           <button
                             onClick={(e) => {
                               e.stopPropagation()
-                              setSelectedPageForTemplateChange(index)
-                              setIsTemplateSelectionMode(true)
+                              setEditingPage(index)
+                              setIsEditMode(true)
                             }}
                             className="p-1 hover:bg-gray-100 rounded"
-                            title="テンプレート編集"
+                            title="テキスト編集"
                           >
                             <Edit size={14} />
                           </button>
@@ -740,6 +1042,9 @@ export default function EditablePostGenerator({
 
       {/* テンプレート選択モーダル */}
       {renderTemplateSelection()}
+
+      {/* テキスト編集モーダル */}
+      {renderTextEditModal()}
 
       {/* 一括ダウンロード用の隠しページ */}
       <div style={{ position: 'relative' }}>

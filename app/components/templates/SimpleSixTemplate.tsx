@@ -16,13 +16,9 @@ export function SimpleSixTemplate({ data }: SimpleSixTemplateProps) {
   console.log(`  - content: "${data.content || 'なし'}"`)
   console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
   console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
-  console.log(`  - checklist: [${data.checklist?.length || 0}個]`)
-  data.checklist?.forEach((item, index) => {
-    console.log(`    └─ ${index + 1}. "${item.text || item}" [${item.checked ? 'チェック済み' : '未チェック'}]`)
-  })
-  console.log(`  - points: [${data.points?.length || 0}個]`)
-  data.points?.forEach((point, index) => {
-    console.log(`    └─ ${index + 1}. "${point.description || point}"`)
+  console.log(`  - items: [${data.items?.length || 0}個]`)
+  data.items?.forEach((item, index) => {
+    console.log(`    └─ ${index + 1}. "${typeof item === 'string' ? item : item.title || item.content || String(item)}"`)
   })
   console.log('================================================================================')
 
@@ -54,48 +50,35 @@ export function SimpleSixTemplate({ data }: SimpleSixTemplateProps) {
           })()}
         </div>
 
-        {/* コンパクトチェックリスト */}
+        {/* メイン説明文 */}
+        {data.content && (
+          <div className="mb-6">
+            <div className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
+              <p className="text-base text-gray-800 leading-relaxed text-center">
+                {data.content}
+              </p>
+            </div>
+          </div>
+        )}
+
+        {/* まとめリスト */}
         <div className="flex-1">
-          <div className="bg-white rounded-2xl p-6 border border-blue-200 shadow-sm h-full">
-            <div className="space-y-4">
-              {data.checklist?.map((item, index) => (
+          <div className="bg-white rounded-2xl p-6 border border-blue-200 shadow-sm">
+            <div className="grid grid-cols-2 gap-4">
+              {data.items?.map((item, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <div className="flex-shrink-0 pt-1">
-                    {item.checked ? (
-                      <CheckCircle className="w-5 h-5 text-blue-600" />
-                    ) : (
-                      <Circle className="w-5 h-5 text-gray-400" />
-                    )}
+                    <div className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                      {index + 1}
+                    </div>
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="text-base font-bold text-blue-800">
-                        {item.text}
-                      </span>
-                    </div>
-                    <p className="text-sm text-gray-700 leading-relaxed">
-                      {data.points?.[index]?.description || ''}
-                    </p>
+                    <span className="text-base font-medium text-gray-800">
+                      {typeof item === 'string' ? item : item.title || item.content || String(item)}
+                    </span>
                   </div>
                 </div>
-              )) || (
-                // フォールバック: デフォルトのチェック項目
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 pt-1">
-                    <CheckCircle className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center gap-2 mb-1">
-                      <span className="text-base font-bold text-blue-800">
-                        {data.content || "重要なポイント"}
-                      </span>
-                    </div>
-                    <p className="text-sm text-gray-700 leading-relaxed">
-                      詳細な説明文が入ります
-                    </p>
-                  </div>
-                </div>
-              )}
+              )) || []}
             </div>
           </div>
         </div>
