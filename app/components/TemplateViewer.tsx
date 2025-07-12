@@ -74,8 +74,17 @@ const sampleData = {
     }
   },
   simple4: {
-    title: 'ガクチカ作成',
-    content: '結果だけでなく過程を重視'
+    title: 'ガクチカ作成チェックリスト',
+    checklist: [
+      { text: '結果だけでなく過程を重視', checked: true },
+      { text: '具体的な数字や事実を含める', checked: true },
+      { text: '学んだことと成長を明記', checked: true }
+    ],
+    points: [
+      { description: '何をどのように達成したかの過程が重要' },
+      { description: '定量的なデータで説得力を高める' },
+      { description: '経験から得た学びを明確に示す' }
+    ]
   },
   simple5: {
     title: '企業研究',

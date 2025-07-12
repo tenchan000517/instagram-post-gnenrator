@@ -32,11 +32,7 @@ export function SimpleFourTemplate({ data }: SimpleFourTemplateProps) {
             <div key={index} className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
               <div className="flex items-start gap-3">
                 <div className="flex-shrink-0 pt-1">
-                  {item.checked ? (
-                    <CheckCircle className="w-6 h-6 text-blue-600" />
-                  ) : (
-                    <Circle className="w-6 h-6 text-gray-400" />
-                  )}
+                  <CheckCircle className="w-6 h-6 text-blue-600" />
                 </div>
                 <div className="flex-1">
                   <h3 className="text-lg font-bold text-blue-800 mb-1">
@@ -49,54 +45,24 @@ export function SimpleFourTemplate({ data }: SimpleFourTemplateProps) {
               </div>
             </div>
           )) || (
-            // フォールバック: デフォルトのチェックリスト
-            <>
-              <div className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
+            // data.itemsにも対応
+            data.items?.map((item, index) => (
+              <div key={index} className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
                 <div className="flex items-start gap-3">
                   <div className="flex-shrink-0 pt-1">
                     <CheckCircle className="w-6 h-6 text-blue-600" />
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-blue-800 mb-1">
-                      {data.content || "まずは自己分析から始めましょう"}
+                      {typeof item === 'string' ? item : item.title || item.content || String(item)}
                     </h3>
                     <p className="text-sm text-gray-700 leading-relaxed">
-                      自分の強みや価値観を明確にする
+                      説明文がここに入ります
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 pt-1">
-                    <Circle className="w-6 h-6 text-gray-400" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-blue-800 mb-1">
-                      業界・企業研究を進める
-                    </h3>
-                    <p className="text-sm text-gray-700 leading-relaxed">
-                      志望する業界の特徴を把握
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 pt-1">
-                    <Circle className="w-6 h-6 text-gray-400" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-blue-800 mb-1">
-                      エントリーシートを作成
-                    </h3>
-                    <p className="text-sm text-gray-700 leading-relaxed">
-                      魅力的な自己PRを作成
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </>
+            ))
           )}
         </div>
 
@@ -111,13 +77,6 @@ export function SimpleFourTemplate({ data }: SimpleFourTemplateProps) {
           </div>
         )}
         
-        {/* ブランドマーク */}
-        <div className="mt-3 text-center">
-          <div className="inline-flex items-center gap-2 text-gray-500 text-sm">
-            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-            <span>FIND to DO</span>
-          </div>
-        </div>
       </div>
     </div>
   )
@@ -126,8 +85,8 @@ export function SimpleFourTemplate({ data }: SimpleFourTemplateProps) {
 // メタデータ
 export const simpleFourMetadata = {
   id: 'simple4',
-  name: 'シンプル型４',
-  description: 'チェックボックス付きポイント解説',
+  name: 'チェックリスト（説明付き）',
+  description: 'チェックリスト形式で詳細説明付きの項目列挙',
   suitableFor: {
     contentTypes: ['チェックリスト', '確認事項', '条件'],
     genres: ['ノウハウ系', 'ナレッジ系'],

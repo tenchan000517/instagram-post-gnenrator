@@ -1,6 +1,7 @@
 // ①列挙型テンプレート - タイトル、①～ポイント、ディスクリプション
 import React from 'react'
 import { CheckCircle } from 'lucide-react'
+import { IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6, IconSquareNumber7, IconSquareNumber8, IconSquareNumber9 } from '@tabler/icons-react'
 import { TemplateData } from './TemplateTypes'
 
 interface EnumerationTemplateProps {
@@ -31,8 +32,11 @@ export function EnumerationTemplate({ data }: EnumerationTemplateProps) {
           {data.items?.map((item, index) => (
             <div key={index} className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
               <div className="flex items-start gap-3">
-                <div className="w-8 h-8 bg-gradient-to-b from-blue-500 to-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <span className="text-white font-bold text-sm">{index + 1}</span>
+                <div className="flex-shrink-0">
+                  {[IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6, IconSquareNumber7, IconSquareNumber8, IconSquareNumber9][index] 
+                    ? React.createElement([IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6, IconSquareNumber7, IconSquareNumber8, IconSquareNumber9][index], { className: "w-8 h-8 text-blue-600" })
+                    : <div className="w-8 h-8 bg-gradient-to-b from-blue-500 to-blue-600 rounded text-white flex items-center justify-center font-bold text-sm">{index + 1}</div>
+                  }
                 </div>
                 <div className="flex-1">
                   <p className="text-lg font-medium text-gray-800 leading-relaxed">
@@ -55,13 +59,6 @@ export function EnumerationTemplate({ data }: EnumerationTemplateProps) {
           </div>
         )}
         
-        {/* ブランドマーク */}
-        <div className="mt-3 text-center">
-          <div className="inline-flex items-center gap-2 text-gray-500 text-sm">
-            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-            <span>FIND to DO</span>
-          </div>
-        </div>
       </div>
     </div>
   )
@@ -71,7 +68,7 @@ export function EnumerationTemplate({ data }: EnumerationTemplateProps) {
 export const enumerationMetadata = {
   id: 'enumeration',
   name: '列挙型',
-  description: 'タイトル、番号付きポイント、説明文で構成',
+  description: '番号付きリストで順序や優先度を表現',
   suitableFor: {
     contentTypes: ['リスト', 'ポイント説明', 'ステップ'],
     genres: ['ナレッジ系', 'ノウハウ系', '紹介系'],

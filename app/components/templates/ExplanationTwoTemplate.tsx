@@ -1,6 +1,6 @@
 // ⑤解説型２テンプレート - タイトル、解説、タイトル、解説、タイトル、解説
 import React from 'react'
-import { AlertTriangle, User, Bookmark } from 'lucide-react'
+import { AlertTriangle } from 'lucide-react'
 import { TemplateData } from './TemplateTypes'
 
 interface ExplanationTwoTemplateProps {
@@ -28,74 +28,41 @@ export function ExplanationTwoTemplate({ data }: ExplanationTwoTemplateProps) {
           </h1>
         </div>
 
-        {/* 中央メッセージ */}
-        <div className="text-center mb-4">
-          <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
-            <div className="flex items-center justify-center gap-3 mb-3">
-              <div className="w-8 h-8 bg-gradient-to-b from-blue-500 to-blue-600 rounded-full flex items-center justify-center">
-                <User className="w-4 h-4 text-white" />
-              </div>
-            </div>
-            <p className="text-base font-medium text-gray-800 leading-relaxed">
-              {data.content || "NGな発言を知っておかないと面接官に思わぬ誤解をまねき、落とされてしまうことも..."}
-            </p>
-          </div>
-        </div>
-
-        {/* 解説セクション */}
-        <div className="flex-1 space-y-4">
-          <div className="bg-white rounded-2xl p-4 border border-blue-200">
-            <div className="text-center mb-3">
-              <p className="text-sm font-bold text-blue-800">
-                面接官にとってのNG発言を知っておくと
-                何を求められるかがわかる！
+        {/* メインコンテンツ */}
+        {data.content && (
+          <div className="text-center mb-6">
+            <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+              <p className="text-base font-medium text-gray-800 leading-relaxed">
+                {data.content}
               </p>
             </div>
           </div>
-          
-          <div className="text-center">
-            <p className="text-sm text-gray-700 mb-2">
-              今回は、面接対策サポートもやってる
-            </p>
-            <p className="text-base font-bold text-blue-800 mb-2">
-              キャリア相談のプロが
-            </p>
-            <p className="text-sm font-bold text-blue-800 mb-2">
-              NG・OK発言をまとめたものをご紹介します♪
-            </p>
-          </div>
+        )}
+
+        {/* セクション */}
+        <div className="flex-1 space-y-4">
+          {data.sections?.map((section, index) => (
+            <div key={index} className="bg-white rounded-2xl p-4 border border-blue-200">
+              <h3 className="text-lg font-bold text-blue-800 mb-2">
+                {section.title}
+              </h3>
+              <p className="text-base text-gray-800 leading-relaxed">
+                {section.content}
+              </p>
+            </div>
+          ))}
         </div>
 
-        {/* フッター */}
-        <div className="mt-4 text-center">
-          <div className="bg-white rounded-2xl p-4 border-l-4 border-blue-400">
-            <p className="text-sm font-bold text-blue-800 mb-2">
-              面接前に見返せるように保存しておこう
-            </p>
-            <div className="flex justify-center">
-              <div className="bg-white rounded-full p-2 shadow-sm">
-                <Bookmark className="w-4 h-4 text-blue-600" />
-              </div>
+        {/* 補足説明 */}
+        {data.subtitle && (
+          <div className="mt-4 text-center">
+            <div className="bg-white rounded-2xl p-4 border-l-4 border-blue-400">
+              <p className="text-base text-blue-800 font-medium">
+                {data.subtitle}
+              </p>
             </div>
           </div>
-        </div>
-        
-        {/* ページナンバー */}
-        <div className="mt-3 text-center">
-          <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-            <span>2</span>
-            <span>/</span>
-            <span>9</span>
-          </div>
-        </div>
-        
-        {/* ブランドマーク */}
-        <div className="mt-2 text-center">
-          <div className="inline-flex items-center gap-2 text-gray-500 text-sm">
-            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-            <span>FIND to DO</span>
-          </div>
-        </div>
+        )}
       </div>
     </div>
   )

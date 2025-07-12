@@ -101,13 +101,6 @@ export function TableTemplate({ data }: TableTemplateProps) {
           </div>
         )}
         
-        {/* ブランドマーク */}
-        <div className="mt-3 text-center">
-          <div className="inline-flex items-center gap-2 text-gray-500 text-sm">
-            <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-            <span>FIND to DO</span>
-          </div>
-        </div>
       </div>
     </div>
   )
