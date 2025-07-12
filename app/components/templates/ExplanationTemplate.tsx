@@ -1,7 +1,7 @@
 // ②説明型テンプレート - タイトル、概要、解説
 import React from 'react'
 import { Lightbulb, Info, CheckCircle } from 'lucide-react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 
 interface ExplanationTemplateProps {
   data: TemplateData
@@ -16,6 +16,7 @@ export function ExplanationTemplate({ data }: ExplanationTemplateProps) {
   console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
   console.log(`  - content: "${data.content || 'なし'}"`)
   console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  console.log(`  - pageNumber: ${data.pageNumber || 'なし'}`)
   console.log('================================================================================')
 
   return (
@@ -31,13 +32,23 @@ export function ExplanationTemplate({ data }: ExplanationTemplateProps) {
       <div className="relative z-10 p-6 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <Lightbulb className="w-4 h-4" />
-            <span>{data.badgeText || '詳しく解説'}</span>
-          </div>
-          <h1 className="text-3xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || '詳しく解説'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-4">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-3xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* 概要セクション */}

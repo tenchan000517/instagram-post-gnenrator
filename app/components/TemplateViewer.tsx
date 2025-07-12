@@ -8,7 +8,8 @@ import { templateComponents, TemplateType } from './templates'
 // テンプレートのサンプルデータ
 const sampleData = {
   enumeration: {
-    title: '内定を取る学生の特徴',
+    title: '面接対策：基本的な準備ポイント',
+    pageNumber: 1,
     items: [
       '企業研究を徹底的に行う',
       '自己分析で強みを把握している',
@@ -18,12 +19,14 @@ const sampleData = {
     ]
   },
   explanation: {
-    title: '就活成功の鍵',
+    title: '企業研究：効果的な情報収集方法',
+    pageNumber: 2,
     content: '多くの学生が就活で失敗する理由は、企業研究不足にあります。企業の価値観や求める人材像を理解せずに、表面的な志望動機しか作れないからです。',
     subtitle: '本当に必要なのは深い企業理解'
   },
   story: {
-    title: '面接で緊張して失敗...',
+    title: '失敗談：面接で緊張して撃沈した話',
+    pageNumber: 3,
     content: '大手企業の最終面接で、準備万端だったはずなのに、想定外の質問で頭が真っ白になってしまいました。',
     subtitle: '準備不足が招いた結果'
   },
@@ -119,7 +122,8 @@ const sampleData = {
     ]
   },
   'two-column-section-items': {
-    title: '情報収集と振り返りの習慣：自己成長を加速させる',
+    title: '情報収集：多様な情報源からのインプット術',
+    pageNumber: 4,
     content: '情報収集と振り返りは、就職活動の質を高め、自己成長を促進します。日々の活動と振り返りを組み合わせることで、内定獲得へと繋がる好循環を生み出しましょう。',
     sections: [
       {

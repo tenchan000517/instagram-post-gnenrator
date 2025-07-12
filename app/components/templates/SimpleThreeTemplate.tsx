@@ -1,7 +1,7 @@
 // ⑧シンプル型３テンプレート - タイトル、２カラムボックス、ポイント、ボックス解説
 import React from 'react'
 import { ArrowRight, Lightbulb, TrendingUp } from 'lucide-react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 
 interface SimpleThreeTemplateProps {
   data: TemplateData
@@ -40,13 +40,23 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
       <div className="relative z-10 p-5 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-4">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <TrendingUp className="w-4 h-4" />
-            <span>{data.badgeText || '対比解説'}</span>
-          </div>
-          <h1 className="text-2xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || '対比解説'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-2xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* 2カラムボックス */}
@@ -58,7 +68,7 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
                   <div className="space-y-2">
                     {data.twoColumn.left.map((item, index) => (
                       <div key={index} className="flex items-start gap-2">
-                        <div className="w-3 h-3 bg-blue-600 rounded-full mt-1 flex-shrink-0"></div>
+                        <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
                         <p className="text-sm text-blue-800 font-medium">
                           {typeof item === 'string' ? item : item.title || item.content || String(item)}
                         </p>
@@ -70,7 +80,7 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
                   <div className="space-y-2">
                     {data.twoColumn.right.map((item, index) => (
                       <div key={index} className="flex items-start gap-2">
-                        <div className="w-3 h-3 bg-blue-600 rounded-full mt-1 flex-shrink-0"></div>
+                        <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
                         <p className="text-sm text-blue-800 font-medium">
                           {typeof item === 'string' ? item : item.title || item.content || String(item)}
                         </p>
@@ -85,13 +95,13 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
                 <div className="bg-white rounded-2xl p-4 border-2 border-blue-200">
                   <div className="space-y-2">
                     <div className="flex items-start gap-2">
-                      <div className="w-3 h-3 bg-blue-600 rounded-full mt-1 flex-shrink-0"></div>
+                      <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
                       <p className="text-sm text-blue-800 font-medium">
                         企業研究を徹底的に行う
                       </p>
                     </div>
                     <div className="flex items-start gap-2">
-                      <div className="w-3 h-3 bg-blue-600 rounded-full mt-1 flex-shrink-0"></div>
+                      <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
                       <p className="text-sm text-blue-800 font-medium">
                         面接練習を重ねる
                       </p>
@@ -101,13 +111,13 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
                 <div className="bg-white rounded-2xl p-4 border-2 border-blue-200">
                   <div className="space-y-2">
                     <div className="flex items-start gap-2">
-                      <div className="w-3 h-3 bg-blue-600 rounded-full mt-1 flex-shrink-0"></div>
+                      <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
                       <p className="text-sm text-blue-800 font-medium">
                         自己分析を深める
                       </p>
                     </div>
                     <div className="flex items-start gap-2">
-                      <div className="w-3 h-3 bg-blue-600 rounded-full mt-1 flex-shrink-0"></div>
+                      <div className="w-3 h-3 bg-blue-400 rounded-full mt-1 flex-shrink-0"></div>
                       <p className="text-sm text-blue-800 font-medium">
                         コネクションを築く
                       </p>

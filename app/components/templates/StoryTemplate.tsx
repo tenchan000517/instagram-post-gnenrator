@@ -1,7 +1,7 @@
 // ③一枚ストーリー型テンプレート - 問題提起・悩み、ボックス回答、逆説、最後に結論
 import React from 'react'
 import { BookHeart, CheckCircle, Star } from 'lucide-react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 
 interface StoryTemplateProps {
   data: TemplateData
@@ -38,13 +38,23 @@ export function StoryTemplate({ data }: StoryTemplateProps) {
       <div className="relative z-10 p-5 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-4">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <BookHeart className="w-4 h-4" />
-            <span>{data.badgeText || 'ストーリー'}</span>
-          </div>
-          <h1 className="text-2xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || 'ストーリー'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-2xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* ストーリー展開 */}
@@ -70,7 +80,7 @@ export function StoryTemplate({ data }: StoryTemplateProps) {
               <div className="space-y-3">
                 {data.checklist.map((item, index) => (
                   <div key={index} className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
                       <CheckCircle className="w-3 h-3 text-white" />
                     </div>
                     <p className="text-sm text-gray-800 font-medium">
@@ -93,7 +103,7 @@ export function StoryTemplate({ data }: StoryTemplateProps) {
               <div className="space-y-3">
                 {data.items.map((item, index) => (
                   <div key={index} className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-5 h-5 bg-blue-400 rounded-full flex items-center justify-center flex-shrink-0">
                       <CheckCircle className="w-3 h-3 text-white" />
                     </div>
                     <p className="text-sm text-gray-800 font-medium">

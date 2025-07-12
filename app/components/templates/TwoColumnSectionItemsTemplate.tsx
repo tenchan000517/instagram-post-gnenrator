@@ -2,6 +2,7 @@
 import React from 'react'
 import { CheckCircle } from 'lucide-react'
 import { IconClipboardCheck } from '@tabler/icons-react'
+import { splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 import { TemplateData } from './TemplateTypes'
 
 interface TwoColumnSectionItemsTemplateProps {
@@ -55,13 +56,23 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
       <div className="relative z-10 p-5 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <CheckCircle className="w-4 h-4" />
-            <span>{data.badgeText || 'アクション'}</span>
-          </div>
-          <h1 className="text-2xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || 'アクション'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-2xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* メイン説明文 */}
@@ -85,8 +96,8 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                 return (
                   <div className="mb-3">
                     {badge && (
-                      <div className="inline-flex items-center gap-1 bg-blue-600 text-white px-3 py-1 rounded-full text-base font-medium mb-2">
-                        <IconClipboardCheck className="w-5 h-5" />
+                      <div className="inline-flex items-center gap-1 bg-blue-400 text-white px-3 py-1 rounded-sm text-xl font-medium mb-2">
+                        <IconClipboardCheck className="w-6 h-6" />
                         <span>{badge}</span>
                       </div>
                     )}
@@ -105,7 +116,7 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                 <div className="space-y-2">
                   {leftSection.items.map((item, index) => (
                     <div key={index} className="flex items-start gap-2">
-                      <IconClipboardCheck className="w-6 h-6 text-blue-600 mt-0.5 flex-shrink-0" />
+                      <IconClipboardCheck className="w-8 h-8 text-blue-600 mt-0.5 flex-shrink-0" />
                       <span className="text-base text-gray-800 leading-relaxed">{item}</span>
                     </div>
                   ))}
@@ -122,8 +133,8 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                 return (
                   <div className="mb-3">
                     {badge && (
-                      <div className="inline-flex items-center gap-1 bg-blue-600 text-white px-3 py-1 rounded-full text-base font-medium mb-2">
-                        <IconClipboardCheck className="w-5 h-5" />
+                      <div className="inline-flex items-center gap-1 bg-blue-400 text-white px-3 py-1 rounded-sm text-xl font-medium mb-2">
+                        <IconClipboardCheck className="w-6 h-6" />
                         <span>{badge}</span>
                       </div>
                     )}
@@ -142,7 +153,7 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                 <div className="space-y-2">
                   {rightSection.items.map((item, index) => (
                     <div key={index} className="flex items-start gap-2">
-                      <IconClipboardCheck className="w-6 h-6 text-blue-600 mt-0.5 flex-shrink-0" />
+                      <IconClipboardCheck className="w-8 h-8 text-blue-600 mt-0.5 flex-shrink-0" />
                       <span className="text-base text-gray-800 leading-relaxed">{item}</span>
                     </div>
                   ))}

@@ -1,6 +1,6 @@
 // ⑪シンプル型５テンプレート - タイトル、ボックスでチェックボックス、ポイント、下に解説（縦向き配置）
 import React from 'react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 import { CheckCircle, Circle, Award } from 'lucide-react'
 
 interface SimpleFiveTemplateProps {
@@ -35,13 +35,23 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
       <div className="relative z-10 p-5 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-4">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <Award className="w-4 h-4" />
-            <span>{data.badgeText || 'ステップ確認'}</span>
-          </div>
-          <h1 className="text-2xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || 'ステップ確認'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-2xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* 縦向きチェックリスト */}

@@ -1,6 +1,6 @@
 // ⑩シンプル型４テンプレート - タイトル、ボックスでチェックボックス、ポイント、下に解説
 import React from 'react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 import { CheckCircle, Circle } from 'lucide-react'
 
 interface SimpleFourTemplateProps {
@@ -39,13 +39,23 @@ export function SimpleFourTemplate({ data }: SimpleFourTemplateProps) {
       <div className="relative z-10 p-5 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <CheckCircle className="w-4 h-4" />
-            <span>{data.badgeText || 'チェックリスト'}</span>
-          </div>
-          <h1 className="text-2xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || 'チェックリスト'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-2xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* チェックリスト */}

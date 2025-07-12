@@ -1,7 +1,7 @@
 // ⑦シンプル型２テンプレート - タイトル、ボックス解説１、ボックス解説２
 import React from 'react'
 import { Target, Zap } from 'lucide-react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 
 interface SimpleTwoTemplateProps {
   data: TemplateData
@@ -31,13 +31,23 @@ export function SimpleTwoTemplate({ data }: SimpleTwoTemplateProps) {
       <div className="relative z-10 p-6 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 bg-cyan-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <Target className="w-4 h-4" />
-            <span>{data.badgeText || '2つのポイント'}</span>
-          </div>
-          <h1 className="text-3xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || '2つのポイント'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-3xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* メインコンテンツ */}

@@ -1,7 +1,7 @@
 // セクション + アイテム構造用テンプレート - 純粋構造ベースアプローチ
 import React from 'react'
 import { CheckCircle, ArrowRight } from 'lucide-react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 
 interface SectionItemsTemplateProps {
   data: TemplateData
@@ -36,18 +36,28 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
       <div className="relative z-10 p-5 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <CheckCircle className="w-4 h-4" />
-            <span>{data.badgeText || 'アクション'}</span>
-          </div>
-          <h1 className="text-2xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
-          {data.subtitle && (
-            <p className="text-base text-gray-600 font-medium mt-2">
-              {data.subtitle}
-            </p>
-          )}
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || 'アクション'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-2xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+                {data.subtitle && (
+                  <p className="text-base text-gray-600 font-medium mt-2">
+                    {data.subtitle}
+                  </p>
+                )}
+              </>
+            )
+          })()}
         </div>
 
         {/* メイン説明文 */}
@@ -63,7 +73,7 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
         {mainSection && (
           <div className="flex-1 space-y-4">
             {/* セクションタイトル & 説明 */}
-            <div className="bg-blue-600 rounded-2xl p-4 text-white">
+            <div className="bg-blue-400 rounded-2xl p-4 text-white">
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-6 h-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
                   <ArrowRight className="w-4 h-4" />

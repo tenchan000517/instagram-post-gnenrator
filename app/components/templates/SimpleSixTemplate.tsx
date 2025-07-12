@@ -1,6 +1,6 @@
 // ⑫シンプル型６テンプレート - タイトル、ボックスでチェックボックス、ポイント、下に解説（コンパクト配置）
 import React from 'react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 import { CheckCircle, Circle, List } from 'lucide-react'
 
 interface SimpleSixTemplateProps {
@@ -35,13 +35,23 @@ export function SimpleSixTemplate({ data }: SimpleSixTemplateProps) {
       <div className="relative z-10 p-6 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <List className="w-4 h-4" />
-            <span>{data.badgeText || '重要項目'}</span>
-          </div>
-          <h1 className="text-3xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || '重要項目'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-3xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* コンパクトチェックリスト */}

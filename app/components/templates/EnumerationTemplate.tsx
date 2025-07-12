@@ -2,7 +2,7 @@
 import React from 'react'
 import { CheckCircle } from 'lucide-react'
 import { IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6, IconSquareNumber7, IconSquareNumber8, IconSquareNumber9 } from '@tabler/icons-react'
-import { TemplateData } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 
 interface EnumerationTemplateProps {
   data: TemplateData
@@ -32,13 +32,23 @@ export function EnumerationTemplate({ data }: EnumerationTemplateProps) {
       <div className="relative z-10 p-6 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium mb-3">
-            <CheckCircle className="w-4 h-4" />
-            <span>{data.badgeText || 'チェック'}</span>
-          </div>
-          <h1 className="text-3xl font-bold text-gray-800 leading-tight">
-            {data.title}
-          </h1>
+          {(() => {
+            const { badge, title } = splitTitleForBadge(data.title)
+            const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+            const badgeText = badge || data.badgeText || 'チェック'
+            
+            return (
+              <>
+                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
+                  <PageIcon className="w-5 h-5" />
+                  <span>{badgeText}</span>
+                </div>
+                <h1 className="text-3xl font-bold text-gray-800 leading-tight">
+                  {title}
+                </h1>
+              </>
+            )
+          })()}
         </div>
 
         {/* 列挙ポイント - カード形式 */}

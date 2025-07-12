@@ -266,7 +266,10 @@ export default function EditablePostGenerator({
 
     return (
       <TemplateComponent
-        data={page.templateData}
+        data={{
+          ...page.templateData,
+          pageNumber: page.pageNumber
+        }}
       />
     )
   }
@@ -293,7 +296,10 @@ export default function EditablePostGenerator({
           }}
         >
           <TemplateComponent
-            data={page.templateData}
+            data={{
+              ...page.templateData,
+              pageNumber: page.pageNumber
+            }}
           />
         </div>
       )
