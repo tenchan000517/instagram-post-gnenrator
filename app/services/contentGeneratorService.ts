@@ -510,6 +510,15 @@ ${additionalInstructions || '品質を向上させて再生成してください
       }))
     }
 
+    // Handle steps data for SimpleFiveTemplate
+    if (templateType === 'simple5' && content.items) {
+      baseData.steps = content.items.map((item: any) => ({
+        step: item.step,
+        title: MarkdownUtils.removeMarkdown(item.title || ''),
+        description: MarkdownUtils.removeMarkdown(item.description || item.content || '')
+      }))
+    }
+
     return baseData
   }
 }

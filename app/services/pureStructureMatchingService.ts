@@ -160,6 +160,64 @@ export class PureStructureMatchingService {
       priority: 10 // enumerationより高い優先度
     },
 
+    // Pattern C1: simple5型 (ステップ構造 - step番号付きアイテム)
+    {
+      templateType: 'simple5',
+      description: 'ステップ型構造（step番号付きアイテム）',
+      structureCheck: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        // sectionsは空で、直接itemsが3-8個あり、すべてのアイテムにstep番号とdescriptionがある
+        return sections.length === 0 && 
+               directItems.length >= 3 &&
+               directItems.length <= 8 &&
+               directItems.every(item => 
+                 typeof item.step === 'number' && 
+                 item.title && 
+                 (item.description || item.content)
+               )
+      },
+      structureScore: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        if (sections.length === 0 && directItems.length >= 3 && directItems.length <= 8) {
+          const hasTitle = !!content?.title
+          const hasDescription = !!content?.description
+          const allHaveSteps = directItems.every(item => typeof item.step === 'number')
+          const allHaveDetails = directItems.every(item => 
+            item.title && (item.description || item.content)
+          )
+          const stepsAreSequential = this.checkSequentialSteps(directItems)
+          
+          let score = 0
+          // アイテム数が適正範囲
+          if (directItems.length >= 3 && directItems.length <= 7) score += 3
+          else if (directItems.length === 8) score += 2
+          
+          // ステップ番号の完全性
+          if (allHaveSteps) score += 3
+          else score += 1
+          
+          // 詳細説明の完全性
+          if (allHaveDetails) score += 2
+          else score += 1
+          
+          // ステップの連続性
+          if (stepsAreSequential) score += 1
+          
+          // 基本構造要素
+          if (hasTitle) score += 1
+          if (hasDescription) score += 0.5
+          
+          return score / 10.5 // 最大10.5点で正規化
+        }
+        return 0
+      },
+      priority: 12 // enumerationより高い優先度（重要な特殊構造）
+    },
+
     // Pattern D: points型 (複数ポイント解説構造)
     {
       templateType: 'explanation2',
@@ -400,6 +458,27 @@ export class PureStructureMatchingService {
     console.log('')
 
     return winner.templateType
+  }
+
+  /**
+   * ステップ番号の連続性をチェック
+   */
+  private checkSequentialSteps(items: any[]): boolean {
+    if (!items || items.length === 0) return false
+    
+    const steps = items
+      .map(item => item.step)
+      .filter(step => typeof step === 'number')
+      .sort((a, b) => a - b)
+    
+    if (steps.length !== items.length) return false
+    
+    // 1から始まって連続している必要がある
+    for (let i = 0; i < steps.length; i++) {
+      if (steps[i] !== i + 1) return false
+    }
+    
+    return true
   }
 
   /**

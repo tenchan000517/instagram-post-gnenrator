@@ -1,7 +1,8 @@
-// ⑪シンプル型５テンプレート - タイトル、ボックスでチェックボックス、ポイント、下に解説（縦向き配置）
+// ⑪シンプル型５テンプレート - ステップ型レイアウト
 import React from 'react'
 import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
-import { CheckCircle, Circle, Award } from 'lucide-react'
+import { CheckSquare } from 'lucide-react'
+import { IconNumber1, IconNumber2, IconNumber3, IconNumber4, IconNumber5, IconNumber6, IconNumber7, IconNumber8 } from '@tabler/icons-react'
 
 interface SimpleFiveTemplateProps {
   data: TemplateData
@@ -20,18 +21,24 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
   data.checklist?.forEach((item, index) => {
     console.log(`    └─ ${index + 1}. "${item.text || item}" [${item.checked ? 'チェック済み' : '未チェック'}]`)
   })
+  console.log(`  - steps: [${data.steps?.length || 0}個]`)
+  data.steps?.forEach((step, index) => {
+    console.log(`    └─ ステップ${step.step}: "${step.title}" - "${step.description}"`)
+  })
   console.log(`  - points: [${data.points?.length || 0}個]`)
   data.points?.forEach((point, index) => {
     console.log(`    └─ ${index + 1}. "${point.description || point}"`)
   })
   console.log('================================================================================')
 
+  // ステップ数字アイコンのマッピング
+  const stepIcons = [
+    IconNumber1, IconNumber2, IconNumber3, IconNumber4,
+    IconNumber5, IconNumber6, IconNumber7, IconNumber8
+  ]
+
   return (
     <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
-      {/* 背景装飾 */}
-      <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>
-      <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-300 rounded-full translate-y-12 -translate-x-12 opacity-40"></div>
-      
       <div className="relative z-10 p-5 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-4">
@@ -54,56 +61,70 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
           })()}
         </div>
 
-        {/* 縦向きチェックリスト */}
-        <div className="flex-1 space-y-3">
-          {data.checklist?.map((item, index) => (
-            <div key={index} className="bg-white rounded-xl p-4 shadow-sm border border-blue-100">
-              <div className="text-center space-y-2">
-                <div className="flex justify-center">
-                  {item.checked ? (
-                    <CheckCircle className="w-6 h-6 text-blue-600" />
-                  ) : (
-                    <Circle className="w-6 h-6 text-gray-400" />
-                  )}
-                </div>
-                <h3 className="text-lg font-bold text-blue-800">
-                  {item.text}
-                </h3>
-                <p className="text-sm text-gray-700 leading-relaxed">
-                  {data.points?.[index]?.description || ''}
-                </p>
-              </div>
-            </div>
-          )) || (
-            // フォールバック: デフォルトのステップ
-            <>
-              <div className="bg-white rounded-xl p-4 shadow-sm border border-blue-100">
-                <div className="text-center space-y-2">
-                  <div className="flex justify-center">
-                    <CheckCircle className="w-6 h-6 text-blue-600" />
+        {/* ステップリスト */}
+        <div className="flex-1 space-y-4">
+          {data.steps?.map((step, index) => {
+            const StepIcon = stepIcons[index] || IconNumber1
+            
+            return (
+              <div key={index} className="space-y-2">
+                {/* 統合ボックス + ステップラベル（重なり） */}
+                <div className="relative">
+                  {/* 統合ボックス（タイトル + チェック + ディスクリプション） */}
+                  <div className="bg-white border-2 border-black rounded-lg p-2 pt-6">
+                    <h3 className="text-blue-600 font-bold text-lg leading-tight underline mb-3 text-center">
+                      {step.title}
+                    </h3>
+                    
+                    {/* チェック + ディスクリプション */}
+                    <div className="flex items-start gap-3">
+                      <CheckSquare className="w-8 h-8 text-red-400 flex-shrink-0 mt-0.5" />
+                      <p className="text-gray-700 text-sm leading-relaxed font-bold">
+                        {step.description}
+                      </p>
+                    </div>
                   </div>
-                  <h3 className="text-lg font-bold text-blue-800">
-                    {data.content || data.subtitle || "表面的な情報だけでは不十分"}
-                  </h3>
-                  <p className="text-sm text-gray-700 leading-relaxed">
-                    深い理解が差を生む
-                  </p>
+                  
+                  {/* ステップラベル（左上に重なり） */}
+                  <div className="absolute -top-2 -left-2 bg-green-500 px-3 py-1 rounded-md flex items-center gap-2">
+                    <span className="text-white font-medium text-sm">ステップ</span>
+                    <StepIcon className="w-5 h-5 text-white" />
+                  </div>
                 </div>
               </div>
-            </>
-          )}
+            )
+          }) || data.checklist?.map((item, index) => {
+            const StepIcon = stepIcons[index] || IconNumber1
+            
+            return (
+              <div key={index} className="space-y-2">
+                {/* 統合ボックス + ステップラベル（重なり） */}
+                <div className="relative">
+                  {/* 統合ボックス（タイトル + チェック + ディスクリプション） */}
+                  <div className="bg-white border-2 border-black rounded-lg p-4 pt-6">
+                    <h3 className="text-blue-600 font-bold text-lg leading-tight underline mb-3">
+                      {item.text}
+                    </h3>
+                    
+                    {/* チェック + ディスクリプション */}
+                    <div className="flex items-start gap-3">
+                      <CheckSquare className="w-8 h-8 text-red-500 flex-shrink-0 mt-0.5" />
+                      <p className="text-gray-700 text-sm leading-relaxed font-bold">
+                        {data.points?.[index]?.description || ''}
+                      </p>
+                    </div>
+                  </div>
+                  
+                  {/* ステップラベル（左上に重なり） */}
+                  <div className="absolute -top-2 -left-2 bg-green-300 px-3 py-1 rounded-md flex items-center gap-2">
+                    <span className="text-white font-medium text-sm">ステップ</span>
+                    <StepIcon className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+            )
+          })}
         </div>
-
-        {/* 補足説明 */}
-        {data.subtitle && (
-          <div className="mt-4 text-center">
-            <div className="bg-white rounded-2xl p-4 border-l-4 border-blue-400">
-              <p className="text-base text-blue-800 font-medium">
-                {data.subtitle}
-              </p>
-            </div>
-          </div>
-        )}
         
       </div>
     </div>

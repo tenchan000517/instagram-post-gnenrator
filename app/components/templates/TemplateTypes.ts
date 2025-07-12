@@ -87,6 +87,11 @@ export interface TemplateData {
     content: string
     items?: (string | { title?: string; content?: string })[]
   }>
+  steps?: Array<{
+    step: number
+    title: string
+    description: string
+  }>
   [key: string]: any  // For dynamic field access
 }
 
