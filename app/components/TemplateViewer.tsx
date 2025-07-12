@@ -95,6 +95,28 @@ const sampleData = {
     title: '内定獲得',
     content: '準備と実践の積み重ねが成果に',
     subtitle: '最後まで諦めない'
+  },
+  'section-items': {
+    title: '内定獲得への道：最強就活ルーティーン構築術',
+    subtitle: '長期戦を制する！心身の健康と効率的な行動習慣',
+    content: '就職活動は、計画性と継続力が鍵です。心身のバランスを保ちながら、効果的なルーティーンを確立し、内定獲得という目標へ向かいましょう。',
+    points: [
+      {
+        title: '朝の習慣で脳を活性化',
+        description: '成功者は朝の習慣を重視します。起床後1時間以内に、身支度、軽い運動、食事を済ませましょう。これらは脳を活性化し、集中力を高めます。'
+      }
+    ],
+    sections: [
+      {
+        title: '朝の習慣で脳を活性化',
+        content: '成功者は朝の習慣を重視します。起床後1時間以内に、身支度、軽い運動、食事を済ませましょう。これらは脳を活性化し、集中力を高めます。',
+        items: [
+          '起床後30分以内に、コップ一杯の水を飲む',
+          'ベッドメイキング、部屋の換気を行う', 
+          '15分程度の軽いストレッチ'
+        ]
+      }
+    ]
   }
 }
 
@@ -113,7 +135,8 @@ export default function TemplateViewer() {
     { type: 'table', name: '⑨表型', description: 'テーブル形式の情報整理' },
     { type: 'simple4', name: '⑩シンプル型４', description: 'ミニマルデザイン' },
     { type: 'simple5', name: '⑪シンプル型５', description: 'バランス重視' },
-    { type: 'simple6', name: '⑫シンプル型６', description: 'メッセージ特化' }
+    { type: 'simple6', name: '⑫シンプル型６', description: 'メッセージ特化' },
+    { type: 'section-items', name: '⑬セクション+アイテム型', description: 'コンテンツ+アクションリスト' }
   ]
   
   const currentIndex = templates.findIndex(t => t.type === currentTemplate)
@@ -141,7 +164,7 @@ export default function TemplateViewer() {
             Instagram投稿テンプレートビューワー
           </h1>
           <p className="text-gray-600">
-            12種類のテンプレートデザインを確認できます
+            13種類のテンプレートデザインを確認できます
           </p>
         </div>
         

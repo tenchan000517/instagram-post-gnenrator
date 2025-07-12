@@ -11,6 +11,7 @@ export { TableTemplate } from './TableTemplate'
 export { SimpleFourTemplate } from './SimpleFourTemplate'
 export { SimpleFiveTemplate } from './SimpleFiveTemplate'
 export { SimpleSixTemplate } from './SimpleSixTemplate'
+export { SectionItemsTemplate } from './SectionItemsTemplate'
 
 // 型定義とユーティリティ
 export * from './TemplateTypes'
@@ -29,6 +30,7 @@ import { TableTemplate } from './TableTemplate'
 import { SimpleFourTemplate } from './SimpleFourTemplate'
 import { SimpleFiveTemplate } from './SimpleFiveTemplate'
 import { SimpleSixTemplate } from './SimpleSixTemplate'
+import { SectionItemsTemplate } from './SectionItemsTemplate'
 
 import { TemplateType } from './TemplateTypes'
 
@@ -44,7 +46,8 @@ export const templateComponents = {
   table: TableTemplate,
   simple4: SimpleFourTemplate,
   simple5: SimpleFiveTemplate,
-  simple6: SimpleSixTemplate
+  simple6: SimpleSixTemplate,
+  'section-items': SectionItemsTemplate
 } as const
 
 // テンプレートレンダラー
