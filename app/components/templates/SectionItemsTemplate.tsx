@@ -8,35 +8,16 @@ interface SectionItemsTemplateProps {
 }
 
 export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
-  // 🎨 テンプレートデータ挿入ロギング - section-items
-  console.log('🎨 テンプレートデータ挿入 - section-items')
-  console.log('================================================================================')
-  console.log('📋 挿入データ詳細:')
-  console.log(`  - title: "${data.title || 'なし'}"`)
-  console.log(`  - subtitle: "${data.subtitle || 'なし'}"`)
-  console.log(`  - content: "${data.content || 'なし'}"`)
-  console.log(`  - badgeText: "${data.badgeText || 'なし'}"`)
+  // sectionsデータの取得 - 複数の場所から確認
+  // 1. data.sectionsから直接取得（テンプレートビューワー用）
+  // 2. data.contentオブジェクトから取得（実際の生成データ用）
+  const directSections = data.sections || []
+  const contentObj = typeof data.content === 'string' ? data : data.content
+  const contentSections = contentObj?.sections || []
+  const sections = directSections.length > 0 ? directSections : contentSections
   
   // pointsデータを取得（pureStructureMatchingService用）
   const points = data.points || []
-  console.log(`  - points: [${points.length}個]`)
-  points.forEach((point, index) => {
-    console.log(`    └─ ポイント ${index + 1}: "${point.title || 'タイトルなし'}"`)
-    console.log(`       └─ 説明: "${point.description?.substring(0, 50) || 'なし'}..."`)
-  })
-  
-  // フォールバック: 従来のsections構造もサポート
-  const contentObj = typeof data.content === 'string' ? data : data.content
-  const sections = contentObj?.sections || []
-  if (sections.length > 0) {
-    console.log(`  - sections: [${sections.length}個]`)
-    sections.forEach((section, index) => {
-      console.log(`    └─ セクション ${index + 1}: "${section.title || 'タイトルなし'}"`)
-      console.log(`       ├─ 内容: "${section.content?.substring(0, 50) || 'なし'}..."`)
-      console.log(`       └─ アイテム: [${section.items?.length || 0}個]`)
-    })
-  }
-  console.log('================================================================================')
 
   // points構造を優先、フォールバックでsections構造
   const mainSection = points.length > 0 
@@ -45,10 +26,6 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
   
   // アイテムリストを取得（sectionsからのみ取得可能）
   const actionItems = sections.length > 0 && sections[0].items ? sections[0].items : []
-  console.log(`  - actionItems: [${actionItems.length}個]`)
-  actionItems.forEach((item, index) => {
-    console.log(`    └─ アクション ${index + 1}: "${item}"`)
-  })
 
   return (
     <div className="w-full h-full bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
