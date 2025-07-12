@@ -463,7 +463,7 @@ ${additionalInstructions || '品質を向上させて再生成してください
       items: content.items ? content.items.map((item: any) => 
         typeof item === 'string' ? MarkdownUtils.removeMarkdown(item) : {
           title: MarkdownUtils.removeMarkdown(item.title || ''),
-          content: MarkdownUtils.removeMarkdown(item.content || '')
+          content: MarkdownUtils.removeMarkdown(item.description || item.content || '')
         }
       ) : [],
       tableData: content.tableData || { headers: [], rows: [] }
@@ -500,6 +500,14 @@ ${additionalInstructions || '品質を向上させて再生成してください
           MarkdownUtils.removeMarkdown(item.title || item.content || String(item))
         )
       }
+    }
+
+    // Handle boxes data for SimpleTwoTemplate
+    if (templateType === 'simple2' && content.items && content.items.length === 2) {
+      baseData.boxes = content.items.map((item: any) => ({
+        title: MarkdownUtils.removeMarkdown(item.title || ''),
+        content: MarkdownUtils.removeMarkdown(item.description || item.content || '')
+      }))
     }
 
     return baseData

@@ -15,6 +15,24 @@ interface StructurePattern {
 
 export class PureStructureMatchingService {
   private structurePatterns: StructurePattern[] = [
+    // Pattern 0: Table型 (最優先パターン)
+    {
+      templateType: 'table',
+      description: 'テーブル構造（最優先）',
+      structureCheck: (content) => {
+        const tableData = content?.tableData
+        return !!(tableData?.headers?.length && tableData?.rows?.length)
+      },
+      structureScore: (content) => {
+        const tableData = content?.tableData
+        if (tableData?.headers?.length && tableData?.rows?.length) {
+          return 1.0 // 完全スコア
+        }
+        return 0
+      },
+      priority: 15 // 最高優先度
+    },
+
     // Pattern A: sections + items型 (発見された主要パターン)
     {
       templateType: 'section-items',
@@ -99,7 +117,50 @@ export class PureStructureMatchingService {
       priority: 11 // section-itemsより高い優先度
     },
 
-    // Pattern C: points型 (複数ポイント解説構造)
+    // Pattern C: simple2型 (2つのポイント比較構造)
+    {
+      templateType: 'simple2',
+      description: '2つのポイント比較構造',
+      structureCheck: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        // sectionsは空で、直接itemsがちょうど2個
+        return sections.length === 0 && 
+               directItems.length === 2 &&
+               directItems.every(item => item.title && (item.description || item.content))
+      },
+      structureScore: (content) => {
+        const sections = content?.sections || []
+        const directItems = content?.items || []
+        
+        if (sections.length === 0 && directItems.length === 2) {
+          const hasTitle = !!content?.title
+          const hasDescription = !!content?.description
+          const itemsComplete = directItems.every(item => 
+            item.title && (item.description || item.content)
+          )
+          
+          let score = 0
+          // 2個ちょうどで完全スコア
+          score += 3
+          
+          // アイテムの完全性
+          if (itemsComplete) score += 2
+          else score += 1
+          
+          // 基本構造要素
+          if (hasTitle) score += 1
+          if (hasDescription) score += 0.5
+          
+          return score / 6.5 // 最大6.5点で正規化
+        }
+        return 0
+      },
+      priority: 10 // enumerationより高い優先度
+    },
+
+    // Pattern D: points型 (複数ポイント解説構造)
     {
       templateType: 'explanation2',
       description: '複数ポイント解説構造（sections→pointsパターン）',
@@ -275,12 +336,14 @@ export class PureStructureMatchingService {
     const directItems = content?.items || []
     const hasTitle = !!content?.title
     const hasDescription = !!content?.description
+    const hasTableData = !!(content?.tableData?.headers?.length && content?.tableData?.rows?.length)
     
     console.log(`  🏗️  構造詳細:`)
     console.log(`    ├─ タイトル: ${hasTitle ? '✅' : '❌'}`)
     console.log(`    ├─ 説明文: ${hasDescription ? '✅' : '❌'}`)
     console.log(`    ├─ セクション数: ${sections.length}`)
-    console.log(`    └─ 直接アイテム数: ${directItems.length}`)
+    console.log(`    ├─ 直接アイテム数: ${directItems.length}`)
+    console.log(`    └─ テーブルデータ: ${hasTableData ? '✅' : '❌'}`)
     
     if (sections.length > 0) {
       console.log(`  📦 セクション詳細:`)

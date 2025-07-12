@@ -222,3 +222,63 @@
 - コンテンツとテンプレートの最適マッチング
 - ユーザーの手動選択頻度の削減
 - より自然で効果的な投稿レイアウトの自動生成
+
+---
+
+## Issue #7: テンプレートマッチング・データ変換の重大不具合 ✅ 完了
+
+### 概要
+2025年1月12日発生。テンプレートマッチングシステムにおいて、コンテンツデータの構造分析および適切なテンプレート選択が正常に機能していない重大な問題。
+
+### 具体的問題
+1. **ページ4・7**: データ構造認識エラーで`description`フィールドが失われ、情報が大幅に削減
+2. **ページ6**: 明らかにテーブル型なのに`explanation`テンプレートに誤変換、テーブルデータ表示不能
+3. **ページ5**: 2個のアイテムに適したテンプレートがなく、`enumeration`で余白だらけの表示
+4. **全般**: `content` → `templateData` 変換時の情報損失、不適切なテンプレート自動選択
+
+### 解決状況 ✅
+**修正完了日**: 2025年1月12日
+
+#### 1. テーブルデータ認識の修正 ✅
+- **対象**: `/app/services/pureStructureMatchingService.ts:18-34`
+- **修正内容**: `table`パターンを最高優先度(15)で追加
+- **効果**: ページ6でテーブルデータが正しく表示される
+
+#### 2. データ変換での情報損失防止 ✅
+- **対象**: `/app/services/contentGeneratorService.ts:466`
+- **修正内容**: `item.description || item.content`フォールバック強化
+- **効果**: ページ4・7で詳細情報が完全保持される
+
+#### 3. 2個アイテム専用パターン追加 ✅
+- **対象**: `/app/services/pureStructureMatchingService.ts:120-161`
+- **修正内容**: `simple2`パターン追加（優先度10）+ `items`→`boxes`変換
+- **効果**: ページ5で適切な2ボックスレイアウト表示
+
+#### 4. テーブルデータ認識ログ改善 ✅
+- **対象**: `/app/services/pureStructureMatchingService.ts:296-303`
+- **修正内容**: テーブルデータ存在確認をログ出力に追加
+- **効果**: デバッグ性向上
+
+### 技術的修正詳細
+- **PureStructureMatchingService**: テーブル・simple2パターン追加、構造分析強化
+- **ContentGeneratorService**: 情報損失防止 + boxes変換追加
+- **TemplateViewer**: ページ5実データでモック更新
+
+### 解決された問題
+- ✅ ページ6: `table → explanation` 誤選択 → `table` 正選択
+- ✅ ページ4・7: `description`フィールド情報損失 → 完全保持  
+- ✅ ページ5: 余白だらけ表示 → 適切な2ボックスレイアウト
+- ✅ 全般: テーブルデータ認識失敗 → 正常認識
+
+### 詳細分析
+詳細な技術分析・ログ解析・修正案については以下を参照:
+📋 **[TEMPLATE_MATCHING_ISSUE_ANALYSIS.md](./TEMPLATE_MATCHING_ISSUE_ANALYSIS.md)**
+
+### 対象ファイル
+- `/app/services/pureStructureMatchingService.ts` ✅
+- `/app/services/contentGeneratorService.ts` ✅
+- `/app/components/TemplateViewer.tsx` ✅
+
+### 関連Issue
+- Issue #5: テンプレートシステムの包括的改善
+- Issue #6: テンプレートマッチング精度の実戦的改善
