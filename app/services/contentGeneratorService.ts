@@ -77,54 +77,46 @@ export class ContentGeneratorService {
       
       console.log('✅ ページ構造決定完了:', pageStructures.length, 'ページ')
       
-      // 2段階目: 各ページ生成
-      console.log('🎨 段階2: 構造制約生成開始...')
+      // 2段階目: 全ページ一括生成
+      console.log('🎨 段階2: 一括構造制約生成開始...')
       const structureConstrainedGenerator = new StructureConstrainedGenerator()
-      const pages: GeneratedPage[] = []
       
-      for (const [index, structure] of pageStructures.entries()) {
-        console.log(`📄 ページ${index + 1}生成中: ${structure.title}`)
-        
-        // API呼び出し間に遅延を追加（429エラー対策）
-        if (index > 0) {
-          console.log('⏳ API制限対策のため1秒待機中...')
-          await new Promise(resolve => setTimeout(resolve, 1000))
+      const generatedPages = await structureConstrainedGenerator.generateAllPagesWithConstraints(userInput, pageStructures)
+      
+      const pages: GeneratedPage[] = generatedPages.map(generatedPage => ({
+        pageNumber: generatedPage.pageNumber,
+        templateType: generatedPage.templateType,
+        templateData: this.convertToTemplateData({
+          ...generatedPage.content,
+          title: generatedPage.title
+        }, generatedPage.templateType),
+        content: {
+          title: generatedPage.title || generatedPage.content.title,
+          subtitle: generatedPage.content.subtitle,
+          description: generatedPage.content.description,
+          items: generatedPage.content.items,
+          sections: generatedPage.content.sections,
+          tableData: generatedPage.content.tableData,
+          badgeText: generatedPage.content.badgeText,
+          checklistItems: generatedPage.content.checklistItems
         }
-        
-        const generatedPage = await structureConstrainedGenerator.generatePageWithConstraints(userInput, structure)
-        
-        const page: GeneratedPage = {
-          pageNumber: index + 1,
-          templateType: generatedPage.templateType,
-          templateData: this.convertToTemplateData({
-            ...generatedPage.content,
-            title: generatedPage.title
-          }, generatedPage.templateType),
-          content: {
-            title: generatedPage.title || generatedPage.content.title,
-            subtitle: generatedPage.content.subtitle,
-            description: generatedPage.content.description,
-            items: generatedPage.content.items,
-            sections: generatedPage.content.sections,
-            tableData: generatedPage.content.tableData,
-            badgeText: generatedPage.content.badgeText,
-            checklistItems: generatedPage.content.checklistItems
-          }
-        }
-        pages.push(page)
-      }
+      }))
       
       console.log('✅ 全ページ生成完了')
       
+      // 🎯 表の自動分割処理
+      const finalPages = this.splitLongTables(pages)
+      console.log(`📊 表分割完了: ${pages.length}ページ → ${finalPages.length}ページ`)
+      
       // ハッシュタグ生成（現状維持）
-      const hashtags = await this.generateHashtags(userInput, pages)
+      const hashtags = await this.generateHashtags(userInput, finalPages)
       
       // キャプション生成（改善: 実際の生成内容を反映）
-      const caption = await this.generateCaptionWithFormat(userInput, pages)
+      const caption = await this.generateCaptionWithFormat(userInput, finalPages)
       
       const generatedContent: GeneratedContent = {
-        pages,
-        totalPages: pages.length,
+        pages: finalPages,
+        totalPages: finalPages.length,
         hashtags,
         caption,
         summary: userInput
@@ -374,175 +366,8 @@ ${contentForCaption}
     }
   }
 
-  private createContentGenerationPrompt(userInput: string): string {
-    return `
-あなたは就活・インターンシップのプロフェッショナルです。以下のユーザー入力から、Instagram投稿用の高品質なコンテンツを生成してください。
-
-【重要な制約（改善要件④対応）】
-- 事実ベースのコンテンツのみ作成（憶測・推測は一切禁止）
-- 絵文字の使用は一切禁止（テキストのみで表現）
-- タイトル、キャプション、すべてのテキストで絵文字を使用しない
-- 学生にとって実践的で価値のある情報
-- 具体的で実用的な内容
-- 高品質で専門的な内容（小学生レベルの内容は排除）
-- 1ページあたりの情報密度を最大化し、関連する複数のトピックを統合する
-- テキスト量を増やすのではなく、内容の質と実用性を向上させる
-- 各項目に具体的な数値・手法・ツールを含める
-
-【タイトル形式の制約】
-- 各ページのタイトルは必ず「〇〇：〇〇」の形式で作成する
-- コロン（：）の前後にそれぞれ意味のある単語・フレーズを配置する
-- 例：「面接対策：これだけあれば失敗しない！」「企業研究：時間がないからこそ超時短な情報収集法！」「ES作成：合格率を格段に上げる書き方！」
-- タイトルの前半はカテゴリーや分野や惹きつけるコピーなど、後半は具体的な内容や方法などその当行の有益性を示す
-
-【ユーザー入力】
-${userInput}
-
-【生成要件（密度向上対応）】
-1. 3-7ページのカルーセル投稿を作成（情報を統合してページ数を最適化）
-2. 各ページに適切なテンプレートタイプを選択
-3. 全てのテキストを動的に生成（プレースホルダー禁止）
-4. 実践的で具体的な内容
-5. 学生が今すぐ使える情報
-6. 関連する情報を統合して1つのページに集約し、情報密度を高める
-7. 各ページが独立した価値を提供しつつ、全体として統合された知識体系を構築する
-8. 曖昧な表現を避け、具体的な行動指針・数値データ・実践的ツールを含める
-
-【利用可能なテンプレートタイプ】
-
-- **enumeration**: 順序付きリスト表示（番号①②③）
-  データ構造: items配列（文字列）
-  表示形式: 番号付きリスト
-
-- **list**: カード形式リスト表示
-  データ構造: items配列（文字列）
-  表示形式: 独立したカード配置
-
-- **explanation2**: 複数セクション解説表示
-  データ構造: sections配列（title + content）
-  表示形式: タイトル付き解説ブロック
-
-- **simple3**: 2項目比較表示
-  データ構造: items配列（2個のオブジェクト、title + description）
-  表示形式: 左右2カラムレイアウト
-
-- **simple5**: ステップ番号付き表示
-  データ構造: items配列（step + title + description）
-  表示形式: ステップ番号とタイトル・説明
-
-- **simple6**: 要点整理表示
-  データ構造: description + items配列（文字列）
-  表示形式: 説明文 + 箇条書きリスト
-
-- **section-items**: セクション内リスト表示
-  データ構造: sections配列（title + content + items）
-  表示形式: セクションタイトル + 説明 + 内部リスト
-
-- **table**: テーブル形式表示
-  データ構造: tableData（headers + rows）
-  表示形式: 表形式（ヘッダー + データ行）
-
-- **title-description-only**: タイトル+長文表示
-  データ構造: title + description（長文）
-  表示形式: タイトル + 詳細説明文のみ
-
-- **checklist-enhanced**: 詳細チェックリスト表示
-  データ構造: checklistItems配列（text + description + checked）
-  表示形式: チェックボックス + 項目名 + 詳細説明
-
-- **item-n-title-content**: 構造化アイテム表示
-  データ構造: items配列（title + content オブジェクト）
-  表示形式: タイトル付きコンテンツボックス
-
-- **single-section-no-items**: 単一セクション表示
-  データ構造: title + description + sections（1個、title + content）
-  表示形式: メイン説明 + 単一セクション詳細
-
-- **two-column-section-items**: 2セクション+リスト表示
-  データ構造: sections配列（2個、各々title + content + items）
-  表示形式: 2つのセクション、各々に内部リスト付き
-
-【出力形式】
-以下のJSON形式で出力してください：
-
-{
-  "pages": [
-    {
-      "pageNumber": 1,
-      "templateType": "enumeration",
-      "content": {
-        "title": "カテゴリー：具体的な内容（必ず「〇〇：〇〇」形式）",
-        "subtitle": "副題（必要に応じて）",
-        "description": "詳細な説明",
-        "badgeText": "バッジテキスト",
-        "items": ["項目1", "項目2", "項目3"],
-        "sections": [
-          {
-            "title": "セクションタイトル",
-            "content": "セクション内容",
-            "items": ["詳細項目1", "詳細項目2"]
-          }
-        ],
-        "tableData": {
-          "headers": ["ヘッダー1", "ヘッダー2"],
-          "rows": [["データ1", "データ2"], ["データ3", "データ4"]]
-        },
-        "checklistItems": [
-          {
-            "text": "チェック項目のタイトル",
-            "description": "このチェック項目の詳細説明や実践方法",
-            "checked": false
-          }
-        ]
-      }
-    }
-  ],
-  "totalPages": 7,
-  "caption": "Instagram投稿用のキャプション",
-  "hashtags": {
-    "primary": ["#就活", "#インターン", "#キャリア"],
-    "secondary": ["#就活生", "#23卒", "#24卒"],
-    "trending": ["#就活の教科書", "#就活ハック"]
-  },
-  "summary": "生成されたコンテンツの要約"
-}
-
-【テンプレート選択指針】
-コンテンツの情報構造を分析し、最適なデータ構造と表示形式を選択してください：
-
-- 単純な順序付きリスト → enumeration
-- 並列的な項目群 → list
-- 複数のトピック解説 → explanation2
-- 2つの項目の比較 → simple3
-- 段階的なプロセス → simple5
-- 説明+要点リスト → simple6
-- セクション内にリスト → section-items
-- 表形式データ → table
-- 長文の詳細解説 → title-description-only
-- 実行可能なチェック項目 → checklist-enhanced
-- 概念の構造化説明 → item-n-title-content
-- 1つのテーマ深掘り → single-section-no-items
-- 2つのセクション+リスト → two-column-section-items
-
-【データ構造仕様】
-各テンプレートは指定されたデータ構造に厳密に従ってください。
-
-【注意事項（密度向上重要ポイント）】
-- 全てのテキストは動的に生成し、プレースホルダーは使用しない
-- 事実に基づく具体的で実用的な情報のみ提供
-- 学生が即座に活用できる内容を心がける
-- 専門性と実用性を両立させる
-- 希薄な情報は統合し、1ページあたりの価値を最大化する
-- 具体的な数値・期間・ツール名・手法名を含める（例：「3週間で」「SWOT分析を使って」「上位10%に入るための」）
-- 実践的なアクション項目を各ページに含める
-
-【キャプション生成制約】
-- キャプションにはハッシュタグを一切含めない
-- キャプションはテキストのみで構成（ハッシュタグは別セクション）
-- キャプションでは✅のみ使用可（他の絵文字は使用禁止）
-- ハッシュタグとキャプションは完全に分離して生成
-`;
-  }
+  // 🗑️ 削除: createContentGenerationPrompt は新システムでは不要
+  // PageStructureAnalyzer + StructureConstrainedGenerator の2段階フローに移行済み
 
   private createPageRegenerationPrompt(
     contentSummary: string,
@@ -614,43 +439,8 @@ ${additionalInstructions || '品質を向上させて再生成してください
 `;
   }
 
-  private parseGeneratedContent(text: string): GeneratedContent {
-    try {
-      const cleanText = text.replace(/```json\n?|```\n?/g, '').trim()
-      const parsed = JSON.parse(cleanText)
-      
-      // HashtagServiceを使用して適切なハッシュタグを生成
-      const contentForHashtags = parsed.pages.map((page: any) => 
-        `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
-      ).join(' ')
-      
-      const properHashtags = hashtagService.selectHashtags(contentForHashtags)
-      
-      return {
-        pages: parsed.pages.map((page: any) => ({
-          pageNumber: page.pageNumber,
-          templateType: page.templateType as TemplateType,
-          templateData: this.convertToTemplateData(page.content, page.templateType),
-          content: page.content
-        })),
-        totalPages: parsed.totalPages,
-        caption: parsed.caption,
-        hashtags: {
-          primary: properHashtags.large,
-          secondary: properHashtags.medium,
-          trending: properHashtags.small,
-          large: properHashtags.large,
-          medium: properHashtags.medium,
-          small: properHashtags.small,
-          all: properHashtags.all
-        },
-        summary: parsed.summary
-      }
-    } catch (error) {
-      console.error('Failed to parse generated content:', error)
-      throw new Error('生成されたコンテンツの解析に失敗しました')
-    }
-  }
+  // 🗑️ 削除: parseGeneratedContent は新システムでは不要
+  // PageStructureAnalyzer + StructureConstrainedGenerator の2段階フローに移行済み
 
   private parseRegeneratedPage(text: string, pageNumber: number): GeneratedPage {
     try {
@@ -670,125 +460,233 @@ ${additionalInstructions || '品質を向上させて再生成してください
   }
 
   private convertToTemplateData(content: any, templateType: TemplateType): TemplateData {
-    // タイトルのフォールバック処理を強化
-    let title = MarkdownUtils.removeMarkdown(content.title || content.heading || '')
+    console.log(`🔍 convertToTemplateData開始（完璧優先版） - templateType: ${templateType}`)
+    console.log(`📥 入力データ:`, JSON.stringify(content, null, 2))
+    
+    // タイトルのみ必須チェック（フォールバック）
+    let title = MarkdownUtils.removeMarkdown(content.title || '')
     if (!title || title.trim() === '') {
-      // タイトルが空の場合、説明文の最初の文を使用
-      const desc = content.description || content.content || ''
-      const firstSentence = desc.split(/[。．\n]/)[0]?.trim()
-      title = firstSentence ? MarkdownUtils.removeMarkdown(firstSentence) : 'コンテンツ'
+      title = 'コンテンツ'
       console.warn(`⚠️ タイトルが空のため自動生成: "${title}"`)
     }
 
+    // 🎯 Step 1: AIの完璧なデータをまずそのまま使用
     const baseData: TemplateData = {
       title: title,
-      content: MarkdownUtils.removeMarkdown(content.description || ''),
-      subtitle: MarkdownUtils.removeMarkdown(content.subtitle || ''),
-      badgeText: MarkdownUtils.removeMarkdown(content.badgeText || ''),
-      items: content.items ? content.items.map((item: any) => 
-        typeof item === 'string' ? MarkdownUtils.removeMarkdown(item) : {
-          title: MarkdownUtils.removeMarkdown(item.title || ''),
-          content: MarkdownUtils.removeMarkdown(item.description || item.content || '')
-        }
-      ) : [],
-      tableData: content.tableData || (content.headers && content.rows ? 
-        { headers: content.headers, rows: content.rows } : 
-        { headers: [], rows: [] })
-    }
-
-    // 新テンプレート用のデータ処理
-    if (templateType === 'title-description-only') {
-      baseData.description = MarkdownUtils.removeMarkdown(content.description || content.content || '')
-    }
-
-    // checklist-enhanced の処理は後で統一的に行う
-
-    if (templateType === 'item-n-title-content') {
-      // items が既に {title, content} 形式の場合はそのまま使用
-      if (content.items && content.items.length > 0 && typeof content.items[0] === 'object' && content.items[0].title) {
-        baseData.items = content.items.map((item: any) => ({
-          title: MarkdownUtils.removeMarkdown(item.title || ''),
-          content: MarkdownUtils.removeMarkdown(item.content || item.description || '')
-        }))
-      }
-    }
-
-    // Convert sections to points if available
-    if (content.sections && content.sections.length > 0) {
-      baseData.points = content.sections.map((section: any) => ({
-        title: MarkdownUtils.removeMarkdown(section.title || ''),
-        description: MarkdownUtils.removeMarkdown(section.content || '')
-      }))
-    }
-
-    // Convert checklist items to proper format (for all templates except checklist-enhanced)
-    if (content.checklistItems && content.checklistItems.length > 0 && templateType !== 'checklist-enhanced') {
-      baseData.checklist = content.checklistItems.map((item: any) => ({
-        text: MarkdownUtils.removeMarkdown(item.text || ''),
-        checked: false
-      }))
-    }
-
-    // Convert checklist items for checklist-enhanced template (preserve description)
-    if (templateType === 'checklist-enhanced' && content.checklistItems && content.checklistItems.length > 0) {
-      baseData.checklistItems = content.checklistItems.map((item: any) => ({
-        text: MarkdownUtils.removeMarkdown(item.text || ''),
-        description: MarkdownUtils.removeMarkdown(item.description || ''),
-        checked: false
-      }))
-    }
-
-    // Handle twoColumn data for SimpleThreeTemplate
-    if (templateType === 'simple3' && content.sections && content.sections.length >= 2) {
-      const leftItems = content.sections.slice(0, Math.ceil(content.sections.length / 2))
-      const rightItems = content.sections.slice(Math.ceil(content.sections.length / 2))
+      content: content.content ? MarkdownUtils.removeMarkdown(content.content) : '',
+      description: content.description ? MarkdownUtils.removeMarkdown(content.description) : '',
+      subtitle: content.subtitle ? MarkdownUtils.removeMarkdown(content.subtitle) : '',
+      badgeText: content.badgeText ? MarkdownUtils.removeMarkdown(content.badgeText) : '',
       
-      baseData.twoColumn = {
-        left: leftItems.map((item: any) => typeof item === 'string' ? 
-          MarkdownUtils.removeMarkdown(item) : 
-          MarkdownUtils.removeMarkdown(item.title || item.content || String(item))
-        ),
-        right: rightItems.map((item: any) => typeof item === 'string' ? 
-          MarkdownUtils.removeMarkdown(item) : 
-          MarkdownUtils.removeMarkdown(item.title || item.content || String(item))
-        )
+      // AIの完璧なデータをそのまま使用（完璧なら修正しない）
+      items: content.items || [],
+      sections: content.sections || [],
+      steps: content.steps || [],
+      checklistItems: content.checklistItems || [],
+      tableData: content.tableData || { headers: [], rows: [] },
+      points: content.points || [],
+      checklist: content.checklist || [],
+      twoColumn: content.twoColumn || { left: [], right: [] }
+    }
+
+    // 🎯 Step 2: 空配列や不足がある場合のみ代替処理
+    switch (templateType) {
+      case 'item-n-title-content':
+        // itemsが空の場合の代替処理
+        if (baseData.items?.length === 0) {
+          if (Array.isArray(content.content)) {
+            console.log('⚠️ items空配列検出 - content配列から変換')
+            baseData.items = content.content.map((item: any, index: number) => ({
+              title: `ポイント${index + 1}`,
+              content: MarkdownUtils.removeMarkdown(item)
+            }))
+          } else if (typeof content.content === 'string' && content.content.trim()) {
+            console.log('⚠️ items空配列検出 - content文字列を分割して変換')
+            // 改行や段落で分割してitemsに変換
+            const paragraphs = content.content.split(/\n\n+/).filter((paragraph: string) => paragraph.trim())
+            baseData.items = paragraphs.map((paragraph: string, index: number) => ({
+              title: `ポイント${index + 1}`,
+              content: MarkdownUtils.removeMarkdown(paragraph.trim())
+            }))
+          }
+        }
+        break
+
+      case 'two-column-section-items':
+        // twoColumnが空で、column1Items/column2Itemsがある場合のみ変換
+        if (baseData.twoColumn && baseData.twoColumn.left?.length === 0 && baseData.twoColumn.right?.length === 0) {
+          if (content.column1Items || content.column2Items) {
+            console.log('⚠️ twoColumn空配列検出 - column1Items/column2Itemsから変換')
+            baseData.twoColumn = {
+              left: content.column1Items || [],
+              right: content.column2Items || []
+            }
+          }
+        }
+        break
+
+      case 'checklist-enhanced':
+        // checklistItemsが空で、checklistがある場合のみ変換
+        if (baseData.checklistItems?.length === 0 && content.checklist && Array.isArray(content.checklist)) {
+          console.log('⚠️ checklistItems空配列検出 - checklistから変換')
+          baseData.checklistItems = content.checklist.map((item: any) => ({
+            text: item.item || item.text || item,
+            description: item.description || '',
+            checked: false
+          }))
+          baseData.checklist = content.checklist
+        }
+        break
+
+      case 'list':
+        // itemsが空で、listItemsがある場合のみ変換
+        if (baseData.items?.length === 0 && content.listItems) {
+          console.log('⚠️ items空配列検出 - listItemsから変換')
+          baseData.items = content.listItems
+        }
+        break
+    }
+
+    console.log(`📤 convertToTemplateData完了（完璧優先版） - templateType: ${templateType}`)
+    console.log(`📤 出力データ:`, JSON.stringify(baseData, null, 2))
+    
+    // データ品質チェック
+    const hasValidData = this.checkTemplateDataQuality(baseData, templateType)
+    if (hasValidData) {
+      console.log('✅ 完璧なデータまたは適切に修正されたデータを使用')
+    } else {
+      console.log('⚠️ データ不足が残っていますが、処理を継続')
+    }
+    console.log('================================================================================')
+    
+    return baseData
+  }
+
+  private checkTemplateDataQuality(data: TemplateData, templateType: TemplateType): boolean {
+    switch (templateType) {
+      case 'section-items':
+        return (data.sections?.length || 0) > 0 || (data.items?.length || 0) > 0
+      case 'item-n-title-content':
+        return (data.items?.length || 0) > 0
+      case 'two-column-section-items':
+        return (data.twoColumn?.left?.length || 0) > 0 || (data.twoColumn?.right?.length || 0) > 0 || (data.sections?.length || 0) > 0
+      case 'checklist-enhanced':
+        return (data.checklistItems?.length || 0) > 0
+      case 'list':
+        return (data.items?.length || 0) > 0
+      default:
+        return true
+    }
+  }
+
+  /**
+   * 長い表を複数ページに自動分割
+   */
+  private splitLongTables(pages: any[]): any[] {
+    const result: any[] = []
+    let currentPageNumber = 1
+
+    for (const page of pages) {
+      if (page.templateType === 'table' && 
+          page.templateData?.tableData?.rows?.length > 5) {
+        
+        const originalRows = page.templateData.tableData.rows
+        const headers = page.templateData.tableData.headers
+        const rowsPerPage = 5
+        
+        console.log(`📊 表分割開始: ${originalRows.length}行を${rowsPerPage}行ずつに分割`)
+        
+        // 5行ずつに分割
+        for (let i = 0; i < originalRows.length; i += rowsPerPage) {
+          const pageRows = originalRows.slice(i, i + rowsPerPage)
+          
+          const splitPage = {
+            ...page,
+            pageNumber: currentPageNumber++,
+            templateData: {
+              ...page.templateData,
+              tableData: {
+                headers: headers,
+                rows: pageRows
+              }
+            }
+          }
+          
+          result.push(splitPage)
+          console.log(`📄 表ページ${splitPage.pageNumber}作成: ${pageRows.length}行`)
+        }
+      } else {
+        // 表以外のページはそのまま
+        result.push({
+          ...page,
+          pageNumber: currentPageNumber++
+        })
       }
     }
 
-    // Handle boxes data for SimpleTwoTemplate
-    if (templateType === 'simple3' && content.items && content.items.length === 2) {
-      baseData.boxes = content.items.map((item: any) => ({
-        title: MarkdownUtils.removeMarkdown(item.title || ''),
-        content: MarkdownUtils.removeMarkdown(item.description || item.content || '')
-      }))
-    }
+    return result
+  }
 
-    // Handle steps data for SimpleFiveTemplate
-    if (templateType === 'simple5' && content.items) {
-      baseData.steps = content.items.map((item: any) => ({
-        step: item.step,
-        title: MarkdownUtils.removeMarkdown(item.title || ''),
-        description: MarkdownUtils.removeMarkdown(item.description || item.content || '')
-      }))
+  /**
+   * columns配列をsections配列に変換（two-column-section-items用）
+   */
+  private convertColumnsToSections(columns: any[]): any[] {
+    if (!Array.isArray(columns) || columns.length === 0) {
+      return []
     }
+    
+    return columns.map(column => ({
+      title: column.title || '',
+      content: column.content || '',
+      items: column.items || []
+    }))
+  }
 
-    // Handle INDEX template data
-    if (templateType === 'index') {
-      // INDEX テンプレートは外部で IndexGeneratorService を使って生成されるため、
-      // ここでは基本的なデータをそのまま使用
-      baseData.content = MarkdownUtils.removeMarkdown(content.content || content.description || '')
-      baseData.items = content.items ? content.items.map((item: any) => 
-        typeof item === 'string' ? MarkdownUtils.removeMarkdown(item) : MarkdownUtils.removeMarkdown(String(item))
-      ) : []
+  /**
+   * items配列をsteps配列に変換（simple5用）
+   */
+  private convertItemsToSteps(items: any[], templateType: string): any[] {
+    if (templateType !== 'simple5' || !Array.isArray(items) || items.length === 0) {
+      return []
     }
+    
+    return items.map((item, index) => ({
+      step: index + 1,
+      title: typeof item === 'string' ? item : item.title || `ステップ${index + 1}`,
+      description: typeof item === 'string' ? '' : item.content || item.description || ''
+    }))
+  }
 
-    return baseData
+  /**
+   * checklist配列をchecklistItems配列に変換（checklist-enhanced用）
+   */
+  private convertChecklistToItems(checklist: any[]): any[] {
+    if (!Array.isArray(checklist) || checklist.length === 0) {
+      return []
+    }
+    
+    return checklist.map(item => {
+      if (typeof item === 'string') {
+        // "□ テキスト"形式から"□"を除去
+        const text = item.replace(/^□\s*/, '')
+        return {
+          text: text,
+          description: '',
+          checked: false
+        }
+      }
+      return {
+        text: item.text || item.item || '',
+        description: item.description || '',
+        checked: item.checked || false
+      }
+    })
   }
 
   /**
    * ハッシュタグ生成（新システム用）
    */
-  private async generateHashtags(userInput: string, pages: GeneratedPage[]): Promise<GeneratedContent['hashtags']> {
+  private async generateHashtags(_userInput: string, pages: GeneratedPage[]): Promise<GeneratedContent['hashtags']> {
     const contentForHashtags = pages.map(page => 
       `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
     ).join(' ')

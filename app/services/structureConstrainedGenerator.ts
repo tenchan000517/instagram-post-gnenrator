@@ -1,6 +1,7 @@
 import { PageStructure, GeneratedPage } from '../types/pageStructure'
 import { TemplateType } from '../components/templates/TemplateTypes'
 import { getGeminiModel } from './geminiClientSingleton'
+import { TemplateStructureDefinitions } from './templateStructureDefinitions'
 
 export class StructureConstrainedGenerator {
   private model: any
@@ -9,14 +10,108 @@ export class StructureConstrainedGenerator {
     this.model = getGeminiModel()
   }
 
+  async generateAllPagesWithConstraints(
+    originalInput: string,
+    pageStructures: PageStructure[]
+  ): Promise<GeneratedPage[]> {
+    
+    // 各テンプレートの詳細構造要件を動的に生成
+    const templateStructureInstructions = pageStructures.map((ps, i) => {
+      const structurePrompt = TemplateStructureDefinitions.generateStructurePrompt(ps.template)
+      return `
+========================================
+ページ${i + 1}: ${ps.title}
+テンプレート: ${ps.template}
+テーマ: ${ps.theme}
+
+${structurePrompt}
+========================================`
+    }).join('\n')
+
+    const prompt = `
+以下の入力内容と決定済みページ構造に基づいて、全ページのコンテンツを一括生成してください。
+
+【元入力内容】
+${originalInput}
+
+【決定済みページ構造 + 完全なテンプレート構造要件】
+${templateStructureInstructions}
+
+【🚨 最重要制約 🚨】
+- 元入力の内容のみ使用（推測・憶測・外部情報禁止）
+- 各テンプレートの構造要件に100%適合（フィールド名、データ型を正確に）
+- 上記の「よくある間違い」を絶対に犯さない
+- Instagram特化の簡潔で有益なコンテンツ
+- 絵文字使用禁止（テキストのみ）
+
+【出力形式JSON】
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "title": "ページタイトル",
+      "templateType": "指定テンプレート",
+      "content": {
+        // 上記の構造要件に100%適合した内容
+      }
+    }
+  ]
+}
+
+🎯 重要：各テンプレートの「データ構造」と「実際の例」を参考に、正確なJSON構造で生成してください。
+`
+
+    try {
+      const result = await this.model.generateContent(prompt)
+      const response = await result.response
+      const text = response.text()
+      
+      console.log('🎯 StructureConstrainedGenerator - 一括生成レスポンス:', text)
+      
+      const cleanText = text.replace(/```json\n?|```\n?/g, '').trim()
+      const parsed = JSON.parse(cleanText)
+      
+      // pageNumberを正しく設定
+      const pagesWithPageNumbers = parsed.pages.map((page: any, index: number) => ({
+        ...page,
+        pageNumber: index + 1
+      }))
+      
+      return pagesWithPageNumbers as GeneratedPage[]
+    } catch (error: any) {
+      console.error('一括生成エラー:', error)
+      
+      // フォールバック: 個別生成
+      console.log('🔄 個別生成にフォールバック')
+      const pages: GeneratedPage[] = []
+      for (const [index, structure] of pageStructures.entries()) {
+        const page = await this.generatePageWithConstraints(originalInput, structure)
+        // pageNumberを正しく設定
+        page.pageNumber = index + 1
+        pages.push(page)
+      }
+      return pages
+    }
+  }
+
   async generatePageWithConstraints(
     originalInput: string,
     pageStructure: PageStructure
   ): Promise<GeneratedPage> {
     
+    // 指定されたテンプレートの詳細構造要件を取得
+    const structurePrompt = TemplateStructureDefinitions.generateStructurePrompt(pageStructure.template)
+    
     const prompt = `
 【元入力内容】
 ${originalInput}
+
+【ページ情報】
+タイトル: ${pageStructure.title}
+テンプレート: ${pageStructure.template}
+テーマ: ${pageStructure.theme}
+
+${structurePrompt}
 
 【Instagram投稿向けコンテンツ有益性要求】
 - 小学生レベルの常識は除外、ただし専門用語の羅列も禁止
@@ -28,8 +123,9 @@ ${originalInput}
 
 【Instagram特化の情報密度要求】
 - 1文で核心を伝える簡潔性（ブログ的長文は禁止）
-- 要点の凝縮（無駄な前置きや説明は完全削除）
-- 3秒以内で要点把握できる瞬間的理解度
+- checklist項目は1行20文字以内、全体で4-5項目に制限
+- 読者が実際に行動できる具体的な手順や方法を含める
+- テンプレート構造に応じた適切な情報量で充実させる
 - 専門知識を分かりやすく噛み砕いた表現
 
 【Instagram適切レベルの抽出基準例】
@@ -52,16 +148,21 @@ ${originalInput}
 - ${pageStructure.template}テンプレート構造に適合
 - コンテンツ量は現状維持（レイアウトをはみ出さない）
 
-【${pageStructure.template}構造要件】
-${this.getTemplateStructureRequirements(pageStructure.template)}
+【${pageStructure.template}完全構造要件】
+${TemplateStructureDefinitions.generateStructurePrompt(pageStructure.template)}
 
-【出力形式】
+【📝 厳密な出力形式指示】
+🚨 重要：${pageStructure.template}テンプレートの必須フィールドを完全に守ってください。
+
+${this.getTemplateSpecificInstructions(pageStructure.template)}
+
 有効なJSON形式で回答してください。文字列内に引用符が含まれる場合は必ずエスケープ（\"）してください。
 {
   "title": "${pageStructure.title}",
   "templateType": "${pageStructure.template}",
   "content": {
-    // テンプレート構造に適した有益性の高い内容
+    // 上記の${pageStructure.template}テンプレート専用構造に100%適合した内容
+    // 必須フィールドを絶対に漏らさない
     // 注意: 文字列内の引用符は \"これは\\\"引用\\\"です\" のようにエスケープ
   }
 }
@@ -100,7 +201,7 @@ ${this.getTemplateStructureRequirements(pageStructure.template)}
       } catch (e) {
         // パースエラーの場合、問題のある引用符をエスケープ
         // 値の中の引用符をエスケープ（キーと値の区切りは除外）
-        jsonText = jsonText.replace(/:(\s*)"([^"]*)"([^"]*)"([^"]*)"(\s*[,}])/g, (match, p1, p2, p3, p4, p5) => {
+        jsonText = jsonText.replace(/:(\s*)"([^"]*)"([^"]*)"([^"]*)"(\s*[,}])/g, (match: string, p1: string, p2: string, p3: string, p4: string, p5: string) => {
           // : "値は"これ"です", → : "値は\"これ\"です",
           return `:${p1}"${p2}\\"${p3}\\"${p4}"${p5}`;
         });
@@ -130,7 +231,8 @@ ${this.getTemplateStructureRequirements(pageStructure.template)}
             title: pageStructure.title || 'タイトル',
             description: '内容を生成中にエラーが発生しました。',
             items: []
-          }
+          },
+          pageNumber: 1 // デフォルト値、呼び出し元で正しく設定される
         };
       }
       
@@ -139,7 +241,8 @@ ${this.getTemplateStructureRequirements(pageStructure.template)}
       return {
         title: parsed.title,
         templateType: parsed.templateType as TemplateType,
-        content: parsed.content
+        content: parsed.content,
+        pageNumber: 1 // デフォルト値、呼び出し元で正しく設定される
       }
     } catch (error: any) {
       console.error('StructureConstrainedGenerator error:', error)
@@ -161,7 +264,8 @@ ${this.getTemplateStructureRequirements(pageStructure.template)}
             title: pageStructure.title || 'タイトル',
             description: 'コンテンツ生成中にエラーが発生しました。',
             items: []
-          }
+          },
+          pageNumber: 1 // デフォルト値、呼び出し元で正しく設定される
         };
       }
       
@@ -169,32 +273,114 @@ ${this.getTemplateStructureRequirements(pageStructure.template)}
     }
   }
 
-  private getTemplateStructureRequirements(template: string): string {
-    const requirements: Record<string, string> = {
-      'table': `比較テーブル構造（必須）:
-{
-  "headers": ["列1見出し", "列2見出し", "列3見出し"],
-  "rows": [
-    ["行1データ1", "行1データ2", "行1データ3"],
-    ["行2データ1", "行2データ2", "行2データ3"],
-    ["行3データ1", "行3データ2", "行3データ3"]
-  ]
-}
-※headers配列とrows配列は必須。最低3行以上のデータを含む。`,
-      'simple5': 'ステップ形式 - 3-5個のアクション項目。step + title + descriptionの配列',
-      'section-items': '1セクション + 3-7個のアクション項目。sections配列（title + content + items）',
-      'two-column-section-items': '2つのセクション + 各々に項目。sections配列（2個、各々title + content + items）',
-      'checklist-enhanced': '詳細チェックリスト - 各項目に説明付き。checklistItems配列（text + description）',
-      'item-n-title-content': `独立コンセプトボックス構造（必須）:
-{
-  "items": [
-    {"title": "タイトル1", "content": "説明1"},
-    {"title": "タイトル2", "content": "説明2"},
-    {"title": "タイトル3", "content": "説明3"}
-  ]
-}
-※items配列は必須。最低3個以上のtitle+contentオブジェクトを含む。`
+  /**
+   * テンプレート固有の詳細指示を生成
+   */
+  private getTemplateSpecificInstructions(templateType: string): string {
+    switch (templateType) {
+      case 'item-n-title-content':
+        return `
+🎯 item-n-title-content専用指示：
+✅ 必須："items"配列（2-6個のオブジェクト）
+✅ 各itemオブジェクト：{"title": "項目名", "content": "詳細内容"}
+❌ 禁止：content単体、item_n、content2/content3/content4形式
+❌ 禁止：items配列を文字列配列にする
+
+正しい例：
+"items": [
+  {"title": "ポイント1", "content": "詳細説明1"},
+  {"title": "ポイント2", "content": "詳細説明2"}
+]`
+
+      case 'section-items':
+        return `
+🎯 section-items専用指示：
+✅ 必須："sections"配列（通常1個のオブジェクト）
+✅ sectionsオブジェクト：{"title": "セクション名", "content": "説明", "items": ["項目1", "項目2"]}
+❌ 禁止：items直接配列、introduction、sectionsなしの構造
+
+正しい例：
+"sections": [{
+  "title": "重要ポイント",
+  "content": "以下の項目が重要です",
+  "items": ["項目1", "項目2", "項目3"]
+}]`
+
+      case 'two-column-section-items':
+        return `
+🎯 two-column-section-items専用指示：
+✅ 必須："sections"配列（必ず2個のオブジェクト）
+✅ 各sectionsオブジェクト：{"title": "セクション名", "content": "説明", "items": ["項目1", "項目2"]}
+❌ 禁止：column1/column2、left_column/right_column、sectionsが2個以外
+
+正しい例：
+"sections": [
+  {"title": "左側タイトル", "content": "左側説明", "items": ["左項目1", "左項目2"]},
+  {"title": "右側タイトル", "content": "右側説明", "items": ["右項目1", "右項目2"]}
+]`
+
+      case 'checklist-enhanced':
+        return `
+🎯 checklist-enhanced専用指示：
+✅ 必須："checklistItems"配列（3-8個のオブジェクト）
+✅ 各checklistItemオブジェクト：{"text": "項目名", "description": "詳細", "checked": false}
+❌ 禁止：checklist、items、checklistItemsなしの構造
+
+正しい例：
+"checklistItems": [
+  {"text": "項目1", "description": "詳細説明1", "checked": false},
+  {"text": "項目2", "description": "詳細説明2", "checked": false}
+]`
+
+      case 'simple5':
+        return `
+🎯 simple5専用指示：
+✅ 必須："steps"配列（3-6個のオブジェクト）
+✅ 各stepオブジェクト：{"step": 数値, "title": "ステップ名", "description": "説明"}
+❌ 禁止：items、text1/text2/text3形式、stepなしの構造
+
+正しい例：
+"steps": [
+  {"step": 1, "title": "ステップ1", "description": "説明1"},
+  {"step": 2, "title": "ステップ2", "description": "説明2"}
+]`
+
+      case 'list':
+        return `
+🎯 list専用指示：
+✅ 必須："items"配列（3-8個の文字列）
+❌ 禁止：itemsをオブジェクト配列にする、checklistItemsとの混同
+
+正しい例：
+"items": ["項目1", "項目2", "項目3", "項目4"]`
+
+      case 'table':
+        return `
+🎯 table専用指示：
+✅ 必須："tableData"オブジェクト（headers配列、rows配列）
+✅ tableData構造：{"headers": ["列1", "列2"], "rows": [["データ1", "データ2"]]}
+❌ 禁止：table、tableDataなしの構造
+
+正しい例：
+"tableData": {
+  "headers": ["項目", "内容"],
+  "rows": [["データ1", "内容1"], ["データ2", "内容2"]]
+}`
+
+      case 'title-description-only':
+        return `
+🎯 title-description-only専用指示：
+✅ 必須："description"フィールド（100-300文字）
+❌ 禁止：items、sections、tableDataなど他の配列/オブジェクト
+
+正しい例：
+"description": "詳細な説明文が100文字以上300文字以内で記載されます..."`
+
+      default:
+        return `テンプレート「${templateType}」の専用指示が定義されていません。基本構造に従ってください。`
     }
-    return requirements[template] || 'テンプレート構造に適合する内容を生成してください'
   }
+
+  // 動的テンプレート構造定義システムに移行済み
+  // getTemplateStructureRequirements は TemplateStructureDefinitions.generateStructurePrompt に置き換え
 }

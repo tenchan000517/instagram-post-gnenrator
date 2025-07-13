@@ -3,8 +3,8 @@ export class MarkdownUtils {
   /**
    * マークダウン記法を除去する
    */
-  static removeMarkdown(text: string): string {
-    if (!text) return text
+  static removeMarkdown(text: string | any): string {
+    if (!text || typeof text !== 'string') return String(text || '')
     
     return text
       // 絵文字を完全除去（結合文字・修飾子含む）

@@ -14,13 +14,22 @@ export const PAGE_NUMBER_ICONS = {
   9: MdFilter9,
 } as const
 
-// タイトルを「：」で分割してバッジとタイトルに分ける関数
+// タイトルを「：」または「！」で分割してバッジとタイトルに分ける関数
 export const splitTitleForBadge = (title: string) => {
   if (title && title.includes('：')) {
     const parts = title.split('：')
     return {
       badge: parts[0].trim(),
       title: parts[1].trim()
+    }
+  }
+  if (title && title.includes('！')) {
+    const parts = title.split('！')
+    if (parts.length >= 2 && parts[1].trim()) {
+      return {
+        badge: parts[1].trim(),
+        title: parts[0].trim() + '！'
+      }
     }
   }
   return {

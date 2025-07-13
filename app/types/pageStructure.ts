@@ -18,6 +18,7 @@ export type PremiumTemplateType =
   | 'item-n-title-content'       // 独立概念ボックス構造
 
 export interface GeneratedPage {
+  pageNumber: number
   title: string
   templateType: TemplateType
   content: {
