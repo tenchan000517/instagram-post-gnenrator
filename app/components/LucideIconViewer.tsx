@@ -219,7 +219,7 @@ export default function LucideIconViewer() {
           <div className="bg-white rounded-xl shadow-lg p-8">
             <div className="text-center mb-6">
               <h3 className="text-lg font-medium text-gray-800 mb-4">
-                選択中のアイコン: {selectedIcon}
+                選択中のアイコン: {selectedIcon.name}
               </h3>
               <div className="flex justify-center items-center mb-4">
                 <div className="w-32 h-32 bg-blue-50 rounded-xl flex items-center justify-center border-2 border-blue-200">
@@ -251,25 +251,25 @@ export default function LucideIconViewer() {
             <div className="space-y-4">
               <div className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
                 <div className="text-blue-600">
-                  {React.createElement((LucideIcons as any)[selectedIcon], { className: "w-4 h-4" })}
+                  {React.createElement((LucideIcons as any)[selectedIcon.name], { className: "w-4 h-4" })}
                 </div>
                 <span className="text-sm">w-4 h-4 (16px)</span>
               </div>
               <div className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
                 <div className="text-blue-600">
-                  {React.createElement((LucideIcons as any)[selectedIcon], { className: "w-5 h-5" })}
+                  {React.createElement((LucideIcons as any)[selectedIcon.name], { className: "w-5 h-5" })}
                 </div>
                 <span className="text-sm">w-5 h-5 (20px)</span>
               </div>
               <div className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
                 <div className="text-blue-600">
-                  {React.createElement((LucideIcons as any)[selectedIcon], { className: "w-6 h-6" })}
+                  {React.createElement((LucideIcons as any)[selectedIcon.name], { className: "w-6 h-6" })}
                 </div>
                 <span className="text-sm">w-6 h-6 (24px) - 推奨</span>
               </div>
               <div className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
                 <div className="text-blue-600">
-                  {React.createElement((LucideIcons as any)[selectedIcon], { className: "w-8 h-8" })}
+                  {React.createElement((LucideIcons as any)[selectedIcon.name], { className: "w-8 h-8" })}
                 </div>
                 <span className="text-sm">w-8 h-8 (32px)</span>
               </div>
@@ -281,25 +281,25 @@ export default function LucideIconViewer() {
             <div className="grid grid-cols-2 gap-2">
               <div className="flex items-center gap-2 p-2 bg-gray-50 rounded">
                 <div className="text-blue-500">
-                  {React.createElement((LucideIcons as any)[selectedIcon], { className: "w-5 h-5" })}
+                  {React.createElement((LucideIcons as any)[selectedIcon.name], { className: "w-5 h-5" })}
                 </div>
                 <span className="text-xs">blue-500</span>
               </div>
               <div className="flex items-center gap-2 p-2 bg-gray-50 rounded">
                 <div className="text-green-500">
-                  {React.createElement((LucideIcons as any)[selectedIcon], { className: "w-5 h-5" })}
+                  {React.createElement((LucideIcons as any)[selectedIcon.name], { className: "w-5 h-5" })}
                 </div>
                 <span className="text-xs">green-500</span>
               </div>
               <div className="flex items-center gap-2 p-2 bg-gray-50 rounded">
                 <div className="text-red-500">
-                  {React.createElement((LucideIcons as any)[selectedIcon], { className: "w-5 h-5" })}
+                  {React.createElement((LucideIcons as any)[selectedIcon.name], { className: "w-5 h-5" })}
                 </div>
                 <span className="text-xs">red-500</span>
               </div>
               <div className="flex items-center gap-2 p-2 bg-gray-50 rounded">
                 <div className="text-gray-600">
-                  {React.createElement((LucideIcons as any)[selectedIcon], { className: "w-5 h-5" })}
+                  {React.createElement((LucideIcons as any)[selectedIcon.name], { className: "w-5 h-5" })}
                 </div>
                 <span className="text-xs">gray-600</span>
               </div>
@@ -315,21 +315,21 @@ export default function LucideIconViewer() {
           <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 gap-4">
             {currentIcons.map((iconName) => (
               <button
-                key={iconName}
+                key={iconName.name}
                 onClick={() => setSelectedIcon(iconName)}
                 className={`p-4 rounded-lg border-2 transition-all hover:shadow-md ${
-                  selectedIcon === iconName
+                  selectedIcon.name === iconName.name
                     ? 'border-blue-500 bg-blue-50'
                     : 'border-gray-200 hover:border-gray-300'
                 }`}
-                title={iconName}
+                title={iconName.name}
               >
                 <div className="flex flex-col items-center gap-2">
-                  <div className={`${selectedIcon === iconName ? 'text-blue-600' : 'text-gray-600'}`}>
-                    {getSmallIconComponent(iconName)}
+                  <div className={`${selectedIcon.name === iconName.name ? 'text-blue-600' : 'text-gray-600'}`}>
+                    {getIconComponent(iconName, "w-5 h-5")}
                   </div>
                   <span className="text-xs text-gray-500 text-center break-all">
-                    {iconName}
+                    {iconName.name}
                   </span>
                 </div>
               </button>

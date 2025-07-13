@@ -171,7 +171,8 @@ export class TemplateRecommendationService {
   private static evaluateAllTemplates(content: string, analysis: any): TemplateRecommendation[] {
     const templateTypes: TemplateType[] = [
       'enumeration', 'explanation2', 'table', 'section-items', 'list',
-      'simple3', 'simple5', 'simple6', 'two-column-section-items'
+      'simple3', 'simple5', 'simple6', 'two-column-section-items',
+      'title-description-only', 'checklist-enhanced', 'item-n-title-content'
     ]
 
     return templateTypes.map(templateType => 
@@ -294,6 +295,51 @@ export class TemplateRecommendationService {
         }
         break
 
+      case 'title-description-only':
+        if (analysis.contentLength < 150) {
+          fitScore += 50
+          reason += '簡潔なメッセージです'
+        }
+        if (!analysis.hasLists && !analysis.hasSections) {
+          fitScore += 40
+          reason += '、シンプルな構造です'
+        }
+        if (analysis.structureType === 'simple-text') {
+          fitScore += 30
+          reason += '、タイトル+説明の理想形です'
+        }
+        break
+
+      case 'checklist-enhanced':
+        if (analysis.hasLists) {
+          fitScore += 60
+          reason += 'チェックリスト構造があります'
+        }
+        const checklistKeywords = ['チェック', '確認', 'タスク', '手順', '準備']
+        const checklistMatches = checklistKeywords.filter(keyword => content.includes(keyword))
+        if (checklistMatches.length > 0) {
+          fitScore += 40
+          reason += `、チェックリスト系キーワードが含まれています`
+        }
+        break
+
+      case 'item-n-title-content':
+        if (analysis.hasSections && analysis.contentLength > 200) {
+          fitScore += 50
+          reason += '複数のトピックがあります'
+        }
+        if (analysis.structureType === 'sectioned-content') {
+          fitScore += 35
+          reason += '、セクション化された構造です'
+        }
+        const conceptKeywords = ['ポイント', '要素', 'カテゴリ', '選択', '種類']
+        const conceptMatches = conceptKeywords.filter(keyword => content.includes(keyword))
+        if (conceptMatches.length > 0) {
+          fitScore += 25
+          reason += `、コンセプト系キーワードが含まれています`
+        }
+        break
+
       default:
         // simple系テンプレート
         if (analysis.contentLength < 200) {
@@ -363,7 +409,11 @@ export class TemplateRecommendationService {
       simple3: [50, 200],
       simple5: [80, 350],
       simple6: [100, 450],
-      'two-column-section-items': [200, 600]
+      'two-column-section-items': [200, 600],
+      'title-description-only': [30, 150],
+      'checklist-enhanced': [150, 500],
+      'item-n-title-content': [200, 600],
+      'single-section-no-items': [150, 400]
     }
     
     const [min, max] = optimalLengths[templateType]
@@ -388,7 +438,11 @@ export class TemplateRecommendationService {
       simple3: (!analysis.hasLists && !analysis.hasSections) ? 15 : 5,
       simple5: 10,
       simple6: 10,
-      'two-column-section-items': 10
+      'two-column-section-items': 10,
+      'title-description-only': (!analysis.hasLists && !analysis.hasSections) ? 15 : 5,
+      'checklist-enhanced': analysis.hasLists ? 15 : 5,
+      'item-n-title-content': analysis.hasSections ? 15 : 5,
+      'single-section-no-items': analysis.hasSections && !analysis.hasLists ? 15 : 5
     }
     
     return complexityScores[templateType] || 5
@@ -461,7 +515,11 @@ export class TemplateRecommendationService {
       simple3: '簡潔なポイント形式',
       simple5: '核心要素強調',
       simple6: 'メッセージ型表現',
-      'two-column-section-items': '2カラムセクション形式'
+      'two-column-section-items': '2カラムセクション形式',
+      'title-description-only': 'タイトル+説明のシンプル構成',
+      'checklist-enhanced': 'チェックリスト+詳細説明付き',
+      'item-n-title-content': '独立ボックス形式で構成',
+      'single-section-no-items': '単一セクション詳細解説形式'
     }
 
     return `${templateDescriptions[templateType]}\n→ ${contentSummary}`

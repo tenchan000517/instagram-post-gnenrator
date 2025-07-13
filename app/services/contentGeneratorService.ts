@@ -249,6 +249,12 @@ ${contentForCaption}
 - テキスト量を増やすのではなく、内容の質と実用性を向上させる
 - 各項目に具体的な数値・手法・ツールを含める
 
+【タイトル形式の制約】
+- 各ページのタイトルは必ず「〇〇：〇〇」の形式で作成する
+- コロン（：）の前後にそれぞれ意味のある単語・フレーズを配置する
+- 例：「面接対策：これだけあれば失敗しない！」「企業研究：時間がないからこそ超時短な情報収集法！」「ES作成：合格率を格段に上げる書き方！」
+- タイトルの前半はカテゴリーや分野や惹きつけるコピーなど、後半は具体的な内容や方法などその当行の有益性を示す
+
 【ユーザー入力】
 ${userInput}
 
@@ -263,18 +269,58 @@ ${userInput}
 8. 曖昧な表現を避け、具体的な行動指針・数値データ・実践的ツールを含める
 
 【利用可能なテンプレートタイプ】
-- enumeration: 列挙型（①②③のリスト）
-- explanation2: 説明型（概要→詳細解説）
-- explanation2: 解説型2（複数のタイトル→解説）
-- list: リスト型（カード形式のリスト）
-- simple: シンプル型（タイトル→箇条書き）
-- simple3: シンプル型2（2つのポイント）
-- simple3: シンプル型3（対比解説）
-- simple5: シンプル型4（チェックリスト）
-- simple5: シンプル型5（ステップ確認）
-- simple6: シンプル型6（6つのポイント）
-- section-items: ストーリー型（問題提起→解決）
-- table: 表型（テーブル形式）
+
+- **enumeration**: 順序付きリスト表示（番号①②③）
+  データ構造: items配列（文字列）
+  表示形式: 番号付きリスト
+
+- **list**: カード形式リスト表示
+  データ構造: items配列（文字列）
+  表示形式: 独立したカード配置
+
+- **explanation2**: 複数セクション解説表示
+  データ構造: sections配列（title + content）
+  表示形式: タイトル付き解説ブロック
+
+- **simple3**: 2項目比較表示
+  データ構造: items配列（2個のオブジェクト、title + description）
+  表示形式: 左右2カラムレイアウト
+
+- **simple5**: ステップ番号付き表示
+  データ構造: items配列（step + title + description）
+  表示形式: ステップ番号とタイトル・説明
+
+- **simple6**: 要点整理表示
+  データ構造: description + items配列（文字列）
+  表示形式: 説明文 + 箇条書きリスト
+
+- **section-items**: セクション内リスト表示
+  データ構造: sections配列（title + content + items）
+  表示形式: セクションタイトル + 説明 + 内部リスト
+
+- **table**: テーブル形式表示
+  データ構造: tableData（headers + rows）
+  表示形式: 表形式（ヘッダー + データ行）
+
+- **title-description-only**: タイトル+長文表示
+  データ構造: title + description（長文）
+  表示形式: タイトル + 詳細説明文のみ
+
+- **checklist-enhanced**: 詳細チェックリスト表示
+  データ構造: checklistItems配列（text + description + checked）
+  表示形式: チェックボックス + 項目名 + 詳細説明
+
+- **item-n-title-content**: 構造化アイテム表示
+  データ構造: items配列（title + content オブジェクト）
+  表示形式: タイトル付きコンテンツボックス
+
+- **single-section-no-items**: 単一セクション表示
+  データ構造: title + description + sections（1個、title + content）
+  表示形式: メイン説明 + 単一セクション詳細
+
+- **two-column-section-items**: 2セクション+リスト表示
+  データ構造: sections配列（2個、各々title + content + items）
+  表示形式: 2つのセクション、各々に内部リスト付き
 
 【出力形式】
 以下のJSON形式で出力してください：
@@ -283,9 +329,9 @@ ${userInput}
   "pages": [
     {
       "pageNumber": 1,
-      "templateType": "explanation2",
+      "templateType": "enumeration",
       "content": {
-        "title": "具体的なタイトル",
+        "title": "カテゴリー：具体的な内容（必ず「〇〇：〇〇」形式）",
         "subtitle": "副題（必要に応じて）",
         "description": "詳細な説明",
         "badgeText": "バッジテキスト",
@@ -303,8 +349,9 @@ ${userInput}
         },
         "checklistItems": [
           {
-            "text": "チェック項目",
-            "description": "詳細説明"
+            "text": "チェック項目のタイトル",
+            "description": "このチェック項目の詳細説明や実践方法",
+            "checked": false
           }
         ]
       }
@@ -319,6 +366,26 @@ ${userInput}
   },
   "summary": "生成されたコンテンツの要約"
 }
+
+【テンプレート選択指針】
+コンテンツの情報構造を分析し、最適なデータ構造と表示形式を選択してください：
+
+- 単純な順序付きリスト → enumeration
+- 並列的な項目群 → list
+- 複数のトピック解説 → explanation2
+- 2つの項目の比較 → simple3
+- 段階的なプロセス → simple5
+- 説明+要点リスト → simple6
+- セクション内にリスト → section-items
+- 表形式データ → table
+- 長文の詳細解説 → title-description-only
+- 実行可能なチェック項目 → checklist-enhanced
+- 概念の構造化説明 → item-n-title-content
+- 1つのテーマ深掘り → single-section-no-items
+- 2つのセクション+リスト → two-column-section-items
+
+【データ構造仕様】
+各テンプレートは指定されたデータ構造に厳密に従ってください。
 
 【注意事項（密度向上重要ポイント）】
 - 全てのテキストは動的に生成し、プレースホルダーは使用しない
@@ -364,6 +431,14 @@ ${additionalInstructions || '品質を向上させて再生成してください
 - 実践的で具体的な内容
 - プレースホルダー禁止
 - 学生にとって価値のある情報
+
+【タイトル形式の制約】
+- タイトルは必ず「〇〇：〇〇」の形式で作成する
+- コロン（：）の前後にそれぞれ意味のある単語・フレーズを配置する
+- 例：「26卒必見！：必須の準備項目」「企業研究：効率的な情報収集法」
+
+【テンプレート構造仕様】
+指定されたテンプレートタイプのデータ構造に厳密に従ってください。
 
 【出力形式】
 以下のJSON形式で出力してください：
@@ -469,6 +544,23 @@ ${additionalInstructions || '品質を向上させて再生成してください
       tableData: content.tableData || { headers: [], rows: [] }
     }
 
+    // 新テンプレート用のデータ処理
+    if (templateType === 'title-description-only') {
+      baseData.description = MarkdownUtils.removeMarkdown(content.description || content.content || '')
+    }
+
+    // checklist-enhanced の処理は後で統一的に行う
+
+    if (templateType === 'item-n-title-content') {
+      // items が既に {title, content} 形式の場合はそのまま使用
+      if (content.items && content.items.length > 0 && typeof content.items[0] === 'object' && content.items[0].title) {
+        baseData.items = content.items.map((item: any) => ({
+          title: MarkdownUtils.removeMarkdown(item.title || ''),
+          content: MarkdownUtils.removeMarkdown(item.content || item.description || '')
+        }))
+      }
+    }
+
     // Convert sections to points if available
     if (content.sections && content.sections.length > 0) {
       baseData.points = content.sections.map((section: any) => ({
@@ -477,10 +569,19 @@ ${additionalInstructions || '品質を向上させて再生成してください
       }))
     }
 
-    // Convert checklist items to checklist format
-    if (content.checklistItems && content.checklistItems.length > 0) {
+    // Convert checklist items to proper format (for all templates except checklist-enhanced)
+    if (content.checklistItems && content.checklistItems.length > 0 && templateType !== 'checklist-enhanced') {
       baseData.checklist = content.checklistItems.map((item: any) => ({
         text: MarkdownUtils.removeMarkdown(item.text || ''),
+        checked: false
+      }))
+    }
+
+    // Convert checklist items for checklist-enhanced template (preserve description)
+    if (templateType === 'checklist-enhanced' && content.checklistItems && content.checklistItems.length > 0) {
+      baseData.checklistItems = content.checklistItems.map((item: any) => ({
+        text: MarkdownUtils.removeMarkdown(item.text || ''),
+        description: MarkdownUtils.removeMarkdown(item.description || ''),
         checked: false
       }))
     }

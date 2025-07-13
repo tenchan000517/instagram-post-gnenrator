@@ -99,7 +99,7 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
                         <CheckCircle className="w-6 h-6 text-blue-600" />
                       </div>
                       <p className="text-base font-medium text-gray-800 leading-relaxed">
-                        {item}
+                        {typeof item === 'string' ? item : item.content || item.title || ''}
                       </p>
                     </div>
                   </div>
@@ -133,6 +133,7 @@ export const sectionItemsMetadata = {
     sectionContent: 120,
     items: 40
   },
+  keywords: ['セクション', 'アイテム', 'アクション', '実践', 'ガイド', 'ハウツー'],
   structureRequirements: {
     sectionsCount: 1,
     sectionItemsMin: 3,

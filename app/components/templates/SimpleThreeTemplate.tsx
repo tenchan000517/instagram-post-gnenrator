@@ -77,9 +77,9 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
                       <h3 className="text-2xl font-bold text-gray-800 leading-tight">
                         {title}
                       </h3>
-                      {typeof item === 'object' && item.description && (
+                      {typeof item === 'object' && item.content && (
                         <p className="text-xl text-gray-700 leading-relaxed">
-                          {item.description}
+                          {item.content}
                         </p>
                       )}
                     </div>
@@ -102,9 +102,9 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
                       <h3 className="text-2xl font-bold text-gray-800 leading-tight">
                         {title}
                       </h3>
-                      {typeof item === 'object' && item.description && (
+                      {typeof item === 'object' && item.content && (
                         <p className="text-xl text-gray-700 leading-relaxed">
-                          {item.description}
+                          {item.content}
                         </p>
                       )}
                     </div>

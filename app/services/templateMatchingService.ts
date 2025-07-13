@@ -493,19 +493,20 @@ export class TemplateMatchingService {
     const checklistCount = content.checklistItems?.length || 0
 
     // テンプレートタイプに適したコンテンツ量かチェック
-    const volumeRequirements = {
+    const volumeRequirements: Record<TemplateType, { min: number; max: number }> = {
       'enumeration': { min: 3, max: 7 },
-      'explanation2': { min: 1, max: 3 },
       'explanation2': { min: 2, max: 5 },
       'list': { min: 3, max: 8 },
       'simple3': { min: 2, max: 6 },
-      'simple3': { min: 2, max: 2 },
-      'simple3': { min: 2, max: 4 },
       'simple5': { min: 3, max: 8 },
-      'simple5': { min: 3, max: 6 },
       'simple6': { min: 4, max: 8 },
       'section-items': { min: 1, max: 4 },
-      'table': { min: 2, max: 10 }
+      'table': { min: 2, max: 10 },
+      'two-column-section-items': { min: 2, max: 6 },
+      'title-description-only': { min: 1, max: 2 },
+      'checklist-enhanced': { min: 3, max: 6 },
+      'item-n-title-content': { min: 2, max: 5 },
+      'single-section-no-items': { min: 1, max: 1 }
     }
 
     const requirement = volumeRequirements[templateType]
@@ -528,19 +529,20 @@ export class TemplateMatchingService {
     const sectionCount = content.sections?.length || 0
     const checklistCount = content.checklistItems?.length || 0
 
-    const volumeRequirements = {
+    const volumeRequirements: Record<TemplateType, { min: number; max: number }> = {
       'enumeration': { min: 3, max: 7 },
-      'explanation2': { min: 1, max: 3 },
       'explanation2': { min: 2, max: 5 },
       'list': { min: 3, max: 8 },
       'simple3': { min: 2, max: 6 },
-      'simple3': { min: 2, max: 2 },
-      'simple3': { min: 2, max: 4 },
       'simple5': { min: 3, max: 8 },
-      'simple5': { min: 3, max: 6 },
       'simple6': { min: 4, max: 8 },
       'section-items': { min: 1, max: 4 },
-      'table': { min: 2, max: 10 }
+      'table': { min: 2, max: 10 },
+      'two-column-section-items': { min: 2, max: 6 },
+      'title-description-only': { min: 1, max: 2 },
+      'checklist-enhanced': { min: 3, max: 6 },
+      'item-n-title-content': { min: 2, max: 5 },
+      'single-section-no-items': { min: 1, max: 1 }
     }
 
     const requirement = volumeRequirements[templateType]
@@ -604,7 +606,11 @@ export class TemplateMatchingService {
       simple5: 'シンプル型5',
       simple6: 'シンプル型6',
       'section-items': 'セクション+アイテム型',
-      'two-column-section-items': '2カラムセクション+アイテム型'
+      'two-column-section-items': '2カラムセクション+アイテム型',
+      'title-description-only': 'タイトル+説明型',
+      'checklist-enhanced': 'チェックリスト詳細型',
+      'item-n-title-content': '独立ボックス型',
+      'single-section-no-items': '単一セクション・アイテム無し型'
     }
     return displayNames[templateType] || templateType
   }

@@ -1,0 +1,75 @@
+{
+  "filename": "6.txt",
+  "inputLength": 7026,
+  "totalPages": 7,
+  "perfectCount": 6,
+  "imperfectCount": 1,
+  "perfectRate": "85.7%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "section-items",
+      "bestScore": 0.8333333333333334,
+      "isPerfect": false,
+      "structureKey": "title+description+sections:1+items:3",
+      "suggestedTemplate": "SectionItemsTemplate",
+      "contentPreview": "今週締切！インターンシップ攻略ロードマップ..."
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "table",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+table",
+      "suggestedTemplate": "CustomTemplate_title_description_table",
+      "contentPreview": "今週締切インターンシップ詳細リスト..."
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "title-description-only",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "応募書類作成の秘訣..."
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "checklist-enhanced",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "面接対策：成功へのステップ..."
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "two-column-section-items",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "インターンシップを最大限に活かす..."
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:6",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "選考対策：成功の鍵..."
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "checklist-enhanced",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "直前チェックリスト..."
+    }
+  ],
+  "generationTime": "19.9秒",
+  "timestamp": "2025-07-13T02:22:27.099Z"
+}

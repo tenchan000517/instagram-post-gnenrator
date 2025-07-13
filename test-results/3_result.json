@@ -1,0 +1,75 @@
+{
+  "filename": "3.txt",
+  "inputLength": 3970,
+  "totalPages": 7,
+  "perfectCount": 5,
+  "imperfectCount": 2,
+  "perfectRate": "71.4%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "explanation2",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "2025年卒、就活トレンド完全攻略！..."
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "simple3",
+      "bestScore": 0.7333333333333333,
+      "isPerfect": false,
+      "structureKey": "title+description+items:2",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "採用スケジュールの早期化と通年採用..."
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "explanation2",
+      "bestScore": 0.3,
+      "isPerfect": false,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "Z世代の就活志向と企業へのアプローチ..."
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "table",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+table",
+      "suggestedTemplate": "CustomTemplate_title_description_table",
+      "contentPreview": "多様な働き方とD&Iへの対応..."
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "explanation2",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:3",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_3",
+      "contentPreview": "採用手法の変化への対応..."
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:6",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "内定獲得に向けた3ヶ月アクションプラン..."
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:6",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "就活を成功させるためのマインドセット..."
+    }
+  ],
+  "generationTime": "19.6秒",
+  "timestamp": "2025-07-13T01:34:38.061Z"
+}

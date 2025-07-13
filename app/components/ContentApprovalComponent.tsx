@@ -87,17 +87,18 @@ export default function ContentApprovalComponent({
   const getTemplateTypeDisplayName = (templateType: TemplateType): string => {
     const typeMap: Record<TemplateType, string> = {
       enumeration: '列挙型',
-      explanation: '説明型',
-      explanation2: '解説型2',
       list: 'リスト型',
-      simple: 'シンプル型',
-      simple2: 'シンプル型2',
+      explanation2: '解説型2',
       simple3: 'シンプル型3',
-      simple4: 'シンプル型4',
+      table: '表型',
       simple5: 'シンプル型5',
       simple6: 'シンプル型6',
-      story: 'ストーリー型',
-      table: '表型'
+      'section-items': 'セクション+アイテム型',
+      'two-column-section-items': '2カラムセクション+アイテム型',
+      'title-description-only': 'タイトル+説明型',
+      'checklist-enhanced': 'チェックリスト詳細型',
+      'item-n-title-content': '独立ボックス型',
+      'single-section-no-items': '単一セクション・アイテム無し型'
     }
     return typeMap[templateType] || templateType
   }

@@ -399,15 +399,29 @@ export class IntelligentContentProcessor {
   private static selectTemplateType(section: ContentSection): TemplateType {
     switch (section.dataType) {
       case 'list':
+        // チェックリスト形式のコンテンツを検出
+        if (this.isChecklistContent(section.content)) {
+          return 'checklist-enhanced'
+        }
         return section.beneficialInfo.length > 5 ? 'list' : 'enumeration'
       case 'comparison':
         return 'table'
       case 'steps':
+        // 構造化された複数概念コンテンツを検出
+        if (this.isMultiConceptContent(section.content)) {
+          return 'item-n-title-content'
+        }
         return 'enumeration'
       case 'story':
         return 'section-items'
       case 'qa':
         return 'explanation2'
+      case 'tips':
+        // 説明中心のシンプルなコンテンツ
+        if (section.beneficialInfo.length <= 3 && this.isExplanationFocused(section.content)) {
+          return 'title-description-only'
+        }
+        return 'simple3'
       default:
         return 'simple3'
     }
@@ -425,6 +439,42 @@ export class IntelligentContentProcessor {
     const badgeText = this.generateBadgeText(section.dataType)
     
     switch (templateType) {
+      case 'title-description-only':
+        return {
+          title,
+          badgeText,
+          description: this.generateDetailedDescription(beneficialItems),
+          subtitle: 'FIND to DOで詳しく学ぼう'
+        }
+        
+      case 'checklist-enhanced':
+        return {
+          title,
+          badgeText,
+          checklist: this.generateChecklistItems(beneficialItems),
+          subtitle: 'FIND to DOでチェックしよう'
+        }
+        
+      case 'single-section-no-items':
+        return {
+          title,
+          badgeText,
+          description: section.content || 'セクション詳細を解説します',
+          sections: [{
+            title: 'セクション詳細',
+            content: section.content || beneficialItems.slice(0, 3).join('。')
+          }],
+          subtitle: 'FIND to DOで詳しく学ぼう'
+        }
+        
+      case 'item-n-title-content':
+        return {
+          title,
+          badgeText,
+          items: this.generateTitleContentItems(beneficialItems),
+          subtitle: 'FIND to DOで実践しよう'
+        }
+        
       case 'enumeration':
       case 'list':
         return {
@@ -442,7 +492,7 @@ export class IntelligentContentProcessor {
           subtitle: 'データで比較・検討しよう'
         }
         
-      case 'story':
+      case 'section-items':
         return {
           title,
           badgeText,
@@ -570,5 +620,60 @@ export class IntelligentContentProcessor {
     if (section.dataType === 'list' || section.dataType === 'comparison') priority += 0.1
     
     return Math.min(priority, 1.0)
+  }
+
+  /**
+   * チェックリスト形式のコンテンツかどうかを判定
+   */
+  private static isChecklistContent(content: string): boolean {
+    return /チェック|確認|項目|必要|準備|用意|完了|済み/.test(content) &&
+           /^[\s]*[・•\-]\s|^\d+\.\s|^[①②③④⑤⑥⑦⑧⑨⑩]/m.test(content)
+  }
+
+  /**
+   * 複数概念の構造化コンテンツかどうかを判定
+   */
+  private static isMultiConceptContent(content: string): boolean {
+    const concepts = content.split(/[。！？]/).filter(s => s.trim().length > 20)
+    return concepts.length >= 3 && /[：:]/.test(content)
+  }
+
+  /**
+   * 説明中心のコンテンツかどうかを判定
+   */
+  private static isExplanationFocused(content: string): boolean {
+    return /説明|理由|原因|背景|とは|について|意味|定義/.test(content) &&
+           content.length > 100
+  }
+
+  /**
+   * 詳細説明の生成
+   */
+  private static generateDetailedDescription(items: BeneficialInfo[]): string {
+    const key = items.find(item => item.specificity > 0.8)
+    if (key) {
+      return `${key.content}について、具体的に解説します。実践的なポイントを押さえて効果的に活用しましょう。`
+    }
+    return '重要なポイントを詳しく解説します。実践で活用できる内容を確認しましょう。'
+  }
+
+  /**
+   * チェックリスト項目の生成
+   */
+  private static generateChecklistItems(items: BeneficialInfo[]): Array<{text: string, checked: boolean}> {
+    return items.slice(0, 5).map(item => ({
+      text: this.conciseExpression(item.content),
+      checked: false
+    }))
+  }
+
+  /**
+   * タイトル付きコンテンツ項目の生成
+   */
+  private static generateTitleContentItems(items: BeneficialInfo[]): Array<{title: string, content: string}> {
+    return items.slice(0, 4).map((item, index) => ({
+      title: `ポイント${index + 1}`,
+      content: this.conciseExpression(item.content)
+    }))
   }
 }

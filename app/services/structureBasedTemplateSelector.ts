@@ -39,6 +39,15 @@ export class StructureBasedTemplateSelector {
   private static selectForTitleList(elements: ContentElement[]): TemplateType {
     const listItems = elements.filter(el => el.type === 'list-item')
     
+    // チェックリスト形式を検出
+    const isChecklist = listItems.some(item => 
+      /チェック|確認|項目|必要|準備|用意|完了|済み/.test(item.content)
+    )
+    
+    if (isChecklist) {
+      return 'checklist-enhanced'
+    }
+    
     // リストアイテムの数に応じて選択
     if (listItems.length >= 5) {
       return 'list' // リスト型テンプレート
@@ -56,8 +65,20 @@ export class StructureBasedTemplateSelector {
     const subtitles = elements.filter(el => el.type === 'subtitle')
     const descriptions = elements.filter(el => el.type === 'description')
     
-    // サブタイトルと説明の組み合わせパターン
+    // 説明中心の単純な構造を検出
+    if (subtitles.length <= 1 && descriptions.length === 1) {
+      const description = descriptions[0]
+      if (description.content.length > 100 && /説明|理由|原因|背景|とは|について/.test(description.content)) {
+        return 'title-description-only'
+      }
+    }
+    
+    // 複数概念の構造化コンテンツを検出
     if (subtitles.length >= 3 && descriptions.length >= 3) {
+      const hasStructuredConcepts = subtitles.some(sub => /：|:/.test(sub.content))
+      if (hasStructuredConcepts) {
+        return 'item-n-title-content'
+      }
       return 'explanation2' // 解説型2
     } else if (subtitles.length >= 2 && descriptions.length >= 2) {
       return 'explanation2' // 解説型
@@ -71,6 +92,15 @@ export class StructureBasedTemplateSelector {
    */
   private static selectForStepByStep(elements: ContentElement[]): TemplateType {
     const steps = elements.filter(el => el.type === 'list-item')
+    
+    // 複数概念の構造化コンテンツを検出
+    const hasStructuredConcepts = steps.some(step => 
+      /：|:/.test(step.content) && step.content.length > 30
+    )
+    
+    if (hasStructuredConcepts && steps.length >= 3) {
+      return 'item-n-title-content'
+    }
     
     // ステップ数に応じて選択
     if (steps.length >= 5) {

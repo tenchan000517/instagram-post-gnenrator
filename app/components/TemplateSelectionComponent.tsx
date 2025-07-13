@@ -48,17 +48,18 @@ export default function TemplateSelectionComponent({
   const getTemplateDisplayName = (templateType: TemplateType): string => {
     const names: Record<TemplateType, string> = {
       enumeration: '項目リスト型',
-      explanation: '詳細解説型',
-      explanation2: '複数セクション解説型',
-      table: '比較表型',
-      story: 'ストーリー型',
       list: 'シンプルリスト型',
-      simple: '簡潔ポイント型',
-      simple2: '重要ポイント型',
+      explanation2: '複数セクション解説型',
       simple3: '要約まとめ型',
-      simple4: '核心要素型',
+      table: '比較表型',
       simple5: 'バランス型',
-      simple6: 'メッセージ型'
+      simple6: 'メッセージ型',
+      'section-items': 'セクション+アイテム型',
+      'two-column-section-items': '2カラムセクション+アイテム型',
+      'title-description-only': 'タイトル+説明特化型',
+      'checklist-enhanced': 'チェックリスト詳細型',
+      'item-n-title-content': '独立ボックス型',
+      'single-section-no-items': '単一セクション・アイテム無し型'
     }
     return names[templateType] || templateType
   }
@@ -66,17 +67,18 @@ export default function TemplateSelectionComponent({
   const getTemplateDescription = (templateType: TemplateType): string => {
     const descriptions: Record<TemplateType, string> = {
       enumeration: '項目リストと説明文を組み合わせた構成。チェックポイントや手順を明確に示したい場合に最適。',
-      explanation: '詳細な解説文を中心とした構成。概念や方法を深く説明したい場合に適している。',
-      explanation2: '複数のセクションに分けた詳細解説。複雑な内容を整理して説明したい場合に最適。',
-      table: '比較表形式で情報を整理。データや選択肢を比較したい場合に適している。',
-      story: '体験談や事例を中心とした構成。実体験を共有したい場合に最適。',
       list: 'シンプルなリスト形式。要点を簡潔に示したい場合に適している。',
-      simple: '簡潔にポイントを示す構成。重要な要素を端的に伝えたい場合に最適。',
-      simple2: '重要なポイントを強調する構成。特に注目してほしい要素がある場合に適している。',
+      explanation2: '複数のセクションに分けた詳細解説。複雑な内容を整理して説明したい場合に最適。',
       simple3: '要約・まとめ形式の構成。情報を整理して結論を示したい場合に最適。',
-      simple4: '核心要素を強調する構成。最も重要な部分を際立たせたい場合に適している。',
+      table: '比較表形式で情報を整理。データや選択肢を比較したい場合に適している。',
       simple5: 'バランス型の構成。複数の要素を均等に扱いたい場合に最適。',
-      simple6: 'メッセージ型の構成。明確なメッセージを伝えたい場合に適している。'
+      simple6: 'メッセージ型の構成。明確なメッセージを伝えたい場合に適している。',
+      'section-items': 'セクション+アイテム型の構成。分類した情報を整理して表示したい場合に最適。',
+      'two-column-section-items': '2カラムセクション+アイテム型の構成。左右に分けて情報を比較表示したい場合に最適。',
+      'title-description-only': 'タイトルと説明文のみのシンプル構成。核心的なメッセージを直接的に伝えたい場合に最適。',
+      'checklist-enhanced': 'チェックリスト項目に詳細説明付きの構成。タスクや手順を明確に説明したい場合に最適。',
+      'item-n-title-content': '独立したボックス型構成。複数の独立したトピックを並列で表示したい場合に最適。',
+      'single-section-no-items': '単一セクション情報を詳細表示。特定のトピックを深く解説したい場合に最適。'
     }
     return descriptions[templateType] || 'テンプレートの説明'
   }

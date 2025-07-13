@@ -1,0 +1,75 @@
+{
+  "filename": "4.txt",
+  "inputLength": 4913,
+  "totalPages": 7,
+  "perfectCount": 3,
+  "imperfectCount": 4,
+  "perfectRate": "42.9%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "section-items",
+      "bestScore": 0.6666666666666666,
+      "isPerfect": false,
+      "structureKey": "title+description+sections:1",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_1",
+      "contentPreview": "就活・学業を劇的に変える！AIツール活用術..."
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "enumeration",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:4",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "自己分析・ES作成を加速するAIツール..."
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "explanation2",
+      "bestScore": 0.3,
+      "isPerfect": false,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "面接対策を万全にするAIツール..."
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "explanation2",
+      "bestScore": 0.3,
+      "isPerfect": false,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "学業効率化！時間を生み出すAIツール..."
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "table",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+table",
+      "suggestedTemplate": "CustomTemplate_title_description_table",
+      "contentPreview": "AIツール活用ガイド：目的別おすすめツール..."
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "explanation2",
+      "bestScore": 0.3,
+      "isPerfect": false,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "AIを味方に！スキルアップと学習プラットフォーム..."
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:6",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "AIツール活用のための5つのステップ..."
+    }
+  ],
+  "generationTime": "15.2秒",
+  "timestamp": "2025-07-13T01:35:31.948Z"
+}

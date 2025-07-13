@@ -15,7 +15,122 @@ interface StructurePattern {
 
 export class PureStructureMatchingService {
   private structurePatterns: StructurePattern[] = [
-    // Pattern 0: Table型 (最優先パターン)
+    // Pattern 0: Title+Description Only型 (Critical Priority - 30点問題解決)
+    {
+      templateType: 'title-description-only',
+      description: 'タイトル+説明文のみのシンプル構造',
+      structureCheck: (content) => {
+        const hasTitle = !!content?.title
+        const hasDescription = !!(content?.description || content?.content)
+        const noItems = !content?.items || content.items.length === 0
+        const noSections = !content?.sections || content.sections.length === 0
+        const noTableData = !content?.tableData
+        const noChecklist = !content?.checklistItems || content.checklistItems.length === 0
+        
+        return hasTitle && hasDescription && noItems && noSections && noTableData && noChecklist
+      },
+      structureScore: (content) => {
+        const hasTitle = !!content?.title
+        const hasDescription = !!(content?.description || content?.content)
+        const noItems = !content?.items || content.items.length === 0
+        const noSections = !content?.sections || content.sections.length === 0
+        const noTableData = !content?.tableData
+        const noChecklist = !content?.checklistItems || content.checklistItems.length === 0
+        
+        if (hasTitle && hasDescription && noItems && noSections && noTableData && noChecklist) {
+          return 1.0 // 完璧なマッチ - 30点問題を100点に
+        }
+        return 0.0
+      },
+      priority: 1.0 // 最高優先度 - Critical Priority対応
+    },
+
+    // Pattern 1: Checklist Enhanced型 (Critical Priority - チェックリスト機能復活)
+    {
+      templateType: 'checklist-enhanced',
+      description: 'チェックリスト（詳細説明付き）構造',
+      structureCheck: (content) => {
+        const hasChecklistItems = !!(content?.checklistItems?.length)
+        return hasChecklistItems
+      },
+      structureScore: (content) => {
+        const checklistItems = content?.checklistItems || []
+        const hasTitle = !!content?.title
+        
+        if (checklistItems.length >= 1) {
+          let score = 0.8 // ベーススコア
+          
+          // チェックリストアイテム数による加点
+          if (checklistItems.length >= 3 && checklistItems.length <= 6) {
+            score += 0.2 // 完璧なマッチ
+          }
+          
+          return Math.min(score, 1.0)
+        }
+        return 0.0
+      },
+      priority: 0.95 // 高優先度 - Critical Priority対応
+    },
+
+    // Pattern 2: ItemNTitleContent型 (Critical Priority - 独立ボックス構造対応)
+    {
+      templateType: 'item-n-title-content',
+      description: 'item1Title/Content形式の独立ボックス構造',
+      structureCheck: (content) => {
+        // itemNTitle/Content形式の検出
+        const contentAny = content as any
+        let hasTitleContentPairs = false
+        
+        for (let i = 1; i <= 6; i++) {
+          const titleKey = `item${i}Title`
+          const contentKey = `item${i}Content`
+          if (contentAny[titleKey] || contentAny[contentKey]) {
+            hasTitleContentPairs = true
+            break
+          }
+        }
+        
+        // フォールバック: オブジェクト形式のitemsでtitle+contentペア
+        if (!hasTitleContentPairs && content?.items) {
+          const objectItems = content.items.filter((item: any) => 
+            typeof item === 'object' && (item.title || item.content)
+          )
+          hasTitleContentPairs = objectItems.length >= 2
+        }
+        
+        return hasTitleContentPairs
+      },
+      structureScore: (content) => {
+        const contentAny = content as any
+        let titleContentPairs = 0
+        
+        // itemNTitle/Content形式のカウント
+        for (let i = 1; i <= 6; i++) {
+          const titleKey = `item${i}Title`
+          const contentKey = `item${i}Content`
+          if (contentAny[titleKey] || contentAny[contentKey]) {
+            titleContentPairs++
+          }
+        }
+        
+        // フォールバック: オブジェクト形式のitemsカウント
+        if (titleContentPairs === 0 && content?.items) {
+          titleContentPairs = content.items.filter((item: any) => 
+            typeof item === 'object' && (item.title || item.content)
+          ).length
+        }
+        
+        if (titleContentPairs >= 2 && titleContentPairs <= 5) {
+          return 1.0 // 完璧なマッチ - 30点問題を100点に
+        } else if (titleContentPairs >= 1) {
+          return 0.8 // 部分的マッチ
+        }
+        return 0.0
+      },
+      priority: 0.9 // 高優先度 - Critical Priority対応
+    },
+
+    // Pattern 3: Table型 (既存パターン)
     {
       templateType: 'table',
       description: 'テーブル構造（最優先）',
@@ -89,8 +204,8 @@ export class PureStructureMatchingService {
         // 正確に2個のセクションがあり、直接itemsは空で、各セクションにitemsがある
         return sections.length === 2 &&
                directItems.length === 0 &&
-               sections.every(s => s.title && s.content) &&
-               sections.every(s => s.items && s.items.length >= 3)
+               sections.every((s: any) => s.title && s.content) &&
+               sections.every((s: any) => s.items && s.items.length >= 3)
       },
       structureScore: (content) => {
         const sections = content?.sections || []
@@ -103,7 +218,7 @@ export class PureStructureMatchingService {
           score += 3
           
           // 各セクションの品質チェック（title + content + items）
-          const allSectionsComplete = sections.every(s => s.title && s.content && s.items && s.items.length >= 3)
+          const allSectionsComplete = sections.every((s: any) => s.title && s.content && s.items && s.items.length >= 3)
           if (allSectionsComplete) score += 3
           else score += 1
           
@@ -128,7 +243,7 @@ export class PureStructureMatchingService {
         // sectionsは空で、直接itemsがちょうど2個、各アイテムにtitleとdescriptionがある（厳密）
         return sections.length === 0 && 
                directItems.length === 2 &&
-               directItems.every(item => item.title && item.description)
+               directItems.every((item: any) => item.title && item.description)
       },
       structureScore: (content) => {
         const sections = content?.sections || []
@@ -137,7 +252,7 @@ export class PureStructureMatchingService {
         if (sections.length === 0 && directItems.length === 2) {
           const hasTitle = !!content?.title
           const hasDescription = !!content?.description
-          const itemsComplete = directItems.every(item => 
+          const itemsComplete = directItems.every((item: any) => 
             item.title && item.description
           )
           
@@ -201,7 +316,7 @@ export class PureStructureMatchingService {
         return sections.length === 0 && 
                directItems.length >= 3 &&
                directItems.length <= 8 &&
-               directItems.every(item => 
+               directItems.every((item: any) => 
                  typeof item.step === 'number' && 
                  item.title && 
                  (item.description || item.content)
@@ -214,8 +329,8 @@ export class PureStructureMatchingService {
         if (sections.length === 0 && directItems.length >= 3 && directItems.length <= 8) {
           const hasTitle = !!content?.title
           const hasDescription = !!content?.description
-          const allHaveSteps = directItems.every(item => typeof item.step === 'number')
-          const allHaveDetails = directItems.every(item => 
+          const allHaveSteps = directItems.every((item: any) => typeof item.step === 'number')
+          const allHaveDetails = directItems.every((item: any) => 
             item.title && (item.description || item.content)
           )
           const stepsAreSequential = this.checkSequentialSteps(directItems)
@@ -260,7 +375,7 @@ export class PureStructureMatchingService {
                directItems.length >= 4 &&
                directItems.length <= 8 &&
                !!content?.description &&
-               directItems.every(item => typeof item === 'string')
+               directItems.every((item: any) => typeof item === 'string')
       },
       structureScore: (content) => {
         const sections = content?.sections || []
@@ -269,7 +384,7 @@ export class PureStructureMatchingService {
         if (sections.length === 0 && directItems.length >= 4 && directItems.length <= 8) {
           const hasTitle = !!content?.title
           const hasDescription = !!content?.description
-          const allItemsAreStrings = directItems.every(item => typeof item === 'string')
+          const allItemsAreStrings = directItems.every((item: any) => typeof item === 'string')
           
           let score = 0
           // アイテム数が適正範囲（4-8個）
@@ -305,8 +420,8 @@ export class PureStructureMatchingService {
         // 2-4個のセクションがあり、直接itemsは空で、各セクションにitemsが少ないか無い（points相当）
         return sections.length >= 2 && sections.length <= 4 &&
                directItems.length === 0 &&
-               sections.every(s => s.title && s.content) &&
-               sections.every(s => !s.items || s.items.length <= 2) // セクション内itemsが少ないかゼロ
+               sections.every((s: any) => s.title && s.content) &&
+               sections.every((s: any) => !s.items || s.items.length <= 2) // セクション内itemsが少ないかゼロ
       },
       structureScore: (content) => {
         const sections = content?.sections || []
@@ -320,7 +435,7 @@ export class PureStructureMatchingService {
           else if (sections.length === 4) score += 2
           
           // 各セクションの品質チェック（title + content）
-          const allSectionsComplete = sections.every(s => s.title && s.content)
+          const allSectionsComplete = sections.every((s: any) => s.title && s.content)
           if (allSectionsComplete) score += 2
           else score += 1
           
@@ -417,6 +532,33 @@ export class PureStructureMatchingService {
         return content?.title ? 0.3 : 0
       },
       priority: 1
+    },
+
+    // High Priority: SingleSectionNoItemsTemplate - 単一セクション・アイテム無し構造（最高優先度）
+    {
+      templateType: 'single-section-no-items',
+      description: 'title + description + sections[1] (アイテム無し)',
+      structureCheck: (content: any) => {
+        const hasTitle = !!content?.title
+        const hasDescription = !!content?.description
+        const sections = content?.sections || []
+        const items = content?.items || []
+        
+        // title + description + sections[1] (アイテム無し)
+        return hasTitle && hasDescription && sections.length === 1 && items.length === 0
+      },
+      structureScore: (content: any) => {
+        const hasTitle = !!content?.title
+        const hasDescription = !!content?.description
+        const sections = content?.sections || []
+        const items = content?.items || []
+        
+        if (hasTitle && hasDescription && sections.length === 1 && items.length === 0) {
+          return 1.0 // 完璧なマッチ（100点）
+        }
+        return 0.0
+      },
+      priority: 0.95 // 非常に高い優先度
     }
   ]
 
@@ -451,8 +593,8 @@ export class PureStructureMatchingService {
       }
       if (bestTemplate === 'explanation2') {
         // pointsデータの生成（直接pointsまたはsectionsから変換）
-        if (page.content?.points) {
-          updatedTemplateData.points = page.content.points
+        if ((page.content as any)?.points) {
+          updatedTemplateData.points = (page.content as any).points
         } else if (page.content?.sections) {
           // sectionsをpointsに変換
           updatedTemplateData.points = page.content.sections.map(section => ({
@@ -477,19 +619,23 @@ export class PureStructureMatchingService {
             typeof item === 'object' && typeof item.step === 'number'
           )
           if (hasStepNumbers) {
-            updatedTemplateData.steps = page.content.items
+            updatedTemplateData.steps = page.content.items as unknown as Array<{
+              step: number
+              title: string
+              description: string
+            }>
           } else {
             updatedTemplateData.items = page.content.items
           }
         }
-        if (page.content?.checklist) {
-          updatedTemplateData.checklist = page.content.checklist
+        if ((page.content as any)?.checklist) {
+          updatedTemplateData.checklist = (page.content as any).checklist
         }
-        if (page.content?.points) {
-          updatedTemplateData.points = page.content.points
+        if ((page.content as any)?.points) {
+          updatedTemplateData.points = (page.content as any).points
         }
-        if (page.content?.steps) {
-          updatedTemplateData.steps = page.content.steps
+        if ((page.content as any)?.steps) {
+          updatedTemplateData.steps = (page.content as any).steps
         }
       }
       

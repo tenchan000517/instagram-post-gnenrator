@@ -158,6 +158,68 @@ const sampleData = {
         ]
       }
     ]
+  },
+  'title-description-only': {
+    title: '内定獲得の秘訣',
+    content: '就職活動において最も重要なのは、自分らしさを保ちながら、企業が求める人材像に合わせることです。毎日の積み重ねが、必ず内定へと導きます。',
+    pageNumber: 3
+  },
+  'checklist-enhanced': {
+    title: '面接対策チェックリスト',
+    content: '面接で最高のパフォーマンスを発揮するための重要ポイントをチェックしましょう。',
+    pageNumber: 2,
+    checklistItems: [
+      {
+        text: '企業研究の完了',
+        description: '事業内容、経営理念、最近のニュースを調査し、志望動機を明確にする',
+        checked: false
+      },
+      {
+        text: '自己PRの準備',
+        description: '具体的なエピソードを交えて、自分の強みや経験をアピールする準備',
+        checked: false
+      },
+      {
+        text: '逆質問の準備',
+        description: '企業への関心と成長意欲を示す質問を３つ以上準備する',
+        checked: false
+      },
+      {
+        text: '身だしなみのチェック',
+        description: 'スーツのシワ、髭の手入れ、時計や靴の確認など、第一印象の最終チェック',
+        checked: false
+      }
+    ]
+  },
+  'item-n-title-content': {
+    title: 'キャリア選択のポイント',
+    subtitle: '理想のキャリアを築くための重要要素',
+    content: 'キャリア選択は人生の大きな分かれ道です。以下のポイントを参考に、自分に適した道を選びましょう。',
+    pageNumber: 1,
+    items: [
+      {
+        title: '情熱と興味',
+        content: '自分が本当に情熱を注げる分野を選ぶことで、長期間のモチベーションを維持できます'
+      },
+      {
+        title: '将来性と成長性',
+        content: '業界の将来性や技術革新の影響を考慮し、成長が期待できる分野を選択しましょう'
+      },
+      {
+        title: 'ワークライフバランス',
+        content: '自分のライフスタイルや働き方の希望と一致する環境を選ぶことが重要です'
+      }
+    ]
+  },
+  'single-section-no-items': {
+    title: '単一セクション：詳細解説',
+    description: '特定のトピックについて詳細に解説する際に使用するテンプレートです。',
+    sections: [{
+      title: '解説セクション',
+      content: 'このセクションでは詳細な情報を提供します。アイテムリストは使用せず、文章による説明に特化しています。',
+      description: 'セクション内容の補足説明や詳細情報をここに記載できます。'
+    }],
+    badgeText: 'セクション型'
   }
 }
 
@@ -174,7 +236,11 @@ export default function TemplateViewer() {
     { type: 'simple5', name: '⑥シンプル型５', description: 'ステップ型（完成度高）' },
     { type: 'simple6', name: '⑦シンプル型６', description: 'まとめ構造専用' },
     { type: 'section-items', name: '⑧セクション+アイテム型', description: 'コンテンツ+アクションリスト（新規実装）' },
-    { type: 'two-column-section-items', name: '⑨2カラムセクション+アイテム型', description: '2セクション左右配置+各アイテムリスト（新規実装）' }
+    { type: 'two-column-section-items', name: '⑨2カラムセクション+アイテム型', description: '2セクション左右配置+各アイテムリスト（新規実装）' },
+    { type: 'title-description-only', name: '⑩タイトル+説明型', description: 'シンプルなメッセージ伝達専用' },
+    { type: 'checklist-enhanced', name: '⑪チェックリスト詳細型', description: 'チェックリスト+詳細説明付き' },
+    { type: 'item-n-title-content', name: '⑫独立ボックス型', description: '独立したトピックを並列表示' },
+    { type: 'single-section-no-items', name: '⑬単一セクション・アイテム無し型', description: '6箇所以上対応のHigh Priority' }
   ]
   
   const currentIndex = templates.findIndex(t => t.type === currentTemplate)
@@ -202,7 +268,7 @@ export default function TemplateViewer() {
             Instagram投稿テンプレートビューワー
           </h1>
           <p className="text-gray-600">
-            9種類のアクティブテンプレートデザインを確認できます
+            12種類のアクティブテンプレートデザインを確認できます
           </p>
         </div>
         
@@ -327,6 +393,27 @@ export default function TemplateViewer() {
                     <li>• 比較データの表示</li>
                     <li>• 数値データの整理</li>
                     <li>• 構造化された情報</li>
+                  </>
+                )}
+                {currentTemplate === 'title-description-only' && (
+                  <>
+                    <li>• シンプルなメッセージ伝達</li>
+                    <li>• インパクト重視のコンテンツ</li>
+                    <li>• 最小限の情報で最大効果</li>
+                  </>
+                )}
+                {currentTemplate === 'checklist-enhanced' && (
+                  <>
+                    <li>• チェックリスト+詳細説明</li>
+                    <li>• タスク管理や手順書</li>
+                    <li>• 実用的なアクションアイテム</li>
+                  </>
+                )}
+                {currentTemplate === 'item-n-title-content' && (
+                  <>
+                    <li>• 独立したトピックの並列</li>
+                    <li>• コンセプトやカテゴリの紹介</li>
+                    <li>• 選択肢やオプションの提示</li>
                   </>
                 )}
                 {(currentTemplate.includes('simple') || currentTemplate === 'explanation2') && (

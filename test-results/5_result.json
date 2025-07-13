@@ -1,0 +1,75 @@
+{
+  "filename": "5.txt",
+  "inputLength": 3163,
+  "totalPages": 7,
+  "perfectCount": 7,
+  "imperfectCount": 0,
+  "perfectRate": "100.0%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "explanation2",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "就活を制する！学生のうちから始めるキャリア戦略..."
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "two-column-section-items",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "就職に役立つ！資格取得戦略..."
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:6",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "今すぐできる！資格取得ロードマップ..."
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "two-column-section-items",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "効果的なネットワーキングの実践..."
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "enumeration",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:3",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "ネットワーキングで成功するための3つの秘訣..."
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "checklist-enhanced",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "ネットワーキング実践！チェックリスト..."
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "two-column-section-items",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "継続的な自己成長サイクル..."
+    }
+  ],
+  "generationTime": "16.3秒",
+  "timestamp": "2025-07-13T02:21:36.431Z"
+}

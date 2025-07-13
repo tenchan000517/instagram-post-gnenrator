@@ -1,0 +1,75 @@
+{
+  "filename": "2.txt",
+  "inputLength": 3247,
+  "totalPages": 7,
+  "perfectCount": 5,
+  "imperfectCount": 2,
+  "perfectRate": "71.4%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "explanation2",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "内定獲得への道：成功者が実践する7選..."
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:6",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "自己分析 実践ステップ..."
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "table",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+table",
+      "suggestedTemplate": "CustomTemplate_title_description_table",
+      "contentPreview": "企業・業界研究： 情報収集源と活用方法..."
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "explanation2",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "積極的な行動力：OB/OG訪問とインターンシップ..."
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "explanation2",
+      "bestScore": 0.3,
+      "isPerfect": false,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "OB/OG訪問 準備チェックリスト..."
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "simple3",
+      "bestScore": 0.7333333333333333,
+      "isPerfect": false,
+      "structureKey": "title+description+items:2",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "高いコミュニケーション能力と自己表現..."
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:5",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "失敗からの学びと切り替えの速さ..."
+    }
+  ],
+  "generationTime": "18.9秒",
+  "timestamp": "2025-07-13T01:34:08.990Z"
+}

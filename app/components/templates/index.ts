@@ -1,4 +1,4 @@
-// アクティブテンプレートコンポーネントのエクスポート（アーカイブ済みを除外）
+// アクティブテンプレートコンポーネントのエクスポート（Critical Priority追加）
 export { EnumerationTemplate } from './EnumerationTemplate'
 export { ListTemplate } from './ListTemplate'
 export { ExplanationTwoTemplate } from './ExplanationTwoTemplate'
@@ -8,12 +8,16 @@ export { SimpleFiveTemplate } from './SimpleFiveTemplate'
 export { SimpleSixTemplate } from './SimpleSixTemplate'
 export { SectionItemsTemplate } from './SectionItemsTemplate'
 export { TwoColumnSectionItemsTemplate } from './TwoColumnSectionItemsTemplate'
+export { TitleDescriptionOnlyTemplate } from './TitleDescriptionOnlyTemplate'
+export { ChecklistEnhancedTemplate } from './ChecklistEnhancedTemplate'
+export { ItemNTitleContentTemplate } from './ItemNTitleContentTemplate'
+export { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
 
 // 型定義とユーティリティ
 export * from './TemplateTypes'
 export * from './TemplateRegistry'
 
-// アクティブテンプレートコンポーネントマップ（アーカイブ済みを除外）
+// アクティブテンプレートコンポーネントマップ（Critical Priority追加）
 import { EnumerationTemplate } from './EnumerationTemplate'
 import { ListTemplate } from './ListTemplate'
 import { ExplanationTwoTemplate } from './ExplanationTwoTemplate'
@@ -23,6 +27,10 @@ import { SimpleFiveTemplate } from './SimpleFiveTemplate'
 import { SimpleSixTemplate } from './SimpleSixTemplate'
 import { SectionItemsTemplate } from './SectionItemsTemplate'
 import { TwoColumnSectionItemsTemplate } from './TwoColumnSectionItemsTemplate'
+import { TitleDescriptionOnlyTemplate } from './TitleDescriptionOnlyTemplate'
+import { ChecklistEnhancedTemplate } from './ChecklistEnhancedTemplate'
+import { ItemNTitleContentTemplate } from './ItemNTitleContentTemplate'
+import { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
 
 import { TemplateType } from './TemplateTypes'
 
@@ -35,7 +43,11 @@ export const templateComponents = {
   simple5: SimpleFiveTemplate,
   simple6: SimpleSixTemplate,
   'section-items': SectionItemsTemplate,
-  'two-column-section-items': TwoColumnSectionItemsTemplate
+  'two-column-section-items': TwoColumnSectionItemsTemplate,
+  'title-description-only': TitleDescriptionOnlyTemplate,
+  'checklist-enhanced': ChecklistEnhancedTemplate,
+  'item-n-title-content': ItemNTitleContentTemplate,
+  'single-section-no-items': SingleSectionNoItemsTemplate
 } as const
 
 // テンプレートレンダラー

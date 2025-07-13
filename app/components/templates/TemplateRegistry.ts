@@ -1,7 +1,7 @@
 // テンプレート登録・選択システム
 import { TemplateMetadata, TemplateType } from './TemplateTypes'
 
-// アクティブテンプレートのメタデータをインポート（アーカイブ済みを除外）
+// アクティブテンプレートのメタデータをインポート（Critical Priority追加）
 import { enumerationMetadata } from './EnumerationTemplate'
 import { listMetadata } from './ListTemplate'
 import { explanationTwoMetadata } from './ExplanationTwoTemplate'
@@ -11,8 +11,12 @@ import { simpleFiveMetadata } from './SimpleFiveTemplate'
 import { simpleSixMetadata } from './SimpleSixTemplate'
 import { sectionItemsMetadata } from './SectionItemsTemplate'
 import { twoColumnSectionItemsMetadata } from './TwoColumnSectionItemsTemplate'
+import { titleDescriptionOnlyMetadata } from './TitleDescriptionOnlyTemplate'
+import { checklistEnhancedMetadata } from './ChecklistEnhancedTemplate'
+import { itemNTitleContentMetadata } from './ItemNTitleContentTemplate'
+import { singleSectionNoItemsMetadata } from './SingleSectionNoItemsTemplate'
 
-// アクティブテンプレートレジストリ（アーカイブ済みを除外）
+// アクティブテンプレートレジストリ（Critical Priority追加）
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   enumeration: enumerationMetadata,
   list: listMetadata,
@@ -22,15 +26,19 @@ export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   simple5: simpleFiveMetadata,
   simple6: simpleSixMetadata,
   'section-items': sectionItemsMetadata,
-  'two-column-section-items': twoColumnSectionItemsMetadata
+  'two-column-section-items': twoColumnSectionItemsMetadata,
+  'title-description-only': titleDescriptionOnlyMetadata,
+  'checklist-enhanced': checklistEnhancedMetadata,
+  'item-n-title-content': itemNTitleContentMetadata,
+  'single-section-no-items': singleSectionNoItemsMetadata
 }
 
-// アクティブテンプレートのジャンル対応（アーカイブ済みを除外し更新）
+// アクティブテンプレートのジャンル対応（Critical Priority追加）
 export const genreTemplateMapping = {
-  'インターン・エントリー〆切系': ['table', 'list', 'simple5'] as TemplateType[],
-  'ナレッジ系': ['explanation2', 'enumeration', 'section-items'] as TemplateType[],
-  '〇〇選みたいな感じでの紹介系': ['list', 'enumeration', 'simple3'] as TemplateType[],
-  'ノウハウ系': ['explanation2', 'simple5', 'simple6', 'two-column-section-items'] as TemplateType[]
+  'インターン・エントリー〆切系': ['table', 'list', 'simple5', 'checklist-enhanced'] as TemplateType[],
+  'ナレッジ系': ['explanation2', 'enumeration', 'section-items', 'title-description-only', 'single-section-no-items'] as TemplateType[],
+  '〇〇選みたいな感じでの紹介系': ['list', 'enumeration', 'simple3', 'item-n-title-content'] as TemplateType[],
+  'ノウハウ系': ['explanation2', 'simple5', 'simple6', 'two-column-section-items', 'checklist-enhanced', 'item-n-title-content'] as TemplateType[]
 }
 
 // テンプレート選択ロジック

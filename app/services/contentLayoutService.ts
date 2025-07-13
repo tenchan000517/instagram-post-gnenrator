@@ -281,10 +281,10 @@ export class ContentLayoutService {
           subtitle: this.extractSubtitle(structure.sections)
         }
 
-      case 'explanation':
+      case 'explanation2':
         return {
           ...baseData,
-          badgeText: this.extractBadgeText(structure.mainContent, 'explanation'),
+          badgeText: this.extractBadgeText(structure.mainContent, 'explanation2'),
           content: structure.sections.length > 0 ? 
                    structure.sections[0].content : 
                    structure.mainContent,
@@ -312,17 +312,6 @@ export class ContentLayoutService {
           tableData: this.extractTableData(structure.sections, structure.items)
         }
 
-      case 'story':
-        return {
-          ...baseData,
-          badgeText: this.extractBadgeText(structure.mainContent, 'story'),
-          content: structure.sections.length > 0 ? 
-                   structure.sections.map(s => s.content).join('\n\n') : 
-                   structure.mainContent,
-          checklist: structure.items.length > 0 ? 
-                     structure.items.map(item => ({ text: item, checked: true })) : 
-                     undefined
-        }
 
       case 'list':
         return {
@@ -330,6 +319,57 @@ export class ContentLayoutService {
           badgeText: this.extractBadgeText(structure.mainContent, 'list'),
           items: structure.items.length > 0 ? structure.items : 
                  structure.sections.map(s => s.title)
+        }
+
+      case 'title-description-only':
+        return {
+          ...baseData,
+          badgeText: this.extractBadgeText(structure.mainContent, 'title-description-only'),
+          content: structure.mainContent || structure.sections[0]?.content || '',
+          subtitle: structure.sections[0]?.title || ''
+        }
+
+      case 'checklist-enhanced':
+        return {
+          ...baseData,
+          badgeText: this.extractBadgeText(structure.mainContent, 'checklist-enhanced'),
+          content: structure.mainContent,
+          checklistItems: structure.items.length > 0 ? 
+            structure.items.map(item => ({
+              text: item,
+              description: '',
+              checked: false
+            })) : 
+            structure.sections.map(section => ({
+              text: section.title,
+              description: section.content,
+              checked: false
+            }))
+        }
+
+      case 'item-n-title-content':
+        return {
+          ...baseData,
+          badgeText: this.extractBadgeText(structure.mainContent, 'item-n-title-content'),
+          subtitle: this.extractSubtitle(structure.sections),
+          items: structure.sections.length > 0 ? 
+                 structure.sections.map(section => ({
+                   title: section.title,
+                   content: section.content
+                 })) :
+                 structure.items.map(item => ({
+                   title: item,
+                   content: ''
+                 }))
+        }
+
+      case 'single-section-no-items':
+        return {
+          ...baseData,
+          badgeText: this.extractBadgeText(structure.mainContent, 'single-section-no-items'),
+          description: structure.sections.length > 0 ? structure.sections[0].content : baseData.content,
+          sections: structure.sections.length > 0 ? [structure.sections[0]] : undefined,
+          subtitle: this.extractSubtitle(structure.sections)
         }
 
       default:
@@ -371,17 +411,18 @@ export class ContentLayoutService {
     // テンプレートタイプに応じたバッジテキスト
     const badgeMap: Record<TemplateType, string[]> = {
       enumeration: ['チェックリスト', 'ポイント', '項目'],
-      explanation: ['解説', '詳細', '分析'],
       explanation2: ['ステップ解説', '詳細解説', '分析'],
       table: ['比較', 'データ', '一覧'],
-      story: ['体験談', 'ストーリー', '事例'],
       list: ['リスト', 'まとめ', '一覧'],
-      simple: ['ポイント', '要点', '基本'],
-      simple2: ['重要', '必須', '基本'],
       simple3: ['要約', 'まとめ', '結論'],
-      simple4: ['核心', '重要', '必須'],
       simple5: ['バランス', '最適', '効率'],
-      simple6: ['メッセージ', '重要', '核心']
+      simple6: ['メッセージ', '重要', '核心'],
+      'section-items': ['詳細リスト', 'セクション', '項目'],
+      'two-column-section-items': ['2カラム', 'セクション', '比較'],
+      'title-description-only': ['メッセージ', 'エッセンス', '重要'],
+      'checklist-enhanced': ['チェックリスト', 'タスク', 'アクション'],
+      'item-n-title-content': ['ポイント', 'カテゴリ', '要素'],
+      'single-section-no-items': ['セクション', '詳細', '解説']
     }
 
     const candidates = badgeMap[templateType] || ['ポイント']
@@ -569,7 +610,6 @@ export class ContentLayoutService {
         }
         break
 
-      case 'explanation':
       case 'explanation2':
         if (!templateData.content || templateData.content.length < 10) {
           notes.push('説明内容が不足しています')

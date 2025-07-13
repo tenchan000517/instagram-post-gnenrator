@@ -102,6 +102,11 @@ ${strategy}
 
 ${templateSelectionPrompt}
 
+【新テンプレートタイプの使用指針】
+- title-description-only: シンプルな説明中心のコンテンツ。重要なポイントの詳細解説に最適
+- checklist-enhanced: チェックリスト形式のコンテンツ。準備項目や確認項目がある場合に使用
+- item-n-title-content: 複数の概念を構造化して表示。各ポイントにタイトルと説明がある場合に最適
+
 【利用可能なハッシュタグカテゴリ】
 - キャリア系: #キャリア #キャリアアップ #就職活動 #自己成長 #夢を叶える #成功 #社会人 #働き方 #働く女性 #キャリアデザイン #転職 #ポジティブ #やりがい #目標設定 #自己啓発 #大学生 #キャリア支援 #インスピレーション
 - 就活系: #就活 #就職活動 #内定 #就活生 #就活中 #自己分析 #大学生 #学生生活 #企業研究 #面接 #ES提出 #選考 #ジョブハント #オープンキャンパス #エントリーシート #就業体験
@@ -138,7 +143,7 @@ ${templateSelectionPrompt}
         "highlight": "ハイライト文",
         "visualSuggestion": "ビジュアル提案",
         "emphasis": ["強調ポイント1", "強調ポイント2"],
-        "templateType": "enumeration/explanation2/section-items/list/explanation2/simple3/simple3/simple3/table/simple5/simple5/simple6",
+        "templateType": "enumeration/explanation2/section-items/list/explanation2/simple3/simple3/simple3/table/simple5/simple5/simple6/title-description-only/checklist-enhanced/item-n-title-content",
         "templateData": {
           "title": "テンプレートタイトル",
           "content": "メインコンテンツ",
@@ -148,7 +153,9 @@ ${templateSelectionPrompt}
           "checklist": [{"text": "チェック項目", "checked": true}],
           "tableData": {"headers": ["列1", "列2"], "rows": [["データ1", "データ2"]]},
           "boxes": [{"title": "ボックス1", "content": "内容"}],
-          "twoColumn": {"left": ["左項目1"], "right": ["右項目1"]}
+          "twoColumn": {"left": ["左項目1"], "right": ["右項目1"]},
+          "description": "詳細説明（title-description-onlyの場合）",
+          "checklist": [{"text": "チェック項目", "checked": false}]
         }
       }
     ]
@@ -267,6 +274,32 @@ ${templateSelectionPrompt}
       // テンプレートタイプに応じたサンプルデータを生成
       const generateSampleData = (type: TemplateType): TemplateData => {
         switch (type) {
+          case 'title-description-only':
+            return {
+              title: text.substring(0, 25),
+              description: text.length > 50 ? text.substring(0, 100) + '...' : text,
+              badgeText: '重要ポイント'
+            }
+          case 'checklist-enhanced':
+            return {
+              title: text.substring(0, 25),
+              checklist: [
+                { text: '確認項目1', checked: false },
+                { text: '確認項目2', checked: false },
+                { text: '確認項目3', checked: false }
+              ],
+              badgeText: 'チェックリスト'
+            }
+          case 'item-n-title-content':
+            return {
+              title: text.substring(0, 25),
+              items: [
+                { title: 'ポイント1', content: '内容1' },
+                { title: 'ポイント2', content: '内容2' },
+                { title: 'ポイント3', content: '内容3' }
+              ],
+              badgeText: '重要概念'
+            }
           case 'table':
             return {
               title: text.substring(0, 25),

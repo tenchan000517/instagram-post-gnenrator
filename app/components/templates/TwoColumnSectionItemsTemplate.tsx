@@ -80,7 +80,7 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
           <div className="text-center mb-6">
             <div className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
               <p className="text-base font-medium text-gray-800 leading-relaxed">
-                {typeof data.content === 'string' ? data.content : data.content?.description}
+                {typeof data.content === 'string' ? data.content : (data.content as any)?.content || (data.content as any)?.description}
               </p>
             </div>
           </div>
@@ -117,7 +117,9 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                   {leftSection.items.map((item, index) => (
                     <div key={index} className="flex items-start gap-2">
                       <IconClipboardCheck className="w-8 h-8 text-blue-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-base text-gray-800 leading-relaxed">{item}</span>
+                      <span className="text-base text-gray-800 leading-relaxed">
+                        {typeof item === 'string' ? item : item.content || item.title || ''}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -154,7 +156,9 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                   {rightSection.items.map((item, index) => (
                     <div key={index} className="flex items-start gap-2">
                       <IconClipboardCheck className="w-8 h-8 text-blue-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-base text-gray-800 leading-relaxed">{item}</span>
+                      <span className="text-base text-gray-800 leading-relaxed">
+                        {typeof item === 'string' ? item : item.content || item.title || ''}
+                      </span>
                     </div>
                   ))}
                 </div>

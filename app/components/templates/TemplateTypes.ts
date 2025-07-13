@@ -95,7 +95,7 @@ export interface TemplateData {
   [key: string]: any  // For dynamic field access
 }
 
-// アクティブテンプレートタイプ（9個、アーカイブ済みを除外）
+// アクティブテンプレートタイプ（13個、Critical Priority + High Priority追加）
 export type TemplateType = 
   | 'enumeration'      // ①列挙型
   | 'list'             // ②リスト型
@@ -106,3 +106,7 @@ export type TemplateType =
   | 'simple6'          // ⑦シンプル型６
   | 'section-items'    // ⑧セクション+アイテム型
   | 'two-column-section-items' // ⑨2カラムセクション+アイテム型
+  | 'title-description-only'   // ⑩タイトル+説明文のみ型（Critical Priority）
+  | 'checklist-enhanced'       // ⑪チェックリスト詳細付き型（Critical Priority）
+  | 'item-n-title-content'     // ⑫独立ボックス構造型（Critical Priority）
+  | 'single-section-no-items'  // ⑬単一セクション・アイテム無し型（High Priority）

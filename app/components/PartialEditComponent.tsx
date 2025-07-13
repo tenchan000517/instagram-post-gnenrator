@@ -96,7 +96,6 @@ export default function PartialEditComponent({
         }
         break
 
-      case 'explanation':
       case 'explanation2':
         if (data.content) {
           fields.push({
@@ -131,27 +130,6 @@ export default function PartialEditComponent({
         }
         break
 
-      case 'story':
-        if (data.content) {
-          fields.push({
-            key: 'content',
-            label: 'ストーリー内容',
-            type: 'textarea',
-            value: data.content,
-            placeholder: 'ストーリー内容を入力',
-            maxLength: 250
-          })
-        }
-        if (data.checklist) {
-          fields.push({
-            key: 'checklist',
-            label: 'チェックリスト',
-            type: 'list',
-            value: data.checklist?.map(item => item.text) || [],
-            placeholder: 'チェック項目を入力'
-          })
-        }
-        break
 
       case 'list':
         if (data.items) {
