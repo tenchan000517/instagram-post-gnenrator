@@ -41,9 +41,17 @@ export function IndexTemplate({ data }: IndexTemplateProps) {
             
             return (
               <>
-                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-6 py-3 rounded-lg text-xl font-bold mb-4 shadow-lg">
-                  <FileText size={24} />
-                  <span>{badgeText}</span>
+                <div style={{display: 'flex', justifyContent: 'center', marginBottom: '16px'}}>
+                  <svg width="400" height="50">
+                    <rect x="0" y="0" width="400" height="50" fill="url(#gradient)" rx="8" />
+                    <defs>
+                      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stopColor="#6366f1" />
+                        <stop offset="100%" stopColor="#8b5cf6" />
+                      </linearGradient>
+                    </defs>
+                    <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{badgeText}</text>
+                  </svg>
                 </div>
                 <h1 className="text-2xl font-bold text-gray-800 leading-tight">
                   {title}
@@ -108,7 +116,7 @@ export function IndexTemplate({ data }: IndexTemplateProps) {
         <div className="mt-6 flex justify-center">
           <div className="flex items-center gap-2 text-gray-500">
             <List size={16} />
-            <span className="text-sm font-medium">INDEX</span>
+            <span className="text-sm font-medium">固定INDEX</span>
           </div>
         </div>
       </div>

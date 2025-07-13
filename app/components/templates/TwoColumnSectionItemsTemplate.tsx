@@ -63,9 +63,11 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
             
             return (
               <>
-                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
-                  <PageIcon className="w-5 h-5" />
-                  <span>{badgeText}</span>
+                <div style={{display: 'flex', justifyContent: 'center', marginBottom: '12px'}}>
+                  <svg width="400" height="50">
+                    <rect x="0" y="0" width="400" height="50" fill="#60a5fa" rx="4" />
+                    <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{badgeText}</text>
+                  </svg>
                 </div>
                 <h1 className="text-2xl font-bold text-gray-800 leading-tight">
                   {title}
@@ -96,9 +98,11 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                 return (
                   <div className="mb-3">
                     {badge && (
-                      <div className="inline-flex items-center gap-1 bg-blue-400 text-white px-3 py-1 rounded-sm text-xl font-medium mb-2">
-                        <IconClipboardCheck className="w-6 h-6" />
-                        <span>{badge}</span>
+                      <div style={{display: 'flex', justifyContent: 'center', marginBottom: '8px'}}>
+                        <svg width="300" height="35">
+                          <rect x="0" y="0" width="300" height="35" fill="#60a5fa" rx="4" />
+                          <text x="150" y="23" fill="white" fontSize="16" fontWeight="bold" textAnchor="middle">{badge}</text>
+                        </svg>
                       </div>
                     )}
                     <h3 className="text-xl font-bold text-blue-600">
@@ -135,9 +139,11 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                 return (
                   <div className="mb-3">
                     {badge && (
-                      <div className="inline-flex items-center gap-1 bg-blue-400 text-white px-3 py-1 rounded-sm text-xl font-medium mb-2">
-                        <IconClipboardCheck className="w-6 h-6" />
-                        <span>{badge}</span>
+                      <div style={{display: 'flex', justifyContent: 'center', marginBottom: '8px'}}>
+                        <svg width="300" height="35">
+                          <rect x="0" y="0" width="300" height="35" fill="#60a5fa" rx="4" />
+                          <text x="150" y="23" fill="white" fontSize="16" fontWeight="bold" textAnchor="middle">{badge}</text>
+                        </svg>
                       </div>
                     )}
                     <h3 className="text-xl font-bold text-blue-600">

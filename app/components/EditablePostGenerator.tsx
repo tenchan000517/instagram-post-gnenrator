@@ -36,7 +36,8 @@ export default function EditablePostGenerator({
   const [isDownloading, setIsDownloading] = useState(false)
   const [downloadProgress, setDownloadProgress] = useState({ current: 0, total: 0 })
   const previewRef = useRef<HTMLDivElement>(null)
-  const pageRefs = useRef<{ [key: number]: HTMLDivElement | null }>({})
+  const pageRefs = useRef<{ [key: number]: HTMLDivElement | null }>({})         // プレビュー用
+  const downloadPageRefs = useRef<{ [key: number]: HTMLDivElement | null }>({}) // ダウンロード用
 
   // Initialize download items
   useEffect(() => {
@@ -151,7 +152,11 @@ export default function EditablePostGenerator({
   }
 
   const handleDownload = async () => {
-    const currentPageElement = pageRefs.current[currentPage]
+    // 隠し要素から対象ページを取得（一括ダウンロードと同じ方式）
+    const targetPage = currentContent.pages[currentPage]
+    const pageIndex = targetPage.pageNumber - 1
+    const currentPageElement = downloadPageRefs.current[pageIndex]
+    
     if (!currentPageElement) {
       alert('ページが見つかりません。少し待ってから再度お試しください。')
       return
@@ -164,8 +169,8 @@ export default function EditablePostGenerator({
         width: 850,
         height: 899,
         useCORS: true,
-        logging: false,
-        allowTaint: true,
+        allowTaint: false,
+        foreignObjectRendering: false
       })
 
       const link = document.createElement('a')
@@ -281,7 +286,7 @@ export default function EditablePostGenerator({
           await new Promise(resolve => setTimeout(resolve, 500))
           
           // 該当ページの要素を取得
-          const currentPageElement = pageRefs.current[pageIndex]
+          const currentPageElement = downloadPageRefs.current[pageIndex]
           if (!currentPageElement) {
             console.warn(`Page ${pageIndex + 1} element not found, skipping`)
             continue
@@ -310,7 +315,6 @@ export default function EditablePostGenerator({
       width: 850,
       height: 899,
       useCORS: true,
-      logging: false,
       allowTaint: true
     })
 
@@ -348,17 +352,19 @@ export default function EditablePostGenerator({
       return (
         <div
           key={`download-page-${index}`}
-          ref={el => { pageRefs.current[page.pageNumber - 1] = el }}
+          ref={el => { downloadPageRefs.current[page.pageNumber - 1] = el }}
           style={{
             width: '850px',
             height: '899px',
-            position: 'absolute',
-            top: '-9999px',
-            left: '-9999px',
-            zIndex: 1000,
+            position: 'fixed',
+            top: '0',
+            left: '-100vw',
+            zIndex: 9999,
             visibility: 'visible',
             overflow: 'hidden',
-            display: 'block'
+            display: 'block',
+            backgroundColor: '#ffffff',
+            fontFamily: 'inherit'
           }}
         >
           <TemplateComponent
@@ -828,7 +834,7 @@ export default function EditablePostGenerator({
 
               <div className="flex justify-center">
                 <div ref={previewRef}>
-                  <Viewport width={850} height={800}>
+                  <Viewport width={850} height={899}>
                     <div ref={el => { pageRefs.current[currentPage] = el }}>
                       {renderCurrentPage()}
                     </div>

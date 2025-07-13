@@ -26,9 +26,11 @@ export function TitleDescriptionOnlyTemplate({ data }: TitleDescriptionOnlyTempl
         {/* 🏷️ 標準ヘッダー（バッジ＋タイトル） */}
         <div className="mb-8">
           {/* バッジ（ページアイコン付き） */}
-          <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
-            <PageIcon className="w-5 h-5" />
-            <span>{data.badgeText || badge}</span>
+          <div style={{display: 'flex', justifyContent: 'center', marginBottom: '12px'}}>
+            <svg width="400" height="50">
+              <rect x="0" y="0" width="400" height="50" fill="#60a5fa" rx="4" />
+              <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{data.badgeText || badge}</text>
+            </svg>
           </div>
           
           {/* メインタイトル */}

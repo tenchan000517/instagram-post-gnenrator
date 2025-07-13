@@ -2,7 +2,12 @@
 import React from 'react'
 import { TemplateData, splitTitleForBadge, getPageNumberIcon, cleanMarkdown } from './TemplateTypes'
 import { CheckSquare } from 'lucide-react'
-import { IconNumber1, IconNumber2, IconNumber3, IconNumber4, IconNumber5, IconNumber6, IconNumber7, IconNumber8 } from '@tabler/icons-react'
+// 純粋なCSS数字アイコンコンポーネント（Tablerアイコンの代替）
+const NumberIcon = ({ number }: { number: number }) => (
+  <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-green-500 font-bold text-sm">
+    {number}
+  </div>
+)
 
 interface SimpleFiveTemplateProps {
   data: TemplateData
@@ -36,11 +41,8 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
   })
   console.log('================================================================================')
 
-  // ステップ数字アイコンのマッピング
-  const stepIcons = [
-    IconNumber1, IconNumber2, IconNumber3, IconNumber4,
-    IconNumber5, IconNumber6, IconNumber7, IconNumber8
-  ]
+  // ステップ数字（1から始まる）
+  const getStepNumber = (index: number) => index + 1
 
   return (
     <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
@@ -54,9 +56,11 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
             
             return (
               <>
-                <div className="inline-flex items-center gap-2 bg-blue-400 text-white px-4 py-2 rounded-sm text-xl font-medium mb-3">
-                  <PageIcon className="w-5 h-5" />
-                  <span>{badgeText}</span>
+                <div style={{display: 'flex', justifyContent: 'center', marginBottom: '12px'}}>
+                  <svg width="400" height="50">
+                    <rect x="0" y="0" width="400" height="50" fill="#60a5fa" rx="4" />
+                    <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{badgeText}</text>
+                  </svg>
                 </div>
                 <h1 className="text-2xl font-bold text-gray-800 leading-tight">
                   {title}
@@ -70,7 +74,7 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
         <div className="flex-1 space-y-4">
           {/* ステップデータ優先 */}
           {data.steps?.map((step, index) => {
-            const StepIcon = stepIcons[index] || IconNumber1
+            const stepNumber = getStepNumber(index)
             
             return (
               <div key={index} className="space-y-2">
@@ -94,7 +98,7 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
                   {/* ステップラベル（左上に重なり） */}
                   <div className="absolute -top-2 -left-2 bg-green-500 px-3 py-1 rounded-md flex items-center gap-2">
                     <span className="text-white font-medium text-sm">ステップ</span>
-                    <StepIcon className="w-5 h-5 text-white" />
+                    <NumberIcon number={stepNumber} />
                   </div>
                 </div>
               </div>
@@ -102,7 +106,7 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
           }) || 
           /* アイテムデータの処理 */
           data.items?.map((item, index) => {
-            const StepIcon = stepIcons[index] || IconNumber1
+            const stepNumber = getStepNumber(index)
             // itemからマークダウン記法を除去してステップタイトルと説明を抽出
             const itemText = typeof item === 'string' ? item : item.content || item.title || ''
             // マークダウン記法を除去
@@ -134,7 +138,7 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
                   {/* ステップラベル（左上に重なり） */}
                   <div className="absolute -top-2 -left-2 bg-green-500 px-3 py-1 rounded-md flex items-center gap-2">
                     <span className="text-white font-medium text-sm">ステップ</span>
-                    <StepIcon className="w-5 h-5 text-white" />
+                    <NumberIcon number={stepNumber} />
                   </div>
                 </div>
               </div>
@@ -142,7 +146,7 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
           }) || 
           /* チェックリストデータ */
           data.checklist?.map((item, index) => {
-            const StepIcon = stepIcons[index] || IconNumber1
+            const stepNumber = getStepNumber(index)
             
             return (
               <div key={index} className="space-y-2">
@@ -166,7 +170,7 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
                   {/* ステップラベル（左上に重なり） */}
                   <div className="absolute -top-2 -left-2 bg-green-300 px-3 py-1 rounded-md flex items-center gap-2">
                     <span className="text-white font-medium text-sm">ステップ</span>
-                    <StepIcon className="w-5 h-5 text-white" />
+                    <NumberIcon number={stepNumber} />
                   </div>
                 </div>
               </div>
