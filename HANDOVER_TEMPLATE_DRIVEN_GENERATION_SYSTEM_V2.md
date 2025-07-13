@@ -169,9 +169,11 @@ export class ContentGeneratorService {
       pages.push(page)
     }
     
-    // 既存のハッシュタグ・キャプション生成
+    // ハッシュタグ生成（現状維持）
     const hashtags = await this.generateHashtags(input)
-    const caption = await this.generateCaption(input)
+    
+    // キャプション生成（改善: 実際の生成内容を反映）
+    const caption = await this.generateCaptionWithFormat(input, pages)
     
     return {
       pages,
@@ -180,6 +182,44 @@ export class ContentGeneratorService {
       caption,
       summary: input
     }
+  }
+
+  // 新規: フォーマット統一キャプション生成
+  async generateCaptionWithFormat(
+    originalInput: string,
+    generatedPages: GeneratedPage[]
+  ): Promise<string> {
+    
+    const prompt = `
+【元入力】${originalInput}
+【実際の生成ページ】
+${generatedPages.map(p => `${p.content.title}: ${p.content.description || ''}`).join('\n')}
+
+【キャプション固定フォーマット】
+タイトル
+
+概要
+
+✅ページタイトル
+ページの簡潔な概要と補足説明
+
+✅ページタイトル
+簡潔な概要と補足説明
+
+...
+
+まとめ的な内容（「まとめ」という単語は使用禁止）
+
+【要求】
+- 実際に生成されたページ内容を正確に踏襲
+- 上記フォーマットを厳密に遵守
+- 各ページの価値を簡潔に表現
+- Instagram投稿らしい親しみやすさ
+- ハッシュタグは含めない（別セクション）
+`
+    
+    const result = await this.model.generateContent(prompt)
+    return result.response.text().trim()
   }
 }
 ```
@@ -214,6 +254,12 @@ export class ContentGeneratorService {
 - 複雑な概念の分かりやすい濃縮表現
 - STAR法→「説得力3倍アップ」等の親しみやすい専門性
 
+### 7. キャプション品質向上
+- **フォーマット統一**: 固定構造による一定の見た目
+- **内容整合性**: 実際の生成ページ内容を正確に反映
+- **視覚的読みやすさ**: ✅マークによる構造化
+- **ハッシュタグ分離**: キャプションとハッシュタグの明確な分離
+
 ## 🚀 実装手順
 
 ### Step 1: PageStructureAnalyzer実装
@@ -226,11 +272,16 @@ export class ContentGeneratorService {
 - 制約付きコンテンツ生成
 - ハルシネーション防止プロンプト
 
-### Step 3: ContentGeneratorService統合
+### Step 3: キャプション生成改善
+- フォーマット統一システム実装
+- 実際の生成内容との整合性確保
+- ハッシュタグ生成は現状維持
+
+### Step 4: ContentGeneratorService統合
 - 2段階フロー実装
 - 既存システムとの整合性確保
 
-### Step 4: 品質検証
+### Step 5: 品質検証
 - 優秀テンプレート使用率測定
 - タイトル生成精度確認
 - ハルシネーション発生率チェック
@@ -251,6 +302,10 @@ export class ContentGeneratorService {
   - 「へぇ、知らなかった！」要素の含有率 90%以上
   - スクロール停止価値（「おっ」と思わせる）達成率 85%以上
   - 視覚的読みやすさ（スマホ画面最適化）100%
+- [ ] **キャプション品質向上**
+  - フォーマット統一率 100%（固定構造遵守）
+  - 生成内容との整合性 95%以上
+  - ✅マークによる視覚的構造化の実現
 
 ## ⚠️ 重要な注意点
 
@@ -260,6 +315,8 @@ export class ContentGeneratorService {
 4. **構造制約遵守**: 事前決定したテンプレート構造に確実に適合
 5. **Instagram特化表現**: 専門用語羅列は禁止、適度な専門性で親しみやすく
 6. **瞬間的価値**: 3秒で理解、スクロール中に「おっ」と思わせる簡潔性
+7. **キャプションフォーマット厳守**: 固定構造を完全遵守、実際の生成内容を反映
+8. **ハッシュタグ生成維持**: 現状のロジックを変更せず維持
 
 ---
 
