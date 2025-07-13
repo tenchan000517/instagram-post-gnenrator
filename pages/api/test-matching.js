@@ -266,7 +266,9 @@ async function analyzePageMatching(page, pageNumber) {
     },
     templateData: {
       hasRequiredFields: checkRequiredFields(page.templateData, bestMatch.templateType),
-      fieldCount: Object.keys(page.templateData || {}).length
+      fieldCount: Object.keys(page.templateData || {}).length,
+      detailedValidation: validateTemplateDataCompleteness(page.templateData, bestMatch.templateType, content),
+      dataLossAnalysis: analyzeDataLoss(content, page.templateData, bestMatch.templateType)
     }
   }
 }
@@ -274,27 +276,281 @@ async function analyzePageMatching(page, pageNumber) {
 function checkRequiredFields(templateData, templateType) {
   if (!templateData) return false
 
-  // テンプレート別必須フィールドチェック
+  // 全13テンプレート別必須フィールドチェック（完全版）
   switch (templateType) {
     case 'enumeration':
     case 'list':
       return !!(templateData.title && templateData.items?.length)
+    
     case 'simple6':
       return !!(templateData.title && templateData.content && templateData.items?.length)
+    
     case 'simple3':
-      return !!(templateData.title && templateData.twoColumn)
+      return !!(templateData.title && templateData.twoColumn?.left?.length && templateData.twoColumn?.right?.length)
+    
     case 'table':
-      return !!(templateData.title && templateData.tableData?.headers?.length)
+      return !!(templateData.title && templateData.tableData?.headers?.length && templateData.tableData?.rows?.length)
+    
     case 'explanation2':
       return !!(templateData.title && templateData.points?.length)
+    
     case 'simple5':
       return !!(templateData.title && (templateData.steps?.length || templateData.checklist?.length))
+    
     case 'section-items':
     case 'two-column-section-items':
-      return !!(templateData.title && templateData.sections?.length)
+      return !!(templateData.title && templateData.sections?.length && 
+               templateData.sections.every(section => section.title && section.items?.length))
+    
+    case 'title-description-only':
+      return !!(templateData.title && (templateData.description || templateData.content))
+    
+    case 'checklist-enhanced':
+      return !!(templateData.title && templateData.checklist?.length && 
+               templateData.checklist.every(item => item.text))
+    
+    case 'item-n-title-content':
+      return !!(templateData.title && templateData.items?.length && 
+               templateData.items.every(item => item.title || item.content))
+    
+    case 'single-section-no-items':
+      return !!(templateData.title && templateData.sections?.length === 1 && 
+               templateData.sections[0].title && templateData.sections[0].content)
+    
     default:
       return !!(templateData.title)
   }
+}
+
+// 🔍 詳細なテンプレートデータ完全性検証
+function validateTemplateDataCompleteness(templateData, templateType, originalContent) {
+  if (!templateData) return { isComplete: false, missingFields: ['templateData'], score: 0 }
+  
+  const validation = {
+    isComplete: true,
+    missingFields: [],
+    extraFields: [],
+    fieldValidation: {},
+    completenessScore: 0
+  }
+
+  // テンプレート別の期待フィールド定義
+  const expectedFields = getExpectedFields(templateType)
+  const actualFields = Object.keys(templateData)
+  
+  // 必須フィールドの検証
+  expectedFields.required.forEach(field => {
+    const value = getNestedValue(templateData, field)
+    const isValid = validateFieldValue(value, field, templateType)
+    
+    validation.fieldValidation[field] = {
+      exists: value !== undefined && value !== null,
+      isValid,
+      value: summarizeValue(value)
+    }
+    
+    if (!isValid) {
+      validation.isComplete = false
+      validation.missingFields.push(field)
+    }
+  })
+  
+  // オプションフィールドの検証
+  expectedFields.optional.forEach(field => {
+    const value = getNestedValue(templateData, field)
+    if (value !== undefined && value !== null) {
+      validation.fieldValidation[field] = {
+        exists: true,
+        isValid: validateFieldValue(value, field, templateType),
+        value: summarizeValue(value)
+      }
+    }
+  })
+  
+  // 予期しない追加フィールドの検出
+  actualFields.forEach(field => {
+    if (!expectedFields.required.includes(field) && !expectedFields.optional.includes(field)) {
+      validation.extraFields.push(field)
+    }
+  })
+  
+  // 完全性スコア計算
+  const validRequiredFields = expectedFields.required.filter(field => 
+    validation.fieldValidation[field]?.isValid
+  ).length
+  validation.completenessScore = (validRequiredFields / expectedFields.required.length) * 100
+  
+  return validation
+}
+
+// 📊 データ損失分析機能
+function analyzeDataLoss(originalContent, templateData, templateType) {
+  const analysis = {
+    hasDataLoss: false,
+    lostFields: [],
+    preservedFields: [],
+    transformationIssues: [],
+    dataIntegrityScore: 100
+  }
+  
+  // 元データの要素をカウント
+  const originalStats = {
+    title: !!originalContent.title,
+    description: !!originalContent.description,
+    itemsCount: originalContent.items?.length || 0,
+    sectionsCount: originalContent.sections?.length || 0,
+    tableData: !!(originalContent.tableData?.headers?.length && originalContent.tableData?.rows?.length),
+    checklist: originalContent.checklist?.length || 0
+  }
+  
+  // 変換後データの要素をカウント
+  const templateStats = {
+    title: !!templateData.title,
+    description: !!(templateData.description || templateData.content),
+    itemsCount: templateData.items?.length || 0,
+    sectionsCount: templateData.sections?.length || 0,
+    tableData: !!(templateData.tableData?.headers?.length && templateData.tableData?.rows?.length),
+    checklist: templateData.checklist?.length || 0
+  }
+  
+  // データ損失の検出
+  if (originalStats.title && !templateStats.title) {
+    analysis.hasDataLoss = true
+    analysis.lostFields.push('title')
+  } else if (originalStats.title) {
+    analysis.preservedFields.push('title')
+  }
+  
+  if (originalStats.description && !templateStats.description) {
+    analysis.hasDataLoss = true
+    analysis.lostFields.push('description/content')
+  } else if (originalStats.description) {
+    analysis.preservedFields.push('description/content')
+  }
+  
+  // アイテム数の変化
+  if (originalStats.itemsCount > templateStats.itemsCount) {
+    analysis.hasDataLoss = true
+    analysis.lostFields.push(`items (${originalStats.itemsCount} → ${templateStats.itemsCount})`)
+  } else if (originalStats.itemsCount > 0) {
+    analysis.preservedFields.push(`items (${templateStats.itemsCount})`)
+  }
+  
+  // セクション数の変化
+  if (originalStats.sectionsCount > templateStats.sectionsCount) {
+    analysis.hasDataLoss = true
+    analysis.lostFields.push(`sections (${originalStats.sectionsCount} → ${templateStats.sectionsCount})`)
+  } else if (originalStats.sectionsCount > 0) {
+    analysis.preservedFields.push(`sections (${templateStats.sectionsCount})`)
+  }
+  
+  // データ整合性スコア計算
+  const totalElements = Object.values(originalStats).reduce((sum, val) => 
+    sum + (typeof val === 'boolean' ? (val ? 1 : 0) : val), 0
+  )
+  const lostElements = analysis.lostFields.length
+  
+  if (totalElements > 0) {
+    analysis.dataIntegrityScore = Math.max(0, ((totalElements - lostElements) / totalElements) * 100)
+  }
+  
+  return analysis
+}
+
+// ヘルパー関数群
+function getExpectedFields(templateType) {
+  const fieldDefinitions = {
+    'enumeration': {
+      required: ['title', 'items'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'list': {
+      required: ['title', 'items'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'simple6': {
+      required: ['title', 'content', 'items'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'simple3': {
+      required: ['title', 'twoColumn.left', 'twoColumn.right'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'table': {
+      required: ['title', 'tableData.headers', 'tableData.rows'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'explanation2': {
+      required: ['title', 'points'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'simple5': {
+      required: ['title'],
+      optional: ['steps', 'checklist', 'description', 'badgeText', 'pageNumber']
+    },
+    'section-items': {
+      required: ['title', 'sections'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'two-column-section-items': {
+      required: ['title', 'sections'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'title-description-only': {
+      required: ['title'],
+      optional: ['description', 'content', 'badgeText', 'pageNumber']
+    },
+    'checklist-enhanced': {
+      required: ['title', 'checklist'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'item-n-title-content': {
+      required: ['title', 'items'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    },
+    'single-section-no-items': {
+      required: ['title', 'sections'],
+      optional: ['description', 'badgeText', 'pageNumber']
+    }
+  }
+  
+  return fieldDefinitions[templateType] || { required: ['title'], optional: [] }
+}
+
+function getNestedValue(obj, path) {
+  return path.split('.').reduce((current, key) => current?.[key], obj)
+}
+
+function validateFieldValue(value, field, templateType) {
+  if (value === undefined || value === null) return false
+  
+  if (field.includes('items') || field.includes('sections') || field.includes('points') || 
+      field.includes('checklist') || field.includes('headers') || field.includes('rows')) {
+    return Array.isArray(value) && value.length > 0
+  }
+  
+  if (field.includes('twoColumn')) {
+    return Array.isArray(value) && value.length > 0
+  }
+  
+  if (typeof value === 'string') {
+    return value.trim().length > 0
+  }
+  
+  return true
+}
+
+function summarizeValue(value) {
+  if (Array.isArray(value)) {
+    return `Array[${value.length}]`
+  }
+  if (typeof value === 'string') {
+    return value.length > 50 ? `"${value.substring(0, 50)}..."` : `"${value}"`
+  }
+  if (typeof value === 'object' && value !== null) {
+    return `Object{${Object.keys(value).join(', ')}}`
+  }
+  return String(value)
 }
 
 function getStructureKey(structure) {

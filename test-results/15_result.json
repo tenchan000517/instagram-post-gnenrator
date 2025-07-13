@@ -1,0 +1,130 @@
+{
+  "filename": "15.txt",
+  "inputLength": 2718,
+  "totalPages": 7,
+  "perfectCount": 4,
+  "imperfectCount": 3,
+  "perfectRate": "57.1%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "title-description-only",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "自己分析：就活成功への第一歩...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "enumeration",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:3",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "自己分析：3つのステップで徹底理解...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "explanation2",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "自己分析：深掘り手法と実践ツール...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 66.66666666666666,
+        "missingFields": [],
+        "lostData": [
+          "sections (2 → 0)"
+        ],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "title-description-only",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "キャリア探求：適職を見つけるために...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "simple6",
+      "bestScore": 0.8888888888888888,
+      "isPerfect": false,
+      "structureKey": "description+items:4",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "undefined...",
+      "templateDataValidation": {
+        "completenessScore": 66.66666666666666,
+        "dataIntegrityScore": 66.66666666666666,
+        "missingFields": [
+          "title"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "checklist-enhanced",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "キャリア探求：実践チェックリスト...",
+      "templateDataValidation": {
+        "completenessScore": 50,
+        "dataIntegrityScore": 100,
+        "missingFields": [
+          "checklist"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "title-description-only",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "まとめ：自己分析とキャリア探求で、理想の未来を掴む...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    }
+  ],
+  "generationTime": "17.6秒",
+  "timestamp": "2025-07-13T04:06:53.258Z"
+}

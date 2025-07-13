@@ -1,0 +1,128 @@
+{
+  "filename": "13.txt",
+  "inputLength": 13294,
+  "totalPages": 7,
+  "perfectCount": 4,
+  "imperfectCount": 3,
+  "perfectRate": "57.1%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "title-description-only",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "就活戦略：2026年卒 締切情報 完全攻略！...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "table",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+table",
+      "suggestedTemplate": "CustomTemplate_title_table",
+      "contentPreview": "7月20日までの締切：詳細企業情報...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "section-items",
+      "bestScore": 0.5,
+      "isPerfect": false,
+      "structureKey": "title+description+sections:1",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_1",
+      "contentPreview": "7月締切企業の傾向と対策...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "enumeration",
+      "bestScore": 0.8333333333333334,
+      "isPerfect": false,
+      "structureKey": "description+items:3",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "undefined...",
+      "templateDataValidation": {
+        "completenessScore": 50,
+        "dataIntegrityScore": 66.66666666666666,
+        "missingFields": [
+          "title"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "two-column-section-items",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_2",
+      "contentPreview": "締切間近！8月9日までの情報とインターンシップ活用術...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "checklist-enhanced",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title",
+      "suggestedTemplate": "CustomTemplate_title",
+      "contentPreview": "締切直前！最終確認チェックリスト...",
+      "templateDataValidation": {
+        "completenessScore": 50,
+        "dataIntegrityScore": 100,
+        "missingFields": [
+          "checklist"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "title-description-only",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "成功への道：情報と準備で未来を切り拓け！...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    }
+  ],
+  "generationTime": "19.2秒",
+  "timestamp": "2025-07-13T04:05:49.015Z"
+}

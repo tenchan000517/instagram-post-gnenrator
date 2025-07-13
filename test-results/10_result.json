@@ -1,0 +1,128 @@
+{
+  "filename": "10.txt",
+  "inputLength": 1388,
+  "totalPages": 7,
+  "perfectCount": 4,
+  "imperfectCount": 3,
+  "perfectRate": "57.1%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "title-description-only",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "インターンシップ：7月27日締切！早期内定獲得へ...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "table",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+table",
+      "suggestedTemplate": "CustomTemplate_title_description_table",
+      "contentPreview": "7月27日締切：インターンシップ詳細...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "enumeration",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:3",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "選考直結型インターンシップ：成功への道...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "section-items",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+sections:1",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_1",
+      "contentPreview": "自己分析：強みを最大限に活かす...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "checklist-enhanced",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "インターンシップ応募：チェックリスト...",
+      "templateDataValidation": {
+        "completenessScore": 50,
+        "dataIntegrityScore": 100,
+        "missingFields": [
+          "checklist"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "simple6",
+      "bestScore": 0.8888888888888888,
+      "isPerfect": false,
+      "structureKey": "description+items:5",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "undefined...",
+      "templateDataValidation": {
+        "completenessScore": 66.66666666666666,
+        "dataIntegrityScore": 66.66666666666666,
+        "missingFields": [
+          "title"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "section-items",
+      "bestScore": 0.5,
+      "isPerfect": false,
+      "structureKey": "title+description+sections:1",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_1",
+      "contentPreview": "まとめ：早期内定へ向けて...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    }
+  ],
+  "generationTime": "16.9秒",
+  "timestamp": "2025-07-13T04:03:42.453Z"
+}

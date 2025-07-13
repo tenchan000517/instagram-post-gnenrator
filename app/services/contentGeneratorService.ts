@@ -3,6 +3,7 @@ import { TemplateType, TemplateData } from '../components/templates/TemplateType
 import { hashtagService } from '../config/hashtags'
 import { captionService } from '../config/captionFormat'
 import { MarkdownUtils } from '../utils/markdownUtils'
+import { IndexGeneratorService } from './indexGeneratorService'
 
 export interface GeneratedPage {
   pageNumber: number
@@ -180,6 +181,101 @@ ${contentForCaption}
     } finally {
       this.isGenerating = false
     }
+  }
+
+  /**
+   * INDEXページを生成してコンテンツの先頭に挿入
+   * @param content 既存のコンテンツ
+   * @param mainTheme メインテーマ
+   * @returns INDEXページが追加されたコンテンツ
+   */
+  generateContentWithIndex(content: GeneratedContent, mainTheme: string): GeneratedContent {
+    console.log('🏗️ INDEXページ付きコンテンツ生成開始')
+    
+    // 既存のページからINDEXデータを生成
+    const templateDataList = content.pages.map(page => page.templateData)
+    const indexData = IndexGeneratorService.generateIndexData(templateDataList, mainTheme)
+    
+    // INDEXページを作成
+    const indexPage: GeneratedPage = {
+      pageNumber: 0,
+      templateType: 'index',
+      templateData: indexData,
+      content: {
+        title: indexData.title,
+        subtitle: indexData.subtitle,
+        description: indexData.content,
+        items: indexData.items,
+        badgeText: indexData.badgeText
+      }
+    }
+    
+    // 既存のページの番号を調整（1から開始）
+    const adjustedPages = content.pages.map((page, index) => ({
+      ...page,
+      pageNumber: index + 1,
+      templateData: {
+        ...page.templateData,
+        pageNumber: index + 1
+      }
+    }))
+    
+    // INDEXページを先頭に追加
+    const pagesWithIndex = [indexPage, ...adjustedPages]
+    
+    const updatedContent: GeneratedContent = {
+      ...content,
+      pages: pagesWithIndex,
+      totalPages: pagesWithIndex.length
+    }
+    
+    console.log(`✅ INDEXページ付きコンテンツ生成完了（全${updatedContent.totalPages}ページ）`)
+    
+    return updatedContent
+  }
+
+  /**
+   * 選択されたページのみでINDEXを生成（ダウンロード用）
+   * @param selectedPages 選択されたページ
+   * @param mainTheme メインテーマ
+   * @returns INDEXページが追加された選択されたコンテンツ
+   */
+  generateIndexForSelectedPages(selectedPages: GeneratedPage[], mainTheme: string): GeneratedPage[] {
+    console.log('🏗️ 選択ページ用INDEXページ生成開始')
+    
+    // 選択されたページからINDEXデータを生成
+    const templateDataList = selectedPages.map(page => page.templateData)
+    const indexData = IndexGeneratorService.generateIndexDataForSelected(templateDataList, mainTheme)
+    
+    // INDEXページを作成
+    const indexPage: GeneratedPage = {
+      pageNumber: 0,
+      templateType: 'index',
+      templateData: indexData,
+      content: {
+        title: indexData.title,
+        subtitle: indexData.subtitle,
+        description: indexData.content,
+        items: indexData.items,
+        badgeText: indexData.badgeText
+      }
+    }
+    
+    // 選択されたページの番号を調整（1から開始）
+    const adjustedPages = selectedPages.map((page, index) => ({
+      ...page,
+      pageNumber: index + 1,
+      templateData: {
+        ...page.templateData,
+        pageNumber: index + 1
+      }
+    }))
+    
+    const pagesWithIndex = [indexPage, ...adjustedPages]
+    
+    console.log(`✅ 選択ページ用INDEXページ生成完了（全${pagesWithIndex.length}ページ）`)
+    
+    return pagesWithIndex
   }
 
   async regenerateSpecificPage(
@@ -530,8 +626,18 @@ ${additionalInstructions || '品質を向上させて再生成してください
   }
 
   private convertToTemplateData(content: any, templateType: TemplateType): TemplateData {
+    // タイトルのフォールバック処理を強化
+    let title = MarkdownUtils.removeMarkdown(content.title || content.heading || '')
+    if (!title || title.trim() === '') {
+      // タイトルが空の場合、説明文の最初の文を使用
+      const desc = content.description || content.content || ''
+      const firstSentence = desc.split(/[。．\n]/)[0]?.trim()
+      title = firstSentence ? MarkdownUtils.removeMarkdown(firstSentence) : 'コンテンツ'
+      console.warn(`⚠️ タイトルが空のため自動生成: "${title}"`)
+    }
+
     const baseData: TemplateData = {
-      title: MarkdownUtils.removeMarkdown(content.title || ''),
+      title: title,
       content: MarkdownUtils.removeMarkdown(content.description || ''),
       subtitle: MarkdownUtils.removeMarkdown(content.subtitle || ''),
       badgeText: MarkdownUtils.removeMarkdown(content.badgeText || ''),
@@ -620,7 +726,92 @@ ${additionalInstructions || '品質を向上させて再生成してください
       }))
     }
 
+    // Handle INDEX template data
+    if (templateType === 'index') {
+      // INDEX テンプレートは外部で IndexGeneratorService を使って生成されるため、
+      // ここでは基本的なデータをそのまま使用
+      baseData.content = MarkdownUtils.removeMarkdown(content.content || content.description || '')
+      baseData.items = content.items ? content.items.map((item: any) => 
+        typeof item === 'string' ? MarkdownUtils.removeMarkdown(item) : MarkdownUtils.removeMarkdown(String(item))
+      ) : []
+    }
+
     return baseData
+  }
+
+  /**
+   * ハッシュタグのみを再生成
+   */
+  async regenerateHashtags(content: GeneratedContent): Promise<GeneratedContent> {
+    if (!this.genAI) {
+      throw new Error('Gemini AI が初期化されていません')
+    }
+
+    try {
+      const model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
+      
+      // コンテンツの概要を作成
+      const contentSummary = `
+        タイトル: ${content.summary}
+        
+        ページ内容:
+        ${content.pages.map(page => `- ${page.content.title}: ${page.content.description || ''}`).join('\n')}
+      `.trim()
+
+      const prompt = `
+以下のInstagram投稿コンテンツに最適化されたハッシュタグを再生成してください。
+
+【コンテンツ内容】
+${contentSummary}
+
+【指示】
+就活・キャリア・インターンシップ関連のハッシュタグを以下の形式で生成：
+
+1. **大カテゴリ（4個）**: メインテーマに関する大きなハッシュタグ（例：#就活、#キャリア、#インターン、#転職）
+2. **中カテゴリ（4個）**: より具体的なハッシュタグ（例：#就活生、#新卒採用、#ES対策、#面接対策）
+3. **小カテゴリ（3個）**: 特化したハッシュタグ（例：#ES添削、#グループディスカッション、#志望動機）
+4. **全体（11個）**: 上記の重複なしの全てのハッシュタグ
+
+【重要な制約】
+- ハッシュタグは重複させない
+- 実際に使われている人気のハッシュタグを選ぶ
+- 投稿内容に関連性の高いものを優先
+- #記号を含めて出力
+
+【出力形式（JSON）】
+{
+  "large": ["#就活", "#キャリア", "#インターン", "#転職"],
+  "medium": ["#就活生", "#新卒採用", "#ES対策", "#面接対策"],
+  "small": ["#ES添削", "#グループディスカッション", "#志望動機"],
+  "all": ["#就活", "#キャリア", "#インターン", "#転職", "#就活生", "#新卒採用", "#ES対策", "#面接対策", "#ES添削", "#グループディスカッション", "#志望動機"]
+}
+`
+
+      const result = await model.generateContent(prompt)
+      const responseText = result.response.text()
+      
+      try {
+        const cleanText = responseText.replace(/```json\n?|```\n?/g, '').trim()
+        const newHashtags = JSON.parse(cleanText)
+        
+        return {
+          ...content,
+          hashtags: {
+            ...content.hashtags,
+            large: newHashtags.large || content.hashtags.large,
+            medium: newHashtags.medium || content.hashtags.medium,
+            small: newHashtags.small || content.hashtags.small,
+            all: newHashtags.all || content.hashtags.all
+          }
+        }
+      } catch (parseError) {
+        console.error('Failed to parse new hashtags:', parseError)
+        throw new Error('ハッシュタグの解析に失敗しました')
+      }
+    } catch (error) {
+      console.error('Hashtag regeneration failed:', error)
+      throw new Error('ハッシュタグの再生成に失敗しました')
+    }
   }
 }
 

@@ -82,7 +82,15 @@ export class TemplateMatchingService {
       contentStructure: ['title', 'checklistItems'],
       bestFor: ['ステップ確認', '段階的チェック', 'プロセス管理'],
       matchingKeywords: ['ステップ', '段階', 'プロセス', '進捗', '確認'],
-      priority: 8
+      priority: 10
+    },
+    {
+      templateType: 'simple5',
+      expressionPattern: 'ステップ型コンテンツ',
+      contentStructure: ['title', 'items'],
+      bestFor: ['ステップ解説', '段階的手順', '実践的手順'],
+      matchingKeywords: ['ステップ', '手順', '方法', '段階', '実践的'],
+      priority: 11
     },
     {
       templateType: 'simple6',
@@ -436,6 +444,7 @@ export class TemplateMatchingService {
       '対比・比較形式': /対比|比較|良い|悪い|OK|NG/,
       'チェックリスト形式': /チェック|確認|準備|やるべき/,
       'ステップ確認形式': /ステップ|段階|プロセス/,
+      'ステップ型コンテンツ': /[0-9]+ステップ|実践的.*ステップ|ステップ.*方法|ステップ.*手順/,
       '6つのポイント形式': /6つ|複数|多くの/,
       'ストーリー・体験談形式': /体験|ストーリー|事例|実際に/,
       'テーブル・表形式': /データ|表|比較|一覧/
@@ -465,6 +474,7 @@ export class TemplateMatchingService {
       '対比・比較形式': /対比|比較|良い|悪い|OK|NG/,
       'チェックリスト形式': /チェック|確認|準備|やるべき/,
       'ステップ確認形式': /ステップ|段階|プロセス/,
+      'ステップ型コンテンツ': /[0-9]+ステップ|実践的.*ステップ|ステップ.*方法|ステップ.*手順/,
       '6つのポイント形式': /6つ|複数|多くの/,
       'ストーリー・体験談形式': /体験|ストーリー|事例|実際に/,
       'テーブル・表形式': /データ|表|比較|一覧/

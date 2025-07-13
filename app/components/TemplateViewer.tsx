@@ -7,6 +7,13 @@ import { templateComponents, TemplateType } from './templates'
 
 // アクティブテンプレートのサンプルデータ（アーカイブ済みテンプレートを除外）
 const sampleData = {
+  index: {
+    title: 'INDEX：就活成功の5つのステップ',
+    subtitle: '全5ページの構成',
+    content: 'このコンテンツは5つの項目で構成されています。',
+    items: ['企業研究', '自己分析', '面接対策', 'ES対策', '選考準備'],
+    badgeText: 'INDEX'
+  },
   enumeration: {
     title: '面接対策：基本的な準備ポイント',
     pageNumber: 1,
@@ -224,10 +231,11 @@ const sampleData = {
 }
 
 export default function TemplateViewer() {
-  const [currentTemplate, setCurrentTemplate] = useState<TemplateType>('enumeration')
+  const [currentTemplate, setCurrentTemplate] = useState<TemplateType>('index')
   
   // アクティブテンプレートのみ（アーカイブ済みを除外: explanation, story, simple, simple2, simple4）
   const templates: { type: TemplateType; name: string; description: string }[] = [
+    { type: 'index', name: '⓪INDEX型', description: '目次ページ（メインテーマ+項目リスト）' },
     { type: 'enumeration', name: '①列挙型', description: '順番・ソートありの単純リスト専用' },
     { type: 'list', name: '②リスト型', description: '順番なしチェックリスト専用' },
     { type: 'explanation2', name: '③解説型２', description: 'タイトル→解説の繰り返し構造' },
@@ -268,7 +276,7 @@ export default function TemplateViewer() {
             Instagram投稿テンプレートビューワー
           </h1>
           <p className="text-gray-600">
-            12種類のアクティブテンプレートデザインを確認できます
+            14種類のアクティブテンプレートデザインを確認できます
           </p>
         </div>
         

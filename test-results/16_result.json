@@ -1,0 +1,128 @@
+{
+  "filename": "16.txt",
+  "inputLength": 2722,
+  "totalPages": 7,
+  "perfectCount": 5,
+  "imperfectCount": 2,
+  "perfectRate": "71.4%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:4",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "業界研究：全体像を掴み、ミスマッチを防ぐ...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "explanation2",
+      "bestScore": 0.3,
+      "isPerfect": false,
+      "structureKey": "title+description+sections:5",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_5",
+      "contentPreview": "業界分類：主要5カテゴリー...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 66.66666666666666,
+        "missingFields": [],
+        "lostData": [
+          "sections (5 → 0)"
+        ],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:5",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "ビジネスモデル分析：企業の収益構造を理解する...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "checklist-enhanced",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "企業研究：徹底的な情報収集と分析...",
+      "templateDataValidation": {
+        "completenessScore": 50,
+        "dataIntegrityScore": 100,
+        "missingFields": [
+          "checklist"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "enumeration",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:3",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "企業研究の深掘り：面接対策に繋げる...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "table",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+table",
+      "suggestedTemplate": "CustomTemplate_title_description_table",
+      "contentPreview": "成長産業・注目分野：キャリア選択のヒント...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:6",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "まとめ：成功する業界・企業研究の秘訣...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    }
+  ],
+  "generationTime": "14.3秒",
+  "timestamp": "2025-07-13T04:09:45.351Z"
+}

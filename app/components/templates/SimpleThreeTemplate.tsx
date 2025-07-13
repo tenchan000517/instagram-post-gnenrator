@@ -65,15 +65,19 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
             <div className="bg-white rounded-3xl p-8 border-4 border-red-300 shadow-lg">
               <div className="flex flex-col justify-start space-y-6">
                 {data.twoColumn?.left?.map((item, index) => {
-                  const titleParts = (typeof item === 'string' ? item : item.title || '').split('：')
-                  const label = titleParts[0] || ''
-                  const title = titleParts[1] || titleParts[0] || ''
+                  const itemText = typeof item === 'string' ? item : item.title || ''
+                  const hasColon = itemText.includes('：')
+                  const titleParts = itemText.split('：')
+                  const label = hasColon ? titleParts[0] || '' : ''
+                  const title = hasColon ? titleParts[1] || '' : itemText
                   
                   return (
                     <div key={index} className="text-center space-y-4">
-                      <div className="inline-block bg-red-100 text-red-700 px-8 py-4 rounded-lg text-3xl font-bold">
-                        {label}
-                      </div>
+                      {hasColon && label && (
+                        <div className="inline-block bg-red-100 text-red-700 px-8 py-4 rounded-lg text-3xl font-bold">
+                          {label}
+                        </div>
+                      )}
                       <h3 className="text-2xl font-bold text-gray-800 leading-tight">
                         {title}
                       </h3>
@@ -90,15 +94,19 @@ export function SimpleThreeTemplate({ data }: SimpleThreeTemplateProps) {
             <div className="bg-white rounded-3xl p-8 border-4 border-green-300 shadow-lg">
               <div className="flex flex-col justify-start space-y-6">
                 {data.twoColumn?.right?.map((item, index) => {
-                  const titleParts = (typeof item === 'string' ? item : item.title || '').split('：')
-                  const label = titleParts[0] || ''
-                  const title = titleParts[1] || titleParts[0] || ''
+                  const itemText = typeof item === 'string' ? item : item.title || ''
+                  const hasColon = itemText.includes('：')
+                  const titleParts = itemText.split('：')
+                  const label = hasColon ? titleParts[0] || '' : ''
+                  const title = hasColon ? titleParts[1] || '' : itemText
                   
                   return (
                     <div key={index} className="text-center space-y-4">
-                      <div className="inline-block bg-green-100 text-green-700 px-8 py-4 rounded-lg text-3xl font-bold">
-                        {label}
-                      </div>
+                      {hasColon && label && (
+                        <div className="inline-block bg-green-100 text-green-700 px-8 py-4 rounded-lg text-3xl font-bold">
+                          {label}
+                        </div>
+                      )}
                       <h3 className="text-2xl font-bold text-gray-800 leading-tight">
                         {title}
                       </h3>

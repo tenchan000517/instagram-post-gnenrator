@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { ArrowLeft, Sparkles, CheckCircle, Settings } from 'lucide-react'
+import { Sparkles, CheckCircle, RotateCcw } from 'lucide-react'
 import ContentInput from './ContentInput'
 import ContentApprovalComponent from './ContentApprovalComponent'
 import EditablePostGenerator from './EditablePostGenerator'
@@ -11,16 +11,23 @@ import { pureStructureMatchingService } from '../services/pureStructureMatchingS
 type FlowStep = 'input' | 'generation' | 'approval' | 'editing' | 'final'
 
 interface NewFlowPostGeneratorProps {
-  onBack: () => void
-  onReset: () => void
+  // Props removed - component handles its own reset
 }
 
-export default function NewFlowPostGenerator({ onBack, onReset }: NewFlowPostGeneratorProps) {
+export default function NewFlowPostGenerator({}: NewFlowPostGeneratorProps) {
   const [currentStep, setCurrentStep] = useState<FlowStep>('input')
   const [inputContent, setInputContent] = useState('')
   const [generatedContent, setGeneratedContent] = useState<GeneratedContent | null>(null)
   const [isGenerating, setIsGenerating] = useState(false)
   const [generationStatus, setGenerationStatus] = useState('')
+
+  const handleReset = () => {
+    setCurrentStep('input')
+    setInputContent('')
+    setGeneratedContent(null)
+    setIsGenerating(false)
+    setGenerationStatus('')
+  }
 
   const handleContentSubmit = async (content: string) => {
     setInputContent(content)
@@ -97,14 +104,7 @@ export default function NewFlowPostGenerator({ onBack, onReset }: NewFlowPostGen
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center gap-4">
-              <button
-                onClick={onBack}
-                className="flex items-center gap-2 text-gray-600 hover:text-gray-800"
-              >
-                <ArrowLeft size={20} />
-                戻る
-              </button>
-              <h1 className="text-xl font-bold text-gray-800">新しいフロー</h1>
+              <h1 className="text-xl font-bold text-gray-800">Instagram投稿生成</h1>
             </div>
             
             <div className="flex items-center gap-4">
@@ -135,13 +135,15 @@ export default function NewFlowPostGenerator({ onBack, onReset }: NewFlowPostGen
               ))}
             </div>
             
-            <button
-              onClick={onReset}
-              className="flex items-center gap-2 px-4 py-2 text-gray-600 hover:text-gray-800"
-            >
-              <Settings size={16} />
-              リセット
-            </button>
+            {currentStep !== 'input' && (
+              <button
+                onClick={handleReset}
+                className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 hover:bg-gray-200 rounded-md transition-colors"
+              >
+                <RotateCcw size={16} />
+                最初から開始
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -192,6 +194,7 @@ export default function NewFlowPostGenerator({ onBack, onReset }: NewFlowPostGen
             onApprove={handleContentApproval}
             onReject={handleContentRejection}
             onContentUpdate={handleContentUpdate}
+            mainTheme={inputContent.split('\n')[0] || 'コンテンツ'}
           />
         ) : null
 
@@ -201,6 +204,7 @@ export default function NewFlowPostGenerator({ onBack, onReset }: NewFlowPostGen
             generatedContent={generatedContent}
             onBack={() => setCurrentStep('approval')}
             onSave={handleSave}
+            mainTheme={inputContent.split('\n')[0] || 'コンテンツ'}
           />
         ) : null
 
@@ -227,7 +231,7 @@ export default function NewFlowPostGenerator({ onBack, onReset }: NewFlowPostGen
                     編集に戻る
                   </button>
                   <button
-                    onClick={onReset}
+                    onClick={handleReset}
                     className="flex items-center gap-2 px-6 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600"
                   >
                     <Sparkles size={20} />

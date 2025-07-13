@@ -1,7 +1,7 @@
 // セクション + アイテム構造用テンプレート - 純粋構造ベースアプローチ
 import React from 'react'
 import { CheckCircle, ArrowRight } from 'lucide-react'
-import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon, cleanMarkdown } from './TemplateTypes'
 
 interface SectionItemsTemplateProps {
   data: TemplateData
@@ -99,7 +99,7 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
                         <CheckCircle className="w-6 h-6 text-blue-600" />
                       </div>
                       <p className="text-base font-medium text-gray-800 leading-relaxed">
-                        {typeof item === 'string' ? item : item.content || item.title || ''}
+                        {cleanMarkdown(typeof item === 'string' ? item : item.content || item.title || '')}
                       </p>
                     </div>
                   </div>

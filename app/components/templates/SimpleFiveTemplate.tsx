@@ -1,6 +1,6 @@
 // ⑪シンプル型５テンプレート - ステップ型レイアウト
 import React from 'react'
-import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon, cleanMarkdown } from './TemplateTypes'
 import { CheckSquare } from 'lucide-react'
 import { IconNumber1, IconNumber2, IconNumber3, IconNumber4, IconNumber5, IconNumber6, IconNumber7, IconNumber8 } from '@tabler/icons-react'
 
@@ -28,6 +28,11 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
   console.log(`  - points: [${data.points?.length || 0}個]`)
   data.points?.forEach((point, index) => {
     console.log(`    └─ ${index + 1}. "${point.description || point}"`)
+  })
+  console.log(`  - items: [${data.items?.length || 0}個]`)
+  data.items?.forEach((item, index) => {
+    const itemText = typeof item === 'string' ? item : item.content || item.title || ''
+    console.log(`    └─ ${index + 1}. "${itemText.substring(0, 50)}..."`)
   })
   console.log('================================================================================')
 
@@ -63,6 +68,7 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
 
         {/* ステップリスト */}
         <div className="flex-1 space-y-4">
+          {/* ステップデータ優先 */}
           {data.steps?.map((step, index) => {
             const StepIcon = stepIcons[index] || IconNumber1
             
@@ -93,7 +99,49 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
                 </div>
               </div>
             )
-          }) || data.checklist?.map((item, index) => {
+          }) || 
+          /* アイテムデータの処理 */
+          data.items?.map((item, index) => {
+            const StepIcon = stepIcons[index] || IconNumber1
+            // itemからマークダウン記法を除去してステップタイトルと説明を抽出
+            const itemText = typeof item === 'string' ? item : item.content || item.title || ''
+            // マークダウン記法を除去
+            const cleanText = cleanMarkdown(itemText)
+            // "ステップ1：タイトル"の部分と説明部分を分離
+            const parts = cleanText.split('\n')
+            const titlePart = parts[0] || ''
+            const descriptionPart = parts.slice(1).join('\n').trim() || ''
+            
+            return (
+              <div key={index} className="space-y-2">
+                {/* 統合ボックス + ステップラベル（重なり） */}
+                <div className="relative">
+                  {/* 統合ボックス（タイトル + チェック + ディスクリプション） */}
+                  <div className="bg-white border-2 border-black rounded-lg p-2 pt-6">
+                    <h3 className="text-blue-600 font-bold text-lg leading-tight underline mb-3 text-center">
+                      {titlePart}
+                    </h3>
+                    
+                    {/* チェック + ディスクリプション */}
+                    <div className="flex items-start gap-3">
+                      <CheckSquare className="w-8 h-8 text-red-400 flex-shrink-0 mt-0.5" />
+                      <p className="text-gray-700 text-sm leading-relaxed font-bold">
+                        {descriptionPart}
+                      </p>
+                    </div>
+                  </div>
+                  
+                  {/* ステップラベル（左上に重なり） */}
+                  <div className="absolute -top-2 -left-2 bg-green-500 px-3 py-1 rounded-md flex items-center gap-2">
+                    <span className="text-white font-medium text-sm">ステップ</span>
+                    <StepIcon className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+              </div>
+            )
+          }) || 
+          /* チェックリストデータ */
+          data.checklist?.map((item, index) => {
             const StepIcon = stepIcons[index] || IconNumber1
             
             return (

@@ -2,7 +2,7 @@
 import React from 'react'
 import { CheckCircle } from 'lucide-react'
 import { IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6, IconSquareNumber7, IconSquareNumber8, IconSquareNumber9 } from '@tabler/icons-react'
-import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
+import { TemplateData, splitTitleForBadge, getPageNumberIcon, cleanMarkdown } from './TemplateTypes'
 
 interface EnumerationTemplateProps {
   data: TemplateData
@@ -64,7 +64,7 @@ export function EnumerationTemplate({ data }: EnumerationTemplateProps) {
                 </div>
                 <div className="flex-1">
                   <p className="text-lg font-medium text-gray-800 leading-relaxed">
-                    {typeof item === 'string' ? item : item.title || item.content || String(item)}
+                    {cleanMarkdown(typeof item === 'string' ? item : item.title || item.content || String(item))}
                   </p>
                 </div>
               </div>

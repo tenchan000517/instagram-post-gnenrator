@@ -61,19 +61,41 @@ async function testSingleFile(fileIndex = 0) {
     for (let i = 0; i < matchedPages.length; i++) {
       const page = matchedPages[i]
       const analysis = analyzePageMatching(page, i + 1)
+      
+      // 🔍 テンプレートデータ詳細検証を追加
+      const templateDataValidation = validateTemplateData(page.templateData, page.templateType, page.content)
+      analysis.templateDataValidation = templateDataValidation
+      
       analysisResults.push(analysis)
       
-      if (analysis.isPerfect) {
+      // 構造スコアとテンプレートデータ完全性の両方で判定
+      const isStructurePerfect = analysis.isPerfect
+      const isDataComplete = templateDataValidation.completenessScore >= 95 && templateDataValidation.dataIntegrityScore >= 95
+      const isTotallyPerfect = isStructurePerfect && isDataComplete
+      
+      if (isTotallyPerfect) {
         perfectCount++
       }
 
-      const perfectMark = analysis.isPerfect ? '💯' : '⚠️'
-      console.log(`📄 ページ${i + 1}: ${analysis.selectedTemplate} (${analysis.bestScore.toFixed(3)}) ${perfectMark}`)
+      const perfectMark = isTotallyPerfect ? '💯' : isStructurePerfect ? '⚠️' : '❌'
+      console.log(`📄 ページ${i + 1}: ${analysis.selectedTemplate} (構造: ${analysis.bestScore.toFixed(3)}) ${perfectMark}`)
+      console.log(`   📊 データ完全性: ${templateDataValidation.completenessScore.toFixed(1)}% | 整合性: ${templateDataValidation.dataIntegrityScore.toFixed(1)}%`)
       
-      if (!analysis.isPerfect) {
+      if (!isStructurePerfect) {
         console.log(`   ⚠️  構造: ${analysis.structureKey}`)
         console.log(`   💡 提案テンプレート: ${analysis.suggestedTemplate}`)
       }
+      
+      if (!isDataComplete) {
+        if (templateDataValidation.missingFields.length > 0) {
+          console.log(`   ❌ 不足フィールド: ${templateDataValidation.missingFields.join(', ')}`)
+        }
+        if (templateDataValidation.lostData.length > 0) {
+          console.log(`   📉 データ損失: ${templateDataValidation.lostData.join(', ')}`)
+        }
+      }
+      
+      console.log('')
     }
 
     console.log('')
@@ -112,6 +134,168 @@ async function testSingleFile(fileIndex = 0) {
   } catch (error) {
     console.error('❌ テスト実行エラー:', (error as Error).message)
     console.error((error as Error).stack)
+  }
+}
+
+// 🔍 テンプレートデータ詳細検証機能
+function validateTemplateData(templateData: any, templateType: string, originalContent: any) {
+  if (!templateData) {
+    return {
+      completenessScore: 0,
+      dataIntegrityScore: 0,
+      missingFields: ['templateData'],
+      lostData: ['全データ'],
+      isValid: false
+    }
+  }
+
+  const validation = {
+    completenessScore: 100,
+    dataIntegrityScore: 100,
+    missingFields: [] as string[],
+    lostData: [] as string[],
+    isValid: true
+  }
+
+  // テンプレート別必須フィールドチェック
+  const expectedFields = getExpectedFields(templateType)
+  let validFields = 0
+
+  expectedFields.required.forEach(field => {
+    const value = getNestedValue(templateData, field)
+    const isValid = validateFieldValue(value, field)
+    
+    if (isValid) {
+      validFields++
+    } else {
+      validation.missingFields.push(field)
+      validation.isValid = false
+    }
+  })
+
+  // 完全性スコア計算
+  validation.completenessScore = (validFields / expectedFields.required.length) * 100
+
+  // データ整合性チェック（元データとの比較）
+  const dataLossAnalysis = analyzeDataLoss(originalContent, templateData)
+  validation.dataIntegrityScore = dataLossAnalysis.integrityScore
+  validation.lostData = dataLossAnalysis.lostFields
+
+  return validation
+}
+
+// テンプレート別期待フィールド定義
+function getExpectedFields(templateType: string) {
+  const fieldMap: Record<string, { required: string[], optional: string[] }> = {
+    'enumeration': { required: ['title', 'items'], optional: ['description', 'badgeText'] },
+    'list': { required: ['title', 'items'], optional: ['description', 'badgeText'] },
+    'simple6': { required: ['title', 'content', 'items'], optional: ['description', 'badgeText'] },
+    'simple3': { required: ['title', 'twoColumn'], optional: ['description', 'badgeText'] },
+    'table': { required: ['title', 'tableData'], optional: ['description', 'badgeText'] },
+    'explanation2': { required: ['title', 'points'], optional: ['description', 'badgeText'] },
+    'simple5': { required: ['title'], optional: ['steps', 'checklist', 'description', 'badgeText'] },
+    'section-items': { required: ['title', 'sections'], optional: ['description', 'badgeText'] },
+    'two-column-section-items': { required: ['title', 'sections'], optional: ['description', 'badgeText'] },
+    'title-description-only': { required: ['title'], optional: ['description', 'content', 'badgeText'] },
+    'checklist-enhanced': { required: ['title', 'checklist'], optional: ['description', 'badgeText'] },
+    'item-n-title-content': { required: ['title', 'items'], optional: ['description', 'badgeText'] },
+    'single-section-no-items': { required: ['title', 'sections'], optional: ['description', 'badgeText'] }
+  }
+  
+  return fieldMap[templateType] || { required: ['title'], optional: [] }
+}
+
+// ネストされた値の取得
+function getNestedValue(obj: any, path: string): any {
+  return path.split('.').reduce((current, key) => current?.[key], obj)
+}
+
+// フィールド値の妥当性チェック
+function validateFieldValue(value: any, field: string): boolean {
+  if (value === undefined || value === null) return false
+  
+  if (field.includes('items') || field.includes('sections') || field.includes('points') || 
+      field.includes('checklist') || field === 'twoColumn') {
+    return Array.isArray(value) && value.length > 0
+  }
+  
+  if (field === 'tableData') {
+    return value && Array.isArray(value.headers) && value.headers.length > 0 && 
+           Array.isArray(value.rows) && value.rows.length > 0
+  }
+  
+  if (typeof value === 'string') {
+    return value.trim().length > 0
+  }
+  
+  return true
+}
+
+// データ損失分析
+function analyzeDataLoss(originalContent: any, templateData: any) {
+  const lostFields: string[] = []
+  let totalElements = 0
+  let preservedElements = 0
+
+  // タイトルチェック
+  totalElements++
+  if (originalContent?.title && templateData?.title) {
+    preservedElements++
+  } else if (originalContent?.title) {
+    lostFields.push('title')
+  }
+
+  // 説明文チェック
+  if (originalContent?.description) {
+    totalElements++
+    if (templateData?.description || templateData?.content) {
+      preservedElements++
+    } else {
+      lostFields.push('description')
+    }
+  }
+
+  // アイテム数チェック
+  if (originalContent?.items?.length > 0) {
+    totalElements++
+    const originalCount = originalContent.items.length
+    const templateCount = templateData?.items?.length || 0
+    
+    if (templateCount >= originalCount) {
+      preservedElements++
+    } else {
+      lostFields.push(`items (${originalCount} → ${templateCount})`)
+    }
+  }
+
+  // セクション数チェック
+  if (originalContent?.sections?.length > 0) {
+    totalElements++
+    const originalCount = originalContent.sections.length
+    const templateCount = templateData?.sections?.length || 0
+    
+    if (templateCount >= originalCount) {
+      preservedElements++
+    } else {
+      lostFields.push(`sections (${originalCount} → ${templateCount})`)
+    }
+  }
+
+  // テーブルデータチェック
+  if (originalContent?.tableData?.headers?.length > 0) {
+    totalElements++
+    if (templateData?.tableData?.headers?.length > 0) {
+      preservedElements++
+    } else {
+      lostFields.push('tableData')
+    }
+  }
+
+  const integrityScore = totalElements > 0 ? (preservedElements / totalElements) * 100 : 100
+
+  return {
+    integrityScore,
+    lostFields
   }
 }
 

@@ -34,6 +34,19 @@ export const getPageNumberIcon = (pageNumber: number) => {
   return PAGE_NUMBER_ICONS[pageNumber as keyof typeof PAGE_NUMBER_ICONS] || MdFilter1
 }
 
+// マークダウン記法を除去する関数
+export const cleanMarkdown = (text: string): string => {
+  if (!text) return text
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '$1') // **bold** を除去
+    .replace(/\*(.*?)\*/g, '$1')     // *italic* を除去
+    .replace(/__(.*?)__/g, '$1')     // __bold__ を除去
+    .replace(/_(.*?)_/g, '$1')       // _italic_ を除去
+    .replace(/~~(.*?)~~/g, '$1')     // ~~strikethrough~~ を除去
+    .replace(/`(.*?)`/g, '$1')       // `code` を除去
+    .trim()
+}
+
 export interface TemplateMetadata {
   id: string
   name: string
@@ -95,8 +108,9 @@ export interface TemplateData {
   [key: string]: any  // For dynamic field access
 }
 
-// アクティブテンプレートタイプ（13個、Critical Priority + High Priority追加）
+// アクティブテンプレートタイプ（14個、Critical Priority + High Priority + INDEX追加）
 export type TemplateType = 
+  | 'index'            // ⓪INDEX型（目次ページ）
   | 'enumeration'      // ①列挙型
   | 'list'             // ②リスト型
   | 'explanation2'     // ③解説型２

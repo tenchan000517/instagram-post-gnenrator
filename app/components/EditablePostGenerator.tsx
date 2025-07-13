@@ -16,12 +16,14 @@ interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
   onBack: () => void
   onSave: (content: GeneratedContent) => void
+  mainTheme?: string // INDEXページ生成用
 }
 
 export default function EditablePostGenerator({ 
   generatedContent, 
   onBack, 
-  onSave 
+  onSave,
+  mainTheme
 }: EditablePostGeneratorProps) {
   const [currentContent, setCurrentContent] = useState<GeneratedContent>(generatedContent)
   const [currentPage, setCurrentPage] = useState(0)
@@ -222,60 +224,101 @@ export default function EditablePostGenerator({
     }
 
     setIsDownloading(true)
-    setDownloadProgress({ current: 0, total: selectedItems.length })
 
     try {
+      // 選択されたページでINDEXを生成
+      let pagesToDownload = selectedItems
+      
+      if (mainTheme && selectedItems.length > 1) {
+        const selectedPages = selectedItems.map(item => {
+          const page = currentContent.pages.find(p => p.pageNumber === item.pageNumber)
+          return page
+        }).filter(Boolean) as GeneratedPage[]
+        
+        const pagesWithIndex = contentGeneratorService.generateIndexForSelectedPages(selectedPages, mainTheme)
+        
+        // INDEXページを含めてダウンロード対象を更新
+        pagesToDownload = pagesWithIndex.map((page, index) => ({
+          id: `page-${page.pageNumber}`,
+          pageNumber: page.pageNumber,
+          title: page.content.title || `Page ${page.pageNumber}`,
+          selected: true,
+          element: undefined // 動的に生成されるため、後で設定
+        }))
+        
+        console.log('📥 選択ページ用INDEXページ生成完了', { 
+          original: selectedItems.length, 
+          withIndex: pagesToDownload.length 
+        })
+      }
+
+      setDownloadProgress({ current: 0, total: pagesToDownload.length })
+
       // 各ページを単一ダウンロードの方法で順次処理
-      for (let i = 0; i < selectedItems.length; i++) {
-        const item = selectedItems[i]
-        const pageIndex = item.pageNumber - 1
+      for (let i = 0; i < pagesToDownload.length; i++) {
+        const item = pagesToDownload[i]
         
-        // 該当ページに移動
-        setCurrentPage(pageIndex)
-        
-        // 少し待機してレンダリング完了を待つ
-        await new Promise(resolve => setTimeout(resolve, 500))
-        
-        // 該当ページの要素を取得
-        const currentPageElement = pageRefs.current[pageIndex]
-        if (!currentPageElement) {
-          console.warn(`Page ${pageIndex + 1} element not found, skipping`)
-          continue
+        // INDEXページの場合は特別処理
+        if (item.pageNumber === 0) {
+          // INDEXページを一時的にレンダリング
+          const tempIndexPage = currentContent.pages.find(p => p.pageNumber === 0 && p.templateType === 'index')
+          if (tempIndexPage) {
+            setCurrentPage(0) // INDEXページに移動
+            await new Promise(resolve => setTimeout(resolve, 500))
+            
+            const currentPageElement = pageRefs.current[0]
+            if (currentPageElement) {
+              await downloadSinglePage(currentPageElement, 'INDEX')
+            }
+          }
+        } else {
+          const pageIndex = item.pageNumber - 1
+          
+          // 該当ページに移動
+          setCurrentPage(pageIndex)
+          
+          // 少し待機してレンダリング完了を待つ
+          await new Promise(resolve => setTimeout(resolve, 500))
+          
+          // 該当ページの要素を取得
+          const currentPageElement = pageRefs.current[pageIndex]
+          if (!currentPageElement) {
+            console.warn(`Page ${pageIndex + 1} element not found, skipping`)
+            continue
+          }
+
+          // 単一ダウンロードと同じ方法で画像生成
+          await downloadSinglePage(currentPageElement, `page-${item.pageNumber}`)
         }
 
-        // 単一ダウンロードと同じ方法で画像生成
-        const canvas = await html2canvas(currentPageElement, {
-            background: '#ffffff',
-          width: 850,
-          height: 899,
-          useCORS: true,
-          logging: false,
-          allowTaint: true
-        })
-
-        // ダウンロード実行
-        const link = document.createElement('a')
-        link.download = `${item.title}-page-${item.pageNumber}.png`
-        link.href = canvas.toDataURL('image/png')
-        link.click()
-        
-        // プログレス更新
-        setDownloadProgress({ current: i + 1, total: selectedItems.length })
-        
-        // 次のダウンロードまで少し待機
-        await new Promise(resolve => setTimeout(resolve, 1000))
+        setDownloadProgress({ current: i + 1, total: pagesToDownload.length })
       }
+
+      alert(`${pagesToDownload.length}ページのダウンロードが完了しました！`)
     } catch (error) {
       console.error('Bulk download failed:', error)
-      if (error instanceof Error) {
-        alert(`一括ダウンロードに失敗しました: ${error.message}`)
-      } else {
-        alert('一括ダウンロードに失敗しました')
-      }
+      alert('一括ダウンロードに失敗しました')
     } finally {
       setIsDownloading(false)
       setDownloadProgress({ current: 0, total: 0 })
     }
+  }
+
+  const downloadSinglePage = async (element: HTMLDivElement, filename: string) => {
+    const canvas = await html2canvas(element, {
+      background: '#ffffff',
+      width: 850,
+      height: 899,
+      useCORS: true,
+      logging: false,
+      allowTaint: true
+    })
+
+    // ダウンロード実行
+    const link = document.createElement('a')
+    link.download = `${filename}.png`
+    link.href = canvas.toDataURL('image/png')
+    link.click()
   }
 
   const renderCurrentPage = () => {

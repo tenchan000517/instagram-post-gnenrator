@@ -1,4 +1,5 @@
-// アクティブテンプレートコンポーネントのエクスポート（Critical Priority追加）
+// アクティブテンプレートコンポーネントのエクスポート（Critical Priority + INDEX追加）
+export { IndexTemplate } from './IndexTemplate'
 export { EnumerationTemplate } from './EnumerationTemplate'
 export { ListTemplate } from './ListTemplate'
 export { ExplanationTwoTemplate } from './ExplanationTwoTemplate'
@@ -17,7 +18,8 @@ export { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
 export * from './TemplateTypes'
 export * from './TemplateRegistry'
 
-// アクティブテンプレートコンポーネントマップ（Critical Priority追加）
+// アクティブテンプレートコンポーネントマップ（Critical Priority + INDEX追加）
+import { IndexTemplate } from './IndexTemplate'
 import { EnumerationTemplate } from './EnumerationTemplate'
 import { ListTemplate } from './ListTemplate'
 import { ExplanationTwoTemplate } from './ExplanationTwoTemplate'
@@ -35,6 +37,7 @@ import { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
 import { TemplateType } from './TemplateTypes'
 
 export const templateComponents = {
+  index: IndexTemplate,
   enumeration: EnumerationTemplate,
   list: ListTemplate,
   explanation2: ExplanationTwoTemplate,

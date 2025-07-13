@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { RefreshCw, Check, X, Eye, EyeOff, Edit, Sparkles } from 'lucide-react'
+import { RefreshCw, Check, X, Eye, EyeOff, Sparkles, Plus } from 'lucide-react'
 import { GeneratedContent, GeneratedPage, contentGeneratorService } from '../services/contentGeneratorService'
 import { TemplateType } from './templates'
 
@@ -10,18 +10,26 @@ interface ContentApprovalComponentProps {
   onApprove: (content: GeneratedContent) => void
   onReject: () => void
   onContentUpdate: (content: GeneratedContent) => void
+  mainTheme?: string // INDEXページ生成用のメインテーマ
 }
 
 export default function ContentApprovalComponent({
   generatedContent,
   onApprove,
   onReject,
-  onContentUpdate
+  onContentUpdate,
+  mainTheme
 }: ContentApprovalComponentProps) {
   const [isRegenerating, setIsRegenerating] = useState(false)
   const [regeneratingPage, setRegeneratingPage] = useState<number | null>(null)
   const [expandedPages, setExpandedPages] = useState<Set<number>>(new Set([1]))
   const [editingInstructions, setEditingInstructions] = useState<{ [key: number]: string }>({})
+  const [hasIndexPage, setHasIndexPage] = useState(() => {
+    // 既にINDEXページ（pageNumber: 0）が存在するかチェック
+    return generatedContent.pages.some(page => page.pageNumber === 0 && page.templateType === 'index')
+  })
+  const [isGeneratingIndex, setIsGeneratingIndex] = useState(false)
+  const [isRegeneratingHashtags, setIsRegeneratingHashtags] = useState(false)
 
   const handleRegenerateAll = async () => {
     setIsRegenerating(true)
@@ -84,6 +92,65 @@ export default function ContentApprovalComponent({
     }))
   }
 
+  const handleGenerateIndex = async () => {
+    if (!mainTheme) {
+      alert('メインテーマが設定されていません')
+      return
+    }
+
+    setIsGeneratingIndex(true)
+    try {
+      const contentWithIndex = contentGeneratorService.generateContentWithIndex(
+        generatedContent,
+        mainTheme
+      )
+      setHasIndexPage(true)
+      onContentUpdate(contentWithIndex)
+    } catch (error) {
+      console.error('INDEX generation failed:', error)
+      alert('INDEXページの生成に失敗しました。もう一度お試しください。')
+    } finally {
+      setIsGeneratingIndex(false)
+    }
+  }
+
+  const handleRemoveIndex = () => {
+    // INDEXページ（pageNumber: 0）を除外
+    const pagesWithoutIndex = generatedContent.pages.filter(page => page.pageNumber !== 0)
+    
+    // ページ番号を再調整
+    const adjustedPages = pagesWithoutIndex.map((page, index) => ({
+      ...page,
+      pageNumber: index + 1,
+      templateData: {
+        ...page.templateData,
+        pageNumber: index + 1
+      }
+    }))
+
+    const updatedContent: GeneratedContent = {
+      ...generatedContent,
+      pages: adjustedPages,
+      totalPages: adjustedPages.length
+    }
+
+    setHasIndexPage(false)
+    onContentUpdate(updatedContent)
+  }
+
+  const handleRegenerateHashtags = async () => {
+    setIsRegeneratingHashtags(true)
+    try {
+      const updatedContent = await contentGeneratorService.regenerateHashtags(generatedContent)
+      onContentUpdate(updatedContent)
+    } catch (error) {
+      console.error('Hashtag regeneration failed:', error)
+      alert('ハッシュタグの再生成に失敗しました。もう一度お試しください。')
+    } finally {
+      setIsRegeneratingHashtags(false)
+    }
+  }
+
   const getTemplateTypeDisplayName = (templateType: TemplateType): string => {
     const typeMap: Record<TemplateType, string> = {
       enumeration: '列挙型',
@@ -98,7 +165,8 @@ export default function ContentApprovalComponent({
       'title-description-only': 'タイトル+説明型',
       'checklist-enhanced': 'チェックリスト詳細型',
       'item-n-title-content': '独立ボックス型',
-      'single-section-no-items': '単一セクション・アイテム無し型'
+      'single-section-no-items': '単一セクション・アイテム無し型',
+      'index': 'INDEX（目次）型'
     }
     return typeMap[templateType] || templateType
   }
@@ -289,6 +357,37 @@ export default function ContentApprovalComponent({
               </>
             )}
           </button>
+
+          {/* INDEX機能のコントロール */}
+          {mainTheme && !hasIndexPage && (
+            <button
+              onClick={handleGenerateIndex}
+              disabled={isGeneratingIndex}
+              className="flex items-center gap-2 px-4 py-2 bg-indigo-500 text-white rounded-md hover:bg-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            >
+              {isGeneratingIndex ? (
+                <>
+                  <RefreshCw size={16} className="animate-spin" />
+                  INDEX生成中...
+                </>
+              ) : (
+                <>
+                  <Plus size={16} />
+                  INDEXページを生成
+                </>
+              )}
+            </button>
+          )}
+
+          {hasIndexPage && (
+            <button
+              onClick={handleRemoveIndex}
+              className="flex items-center gap-2 px-4 py-2 bg-gray-500 text-white rounded-md hover:bg-gray-600 transition-colors"
+            >
+              <X size={16} />
+              INDEXページを削除
+            </button>
+          )}
           
           <button
             onClick={() => onApprove(generatedContent)}
@@ -313,7 +412,26 @@ export default function ContentApprovalComponent({
         </div>
 
         <div className="bg-purple-50 p-4 rounded-lg mb-6">
-          <h3 className="font-medium text-purple-900 mb-2">キャプション</h3>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="font-medium text-purple-900">キャプション</h3>
+            <button
+              onClick={handleRegenerateHashtags}
+              disabled={isRegeneratingHashtags}
+              className="flex items-center gap-2 px-3 py-1.5 bg-purple-500 text-white rounded-md hover:bg-purple-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-sm"
+            >
+              {isRegeneratingHashtags ? (
+                <>
+                  <RefreshCw size={14} className="animate-spin" />
+                  ハッシュタグ再生成中...
+                </>
+              ) : (
+                <>
+                  <RefreshCw size={14} />
+                  ハッシュタグ再生成
+                </>
+              )}
+            </button>
+          </div>
           <p className="text-purple-800 mb-3">{String(generatedContent.caption || '')}</p>
           
           <div className="space-y-3">
@@ -366,11 +484,18 @@ export default function ContentApprovalComponent({
           ページ別コンテンツ ({generatedContent.pages.length}ページ)
         </h3>
         
-        {generatedContent.pages.map((page) => (
-          <div key={page.pageNumber}>
-            {renderPageContent(page)}
-          </div>
-        ))}
+        {/* INDEXページを最初に表示し、その後は pageNumber でソート */}
+        {generatedContent.pages
+          .sort((a, b) => {
+            if (a.templateType === 'index') return -1
+            if (b.templateType === 'index') return 1
+            return a.pageNumber - b.pageNumber
+          })
+          .map((page) => (
+            <div key={`${page.templateType}-${page.pageNumber}`}>
+              {renderPageContent(page)}
+            </div>
+          ))}
       </div>
     </div>
   )

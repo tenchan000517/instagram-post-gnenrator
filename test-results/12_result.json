@@ -1,0 +1,130 @@
+{
+  "filename": "12.txt",
+  "inputLength": 3761,
+  "totalPages": 7,
+  "perfectCount": 3,
+  "imperfectCount": 4,
+  "perfectRate": "42.9%",
+  "pageAnalysis": [
+    {
+      "pageNumber": 1,
+      "selectedTemplate": "title-description-only",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description",
+      "suggestedTemplate": "CustomTemplate_title_description",
+      "contentPreview": "締切間近：8月インターンシップ徹底攻略！...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 2,
+      "selectedTemplate": "table",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+table",
+      "suggestedTemplate": "CustomTemplate_title_table",
+      "contentPreview": "8月2日締切：インターンシップ速報！...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 3,
+      "selectedTemplate": "simple3",
+      "bestScore": 0.6666666666666666,
+      "isPerfect": false,
+      "structureKey": "title+items:2",
+      "suggestedTemplate": "TitleListTemplate",
+      "contentPreview": "8月9日締切：インターンシップ詳細...",
+      "templateDataValidation": {
+        "completenessScore": 50,
+        "dataIntegrityScore": 100,
+        "missingFields": [
+          "twoColumn"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 4,
+      "selectedTemplate": "explanation2",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+sections:2",
+      "suggestedTemplate": "CustomTemplate_title_sections_2",
+      "contentPreview": "名古屋/愛知エリア：8月締切インターンシップの探し方...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 50,
+        "missingFields": [],
+        "lostData": [
+          "sections (2 → 0)"
+        ],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 5,
+      "selectedTemplate": "checklist-enhanced",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title",
+      "suggestedTemplate": "CustomTemplate_title",
+      "contentPreview": "締切直前！応募前に確認すべきこと...",
+      "templateDataValidation": {
+        "completenessScore": 50,
+        "dataIntegrityScore": 100,
+        "missingFields": [
+          "checklist"
+        ],
+        "lostData": [],
+        "isValid": false
+      }
+    },
+    {
+      "pageNumber": 6,
+      "selectedTemplate": "simple6",
+      "bestScore": 1,
+      "isPerfect": true,
+      "structureKey": "title+description+items:5",
+      "suggestedTemplate": "DescriptionListTemplate",
+      "contentPreview": "インターンシップ応募：成功の秘訣...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    },
+    {
+      "pageNumber": 7,
+      "selectedTemplate": "section-items",
+      "bestScore": 0.5,
+      "isPerfect": false,
+      "structureKey": "title+description+sections:1",
+      "suggestedTemplate": "CustomTemplate_title_description_sections_1",
+      "contentPreview": "マイナビシステムメンテナンス：注意点...",
+      "templateDataValidation": {
+        "completenessScore": 100,
+        "dataIntegrityScore": 100,
+        "missingFields": [],
+        "lostData": [],
+        "isValid": true
+      }
+    }
+  ],
+  "generationTime": "12.6秒",
+  "timestamp": "2025-07-13T04:04:49.729Z"
+}

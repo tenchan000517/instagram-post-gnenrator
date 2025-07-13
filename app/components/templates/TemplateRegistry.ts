@@ -1,7 +1,8 @@
 // テンプレート登録・選択システム
 import { TemplateMetadata, TemplateType } from './TemplateTypes'
 
-// アクティブテンプレートのメタデータをインポート（Critical Priority追加）
+// アクティブテンプレートのメタデータをインポート（Critical Priority + INDEX追加）
+import { indexMetadata } from './IndexTemplate'
 import { enumerationMetadata } from './EnumerationTemplate'
 import { listMetadata } from './ListTemplate'
 import { explanationTwoMetadata } from './ExplanationTwoTemplate'
@@ -16,8 +17,9 @@ import { checklistEnhancedMetadata } from './ChecklistEnhancedTemplate'
 import { itemNTitleContentMetadata } from './ItemNTitleContentTemplate'
 import { singleSectionNoItemsMetadata } from './SingleSectionNoItemsTemplate'
 
-// アクティブテンプレートレジストリ（Critical Priority追加）
+// アクティブテンプレートレジストリ（Critical Priority + INDEX追加）
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
+  index: indexMetadata,
   enumeration: enumerationMetadata,
   list: listMetadata,
   explanation2: explanationTwoMetadata,
