@@ -1,7 +1,7 @@
 // チェックリスト（詳細説明付き）専用テンプレート - Critical Priority対応
 import React from 'react'
 import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
-import { CheckSquare, Circle } from 'lucide-react'
+import { CheckSquare } from 'lucide-react'
 
 interface ChecklistEnhancedTemplateProps {
   data: TemplateData
@@ -67,23 +67,19 @@ export function ChecklistEnhancedTemplate({ data }: ChecklistEnhancedTemplatePro
                   <div className="flex items-start gap-4">
                     {/* チェックボックスアイコン */}
                     <div className="flex-shrink-0 mt-1">
-                      {item.checked ? (
-                        <CheckSquare className="w-7 h-7 text-green-600" />
-                      ) : (
-                        <Circle className="w-7 h-7 text-blue-600" />
-                      )}
+                      <CheckSquare className="w-7 h-7 text-green-600" />
                     </div>
                     
                     {/* テキストコンテンツ */}
                     <div className="flex-1">
                       {/* チェックリスト項目名 */}
-                      <h3 className="text-lg font-bold text-gray-800 mb-2">
+                      <h3 className="text-xl font-bold text-gray-800 mb-2">
                         {item.text}
                       </h3>
                       
                       {/* 詳細説明（この機能が失われていた） */}
                       {item.description && (
-                        <p className="text-base text-gray-700 leading-relaxed">
+                        <p className="text-lg text-gray-700 leading-relaxed">
                           {item.description}
                         </p>
                       )}
@@ -101,10 +97,10 @@ export function ChecklistEnhancedTemplate({ data }: ChecklistEnhancedTemplatePro
                 <div key={index} className="bg-white rounded-2xl p-5 shadow-sm border border-blue-100">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 mt-1">
-                      <Circle className="w-7 h-7 text-blue-600" />
+                      <CheckSquare className="w-7 h-7 text-green-600" />
                     </div>
                     <div className="flex-1">
-                      <p className="text-base font-medium text-gray-800 leading-relaxed">
+                      <p className="text-lg font-medium text-gray-800 leading-relaxed">
                         {typeof item === 'string' ? item : item.content || item.title || ''}
                       </p>
                     </div>

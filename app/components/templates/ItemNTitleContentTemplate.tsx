@@ -1,7 +1,8 @@
 // item1Title/Content, item2Title/Content形式の独立ボックス構造用テンプレート - Critical Priority対応
 import React from 'react'
 import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
-import { ArrowRight, Star } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
+import { IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6 } from '@tabler/icons-react'
 
 interface ItemNTitleContentTemplateProps {
   data: TemplateData
@@ -13,6 +14,13 @@ export function ItemNTitleContentTemplate({ data }: ItemNTitleContentTemplatePro
   
   // 🔧 必須: ページ番号アイコン取得（全テンプレート共通）
   const PageIcon = getPageNumberIcon(data.pageNumber || 1)
+
+  // 動的番号アイコン取得
+  const getNumberIcon = (index: number) => {
+    const icons = [IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6]
+    const IconComponent = icons[index] || IconSquareNumber1
+    return <IconComponent className="w-10 h-10 text-blue-500" />
+  }
 
   // itemNTitle/Content形式のデータ取得
   const getItemData = () => {
@@ -92,32 +100,20 @@ export function ItemNTitleContentTemplate({ data }: ItemNTitleContentTemplatePro
             <div className="space-y-4">
               {itemData.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl p-6 shadow-md border border-blue-100 transform hover:scale-[1.02] transition-transform">
-                  <div className="flex items-start gap-4">
-                    {/* 番号アイコン */}
-                    <div className="flex-shrink-0">
-                      <div className="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold text-lg">
-                        {index + 1}
-                      </div>
+                  {/* タイトル */}
+                  <h3 className="text-3xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                    {getNumberIcon(index)}
+                    {item.title}
+                  </h3>
+                  
+                  {/* 内容 */}
+                  {item.content && (
+                    <div className="bg-blue-50 rounded-xl p-4">
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        {item.content}
+                      </p>
                     </div>
-                    
-                    {/* コンテンツ */}
-                    <div className="flex-1">
-                      {/* タイトル */}
-                      <h3 className="text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
-                        <Star className="w-5 h-5 text-yellow-500" />
-                        {item.title}
-                      </h3>
-                      
-                      {/* 内容 */}
-                      {item.content && (
-                        <div className="bg-blue-50 rounded-xl p-4">
-                          <p className="text-base text-gray-700 leading-relaxed">
-                            {item.content}
-                          </p>
-                        </div>
-                      )}
-                    </div>
-                  </div>
+                  )}
                 </div>
               ))}
             </div>
