@@ -26,6 +26,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -33,3 +34,25 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# test results and temporary files
+/test-results/
+test-*.js
+test-*.ts
+prompt_backup_*.txt
+
+# IDE files
+.vscode/
+.idea/
+
+# logs
+*.log
+logs/
+
+# OS generated files
+Thumbs.db
+
+# temporary and backup files
+*.tmp
+*.bak
+*~
