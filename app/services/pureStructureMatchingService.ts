@@ -127,7 +127,7 @@ export class PureStructureMatchingService {
         }
         return 0.0
       },
-      priority: 0.9 // 高優先度 - Critical Priority対応
+      priority: 8 // 独立概念ボックス専用として高優先度
     },
 
     // Pattern 3: Table型 (既存パターン)
@@ -359,7 +359,7 @@ export class PureStructureMatchingService {
         }
         return 0
       },
-      priority: 12 // enumerationより高い優先度（重要な特殊構造）
+      priority: 5 // ステップ型専用に限定
     },
 
     // Pattern C3: simple6型 (まとめ構造 - description + 文字列アイテムリスト)
@@ -685,7 +685,12 @@ export class PureStructureMatchingService {
     const scores = this.structurePatterns.map(pattern => {
       const isMatch = pattern.structureCheck(content)
       const structureScore = pattern.structureScore(content)
-      const finalScore = structureScore * pattern.priority
+      let finalScore = structureScore * pattern.priority
+      
+      // 構造チェック失敗時の大幅ペナルティ
+      if (!isMatch) {
+        finalScore = finalScore * 0.3  // 70%減点
+      }
       
       console.log(`📊 ${pattern.templateType}:`)
       console.log(`  ├─ 構造チェック: ${isMatch ? '✅ 適合' : '❌ 不適合'}`)

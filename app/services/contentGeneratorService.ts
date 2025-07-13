@@ -1,9 +1,11 @@
-import { GoogleGenerativeAI } from '@google/generative-ai'
 import { TemplateType, TemplateData } from '../components/templates/TemplateTypes'
 import { hashtagService } from '../config/hashtags'
 import { captionService } from '../config/captionFormat'
 import { MarkdownUtils } from '../utils/markdownUtils'
 import { IndexGeneratorService } from './indexGeneratorService'
+import { PageStructureAnalyzer } from './pageStructureAnalyzer'
+import { StructureConstrainedGenerator } from './structureConstrainedGenerator'
+import { getGeminiModel } from './geminiClientSingleton'
 
 export interface GeneratedPage {
   pageNumber: number
@@ -50,17 +52,11 @@ export interface GeneratedContent {
 }
 
 export class ContentGeneratorService {
-  private client: GoogleGenerativeAI
   private model: any
   private isGenerating: boolean = false // AI呼び出しの直列化用
 
   constructor() {
-    const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY || process.env.GEMINI_API_KEY
-    if (!apiKey) {
-      throw new Error('Gemini API key not found. Please set GEMINI_API_KEY in .env file.')
-    }
-    this.client = new GoogleGenerativeAI(apiKey)
-    this.model = this.client.getGenerativeModel({ model: 'gemini-2.0-flash-lite' })
+    this.model = getGeminiModel()
   }
 
   async generateHighQualityContent(userInput: string): Promise<GeneratedContent> {
@@ -70,31 +66,75 @@ export class ContentGeneratorService {
     }
 
     this.isGenerating = true
-    const prompt = this.createContentGenerationPrompt(userInput)
     
     try {
-      console.log('🚀 AI生成開始...')
-      const result = await this.model.generateContent(prompt)
-      const response = await result.response
-      const text = response.text()
+      console.log('🚀 2段階フロー開始...')
       
-      console.log('✅ AI生成成功')
+      // 1段階目: ページ構造決定
+      console.log('📋 段階1: ページ構造分析中...')
+      const pageStructureAnalyzer = new PageStructureAnalyzer()
+      const pageStructures = await pageStructureAnalyzer.analyzePageStructureAndTemplates(userInput)
       
-      // 🎯 高品質コンテンツ生成の生のデータをコンソールに出力
-      console.log('='.repeat(60))
-      console.log('🎨 高品質コンテンツ生成 - 生のレスポンス')
-      console.log('='.repeat(60))
-      console.log('生のレスポンステキスト:', text)
-      console.log('-'.repeat(40))
+      console.log('✅ ページ構造決定完了:', pageStructures.length, 'ページ')
       
-      const parsedContent = this.parseGeneratedContent(text)
+      // 2段階目: 各ページ生成
+      console.log('🎨 段階2: 構造制約生成開始...')
+      const structureConstrainedGenerator = new StructureConstrainedGenerator()
+      const pages: GeneratedPage[] = []
       
-      console.log('パース済みコンテンツ:', JSON.stringify(parsedContent, null, 2))
-      console.log('='.repeat(60))
+      for (const [index, structure] of pageStructures.entries()) {
+        console.log(`📄 ページ${index + 1}生成中: ${structure.title}`)
+        
+        // API呼び出し間に遅延を追加（429エラー対策）
+        if (index > 0) {
+          console.log('⏳ API制限対策のため1秒待機中...')
+          await new Promise(resolve => setTimeout(resolve, 1000))
+        }
+        
+        const generatedPage = await structureConstrainedGenerator.generatePageWithConstraints(userInput, structure)
+        
+        const page: GeneratedPage = {
+          pageNumber: index + 1,
+          templateType: generatedPage.templateType,
+          templateData: this.convertToTemplateData({
+            ...generatedPage.content,
+            title: generatedPage.title
+          }, generatedPage.templateType),
+          content: {
+            title: generatedPage.title || generatedPage.content.title,
+            subtitle: generatedPage.content.subtitle,
+            description: generatedPage.content.description,
+            items: generatedPage.content.items,
+            sections: generatedPage.content.sections,
+            tableData: generatedPage.content.tableData,
+            badgeText: generatedPage.content.badgeText,
+            checklistItems: generatedPage.content.checklistItems
+          }
+        }
+        pages.push(page)
+      }
       
-      return parsedContent
+      console.log('✅ 全ページ生成完了')
+      
+      // ハッシュタグ生成（現状維持）
+      const hashtags = await this.generateHashtags(userInput, pages)
+      
+      // キャプション生成（改善: 実際の生成内容を反映）
+      const caption = await this.generateCaptionWithFormat(userInput, pages)
+      
+      const generatedContent: GeneratedContent = {
+        pages,
+        totalPages: pages.length,
+        hashtags,
+        caption,
+        summary: userInput
+      }
+      
+      console.log('🎉 2段階フロー完了')
+      
+      return generatedContent
     } catch (error) {
-      console.error('❌ AI生成失敗:', error)
+      console.error('❌ 2段階フロー失敗:', error)
       
       // エラーをそのまま投げる - 問題を隠さない
       if (error instanceof Error) {
@@ -205,7 +245,9 @@ ${contentForCaption}
         title: indexData.title,
         subtitle: indexData.subtitle,
         description: indexData.content,
-        items: indexData.items,
+        items: Array.isArray(indexData.items) ? indexData.items.map(item => 
+          typeof item === 'string' ? item : (item?.title || item?.content || String(item))
+        ) : undefined,
         badgeText: indexData.badgeText
       }
     }
@@ -256,7 +298,9 @@ ${contentForCaption}
         title: indexData.title,
         subtitle: indexData.subtitle,
         description: indexData.content,
-        items: indexData.items,
+        items: Array.isArray(indexData.items) ? indexData.items.map(item => 
+          typeof item === 'string' ? item : (item?.title || item?.content || String(item))
+        ) : undefined,
         badgeText: indexData.badgeText
       }
     }
@@ -647,7 +691,9 @@ ${additionalInstructions || '品質を向上させて再生成してください
           content: MarkdownUtils.removeMarkdown(item.description || item.content || '')
         }
       ) : [],
-      tableData: content.tableData || { headers: [], rows: [] }
+      tableData: content.tableData || (content.headers && content.rows ? 
+        { headers: content.headers, rows: content.rows } : 
+        { headers: [], rows: [] })
     }
 
     // 新テンプレート用のデータ処理
@@ -740,15 +786,79 @@ ${additionalInstructions || '品質を向上させて再生成してください
   }
 
   /**
+   * ハッシュタグ生成（新システム用）
+   */
+  private async generateHashtags(userInput: string, pages: GeneratedPage[]): Promise<GeneratedContent['hashtags']> {
+    const contentForHashtags = pages.map(page => 
+      `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
+    ).join(' ')
+    
+    const properHashtags = hashtagService.selectHashtags(contentForHashtags)
+    
+    return {
+      primary: properHashtags.large,
+      secondary: properHashtags.medium,
+      trending: properHashtags.small,
+      large: properHashtags.large,
+      medium: properHashtags.medium,
+      small: properHashtags.small,
+      all: properHashtags.all
+    }
+  }
+
+  /**
+   * フォーマット統一キャプション生成（新システム用）
+   */
+  private async generateCaptionWithFormat(
+    originalInput: string,
+    generatedPages: GeneratedPage[]
+  ): Promise<string> {
+    
+    const prompt = `
+【元入力】${originalInput}
+【実際の生成ページ】
+${generatedPages.map(p => `${p.content.title}: ${p.content.description || ''}`).join('\n')}
+
+【キャプション固定フォーマット】
+タイトル
+
+概要
+
+✅ページタイトル
+ページの簡潔な概要と補足説明
+
+✅ページタイトル
+簡潔な概要と補足説明
+
+...
+
+まとめ的な内容（「まとめ」という単語は使用禁止）
+
+【要求】
+- 実際に生成されたページ内容を正確に踏襲
+- 上記フォーマットを厳密に遵守
+- 各ページの価値を簡潔に表現
+- Instagram投稿らしい親しみやすさ
+- ハッシュタグは含めない（別セクション）
+`
+    
+    try {
+      const result = await this.model.generateContent(prompt)
+      const response = await result.response
+      return response.text().trim()
+    } catch (error) {
+      console.error('Caption generation failed:', error)
+      // フォールバック: 簡易キャプション生成
+      return `${originalInput}\n\n${generatedPages.map(p => `✅ ${p.content.title}`).join('\n')}`
+    }
+  }
+
+  /**
    * ハッシュタグのみを再生成
    */
   async regenerateHashtags(content: GeneratedContent): Promise<GeneratedContent> {
-    if (!this.genAI) {
-      throw new Error('Gemini AI が初期化されていません')
-    }
-
     try {
-      const model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
+      const model = this.model
       
       // コンテンツの概要を作成
       const contentSummary = `

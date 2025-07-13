@@ -410,6 +410,7 @@ export class ContentLayoutService {
     
     // テンプレートタイプに応じたバッジテキスト
     const badgeMap: Record<TemplateType, string[]> = {
+      index: ['INDEX', '目次', '一覧'],
       enumeration: ['チェックリスト', 'ポイント', '項目'],
       explanation2: ['ステップ解説', '詳細解説', '分析'],
       table: ['比較', 'データ', '一覧'],

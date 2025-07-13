@@ -1,0 +1,140 @@
+{
+  "fileName": "31.txt",
+  "inputLength": 2336,
+  "success": true,
+  "totalPages": 10,
+  "templates": [
+    "table",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "table",
+    "simple5"
+  ],
+  "titleIssues": {
+    "missing": 0,
+    "fallback": 0,
+    "objectObject": 0,
+    "markdownPresent": 0,
+    "formatIncorrect": 7,
+    "details": [
+      {
+        "pageNum": 2,
+        "title": "カジュアルな表現への注意",
+        "issue": [
+          "「概要：有益性」形式違反"
+        ]
+      },
+      {
+        "pageNum": 3,
+        "title": "過剰敬語・誤った敬語の落とし穴",
+        "issue": [
+          "「概要：有益性」形式違反"
+        ]
+      },
+      {
+        "pageNum": 4,
+        "title": "否定的な表現を避ける",
+        "issue": [
+          "「概要：有益性」形式違反"
+        ]
+      },
+      {
+        "pageNum": 5,
+        "title": "不適切な表現の使用を避ける",
+        "issue": [
+          "「概要：有益性」形式違反"
+        ]
+      },
+      {
+        "pageNum": 6,
+        "title": "目上の人への不適切な言葉遣い",
+        "issue": [
+          "「概要：有益性」形式違反"
+        ]
+      },
+      {
+        "pageNum": 7,
+        "title": "不正確な敬語への注意",
+        "issue": [
+          "「概要：有益性」形式違反"
+        ]
+      },
+      {
+        "pageNum": 8,
+        "title": "略語・口語表現の使用を避ける",
+        "issue": [
+          "「概要：有益性」形式違反"
+        ]
+      }
+    ]
+  },
+  "contentIssues": {
+    "objectObject": 0,
+    "markdownPresent": 0,
+    "emptyContent": 3,
+    "overflowContent": 0,
+    "details": [
+      {
+        "pageNum": 1,
+        "template": "table",
+        "issues": [
+          "空コンテンツ"
+        ],
+        "contentSample": "{\"title\":\"概要：就活で避けるべき言葉遣い\"}..."
+      },
+      {
+        "pageNum": 9,
+        "template": "table",
+        "issues": [
+          "空コンテンツ"
+        ],
+        "contentSample": "{\"title\":\"就活で避けるべき言葉遣い：NG例と正しい言い換え\"}..."
+      },
+      {
+        "pageNum": 10,
+        "template": "simple5",
+        "issues": [
+          "空コンテンツ"
+        ],
+        "contentSample": "{\"title\":\"まとめ：就活を成功させるための言葉遣い\"}..."
+      }
+    ]
+  },
+  "templateAnalysis": {
+    "premiumTemplates": 10,
+    "supplementaryTemplates": 0,
+    "simple5Overuse": false,
+    "templateDistribution": {
+      "table": 2,
+      "item-n-title-content": 7,
+      "simple5": 1
+    },
+    "appropriateSelection": []
+  },
+  "captionHashtagAnalysis": {
+    "captionLength": 729,
+    "captionHasMarkdown": false,
+    "captionHasHashtags": false,
+    "captionHasCheckmarks": true,
+    "hashtagCount": 11,
+    "hashtagHasDuplicates": false,
+    "hashtagList": [
+      "#就活",
+      "#キャリア",
+      "#インターン",
+      "#新卒",
+      "#自己分析",
+      "#スキルアップ",
+      "#就活生",
+      "#面接対策",
+      "#ES対策",
+      "#成功",
+      "#就活の教科書"
+    ]
+  }
+}

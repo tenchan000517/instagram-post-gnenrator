@@ -1,0 +1,81 @@
+{
+  "fileName": "31.txt",
+  "inputLength": 2336,
+  "success": true,
+  "totalPages": 10,
+  "templates": [
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "table",
+    "item-n-title-content"
+  ],
+  "titleIssues": {
+    "missing": 0,
+    "fallback": 0,
+    "objectObject": 0,
+    "markdownPresent": 0,
+    "formatIncorrect": 0,
+    "details": []
+  },
+  "contentIssues": {
+    "objectObject": 0,
+    "markdownPresent": 0,
+    "emptyContent": 2,
+    "overflowContent": 0,
+    "details": [
+      {
+        "pageNum": 2,
+        "template": "item-n-title-content",
+        "issues": [
+          "空コンテンツ"
+        ],
+        "contentSample": "{\"title\":\"カジュアルな表現：NG例と注意点\"}..."
+      },
+      {
+        "pageNum": 9,
+        "template": "table",
+        "issues": [
+          "空コンテンツ"
+        ],
+        "contentSample": "{\"title\":\"就活で避けるべき言葉遣い：NG例と正しい言い換え\"}..."
+      }
+    ]
+  },
+  "templateAnalysis": {
+    "premiumTemplates": 10,
+    "supplementaryTemplates": 0,
+    "simple5Overuse": false,
+    "templateDistribution": {
+      "item-n-title-content": 9,
+      "table": 1
+    },
+    "appropriateSelection": []
+  },
+  "captionHashtagAnalysis": {
+    "captionLength": 883,
+    "captionHasMarkdown": false,
+    "captionHasHashtags": false,
+    "captionHasCheckmarks": true,
+    "hashtagCount": 11,
+    "hashtagHasDuplicates": false,
+    "hashtagList": [
+      "#就活",
+      "#キャリア",
+      "#インターン",
+      "#新卒",
+      "#自己分析",
+      "#スキルアップ",
+      "#就活生",
+      "#面接対策",
+      "#ES対策",
+      "#改善",
+      "#就活の教科書"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "fileName": "31.txt",
+  "inputLength": 2336,
+  "success": true,
+  "totalPages": 10,
+  "templates": [
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "item-n-title-content",
+    "table",
+    "item-n-title-content"
+  ],
+  "titleIssues": {
+    "missing": 0,
+    "fallback": 0,
+    "objectObject": 0,
+    "markdownPresent": 0,
+    "formatIncorrect": 0,
+    "details": []
+  },
+  "contentIssues": {
+    "objectObject": 0,
+    "markdownPresent": 0,
+    "emptyContent": 1,
+    "overflowContent": 0,
+    "details": [
+      {
+        "pageNum": 9,
+        "template": "table",
+        "issues": [
+          "空コンテンツ"
+        ],
+        "contentSample": "{\"title\":\"NGワード一覧：正しい言い換えと理由\"}..."
+      }
+    ]
+  },
+  "templateAnalysis": {
+    "premiumTemplates": 10,
+    "supplementaryTemplates": 0,
+    "simple5Overuse": false,
+    "templateDistribution": {
+      "item-n-title-content": 9,
+      "table": 1
+    },
+    "appropriateSelection": []
+  },
+  "captionHashtagAnalysis": {
+    "captionLength": 783,
+    "captionHasMarkdown": false,
+    "captionHasHashtags": false,
+    "captionHasCheckmarks": true,
+    "hashtagCount": 11,
+    "hashtagHasDuplicates": false,
+    "hashtagList": [
+      "#就活",
+      "#キャリア",
+      "#インターン",
+      "#新卒",
+      "#自己分析",
+      "#スキルアップ",
+      "#就活生",
+      "#面接対策",
+      "#ES対策",
+      "#就活の教科書",
+      "#就活ハック"
+    ]
+  }
+}

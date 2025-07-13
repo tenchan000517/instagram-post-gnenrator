@@ -401,6 +401,7 @@ export class TemplateRecommendationService {
    */
   private static evaluateLengthFit(length: number, templateType: TemplateType): number {
     const optimalLengths: Record<TemplateType, [number, number]> = {
+      index: [50, 200],
       enumeration: [100, 400],
       explanation2: [200, 800],
       table: [150, 500],
@@ -430,6 +431,7 @@ export class TemplateRecommendationService {
    */
   private static evaluateComplexityFit(analysis: any, templateType: TemplateType): number {
     const complexityScores: Record<TemplateType, number> = {
+      index: 5,
       enumeration: analysis.hasLists ? 15 : 5,
       explanation2: analysis.hasSections ? 15 : 5,
       table: analysis.hasComparisons ? 15 : 5,
@@ -507,6 +509,7 @@ export class TemplateRecommendationService {
     const contentSummary = content.substring(0, 100) + '...'
     
     const templateDescriptions: Record<TemplateType, string> = {
+      index: 'INDEX目次形式',
       enumeration: '項目リスト + 説明文で構成',
       explanation2: '詳細な解説文中心',
       table: '比較表形式で整理',

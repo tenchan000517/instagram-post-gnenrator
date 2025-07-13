@@ -1,12 +1,12 @@
 'use client'
 
 import { useState } from 'react'
-import { Sparkles, CheckCircle, RotateCcw } from 'lucide-react'
+import { Sparkles, CheckCircle, RotateCcw, Settings } from 'lucide-react'
 import ContentInput from './ContentInput'
 import ContentApprovalComponent from './ContentApprovalComponent'
 import EditablePostGenerator from './EditablePostGenerator'
 import { contentGeneratorService, GeneratedContent } from '../services/contentGeneratorService'
-import { pureStructureMatchingService } from '../services/pureStructureMatchingService'
+// PureStructureMatchingService削除 - PageStructureAnalyzerの選択を信頼
 
 type FlowStep = 'input' | 'generation' | 'approval' | 'editing' | 'final'
 
@@ -45,20 +45,8 @@ export default function NewFlowPostGenerator({}: NewFlowPostGeneratorProps) {
       console.log('生成されたコンテンツ:', JSON.stringify(generated, null, 2))
       console.log('='.repeat(60))
       
-      setGenerationStatus('最適なテンプレートを選択中...')
-      const optimizedContent = {
-        ...generated,
-        pages: pureStructureMatchingService.matchTemplateToContent(generated.pages)
-      }
-      
-      // 🎯 テンプレートマッチング後のデータもログ出力
-      console.log('='.repeat(60))
-      console.log('🎯 テンプレートマッチング完了 - 最適化データ')
-      console.log('='.repeat(60))
-      console.log('最適化後コンテンツ:', JSON.stringify(optimizedContent, null, 2))
-      console.log('='.repeat(60))
-      
-      setGeneratedContent(optimizedContent)
+      // PureStructureMatchingServiceを削除 - PageStructureAnalyzerの選択を信頼
+      setGeneratedContent(generated)
       setCurrentStep('approval')
     } catch (error) {
       console.error('Content generation failed:', error)

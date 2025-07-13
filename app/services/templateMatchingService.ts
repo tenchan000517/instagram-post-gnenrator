@@ -504,6 +504,7 @@ export class TemplateMatchingService {
 
     // テンプレートタイプに適したコンテンツ量かチェック
     const volumeRequirements: Record<TemplateType, { min: number; max: number }> = {
+      'index': { min: 1, max: 1 },
       'enumeration': { min: 3, max: 7 },
       'explanation2': { min: 2, max: 5 },
       'list': { min: 3, max: 8 },
@@ -540,6 +541,7 @@ export class TemplateMatchingService {
     const checklistCount = content.checklistItems?.length || 0
 
     const volumeRequirements: Record<TemplateType, { min: number; max: number }> = {
+      'index': { min: 1, max: 1 },
       'enumeration': { min: 3, max: 7 },
       'explanation2': { min: 2, max: 5 },
       'list': { min: 3, max: 8 },
@@ -608,6 +610,7 @@ export class TemplateMatchingService {
 
   private getTemplateDisplayName(templateType: TemplateType): string {
     const displayNames: Record<TemplateType, string> = {
+      index: 'INDEX型',
       enumeration: '列挙型',
       list: 'リスト型',
       explanation2: '解説型2',

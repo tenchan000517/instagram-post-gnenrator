@@ -47,6 +47,7 @@ export default function TemplateSelectionComponent({
 
   const getTemplateDisplayName = (templateType: TemplateType): string => {
     const names: Record<TemplateType, string> = {
+      index: 'INDEX型',
       enumeration: '項目リスト型',
       list: 'シンプルリスト型',
       explanation2: '複数セクション解説型',
@@ -66,6 +67,7 @@ export default function TemplateSelectionComponent({
 
   const getTemplateDescription = (templateType: TemplateType): string => {
     const descriptions: Record<TemplateType, string> = {
+      index: 'INDEX型の構成。目次ページとして使用。',
       enumeration: '項目リストと説明文を組み合わせた構成。チェックポイントや手順を明確に示したい場合に最適。',
       list: 'シンプルなリスト形式。要点を簡潔に示したい場合に適している。',
       explanation2: '複数のセクションに分けた詳細解説。複雑な内容を整理して説明したい場合に最適。',

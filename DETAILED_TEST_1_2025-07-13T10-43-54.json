@@ -1,0 +1,39 @@
+{
+  "fileName": "1.txt",
+  "inputLength": 3388,
+  "success": false,
+  "totalPages": 0,
+  "templates": [],
+  "titleIssues": {
+    "missing": 0,
+    "fallback": 0,
+    "objectObject": 0,
+    "markdownPresent": 0,
+    "formatIncorrect": 0,
+    "details": []
+  },
+  "contentIssues": {
+    "objectObject": 0,
+    "markdownPresent": 0,
+    "emptyContent": 0,
+    "overflowContent": 0,
+    "details": []
+  },
+  "templateAnalysis": {
+    "premiumTemplates": 0,
+    "supplementaryTemplates": 0,
+    "simple5Overuse": false,
+    "templateDistribution": {},
+    "appropriateSelection": []
+  },
+  "captionHashtagAnalysis": {
+    "captionLength": 0,
+    "captionHasMarkdown": false,
+    "captionHasHashtags": false,
+    "captionHasCheckmarks": false,
+    "hashtagCount": 0,
+    "hashtagHasDuplicates": false,
+    "hashtagList": []
+  },
+  "error": "AI生成に失敗しました: 構造制約生成に失敗しました"
+}
