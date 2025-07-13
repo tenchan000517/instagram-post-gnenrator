@@ -41,6 +41,11 @@ test-*.js
 test-*.ts
 prompt_backup_*.txt
 
+# development directories (local only)
+/ui/
+/input/
+/archive/
+
 # IDE files
 .vscode/
 .idea/
