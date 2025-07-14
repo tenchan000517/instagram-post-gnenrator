@@ -31,6 +31,39 @@ export class MarkdownUtils {
   }
 
   /**
+   * キャプション用のマークダウン除去（✅のみ保持）
+   */
+  static removeMarkdownForCaption(text: string | any): string {
+    if (!text || typeof text !== 'string') return String(text || '')
+    
+    return text
+      // 絵文字を除去（✅のみ除外）
+      .replace(/[\u{1F000}-\u{1FAFF}]|[\u{2600}-\u{27BF}]|[\u{FE00}-\u{FE0F}]|[\u{200D}]/gu, (match) => {
+        return match === '✅' ? match : ''
+      })
+      // **太字** を除去
+      .replace(/\*\*([^*]+)\*\*/g, '$1')
+      // *斜体* を除去
+      .replace(/\*([^*]+)\*/g, '$1')
+      // `コード` を除去
+      .replace(/`([^`]+)`/g, '$1')
+      // # ヘッダー を除去
+      .replace(/^#{1,6}\s+/gm, '')
+      // [リンク](URL) を除去
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      // > 引用 を除去
+      .replace(/^>\s+/gm, '')
+      // --- 区切り線 を除去
+      .replace(/^---+$/gm, '')
+      // HTML tags を除去
+      .replace(/<[^>]+>/g, '')
+      // 連続する空白を正規化（改行は保持）
+      .replace(/[ \t]+/g, ' ')  // スペースとタブのみを正規化
+      .replace(/\n\s*\n\s*\n+/g, '\n\n')  // 3回以上の連続改行を2回に
+      .trim()
+  }
+
+  /**
    * マークダウン記法をHTMLに変換する（基本的な対応のみ）
    */
   static convertToHtml(text: string): string {
