@@ -35,9 +35,45 @@ export default function EditablePostGenerator({
   const [downloadItems, setDownloadItems] = useState<DownloadItem[]>([])
   const [isDownloading, setIsDownloading] = useState(false)
   const [downloadProgress, setDownloadProgress] = useState({ current: 0, total: 0 })
+  const [includeMiddleFooter, setIncludeMiddleFooter] = useState(false)
+  const [includeEndFooter, setIncludeEndFooter] = useState(false)
   const previewRef = useRef<HTMLDivElement>(null)
   const pageRefs = useRef<{ [key: number]: HTMLDivElement | null }>({})         // プレビュー用
   const downloadPageRefs = useRef<{ [key: number]: HTMLDivElement | null }>({}) // ダウンロード用
+
+  // 固定フッター定義
+  const getMiddleFooter = () => `
+
+━━━━━━━━━━━━━━━━━━━━
+
+「自分には何もない」から
+「自分にはこれがある」が見つかるコミュニティ
+
+最初は誰でも初心者。
+ここで見つけた「得意」が、人生を変えるきっかけになる。
+
+一人で頑張るより、みんなで挑戦する方が圧倒的に早く成長できる。
+
+4年間で40年分のキャリアネットワークを構築する。
+
+プロフィール欄のURLからお気軽にご参加ください！
+
+@find_to_do`
+  
+  const getEndFooter = () => `
+
+━━━━━━━━━━━━━━━━━━━━
+
+いいね・コメント・シェアありがとうございます！
+
+FIND to DO(@find_to_do)では
+✅ 毎日就活に役立つクイズをストーリーで配信
+✅ 開催イベントの情報をお届け
+✅ 就活に役立つノウハウを配信中
+
+フォローして参考にしてください！
+
+━━━━━━━━━━━━━━━━━━━━`
 
   // Initialize download items
   useEffect(() => {
@@ -1059,14 +1095,14 @@ export default function EditablePostGenerator({
                   </label>
                   <div className="relative">
                     <textarea
-                      value={`${currentContent.caption}\n\n${currentContent.hashtags.all.join(' ')}`}
+                      value={`${currentContent.caption}${includeMiddleFooter ? getMiddleFooter() : ''}${includeEndFooter ? getEndFooter() : ''}\n\n${currentContent.hashtags.all.join(' ')}`}
                       readOnly
                       className="w-full p-3 border rounded-md resize-none bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      rows={6}
+                      rows={12}
                     />
                     <button
                       onClick={() => {
-                        const combinedText = `${currentContent.caption}\n\n${currentContent.hashtags.all.join(' ')}`
+                        const combinedText = `${currentContent.caption}${includeMiddleFooter ? getMiddleFooter() : ''}${includeEndFooter ? getEndFooter() : ''}\n\n${currentContent.hashtags.all.join(' ')}`
                         navigator.clipboard.writeText(combinedText)
                         // 簡単なフィードバックを表示
                         const btn = document.activeElement as HTMLButtonElement
@@ -1080,6 +1116,53 @@ export default function EditablePostGenerator({
                     >
                       コピー
                     </button>
+                  </div>
+                  
+                  {/* 固定フッター選択 */}
+                  <div className="mt-4 space-y-4">
+                    <div className="flex items-center gap-4">
+                      <label className="text-sm font-medium text-gray-700">固定フッター:</label>
+                      <div className="flex gap-4">
+                        <label className="flex items-center">
+                          <input
+                            type="checkbox"
+                            checked={includeMiddleFooter}
+                            onChange={(e) => setIncludeMiddleFooter(e.target.checked)}
+                            className="mr-2"
+                          />
+                          <span className="text-sm">中盤</span>
+                        </label>
+                        <label className="flex items-center">
+                          <input
+                            type="checkbox"
+                            checked={includeEndFooter}
+                            onChange={(e) => setIncludeEndFooter(e.target.checked)}
+                            className="mr-2"
+                          />
+                          <span className="text-sm">後半</span>
+                        </label>
+                      </div>
+                    </div>
+                    
+                    {/* 中盤固定フッター */}
+                    <div className="border-t pt-4">
+                      <div className="bg-gray-50 p-3 rounded-md">
+                        <div className="text-xs text-gray-600 mb-2">【中盤固定フッター】</div>
+                        <div className="text-sm text-gray-700 whitespace-pre-line">
+                          {getMiddleFooter()}
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* 後半固定フッター */}
+                    <div className="border-t pt-4">
+                      <div className="bg-gray-50 p-3 rounded-md">
+                        <div className="text-xs text-gray-600 mb-2">【後半固定フッター】</div>
+                        <div className="text-sm text-gray-700 whitespace-pre-line">
+                          {getEndFooter()}
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
