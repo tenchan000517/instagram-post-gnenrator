@@ -48,12 +48,12 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
   }
 
   return (
-    <div className="w-full h-full bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
+    <div className="w-full h-full bg-white relative overflow-hidden">
       {/* 背景装飾 */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>
       <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-300 rounded-full translate-y-12 -translate-x-12 opacity-40"></div>
       
-      <div className="relative z-10 p-5 flex flex-col h-full">
+      <div className="relative z-10 p-5 flex flex-col min-h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-6">
           {(() => {
@@ -89,7 +89,7 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
         )}
 
         {/* 2カラムセクション */}
-        <div className="flex-1 grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4">
           {/* 左カラム */}
           {leftSection && (
             <div className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
@@ -121,7 +121,7 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                   {leftSection.items.map((item, index) => (
                     <div key={index} className="flex items-start gap-2">
                       <IconClipboardCheck className="w-8 h-8 text-blue-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-base text-gray-800 leading-relaxed">
+                      <span className="text-lg text-gray-800 leading-relaxed font-bold">
                         {typeof item === 'string' ? item : item.content || item.title || ''}
                       </span>
                     </div>
@@ -162,7 +162,7 @@ export function TwoColumnSectionItemsTemplate({ data }: TwoColumnSectionItemsTem
                   {rightSection.items.map((item, index) => (
                     <div key={index} className="flex items-start gap-2">
                       <IconClipboardCheck className="w-8 h-8 text-blue-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-base text-gray-800 leading-relaxed">
+                      <span className="text-lg text-gray-800 leading-relaxed font-bold">
                         {typeof item === 'string' ? item : item.content || item.title || ''}
                       </span>
                     </div>

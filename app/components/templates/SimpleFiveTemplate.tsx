@@ -45,7 +45,7 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
   const getStepNumber = (index: number) => index + 1
 
   return (
-    <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
+    <div className="w-full h-full bg-white relative overflow-hidden">
       <div className="relative z-10 p-5 flex flex-col h-full">
         {/* ヘッダー部分 */}
         <div className="text-center mb-4">
@@ -78,27 +78,24 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
             
             return (
               <div key={index} className="space-y-2">
-                {/* 統合ボックス + ステップラベル（重なり） */}
-                <div className="relative">
-                  {/* 統合ボックス（タイトル + チェック + ディスクリプション） */}
-                  <div className="bg-white border-2 border-black rounded-lg p-2 pt-6">
-                    <h3 className="text-blue-600 font-bold text-lg leading-tight underline mb-3 text-center">
+                {/* 統合ボックス */}
+                <div className="bg-white border-2 border-black rounded-lg p-4">
+                  {/* STEP + タイトル */}
+                  <div className="flex items-start gap-4 mb-3">
+                    <h4 className="text-green-600 font-bold text-2xl leading-tight underline">
+                      STEP {stepNumber}
+                    </h4>
+                    <h3 className="text-blue-600 font-bold text-2xl leading-tight underline flex-1">
                       {step.title}
                     </h3>
-                    
-                    {/* チェック + ディスクリプション */}
-                    <div className="flex items-start gap-3">
-                      <CheckSquare className="w-8 h-8 text-red-400 flex-shrink-0 mt-0.5" />
-                      <p className="text-gray-700 text-sm leading-relaxed font-bold">
-                        {step.description}
-                      </p>
-                    </div>
                   </div>
                   
-                  {/* ステップラベル（左上に重なり） */}
-                  <div className="absolute -top-2 -left-2 bg-green-500 px-3 py-1 rounded-md flex items-center gap-2">
-                    <span className="text-white font-medium text-sm">ステップ</span>
-                    <NumberIcon number={stepNumber} />
+                  {/* チェック + ディスクリプション */}
+                  <div className="flex items-start gap-3">
+                    <CheckSquare className="w-8 h-8 text-red-400 flex-shrink-0 mt-0.5" />
+                    <p className="text-gray-700 text-lg leading-relaxed font-bold">
+                      {step.description}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -118,27 +115,24 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
             
             return (
               <div key={index} className="space-y-2">
-                {/* 統合ボックス + ステップラベル（重なり） */}
-                <div className="relative">
-                  {/* 統合ボックス（タイトル + チェック + ディスクリプション） */}
-                  <div className="bg-white border-2 border-black rounded-lg p-2 pt-6">
-                    <h3 className="text-blue-600 font-bold text-lg leading-tight underline mb-3 text-center">
+                {/* 統合ボックス */}
+                <div className="bg-white border-2 border-black rounded-lg p-4">
+                  {/* STEP + タイトル */}
+                  <div className="flex items-start gap-4 mb-3">
+                    <h4 className="text-green-600 font-bold text-2xl leading-tight underline">
+                      STEP {stepNumber}
+                    </h4>
+                    <h3 className="text-blue-600 font-bold text-2xl leading-tight underline flex-1">
                       {titlePart}
                     </h3>
-                    
-                    {/* チェック + ディスクリプション */}
-                    <div className="flex items-start gap-3">
-                      <CheckSquare className="w-8 h-8 text-red-400 flex-shrink-0 mt-0.5" />
-                      <p className="text-gray-700 text-sm leading-relaxed font-bold">
-                        {descriptionPart}
-                      </p>
-                    </div>
                   </div>
                   
-                  {/* ステップラベル（左上に重なり） */}
-                  <div className="absolute -top-2 -left-2 bg-green-500 px-3 py-1 rounded-md flex items-center gap-2">
-                    <span className="text-white font-medium text-sm">ステップ</span>
-                    <NumberIcon number={stepNumber} />
+                  {/* チェック + ディスクリプション */}
+                  <div className="flex items-start gap-3">
+                    <CheckSquare className="w-8 h-8 text-red-400 flex-shrink-0 mt-0.5" />
+                    <p className="text-gray-700 text-lg leading-relaxed font-bold">
+                      {descriptionPart}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -150,27 +144,24 @@ export function SimpleFiveTemplate({ data }: SimpleFiveTemplateProps) {
             
             return (
               <div key={index} className="space-y-2">
-                {/* 統合ボックス + ステップラベル（重なり） */}
-                <div className="relative">
-                  {/* 統合ボックス（タイトル + チェック + ディスクリプション） */}
-                  <div className="bg-white border-2 border-black rounded-lg p-4 pt-6">
-                    <h3 className="text-blue-600 font-bold text-lg leading-tight underline mb-3">
+                {/* 統合ボックス */}
+                <div className="bg-white border-2 border-black rounded-lg p-4">
+                  {/* STEP + タイトル */}
+                  <div className="flex items-start gap-4 mb-3">
+                    <h4 className="text-green-600 font-bold text-2xl leading-tight underline">
+                      STEP {stepNumber}
+                    </h4>
+                    <h3 className="text-blue-600 font-bold text-2xl leading-tight underline flex-1">
                       {item.text}
                     </h3>
-                    
-                    {/* チェック + ディスクリプション */}
-                    <div className="flex items-start gap-3">
-                      <CheckSquare className="w-8 h-8 text-red-500 flex-shrink-0 mt-0.5" />
-                      <p className="text-gray-700 text-sm leading-relaxed font-bold">
-                        {data.points?.[index]?.description || ''}
-                      </p>
-                    </div>
                   </div>
                   
-                  {/* ステップラベル（左上に重なり） */}
-                  <div className="absolute -top-2 -left-2 bg-green-300 px-3 py-1 rounded-md flex items-center gap-2">
-                    <span className="text-white font-medium text-sm">ステップ</span>
-                    <NumberIcon number={stepNumber} />
+                  {/* チェック + ディスクリプション */}
+                  <div className="flex items-start gap-3">
+                    <CheckSquare className="w-8 h-8 text-red-500 flex-shrink-0 mt-0.5" />
+                    <p className="text-gray-700 text-lg leading-relaxed font-bold">
+                      {data.points?.[index]?.description || ''}
+                    </p>
                   </div>
                 </div>
               </div>

@@ -17,7 +17,7 @@ export function SingleSectionNoItemsTemplate({ data }: SingleSectionNoItemsTempl
   const section = data.sections && data.sections.length > 0 ? data.sections[0] : null
 
   return (
-    <div className="w-full h-full relative bg-gradient-to-b from-slate-50 to-blue-50 flex flex-col">
+    <div className="w-full h-full relative bg-white flex flex-col">
       
       {/* 🎨 背景装飾（共通パターン） */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>

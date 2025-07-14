@@ -23,7 +23,7 @@ export function ListTemplate({ data }: ListTemplateProps) {
   console.log('================================================================================')
 
   return (
-    <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
+    <div className="w-full h-full bg-white relative overflow-hidden">
       {/* 背景装飾 */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-blue-100/20 to-blue-200/20"></div>

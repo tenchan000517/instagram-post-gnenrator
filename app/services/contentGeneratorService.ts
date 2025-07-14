@@ -167,6 +167,9 @@ ${contentForCaption}
 - 「応援してるよー！」「頑張ろう！」等のカジュアルな表現は使用しない
 - 敬語を適切に使用し、学生に対して有益な情報を提供する姿勢
 - 400-500文字程度で適切なボリュームにまとめる
+- ですます調を基本とし、感嘆符（！）の多用は避ける
+- カジュアルな親しみやすさを保ちつつ、フランクすぎない適度な距離感を維持
+- 自然な丁寧語を心がける
 
 【文体の指針】
 - 就活・キャリア系の専門的な内容に相応しい丁寧な文体
@@ -194,6 +197,8 @@ ${contentForCaption}
       const result = await this.model.generateContent(prompt)
       const response = await result.response
       const caption = response.text().trim()
+      // マークダウン記法を除去
+      const cleanCaption = MarkdownUtils.removeMarkdown(caption)
       
       console.log('✅ キャプション再生成成功')
       
@@ -203,10 +208,10 @@ ${contentForCaption}
       console.log('='.repeat(60))
       console.log('生のレスポンス:', response.text())
       console.log('-'.repeat(40))
-      console.log('処理済みキャプション:', caption)
+      console.log('処理済みキャプション:', cleanCaption)
       console.log('='.repeat(60))
       
-      return caption
+      return cleanCaption
     } catch (error) {
       console.error('Caption regeneration failed:', error)
       throw new Error('キャプションの再生成に失敗しました。もう一度お試しください。')
@@ -226,7 +231,7 @@ ${contentForCaption}
     
     // 既存のページからINDEXデータを生成
     const templateDataList = content.pages.map(page => page.templateData)
-    const indexData = IndexGeneratorService.generateIndexData(templateDataList, mainTheme)
+    const indexData = IndexGeneratorService.generateIndexData(templateDataList, mainTheme, content.caption)
     
     // INDEXページを作成
     const indexPage: GeneratedPage = {
@@ -713,6 +718,8 @@ ${additionalInstructions || '品質を向上させて再生成してください
   ): Promise<string> {
     
     const prompt = `
+以下のコンテンツから、Instagram投稿用のプロフェッショナルなキャプションを生成してください。
+
 【元入力】${originalInput}
 【実際の生成ページ】
 ${generatedPages.map(p => `${p.content.title}: ${p.content.description || ''}`).join('\n')}
@@ -732,24 +739,54 @@ ${generatedPages.map(p => `${p.content.title}: ${p.content.description || ''}`).
 
 まとめ的な内容（「まとめ」という単語は使用禁止）
 
+【キャプション生成制約】
+- キャプションにはハッシュタグを一切含めない
+- キャプションはテキストのみで構成（ハッシュタグは別セクション）
+- 絵文字は✅のみ使用可（他の絵文字は使用禁止）
+- プロフェッショナルで上品なトーンで作成
+- 就活・キャリア系の専門的な内容に相応しい文体
+- 読者にとって価値のある情報を簡潔に伝える
+- 敬語を適切に使用し、学生に対して有益な情報を提供する姿勢
+- 400-500文字程度で適切なボリュームにまとめる
+- ですます調を基本とし、感嘆符（！）の多用は避ける
+- カジュアルな親しみやすさを保ちつつ、フランクすぎない適度な距離感を維持
+- 自然な丁寧語を心がける
+
+【文体の指針】
+- 就活・キャリア系の専門的な内容に相応しい丁寧な文体
+- 導入部分で背景や重要性を説明（2-3文）
+- コンテンツの要点を✅を使って整理
+- 各✅項目に簡潔な説明を付加
+- 読者にとって具体的で実践的な価値を提供
+- 最後に投稿内容への誘導を自然に含める
+- 句点（。）の後は必ず改行する（文章の区切りを明確に）
+- 文章が長い場合は、適切な箇所で改行を入れて読みやすくする
+
+【重要な改行ルール】
+- 文章が終わったら必ず改行（改行コード\nを使用）
+- 長い文章は読みやすくするため適切な箇所で改行
+- ✅項目の間には空行を入れる
+- 段落と段落の間には空行を入れる
+
 【要求】
 - 実際に生成されたページ内容を正確に踏襲
 - 上記フォーマットを厳密に遵守
 - 各ページの価値を簡潔に表現
-- Instagram投稿らしい親しみやすさ
-- ハッシュタグは含めない（別セクション）
 `
     
     try {
       const result = await this.model.generateContent(prompt)
       const response = await result.response
-      return response.text().trim()
+      const caption = response.text().trim()
+      // マークダウン記法を除去
+      return MarkdownUtils.removeMarkdown(caption)
     } catch (error) {
       console.error('Caption generation failed:', error)
       // フォールバック: 簡易キャプション生成
       return `${originalInput}\n\n${generatedPages.map(p => `✅ ${p.content.title}`).join('\n')}`
     }
   }
+
 
   /**
    * ハッシュタグのみを再生成

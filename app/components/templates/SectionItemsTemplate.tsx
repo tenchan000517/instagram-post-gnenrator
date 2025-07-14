@@ -28,7 +28,7 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
   const actionItems = sections.length > 0 && sections[0].items ? sections[0].items : []
 
   return (
-    <div className="w-full h-full bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
+    <div className="w-full h-full bg-white relative overflow-hidden">
       {/* 背景装飾 */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>
       <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-300 rounded-full translate-y-12 -translate-x-12 opacity-40"></div>
@@ -80,12 +80,12 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
                 <div className="w-6 h-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
                   <ArrowRight className="w-4 h-4" />
                 </div>
-                <h2 className="text-lg font-bold">
+                <h2 className="text-3xl font-bold">
                   {mainSection.title}
                 </h2>
               </div>
               {mainSection.content && (
-                <p className="text-base text-white text-opacity-90 leading-relaxed">
+                <p className="text-xl text-white text-opacity-90 leading-relaxed">
                   {mainSection.content}
                 </p>
               )}
@@ -100,7 +100,7 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
                       <div className="flex-shrink-0 pt-1">
                         <CheckCircle className="w-6 h-6 text-blue-600" />
                       </div>
-                      <p className="text-base font-medium text-gray-800 leading-relaxed">
+                      <p className="text-xl font-medium text-gray-800 leading-relaxed">
                         {cleanMarkdown(typeof item === 'string' ? item : item.content || item.title || '')}
                       </p>
                     </div>

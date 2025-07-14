@@ -54,7 +54,7 @@ export function ItemNTitleContentTemplate({ data }: ItemNTitleContentTemplatePro
   const itemData = getItemData()
 
   return (
-    <div className="w-full h-full relative bg-gradient-to-b from-slate-50 to-blue-50 flex flex-col">
+    <div className="w-full h-full relative bg-white flex flex-col">
       
       {/* 🎨 背景装飾（共通パターン） */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>
@@ -78,10 +78,6 @@ export function ItemNTitleContentTemplate({ data }: ItemNTitleContentTemplatePro
             {title}
           </h1>
           
-          {/* サブタイトル（オプション） */}
-          {data.subtitle && (
-            <p className="text-lg text-gray-700 mt-3">{data.subtitle}</p>
-          )}
         </div>
 
         {/* 📄 メインコンテンツエリア - 独立ボックス構造専用 */}

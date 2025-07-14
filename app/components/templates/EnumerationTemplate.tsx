@@ -24,7 +24,7 @@ export function EnumerationTemplate({ data }: EnumerationTemplateProps) {
   console.log('================================================================================')
 
   return (
-    <div className="w-full h-full bg-gradient-to-b from-slate-50 to-blue-50 relative overflow-hidden">
+    <div className="w-full h-full bg-white relative overflow-hidden">
       {/* 背景装飾 */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>
       <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-300 rounded-full translate-y-12 -translate-x-12 opacity-40"></div>

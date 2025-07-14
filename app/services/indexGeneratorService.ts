@@ -10,15 +10,49 @@ export interface IndexData {
 
 export class IndexGeneratorService {
   /**
+   * キャプションからタイトルを抽出
+   * @param caption 生成されたキャプション
+   * @returns 抽出されたタイトル
+   */
+  private static extractTitleFromCaption(caption: string): string {
+    // キャプションの最初の行を取得（タイトル部分）
+    const firstLine = caption.split('\n')[0]?.trim() || ''
+    
+    console.log(`🔍 キャプション1行目: "${firstLine}"`)
+    
+    // 「:」「!」「?」で分割して後半部分を使用
+    const separators = [':', '!', '?']
+    for (const separator of separators) {
+      if (firstLine.includes(separator)) {
+        const parts = firstLine.split(separator)
+        console.log(`🔍 "${separator}"で分割: [${parts.map(p => `"${p}"`).join(', ')}]`)
+        if (parts.length > 1) {
+          const result = parts.slice(1).join(separator).trim()
+          console.log(`🔍 後半部分: "${result}"`)
+          return result
+        }
+      }
+    }
+    
+    // 分割できない場合はそのまま返す
+    console.log(`🔍 分割なし、そのまま返す: "${firstLine}"`)
+    return firstLine
+  }
+  /**
    * 生成されたコンテンツリストから INDEX データを生成
    * @param generatedContents 生成されたコンテンツの配列
    * @param mainTheme 全体のメインテーマ（ユーザー入力から）
+   * @param caption キャプション（オプション）
    * @returns INDEX テンプレート用のデータ
    */
-  static generateIndexData(generatedContents: TemplateData[], mainTheme: string): TemplateData {
+  static generateIndexData(generatedContents: TemplateData[], mainTheme: string, caption?: string): TemplateData {
     console.log('🏗️ INDEX データ生成開始')
     console.log('================================================================================')
-    console.log(`📝 メインテーマ: "${mainTheme}"`)
+    console.log(`🔍 受け取ったキャプション: "${caption || 'なし'}"`)
+    
+    // キャプションが提供されている場合はそこからメインテーマを抽出、なければfallback
+    const finalMainTheme = caption ? this.extractTitleFromCaption(caption) : mainTheme
+    console.log(`📝 使用するメインテーマ: "${finalMainTheme}"`)
     console.log(`📄 コンテンツ数: ${generatedContents.length}ページ`)
     
     // 各ページのタイトルから項目リストを作成
@@ -34,9 +68,7 @@ export class IndexGeneratorService {
     })
     
     const indexData: TemplateData = {
-      title: `INDEX：${mainTheme}`,
-      subtitle: `全${generatedContents.length}ページの構成`,
-      content: `このコンテンツは${generatedContents.length}つの項目で構成されています。`,
+      title: `${finalMainTheme}`,
       items: items,
       badgeText: 'INDEX',
       pageNumber: 0 // INDEXページは特別扱い
@@ -73,19 +105,13 @@ export class IndexGeneratorService {
       .replace(/\s+/g, '') // 空白を除去
       .trim()
     
-    // 5文字以内に短縮
-    if (cleanTitle.length <= 5) {
-      return cleanTitle
-    }
-    
     // 単語の境界で分割を試みる
     const words = cleanTitle.split(/[・、。！？]/)
-    if (words[0] && words[0].length <= 5) {
+    if (words[0]) {
       return words[0]
     }
     
-    // それでも長い場合は単純に切り取り
-    return cleanTitle.substring(0, 5)
+    return cleanTitle
   }
   
   /**
@@ -112,8 +138,6 @@ export class IndexGeneratorService {
     
     const indexData: TemplateData = {
       title: `INDEX：${mainTheme}`,
-      subtitle: `選択した${selectedContents.length}ページの構成`,
-      content: `選択されたコンテンツは${selectedContents.length}つの項目で構成されています。`,
       items: items,
       badgeText: 'INDEX',
       pageNumber: 0

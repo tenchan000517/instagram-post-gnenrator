@@ -1,6 +1,7 @@
 // INDEX テンプレート - 目次ページ（全体のメインテーマ + 項目リスト表示）
 import React from 'react'
 import { FileText, ArrowRight, List } from 'lucide-react'
+import { IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6 } from '@tabler/icons-react'
 import { TemplateData, splitTitleForBadge, getPageNumberIcon } from './TemplateTypes'
 
 interface IndexTemplateProps {
@@ -8,6 +9,12 @@ interface IndexTemplateProps {
 }
 
 export function IndexTemplate({ data }: IndexTemplateProps) {
+  // 動的番号アイコン取得
+  const getNumberIcon = (index: number) => {
+    const icons = [IconSquareNumber1, IconSquareNumber2, IconSquareNumber3, IconSquareNumber4, IconSquareNumber5, IconSquareNumber6]
+    const IconComponent = icons[index] || IconSquareNumber1
+    return <IconComponent className="w-10 h-10 text-blue-500" />
+  }
   // 🎨 テンプレートデータ挿入ロギング - index
   console.log('🎨 テンプレートデータ挿入 - index')
   console.log('================================================================================')
@@ -26,7 +33,7 @@ export function IndexTemplate({ data }: IndexTemplateProps) {
   console.log('================================================================================')
 
   return (
-    <div className="w-full h-full bg-gradient-to-br from-indigo-50 via-white to-purple-50 relative overflow-hidden">
+    <div className="w-full h-full bg-white relative overflow-hidden">
       {/* 背景装飾 */}
       <div className="absolute top-0 right-0 w-40 h-40 bg-indigo-200 rounded-full -translate-y-20 translate-x-20 opacity-30"></div>
       <div className="absolute bottom-0 left-0 w-32 h-32 bg-purple-200 rounded-full translate-y-16 -translate-x-16 opacity-30"></div>
@@ -50,12 +57,9 @@ export function IndexTemplate({ data }: IndexTemplateProps) {
                         <stop offset="100%" stopColor="#8b5cf6" />
                       </linearGradient>
                     </defs>
-                    <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{badgeText}</text>
+                    <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{title}</text>
                   </svg>
                 </div>
-                <h1 className="text-2xl font-bold text-gray-800 leading-tight">
-                  {title}
-                </h1>
               </>
             )
           })()}
@@ -85,24 +89,19 @@ export function IndexTemplate({ data }: IndexTemplateProps) {
           {data.items && data.items.length > 0 && (
             <div className="space-y-3">
               {data.items.map((item, index) => {
-                const itemText = typeof item === 'string' ? item : (item.title || item.content || String(item))
-                // タイトルから最大5文字程度の短縮版を作成
-                const shortTitle = itemText.length > 5 ? itemText.substring(0, 5) + '...' : itemText
+                let itemText = typeof item === 'string' ? item : (item.title || item.content || String(item))
+                // データの先頭の数字と.を除去
+                itemText = itemText.replace(/^\d+\.\s*/, '')
                 
                 return (
                   <div key={index} className="flex items-center gap-4 bg-white/80 rounded-lg p-4 shadow-sm border border-gray-100 hover:shadow-md transition-all duration-200">
-                    <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-full flex items-center justify-center text-white font-bold text-sm">
-                      {index + 1}
+                    <div className="flex-shrink-0">
+                      {getNumberIcon(index)}
                     </div>
                     <div className="flex-1">
                       <div className="font-semibold text-gray-800 text-base">
-                        {index + 1}. {shortTitle}
+                        {itemText}
                       </div>
-                      {itemText !== shortTitle && (
-                        <div className="text-sm text-gray-600 mt-1">
-                          {itemText}
-                        </div>
-                      )}
                     </div>
                     <ArrowRight size={16} className="text-gray-400 flex-shrink-0" />
                   </div>
@@ -116,7 +115,7 @@ export function IndexTemplate({ data }: IndexTemplateProps) {
         <div className="mt-6 flex justify-center">
           <div className="flex items-center gap-2 text-gray-500">
             <List size={16} />
-            <span className="text-sm font-medium">固定INDEX</span>
+            <span className="text-sm font-medium">INDEX</span>
           </div>
         </div>
       </div>
