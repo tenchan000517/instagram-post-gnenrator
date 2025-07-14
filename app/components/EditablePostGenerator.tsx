@@ -169,8 +169,7 @@ export default function EditablePostGenerator({
         width: 850,
         height: 899,
         useCORS: true,
-        allowTaint: false,
-        foreignObjectRendering: false
+        allowTaint: false
       })
 
       const link = document.createElement('a')

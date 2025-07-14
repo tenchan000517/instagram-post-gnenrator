@@ -1,9 +1,10 @@
 'use client'
 
-import React, { useState } from 'react'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import React, { useState, useRef } from 'react'
+import { ChevronLeft, ChevronRight, Download } from 'lucide-react'
 import Viewport from './Viewport'
 import { templateComponents, TemplateType } from './templates'
+import html2canvas from 'html2canvas'
 
 // アクティブテンプレートのサンプルデータ（アーカイブ済みテンプレートを除外）
 const sampleData = {
@@ -232,6 +233,8 @@ const sampleData = {
 
 export default function TemplateViewer() {
   const [currentTemplate, setCurrentTemplate] = useState<TemplateType>('index')
+  const [isDownloading, setIsDownloading] = useState(false)
+  const downloadRef = useRef<HTMLDivElement>(null)
   
   // アクティブテンプレートのみ（アーカイブ済みを除外: explanation, story, simple, simple2, simple4）
   const templates: { type: TemplateType; name: string; description: string }[] = [
@@ -262,6 +265,39 @@ export default function TemplateViewer() {
   const goToNext = () => {
     const nextIndex = currentIndex < templates.length - 1 ? currentIndex + 1 : 0
     setCurrentTemplate(templates[nextIndex].type)
+  }
+
+  // ダウンロード機能（EditablePostGeneratorと同じロジック）
+  const handleDownload = async () => {
+    if (!downloadRef.current) return
+
+    setIsDownloading(true)
+
+    try {
+      // EditablePostGeneratorと同じhtml2canvasオプション
+      const canvas = await html2canvas(downloadRef.current, {
+        background: '#ffffff',
+        width: 850,
+        height: 899,
+        useCORS: true,
+        allowTaint: true,
+        logging: false
+      })
+
+      // 画像データをBlobに変換
+      const imageData = canvas.toDataURL('image/png')
+      const link = document.createElement('a')
+      link.href = imageData
+      link.download = `template-${currentTemplate}-preview.png`
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+    } catch (error) {
+      console.error('Download failed:', error)
+      alert('ダウンロードに失敗しました')
+    } finally {
+      setIsDownloading(false)
+    }
   }
   
   const TemplateComponent = templateComponents[currentTemplate]
@@ -336,6 +372,14 @@ export default function TemplateViewer() {
                 <p className="text-sm text-gray-600">
                   850×800px（赤ライン内表示エリア）
                 </p>
+                <button
+                  onClick={handleDownload}
+                  disabled={isDownloading}
+                  className="mt-3 inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                >
+                  <Download className="w-4 h-4 mr-2" />
+                  {isDownloading ? 'ダウンロード中...' : 'PNGダウンロード'}
+                </button>
               </div>
             </div>
             
@@ -358,6 +402,28 @@ export default function TemplateViewer() {
                 )}
               </div>
             </Viewport>
+            
+            {/* ダウンロード用隠しエリア（EditablePostGeneratorと同じ設定） */}
+            <div
+              ref={downloadRef}
+              style={{
+                width: '850px',
+                height: '899px',
+                position: 'fixed',
+                top: '0',
+                left: '-100vw',
+                zIndex: 9999,
+                visibility: 'visible',
+                overflow: 'hidden',
+                display: 'block',
+                backgroundColor: '#ffffff',
+                fontFamily: 'inherit'
+              }}
+            >
+              {TemplateComponent && (
+                <TemplateComponent data={data} />
+              )}
+            </div>
           </div>
         </div>
         
