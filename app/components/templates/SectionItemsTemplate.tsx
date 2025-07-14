@@ -49,7 +49,7 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
                     <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{badgeText}</text>
                   </svg>
                 </div>
-                <h1 className="text-2xl font-bold text-gray-800 leading-tight">
+                <h1 className="text-3xl font-bold text-gray-800 leading-tight text-center">
                   {title}
                 </h1>
                 {data.subtitle && (
@@ -80,7 +80,7 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
                 <div className="w-6 h-6 bg-white bg-opacity-20 rounded-lg flex items-center justify-center">
                   <ArrowRight className="w-4 h-4" />
                 </div>
-                <h2 className="text-3xl font-bold">
+                <h2 className="text-4xl font-bold">
                   {mainSection.title}
                 </h2>
               </div>
@@ -98,9 +98,9 @@ export function SectionItemsTemplate({ data }: SectionItemsTemplateProps) {
                   <div key={index} className="bg-white rounded-2xl p-4 shadow-sm border border-blue-100">
                     <div className="flex items-start gap-3">
                       <div className="flex-shrink-0 pt-1">
-                        <CheckCircle className="w-6 h-6 text-blue-600" />
+                        <CheckCircle className="w-7 h-7 text-blue-600" />
                       </div>
-                      <p className="text-xl font-medium text-gray-800 leading-relaxed">
+                      <p className="text-2xl font-medium text-gray-800 leading-relaxed">
                         {cleanMarkdown(typeof item === 'string' ? item : item.content || item.title || '')}
                       </p>
                     </div>

@@ -74,7 +74,7 @@ export function ItemNTitleContentTemplate({ data }: ItemNTitleContentTemplatePro
           </div>
           
           {/* メインタイトル */}
-          <h1 className="text-3xl font-bold text-gray-800 leading-tight">
+          <h1 className="text-3xl font-bold text-gray-800 leading-tight text-center">
             {title}
           </h1>
           
@@ -95,9 +95,9 @@ export function ItemNTitleContentTemplate({ data }: ItemNTitleContentTemplatePro
           {itemData.length > 0 && (
             <div className="space-y-4">
               {itemData.map((item, index) => (
-                <div key={index} className="bg-white rounded-2xl p-6 shadow-md border border-blue-100 transform hover:scale-[1.02] transition-transform">
+                <div key={index} className="bg-white rounded-2xl p-4 shadow-md border border-blue-100 transform hover:scale-[1.02] transition-transform">
                   {/* タイトル */}
-                  <h3 className="text-3xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3 flex items-center gap-2">
                     {getNumberIcon(index)}
                     {item.title}
                   </h3>

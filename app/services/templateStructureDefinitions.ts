@@ -165,16 +165,18 @@ export class TemplateStructureDefinitions {
   "badgeText": "回答テクニック"
 }`,
       validationRules: [
-        'items配列は必須（最低2個、最大6個）',
+        'items配列は必須（最低4個、最大5個）【重要】：ジャンル別最適項目数を祖守し、4個の充実した項目を含める',
         '各itemにtitle、contentが必要',
         'titleは30文字以内、contentは80文字以内',
-        'items配列の各要素はオブジェクト形式'
+        'items配列の各要素はオブジェクト形式',
+        '【禁止】：2個以下の少ない項目数は物足りないため絶対禁止'
       ],
       commonMistakes: [
         'itemsが文字列配列になっている',
         'titleとcontentが逆になっている',
         'item1Title/item1Content形式で出力',
-        'contentが長すぎる（80文字超過）'
+        'contentが長すぎる（80文字超過）',
+        '【最大の間違い】：2個以下の少ない項目数で生成すること（必ず3個以上翕げる）'
       ]
     },
 

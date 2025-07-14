@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { FileText, Send, Lightbulb } from 'lucide-react'
 
 interface ContentInputProps {
@@ -9,6 +9,36 @@ interface ContentInputProps {
 
 export default function ContentInput({ onSubmit }: ContentInputProps) {
   const [content, setContent] = useState('')
+
+  useEffect(() => {
+    // LocalStorageから formatted_content を取得
+    const formattedContent = localStorage.getItem('formatted_content')
+    const timestamp = localStorage.getItem('formatted_content_timestamp')
+    
+    if (formattedContent && timestamp) {
+      // データが5分以内の場合のみ使用
+      const dataAge = Date.now() - parseInt(timestamp)
+      if (dataAge < 5 * 60 * 1000) { // 5分
+        setContent(formattedContent)
+        // 使用後にLocalStorageをクリア
+        localStorage.removeItem('formatted_content')
+        localStorage.removeItem('formatted_content_timestamp')
+        return
+      }
+    }
+
+    // フォールバック: URLパラメータからinput値を取得
+    const urlParams = new URLSearchParams(window.location.search)
+    const inputParam = urlParams.get('input')
+    if (inputParam) {
+      try {
+        setContent(decodeURIComponent(inputParam))
+      } catch (error) {
+        console.warn('URI decode error, using raw parameter:', error)
+        setContent(inputParam)
+      }
+    }
+  }, [])
 
   const handleSubmit = () => {
     if (content.trim()) {

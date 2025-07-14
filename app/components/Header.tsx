@@ -7,7 +7,7 @@ export default function Header() {
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3">
+          <a href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
             <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center">
               <Sparkles className="w-6 h-6 text-white" />
             </div>
@@ -19,7 +19,7 @@ export default function Header() {
                 Instagram投稿作成システム
               </p>
             </div>
-          </div>
+          </a>
           
           <div className="hidden md:flex items-center space-x-6 text-sm text-gray-600">
             <div className="flex items-center space-x-2">
@@ -30,6 +30,20 @@ export default function Header() {
               <Users className="w-4 h-4 text-find-green" />
               <span>学生成長支援</span>
             </div>
+            <a 
+              href="/researcher" 
+              className="flex items-center space-x-2 hover:text-find-blue transition-colors"
+            >
+              <span>🔍</span>
+              <span>テーマリサーチャー</span>
+            </a>
+            <a 
+              href="/research-formatter" 
+              className="flex items-center space-x-2 hover:text-find-blue transition-colors"
+            >
+              <span>🔄</span>
+              <span>フォーマッター</span>
+            </a>
           </div>
         </div>
         
