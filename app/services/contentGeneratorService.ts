@@ -606,15 +606,16 @@ ${additionalInstructions || '品質を向上させて再生成してください
         break
 
       case 'ranking':
-        // rankingDataのフィールド名変換（industry→name, percentage→value, detail→description）
+        // rankingDataのフィールド名変換（後方互換性を保ちながら新構造に対応）
         const rankingSource = content.rankingData || content.rankingItems
         if (rankingSource && Array.isArray(rankingSource)) {
           console.log(`🔄 rankingData フィールド名変換実行 (ソース: ${content.rankingData ? 'rankingData' : 'rankingItems'})`)
           baseData.rankingData = rankingSource.map((item: any) => ({
             rank: item.rank || 0,
-            name: item.industry || item.name || '',
-            value: item.percentage || item.value || '',
-            description: item.detail || item.description || ''
+            // 新構造（industry, averageSalary, comment）と旧構造（name, percentage, detail）の両方に対応
+            name: item.industry || item.job || item.occupation || item.name || '',
+            value: item.averageSalary || item.percentage || item.value || '',
+            description: item.comment || item.detail || item.description || ''
           }))
         }
         // 出典情報の追加
@@ -624,9 +625,48 @@ ${additionalInstructions || '品質を向上させて再生成してください
         break
 
       case 'graph':
-        // 新しい形式（labels/data または categories/series）の処理
-        if (content.labels && content.data) {
-          // 円グラフ形式
+        // 新しい形式（data配列）の処理を最優先で追加
+        if (content.data && Array.isArray(content.data)) {
+          // 2024年新形式: data配列での構造化データ
+          console.log('🎨 新形式データ検出 - data配列形式')
+          
+          // データ形式を判定（%があれば円グラフ、万円があれば棒グラフ）
+          const firstItem = content.data[0]
+          const hasPercentage = firstItem && Object.values(firstItem).some(val => 
+            typeof val === 'string' && val.includes('%')
+          )
+          
+          if (hasPercentage) {
+            // 円グラフ形式 - 年収レンジ別分布など
+            console.log('📊 円グラフデータ処理 - 年収レンジ別分布')
+            baseData.graphData = {
+              type: 'pie',
+              data: content.data.flatMap((item: any) => {
+                const entries = Object.entries(item)
+                return entries.filter(([key, value]) => key !== 'range' && key !== 'age').map(([key, value]) => ({
+                  name: `${item.range || item.age || key}`,
+                  value: parseFloat(String(value).replace('%', '')) || 0,
+                  category: key
+                }))
+              })
+            }
+          } else {
+            // 棒グラフ形式 - 年代別年収など
+            console.log('📊 棒グラフデータ処理 - 年代別年収')
+            baseData.graphData = {
+              type: 'bar',
+              categories: content.data.map((item: any) => item.range || item.age || '不明'),
+              series: Object.keys(content.data[0]).filter(key => key !== 'range' && key !== 'age').map(key => ({
+                name: key,
+                data: content.data.map((item: any) => {
+                  const value = item[key]
+                  return parseFloat(String(value).replace(/[^\d.]/g, '')) || 0
+                })
+              }))
+            }
+          }
+        } else if (content.labels && content.data) {
+          // 円グラフ形式（旧形式）
           console.log('🎨 円グラフデータ検出 - labels/data形式')
           baseData.graphData = {
             type: 'pie',
@@ -636,7 +676,7 @@ ${additionalInstructions || '品質を向上させて再生成してください
             }))
           }
         } else if (content.categories && content.series) {
-          // 棒グラフ形式
+          // 棒グラフ形式（旧形式）
           console.log('📊 棒グラフデータ検出 - categories/series形式')
           baseData.graphData = {
             type: 'bar',
@@ -719,7 +759,7 @@ ${additionalInstructions || '品質を向上させて再生成してください
       case 'ranking':
         return (data.rankingData?.length || 0) > 0
       case 'graph':
-        return data.graphData && data.graphData.data && (data.graphData.data.length || 0) > 0
+        return Boolean(data.graphData && data.graphData.data && (data.graphData.data.length || 0) > 0)
       default:
         return true
     }

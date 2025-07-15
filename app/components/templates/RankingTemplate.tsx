@@ -37,30 +37,37 @@ const RankingTemplate: React.FC<RankingTemplateProps> = ({ data }) => {
   }
 
   return (
-    <div className="bg-white p-8 rounded-xl shadow-lg min-h-[500px] flex flex-col">
-      {/* ヘッダー */}
-      <div className="flex items-center justify-between mb-6">
-        <div className="flex items-center space-x-3">
-          <PageIcon className="w-8 h-8 text-blue-600" />
-          {badge && (
-            <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-              {cleanMarkdown(badge)}
-            </span>
-          )}
+    <div className="w-full h-full bg-white relative overflow-hidden">
+      {/* 背景装飾 */}
+      <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>
+      <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-300 rounded-full translate-y-12 -translate-x-12 opacity-40"></div>
+      
+      <div className="relative z-10 p-8 flex flex-col h-full">
+        {/* ヘッダー部分 */}
+        <div className="text-center mb-6">
+          {(() => {
+            const badgeText = badge || data.badgeText || 'ランキング'
+            
+            return (
+              <>
+                <div style={{display: 'flex', justifyContent: 'center', marginBottom: '12px'}}>
+                  <svg width="400" height="50">
+                    <rect x="0" y="0" width="400" height="50" fill="#60a5fa" rx="4" />
+                    <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{badgeText}</text>
+                  </svg>
+                </div>
+                <h1 className="text-3xl font-bold text-gray-800 leading-tight">
+                  {cleanMarkdown(cleanTitle)}
+                </h1>
+                {data.description && (
+                  <p className="text-gray-600 mt-2 text-sm">
+                    {cleanMarkdown(data.description)}
+                  </p>
+                )}
+              </>
+            )
+          })()}
         </div>
-      </div>
-
-      {/* タイトル */}
-      <div className="text-center mb-8">
-        <h1 className="text-2xl font-bold text-gray-900 leading-tight">
-          {cleanMarkdown(cleanTitle)}
-        </h1>
-        {data.description && (
-          <p className="text-gray-600 mt-2 text-sm">
-            {cleanMarkdown(data.description)}
-          </p>
-        )}
-      </div>
 
       {/* ランキングデータ */}
       <div className="flex-1 space-y-4">
@@ -106,6 +113,7 @@ const RankingTemplate: React.FC<RankingTemplateProps> = ({ data }) => {
           </p>
         </div>
       )}
+      </div>
     </div>
   )
 }

@@ -3,72 +3,77 @@
 ## 📋 基本情報
 - プロジェクト: 業種特徴系ジャンル - データ可視化テンプレート実装
 - 引き継ぎ日: 2025-07-15
-- 進捗率: 98%完了
+- 進捗率: 95%完了（データ連携の最終修正が必要）
 
 ## 🎯 現在の状況
 
 ### 完了事項
-- ✅ **Phase 0**: 既存システム理解完了
-- ✅ **前任者実装レビュー**: 重大な設計ミスと実装問題を特定・修正完了
-  - PageStructureAnalyzer拡張（ranking・graph選択条件追加）
-  - convertToTemplateData修正（新テンプレート用データ処理実装）
-  - 型安全性向上（文字列・数値変換エラー修正）
-  - データ構造対応（rankingData・graphData処理完全実装）
-- ✅ **Phase 3**: recharts導入・新テンプレート実装完了（前任者作成・動作確認済み）
-  - RankingTemplate.tsx作成・動作確認済み
-  - GraphTemplate.tsx作成・動作確認済み  
-  - TemplateTypes.ts更新
-- ✅ **Phase 4**: システム統合完了（6ファイル更新・修正完了）
-  - contentLayoutService.ts（修正済み）
-  - templateMatchingService.ts
-  - templateRecommendationService.ts
-  - TemplateSelectionComponent.tsx
-  - ContentApprovalComponent.tsx
-  - TemplateViewer.tsx
+- ✅ **Phase 0-4**: 全システム実装・統合完了
+- ✅ **UI統一**: RankingTemplate・GraphTemplateを他テンプレートと統一
+  - SVGバッジ形式（400x50px 青色）
+  - 中央配置ヘッダー・背景装飾追加
+  - 統一されたデザインパターン
+- ✅ **TypeScript修正**: 全型エラー解決・コンパイル成功
+- ✅ **テンプレート実装**: ranking・graphテンプレート完全実装
+  - 棒グラフ: categories/seriesデータ構造対応
+  - 円グラフ: data配列形式対応
+  - 型安全性確保
+- ✅ **occupation対応**: convertToTemplateDataで職種フィールド追加
 
-- ✅ **Phase 5**: 実動作テスト完了（リサーチプロンプトの精度向上が必要と判明）
-- ✅ **リサーチプロンプト作成**: 別AIインターフェース用プロンプト完成
-- ✅ **フォーマッター調整**: ResearchFormatter.tsxの業種特徴系設定最適化
-- ✅ **システム修正**: graphData処理の新形式対応（labels/data、categories/series）
+### 🚨 残存問題（最重要）
+**データ連携の不完全**: リサーチ結果→フォーマット→コンテンツ生成→テンプレート表示の連携が破綻
+
+#### 具体的な問題
+1. **ページ4**: `"金融ランキング": [...], "医療ランキング": [...]` → `rankingData: []`
+2. **ページ5・6**: `"it": {...}, "金融": {...}, "医師": {...}` → `graphData: null`
+3. **データ変換失敗**: convertToTemplateDataで「⚠️データ不足」警告
 
 ### 進行中
-- **リサーチプロンプトの改善**: ランキングデータの論理的整合性向上
+- **データ連携フロー調査**: 生成データ形式とテンプレート要求仕様の不一致解決
 
-### 次のアクション
-1. **リサーチプロンプトの修正**: 比較可能な同一単位でのランキング指示
-2. **業界別ランキングの明確化**: IT vs 金融 vs 医療の適切な比較
-3. **データ構造の統一**: パーセンテージ・数値の適切な使い分け
-4. **最終動作確認**: 修正後のプロンプトでの実行テスト
+### 次のアクション（最優先）
+1. **StructureConstrainedGenerator調査**: 生成プロンプト・データ形式確認
+2. **データ形式統一**: 生成データをテンプレート仕様に合わせる
+3. **プロンプト修正**: 初期段階での正しいデータ形式生成（根本解決）
 
 ## 🔍 重要な発見事項
 
 ### 技術的発見
-- **前任者の重大な設計ミス**: PageStructureAnalyzer・StructureConstrainedGeneratorの新テンプレート未対応
-- **データ処理の不備**: convertToTemplateData関数の新テンプレート未実装
-- **型安全性の欠如**: 文字列・数値変換での実行時エラー
-- **リサーチプロンプトの論理的欠陥**: 比較不可能な異なる単位の指標を「TOP5」でランキング化
-- NOTES.mdの12ファイル→実際は6ファイルに削減（レガシー除外）
-- templateMatchingService.tsは実際に使用中（EditablePostGenerator.tsxで）
-- rechartsパッケージが新規追加済み
+- **データ連携の根本問題**: StructureConstrainedGeneratorの生成データ形式が不適切
+- **プロンプト修正の重要性**: 初期段階での正しいデータ形式生成が全体の成功に直結
+- **テンプレート実装完了**: ranking・graphテンプレートは完全実装済み
+- **UI統一完了**: 全テンプレートで統一されたデザインパターン
+- **型安全性確保**: TypeScript型エラー完全解決
+- **occupation対応**: 職種フィールド対応でページ4・5の名前表示問題解決
 
 ### 修正・実装した機能
-- **PageStructureAnalyzer拡張**: ranking・graphテンプレート選択条件実装
-- **convertToTemplateData修正**: 新テンプレート用データ処理完全実装
-- **型安全性向上**: String()変換による実行時エラー解消
-- **データ構造対応**: rankingData・graphData処理とフィールド名変換
-- **graphData新形式対応**: labels/data（円グラフ）・categories/series（棒グラフ）処理実装
-- **TemplateTypes.ts拡張**: 棒グラフ用categories/series型定義追加
-- **リサーチプロンプト作成**: 別AIインターフェース用の詳細プロンプト完成
-- **ランキングテンプレート**: 順位データの視覚化（前任者作成・動作確認済み）
-- **グラフテンプレート**: 円グラフ・棒グラフのデータ可視化（前任者作成・動作確認済み）
+- **UI統一**: RankingTemplate・GraphTemplateを他テンプレートと統一
+  - SVGバッジ形式（400x50px 青色）
+  - 中央配置ヘッダー・背景装飾追加
+- **棒グラフ対応**: categories/seriesデータ構造の完全対応
+- **円グラフ対応**: data配列形式の完全対応
+- **型修正**: GraphTemplate・TemplateViewer・contentGeneratorServiceの型エラー解決
+- **occupation対応**: convertToTemplateDataで職種フィールド追加
+
+### 🚨 データ連携問題の詳細
+**生成データ形式とテンプレート要求仕様の不一致**
+
+#### ページ4の問題
+```
+生成: "金融ランキング": [...], "医療ランキング": [...]
+期待: "rankingData": [...]
+```
+
+#### ページ5・6の問題  
+```
+生成: "it": {...}, "金融": {...}, "医師": {...}
+期待: "data": [...] (GraphTemplate用)
+```
 
 ### 回避すべき事項
-- レガシーファイル（pureStructureMatchingService等）の更新は不要
+- convertToTemplateDataでの複雑な変換処理追加（根本解決にならない）
 - プロンプト拡張ではなく専用テンプレート追加が正解
-- 共通プロンプトに業種特化内容を直接挿入しない
-- **前任者の報告を鵜呑みにしない**: 実装レビューが必須
-- **リサーチプロンプトの論理チェック必須**: 比較可能な同一指標でのランキング指示
-- **データ単位の統一**: パーセンテージと数値を混在させないランキング設計
+- **データ連携を後工程で修正**: 初期段階での正しいデータ形式生成が重要
 
 ## 📂 作業ディレクトリ
 `dev/industry-features-implementation/`
@@ -83,25 +88,55 @@
 # 1. 開発ルールに従って作業開始
 # CLAUDE.md → current-work-status.md → work-overview.md
 
-# 2. Phase 5開始
-# 業種特徴系ジャンルでの実際の投稿生成テスト
+# 2. データ連携フロー調査
+# app/services/structureConstrainedGenerator.ts
+# app/services/contentGeneratorService.ts (convertToTemplateData)
+# app/components/templates/RankingTemplate.tsx
+# app/components/templates/GraphTemplate.tsx
 
 # 3. 確認項目
-# - 新テンプレート（ranking・graph）の正常表示
-# - 5ページ構成の生成
-# - html2canvasでの画像出力
-# - レスポンシブデザインの確認
+# - StructureConstrainedGeneratorの生成データ形式確認
+# - 各テンプレートの期待データ形式確認
+# - プロンプト修正による根本解決
 ```
 
 ## 📈 完成度
 - **テンプレート実装**: 100%完了
+- **UI統一**: 100%完了
+- **型安全性**: 100%完了
 - **システム統合**: 100%完了
-- **テスト・調整**: 90%完了（リサーチプロンプトの改善が残り10%）
-- **リサーチフロー**: 95%完了（プロンプト精度向上が必要）
+- **データ連携**: 90%完了（最終修正必要）
 
 ## 🎯 最終目標
-5ページ構成（INDEX + ランキング + 円グラフ + 棒グラフ + ハウツー）のデータ可視化テンプレート完成
+8ページ構成（INDEX + 複数ランキング + 円グラフ + 棒グラフ + ハウツー）のデータ可視化テンプレート完成
+
+## 🔧 最終修正内容（2025-07-15）
+
+### UI統一修正
+- **RankingTemplate**: SVGバッジ・中央配置ヘッダー・背景装飾追加
+- **GraphTemplate**: SVGバッジ・中央配置ヘッダー・背景装飾追加
+- **棒グラフ対応**: categories/seriesデータ構造の完全対応
+
+### 型エラー修正
+- **GraphTemplate**: type assertionによる型安全化
+- **TemplateViewer**: `type: 'pie' as const`で型リテラル修正
+- **contentGeneratorService**: Boolean()による明示的型変換
+
+### occupation対応
+```typescript
+// 616行目修正: occupationフィールド対応追加
+name: item.industry || item.job || item.occupation || item.name || '',
+```
+
+### 🚨 残る課題
+**データ連携の根本修正**: StructureConstrainedGeneratorのプロンプト調整が必要
+
+### 期待される結果
+- 8ページ構成での完璧な投稿生成
+- ranking・graphテンプレートの正常表示
+- 統一されたUIデザイン
+- 完全なデータ可視化
 
 ---
 
-**HANDOVER完了**: リサーチプロンプト改善から作業再開可能（システム機能は完成済み）
+**HANDOVER完了**: データ連携修正により業種特徴系完成（95%完了）

@@ -249,7 +249,7 @@ const sampleData = {
     pageNumber: 2,
     badgeText: 'グラフ',
     graphData: {
-      type: 'pie',
+      type: 'pie' as const,
       data: [
         { name: '教育・学習支援', value: 50.0 },
         { name: '医療・福祉', value: 43.9 },

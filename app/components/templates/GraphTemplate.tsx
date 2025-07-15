@@ -70,19 +70,28 @@ const GraphTemplate: React.FC<GraphTemplateProps> = ({ data }) => {
   }
 
   const renderBarChart = () => {
-    if (!data.graphData?.data) return null
+    const graphData = data.graphData as any
+    if (!graphData?.categories || !graphData?.series) return null
 
-    const chartData = data.graphData.data.map((item, index) => ({
-      ...item,
-      color: item.color || COLORS[index % COLORS.length]
-    }))
+    // categories と series を使用してデータを変換
+    const chartData = graphData.categories.map((category: string, index: number) => {
+      const dataPoint: any = { name: category }
+      graphData.series.forEach((series: any) => {
+        dataPoint[series.name] = series.data[index]
+      })
+      return dataPoint
+    })
 
     const CustomTooltip = ({ active, payload, label }: any) => {
       if (active && payload && payload.length) {
         return (
           <div className="bg-white p-3 rounded-lg shadow-lg border">
             <p className="font-medium">{label}</p>
-            <p className="text-blue-600 font-bold">{payload[0].value}</p>
+            {payload.map((item: any, index: number) => (
+              <p key={index} className="text-blue-600 font-bold">
+                {item.dataKey}: {item.value}万円
+              </p>
+            ))}
           </div>
         )
       }
@@ -104,7 +113,14 @@ const GraphTemplate: React.FC<GraphTemplateProps> = ({ data }) => {
             />
             <YAxis tick={{ fontSize: 12 }} />
             <Tooltip content={<CustomTooltip />} />
-            <Bar dataKey="value" fill="#3B82F6" radius={[4, 4, 0, 0]} />
+            {graphData.series.map((series: any, index: number) => (
+              <Bar 
+                key={series.name}
+                dataKey={series.name} 
+                fill={COLORS[index % COLORS.length]} 
+                radius={[4, 4, 0, 0]} 
+              />
+            ))}
           </BarChart>
         </ResponsiveContainer>
       </div>
@@ -124,31 +140,37 @@ const GraphTemplate: React.FC<GraphTemplateProps> = ({ data }) => {
   }
 
   return (
-    <div className="bg-white p-8 rounded-xl shadow-lg min-h-[500px] flex flex-col">
-      {/* ヘッダー */}
-      <div className="flex items-center justify-between mb-6">
-        <div className="flex items-center space-x-3">
-          <PageIcon className="w-8 h-8 text-blue-600" />
-          {badge && (
-            <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-              {cleanMarkdown(badge)}
-            </span>
-          )}
+    <div className="w-full h-full bg-white relative overflow-hidden">
+      {/* 背景装飾 */}
+      <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -translate-y-16 translate-x-16 opacity-40"></div>
+      <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-300 rounded-full translate-y-12 -translate-x-12 opacity-40"></div>
+      
+      <div className="relative z-10 p-8 flex flex-col h-full">
+        {/* ヘッダー部分 */}
+        <div className="text-center mb-6">
+          {(() => {
+            const badgeText = badge || data.badgeText || 'グラフ'
+            
+            return (
+              <>
+                <div style={{display: 'flex', justifyContent: 'center', marginBottom: '12px'}}>
+                  <svg width="400" height="50">
+                    <rect x="0" y="0" width="400" height="50" fill="#60a5fa" rx="4" />
+                    <text x="200" y="32" fill="white" fontSize="20" fontWeight="bold" textAnchor="middle">{badgeText}</text>
+                  </svg>
+                </div>
+                <h1 className="text-3xl font-bold text-gray-800 leading-tight">
+                  {cleanMarkdown(cleanTitle)}
+                </h1>
+                {data.description && (
+                  <p className="text-gray-600 mt-2 text-sm">
+                    {cleanMarkdown(data.description)}
+                  </p>
+                )}
+              </>
+            )
+          })()}
         </div>
-        {getChartIcon()}
-      </div>
-
-      {/* タイトル */}
-      <div className="text-center mb-6">
-        <h1 className="text-2xl font-bold text-gray-900 leading-tight">
-          {cleanMarkdown(cleanTitle)}
-        </h1>
-        {data.description && (
-          <p className="text-gray-600 mt-2 text-sm">
-            {cleanMarkdown(data.description)}
-          </p>
-        )}
-      </div>
 
       {/* グラフ表示 */}
       <div className="flex-1 flex items-center justify-center">
@@ -191,6 +213,7 @@ const GraphTemplate: React.FC<GraphTemplateProps> = ({ data }) => {
           </p>
         </div>
       )}
+      </div>
     </div>
   )
 }
