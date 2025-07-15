@@ -624,38 +624,55 @@ ${additionalInstructions || '品質を向上させて再生成してください
         break
 
       case 'graph':
-        // graphDataが空の場合、他の形式から変換を試行
-        if (!baseData.graphData || !baseData.graphData.data || baseData.graphData.data.length === 0) {
-          if (content.graphData && Array.isArray(content.graphData)) {
-            console.log('⚠️ graphData空配列検出 - contentのgraphDataから変換')
-            
-            // データ形式を判定（%があれば円グラフ、時間などがあれば棒グラフ）
-            const hasPercentage = content.graphData.some((item: any) => 
-              (item.percentage && item.percentage.includes('%')) || 
-              (item.value && typeof item.value === 'string' && item.value.includes('%'))
-            )
-            
-            baseData.graphData = {
-              type: hasPercentage ? 'pie' : 'bar',
-              data: content.graphData.map((item: any, index: number) => {
-                const getValue = () => {
-                  if (hasPercentage) {
-                    const rawValue = item.percentage || item.value || '0'
-                    const stringValue = String(rawValue)
-                    return parseFloat(stringValue.replace('%', ''))
-                  } else {
-                    const rawValue = item.hours || item.value || '0'
-                    const stringValue = String(rawValue)
-                    return parseFloat(stringValue.replace(/[^\d.]/g, ''))
-                  }
+        // 新しい形式（labels/data または categories/series）の処理
+        if (content.labels && content.data) {
+          // 円グラフ形式
+          console.log('🎨 円グラフデータ検出 - labels/data形式')
+          baseData.graphData = {
+            type: 'pie',
+            data: content.labels.map((label: string, index: number) => ({
+              name: label,
+              value: content.data[index] || 0
+            }))
+          }
+        } else if (content.categories && content.series) {
+          // 棒グラフ形式
+          console.log('📊 棒グラフデータ検出 - categories/series形式')
+          baseData.graphData = {
+            type: 'bar',
+            categories: content.categories,
+            series: content.series
+          }
+        } else if (content.graphData && Array.isArray(content.graphData)) {
+          // 旧形式のフォールバック
+          console.log('⚠️ 旧形式graphData検出 - フォールバック処理')
+          
+          // データ形式を判定（%があれば円グラフ、時間などがあれば棒グラフ）
+          const hasPercentage = content.graphData.some((item: any) => 
+            (item.percentage && item.percentage.includes('%')) || 
+            (item.value && typeof item.value === 'string' && item.value.includes('%'))
+          )
+          
+          baseData.graphData = {
+            type: hasPercentage ? 'pie' : 'bar',
+            data: content.graphData.map((item: any, index: number) => {
+              const getValue = () => {
+                if (hasPercentage) {
+                  const rawValue = item.percentage || item.value || '0'
+                  const stringValue = String(rawValue)
+                  return parseFloat(stringValue.replace('%', ''))
+                } else {
+                  const rawValue = item.hours || item.value || '0'
+                  const stringValue = String(rawValue)
+                  return parseFloat(stringValue.replace(/[^\d.]/g, ''))
                 }
-                
-                return {
-                  name: item.industry || item.name || `項目${index + 1}`,
-                  value: getValue()
-                }
-              })
-            }
+              }
+              
+              return {
+                name: item.industry || item.name || `項目${index + 1}`,
+                value: getValue()
+              }
+            })
           }
         }
         // 出典情報の追加

@@ -122,10 +122,17 @@ export interface TemplateData {
   }>
   graphData?: {
     type: 'pie' | 'bar'
-    data: Array<{
+    data?: Array<{
       name: string
       value: number
       color?: string
+    }>
+    // 棒グラフ用の新しい形式
+    categories?: string[]
+    series?: Array<{
+      name: string
+      data: number[]
+      unit?: string
     }>
     source?: {
       organization: string
