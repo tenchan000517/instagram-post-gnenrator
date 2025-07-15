@@ -91,14 +91,14 @@ export class ContentGeneratorService {
           title: generatedPage.title
         }, generatedPage.templateType),
         content: {
-          title: generatedPage.title || generatedPage.content.title,
-          subtitle: generatedPage.content.subtitle,
-          description: generatedPage.content.description,
-          items: generatedPage.content.items,
-          sections: generatedPage.content.sections,
-          tableData: generatedPage.content.tableData,
-          badgeText: generatedPage.content.badgeText,
-          checklistItems: generatedPage.content.checklistItems
+          title: generatedPage.title || generatedPage.content?.title || '',
+          subtitle: generatedPage.content?.subtitle,
+          description: generatedPage.content?.description,
+          items: generatedPage.content?.items,
+          sections: generatedPage.content?.sections,
+          tableData: generatedPage.content?.tableData,
+          badgeText: generatedPage.content?.badgeText,
+          checklistItems: generatedPage.content?.checklistItems
         }
       }))
       

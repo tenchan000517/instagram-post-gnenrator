@@ -201,7 +201,7 @@ ${this.getTemplateSpecificInstructions(pageStructure.template)}
       } catch (e) {
         // パースエラーの場合、問題のある引用符をエスケープ
         // 値の中の引用符をエスケープ（キーと値の区切りは除外）
-        jsonText = jsonText.replace(/:(\s*)"([^"]*)"([^"]*)"([^"]*)"(\s*[,}])/g, (match: string, p1: string, p2: string, p3: string, p4: string, p5: string) => {
+        jsonText = jsonText.replace(/:(\s*)"([^"]*)"([^"]*)"([^"]*)"(\s*[,}])/g, (_match: string, p1: string, p2: string, p3: string, p4: string, p5: string) => {
           // : "値は"これ"です", → : "値は\"これ\"です",
           return `:${p1}"${p2}\\"${p3}\\"${p4}"${p5}`;
         });
@@ -375,6 +375,40 @@ ${this.getTemplateSpecificInstructions(pageStructure.template)}
 
 正しい例：
 "description": "詳細な説明文が100文字以上300文字以内で記載されます..."`
+
+      case 'ranking':
+        return `
+🎯 ranking専用指示：
+✅ 必須："rankingData"配列（3-5個のオブジェクト）
+✅ 各rankingDataオブジェクト：{"rank": 数値, "name": "項目名", "value": "数値・単位", "description": "詳細（オプション）"}
+✅ 必須："content"フィールドに出典情報（【出典】: 組織名 調査年年調査）
+❌ 禁止：items、sections、rankingDataなしの構造
+
+正しい例：
+"rankingData": [
+  {"rank": 1, "name": "外資系IT企業", "value": "850万円", "description": "グローバル展開企業の高水準"},
+  {"rank": 2, "name": "メガベンチャー", "value": "720万円", "description": "急成長企業の競争力"}
+]`
+
+      case 'graph':
+        return `
+🎯 graph専用指示：
+✅ 必須："graphData"オブジェクト（type、data必須）
+✅ graphData.type："pie" または "bar"
+✅ graphData.data：[{"name": "項目名", "value": 数値, "color": "#カラーコード（オプション）"}]
+✅ 棒グラフの場合：categories、series配列も必要
+✅ 必須："content"フィールドに出典情報（【出典】: 組織名 調査年年調査）
+❌ 禁止：items、sections、graphDataなしの構造
+
+正しい例：
+"graphData": {
+  "type": "pie",
+  "data": [
+    {"name": "700万円以上", "value": 35, "color": "#3B82F6"},
+    {"name": "500-700万円", "value": 40, "color": "#10B981"}
+  ],
+  "source": {"organization": "厚生労働省", "year": "2024"}
+}`
 
       default:
         return `テンプレート「${templateType}」の専用指示が定義されていません。基本構造に従ってください。`

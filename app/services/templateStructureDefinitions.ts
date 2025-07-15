@@ -427,7 +427,171 @@ export class TemplateStructureDefinitions {
         'descriptionが短すぎる（100文字未満）',
         'items配列を含めてしまう',
         '説明文が長すぎる（300文字超過）',
-        'contentとdescriptionの混同'
+        'contentとdescriptionの混動'
+      ]
+    },
+
+    'ranking': {
+      templateType: 'ranking',
+      description: 'ランキング表示 - 順位付きデータの視覚的表示（業種特徴系データ可視化対応）',
+      requiredFields: ['title', 'rankingData'],
+      optionalFields: ['description', 'subtitle', 'badgeText', 'content'],
+      dataStructure: `
+{
+  "title": "メインタイトル",
+  "rankingData": [
+    {
+      "rank": 1,
+      "name": "項目名",
+      "value": "数値・パーセンテージ",
+      "description": "詳細説明（オプション）"
+    }
+  ],
+  "description": "ランキングの説明",
+  "content": "出典情報（【出典】: 組織名 調査年年調査）"
+}`,
+      jsonExample: `{
+  "title": "IT業界平均年収ランキング",
+  "rankingData": [
+    {
+      "rank": 1,
+      "name": "外資系IT企業",
+      "value": "850万円",
+      "description": "グローバル展開企業の高水準"
+    },
+    {
+      "rank": 2,
+      "name": "メガベンチャー",
+      "value": "720万円",
+      "description": "急成長企業の競争力"
+    },
+    {
+      "rank": 3,
+      "name": "大手SIer",
+      "value": "650万円",
+      "description": "安定した企業基盤"
+    },
+    {
+      "rank": 4,
+      "name": "Web系企業",
+      "value": "580万円",
+      "description": "技術力重視の評価"
+    },
+    {
+      "rank": 5,
+      "name": "受託開発企業",
+      "value": "520万円",
+      "description": "案件ベースの収益構造"
+    }
+  ],
+  "description": "IT業界の職種別平均年収データ",
+  "content": "【出典】: 厚生労働省 2024年賃金構造基本統計調査（2024年3月発表）"
+}`,
+      validationRules: [
+        'rankingData配列は必須（最低3個、最大5個）',
+        '各rankingDataオブジェクトにrank（数値）、name、valueが必要',
+        'rank番号は1から順番に連続する必要がある',
+        'nameは25文字以内、valueは15文字以内',
+        'descriptionは50文字以内（オプション）',
+        'content フィールドに出典情報を含める（【出典】: 形式）'
+      ],
+      commonMistakes: [
+        'rankingDataではなくitemsを使う',
+        'rank番号が連続していない',
+        'nameとvalueが逆になっている',
+        'rankingDataが配列ではなくオブジェクトになっている',
+        '出典情報がない',
+        'valueに単位が含まれていない'
+      ]
+    },
+
+    'graph': {
+      templateType: 'graph',
+      description: 'グラフ表示 - 円グラフ・棒グラフでのデータ可視化（業種特徴系データ可視化対応）',
+      requiredFields: ['title', 'graphData'],
+      optionalFields: ['description', 'subtitle', 'badgeText', 'content'],
+      dataStructure: `
+{
+  "title": "メインタイトル",
+  "graphData": {
+    "type": "pie" または "bar",
+    "data": [
+      {
+        "name": "項目名",
+        "value": 数値,
+        "color": "#カラーコード（オプション）"
+      }
+    ],
+    // 棒グラフの場合
+    "categories": ["カテゴリ1", "カテゴリ2"],
+    "series": [
+      {
+        "name": "シリーズ名",
+        "data": [数値1, 数値2],
+        "unit": "単位（オプション）"
+      }
+    ],
+    "source": {
+      "organization": "組織名",
+      "year": "調査年",
+      "date": "発表日付（オプション）"
+    }
+  },
+  "description": "グラフの説明",
+  "content": "出典情報（【出典】: 組織名 調査年年調査）"
+}`,
+      jsonExample: `{
+  "title": "IT業界年収分布",
+  "graphData": {
+    "type": "pie",
+    "data": [
+      {
+        "name": "700万円以上",
+        "value": 35,
+        "color": "#3B82F6"
+      },
+      {
+        "name": "500-700万円",
+        "value": 40,
+        "color": "#10B981"
+      },
+      {
+        "name": "400-500万円",
+        "value": 18,
+        "color": "#F59E0B"
+      },
+      {
+        "name": "400万円未満",
+        "value": 7,
+        "color": "#EF4444"
+      }
+    ],
+    "source": {
+      "organization": "厚生労働省",
+      "year": "2024",
+      "date": "2024年3月発表"
+    }
+  },
+  "description": "IT業界従事者の年収分布データ",
+  "content": "【出典】: 厚生労働省 2024年賃金構造基本統計調査（2024年3月発表）"
+}`,
+      validationRules: [
+        'graphData.typeは必須（"pie" または "bar"）',
+        'graphData.dataは必須（最低3個、最大6個）',
+        '各dataオブジェクトにname、valueが必要',
+        'valueは数値（パーセンテージの場合は0-100の範囲）',
+        '棒グラフの場合はcategories、seriesも必要',
+        'source情報を含める（organization、year必須）',
+        'content フィールドに出典情報を含める（【出典】: 形式）'
+      ],
+      commonMistakes: [
+        'graphDataではなくdataを直接使う',
+        'typeが"pie"または"bar"以外',
+        'dataが配列ではなくオブジェクトになっている',
+        'valueが文字列（数値である必要がある）',
+        '円グラフのvalue合計が100でない',
+        '出典情報がない',
+        'categoriesとseriesの要素数が一致しない（棒グラフ）'
       ]
     }
   }
