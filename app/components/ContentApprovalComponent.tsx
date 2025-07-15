@@ -166,7 +166,9 @@ export default function ContentApprovalComponent({
       'checklist-enhanced': 'チェックリスト詳細型',
       'item-n-title-content': '独立ボックス型',
       'single-section-no-items': '単一セクション・アイテム無し型',
-      'index': 'INDEX（目次）型'
+      'index': 'INDEX（目次）型',
+      'ranking': 'ランキング型',
+      'graph': 'グラフ型'
     }
     return typeMap[templateType] || templateType
   }

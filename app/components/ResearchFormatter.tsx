@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { getGeminiModel } from '../services/geminiClientSingleton'
 
 interface FormattedResult {
@@ -22,32 +22,6 @@ export default function ResearchFormatter() {
   const [selectedGenre, setSelectedGenre] = useState('knowhow')
   const [formattedResult, setFormattedResult] = useState<FormattedResult | null>(null)
   const [isLoading, setIsLoading] = useState(false)
-
-  // URLパラメータまたはLocalStorageから入力データを取得
-  useEffect(() => {
-    // URLパラメータをチェック
-    const urlParams = new URLSearchParams(window.location.search)
-    const inputData = urlParams.get('input')
-    if (inputData) {
-      setResearchInput(decodeURIComponent(inputData))
-      return
-    }
-
-    // LocalStorageをチェック
-    const researchData = localStorage.getItem('research_data')
-    const timestamp = localStorage.getItem('research_data_timestamp')
-    
-    if (researchData && timestamp) {
-      // データが5分以内の場合のみ使用
-      const dataAge = Date.now() - parseInt(timestamp)
-      if (dataAge < 5 * 60 * 1000) { // 5分
-        setResearchInput(researchData)
-        // 使用後にLocalStorageをクリア
-        localStorage.removeItem('research_data')
-        localStorage.removeItem('research_data_timestamp')
-      }
-    }
-  }, [])
 
   const genreConfigs: GenreConfig[] = [
     {
@@ -163,27 +137,81 @@ export default function ResearchFormatter() {
     {
       id: 'industry-features',
       name: '業種特徴系',
-      description: '業界・業種の特徴と比較',
-      template: '対比構造',
+      description: '業界・業種のデータ可視化と分析',
+      template: '5ページ構成（INDEX + ランキング + グラフ2種 + ハウツー）',
       outputFormat: `【ジャンル】: industry-features
 
-[インデックスタイトル]：[業界比較の有益性を表現する後半タイトル]
+【5ページ構成のデータ可視化投稿】
 
-## 左カラム: [業界A]の特徴
-- [特徴1]: [リサーチから得られた生の具体的な情報]
-- [特徴2]: [リサーチから得られた生の具体的な情報]
-- [特徴3]: [リサーチから得られた生の具体的な情報]
+## ページ0: INDEX（目次）
+[メインタイトル]: [統計データの驚きを表現するタイトル]
 
-## 右カラム: [業界B]の特徴
-- [特徴1]: [リサーチから得られた生の具体的な情報]
-- [特徴2]: [リサーチから得られた生の具体的な情報]
-- [特徴3]: [リサーチから得られた生の具体的な情報]`,
+### セクション: 今回の投稿内容
+- [データ分析項目1] - [具体的な統計名]
+- [データ分析項目2] - [具体的な統計名]  
+- [データ分析項目3] - [具体的な統計名]
+- [ハウツー項目] - [実践的なアドバイス項目名]
+
+## ページ1: ランキングデータ
+[タイトル]: [ランキングの内容を説明するタイトル]
+
+### ランキングデータ（上位5位）
+1位: [項目名] - [数値]% ([分かりやすい表現])
+2位: [項目名] - [数値]%
+3位: [項目名] - [数値]%
+4位: [項目名] - [数値]%
+5位: [項目名] - [数値]%
+
+【出典】: [組織名][調査年][発表日付]
+
+## ページ2: 円グラフデータ
+[タイトル]: [円グラフで表現するデータ項目]
+
+### グラフデータ
+- [項目1]: [数値]%
+- [項目2]: [数値]%
+- [項目3]: [数値]%
+- [項目4]: [数値]%
+- [項目5]: [数値]%
+- その他: [数値]%
+
+【出典】: [組織名][調査年][発表日付]
+
+## ページ3: 棒グラフデータ  
+[タイトル]: [棒グラフで表現するデータ項目]
+
+### グラフデータ
+- [項目1]: [数値][単位]
+- [項目2]: [数値][単位]
+- [項目3]: [数値][単位]
+- [項目4]: [数値][単位]
+
+【出典】: [組織名][調査年][発表日付]
+
+## ページ4: 実践的ハウツー
+[タイトル]: [就活生向けの実践的アドバイス]
+
+### チェックリスト形式
+□ [アクション項目1]
+  [具体的な実践方法・注意点]
+
+□ [アクション項目2]  
+  [具体的な実践方法・注意点]
+
+□ [アクション項目3]
+  [具体的な実践方法・注意点]
+
+□ [アクション項目4]
+  [具体的な実践方法・注意点]`,
       specificRules: [
-        '2つの業界・業種を左右で比較',
-        '各業界の特徴を3-4個ずつ整理',
-        '統計情報や具体的な数値を含める',
-        '専門家の業界分析を根拠として使用',
-        '対比構造を明確に表現'
+        '必ず5ページ構成で作成（INDEX + ランキング + 円グラフ + 棒グラフ + ハウツー）',
+        'すべてのデータに出典を明記（組織名・調査年・発表日付）',
+        'ランキングは必ず上位5位まで記載',
+        'グラフデータは具体的な数値とパーセンテージを含める',
+        '就活生視点での表現（驚き・行動変容を促す）',
+        'ハウツーページは実践的なチェックリスト形式',
+        '統計データは信頼できる組織の調査結果のみ使用',
+        '差別的な表現を避け、建設的な内容に焦点'
       ]
     },
     {
@@ -350,10 +378,9 @@ ${config.outputFormat}
 
   const handleUseInSystem = () => {
     if (formattedResult?.formatted) {
-      // LocalStorageに保存してメイン生成システムに遷移
-      localStorage.setItem('formatted_content', formattedResult.formatted)
-      localStorage.setItem('formatted_content_timestamp', Date.now().toString())
-      window.open('/', '_blank')
+      // メイン生成システムに遷移
+      const targetUrl = '/?input=' + encodeURIComponent(formattedResult.formatted)
+      window.open(targetUrl, '_blank')
     }
   }
 

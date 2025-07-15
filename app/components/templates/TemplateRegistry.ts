@@ -1,7 +1,7 @@
 // テンプレート登録・選択システム
 import { TemplateMetadata, TemplateType } from './TemplateTypes'
 
-// アクティブテンプレートのメタデータをインポート（Critical Priority + INDEX追加）
+// アクティブテンプレートのメタデータをインポート（Critical Priority + INDEX + データ可視化追加）
 import { indexMetadata } from './IndexTemplate'
 import { enumerationMetadata } from './EnumerationTemplate'
 import { listMetadata } from './ListTemplate'
@@ -16,8 +16,10 @@ import { titleDescriptionOnlyMetadata } from './TitleDescriptionOnlyTemplate'
 import { checklistEnhancedMetadata } from './ChecklistEnhancedTemplate'
 import { itemNTitleContentMetadata } from './ItemNTitleContentTemplate'
 import { singleSectionNoItemsMetadata } from './SingleSectionNoItemsTemplate'
+import { rankingMetadata } from './RankingTemplate'
+import { graphMetadata } from './GraphTemplate'
 
-// アクティブテンプレートレジストリ（Critical Priority + INDEX追加）
+// アクティブテンプレートレジストリ（Critical Priority + INDEX + データ可視化追加）
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   index: indexMetadata,
   enumeration: enumerationMetadata,
@@ -32,7 +34,9 @@ export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   'title-description-only': titleDescriptionOnlyMetadata,
   'checklist-enhanced': checklistEnhancedMetadata,
   'item-n-title-content': itemNTitleContentMetadata,
-  'single-section-no-items': singleSectionNoItemsMetadata
+  'single-section-no-items': singleSectionNoItemsMetadata,
+  ranking: rankingMetadata,
+  graph: graphMetadata
 }
 
 // アクティブテンプレートのジャンル対応（Critical Priority追加）

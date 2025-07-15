@@ -541,7 +541,11 @@ ${additionalInstructions || '品質を向上させて再生成してください
       tableData: content.tableData || { headers: [], rows: [] },
       points: content.points || [],
       checklist: content.checklist || [],
-      twoColumn: content.twoColumn || { left: [], right: [] }
+      twoColumn: content.twoColumn || { left: [], right: [] },
+      
+      // 新テンプレート用データ
+      rankingData: content.rankingData || [],
+      graphData: content.graphData || null
     }
 
     // 🎯 Step 2: 空配列や不足がある場合のみ代替処理
@@ -600,6 +604,72 @@ ${additionalInstructions || '品質を向上させて再生成してください
           baseData.items = content.listItems
         }
         break
+
+      case 'ranking':
+        // rankingDataのフィールド名変換（industry→name, percentage→value, detail→description）
+        const rankingSource = content.rankingData || content.rankingItems
+        if (rankingSource && Array.isArray(rankingSource)) {
+          console.log(`🔄 rankingData フィールド名変換実行 (ソース: ${content.rankingData ? 'rankingData' : 'rankingItems'})`)
+          baseData.rankingData = rankingSource.map((item: any) => ({
+            rank: item.rank || 0,
+            name: item.industry || item.name || '',
+            value: item.percentage || item.value || '',
+            description: item.detail || item.description || ''
+          }))
+        }
+        // 出典情報の追加
+        if (content.source) {
+          baseData.content = content.source
+        }
+        break
+
+      case 'graph':
+        // graphDataが空の場合、他の形式から変換を試行
+        if (!baseData.graphData || !baseData.graphData.data || baseData.graphData.data.length === 0) {
+          if (content.graphData && Array.isArray(content.graphData)) {
+            console.log('⚠️ graphData空配列検出 - contentのgraphDataから変換')
+            
+            // データ形式を判定（%があれば円グラフ、時間などがあれば棒グラフ）
+            const hasPercentage = content.graphData.some((item: any) => 
+              (item.percentage && item.percentage.includes('%')) || 
+              (item.value && typeof item.value === 'string' && item.value.includes('%'))
+            )
+            
+            baseData.graphData = {
+              type: hasPercentage ? 'pie' : 'bar',
+              data: content.graphData.map((item: any, index: number) => {
+                const getValue = () => {
+                  if (hasPercentage) {
+                    const rawValue = item.percentage || item.value || '0'
+                    const stringValue = String(rawValue)
+                    return parseFloat(stringValue.replace('%', ''))
+                  } else {
+                    const rawValue = item.hours || item.value || '0'
+                    const stringValue = String(rawValue)
+                    return parseFloat(stringValue.replace(/[^\d.]/g, ''))
+                  }
+                }
+                
+                return {
+                  name: item.industry || item.name || `項目${index + 1}`,
+                  value: getValue()
+                }
+              })
+            }
+          }
+        }
+        // 出典情報の追加
+        if (content.source) {
+          baseData.content = content.source
+          if (baseData.graphData) {
+            baseData.graphData.source = {
+              organization: content.source.split('（')[0] || content.source,
+              year: '2024',
+              date: content.source.includes('（') ? content.source.split('（')[1]?.replace('）', '') : undefined
+            }
+          }
+        }
+        break
     }
 
     console.log(`📤 convertToTemplateData完了（完璧優先版） - templateType: ${templateType}`)
@@ -629,6 +699,10 @@ ${additionalInstructions || '品質を向上させて再生成してください
         return (data.checklistItems?.length || 0) > 0
       case 'list':
         return (data.items?.length || 0) > 0
+      case 'ranking':
+        return (data.rankingData?.length || 0) > 0
+      case 'graph':
+        return data.graphData && data.graphData.data && (data.graphData.data.length || 0) > 0
       default:
         return true
     }

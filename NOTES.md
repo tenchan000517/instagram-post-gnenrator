@@ -18,36 +18,32 @@
 - 新テンプレートのメタデータで**必須**プロパティ:
   - `keywords: string[]` ← 必須！忘れやすい
 
-#### 4.3 サービスファイルの更新（計7ファイル）
+#### 4.3 サービスファイルの更新（計3ファイル - 実際使用中のみ）
 
-1. **pureStructureMatchingService.ts**
-   - `structurePatterns`配列に新パターンを追加
-   - パターン内で使用する型を`TemplateType`に合わせる
+**✅ 実際に使用中のファイル**:
 
-2. **structureBasedTemplateSelector.ts**
-   - 構造解析ロジックで新テンプレートタイプを返すケースを追加
-
-3. **templateMatchingService.ts**
+1. **templateMatchingService.ts**
    - `templateCharacteristics`配列に新テンプレートの特徴を追加
    - `volumeRequirements`オブジェクトに新テンプレートの要件を追加（**両方の関数で**）
+   - `getTemplateDisplayName`にRecord<TemplateType, string>対応追加
 
-4. **intelligentContentProcessor.ts**
-   - `selectOptimalTemplateType`関数のswitchケースに追加
-   - `generateTemplateData`関数のswitchケースに追加
-   - `getContentTypeDescription`関数のswitchケースに追加
-   - `getContentTypeKeyword`関数のswitchケースに追加
-
-5. **geminiService.ts**
-   - プロンプト生成時のテンプレート選択肢に追加
-
-6. **contentGeneratorService.ts**
-   - テンプレート判定ロジックに新テンプレートを追加
-
-7. **templateRecommendationService.ts**
+2. **templateRecommendationService.ts**
    - `ALL_TEMPLATES`配列に追加
    - 各種推奨ロジックに新テンプレートを組み込み
    - `getTemplateComplexityScore`関数に追加
    - `getTemplateDescriptiveText`関数に追加
+   - 複数のRecord<TemplateType, ...>オブジェクトに新テンプレート追加
+
+3. **contentLayoutService.ts**
+   - `badgeMap`にRecord<TemplateType, string[]>対応追加
+   - `mapToTemplateData`に新テンプレート変換ロジック追加
+
+**❌ 不使用（レガシー）ファイル - 更新不要**:
+- ~~pureStructureMatchingService.ts~~ - 使用箇所なし
+- ~~structureBasedTemplateSelector.ts~~ - 存在しない
+- ~~intelligentContentProcessor.ts~~ - 使用箇所なし
+- ~~geminiService.ts~~ - 現在のフローで使用されていない
+- ~~contentGeneratorService.ts~~ - pageStructureAnalyzer.tsが主要システム
 
 #### 4.4 よくある間違いと注意点
 

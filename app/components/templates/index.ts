@@ -1,4 +1,4 @@
-// アクティブテンプレートコンポーネントのエクスポート（Critical Priority + INDEX追加）
+// アクティブテンプレートコンポーネントのエクスポート（Critical Priority + INDEX + データ可視化追加）
 export { IndexTemplate } from './IndexTemplate'
 export { EnumerationTemplate } from './EnumerationTemplate'
 export { ListTemplate } from './ListTemplate'
@@ -13,12 +13,14 @@ export { TitleDescriptionOnlyTemplate } from './TitleDescriptionOnlyTemplate'
 export { ChecklistEnhancedTemplate } from './ChecklistEnhancedTemplate'
 export { ItemNTitleContentTemplate } from './ItemNTitleContentTemplate'
 export { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
+export { default as RankingTemplate } from './RankingTemplate'
+export { default as GraphTemplate } from './GraphTemplate'
 
 // 型定義とユーティリティ
 export * from './TemplateTypes'
 export * from './TemplateRegistry'
 
-// アクティブテンプレートコンポーネントマップ（Critical Priority + INDEX追加）
+// アクティブテンプレートコンポーネントマップ（Critical Priority + INDEX + データ可視化追加）
 import { IndexTemplate } from './IndexTemplate'
 import { EnumerationTemplate } from './EnumerationTemplate'
 import { ListTemplate } from './ListTemplate'
@@ -33,6 +35,8 @@ import { TitleDescriptionOnlyTemplate } from './TitleDescriptionOnlyTemplate'
 import { ChecklistEnhancedTemplate } from './ChecklistEnhancedTemplate'
 import { ItemNTitleContentTemplate } from './ItemNTitleContentTemplate'
 import { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
+import RankingTemplate from './RankingTemplate'
+import GraphTemplate from './GraphTemplate'
 
 import { TemplateType } from './TemplateTypes'
 
@@ -50,7 +54,9 @@ export const templateComponents = {
   'title-description-only': TitleDescriptionOnlyTemplate,
   'checklist-enhanced': ChecklistEnhancedTemplate,
   'item-n-title-content': ItemNTitleContentTemplate,
-  'single-section-no-items': SingleSectionNoItemsTemplate
+  'single-section-no-items': SingleSectionNoItemsTemplate,
+  ranking: RankingTemplate,
+  graph: GraphTemplate
 } as const
 
 // テンプレートレンダラー

@@ -60,7 +60,9 @@ export default function TemplateSelectionComponent({
       'title-description-only': 'タイトル+説明特化型',
       'checklist-enhanced': 'チェックリスト詳細型',
       'item-n-title-content': '独立ボックス型',
-      'single-section-no-items': '単一セクション・アイテム無し型'
+      'single-section-no-items': '単一セクション・アイテム無し型',
+      'ranking': 'ランキング型',
+      'graph': 'グラフ型'
     }
     return names[templateType] || templateType
   }
@@ -80,7 +82,9 @@ export default function TemplateSelectionComponent({
       'title-description-only': 'タイトルと説明文のみのシンプル構成。核心的なメッセージを直接的に伝えたい場合に最適。',
       'checklist-enhanced': 'チェックリスト項目に詳細説明付きの構成。タスクや手順を明確に説明したい場合に最適。',
       'item-n-title-content': '独立したボックス型構成。複数の独立したトピックを並列で表示したい場合に最適。',
-      'single-section-no-items': '単一セクション情報を詳細表示。特定のトピックを深く解説したい場合に最適。'
+      'single-section-no-items': '単一セクション情報を詳細表示。特定のトピックを深く解説したい場合に最適。',
+      'ranking': 'ランキング形式でデータを表示。順位やワースト・ベストデータを視覚的に示したい場合に最適。',
+      'graph': 'グラフ形式でデータを可視化表示。統計データや割合を円グラフ・棒グラフで表現したい場合に最適。'
     }
     return descriptions[templateType] || 'テンプレートの説明'
   }

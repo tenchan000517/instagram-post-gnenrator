@@ -115,6 +115,22 @@ export class TemplateMatchingService {
       bestFor: ['データ比較', '表形式情報', '一覧データ'],
       matchingKeywords: ['データ', '表', '比較', '一覧', '情報'],
       priority: 7
+    },
+    {
+      templateType: 'ranking',
+      expressionPattern: 'ランキング・順位形式',
+      contentStructure: ['title', 'rankingData'],
+      bestFor: ['ランキング表示', '順位データ', 'ワースト・ベスト'],
+      matchingKeywords: ['ランキング', '位', 'ワースト', 'ベスト', 'トップ', '順位'],
+      priority: 8
+    },
+    {
+      templateType: 'graph',
+      expressionPattern: 'グラフ・データ可視化形式',
+      contentStructure: ['title', 'graphData'],
+      bestFor: ['データ可視化', '統計グラフ', '円グラフ・棒グラフ'],
+      matchingKeywords: ['グラフ', '円グラフ', '棒グラフ', '統計', 'データ', '割合'],
+      priority: 9
     }
   ]
 
@@ -517,7 +533,9 @@ export class TemplateMatchingService {
       'title-description-only': { min: 1, max: 2 },
       'checklist-enhanced': { min: 3, max: 6 },
       'item-n-title-content': { min: 2, max: 5 },
-      'single-section-no-items': { min: 1, max: 1 }
+      'single-section-no-items': { min: 1, max: 1 },
+      'ranking': { min: 3, max: 5 },
+      'graph': { min: 3, max: 8 }
     }
 
     const requirement = volumeRequirements[templateType]
@@ -554,7 +572,9 @@ export class TemplateMatchingService {
       'title-description-only': { min: 1, max: 2 },
       'checklist-enhanced': { min: 3, max: 6 },
       'item-n-title-content': { min: 2, max: 5 },
-      'single-section-no-items': { min: 1, max: 1 }
+      'single-section-no-items': { min: 1, max: 1 },
+      'ranking': { min: 3, max: 5 },
+      'graph': { min: 3, max: 8 }
     }
 
     const requirement = volumeRequirements[templateType]
@@ -623,7 +643,9 @@ export class TemplateMatchingService {
       'title-description-only': 'タイトル+説明型',
       'checklist-enhanced': 'チェックリスト詳細型',
       'item-n-title-content': '独立ボックス型',
-      'single-section-no-items': '単一セクション・アイテム無し型'
+      'single-section-no-items': '単一セクション・アイテム無し型',
+      'ranking': 'ランキング型',
+      'graph': 'グラフ型'
     }
     return displayNames[templateType] || templateType
   }

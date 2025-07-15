@@ -114,10 +114,30 @@ export interface TemplateData {
     title: string
     description: string
   }>
+  rankingData?: Array<{
+    rank: number
+    name: string
+    value: string
+    description?: string
+  }>
+  graphData?: {
+    type: 'pie' | 'bar'
+    data: Array<{
+      name: string
+      value: number
+      color?: string
+    }>
+    source?: {
+      organization: string
+      year: string
+      date?: string
+      url?: string
+    }
+  }
   [key: string]: any  // For dynamic field access
 }
 
-// アクティブテンプレートタイプ（14個、Critical Priority + High Priority + INDEX追加）
+// アクティブテンプレートタイプ（16個、Critical Priority + High Priority + INDEX + データ可視化追加）
 export type TemplateType = 
   | 'index'            // ⓪INDEX型（目次ページ）
   | 'enumeration'      // ①列挙型
@@ -133,3 +153,5 @@ export type TemplateType =
   | 'checklist-enhanced'       // ⑪チェックリスト詳細付き型（Critical Priority）
   | 'item-n-title-content'     // ⑫独立ボックス構造型（Critical Priority）
   | 'single-section-no-items'  // ⑬単一セクション・アイテム無し型（High Priority）
+  | 'ranking'                  // ⑭ランキング表示型（データ可視化）
+  | 'graph'                    // ⑮グラフ表示型（データ可視化・recharts使用）

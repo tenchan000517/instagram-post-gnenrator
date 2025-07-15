@@ -228,6 +228,42 @@ const sampleData = {
       description: 'セクション内容の補足説明や詳細情報をここに記載できます。'
     }],
     badgeText: 'セクション型'
+  },
+  'ranking': {
+    title: 'サービス残業率ワースト5業界',
+    subtitle: '業界別無給残業の実態',
+    content: '【出典】: 連合総研2024年調査（2024年7月19日発表）',
+    pageNumber: 1,
+    badgeText: 'ランキング',
+    rankingData: [
+      { rank: 1, name: '教育・学習支援業', value: '50.0%', description: '2人に1人が無給残業' },
+      { rank: 2, name: '医療・福祉', value: '43.9%', description: '' },
+      { rank: 3, name: '公務', value: '32.1%', description: '' },
+      { rank: 4, name: '建設業', value: '29.3%', description: '' },
+      { rank: 5, name: '製造業', value: '18.5%', description: '' }
+    ]
+  },
+  'graph': {
+    title: '業種別サービス残業率',
+    subtitle: 'データ可視化による分析',
+    pageNumber: 2,
+    badgeText: 'グラフ',
+    graphData: {
+      type: 'pie',
+      data: [
+        { name: '教育・学習支援', value: 50.0 },
+        { name: '医療・福祉', value: 43.9 },
+        { name: '公務', value: 32.1 },
+        { name: '建設業', value: 29.3 },
+        { name: '製造業', value: 18.5 },
+        { name: 'その他', value: 15.2 }
+      ],
+      source: {
+        organization: '連合総研',
+        year: '2024',
+        date: '2024年7月19日'
+      }
+    }
   }
 }
 
@@ -251,7 +287,9 @@ export default function TemplateViewer() {
     { type: 'title-description-only', name: '⑩タイトル+説明型', description: 'シンプルなメッセージ伝達専用' },
     { type: 'checklist-enhanced', name: '⑪チェックリスト詳細型', description: 'チェックリスト+詳細説明付き' },
     { type: 'item-n-title-content', name: '⑫独立ボックス型', description: '独立したトピックを並列表示' },
-    { type: 'single-section-no-items', name: '⑬単一セクション・アイテム無し型', description: '6箇所以上対応のHigh Priority' }
+    { type: 'single-section-no-items', name: '⑬単一セクション・アイテム無し型', description: '6箇所以上対応のHigh Priority' },
+    { type: 'ranking', name: '⑭ランキング型', description: 'ランキング・順位データの可視化表示' },
+    { type: 'graph', name: '⑮グラフ型', description: 'recharts使用のデータ可視化（円グラフ・棒グラフ）' }
   ]
   
   const currentIndex = templates.findIndex(t => t.type === currentTemplate)

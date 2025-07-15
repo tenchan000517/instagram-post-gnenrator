@@ -172,7 +172,8 @@ export class TemplateRecommendationService {
     const templateTypes: TemplateType[] = [
       'enumeration', 'explanation2', 'table', 'section-items', 'list',
       'simple3', 'simple5', 'simple6', 'two-column-section-items',
-      'title-description-only', 'checklist-enhanced', 'item-n-title-content'
+      'title-description-only', 'checklist-enhanced', 'item-n-title-content',
+      'ranking', 'graph'
     ]
 
     return templateTypes.map(templateType => 
@@ -414,7 +415,9 @@ export class TemplateRecommendationService {
       'title-description-only': [30, 150],
       'checklist-enhanced': [150, 500],
       'item-n-title-content': [200, 600],
-      'single-section-no-items': [150, 400]
+      'single-section-no-items': [150, 400],
+      'ranking': [200, 600],
+      'graph': [150, 500]
     }
     
     const [min, max] = optimalLengths[templateType]
@@ -444,7 +447,9 @@ export class TemplateRecommendationService {
       'title-description-only': (!analysis.hasLists && !analysis.hasSections) ? 15 : 5,
       'checklist-enhanced': analysis.hasLists ? 15 : 5,
       'item-n-title-content': analysis.hasSections ? 15 : 5,
-      'single-section-no-items': analysis.hasSections && !analysis.hasLists ? 15 : 5
+      'single-section-no-items': analysis.hasSections && !analysis.hasLists ? 15 : 5,
+      'ranking': analysis.hasLists && analysis.hasComparisons ? 20 : 5,
+      'graph': analysis.hasComparisons || analysis.contentLength > 300 ? 18 : 8
     }
     
     return complexityScores[templateType] || 5
@@ -522,7 +527,9 @@ export class TemplateRecommendationService {
       'title-description-only': 'タイトル+説明のシンプル構成',
       'checklist-enhanced': 'チェックリスト+詳細説明付き',
       'item-n-title-content': '独立ボックス形式で構成',
-      'single-section-no-items': '単一セクション詳細解説形式'
+      'single-section-no-items': '単一セクション詳細解説形式',
+      'ranking': 'ランキング形式で順位データを表示',
+      'graph': 'グラフによるデータ可視化表示'
     }
 
     return `${templateDescriptions[templateType]}\n→ ${contentSummary}`

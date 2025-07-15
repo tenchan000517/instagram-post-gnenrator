@@ -372,6 +372,22 @@ export class ContentLayoutService {
           subtitle: this.extractSubtitle(structure.sections)
         }
 
+      case 'ranking':
+        return {
+          ...baseData,
+          badgeText: this.extractBadgeText(structure.mainContent, 'ranking'),
+          rankingData: this.extractRankingData(structure.sections, structure.items),
+          content: this.extractSourceInfo(structure.mainContent)
+        }
+
+      case 'graph':
+        return {
+          ...baseData,
+          badgeText: this.extractBadgeText(structure.mainContent, 'graph'),
+          graphData: this.extractGraphData(structure.sections, structure.items, structure.mainContent),
+          content: this.extractSourceInfo(structure.mainContent)
+        }
+
       default:
         return baseData
     }
@@ -423,7 +439,9 @@ export class ContentLayoutService {
       'title-description-only': ['メッセージ', 'エッセンス', '重要'],
       'checklist-enhanced': ['チェックリスト', 'タスク', 'アクション'],
       'item-n-title-content': ['ポイント', 'カテゴリ', '要素'],
-      'single-section-no-items': ['セクション', '詳細', '解説']
+      'single-section-no-items': ['セクション', '詳細', '解説'],
+      ranking: ['ランキング', 'ワースト', 'ベスト', 'トップ'],
+      graph: ['グラフ', 'データ', '統計', '分析']
     }
 
     const candidates = badgeMap[templateType] || ['ポイント']
@@ -643,5 +661,114 @@ export class ContentLayoutService {
     }
 
     return { success, notes }
+  }
+
+  /**
+   * ランキングデータを抽出
+   */
+  private static extractRankingData(
+    sections: Array<{ title: string; content: string; items?: string[] }>, 
+    items: string[]
+  ): Array<{ rank: number; name: string; value: string; description?: string }> {
+    const rankingData: Array<{ rank: number; name: string; value: string; description?: string }> = []
+    
+    // アイテムからランキングデータを抽出
+    items.forEach((item, index) => {
+      // "1位: 教育・学習支援業 - 50.0% (2人に1人)" のような形式を解析
+      const rankMatch = item.match(/^(\d+)位[:：]\s*([^-]+)\s*-\s*([^(]+)(?:\s*\(([^)]+)\))?/)
+      
+      if (rankMatch) {
+        rankingData.push({
+          rank: parseInt(rankMatch[1]),
+          name: rankMatch[2].trim(),
+          value: rankMatch[3].trim(),
+          description: rankMatch[4]?.trim()
+        })
+      } else {
+        // 順位情報がない場合は順番でランキングを作成
+        rankingData.push({
+          rank: index + 1,
+          name: item,
+          value: '',
+          description: ''
+        })
+      }
+    })
+
+    return rankingData.slice(0, 5) // 最大5位まで
+  }
+
+  /**
+   * グラフデータを抽出
+   */
+  private static extractGraphData(
+    sections: Array<{ title: string; content: string; items?: string[] }>, 
+    items: string[],
+    content: string
+  ): { type: 'pie' | 'bar'; data: Array<{ name: string; value: number; color?: string }>; source?: { organization: string; year: string; date?: string } } {
+    const graphData: Array<{ name: string; value: number; color?: string }> = []
+    
+    // アイテムからグラフデータを抽出
+    items.forEach(item => {
+      // "教育・学習支援: 50.0%" や "教育・学習支援: 30.4時間" のような形式を解析
+      const dataMatch = item.match(/^([^:：]+)[:：]\s*([0-9.]+)(?:%|時間|件)?/)
+      
+      if (dataMatch) {
+        graphData.push({
+          name: dataMatch[1].trim(),
+          value: parseFloat(dataMatch[2])
+        })
+      }
+    })
+
+    // グラフタイプを推定（%が含まれていれば円グラフ、そうでなければ棒グラフ）
+    const hasPercentage = items.some(item => item.includes('%'))
+    const type = hasPercentage ? 'pie' : 'bar'
+
+    // 出典情報を抽出
+    const source = this.extractSourceData(content)
+
+    return { type, data: graphData, source }
+  }
+
+  /**
+   * 出典情報を抽出
+   */
+  private static extractSourceInfo(content: string): string {
+    const sourceMatch = content.match(/【出典】\s*[:：]\s*(.+?)(?:\n|$)/)
+    return sourceMatch ? `【出典】: ${sourceMatch[1].trim()}` : ''
+  }
+
+  /**
+   * 出典データを構造化して抽出
+   */
+  private static extractSourceData(content: string): { organization: string; year: string; date?: string } | undefined {
+    const sourceMatch = content.match(/【出典】\s*[:：]\s*(.+?)(?:\n|$)/)
+    
+    if (sourceMatch) {
+      const sourceText = sourceMatch[1].trim()
+      
+      // "連合総研2024年調査（2024年7月19日発表）" のような形式を解析
+      const detailMatch = sourceText.match(/^(.+?)(\d{4})年?.*?(?:\(|\（)(\d{4}年\d{1,2}月\d{1,2}日)/)
+      
+      if (detailMatch) {
+        return {
+          organization: detailMatch[1].trim(),
+          year: detailMatch[2],
+          date: detailMatch[3]
+        }
+      }
+      
+      // シンプルな形式 "連合総研 2024"
+      const simpleMatch = sourceText.match(/^(.+?)\s*(\d{4})/)
+      if (simpleMatch) {
+        return {
+          organization: simpleMatch[1].trim(),
+          year: simpleMatch[2]
+        }
+      }
+    }
+    
+    return undefined
   }
 }
