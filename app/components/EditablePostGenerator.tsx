@@ -11,6 +11,8 @@ import { templateRegistry } from './templates/TemplateRegistry'
 import Viewport from './Viewport'
 import html2canvas from 'html2canvas'
 import { bulkDownloadService, DownloadItem } from '../services/bulkDownloadService'
+import { DynamicFieldDetector } from '../services/dynamicFieldDetector'
+import { ItemNTitleContentEditor } from './editors/ItemNTitleContentEditor'
 
 interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
@@ -242,6 +244,25 @@ FIND to DO(@find_to_do)では
       return page
     })
 
+    setCurrentContent({
+      ...currentContent,
+      pages: updatedPages
+    })
+  }
+
+  const handlePageDataUpdate = (pageIndex: number, newData: any) => {
+    const updatedPages = currentContent.pages.map((page, index) => {
+      if (index === pageIndex) {
+        return {
+          ...page,
+          templateData: {
+            ...page.templateData,
+            ...newData
+          }
+        }
+      }
+      return page
+    })
     setCurrentContent({
       ...currentContent,
       pages: updatedPages
@@ -644,6 +665,17 @@ FIND to DO(@find_to_do)では
                 rows={3}
               />
             </div>
+            
+            {/* ItemNTitleContentTemplate専用エディタ */}
+            {page.templateType === 'item-n-title-content' && (
+              <div className="border-t pt-6 mt-6">
+                <ItemNTitleContentEditor
+                  data={page.templateData}
+                  onUpdate={(field, value) => handlePageTextEdit(editingPage, field, value)}
+                  onDataUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
 
             {/* Steps編集 (simple5用) */}
             {page.templateData?.steps && (
