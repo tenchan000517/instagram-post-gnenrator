@@ -216,7 +216,24 @@ export class DynamicFieldDetector {
         
       case 'checklist-enhanced':
         // checklistItems 配列の編集フィールドとして扱う
-        // （配列は別の方法で処理するため、ここでは個別フィールドとして扱わない）
+        // checklistItems配列データを特別に処理
+        const checklistItems = data.checklistItems || []
+        const maxChecklistItems = 8
+        
+        // checklistItems配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'checklistItems',
+          type: 'array',
+          displayName: 'チェックリスト項目',
+          required: true,
+          validation: [
+            { type: 'required', message: 'チェックリスト項目は必須です' },
+            { type: 'custom', message: '最低1個、最大8個まで', validator: (value: any[]) => value.length >= 1 && value.length <= 8 }
+          ],
+          pattern: 'checklistItems',
+          index: 1,
+          maxCount: maxChecklistItems
+        })
         break
         
       default:
@@ -250,7 +267,7 @@ export class DynamicFieldDetector {
   /**
    * デフォルト値を生成
    */
-  static generateDefaultValue(field: string, type: FieldType): any {
+  static generateDefaultValue(_field: string, type: FieldType): any {
     switch (type) {
       case 'string':
         return ''
@@ -299,6 +316,24 @@ export class DynamicFieldDetector {
       }
     }
     
+    if (templateType === 'checklist-enhanced' && fieldPattern === 'checklistItems') {
+      // checklistItems配列にアイテムを追加
+      const checklistItems = currentData.checklistItems || []
+      if (checklistItems.length < 8) { // 最大8個まで
+        return {
+          ...currentData,
+          checklistItems: [
+            ...checklistItems,
+            {
+              text: '',
+              description: '',
+              checked: false
+            }
+          ]
+        }
+      }
+    }
+    
     return currentData
   }
   
@@ -337,7 +372,7 @@ export class DynamicFieldDetector {
       Object.keys(remainingItems)
         .map(k => parseInt(k))
         .sort((a, b) => a - b)
-        .forEach((oldIndex, i) => {
+        .forEach((oldIndex, _i) => {
           const newIndex = oldIndex - 1
           if (remainingItems[oldIndex].title !== undefined) {
             newData[`item${newIndex}Title`] = remainingItems[oldIndex].title
@@ -348,6 +383,18 @@ export class DynamicFieldDetector {
         })
       
       return newData
+    }
+    
+    if (templateType === 'checklist-enhanced' && fieldPattern === 'checklistItems') {
+      // checklistItems配列から指定インデックスのアイテムを削除
+      const checklistItems = currentData.checklistItems || []
+      if (checklistItems.length > 1) { // 最低1個は残す
+        const newChecklistItems = checklistItems.filter((_: any, i: number) => i !== index)
+        return {
+          ...currentData,
+          checklistItems: newChecklistItems
+        }
+      }
     }
     
     return currentData

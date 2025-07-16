@@ -13,6 +13,7 @@ import html2canvas from 'html2canvas'
 import { bulkDownloadService, DownloadItem } from '../services/bulkDownloadService'
 import { DynamicFieldDetector } from '../services/dynamicFieldDetector'
 import { ItemNTitleContentEditor } from './editors/ItemNTitleContentEditor'
+import { ChecklistEnhancedEditor } from './editors/ChecklistEnhancedEditor'
 
 interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
@@ -670,6 +671,17 @@ FIND to DO(@find_to_do)では
             {page.templateType === 'item-n-title-content' && (
               <div className="border-t pt-6 mt-6">
                 <ItemNTitleContentEditor
+                  data={page.templateData}
+                  onUpdate={(field, value) => handlePageTextEdit(editingPage, field, value)}
+                  onDataUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+
+            {/* ChecklistEnhancedTemplate専用エディタ */}
+            {page.templateType === 'checklist-enhanced' && (
+              <div className="border-t pt-6 mt-6">
+                <ChecklistEnhancedEditor
                   data={page.templateData}
                   onUpdate={(field, value) => handlePageTextEdit(editingPage, field, value)}
                   onDataUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
