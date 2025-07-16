@@ -138,6 +138,31 @@ export class DynamicFieldDetector {
           }
         ]
         
+      case 'simple5':
+        return [
+          ...commonFields,
+          {
+            name: 'subtitle',
+            type: 'string',
+            displayName: 'サブタイトル',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 150, message: 'サブタイトルは150文字以内で入力してください' }
+            ],
+            placeholder: 'サブタイトルを入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
       default:
         return commonFields
     }
@@ -233,6 +258,27 @@ export class DynamicFieldDetector {
           pattern: 'checklistItems',
           index: 1,
           maxCount: maxChecklistItems
+        })
+        break
+        
+      case 'simple5':
+        // steps 配列の編集フィールドとして扱う
+        const steps = data.steps || []
+        const maxSteps = 8
+        
+        // steps配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'steps',
+          type: 'array',
+          displayName: 'ステップ項目',
+          required: true,
+          validation: [
+            { type: 'required', message: 'ステップ項目は必須です' },
+            { type: 'custom', message: '最低1個、最大8個まで', validator: (value: any[]) => value.length >= 1 && value.length <= 8 }
+          ],
+          pattern: 'steps',
+          index: 1,
+          maxCount: maxSteps
         })
         break
         

@@ -14,6 +14,7 @@ import { bulkDownloadService, DownloadItem } from '../services/bulkDownloadServi
 import { DynamicFieldDetector } from '../services/dynamicFieldDetector'
 import { ItemNTitleContentEditor } from './editors/ItemNTitleContentEditor'
 import { ChecklistEnhancedEditor } from './editors/ChecklistEnhancedEditor'
+import { Simple5Editor } from './editors/Simple5Editor'
 
 interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
@@ -685,6 +686,16 @@ FIND to DO(@find_to_do)では
                   data={page.templateData}
                   onUpdate={(field, value) => handlePageTextEdit(editingPage, field, value)}
                   onDataUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+
+            {/* Simple5Template専用エディタ */}
+            {page.templateType === 'simple5' && (
+              <div className="border-t pt-6 mt-6">
+                <Simple5Editor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
                 />
               </div>
             )}
