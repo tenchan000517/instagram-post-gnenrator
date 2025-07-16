@@ -87,11 +87,15 @@ export class ContentGeneratorService {
         pageNumber: generatedPage.pageNumber,
         templateType: generatedPage.templateType,
         templateData: this.convertToTemplateData(
-          Object.assign({}, generatedPage.content, {
-            title: generatedPage.title,
-            rankingData: generatedPage.rankingData,
-            graphData: generatedPage.graphData
-          }),
+          Object.assign({}, 
+            typeof generatedPage.content === 'string' ? { content: generatedPage.content } : generatedPage.content,
+            {
+              title: generatedPage.title,
+              rankingData: generatedPage.rankingData || generatedPage.content?.rankingData,
+              graphData: generatedPage.graphData || generatedPage.content?.graphData,
+              checklistItems: generatedPage.checklistItems || generatedPage.content?.checklistItems
+            }
+          ),
           generatedPage.templateType
         ),
         content: {
@@ -102,9 +106,9 @@ export class ContentGeneratorService {
           sections: generatedPage.content?.sections,
           tableData: generatedPage.content?.tableData,
           badgeText: generatedPage.content?.badgeText,
-          checklistItems: generatedPage.content?.checklistItems,
-          rankingData: generatedPage.rankingData,
-          graphData: generatedPage.graphData
+          checklistItems: generatedPage.checklistItems || generatedPage.content?.checklistItems,
+          rankingData: generatedPage.rankingData || generatedPage.content?.rankingData,
+          graphData: generatedPage.graphData || generatedPage.content?.graphData
         }
       }))
       

@@ -68,8 +68,8 @@ ${templateStructureInstructions}
       
       console.log('🎯 StructureConstrainedGenerator - 一括生成レスポンス:', text)
       
-      const cleanText = text.replace(/```json\n?|```\n?/g, '').trim()
-      const parsed = JSON.parse(cleanText)
+      // 🔧 一括生成でも同じ堅牢なJSON解析処理を使用
+      const parsed = this.parseGeneratedJSON(text)
       
       // pageNumberを正しく設定（スプレッド演算子による文字列分解を回避）
       const pagesWithPageNumbers = parsed.pages.map((page: any, index: number) => {
@@ -417,4 +417,61 @@ ${this.getTemplateSpecificInstructions(pageStructure.template)}
 
   // 動的テンプレート構造定義システムに移行済み
   // getTemplateStructureRequirements は TemplateStructureDefinitions.generateStructurePrompt に置き換え
+
+  /**
+   * 堅牢なJSON解析処理（一括生成と個別生成で共通使用）
+   */
+  private parseGeneratedJSON(text: string): any {
+    // JSON部分を抽出（複数の方法を試す）
+    let jsonText = text;
+    
+    // 方法1: コードブロックを除去
+    jsonText = jsonText.replace(/```json\n?|```\n?/g, '').trim();
+    
+    // 方法2: 最初の{から最後の}までを抽出
+    const jsonMatch = jsonText.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      jsonText = jsonMatch[0];
+    }
+    
+    // 方法3: 不正な文字を除去
+    jsonText = jsonText
+      .replace(/[\x00-\x1F\x7F-\x9F]/g, '') // 制御文字を除去
+      .replace(/,\s*}}/g, '}}') // 末尾のカンマを除去
+      .replace(/,\s*]/g, ']'); // 配列末尾のカンマを除去
+    
+    // 方法4: AIの応答でよくある問題を修正
+    // "文字列は"これ"です" のようなパターンを修正
+    try {
+      // 一旦パースを試みる
+      JSON.parse(jsonText);
+    } catch (e) {
+      // パースエラーの場合、問題のある引用符をエスケープ
+      // 値の中の引用符をエスケープ（キーと値の区切りは除外）
+      jsonText = jsonText.replace(/:(\s*)"([^"]*)"([^"]*)"([^"]*)"(\s*[,}])/g, (_match: string, p1: string, p2: string, p3: string, p4: string, p5: string) => {
+        // : "値は"これ"です", → : "値は\"これ\"です",
+        return `:${p1}"${p2}\\"${p3}\\"${p4}"${p5}`;
+      });
+      
+      // スマートクォートを通常の引用符に変換
+      jsonText = jsonText
+        .replace(/"/g, '"')  // 左ダブルクォート
+        .replace(/"/g, '"')  // 右ダブルクォート
+        .replace(/'/g, "'")  // 左シングルクォート
+        .replace(/'/g, "'"); // 右シングルクォート
+    }
+    
+    console.log('🔧 クリーンアップ後のJSON:', jsonText)
+    
+    let parsed;
+    try {
+      parsed = JSON.parse(jsonText);
+    } catch (parseError) {
+      console.error('JSON解析エラー:', parseError);
+      console.error('問題のあるJSON:', jsonText);
+      throw new Error(`JSON解析に失敗しました: ${parseError.message}`);
+    }
+    
+    return parsed;
+  }
 }
