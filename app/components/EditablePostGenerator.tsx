@@ -200,10 +200,14 @@ FIND to DO(@find_to_do)では
 
     setIsGenerating(true)
     try {
+      // 実際の要素の高さを取得
+      const actualHeight = currentPageElement.offsetHeight
+      console.log('📸 Single download element height:', actualHeight)
+      
       const canvas = await html2canvas(currentPageElement, {
         background: '#ffffff',
         width: 850,
-        height: 899,
+        height: actualHeight, // 固定値ではなく実際の高さを使用
         useCORS: true,
         allowTaint: false
       })
@@ -345,10 +349,14 @@ FIND to DO(@find_to_do)では
   }
 
   const downloadSinglePage = async (element: HTMLDivElement, filename: string) => {
+    // 実際の要素の高さを取得
+    const actualHeight = element.offsetHeight
+    console.log('📸 Download element height:', actualHeight, 'for', filename)
+    
     const canvas = await html2canvas(element, {
       background: '#ffffff',
       width: 850,
-      height: 899,
+      height: actualHeight, // 固定値ではなく実際の高さを使用
       useCORS: true,
       allowTaint: true
     })
@@ -384,19 +392,46 @@ FIND to DO(@find_to_do)では
       const TemplateComponent = templateComponents[page.templateType]
       if (!TemplateComponent) return null
 
+      // アイテム数に基づいて高さを計算
+      const calculateHeight = () => {
+        console.log('🔍 calculateHeight - templateType:', page.templateType)
+        
+        // 独立ボックス構造の場合
+        if (page.templateType === 'item-n-title-content') {
+          const itemCount = getItemCountForPage(page)
+          console.log('📊 Item count:', itemCount)
+          
+          if (itemCount >= 4) {
+            // 4個以上の場合は高さを拡張、5個以上は改行考慮で追加余白
+            const baseHeight = 280 + (itemCount * 170)
+            const extraPadding = itemCount >= 5 ? 50 : 0 // 5個以上の場合は50px追加
+            const calculatedHeight = `${baseHeight + extraPadding}px`
+            console.log('📏 Calculated height:', calculatedHeight)
+            return calculatedHeight
+          }
+        }
+        // デフォルトの高さ
+        console.log('📏 Using default height: 899px')
+        return '899px'
+      }
+
+      const finalHeight = calculateHeight()
+      console.log('🎯 Final height being applied:', finalHeight, 'for page:', page.pageNumber)
+
       return (
         <div
           key={`download-page-${index}`}
           ref={el => { downloadPageRefs.current[page.pageNumber - 1] = el }}
           style={{
             width: '850px',
-            height: '899px',
+            height: finalHeight,
+            minHeight: '899px',
             position: 'fixed',
             top: '0',
             left: '-100vw',
             zIndex: 9999,
             visibility: 'visible',
-            overflow: 'hidden',
+            overflow: 'visible', // hiddenからvisibleに変更
             display: 'block',
             backgroundColor: '#ffffff',
             fontFamily: 'inherit'
@@ -411,6 +446,26 @@ FIND to DO(@find_to_do)では
         </div>
       )
     })
+  }
+
+  // ページのアイテム数を取得するヘルパー関数
+  const getItemCountForPage = (page: GeneratedPage) => {
+    const data = page.templateData as any
+    let count = 0
+    
+    // itemNTitle/Content形式をチェック
+    for (let i = 1; i <= 6; i++) {
+      if (data[`item${i}Title`] || data[`item${i}Content`]) {
+        count++
+      }
+    }
+    
+    // 通常のitems配列もチェック
+    if (count === 0 && data.items) {
+      count = Array.isArray(data.items) ? data.items.length : 0
+    }
+    
+    return count
   }
 
   const renderTemplateSelection = () => {
