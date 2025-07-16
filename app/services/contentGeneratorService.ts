@@ -86,10 +86,14 @@ export class ContentGeneratorService {
       const pages: GeneratedPage[] = generatedPages.map(generatedPage => ({
         pageNumber: generatedPage.pageNumber,
         templateType: generatedPage.templateType,
-        templateData: this.convertToTemplateData({
-          ...generatedPage.content,
-          title: generatedPage.title
-        }, generatedPage.templateType),
+        templateData: this.convertToTemplateData(
+          Object.assign({}, generatedPage.content, {
+            title: generatedPage.title,
+            rankingData: generatedPage.rankingData,
+            graphData: generatedPage.graphData
+          }),
+          generatedPage.templateType
+        ),
         content: {
           title: generatedPage.title || generatedPage.content?.title || '',
           subtitle: generatedPage.content?.subtitle,
@@ -98,7 +102,9 @@ export class ContentGeneratorService {
           sections: generatedPage.content?.sections,
           tableData: generatedPage.content?.tableData,
           badgeText: generatedPage.content?.badgeText,
-          checklistItems: generatedPage.content?.checklistItems
+          checklistItems: generatedPage.content?.checklistItems,
+          rankingData: generatedPage.rankingData,
+          graphData: generatedPage.graphData
         }
       }))
       
@@ -525,13 +531,37 @@ ${additionalInstructions || '品質を向上させて再生成してください
       console.warn(`⚠️ タイトルが空のため自動生成: "${title}"`)
     }
 
+    // 🔧 分解された文字列オブジェクトを再構築するヘルパー関数
+    const reconstructString = (obj: any): string => {
+      if (typeof obj === 'string') {
+        return obj
+      }
+      
+      if (obj && typeof obj === 'object') {
+        // 数値キーのみを含むオブジェクトかチェック
+        const keys = Object.keys(obj)
+        const isNumericKeys = keys.every(key => /^\d+$/.test(key))
+        
+        if (isNumericKeys && keys.length > 0) {
+          console.log('🔧 分解された文字列を再構築中:', keys.length, '文字')
+          // 数値キーでソートして文字列に再構築
+          const sortedKeys = keys.sort((a, b) => parseInt(a) - parseInt(b))
+          const reconstructed = sortedKeys.map(key => obj[key]).join('')
+          console.log('✅ 再構築完了:', reconstructed.substring(0, 50) + '...')
+          return reconstructed
+        }
+      }
+      
+      return obj ? String(obj) : ''
+    }
+
     // 🎯 Step 1: AIの完璧なデータをまずそのまま使用
     const baseData: TemplateData = {
       title: title,
-      content: content.content ? MarkdownUtils.removeMarkdown(content.content) : '',
-      description: content.description ? MarkdownUtils.removeMarkdown(content.description) : '',
-      subtitle: content.subtitle ? MarkdownUtils.removeMarkdown(content.subtitle) : '',
-      badgeText: content.badgeText ? MarkdownUtils.removeMarkdown(content.badgeText) : '',
+      content: content.content ? MarkdownUtils.removeMarkdown(reconstructString(content.content)) : '',
+      description: content.description ? MarkdownUtils.removeMarkdown(reconstructString(content.description)) : '',
+      subtitle: content.subtitle ? MarkdownUtils.removeMarkdown(reconstructString(content.subtitle)) : '',
+      badgeText: content.badgeText ? MarkdownUtils.removeMarkdown(reconstructString(content.badgeText)) : '',
       
       // AIの完璧なデータをそのまま使用（完璧なら修正しない）
       items: content.items || [],
@@ -606,27 +636,44 @@ ${additionalInstructions || '品質を向上させて再生成してください
         break
 
       case 'ranking':
-        // rankingDataのフィールド名変換（後方互換性を保ちながら新構造に対応）
-        const rankingSource = content.rankingData || content.rankingItems
-        if (rankingSource && Array.isArray(rankingSource)) {
-          console.log(`🔄 rankingData フィールド名変換実行 (ソース: ${content.rankingData ? 'rankingData' : 'rankingItems'})`)
-          baseData.rankingData = rankingSource.map((item: any) => ({
-            rank: item.rank || 0,
-            // 新構造（industry, averageSalary, comment）と旧構造（name, percentage, detail）の両方に対応
-            name: item.industry || item.job || item.occupation || item.name || '',
-            value: item.averageSalary || item.percentage || item.value || '',
-            description: item.comment || item.detail || item.description || ''
-          }))
+        // 🚨 AIから正しく生成されたrankingDataを最優先で使用
+        console.log('🔍 ranking処理開始 - rankingData:', content.rankingData)
+        
+        // AIの生成データが正しく存在する場合はそのまま使用
+        if (content.rankingData && Array.isArray(content.rankingData) && content.rankingData.length > 0) {
+          console.log('✅ AIの正しいrankingDataを使用')
+          baseData.rankingData = content.rankingData
+        } else {
+          // フォールバック処理
+          const rankingSource = content.rankingItems
+          if (rankingSource && Array.isArray(rankingSource)) {
+            console.log(`🔄 rankingData フィールド名変換実行 (ソース: rankingItems)`)
+            baseData.rankingData = rankingSource.map((item: any) => ({
+              rank: item.rank || 0,
+              name: item.industry || item.job || item.occupation || item.name || '',
+              value: item.averageSalary || item.percentage || item.value || '',
+              description: item.comment || item.detail || item.description || ''
+            }))
+          }
         }
+        
         // 出典情報の追加
         if (content.source) {
           baseData.content = content.source
+        } else if (content.content) {
+          baseData.content = content.content
         }
         break
 
       case 'graph':
-        // 新しい形式（data配列）の処理を最優先で追加
-        if (content.data && Array.isArray(content.data)) {
+        // 🚨 AIから正しく生成されたgraphDataを最優先で使用
+        console.log('🔍 graph処理開始 - graphData:', content.graphData)
+        
+        // AIの生成データが正しく存在する場合はそのまま使用
+        if (content.graphData && (content.graphData.data || content.graphData.categories)) {
+          console.log('✅ AIの正しいgraphDataを使用')
+          baseData.graphData = content.graphData
+        } else if (content.data && Array.isArray(content.data)) {
           // 2024年新形式: data配列での構造化データ
           console.log('🎨 新形式データ検出 - data配列形式')
           
@@ -725,6 +772,8 @@ ${additionalInstructions || '品質を向上させて再生成してください
               date: content.source.includes('（') ? content.source.split('（')[1]?.replace('）', '') : undefined
             }
           }
+        } else if (content.content) {
+          baseData.content = content.content
         }
         break
     }

@@ -71,11 +71,11 @@ ${templateStructureInstructions}
       const cleanText = text.replace(/```json\n?|```\n?/g, '').trim()
       const parsed = JSON.parse(cleanText)
       
-      // pageNumberを正しく設定
-      const pagesWithPageNumbers = parsed.pages.map((page: any, index: number) => ({
-        ...page,
-        pageNumber: index + 1
-      }))
+      // pageNumberを正しく設定（スプレッド演算子による文字列分解を回避）
+      const pagesWithPageNumbers = parsed.pages.map((page: any, index: number) => {
+        page.pageNumber = index + 1
+        return page
+      })
       
       return pagesWithPageNumbers as GeneratedPage[]
     } catch (error: any) {
