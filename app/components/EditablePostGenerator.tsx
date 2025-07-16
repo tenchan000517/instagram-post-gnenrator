@@ -15,6 +15,11 @@ import { DynamicFieldDetector } from '../services/dynamicFieldDetector'
 import { ItemNTitleContentEditor } from './editors/ItemNTitleContentEditor'
 import { ChecklistEnhancedEditor } from './editors/ChecklistEnhancedEditor'
 import { Simple5Editor } from './editors/Simple5Editor'
+import { EnumerationEditor } from './editors/EnumerationEditor'
+import { RankingEditor } from './editors/RankingEditor'
+import { SimpleThreeEditor } from './editors/SimpleThreeEditor'
+import { SectionItemsEditor } from './editors/SectionItemsEditor'
+import { GraphEditor } from './editors/GraphEditor'
 
 interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
@@ -694,6 +699,46 @@ FIND to DO(@find_to_do)では
             {page.templateType === 'simple5' && (
               <div className="border-t pt-6 mt-6">
                 <Simple5Editor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'enumeration' && (
+              <div className="border-t pt-6 mt-6">
+                <EnumerationEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'ranking' && (
+              <div className="border-t pt-6 mt-6">
+                <RankingEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'simple3' && (
+              <div className="border-t pt-6 mt-6">
+                <SimpleThreeEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'section-items' && (
+              <div className="border-t pt-6 mt-6">
+                <SectionItemsEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'graph' && (
+              <div className="border-t pt-6 mt-6">
+                <GraphEditor
                   data={page.templateData}
                   onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
                 />

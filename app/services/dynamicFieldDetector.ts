@@ -163,6 +163,141 @@ export class DynamicFieldDetector {
           }
         ]
         
+      case 'enumeration':
+        return [
+          ...commonFields,
+          {
+            name: 'subtitle',
+            type: 'string',
+            displayName: 'サブタイトル',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 40, message: 'サブタイトルは40文字以内で入力してください' }
+            ],
+            placeholder: 'サブタイトルを入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
+      case 'ranking':
+        return [
+          ...commonFields,
+          {
+            name: 'description',
+            type: 'string',
+            displayName: '説明文',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 150, message: '説明文は150文字以内で入力してください' }
+            ],
+            placeholder: '説明文を入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
+      case 'simple3':
+        return [
+          ...commonFields,
+          {
+            name: 'content',
+            type: 'text',
+            displayName: 'ボックス解説文',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 80, message: 'ボックス解説文は80文字以内で入力してください' }
+            ],
+            placeholder: 'ボックス解説文を入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
+      case 'section-items':
+        return [
+          ...commonFields,
+          {
+            name: 'content',
+            type: 'text',
+            displayName: 'メイン説明文',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 100, message: 'メイン説明文は100文字以内で入力してください' }
+            ],
+            placeholder: 'メイン説明文を入力（任意）'
+          },
+          {
+            name: 'subtitle',
+            type: 'string',
+            displayName: 'サブタイトル',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 40, message: 'サブタイトルは40文字以内で入力してください' }
+            ],
+            placeholder: 'サブタイトルを入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
+      case 'graph':
+        return [
+          ...commonFields,
+          {
+            name: 'description',
+            type: 'string',
+            displayName: '説明文',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 100, message: '説明文は100文字以内で入力してください' }
+            ],
+            placeholder: '説明文を入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
       default:
         return commonFields
     }
@@ -279,6 +414,120 @@ export class DynamicFieldDetector {
           pattern: 'steps',
           index: 1,
           maxCount: maxSteps
+        })
+        break
+        
+      case 'enumeration':
+        // items 配列の編集フィールドとして扱う
+        const enumItems = data.items || []
+        const maxEnumItems = 9
+        
+        // items配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'items',
+          type: 'array',
+          displayName: '列挙項目',
+          required: true,
+          validation: [
+            { type: 'required', message: '列挙項目は必須です' },
+            { type: 'custom', message: '最低1個、最大9個まで', validator: (value: any[]) => value.length >= 1 && value.length <= 9 }
+          ],
+          pattern: 'items',
+          index: 1,
+          maxCount: maxEnumItems
+        })
+        break
+        
+      case 'ranking':
+        // rankingData 配列の編集フィールドとして扱う
+        const rankingData = data.rankingData || []
+        const maxRankingItems = 5
+        
+        // rankingData配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'rankingData',
+          type: 'array',
+          displayName: 'ランキング項目',
+          required: true,
+          validation: [
+            { type: 'required', message: 'ランキング項目は必須です' },
+            { type: 'custom', message: '最低1個、最大5個まで', validator: (value: any[]) => value.length >= 1 && value.length <= 5 }
+          ],
+          pattern: 'rankingData',
+          index: 1,
+          maxCount: maxRankingItems
+        })
+        break
+        
+      case 'simple3':
+        // twoColumn 配列の編集フィールドとして扱う
+        const twoColumn = data.twoColumn || { left: [], right: [] }
+        const maxColumnItems = 3
+        
+        // twoColumn配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'twoColumn',
+          type: 'object',
+          displayName: '2カラム項目',
+          required: true,
+          validation: [
+            { type: 'required', message: '2カラム項目は必須です' },
+            { type: 'custom', message: '各カラム最低1個、最大3個まで', validator: (value: any) => 
+              value.left && value.right && 
+              value.left.length >= 1 && value.left.length <= 3 &&
+              value.right.length >= 1 && value.right.length <= 3
+            }
+          ],
+          pattern: 'twoColumn',
+          index: 1,
+          maxCount: maxColumnItems
+        })
+        break
+        
+      case 'section-items':
+        // sections 配列の編集フィールドとして扱う
+        const sections = data.sections || []
+        const maxSectionItems = 7
+        
+        // sections配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'sections',
+          type: 'array',
+          displayName: 'セクション項目',
+          required: true,
+          validation: [
+            { type: 'required', message: 'セクション項目は必須です' },
+            { type: 'custom', message: '1セクション・アイテム最低1個最大7個まで', validator: (value: any[]) => 
+              value.length === 1 && value[0].items && 
+              value[0].items.length >= 1 && value[0].items.length <= 7
+            }
+          ],
+          pattern: 'sections',
+          index: 1,
+          maxCount: maxSectionItems
+        })
+        break
+        
+      case 'graph':
+        // graphData の編集フィールドとして扱う
+        const graphData = data.graphData || { type: 'pie', data: [] }
+        const maxGraphItems = 8
+        
+        // graphData配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'graphData',
+          type: 'object',
+          displayName: 'グラフデータ',
+          required: true,
+          validation: [
+            { type: 'required', message: 'グラフデータは必須です' },
+            { type: 'custom', message: '最低1個、最大8個まで', validator: (value: any) => 
+              value.data && value.data.length >= 1 && value.data.length <= 8
+            }
+          ],
+          pattern: 'graphData',
+          index: 1,
+          maxCount: maxGraphItems
         })
         break
         
