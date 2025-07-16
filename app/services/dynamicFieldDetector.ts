@@ -298,6 +298,126 @@ export class DynamicFieldDetector {
           }
         ]
         
+      case 'explanation2':
+        return [
+          ...commonFields,
+          {
+            name: 'content',
+            type: 'text',
+            displayName: 'メインコンテンツ',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 150, message: 'メインコンテンツは150文字以内で入力してください' }
+            ],
+            placeholder: 'メインコンテンツを入力（任意）'
+          },
+          {
+            name: 'subtitle',
+            type: 'string',
+            displayName: '補足説明',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 40, message: '補足説明は40文字以内で入力してください' }
+            ],
+            placeholder: '補足説明を入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
+      case 'list':
+        return [
+          ...commonFields,
+          {
+            name: 'subtitle',
+            type: 'text',
+            displayName: '補足説明',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 60, message: '補足説明は60文字以内で入力してください' }
+            ],
+            placeholder: '補足説明を入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
+      case 'table':
+        return [
+          ...commonFields,
+          {
+            name: 'subtitle',
+            type: 'string',
+            displayName: '補足説明',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 40, message: '補足説明は40文字以内で入力してください' }
+            ],
+            placeholder: '補足説明を入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
+      case 'simple6':
+        return [
+          ...commonFields,
+          {
+            name: 'content',
+            type: 'text',
+            displayName: 'メイン説明文',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 100, message: 'メイン説明文は100文字以内で入力してください' }
+            ],
+            placeholder: 'メイン説明文を入力（任意）'
+          },
+          {
+            name: 'subtitle',
+            type: 'string',
+            displayName: '補足説明',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 30, message: '補足説明は30文字以内で入力してください' }
+            ],
+            placeholder: '補足説明を入力（任意）'
+          },
+          {
+            name: 'badgeText',
+            type: 'string',
+            displayName: 'バッジテキスト',
+            required: false,
+            validation: [
+              { type: 'maxLength', value: 50, message: 'バッジテキストは50文字以内で入力してください' }
+            ],
+            placeholder: 'バッジテキストを入力（任意）'
+          }
+        ]
+        
       default:
         return commonFields
     }
@@ -528,6 +648,92 @@ export class DynamicFieldDetector {
           pattern: 'graphData',
           index: 1,
           maxCount: maxGraphItems
+        })
+        break
+        
+      case 'explanation2':
+        // sections 配列の編集フィールドとして扱う
+        const explanationSections = data.sections || []
+        const maxExplanationSections = 5
+        
+        // sections配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'sections',
+          type: 'array',
+          displayName: '解説セクション',
+          required: true,
+          validation: [
+            { type: 'required', message: '解説セクションは必須です' },
+            { type: 'custom', message: '最低1個、最大5個まで', validator: (value: any[]) => value.length >= 1 && value.length <= 5 }
+          ],
+          pattern: 'sections',
+          index: 1,
+          maxCount: maxExplanationSections
+        })
+        break
+        
+      case 'list':
+        // items 配列の編集フィールドとして扱う
+        const listItems = data.items || []
+        const maxListItems = 8
+        
+        // items配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'items',
+          type: 'array',
+          displayName: 'リスト項目',
+          required: true,
+          validation: [
+            { type: 'required', message: 'リスト項目は必須です' },
+            { type: 'custom', message: '最低1個、最大8個まで', validator: (value: any[]) => value.length >= 1 && value.length <= 8 }
+          ],
+          pattern: 'items',
+          index: 1,
+          maxCount: maxListItems
+        })
+        break
+        
+      case 'table':
+        // tableData の編集フィールドとして扱う
+        const tableData = data.tableData || { headers: [], rows: [] }
+        const maxTableRows = 10
+        
+        // tableData配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'tableData',
+          type: 'object',
+          displayName: 'テーブルデータ',
+          required: true,
+          validation: [
+            { type: 'required', message: 'テーブルデータは必須です' },
+            { type: 'custom', message: '最低1行、最大10行まで', validator: (value: any) => 
+              value.rows && value.rows.length >= 1 && value.rows.length <= 10
+            }
+          ],
+          pattern: 'tableData',
+          index: 1,
+          maxCount: maxTableRows
+        })
+        break
+        
+      case 'simple6':
+        // items 配列の編集フィールドとして扱う
+        const simpleSixItems = data.items || []
+        const maxSimpleSixItems = 8
+        
+        // items配列の編集フィールドを追加
+        dynamicFields.push({
+          name: 'items',
+          type: 'array',
+          displayName: 'コンパクト項目',
+          required: true,
+          validation: [
+            { type: 'required', message: 'コンパクト項目は必須です' },
+            { type: 'custom', message: '最低1個、最大8個まで', validator: (value: any[]) => value.length >= 1 && value.length <= 8 }
+          ],
+          pattern: 'items',
+          index: 1,
+          maxCount: maxSimpleSixItems
         })
         break
         

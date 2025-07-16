@@ -20,6 +20,10 @@ import { RankingEditor } from './editors/RankingEditor'
 import { SimpleThreeEditor } from './editors/SimpleThreeEditor'
 import { SectionItemsEditor } from './editors/SectionItemsEditor'
 import { GraphEditor } from './editors/GraphEditor'
+import { ExplanationTwoEditor } from './editors/ExplanationTwoEditor'
+import { ListEditor } from './editors/ListEditor'
+import { TableEditor } from './editors/TableEditor'
+import { SimpleSixEditor } from './editors/SimpleSixEditor'
 
 interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
@@ -739,6 +743,38 @@ FIND to DO(@find_to_do)では
             {page.templateType === 'graph' && (
               <div className="border-t pt-6 mt-6">
                 <GraphEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'explanation2' && (
+              <div className="border-t pt-6 mt-6">
+                <ExplanationTwoEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'list' && (
+              <div className="border-t pt-6 mt-6">
+                <ListEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'table' && (
+              <div className="border-t pt-6 mt-6">
+                <TableEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {page.templateType === 'simple6' && (
+              <div className="border-t pt-6 mt-6">
+                <SimpleSixEditor
                   data={page.templateData}
                   onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
                 />
