@@ -469,7 +469,7 @@ ${this.getTemplateSpecificInstructions(pageStructure.template)}
     } catch (parseError) {
       console.error('JSON解析エラー:', parseError);
       console.error('問題のあるJSON:', jsonText);
-      throw new Error(`JSON解析に失敗しました: ${parseError.message}`);
+      throw new Error(`JSON解析に失敗しました: ${parseError instanceof Error ? parseError.message : String(parseError)}`);
     }
     
     return parsed;

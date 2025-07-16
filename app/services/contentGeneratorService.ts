@@ -93,7 +93,7 @@ export class ContentGeneratorService {
               title: generatedPage.title,
               rankingData: generatedPage.rankingData || generatedPage.content?.rankingData,
               graphData: generatedPage.graphData || generatedPage.content?.graphData,
-              checklistItems: generatedPage.checklistItems || generatedPage.content?.checklistItems
+              checklistItems: (generatedPage as any).checklistItems || generatedPage.content?.checklistItems
             }
           ),
           generatedPage.templateType
@@ -106,7 +106,7 @@ export class ContentGeneratorService {
           sections: generatedPage.content?.sections,
           tableData: generatedPage.content?.tableData,
           badgeText: generatedPage.content?.badgeText,
-          checklistItems: generatedPage.checklistItems || generatedPage.content?.checklistItems,
+          checklistItems: (generatedPage as any).checklistItems || generatedPage.content?.checklistItems,
           rankingData: generatedPage.rankingData || generatedPage.content?.rankingData,
           graphData: generatedPage.graphData || generatedPage.content?.graphData
         }
