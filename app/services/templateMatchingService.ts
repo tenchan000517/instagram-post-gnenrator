@@ -131,6 +131,14 @@ export class TemplateMatchingService {
       bestFor: ['データ可視化', '統計グラフ', '円グラフ・棒グラフ'],
       matchingKeywords: ['グラフ', '円グラフ', '棒グラフ', '統計', 'データ', '割合'],
       priority: 9
+    },
+    {
+      templateType: 'checklist-enhanced',
+      expressionPattern: '詳細チェックリスト形式',
+      contentStructure: ['title', 'checklistItems', 'content'],
+      bestFor: ['詳細チェックリスト', '準備項目', '確認リスト'],
+      matchingKeywords: ['チェックリスト', 'チェック', '確認', '準備', 'TODO', '項目'],
+      priority: 12
     }
   ]
 
