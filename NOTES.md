@@ -2,6 +2,36 @@
 
 ## 現在の開発状況
 
+### 7. 重要なシステム概念変更：INDEXページと実際のページ内容の関係（2025-07-16追加）
+
+#### 7.1 発見された問題
+新しいテンプレート（`index`, `single-section-no-items`, `two-column-section-items`）を追加した結果、INDEXページと実際のページ内容が一致しない問題が発覚しました。
+
+#### 7.2 現在の動作メカニズム
+**INDEXページ生成**：
+- `PageStructureAnalyzer`が入力テキストを分析
+- AIが入力内容から「理想的な全体構成」を推測
+- 例：プレゼンテーション技術の入力 → 就活全般の8項目INDEX
+
+**実際のページ生成**：
+- 入力テキストの具体的な内容に基づいて生成
+- 例：プレゼンテーション技術の詳細内容
+
+#### 7.3 システム設計の課題
+- **静的関係**：INDEXと実際のページ内容が動的に連携していない
+- **推測ベース**：AIがINDEXを推測生成するため、実際の内容と乖離
+- **一貫性の欠如**：ユーザーが期待するINDEXと実際のページが異なる
+
+#### 7.4 解決方針（未実装）
+1. **フォーマッター改善**：入力テキストでINDEX構成を明示的に指定
+2. **動的連携**：生成されたページ内容を基にINDEXを更新
+3. **テンプレート選択ロジック調整**：INDEXページ生成条件の見直し
+
+#### 7.5 影響範囲
+- **ユーザー体験**：INDEXページが「予告編」として機能し、実際の内容と異なる
+- **コンテンツの一貫性**：シリーズ投稿としての統一感に影響
+- **テンプレート選択**：INDEXテンプレートの使用条件要検討
+
 ### 4. 新テンプレート追加時の必須修正箇所（2025-07-12更新）
 
 新しいテンプレートを追加する際は、以下の全ての箇所を更新する必要があります：
@@ -244,3 +274,95 @@ const canvas = await html2canvas(element, {
 5. デバッグラインの削除
 6. Gemini呼び出しの復元
 7. 文字数制限の実装
+
+### 8. 次世代Claude Code引き継ぎ事項（2025-07-16追加）
+
+#### 8.1 **🔥 最重要継承事項：テンプレート選択メカニズムの完全理解**
+
+**実際のテンプレート選択は`PageStructureAnalyzer`で行われる**
+- `templateMatchingService`は**UI表示のみ**で実際の選択に関与しない
+- 新しいテンプレートを追加する際は**必ず`PageStructureAnalyzer`のプロンプトに追加**
+- ファイル：`app/services/pageStructureAnalyzer.ts` の110-113行目
+
+**新テンプレート追加完了状況**：
+- ✅ `index`: 「INDEX」「目次」「インデックス」「構成」「一覧」「ページ」キーワード
+- ✅ `single-section-no-items`: 「について」「技術」「スキル」「方法」「能力」キーワード  
+- ✅ `two-column-section-items`: 「比較」「2つ」「カテゴリー」「分類」「準備と実行」「段階」キーワード
+- ✅ 編集機能：IndexEditor, SingleSectionNoItemsEditor, TwoColumnSectionItemsEditor実装完了
+- ✅ EditablePostGenerator.tsx統合完了
+
+#### 8.2 **🚨 未解決の重要問題：INDEXページと実際のページ内容の不一致**
+
+**問題の本質**：
+- INDEXページ：AIが入力テキストから推測した「理想的な構成」
+- 実際のページ：入力テキストの具体的な内容
+- 結果：INDEXに「自己分析」「ES書き方」等が表示されるが、実際は「プレゼンテーション技術」のページ
+
+**解決方針（優先度順）**：
+1. **フォーマッター改善**：入力テキストでINDEX構成を明示的に指定
+2. **動的連携**：生成されたページ内容を基にINDEXを更新
+3. **テンプレート選択ロジック調整**：INDEXページ生成条件の見直し
+
+#### 8.3 **テンプレート編集機能実装状況**
+
+**実装完了（12/15テンプレート、80%）**：
+- ItemNTitleContentEditor, ChecklistEnhancedEditor, Simple5Editor
+- EnumerationEditor, RankingEditor, SimpleThreeEditor
+- SectionItemsEditor, GraphEditor, ExplanationTwoEditor
+- ListEditor, TableEditor, SimpleSixEditor
+- **IndexEditor, SingleSectionNoItemsEditor, TwoColumnSectionItemsEditor**（新規追加）
+
+**未実装（3/15テンプレート、20%）**：
+- explanation2, list, table の一部機能
+- 文字数制限の実装
+- デバッグラインの削除
+
+#### 8.4 **重要な技術的発見**
+
+**templateMatchingService.tsの修正でundefinedが発生する理由**：
+- `templateMatchingService`はUI表示のみに使用
+- `item-n-title-content`を`templateCharacteristics`配列に追加すると既存UIに悪影響
+- 実際のテンプレート選択は`PageStructureAnalyzer`で行われるため、修正は不要
+
+**意図的テンプレート選択ナレッジ**：
+- enumeration: 「①②③」「ステップ」「手順」「段階」
+- ranking: 「ランキング」「1位」「2位」「位」「ワースト」「ベスト」
+- simple3: 「対比」「比較」「VS」「良い」「悪い」「OK」「NG」
+- section-items: 「体験」「ストーリー」「事例」「実際に」「経験」
+- graph: 「グラフ」「円グラフ」「棒グラフ」「統計」「データ」「割合」
+
+#### 8.5 **不明確な箇所・要調査事項**
+
+1. **INDEXページ生成の詳細ロジック**：
+   - `PageStructureAnalyzer`がINDEXを推測生成するメカニズム
+   - 入力テキストから「理想的な構成」を導出する基準
+   - INDEXページ生成をユーザーの意図に合わせる方法
+
+2. **フォーマッター改善の具体的実装**：
+   - 入力テキストでINDEX構成を明示的に指定する方法
+   - 既存のフォーマッター（存在するか不明）との連携
+   - AIプロンプトへの構成指示の反映方法
+
+3. **テンプレート選択の優先度調整**：
+   - `item-n-title-content`がデフォルト選択される条件
+   - 新しいテンプレートの優先度設定
+   - テンプレート選択ロジックの最適化
+
+4. **動的連携の実装可能性**：
+   - 生成されたページ内容を基にINDEXを更新する技術的課題
+   - リアルタイム連携 vs 生成後更新の選択
+   - パフォーマンスへの影響
+
+#### 8.6 **次世代開発者への指針**
+
+1. **INDEXページ問題の解決を最優先**に対応してください
+2. **テンプレート選択メカニズムの完全理解**が必須です
+3. **`PageStructureAnalyzer`が実際の選択箇所**であることを常に意識してください
+4. **templateMatchingService.tsの修正は慎重**に行ってください（UI表示への影響）
+5. **新テンプレート追加時は必ず`PageStructureAnalyzer`のプロンプトを更新**してください
+
+#### 8.7 **緊急度の高い技術的課題**
+
+- **INDEXページとコンテンツの一貫性確保**（ユーザー体験に直結）
+- **テンプレート選択の予測可能性向上**（コンテンツ品質に直結）
+- **編集機能の完全実装**（機能完成度に直結）

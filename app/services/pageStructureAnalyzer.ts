@@ -107,6 +107,9 @@ ${input}
 **list**: シンプルなチェックリスト・行動項目一覧（詳細説明なし）がある場合
 **checklist-enhanced**: 各チェック項目に詳細説明がある準備リスト・手順リストがある場合  
 **section-items**: 複数カテゴリ+各項目説明がある場合（概要・まとめページに最適）
+**index**: 目次・インデックス形式の場合（「INDEX」「目次」「インデックス」「構成」「一覧」「ページ」キーワード）
+**single-section-no-items**: 単一セクションの詳細説明（「について」「技術」「スキル」「方法」「能力」キーワード）
+**two-column-section-items**: 2つのカテゴリーの比較・分類（「比較」「2つ」「カテゴリー」「分類」「準備と実行」「段階」キーワード）
 **item-n-title-content**: 独立した概念・ポイントの詳細説明（**必ず${genreConfig.optimalItemRange.min}-${genreConfig.optimalItemRange.max}個の項目を生成**）
 
 【品質基準】

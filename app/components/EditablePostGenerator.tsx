@@ -24,6 +24,9 @@ import { ExplanationTwoEditor } from './editors/ExplanationTwoEditor'
 import { ListEditor } from './editors/ListEditor'
 import { TableEditor } from './editors/TableEditor'
 import { SimpleSixEditor } from './editors/SimpleSixEditor'
+import { IndexEditor } from './editors/IndexEditor'
+import { SingleSectionNoItemsEditor } from './editors/SingleSectionNoItemsEditor'
+import { TwoColumnSectionItemsEditor } from './editors/TwoColumnSectionItemsEditor'
 
 interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
@@ -777,6 +780,36 @@ FIND to DO(@find_to_do)では
                 <SimpleSixEditor
                   data={page.templateData}
                   onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {/* IndexTemplate専用エディタ */}
+            {page.templateType === 'index' && (
+              <div className="border-t pt-6 mt-6">
+                <IndexEditor
+                  data={page.templateData}
+                  onUpdate={(field, value) => handlePageTextEdit(editingPage, field, value)}
+                  onDataUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {/* SingleSectionNoItemsTemplate専用エディタ */}
+            {page.templateType === 'single-section-no-items' && (
+              <div className="border-t pt-6 mt-6">
+                <SingleSectionNoItemsEditor
+                  data={page.templateData}
+                  onUpdate={(field, value) => handlePageTextEdit(editingPage, field, value)}
+                  onDataUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {/* TwoColumnSectionItemsTemplate専用エディタ */}
+            {page.templateType === 'two-column-section-items' && (
+              <div className="border-t pt-6 mt-6">
+                <TwoColumnSectionItemsEditor
+                  data={page.templateData}
+                  onUpdate={(field, value) => handlePageTextEdit(editingPage, field, value)}
+                  onDataUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
                 />
               </div>
             )}

@@ -139,6 +139,30 @@ export class TemplateMatchingService {
       bestFor: ['詳細チェックリスト', '準備項目', '確認リスト'],
       matchingKeywords: ['チェックリスト', 'チェック', '確認', '準備', 'TODO', '項目'],
       priority: 12
+    },
+    {
+      templateType: 'index',
+      expressionPattern: '目次・インデックス形式',
+      contentStructure: ['title', 'items'],
+      bestFor: ['目次ページ', '項目一覧', '構成紹介'],
+      matchingKeywords: ['INDEX', '目次', 'インデックス', '項目', '構成', '一覧', 'ページ'],
+      priority: 15
+    },
+    {
+      templateType: 'single-section-no-items',
+      expressionPattern: '単一セクション説明形式',
+      contentStructure: ['title', 'sections', 'description'],
+      bestFor: ['単一トピック', '概要説明', 'セクション詳細'],
+      matchingKeywords: ['セクション', '説明', '概要', '詳細', '情報', '単一', 'について'],
+      priority: 7
+    },
+    {
+      templateType: 'two-column-section-items',
+      expressionPattern: '2カラム比較形式',
+      contentStructure: ['title', 'sections'],
+      bestFor: ['2つのカテゴリー', '左右比較', '分類説明'],
+      matchingKeywords: ['比較', '2つ', 'カテゴリー', '分類', '対比', '左右', 'バランス', '種類'],
+      priority: 8
     }
   ]
 
@@ -471,7 +495,10 @@ export class TemplateMatchingService {
       'ステップ型コンテンツ': /[0-9]+ステップ|実践的.*ステップ|ステップ.*方法|ステップ.*手順/,
       '6つのポイント形式': /6つ|複数|多くの/,
       'ストーリー・体験談形式': /体験|ストーリー|事例|実際に/,
-      'テーブル・表形式': /データ|表|比較|一覧/
+      'テーブル・表形式': /データ|表|比較|一覧/,
+      '目次・インデックス形式': /INDEX|目次|インデックス|項目|構成|一覧|ページ/,
+      '単一セクション説明形式': /セクション|説明|概要|詳細|について/,
+      '2カラム比較形式': /比較|2つ|カテゴリー|分類|対比|左右|バランス|種類/
     }
 
     const pattern = patterns[expressionPattern as keyof typeof patterns]
@@ -501,7 +528,10 @@ export class TemplateMatchingService {
       'ステップ型コンテンツ': /[0-9]+ステップ|実践的.*ステップ|ステップ.*方法|ステップ.*手順/,
       '6つのポイント形式': /6つ|複数|多くの/,
       'ストーリー・体験談形式': /体験|ストーリー|事例|実際に/,
-      'テーブル・表形式': /データ|表|比較|一覧/
+      'テーブル・表形式': /データ|表|比較|一覧/,
+      '目次・インデックス形式': /INDEX|目次|インデックス|項目|構成|一覧|ページ/,
+      '単一セクション説明形式': /セクション|説明|概要|詳細|について/,
+      '2カラム比較形式': /比較|2つ|カテゴリー|分類|対比|左右|バランス|種類/
     }
 
     const pattern = patterns[expressionPattern as keyof typeof patterns]
