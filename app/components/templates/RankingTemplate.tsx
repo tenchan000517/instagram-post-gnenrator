@@ -106,13 +106,30 @@ const RankingTemplate: React.FC<RankingTemplateProps> = ({ data }) => {
       </div>
 
       {/* 出典情報 */}
-      {data.content && data.content.includes('【出典】') && (
-        <div className="mt-6 pt-4 border-t border-gray-200">
-          <p className="text-xs text-gray-500 text-center">
-            {data.content.split('【出典】:')[1]?.trim() || data.content.split('【出典】：')[1]?.trim()}
-          </p>
-        </div>
-      )}
+      {(() => {
+        console.log('🔍 RankingTemplate出典デバッグ:', {
+          hasContent: !!data.content,
+          contentLength: data.content?.length,
+          contentPreview: data.content?.substring(0, 100),
+          hasSourceKeyword: data.content?.includes('【出典】'),
+          sourceKeywordColon: data.content?.includes('【出典】:'),
+          sourceKeywordDoubleColon: data.content?.includes('【出典】：')
+        })
+        
+        if (data.content && data.content.includes('【出典】')) {
+          const sourceText = data.content.split('【出典】:')[1]?.trim() || data.content.split('【出典】：')[1]?.trim()
+          console.log('📝 出典テキスト:', sourceText)
+          
+          return (
+            <div className="mt-6 pt-4 border-t border-gray-200">
+              <p className="text-xs text-gray-500 text-center">
+                {sourceText}
+              </p>
+            </div>
+          )
+        }
+        return null
+      })()}
       </div>
     </div>
   )

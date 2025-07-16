@@ -93,7 +93,7 @@ export function ItemNTitleContentTemplate({ data }: ItemNTitleContentTemplatePro
 
           {/* 独立ボックスアイテム */}
           {itemData.length > 0 && (
-            <div className="space-y-4">
+            <div className="space-y-2">
               {itemData.map((item, index) => (
                 <div key={index} className="bg-white rounded-2xl p-4 shadow-md border border-blue-100 transform hover:scale-[1.02] transition-transform">
                   {/* タイトル */}

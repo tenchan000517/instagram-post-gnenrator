@@ -253,7 +253,7 @@ export class BulkDownloadService {
           const canvas = await html2canvas(item.element, {
                 background: '#ffffff',
             width: 850,
-            height: 800,
+            height: 899,
             useCORS: true,
             logging: false,
             allowTaint: true

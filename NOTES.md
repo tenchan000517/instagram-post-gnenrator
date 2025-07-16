@@ -144,7 +144,54 @@ const sampleData = {
 }
 ```
 
-### 5. 今後の作業予定
+### 5. ダウンロード時はみ出し問題の解決方法（2025-07-16追加）
+
+**問題**: 独立ボックス構造テンプレートで4個以上のアイテムがある場合、ダウンロード時に画像がビューポートからはみ出し、下部が切れる
+
+**解決済み実装** (`EditablePostGenerator.tsx`のコミット`cf43d48`):
+
+#### 5.1 動的高さ計算の実装
+```typescript
+// 4個以上のアイテムで高さを動的調整
+if (itemCount >= 4) {
+  const baseHeight = 280 + (itemCount * 170)
+  const extraPadding = itemCount >= 5 ? 50 : 0 // 改行考慮
+  const calculatedHeight = `${baseHeight + extraPadding}px`
+}
+```
+
+#### 5.2 html2canvasオプションの修正
+```typescript
+// 固定高さ → 実際の要素高さを使用
+const actualHeight = element.offsetHeight
+const canvas = await html2canvas(element, {
+  height: actualHeight, // 899px固定から変更
+  overflow: 'visible'   // hiddenからvisibleに変更
+})
+```
+
+#### 5.3 適用結果
+- **4個のアイテム**: 960px（元899px → 収まる）
+- **5個のアイテム**: 1180px（元899px → 収まる）
+- **6個のアイテム**: 1350px（元899px → 収まる）
+
+#### 5.4 他テンプレートへの応用可能性
+この解決方法は以下のテンプレートでも同様の問題が発生する可能性があります：
+
+**⚠️ 注意**: 以下の実装は**ユーザーからの指示があるまで勝手に実装しないこと**
+
+**対象候補テンプレート**:
+- `SimpleFiveTemplate` - ステップ数が多い場合
+- `section-items` - セクション項目が多い場合  
+- `enumeration` - 列挙項目が多い場合
+- その他、垂直スクロールが発生する可能性のあるテンプレート
+
+**適用方法**:
+1. 各テンプレートのアイテム数を取得する関数を作成
+2. `calculateHeight()`でテンプレートタイプ別の高さ計算を追加
+3. `html2canvas`で実際の要素高さを使用
+
+### 6. 今後の作業予定
 1. 要件定義に基づく新テンプレート実装
 2. デバッグラインの削除
 3. Gemini呼び出しの復元

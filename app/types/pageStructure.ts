@@ -24,4 +24,6 @@ export interface GeneratedPage {
   content: {
     [key: string]: any
   }
+  rankingData?: any[]
+  graphData?: any
 }
