@@ -17,11 +17,18 @@
    - 16種類のテンプレートの正確な名前を確認
    - 各項目の本来の用途を理解
 
-2. **画像の完全読み込み**
+2. **未分析contents特定**
+   - **分析済み確認先**: `/mnt/c/instagram-course/instagram-post-generator/docs/content-analysis/`
+   - 既存の`contents-X-analysis.md`ファイルを確認し、分析済み番号を特定
+   - **contentsディレクトリ**: `/mnt/c/instagram-course/instagram-post-generator/contents/`内の全フォルダ番号を確認
+   - 未分析のcontents番号を特定して分析対象を決定
+
+3. **画像の完全読み込み**
+   - **contentsディレクトリパス**: `/mnt/c/instagram-course/instagram-post-generator/contents/`
    - 全ての画像を順次読み込み
    - 画像内の全テキストを正確に把握
 
-3. **全体のページ構成の記載**
+4. **全体のページ構成の記載**
    - 投稿全体の構成を一覧で明記
    - 各ページの役割と流れを把握
 
@@ -119,7 +126,7 @@
 ## 分析結果の保存
 
 ### 保存場所
-- **保存先ディレクトリ**: `docs/content-analysis/`
+- **保存先ディレクトリ**: `/mnt/c/instagram-course/instagram-post-generator/docs/content-analysis/`
 - **保存は必須**: 分析完了後、必ず結果をファイルに保存すること
 
 ### ファイル命名規則
@@ -132,6 +139,7 @@
 ### 保存内容
 - 上記のフォーマットに従った完全な分析結果
 - 分析完了日、総ページ数、主要ジャンル、構成タイプを末尾に記載
+- **ハッシュタグの記載**: 投稿の最後のページにハッシュタグがある場合は、そのハッシュタグをそのまま記載する（分析は不要、単純に存在する場合のみ記載）
 
 ### 保存タイミング
 - **各contents分析完了直後**: 次のcontents分析に移る前に必ず保存
