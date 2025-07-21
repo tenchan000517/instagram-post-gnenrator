@@ -1,4 +1,4 @@
-# Instagram投稿生成システム - 完全実行プロンプト集
+<!-- # Instagram投稿生成システム - 完全実行プロンプト集
 
 ## 📋 使用方法
 
@@ -47,7 +47,6 @@
 【現在フェーズ】Phase 1: 全100投稿の個別詳細分析
 【担当範囲】contents-021 〜 contents-040
 【作業記録先】docs/content-analysis/analytics/step1-post-types/working/phase1-individual-analysis.md
-【前回完了範囲】contents-001 〜 contents-020
 
 重要：既存の記録フォーマットに従い、タイプ分類なしでデータ抽出のみ継続。
 ```
@@ -72,7 +71,7 @@
 【現在フェーズ】Phase 1: 全100投稿の個別詳細分析
 【担当範囲】contents-041 〜 contents-060
 【作業記録先】docs/content-analysis/analytics/step1-post-types/working/phase1-individual-analysis.md
-【前回完了範囲】contents-001 〜 contents-040
+【前回完了範囲】contents-021 〜 contents-040
 
 重要：既存の記録フォーマットに従い、タイプ分類なしでデータ抽出のみ継続。
 ```
@@ -122,7 +121,7 @@
 【現在フェーズ】Phase 1: 全100投稿の個別詳細分析
 【担当範囲】contents-081 〜 contents-100
 【作業記録先】docs/content-analysis/analytics/step1-post-types/working/phase1-individual-analysis.md
-【前回完了範囲】contents-001 〜 contents-080
+【前回完了範囲】contents-001 〜 contents-060
 
 重要：既存の記録フォーマットに従い、タイプ分類なしでデータ抽出のみ継続。全100投稿完了後、Phase 2の準備を整える。
 ```
@@ -400,7 +399,54 @@
 分析結果の品質保証と実装フェーズへの確実な引き継ぎ。要件定義で約束した価値の実現可能性を最終確認。
 
 重要：古いドキュメントや作業記録ではなく、上記最新版成果物のみを参照してディスカッション。
-```
+``` -->
+
+【分析フェーズ完了】Instagram投稿生成システムの全分析が完了しました。検証・ディスカッションフェーズを開始してください。
+
+【必読ドキュメント（最新版のみ参照）】
+- docs/master/SYSTEM_REQUIREMENTS_DEFINITION.md（要件定義・設計思想）
+- docs/master/COMPLETE_ANALYSIS_FRAMEWORK_V2.md（分析手法・品質基準）
+- docs/content-analysis/analytics/POST_ANALYSIS_HANDOVER.md（重要ドキュメント一覧・検証項目）
+
+【分析成果物（実装基盤）】
+- docs/content-analysis/analytics/step1-post-types/POST_TYPE_CATEGORIZATION_COMPLETE.md
+- docs/content-analysis/analytics/step2-personas/PERSONA_ID_SYSTEM.md
+- docs/content-analysis/analytics/step3-themes/THEME_INTEGRATION_MAPPING.md  
+- docs/content-analysis/analytics/step4-integration/FINAL_SYSTEM_SPECIFICATION.md
+
+【Phase 1: 検証項目】
+1. 要件定義と分析結果の整合性確認
+2. TypeID・PersonaID・ThemeID体系の妥当性検証
+3. システム実装仕様の実現可能性確認
+4. 品質基準の達成度評価
+5. 実装フェーズ移行の準備状況確認
+
+【Phase 2: 背骨ドキュメント精度向上ディスカッション】
+Phase 1の検証完了後、以下の背骨ドキュメントの精度向上についてユーザーとディスカッションを実施：
+
+**対象ドキュメント**:
+- dev/content-analysis-integration/work-overview.md
+- dev/content-analysis-integration/requirements/system-integration-spec.md
+- dev/content-analysis-integration/documentation/progress-tracking.md
+
+**ディスカッション項目**:
+1. 分析成果物との整合性確認・修正点の特定
+2. Perfect Match機能実装の優先順位・詳細仕様の議論
+3. 品質保証システム（70点基準・100点ルール）の実装方針精緻化
+4. 実装フェーズ計画の現実性・リソース配分の妥当性検証
+5. 技術的リスク・制約事項の追加検討
+6. 成功指標・KPIの具体化・測定方法の明確化
+
+**ディスカッション方式**:
+- 各背骨ドキュメントについて、ユーザーの視点から不足要素・修正点を特定
+- 分析成果物の知見を活用した具体的改善提案の協議
+- 実装の実現可能性・優先順位について詳細議論
+
+【目的】
+Phase 1: 分析結果の品質保証と実装フェーズへの確実な引き継ぎ準備
+Phase 2: 実装計画の精度向上・実現可能性の最大化
+
+重要：古いドキュメントや作業記録ではなく、上記最新版成果物のみを参照。Phase 1完了後、必ずPhase 2のディスカッションに移行すること。
 
 ---
 

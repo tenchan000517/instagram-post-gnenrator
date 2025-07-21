@@ -1,0 +1,515 @@
+{
+  "knowledge_database_version": "1.0",
+  "creation_date": "2025-07-21",
+  "total_analyzed_posts": 12,
+  "analysis_depth": "complete_needs_solution_mapping",
+  
+  "typeid_001_empathy_emotional": {
+    "type_definition": {
+      "type_id": "001",
+      "type_name": "共感・感情誘導型",
+      "emotion_logic_ratio_range": "40:60～85:15",
+      "core_approach": "感情的共感から信頼関係構築→解決策提示"
+    },
+    
+    "analyzed_posts": [
+      {
+        "knowledge_id": "empathy-career-anxiety-001",
+        "content_id": "contents-001",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "働く女性のキャリア継続と理不尽な扱いへの対処",
+          "urgency_level": "high",
+          "emotional_state": ["怒り", "不安", "孤独感", "無力感", "希望"],
+          "trigger_moments": [
+            "職場での理不尽体験直後（「お茶出して」「体調不良への理解不足」）",
+            "人生設計を考えるタイミング（結婚・出産・キャリアアップ検討時）",
+            "外部プレッシャー（周囲からの結婚・出産質問、転職検討時）"
+          ]
+        },
+        
+        "persona_profile": {
+          "target": "25-35歳女性会社員（社会人経験3-10年）",
+          "solution_style": "感情的共感+論理的解決策の複合型",
+          "psychological_needs": ["承認欲求", "安全欲求", "自己実現欲求", "所属欲求"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "85:15",
+          "structure": "7段階感情誘導→共鳴確認→専門家解決提示",
+          "why_effective": "7つの具体的事例で完全な信頼構築後、45分間無料相談という具体的CTA",
+          "unique_value": "理不尽な扱いの完全言語化による感情浄化効果"
+        }
+      },
+      
+      {
+        "knowledge_id": "strategic-jobhunting-support-001", 
+        "content_id": "contents-008",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "社会人5-6年以上の中堅層の評価不足・停滞感解消",
+          "urgency_level": "medium-high",
+          "emotional_state": ["悔しさ", "孤立感", "成長欲求"],
+          "trigger_moments": [
+            "努力しているのに評価されない状況",
+            "同期との差を感じた時",
+            "キャリア停滞への危機感"
+          ]
+        },
+        
+        "persona_profile": {
+          "target": "社会人5-6年以上の中堅ビジネスパーソン",
+          "solution_style": "共感+論理的説得のハイブリッド型",
+          "psychological_needs": ["成長欲求", "効率性", "差別化", "自立性"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "60:40",
+          "structure": "問題共感→権威性提示→解決期待創出",
+          "why_effective": "300名指導実績による権威性+具体的改善への道筋提示",
+          "unique_value": "戦略的就活生の「共感+論理」両方のニーズ同時対応"
+        }
+      },
+      
+      {
+        "knowledge_id": "data-driven-empathy-001",
+        "content_id": "contents-024", 
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "26卒就活生の内定獲得不安と具体的企業情報ニーズ",
+          "urgency_level": "high", 
+          "emotional_state": ["焦り", "不安", "希望"],
+          "trigger_moments": [
+            "内定0状況での焦り",
+            "具体的企業情報不足の認識",
+            "選考期限迫る緊急性"
+          ]
+        },
+        
+        "persona_profile": {
+          "target": "26卒就活生（内定獲得に苦戦中）",
+          "solution_style": "データ重視+感情配慮の論理主導型", 
+          "psychological_needs": ["安心感", "選択肢の明確化", "専門的支援", "即行動性"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "40:60",
+          "structure": "感情共感→具体的企業データ→専門的支援",
+          "why_effective": "5社詳細データによる即座の行動可能性+専門家権威性",
+          "unique_value": "論理60%を支える感情40%の戦略的配置による完璧な二段階価値提供"
+        }
+      },
+      
+      {
+        "knowledge_id": "practical-empathy-interview-001",
+        "content_id": "contents-027",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "面接での想定外質問への不安解消と具体的対処法習得",
+          "urgency_level": "high",
+          "emotional_state": ["パニック", "困惑", "不安"],
+          "trigger_moments": [
+            "面接で予期しない質問を受けた瞬間",
+            "面接準備の不完全性を認識した時",
+            "面接継続中の緊急対処ニーズ"
+          ]
+        },
+        
+        "persona_profile": {
+          "target": "面接を控えた・実施中の就活生（不安解消型）",
+          "solution_style": "感情フック+論理的問題解決の実用型",
+          "psychological_needs": ["即効性", "実用性", "安心感", "自信回復"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "40:60",
+          "structure": "強烈感情フック→論理的対処法→実践促進",
+          "why_effective": "「心臓止まった」共感→具体的回答方法→即実践可能性",
+          "unique_value": "TypeID=001で最も論理的な「感情入口・論理解決」モデルの完成形"
+        }
+      }
+    ]
+  },
+  
+  "typeid_002_educational_learning": {
+    "type_definition": {
+      "type_id": "002", 
+      "type_name": "教育・学習特化型",
+      "emotion_logic_ratio_range": "15:85～30:70",
+      "core_approach": "体系的知識伝達による段階的スキル習得支援"
+    },
+    
+    "analyzed_posts": [
+      {
+        "knowledge_id": "female-career-education-001",
+        "content_id": "contents-002",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "女性の長期的キャリア構築と生活変化への対応力強化",
+          "urgency_level": "low-medium",
+          "goal": "ライフイベント対応可能な安定キャリア構築",
+          "learning_outcome": "7つのポイントによる包括的キャリア戦略習得"
+        },
+        
+        "persona_profile": {
+          "target": "キャリア構築中の女性社会人（スキル向上志向）", 
+          "solution_style": "体系的戦略学習重視型",
+          "psychological_needs": ["長期安心感", "戦略的思考", "自立的判断力", "継続学習"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "30:70",
+          "structure": "問題共有→7つのPoint体系→継続的関係構築",
+          "why_effective": "段階的知識構築+実践的行動指針+専門性による長期関係",
+          "unique_value": "感情的配慮を保ちながら論理的説得力で自立支援を実現"
+        }
+      },
+      
+      {
+        "knowledge_id": "self-analysis-complete-guide-001",
+        "content_id": "contents-004", 
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "自己分析初心者の体系的手法習得と就活準備", 
+          "urgency_level": "medium",
+          "goal": "5つの分析手法完全習得による自己理解深化",
+          "learning_outcome": "理論的背景から実践手順まで完全網羅した自己分析力"
+        },
+        
+        "persona_profile": {
+          "target": "自己分析初心者の戦略的就活生",
+          "solution_style": "段階的習得重視・理解深化型", 
+          "psychological_needs": ["体系的理解", "確実性", "成長実感", "基礎構築"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "30:70", 
+          "structure": "重要性説明→5手法詳細解説→継続実践促進",
+          "why_effective": "心理学理論+図解+段階的実行手順の三位一体設計",
+          "unique_value": "初心者配慮と専門性の両立による完全ガイド実現"
+        }
+      },
+      
+      {
+        "knowledge_id": "phone-manner-anxiety-resolution-001",
+        "content_id": "contents-010",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "就活生の電話マナー不安完全解消と実践スキル習得",
+          "urgency_level": "high", 
+          "goal": "電話応対への自信獲得と実用的マナー習得",
+          "learning_outcome": "5つの基本原則+8種クッション言葉の完全マスター"
+        },
+        
+        "persona_profile": {
+          "target": "電話マナー不安を抱える就活生（不安解消型）",
+          "solution_style": "実践特化・即効性重視型",
+          "psychological_needs": ["即効的安心感", "実用性", "確実性", "自信回復"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "15:85",
+          "structure": "不安共感→体系的技法習得→実践促進", 
+          "why_effective": "マイナビ権威性+具体的技法+段階的自信構築",
+          "unique_value": "TypeID=002で最も論理重視の不安解消特化型教育システム"
+        }
+      },
+      
+      {
+        "knowledge_id": "time-specific-urgent-education-001",
+        "content_id": "contents-023",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "大学3年7月時点での就活準備緊急対応と体系的行動指針", 
+          "urgency_level": "high",
+          "goal": "7段階行動指針による確実な就活準備完了",
+          "learning_outcome": "時期特化型の戦略的就活準備システム習得"
+        },
+        
+        "persona_profile": {
+          "target": "大学3年7月の就活準備学生",
+          "solution_style": "緊急性+体系性の統合型",
+          "psychological_needs": ["緊急対応", "確実性", "体系的理解", "行動指針"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "25:75",
+          "structure": "統計的根拠→7段階体系→緊急行動促進", 
+          "why_effective": "統計データ+具体的目標設定+体系的手順の三重保証",
+          "unique_value": "時期特化×体系教育×緊急性の三要素統合による最適化教育"
+        }
+      }
+    ]
+  },
+  
+  "typeid_003_information_data": {
+    "type_definition": {
+      "type_id": "003",
+      "type_name": "情報提供・データ型", 
+      "emotion_logic_ratio_range": "5:95～30:70",
+      "core_approach": "客観的データ・実証済み手法による確実な成果獲得支援"
+    },
+    
+    "analyzed_posts": [
+      {
+        "knowledge_id": "ai-monetization-technical-001",
+        "content_id": "contents-003",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "AI活用による具体的収益化手法と実証済み技術情報",
+          "urgency_level": "medium", 
+          "goal": "12万4,000円レベルの収益化実現",
+          "information_type": "技術的手順+実績証明"
+        },
+        
+        "persona_profile": {
+          "target": "AI収益化に特化した情報収集型ビジネスパーソン",
+          "solution_style": "データ重視・実証性重視型",
+          "psychological_needs": ["即効性", "確実性", "投資対効果", "技術的信頼性"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "20:80",
+          "structure": "実績証明→7ステップ手順→継続学習誘導",
+          "why_effective": "具体的数値実績+詳細技術手順+社会的証明の三重信頼構築",
+          "unique_value": "精度価値を核とした技術特化型情報提供の完成形"
+        }
+      },
+      
+      {
+        "knowledge_id": "corporate-benefit-catalog-001", 
+        "content_id": "contents-021",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "就活生の企業選択における具体的福利厚生情報と比較検討支援",
+          "urgency_level": "medium",
+          "goal": "家賃補助制度による企業選択最適化", 
+          "information_type": "企業制度カタログ+比較情報"
+        },
+        
+        "persona_profile": {
+          "target": "実用主義的企業研究重視の就活生",
+          "solution_style": "比較検討重視・客観的判断型",
+          "psychological_needs": ["選択肢理解", "客観的比較", "即実用性", "信頼できる情報"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "20:80", 
+          "structure": "企業名提示→制度詳細→統一フォーマット比較",
+          "why_effective": "8社統一フォーマット+具体的条件+検証可能性による最高信頼度",
+          "unique_value": "TypeID=003で唯一の信頼度4.0達成による情報型コンテンツの理想形"
+        }
+      },
+      
+      {
+        "knowledge_id": "empathy-based-information-001",
+        "content_id": "contents-022", 
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "学歴コンプレックス解消と実用的スキルアップ情報",
+          "urgency_level": "low-medium",
+          "goal": "学歴を超越する評価獲得手段の習得",
+          "information_type": "資格情報リスト+心理的配慮"
+        },
+        
+        "persona_profile": {
+          "target": "学歴コンプレックスを抱える効率化志向ビジネスパーソン", 
+          "solution_style": "感情配慮+効率的解決策重視型",
+          "psychological_needs": ["自信回復", "差別化", "効率性", "実用性"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "30:70",
+          "structure": "感情的共感→10資格リスト→転職サービス誘導",
+          "why_effective": "学歴コンプレックス配慮+簡潔効率+実用価値の三重設計", 
+          "unique_value": "TypeID=003最高の感情比重30%による感情配慮型情報提供"
+        }
+      },
+      
+      {
+        "knowledge_id": "authority-integrated-information-001",
+        "content_id": "contents-026",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "高倍率企業内定獲得のための権威的情報と実績証明",
+          "urgency_level": "high",
+          "goal": "TOP50企業内定レベルの選考対策完了", 
+          "information_type": "権威的ランキング+実績証明+大量データ"
+        },
+        
+        "persona_profile": {
+          "target": "信頼性と情報量を同時に求める戦略的意思決定型就活生",
+          "solution_style": "権威性重視・データ統合型", 
+          "psychological_needs": ["権威的信頼", "情報完全性", "社会的証明", "戦略的優位性"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "25:75",
+          "structure": "権威的タイトル→企業ランキング→実績証明→誘導",
+          "why_effective": "2000人実績+内定企業群+TOP50データの三重権威性構築",
+          "unique_value": "6要素最大構成（詳細性/整理性/量/密度/精度/権威性）によるTypeID=003最高進化形"
+        }
+      }
+    ]
+  },
+  
+  "typeid_004_efficiency_practical": {
+    "type_definition": {
+      "type_id": "004",
+      "type_name": "効率・実用特化型",
+      "emotion_logic_ratio_range": "25:75～50:50", 
+      "core_approach": "感情共感+実用性の組み合わせによる効率的目標達成支援"
+    },
+    
+    "analyzed_posts": [
+      {
+        "knowledge_id": "side-business-practical-guide-001",
+        "content_id": "contents-005",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "副業未経験者の月5万円収入達成と段階的実践支援",
+          "urgency_level": "medium", 
+          "goal": "週5-6時間作業での月5万円副業収入確立",
+          "practical_outcome": "具体的副業手法習得と継続実行力獲得"
+        },
+        
+        "persona_profile": {
+          "target": "副業未経験の効率化志向女性ビジネスパーソン",
+          "solution_style": "感情共感+段階的実践の複合型",
+          "psychological_needs": ["安心感", "実現可能性", "段階的成長", "効率性"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "40:60",
+          "structure": "感情共感→数値目標→4段階手順→成功事例", 
+          "why_effective": "AIDMAモデル+具体的計算+段階的アプローチの統合設計",
+          "unique_value": "詳細性+整理性+情緒の三要素で不安解消と実用性を両立"
+        }
+      },
+      
+      {
+        "knowledge_id": "intrinsic-motivation-growth-001", 
+        "content_id": "contents-006",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "現状不満足感の解消と内発的動機による自己実現支援",
+          "urgency_level": "low-medium",
+          "goal": "理想の未来設定と内発的行動力獲得", 
+          "practical_outcome": "自己分析による方向性発見と継続的成長システム"
+        },
+        
+        "persona_profile": {
+          "target": "現状に不安を抱える内省志向型ビジネスパーソン",
+          "solution_style": "感情重視+内発動機創出型",
+          "psychological_needs": ["自己理解", "方向性", "内発動機", "長期的安心感"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "50:50", 
+          "structure": "感情的共感→内省プロセス→理想形成→診断ツール",
+          "why_effective": "50:50バランスによる感情と論理の完全統合",
+          "unique_value": "情緒優先配置によるTypeID=004の感情先行型戦略実現"
+        }
+      },
+      
+      {
+        "knowledge_id": "career-authority-expertise-001",
+        "content_id": "contents-007", 
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "転職成功のための専門的知識と権威的アドバイス獲得",
+          "urgency_level": "high",
+          "goal": "転職活動での優位性確立と成功率向上",
+          "practical_outcome": "人事視点による実践的転職戦略の完全習得"
+        },
+        
+        "persona_profile": {
+          "target": "転職を検討中の戦略的ビジネスパーソン", 
+          "solution_style": "権威性重視+専門知識活用型",
+          "psychological_needs": ["専門的信頼", "確実性", "差別化", "効率的成果"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "25:75",
+          "structure": "権威性提示→5つの専門知識→実践指針",
+          "why_effective": "元人事権威性+内部視点+具体的実践方法の三重価値", 
+          "unique_value": "TypeID=004最高の論理比重75%による純粋専門性追求"
+        }
+      },
+      
+      {
+        "knowledge_id": "pure-efficiency-pursuit-001",
+        "content_id": "contents-009",
+        "version": "1.0",
+        
+        "needs_definition": {
+          "primary_need": "AI活用による作業効率化と最新ツール情報の網羅的獲得", 
+          "urgency_level": "medium",
+          "goal": "12種AIツール活用による生産性向上実現",
+          "practical_outcome": "最適AIツール選択と効率的活用システム構築"
+        },
+        
+        "persona_profile": {
+          "target": "最新効率化ツールを求める実践志向ビジネスパーソン",
+          "solution_style": "純粋効率追求+即実用重視型", 
+          "psychological_needs": ["効率性", "網羅性", "即効性", "優越感"]
+        },
+        
+        "solution_approach": {
+          "emotion_logic_ratio": "35:65",
+          "structure": "損失回避感情→12ツール提示→継続価値提供",
+          "why_effective": "量×鮮度×簡潔性の三重価値による完璧な効率性実現",
+          "unique_value": "TypeID=004の純粋効率追求型として最も論理重視65%の究極形"
+        }
+      }
+    ]
+  },
+  
+  "cross_analysis_insights": {
+    "emotion_logic_ratio_patterns": {
+      "typeid_001": "40:60～85:15（感情重視で最大幅）",
+      "typeid_002": "15:85～30:70（論理重視で安定）", 
+      "typeid_003": "20:80～30:70（論理優位で感情調整）",
+      "typeid_004": "25:75～50:50（バランス重視で柔軟性）"
+    },
+    
+    "value_element_patterns": {
+      "basic_3elements": "詳細性/整理性/精度（全TypeIDの基本構成）",
+      "extended_4elements": "基本3要素+情緒/量/鮮度/簡潔性", 
+      "maximum_6elements": "contents-026の詳細性/整理性/量/密度/精度/権威性"
+    },
+    
+    "trust_score_correlation": {
+      "high_4_0": "主にTypeID=001,002,003（完全性重視型）",
+      "medium_3_5": "境界線・バランス型投稿",
+      "low_2_5": "TypeID=004に集中（判定基準の厳格さ）"
+    },
+    
+    "persona_adaptability": {
+      "discovery": "各TypeIDが複数ペルソナに柔軟対応可能",
+      "strategic_implication": "同一TypeID内でも感情比率と価値要素を戦略的調整により多様なニーズに対応"
+    }
+  },
+  
+  "implementation_readiness": {
+    "status": "complete_analysis_ready_for_system_implementation",
+    "total_knowledge_patterns": 12,
+    "depth_analysis_completion": "100%",
+    "next_phase": "knowledge_base_system_construction_with_complete_needs_solution_mapping"
+  }
+}
