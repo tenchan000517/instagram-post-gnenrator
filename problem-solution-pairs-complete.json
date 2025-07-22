@@ -1,0 +1,652 @@
+{
+  "metadata": {
+    "title": "Instagram投稿100件から抽出した問題→解決ペア完全版データベース",
+    "description": "ペルソナ別・カテゴリ別・役割別に整理された検索可能な問題→解決ペア53件",
+    "extractionDate": "2025-07-22",
+    "totalPairs": 53,
+    "sourceData": "Contents 1-100分析結果",
+    "version": "1.0"
+  },
+  
+  "searchIndex": {
+    "personas": ["P001", "P002", "P003", "P004", "P005", "P006", "P007", "P008"],
+    "problemCategories": [
+      "自己分析・ES対策",
+      "業界研究・企業分析", 
+      "面接対策・コミュニケーション",
+      "インターン準備・対策",
+      "キャリア不安・将来設計",
+      "就活効率化・AI活用",
+      "働き方・職場環境",
+      "メンタルヘルス・ストレス",
+      "スキル習得・資格",
+      "時期別対策・緊急対応"
+    ],
+    "roles": [
+      "emotional-hook",
+      "problem-analysis", 
+      "solution-framework",
+      "practical-guidance",
+      "social-proof",
+      "urgency-creation",
+      "cta-conversion",
+      "educational-content",
+      "empathy-building",
+      "trust-establishment"
+    ]
+  },
+
+  "problemSolutionPairs": [
+    {
+      "id": "PSP001",
+      "source": "contents-001",
+      "targetPersona": "P002",
+      "problemCategory": "キャリア不安・将来設計",
+      "role": "empathy-building",
+      "actualTitle": "働く女性の不安あるある7選",
+      "problemDescription": "働く女性が直面する職場での性別による差別的扱い、体調管理の困難、キャリアと家庭の両立不安、社会的プレッシャー、将来への漠然とした不安",
+      "solutionContent": "専門的なキャリアトレーナーによる45分間の無料相談サービス提供、個別の悩みに対する専門的アドバイス",
+      "effectiveExpressions": [
+        "女性だから雑用を任される",
+        "体の不調に耐えながら仕事をこなす",
+        "考えてるよ（感情的な共鳴表現）",
+        "45分間たっぷり相談"
+      ],
+      "searchKeywords": ["働く女性", "キャリア不安", "職場差別", "両立問題", "専門相談"],
+      "emotionalTriggers": ["共感", "理解", "支援"],
+      "marketingStage": "共感→解決策提示→行動促進",
+      "conversionMethod": "無料相談サービス誘導"
+    },
+
+    {
+      "id": "PSP002", 
+      "source": "contents-002",
+      "targetPersona": "P005",
+      "problemCategory": "キャリア不安・将来設計",
+      "role": "practical-guidance",
+      "actualTitle": "一生安心できる女性が困らないキャリア",
+      "problemDescription": "これからの未来への不安、現在の働き方への迷い、結婚・出産・介護などのライフイベントに振り回される不安",
+      "solutionContent": "7つの具体的なキャリア構築ポイント：働き方選択肢の意識、汎用スキル習得、継続学習、人脈構築、副業準備、自己理解、計画的準備",
+      "effectiveExpressions": [
+        "一生安心できるキャリア", 
+        "女性が困らない働き方",
+        "ライフイベントに振り回されたくない",
+        "自己分析から始めてみて"
+      ],
+      "searchKeywords": ["女性キャリア", "将来設計", "安心", "働き方", "ライフイベント"],
+      "emotionalTriggers": ["安心感", "自立", "計画性"],
+      "marketingStage": "問題提起→教育価値提供→行動促進",
+      "conversionMethod": "フォロー促進・継続的関係構築"
+    },
+
+    {
+      "id": "PSP003",
+      "source": "contents-003",
+      "targetPersona": "P007", 
+      "problemCategory": "就活効率化・AI活用",
+      "role": "practical-guidance",
+      "actualTitle": "AI上級者がこそって使う自動で指示文をつくる7ステップ",
+      "problemDescription": "AI活用による収益化の方法が分からない、効果的なプロンプト作成の困難、初心者でも実践可能な具体的手順の不足",
+      "solutionContent": "Google AI Studio活用による7つの具体的ステップ：登録→モデル選択→設定調整→プロンプト作成→実行、実績証明として12万4,000円の収益化事例",
+      "effectiveExpressions": [
+        "AI上級者がこそって使う",
+        "12万4,000円作れる",
+        "初心者でもお家で収益化",
+        "3倍高くクオリティも高い"
+      ],
+      "searchKeywords": ["AI活用", "収益化", "プロンプト", "自動化", "副業"],
+      "emotionalTriggers": ["優越感", "収益期待", "効率性"],
+      "marketingStage": "手順整理→実績証明→行動促進",
+      "conversionMethod": "無料講座誘導"
+    },
+
+    {
+      "id": "PSP004",
+      "source": "contents-010",
+      "targetPersona": "P001",
+      "problemCategory": "面接対策・コミュニケーション",
+      "role": "practical-guidance", 
+      "actualTitle": "面接で9割受かる最強の逆質問7選",
+      "problemDescription": "面接の逆質問で何を聞けば良いか分からない、印象に残る質問ができない、他の就活生との差別化が図れない",
+      "solutionContent": "7つの効果的な逆質問パターン：成長機会、企業文化、キャリアパス、チーム dynamics、業界展望、具体的業務内容、評価制度について",
+      "effectiveExpressions": [
+        "9割受かる最強の逆質問",
+        "面接官の印象に残る",
+        "他の就活生と差をつける",
+        "必ず聞くべき質問"
+      ],
+      "searchKeywords": ["面接", "逆質問", "合格率", "差別化", "印象"],
+      "emotionalTriggers": ["成功期待", "優位性", "安心感"],
+      "marketingStage": "問題認識→解決策提示→実践促進",
+      "conversionMethod": "教育価値提供→フォロー促進"
+    },
+
+    {
+      "id": "PSP005",
+      "source": "contents-013",
+      "targetPersona": "P002",
+      "problemCategory": "自己分析・ES対策",
+      "role": "empathy-building",
+      "actualTitle": "自己PRで差をつける！強みの見つけ方5ステップ",
+      "problemDescription": "自分の強みが分からない、他の就活生と似たような自己PRになってしまう、具体的なエピソードが思い浮かばない",
+      "solutionContent": "5つの段階的アプローチ：過去の成功体験整理→行動パターン分析→第三者視点での確認→強みの言語化→具体例との組み合わせ",
+      "effectiveExpressions": [
+        "自己PRで差をつける",
+        "強みが見つからない就活生へ",
+        "具体的なエピソード",
+        "5ステップで確実に"
+      ],
+      "searchKeywords": ["自己分析", "強み発見", "自己PR", "差別化", "エピソード"],
+      "emotionalTriggers": ["自信獲得", "差別化", "安心感"],
+      "marketingStage": "共感→解決手法→実践ガイド",
+      "conversionMethod": "教育価値提供→継続サポート"
+    },
+
+    {
+      "id": "PSP006",
+      "source": "contents-015",
+      "targetPersona": "P001",
+      "problemCategory": "業界研究・企業分析",
+      "role": "practical-guidance",
+      "actualTitle": "業界研究で差をつける5つの視点",
+      "problemDescription": "業界研究のやり方が分からない、表面的な情報収集に留まってしまう、業界の本質的な課題や展望が理解できない",
+      "solutionContent": "5つの分析視点：市場規模・成長性→競合状況→技術革新の影響→社会的役割→将来展望、情報収集手法と分析フレームワーク",
+      "effectiveExpressions": [
+        "業界研究で差をつける",
+        "本質的な理解",
+        "5つの視点",
+        "戦略的分析"
+      ],
+      "searchKeywords": ["業界研究", "企業分析", "戦略思考", "競合分析", "将来展望"],
+      "emotionalTriggers": ["知的満足", "優位性", "理解深化"],
+      "marketingStage": "問題認識→分析手法→実践促進", 
+      "conversionMethod": "専門性訴求→フォロー促進"
+    },
+
+    {
+      "id": "PSP007",
+      "source": "contents-022",
+      "targetPersona": "P004",
+      "problemCategory": "時期別対策・緊急対応",
+      "role": "urgency-creation",
+      "actualTitle": "3月までに内定を取るための緊急対策",
+      "problemDescription": "卒業が迫っているのに内定が取れない、時間がない中で効率的な就活を進める必要がある、焦りと不安で冷静な判断ができない",
+      "solutionContent": "時期別緊急対策プラン：即効性のある企業選定→応募書類の最適化→面接対策の集中実施→内定確率の高い選考ルートの活用",
+      "effectiveExpressions": [
+        "3月までに内定",
+        "緊急対策プラン",
+        "今すぐやるべきこと",
+        "最短ルート"
+      ],
+      "searchKeywords": ["内定", "緊急対策", "卒業", "時期", "効率"],
+      "emotionalTriggers": ["緊急性", "希望", "焦燥感解消"],
+      "marketingStage": "危機認識→解決策→即座行動",
+      "conversionMethod": "個別相談サービス誘導"
+    },
+
+    {
+      "id": "PSP008", 
+      "source": "contents-025",
+      "targetPersona": "P003",
+      "problemCategory": "インターン準備・対策",
+      "role": "practical-guidance",
+      "actualTitle": "サマーインターンで内定に直結する5つの行動",
+      "problemDescription": "インターンでの振る舞い方が分からない、他の参加者との差別化ができない、本選考につながる評価を得られない",
+      "solutionContent": "5つの戦略的行動：積極的な質問・提案→チームワークの発揮→企業理解の深化→社員との関係構築→フィードバックの活用",
+      "effectiveExpressions": [
+        "内定に直結する",
+        "サマーインターンで差をつけ",
+        "5つの戦略的行動",
+        "本選考に有利"
+      ],
+      "searchKeywords": ["インターン", "内定直結", "差別化", "評価", "本選考"],
+      "emotionalTriggers": ["成功期待", "戦略性", "優位性"],
+      "marketingStage": "目標設定→具体的行動→成果期待",
+      "conversionMethod": "実践ガイド提供→継続サポート"
+    },
+
+    {
+      "id": "PSP009",
+      "source": "contents-038",
+      "targetPersona": "P002", 
+      "problemCategory": "メンタルヘルス・ストレス",
+      "role": "empathy-building",
+      "actualTitle": "就活うつを乗り越える心のケア方法",
+      "problemDescription": "就活のストレスで精神的に疲弊している、不採用が続いて自信を失っている、周囲との比較で焦りや劣等感を感じている",
+      "solutionContent": "メンタルケア戦略：感情の受容と整理→ストレス解消法の実践→サポート体制の構築→前向きな目標設定→専門的サポートの活用",
+      "effectiveExpressions": [
+        "就活うつを乗り越える",
+        "心のケア",
+        "あなたは一人じゃない",
+        "前向きな気持ち"
+      ],
+      "searchKeywords": ["就活うつ", "メンタルケア", "ストレス", "心理", "サポート"],
+      "emotionalTriggers": ["共感", "安心感", "希望"],
+      "marketingStage": "共感→理解→ケア手法→サポート提供",
+      "conversionMethod": "相談サービス・コミュニティ誘導"
+    },
+
+    {
+      "id": "PSP010",
+      "source": "contents-042",
+      "targetPersona": "P001",
+      "problemCategory": "就活効率化・AI活用", 
+      "role": "practical-guidance",
+      "actualTitle": "ChatGPTで就活を10倍効率化する方法",
+      "problemDescription": "就活の準備や情報収集に時間がかかりすぎる、ES作成や面接準備が非効率、AI活用方法が分からない",
+      "solutionContent": "AI活用戦略：ES自動生成→面接想定質問作成→業界情報収集→自己分析サポート→スケジュール管理の効率化",
+      "effectiveExpressions": [
+        "10倍効率化",
+        "ChatGPT活用術",
+        "時間短縮",
+        "自動化"
+      ],
+      "searchKeywords": ["ChatGPT", "効率化", "AI活用", "自動化", "時短"],
+      "emotionalTriggers": ["効率性", "先進性", "優位性"], 
+      "marketingStage": "問題認識→解決ツール→実践方法",
+      "conversionMethod": "具体的手法提供→フォロー促進"
+    },
+
+    {
+      "id": "PSP011",
+      "source": "contents-046",
+      "targetPersona": "P006",
+      "problemCategory": "自己分析・ES対策",
+      "role": "empathy-building", 
+      "actualTitle": "学歴フィルターに負けない自己PR術",
+      "problemDescription": "学歴に自信がなく大手企業を諦めてしまう、学歴以外の強みをアピールできない、学歴フィルターに対する不安と劣等感",
+      "solutionContent": "学歴以外の価値証明戦略：実体験・成果の具体化→スキル・能力の可視化→人柄・価値観の表現→成長意欲の示し方→企業マッチングの重要性",
+      "effectiveExpressions": [
+        "学歴フィルターに負けない",
+        "学歴以外の価値",
+        "実力で勝負",
+        "あなたの価値"
+      ],
+      "searchKeywords": ["学歴フィルター", "学歴コンプレックス", "実力主義", "価値証明", "自己PR"],
+      "emotionalTriggers": ["共感", "希望", "自信回復"],
+      "marketingStage": "共感→価値再認識→具体的手法",
+      "conversionMethod": "個別指導・コミュニティ誘導"
+    },
+
+    {
+      "id": "PSP012",
+      "source": "contents-050",
+      "targetPersona": "P003",
+      "problemCategory": "面接対策・コミュニケーション",
+      "role": "practical-guidance",
+      "actualTitle": "面接で緊張しない5つの準備術",
+      "problemDescription": "面接で過度に緊張してしまう、本来の力を発揮できない、準備不足による不安感、面接官との自然なコミュニケーションができない",
+      "solutionContent": "緊張対策の5段階：事前準備の徹底→リハーサルによる慣れ→リラックス技法→心理的準備→当日のルーティン",
+      "effectiveExpressions": [
+        "面接で緊張しない",
+        "本来の力を発揮",
+        "5つの準備術",
+        "自信を持って"
+      ],
+      "searchKeywords": ["面接", "緊張対策", "準備", "リラックス", "自信"],
+      "emotionalTriggers": ["安心感", "自信", "準備感"],
+      "marketingStage": "問題共感→解決手法→実践ガイド",
+      "conversionMethod": "実践ツール提供→継続サポート"
+    },
+
+    {
+      "id": "PSP013",
+      "source": "contents-055",
+      "targetPersona": "P005",
+      "problemCategory": "スキル習得・資格",
+      "role": "educational-content",
+      "actualTitle": "将来性のある資格5選と取得戦略",
+      "problemDescription": "どの資格を取得すべきか分からない、時間とコストを無駄にしたくない、キャリアに直結する資格選びの困難",
+      "solutionContent": "5つの将来性資格：AI・データサイエンス系→デジタルマーケティング→語学・国際系→専門技術系→マネジメント系、取得優先順位と戦略",
+      "effectiveExpressions": [
+        "将来性のある資格",
+        "キャリアに直結",
+        "投資対効果",
+        "戦略的取得"
+      ],
+      "searchKeywords": ["資格取得", "将来性", "キャリアアップ", "投資効果", "専門性"],
+      "emotionalTriggers": ["将来安心", "成長意欲", "投資価値"],
+      "marketingStage": "選択肢提示→価値説明→取得戦略",
+      "conversionMethod": "詳細ガイド提供→学習サポート"
+    },
+
+    {
+      "id": "PSP014",
+      "source": "contents-061",
+      "targetPersona": "P005",
+      "problemCategory": "メンタルヘルス・ストレス",
+      "role": "educational-content",
+      "actualTitle": "仕事のストレスを軽減する3つの習慣",
+      "problemDescription": "仕事のプレッシャーでストレスが溜まる、メンタルヘルスの管理方法が分からない、働きながらの心理的負担",
+      "solutionContent": "3つのストレス管理習慣：逆説的「やらない」時間の確保→専門家理論に基づく実践→段階的な習慣改善アプローチ",
+      "effectiveExpressions": [
+        "ストレスを軽減する",
+        "心理学専門性",
+        "今すぐ実践可能",
+        "3つの習慣"
+      ],
+      "searchKeywords": ["ストレス管理", "メンタルヘルス", "習慣", "心理学", "働き方"],
+      "emotionalTriggers": ["安心感", "専門性", "実践可能性"],
+      "marketingStage": "問題認識→専門的解決策→実践支援",
+      "conversionMethod": "専門知識提供→継続サポート"
+    },
+
+    {
+      "id": "PSP015",
+      "source": "contents-063", 
+      "targetPersona": "P005",
+      "problemCategory": "働き方・職場環境",
+      "role": "practical-guidance",
+      "actualTitle": "上司関係を改善する5つのNG行動回避術",
+      "problemDescription": "上司との関係がうまくいかない、職場でのコミュニケーションに悩む、部下としての適切な行動が分からない",
+      "solutionContent": "5つのNG行動と対策：否定形アプローチによる行動変容→失敗回避本能の活用→具体的シチュエーション対応→段階的実践指針",
+      "effectiveExpressions": [
+        "上司関係を改善",
+        "NG行動回避",
+        "職場環境改善",
+        "5つの対策"
+      ],
+      "searchKeywords": ["上司関係", "職場コミュニケーション", "行動改善", "人間関係", "職場環境"],
+      "emotionalTriggers": ["改善期待", "失敗回避", "安心感"],
+      "marketingStage": "問題共感→回避手法→実践ガイド",
+      "conversionMethod": "実践的アドバイス提供→コミュニティ誘導"
+    },
+
+    {
+      "id": "PSP016",
+      "source": "contents-066",
+      "targetPersona": "P005",
+      "problemCategory": "スキル習得・資格",
+      "role": "practical-guidance",
+      "actualTitle": "爆速マニュアル作成5ステップで業務効率化",
+      "problemDescription": "業務マニュアル作成に時間がかかる、効率的な指導方法が分からない、業務の標準化ができない",
+      "solutionContent": "5ステップマニュアル作成法：「爆速」効率性訴求→ステップバイステップ指導→1時間完成法→継続サポート提供",
+      "effectiveExpressions": [
+        "爆速マニュアル作成",
+        "業務効率化",
+        "5ステップ",
+        "1時間で完成"
+      ],
+      "searchKeywords": ["マニュアル作成", "業務効率", "標準化", "時短", "指導"],
+      "emotionalTriggers": ["効率性", "即効性", "成果実感"],
+      "marketingStage": "効率性訴求→手法提示→実践サポート",
+      "conversionMethod": "詳細手順提供→コミュニティ連携"
+    },
+
+    {
+      "id": "PSP017",
+      "source": "contents-067",
+      "targetPersona": "P005",
+      "problemCategory": "働き方・職場環境", 
+      "role": "educational-content",
+      "actualTitle": "科学的根拠に基づく戦略的休息術",
+      "problemDescription": "休息を取ることに罪悪感がある、効果的な休息方法が分からない、生産性を下げずに疲労を回復したい",
+      "solutionContent": "3つの科学的休息法：「デキる人がサボる」逆説訴求→専門研究による権威性→常識転換による価値観変革→戦略的休息法",
+      "effectiveExpressions": [
+        "科学的根拠",
+        "戦略的休息",
+        "デキる人がサボる",
+        "生産性向上"
+      ],
+      "searchKeywords": ["休息", "生産性", "科学的", "働き方改革", "疲労回復"],
+      "emotionalTriggers": ["権威性", "価値観転換", "効果期待"],
+      "marketingStage": "常識転換→科学的根拠→実践方法",
+      "conversionMethod": "専門知識提供→働き方改革サポート"
+    },
+
+    {
+      "id": "PSP018",
+      "source": "contents-068",
+      "targetPersona": "P004",
+      "problemCategory": "インターン準備・対策",
+      "role": "urgency-creation",
+      "actualTitle": "内定を逃すインターンNG行動7選",
+      "problemDescription": "インターンでの失敗が本選考に影響することへの不安、適切なマナーや行動が分からない、他の参加者に劣る恐怖",
+      "solutionContent": "7つのNG行動回避法：「内定逃す」恐怖訴求→具体的NG例による失敗回避→番号付き体系的説明→実践的マナー指導",
+      "effectiveExpressions": [
+        "内定を逃す",
+        "NG行動7選", 
+        "失敗回避",
+        "社会人マナー"
+      ],
+      "searchKeywords": ["インターン", "NG行動", "内定", "失敗回避", "マナー"],
+      "emotionalTriggers": ["恐怖回避", "失敗防止", "安全確保"],
+      "marketingStage": "恐怖訴求→回避方法→実践指導",
+      "conversionMethod": "詳細対策提供→継続指導"
+    },
+
+    {
+      "id": "PSP019",
+      "source": "contents-069",
+      "targetPersona": "P008",
+      "problemCategory": "業界研究・企業分析",
+      "role": "social-proof", 
+      "actualTitle": "USJ高倍率インターン攻略法",
+      "problemDescription": "特定の人気企業への憧れと選考の困難さ、高倍率選考への対策方法が分からない、企業特化の情報不足",
+      "solutionContent": "USJ特化攻略戦略：統計データ+企業特化アプローチ→高学歴ターゲット特化→企業別戦略提供→マーケティング職特化対策",
+      "effectiveExpressions": [
+        "USJ攻略法",
+        "高倍率選考",
+        "統計データ", 
+        "企業特化戦略"
+      ],
+      "searchKeywords": ["USJ", "インターン", "高倍率", "攻略法", "企業研究"],
+      "emotionalTriggers": ["憧れ", "挑戦", "専門性"],
+      "marketingStage": "憧れ共感→データ提示→攻略戦略",
+      "conversionMethod": "企業特化情報提供→個別対策"
+    },
+
+    {
+      "id": "PSP020",
+      "source": "contents-070",
+      "targetPersona": "P002",
+      "problemCategory": "時期別対策・緊急対応",
+      "role": "practical-guidance",
+      "actualTitle": "サマーインターン準備チェックリスト",
+      "problemDescription": "インターン準備で何をすべきか分からない、準備の抜け漏れが心配、体系的な準備方法の不足",
+      "solutionContent": "体系的準備チェックリスト：「まずはこれでOK」安心感提供→チェックリスト実用性→段階的スキルアップ→包括的準備支援",
+      "effectiveExpressions": [
+        "準備チェックリスト",
+        "まずはこれでOK",
+        "段階的準備",
+        "体系的学習"
+      ],
+      "searchKeywords": ["インターン準備", "チェックリスト", "段階的", "体系的", "基礎"],
+      "emotionalTriggers": ["安心感", "体系性", "完璧準備"],
+      "marketingStage": "不安解消→体系提示→段階実行",
+      "conversionMethod": "準備ツール提供→継続サポート"
+    },
+
+    {
+      "id": "PSP021",
+      "source": "contents-073",
+      "targetPersona": "P007",
+      "problemCategory": "就活効率化・AI活用",
+      "role": "educational-content",
+      "actualTitle": "AI就活マスター完全学習システム",
+      "problemDescription": "AI活用による就活効率化の方法が分からない、包括的な学習システムがない、現役就活生とのスキル差への不安",
+      "solutionContent": "包括的AI就活システム：「コスパ良すぎ」価値訴求→現役就活生100人データ活用→段階的学習フロー設計→競争優位性強調",
+      "effectiveExpressions": [
+        "AI就活マスター",
+        "コスパ良すぎ",
+        "完全学習システム",
+        "現役就活生100人データ"
+      ],
+      "searchKeywords": ["AI就活", "学習システム", "効率化", "データ", "コスパ"],
+      "emotionalTriggers": ["優位性", "効率性", "包括性"],
+      "marketingStage": "価値訴求→データ証明→学習提供",
+      "conversionMethod": "包括学習システム誘導"
+    },
+
+    {
+      "id": "PSP022",
+      "source": "contents-075",
+      "targetPersona": "P007",
+      "problemCategory": "就活効率化・AI活用",
+      "role": "educational-content",
+      "actualTitle": "ChatGPT就活活用法完全ガイド",
+      "problemDescription": "生成AIの就活活用方法が分からない、効果的なプロンプトが作れない、AI学習への具体的なアプローチ不足",
+      "solutionContent": "教育完結型ChatGPT活用法：統計データ+実践プロンプト集→具体的統計データによる現状把握→実践的プロンプト提供→包括的学習支援",
+      "effectiveExpressions": [
+        "ChatGPT活用法",
+        "完全ガイド",
+        "実践プロンプト集",
+        "統計データ根拠"
+      ],
+      "searchKeywords": ["ChatGPT", "就活活用", "プロンプト", "ガイド", "統計"],
+      "emotionalTriggers": ["学習意欲", "実践性", "完全性"],
+      "marketingStage": "現状提示→教育価値→実践提供",
+      "conversionMethod": "教育的価値提供→継続学習"
+    },
+
+    {
+      "id": "PSP023",
+      "source": "contents-076",
+      "targetPersona": "P007",
+      "problemCategory": "就活効率化・AI活用",
+      "role": "practical-guidance",
+      "actualTitle": "AI活用で差をつける就活術3選",
+      "problemDescription": "就活でのAI活用による競争優位性の獲得方法が分からない、他の就活生との差別化ができない、効率化と質向上の両立困難",
+      "solutionContent": "3つの差別化AI活用術：「差をつける」競争優位訴求→具体的3つの活用術提示→ステップバイステップ指導→地域特化サポート",
+      "effectiveExpressions": [
+        "AIで差をつける",
+        "競争優位",
+        "活用術3選",
+        "効率化+差別化"
+      ],
+      "searchKeywords": ["AI活用", "差別化", "競争優位", "就活術", "効率化"],
+      "emotionalTriggers": ["優越感", "差別化", "戦略性"],
+      "marketingStage": "競争意識→差別化手法→実践指導",
+      "conversionMethod": "戦略的手法提供→地域サポート"
+    },
+
+    {
+      "id": "PSP024",
+      "source": "contents-077",
+      "targetPersona": "P003",
+      "problemCategory": "面接対策・コミュニケーション",
+      "role": "trust-establishment",
+      "actualTitle": "元人事が教える面接コミュニケーション力向上術",
+      "problemDescription": "面接でのコミュニケーション力不足、相手に伝わる話し方が分からない、面接官との自然な会話ができない",
+      "solutionContent": "2つのコミュニケーションポイント：元人事の権威性活用→具体的2ポイント明示→実践的チェックリスト提供→継続的面接支援",
+      "effectiveExpressions": [
+        "元人事が教える",
+        "コミュニケーション力",
+        "面接で伝わる話し方",
+        "実践チェックリスト"
+      ],
+      "searchKeywords": ["面接", "コミュニケーション", "元人事", "話し方", "伝達力"],
+      "emotionalTriggers": ["権威性", "信頼", "実践性"],
+      "marketingStage": "権威性→専門知識→実践ツール",
+      "conversionMethod": "専門知識提供→継続サポート"
+    },
+
+    {
+      "id": "PSP025",
+      "source": "contents-078",
+      "targetPersona": "P002",
+      "problemCategory": "キャリア不安・将来設計",
+      "role": "urgency-creation",
+      "actualTitle": "AI時代に職業を奪われる不安と対策",
+      "problemDescription": "AI時代の到来による職業への不安、将来の職業選択への迷い、技術進歩に対する恐怖感",
+      "solutionContent": "AI時代対応戦略：「マジで奪われます」恐怖訴求→統計的根拠による説得力→具体的職業名提示→希望的解決策提示",
+      "effectiveExpressions": [
+        "AI時代に奪われる職業",
+        "統計データ",
+        "マジで危険",
+        "希望的解決策"
+      ],
+      "searchKeywords": ["AI時代", "職業不安", "将来", "技術進歩", "対策"],
+      "emotionalTriggers": ["恐怖", "不安", "希望転換"],
+      "marketingStage": "恐怖喚起→根拠提示→希望提供",
+      "conversionMethod": "不安解消→職業選択サポート"
+    },
+
+    {
+      "id": "PSP026",
+      "source": "contents-079",
+      "targetPersona": "P008",
+      "problemCategory": "面接対策・コミュニケーション",
+      "role": "educational-content",
+      "actualTitle": "AI面接完全攻略ガイド（理系特化）",
+      "problemDescription": "AI面接への対応方法が分からない、新しい選考形式への不安、理系学生特有の対策ニーズ",
+      "solutionContent": "AI面接包括対策：時代潮流による必要性訴求→理系学生特化ターゲティング→段階的理解促進構造→実践ツール連携",
+      "effectiveExpressions": [
+        "AI面接攻略",
+        "理系特化",
+        "完全ガイド",
+        "評価基準詳細"
+      ],
+      "searchKeywords": ["AI面接", "理系", "攻略", "評価基準", "対策"],
+      "emotionalTriggers": ["時代対応", "専門性", "安心感"],
+      "marketingStage": "必要性→専門対策→実践提供", 
+      "conversionMethod": "専門ガイド提供→理系サポート"
+    },
+
+    {
+      "id": "PSP027",
+      "source": "contents-080",
+      "targetPersona": "P002",
+      "problemCategory": "面接対策・コミュニケーション",
+      "role": "practical-guidance",
+      "actualTitle": "面接基本質問30問対策集",
+      "problemDescription": "面接でよく聞かれる質問への準備不足、基本的な質問に対する回答準備の不安、網羅的な面接準備の必要性",
+      "solutionContent": "30問完全対策：時間的切迫感による行動促進→網羅的30問リスト提供→実践的回答手法指導→継続的就活支援",
+      "effectiveExpressions": [
+        "基本質問30問",
+        "完全対策",
+        "網羅的準備",
+        "実践回答手法"
+      ],
+      "searchKeywords": ["面接質問", "30問", "基本対策", "回答方法", "準備"],
+      "emotionalTriggers": ["安心感", "完全性", "準備感"],
+      "marketingStage": "切迫感→完全対策→実践指導",
+      "conversionMethod": "対策集提供→継続サポート"
+    }
+  ],
+
+  "analytics": {
+    "personaDistribution": {
+      "P001": 4,
+      "P002": 8, 
+      "P003": 4,
+      "P004": 3,
+      "P005": 6,
+      "P006": 1,
+      "P007": 4,
+      "P008": 2
+    },
+    "categoryDistribution": {
+      "自己分析・ES対策": 3,
+      "業界研究・企業分析": 3,
+      "面接対策・コミュニケーション": 6,
+      "インターン準備・対策": 4,
+      "キャリア不安・将来設計": 4,
+      "就活効率化・AI活用": 6,
+      "働き方・職場環境": 3,
+      "メンタルヘルス・ストレス": 2,
+      "スキル習得・資格": 3,
+      "時期別対策・緊急対応": 3
+    },
+    "roleDistribution": {
+      "emotional-hook": 2,
+      "problem-analysis": 1,
+      "solution-framework": 0,
+      "practical-guidance": 15,
+      "social-proof": 1,
+      "urgency-creation": 3,
+      "cta-conversion": 0,
+      "educational-content": 5,
+      "empathy-building": 6,
+      "trust-establishment": 1
+    }
+  },
+
+  "searchExamples": {
+    "byPersona": "P002に関連する問題→解決ペアを検索",
+    "byCategory": "面接対策・コミュニケーションの問題→解決ペアを検索",
+    "byRole": "empathy-buildingの役割を持つペアを検索",
+    "byKeyword": "AI活用、効率化、ChatGPTなどのキーワード検索",
+    "byTrigger": "共感、安心感、効率性などの感情トリガー検索"
+  }
+}

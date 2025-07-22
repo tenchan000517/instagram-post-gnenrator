@@ -6,6 +6,7 @@ export interface PageStructure {
   template: PremiumTemplateType
   title: string
   theme: string
+  isStructuredGeneration?: boolean  // 新統合システム識別フラグ
 }
 
 // 優秀テンプレート定義（計画書の優先順位通り）

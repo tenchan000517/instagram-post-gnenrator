@@ -4,8 +4,10 @@ import { captionService } from '../config/captionFormat'
 import { MarkdownUtils } from '../utils/markdownUtils'
 import { IndexGeneratorService } from './indexGeneratorService'
 import { PageStructureAnalyzer } from './pageStructureAnalyzer'
+import { PageStructure as PageStructureType } from '../types/pageStructure'
 import { StructureConstrainedGenerator } from './structureConstrainedGenerator'
 import { getGeminiModel } from './geminiClientSingleton'
+import { KnowledgeBaseParams } from '../types/knowledgeBase'
 
 export interface GeneratedPage {
   pageNumber: number
@@ -59,7 +61,7 @@ export class ContentGeneratorService {
     this.model = getGeminiModel()
   }
 
-  async generateHighQualityContent(userInput: string): Promise<GeneratedContent> {
+  async generateHighQualityContent(userInput: string, knowledgeBaseParams?: KnowledgeBaseParams): Promise<GeneratedContent> {
     // AI呼び出しの直列化（503エラー対策）
     if (this.isGenerating) {
       throw new Error('AI生成が進行中です。少し待ってから再度お試しください。')
@@ -73,9 +75,16 @@ export class ContentGeneratorService {
       // 1段階目: ページ構造決定
       console.log('📋 段階1: ページ構造分析中...')
       const pageStructureAnalyzer = new PageStructureAnalyzer()
-      const pageStructures = await pageStructureAnalyzer.analyzePageStructureAndTemplates(userInput)
+      const pageStructures = await pageStructureAnalyzer.analyzePageStructureAndTemplates(userInput, knowledgeBaseParams)
       
       console.log('✅ ページ構造決定完了:', pageStructures.length, 'ページ')
+      
+      // 新統合システムの結果チェック
+      if (pageStructures.length > 0 && (pageStructures[0] as any).isStructuredGeneration) {
+        console.log('🚀 新統合システム結果検出 - 段階2をスキップして直接結果を返却')
+        // 新統合システムの結果を従来フォーマットに変換
+        return this.convertStructuredGenerationResult(pageStructures as PageStructureType[], userInput)
+      }
       
       // 2段階目: 全ページ一括生成
       console.log('🎨 段階2: 一括構造制約生成開始...')
@@ -780,6 +789,14 @@ ${additionalInstructions || '品質を向上させて再生成してください
           baseData.content = content.content
         }
         break
+
+      case 'enumeration':
+        // enumerationが空で、enumerationデータがある場合のみ変換
+        if (baseData.items?.length === 0 && content.enumeration && Array.isArray(content.enumeration)) {
+          console.log('⚠️ items空配列検出 - enumerationから変換')
+          baseData.items = content.enumeration
+        }
+        break
     }
 
     console.log(`📤 convertToTemplateData完了（完璧優先版） - templateType: ${templateType}`)
@@ -1129,6 +1146,128 @@ ${contentSummary}
     } catch (error) {
       console.error('Hashtag regeneration failed:', error)
       throw new Error('ハッシュタグの再生成に失敗しました')
+    }
+  }
+
+  /**
+   * 新統合システムの結果を従来フォーマットに変換
+   */
+  private async convertStructuredGenerationResult(pageStructures: PageStructureType[], userInput: string): Promise<GeneratedContent> {
+    console.log('🔄 新統合システム結果変換開始')
+    
+    try {
+      // PageStructureからGeneratedPageに変換
+      const pages: GeneratedPage[] = pageStructures.map((structure, index) => ({
+        pageNumber: index + 1,
+        templateType: structure.template as TemplateType,
+        templateData: this.parseStructuredContentToTemplateData(structure.theme, structure.template, structure.title),
+        content: this.parseStructuredContentToSimpleFormat(structure.theme, structure.template, structure.title)
+      }))
+
+      // ハッシュタグ生成
+      const hashtags = await this.generateHashtags(userInput, pages)
+      
+      // キャプション生成
+      const caption = await this.generateCaptionWithFormat(userInput, pages)
+
+      console.log('✅ 新統合システム結果変換完了')
+
+      return {
+        pages,
+        totalPages: pages.length,
+        hashtags,
+        caption,
+        summary: userInput
+      }
+    } catch (error) {
+      console.error('❌ 新統合システム結果変換エラー:', error)
+      throw new Error(`新統合システム結果変換失敗: ${error}`)
+    }
+  }
+
+  /**
+   * 新統合システム: MappedContentからTemplateDataに変換
+   */
+  private parseStructuredContentToTemplateData(mappedContent: any, template: string, title?: string): any {
+    try {
+      // 新統合システムの場合、themeはformatMappedContentAsThemeの結果
+      const parsed = typeof mappedContent === 'string' ? JSON.parse(mappedContent) : mappedContent
+      
+      // titleを適切に設定
+      const contentData = {
+        title: title || parsed.title || 'コンテンツ',
+        ...parsed
+      }
+      
+      return this.convertToTemplateData(contentData, template as TemplateType)
+    } catch (error) {
+      console.warn('⚠️ Template data conversion fallback:', error)
+      // 最終フォールバック
+      const items = Array.isArray(mappedContent) ? mappedContent : 
+                   typeof mappedContent === 'string' ? mappedContent.split('\n').filter(item => item.trim()) : 
+                   ['データ変換エラー']
+      return this.convertToTemplateData({ 
+        title: title || 'コンテンツ', 
+        items 
+      }, template as TemplateType)
+    }
+  }
+
+  /**
+   * 新統合システム: MappedContentからシンプル形式に変換
+   */
+  private parseStructuredContentToSimpleFormat(mappedContent: any, template: string, title?: string): any {
+    try {
+      // 新統合システムの場合、themeはformatMappedContentAsThemeの結果
+      const parsed = typeof mappedContent === 'string' ? JSON.parse(mappedContent) : mappedContent
+      
+      // titleを適切に設定
+      const baseData = {
+        title: title || parsed.title || 'コンテンツ',
+        ...parsed
+      }
+      
+      // テンプレートに応じた構造調整
+      if (template === 'enumeration') {
+        return baseData
+      } else if (template === 'section-items') {
+        // section-itemsの場合、セクション構造を確保
+        if (baseData.sections) {
+          return baseData
+        } else if (baseData.items) {
+          return {
+            title: baseData.title,
+            sections: [{
+              title: baseData.sectionTitle || '内容',
+              content: baseData.sectionContent || '',
+              items: baseData.items
+            }]
+          }
+        }
+      }
+      
+      return baseData
+    } catch (error) {
+      console.warn('⚠️ Simple format conversion fallback:', error)
+      // 最終フォールバック
+      const items = Array.isArray(mappedContent) ? mappedContent : 
+                   typeof mappedContent === 'string' ? mappedContent.split('\n').filter(item => item.trim()) : 
+                   ['データ変換エラー']
+      
+      if (template === 'enumeration') {
+        return { 
+          title: title || 'コンテンツ',
+          items 
+        }
+      } else {
+        return { 
+          title: title || 'コンテンツ',
+          sections: [{ 
+            title: '内容', 
+            items 
+          }] 
+        }
+      }
     }
   }
 }

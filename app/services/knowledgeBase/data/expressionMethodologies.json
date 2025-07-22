@@ -1,0 +1,435 @@
+{
+  "expressionMethods": {
+    "E001": {
+      "id": "E001",
+      "name": "高度教育・体系構築型",
+      "method": "専門的な図表・体系的構成により、段階的学習を支援する教育特化型表現",
+      "criteriaWeights": {
+        "visual": 0.7,
+        "tone": 0.8,
+        "structure": 0.8,
+        "relationship": 0.7
+      },
+      "specificTechniques": [
+        "専門図表・体系的レイアウト活用",
+        "段階番号による学習フロー設計",
+        "概要→基礎→応用→実践の完全教育フロー",
+        "専門用語の段階的説明"
+      ],
+      "effectiveExpressions": [
+        "ステップ1：基礎理解",
+        "図表で分かりやすく解説",
+        "体系的に学べる",
+        "段階的にマスター"
+      ],
+      "characteristics": [
+        "長期的学習関係構築",
+        "確実な知識習得",
+        "専門性重視",
+        "図表活用により複雑な情報を体系的に整理",
+        "段階的な理解促進設計"
+      ],
+      "targetPersonas": ["論理重視型", "学習志向型"],
+      "adaptationWeight": {
+        "logicalPersona": 1.2,
+        "emotionalPersona": 0.8,
+        "efficiencyPersona": 0.9
+      }
+    },
+    "E002": {
+      "id": "E002",
+      "name": "感情共感・ストーリー型",
+      "method": "キャラクター・体験談・感情表現により深い共感と親近感を創出する表現",
+      "criteriaWeights": {
+        "visual": 0.6,
+        "tone": 0.8,
+        "structure": 0.7,
+        "relationship": 0.8
+      },
+      "specificTechniques": [
+        "キャラクター・手書き・ストーリー展開",
+        "体験談共有による共感創出",
+        "感情的な文体表現",
+        "共感→体験共有→感情転換→継続関係の設計"
+      ],
+      "effectiveExpressions": [
+        "同じ悩みを抱えた私も",
+        "実は〇〇の人が",
+        "あなたも経験ありませんか",
+        "一緒にがんばろう"
+      ],
+      "characteristics": [
+        "感情的エンゲージメント最重視",
+        "ストーリーテリングによる記憶定着",
+        "親近感・仲間意識の強化",
+        "深い感情的結びつき創出"
+      ],
+      "targetPersonas": ["感情重視型", "共感志向型"],
+      "adaptationWeight": {
+        "logicalPersona": 0.7,
+        "emotionalPersona": 1.4,
+        "efficiencyPersona": 0.8
+      }
+    },
+    "E003": {
+      "id": "E003",
+      "name": "権威性・実証型",
+      "method": "権威的立場・専門性・実績データにより客観的説得力を発揮する表現",
+      "criteriaWeights": {
+        "visual": 0.7,
+        "tone": 0.7,
+        "structure": 0.8,
+        "relationship": 0.7
+      },
+      "specificTechniques": [
+        "権威性バッジ・実績数値の効果的配置",
+        "専門的レイアウトによる信頼性演出",
+        "権威性→実績提示→専門知識→継続権威関係の構築",
+        "客観的データによる説得力強化"
+      ],
+      "effectiveExpressions": [
+        "元大手人事が教える",
+        "実績12万4000円",
+        "専門家が認める",
+        "データで証明された"
+      ],
+      "characteristics": [
+        "専門家としての信頼性確立",
+        "客観的データによる説得力",
+        "権威性に基づく安心感提供",
+        "専門家と学習者の権威的関係構築"
+      ],
+      "targetPersonas": ["論理重視型", "権威志向型"],
+      "adaptationWeight": {
+        "logicalPersona": 1.3,
+        "emotionalPersona": 0.8,
+        "efficiencyPersona": 1.0
+      }
+    },
+    "E004": {
+      "id": "E004",
+      "name": "緊急性・行動促進型",
+      "method": "時間的制約・危機感・緊急性により即座の行動を促進する表現",
+      "criteriaWeights": {
+        "visual": 0.8,
+        "tone": 0.8,
+        "structure": 0.7,
+        "relationship": 0.6
+      },
+      "specificTechniques": [
+        "緊急バッジ・期限表示・警告色彩の活用",
+        "危機感創出・緊急性表現・行動促進語の使用",
+        "危機提示→現状分析→緊急対策→即座実行の流れ",
+        "時間的プレッシャーの効果的活用"
+      ],
+      "effectiveExpressions": [
+        "今すぐ行動しないと",
+        "残り〇日で締切",
+        "乗り遅れないで",
+        "手遅れになる前に"
+      ],
+      "characteristics": [
+        "即座の行動喚起",
+        "時間的プレッシャーの効果的活用",
+        "危機回避の緊急性訴求",
+        "緊急サポート・危機共有関係構築"
+      ],
+      "targetPersonas": ["行動重視型", "危機回避型"],
+      "adaptationWeight": {
+        "logicalPersona": 0.9,
+        "emotionalPersona": 1.1,
+        "efficiencyPersona": 1.0
+      }
+    },
+    "E005": {
+      "id": "E005",
+      "name": "比較・選択支援型",
+      "method": "客観的比較・分析により最適な選択・意思決定を支援する表現",
+      "criteriaWeights": {
+        "visual": 0.8,
+        "tone": 0.7,
+        "structure": 0.8,
+        "relationship": 0.7
+      },
+      "specificTechniques": [
+        "比較表・マトリックス・評価表示の効果的活用",
+        "客観的・分析的・中立的な文体",
+        "選択肢提示→客観比較→推奨→個別最適化の流れ",
+        "公正性・中立性の重視"
+      ],
+      "effectiveExpressions": [
+        "比較してみると",
+        "客観的に見ると",
+        "あなたに最適なのは",
+        "データで比較すると"
+      ],
+      "characteristics": [
+        "客観的な比較分析",
+        "個別最適化の支援",
+        "公正性・中立性の重視",
+        "意思決定支援・公正なアドバイザー関係構築"
+      ],
+      "targetPersonas": ["論理重視型", "慎重判断型"],
+      "adaptationWeight": {
+        "logicalPersona": 1.1,
+        "emotionalPersona": 0.8,
+        "efficiencyPersona": 1.0
+      }
+    },
+    "E006": {
+      "id": "E006",
+      "name": "情報提供・カタログ型",
+      "method": "網羅的情報・カタログ形式により継続的価値を提供する表現",
+      "criteriaWeights": {
+        "visual": 0.7,
+        "tone": 0.7,
+        "structure": 0.8,
+        "relationship": 0.6
+      },
+      "specificTechniques": [
+        "カタログ・分類表・情報密度重視の設計",
+        "実用的・情報中心・説明的な文体",
+        "全体像→詳細情報→活用方法→継続更新の流れ",
+        "網羅的情報の体系的整理"
+      ],
+      "effectiveExpressions": [
+        "完全網羅リスト",
+        "全て揃っています",
+        "一覧でチェック",
+        "保存版として活用"
+      ],
+      "characteristics": [
+        "網羅的情報の体系的整理",
+        "継続的参照価値",
+        "実用性重視の設計",
+        "情報プロバイダー・継続的価値提供関係構築"
+      ],
+      "targetPersonas": ["情報収集型", "効率重視型"],
+      "adaptationWeight": {
+        "logicalPersona": 1.0,
+        "emotionalPersona": 0.7,
+        "efficiencyPersona": 1.1
+      }
+    },
+    "E007": {
+      "id": "E007",
+      "name": "効率化・実践型",
+      "method": "シンプル・効率性・即実践により効果的な習慣化を支援する表現",
+      "criteriaWeights": {
+        "visual": 0.8,
+        "tone": 0.8,
+        "structure": 0.7,
+        "relationship": 0.7
+      },
+      "specificTechniques": [
+        "シンプル・実践重視・手順明確な設計",
+        "実践的・効率重視・すぐできる感の文体",
+        "価値提示→シンプル手法→即実践→習慣継続の流れ",
+        "即実践可能な手法提供"
+      ],
+      "effectiveExpressions": [
+        "今すぐできる",
+        "シンプルな方法",
+        "効率的に",
+        "習慣化のコツ"
+      ],
+      "characteristics": [
+        "即実践可能な手法提供",
+        "効率性・シンプルさの追求",
+        "習慣化・継続支援",
+        "実践パートナー・継続改善関係構築"
+      ],
+      "targetPersonas": ["効率重視型", "実践志向型"],
+      "adaptationWeight": {
+        "logicalPersona": 1.0,
+        "emotionalPersona": 1.0,
+        "efficiencyPersona": 1.3
+      }
+    },
+    "E008": {
+      "id": "E008",
+      "name": "瞬間インパクト・記憶型",
+      "method": "1枚完結・強烈インパクトにより瞬間的覚醒と記憶定着を実現する表現",
+      "criteriaWeights": {
+        "visual": 1.0,
+        "tone": 0.9,
+        "structure": 1.0,
+        "relationship": 0.5
+      },
+      "specificTechniques": [
+        "1枚構成・強いインパクト・瞬間理解の設計",
+        "断定的・強烈・記憶に残る語の使用",
+        "瞬間提示のみ・ワンメッセージの完結性",
+        "記憶定着特化設計"
+      ],
+      "effectiveExpressions": [
+        "衝撃の事実",
+        "これだけは覚えて",
+        "絶対に忘れないで",
+        "一生使える"
+      ],
+      "characteristics": [
+        "記憶定着特化設計",
+        "瞬間的覚醒効果",
+        "ワンメッセージの強力性",
+        "瞬間的覚醒・記憶定着のみの関係"
+      ],
+      "targetPersonas": ["インパクト重視型", "記憶志向型"],
+      "adaptationWeight": {
+        "logicalPersona": 0.8,
+        "emotionalPersona": 1.0,
+        "efficiencyPersona": 1.2
+      }
+    }
+  },
+  "engagementPatterns": {
+    "emotional-hook": {
+      "method": "共感フック技法",
+      "specificTechniques": [
+        "痛み点の言語化",
+        "共通体験の想起",
+        "感情的共鳴の創出"
+      ],
+      "effectiveExpressions": [
+        "同じ悩みを",
+        "実は〇〇の人が",
+        "あなたも経験ありませんか"
+      ],
+      "relatedExpressionMethods": ["E002", "E004"]
+    },
+    "authority-establishment": {
+      "method": "権威確立技法",
+      "specificTechniques": [
+        "専門性の証明",
+        "実績データの提示",
+        "内部情報の開示"
+      ],
+      "effectiveExpressions": [
+        "元〇〇が教える",
+        "実績〇〇万円",
+        "内部情報によると"
+      ],
+      "relatedExpressionMethods": ["E003", "E001"]
+    },
+    "urgency-creation": {
+      "method": "緊急性創出技法",
+      "specificTechniques": [
+        "時間的制約の提示",
+        "機会損失の警告",
+        "カウントダウン効果"
+      ],
+      "effectiveExpressions": [
+        "残り〇日",
+        "今しかない",
+        "乗り遅れる前に"
+      ],
+      "relatedExpressionMethods": ["E004", "E007"]
+    },
+    "logical-persuasion": {
+      "method": "論理説得技法",
+      "specificTechniques": [
+        "データによる証明",
+        "段階的論理展開",
+        "比較分析"
+      ],
+      "effectiveExpressions": [
+        "データで証明",
+        "論理的に考えると",
+        "比較してみると"
+      ],
+      "relatedExpressionMethods": ["E005", "E003", "E001"]
+    },
+    "practical-implementation": {
+      "method": "実践実装技法",
+      "specificTechniques": [
+        "即実践可能な手順",
+        "シンプル化",
+        "習慣化支援"
+      ],
+      "effectiveExpressions": [
+        "今すぐできる",
+        "シンプルな方法",
+        "習慣化のコツ"
+      ],
+      "relatedExpressionMethods": ["E007", "E006"]
+    },
+    "visual-impact": {
+      "method": "視覚インパクト技法",
+      "specificTechniques": [
+        "強烈な色彩",
+        "1枚完結設計",
+        "瞬間理解促進"
+      ],
+      "effectiveExpressions": [
+        "衝撃の",
+        "これだけは",
+        "絶対に"
+      ],
+      "relatedExpressionMethods": ["E008", "E004"]
+    }
+  },
+  "contextualAdaptation": {
+    "learningStage": {
+      "beginner": {
+        "preferredMethods": ["E001", "E002", "E006"],
+        "weights": {
+          "E001": 1.2,
+          "E002": 1.1,
+          "E006": 1.0
+        }
+      },
+      "intermediate": {
+        "preferredMethods": ["E005", "E007", "E003"],
+        "weights": {
+          "E005": 1.1,
+          "E007": 1.2,
+          "E003": 1.0
+        }
+      },
+      "advanced": {
+        "preferredMethods": ["E003", "E001", "E008"],
+        "weights": {
+          "E003": 1.3,
+          "E001": 1.1,
+          "E008": 1.0
+        }
+      }
+    },
+    "urgencyLevel": {
+      "normal": {
+        "preferredMethods": ["E001", "E002", "E006"],
+        "weights": {
+          "E001": 1.0,
+          "E002": 1.0,
+          "E006": 1.0
+        }
+      },
+      "urgent": {
+        "preferredMethods": ["E004", "E007", "E008"],
+        "weights": {
+          "E004": 1.4,
+          "E007": 1.2,
+          "E008": 1.1
+        }
+      }
+    },
+    "informationNeed": {
+      "comprehensive": {
+        "preferredMethods": ["E006", "E001", "E005"],
+        "weights": {
+          "E006": 1.3,
+          "E001": 1.1,
+          "E005": 1.0
+        }
+      },
+      "focused": {
+        "preferredMethods": ["E007", "E008", "E004"],
+        "weights": {
+          "E007": 1.2,
+          "E008": 1.3,
+          "E004": 1.0
+        }
+      }
+    }
+  }
+}

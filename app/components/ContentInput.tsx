@@ -2,13 +2,16 @@
 
 import { useState, useEffect } from 'react'
 import { FileText, Send, Lightbulb } from 'lucide-react'
+import KnowledgeBaseSelector from './ui/KnowledgeBaseSelector'
+import { KnowledgeBaseParams } from '@/app/types/knowledgeBase'
 
 interface ContentInputProps {
-  onSubmit: (content: string) => void
+  onSubmit: (content: string, knowledgeBaseParams?: KnowledgeBaseParams) => void
 }
 
 export default function ContentInput({ onSubmit }: ContentInputProps) {
   const [content, setContent] = useState('')
+  const [knowledgeBaseParams, setKnowledgeBaseParams] = useState<KnowledgeBaseParams | undefined>()
 
   useEffect(() => {
     // LocalStorageから formatted_content を取得
@@ -42,7 +45,7 @@ export default function ContentInput({ onSubmit }: ContentInputProps) {
 
   const handleSubmit = () => {
     if (content.trim()) {
-      onSubmit(content)
+      onSubmit(content, knowledgeBaseParams)
     }
   }
 
@@ -61,6 +64,13 @@ export default function ContentInput({ onSubmit }: ContentInputProps) {
 
   return (
     <div className="space-y-6">
+      
+      {/* ナレッジベース選択 */}
+      <div className="post-preview">
+        <KnowledgeBaseSelector
+          onSelectionChange={setKnowledgeBaseParams}
+        />
+      </div>
 
       {/* コンテンツ入力 */}
       <div className="post-preview">

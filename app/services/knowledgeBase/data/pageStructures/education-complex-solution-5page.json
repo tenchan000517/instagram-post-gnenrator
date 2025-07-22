@@ -1,0 +1,90 @@
+{
+  "pageStructureId": "education-complex-solution-5page",
+  "name": "教育型×学歴コンプレックス問題解決5ページ構成",
+  "targetCombination": "002-P006-T006",
+  "description": "コンプレックス克服には教育的アプローチでの段階的能力構築",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "section-items",
+      "role": "problem-recognition",
+      "title": "学歴コンプレックスが就活に与える影響",
+      "itemAssignments": {
+        "title": "学歴に不安を感じる就活生の課題",
+        "sections": [
+          {
+            "sectionTitle": "学歴コンプレックスの実態",
+            "itemType": "problem-analysis",
+            "extractionRule": "学歴コンプレックスが就活に与える具体的影響を分析",
+            "itemCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "section-items",
+      "role": "educational-framework",
+      "title": "学歴以外の価値を証明する教育的アプローチ",
+      "itemAssignments": {
+        "title": "能力開発フレームワーク",
+        "sections": [
+          {
+            "sectionTitle": "学歴を補完するスキル領域",
+            "itemType": "skill-category",
+            "extractionRule": "学歴コンプレックスを克服できる能力領域を教育的観点で分類",
+            "itemCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 3,
+      "templateId": "section-items",
+      "role": "skill-development",
+      "title": "段階的能力構築プログラム",
+      "itemAssignments": {
+        "title": "3ステップスキルアップ法",
+        "sections": [
+          {
+            "sectionTitle": "能力開発ステップ",
+            "itemType": "development-step",
+            "extractionRule": "学歴コンプレックス克服のための段階的スキル構築方法",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 4,
+      "templateId": "section-items",
+      "role": "practical-application",
+      "title": "面接で学歴以外の価値を伝える方法",
+      "itemAssignments": {
+        "title": "価値アピール戦略",
+        "sections": [
+          {
+            "sectionTitle": "効果的なアピール手法",
+            "itemType": "communication-method",
+            "extractionRule": "学歴以外の価値を面接で効果的に伝える教育的手法",
+            "itemCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 5,
+      "templateId": "enumeration",
+      "role": "transformation-promise",
+      "title": "学歴コンプレックスから脱却した先の未来",
+      "itemAssignments": {
+        "title": "能力重視就活で得られるもの",
+        "enumeration": {
+          "itemType": "transformation-benefit",
+          "extractionRule": "学歴コンプレックス克服により得られる具体的なメリット",
+          "itemCount": 5
+        }
+      }
+    }
+  ]
+}

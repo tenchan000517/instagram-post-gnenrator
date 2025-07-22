@@ -1,0 +1,268 @@
+{
+  "patterns": [
+    {
+      "matchingKey": "001-P001-T001",
+      "description": "共感型×戦略的就活生×感情支援",
+      "pageStructureId": "empathy-strategic-support-5page",
+      "reasoning": "戦略的思考の就活生には感情共感から論理的手法への段階的移行が効果的。5ページ構成で感情受容→論理分析の流れを構築"
+    },
+    {
+      "matchingKey": "001-P001-T006",
+      "description": "共感型×戦略的就活生×問題解決",
+      "pageStructureId": "empathy-strategic-solution-5page",
+      "reasoning": "戦略的ユーザーに共感ベースの問題解決を提示。感情的課題認識から論理的解決策まで段階的に導く"
+    },
+    {
+      "matchingKey": "001-P002-T001",
+      "description": "共感型×不安解消型×感情支援",
+      "pageStructureId": "empathy-anxiety-care-4page",
+      "reasoning": "不安解消ニーズには感情的共感と心理ケアが最優先。4ページで共感→安心感→行動促進の流れ"
+    },
+    {
+      "matchingKey": "001-P002-T006",
+      "description": "共感型×不安解消型×問題解決",
+      "pageStructureId": "empathy-anxiety-solution-4page",
+      "reasoning": "不安を抱えるユーザーには感情的共感から現実的解決策への段階的アプローチが効果的"
+    },
+    {
+      "matchingKey": "001-P004-T001",
+      "description": "共感型×時期特化×感情支援",
+      "pageStructureId": "empathy-timing-support-4page",
+      "reasoning": "時期特化ニーズには感情的共感とタイミング適合を組み合わせた構成"
+    },
+    {
+      "matchingKey": "001-P004-T006",
+      "description": "共感型×時期特化×問題解決",
+      "pageStructureId": "empathy-timing-solution-4page",
+      "reasoning": "時期特化の課題には感情共感から時期適合の解決策への流れが重要"
+    },
+    {
+      "matchingKey": "001-P006-T001",
+      "description": "共感型×学歴コンプレックス×感情支援",
+      "pageStructureId": "empathy-complex-care-5page",
+      "reasoning": "学歴コンプレックス層には深い感情的理解と心理的サポートが必要。5ページで段階的な自信回復"
+    },
+    {
+      "matchingKey": "001-P006-T006",
+      "description": "共感型×学歴コンプレックス×問題解決",
+      "pageStructureId": "empathy-complex-solution-5page",
+      "reasoning": "コンプレックス解消には感情共感から具体的克服方法への段階的アプローチ"
+    },
+    {
+      "matchingKey": "002-P001-T002",
+      "description": "教育型×戦略的就活生×体系教育",
+      "pageStructureId": "education-strategic-system-6page",
+      "reasoning": "戦略的思考ユーザーには体系的な教育アプローチが最適。6ページで段階的スキル習得構成"
+    },
+    {
+      "matchingKey": "002-P001-T004",
+      "description": "教育型×戦略的就活生×情報提供",
+      "pageStructureId": "education-strategic-info-5page",
+      "reasoning": "戦略的ユーザーには教育的観点から整理された情報提供が効果的"
+    },
+    {
+      "matchingKey": "002-P001-T006",
+      "description": "教育型×戦略的就活生×問題解決",
+      "pageStructureId": "education-strategic-problem-6page",
+      "reasoning": "戦略的思考には教育的フレームワークでの問題解決アプローチが適合"
+    },
+    {
+      "matchingKey": "002-P003-T002",
+      "description": "教育型×実践志向×体系教育",
+      "pageStructureId": "education-practical-system-5page",
+      "reasoning": "実践志向ユーザーには教育的かつ実践的なスキル習得構成が効果的"
+    },
+    {
+      "matchingKey": "002-P003-T004",
+      "description": "教育型×実践志向×情報提供",
+      "pageStructureId": "education-practical-info-4page",
+      "reasoning": "実践志向には教育的観点から整理された実用情報の提供"
+    },
+    {
+      "matchingKey": "002-P003-T006",
+      "description": "教育型×実践志向×問題解決",
+      "pageStructureId": "education-practical-solution-5page",
+      "reasoning": "実践ニーズには教育的フレームワークでの実践的問題解決"
+    },
+    {
+      "matchingKey": "002-P005-T002",
+      "description": "教育型×キャリア志向×体系教育",
+      "pageStructureId": "education-career-system-6page",
+      "reasoning": "キャリア志向社会人には体系的な専門教育アプローチが最適"
+    },
+    {
+      "matchingKey": "002-P005-T004",
+      "description": "教育型×キャリア志向×情報提供",
+      "pageStructureId": "education-career-info-5page",
+      "reasoning": "キャリア構築には教育的観点から整理されたキャリア情報が重要"
+    },
+    {
+      "matchingKey": "002-P005-T006",
+      "description": "教育型×キャリア志向×問題解決",
+      "pageStructureId": "education-career-solution-6page",
+      "reasoning": "キャリア課題には教育的フレームワークでの体系的問題解決"
+    },
+    {
+      "matchingKey": "002-P006-T002",
+      "description": "教育型×学歴コンプレックス×体系教育",
+      "pageStructureId": "education-complex-system-5page",
+      "reasoning": "学歴コンプレックス層には体系的な能力開発教育が自信回復に効果的"
+    },
+    {
+      "matchingKey": "002-P006-T006",
+      "description": "教育型×学歴コンプレックス×問題解決",
+      "pageStructureId": "education-complex-solution-5page",
+      "reasoning": "コンプレックス克服には教育的アプローチでの段階的能力構築"
+    },
+    {
+      "matchingKey": "002-P008-T002",
+      "description": "教育型×専門業界志望×体系教育",
+      "pageStructureId": "education-industry-system-6page",
+      "reasoning": "専門業界志望には業界特化の体系的教育アプローチが最適"
+    },
+    {
+      "matchingKey": "002-P008-T004",
+      "description": "教育型×専門業界志望×情報提供",
+      "pageStructureId": "education-industry-info-5page",
+      "reasoning": "専門業界には教育的観点から整理された業界特化情報が重要"
+    },
+    {
+      "matchingKey": "002-P008-T006",
+      "description": "教育型×専門業界志望×問題解決",
+      "pageStructureId": "education-industry-solution-6page",
+      "reasoning": "業界特化課題には教育的フレームワークでの専門的問題解決"
+    },
+    {
+      "matchingKey": "003-P001-T002",
+      "description": "情報型×戦略的就活生×体系教育",
+      "pageStructureId": "info-strategic-education-5page",
+      "reasoning": "戦略的ユーザーには情報提供ベースの体系的学習構成が効果的"
+    },
+    {
+      "matchingKey": "003-P001-T003",
+      "description": "情報型×戦略的就活生×実績証明",
+      "pageStructureId": "info-strategic-proof-4page",
+      "reasoning": "戦略的思考には データと実績による権威的説得が最適"
+    },
+    {
+      "matchingKey": "003-P001-T004",
+      "description": "情報型×戦略的就活生×情報提供",
+      "pageStructureId": "info-strategic-data-4page",
+      "reasoning": "戦略的ユーザーには客観的データと選択肢の提供が効果的"
+    },
+    {
+      "matchingKey": "003-P001-T005",
+      "description": "情報型×戦略的就活生×戦略設計",
+      "pageStructureId": "info-strategic-design-6page",
+      "reasoning": "戦略的思考には情報ベースの戦略設計アプローチが最適"
+    },
+    {
+      "matchingKey": "003-P001-T006",
+      "description": "情報型×戦略的就活生×問題解決",
+      "pageStructureId": "info-strategic-solution-5page",
+      "reasoning": "戦略的問題解決には客観的データに基づく分析的アプローチ"
+    },
+    {
+      "matchingKey": "003-P004-T003",
+      "description": "情報型×時期特化×実績証明",
+      "pageStructureId": "info-timing-proof-4page",
+      "reasoning": "時期特化ニーズには期間限定データと実績による権威的説得"
+    },
+    {
+      "matchingKey": "003-P004-T004",
+      "description": "情報型×時期特化×情報提供",
+      "pageStructureId": "info-timing-data-4page",
+      "reasoning": "時期特化には期間限定情報と選択肢の効率的提供"
+    },
+    {
+      "matchingKey": "003-P004-T005",
+      "description": "情報型×時期特化×戦略設計",
+      "pageStructureId": "info-timing-strategy-5page",
+      "reasoning": "時期特化戦略には期間限定データベースの戦略設計"
+    },
+    {
+      "matchingKey": "003-P004-T006",
+      "description": "情報型×時期特化×問題解決",
+      "pageStructureId": "info-timing-solution-4page",
+      "reasoning": "時期特化課題には期間限定データによる効率的問題解決"
+    },
+    {
+      "matchingKey": "003-P008-T002",
+      "description": "情報型×専門業界志望×体系教育",
+      "pageStructureId": "info-industry-education-5page",
+      "reasoning": "専門業界には情報提供ベースの業界特化教育が効果的"
+    },
+    {
+      "matchingKey": "003-P008-T003",
+      "description": "情報型×専門業界志望×実績証明",
+      "pageStructureId": "info-industry-proof-4page",
+      "reasoning": "業界志望には業界特化データと実績による権威的説得"
+    },
+    {
+      "matchingKey": "003-P008-T004",
+      "description": "情報型×専門業界志望×情報提供",
+      "pageStructureId": "info-industry-data-4page",
+      "reasoning": "専門業界には業界特化情報と選択肢の体系的提供"
+    },
+    {
+      "matchingKey": "003-P008-T005",
+      "description": "情報型×専門業界志望×戦略設計",
+      "pageStructureId": "info-industry-strategy-6page",
+      "reasoning": "業界特化戦略には専門データベースの戦略設計アプローチ"
+    },
+    {
+      "matchingKey": "003-P008-T006",
+      "description": "情報型×専門業界志望×問題解決",
+      "pageStructureId": "info-industry-solution-5page",
+      "reasoning": "業界特化課題には専門データによる業界特化問題解決"
+    },
+    {
+      "matchingKey": "004-P002-T003",
+      "description": "効率型×不安解消型×実績証明",
+      "pageStructureId": "efficiency-anxiety-proof-3page",
+      "reasoning": "不安解消には効率的な実績提示で即座の信頼構築が効果的"
+    },
+    {
+      "matchingKey": "004-P002-T004",
+      "description": "効率型×不安解消型×情報提供",
+      "pageStructureId": "efficiency-anxiety-info-3page",
+      "reasoning": "不安解消には効率的で分かりやすい情報提供が重要"
+    },
+    {
+      "matchingKey": "004-P002-T005",
+      "description": "効率型×不安解消型×戦略設計",
+      "pageStructureId": "efficiency-anxiety-strategy-4page",
+      "reasoning": "不安解消には効率的でシンプルな戦略設計アプローチ"
+    },
+    {
+      "matchingKey": "004-P002-T007",
+      "description": "効率型×不安解消型×行動促進",
+      "pageStructureId": "efficiency-anxiety-action-3page",
+      "reasoning": "不安解消には効率的な行動促進で即座の安心感獲得"
+    },
+    {
+      "matchingKey": "004-P003-T003",
+      "description": "効率型×実践志向×実績証明",
+      "pageStructureId": "efficiency-practical-proof-3page",
+      "reasoning": "実践志向には効率的な実績提示で即座の実用性証明"
+    },
+    {
+      "matchingKey": "004-P003-T004",
+      "description": "効率型×実践志向×情報提供",
+      "pageStructureId": "efficiency-practical-info-3page",
+      "reasoning": "実践志向には効率的で実用的な情報提供が最適"
+    },
+    {
+      "matchingKey": "004-P003-T005",
+      "description": "効率型×実践志向×戦略設計",
+      "pageStructureId": "efficiency-practical-strategy-4page",
+      "reasoning": "実践ニーズには効率的で実用的な戦略設計アプローチ"
+    },
+    {
+      "matchingKey": "004-P003-T007",
+      "description": "効率型×実践志向×行動促進",
+      "pageStructureId": "efficiency-practical-action-3page",
+      "reasoning": "実践志向には効率的な行動促進で即座の実践開始"
+    }
+  ]
+}

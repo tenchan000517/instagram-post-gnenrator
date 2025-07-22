@@ -1,0 +1,90 @@
+{
+  "pageStructureId": "empathy-strategic-solution-5page",
+  "name": "感情共感→戦略的問題解決5ページ構成",
+  "targetCombination": "001-P001-T006",
+  "description": "戦略的ユーザーに共感ベースの問題解決を提示。感情的課題認識から論理的解決策まで段階的に導く",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "section-items",
+      "role": "emotional-hook",
+      "title": "就活で迷う戦略的思考タイプの共通パターン",
+      "itemAssignments": {
+        "title": "就活戦略を立てても不安になる理由",
+        "sections": [
+          {
+            "sectionTitle": "こんな悩みありませんか？",
+            "itemType": "empathy-statement",
+            "extractionRule": "戦略的だからこそ感じる不安・迷いを抽出",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "section-items",
+      "role": "problem-analysis",
+      "title": "戦略的思考の就活生が陥る3つの罠",
+      "itemAssignments": {
+        "title": "なぜ計画通りに進まないのか？",
+        "sections": [
+          {
+            "sectionTitle": "戦略的思考の落とし穴",
+            "itemType": "problem-analysis",
+            "extractionRule": "戦略的アプローチの限界・問題点を分析",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 3,
+      "templateId": "section-items", 
+      "role": "solution-framework",
+      "title": "感情と戦略を統合する問題解決法",
+      "itemAssignments": {
+        "title": "バランス型アプローチ",
+        "sections": [
+          {
+            "sectionTitle": "統合的解決策",
+            "itemType": "solution-method",
+            "extractionRule": "感情認識＋戦略思考の統合手法を提示",
+            "itemCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 4,
+      "templateId": "section-items",
+      "role": "practical-steps",
+      "title": "実践的な問題解決ステップ",
+      "itemAssignments": {
+        "title": "今日から始める統合アプローチ",
+        "sections": [
+          {
+            "sectionTitle": "具体的実践方法",
+            "itemType": "action-step",
+            "extractionRule": "感情＋戦略の統合的実践手順を段階的に提示",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 5,
+      "templateId": "enumeration",
+      "role": "call-to-action",
+      "title": "戦略的×感情バランス就活法まとめ",
+      "itemAssignments": {
+        "title": "統合アプローチで解決できること",
+        "enumeration": {
+          "itemType": "benefit-summary",
+          "extractionRule": "感情＋戦略統合による具体的メリットを列挙",
+          "itemCount": 5
+        }
+      }
+    }
+  ]
+}

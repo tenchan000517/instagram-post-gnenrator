@@ -1,0 +1,427 @@
+{
+  "index": {
+    "id": "index",
+    "name": "INDEX（目次）テンプレート",
+    "description": "全体のメインテーマと項目リストを表示する目次ページ",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "subtitle": "optional",
+      "badgeText": "optional",
+      "items": "required_array"
+    },
+    "constraints": {
+      "minItems": 1,
+      "maxItems": 6,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 25,
+      "content": 80,
+      "subtitle": 40,
+      "items": 20
+    },
+    "suitableFor": {
+      "contentTypes": ["目次", "インデックス", "全体構成", "項目一覧"],
+      "genres": ["全ジャンル対応"],
+      "complexity": "simple"
+    },
+    "keywords": ["INDEX", "目次", "インデックス", "項目", "リスト", "構成", "ページ"]
+  },
+  "enumeration": {
+    "id": "enumeration",
+    "name": "列挙型テンプレート",
+    "description": "番号付きリストで情報を順序立てて表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "items": "required_array"
+    },
+    "constraints": {
+      "minItems": 3,
+      "maxItems": 8,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 80,
+      "items": 60
+    },
+    "suitableFor": {
+      "contentTypes": ["手順", "ポイント", "方法", "コツ"],
+      "genres": ["ナレッジ系", "〇〇選みたいな感じでの紹介系"],
+      "complexity": "simple"
+    },
+    "keywords": ["ポイント", "方法", "手順", "コツ", "選", "おすすめ"]
+  },
+  "list": {
+    "id": "list",
+    "name": "リストテンプレート",
+    "description": "チェックリスト形式で情報を整理",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "items": "required_array"
+    },
+    "constraints": {
+      "minItems": 3,
+      "maxItems": 10,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 25,
+      "content": 70,
+      "items": 50
+    },
+    "suitableFor": {
+      "contentTypes": ["チェックリスト", "準備事項", "必要なもの", "条件"],
+      "genres": ["インターン・エントリー〆切系"],
+      "complexity": "simple"
+    },
+    "keywords": ["チェック", "確認", "必要", "準備", "条件", "リスト"]
+  },
+  "explanation2": {
+    "id": "explanation2",
+    "name": "説明型（2段階）テンプレート",
+    "description": "2つの主要ポイントで詳細説明",
+    "itemFields": {
+      "title": "required",
+      "content": "required",
+      "sections": "required_array"
+    },
+    "constraints": {
+      "minItems": 2,
+      "maxItems": 2,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 100,
+      "sections": 120
+    },
+    "suitableFor": {
+      "contentTypes": ["詳細説明", "比較", "分析", "解説"],
+      "genres": ["ナレッジ系", "ノウハウ系"],
+      "complexity": "medium"
+    },
+    "keywords": ["説明", "解説", "分析", "詳細", "理由", "なぜ"]
+  },
+  "simple3": {
+    "id": "simple3",
+    "name": "シンプル3項目テンプレート",
+    "description": "3つの要素をシンプルに表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "items": "required_array"
+    },
+    "constraints": {
+      "minItems": 3,
+      "maxItems": 3,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 25,
+      "content": 80,
+      "items": 80
+    },
+    "suitableFor": {
+      "contentTypes": ["比較", "選択肢", "基本要素"],
+      "genres": ["〇〇選みたいな感じでの紹介系"],
+      "complexity": "simple"
+    },
+    "keywords": ["比較", "選択", "3つ", "基本", "要素"]
+  },
+  "table": {
+    "id": "table",
+    "name": "テーブルテンプレート",
+    "description": "表形式でデータを整理表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "tableData": "required_array",
+      "headers": "required_array"
+    },
+    "constraints": {
+      "minItems": 3,
+      "maxItems": 8,
+      "dataSourceRequired": true
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 60,
+      "tableData": 40
+    },
+    "suitableFor": {
+      "contentTypes": ["比較表", "データ一覧", "スケジュール", "企業情報"],
+      "genres": ["インターン・エントリー〆切系"],
+      "complexity": "medium"
+    },
+    "keywords": ["表", "比較", "データ", "一覧", "スケジュール", "締切", "企業"]
+  },
+  "simple5": {
+    "id": "simple5",
+    "name": "シンプル5項目テンプレート",
+    "description": "5つの要素を効率的に表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "items": "required_array"
+    },
+    "constraints": {
+      "minItems": 5,
+      "maxItems": 5,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 25,
+      "content": 70,
+      "items": 60
+    },
+    "suitableFor": {
+      "contentTypes": ["手順", "方法", "ポイント"],
+      "genres": ["ノウハウ系"],
+      "complexity": "simple"
+    },
+    "keywords": ["5つ", "手順", "方法", "ポイント", "ステップ"]
+  },
+  "simple6": {
+    "id": "simple6",
+    "name": "シンプル6項目テンプレート",
+    "description": "6つの要素を体系的に表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "items": "required_array"
+    },
+    "constraints": {
+      "minItems": 6,
+      "maxItems": 6,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 25,
+      "content": 70,
+      "items": 55
+    },
+    "suitableFor": {
+      "contentTypes": ["手順", "方法", "要素", "段階"],
+      "genres": ["ノウハウ系"],
+      "complexity": "medium"
+    },
+    "keywords": ["6つ", "段階", "手順", "要素", "方法"]
+  },
+  "section-items": {
+    "id": "section-items",
+    "name": "セクション+アイテムテンプレート",
+    "description": "セクション毎にアイテムを整理表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "sections": "required_array"
+    },
+    "constraints": {
+      "minItems": 2,
+      "maxItems": 4,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 80,
+      "sections": 100
+    },
+    "suitableFor": {
+      "contentTypes": ["体験談", "事例", "カテゴリ別説明"],
+      "genres": ["ナレッジ系"],
+      "complexity": "medium"
+    },
+    "keywords": ["体験談", "事例", "実際", "カテゴリ", "分類"]
+  },
+  "two-column-section-items": {
+    "id": "two-column-section-items",
+    "name": "2カラムセクションアイテムテンプレート",
+    "description": "2列レイアウトでセクションアイテムを表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "leftItems": "required_array",
+      "rightItems": "required_array"
+    },
+    "constraints": {
+      "minItems": 4,
+      "maxItems": 8,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 70,
+      "leftItems": 60,
+      "rightItems": 60
+    },
+    "suitableFor": {
+      "contentTypes": ["比較", "対照", "分類", "バランス表示"],
+      "genres": ["ノウハウ系"],
+      "complexity": "medium"
+    },
+    "keywords": ["比較", "対照", "分類", "バランス", "左右"]
+  },
+  "title-description-only": {
+    "id": "title-description-only",
+    "name": "タイトル+説明のみテンプレート",
+    "description": "タイトルと説明文のみのシンプル構成",
+    "itemFields": {
+      "title": "required",
+      "content": "required"
+    },
+    "constraints": {
+      "minItems": 0,
+      "maxItems": 0,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 35,
+      "content": 200
+    },
+    "suitableFor": {
+      "contentTypes": ["単一メッセージ", "重要告知", "シンプル説明"],
+      "genres": ["ナレッジ系"],
+      "complexity": "simple"
+    },
+    "keywords": ["シンプル", "単一", "重要", "告知", "メッセージ"]
+  },
+  "checklist-enhanced": {
+    "id": "checklist-enhanced",
+    "name": "強化チェックリストテンプレート",
+    "description": "詳細なチェックリスト項目を表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "checklistItems": "required_array"
+    },
+    "constraints": {
+      "minItems": 3,
+      "maxItems": 8,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 80,
+      "checklistItems": 70
+    },
+    "suitableFor": {
+      "contentTypes": ["準備事項", "確認項目", "必須条件"],
+      "genres": ["インターン・エントリー〆切系", "ノウハウ系"],
+      "complexity": "medium"
+    },
+    "keywords": ["チェック", "準備", "確認", "必須", "条件", "項目"]
+  },
+  "item-n-title-content": {
+    "id": "item-n-title-content",
+    "name": "番号付きタイトル+内容テンプレート",
+    "description": "番号付きでタイトルと内容を詳細表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "numberedItems": "required_array"
+    },
+    "constraints": {
+      "minItems": 3,
+      "maxItems": 6,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 70,
+      "numberedItems": 90
+    },
+    "suitableFor": {
+      "contentTypes": ["詳細手順", "段階的説明", "ノウハウ詳細"],
+      "genres": ["〇〇選みたいな感じでの紹介系", "ノウハウ系"],
+      "complexity": "medium"
+    },
+    "keywords": ["手順", "段階", "詳細", "ノウハウ", "番号", "ステップ"]
+  },
+  "single-section-no-items": {
+    "id": "single-section-no-items",
+    "name": "単一セクション（アイテムなし）テンプレート",
+    "description": "単一のセクション内容のみを表示",
+    "itemFields": {
+      "title": "required",
+      "content": "required",
+      "sectionContent": "required"
+    },
+    "constraints": {
+      "minItems": 0,
+      "maxItems": 0,
+      "dataSourceRequired": false
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 100,
+      "sectionContent": 150
+    },
+    "suitableFor": {
+      "contentTypes": ["詳細説明", "深掘り解説", "専門内容"],
+      "genres": ["ナレッジ系"],
+      "complexity": "simple"
+    },
+    "keywords": ["詳細", "解説", "専門", "深掘り", "単一"]
+  },
+  "ranking": {
+    "id": "ranking",
+    "name": "ランキングテンプレート",
+    "description": "順位付けされた項目をランキング形式で表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "dataSource": "required",
+      "rankingItems": "required_array",
+      "interpretation": "optional"
+    },
+    "constraints": {
+      "minItems": 3,
+      "maxItems": 10,
+      "dataSourceRequired": true
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 70,
+      "rankingItems": 50,
+      "dataSource": 30
+    },
+    "suitableFor": {
+      "contentTypes": ["ランキング", "順位", "トップ〇〇", "ベスト"],
+      "genres": ["〇〇選みたいな感じでの紹介系"],
+      "complexity": "medium"
+    },
+    "keywords": ["ランキング", "順位", "トップ", "ベスト", "1位", "2位", "3位"]
+  },
+  "graph": {
+    "id": "graph",
+    "name": "グラフテンプレート",
+    "description": "データをグラフ形式で視覚的に表示",
+    "itemFields": {
+      "title": "required",
+      "content": "optional",
+      "dataSource": "required",
+      "graphData": "required_array",
+      "graphType": "required"
+    },
+    "constraints": {
+      "minItems": 3,
+      "maxItems": 8,
+      "dataSourceRequired": true
+    },
+    "characterLimits": {
+      "title": 30,
+      "content": 80,
+      "dataSource": 40
+    },
+    "suitableFor": {
+      "contentTypes": ["統計データ", "推移", "比較データ", "分析結果"],
+      "genres": ["全ジャンル対応"],
+      "complexity": "medium"
+    },
+    "keywords": ["グラフ", "データ", "統計", "推移", "分析", "比較"]
+  }
+}

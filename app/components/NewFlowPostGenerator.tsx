@@ -6,6 +6,7 @@ import ContentInput from './ContentInput'
 import ContentApprovalComponent from './ContentApprovalComponent'
 import EditablePostGenerator from './EditablePostGenerator'
 import { contentGeneratorService, GeneratedContent } from '../services/contentGeneratorService'
+import { KnowledgeBaseParams } from '../types/knowledgeBase'
 // PureStructureMatchingService削除 - PageStructureAnalyzerの選択を信頼
 
 type FlowStep = 'input' | 'generation' | 'approval' | 'editing' | 'final'
@@ -29,14 +30,14 @@ export default function NewFlowPostGenerator({}: NewFlowPostGeneratorProps) {
     setGenerationStatus('')
   }
 
-  const handleContentSubmit = async (content: string) => {
+  const handleContentSubmit = async (content: string, knowledgeBaseParams?: KnowledgeBaseParams) => {
     setInputContent(content)
     setCurrentStep('generation')
     setIsGenerating(true)
     setGenerationStatus('AIが高品質なコンテンツを生成中...')
 
     try {
-      const generated = await contentGeneratorService.generateHighQualityContent(content)
+      const generated = await contentGeneratorService.generateHighQualityContent(content, knowledgeBaseParams)
       
       // 🎯 高品質コンテンツ生成データをコンソールに出力
       console.log('='.repeat(60))

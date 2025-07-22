@@ -1,0 +1,569 @@
+{
+  "version": "1.0",
+  "created": "2025-07-21",
+  "description": "12投稿分析結果から抽出した成功パターンデータベース",
+  
+  "patterns": [
+    {
+      "contentId": "contents-001",
+      "typeId": "001",
+      "typeName": "共感・感情誘導型",
+      "targetId": "P002",
+      "targetName": "不安解消型就活生", 
+      "themes": ["T005", "T012"],
+      "templateType": "section-items",
+      "emotionLogicRatio": "85:15",
+      "trustScore": 4.0,
+      "valueElements": ["情緒", "量", "整理性"],
+      
+      "psychologicalNeeds": ["承認欲求", "安全欲求", "自己実現欲求", "所属欲求"],
+      "triggerMoments": [
+        "職場での理不尽体験直後",
+        "人生設計を考えるタイミング",
+        "外部プレッシャー受けた時"
+      ],
+      "emotionalState": ["怒り", "不安", "孤独感", "無力感", "希望"],
+      "urgencyLevel": "high",
+      
+      "solutionApproach": {
+        "structure": "7段階感情誘導→共鳴確認→専門家解決提示",
+        "whyEffective": "7つの具体的事例で完全な信頼構築後、45分間無料相談という具体的CTA",
+        "uniqueValue": "理不尽な扱いの完全言語化による感情浄化効果"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 7,
+        "emotionalHookRequired": true,
+        "solutionCTARequired": true,
+        "personalStoryRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-008",
+      "typeId": "001", 
+      "typeName": "共感・感情誘導型",
+      "targetId": "P001",
+      "targetName": "戦略的就活生",
+      "themes": ["T008", "T015"],
+      "templateType": "enumeration",
+      "emotionLogicRatio": "60:40",
+      "trustScore": 3.5,
+      "valueElements": ["情緒", "精度", "詳細性"],
+      
+      "psychologicalNeeds": ["成長欲求", "効率性", "差別化", "自立性"],
+      "triggerMoments": [
+        "努力しているのに評価されない状況",
+        "同期との差を感じた時",
+        "キャリア停滞への危機感"
+      ],
+      "emotionalState": ["悔しさ", "孤立感", "成長欲求"],
+      "urgencyLevel": "medium-high",
+      
+      "solutionApproach": {
+        "structure": "問題共感→権威性提示→解決期待創出", 
+        "whyEffective": "300名指導実績による権威性+具体的改善への道筋提示",
+        "uniqueValue": "戦略的就活生の「共感+論理」両方のニーズ同時対応"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 5,
+        "authorityRequired": true,
+        "logicalFlowRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-024",
+      "typeId": "001",
+      "typeName": "共感・感情誘導型", 
+      "targetId": "P003",
+      "targetName": "実用主義就活生",
+      "themes": ["T003", "T019"],
+      "templateType": "list",
+      "emotionLogicRatio": "40:60",
+      "trustScore": 4.0,
+      "valueElements": ["情緒", "詳細性", "整理性", "鮮度", "精度"],
+      
+      "psychologicalNeeds": ["安心感", "選択肢の明確化", "専門的支援", "即行動性"],
+      "triggerMoments": [
+        "内定0状況での焦り",
+        "具体的企業情報不足の認識", 
+        "選考期限迫る緊急性"
+      ],
+      "emotionalState": ["焦り", "不安", "希望"],
+      "urgencyLevel": "high",
+      
+      "solutionApproach": {
+        "structure": "感情共感→具体的企業データ→専門的支援",
+        "whyEffective": "5社詳細データによる即座の行動可能性+専門家権威性",
+        "uniqueValue": "論理60%を支える感情40%の戦略的配置による完璧な二段階価値提供"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 5,
+        "dataDetailRequired": true,
+        "actionabilityRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-027",
+      "typeId": "001",
+      "typeName": "共感・感情誘導型",
+      "targetId": "P002", 
+      "targetName": "不安解消型就活生",
+      "themes": ["T007", "T014"],
+      "templateType": "enumeration",
+      "emotionLogicRatio": "40:60", 
+      "trustScore": 4.0,
+      "valueElements": ["情緒", "詳細性", "精度", "鮮度"],
+      
+      "psychologicalNeeds": ["即効性", "実用性", "安心感", "自信回復"],
+      "triggerMoments": [
+        "面接で予期しない質問を受けた瞬間",
+        "面接準備の不完全性を認識した時",
+        "面接継続中の緊急対処ニーズ"
+      ],
+      "emotionalState": ["パニック", "困惑", "不安"],
+      "urgencyLevel": "high",
+      
+      "solutionApproach": {
+        "structure": "強烈感情フック→論理的対処法→実践促進",
+        "whyEffective": "「心臓止まった」共感→具体的回答方法→即実践可能性",
+        "uniqueValue": "TypeID=001で最も論理的な「感情入口・論理解決」モデルの完成形"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 6,
+        "strongEmotionalHookRequired": true,
+        "practicalSolutionsRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-002",
+      "typeId": "002",
+      "typeName": "教育・学習特化型",
+      "targetId": "P005",
+      "targetName": "スキル向上志向社会人",
+      "themes": ["T001", "T010"],
+      "templateType": "explanation2",
+      "emotionLogicRatio": "30:70",
+      "trustScore": 4.0,
+      "valueElements": ["詳細性", "整理性", "精度"],
+      
+      "psychologicalNeeds": ["長期安心感", "戦略的思考", "自立的判断力", "継続学習"],
+      "triggerMoments": [
+        "将来への漠然とした不安", 
+        "ライフイベント（結婚・出産・介護）の現実化",
+        "キャリアの方向性への迷い"
+      ],
+      "emotionalState": ["不安", "迷い", "心配"],
+      "urgencyLevel": "low-medium",
+      
+      "solutionApproach": {
+        "structure": "問題共有→7つのPoint体系→継続的関係構築",
+        "whyEffective": "段階的知識構築+実践的行動指針+専門性による長期関係",
+        "uniqueValue": "感情的配慮を保ちながら論理的説得力で自立支援を実現"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 7,
+        "systematicApproachRequired": true,
+        "longTermPerspectiveRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-004",
+      "typeId": "002",
+      "typeName": "教育・学習特化型",
+      "targetId": "P001",
+      "targetName": "戦略的就活生",
+      "themes": ["T006", "T013"],
+      "templateType": "explanation2",
+      "emotionLogicRatio": "30:70",
+      "trustScore": 4.0,
+      "valueElements": ["詳細性", "整理性", "精度"],
+      
+      "psychologicalNeeds": ["体系的理解", "確実性", "成長実感", "基礎構築"],
+      "triggerMoments": [
+        "就活準備開始時の自己理解不足認識",
+        "面接での自己PR困難体験", 
+        "キャリア選択の軸不明確化"
+      ],
+      "emotionalState": ["不安", "迷い", "学習意欲"],
+      "urgencyLevel": "medium",
+      
+      "solutionApproach": {
+        "structure": "重要性説明→5手法詳細解説→継続実践促進",
+        "whyEffective": "心理学理論+図解+段階的実行手順の三位一体設計", 
+        "uniqueValue": "初心者配慮と専門性の両立による完全ガイド実現"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 5,
+        "theoreticalBackgroundRequired": true,
+        "stepByStepRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-010",
+      "typeId": "002",
+      "typeName": "教育・学習特化型",
+      "targetId": "P002",
+      "targetName": "不安解消型就活生",
+      "themes": ["T004", "T011"],
+      "templateType": "checklist-enhanced",
+      "emotionLogicRatio": "15:85",
+      "trustScore": 4.0,
+      "valueElements": ["詳細性", "整理性", "精度"],
+      
+      "psychologicalNeeds": ["即効的安心感", "実用性", "確実性", "自信回復"],
+      "triggerMoments": [
+        "初回企業電話での緊張体験",
+        "電話マナー知識不足の認識",
+        "電話応対失敗への恐怖"
+      ],
+      "emotionalState": ["不安", "緊張", "恐怖"],
+      "urgencyLevel": "high",
+      
+      "solutionApproach": {
+        "structure": "不安共感→体系的技法習得→実践促進",
+        "whyEffective": "マイナビ権威性+具体的技法+段階的自信構築",
+        "uniqueValue": "TypeID=002で最も論理重視の不安解消特化型教育システム"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 8,
+        "practicalSkillsRequired": true,
+        "confidenceBuildingRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-023",
+      "typeId": "002", 
+      "typeName": "教育・学習特化型",
+      "targetId": "P001",
+      "targetName": "戦略的就活生",
+      "themes": ["T002", "T016"],
+      "templateType": "simple5",
+      "emotionLogicRatio": "25:75",
+      "trustScore": 4.0,
+      "valueElements": ["詳細性", "整理性", "鮮度", "精度", "量"],
+      
+      "psychologicalNeeds": ["緊急対応", "確実性", "体系的理解", "行動指針"],
+      "triggerMoments": [
+        "大学3年7月の時期的緊急性認識",
+        "周囲の就活準備進捗との差への焦り",
+        "統計データによる現実認識"
+      ],
+      "emotionalState": ["焦り", "危機感", "行動意欲"],
+      "urgencyLevel": "high",
+      
+      "solutionApproach": {
+        "structure": "統計的根拠→7段階体系→緊急行動促進",
+        "whyEffective": "統計データ+具体的目標設定+体系的手順の三重保証",
+        "uniqueValue": "時期特化×体系教育×緊急性の三要素統合による最適化教育"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 7,
+        "timeSpecificRequired": true,
+        "statisticalBackingRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-003",
+      "typeId": "003",
+      "typeName": "情報提供・データ型",
+      "targetId": "P001",
+      "targetName": "戦略的就活生",
+      "themes": ["T009", "T017"],
+      "templateType": "list",
+      "emotionLogicRatio": "20:80",
+      "trustScore": 3.5,
+      "valueElements": ["精度", "詳細性", "整理性"],
+      
+      "psychologicalNeeds": ["即効性", "確実性", "投資対効果", "技術的信頼性"],
+      "triggerMoments": [
+        "AI収益化可能性への関心",
+        "具体的手法情報の不足認識",
+        "投資対効果への疑問"
+      ],
+      "emotionalState": ["期待", "疑問", "学習意欲"],
+      "urgencyLevel": "medium",
+      
+      "solutionApproach": {
+        "structure": "実績証明→7ステップ手順→継続学習誘導",
+        "whyEffective": "具体的数値実績+詳細技術手順+社会的証明の三重信頼構築",
+        "uniqueValue": "精度価値を核とした技術特化型情報提供の完成形"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 7,
+        "proofOfConceptRequired": true,
+        "technicalDetailsRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-021",
+      "typeId": "003",
+      "typeName": "情報提供・データ型",
+      "targetId": "P003",
+      "targetName": "実用主義就活生", 
+      "themes": ["T020", "T021"],
+      "templateType": "table",
+      "emotionLogicRatio": "20:80",
+      "trustScore": 4.0,
+      "valueElements": ["詳細性", "精度", "量", "整理性"],
+      
+      "psychologicalNeeds": ["選択肢理解", "客観的比較", "即実用性", "信頼できる情報"],
+      "triggerMoments": [
+        "企業選択基準の不明確さ",
+        "福利厚生情報の収集困難",
+        "生活費負担への現実的関心"
+      ],
+      "emotionalState": ["関心", "比較検討意欲", "実用性追求"],
+      "urgencyLevel": "medium",
+      
+      "solutionApproach": {
+        "structure": "企業名提示→制度詳細→統一フォーマット比較",
+        "whyEffective": "8社統一フォーマット+具体的条件+検証可能性による最高信頼度",
+        "uniqueValue": "TypeID=003で唯一の信頼度4.0達成による情報型コンテンツの理想形"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 8,
+        "comparativeDataRequired": true,
+        "unifiedFormatRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-022",
+      "typeId": "003",
+      "typeName": "情報提供・データ型",
+      "targetId": "P004",
+      "targetName": "効率化志向ビジネスパーソン",
+      "themes": ["T018", "T001"],
+      "templateType": "simple3",
+      "emotionLogicRatio": "30:70",
+      "trustScore": 3.0,
+      "valueElements": ["簡潔性", "整理性", "密度", "詳細性", "情緒"],
+      
+      "psychologicalNeeds": ["自信回復", "差別化", "効率性", "実用性"],
+      "triggerMoments": [
+        "学歴による劣等感体験",
+        "転職・昇進での学歴限界認識",
+        "実力評価への欲求"
+      ],
+      "emotionalState": ["劣等感", "向上心", "期待"],
+      "urgencyLevel": "low-medium",
+      
+      "solutionApproach": {
+        "structure": "感情的共感→10資格リスト→転職サービス誘導",
+        "whyEffective": "学歴コンプレックス配慮+簡潔効率+実用価値の三重設計",
+        "uniqueValue": "TypeID=003最高の感情比重30%による感情配慮型情報提供"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 10,
+        "emotionalCareRequired": true,
+        "efficiencyFocused": true
+      }
+    },
+    
+    {
+      "contentId": "contents-026",
+      "typeId": "003",
+      "typeName": "情報提供・データ型",
+      "targetId": "P001",
+      "targetName": "戦略的就活生",
+      "themes": ["T003", "T019"],
+      "templateType": "ranking",
+      "emotionLogicRatio": "25:75", 
+      "trustScore": 4.0,
+      "valueElements": ["詳細性", "整理性", "量", "密度", "精度", "権威性"],
+      
+      "psychologicalNeeds": ["権威的信頼", "情報完全性", "社会的証明", "戦略的優位性"],
+      "triggerMoments": [
+        "高倍率企業への挑戦意欲",
+        "信頼できる企業情報の必要性認識",
+        "専門的選考対策への需要"
+      ],
+      "emotionalState": ["挑戦意欲", "信頼欲求", "戦略的思考"],
+      "urgencyLevel": "high",
+      
+      "solutionApproach": {
+        "structure": "権威的タイトル→企業ランキング→実績証明→誘導",
+        "whyEffective": "2000人実績+内定企業群+TOP50データの三重権威性構築",
+        "uniqueValue": "6要素最大構成（詳細性/整理性/量/密度/精度/権威性）によるTypeID=003最高進化形"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 50,
+        "authorityRequired": true,
+        "rankingDataRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-027",
+      "typeId": "004",
+      "typeName": "効率・実用特化型",
+      "targetId": "P001",
+      "targetName": "戦略的就活生",
+      "themes": ["T006", "T016"],
+      "templateType": "simple5",
+      "emotionLogicRatio": "40:60",
+      "trustScore": 4.0,
+      "valueElements": ["効率性", "実用性", "即効性", "具体的成果", "整理性"],
+      
+      "psychologicalNeeds": ["効率化", "時短", "実用性", "具体的成果"],
+      "triggerMoments": [
+        "就活効率化への需要",
+        "時間不足感の認識",
+        "実践的ツールへの関心"
+      ],
+      "emotionalState": ["焦り", "効率性欲求", "実用性志向"],
+      "urgencyLevel": "high",
+      
+      "solutionApproach": {
+        "structure": "共感的問題提示→効率化ツール5選→実体験談→行動促進",
+        "whyEffective": "感情共感+実用ツール+成功体験の3段構成による高い行動誘導効果",
+        "uniqueValue": "効率性と感情配慮のバランス取れた実践的支援"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 5,
+        "practicalToolsRequired": true,
+        "efficiencyFocused": true,
+        "actionabilityRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-028", 
+      "typeId": "004",
+      "typeName": "効率・実用特化型",
+      "targetId": "P002",
+      "targetName": "不安解消型就活生",
+      "themes": ["T011", "T015"],
+      "templateType": "checklist-enhanced",
+      "emotionLogicRatio": "50:50",
+      "trustScore": 3.5,
+      "valueElements": ["実用性", "安心感", "具体性", "段階性"],
+      
+      "psychologicalNeeds": ["安心感", "実践可能性", "段階的習得", "効率性"],
+      "triggerMoments": [
+        "就活不安の増大",
+        "具体的対策法の探求",
+        "効率的準備への需要"  
+      ],
+      "emotionalState": ["不安", "焦り", "実用性欲求"],
+      "urgencyLevel": "medium",
+      
+      "solutionApproach": {
+        "structure": "不安共感→実践的チェックリスト→段階的実行→成功体験", 
+        "whyEffective": "不安解消と実用性の両立により安心して実行可能",
+        "uniqueValue": "感情配慮を含んだ実践的ガイダンス"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 10,
+        "checklistFormatRequired": true,
+        "stepByStepRequired": true,
+        "emotionalCareRequired": true
+      }
+    },
+    
+    {
+      "contentId": "contents-200",
+      "typeId": "003",
+      "typeName": "情報提供・データ型",
+      "targetId": "P004",
+      "targetName": "効率化志向ビジネスパーソン",
+      "themes": ["T008", "T009"],
+      "templateType": "list",
+      "emotionLogicRatio": "20:80",
+      "trustScore": 5.0,
+      "valueElements": ["精度", "詳細性", "整理性", "実証性"],
+      
+      "pageStructure": {
+        "totalPages": 8,
+        "templates": ["item-n-title-content", "item-n-title-content", "item-n-title-content", "item-n-title-content", "item-n-title-content", "item-n-title-content", "item-n-title-content", "item-n-title-content"],
+        "itemCount": 8
+      },
+      
+      "psychologicalNeeds": ["効率化", "データ根拠", "実用性", "時短"],
+      "triggerMoments": [
+        "Instagram運用の効率化需要",
+        "データドリブンな改善施策の探求",
+        "マーケティング戦略の見直し"
+      ],
+      "emotionalState": ["分析欲求", "改善意欲", "効率性志向"],
+      "urgencyLevel": "medium-high",
+      
+      "solutionApproach": {
+        "structure": "分析結果提示→8つの実践ノウハウ→データ根拠→実装支援",
+        "whyEffective": "100投稿分析の実証データ+即実践可能なノウハウ提供",
+        "uniqueValue": "分析結果に基づく科学的なInstagram運用改善手法"
+      },
+      
+      "contentDetails": {
+        "item1": "感情×情報の複合表現を活用 - キャリア投稿100件分析で75%が感情共感＋データ提供の組み合わせを採用",
+        "item2": "感情共感型コンテンツが効果的 - 分析した投稿の37%を占め、体験談・ストーリーでエンゲージメント獲得",
+        "item3": "ターゲット属性で表現を変える - 戦略志向25%、不安解消20%、実用主義15%など異なるニーズに対応",
+        "item4": "教育型コンテンツが最多 - 分析結果で34%のシェア。段階的な知識提供が支持される傾向",
+        "item5": "情報提供型で権威性を活用 - 28%のシェア。データ・ランキング・統計で信頼性を構築",
+        "item6": "効率特化型はバランス重視 - 21%のシェア。感情50%：論理50%で幅広い層にアプローチ",
+        "item7": "AI関連コンテンツの増加 - 分析対象の最新20投稿中15投稿がAI活用・効率化テーマを扱う",
+        "item8": "投稿構成の多様化 - 9枚構成、10枚構成、4枚構成、1枚完結など目的に応じた使い分けが見られる"
+      },
+      
+      "structureConstraints": {
+        "maxItems": 8,
+        "dataBackedRequired": true,
+        "practicalApplicationRequired": true,
+        "evidenceBasedRequired": true
+      }
+    }
+  ],
+  
+  "typeDefinitions": {
+    "001": {
+      "name": "共感・感情誘導型",
+      "emotionRatioRange": "40:60～85:15",
+      "coreApproach": "感情的共感から信頼関係構築→解決策提示",
+      "optimalTemplates": ["section-items", "enumeration", "explanation2", "list"],
+      "keyCharacteristics": ["感情フック", "ストーリー性", "共感誘導", "心理的サポート"]
+    },
+    "002": {
+      "name": "教育・学習特化型", 
+      "emotionRatioRange": "15:85～30:70",
+      "coreApproach": "体系的知識伝達による段階的スキル習得支援",
+      "optimalTemplates": ["explanation2", "enumeration", "checklist-enhanced", "simple5"],
+      "keyCharacteristics": ["体系性", "段階的", "教育的", "スキル習得支援"]
+    },
+    "003": {
+      "name": "情報提供・データ型",
+      "emotionRatioRange": "5:95～30:70", 
+      "coreApproach": "客観的データ・実証済み手法による確実な成果獲得支援",
+      "optimalTemplates": ["table", "list", "ranking", "graph", "item-n-title-content"],
+      "keyCharacteristics": ["客観性", "データ重視", "比較可能性", "実証性"]
+    },
+    "004": {
+      "name": "効率・実用特化型",
+      "emotionRatioRange": "25:75～50:50",
+      "coreApproach": "感情共感+実用性の組み合わせによる効率的目標達成支援", 
+      "optimalTemplates": ["simple3", "checklist-enhanced", "simple5", "title-description-only"],
+      "keyCharacteristics": ["効率性", "実用性", "即効性", "具体的成果"]
+    }
+  }
+}

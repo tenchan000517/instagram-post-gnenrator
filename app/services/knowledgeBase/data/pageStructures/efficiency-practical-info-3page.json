@@ -1,0 +1,56 @@
+{
+  "pageStructureId": "efficiency-practical-info-3page",
+  "name": "効率型×実践志向情報提供3ページ構成",
+  "targetCombination": "004-P003-T004",
+  "description": "実践志向には効率的で実用的な情報提供が最適",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "enumeration",
+      "role": "quick-overview",
+      "title": "実践的就活情報まとめ",
+      "itemAssignments": {
+        "title": "今すぐ使える就活ノウハウ5選",
+        "enumeration": {
+          "itemType": "practical-tip",
+          "extractionRule": "実践志向ユーザーがすぐに活用できる具体的ノウハウを抽出",
+          "itemCount": 5
+        }
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "section-items",
+      "role": "detailed-information",
+      "title": "効率的な就活戦略データ",
+      "itemAssignments": {
+        "title": "実績に基づく効果的手法",
+        "sections": [
+          {
+            "sectionTitle": "データで見る成功パターン",
+            "itemType": "data-insight",
+            "extractionRule": "実践的で効率的な就活手法を客観的データで提示",
+            "itemCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 3,
+      "templateId": "section-items",
+      "role": "immediate-action",
+      "title": "今日から始める効率就活",
+      "itemAssignments": {
+        "title": "即実践可能なアクション",
+        "sections": [
+          {
+            "sectionTitle": "今すぐできること",
+            "itemType": "immediate-action",
+            "extractionRule": "実践志向ユーザーが今日から実行できる具体的アクション",
+            "itemCount": 3
+          }
+        ]
+      }
+    }
+  ]
+}

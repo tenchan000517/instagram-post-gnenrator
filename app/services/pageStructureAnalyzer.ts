@@ -3,8 +3,12 @@ import { getGeminiModel } from './geminiClientSingleton'
 import { GenreDetector } from './genreDetector'
 import { ItemCountOptimizer } from './itemCountOptimizer'
 import { Genre, getGenreConfig } from '../types/genre'
+import { KnowledgeBaseParams } from '../types/knowledgeBase'
+import { PageStructureMatcher } from './knowledgeBase/PageStructureMatcher'
+import { TemplateItemMapper } from './knowledgeBase/TemplateItemMapper'
 
 export class PageStructureAnalyzer {
+  
   private model: any
   private genreDetector: GenreDetector
   private itemCountOptimizer: ItemCountOptimizer
@@ -15,7 +19,10 @@ export class PageStructureAnalyzer {
     this.itemCountOptimizer = new ItemCountOptimizer()
   }
 
-  async analyzePageStructureAndTemplates(input: string): Promise<PageStructure[]> {
+  async analyzePageStructureAndTemplates(
+    input: string, 
+    knowledgeBaseParams?: KnowledgeBaseParams
+  ): Promise<PageStructure[]> {
     // 入力テキストからジャンル情報を抽出
     const specifiedGenre = this.extractGenreFromInput(input)
     
@@ -42,7 +49,13 @@ export class PageStructureAnalyzer {
       optimalItemRange: genreConfig.optimalItemRange
     })
 
-    const prompt = `
+    // ナレッジベース明示的選択モードの場合は統合システムを実行
+    if (knowledgeBaseParams?.useKnowledgeBase && knowledgeBaseParams.typeId && knowledgeBaseParams.targetId && knowledgeBaseParams.themeId) {
+      console.log('🚀 ナレッジベース統合システム実行 - PageStructureMatcher & TemplateItemMapper使用');
+      return this.generateStructuredContent(input, knowledgeBaseParams);
+    }
+
+    const basePrompt = `
 あなたはInstagram投稿構造の専門家です。以下のコンテンツを分析し、最適なページ構造を決定してください。
 
 【ジャンル分析結果】
@@ -134,7 +147,7 @@ ${input}
 `
 
     try {
-      const result = await this.model.generateContent(prompt)
+      const result = await this.model.generateContent(basePrompt)
       const response = await result.response
       const text = response.text()
       
@@ -183,5 +196,96 @@ ${input}
     }
     
     return null
+  }
+
+  /**
+   * 新統合システム：厳密マッチング + テンプレート項目マッピング
+   */
+  private async generateStructuredContent(
+    input: string,
+    params: KnowledgeBaseParams
+  ): Promise<PageStructure[]> {
+    console.log('🎯 新統合システム開始:', {
+      typeId: params.typeId,
+      targetId: params.targetId,
+      themeId: params.themeId
+    });
+
+    try {
+      // Step 1: 厳密マッチングでページ構造を取得
+      const { pattern, structure } = PageStructureMatcher.getCompletePageStructure(
+        params.typeId!,
+        params.targetId!,
+        params.themeId!
+      );
+
+      console.log('✅ ページ構造マッチング成功:', pattern.description);
+
+      // Step 2: テンプレート項目マッピングで具体的コンテンツを抽出
+      const mapper = new TemplateItemMapper();
+      const mappingResult = await mapper.mapContentToPages(input, structure);
+
+      console.log('✅ テンプレート項目マッピング完了:', {
+        pagesCount: mappingResult.pages.length,
+        totalExtractions: mappingResult.totalExtractions,
+        processingTime: mappingResult.processingTime + 'ms'
+      });
+
+      // Step 3: PageStructure形式に変換
+      const pageStructures: PageStructure[] = mappingResult.pages.map(page => ({
+        概要: `ナレッジベース統合システムによる最適化コンテンツ（${pattern.description}）`,
+        有益性: `TypeID×TargetID×ThemeID厳密マッチングによる最適化された価値提供`,
+        template: page.templateId as PremiumTemplateType,
+        title: page.title,
+        theme: JSON.stringify(page.mappedItems),
+        isStructuredGeneration: true  // 新統合システム識別フラグ
+      }));
+
+      console.log('🎉 新統合システム完了:', {
+        generatedPages: pageStructures.length,
+        matchingPattern: pattern.pageStructureId
+      });
+
+      return pageStructures;
+
+    } catch (error) {
+      console.error('❌ 新統合システムエラー:', error);
+      // フォールバック禁止 - 明確なエラーを投げる
+      throw new Error(`統合システム処理失敗: ${error}`);
+    }
+  }
+
+  /**
+   * マッピングされたコンテンツをtheme形式に変換
+   */
+  private formatMappedContentAsTheme(mappedItems: any, templateId: string): string {
+    try {
+      if (mappedItems.sections) {
+        return mappedItems.sections.map((section: any) => 
+          `${section.sectionTitle}:\n${section.items.join('\n')}`
+        ).join('\n\n');
+      }
+
+      if (mappedItems.enumeration) {
+        return mappedItems.enumeration.join('\n');
+      }
+
+      if (mappedItems.ranking) {
+        return mappedItems.ranking.map((item: any) => 
+          `${item.rank}位: ${item.item}\n${item.description || ''}`
+        ).join('\n\n');
+      }
+
+      if (mappedItems.items) {
+        return mappedItems.items.join('\n');
+      }
+
+      // その他の形式の場合はJSON文字列として返す
+      return JSON.stringify(mappedItems, null, 2);
+
+    } catch (error) {
+      console.error('❌ テーマ形式変換エラー:', error);
+      return JSON.stringify(mappedItems, null, 2);
+    }
   }
 }

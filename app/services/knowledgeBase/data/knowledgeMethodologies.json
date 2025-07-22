@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "created": "2025-07-22",
+  "description": "成功パターンと有益性分析から抽出した方法論データベース",
+  
+  "methodologies": [
+    {
+      "knowledgeId": "methodology-001-P002-T005",
+      "sourceContent": "contents-001",
+      "problemSolvingMethodology": {
+        "issueIdentification": "理不尽な扱いを受けた瞬間の感情的混乱状態を7つの具体事例で明確化し、個人の体験を普遍的パターンとして認識させる",
+        "solutionDesignProcess": "感情共感→共鳴確認→専門家解決提示の3段階プロセス。85%感情配分で完全な信頼構築後、45分間無料相談という具体的CTAで解決へ導く",
+        "implementationSteps": "①7つの理不尽事例で感情浄化②段階的心理誘導による共感創出③専門家権威性による解決期待④具体的行動促進（無料相談）"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "働く女性特有の理不尽体験を具体的言語化することで「私のことだ」という強烈な当事者意識を創出",
+        "credibilityBuilding": "9枚段階構成によるAIDMA完全実装と複合価値構成（情緒+整理性+量+詳細性）による多重信頼構築",
+        "actionInduction": "感情的安心感を十分に提供した後、専門家による具体的解決という明確な次ステップを提示"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-002-P005-T001",
+      "sourceContent": "contents-002",
+      "problemSolvingMethodology": {
+        "issueIdentification": "将来への漠然とした不安を「7つのPoint」構造で体系化し、ライフイベントの現実化という具体的トリガーで問題を明確化",
+        "solutionDesignProcess": "問題共有→7つのPoint体系→継続的関係構築。30:70の感情論理比率で教育的価値を軸とした段階的知識構築を実現",
+        "implementationSteps": "①漠然不安の言語化②7Point段階的教育③理論的フレームワーク提示④継続学習促進⑤長期関係構築"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "理論的説明と感情的配慮のバランスにより、学習意欲を維持しながら体系的理解を促進",
+        "credibilityBuilding": "教育型マーケティング手法による専門性証明と7つのPoint段階的構成による学習効果実感",
+        "actionInduction": "段階的知識構築による自立支援を基盤とし、継続的専門関係への自然な移行を促進"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-003-P001-T009",
+      "sourceContent": "contents-003",
+      "problemSolvingMethodology": {
+        "issueIdentification": "AI収益化への関心と具体的手法情報不足を、実績スクリーンショットによる実証で問題の緊急性を明確化",
+        "solutionDesignProcess": "実績証明→7ステップ手順→継続学習誘導。精度価値を主軸とし、権威性と社会的証明の三重信頼構築で解決を設計",
+        "implementationSteps": "①12万4,000円実績による信頼獲得②7ステップ体系による段階的指導③権威性活用④継続サービス誘導"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "具体的数値実績（12万4,000円）による即座の関心獲得と、AI上級者権威性による専門性アピール",
+        "credibilityBuilding": "実証データ+詳細技術手順+社会的証明の三重構造により、収益化可能性への確信を構築",
+        "actionInduction": "段階的信頼構築設計により自然な継続学習欲求を創出し、具体的行動を促進"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-004-P001-T006",
+      "sourceContent": "contents-004",
+      "problemSolvingMethodology": {
+        "issueIdentification": "自己理解不足による就活準備の困難を、ジョハリの窓理論を活用して5つの具体的手法で体系化",
+        "solutionDesignProcess": "重要性説明→5手法詳細解説→継続実践促進。心理学理論+図解+段階的実行手順の三位一体設計",
+        "implementationSteps": "①自己理解重要性の理論的説明②5手法の段階的解説③図表による視覚化④継続実践促進⑤継続関係構築"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "初心者配慮と専門性の両立により、学習ハードルを下げながら価値を提供",
+        "credibilityBuilding": "体系的手法解説による教育性と図表視覚化による理解促進で信頼を構築",
+        "actionInduction": "継続促進設計により段階的な自己理解深化と継続的関係構築を促進"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-005-P002-T007",
+      "sourceContent": "contents-027",
+      "problemSolvingMethodology": {
+        "issueIdentification": "面接中の予期しない質問によるパニック状態を「心臓止まった」強烈共感で即座に問題化",
+        "solutionDesignProcess": "強烈感情フック→論理的対処法→実践促進。感情入口・論理解決モデルで40:60の感情論理比率を実現",
+        "implementationSteps": "①強烈感情フックによる共感創出②具体的回答方法の論理的提示③Q&A形式による実践指導④即実践可能性の強調"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "「心臓止まった」という強烈な感情表現により瞬間的な当事者意識を創出",
+        "credibilityBuilding": "共感→具体的回答方法→即実践可能性の論理的構成により信頼を構築",
+        "actionInduction": "恐怖回避から具体的解決策への転換構造により、即座の実践行動を促進"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-006-P003-T020",
+      "sourceContent": "contents-021",
+      "problemSolvingMethodology": {
+        "issueIdentification": "企業選択における福利厚生情報収集困難を8社の家賃補助制度比較により客観的に問題化",
+        "solutionDesignProcess": "企業名提示→制度詳細→統一フォーマット比較。具体的数値による比較可能性で意思決定を支援",
+        "implementationSteps": "①8社企業の具体的提示②家賃補助条件の詳細化③統一フォーマットによる比較④経済的メリットの定量化"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "「家賃の8割、上限10万円」等の具体的数値により即座の関心と価値認識を創出",
+        "credibilityBuilding": "8社統一フォーマット+具体的条件+検証可能性による最高信頼度構築",
+        "actionInduction": "経済的メリットの明確化により企業選択の具体的判断基準を提供"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-007-P001-T003",
+      "sourceContent": "contents-026",
+      "problemSolvingMethodology": {
+        "issueIdentification": "高倍率企業への挑戦における信頼できる企業情報不足を2000人実績権威性で問題の深刻さを明確化",
+        "solutionDesignProcess": "権威的タイトル→企業ランキング→実績証明→誘導。2000人実績+内定企業群+TOP50データの三重権威性構築",
+        "implementationSteps": "①TOP50タイトルによる価値序列提示②2000人サポート実績証明③内定企業群による社会的証明④限定選考案内等の具体的メリット提示"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "TOP50ランキングという権威的情報により戦略的就活生の情報欲求を即座に満足",
+        "credibilityBuilding": "6要素最大構成（詳細性/整理性/量/密度/精度/権威性）による圧倒的信頼構築",
+        "actionInduction": "権威的データと具体的メリットの組み合わせにより戦略的行動を促進"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-008-P004-T018",
+      "sourceContent": "contents-022",
+      "problemSolvingMethodology": {
+        "issueIdentification": "学歴による劣等感と転職・昇進での学歴限界を「文系のとりあえず1個」という親近感ある表現で問題化",
+        "solutionDesignProcess": "感情的共感→10資格リスト→転職サービス誘導。学歴コンプレックス配慮+簡潔効率+実用価値の三重設計",
+        "implementationSteps": "①学歴劣等感への共感表現②業界特化資格10選の効率的提示③「不動産、金融業界で最強」差別化効果明示④転職サービス誘導"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "学歴コンプレックスへの感情的配慮により心理的安全性を確保後、実用価値を提供",
+        "credibilityBuilding": "業界特化効果明示による差別化と簡潔効率による価値密度の両立",
+        "actionInduction": "自信回復と差別化の両方を満たす具体的行動指針を提供"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-009-P001-T002",
+      "sourceContent": "contents-023",
+      "problemSolvingMethodology": {
+        "issueIdentification": "大学3年7月の時期的緊急性をn=500インターン調査データで客観的に問題の深刻さを証明",
+        "solutionDesignProcess": "統計的根拠→7段階体系→緊急行動促進。統計データ+具体的目標設定+体系的手順の三重保証",
+        "implementationSteps": "①統計データによる現状認識②7つの行動指針の体系的提示③緊急性演出による行動促進④具体的目標設定による実践支援"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "統計的根拠による客観性と時期特化による緊急性で即座の関心獲得",
+        "credibilityBuilding": "データ根拠による権威性強化と体系的手順による実践可能性の証明",
+        "actionInduction": "時期特化×体系教育×緊急性の三要素統合により最適化された行動促進"
+      }
+    },
+
+    {
+      "knowledgeId": "methodology-010-P003-T003",
+      "sourceContent": "contents-024",
+      "problemSolvingMethodology": {
+        "issueIdentification": "内定0状況での焦りと具体的企業情報不足を「元人事」権威性により専門的観点から問題化",
+        "solutionDesignProcess": "感情共感→具体的企業データ→専門的支援。論理60%を支える感情40%の戦略的配置による二段階価値提供",
+        "implementationSteps": "①内定0への共感的理解②大手企業5社の詳細データ提示③統一形式による比較可能性④専門的支援への自然な誘導"
+      },
+      "expressionMethodology": {
+        "engagementPatterns": "感情的共感と論理的情報提供の絶妙なバランスにより心理支援と実用性を両立",
+        "credibilityBuilding": "「元人事」権威性による専門性と5社詳細データによる即座の行動可能性",
+        "actionInduction": "複合価値による心理支援を基盤とし、具体的企業選択という明確な次ステップを提供"
+      }
+    }
+  ],
+
+  "methodologyPatterns": {
+    "感情共感型": {
+      "description": "強烈な感情体験を入口とし、共感から信頼関係を構築後、論理的解決策を提示",
+      "keyElements": ["感情フック", "体験談活用", "段階的心理誘導", "共感→論理転換"],
+      "effectiveFor": ["不安解消型就活生", "感情的サポートニーズ"]
+    },
+    "権威性証明型": {
+      "description": "専門性・実績・データによる権威性確立を基盤とした価値提供",
+      "keyElements": ["実績数値", "専門的視点", "データ根拠", "社会的証明"],
+      "effectiveFor": ["戦略的就活生", "客観的判断重視層"]
+    },
+    "体系化教育型": {
+      "description": "段階的学習構成による知識・スキルの体系的習得支援",
+      "keyElements": ["段階的構成", "体系的フレームワーク", "継続学習促進", "理論+実践"],
+      "effectiveFor": ["学習意欲の高い層", "基礎構築ニーズ"]
+    },
+    "緊急性駆動型": {
+      "description": "時期特化・期間限定による緊急性醸成で即座の行動を促進",
+      "keyElements": ["時期特化", "統計的根拠", "機会損失回避", "具体的期限"],
+      "effectiveFor": ["行動促進が必要な層", "時期的プレッシャー感受層"]
+    },
+    "複合価値型": {
+      "description": "感情的配慮と論理的価値の戦略的組み合わせによる多重価値提供",
+      "keyElements": ["感情論理比率調整", "多要素組み合わせ", "段階的価値提供", "個別最適化"],
+      "effectiveFor": ["複合ニーズ層", "高度な価値要求層"]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "pageStructureId": "efficiency-anxiety-action-3page", 
+  "name": "効率型×不安解消行動促進3ページ構成",
+  "targetCombination": "004-P002-T007",
+  "description": "不安解消には効率的な行動促進で即座の安心感獲得",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "section-items",
+      "role": "anxiety-recognition",
+      "title": "就活不安の効率的解消法",
+      "itemAssignments": {
+        "title": "不安を行動力に変える方法",
+        "sections": [
+          {
+            "sectionTitle": "不安解消の行動パターン",
+            "itemType": "action-pattern",
+            "extractionRule": "就活不安を効率的に解消する具体的行動パターンを抽出",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "enumeration",
+      "role": "immediate-action",
+      "title": "今すぐできる不安解消アクション",
+      "itemAssignments": {
+        "title": "5分でできる不安対策",
+        "enumeration": {
+          "itemType": "quick-action",
+          "extractionRule": "不安解消のために今すぐ実行できる効率的アクション",
+          "itemCount": 5
+        }
+      }
+    },
+    {
+      "pageNumber": 3,
+      "templateId": "section-items",
+      "role": "confidence-building",
+      "title": "行動による自信構築メソッド",
+      "itemAssignments": {
+        "title": "小さな行動から大きな自信へ",
+        "sections": [
+          {
+            "sectionTitle": "自信構築ステップ",
+            "itemType": "confidence-step",
+            "extractionRule": "効率的な行動により自信を構築する段階的手法",
+            "itemCount": 3
+          }
+        ]
+      }
+    }
+  ]
+}

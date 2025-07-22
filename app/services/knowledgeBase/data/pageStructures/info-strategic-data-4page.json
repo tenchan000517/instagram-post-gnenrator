@@ -1,0 +1,73 @@
+{
+  "pageStructureId": "info-strategic-data-4page",
+  "name": "情報型×戦略的データ提供4ページ構成",
+  "targetCombination": "003-P001-T004",
+  "description": "戦略的ユーザーには客観的データと選択肢の提供が効果的",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "section-items",
+      "role": "data-overview",
+      "title": "戦略的就活に必要なデータ分析",
+      "itemAssignments": {
+        "title": "就活市場の客観的データ",
+        "sections": [
+          {
+            "sectionTitle": "最新就活トレンド",
+            "itemType": "market-data",
+            "extractionRule": "戦略的判断に必要な就活市場の客観的データを抽出",
+            "itemCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "section-items",
+      "role": "analysis-framework",
+      "title": "データに基づく戦略分析手法",
+      "itemAssignments": {
+        "title": "情報分析フレームワーク",
+        "sections": [
+          {
+            "sectionTitle": "戦略的分析方法",
+            "itemType": "analysis-method",
+            "extractionRule": "データを戦略的に分析するための具体的手法を提示",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 3,
+      "templateId": "section-items",
+      "role": "option-comparison",
+      "title": "選択肢の比較検討データ",
+      "itemAssignments": {
+        "title": "戦略的選択のための比較情報",
+        "sections": [
+          {
+            "sectionTitle": "選択肢評価指標",
+            "itemType": "comparison-data",
+            "extractionRule": "戦略的選択に必要な比較検討データを整理",
+            "itemCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 4,
+      "templateId": "enumeration",
+      "role": "strategic-insight",
+      "title": "データ活用による戦略的優位性",
+      "itemAssignments": {
+        "title": "情報戦略で得られるメリット",
+        "enumeration": {
+          "itemType": "strategic-advantage",
+          "extractionRule": "データ活用による戦略的就活の具体的メリット",
+          "itemCount": 5
+        }
+      }
+    }
+  ]
+}
