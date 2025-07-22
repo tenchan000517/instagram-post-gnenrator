@@ -9,7 +9,7 @@ export interface KnowledgeSource {
   contentId: string;          // contents-001等の参照元
   typeId: string;            // TypeID=001~004
   typeName: string;          // 投稿タイプ名
-  targetId: string;          // PersonaID (P001~P007)
+  targetId: string;          // TargetID (T001~T012)
   targetName: string;        // ペルソナ名
   emotionLogicRatio: string; // "85:15"等の比率
   trustScore: number;        // 信頼度スコア
@@ -51,8 +51,8 @@ export interface TypeOption {
   recommendedFor: string[];
 }
 
-// TargetID (PersonaID) 選択用の型定義
-export type TargetID = 'P001' | 'P002' | 'P003' | 'P004' | 'P005' | 'P006' | 'P007';
+// TargetID 選択用の型定義（12ターゲット：4投稿タイプ×3ターゲット）
+export type TargetID = 'T001' | 'T002' | 'T003' | 'T004' | 'T005' | 'T006' | 'T007' | 'T008' | 'T009' | 'T010' | 'T011' | 'T012';
 
 export interface TargetOption {
   id: TargetID;
@@ -62,12 +62,8 @@ export interface TargetOption {
   characteristics: string[];
 }
 
-// ThemeID選択用の型定義
-export type ThemeID = 
-  'T001' | 'T002' | 'T003' | 'T004' | 'T005' | 
-  'T006' | 'T007' | 'T008' | 'T009' | 'T010' |
-  'T011' | 'T012' | 'T013' | 'T014' | 'T015' |
-  'T016' | 'T017' | 'T018' | 'T019' | 'T020' | 'T021';
+// ThemeID選択用の型定義（7テーマ）
+export type ThemeID = 'TH001' | 'TH002' | 'TH003' | 'TH004' | 'TH005' | 'TH006' | 'TH007';
 
 export interface ThemeOption {
   id: ThemeID;

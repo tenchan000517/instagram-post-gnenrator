@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "totalPairs": 113,
+    "totalPairs": 116,
     "sourceRange": "contents-001 to contents-084, contents-101-116", 
-    "personas": ["P001", "P002", "P003", "P004", "P005", "P006", "P007", "P008", "P009", "P010", "P011", "P012", "P013", "P014", "P015", "P016", "P017", "P018", "P019", "P020", "P021", "P022", "P023", "P024", "P025", "P026", "P027", "P028", "P029", "P030", "P031", "P032", "P033", "P034", "P035", "P036", "P037", "P038", "P039", "P040", "P041", "P042", "P043", "P044", "P045", "P046", "P047", "P048", "P049", "P050", "P051", "P052", "P053", "P054", "P055", "P056", "P057", "P058", "P059", "P060", "P061", "P062", "P063", "P064", "P065", "P066", "P067", "P068", "P069", "P070", "P071", "P072", "P073", "P074", "P075", "P076", "P077", "P078", "P079", "P080", "P081", "P082", "P083", "P084", "P085", "P086", "P087", "P088", "P089", "P090", "P091", "P092", "P093", "P094", "P095", "P096", "P097", "P098", "P099", "P100"],
+    "personas": ["P001", "P002", "P003", "P004", "P005", "P006", "P007", "P008", "P009", "P010", "P011", "P012", "P013", "P014", "P015", "P016", "P017", "P018", "P019", "P020", "P021", "P022", "P023", "P024", "P025", "P026", "P027", "P028", "P029", "P030", "P031", "P032", "P033", "P034", "P035", "P036", "P037", "P038", "P039", "P040", "P041", "P042", "P043", "P044", "P045", "P046", "P047", "P048", "P049", "P050", "P051", "P052", "P053", "P054", "P055", "P056", "P057", "P058", "P059", "P060", "P061", "P062", "P063", "P064", "P065", "P066", "P067", "P068", "P069", "P070", "P071", "P072", "P073", "P074", "P075", "P076", "P077", "P078", "P079", "P080", "P081", "P082", "P083", "P084", "P085", "P086", "P087", "P088", "P089", "P090", "P091", "P092", "P093", "P094", "P095", "P096", "P097", "P098", "P099", "P100", "P101", "P102", "P103", "P104", "P105", "P106", "P107", "P108", "P109", "P110", "P111", "P112", "P113", "P114", "P115", "P116"],
     "categories": ["自己分析", "業界研究", "面接対策", "インターン準備", "キャリア不安", "就活効率化", "働き方", "メンタルヘルス", "スキル習得", "時期別対策", "リード獲得", "AI・技術活用", "フリーランス・副業", "技術スキル向上", "便利技術活用", "自己実現・ライフスタイル", "デザイン・クリエイティブツール", "ポートフォリオ・作品制作", "生産性向上・効率化", "起業・開業手続き", "心理学・性格診断", "SNSマーケティング・集客", "行動心理学・マインドセット", "資格・スキル習得", "ジェンダー・職場問題", "女性キャリア・働き方改革", "転職・キャリア変更", "電話マナー・ビジネススキル", "AIツール選択・活用法", "内定後・新卒入社準備", "電話面接・オンライン面接対策", "インターン実施時期・企業選定", "人事・採用担当者の心理", "学歴コンプレックス・自己肯定感", "ガクチカ表現・記述方法", "大学生活・学年別スケジュール", "学生生活残業時間管理", "就活ヘアスタイル・身だしなみ", "自己PR・アピール手法", "インターン・ES提出時期管理", "夏季インターン戦略", "インターン応募スケジュール", "大学生ES・面接準備", "就活成功体験・合格事例", "HR・人事担当者思考パターン", "インターン・ES情報収集", "就活スケジュール管理・時期別対策", "ガクチカ内容充実・活動指導", "就活後期・5月企業情報", "学歴フィルター・大量採用企業", "適性検査・SPI対策", "業界別・企業研究方法", "仕事効率化・業務習慣", "就職活動・不安解消法", "ワークライフバランス・高収入職種", "働き方マインドセット・ストレス軽減", "職場選択・評価基準", "性格特性・職業適性", "思考力向上・認知能力", "仕事効率化・スピード向上", "高パフォーマンス・成果最大化", "中途転職・スキル職", "対人関係・権威性構築", "仕事能力・改善指導", "メンタル強化・習慣改善", "将来対応・資格取得", "上司関係・職場人間関係", "業務整理・指示管理", "完璧主義・生産性改善", "マニュアル作成・業務効率化"],
     "extractionDate": "2025-07-22"
   },
@@ -1117,7 +1117,7 @@
     },
     "ai-tool-selection-guide": {
       "source": "contents-101",
-      "targetPersona": "P009",
+      "targetPersona": "P101",
       "problemCategory": "AI・技術活用",
       "role": "educational-guidance",
       "actualTitle": "2025年3月最新 もう迷わないAIツール使いわけ",
@@ -1184,7 +1184,7 @@
     },
     "freelancer-essential-tools": {
       "source": "contents-102",
-      "targetPersona": "P010",
+      "targetPersona": "P102",
       "problemCategory": "フリーランス・副業",
       "role": "experience-authority",
       "actualTitle": "37歳フリーランス6年目 フリーランス必須ツール10選",
@@ -1242,7 +1242,7 @@
     },
     "pc-skills-improvement-habits": {
       "source": "contents-103",
-      "targetPersona": "P011",
+      "targetPersona": "P103",
       "problemCategory": "技術スキル向上",
       "role": "skill-development",
       "actualTitle": "これだけで作業効率UP あなたは何個できてる？PCスキル伸ばす習慣5選",
@@ -1261,7 +1261,7 @@
     },
     "qr-code-creative-usage": {
       "source": "contents-104", 
-      "targetPersona": "P007",
+      "targetPersona": "P104",
       "problemCategory": "便利技術活用",
       "role": "creative-application",
       "actualTitle": "知らなきゃ損！もっと使おう！QRコードこんな使い方！おすすめ機種5選",
@@ -1280,7 +1280,7 @@
     },
     "authentic-life-living": {
       "source": "contents-105",
-      "targetPersona": "P012", 
+      "targetPersona": "P105", 
       "problemCategory": "自己実現・ライフスタイル",
       "role": "life-philosophy",
       "actualTitle": "自分に正直に選ぶ 自分の人生をちゃんと生きてる人",
@@ -1299,7 +1299,7 @@
     },
     "chatgpt-accuracy-prompts": {
       "source": "contents-106",
-      "targetPersona": "P009",
+      "targetPersona": "P106",
       "problemCategory": "AI・技術活用",
       "role": "technical-optimization",
       "actualTitle": "ChatGPT ワン問題 正確性UP指示文5選",
@@ -1318,7 +1318,7 @@
     },
     "canva-free-design-techniques": {
       "source": "contents-107",
-      "targetPersona": "P013",
+      "targetPersona": "P107",
       "problemCategory": "デザイン・クリエイティブツール",
       "role": "creative-mastery",
       "actualTitle": "Canva 最新版！意外と無料 Canvaテク",
@@ -1337,7 +1337,7 @@
     },
     "portfolio-creation-sites": {
       "source": "contents-108",
-      "targetPersona": "P014",
+      "targetPersona": "P108",
       "problemCategory": "ポートフォリオ・作品制作",
       "role": "practical-guidance",
       "actualTitle": "まだ使ってないん！？ ポートフォリオ爆速作成サイト5選",
@@ -1356,7 +1356,7 @@
     },
     "work-efficiency-habits": {
       "source": "contents-109",
-      "targetPersona": "P015",
+      "targetPersona": "P109",
       "problemCategory": "生産性向上・効率化",
       "role": "behavioral-optimization",
       "actualTitle": "仕事が速い人が徹底して手放している3つのある習慣",
@@ -1375,7 +1375,7 @@
     },
     "freelance-startup-experience": {
       "source": "contents-110",
-      "targetPersona": "P016", 
+      "targetPersona": "P110", 
       "problemCategory": "起業・開業手続き",
       "role": "experience-authority",
       "actualTitle": "37歳主婦が複業 月収0円で開業届け出してみた Freelancer",
@@ -1394,7 +1394,7 @@
     },
     "mbti-personality-analysis": {
       "source": "contents-111",
-      "targetPersona": "P017",
+      "targetPersona": "P111",
       "problemCategory": "心理学・性格診断", 
       "role": "information-catalog",
       "actualTitle": "あなたは何タイプ？ MBTI診断 16タイプ特徴まとめ",
@@ -1413,7 +1413,7 @@
     },
     "instagram-marketing-revival": {
       "source": "contents-112",
-      "targetPersona": "P018",
+      "targetPersona": "P112",
       "problemCategory": "SNSマーケティング・集客",
       "role": "problem-analysis",
       "actualTitle": "インスタ集客 挫折しそう？これ試してみて",
@@ -1432,7 +1432,7 @@
     },
     "instagram-new-features": {
       "source": "contents-113",
-      "targetPersona": "P018",
+      "targetPersona": "P113",
       "problemCategory": "SNSマーケティング・集客",
       "role": "educational-guidance",
       "actualTitle": "集客に役立つ インスタ新機能",
@@ -1451,7 +1451,7 @@
     },
     "action-mindset-comparison": {
       "source": "contents-114",
-      "targetPersona": "P019",
+      "targetPersona": "P114",
       "problemCategory": "行動心理学・マインドセット",
       "role": "behavioral-analysis",
       "actualTitle": "行動できる人 vs できない人",
@@ -1470,7 +1470,7 @@
     },
     "freelance-failure-experiences": {
       "source": "contents-115",
-      "targetPersona": "P016",
+      "targetPersona": "P115",
       "problemCategory": "起業・開業手続き",
       "role": "experience-authority",
       "actualTitle": "37歳フリーランス主婦 リアルに失敗した複業6選",
@@ -1489,7 +1489,7 @@
     },
     "cost-effective-qualifications": {
       "source": "contents-116",
-      "targetPersona": "P021",
+      "targetPersona": "P116",
       "problemCategory": "資格・スキル習得",
       "role": "information-catalog",
       "actualTitle": "損したくない！コスパ最強な資格21選",

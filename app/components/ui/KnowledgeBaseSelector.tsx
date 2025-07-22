@@ -42,36 +42,36 @@ interface ThemeOption {
 const TYPE_OPTIONS: TypeOption[] = [
   {
     id: '001',
-    name: '共感・感情誘導型',
-    description: '感情的共感から信頼関係を構築し、解決策を提示',
-    emotionRatioRange: '40:60～85:15',
-    characteristics: ['感情フック', 'ストーリー性', '共感誘導', '心理的サポート'],
+    name: 'キャリアの悩み解決法',
+    description: '感情・共感重視のアプローチで心理的サポートを提供',
+    emotionRatioRange: '感情重視',
+    characteristics: ['共感誘導', '心理的サポート', '感情フック', 'ストーリー性'],
     recommendedFor: ['不安解消', 'キャリア相談', '悩み共有', '励まし'],
     color: 'bg-pink-500'
   },
   {
     id: '002', 
-    name: '教育・学習特化型',
-    description: '体系的知識伝達による段階的スキル習得支援',
-    emotionRatioRange: '15:85～30:70',
-    characteristics: ['体系性', '段階的', '教育的', 'スキル習得支援'],
+    name: 'スキルアップガイド',
+    description: '教育・学習重視の体系的知識伝達による段階的スキル習得支援',
+    emotionRatioRange: '学習重視',
+    characteristics: ['体系性', '段階的習得', '教育的', 'スキル向上'],
     recommendedFor: ['学習指導', 'ハウツー', '手法解説', 'スキルアップ'],
     color: 'bg-blue-500'
   },
   {
     id: '003',
-    name: '情報提供・データ型', 
-    description: '客観的データ・実証済み手法による確実な成果獲得支援',
-    emotionRatioRange: '5:95～30:70',
-    characteristics: ['客観性', 'データ重視', '比較可能性', '実証性'],
-    recommendedFor: ['企業情報', 'ツール紹介', 'データ比較', '統計情報'],
+    name: '業界・企業情報まとめ', 
+    description: '情報・データ重視の客観的データによる選択支援',
+    emotionRatioRange: 'データ重視',
+    characteristics: ['客観性', 'データ重視', '比較可能性', '情報提供'],
+    recommendedFor: ['企業情報', '業界研究', 'データ比較', '選択支援'],
     color: 'bg-green-500'
   },
   {
     id: '004',
-    name: '効率・実用特化型',
-    description: '感情共感+実用性の組み合わせによる効率的目標達成支援',
-    emotionRatioRange: '25:75～50:50', 
+    name: '効率アップテクニック',
+    description: '実用・効率重視の即効性のある具体的手法の提供',
+    emotionRatioRange: '実用重視', 
     characteristics: ['効率性', '実用性', '即効性', '具体的成果'],
     recommendedFor: ['時短術', '効率化', '実践的手法', '問題解決'],
     color: 'bg-orange-500'
@@ -79,51 +79,104 @@ const TYPE_OPTIONS: TypeOption[] = [
 ]
 
 const TARGET_OPTIONS: TargetOption[] = [
+  // キャリアの悩み解決法（001）のターゲット
   {
-    id: 'P001',
-    name: '戦略的就活生',
-    description: '効率的で根拠のある就活戦略を求める学生',
-    compatibleTypes: ['001', '002', '003', '004'],
-    characteristics: ['計画性', '効率重視', '根拠志向', '戦略的思考']
+    id: 'T001',
+    name: '就活に不安を感じている学生',
+    description: '就活の不安や迷いを感情的サポートで和らげたい学生',
+    compatibleTypes: ['001'],
+    characteristics: ['不安感', '共感欲求', '心理的サポート', '安心感欲求']
   },
   {
-    id: 'P002', 
-    name: '不安解消型就活生',
-    description: '就活への不安を和らげ安心感を求める学生',
-    compatibleTypes: ['001', '002', '004'],
-    characteristics: ['不安感', '安心感欲求', '段階的習得', '丁寧な説明']
+    id: 'T002',
+    name: '仕事のストレスで悩んでいる人',
+    description: '職場のストレスや人間関係に悩む社会人',
+    compatibleTypes: ['001'],
+    characteristics: ['ストレス', '感情的負担', '共感', '心のケア']
   },
   {
-    id: 'P003',
-    name: '実用主義就活生',
-    description: '具体的で実用的な情報を重視する学生', 
-    compatibleTypes: ['001', '003', '004'],
-    characteristics: ['実用性重視', '具体性志向', '行動派', '結果重視']
+    id: 'T003',
+    name: '転職すべきか迷っている人',
+    description: '転職への迷いや不安を感情面からサポートしてほしい人',
+    compatibleTypes: ['001'],
+    characteristics: ['転職迷い', '決断不安', '感情的支援', '背中押し']
+  },
+  // スキルアップガイド（002）のターゲット
+  {
+    id: 'T004',
+    name: '就活で差をつけたい学生',
+    description: '体系的な学習で就活競争力を高めたい学生',
+    compatibleTypes: ['002'],
+    characteristics: ['競争力向上', '体系的学習', '段階的成長', 'スキル習得']
   },
   {
-    id: 'P004',
-    name: '効率化志向ビジネスパーソン',
-    description: '作業効率化と生産性向上を求める会社員',
-    compatibleTypes: ['003', '004'],
-    characteristics: ['効率性', '生産性', 'ツール志向', '時短重視']
+    id: 'T005',
+    name: '新しいスキルを身につけたい人',
+    description: '新技術や新分野のスキルを効率的に習得したい人',
+    compatibleTypes: ['002'],
+    characteristics: ['新スキル習得', '教育重視', '学習方法', '成長志向']
   },
   {
-    id: 'P005',
-    name: 'スキル向上志向社会人',
-    description: '継続的なスキルアップを目指す社会人',
-    compatibleTypes: ['002', '003'],
-    characteristics: ['学習志向', '成長欲求', '継続性', '専門性']
+    id: 'T006',
+    name: 'キャリアアップしたい人',
+    description: '昇進や昇格のための体系的スキル向上を目指す社会人',
+    compatibleTypes: ['002'],
+    characteristics: ['キャリア向上', '専門性', '継続学習', '成長計画']
+  },
+  // 業界・企業情報まとめ（003）のターゲット
+  {
+    id: 'T007',
+    name: '業界研究をしている就活生',
+    description: '客観的な業界情報・データを求める就活生',
+    compatibleTypes: ['003'],
+    characteristics: ['業界研究', 'データ重視', '情報収集', '客観的判断']
+  },
+  {
+    id: 'T008',
+    name: '転職先を探している人',
+    description: '転職候補企業の詳細情報を比較検討したい人',
+    compatibleTypes: ['003'],
+    characteristics: ['企業比較', '転職情報', 'データ分析', '選択支援']
+  },
+  {
+    id: 'T009',
+    name: '企業選択で迷っている人',
+    description: '複数企業の比較情報で最適な選択をしたい人',
+    compatibleTypes: ['003'],
+    characteristics: ['企業選択', '比較検討', '情報整理', '意思決定']
+  },
+  // 効率アップテクニック（004）のターゲット
+  {
+    id: 'T010',
+    name: 'AIを仕事に活かしたい人',
+    description: 'AI技術を活用して業務効率を上げたい人',
+    compatibleTypes: ['004'],
+    characteristics: ['AI活用', '新技術', '効率化', '実用重視']
+  },
+  {
+    id: 'T011',
+    name: '生産性を上げたい人',
+    description: '仕事の生産性向上のための実践的手法を求める人',
+    compatibleTypes: ['004'],
+    characteristics: ['生産性向上', '効率化', '実践的', '結果重視']
+  },
+  {
+    id: 'T012',
+    name: '時短で結果を出したい就活生',
+    description: '限られた時間で最大の就活成果を得たい学生',
+    compatibleTypes: ['004'],
+    characteristics: ['時短', '効率性', '最短ルート', '実用的手法']
   }
 ]
 
 const THEME_OPTIONS: ThemeOption[] = [
-  { id: 'T001', name: '感情支援・心理ケア', description: '体験談共有・感情共感による心理的サポート', compatibleTypes: ['001', '002'], compatibleTargets: ['P001', 'P002'] },
-  { id: 'T002', name: '体系教育・技能習得', description: '段階的教育・体系的スキル習得・方法論提供', compatibleTypes: ['002', '003'], compatibleTargets: ['P001', 'P003'] },
-  { id: 'T003', name: '実績証明・権威活用', description: '数値実績・権威性・専門性による信頼構築', compatibleTypes: ['003'], compatibleTargets: ['P001', 'P003'] },
-  { id: 'T004', name: '情報提供・選択支援', description: '客観的情報提供・比較可能な選択肢の提示', compatibleTypes: ['002', '003'], compatibleTargets: ['P001', 'P002', 'P003'] },
-  { id: 'T005', name: '戦略設計・最適化', description: '戦略的計画・継続的最適化・長期的成功実現', compatibleTypes: ['002', '003'], compatibleTargets: ['P001', 'P005'] },
-  { id: 'T006', name: '現実対応・問題解決', description: '現実的課題・具体的問題の即効解決', compatibleTypes: ['001', '002', '003'], compatibleTargets: ['P001', 'P002', 'P003', 'P005'] },
-  { id: 'T007', name: 'サービス活用・行動促進', description: 'サービス利用促進・行動喚起・CTA設計', compatibleTypes: ['001', '004'], compatibleTargets: ['P003', 'P005'] }
+  { id: 'TH001', name: '感情支援・心理ケア', description: '体験談共有・感情共感による心理的サポート', compatibleTypes: ['001'], compatibleTargets: ['T001', 'T002', 'T003'] },
+  { id: 'TH002', name: '体系教育・技能習得', description: '段階的教育・体系的スキル習得・方法論提供', compatibleTypes: ['002'], compatibleTargets: ['T004', 'T005', 'T006'] },
+  { id: 'TH003', name: '実績証明・権威活用', description: '数値実績・権威性・専門性による信頼構築', compatibleTypes: ['003'], compatibleTargets: ['T007', 'T008', 'T009'] },
+  { id: 'TH004', name: '情報提供・選択支援', description: '客観的情報提供・比較可能な選択肢の提示', compatibleTypes: ['003'], compatibleTargets: ['T007', 'T008', 'T009'] },
+  { id: 'TH005', name: '戦略設計・最適化', description: '戦略的計画・継続的最適化・長期的成功実現', compatibleTypes: ['002', '003'], compatibleTargets: ['T005', 'T006', 'T008', 'T009'] },
+  { id: 'TH006', name: '現実対応・問題解決', description: '現実的課題・具体的問題の即効解決', compatibleTypes: ['001', '002', '004'], compatibleTargets: ['T001', 'T002', 'T003', 'T004', 'T010', 'T011', 'T012'] },
+  { id: 'TH007', name: 'サービス活用・行動促進', description: 'サービス利用促進・行動喚起・CTA設計', compatibleTypes: ['004'], compatibleTargets: ['T010', 'T011', 'T012'] }
 ]
 
 interface KnowledgeBaseSelectorProps {
@@ -237,7 +290,7 @@ export function KnowledgeBaseSelector({ onSelectionChange, initialSelection }: K
         </div>
         {selectionState.useKnowledgeBase && (
           <p className="text-sm text-gray-600">
-            12投稿の分析結果から最適なパターンを適用します
+            4つの投稿タイプから最適なアプローチを選択 → 各タイプ3ターゲットから詳細な読者層を特定
           </p>
         )}
       </CardHeader>
@@ -277,6 +330,9 @@ export function KnowledgeBaseSelector({ onSelectionChange, initialSelection }: K
                 <Brain className="h-4 w-4" />
                 投稿タイプを選択してください
               </h3>
+              <p className="text-sm text-gray-600">
+                コンテンツのアプローチ方法を決定します。各タイプに3つのターゲット読者層が設定されています。
+              </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {TYPE_OPTIONS.map(option => (
                   <Card 
@@ -312,6 +368,9 @@ export function KnowledgeBaseSelector({ onSelectionChange, initialSelection }: K
                 <Target className="h-4 w-4" />
                 ターゲットを選択してください
               </h3>
+              <p className="text-sm text-gray-600">
+                選択した投稿タイプに対応する{currentTargets.length}つのターゲット読者層から、最も適したものを選択してください。
+              </p>
               <div className="grid grid-cols-1 gap-3">
                 {currentTargets.map(option => (
                   <Card
@@ -341,6 +400,9 @@ export function KnowledgeBaseSelector({ onSelectionChange, initialSelection }: K
                 <Lightbulb className="h-4 w-4" />
                 テーマを選択してください
               </h3>
+              <p className="text-sm text-gray-600">
+                選択した投稿タイプとターゲットに対応する{currentThemes.length}つのテーマから、最適なアプローチを選択してください。
+              </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {currentThemes.map(option => (
                   <Card
