@@ -1,0 +1,504 @@
+{
+  "observationData": {
+    "totalPages": 10,
+    "pageAnalysis": {
+      "page1": {
+        "pageInfo": {
+          "currentPage": "1",
+          "totalPages": "10",
+          "pageIndicator": "1/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "プログラミング作業環境、本棚、観葉植物、MacBook、コーヒーカップが配置されたデスク",
+          "overlayStructure": "写真の上にテキストを重ね配置",
+          "headerType": "Instagram標準UI（kakashi.programming.lab アカウント、認証マーク付き）"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "まだ使ってないん！？!",
+            "layout": "上部配置、白文字"
+          },
+          "middleSection": {
+            "format": "大型テキストレイアウト",
+            "backgroundColor": "透明（写真背景）",
+            "items": ["ポートフォリオ", "爆速作成サイト5選"],
+            "visualElements": "白い太字フォント"
+          },
+          "bottomSection": {
+            "elements": "インスタグラム標準UI",
+            "ctaElements": "ページ送りドット表示（10個）"
+          }
+        },
+        "actualRole": "title-presentation-with-urgency",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "茶色（木製）", "緑色（植物）"],
+          "typography": "太字フォント、インパクト重視",
+          "visualHierarchy": "まだ使ってない → ポートフォリオ → 爆速作成サイト5選",
+          "trustSignals": ["認証マーク付きアカウント", "プロフェッショナルなデスク環境"],
+          "engagementElements": ["「まだ使ってないん！？」驚きの表現"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "標準インスタグラムUI",
+          "swipeIndicators": "ドット形式（10個）",
+          "savePrompts": "なし（この段階では）"
+        }
+      },
+      "page2": {
+        "pageInfo": {
+          "currentPage": "2",
+          "totalPages": "10",
+          "pageIndicator": "2/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "グラデーション背景",
+          "backgroundDescription": "グレー系グラデーション背景",
+          "overlayStructure": "キャラクター + 吹き出し + テキストエリア",
+          "headerType": "Instagram標準UI継続"  
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「案件に応募したいけど、ポートフォリオの作り方がわからん...」吹き出し",
+            "layout": "上部、白い吹き出し"
+          },
+          "middleSection": {
+            "format": "キャラクター + 問題提起テキスト",
+            "backgroundColor": "透明",
+            "items": [
+              "こんな悩みない？",
+              "案件応募していく前にポートフォリオは必須！しかも...",
+              "「どこで作ればいいの？」って悩み、めちゃくちゃ多い！"
+            ],
+            "visualElements": "困った表情の男性（頭を抱える姿勢）、考える女性キャラクター、下向き三角矢印3つ"
+          },
+          "bottomSection": {
+            "elements": "「超便利サイト紹介します！」（黒いボックス、白文字）",
+            "ctaElements": "右向き矢印3つ"
+          }
+        },
+        "actualRole": "problem-identification-and-solution-preview",
+        "designElements": {
+          "colorScheme": ["グレー", "白色", "黒色", "肌色"],
+          "typography": "黒文字、白文字（CTA部分）",
+          "visualHierarchy": "問題の吹き出し → キャラクター → 問題共感 → 解決策予告",
+          "trustSignals": ["具体的な問題の指摘", "共感の表現"],
+          "engagementElements": ["キャラクター対話", "矢印による流れの演出"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page3": {
+        "pageInfo": {
+          "currentPage": "3",
+          "totalPages": "10",
+          "pageIndicator": "3/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "グラデーション背景",
+          "backgroundDescription": "グレー系グラデーション背景（統一）",
+          "overlayStructure": "枠線ボックス + キャラクター + テキスト",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「保存必須！」黒文字",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "黒枠ボックス + キャラクター",
+            "backgroundColor": "白色（ボックス内）",
+            "items": [
+              "即使えるポートフォリオ作成サイト5選",
+              "初心者でも\"ドラッグ&ドロップ\"で簡単に作れるようなサイトを紹介！",
+              "無料で使えて、しかもきちんと案件応募に使える！"
+            ],
+            "visualElements": "ビジネススーツの男性キャラクター、TRANSLATIONラベル、指差しポーズ"
+          },
+          "bottomSection": {
+            "elements": "「保存必須です」（黒いボックス、白文字）",
+            "ctaElements": "保存促進メッセージ"
+          }
+        },
+        "actualRole": "solution-overview-with-save-cta",
+        "designElements": {
+          "colorScheme": ["グレー", "白色", "黒色", "肌色"],
+          "typography": "黒文字、強調部分は緑下線",
+          "visualHierarchy": "保存必須 → 解決策タイトル → 詳細説明 → キャラクター → 保存CTA",
+          "trustSignals": ["具体的な数値（5選）", "無料という安心感"],
+          "engagementElements": ["保存必須の強調", "キャラクターの説明"]
+        },  
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "「保存必須！」「保存必須です」テキスト"
+        }
+      },
+      "page4": {
+        "pageInfo": {
+          "currentPage": "4",
+          "totalPages": "10",
+          "pageIndicator": "4/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "白色背景",
+          "backgroundDescription": "白色カード形式の背景",
+          "overlayStructure": "番号ヘッダー + Webサイトスクリーンショット + 説明ボックス",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「①salon.io」緑色ヘッダー",
+            "layout": "上部、白文字・緑背景"
+          },
+          "middleSection": {
+            "format": "Webサイトスクリーンショット",
+            "backgroundColor": "白色",   
+            "items": ["salon.ioのWebサイト画面", "作品ギャラリー表示"],
+            "visualElements": "実際のWebサイト画面キャプチャ"
+          },
+          "bottomSection": {
+            "elements": "「Point」ラベル + 説明文",
+            "ctaElements": "「直感操作でドラッグ&ドロップするだけ！数分で作成完了、忙しい人に超おすすめ！」"
+          }
+        },
+        "actualRole": "specific-site-introduction-1",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "黒色", "オレンジ（サイト色）"],
+          "typography": "白文字（ヘッダー）、黒文字（説明）",
+          "visualHierarchy": "番号・サイト名 → スクリーンショット → Pointラベル → 説明",
+          "trustSignals": ["実際のWebサイト画面", "具体的な作品例"],
+          "engagementElements": ["Point強調ラベル", "超おすすめ表現"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page5": {
+        "pageInfo": {
+          "currentPage": "5",
+          "totalPages": "10",
+          "pageIndicator": "5/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "白色背景",
+          "backgroundDescription": "白色カード形式の背景（統一）",
+          "overlayStructure": "番号ヘッダー + Webサイトスクリーンショット + 説明ボックス",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「②MATCH BOX」緑色ヘッダー",
+            "layout": "上部、白文字・緑背景"
+          },
+          "middleSection": {
+            "format": "Webサイトスクリーンショット",
+            "backgroundColor": "白色",
+            "items": ["MATCH BOXのWebサイト画面", "レスポンシブデザインの表示"],
+            "visualElements": "複数デバイス（PC、タブレット、スマホ）での表示例"
+          },
+          "bottomSection": {
+            "elements": "「Point」ラベル + 説明文",
+            "ctaElements": "「画像やデータがあれば簡単にポートフォリオ完成！しかも全機能無料だから安心して試せる！」"
+          }
+        },
+        "actualRole": "specific-site-introduction-2",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "黒色", "青色（サイト色）"],
+          "typography": "白文字（ヘッダー）、黒文字（説明）、緑下線強調",
+          "visualHierarchy": "番号・サイト名 → スクリーンショット → Pointラベル → 説明",
+          "trustSignals": ["レスポンシブ対応の表示", "全機能無料の明記"],
+          "engagementElements": ["Point強調ラベル", "安心して試せる表現"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page6": {
+        "pageInfo": {
+          "currentPage": "6",
+          "totalPages": "10",
+          "pageIndicator": "6/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "白色背景",
+          "backgroundDescription": "白色カード形式の背景（統一）",
+          "overlayStructure": "番号ヘッダー + Webサイトスクリーンショット + 説明ボックス",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「③portfolio box」緑色ヘッダー",
+            "layout": "上部、白文字・緑背景"
+          },
+          "middleSection": {
+            "format": "Webサイトスクリーンショット",
+            "backgroundColor": "白色",
+            "items": ["portfolio boxのWebサイト画面", "女性モデルの写真を使用したポートフォリオ"],
+            "visualElements": "ファッション・ポートレート系のポートフォリオ例"
+          },
+          "bottomSection": {
+            "elements": "「Point」ラベル + 説明文",
+            "ctaElements": "「世界中で使われていてテンプレも豊富！細かなカスタマイズで、唯一無二のポートフォリオが作れる！」"
+          }
+        },
+        "actualRole": "specific-site-introduction-3",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "黒色", "肌色・自然色（ポートフォリオ画像）"],
+          "typography": "白文字（ヘッダー）、黒文字（説明）、緑下線強調",
+          "visualHierarchy": "番号・サイト名 → スクリーンショット → Pointラベル → 説明",
+          "trustSignals": ["世界中で使用されている実績", "豊富なテンプレート"],
+          "engagementElements": ["Point強調ラベル", "唯一無二の表現"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page7": {
+        "pageInfo": {
+          "currentPage": "7",
+          "totalPages": "10",
+          "pageIndicator": "7/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "白色背景",
+          "backgroundDescription": "白色カード形式の背景（統一）",
+          "overlayStructure": "番号ヘッダー + Webサイトスクリーンショット + 説明ボックス",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「④Strikingly」緑色ヘッダー",
+            "layout": "上部、白文字・緑背景"
+          },
+          "middleSection": {
+            "format": "Webサイトスクリーンショット",
+            "backgroundColor": "白色",
+            "items": ["StrikinglyのWebサイト画面", "紫を基調としたWebサイト"],
+            "visualElements": "多様なテンプレート例、様々なカテゴリーの作品"
+          },
+          "bottomSection": {
+            "elements": "「Point」ラベル + 説明文",
+            "ctaElements": "「テンプレートが充実してて、動画埋め込みもOK！サイト上にあるテンプレを活かして、サクッと作りたい方におすすめ！」"
+          }
+        },
+        "actualRole": "specific-site-introduction-4",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "黒色", "紫色（サイト色）"],
+          "typography": "白文字（ヘッダー）、黒文字（説明）、緑下線強調",
+          "visualHierarchy": "番号・サイト名 → スクリーンショット → Pointラベル → 説明",
+          "trustSignals": ["充実したテンプレート", "動画対応機能"],
+          "engagementElements": ["Point強調ラベル", "サクッと作りたい表現"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page8": {
+        "pageInfo": {
+          "currentPage": "8",
+          "totalPages": "10",
+          "pageIndicator": "8/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "白色背景",
+          "backgroundDescription": "白色カード形式の背景（統一）",
+          "overlayStructure": "番号ヘッダー + Webサイトスクリーンショット + 説明ボックス",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「⑤Behance」緑色ヘッダー",
+            "layout": "上部、白文字・緑背景"
+          },
+          "middleSection": {
+            "format": "Webサイトスクリーンショット",
+            "backgroundColor": "白色",
+            "items": ["BehanceのWebサイト画面", "グラフィックデザイン作品のギャラリー"],
+            "visualElements": "多様なデザイン作品のグリッド表示"
+          },
+          "bottomSection": {
+            "elements": "「Point」ラベル + 説明文",
+            "ctaElements": "「Adobe運営だからデザイン性◯ グラフィックに強く、見た目重視のポートフォリオを作りたい人に最適！」"
+          }
+        },
+        "actualRole": "specific-site-introduction-5",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "黒色", "カラフル（作品画像）"],
+          "typography": "白文字（ヘッダー）、黒文字（説明）、緑下線強調",
+          "visualHierarchy": "番号・サイト名 → スクリーンショット → Pointラベル → 説明",
+          "trustSignals": ["Adobe運営", "デザイン性の高さ"],
+          "engagementElements": ["Point強調ラベル", "◯マーク", "最適表現"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page9": {
+        "pageInfo": {
+          "currentPage": "9",
+          "totalPages": "10",
+          "pageIndicator": "9/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "白色背景",
+          "backgroundDescription": "白色カード形式の背景（統一）",
+          "overlayStructure": "ヘッダー + リスト + キャラクター + CTA",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「まとめ」緑色ヘッダー",
+            "layout": "上部、白文字・緑背景"
+          },
+          "middleSection": {
+            "format": "番号付きリスト",
+            "backgroundColor": "白色",
+            "items": [
+              "①salon.io ▶忙しい人向け",
+              "②MATCH BOX ▶無料でお試ししたい人向け",
+              "③portfolio box ▶オリジナル性重視の人向け",
+              "④Strikingly ▶サクッと作りたい人向け",
+              "⑤Behance ▶デザイン重視の人向け"
+            ],
+            "visualElements": "緑色の円形番号ラベル"
+          },
+          "bottomSection": {
+            "elements": "ビジネススーツの男性キャラクター + CTA",
+            "ctaElements": "「後で見返せるように「保存！」」（黒いボックス、白文字、右向き矢印3つ）"
+          }
+        },
+        "actualRole": "summary-with-save-cta",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "黒色", "肌色"],
+          "typography": "白文字（ヘッダー）、黒文字（リスト）、白文字（CTA）", 
+          "visualHierarchy": "まとめヘッダー → 5つのサイトリスト → キャラクター → 保存CTA",
+          "trustSignals": ["各サイトの特徴を明確に分類", "ターゲット別の推奨"],
+          "engagementElements": ["保存促進メッセージ", "キャラクターによる親しみやすさ"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "「後で見返せるように「保存！」」テキスト + 矢印"
+        }
+      },
+      "page10": {
+        "pageInfo": {
+          "currentPage": "10",
+          "totalPages": "10",
+          "pageIndicator": "10/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "室内環境、人物が映る背景",
+          "overlayStructure": "吹き出し + スマートフォン画面 + 矢印",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "手書き風矢印と「ここをタップして他の投稿へ！」",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "吹き出し + スマートフォン画面",
+            "backgroundColor": "白色（吹き出し）",
+            "items": [
+              "「ハイライトが評判良い！ぜひ見てってね！」",
+              "Instagramプロフィール画面のスクリーンショット"
+            ],
+            "visualElements": "iPhoneのモックアップ、プロフィール情報、ハイライト部分の赤枠強調"
+          },
+          "bottomSection": {
+            "elements": "実写背景（人物）",
+            "ctaElements": "ハイライト閲覧促進"
+          }
+        },
+        "actualRole": "account-promotion-and-highlight-cta",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "赤色（強調枠）", "自然色（背景）"],
+          "typography": "黒文字、吹き出し形状",
+          "visualHierarchy": "誘導矢印 → 吹き出しメッセージ → スマホ画面 → ハイライト強調",
+          "trustSignals": ["実際のプロフィール画面", "フォロワー数の表示"],
+          "engagementElements": ["ハイライト閲覧促進", "評判の良さアピール"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし（スマホ画面内のボタンは表示）",
+          "swipeIndicators": "最終ページ（ドット表示）",
+          "savePrompts": "なし（ハイライト閲覧促進）"
+        }
+      },
+      "page11": {
+        "pageInfo": {
+          "currentPage": "11",
+          "totalPages": "11",
+          "pageIndicator": "メタデータページ"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "白色背景",
+          "overlayStructure": "テキストベースレイアウト",
+          "headerType": "「おすすめの投稿」ヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "アカウント情報とプロフィール詳細",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "プロフィール詳細情報",
+            "backgroundColor": "白色",
+            "items": [
+              "【かかしのプロフィール】",
+              "26歳｜ENTJ",
+              "三重県出身、名古屋在住",
+              "IT関係、個人・企業コンサル、語学系など15事業くらいやってる人達",
+              "プログラミングのサポートは25人で運営",
+              "ゴミみたいなプログラミングスクールをぶっ潰します"
+            ],
+            "visualElements": "星マーク（☆）による箇条書き"
+          },
+          "bottomSection": {
+            "elements": "アカウント情報、投稿日時（6月27日）",
+            "ctaElements": "@kakashi.programming.lab"
+          }
+        },
+        "actualRole": "account-profile-and-metadata",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "青色（アカウント名）"],
+          "typography": "標準フォント、星マーク装飾",
+          "visualHierarchy": "プロフィール → 詳細情報 → アカウント情報",
+          "trustSignals": ["具体的な年齢・地域", "多事業展開", "チーム運営体制"],
+          "engagementElements": ["インパクトのある最終メッセージ"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし（メタデータページ）",
+          "savePrompts": "なし"
+        }
+      }
+    }
+  }
+}

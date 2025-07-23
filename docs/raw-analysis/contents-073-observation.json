@@ -1,0 +1,115 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 10,
+      "pageIndicator": "右上に「x/10」形式でページ番号表示"
+    },
+    "layoutStructure": {
+      "backgroundType": "紫系グラデーション背景",
+      "backgroundDescription": "濃い紫から薄い紫へのグラデーション、一貫したトーン",
+      "overlayStructure": "上部ヘッダー＋中央白カード＋下部キャラクター＋エンゲージメント要素",
+      "headerType": "ページ1:ハッシュタグ、ページ2-8:タイトルテキスト、ページ9-10:特殊レイアウト"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページタイトル、ハッシュタグ、またはカテゴリ表示",
+        "layout": "中央配置または左寄せ"
+      },
+      "middleSection": {
+        "format": "白い角丸カード内にメインコンテンツ",
+        "backgroundColor": "白色のカード背景",
+        "items": "テキスト情報、リスト、プロンプト例、統計データ",
+        "visualElements": "番号付きリスト、チェックマーク、統計数値の強調表示"
+      },
+      "bottomSection": {
+        "elements": "キャラクターイラスト＋アドバイスコメント＋いいね数",
+        "ctaElements": "「よかったらいいね！」「見返せるように！」等"
+      }
+    },
+    "actualRole": "ai-job-hunting-comprehensive-guide",
+    "designElements": {
+      "colorScheme": ["紫", "白", "オレンジ", "緑", "赤", "黒"],
+      "typography": "ゴシック系、太字での強調、番号付きリスト",
+      "visualHierarchy": "タイトル → メインコンテンツ → 補足情報 → キャラクターコメント",
+      "trustSignals": ["統計データ（73%）", "調査対象（100人）", "具体的時間短縮例"],
+      "engagementElements": ["キャラクターとの親近感", "具体的な成果数値", "限定感の演出"]
+    },
+    "interactionElements": {
+      "checkboxes": "緑色チェックマーク（成功例）、赤いX印（失敗例）",
+      "buttons": "なし",
+      "swipeIndicators": "標準的なInstagramスワイプ操作",
+      "savePrompts": "「見返せるように！」の明示的な保存促進"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "headerElement": "＃わかる就活（ハッシュタグ形式）",
+        "mainTitle": "コスパ良すぎ、AI就活の正解はコレ",
+        "visualEmphasis": "驚き顔の絵文字でインパクト強化",
+        "characterPlacement": "左下にキャラクター配置",
+        "speechBubble": "「知らないのはもったいない」"
+      },
+      "page2": {
+        "statisticalHighlight": "黄色背景で「準備時間が半分になった」73%を強調",
+        "timeReductionExamples": "具体的な時間短縮例を矢印で表示",
+        "credibilityBooster": "「現役就活ガチ勢100人調査」で権威性アピール",
+        "layoutStructure": "統計→具体例→追加情報の流れ"
+      },
+      "page3": {
+        "gridLayout": "2x2の4分割カード配置",
+        "toolIcons": "各AIツールの公式ロゴを使用",
+        "checklistFormat": "各ツールの特徴をチェックマーク付きリストで表示",
+        "colorCoding": "ツール名をオレンジで統一して強調"
+      },
+      "page4": {
+        "contrastStructure": "失敗例（X印）vs 成功例（チェック印）の対比",
+        "warningSection": "黄色い警告アイコンで注意喚起",
+        "stepByStep": "成功方法を番号付きで段階的に説明",
+        "backgroundConsistency": "白カード内での情報整理"
+      },
+      "page5": {
+        "numberedSteps": "面接準備の必須ステップを番号で明示",
+        "exampleHighlight": "実際のAI回答例を引用形式で表示",
+        "reassuranceMessage": "不安軽減効果を心理的にアピール"
+      },
+      "page6": {
+        "promptTemplate": "具体的なプロンプト文を枠内で表示",
+        "categoryBreakdown": "5つの要素を番号付きで明確に区分",
+        "warningNote": "情報の限界について注意喚起"
+      },
+      "page7": {
+        "transformationExample": "「テニスサークル運営」→「企画力、リーダーシップ」への変換例",
+        "promptStructure": "分析内容を3つの要素に構造化",
+        "encouragementTone": "「スゴイ！」等の感嘆表現で効果を強調"
+      },
+      "page8": {
+        "corporateAnalysis": "企業文化解析という高度な手法を提示",
+        "threePerspectives": "3つの観点（文化、人材、訴求点）での分析指示",
+        "deepResearch": "IR情報・決算資料まで踏み込んだ高度な研究手法"
+      },
+      "page9": {
+        "philosophicalMessage": "AIは手段で目的ではないという重要な価値観",
+        "actionableSteps": "5つの具体的なアクションステップ",
+        "motivationalClose": "熱意の重要性と励ましのメッセージ",
+        "characterVisual": "右側にキャラクター配置でバランス調整"
+      },
+      "page10": {
+        "exclusiveOffer": "「限定配布」で希少性をアピール",
+        "resourceList": "6つの具体的な特典リスト",
+        "communityEngagement": "DM相談とストーリー活用の案内",
+        "hashtagCollection": "就活関連の主要ハッシュタグを網羅的に配置"
+      }
+    },
+    "consistentElements": {
+      "backgroundTheme": "全ページで紫系グラデーション背景を維持",
+      "characterUsage": "ほぼ全ページで同一キャラクターが登場",
+      "cardFormat": "白い角丸カードでのコンテンツ整理",
+      "numberingSystem": "ページ2-8で一貫した番号付けスタイル",
+      "engagementMetrics": "全ページでいいね数「54」を表示"
+    },
+    "informationDensity": {
+      "textHeavy": "1ページあたりの情報量が多い",
+      "structuredPresentation": "番号、チェック、箇条書きで整理",
+      "practicalFocus": "理論より実践的な手法に重点"
+    }
+  }
+}

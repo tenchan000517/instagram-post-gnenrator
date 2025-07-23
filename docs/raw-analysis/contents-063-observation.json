@@ -1,0 +1,283 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 9,
+      "pageIndicator": "x/9形式で表示"
+    },
+    "generalStructure": {
+      "commonLayout": {
+        "backgroundType": "ぼかし人物写真（各ページ異なる）",
+        "overlayStructure": "白色半透明カード（全体または大部分）",
+        "pageIndicator": "右上に白文字でページ番号",
+        "bottomArea": "Instagram UI（アカウント情報、エンゲージメント要素）"
+      },
+      "designConsistency": {
+        "colorScheme": ["白色", "黒色", "青色系", "グレー系"],
+        "cardStyle": "角丸の白色半透明カード",
+        "textHierarchy": "大見出し→サブタイトル→本文→ボックス",
+        "accentElements": "青色ボックス、点線枠、三角警告アイコン"
+      }
+    },
+    "pageByPageObservation": {
+      "page1": {
+        "layoutStructure": {
+          "backgroundType": "階段を上るスーツ姿の人物写真（ぼかし処理）",
+          "overlayText": "縦書きテキスト配置"
+        },
+        "contentDistribution": {
+          "centerSection": {
+            "mainTitle": "上司との関係・嫌・壊",
+            "subtitle": "やってはいけないこと",
+            "textOrientation": "縦書き、右から左配置"
+          },
+          "bottomSection": {
+            "accountInfo": "api.career",
+            "pageIndicator": "1/9"
+          }
+        },
+        "actualRole": "タイトル表示・テーマ提示"
+      },
+      "page2": {
+        "layoutStructure": {
+          "backgroundType": "オフィス環境の人物写真（ぼかし処理）",
+          "overlayStructure": "白色カード（大部分をカバー）"
+        },
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-はじめに- 上司との付き合い苦手",
+            "format": "センター配置、黒文字"
+          },
+          "problemSection": {
+            "statement": "でも、働いている以上、避けては通れない...",
+            "format": "角丸枠で囲み"
+          },
+          "illustrationSection": {
+            "visualElement": "上司と部下のイラスト（男性上司が指示、女性部下が書類を前に座る）",
+            "position": "中央"
+          },
+          "solutionSection": {
+            "content": "上司との付き合いをうまくやって、ラクに仕事をする方法を紹介！",
+            "format": "青色背景のボックス、白文字"
+          }
+        },
+        "actualRole": "問題設定・共感・解決策予告"
+      },
+      "page3": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-やってはいけない①- コミュニケーションを減らす",
+            "subtitle": "上司との付き合いも、給料のうち"
+          },
+          "mainContent": {
+            "checkItems": [
+              "なんだかんだ上司には権限がある",
+              "コミュニケーション取ってる方が結果オトク"
+            ],
+            "format": "チェックマーク付きリスト"
+          },
+          "illustrationSection": {
+            "visualElement": "拒否ジェスチャーをする男性のイラスト"
+          },
+          "noteSection": {
+            "content": "「最大限、関わりたくない！」気持ちは分かる。でも距離が広がると後々面倒なことに",
+            "format": "青色ボックス、白文字"
+          }
+        },
+        "actualRole": "NG行動1の詳細説明"
+      },
+      "page4": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-やってはいけない②- 自分の扱い方を伝えない",
+            "subtitle": "自分のタイプを知っておいてもらう"
+          },
+          "mainContent": {
+            "examples": [
+              "数字は苦手だけど、文章構成には自信あり",
+              "マイペースで力発揮 話めらるとミスが増える",
+              "一人で黙々と進める作業は得意、会議続きは苦手",
+              "明確なゴールが欲しい 曖昧な曖昧な指示には戸惑う"
+            ],
+            "format": "点線枠内に箇条書き"
+          },
+          "illustrationSection": {
+            "visualElement": "ガッツポーズをする男性のイラスト"
+          },
+          "noteSection": {
+            "content": "自分の得意・不得意、パフォーマンスの上がる環境などを上司が理解していると仕事はだいぶやりやすくなる！",
+            "format": "青色ボックス、白文字"
+          }
+        },
+        "actualRole": "NG行動2の詳細説明・具体例提示"
+      },
+      "page5": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-やってはいけない③- 褒めない",
+            "subtitle": "上司付き合いのために褒める"
+          },
+          "mainContent": {
+            "examples": [
+              "フォローいただき、ありがとうございます。",
+              "配慮ありがたかったです。",
+              "やっぱり、相談して正解でした。",
+              "声をかけてもらい、本当に助かりました。"
+            ],
+            "format": "点線枠内に箇条書き"
+          },
+          "illustrationSection": {
+            "visualElement": "感謝を表す男女のイラスト（握手または会話）"
+          },
+          "noteSection": {
+            "content": "部下だけど、上司を「褒めて伸ばしてあげよう！」という目線をもつのも大切。上司だって褒められたい...",
+            "format": "青色ボックス、白文字"
+          }
+        },
+        "actualRole": "NG行動3の詳細説明・具体的な褒め方例"
+      },
+      "page6": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-やってはいけない④- メリハリを見せない",
+            "subtitle": "上司にナメられてはいけない"
+          },
+          "section1": {
+            "title": "ナメいる相手には...",
+            "content": [
+              "ムダに説教をする",
+              "責任を押し付けようとしてくる",
+              "理不尽な依頼をしてくる"
+            ],
+            "format": "青色背景ボックス内のリスト"
+          },
+          "illustrationSection": {
+            "visualElement": "困った表情の男性のイラスト"
+          },
+          "section2": {
+            "title": "メリハリが超重要！",
+            "content": [
+              "「仕事力」を見せて、「超便利な部下」でいる",
+              "ナメると「超めんどくさい部下」になる"
+            ],
+            "format": "点線枠内のリスト",
+            "icon": "指差しアイコン"
+          }
+        },
+        "actualRole": "NG行動4の詳細説明・対比構造"
+      },
+      "page7": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-やってはいけない⑤- 人前で悪口を言う",
+            "subtitle": "周りからどう伝わるか分からない"
+          },
+          "mainContent": {
+            "positiveNote": "上司と二人でいる時に多少からぐ関係であれば、「距離が縮まっている感」が出て良い",
+            "format": "点線枠内"
+          },
+          "illustrationSection": {
+            "visualElement": "笑顔で会話する男女のイラスト"
+          },
+          "warningSection": {
+            "content": "自分と上司以外の人がいる場で、上司をディスるのはNG 変な恨みを買って、仕事がやりにくくなる",
+            "format": "青色ボックス、白文字",
+            "icon": "三角の警告アイコン（黄色）"
+          }
+        },
+        "actualRole": "NG行動5の詳細説明・注意喚起"
+      },
+      "page8": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-さいごに- 上司と上手くやるのも仕事のひとつ"
+          },
+          "benefitsSection": {
+            "title": "上司と上手くやれば...",
+            "benefits": [
+              "仕事が選べる",
+              "人事評価が良くなる",
+              "職場の居心地が良くなる"
+            ],
+            "format": "青色背景ボックス、チェックマーク付き"
+          },
+          "illustrationSection": {
+            "visualElement": "握手をする男性のイラスト"
+          },
+          "ctaSection": {
+            "message": "「上司苦手かも…」と思った人は、まず\"NG行動をやめる\"ことから始めてみよう！",
+            "format": "角丸枠で囲み"
+          },
+          "savePrompt": {
+            "text": "保存してあとで見る！",
+            "position": "右下"
+          }
+        },
+        "actualRole": "まとめ・メリット提示・行動促進"
+      },
+      "page9": {
+        "layoutStructure": {
+          "backgroundType": "青色グラデーション",
+          "overlayStructure": "白色カード（部分的）"
+        },
+        "contentDistribution": {
+          "headerSection": {
+            "title": "他の投稿も見てみる",
+            "format": "青色背景、白文字"
+          },
+          "profileSection": {
+            "avatar": "人物イラスト（青髪の男性キャラクター）",
+            "title": "転職×仕事術で自分時間を満喫",
+            "features": [
+              "会社では教えてくれない仕事の掟",
+              "20代で大手に転職したテクニック",
+              "仕事術で残業とサヨナラ"
+            ],
+            "cta": "タップしてフォローする"
+          },
+          "relatedPostsSection": {
+            "title": "最近の人気投稿",
+            "posts": [
+              "職場で信頼失う人",
+              "未来に強い資格5選（2025年アツい）",
+              "フレーズ5選電話好感"
+            ],
+            "format": "サムネイル画像付きの3列表示"
+          },
+          "engagementSection": {
+            "message": "いいね・コメント・シェア嬉しいですね！"
+          }
+        },
+        "actualRole": "関連コンテンツ紹介・フォロー促進"
+      }
+    },
+    "designElements": {
+      "colorScheme": ["白色", "黒色", "青色系", "グレー", "黄色（警告アイコン）"],
+      "typography": {
+        "mainTitle": "大きめの黒文字（太字）",
+        "subtitle": "中サイズの黒文字",
+        "bodyText": "小サイズの黒文字",
+        "accentText": "青色ボックス内の白文字"
+      },
+      "visualHierarchy": "タイトル→サブタイトル→本文→強調ボックス→イラスト",
+      "consistencyElements": [
+        "番号付きタイトル（-やってはいけない①～⑤-）",
+        "白色半透明カードレイアウト",
+        "青色強調ボックス",
+        "点線枠での具体例",
+        "関連イラストの配置"
+      ]
+    },
+    "interactionElements": {
+      "savePrompts": "page8に「保存してあとで見る！」",
+      "engagementCalls": "いいね・コメント・シェア促進",
+      "followPrompts": "タップしてフォローする",
+      "relatedContent": "他の投稿紹介"
+    }
+  }
+}

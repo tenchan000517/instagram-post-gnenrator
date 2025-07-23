@@ -1,0 +1,84 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-10",
+      "totalPages": "10", 
+      "pageIndicator": "1/10, 2/10, 3/10, 4/10, 5/10, 6/10, 7/10, 8/10, 9/10, 10/10"
+    },
+    "layoutStructure": {
+      "backgroundType": "単色ピンク背景",
+      "backgroundDescription": "全ページ統一されたピンク系グラデーション背景",
+      "overlayStructure": "白い丸角カードの重ね構造",
+      "headerType": "Instagram標準ヘッダー（haru_work_, おすすめ, フォロー）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ステップ番号（2ページ目以降）、ページタイトル（1ページ目のみ）",
+        "layout": "中央上部配置"
+      },
+      "middleSection": {
+        "format": "ステップタイトル + 本文説明 + 2つの具体例ボックス + 締めのメッセージ",
+        "backgroundColor": "白いカード形式",
+        "items": [
+          "ステップ番号と人型アイコン付きタイトルバー",
+          "メイン説明文",
+          "2つの具体例（左右並び配置、ピンク枠）",
+          "各例にアイコンとテキスト",
+          "下部に締めのメッセージとキャラクターイラスト"
+        ],
+        "visualElements": "ビジネス系キャラクターイラスト、各種アイコン"
+      },
+      "bottomSection": {
+        "elements": "ページインジケーター（青いドット）、Instagram標準UI",
+        "ctaElements": "保存促進メッセージ（9ページ目、10ページ目）"
+      }
+    },
+    "actualRole": "Instagram集客の体系的な手順を6ステップで詳細解説する実践的ガイド",
+    "designElements": {
+      "colorScheme": ["ピンク", "白", "グレー", "青"],
+      "typography": "日本語フォント、見出しは太字、本文は通常フォント",
+      "visualHierarchy": "ステップ番号 → タイトル → 説明文 → 具体例 → 締めメッセージ",
+      "trustSignals": ["体系的な6ステップ構成", "具体的な数値例", "実践的なアドバイス"],
+      "engagementElements": ["親しみやすいキャラクター", "具体例の提示", "保存促進"]
+    },
+    "interactionElements": {
+      "checkboxes": "まとめページ（9ページ目）にチェックマーク付きリスト",
+      "buttons": "なし（Instagram標準のいいね・コメント・保存ボタンのみ）",
+      "swipeIndicators": "ページ下部の青いドット（10個）",
+      "savePrompts": "9ページ目に「保存はこちら」、10ページ目に「ここから保存してね♪」"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "backgroundType": "ピンクグラデーション",
+        "titlePlacement": "中央上部にInstagramアイコン付き",
+        "characterPlacement": "中央下部にPCを使う女性キャラクター",
+        "specialElements": "電球アイコン、アカウント名表示"
+      },
+      "page2": {
+        "stepNumber": "0（はじめに）",
+        "problemPresentation": "悩む女性キャラクターで問題を視覚化",
+        "textStructure": "問題提起 → 共感 → 解決提案 → 今日の約束",
+        "profileIntegration": "右下にアカウント写真配置"
+      },
+      "page3-8": {
+        "layoutPattern": "統一されたステップレイアウト",
+        "stepNumberDesign": "ピンク背景に白文字の番号",
+        "exampleBoxes": "2つの具体例を左右に並列配置、ピンク枠で統一",
+        "iconUsage": "各例に関連するビジネスアイコン使用",
+        "characterPlacement": "説明文下部にサポートキャラクター配置"
+      },
+      "page9": {
+        "layoutType": "まとめ・チェックリスト",
+        "checklistDesign": "6項目にピンクのチェックマーク付き",
+        "titleDesign": "「インスタ集客 突破術」をメインタイトルに",
+        "finalMessage": "継続の重要性を強調するメッセージ"
+      },
+      "page10": {
+        "layoutType": "感謝・CTA",
+        "thankYouMessage": "大きな「THANK YOU !」テキスト",
+        "visualElements": "ピンクのハート3つ、手紙イラスト",
+        "savePrompt": "右下にピンクのリボン付き保存促進"
+      }
+    }
+  }
+}

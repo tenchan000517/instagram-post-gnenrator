@@ -1,0 +1,153 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "11",
+        "totalPages": "13", 
+        "pageIndicator": "11/13"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景",
+        "backgroundDescription": "薄いベージュ/グレー背景",
+        "overlayStructure": "白色カード内にコンテンツ配置",
+        "headerType": "タイトルヘッダー（ベージュ背景）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "メインタイトル",
+          "layout": "AI上級者がこそって使う...自動で指示文をつくる7ステップ"
+        },
+        "middleSection": {
+          "format": "アイコン + まとめセクション + 番号付きリスト",
+          "backgroundColor": "白色カード",
+          "items": [
+            "Google AI Studioに登録する",
+            "Gemini 2.5 Proを選ぶ",
+            "Temperatureを「1」にする", 
+            "Grounding with Google Searchをオフ",
+            "URL contextをオフにする",
+            "この指示文をコピペする",
+            "Geminiで実行する"
+          ],
+          "visualElements": "電球アイコン、番号付き円形ボタン（1-7）"
+        },
+        "bottomSection": {
+          "elements": "ティーザーメッセージ + NEXTボタン",
+          "ctaElements": "「実は、AIを使いこなすと初心者でもお家で収益化できて...→」"
+        }
+      },
+      "actualRole": "手順まとめページ - 7ステップの一覧提示",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白色", "茶色（番号ボタン）", "黒色（テキスト）"],
+        "typography": "番号付きリスト、統一フォント",
+        "visualHierarchy": "タイトル → まとめアイコン → ステップリスト → ティーザー",
+        "trustSignals": ["具体的技術用語", "段階的手順"],
+        "engagementElements": ["NEXTボタン", "収益化への期待"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "NEXTボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "12",
+        "totalPages": "13",
+        "pageIndicator": "12/13"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景",
+        "backgroundDescription": "薄いベージュ背景継続",
+        "overlayStructure": "白色カード + 実績スクリーンショット",
+        "headerType": "POINTヘッダー（茶色背景）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "POINTヘッダー + 見出し",
+          "layout": "AIの記事で12万4,000円作れる"
+        },
+        "middleSection": {
+          "format": "スクリーンショット + 体験談テキスト",
+          "backgroundColor": "白色カード + グレー背景（スクリーンショット）",
+          "items": [
+            "coco_mama_cf からの報告画像",
+            "@nabeken_career が作ったGTPs で記事を書いたら、124,000円も作れました😭",
+            "自分の頭で考え出したら1週間かかるような1万文字以上の記事が、AIの力を借りたら3倍速く、しかもクオリティも高い。"
+          ],
+          "visualElements": "実際の収益報告スクリーンショット、ユーザーアイコン"
+        },
+        "bottomSection": {
+          "elements": "CTA + NEXTボタン",
+          "ctaElements": "AIで記事を作ったら収益化も目指せる◎このAIの作り方を無料講座で教えて→"
+        }
+      },
+      "actualRole": "実績証明・信頼構築 - 具体的収益データで効果を実証",
+      "designElements": {
+        "colorScheme": ["茶色（ヘッダー）", "白色", "グレー（スクリーンショット背景）", "黒色"],
+        "typography": "大きな金額表示、体験談形式、絵文字使用",
+        "visualHierarchy": "ポイント表示 → 金額 → 証拠画像 → 体験談 → CTA",
+        "trustSignals": ["実際のスクリーンショット", "具体的金額", "第三者の証言"],
+        "engagementElements": ["感情的な絵文字", "具体的数値", "無料講座への誘導"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "NEXTボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "13",
+        "totalPages": "13（最終ページ推定）",
+        "pageIndicator": "最終ページ"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真背景",
+        "backgroundDescription": "ぼかし効果のある人物写真",
+        "overlayStructure": "複数のカード・要素を重ね配置",
+        "headerType": "ターゲットメッセージ"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ターゲット向けメッセージ",
+          "layout": "できるだけお金をかけずにAI活用の実践的なノウハウを知りたい\"あなた\"へ"
+        },
+        "middleSection": {
+          "format": "オファーカード + 特典表示 + スマホ画面",
+          "backgroundColor": "白色カード + カラフルな特典画像",
+          "items": [
+            "無料【全3話】ライター×AIの動画講座「IAN」",
+            "時給6万円を達成したAIの裏側を暴露",
+            "期間限定プレゼント 4つの特典をお届けします",
+            "セールスライティングプロンプト",
+            "心理学プロンプト",
+            "魔法文章術プロンプト", 
+            "キラーワード10選"
+          ],
+          "visualElements": "スマートフォン画面、カラフルな特典カード群、講座画面"
+        },
+        "bottomSection": {
+          "elements": "CTAボックス",
+          "ctaElements": "フォローしてから「イアン」とコメントで案内を送るね◎"
+        }
+      },
+      "actualRole": "最終オファー・行動誘導 - 無料講座への申し込み促進",
+      "designElements": {
+        "colorScheme": ["多色（特典カード）", "白色", "青色（スマホ画面）", "黒色背景（CTA）"],
+        "typography": "無料強調、限定性表現、具体的指示",
+        "visualHierarchy": "ターゲット特定 → オファー → 特典 → 行動指示",
+        "trustSignals": ["無料提供", "具体的な特典内容", "スマホ画面表示"],
+        "engagementElements": ["限定性", "無料価値提供", "簡単な行動指示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし（コメント指示）",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

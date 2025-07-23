@@ -1,0 +1,83 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 3,
+      "pageIndicator": "Instagramストーリー形式（ページ番号表示なし）"
+    },
+    "layoutStructure": {
+      "backgroundType": "単色背景（ページ1:グレー、ページ2:白、ページ3:紫グラデーション）",
+      "backgroundDescription": "各ページで異なる背景色を使用、内容に応じた色選択",
+      "overlayStructure": "上部タイトル＋中央コンテンツエリア＋下部プロフィール情報",
+      "headerType": "各ページで異なるヘッダーデザイン（テキストボックス/大見出し/カラーバー）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページ固有のタイトル（モバイルAI推奨/AI PRODUCTIVITY TOOLS/60 AI TOOLS）",
+        "layout": "中央寄せまたは左寄せのタイトル配置"
+      },
+      "middleSection": {
+        "format": "ページ1:3x3グリッド、ページ2:多列リスト、ページ3:円形ダイアグラム",
+        "backgroundColor": "ページ1:透明、ページ2:白、ページ3:薄紫",
+        "items": "各ページで大量のAIツール情報を異なる形式で表示",
+        "visualElements": "公式ロゴ、アイコン、矢印、カテゴリ別色分け"
+      },
+      "bottomSection": {
+        "elements": "投稿者のプロフィール情報とアカウント名",
+        "ctaElements": "フォローボタンとエンゲージメント数表示"
+      }
+    },
+    "actualRole": "ai-tools-comprehensive-guide",
+    "designElements": {
+      "colorScheme": ["グレー", "白", "紫", "オレンジ", "青", "黒"],
+      "typography": "英語：サンセリフ体、日本語：ゴシック体、カテゴリごとに太字使用",
+      "visualHierarchy": "タイトル → カテゴリ → ツール名 → アイコン → 補足情報",
+      "trustSignals": ["公式ロゴの使用", "詳細なツール分類", "作成者情報の明記"],
+      "engagementElements": ["大量の情報による価値提供", "視覚的に分かりやすい整理"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "フォローボタンのみ",
+      "swipeIndicators": "Instagramの標準スワイプ操作",
+      "savePrompts": "保存推奨メッセージなし"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "backgroundStyle": "グレー背景",
+        "titleStyle": "濃いグレーのボックス内に白文字で「モバイルAI推奨✨」",
+        "gridLayout": "3列×3行の整然とした配置",
+        "toolPresentation": "各ツールは白い角丸カードにアイコン＋日本語名",
+        "categoryLabels": "万能AI、シナ化、検索（各ツールの上に配置）",
+        "arrows": "黒い矢印でツールの推奨方向を指示",
+        "spacing": "均等な間隔でツールカードを配置"
+      },
+      "page2": {
+        "backgroundStyle": "白色背景",
+        "titleStyle": "上部に大きく「AI PRODUCTIVITY TOOLS」をオレンジで強調",
+        "listFormat": "カテゴリ名を太字で表示、その下にツール名をリスト化",
+        "categorization": "12のカテゴリで体系的に分類",
+        "toolCount": "各カテゴリに5-10個のツールを列挙",
+        "textHierarchy": "カテゴリ＞ツール名の明確な階層",
+        "creditInfo": "右下に「Techie Programmer ©2025」のクレジット表示"
+      },
+      "page3": {
+        "backgroundStyle": "紫色のグラデーション背景",
+        "titleStyle": "上部に白文字で「60 AI TOOLS」",
+        "diagramStructure": "同心円状の配置で中央にカテゴリ、外周にツール",
+        "centerElements": "6つの主要カテゴリを中央部に配置",
+        "toolIconLayout": "円周に沿って60個のツールアイコンを配置",
+        "colorCoding": "各カテゴリに対応する色でアイコンをグループ化",
+        "densityLevel": "高密度の情報配置だが視覚的に整理されている"
+      }
+    },
+    "contentProgression": {
+      "page1to2": "具体的な推奨ツール → 包括的なカテゴリ別リスト",
+      "page2to3": "詳細なテキストリスト → 視覚的な全体俯瞰",
+      "informationDensity": "ページが進むにつれて情報密度が増加"
+    },
+    "consistentElements": {
+      "brandingStyle": "各ページで異なるが統一感のあるデザイン",
+      "informationPresentation": "ツール名とアイコンの組み合わせで統一",
+      "professionalTone": "技術系の専門的な印象を維持"
+    }
+  }
+}

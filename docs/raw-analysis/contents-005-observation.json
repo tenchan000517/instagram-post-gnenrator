@@ -1,0 +1,501 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "10",
+        "pageIndicator": "1/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "デスク環境での作業風景、女性の後ろ姿、パソコンとキーボードが見える室内",
+        "overlayStructure": "上部に黄色背景のバッジ、中央に白いテキスト、Instagram UI要素",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Instagram UI（時刻14:39、信号表示、バッテリー42%）、戻るボタンと検索アイコン",
+          "layout": "標準Instagramヘッダー"
+        },
+        "middleSection": {
+          "format": "写真背景に重ねたテキスト配置",
+          "backgroundColor": "透明（写真背景表示）",
+          "items": [
+            "月5万円達成！（黄色バッジ）",
+            "副業スタート（大きな白文字）",
+            "ガイド（大きな白文字）"
+          ],
+          "visualElements": "左側にページインジケーター1/10"
+        },
+        "bottomSection": {
+          "elements": "Instagramインターフェース（ハートマーク266、コメント、シェア、保存）、プロフィール情報（hiroka_npani_、フォローボタン）",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "投稿のカバー画像・タイトル表示",
+      "designElements": {
+        "colorScheme": ["黄色（バッジ）", "白（メインテキスト）", "黒（UI要素）", "ナチュラル系（背景写真）"],
+        "typography": "太字ゴシック系フォント（日本語）",
+        "visualHierarchy": "黄色バッジ→白い大文字タイトル→写真背景",
+        "trustSignals": ["実際の作業環境写真"],
+        "engagementElements": ["266いいね表示", "保存ボタン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "フォローボタン、Instagram標準操作ボタン",
+        "swipeIndicators": "ページドット表示（5個）、1/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "10",
+        "pageIndicator": "2/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "パソコンキーボードとデスク環境の写真（ぼかし効果）",
+        "overlayStructure": "上部ベージュヘッダー、中央茶色バー、下部白いカード、プロフィール写真",
+        "headerType": "ベージュ色角丸バー「副業スタートガイド」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ベージュ色ヘッダー「副業スタートガイド」",
+          "layout": "画面上部中央配置"
+        },
+        "middleSection": {
+          "format": "茶色バー＋チェックリスト形式＋著者紹介",
+          "backgroundColor": "茶色バー、半透明白いカード",
+          "items": [
+            "月にあと+5万円あれば...💰（茶色バー内）",
+            "でも...（小見出し）",
+            "✓ 副業したくてもどう始めたらいいが分からない",
+            "✓ 強みもスキルもない",
+            "そんな女性たちへ／（改行）400名以上のフリーランスをサポートしている私がおすすめの副業をご紹介✨"
+          ],
+          "visualElements": "お金アイコン、チェックマーク、プロフィール写真"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI（ハート266、コメント、シェア、保存等）",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "問題提起と著者の信頼性提示",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "茶色（メインバー）", "白（カード背景）", "緑（チェックマーク）"],
+        "typography": "日本語ゴシック系、サイズ階層あり",
+        "visualHierarchy": "茶色バー→チェックリスト→著者紹介",
+        "trustSignals": ["400名以上のサポート実績", "プロフィール写真"],
+        "engagementElements": ["共感を誘う悩みリスト", "具体的数字"]
+      },
+      "interactionElements": {
+        "checkboxes": "緑色チェックマーク（装飾的）",
+        "buttons": "Instagram標準操作",
+        "swipeIndicators": "ページドット、2/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "10",
+        "pageIndicator": "3/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "デスク環境、キーボードとマウスが見える作業スペース",
+        "overlayStructure": "上部ベージュヘッダー、茶色メッセージバー、3つのカテゴリカード",
+        "headerType": "ベージュ色角丸バー「副業スタートガイド」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「副業スタートガイド」ヘッダー",
+          "layout": "画面上部中央"
+        },
+        "middleSection": {
+          "format": "カテゴリ分類カード形式",
+          "backgroundColor": "茶色バー、3つの白いカード（赤枠）",
+          "items": [
+            "副業にはいろんな種類がある！（茶色バー）",
+            "スキル系（赤枠カード）：ライター、デザイン、SNS運用代行（注目マーク付き）",
+            "販売系（赤枠カード）：メルカリ販売、ハンドメイド販売",
+            "サポート系（赤枠カード）：事務代行、チャットサポート"
+          ],
+          "visualElements": "各項目にアイコン、SNS運用代行に「注目💥」マーク"
+        },
+        "bottomSection": {
+          "elements": "「今ある『好き』や『得意』から考えよう！」メッセージ、Instagram UI",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "副業の選択肢を体系的に提示",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "茶色（メインバー）", "白（カード）", "赤（枠線）", "オレンジ（注目マーク）"],
+        "typography": "カテゴリ名は太字、項目名は標準",
+        "visualHierarchy": "茶色バー→3つのカテゴリカード→底部メッセージ",
+        "trustSignals": ["体系的な分類"],
+        "engagementElements": ["注目マーク", "親しみやすいメッセージ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Instagram標準操作",
+        "swipeIndicators": "ページドット、3/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "10",
+        "pageIndicator": "4/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "デスク環境のぼかし背景",
+        "overlayStructure": "上部ベージュヘッダー、茶色ステップバー、3つの白いカード、右下イラスト",
+        "headerType": "ベージュ色角丸バー「副業スタートガイド」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「副業スタートガイド」ヘッダー",
+          "layout": "画面上部中央"
+        },
+        "middleSection": {
+          "format": "ステップ説明＋計算式＋メリット提示",
+          "backgroundColor": "茶色バー、白いカード背景",
+          "items": [
+            "Step1. まずは月5万円を目標に設定（茶色バー）",
+            "✓ 月5万円÷4週＝週1.25万円（計算式）",
+            "✓ 週に5〜6時間の作業で到達可能！（実現可能性）",
+            "✓ 小さな成功体験が自信になる！（メリット）",
+            "大きく稼ぐ前に小さな目標で成功を積み重ねていこう（下部メッセージ）"
+          ],
+          "visualElements": "緑色チェックマーク、時計アイコン、右下に喜ぶ女性イラスト"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "Step1の具体的説明と動機付け",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "茶色（ステップバー）", "白（カード）", "緑（チェックマーク）", "オレンジ（イラスト）"],
+        "typography": "ステップタイトルは大きく、説明文は標準サイズ",
+        "visualHierarchy": "ステップタイトル→計算式→メリット→底部メッセージ",
+        "trustSignals": ["具体的計算", "実現可能な時間設定"],
+        "engagementElements": ["成功イラスト", "励ましメッセージ"]
+      },
+      "interactionElements": {
+        "checkboxes": "緑色チェックマーク（装飾的）",
+        "buttons": "Instagram標準操作",
+        "swipeIndicators": "ページドット、4/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "10",
+        "pageIndicator": "5/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "デスク環境のぼかし背景",
+        "overlayStructure": "上部ベージュヘッダー、茶色ステップバー、チェックリストカード、例示カード、右側イラスト",
+        "headerType": "ベージュ色角丸バー「副業スタートガイド」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「副業スタートガイド」ヘッダー",
+          "layout": "画面上部中央"
+        },
+        "middleSection": {
+          "format": "基準リスト＋具体例マッピング",
+          "backgroundColor": "茶色バー、白いカード、薄茶色例示カード",
+          "items": [
+            "Step2. ジャンル選びのコツ（茶色バー）",
+            "✓ 好き・得意なこと",
+            "✓ 続けやすさ",
+            "✓ 少しでも経験があるもの",
+            "例（薄茶色カード内）",
+            "SNSが好き → SNS運用代行",
+            "書くのが好き → ライター", 
+            "モノ作りが好き → ハンドメイド販売"
+          ],
+          "visualElements": "緑色チェックマーク、矢印、右側に指差しする女性イラスト"
+        },
+        "bottomSection": {
+          "elements": "「無理に『正解』を探さなくてOK！」メッセージ、Instagram UI",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "Step2の基準と具体例提示",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "茶色（ステップバー）", "白（基準カード）", "薄茶色（例示カード）", "オレンジ（イラスト）"],
+        "typography": "ステップタイトル太字、基準項目標準、例示は小さめ",
+        "visualHierarchy": "ステップタイトル→基準リスト→具体例→安心メッセージ",
+        "trustSignals": ["論理的な選び方の提示"],
+        "engagementElements": ["親しみやすい例", "安心感を与えるメッセージ"]
+      },
+      "interactionElements": {
+        "checkboxes": "緑色チェックマーク（装飾的）",
+        "buttons": "Instagram標準操作",
+        "swipeIndicators": "ページドット、5/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "10",
+        "pageIndicator": "6/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "デスク環境のぼかし背景",
+        "overlayStructure": "上部ベージュヘッダー、茶色ステップバー、白いカード群、右下イラスト",
+        "headerType": "ベージュ色角丸バー「副業スタートガイド」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「副業スタートガイド」ヘッダー",
+          "layout": "画面上部中央"
+        },
+        "middleSection": {
+          "format": "ステップ説明＋安心メッセージ＋実践方法リスト",
+          "backgroundColor": "茶色バー、白いカード背景",
+          "items": [
+            "Step3. 信頼してもらう（茶色バー）",
+            "実績がなくても大丈夫！（サブタイトル）",
+            "✓ 無料or低単価で実績を作る",
+            "✓ 架空のポートフォリオを作成 例）レシピジャンルの投稿デザインを作成してみる",
+            "✓ SNSで「始めました！」発信も◎",
+            "できることを見せることで、信頼につながる！（結論）"
+          ],
+          "visualElements": "緑色チェックマーク、右下にスマートフォンを持つ女性イラスト"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "Step3の信頼構築方法と安心感提供",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "茶色（ステップバー）", "白（カード）", "緑（チェックマーク）", "赤（イラスト服）"],
+        "typography": "ステップタイトル太字、説明文標準、例示は詳細説明付き",
+        "visualHierarchy": "ステップタイトル→安心メッセージ→実践方法→結論",
+        "trustSignals": ["実績がなくても大丈夫という安心感", "具体的実践方法"],
+        "engagementElements": ["具体例提示", "励ましのメッセージ"]
+      },
+      "interactionElements": {
+        "checkboxes": "緑色チェックマーク（装飾的）",
+        "buttons": "Instagram標準操作",
+        "swipeIndicators": "ページドット、6/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "10",
+        "pageIndicator": "7/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "デスク環境のぼかし背景",
+        "overlayStructure": "上部ベージュヘッダー、茶色ステップバー、4つのツールカード、下部メッセージエリア",
+        "headerType": "ベージュ色角丸バー「副業スタートガイド」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「副業スタートガイド」ヘッダー",
+          "layout": "画面上部中央"
+        },
+        "middleSection": {
+          "format": "ツール紹介カード4つ（2×2配置）",
+          "backgroundColor": "茶色バー、白いツールカード、薄茶色メッセージエリア",
+          "items": [
+            "Step4. ツールに頼ってOK！（茶色バー）",
+            "Canva - デザイン作成（青グラデーションロゴ）",
+            "ChatGPT - 文章やアイデア補助（黒白ロゴ）",
+            "Notion - タスク・案件管理（Nロゴ）",
+            "SNS - 集客や発信に◎（Instagramロゴ）",
+            "副業は『賢く』やるのがカギ！（薄茶色エリア）",
+            "ChatGPTの使い方はこの投稿でも紹介してます →（本の画像付き）"
+          ],
+          "visualElements": "各ツールの実際のロゴ、本の画像、矢印"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "Step4の効率化ツール紹介と関連コンテンツ案内",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "茶色（ステップバー）", "白（ツールカード）", "各ツールのブランドカラー"],
+        "typography": "ステップタイトル太字、ツール名標準、説明文小",
+        "visualHierarchy": "ステップタイトル→4つのツールカード→賢くやるメッセージ→関連コンテンツ",
+        "trustSignals": ["有名ツールのロゴ", "追加学習リソースの提示"],
+        "engagementElements": ["視覚的ツールロゴ", "関連投稿への導線"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Instagram標準操作",
+        "swipeIndicators": "ページドット、7/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "10",
+        "pageIndicator": "8/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "デスク環境のぼかし背景",
+        "overlayStructure": "上部ベージュヘッダー、茶色成功バッジ、プロフィールカード、ステップリスト、下部コメント",
+        "headerType": "ベージュ色角丸バー「講座生の実例」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「講座生の実例」ヘッダー",
+          "layout": "画面上部中央"
+        },
+        "middleSection": {
+          "format": "成功事例紹介カード",
+          "backgroundColor": "茶色成功バッジ、白いプロフィールエリア",
+          "items": [
+            "副業未経験→運用代行で収入1.5倍！（茶色バッジ、キラキラ付き）",
+            "会社員女性 Mさん 育児の合間に副業開始！（プロフィール説明）",
+            "▶ 動画編集に挑戦",
+            "▶ 動画編集＋キャリアサポートで単価アップ！",
+            "▶ 月収1.5倍になり、フリーランスとして独立！",
+            "スキルと提案力を磨いてフリーランスとして独立されました！（下部コメント）"
+          ],
+          "visualElements": "女性のプロフィール写真、再生ボタンアイコン、装飾的要素"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "成功事例による信頼性と実現可能性の証明",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "茶色（成功バッジ）", "白（プロフィールエリア）", "オレンジ（装飾）"],
+        "typography": "成功バッジは大きく太字、ステップは標準、コメントは小",
+        "visualHierarchy": "成功バッジ→プロフィール→成長ステップ→コメント",
+        "trustSignals": ["実在する成功者の写真", "具体的成長過程", "講師のコメント"],
+        "engagementElements": ["成功ストーリー", "具体的な成果数値"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Instagram標準操作",
+        "swipeIndicators": "ページドット、8/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "10",
+        "pageIndicator": "9/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "オフィス・作業環境の写真（ぼかし）",
+        "overlayStructure": "上部ベージュヘッダー、4つの星付きポイントカード、下部メッセージ、右下イラスト",
+        "headerType": "ベージュ色角丸バー「まとめ」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「まとめ」ヘッダー、「副業スタートガイド」サブタイトル",
+          "layout": "画面上部中央"
+        },
+        "middleSection": {
+          "format": "4つの星マーク付きポイントカード",
+          "backgroundColor": "白いカード背景",
+          "items": [
+            "⭐ まずは「月5万円」を目標に",
+            "⭐ 自分の得意ジャンルを見つける", 
+            "⭐ 小さく実績づくりからスタート",
+            "⭐ 行動×発信でチャンスを広げる！",
+            "正しいやり方を知ればあなたにもできる！（結論メッセージ）",
+            "最後に特別なお知らせが！（CTA予告）"
+          ],
+          "visualElements": "金色の星マーク、右下に指差しポーズの女性イラスト"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "標準Instagram操作UI"
+        }
+      },
+      "actualRole": "まとめと次ページへの導線",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "白（カード）", "金色（星）", "茶色（文字）", "オレンジ（イラスト）"],
+        "typography": "ヘッダー太字、ポイント標準、結論メッセージやや大",
+        "visualHierarchy": "まとめヘッダー→4つのポイント→結論→CTA予告",
+        "trustSignals": ["体系的まとめ", "実現可能性の再確認"],
+        "engagementElements": ["特別お知らせ予告", "応援メッセージ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Instagram標準操作",
+        "swipeIndicators": "ページドット、9/10表示",
+        "savePrompts": "標準保存アイコン"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "10",
+        "pageIndicator": "10/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真背景",
+        "backgroundDescription": "オフィス環境、建物と設備が見える写真",
+        "overlayStructure": "上部ベージュタイトル、大型プレゼント告知、デバイス画像、下部プロフィール画面",
+        "headerType": "ベージュ色角丸バー「超豪華プレゼント！」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「超豪華プレゼント！」ヘッダー",
+          "layout": "画面上部中央、装飾付き"
+        },
+        "middleSection": {
+          "format": "プレゼント詳細＋デバイスモックアップ",
+          "backgroundColor": "白いプレゼント詳細エリア",
+          "items": [
+            "全126講義が格納された",
+            "無料学習サイトFREE（大きな文字）",
+            "フリーランス無料学習サイトFREE（デスクトップ画面）",
+            "超特大ボリューム！",
+            "全126本講義が網羅、テキスト教材30時間、動画教材496本（3つの円形バッジ）",
+            "受け取りはプロフリンクから（矢印付き）",
+            "突然終了することもあるので、お早めに"
+          ],
+          "visualElements": "PC・スマホのモックアップ画像、プロフィール画面スクリーンショット、装飾要素"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "プロフリンクへの誘導メッセージ"
+        }
+      },
+      "actualRole": "特典オファーとCTA（行動喚起）",
+      "designElements": {
+        "colorScheme": ["ベージュ（ヘッダー）", "白（プレゼントエリア）", "金色（装飾）", "青（デバイス画面）"],
+        "typography": "プレゼント告知は大きく装飾的、詳細は標準、緊急性メッセージは小",
+        "visualHierarchy": "プレゼント告知→詳細内容→デバイス画面→受け取り方法→緊急性",
+        "trustSignals": ["具体的な教材量", "実際の画面表示", "プロフィール実在証明"],
+        "engagementElements": ["豪華という表現", "限定性の演出", "具体的数値"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Instagram標準操作、プロフリンクボタン",
+        "swipeIndicators": "ページドット、10/10表示（最終ページ）",
+        "savePrompts": "標準保存アイコン"
+      }
+    }
+  }
+}

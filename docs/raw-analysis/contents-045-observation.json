@@ -1,0 +1,323 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 7,
+      "pageStructure": "title → problem-id → explanation → tips → reference → action → save"
+    },
+    "page1": {
+      "pageIndicator": "1/7",
+      "layoutStructure": {
+        "backgroundType": "青色グラデーション背景",
+        "backgroundDescription": "濃い青から明るい青へのグラデーション",
+        "overlayStructure": "中央に白い角丸カードが配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "カード内テキスト配置",
+          "backgroundColor": "白色",
+          "items": [
+            "選考に鬼門になる（黒文字）",
+            "適性検査（赤文字、大きなフォント）",
+            "こう解け（黒文字、黄色下線）"
+          ],
+          "visualElements": "角丸カード、色分けされたテキスト"
+        },
+        "bottomSection": {
+          "elements": "続きはスワイプ→（白文字）",
+          "ctaElements": "スワイプ誘導テキスト"
+        }
+      },
+      "actualRole": "タイトル提示とコンテンツ予告",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黒色", "赤色", "黄色"],
+        "typography": "ゴシック体、サイズ階層あり",
+        "visualHierarchy": "適性検査（最大）→ こう解け → 選考に鬼門になる",
+        "trustSignals": ["なし"],
+        "engagementElements": ["色分けによる注意喚起", "スワイプ誘導"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "続きはスワイプ→",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageIndicator": "2/7",
+      "layoutStructure": {
+        "backgroundType": "白色背景",
+        "backgroundDescription": "シンプルな白背景",
+        "overlayStructure": "上下に配置されたコンテンツ",
+        "headerType": "青色タイトル見出し"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "タイトル「適性検査の対策」青色フォント、質問「めっちゃ不安じゃない？？」青色フォント",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "表形式（2行2列）",
+          "backgroundColor": "白色（枠線あり）",
+          "items": [
+            "適性検査の種類",
+            "能力診断：国語・数学・社会・理科・一般常識などの分野から出題",
+            "性格診断：性格の傾向を把握し、企業と職種のマッチングを見るために実施！特別な対策などは不要なので安心"
+          ],
+          "visualElements": "青色ヘッダー、テーブル形式"
+        },
+        "bottomSection": {
+          "elements": "警告メッセージ（吹き出し）、ビジネスマンイラスト、「具体的な対策はこちら→」",
+          "ctaElements": "青色矢印付きテキスト"
+        }
+      },
+      "actualRole": "問題提起と基本情報提供",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "ゴシック体、質問文に感嘆符使用",
+        "visualHierarchy": "タイトル → 質問 → 表 → 警告 → CTA",
+        "trustSignals": ["表形式による情報整理"],
+        "engagementElements": ["感情的な質問文", "キャラクターイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし", 
+        "swipeIndicators": "具体的な対策はこちら→",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageIndicator": "3/7",
+      "layoutStructure": {
+        "backgroundType": "白色背景",
+        "backgroundDescription": "シンプルな白背景",
+        "overlayStructure": "上下配置",
+        "headerType": "黒色タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「対策方法（学力問題）」タイトル",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "表形式（2行多列）",
+          "backgroundColor": "白色（枠線あり）",
+          "items": [
+            "問題の種類",
+            "非言語系：四則演算：スピードと正確性、計算式問題：方程式や不等式の確認、定番問題：よく出題される学習",
+            "言語系：語彙力：対策本などで学習すること、文章力：助詞や助動詞への使い方を確認、読解力：文章の趣旨や論理性の理解を！"
+          ],
+          "visualElements": "青色ヘッダー、詳細な説明文"
+        },
+        "bottomSection": {
+          "elements": "キーメッセージ（吹き出し）、ビジネスマンイラスト、「具体的な対策はこちら→」",
+          "ctaElements": "青色矢印付きテキスト"  
+        }
+      },
+      "actualRole": "具体的分類と詳細説明",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "ゴシック体、詳細説明には小フォント使用",
+        "visualHierarchy": "タイトル → 表 → 警告メッセージ → CTA",
+        "trustSignals": ["詳細な分類表", "具体的な説明"],
+        "engagementElements": ["キャラクターイラスト", "感嘆符使用"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "具体的な対策はこちら→",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageIndicator": "4/7",
+      "layoutStructure": {
+        "backgroundType": "白色背景",
+        "backgroundDescription": "シンプルな白背景",
+        "overlayStructure": "上下配置",
+        "headerType": "青色タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「この3つは意識してみて！！」青色フォント、「突破のコツ」青色ボタン風背景",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "チェックボックス付きリスト（3項目）",
+          "backgroundColor": "白色（枠線あり）",
+          "items": [
+            "✓ 消去法を使おう！正解がはっきりわからなくても焦らないこと！明らかに間違っている選択肢を冷静に消そう",
+            "✓ 時間配分を考える　1つの設問を考え込んで最後まで解けないのは勿体無い。難しい問題はすぐに飛ばすこと。",
+            "✓ 出題パターンを押さえる　会社独自の問題以外は、毎年似たような問題が出題されます。対策本や過去問で十分に対策可能"
+          ],
+          "visualElements": "青色チェックマーク、ボックス形式"
+        },
+        "bottomSection": {
+          "elements": "「企業ごと実施しているWebテストは異なる！実は、実施する前に何のテストか見分ける方法があります！」赤文字強調",
+          "ctaElements": "重要情報の強調表示"
+        }
+      },
+      "actualRole": "実践的アドバイスの提供",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色", "赤色"],
+        "typography": "ゴシック体、重要部分は赤文字",
+        "visualHierarchy": "タイトル → 3つのコツ → 重要メッセージ",
+        "trustSignals": ["チェックボックス形式", "具体的なアドバイス"],
+        "engagementElements": ["感嘆符使用", "色分けによる強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "青色チェックマーク（装飾）",
+        "buttons": "なし",
+        "swipeIndicators": "なし（次ページへの導線は赤文字メッセージ）",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageIndicator": "5/7",
+      "layoutStructure": {
+        "backgroundType": "白色背景",
+        "backgroundDescription": "シンプルな白背景",
+        "overlayStructure": "上下配置",
+        "headerType": "青色タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「WEBテストURL の見分け方」青色フォント",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "表形式（6行2列）",
+          "backgroundColor": "ピンク色ヘッダー、白色セル",
+          "items": [
+            "SPI：URLに「arorua」が入っている",
+            "玉手箱：URLに「e-exams」「nsvs」「tsvs」が入っている", 
+            "TG-WEB：URLに「assessment c-personal」が入っている",
+            "TAL：URLに「tal-sa」が入っている",
+            "CAB：玉手箱と同じ　画面を開いて出題科目で判断",
+            "eF-1G：URLに「ef-1g」が入っている"
+          ],
+          "visualElements": "ピンク色ヘッダー、整理された表"
+        },
+        "bottomSection": {
+          "elements": "「企業からメールを確認して テストの種類を確認しよう！！」",
+          "ctaElements": "行動促進メッセージ"
+        }
+      },
+      "actualRole": "実用的参照資料の提供",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "ピンク色", "黒色"],
+        "typography": "ゴシック体、表内は小フォント",
+        "visualHierarchy": "タイトル → 参照表 → 行動促進",
+        "trustSignals": ["詳細な参照表", "具体的URL情報"],
+        "engagementElements": ["感嘆符使用", "色分けされた表"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageIndicator": "6/7",
+      "layoutStructure": {
+        "backgroundType": "白色背景",
+        "backgroundDescription": "シンプルな白背景",
+        "overlayStructure": "上中下配置",
+        "headerType": "青色タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「7月からWEBテストの対策始めてみませんか？？」青色フォント",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "テキストブロック",
+          "backgroundColor": "白色",
+          "items": [
+            "行きたい会社があるのに",
+            "オフィスに行かずに不合格なんて（下線付き）",
+            "一生、後悔します。",
+            "後悔しないためにも",
+            "今からコツコツ頑張りましょう！"
+          ],
+          "visualElements": "下線による強調"
+        },
+        "bottomSection": {
+          "elements": "ビジネスマンイラスト、「忘れないよう保存しておいてね！」赤文字",
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "行動促進と感情的動機付け",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "赤色", "黒色"],
+        "typography": "ゴシック体、感情的な表現",
+        "visualHierarchy": "質問 → 動機付け → 行動促進",
+        "trustSignals": ["なし"],
+        "engagementElements": ["感情的な文章", "キャラクターイラスト", "保存促進"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "赤文字による保存促進"
+      }
+    },
+    "page7": {
+      "pageIndicator": "7/7",
+      "layoutStructure": {
+        "backgroundType": "白色背景",
+        "backgroundDescription": "シンプルな白背景",
+        "overlayStructure": "上中下配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「忘れないように『保存』しておいて！」青色フォント、「保存」部分は黄色下線",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "大きなアイコン中心配置",
+          "backgroundColor": "白色",
+          "items": [
+            "青色ブックマークアイコン（大サイズ）"
+          ],
+          "visualElements": "目立つアイコン表示"
+        },
+        "bottomSection": {
+          "elements": "ビジネスマンイラスト、「夏インターンで就活を加速させよう」、青色矢印",
+          "ctaElements": "青色矢印による視線誘導"
+        }
+      },
+      "actualRole": "保存行動の促進",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黄色"],
+        "typography": "ゴシック体、保存が強調",
+        "visualHierarchy": "保存メッセージ → アイコン → 動機付け",
+        "trustSignals": ["なし"],
+        "engagementElements": ["大きなアイコン", "キャラクターイラスト", "矢印による誘導"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "メインメッセージとして保存促進"
+      }
+    },
+    "overallPatterns": {
+      "commonElements": [
+        "ビジネスマン風キャラクターイラスト（全ページ共通）",
+        "青色を基調とした色使い",
+        "「→」矢印による誘導",
+        "感嘆符を多用した感情的な表現"
+      ],
+      "visualConsistency": "青色とキャラクターイラストによる統一感",
+      "informationDensity": "中程度（表形式で情報を整理）",
+      "engagementStrategy": "実用的情報提供 + 感情的動機付け + 行動促進"
+    }
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "8",
+        "pageIndicator": "1/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "gradient",
+        "backgroundDescription": "青色から薄青色へのグラデーション背景",
+        "overlayStructure": "中央に白色角丸長方形カード配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "title-card-with-illustration",
+          "backgroundColor": "白色",
+          "items": [
+            "学生よ、これが",
+            "残業多い",
+            "職種だ..."
+          ],
+          "visualElements": "右側にストレス表情のサラリーマンイラスト（書類の山とノートPC前で困った表情）"
+        },
+        "bottomSection": {
+          "elements": "ページインジケーター「1/8」、いいねアイコン「736」",
+          "ctaElements": "なし（タイトルページのため）"
+        }
+      },
+      "actualRole": "問題提起とフック（残業に対する関心喚起）",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黒色", "赤色"],
+        "typography": "大きな文字サイズ、赤色で「残業多い」を強調",
+        "visualHierarchy": "タイトル→イラスト→ページ番号",
+        "trustSignals": [],
+        "engagementElements": ["インパクトのあるタイトル", "関連性の高いイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット（スワイプ誘導）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "8",
+        "pageIndicator": "2/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "青色背景",
+        "overlayStructure": "白色角丸テーブル形式カード",
+        "headerType": "青色背景に白文字でタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「残業多い職種ランキング」白文字タイトル",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "ranking-table",
+          "backgroundColor": "白色",
+          "items": [
+            "順位・職種名・残業時間/月（時間）のヘッダー",
+            "1位 インフラコンサルタント 39.4",
+            "2位 設計監理/コンストラクションマネジメント 31.6",
+            "3位 プロデューサー/ディレクター/プランナー（出版/広告/Web/映像関連） 31.3",
+            "4位 専門商社の営業 31.2",
+            "5位 店長 30.6",
+            "6位 施工管理 30.5",
+            "7位 広告営業 29.9",
+            "8位 総合商社の営業 29.3",
+            "9位 運輸/物流サービス 29.0",
+            "10位 研究開発/R&D（IT/通信） 28.6"
+          ],
+          "visualElements": "左側に青色の順位番号背景、残業時間は赤文字で強調"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的データ提示（残業多い職種TOP10）",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "赤色", "黒色"],
+        "typography": "テーブル形式、数値は赤色で強調",
+        "visualHierarchy": "タイトル→ランキングテーブル→数値",
+        "trustSignals": ["具体的な数値データ", "ランキング形式での整理"],
+        "engagementElements": ["色分けされた順位", "赤色での時間強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "8",
+        "pageIndicator": "3/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "青色背景",
+        "overlayStructure": "白色角丸テーブル形式カード",
+        "headerType": "青色背景に白文字でタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「残業多い職種ランキング」白文字タイトル",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "ranking-table",
+          "backgroundColor": "白色",
+          "items": [
+            "11位 金融業界の法人営業 27.9",
+            "11位 品質管理/品質保証（医療系） 27.9",
+            "13位 営業企画 27.6",
+            "13位 ITコンサルタント（アプリ） 27.6",
+            "15位 回路設計 27.4",
+            "16位 資産運用/投資銀行業務 27.1",
+            "17位 人材サービスの営業 26.5",
+            "18位 商品企画/サービス企画 26.4",
+            "19位 プラントエンジニア 25.9",
+            "20位 ゲームクリエイター（Web/モバイル/ソーシャル） 25.6"
+          ],
+          "visualElements": "左側に青色の順位番号背景、残業時間は赤文字で強調"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的データ提示（残業多い職種11-20位）",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "赤色", "黒色"],
+        "typography": "テーブル形式、数値は赤色で強調",
+        "visualHierarchy": "タイトル→ランキングテーブル→数値",
+        "trustSignals": ["具体的な数値データ", "ランキング形式での整理"],
+        "engagementElements": ["色分けされた順位", "赤色での時間強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "8",
+        "pageIndicator": "4/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "オレンジ色背景",
+        "overlayStructure": "白色角丸テーブル形式カード",
+        "headerType": "オレンジ色背景に白文字でタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「残業少ない職種ランキング」白文字タイトル",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "ranking-table",
+          "backgroundColor": "白色",
+          "items": [
+            "1位 医療事務 10.3",
+            "2位 貿易事務 11.1",
+            "3位 臨床開発関連 11.7",
+            "4位 秘書/受付 12.6",
+            "5位 経理事務/財務事務 13.0",
+            "5位 薬事 13.0",
+            "7位 営業事務 13.6",
+            "8位 生産管理/製造（医療系） 13.8",
+            "9位 総務事務/法務事務/知財事務/広報事務 14.2",
+            "10位 テレマーケティング/カスタマーサポート/コールセンター 14.9"
+          ],
+          "visualElements": "左側にオレンジ色の順位番号背景、残業時間は赤文字で強調"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "対比データ提示（残業少ない職種TOP10）",
+      "designElements": {
+        "colorScheme": ["オレンジ色", "白色", "赤色", "黒色"],
+        "typography": "テーブル形式、数値は赤色で強調",
+        "visualHierarchy": "タイトル→ランキングテーブル→数値",
+        "trustSignals": ["具体的な数値データ", "ランキング形式での整理"],
+        "engagementElements": ["オレンジ色での対比表現", "少ない残業時間の安心感"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "8",
+        "pageIndicator": "5/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "オレンジ色背景",
+        "overlayStructure": "白色角丸テーブル形式カード",
+        "headerType": "オレンジ色背景に白文字でタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「残業少ない職種ランキング」白文字タイトル",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "ranking-table",
+          "backgroundColor": "白色",
+          "items": [
+            "11位 一般事務 15.2",
+            "12位 生産/製造/工場運営（素材/化学/食品系） 15.8",
+            "13位 ホテルスタッフ 15.9",
+            "14位 化学/素材メーカーの営業 16.1",
+            "15位 金融事務 16.2",
+            "16位 品質管理/品質保証（素材/化学/食品系） 16.7",
+            "17位 販売/接客/売り場担当 16.8",
+            "18位 金融業界の個人営業 16.9",
+            "19位 テクニカルサポート/ヘルプデスク 17.0",
+            "20位 教育/スクール 17.1"
+          ],
+          "visualElements": "左側にオレンジ色の順位番号背景、残業時間は赤文字で強調"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "対比データ提示（残業少ない職種11-20位）",
+      "designElements": {
+        "colorScheme": ["オレンジ色", "白色", "赤色", "黒色"],
+        "typography": "テーブル形式、数値は赤色で強調",
+        "visualHierarchy": "タイトル→ランキングテーブル→数値",
+        "trustSignals": ["具体的な数値データ", "ランキング形式での整理"],
+        "engagementElements": ["オレンジ色での対比表現", "少ない残業時間の安心感"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "8",
+        "pageIndicator": "6/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "段階的な色分けバー配置",
+        "headerType": "「ちなみに・・・」黒文字タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「ちなみに・・・」タイトル",
+          "layout": "左寄せ配置"
+        },
+        "middleSection": {
+          "format": "step-bars-with-impact",
+          "backgroundColor": "各段階で色分け",
+          "items": [
+            "0〜10時間未満: ほぼ定時退社・ストレスなし（水色）",
+            "10〜20時間未満: 週に何度か1時間残業する（薄緑）",
+            "20〜30時間未満: 週に2日ほど残業がある（緑）",
+            "30〜40時間未満: 週に4日ほど残業がある（黄緑）",
+            "45〜60時間未満: 残業あたりまえ。週末に疲れがどっと来る（オレンジ）",
+            "60〜80時間未満: 会社にいる時間が1日の半分（12時間）（赤オレンジ）",
+            "80〜100時間: 1ヶ月間ずっと仕事から帰って寝るだけ（赤）"
+          ],
+          "visualElements": "左側に残業時間帯、右側に生活への影響説明、段階的色分け"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "残業時間の生活への影響を具体的に説明",
+      "designElements": {
+        "colorScheme": ["水色", "緑", "オレンジ", "赤", "白色", "黒色"],
+        "typography": "段階的な構造、影響度を分かりやすく表現",
+        "visualHierarchy": "タイトル→段階バー→影響説明",
+        "trustSignals": ["段階的な説明", "具体的な生活への影響"],
+        "engagementElements": ["段階的色分け", "リアルな生活描写"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "8",
+        "pageIndicator": "7/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "中央配置のメッセージ群",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「乗り遅れないで！」黒文字メッセージ",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "urgency-message-with-character",
+          "backgroundColor": "白色",
+          "items": [
+            "就活、もう始まってます...！（赤文字）",
+            "就活は先手必勝。",
+            "1日でも早くスタートした人が勝つゲームです。（黄色ハイライト）"
+          ],
+          "visualElements": "下部に赤い服を着た人物キャラクターと吹き出し「でも、何からやればいいの？」そんな就活生のあなたへ"
+        },
+        "bottomSection": {
+          "elements": "キャラクター、吹き出し",
+          "ctaElements": "次ページへの誘導（暗示的）"
+        }
+      },
+      "actualRole": "緊急性の演出と問題提起への共感",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色", "黄色"],
+        "typography": "赤文字での緊急性表現、黄色ハイライトでの重要性強調",
+        "visualHierarchy": "緊急メッセージ→説明→キャラクター",
+        "trustSignals": [],
+        "engagementElements": ["緊急性メッセージ", "親しみやすいキャラクター", "共感を誘う質問"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "8",
+        "pageIndicator": "8/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "ベージュ色背景",
+        "overlayStructure": "中央に商品紹介とCTA配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「2000人の学生をサポートした私が」黒文字",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "product-showcase-with-testimonial",
+          "backgroundColor": "ベージュ色",
+          "items": [
+            "絶対後悔しない就活の進め方（黄色ハイライト）",
+            "作成しました",
+            "人事に「これがあれば安心」と大絶賛された",
+            "就活攻略本の表紙画像",
+            "1,309投稿 5.9万フォロワー 元・メンヘラ院生による就活攻略情報"
+          ],
+          "visualElements": "左側に本の表紙画像、右側にアカウント情報、下部にキャラクターとCTA"
+        },
+        "bottomSection": {
+          "elements": "指差しポーズのキャラクター、「ここから無料で受け取ってね！」吹き出し、URL",
+          "ctaElements": "無料受け取りの強調、URL表示"
+        }
+      },
+      "actualRole": "商品提供とCTA（行動喚起）",
+      "designElements": {
+        "colorScheme": ["ベージュ色", "黒色", "黄色", "白色"],
+        "typography": "黄色ハイライトでの商品名強調、「無料」の強調",
+        "visualHierarchy": "権威性→商品→社会的証明→CTA",
+        "trustSignals": ["2000人サポート実績", "人事の推薦コメント", "フォロワー数"],
+        "engagementElements": ["無料オファー", "指差しキャラクター", "具体的URL"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "無料受け取り誘導"
+      }
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "11",
+        "pageIndicator": "1/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "高層ビルを低角度から撮影した写真",
+        "overlayStructure": "テキストオーバーレイ、点線枠",
+        "headerType": "中央配置テキスト"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Instagram UI",
+          "layout": "標準スマートフォンUI"
+        },
+        "middleSection": {
+          "format": "点線枠内にテキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": ["ゆるキャリマインド", "仕事はもっと楽でいい"],
+          "visualElements": "白色テキスト、点線枠"
+        },
+        "bottomSection": {
+          "elements": "アカウント情報、フォローボタン",
+          "ctaElements": "フォローボタン"
+        }
+      },
+      "actualRole": "コンセプト提示とタイトル表示",
+      "designElements": {
+        "colorScheme": ["白", "グレー", "黒"],
+        "typography": "シンプルな白色フォント",
+        "visualHierarchy": "写真背景 → 点線枠 → テキスト",
+        "trustSignals": ["実写背景による現実感"],
+        "engagementElements": ["ページインジケーター", "フォローボタン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "フォローボタン",
+        "swipeIndicators": "ページインジケーター（1/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "11",
+        "pageIndicator": "2/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "イラスト配置、吹き出し要素",
+        "headerType": "テキスト上部配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "問題提起テキスト",
+          "layout": "中央上部配置"
+        },
+        "middleSection": {
+          "format": "イラスト中央配置",
+          "backgroundColor": "薄いグレー",
+          "items": ["疲れて横たわる人のイラスト"],
+          "visualElements": "フラットデザインイラスト"
+        },
+        "bottomSection": {
+          "elements": "質問吹き出し、保存促進テキスト",
+          "ctaElements": "キャラクターアイコン、保存促進"
+        }
+      },
+      "actualRole": "問題共感と考え方提案の導入",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "茶色", "青"],
+        "typography": "親しみやすいフォント",
+        "visualHierarchy": "問題文 → イラスト → 質問 → 保存促進",
+        "trustSignals": ["キャラクターによる親近感"],
+        "engagementElements": ["保存促進テキスト", "キャラクターアイコン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（2/11）",
+        "savePrompts": "保存して後で読む？"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "11",
+        "pageIndicator": "3/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "お菓子（クッキー）を手に持った写真",
+        "overlayStructure": "白文字テキストオーバーレイ",
+        "headerType": "上部にタイトル配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「みんな怒られてる」タイトル",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "段落テキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": [
+            "自分の目に映るものがすべてじゃない。",
+            "優秀に見えるあの人も",
+            "実は疲れて怒られたりしている。"
+          ],
+          "visualElements": "白色テキスト、区切り線"
+        },
+        "bottomSection": {
+          "elements": "Instagram UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "視野拡大のマインドセット提示",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "ベージュ"],
+        "typography": "読みやすい白色フォント",
+        "visualHierarchy": "タイトル → 区切り線 → メッセージ",
+        "trustSignals": ["親しみやすい実写背景"],
+        "engagementElements": ["区切り線による視覚的整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（3/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "11",
+        "pageIndicator": "4/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "橋の写真（車内からの撮影）",
+        "overlayStructure": "白文字テキストオーバーレイ",
+        "headerType": "上部にタイトル配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「『できない』って言っていい」タイトル",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "段落テキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": [
+            "実は仕事って「できません」って",
+            "言っていいんだよ！",
+            "私も評価下がるの怖くて言えなくて、",
+            "最近言えるようになったけど、",
+            "意外とみんなもらえる。"
+          ],
+          "visualElements": "白色テキスト、区切り線"
+        },
+        "bottomSection": {
+          "elements": "Instagram UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "「できない」と言うことの許可と体験談",
+      "designElements": {
+        "colorScheme": ["白", "青", "グレー"],
+        "typography": "親しみやすい白色フォント",
+        "visualHierarchy": "タイトル → 区切り線 → 体験談",
+        "trustSignals": ["個人体験の共有"],
+        "engagementElements": ["区切り線による視覚的整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（4/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "11",
+        "pageIndicator": "5/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "街の風景（歩く人のシルエット）",
+        "overlayStructure": "白文字テキストオーバーレイ",
+        "headerType": "上部にタイトル配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「『恥』は大人の通過儀礼」タイトル",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "段落テキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": [
+            "失敗したりすると心臓バクバクで、",
+            "もう生きていけない...って気分になる。",
+            "けど、恥をかく経験って大人には大事なもの。",
+            "というか意外と周りは",
+            "あまり気にしてなかったりする。"
+          ],
+          "visualElements": "白色テキスト、区切り線"
+        },
+        "bottomSection": {
+          "elements": "Instagram UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "失敗への恐怖心の軽減",
+      "designElements": {
+        "colorScheme": ["白", "グレー", "黒"],
+        "typography": "読みやすい白色フォント",
+        "visualHierarchy": "タイトル → 区切り線 → 励ましメッセージ",
+        "trustSignals": ["共感的な表現"],
+        "engagementElements": ["区切り線による視覚的整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（5/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "11",
+        "pageIndicator": "6/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "空と建物の写真",
+        "overlayStructure": "白文字テキストオーバーレイ",
+        "headerType": "上部にタイトル配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「楽しくなくて当たり前」タイトル",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "段落テキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": [
+            "仕事って大多数の人が",
+            "「したくしてる」ものではないじゃん？",
+            "責任も発生するし、お金がからむし、",
+            "自分の事業じゃないし、",
+            "楽しくなくて当たり前。",
+            "楽しめない自分も許してあげよ！"
+          ],
+          "visualElements": "白色テキスト、区切り線"
+        },
+        "bottomSection": {
+          "elements": "Instagram UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "仕事への期待値調整と自己許容",
+      "designElements": {
+        "colorScheme": ["白", "青", "グレー"],
+        "typography": "親しみやすい白色フォント",
+        "visualHierarchy": "タイトル → 区切り線 → 論理的説明",
+        "trustSignals": ["現実的な視点の提示"],
+        "engagementElements": ["区切り線による視覚的整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（6/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "11",
+        "pageIndicator": "7/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "キーボードと手の写真",
+        "overlayStructure": "白文字テキストオーバーレイ",
+        "headerType": "上部にタイトル配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「キャパの割に頑張ってる」タイトル",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "段落テキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": [
+            "他の人はもっと頑張れるのに私は...",
+            "って思っちゃうけど、いや、",
+            "キャパが狭く生まれてしまったにしては",
+            "「頑張り量」は多いでしょ！",
+            "しょーがねーだろキャパないんだから！",
+            "って開き直るのもときには大事。"
+          ],
+          "visualElements": "白色テキスト、区切り線"
+        },
+        "bottomSection": {
+          "elements": "Instagram UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "自己肯定感向上と開き直りの許可",
+      "designElements": {
+        "colorScheme": ["白", "グレー", "黒"],
+        "typography": "カジュアルな白色フォント",
+        "visualHierarchy": "タイトル → 区切り線 → 励ましメッセージ",
+        "trustSignals": ["親しみやすい関西弁的表現"],
+        "engagementElements": ["区切り線による視覚的整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（7/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "11",
+        "pageIndicator": "8/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "アイスクリームと牛のぬいぐるみの写真",
+        "overlayStructure": "白文字テキストオーバーレイ",
+        "headerType": "上部にタイトル配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「生活できて偉い」タイトル",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "段落テキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": [
+            "自分の生活を自分で維持できて偉い！",
+            "不安になるほど将来のこと考えて偉い！",
+            "...たまには自分の「偉いポイント」",
+            "にも目を向けて。"
+          ],
+          "visualElements": "白色テキスト、区切り線"
+        },
+        "bottomSection": {
+          "elements": "Instagram UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "自己承認と小さな達成の認識",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "クリーム色"],
+        "typography": "温かみのある白色フォント",
+        "visualHierarchy": "タイトル → 区切り線 → 自己肯定メッセージ",
+        "trustSignals": ["温かい実写背景"],
+        "engagementElements": ["区切り線による視覚的整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（8/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "11",
+        "pageIndicator": "9/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "食事の写真（皿と飲み物）",
+        "overlayStructure": "白文字テキストオーバーレイ",
+        "headerType": "上部にタイトル配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「たまには他責でいい」タイトル",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "段落テキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": [
+            "一通り「何がダメだった？どうすればよかった？」",
+            "を考えながら、",
+            "「でもアイツだってよぉ！」",
+            "って他人のせいにしてもいい。",
+            "何事もバランスが大事！"
+          ],
+          "visualElements": "白色テキスト、区切り線"
+        },
+        "bottomSection": {
+          "elements": "Instagram UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "完璧主義の緩和とバランス感覚の提示",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "グリーン"],
+        "typography": "親しみやすい白色フォント",
+        "visualHierarchy": "タイトル → 区切り線 → バランス論",
+        "trustSignals": ["日常的な食事背景"],
+        "engagementElements": ["区切り線による視覚的整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（9/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "11",
+        "pageIndicator": "10/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "実写背景",
+        "backgroundDescription": "結婚指輪の写真",
+        "overlayStructure": "白文字テキストオーバーレイ",
+        "headerType": "上部にタイトル配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「仕事は結婚までの腰かけ」タイトル",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "段落テキスト配置",
+          "backgroundColor": "透明（写真背景）",
+          "items": [
+            "これ昔の同僚が言っててビックリしたんだけど、",
+            "こんな考えで働いてる人もいるんだから",
+            "あなたもうかりと何も思いつめないで。"
+          ],
+          "visualElements": "白色テキスト、区切り線"
+        },
+        "bottomSection": {
+          "elements": "Instagram UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "働き方の多様性と気楽さの許可",
+      "designElements": {
+        "colorScheme": ["白", "ゴールド", "茶色"],
+        "typography": "優しい白色フォント",
+        "visualHierarchy": "タイトル → 区切り線 → 体験談",
+        "trustSignals": ["他者の体験談による多様性"],
+        "engagementElements": ["区切り線による視覚的整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（10/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page11": {
+      "pageInfo": {
+        "currentPage": "11",
+        "totalPages": "11",
+        "pageIndicator": "11/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景",
+        "backgroundDescription": "薄いベージュ背景",
+        "overlayStructure": "白色カード重ね",
+        "headerType": "上部にお知らせテキスト"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "転職ノウハウ発信中アナウンス",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "プロフィールカード",
+          "backgroundColor": "白色",
+          "items": [
+            "プロフィール画像（キャラクターアイコン）",
+            "いつか @ゆるキャリ転職",
+            "会社に依存せずゆるく働く○",
+            "ニューノーマルな生き方を発信！",
+            "29歳・フルリモ・残業0",
+            "本業×副業で稼ぐwebマーケター"
+          ],
+          "visualElements": "キャラクターアイコン、プロフィール情報"
+        },
+        "bottomSection": {
+          "elements": "関連投稿サムネイル",
+          "ctaElements": "おすすめ投稿リンク"
+        }
+      },
+      "actualRole": "アカウント紹介と関連コンテンツへの誘導",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "茶色", "ピンク"],
+        "typography": "読みやすい黒色フォント",
+        "visualHierarchy": "アナウンス → プロフィール → 関連投稿",
+        "trustSignals": ["具体的な経歴情報"],
+        "engagementElements": ["関連投稿サムネイル", "おすすめテキスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（11/11）",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "observation_id": "contents-089",
+  "analysis_date": "2025-07-23",
+  "raw_observations": {
+    "page_sequence": [
+      {
+        "page": 1,
+        "filename": "S__16253329_0.jpg",
+        "layout_type": "corporate_branded_cover",
+        "visual_elements": {
+          "background": "light_green_solid_corporate_color",
+          "company_name": "GOOYA_Holdings_top_placement",
+          "attention_grabber": "megaphone_icon_人事が伝えたい",
+          "title_emphasis": "white_box_就活攻略術",
+          "corporate_logo": "circular_gooya_holdings_logo_bottom"
+        },
+        "text_content": {
+          "company_name": "GOOYA Holdings",
+          "authority_message": "人事が伝えたい！",
+          "main_title": "就活攻略術",
+          "subtitle": "今知っておきたい！",
+          "topic_focus": "サマーインターンの種類と特徴"
+        },
+        "ui_elements": {
+          "page_indicator": "1/6_implied",
+          "account_handle": "gooya_recruit_n"
+        }
+      },
+      {
+        "page": 2,
+        "filename": "S__16253331_0.jpg",
+        "layout_type": "internship_type_explanation",
+        "visual_elements": {
+          "background": "white_clean_professional",
+          "title_styling": "green_text_matching_brand",
+          "supporting_image": "keyboard_laptop_digital_work_context",
+          "point_box": "dashed_border_lightbulb_icon_advice"
+        },
+        "text_content": {
+          "internship_type": "職種体験型インターンシップ",
+          "description": "実際の業務に近い仕事を体験できるインターンシップです。企業の一員として働く感覚が味わえるので、企業文化や業務の流れを感じることができます。企業が求めるスキルや知識を直接学べる他、業務の進行に携わることで、仕事の進め方やプロセスを理解できるメリットがあります。",
+          "point_advice": "参加してみて実際に自分に合わない職種だと早くに感じてしまうこともあります。事前に業務内容の確認し、良い点悪い点を理解して参加することも大事！"
+        }
+      },
+      {
+        "page": 3,
+        "filename": "S__16253332_0.jpg",
+        "layout_type": "internship_type_explanation",
+        "visual_elements": {
+          "background": "white_clean_professional",
+          "title_styling": "green_text_matching_brand",
+          "supporting_image": "case_study_lightbox_office_environment",
+          "point_box": "dashed_border_lightbulb_icon_advice"
+        },
+        "text_content": {
+          "internship_type": "ケーススタディ型インターンシップ",
+          "description": "複数人でグループディスカッションやケーススタディを行い、企業や業界の課題に対する解決策を提案するインターンシップ。チームワークや問題解決能力を養うことができ、企業に対して自分の思考力や提案力をアピールできるメリットがあります。",
+          "point_advice": "グループワークの結果が個人のパフォーマンスに影響を与えることがあるため、自己主張と協力のバランスを考えておくことが大事です。"
+        }
+      },
+      {
+        "page": 4,
+        "filename": "S__16253333_0.jpg",
+        "layout_type": "internship_type_explanation",
+        "visual_elements": {
+          "background": "white_clean_professional",
+          "title_styling": "green_text_matching_brand",
+          "supporting_image": "online_meeting_note_taking_seminar_context",
+          "point_box": "dashed_border_lightbulb_icon_advice"
+        },
+        "text_content": {
+          "internship_type": "企業研究・座学中心型インターンシップ",
+          "description": "実務よりも企業の理念や業務内容について学ぶことが中心のインターンシップです。座学やセミナー形式で、業界の知識を深めたり、企業文化を理解したりします。",
+          "point_advice": "企業や業界について深く学ぶことができ、特に初めての業界では有益な情報が得られる可能性が高い！複数社に渡って参加してみることをおススメします！"
+        }
+      },
+      {
+        "page": 5,
+        "filename": "S__16253334_0.jpg",
+        "layout_type": "internship_type_explanation",
+        "visual_elements": {
+          "background": "white_clean_professional",
+          "title_styling": "green_text_matching_brand",
+          "supporting_image": "business_handshake_contract_agreement_context",
+          "point_box": "dashed_border_lightbulb_icon_advice"
+        },
+        "text_content": {
+          "internship_type": "長期型インターンシップ",
+          "description": "数週間から数ヶ月の間、実際の業務に携わることができるのが長期インターンシップ。実際の業務を深く理解できるとともに、長期にわたる経験で自分の成長を確認できるメリットがあります。インターン先によってはそのまま内定に繋がる可能性も。",
+          "point_advice": "長期間のコミットメントが必要で、学業とのバランスを取るのが難しい場合があります。始める前にしっかりスケジュールの確認をし、余裕をもって参加して下さい。"
+        }
+      },
+      {
+        "page": 6,
+        "filename": "S__16253335_0.jpg",
+        "layout_type": "corporate_recruitment_cta",
+        "visual_elements": {
+          "background": "black_professional_corporate",
+          "company_logo": "gooya_holdings_circular_logo",
+          "speech_bubble": "gray_cloud_entry_invitation",
+          "arrow_design": "green_curved_arrow_pointing_down"
+        },
+        "text_content": {
+          "company_identification": "【公式】株式会社GOOYA Holdings新卒採用",
+          "account_handle": "gooya_recruit_n",
+          "company_description": "株式会社GOOYA Holdings新卒採用アカウントです。【会社説明会・代表登壇セミナーのご予約はこちら↓】",
+          "entry_link": "job.rikunabi.com/2026/company/ ...他4件",
+          "course_information": "今年は5つのコースをご用意し、それぞれの想い、希望に対応できるような形になっています😊",
+          "platform_info": "マイナビ2027、リクナビでエントリー受付中です💪",
+          "engagement_cta": "気になる！という方はプロフィールをチェック✅"
+        },
+        "hashtags": [
+          "#GOOYA", "#gooya", "#gooyaholdings", "#26卒と繋がりたい", "#26卒", "#27卒", "#27卒と繋がりたい", "#サマーインターンシップ", "#サマーインターン", "#新卒採用", "#就活", "#就活攻略", "#就活情報", "#会社説明会", "#ai", "#インサイドセールス", "#社長セミナー", "#面接対策", "#選考対策", "#業界研究", "#企業研究", "#snsマーケティング", "#web説明会", "#it企業", "#人材", "#営業職", "#営業コンサルタント", "#itエンジニア", "#就活垢", "#就活あるある"
+        ],
+        "post_metadata": {
+          "timestamp": "7月11日"
+        }
+      }
+    ],
+    "overall_structure": {
+      "post_type": "corporate_educational_recruitment",
+      "topic_focus": "summer_internship_types_comprehensive_guide",
+      "information_organization": "systematic_four_type_coverage",
+      "target_audience": "job_hunting_students_26_27_graduate",
+      "content_authority": "corporate_hr_official_account",
+      "engagement_strategy": "education_to_recruitment_conversion"
+    },
+    "design_patterns": {
+      "color_consistency": "gooya_brand_green_throughout_all_pages",
+      "typography": "professional_corporate_readable_text",
+      "layout_progression": "cover_education_education_education_education_cta",
+      "visual_cohesion": "consistent_point_box_advice_system"
+    },
+    "content_quality_indicators": {
+      "educational_comprehensiveness": "complete_four_internship_types_covered",
+      "practical_applicability": "specific_selection_criteria_and_advice",
+      "corporate_authority": "official_hr_perspective_insights",
+      "conversion_optimization": "clear_entry_pathways_provided"
+    }
+  },
+  "meta_analysis": {
+    "structural_completeness": "comprehensive_internship_guide_to_recruitment_flow",
+    "information_density": "high_value_internship_selection_guidance",
+    "engagement_design": "education_plus_corporate_recruitment_integration",
+    "brand_consistency": "strong_gooya_holdings_corporate_identity"
+  }
+}

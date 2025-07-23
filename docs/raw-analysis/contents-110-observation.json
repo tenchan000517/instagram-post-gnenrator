@@ -1,0 +1,349 @@
+{
+  "observationData": {
+    "totalPages": 11,
+    "pageAnalysis": {
+      "page1": {
+        "pageInfo": {
+          "currentPage": "1",
+          "totalPages": "11",
+          "pageIndicator": "1/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写動画",
+          "backgroundDescription": "室内環境、女性が手にスマートフォンを持って自撮りしている様子",
+          "overlayStructure": "ピンクの吹き出し + 大型テキスト",
+          "headerType": "Instagram標準UI（nao_buyerlife アカウント、認証マーク付き、音楽情報表示）"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「37歳主婦が複業」ピンクの吹き出し",
+            "layout": "左上配置"
+          },
+          "middleSection": {
+            "format": "大型白文字テキスト",
+            "backgroundColor": "透明（動画背景）",
+            "items": ["月収0円で", "開業届け", "出してみた"],
+            "visualElements": "白い太字フォント、ピンクの円形強調（0円）"
+          },
+          "bottomSection": {
+            "elements": "「Freelancer」英語テキスト",
+            "ctaElements": "音声オンアイコン"
+          }
+        },
+        "actualRole": "personal-story-title-with-video",
+        "designElements": {
+          "colorScheme": ["ピンク色", "白色", "黒色", "肌色"],
+          "typography": "太字フォント、手書き風要素",
+          "visualHierarchy": "年齢・属性 → 月収0円強調 → 開業届 → 英語サブタイトル",
+          "trustSignals": ["認証マーク付きアカウント", "実際の動作動画"],
+          "engagementElements": ["自撮り動画", "ピンクの目立つ吹き出し"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "音声オン/オフボタン",
+          "swipeIndicators": "ドット形式（11個）",
+          "savePrompts": "なし（この段階では）"
+        }
+      },
+      "page2": {
+        "pageInfo": {
+          "currentPage": "2",
+          "totalPages": "11",
+          "pageIndicator": "2/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "ノートPCとコーヒーカップが置かれた作業デスク環境",
+          "overlayStructure": "角丸カード + 人物写真 + 吹き出し",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「Question」白文字ラベル + 「収入0円でも開業できるの？」",
+            "layout": "角丸カード内、上部配置"
+          },
+          "middleSection": {
+            "format": "下向き矢印 + 回答テキスト + 説明文",
+            "backgroundColor": "半透明の角丸カード",
+            "items": [
+              "収入0円でも出してOK！（ピンク背景強調）",
+              "むしろ出した方がメリットあるかも？",
+              "フリーランス6年目の私が開業届を出して感じたメリットを紹介していきます！"
+            ],
+            "visualElements": "青い下向き矢印、女性の指差しポーズ"
+          },
+          "bottomSection": {
+            "elements": "「最後に開業届の特別ガイドをプレゼント！」吹き出し + プレゼントボックスアイコン",
+            "ctaElements": "「気になったら保存してね！」+ SWIPEテキスト"
+          }
+        },
+        "actualRole": "question-answer-with-benefit-preview",
+        "designElements": {
+          "colorScheme": ["ベージュ", "白色", "ピンク色", "青色"],
+          "typography": "白文字（Question）、黒文字（本文）、ピンク背景（強調）",
+          "visualHierarchy": "質問 → 回答 → 説明 → プレゼント告知 → 保存促進",
+          "trustSignals": ["6年目の実体験", "具体的なガイド提供"],
+          "engagementElements": ["プレゼント要素", "保存促進", "指差しポーズ"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "「気になったら保存してね！」テキスト"
+        }
+      },
+      "page3": {
+        "pageInfo": {
+          "currentPage": "3",
+          "totalPages": "11",
+          "pageIndicator": "3/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "ノートPCとコーヒーカップのデスク環境（継続）",
+          "overlayStructure": "角丸カード + リスト + 人物写真",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「開業届を出すとこんなメリットがあるよ」（ピンク下線強調）",
+            "layout": "角丸カード内、上部配置"
+          },
+          "middleSection": {
+            "format": "「5つのメリット」ボックス + チェックリスト",
+            "backgroundColor": "白色カード",
+            "items": [
+              "✓生活費を経費にできる",
+              "✓保育園の申請に使える", 
+              "✓仕事用の口座が作れる",
+              "✓オンラインで提出OK",
+              "✓最大65万円分の節税効果"
+            ],
+            "visualElements": "青いチェックマーク、電球アイコン（オレンジ色）"
+          },
+          "bottomSection": {
+            "elements": "女性の指差しポーズ + 「次のページからメリットの詳しい内容を紹介します！」吹き出し",
+            "ctaElements": "「気になったら保存してね！」+ SWIPEテキスト"
+          }
+        },
+        "actualRole": "benefits-overview-with-checklist",
+        "designElements": {
+          "colorScheme": ["ベージュ", "白色", "青色", "ピンク色", "オレンジ色"],
+          "typography": "黒文字、ピンク下線強調、青いチェックマーク",
+          "visualHierarchy": "メリット予告 → 5つのリスト → 詳細予告 → 保存促進",
+          "trustSignals": ["具体的な5つの項目", "数値的効果（65万円）"],
+          "engagementElements": ["チェックマーク", "電球アイコン", "保存促進"]
+        },
+        "interactionElements": {
+          "checkboxes": "視覚的チェックマーク（機能なし）",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "「気になったら保存してね！」テキスト"
+        }
+      },
+      "page4-8": {
+        "pageInfo": {
+          "pattern": "各メリットの詳細説明ページ",
+          "totalPages": "11",
+          "pageIndicator": "4/11-8/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "一貫したデスク環境背景",
+          "overlayStructure": "角丸カード + 詳細説明",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "pattern": "各ページで1つのメリットを詳細説明",
+          "format": "メリット番号 + タイトル + 詳細説明",
+          "items": [
+            "メリット①: 生活費を経費にできる",
+            "メリット②: 保育園の申請に使える",
+            "メリット③: 仕事用の口座が作れる", 
+            "メリット④: オンラインで提出OK",
+            "メリット⑤: 最大65万円分の節税効果"
+          ]
+        },
+        "actualRole": "detailed-benefit-explanation-series",
+        "designElements": {
+          "colorScheme": ["ベージュ", "白色", "青色", "ピンク色"],
+          "typography": "番号付き見出し、詳細説明文",
+          "visualHierarchy": "メリット番号 → タイトル → 詳細説明",
+          "trustSignals": ["具体的な内容説明", "実用的な情報"],
+          "engagementElements": ["番号による構造化", "実用的価値"]
+        }
+      },
+      "page9": {
+        "pageInfo": {
+          "currentPage": "9",
+          "totalPages": "11",
+          "pageIndicator": "9/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "デスク環境背景（継続）",
+          "overlayStructure": "角丸カード + ガイド紹介",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "開業届の出し方ガイド紹介",
+            "layout": "角丸カード内"
+          },
+          "middleSection": {
+            "format": "ガイド内容の説明",
+            "backgroundColor": "白色カード",
+            "items": ["必要書類", "記入方法", "提出先", "初心者向け解説"],
+            "visualElements": "ガイドブック、ステップ図解"
+          },
+          "bottomSection": {
+            "elements": "次ページへの誘導",
+            "ctaElements": "ガイド詳細への導線"
+          }
+        },
+        "actualRole": "how-to-guide-introduction",
+        "designElements": {
+          "colorScheme": ["ベージュ", "白色", "青色"],
+          "typography": "見出し + 説明文",
+          "visualHierarchy": "ガイド紹介 → 内容説明 → 詳細誘導",
+          "trustSignals": ["具体的なガイド内容", "初心者配慮"],
+          "engagementElements": ["実用的なガイド提供"]
+        }
+      },
+      "page10": {
+        "pageInfo": {
+          "currentPage": "10",
+          "totalPages": "11",
+          "pageIndicator": "10/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "デスク環境背景（継続）",
+          "overlayStructure": "プレゼント告知カード",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "プレゼント告知",
+            "layout": "角丸カード内"
+          },
+          "middleSection": {
+            "format": "特別ガイドの詳細",
+            "backgroundColor": "白色カード",
+            "items": ["完全ガイド", "記入例付き", "無料提供"],
+            "visualElements": "プレゼントボックス、ガイド資料"
+          },
+          "bottomSection": {
+            "elements": "DM送付の案内",
+            "ctaElements": "「DMでお送りします」"
+          }
+        },
+        "actualRole": "free-guide-offer-with-dm-cta",
+        "designElements": {
+          "colorScheme": ["ベージュ", "白色", "ピンク色"],
+          "typography": "プレゼント告知文",
+          "visualHierarchy": "プレゼント告知 → ガイド詳細 → DM案内",
+          "trustSignals": ["無料提供", "完全ガイド"],
+          "engagementElements": ["プレゼント要素", "DM誘導"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし（DM誘導）"
+        }
+      },
+      "page11": {
+        "pageInfo": {  
+          "currentPage": "11",
+          "totalPages": "11",
+          "pageIndicator": "11/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "白色背景",
+          "overlayStructure": "テキストベースプロフィール",
+          "headerType": "「おすすめの投稿」ヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "DM送付条件「上記①と②をしていただいた方にDMでお送りします❤」",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "プロフィール詳細",
+            "backgroundColor": "白色",
+            "items": [
+              "Me: 「アパレル物販」でフリーランスになった2児のママです。",
+              "20年間苦しんだ言語障害(吃音)生きづらさを乗り越えて、",
+              "自分らしい働き方を確立フリーランスとして6年目。",
+              "My work: BUYMAパーソナルショッパー、shopifyでのオリジナルショップ、物販講師"
+            ],
+            "visualElements": "ドレスアイコン3つ、クマのアイコン"
+          },
+          "bottomSection": {
+            "elements": "フォロー促進 + ハッシュタグ群 + 投稿日時",
+            "ctaElements": "▶▶@nao_buyerlife + 各種ハッシュタグ"
+          }
+        },
+        "actualRole": "personal-profile-and-follow-cta",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "青色（ハッシュタグ）", "緑色（ドレス）"],
+          "typography": "標準フォント、青文字（アカウント名・ハッシュタグ）",
+          "visualHierarchy": "DM条件 → プロフィール → 仕事内容 → フォロー促進",
+          "trustSignals": ["6年間の実績", "具体的な困難克服体験", "複数事業展開"],
+          "engagementElements": ["個人的な物語", "フォロー促進", "アイコン装飾"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "最終ページ（ドット表示）",
+          "savePrompts": "なし（フォロー促進）"
+        }
+      },
+      "page12": {
+        "pageInfo": {
+          "currentPage": "12",
+          "totalPages": "12",
+          "pageIndicator": "メタデータページ"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "白色背景",
+          "overlayStructure": "ハッシュタグと投稿情報",
+          "headerType": "標準投稿詳細"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "投稿内容説明",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "ハッシュタグ群",
+            "backgroundColor": "白色",
+            "items": ["#開業", "#開業届", "#在宅ワーク", "#フリーランス", "#フリーランス初心者", "#主婦副業", "#副業ママ", "#ママフリーランス", "#フリーランスママ", "#物販"],
+            "visualElements": "青色ハッシュタグ"
+          },
+          "bottomSection": {
+            "elements": "投稿日時（7月9日）",
+            "ctaElements": "各種ハッシュタグ"
+          }
+        },
+        "actualRole": "metadata-and-hashtag-page",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "青色"],
+          "typography": "標準フォント、青文字ハッシュタグ",
+          "visualHierarchy": "内容 → ハッシュタグ → 日時",
+          "trustSignals": ["豊富なハッシュタグ", "明確なターゲティング"],
+          "engagementElements": ["関連ハッシュタグ群"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし（メタデータページ）",
+          "savePrompts": "なし"
+        }
+      }
+    }
+  }
+}

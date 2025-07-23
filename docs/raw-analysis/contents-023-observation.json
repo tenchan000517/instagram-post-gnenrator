@@ -1,0 +1,511 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "11",
+        "pageIndicator": "1/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "gradient",
+        "backgroundDescription": "light blue/turquoise gradient",
+        "overlayStructure": "white rounded card with calendar layout",
+        "headerType": "title at top of card"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "title text with quotes",
+          "layout": "「そりゃ内定だわ」大学3年の7月"
+        },
+        "middleSection": {
+          "format": "weekly calendar grid",
+          "backgroundColor": "white",
+          "items": [
+            "日月火水木金土 header row",
+            "various activities: バイト, 説明会, 大学, GD, 面接, テストセンター, 就活イベント"
+          ],
+          "visualElements": "colorful activity blocks in calendar cells"
+        },
+        "bottomSection": {
+          "elements": "149 likes indicator",
+          "ctaElements": "none"
+        }
+      },
+      "actualRole": "attention-grabbing calendar showing busy July schedule",
+      "designElements": {
+        "colorScheme": ["light blue", "white", "various pastel colors for activities"],
+        "typography": "clean sans-serif",
+        "visualHierarchy": "title → calendar grid → activity blocks",
+        "trustSignals": ["realistic schedule representation"],
+        "engagementElements": ["colorful activity blocks", "busy schedule visual"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page dots at bottom",
+        "savePrompts": "none"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "11",
+        "pageIndicator": "2/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "white background",
+        "overlayStructure": "text and chart layout",
+        "headerType": "title with decorative slashes"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "title and subtitle",
+          "layout": "\\大学3年7月ってこんな月/ インターンの申し込み"
+        },
+        "middleSection": {
+          "format": "horizontal bar chart",
+          "backgroundColor": "white",
+          "items": ["monthly percentages from 4月 to 3月", "7月 highlighted as peak at 45.6%"],
+          "visualElements": "blue bars with percentages, yellow highlight on 7月"
+        },
+        "bottomSection": {
+          "elements": "motivational message",
+          "ctaElements": "そんな7月に絶対にやってほしいことをまとめました！"
+        }
+      },
+      "actualRole": "data-driven justification for timing",
+      "designElements": {
+        "colorScheme": ["white", "blue", "yellow", "black"],
+        "typography": "standard sans-serif with data labels",
+        "visualHierarchy": "title → chart → conclusion message",
+        "trustSignals": ["statistical data", "n=500 sample size"],
+        "engagementElements": ["yellow highlight", "peak timing emphasis"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "11",
+        "pageIndicator": "3/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "title, illustration, and numbered list",
+        "headerType": "numbered step title"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "step number and title",
+          "layout": "1. 自己分析をする"
+        },
+        "middleSection": {
+          "format": "illustration with thought bubbles",
+          "backgroundColor": "beige",
+          "items": ["person thinking", "thought bubbles showing different scenarios"],
+          "visualElements": "simple character illustration with 将来 bubble"
+        },
+        "bottomSection": {
+          "elements": "numbered action items",
+          "ctaElements": "3 specific steps with red highlights on key terms"
+        }
+      },
+      "actualRole": "actionable step with visual aid",
+      "designElements": {
+        "colorScheme": ["beige", "black", "red"],
+        "typography": "numbered list format",
+        "visualHierarchy": "step title → illustration → action items",
+        "trustSignals": ["specific methodology"],
+        "engagementElements": ["character illustration", "red keyword highlights"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "11",
+        "pageIndicator": "4/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "step title, resource list, and action steps",
+        "headerType": "numbered step title"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "step title and subtitle",
+          "layout": "2. 業界企業研究をする \\おすすめのひとたち/"
+        },
+        "middleSection": {
+          "format": "numbered resource list with icons",
+          "backgroundColor": "beige",
+          "items": [
+            "① リクナビの業界ナビ (with icon)",
+            "② 業界動向サーチ (with icon)", 
+            "③ 業界地図 (with book image)"
+          ],
+          "visualElements": "small icons and book cover image"
+        },
+        "bottomSection": {
+          "elements": "3-step process",
+          "ctaElements": "numbered steps with red highlights"
+        }
+      },
+      "actualRole": "resource recommendation with methodology",
+      "designElements": {
+        "colorScheme": ["beige", "blue", "red", "black"],
+        "typography": "numbered format with icons",
+        "visualHierarchy": "step title → resources → methodology",
+        "trustSignals": ["specific tool names", "visual proof with book cover"],
+        "engagementElements": ["colorful resource icons", "red highlights"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "11",
+        "pageIndicator": "5/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "step title, illustration, and strategy text",
+        "headerType": "numbered step title"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "step title",
+          "layout": "3. インターンに応募する"
+        },
+        "middleSection": {
+          "format": "illustration of stressed person",
+          "backgroundColor": "beige",
+          "items": ["person at computer looking stressed", "calendar in background"],
+          "visualElements": "character showing stress/urgency"
+        },
+        "bottomSection": {
+          "elements": "strategic approach with specific numbers",
+          "ctaElements": "differentiated strategy based on industry interest level"
+        }
+      },
+      "actualRole": "strategic application guidance with urgency",
+      "designElements": {
+        "colorScheme": ["beige", "red", "black"],
+        "typography": "strategy text with number emphasis",
+        "visualHierarchy": "step title → stress illustration → strategy",
+        "trustSignals": ["specific target numbers (20社, 5-10社)"],
+        "engagementElements": ["stressed character", "目標20社！ emphasis"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "11",
+        "pageIndicator": "6/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "step title and template format",
+        "headerType": "numbered step with subtitle"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "step title and recommendation",
+          "layout": "4. ガクチカ400文字作成 \\超おすすめのテンプレート/"
+        },
+        "middleSection": {
+          "format": "fill-in-the-blank template",
+          "backgroundColor": "beige",
+          "items": [
+            "○○に力を入れた。（全体の要約）",
+            "problem identification section",
+            "solution implementation section",
+            "results section with emphasis on numbers"
+          ],
+          "visualElements": "circle placeholders for customization"
+        },
+        "bottomSection": {
+          "elements": "template completion note",
+          "ctaElements": "（一番文字数を割く）guidance note"
+        }
+      },
+      "actualRole": "practical template provision",
+      "designElements": {
+        "colorScheme": ["beige", "black", "red"],
+        "typography": "template format with placeholder circles",
+        "visualHierarchy": "step title → template structure → usage notes",
+        "trustSignals": ["specific 400文字 requirement", "detailed template"],
+        "engagementElements": ["○○ placeholders", "red parenthetical notes"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "template for copying"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "11",
+        "pageIndicator": "7/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "similar template format to page 6",
+        "headerType": "numbered step with subtitle"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "step title and recommendation",
+          "layout": "5. 自己PR400文字作成 \\超おすすめのテンプレート/"
+        },
+        "middleSection": {
+          "format": "fill-in-the-blank template for self-PR",
+          "backgroundColor": "beige",
+          "items": [
+            "strength statement with guidance note",
+            "problem-solution narrative",
+            "results with quantification",
+            "company application statement"
+          ],
+          "visualElements": "circle placeholders and parenthetical guidance"
+        },
+        "bottomSection": {
+          "elements": "application to company statement",
+          "ctaElements": "この強みを貴社でも生かしたい。"
+        }
+      },
+      "actualRole": "self-PR template provision",
+      "designElements": {
+        "colorScheme": ["beige", "black", "red"],
+        "typography": "consistent with page 6 template format",
+        "visualHierarchy": "step title → template → company connection",
+        "trustSignals": ["specific guidance about avoiding generic terms"],
+        "engagementElements": ["自分の言葉で emphasis", "red guidance notes"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "template for copying"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "11",
+        "pageIndicator": "8/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "consistent template format",
+        "headerType": "numbered step with subtitle"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "step title and recommendation",
+          "layout": "6. インターン志望動機作成 \\超おすすめのテンプレート/"
+        },
+        "middleSection": {
+          "format": "internship motivation template",
+          "backgroundColor": "beige",
+          "items": [
+            "learning objective statement",
+            "personal experience connection",
+            "company-specific reasoning",
+            "contribution promise"
+          ],
+          "visualElements": "consistent ○○ placeholder format"
+        },
+        "bottomSection": {
+          "elements": "contribution statement",
+          "ctaElements": "university skills application promise"
+        }
+      },
+      "actualRole": "internship motivation template",
+      "designElements": {
+        "colorScheme": ["beige", "black"],
+        "typography": "consistent template format",
+        "visualHierarchy": "step title → motivation template → contribution",
+        "trustSignals": ["structured approach to motivation"],
+        "engagementElements": ["○○ customization points"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "template for copying"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "11",
+        "pageIndicator": "9/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "step title, book images, and method list",
+        "headerType": "numbered step with subtitle"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "step title and subtitle",
+          "layout": "7. webテストの勉強 \\おすすめの問題集たち/"
+        },
+        "middleSection": {
+          "format": "three book covers displayed",
+          "backgroundColor": "beige",
+          "items": [
+            "これが本当のSPI3だ！2025年度版",
+            "史上最強SPI&テストセンター超実戦問題集", 
+            "これが本当のWebテストだ！2023年度版"
+          ],
+          "visualElements": "actual book cover images in color"
+        },
+        "bottomSection": {
+          "elements": "study method recommendations",
+          "ctaElements": "3-step study approach with red highlights"
+        }
+      },
+      "actualRole": "resource recommendation with study strategy",
+      "designElements": {
+        "colorScheme": ["beige", "various book cover colors", "red", "black"],
+        "typography": "book titles and numbered method list",
+        "visualHierarchy": "step title → book recommendations → study method",
+        "trustSignals": ["actual book cover images", "specific titles and years"],
+        "engagementElements": ["colorful book covers", "1日15分 manageable approach"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "book recommendations and study method"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "11",
+        "pageIndicator": "10/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "urgency message with character",
+        "headerType": "none"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "urgent headline",
+          "layout": "乗り遅れないで！就活、もう始まってます...！"
+        },
+        "middleSection": {
+          "format": "key message with emphasis",
+          "backgroundColor": "beige",
+          "items": [
+            "就活は先手必勝。",
+            "1日でも早くスタートした人が勝つゲームです。"
+          ],
+          "visualElements": "yellow highlight on key phrase"
+        },
+        "bottomSection": {
+          "elements": "question and character illustration",
+          "ctaElements": "「でも、何からやればいいの？」そんな就活生のあなたへ"
+        }
+      },
+      "actualRole": "urgency creation and transition to offer",
+      "designElements": {
+        "colorScheme": ["beige", "red", "yellow", "black"],
+        "typography": "urgent tone with exclamation marks",
+        "visualHierarchy": "urgent headline → key message → question transition",
+        "trustSignals": ["game metaphor for competition"],
+        "engagementElements": ["multiple exclamation marks", "yellow highlight", "direct address"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page11": {
+      "pageInfo": {
+        "currentPage": "11",
+        "totalPages": "11",
+        "pageIndicator": "none visible"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "white background",
+        "overlayStructure": "story text, profile preview, and CTA",
+        "headerType": "none"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "personal success story",
+          "layout": "大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は..."
+        },
+        "middleSection": {
+          "format": "Instagram profile screenshot",
+          "backgroundColor": "white",
+          "items": [
+            "profile image and username",
+            "follower statistics", 
+            "bio text",
+            "URL with red circle highlight"
+          ],
+          "visualElements": "actual Instagram interface with red highlighting"
+        },
+        "bottomSection": {
+          "elements": "call to action instructions",
+          "ctaElements": "プロフィールのURLからお受け取りください！"
+        }
+      },
+      "actualRole": "final conversion with social proof",
+      "designElements": {
+        "colorScheme": ["white", "red", "black"],
+        "typography": "story narrative + Instagram UI text",
+        "visualHierarchy": "success story → profile proof → action instruction",
+        "trustSignals": ["personal success story", "Instagram follower count"],
+        "engagementElements": ["大手3社内定 achievement", "red URL circle", "1冊のテキスト offer"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "none",
+        "savePrompts": "URL and profile link instruction"
+      }
+    }
+  }
+}

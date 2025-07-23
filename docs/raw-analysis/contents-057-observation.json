@@ -1,0 +1,94 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 9,
+      "pageIndicators": ["1/9", "2/9", "3/9", "4/9", "5/9", "6/9", "7/9", "8/9", "9/9"]
+    },
+    "layoutStructure": {
+      "backgroundType": "単色",
+      "backgroundDescription": "ライトグリーン（明るい緑色）背景",
+      "overlayStructure": "白色カード重ね",
+      "headerType": "なし"
+    },
+    "contentDistribution": {
+      "page1": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "なし"
+        },
+        "middleSection": {
+          "format": "大文字タイトル表示",
+          "backgroundColor": "白",
+          "items": ["バリバリ仕事ができる人特徴7選"],
+          "visualElements": "黒い太字文字、中央配置"
+        },
+        "bottomSection": {
+          "elements": "いいねボタン",
+          "ctaElements": "ハートマーク、「いね！」"
+        }
+      },
+      "pages2to8": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "なし"
+        },
+        "middleSection": {
+          "format": "番号付き特徴表示",
+          "backgroundColor": "白",
+          "items": [
+            "①忙しいをログセにしない",
+            "②足を引っ張る敵を作らない",
+            "③仕事スイッチを自分に作る",
+            "④行動しながら軌道修正する",
+            "⑤レスポンスをワンテンポ早くする",
+            "⑥実力の少し上の目標設定にする",
+            "⑦できない事は無理に引き受けない"
+          ],
+          "visualElements": "丸数字、大きな黒文字、中央配置"
+        },
+        "bottomSection": {
+          "elements": "いいねボタン",
+          "ctaElements": "ハートマーク、「いね！」または「いい」"
+        }
+      },
+      "page9": {
+        "topSection": {
+          "elements": "タイトル",
+          "layout": "「バリバリ仕事ができる人特徴7選」上部配置"
+        },
+        "middleSection": {
+          "format": "番号付きリスト一覧",
+          "backgroundColor": "白", 
+          "items": [
+            "①忙しいをログセにしない",
+            "②足を引っ張る敵を作らない",
+            "③仕事スイッチを自分に作る",
+            "④行動しながら軌道修正する",
+            "⑤レスポンスをワンテンポ早くする",
+            "⑥実力の少し上の目標設定にする",
+            "⑦できない事は無理に引き受けない"
+          ],
+          "visualElements": "丸数字、左寄せテキスト、リスト形式"
+        },
+        "bottomSection": {
+          "elements": "保存誘導、いいねボタン",
+          "ctaElements": "「保存はこちら↓」、ハートマーク、「いい」"
+        }
+      }
+    },
+    "actualRole": "step-by-step-feature-presentation-with-summary",
+    "designElements": {
+      "colorScheme": ["ライトグリーン", "白", "黒"],
+      "typography": "ゴシック体、太字、大きなサイズ",
+      "visualHierarchy": "タイトル → 個別特徴 → まとめ一覧 → CTA",
+      "trustSignals": [],
+      "engagementElements": ["各ページでのいいね誘導", "保存促進"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし",
+      "swipeIndicators": "ページ番号表示（x/9）",
+      "savePrompts": "最終ページで「保存はこちら↓」"
+    }
+  }
+}

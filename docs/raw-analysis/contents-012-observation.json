@@ -1,0 +1,347 @@
+{
+  "observationData": {
+    "pages": [
+      {
+        "pageInfo": {
+          "currentPage": "1",
+          "totalPages": "10",
+          "pageIndicator": "1/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "緑色（ティールグリーン）背景",
+          "overlayStructure": "中央に白色角丸カード配置",
+          "headerType": "上部に白文字でキャッチフレーズ"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "就活落ちたらABABA（白文字）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "白色角丸カード",
+            "backgroundColor": "白色",
+            "items": [
+              "満足度が高い（紫グラデーション背景、白文字）",
+              "隠れ優良（赤文字、大きなフォント）",
+              "メーカー7選（黒文字）"
+            ],
+            "visualElements": "上部に紫グラデーション、文字サイズの階層"
+          },
+          "bottomSection": {
+            "elements": "いいね数17、続きを読む矢印、ハートボタン",
+            "ctaElements": "続きを読む（白文字）"
+          }
+        },
+        "actualRole": "タイトルページ・サービス紹介",
+        "designElements": {
+          "colorScheme": ["緑色（ティール）", "白色", "紫色", "赤色", "黒色"],
+          "typography": "ゴシック体、サイズ階層あり",
+          "visualHierarchy": "キャッチフレーズ→メインタイトル→CTA",
+          "trustSignals": ["ABABA公式サービス"],
+          "engagementElements": ["いいね数表示", "続きを読む誘導"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン（いいね）",
+          "swipeIndicators": "続きを読む矢印",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "2",
+          "totalPages": "10",
+          "pageIndicator": "2/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "緑色背景",
+          "overlayStructure": "中央に白色コンテンツエリア",
+          "headerType": "上部に白文字でタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "社員の満足度が高い隠れ優良メーカー（白文字）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "企業情報カード",
+            "backgroundColor": "白色",
+            "items": [
+              "①東京エレクトロンデバイス（丸数字付き）",
+              "会社概要ボックス（青枠）",
+              "3つの数値ボックス（年間休日123日、平均年収909万円、平均残業時間30.6時間）",
+              "募集・採用人数情報",
+              "特徴吹き出し（薄青背景）"
+            ],
+            "visualElements": "右下に緑色マスコットキャラクター（メガネ）"
+          },
+          "bottomSection": {
+            "elements": "ハートボタン",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "企業詳細情報提示（1社目）",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "青色", "薄青色"],
+          "typography": "ゴシック体、情報の階層化",
+          "visualHierarchy": "企業名→概要→数値データ→特徴",
+          "trustSignals": ["具体的数値データ"],
+          "engagementElements": ["マスコットキャラクター", "ハートボタン"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "2/10表示",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "3",
+          "totalPages": "10",
+          "pageIndicator": "3/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "緑色背景",
+          "overlayStructure": "中央に白色コンテンツエリア",
+          "headerType": "上部に白文字でタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "社員の満足度が高い隠れ優良メーカー（白文字）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "企業情報カード",
+            "backgroundColor": "白色",
+            "items": [
+              "②アドバンテスト（丸数字付き）",
+              "会社概要ボックス（青枠）",
+              "3つの数値ボックス（年間休日131日、平均年収840万円、平均残業時間14.2時間）",
+              "募集・採用人数情報",
+              "特徴吹き出し（薄青背景）"
+            ],
+            "visualElements": "右下に緑色マスコットキャラクター（メガネ）"
+          },
+          "bottomSection": {
+            "elements": "ハートボタン",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "企業詳細情報提示（2社目）",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "青色", "薄青色"],
+          "typography": "ゴシック体、情報の階層化",
+          "visualHierarchy": "企業名→概要→数値データ→特徴",
+          "trustSignals": ["具体的数値データ"],
+          "engagementElements": ["マスコットキャラクター", "ハートボタン"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "3/10表示",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "4",
+          "totalPages": "10",
+          "pageIndicator": "4/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "緑色背景",
+          "overlayStructure": "中央に白色コンテンツエリア",
+          "headerType": "上部に白文字でタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "社員の満足度が高い隠れ優良メーカー（白文字）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "企業情報カード",
+            "backgroundColor": "白色",
+            "items": [
+              "③日立ハイテク（丸数字付き）",
+              "会社概要ボックス（青枠）",
+              "3つの数値ボックス（年間休日127日、平均年収834万円、平均残業時間31.6時間）",
+              "募集・採用人数情報",
+              "特徴吹き出し（薄青背景）"
+            ],
+            "visualElements": "右下に緑色マスコットキャラクター（メガネ）"
+          },
+          "bottomSection": {
+            "elements": "ハートボタン",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "企業詳細情報提示（3社目）",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "青色", "薄青色"],
+          "typography": "ゴシック体、情報の階層化",
+          "visualHierarchy": "企業名→概要→数値データ→特徴",
+          "trustSignals": ["具体的数値データ"],
+          "engagementElements": ["マスコットキャラクター", "ハートボタン"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "4/10表示",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "5",
+          "totalPages": "10",
+          "pageIndicator": "5/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "緑色背景",
+          "overlayStructure": "中央に白色コンテンツエリア",
+          "headerType": "上部に白文字でタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "社員の満足度が高い隠れ優良メーカー（白文字）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "企業情報カード",
+            "backgroundColor": "白色",
+            "items": [
+              "④DIC（丸数字付き）",
+              "会社概要ボックス（青枠）",
+              "3つの数値ボックス（年間休日124日、平均年収758万円、平均残業時間16.1時間）",
+              "募集・採用人数情報",
+              "特徴吹き出し（薄青背景）"
+            ],
+            "visualElements": "右下に緑色マスコットキャラクター（メガネ）"
+          },
+          "bottomSection": {
+            "elements": "ハートボタン",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "企業詳細情報提示（4社目）",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "青色", "薄青色"],
+          "typography": "ゴシック体、情報の階層化",
+          "visualHierarchy": "企業名→概要→数値データ→特徴",
+          "trustSignals": ["具体的数値データ"],
+          "engagementElements": ["マスコットキャラクター", "ハートボタン"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "5/10表示",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "6",
+          "totalPages": "10",
+          "pageIndicator": "6/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "緑色背景",
+          "overlayStructure": "中央に白色コンテンツエリア",
+          "headerType": "上部に白文字でタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "社員の満足度が高い隠れ優良メーカー（白文字）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "企業情報カード",
+            "backgroundColor": "白色",
+            "items": [
+              "⑤デュポンジャパン（丸数字付き）",
+              "会社概要ボックス（青枠）",
+              "3つの数値ボックス（年間休日121日、平均年収955万円、平均残業時間22.1時間）",
+              "募集・採用人数情報",
+              "特徴吹き出し（薄青背景）"
+            ],
+            "visualElements": "右下に緑色マスコットキャラクター（メガネ）"
+          },
+          "bottomSection": {
+            "elements": "ハートボタン",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "企業詳細情報提示（5社目）",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "青色", "薄青色"],
+          "typography": "ゴシック体、情報の階層化",
+          "visualHierarchy": "企業名→概要→数値データ→特徴",
+          "trustSignals": ["具体的数値データ"],
+          "engagementElements": ["マスコットキャラクター", "ハートボタン"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "6/10表示",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "7",
+          "totalPages": "10",
+          "pageIndicator": "7/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "緑色背景",
+          "overlayStructure": "中央に白色コンテンツエリア",
+          "headerType": "上部に白文字でタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "社員の満足度が高い隠れ優良メーカー（白文字）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "企業情報カード",
+            "backgroundColor": "白色",
+            "items": [
+              "⑥ボッシュ（丸数字付き）",
+              "会社概要ボックス（青枠）",
+              "3つの数値ボックス（年間休日121日、平均年収746万円、平均残業時間11.0時間）",
+              "募集・採用人数情報",
+              "特徴吹き出し（薄青背景）"
+            ],
+            "visualElements": "右下に緑色マスコットキャラクター（メガネ）"
+          },
+          "bottomSection": {
+            "elements": "ハートボタン",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "企業詳細情報提示（6社目）",
+        "designElements": {
+          "colorScheme": ["緑色", "白色", "青色", "薄青色"],
+          "typography": "ゴシック体、情報の階層化",
+          "visualHierarchy": "企業名→概要→数値データ→特徴",
+          "trustSignals": ["具体的数値データ"],
+          "engagementElements": ["マスコットキャラクター", "ハートボタン"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "7/10表示",
+          "savePrompts": "なし"
+        }
+      }
+    ]
+  }
+}

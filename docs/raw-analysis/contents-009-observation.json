@@ -1,0 +1,135 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 3,
+      "pageIndicator": "標準ドット表示（3ページ構成）"
+    },
+    "page1": {
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青系グラデーション背景",
+        "overlayStructure": "中央に白いカード配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ChatGPTしか使っていない人は損！（青背景バー）",
+          "layout": "上部バナー形式"
+        },
+        "middleSection": {
+          "format": "白いカード中央配置",
+          "backgroundColor": "白",
+          "items": ["最強の", "AIアプリ", "12選"],
+          "visualElements": "走るビジネスマンイラスト（右下）"
+        },
+        "bottomSection": {
+          "elements": "「今すぐチェック」テキスト（右下）、184表示",
+          "ctaElements": "今すぐチェック"
+        }
+      },
+      "actualRole": "attention-grabbing-title-with-loss-aversion",
+      "designElements": {
+        "colorScheme": ["青", "白", "黒"],
+        "typography": "太い日本語フォント、インパクト重視",
+        "visualHierarchy": "損失訴求→メインタイトル→イラスト→CTA",
+        "trustSignals": ["具体的な数字（12選）"],
+        "engagementElements": ["損失回避の心理", "ビジネスイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準ドット",
+        "savePrompts": "今すぐチェック促進"
+      }
+    },
+    "page2": {
+      "layoutStructure": {
+        "backgroundType": "白背景",
+        "backgroundDescription": "シンプルな白背景",
+        "overlayStructure": "テキストリスト中心",
+        "headerType": "強調メッセージ"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ChatGPTしか使ってない人はマジで損。",
+          "layout": "上部強調"
+        },
+        "middleSection": {
+          "format": "12個のAIアプリリスト",
+          "backgroundColor": "白",
+          "items": [
+            "情報を調べるなら「Perplexity」",
+            "考えを整理するなら「GitMind」",
+            "文章を書くなら「Gemini」",
+            "画像を作るなら「Midjourney」",
+            "スライドを作るなら「Gamma」",
+            "プログラミングなら「Kite」",
+            "Webサイトを作るなら「Squarespace」",
+            "音楽を作るなら「Udioe」",
+            "質問するなら「Microsoft Copilot」",
+            "動画制作なら「Dream Machines」",
+            "LPを作るなら「Instapage」",
+            "コンテンツを統合するなら「Microsoft Copilot」"
+          ],
+          "visualElements": "「〜なら『〜』」の統一フォーマット"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ + サービス紹介",
+          "ctaElements": "「もう2度と言わないので保存必須です！」、「【無料年収UP転職はプロフリンクから🧐】」"
+        }
+      },
+      "actualRole": "detailed-tool-list-with-urgency",
+      "designElements": {
+        "colorScheme": ["白", "黒"],
+        "typography": "読みやすい日本語フォント、情報密度高",
+        "visualHierarchy": "損失訴求→リスト→保存促進→転職CTA",
+        "trustSignals": ["具体的なツール名", "目的別整理"],
+        "engagementElements": ["緊急性の演出", "保存促進"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準",
+        "savePrompts": "「保存必須」の強い表現"
+      }
+    },
+    "page3": {
+      "layoutStructure": {
+        "backgroundType": "緑背景",
+        "backgroundDescription": "明るい緑色の背景",
+        "overlayStructure": "上部プロフィール + 下部サービス紹介",
+        "headerType": "サービス紹介バナー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「ホワイト企業転職はプロフリンクから👆」バナー（青背景）",
+          "layout": "上部固定"
+        },
+        "middleSection": {
+          "format": "Instagramプロフィール実機画面",
+          "backgroundColor": "白",
+          "items": ["osig_oto48アカウント表示", "392投稿、4.8万フォロワー、3フォロー中", "プロフィール写真", "ここを押してね！（赤矢印）"],
+          "visualElements": "実際のInstagram画面キャプチャ"
+        },
+        "bottomSection": {
+          "elements": "サービス説明カード + アプリ画面、184表示",
+          "ctaElements": "「ブラック企業を除外してご紹介！」のカード、アプリ画面表示"
+        }
+      },
+      "actualRole": "service-promotion-with-real-interface",
+      "designElements": {
+        "colorScheme": ["緑", "白", "青", "赤"],
+        "typography": "カジュアルなフォント",
+        "visualHierarchy": "バナー→プロフィール→サービス説明",
+        "trustSignals": ["実際のプロフィール画面", "フォロワー数表示"],
+        "engagementElements": ["赤い矢印", "実機画面", "具体的な機能説明"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "プロフィール内の各ボタン（実機画面）",
+        "swipeIndicators": "最終ページ",
+        "savePrompts": "プロフリンクアクセス促進"
+      }
+    }
+  }
+}

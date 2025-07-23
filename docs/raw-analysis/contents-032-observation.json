@@ -1,0 +1,529 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "11",
+        "pageIndicator": "1/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "gradient",
+        "backgroundDescription": "薄紫色から薄いピンク色へのグラデーション",
+        "overlayStructure": "中央に白色角丸長方形カード配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "title-with-character",
+          "backgroundColor": "白色",
+          "items": [
+            "まだ黒髪に",
+            "してない",
+            "3年生へ"
+          ],
+          "visualElements": "右側に茶髪の女の子のイラスト（不安そうな表情）"
+        },
+        "bottomSection": {
+          "elements": "ページインジケーター「1/11」、いいねアイコン「326」",
+          "ctaElements": "なし（タイトルページのため）"
+        }
+      },
+      "actualRole": "ターゲット特定とフック（髪を染めていない3年生への呼びかけ）",
+      "designElements": {
+        "colorScheme": ["薄紫色", "白色", "黒色"],
+        "typography": "大きな文字サイズ、シンプルな書体",
+        "visualHierarchy": "タイトル→キャラクター→ページ番号",
+        "trustSignals": [],
+        "engagementElements": ["ターゲットを特定した呼びかけ", "親しみやすいキャラクター"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット（スワイプ誘導）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "11",
+        "pageIndicator": "2/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "mixed",
+        "backgroundDescription": "上部青色ヘッダー、下部白色背景",
+        "overlayStructure": "マンガ形式の2コマ配置",
+        "headerType": "青色背景に白文字でタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「大学3年生のお話です！」白文字タイトル",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "manga-two-panels",
+          "backgroundColor": "白色",
+          "items": [
+            "上コマ: といっても就活アプリ入れてセミナーを少し見たくらいで",
+            "大学3年になって就活を意識し始めました",
+            "下コマ: 家に帰るのはいつも22時すぎ。",
+            "大学の課題とバイトが忙しくて"
+          ],
+          "visualElements": "青い服の女の子キャラクター、スマホを見る様子、家で勉強する様子"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ストーリー導入（主人公の現状説明）",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黒色"],
+        "typography": "マンガ形式のテキスト、読みやすいフォント",
+        "visualHierarchy": "タイトル→上コマ→下コマ",
+        "trustSignals": ["リアルな大学生活描写"],
+        "engagementElements": ["マンガ形式", "共感しやすいシチュエーション"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "11",
+        "pageIndicator": "3/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "マンガ形式の2コマ配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "manga-two-panels",
+          "backgroundColor": "白色",
+          "items": [
+            "上コマ: そう思いながらいつものバイト先に行ったら...",
+            "そろそろ就活しないと...（思考バブル）",
+            "下コマ: 同い年のYちゃん（立教大学）が髪を黒く染めていたんです"
+          ],
+          "visualElements": "主人公の思考表情、黒髪にしたYちゃんとの対面シーン"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "問題の認識（就活への意識と他者比較の始まり）",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "グレー"],
+        "typography": "マンガ形式、思考バブルの使用",
+        "visualHierarchy": "上コマ→下コマ",
+        "trustSignals": ["リアルな心理描写"],
+        "engagementElements": ["マンガストーリー展開", "思考バブル"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "11",
+        "pageIndicator": "4/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "マンガ形式の2コマ配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "manga-two-panels",
+          "backgroundColor": "白色",
+          "items": [
+            "上コマ: Yちゃん「来週からインターン始まるんだ！」（笑顔、親指立て）",
+            "下コマ: 主人公「髪染めたんだ...私」",
+            "正直、もう就活してるんだとすごく焦りました。",
+            "Yちゃんは学生団体の副リーダーで、TOEIC も850点くらい持ってるんです。"
+          ],
+          "visualElements": "Yちゃんの嬉しそうな表情、主人公の焦った表情"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "対比と不安の増大（優秀な同級生との比較）",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "感情を表すテキスト配置、赤文字の使用",
+        "visualHierarchy": "上コマ→下コマ→説明文",
+        "trustSignals": ["具体的なスペック（TOEIC850点）"],
+        "engagementElements": ["感情対比", "具体的な数値"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "11",
+        "pageIndicator": "5/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "タイトル+リスト形式",
+        "headerType": "「Yちゃんと比べて私は...」黒文字タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「Yちゃんと比べて私は...」タイトル",
+          "layout": "左寄せ配置"
+        },
+        "middleSection": {
+          "format": "comparison-list",
+          "backgroundColor": "白色",
+          "items": [
+            "・大した学歴なし（大学受験に失敗。本当はMARCHに行きたかった...）",
+            "・2年間バイトのみ（2年間ひたすら家でダラダラ...）",
+            "・資格は漢検3級"
+          ],
+          "visualElements": "右側に茶髪の女の子（困った表情）、吹き出し「まって就活終わった...」"
+        },
+        "bottomSection": {
+          "elements": "キャラクターと吹き出し",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "自己分析と劣等感の表現（具体的なスペック比較）",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "リスト形式、赤文字での強調",
+        "visualHierarchy": "タイトル→リスト→キャラクター",
+        "trustSignals": ["正直な自己開示"],
+        "engagementElements": ["具体的な劣等感", "共感を誘う表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "11",
+        "pageIndicator": "6/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "マンガ形式の2コマ配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "manga-two-panels",
+          "backgroundColor": "白色",
+          "items": [
+            "上コマ: 男性（焦り）「6月からインターン始まるのに、まだ全然準備できてない...」",
+            "「バイトしかしてなかったし何も話せることないよ...」",
+            "下コマ: 日本大学の先輩（笑顔）",
+            "「そんな時、同じバイト先の日本大学の先輩が大手企業に内定をもらったと聞いたんです。」"
+          ],
+          "visualElements": "焦る男性キャラクター、嬉しそうな先輩キャラクター"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "転機の発見（成功事例との出会い）",
+      "designElements": {
+        "colorScheme": ["白色", "黒色"],
+        "typography": "マンガ形式、感情を表現するテキスト",
+        "visualHierarchy": "上コマ→下コマ",
+        "trustSignals": ["具体的な大学名（日本大学）", "大手企業内定実績"],
+        "engagementElements": ["感情の転換点", "希望の発見"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "11",
+        "pageIndicator": "7/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "マンガ形式の2コマ配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "manga-two-panels",
+          "backgroundColor": "白色",
+          "items": [
+            "上コマ: 男性先輩（スマホを見せる）",
+            "「失礼ですがこの先輩が...?」「と思ったので聞いてみたんです。」",
+            "下コマ: 主人公「恐る恐る就活テキストを受け取ったんです。」",
+            "「ほんとかな...?」"
+          ],
+          "visualElements": "スマホを見せる先輩、不安そうな主人公"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "メンター発見と行動開始（就活テキストとの出会い）",
+      "designElements": {
+        "colorScheme": ["白色", "黒色"],
+        "typography": "マンガ形式、疑問と不安の表現",
+        "visualHierarchy": "上コマ→下コマ",
+        "trustSignals": ["テキストの存在"],
+        "engagementElements": ["疑いと期待の混在", "次への期待感"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "11",
+        "pageIndicator": "8/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "マンガ形式の2コマ配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "manga-two-panels",
+          "backgroundColor": "白色",
+          "items": [
+            "上コマ: 男性（指差し）「準備にとれだけ力を入れたかで決まります」",
+            "「内定がもらえるかは」「就活テキスト」",
+            "下コマ: 主人公（決意）",
+            "「学歴や経験に自信がないからこそ刻も早く就活を始めてライバルに差をつけることが大事だと痛感しました」",
+            "「何もしていない自分にとって、この言葉がすごく刺さったんです。」"
+          ],
+          "visualElements": "指差しする男性、決意を固める主人公"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "決意と行動への転換（アドバイスの受容）",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "アドバイス文の強調、決意文の配置",
+        "visualHierarchy": "上コマ→下コマ",
+        "trustSignals": ["具体的なアドバイス"],
+        "engagementElements": ["決意の瞬間", "行動への転換点"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "11",
+        "pageIndicator": "9/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "上部マンガ+下部メッセージ",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "主人公（嬉しそう）「え、インターン受かった...」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "success-story-with-message",
+          "backgroundColor": "ベージュ色背景",
+          "items": [
+            "その日から少しずつ自己分析、企業研究をしていくうちに",
+            "就活は1日でも早く動き出した人が勝つゲームです！",
+            "不安な方も大丈夫。一緒に内定を目指しませんか？",
+            "こんな私でもできたと自信に"
+          ],
+          "visualElements": "二人の学生（笑顔）"
+        },
+        "bottomSection": {
+          "elements": "励ましメッセージ、キャラクター",
+          "ctaElements": "次への誘導（暗示的）"
+        }
+      },
+      "actualRole": "成功体験と読者への励まし（結果の提示）",
+      "designElements": {
+        "colorScheme": ["白色", "ベージュ色", "黒色", "赤色"],
+        "typography": "成功の喜び表現、励ましメッセージ",
+        "visualHierarchy": "成功→メッセージ→励まし",
+        "trustSignals": ["インターン合格実績"],
+        "engagementElements": ["成功体験", "読者への励まし", "共感的メッセージ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "11",
+        "pageIndicator": "10/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "中央配置のメッセージ群",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「乗り遅れないで！」黒文字メッセージ",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "urgency-message-with-character",
+          "backgroundColor": "白色",
+          "items": [
+            "就活、もう始まってます...！（赤文字）",
+            "就活は先手必勝。",
+            "1日でも早くスタートした人が勝つゲームです。（黄色ハイライト）"
+          ],
+          "visualElements": "下部に赤い服を着た人物キャラクターと吹き出し「でも、何からやればいいの？」そんな就活生のあなたへ"
+        },
+        "bottomSection": {
+          "elements": "キャラクター、吹き出し",
+          "ctaElements": "次ページへの誘導（暗示的）"
+        }
+      },
+      "actualRole": "緊急性の演出と問題提起への共感",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色", "黄色"],
+        "typography": "赤文字での緊急性表現、黄色ハイライトでの重要性強調",
+        "visualHierarchy": "緊急メッセージ→説明→キャラクター",
+        "trustSignals": [],
+        "engagementElements": ["緊急性メッセージ", "親しみやすいキャラクター", "共感を誘う質問"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page11": {
+      "pageInfo": {
+        "currentPage": "11",
+        "totalPages": "11",
+        "pageIndicator": "11/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid-color",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "中央に商品紹介とCTA配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は...」黒文字",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "product-showcase-with-cta",
+          "backgroundColor": "白色",
+          "items": [
+            "プロフィール画面のスクリーンショット",
+            "1冊のテキストにまとめています！（強調）",
+            "job-hun.com/ab/shukatsu_lp_inst",
+            "資格は「漢検3級」のみ😂学生はバイトばかりの自信ない学生でも...続きを読む"
+          ],
+          "visualElements": "実際のプロフィール画面、指差しアイコン"
+        },
+        "bottomSection": {
+          "elements": "URL、CTAメッセージ",
+          "ctaElements": "プロフィールのURLからお受け取りください！"
+        }
+      },
+      "actualRole": "商品提供とCTA（行動喚起）",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "商品説明、URL強調、CTA強調",
+        "visualHierarchy": "商品説明→プロフィール画面→URL+CTA",
+        "trustSignals": ["大手3社内定実績", "実際のプロフィール画面"],
+        "engagementElements": ["具体的成果", "プロフィール画面", "明確なCTA"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "URL受け取り誘導"
+      }
+    }
+  }
+}

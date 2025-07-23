@@ -1,0 +1,111 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 7,
+      "pageIndicators": ["1/7", "2/7", "3/7", "4/7", "5/7", "6/7", "7/7"]
+    },
+    "layoutStructure": {
+      "backgroundType": "単色とグラデーション",
+      "backgroundDescription": "ピンク色（1ページ目）、グレー色（2-6ページ目）、白色（7ページ目）",
+      "overlayStructure": "ノート風白カード重ね（2-6ページ目）",
+      "headerType": "なし"
+    },
+    "contentDistribution": {
+      "page1": {
+        "topSection": {
+          "elements": "ヘッダーテキスト",
+          "layout": "「30代から始めても遅くない！」上部配置"
+        },
+        "middleSection": {
+          "format": "大文字タイトル表示",
+          "backgroundColor": "ピンク",
+          "items": ["\"手に職系\"の仕事8選"],
+          "visualElements": "黒い太字文字、中央配置"
+        },
+        "bottomSection": {
+          "elements": "ロゴ、いいねボタン",
+          "ctaElements": "SHElikesロゴ、ハートマーク、「いね！」"
+        }
+      },
+      "page2": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "なし"
+        },
+        "middleSection": {
+          "format": "導入説明とチェックリスト",
+          "backgroundColor": "白（ノート風カード）",
+          "items": [
+            "結婚・出産などライフイベントと重なる可能性のある30代",
+            "☑ 柔軟な働き方がしたい！",
+            "☑ 一生続けられる職種にキャリアチェンジしたい！",
+            "そこで今回は女性が30代から始めるおすすめの職種8選をご紹介します！"
+          ],
+          "visualElements": "チェックマーク、イラスト（考える女性）、Nextボタン"
+        },
+        "bottomSection": {
+          "elements": "いいねボタン",
+          "ctaElements": "ハートマーク、「いね」"
+        }
+      },
+      "pages3to6": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "なし"
+        },
+        "middleSection": {
+          "format": "職種詳細（2職種ずつ）",
+          "backgroundColor": "白（ノート風カード）",
+          "items": [
+            "番号付きタイトル（01-08）",
+            "職種名",
+            "仕事内容説明",
+            "必要なスキル（ピンク背景ボックス内）"
+          ],
+          "visualElements": "職種アイコン、スキル表示ボックス、Nextボタン"
+        },
+        "bottomSection": {
+          "elements": "いいねボタン",
+          "ctaElements": "ハートマーク、「いね」"
+        }
+      },
+      "page7": {
+        "topSection": {
+          "elements": "CTAヘッダー",
+          "layout": "「もっと『私らしい働き方』を知りたい方は」上部配置"
+        },
+        "middleSection": {
+          "format": "適職診断誘導",
+          "backgroundColor": "白",
+          "items": [
+            "「適職診断」ボタン4つ",
+            "「してみませんか？」",
+            "「当てはまった方はハイライトへ！」",
+            "チェックリスト4項目",
+            "スマートフォン画像",
+            "制作者プロフィール"
+          ],
+          "visualElements": "ボタン、チェックマーク、スマホ画面、プロフィール写真"
+        },
+        "bottomSection": {
+          "elements": "いいねボタン",
+          "ctaElements": "ハートマーク、「いい」"
+        }
+      }
+    },
+    "actualRole": "career-change-information-with-detailed-job-descriptions",
+    "designElements": {
+      "colorScheme": ["ピンク", "グレー", "白", "黒"],
+      "typography": "ゴシック体、複数サイズ",
+      "visualHierarchy": "タイトル → 導入 → 職種詳細 → CTA",
+      "trustSignals": ["制作者プロフィール", "SHElikesブランド"],
+      "engagementElements": ["チェックリスト", "適職診断誘導", "ハイライト誘導"]
+    },
+    "interactionElements": {
+      "checkboxes": "チェックマーク表示（装飾的）",
+      "buttons": "適職診断ボタン4つ、Nextボタン",
+      "swipeIndicators": "ページ番号表示（x/7）",
+      "savePrompts": "なし"
+    }
+  }
+}

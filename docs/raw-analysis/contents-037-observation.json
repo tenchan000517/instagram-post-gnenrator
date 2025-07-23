@@ -1,0 +1,146 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": 11,
+        "totalPages": 13,
+        "pageIndicator": "11/13"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "漫画パネル形式の2段構成",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["夏インターンは8社合格", "合格通知書を持つキャラクター", "インター合格した！"],
+          "layout": "左側にテキストボックス、右側にキャラクターと吹き出し"
+        },
+        "middleSection": {
+          "format": "manga-panel-dialogue",
+          "backgroundColor": "白色",
+          "items": [
+            "もう内定もってるの？",
+            "大学3年の9月には内定をもらえた"
+          ],
+          "visualElements": "キャラクター対話、思考の表現"
+        },
+        "bottomSection": {
+          "elements": ["11/13表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "成功体験の提示と慢心状態の描写",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色", "ベージュ"],
+        "typography": "手書き風フォント、吹き出し内テキスト",
+        "visualHierarchy": "キャラクター→成果表示→対話の順",
+        "trustSignals": ["具体的な数字（8社合格）", "合格通知書"],
+        "engagementElements": ["漫画形式", "キャラクター表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": 12,
+        "totalPages": 13,
+        "pageIndicator": "12/13"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "中央集中テキスト配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["私も昔... 自己流でやって痛い目をみました。"],
+          "layout": "中央配置、通常フォント"
+        },
+        "middleSection": {
+          "format": "confession-and-empathy-text",
+          "backgroundColor": "白色",
+          "items": [
+            "「なんとかなる」と思って",
+            "ダラダラ先のばしにして",
+            "失敗しました。",
+            "あなたには同じ思いをしてほしくない。",
+            "もし「変わりたい」そう思ったなら..."
+          ],
+          "visualElements": "キャラクターイラスト（薄く表示）、赤文字強調"
+        },
+        "bottomSection": {
+          "elements": ["12/13表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "失敗体験の告白と共感創出、変革への導入",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "通常フォント、赤文字での強調",
+        "visualHierarchy": "告白→失敗体験→共感→転換点の順",
+        "trustSignals": ["率直な失敗告白", "相手への配慮表現"],
+        "engagementElements": ["感情的な表現", "共感を呼ぶ体験談"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": 13,
+        "totalPages": 13,
+        "pageIndicator": "13/13"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "テキスト + スクリーンショット + CTA",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は..."],
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "solution-presentation-with-screenshot",
+          "backgroundColor": "白色",
+          "items": [
+            "プロフィール画面のスクリーンショット",
+            "1冊のテキストにまとめています！",
+            "job-hun.com/ab/shukatsu_sep-manga_ins"
+          ],
+          "visualElements": "プロフィール画面、吹き出し、指差しアイコン、赤枠強調"
+        },
+        "bottomSection": {
+          "elements": ["プロフィール欄のURLからお受け取りください！", "13/13表示"],
+          "ctaElements": "赤文字でのURL誘導"
+        }
+      },
+      "actualRole": "具体的解決策の提示と行動促進",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "通常フォント、赤文字での強調",
+        "visualHierarchy": "課題提示→解決策→証拠提示→行動促進の順",
+        "trustSignals": ["プロフィール画面", "フォロワー数5.5万", "具体的URL"],
+        "engagementElements": ["吹き出しデザイン", "視覚的な指示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

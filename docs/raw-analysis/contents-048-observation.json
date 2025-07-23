@@ -1,0 +1,150 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 9,
+      "pageIndicator": "1/10から9/10まで表示（実際は9ページ）"
+    },
+    "overallDesign": {
+      "layoutStructure": {
+        "backgroundType": "グラデーション背景",
+        "backgroundDescription": "薄緑から薄青へのグラデーション背景",
+        "overlayStructure": "白色カード重ね",
+        "headerType": "ページインジケーター右上固定"
+      },
+      "designElements": {
+        "colorScheme": ["薄緑〜薄青グラデーション", "白色カード", "青色見出し", "黒文字"],
+        "typography": "ゴシック体、階層化された文字サイズ",
+        "visualHierarchy": "見出し→内容→説明文の縦流れ",
+        "trustSignals": ["#BAKAZUブランド表示", "体系的な番号付け"],
+        "engagementElements": ["マスコットキャラクター", "吹き出し", "矢印"]
+      }
+    },
+    "page1": {
+      "contentDistribution": {
+        "topSection": {
+          "elements": "#BAKAZU（白文字）、ページ表示1/10",
+          "layout": "左上ハッシュタグ、右上ページ数"
+        },
+        "middleSection": {
+          "format": "白色カード内テキスト",
+          "backgroundColor": "白色",
+          "items": [
+            "今の時期（黒文字）",
+            "企業研究（赤色・大文字）",
+            "ガチれ（黒文字・大文字）"
+          ],
+          "visualElements": "マスコットキャラクター右下配置"
+        },
+        "bottomSection": {
+          "elements": "選考始まる前に調べまくろう！（吹き出し）",
+          "ctaElements": "行動促進メッセージ"
+        }
+      },
+      "actualRole": "urgency-title-page-with-branding"
+    },
+    "page2": {
+      "contentDistribution": {
+        "topSection": {
+          "elements": "企業研究って結局何が正解？（青色見出し）",
+          "layout": "センター配置"
+        },
+        "middleSection": {
+          "format": "問題認識＋解決策提示",
+          "backgroundColor": "薄いピンク色背景の質問ボックス",
+          "items": [
+            "そもそも企業研究って何・・？",
+            "どこの何を見ればいいの・・？"
+          ],
+          "visualElements": "悩むビジネスマンイラスト、黄色矢印"
+        },
+        "bottomSection": {
+          "elements": "解決策の説明文＋重要性強調",
+          "ctaElements": "大手内定への導線"
+        }
+      },
+      "actualRole": "problem-solution-identification-page"
+    },
+    "page3-page7": {
+      "contentDistribution": {
+        "topSection": {
+          "elements": "各セクションの青色見出し",
+          "layout": "上部センター配置"
+        },
+        "middleSection": {
+          "format": "番号付きリスト形式",
+          "backgroundColor": "薄いピンク背景ボックス",
+          "items": "各項目の詳細説明（2-4項目）",
+          "visualElements": "番号、説明文、矢印による関連性表示"
+        },
+        "bottomSection": {
+          "elements": "マスコットキャラクター、次のセクションへの誘導",
+          "ctaElements": "次ページへの流れ作り"
+        }
+      },
+      "actualRole": "structured-information-delivery-pages"
+    },
+    "page7_specific": {
+      "contentDistribution": {
+        "middleSection": {
+          "format": "2列×5行のグリッドレイアウト",
+          "backgroundColor": "グレー色のボックス",
+          "items": [
+            "①競合他社", "⑥年収", "②強み", "⑦採用人数",
+            "③弱み", "⑧福利厚生", "④社風", "⑨将来性",
+            "⑤業界順位", "⑩事業内容"
+          ],
+          "visualElements": "矢印による順序表示、整理されたグリッド配置"
+        }
+      },
+      "actualRole": "systematic-analysis-framework-page"
+    },
+    "page8": {
+      "contentDistribution": {
+        "topSection": {
+          "elements": "まとめ（青色ボタン風見出し）",
+          "layout": "上部センター"
+        },
+        "middleSection": {
+          "format": "まとめ文章",
+          "backgroundColor": "白色",
+          "items": "企業研究の重要性とメリットの要約",
+          "visualElements": "段落分けされた読みやすいテキスト"
+        },
+        "bottomSection": {
+          "elements": "参考になったらいいねと保存！吹き出し、ビジネスマン＋ブックマーク",
+          "ctaElements": "エンゲージメント促進"
+        }
+      },
+      "actualRole": "summary-and-engagement-page"
+    },
+    "page9": {
+      "contentDistribution": {
+        "topSection": {
+          "elements": "大手内定者多数輩出！！（黒文字）",
+          "layout": "上部センター"
+        },
+        "middleSection": {
+          "format": "サービス紹介＋プロフィール表示",
+          "backgroundColor": "白色枠内",
+          "items": [
+            "面接・GD練習（青色背景）",
+            "個別FB（青色背景）",
+            "【完全無料】（赤色）"
+          ],
+          "visualElements": "実際のプロフィール画面、URLリンク、指差しアイコン"
+        },
+        "bottomSection": {
+          "elements": "お申し込みはこちら（黒文字）、ブックマークアイコン",
+          "ctaElements": "明確な行動指示"
+        }
+      },
+      "actualRole": "service-promotion-with-credibility"
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（URLアクセス前提）",
+      "swipeIndicators": "ページ数表示による進行管理",
+      "savePrompts": "各ページハートアイコン、最終的な保存促進メッセージ"
+    }
+  }
+}

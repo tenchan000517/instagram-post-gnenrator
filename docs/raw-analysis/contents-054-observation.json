@@ -1,0 +1,108 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 9,
+      "pageIndicators": ["1/9", "2/9", "3/9", "4/9", "5/9", "6/9", "7/9", "8/9", "9/9"]
+    },
+    "layoutStructure": {
+      "backgroundType": "グラデーション系（ページによって微妙に異なる）",
+      "backgroundDescription": "1ページ目：薄いベージュぼかし、2-8ページ：ベージュ～薄紫系グラデーション、9ページ：薄いグレー",
+      "overlayStructure": "白色カード重ね（2-8ページ）、半透明オーバーレイなし",
+      "headerType": "ページインジケーター右上固定、2ページ目のみ上部にタイトル"
+    },
+    "contentDistribution": {
+      "page1": {
+        "topSection": "ページインジケーター 1/9",
+        "middleSection": "タイトル「繊細でしんどい..内向型さん向いてる仕事」",
+        "bottomSection": "大きな赤い円に「24選」の文字"
+      },
+      "page2": {
+        "topSection": "「内向型が活かせるお仕事24選」ヘッダー",
+        "middleSection": {
+          "questionBox": "茶色角丸「あなたはこんなことない？」",
+          "checklist": "3つのチェックボックス付き項目",
+          "illustration": "悩んでいる女性のイラスト"
+        },
+        "bottomSection": "説明文と保存促進メッセージ（赤文字）"
+      },
+      "pages3-6": {
+        "format": "統一されたPoint構造",
+        "topSection": "Point X（1-4）とタイトル（茶色背景）",
+        "middleSection": {
+          "descriptionCard": "白色カード内に説明文",
+          "illustration": "各ページ異なる人物イラスト（右側配置）"
+        },
+        "bottomSection": {
+          "jobList": "電球アイコン付き「向いてる仕事」セクション",
+          "items": "6つの職業を左右2列で配置",
+          "nextButton": "右下角「Next」ボタン"
+        }
+      },
+      "page7": {
+        "topSection": "Point 5「自分らしく働くための仕事選びのコツ」",
+        "middleSection": {
+          "illustration": "デスクワーク女性のイラスト（中央）",
+          "tips": "2つのアドバイス項目（赤い丸ポイント付き）"
+        },
+        "bottomSection": "Next ボタン"
+      },
+      "page8": {
+        "topSection": "Point 6「迷ったら自己分析サイトも活用してみるもアリ」",
+        "middleSection": {
+          "illustration": "パソコンを見る女性のイラスト（中央）",
+          "description": "自己分析ツールと無料相談の推奨文"
+        },
+        "bottomSection": "Next ボタン"
+      },
+      "page9": {
+        "topSection": "「他の記事も読んでみる👆'-/」",
+        "middleSection": {
+          "mainTitle": "仕事/退職/転職について毎日発信📱'-",
+          "subTitle": "悩んでる方はフォローしてね",
+          "leftSection": "ハイライト案内（人物写真付き）",
+          "rightSection": "スマホ画面モックアップ（プロフィール表示）"
+        },
+        "bottomSection": "ストーリー限定情報の案内"
+      }
+    },
+    "actualRole": {
+      "page1": "cover-title-with-number",
+      "page2": "problem-awareness-checklist",
+      "page3": "content-type1-empathetic-introvert",
+      "page4": "content-type2-focused-introvert", 
+      "page5": "content-type3-analytical-introvert",
+      "page6": "content-type4-sensitive-introvert",
+      "page7": "practical-advice-tips",
+      "page8": "additional-tool-recommendation",
+      "page9": "multi-cta-follow-engagement"
+    },
+    "designElements": {
+      "colorScheme": ["白", "ベージュ", "薄紫", "茶色", "赤", "黒", "グレー"],
+      "typography": "丸ゴシック系、タイトルは太字、本文は通常ウェイト",
+      "visualHierarchy": [
+        "1. Point番号とタイトル",
+        "2. イラスト（視覚的焦点）",
+        "3. 説明文（白カード内）",
+        "4. 職業リスト（電球アイコン付き）",
+        "5. Nextボタン"
+      ],
+      "trustSignals": ["Point番号による体系化", "具体的職業リスト", "イラストによる親しみやすさ"],
+      "engagementElements": ["チェックボックス", "保存促進メッセージ", "Next誘導"]
+    },
+    "interactionElements": {
+      "checkboxes": "2ページ目に3つのチェックマーク（☑）",
+      "buttons": "各ページ右下のNextボタン（茶色）",
+      "swipeIndicators": "ページインジケーター（x/9）",
+      "savePrompts": "メモが面倒な人は1タップで保存完了！",
+      "iconElements": "電球アイコン（💡）、スマホアイコン（📱）、絵文字使用"
+    },
+    "specificObservations": {
+      "numberingSystem": "Point 1-6の一貫した番号体系",
+      "illustrationStyle": "統一されたフラットデザインの人物イラスト",
+      "jobListFormat": "各タイプに6つの職業を左右2列で統一",
+      "colorAccents": "重要な部分に赤色を使用（保存促進、ポイント等）",
+      "layoutConsistency": "3-6ページの統一されたレイアウト構造",
+      "ctaProgression": "Next→保存→フォローの段階的誘導"
+    }
+  }
+}

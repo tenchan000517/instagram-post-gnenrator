@@ -11,6 +11,30 @@
     "painPoints": ["情報過多", "選択迷い", "体系的理解不足"],
     "desiredOutcomes": ["最適ツール選択", "効率的活用", "体系的理解"]
   },
+  "P011": {
+    "id": "P011",
+    "name": "業界職種研究初心者",
+    "description": "就活準備段階で業界と職種の違いが分からず、どのような職種があるのか知りたい大学生",
+    "characteristics": ["就活準備段階", "基礎知識不足", "体系的理解志向", "情報収集意欲"],
+    "psychologicalNeeds": ["基礎知識習得", "体系的理解", "職種選択基準明確化"],
+    "triggerMoments": ["就活準備開始時", "業界研究開始時", "職種選択検討時"],
+    "compatibleTypes": ["003"],
+    "compatibleThemes": ["T007", "T008", "T009"],
+    "painPoints": ["基本概念混同", "職種情報不足", "選択基準不明"],
+    "desiredOutcomes": ["概念理解", "職種把握", "適切な選択"]
+  },
+  "P012": {
+    "id": "P012",
+    "name": "優良企業情報収集者",
+    "description": "働きやすい隠れ優良メーカーの具体的な情報（年収、休日、残業時間等）を知りたい就活生",
+    "characteristics": ["データ重視", "働きやすさ志向", "隠れ優良企業関心", "実用情報収集"],
+    "psychologicalNeeds": ["企業情報収集", "働きやすさ確認", "選択肢拡大"],
+    "triggerMoments": ["企業選び検討時", "働きやすさ重視時", "隠れ優良企業発見時"],
+    "compatibleTypes": ["004"],
+    "compatibleThemes": ["T010", "T011", "T012"],
+    "painPoints": ["優良企業情報不足", "働きやすさ判断基準不明", "選択肢限定"],
+    "desiredOutcomes": ["優良企業発見", "働きやすさ確認", "選択肢拡大"]
+  },
   "P101": {
     "id": "P101",
     "name": "AIツール効率化求職者",
@@ -202,5 +226,65 @@
     "compatibleThemes": ["T002", "T003", "T006"],
     "painPoints": ["資格選択迷い", "コスパ不明", "活用方法不明"],
     "desiredOutcomes": ["最適資格選択", "コスパ実現", "スキル活用"]
+  },
+  "P076": {
+    "id": "P076",
+    "name": "AI活用就活効率化志向者",
+    "description": "就活準備で忙しすぎる状況にありAIを効果的に活用したい就活生",
+    "characteristics": ["就活準備段階", "効率化重視", "AI関心", "実践志向"],
+    "psychologicalNeeds": ["効率化実現", "AI活用方法", "差別化戦略"],
+    "triggerMoments": ["就活準備忙しさ実感時", "AI活用検討時", "効率化必要時"],
+    "compatibleTypes": ["003"],
+    "compatibleThemes": ["T007", "T008"],
+    "painPoints": ["就活準備負担", "AI活用方法不明", "効率化方法不明"],
+    "desiredOutcomes": ["就活効率化", "AI活用実現", "競争優位獲得"]
+  },
+  "P077": {
+    "id": "P077",
+    "name": "面接印象向上志向者",
+    "description": "面接官にコミュニケーション力が高いと思われる方法を知りたい就活生",
+    "characteristics": ["就活準備中", "印象向上志向", "コミュニケーション改善", "実例重視"],
+    "psychologicalNeeds": ["印象向上方法", "評価基準理解", "具体的改善策"],
+    "triggerMoments": ["面接対策時", "コミュニケーション不安時", "印象改善必要時"],
+    "compatibleTypes": ["003"],
+    "compatibleThemes": ["T007", "T008"],
+    "painPoints": ["印象向上方法不明", "評価基準不明", "改善方法不明"],
+    "desiredOutcomes": ["面接評価向上", "コミュニケーション改善", "内定獲得"]
+  },
+  "P078": {
+    "id": "P078",
+    "name": "AI時代職業選択者",
+    "description": "AIに仕事を奪われる不安を抱き、代替されにくい職業を知りたい就活生",
+    "characteristics": ["就活中", "将来不安", "職業選択慎重", "情報収集重視"],
+    "psychologicalNeeds": ["将来不安解消", "職業選択基準", "安定性確保"],
+    "triggerMoments": ["AI脅威認識時", "職業選択時", "将来不安時"],
+    "compatibleTypes": ["004"],
+    "compatibleThemes": ["T010", "T011"],
+    "painPoints": ["AI脅威不安", "職業選択迷い", "将来性不明"],
+    "desiredOutcomes": ["適切な職業選択", "将来不安解消", "安定したキャリア"]
+  },
+  "P079": {
+    "id": "P079",
+    "name": "AI面接対策準備者",
+    "description": "導入企業増加中のAI面接に不安を感じ対策方法を知りたい理系就活生",
+    "characteristics": ["理系学生", "AI面接不安", "対策重視", "技術適応志向"],
+    "psychologicalNeeds": ["AI面接理解", "対策方法習得", "不安解消"],
+    "triggerMoments": ["AI面接遭遇時", "新技術不安時", "対策検討時"],
+    "compatibleTypes": ["004"],
+    "compatibleThemes": ["T010", "T011"],
+    "painPoints": ["AI面接不安", "対策方法不明", "技術理解不足"],
+    "desiredOutcomes": ["AI面接対応力", "不安解消", "面接成功"]
+  },
+  "P080": {
+    "id": "P080",
+    "name": "面接基本準備者",
+    "description": "面接でよく聞かれる質問に準備不足で答えられない27卒就活生",
+    "characteristics": ["27卒就活生", "面接準備段階", "基本質問対策", "時期的緊急性"],
+    "psychologicalNeeds": ["基本準備完了", "質問対策", "面接不安解消"],
+    "triggerMoments": ["面接準備開始時", "質問対策時", "夏前準備時"],
+    "compatibleTypes": ["003"],
+    "compatibleThemes": ["T007", "T008"],
+    "painPoints": ["準備不足不安", "質問対策不明", "時間的切迫感"],
+    "desiredOutcomes": ["面接準備完了", "質問対応力", "面接成功"]
   }
 }

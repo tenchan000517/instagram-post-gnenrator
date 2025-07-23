@@ -1,0 +1,487 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "11",
+        "pageIndicator": "1/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレーまたはベージュ系の背景",
+        "overlayStructure": "白色の角丸カード",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "黒文字で「クスリの」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "テキストとイラストの組み合わせ",
+          "backgroundColor": "白",
+          "items": ["黄色背景に「アオキ」", "赤文字で「きっつすぎ...」"],
+          "visualElements": "スーツ姿の困った表情の男性イラスト（右下）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトルページ・問題提起",
+      "designElements": {
+        "colorScheme": ["グレー/ベージュ", "白", "黒", "黄色", "赤"],
+        "typography": "ゴシック体、大きめの文字サイズ",
+        "visualHierarchy": "会社名→感情表現→イラスト",
+        "trustSignals": [],
+        "engagementElements": ["困った表情のイラストで共感を誘う"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（1/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "11",
+        "pageIndicator": "2/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "吹き出し形式のテキストボックス",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "吹き出し内テキスト",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "イラストとロゴ",
+          "backgroundColor": "白",
+          "items": ["クスリのアオキの説明会聞いたんですが、実際どうなんですかね？"],
+          "visualElements": "スーツ姿の男性（腕組み、困惑表情）、クスリのアオキのロゴ（左下）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "問題提起・疑問の投げかけ",
+      "designElements": {
+        "colorScheme": ["白", "黒", "赤（ロゴ）", "青（男性のスーツ）"],
+        "typography": "ゴシック体、読みやすいサイズ",
+        "visualHierarchy": "吹き出しテキスト→男性イラスト→企業ロゴ",
+        "trustSignals": ["企業ロゴの掲載"],
+        "engagementElements": ["疑問形での問いかけ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（2/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "11",
+        "pageIndicator": "3/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "ベージュ系背景",
+        "overlayStructure": "なし",
+        "headerType": "上部に「説明会」のタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「説明会」タイトル",
+          "layout": "中央配置"
+        },
+        "middleSection": {
+          "format": "イラストとテキスト",
+          "backgroundColor": "ベージュ",
+          "items": ["若手のうちから活躍できます"],
+          "visualElements": "説明会場面（発表者と聴衆）のイラスト、吹き出し「へ〜！良さそう」"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "企業説明会の良い点の紹介",
+      "designElements": {
+        "colorScheme": ["ベージュ", "黒", "赤（テキスト）", "青（聴衆）"],
+        "typography": "ゴシック体、赤色で重要部分強調",
+        "visualHierarchy": "タイトル→イラスト→説明内容→反応",
+        "trustSignals": [],
+        "engagementElements": ["ポジティブな反応の吹き出し"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（3/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "11",
+        "pageIndicator": "4/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「１日10時間」（赤文字）「働くこともある」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "テキストとイラスト",
+          "backgroundColor": "白",
+          "items": ["体力お化けじゃないとやっていけない！"],
+          "visualElements": "疲れた男性が椅子に座っているイラスト、汗マーク"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "労働時間の厳しさの説明",
+      "designElements": {
+        "colorScheme": ["白", "黒", "赤（強調）", "青（男性のスーツ）"],
+        "typography": "ゴシック体、赤色で時間強調",
+        "visualHierarchy": "労働時間→説明→イラスト",
+        "trustSignals": [],
+        "engagementElements": ["疲労を表現するイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（4/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "11",
+        "pageIndicator": "5/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "ベージュ系背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「ほぼ毎日」「重い荷下ろし」（赤文字）「がある」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "イラストのみ",
+          "backgroundColor": "ベージュ",
+          "items": [],
+          "visualElements": "重い箱を運ぶ作業員とトラックのイラスト、汗マーク"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "物理的な労働の厳しさの説明",
+      "designElements": {
+        "colorScheme": ["ベージュ", "黒", "赤（強調）", "白（トラック）", "茶色（箱）"],
+        "typography": "ゴシック体、赤色で重要部分強調",
+        "visualHierarchy": "テキスト→イラスト",
+        "trustSignals": [],
+        "engagementElements": ["重労働を視覚的に表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（5/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "11",
+        "pageIndicator": "6/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "ベージュ系背景",
+        "overlayStructure": "なし",
+        "headerType": "上部に「説明会」のタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「説明会」タイトル",
+          "layout": "中央配置"
+        },
+        "middleSection": {
+          "format": "イラストとテキスト",
+          "backgroundColor": "ベージュ",
+          "items": ["進みたいキャリアにチャレンジできます"],
+          "visualElements": "説明会で発表している人物のイラスト"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "キャリアパスのポジティブな面の紹介",
+      "designElements": {
+        "colorScheme": ["ベージュ", "黒", "赤（テキスト）", "青（発表者のスーツ）"],
+        "typography": "ゴシック体、赤色で重要部分強調",
+        "visualHierarchy": "タイトル→イラスト→説明内容",
+        "trustSignals": [],
+        "engagementElements": ["前向きなキャリア情報"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（6/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "11",
+        "pageIndicator": "7/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「進みたいキャリアに行くまでが過酷」（過酷は赤文字）",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "テキストとイラスト",
+          "backgroundColor": "白",
+          "items": ["人事や企画に辿りつくまでが遠すぎる..."],
+          "visualElements": "レジで働く人々のイラスト（スーパーマーケットの場面）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "キャリアパスの現実的な困難さの説明",
+      "designElements": {
+        "colorScheme": ["白", "黒", "赤（強調）", "緑（作業員エプロン）"],
+        "typography": "ゴシック体、赤色で「過酷」を強調",
+        "visualHierarchy": "問題提起→詳細説明→イラスト",
+        "trustSignals": [],
+        "engagementElements": ["現実的な職場風景の描写"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（7/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "11",
+        "pageIndicator": "8/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "吹き出し形式",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「遅番、早番と働く時間が決まっていない」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "イラストと吹き出し",
+          "backgroundColor": "白",
+          "items": ["健康管理が大変！", "ある日は22:00まで翌日7:00から、みたいな"],
+          "visualElements": "朝の風景（太陽）と困った表情の男性イラスト（緑のシャツ）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "シフト制の労働条件の説明",
+      "designElements": {
+        "colorScheme": ["白", "黒", "赤（強調）", "青（空）", "緑（男性のシャツ）"],
+        "typography": "ゴシック体、赤色で重要部分強調",
+        "visualHierarchy": "問題提起→吹き出し説明→補足情報",
+        "trustSignals": [],
+        "engagementElements": ["具体的な時間例の提示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（8/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "11",
+        "pageIndicator": "9/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "長文テキスト（昇進と給料について）",
+          "layout": "上部から中央にかけて配置"
+        },
+        "middleSection": {
+          "format": "テキストのみ",
+          "backgroundColor": "白",
+          "items": [
+            "若くても優秀であれば昇進しやすく給料もあがる一方で...",
+            "毎年800人以上新入社員が入りますが一年経つと半分はいなくなるという話も😭",
+            "働き方などしっかりと調べた上で、自分に合うかどうか考えてみてください。"
+          ],
+          "visualElements": "指を立てた人物のイラスト（右下）、黄色のハイライト"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「28」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "企業の離職率と注意喚起",
+      "designElements": {
+        "colorScheme": ["白", "黒", "赤（強調）", "黄色（ハイライト）"],
+        "typography": "ゴシック体、赤色で数字強調、黄色マーカー効果",
+        "visualHierarchy": "メリット→デメリット（離職率）→アドバイス",
+        "trustSignals": ["具体的な数字の提示"],
+        "engagementElements": ["絵文字（😭）の使用"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（9/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "11",
+        "pageIndicator": "10/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "吹き出し形式",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「乗り遅れないで！就活、もう始まってます...！」（赤文字強調）",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "テキストとイラスト",
+          "backgroundColor": "白",
+          "items": [
+            "就活は先手必勝。",
+            "1日でも早くスタートした人が勝つゲームです。"
+          ],
+          "visualElements": "指差しポーズの人物イラスト（赤いシャツ）、黄色のハイライト"
+        },
+        "bottomSection": {
+          "elements": "吹き出し「でも、何からやればいいの？」そんな就活生のあなたへ",
+          "ctaElements": "次ページへの誘導"
+        }
+      },
+      "actualRole": "就活開始の促し・CTA準備",
+      "designElements": {
+        "colorScheme": ["白", "黒", "赤（強調・シャツ）", "黄色（ハイライト）"],
+        "typography": "ゴシック体、赤色で緊急性を強調",
+        "visualHierarchy": "警告→説明→疑問提起",
+        "trustSignals": [],
+        "engagementElements": ["指差しによる注意喚起", "疑問形での共感"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（10/11）",
+        "savePrompts": "なし"
+      }
+    },
+    "page11": {
+      "pageInfo": {
+        "currentPage": "11",
+        "totalPages": "11",
+        "pageIndicator": "最終ページ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "ベージュ系背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「2000人の学生をサポートした私が絶対後悔しない就活の進め方作成しました」",
+          "layout": "上部配置、黄色ハイライト"
+        },
+        "middleSection": {
+          "format": "テキストとプロフィール画像",
+          "backgroundColor": "ベージュ",
+          "items": [
+            "人事に「これがあれば安心」と大絶賛された",
+            "後悔しない就活の進め方"
+          ],
+          "visualElements": "プロフィール画像、URLリンク（job-hun.com/ab/shukatsu_sep-manga_inst）"
+        },
+        "bottomSection": {
+          "elements": "「ここから無料で受け取ってね！」と人物イラスト",
+          "ctaElements": "URLへの誘導"
+        }
+      },
+      "actualRole": "サービス紹介・最終CTA",
+      "designElements": {
+        "colorScheme": ["ベージュ", "黒", "赤", "黄色（ハイライト）", "青（リンク）"],
+        "typography": "ゴシック体、複数のハイライト使用",
+        "visualHierarchy": "実績→権威付け→商品名→CTA",
+        "trustSignals": ["2000人の実績", "人事の推薦"],
+        "engagementElements": ["無料提供", "URLの明示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "プロフィールURLへのアクセス促進"
+      }
+    }
+  }
+}

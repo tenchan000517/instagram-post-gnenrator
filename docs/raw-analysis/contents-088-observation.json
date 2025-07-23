@@ -1,0 +1,249 @@
+{
+  "observation_id": "contents-088",
+  "analysis_date": "2025-07-23", 
+  "raw_observations": {
+    "page_sequence": [
+      {
+        "page": 1,
+        "filename": "S__16253322_0.jpg",
+        "layout_type": "category_overview_cover",
+        "visual_elements": {
+          "background": "blue_teal_gradient_geometric",
+          "main_title": "vertical_text_shortcut_key",
+          "subtitle_banner": "blue_ribbon_efficiency_message",
+          "category_boxes": "three_visual_sections_with_images"
+        },
+        "text_content": {
+          "main_title": "ショートカットキー",
+          "efficiency_message": "パソコン作業が効率アップする！",
+          "categories": [
+            {
+              "name": "頻繁に使える編",
+              "visual": "laptop_keyboard_image"
+            },
+            {
+              "name": "文字装飾編", 
+              "visual": "code_text_document_image"
+            },
+            {
+              "name": "Excel編",
+              "visual": "spreadsheet_data_image"
+            }
+          ],
+          "call_to_action": "保存必須"
+        },
+        "ui_elements": {
+          "page_indicator": "1/6",
+          "account_handle": "run20020000"
+        }
+      },
+      {
+        "page": 2,
+        "filename": "S__16253324_0.jpg",
+        "layout_type": "concept_explanation_with_photo",
+        "visual_elements": {
+          "background": "blue_teal_gradient_consistent",
+          "explanation_boxes": "rounded_white_cards",
+          "photo_element": "actual_students_working_on_laptops"
+        },
+        "text_content": {
+          "definition_title": "ショートカットキーとは",
+          "definition_text": "パソコンのキーボードで操作の時間短縮や作業効率UPをする機能です！",
+          "use_cases_title": "こんな時に使える",
+          "use_cases_list": [
+            "大学レポートやエクセルの使用時",
+            "プレゼン準備",
+            "パソコンを使う仕事", 
+            "就活"
+          ],
+          "personal_testimony": "Runでは、パソコンで雑誌制作をするのでショートカットキーをよく使います！"
+        },
+        "ui_elements": {
+          "page_indicator": "2/6"
+        }
+      },
+      {
+        "page": 3,
+        "filename": "S__16253325_0.jpg",
+        "layout_type": "shortcut_list_basic",
+        "visual_elements": {
+          "background": "blue_teal_gradient_consistent",
+          "section_header": "blue_rounded_category_header",
+          "shortcut_items": "button_style_function_key_pairs"
+        },
+        "text_content": {
+          "section_title": "頻繁に使える編",
+          "shortcuts": [
+            {
+              "function": "コピー",
+              "key_combination": "Ctrl(command)+C"
+            },
+            {
+              "function": "戻る",
+              "key_combination": "Ctrl(command)+Z"
+            },
+            {
+              "function": "削除+コピー",
+              "key_combination": "Ctrl+X"
+            },
+            {
+              "function": "全て選択",
+              "key_combination": "Ctrl+A"
+            },
+            {
+              "function": "ページ内の単語検索",
+              "key_combination": "Ctrl+F"
+            },
+            {
+              "function": "スクリーンショット",
+              "key_combination": "Ctrl+shift+F"
+            }
+          ]
+        },
+        "ui_elements": {
+          "page_indicator": "3/6"
+        }
+      },
+      {
+        "page": 4,
+        "filename": "S__16253326_0.jpg",
+        "layout_type": "dual_category_shortcuts",
+        "visual_elements": {
+          "background": "blue_teal_gradient_consistent",
+          "section_headers": "two_blue_rounded_category_headers",
+          "shortcut_layout": "stacked_categories_design"
+        },
+        "text_content": {
+          "text_formatting_section": {
+            "title": "文字装飾編",
+            "shortcuts": [
+              {
+                "function": "太字",
+                "key_combination": "Ctrl(command)+B"
+              },
+              {
+                "function": "斜体",
+                "key_combination": "Ctrl(command)+I"
+              },
+              {
+                "function": "下線を引く",
+                "key_combination": "Ctrl+U"
+              },
+              {
+                "function": "取り消し線",
+                "key_combination": "Alt+Shift+5"
+              }
+            ]
+          },
+          "excel_section_start": {
+            "title": "Excel編",
+            "shortcuts": [
+              {
+                "function": "上書き保存",
+                "key_combination": "Ctrl+S"
+              }
+            ]
+          }
+        },
+        "ui_elements": {
+          "page_indicator": "4/6"
+        }
+      },
+      {
+        "page": 5,
+        "filename": "S__16253327_0.jpg",
+        "layout_type": "excel_advanced_shortcuts",
+        "visual_elements": {
+          "background": "blue_teal_gradient_consistent",
+          "section_header": "blue_rounded_excel_category_header",
+          "navigation_element": "last_page_arrow_button"
+        },
+        "text_content": {
+          "section_title": "Excel編",
+          "advanced_shortcuts": [
+            {
+              "function": "セルの書式設定を開く",
+              "key_combination": "Ctrl+1"
+            },
+            {
+              "function": "印刷画面を開く", 
+              "key_combination": "Ctrl+P"
+            },
+            {
+              "function": "表を作る",
+              "key_combination": "Ctrl+T"
+            },
+            {
+              "function": "今日の日付入力",
+              "key_combination": "Ctrl+;"
+            },
+            {
+              "function": "現在時間を入力",
+              "key_combination": "Ctrl+:"
+            }
+          ],
+          "navigation_cue": "LAST PAGE >>"
+        },
+        "ui_elements": {
+          "page_indicator": "5/6"
+        }
+      },
+      {
+        "page": 6,
+        "filename": "S__16253328_0.jpg",
+        "layout_type": "brand_promotion_follow",
+        "visual_elements": {
+          "background": "blue_teal_gradient_with_overlay_text",
+          "follow_button": "gray_rounded_follow_us_banner",
+          "brand_logo": "run_magazine_circular_yellow_logo", 
+          "magazine_preview": "run_magazine_vol2_cover_image"
+        },
+        "text_content": {
+          "follow_call": "FOLLOW US",
+          "brand_message": "「大学生の"今"を届ける」をコンセプトに、高校生・大学生に向けて雑誌制作中！",
+          "event_announcement": "11月に行われる早稲田祭にて『RUN MAGAZINE VOL.2』販売予定！",
+          "additional_content": "他の投稿もチェック✓",
+          "target_description": "高校生・大学生に向けて雑誌を制作しています！"
+        },
+        "hashtags": [
+          "#大学生サークル", "#インカレ", "#早稲田", "#雑誌",
+          "#0304students", "#0203students", "#0405students", "#0506students",
+          "#大学生の暮らし", "#大学生の生活記録", "#春から早稲田", "#早稲田",
+          "#雑誌", "#サークル", "#インカレ", "#新歓", "#大学生活", "#大学生の日常",
+          "#大学生#男子大学生", "#女子大学生", "#大学生の暮らし", "#0405students",
+          "#0405", "#春から大学生", "#大学準備", "#新大学生", "#新生活", "#ai",
+          "#chatgpt", "#aiツール"
+        ],
+        "post_metadata": {
+          "timestamp": "2023年6月9日"
+        }
+      }
+    ],
+    "overall_structure": {
+      "post_type": "practical_educational_guide",
+      "topic_focus": "computer_efficiency_keyboard_shortcuts",
+      "information_organization": "category_based_progressive_learning",
+      "target_audience": "high_school_university_students",
+      "content_authority": "student_magazine_run_publication",
+      "engagement_strategy": "utility_to_brand_following"
+    },
+    "design_patterns": {
+      "color_consistency": "blue_teal_gradient_throughout_all_pages",
+      "typography": "bold_readable_shortcut_key_emphasis",
+      "layout_progression": "overview_explanation_basic_advanced_promotion",
+      "visual_cohesion": "rounded_box_card_system_consistent"
+    },
+    "content_quality_indicators": {
+      "practical_applicability": "immediately_usable_keyboard_shortcuts",
+      "comprehensiveness": "basic_to_advanced_coverage_multiple_categories",
+      "learning_structure": "systematic_category_based_organization",
+      "visual_clarity": "clear_function_key_combination_pairs"
+    }
+  },
+  "meta_analysis": {
+    "structural_completeness": "comprehensive_shortcut_guide_flow",
+    "information_density": "high_value_practical_shortcuts",
+    "engagement_design": "utility_plus_brand_magazine_promotion",
+    "brand_consistency": "student_focused_run_magazine_identity"
+  }
+}

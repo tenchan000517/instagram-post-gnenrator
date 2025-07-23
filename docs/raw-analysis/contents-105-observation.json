@@ -1,0 +1,69 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": "9",
+      "contentPages": "8 (9ページ目はハッシュタグのみ)"
+    },
+    "layoutStructure": {
+      "backgroundType": "グラデーション（1ページ目）→単色ベージュ（2-9ページ）",
+      "backgroundDescription": "1ページ目: ピンク系グラデーション＋白枠、2-9ページ: 一様なベージュ系背景",
+      "overlayStructure": "テキストのみの直接配置（オーバーレイなし）",
+      "headerType": "番号付きタイトル（①-⑦、丸囲み数字）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "番号（①-⑧）＋メインタイトル",
+        "layout": "中央上部配置、太字強調"
+      },
+      "middleSection": {
+        "format": "詳細説明文のみ",
+        "backgroundColor": "背景と同色（透明）",
+        "items": [
+          "具体的な行動・心理の説明文",
+          "理由・根拠の補足説明"
+        ],
+        "visualElements": "1ページ目のみ人物イラスト、他は文字のみ"
+      },
+      "bottomSection": {
+        "elements": "なし（最終ページのみハッシュタグ）",
+        "ctaElements": "なし"
+      }
+    },
+    "actualRole": {
+      "page1": "コンセプト提示とビジュアルでの引き付け",
+      "page2-8": "心理学的特徴の段階的・体系的説明",
+      "page9": "SNS用メタデータ（ハッシュタグ・時間）"
+    },
+    "designElements": {
+      "colorScheme": ["ベージュ（背景）", "ピンク系（1ページグラデーション）", "黒色（テキスト）", "白色（フレーム）"],
+      "typography": "ゴシック体、タイトルは太字、本文は通常体重",
+      "visualHierarchy": "番号→タイトル→詳細説明（一直線の縦配置）",
+      "trustSignals": ["心理学というジャンル表示", "体系的な番号構成", "論理的な説明文"],  
+      "engagementElements": ["共感しやすい内容", "自己肯定的なメッセージ", "実践可能なアドバイス"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（静的コンテンツ）",
+      "swipeIndicators": "ページドット表示",
+      "savePrompts": "なし"
+    },
+    "contentTone": {
+      "writingStyle": "優しく包み込むような文体",
+      "messageDirection": "肯定的・励ます方向性",
+      "psychologicalApproach": "アドラー心理学的な自己決定論",
+      "practicalLevel": "日常生活で意識できる具体性"
+    },
+    "psychologicalFramework": {
+      "theoreticalBase": "自己決定理論、アドラー心理学の影響",
+      "keyThemes": ["自己責任", "主体性", "内的動機", "自己受容"],
+      "targetEmotion": "自己肯定感の向上、人生への主体性回復",
+      "avoidanceTopics": "他者批判、ネガティブな比較"
+    },
+    "visualMinimalism": {
+      "designPhilosophy": "文字中心のミニマルデザイン",
+      "colorRestraint": "落ち着いた色調で心理的安定感を演出",
+      "layoutConsistency": "全ページ同じレイアウト構成",
+      "readabilityFocus": "読みやすさを最優先したデザイン選択"
+    }
+  }
+}

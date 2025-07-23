@@ -1,0 +1,166 @@
+{
+  "pageStructureId": "problem-solution-bridge-10page",
+  "name": "問題解決ブリッジ10ページ構成",
+  "targetCombination": "Complex problem analysis with structured solutions",
+  "description": "問題の詳細分析から移行ページを経て段階的解決策へ導く10ページ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "section-items",
+      "role": "title-cover-page",
+      "title": "メインタイトルと視覚的フック",
+      "itemAssignments": {
+        "title": "動的タイトル生成",
+        "sections": [
+          {
+            "sectionTitle": "インパクトタイトル",
+            "itemType": "main-title-hook",
+            "extractionRule": "読者の注意を引く印象的なタイトルを生成",
+            "itemCount": 1
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "section-items",
+      "role": "problem-amplification-page",
+      "title": "問題の詳細と痛みの具体化",
+      "itemAssignments": {
+        "title": "この問題の深刻さを理解していますか？",
+        "sections": [
+          {
+            "sectionTitle": "問題の詳細分析",
+            "itemType": "pain-point-detail",
+            "extractionRule": "問題の深刻さと具体的な痛みを詳細に描写",
+            "itemCount": 2
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 3,
+      "templateId": "enumeration",
+      "role": "problem-list-page",
+      "title": "問題の列挙（第1部）",
+      "itemAssignments": {
+        "title": "よくある問題パターン",
+        "enumeration": {
+          "itemType": "problem-enumeration",
+          "extractionRule": "一般的で認識しやすい問題を列挙",
+          "itemCount": 3
+        }
+      }
+    },
+    {
+      "pageNumber": 4,
+      "templateId": "enumeration",
+      "role": "problem-list-page",
+      "title": "問題の列挙（第2部）",
+      "itemAssignments": {
+        "title": "より深刻な問題",
+        "enumeration": {
+          "itemType": "problem-enumeration",
+          "extractionRule": "より複雑で解決困難な問題を列挙",
+          "itemCount": 3
+        }
+      }
+    },
+    {
+      "pageNumber": 5,
+      "templateId": "enumeration",
+      "role": "problem-list-page",
+      "title": "問題の列挙（第3部）",
+      "itemAssignments": {
+        "title": "最も困難な課題",
+        "enumeration": {
+          "itemType": "problem-enumeration",
+          "extractionRule": "最も解決が困難で影響が大きい問題を列挙",
+          "itemCount": 3
+        }
+      }
+    },
+    {
+      "pageNumber": 6,
+      "templateId": "section-items",
+      "role": "transition-page",
+      "title": "問題から解決への架け橋",
+      "itemAssignments": {
+        "title": "でも、諦める必要はありません",
+        "sections": [
+          {
+            "sectionTitle": "希望のメッセージ",
+            "itemType": "bridge-statement",
+            "extractionRule": "問題認識から解決可能性への移行を促すメッセージ",
+            "itemCount": 1
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 7,
+      "templateId": "section-items",
+      "role": "solution-steps-page",
+      "title": "解決策のステップ（前編）",
+      "itemAssignments": {
+        "title": "効果的な解決アプローチ",
+        "sections": [
+          {
+            "sectionTitle": "基礎的な解決策",
+            "itemType": "action-item",
+            "extractionRule": "すぐに実践可能な基本的解決策を提示",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 8,
+      "templateId": "section-items",
+      "role": "solution-steps-page",
+      "title": "解決策のステップ（後編）",
+      "itemAssignments": {
+        "title": "より高度な解決法",
+        "sections": [
+          {
+            "sectionTitle": "発展的な解決策",
+            "itemType": "action-item",
+            "extractionRule": "より効果的で持続的な解決策を提示",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 9,
+      "templateId": "section-items",
+      "role": "service-offer-page",
+      "title": "サービス提案とサポート",
+      "itemAssignments": {
+        "title": "プロフェッショナルなサポート",
+        "sections": [
+          {
+            "sectionTitle": "提供サービス",
+            "itemType": "service-pitch",
+            "extractionRule": "具体的なサービス内容と提供価値を説明",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 10,
+      "templateId": "enumeration",
+      "role": "profile-cta-page",
+      "title": "次のアクションへの誘導",
+      "itemAssignments": {
+        "title": "今すぐ始めよう",
+        "enumeration": {
+          "itemType": "account-promotion",
+          "extractionRule": "フォロー促進と具体的なアクション喚起",
+          "itemCount": 3
+        }
+      }
+    }
+  ]
+}

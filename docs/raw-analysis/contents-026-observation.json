@@ -1,0 +1,56 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 13,
+      "pageIndicator": "x/13形式で表示"
+    },
+    "layoutStructure": {
+      "backgroundType": "グラデーション・単色背景の組み合わせ",
+      "backgroundDescription": "1ページ目：赤-オレンジグラデーション、2-4ページ：ベージュ単色、5-6ページ：ベージュ単色、7-10ページ：水色単色、11ページ：薄緑単色、12-13ページ：ベージュ単色",
+      "overlayStructure": "白い角丸カードの重ね配置",
+      "headerType": "共通ヘッダー『インターンで内定できる高倍率企業TOP50』+ キャラクターイラスト"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "タイトル文字、ページインジケーター、キャラクターイラスト",
+        "layout": "中央配置、右上にページ数表示"
+      },
+      "middleSection": {
+        "format": "ランキングリスト形式",
+        "backgroundColor": "段階的色分け（オレンジ→紫→青→緑）",
+        "items": [
+          "順位番号（大きく表示）",
+          "企業名（太字黒文字）",
+          "業種（括弧内に表示）",
+          "採用状況（赤字で強調）"
+        ],
+        "visualElements": "カード型レイアウト、統一されたボックスデザイン"
+      },
+      "bottomSection": {
+        "elements": "Instagram UI、ハッシュタグ、いいね数（116）",
+        "ctaElements": "最終ページに無料受け取りCTA"
+      }
+    },
+    "actualRole": "ranking-information-provision-with-credibility-building",
+    "designElements": {
+      "colorScheme": ["赤", "オレンジ", "ベージュ", "紫", "青", "緑", "白", "黒"],
+      "typography": "太字見出し、標準テキスト、赤字強調",
+      "visualHierarchy": "順位→企業名→業種→採用状況の順で情報整理",
+      "trustSignals": ["企業ロゴ一覧", "2000人サポート実績", "27歳の具体年齢", "人事からの推薦コメント"],
+      "engagementElements": ["段階的色分けによる視覚的変化", "具体的企業名の列挙", "無料という強調"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（最終ページのCTAのみ）",
+      "swipeIndicators": "ページドット表示でスワイプ誘導",
+      "savePrompts": "『ここから無料で受け取ってね！』という直接的CTA"
+    },
+    "specificObservations": {
+      "rankingProgression": "1-5位（オレンジ）、6-25位（オレンジ→紫）、26-45位（青）、46-50位（緑）という色分け",
+      "businessCategories": "レジャー、食品・水産、システム・ソフト、商社・卸売業、電子部品・機器、化学、自動車部品等の多業種",
+      "selectionStatus": "早期選考案内、本選考関係あり、限定選考、選考優遇、座談会案内等の具体的状況表記",
+      "credibilityBuilding": "12ページで大手企業ロゴを大量表示、13ページで人事推薦と実績数値を強調",
+      "characterConsistency": "全ページで同じキャラクターイラストを右上に配置"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 8,
+      "pageIndicator": "x/8形式で表示"
+    },
+    "layoutStructure": {
+      "backgroundType": "統一された単色背景",
+      "backgroundDescription": "全ページ薄い青色背景で統一",
+      "overlayStructure": "青いボックス、白い角丸ボックスの重ね配置",
+      "headerType": "ヘッダーなし、シンプルな構成"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページインジケーター、メインテキスト",
+        "layout": "右上にページ数、中央にコンテンツ"
+      },
+      "middleSection": {
+        "format": "テキスト＋キャラクター＋強調ボックス",
+        "backgroundColor": "青いボックス（重要情報）、白いボックス（最終ページ）",
+        "items": [
+          "メインメッセージ（黒文字）",
+          "強調テキスト（青いボックス内）",
+          "具体例（青いボックス内）",
+          "励ましメッセージ"
+        ],
+        "visualElements": "黄色ヒヨコキャラクター、虫眼鏡、星マーク、絵文字"
+      },
+      "bottomSection": {
+        "elements": "ヒヨコキャラクター、Instagram UI、いいね数（30）",
+        "ctaElements": "最終ページで保存促進と継続コンテンツ案内"
+      }
+    },
+    "actualRole": "gakuchika-anxiety-relief-with-reframing-perspective",
+    "designElements": {
+      "colorScheme": ["薄い青", "黄色", "白", "黒", "オレンジ"],
+      "typography": "標準黒文字、青ボックス内文字、絵文字使用",
+      "visualHierarchy": "共感→問題理解→誤解解消→企業視点→具体例→励まし→継続誘導",
+      "trustSignals": ["企業視点の提供", "具体例による実用性", "継続コンテンツ提供"],
+      "engagementElements": ["親しみやすいキャラクター", "共感的年齢表記", "秘密だよという親近感"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし",
+      "swipeIndicators": "ページドット表示",
+      "savePrompts": "『保存して何度も見返してね♪』という明確な指示"
+    },
+    "specificObservations": {
+      "characterConsistency": "黄色ヒヨコキャラクターが全ページで一貫して使用（表情・ポーズが状況に応じて変化）",
+      "ageSpecificity": "27歳という具体的年齢で共感ターゲットを明確化",
+      "reframingStrategy": "問題認識→誤解解消→正しい視点提供→具体例→励ましの段階的リフレーミング",
+      "intimacyCreation": "『あなたの秘密だよ…🤫』で特別感と親近感を演出",
+      "continuityElement": "毎週月・水・金の定期発信で継続関係構築を図る"
+    }
+  }
+}

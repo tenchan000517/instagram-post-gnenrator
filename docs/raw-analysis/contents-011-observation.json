@@ -1,0 +1,243 @@
+{
+  "observationData": {
+    "pages": [
+      {
+        "pageInfo": {
+          "currentPage": "1",
+          "totalPages": "5",
+          "pageIndicator": "1/5"
+        },
+        "layoutStructure": {
+          "backgroundType": "グラデーション",
+          "backgroundDescription": "青色グラデーション背景",
+          "overlayStructure": "白色の角丸フレームを上下に配置",
+          "headerType": "上部に青色背景でハッシュタグ配置"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "#業界研究・仕事研究 タグ",
+            "layout": "青色背景に白文字、角丸デザイン"
+          },
+          "middleSection": {
+            "format": "タイトル表示",
+            "backgroundColor": "青色グラデーション",
+            "items": [
+              "業界と職種（白文字、下線付き）",
+              "その違いは？（白文字、手書き風フォント）"
+            ],
+            "visualElements": "???マークを右下に配置"
+          },
+          "bottomSection": {
+            "elements": "マイナビ @mynavi_shukatsu_junbi",
+            "ctaElements": "ハートアイコン、いいね数34表示"
+          }
+        },
+        "actualRole": "タイトルページ・投稿の主題提示",
+        "designElements": {
+          "colorScheme": ["青色", "白色"],
+          "typography": "ゴシック体と手書き風フォントの組み合わせ",
+          "visualHierarchy": "タグ→メインタイトル→サブタイトル→アカウント情報",
+          "trustSignals": ["マイナビ公式アカウント表記"],
+          "engagementElements": ["いいねボタン", "いいね数表示"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン（いいね）",
+          "swipeIndicators": "ページインジケーター（1/5）",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "2",
+          "totalPages": "5",
+          "pageIndicator": "2/5"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "薄い青色背景",
+          "overlayStructure": "上部に青色フレーム、中央に白色コンテンツエリア",
+          "headerType": "青色フレームにタイトル配置"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "業界と職種の違いは？",
+            "layout": "黄色マーカーで強調"
+          },
+          "middleSection": {
+            "format": "説明文と定義ボックス",
+            "backgroundColor": "白色",
+            "items": [
+              "職種と業界の違いの説明文",
+              "業界の定義（青色強調）",
+              "職種の定義（青色強調）"
+            ],
+            "visualElements": "定義部分を枠で囲み、業界と職種を色分け"
+          },
+          "bottomSection": {
+            "elements": "出典：マイナビSTART「業界一覧とそれぞれの特徴を紹介！」より",
+            "ctaElements": "ハートアイコン"
+          }
+        },
+        "actualRole": "基本概念の説明・定義の提示",
+        "designElements": {
+          "colorScheme": ["青色", "黄色", "白色", "黒色"],
+          "typography": "明朝体とゴシック体の混在",
+          "visualHierarchy": "タイトル→説明文→定義ボックス→出典",
+          "trustSignals": ["出典明記"],
+          "engagementElements": ["ハートボタン"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "2/5表示",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "3",
+          "totalPages": "5",
+          "pageIndicator": "3/5"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "薄い青色背景",
+          "overlayStructure": "上部に青色フレーム、中央に白色コンテンツエリア",
+          "headerType": "黄色マーカーでタイトル強調"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "代表的な職種と働く業界",
+            "layout": "黄色マーカーで強調"
+          },
+          "middleSection": {
+            "format": "番号付きリスト形式",
+            "backgroundColor": "白色",
+            "items": [
+              "①企画系職種の説明と主な業界",
+              "②事務系職種の説明と主な業界",
+              "③営業系職種の説明と主な業界",
+              "④販売・サービス系職種の説明と主な業界"
+            ],
+            "visualElements": "各職種の番号を青色丸で強調、主な業界を黄色背景で表示"
+          },
+          "bottomSection": {
+            "elements": "出典表記とページ続きのイラスト（つづく→）",
+            "ctaElements": "ハートアイコン"
+          }
+        },
+        "actualRole": "職種の具体例提示（前半）",
+        "designElements": {
+          "colorScheme": ["青色", "黄色", "白色", "黒色"],
+          "typography": "ゴシック体中心",
+          "visualHierarchy": "タイトル→職種リスト（番号順）→出典",
+          "trustSignals": ["出典明記"],
+          "engagementElements": ["ハートボタン", "つづく表記"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "3/5表示、つづく→イラスト",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "4",
+          "totalPages": "5",
+          "pageIndicator": "4/5"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "薄い青色背景",
+          "overlayStructure": "上部に青色フレーム、中央に白色コンテンツエリア",
+          "headerType": "黄色マーカーでタイトル強調"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "代表的な職種と働く業界（つづき）",
+            "layout": "黄色マーカーで強調"
+          },
+          "middleSection": {
+            "format": "番号付きリスト形式の継続",
+            "backgroundColor": "白色",
+            "items": [
+              "⑤技術系職種の説明と主な業界",
+              "⑥クリエイティブ系職種の説明と主な業界",
+              "⑦研究系職種の説明と主な業界",
+              "⑧専門系職種の説明と主な業界"
+            ],
+            "visualElements": "各職種の番号を青色丸で強調、主な業界を黄色背景で表示"
+          },
+          "bottomSection": {
+            "elements": "出典表記",
+            "ctaElements": "ハートアイコン"
+          }
+        },
+        "actualRole": "職種の具体例提示（後半）",
+        "designElements": {
+          "colorScheme": ["青色", "黄色", "白色", "黒色"],
+          "typography": "ゴシック体中心",
+          "visualHierarchy": "タイトル→職種リスト（番号順）→出典",
+          "trustSignals": ["出典明記"],
+          "engagementElements": ["ハートボタン"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "ハートボタン",
+          "swipeIndicators": "4/5表示",
+          "savePrompts": "なし"
+        }
+      },
+      {
+        "pageInfo": {
+          "currentPage": "5",
+          "totalPages": "5",
+          "pageIndicator": "なし"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色",
+          "backgroundDescription": "薄い青色背景",
+          "overlayStructure": "上下に青色フレーム、中央に白色エリア",
+          "headerType": "なし"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "その他の投稿やマイナビ2027はプロフィールからチェック！",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "プロフィール紹介カード",
+            "backgroundColor": "白色",
+            "items": [
+              "ほかの投稿もCHECKテキスト",
+              "人物写真（紫色の服）",
+              "就活準備100問テキスト",
+              "緑色のレポートカード（大学1,2年生のキャリア意識調査）"
+            ],
+            "visualElements": "左側に人物写真、右側に緑色のカード配置"
+          },
+          "bottomSection": {
+            "elements": "左右にCTAボタン配置",
+            "ctaElements": "ここをTAPしてプロフィールへ（左）、気になった投稿は□（右）"
+          }
+        },
+        "actualRole": "CTA・プロフィール誘導ページ",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "緑色", "紫色"],
+          "typography": "ゴシック体",
+          "visualHierarchy": "メインメッセージ→プロフィール紹介→CTAボタン",
+          "trustSignals": ["マイナビブランド", "利用者数表示"],
+          "engagementElements": ["プロフィールへの誘導", "保存促進"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "プロフィールへのTAPボタン",
+          "swipeIndicators": "なし",
+          "savePrompts": "気になった投稿は□（保存アイコン）"
+        }
+      }
+    ]
+  }
+}

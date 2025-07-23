@@ -1,0 +1,250 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": "6",
+      "pageIndicator": "1/6形式で表示"
+    },
+    "generalStructure": {
+      "mainTheme": "就活電話マナー指導",
+      "contentFlow": "タイトル→準備事項→クッション言葉→基本会話例→折り返し会話例→他コンテンツCTA",
+      "visualConsistency": "青色ベースの統一デザイン、マイナビブランド"
+    },
+    "pageAnalysis": {
+      "page1": {
+        "layoutStructure": {
+          "backgroundType": "青色グラデーション背景",
+          "backgroundDescription": "明るい青から濃い青のグラデーション",
+          "overlayStructure": "タイトル配置とブランドロゴ",
+          "headerType": "ハッシュタグ（#就活マナー）白文字"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "ハッシュタグとページインジケーター",
+            "layout": "左上にハッシュタグ、右上に1/6"
+          },
+          "middleSection": {
+            "format": "疑問形タイトルと大見出し",
+            "backgroundColor": "透明",
+            "items": ["実は苦手な人が多い？（黄色吹き出し）", "電話のマナー（白文字大タイトル）"],
+            "visualElements": "携帯電話の線画イラスト"
+          },
+          "bottomSection": {
+            "elements": "マイナビロゴとアカウント名",
+            "ctaElements": "@mynavi_shukatsu_junbi"
+          }
+        },
+        "actualRole": "電話マナーへの関心喚起と疑問提起",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黄色"],
+          "typography": "疑問形は小さく、メインタイトルは大きく太字",
+          "visualHierarchy": "疑問→タイトル→ブランド",
+          "trustSignals": ["マイナビブランド"],
+          "engagementElements": ["疑問形による共感誘発", "親しみやすいイラスト"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page2": {
+        "layoutStructure": {
+          "backgroundType": "薄い青色背景",
+          "backgroundDescription": "一貫した青系背景色",
+          "overlayStructure": "番号付きリスト形式",
+          "headerType": "セクションタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "かける前に気をつけておきたいこと",
+            "layout": "センター配置のセクションタイトル"
+          },
+          "middleSection": {
+            "format": "5つの準備事項リスト",
+            "backgroundColor": "白い背景ボックス",
+            "items": ["①集中できる静かな場所", "②適切な時間帯", "③はきはきと笑顔", "④メモ取り", "⑤内容のまとめ"], 
+            "visualElements": "青い丸数字、詳細説明文"
+          },
+          "bottomSection": {
+            "elements": "まとめメッセージ",
+            "ctaElements": "基本マナー重要性の強調"
+          }
+        },
+        "actualRole": "電話前の準備事項の体系的な解説",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色"],
+          "typography": "見出しは青色、本文は黒色で読みやすい",
+          "visualHierarchy": "セクションタイトル→番号付きリスト→詳細説明",
+          "trustSignals": ["体系的な番号付け", "詳細な説明"],
+          "engagementElements": ["分かりやすい番号付け", "実践的なアドバイス"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし", 
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page3": {
+        "layoutStructure": {
+          "backgroundType": "薄い青色背景",
+          "backgroundDescription": "前ページと同様の青系背景",
+          "overlayStructure": "説明ボックスと例文リスト",
+          "headerType": "セクションタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "言葉遣い 〜クッション言葉〜",
+            "layout": "センター配置のセクションタイトル"
+          },
+          "middleSection": {
+            "format": "クッション言葉の定義と実例",
+            "backgroundColor": "白いボックス（点線枠）と薄い青背景",
+            "items": ["電球アイコン付き定義説明", "8つのクッション言葉と使用例"],
+            "visualElements": "青い丸点で各例を区切り"
+          },
+          "bottomSection": {
+            "elements": "出典表示",
+            "ctaElements": "マイナビ2027電話・メール・手紙編より"
+          }
+        },
+        "actualRole": "クッション言葉の具体的な使用方法指導",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色", "薄い青色"],
+          "typography": "クッション言葉は青文字、使用例は黒文字",
+          "visualHierarchy": "定義→フレーズ→使用例",
+          "trustSignals": ["マイナビ公式教材からの出典"],
+          "engagementElements": ["電球アイコンによる理解促進", "実用的な例文"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし", 
+          "savePrompts": "なし"
+        }
+      },
+      "page4": {
+        "layoutStructure": {
+          "backgroundType": "薄い青色背景",
+          "backgroundDescription": "一貫した青系デザイン",
+          "overlayStructure": "会話例ボックス配置",
+          "headerType": "セクションタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "電話応対 〜基本トーク例〜", 
+            "layout": "センター配置のセクション見出し"
+          },
+          "middleSection": {
+            "format": "シチュエーション別会話例",
+            "backgroundColor": "白い枠線ボックス",
+            "items": ["基本の挨拶", "本人不在時", "本人応答時", "時間確認", "終話挨拶"],
+            "visualElements": "各ボックスは独立した会話例として配置"
+          },
+          "bottomSection": {
+            "elements": "出典表示",
+            "ctaElements": "マイナビ2027教材への言及"
+          }
+        },
+        "actualRole": "基本的な電話会話の実践例提供",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色"],
+          "typography": "会話例は読みやすい標準フォント",
+          "visualHierarchy": "シチュエーション→会話例",
+          "trustSignals": ["公式教材ベース", "実践的な例文"],
+          "engagementElements": ["状況別の整理", "すぐ使える表現"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page5": {
+        "layoutStructure": {
+          "backgroundType": "薄い青色背景",
+          "backgroundDescription": "前ページからの継続デザイン",
+          "overlayStructure": "折り返し専用会話例",
+          "headerType": "セクションタイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "電話応対 〜折り返しトーク例〜",
+            "layout": "センター配置の専用見出し"
+          },
+          "middleSection": {
+            "format": "折り返し時の会話パターン",
+            "backgroundColor": "白い枠線ボックス",
+            "items": ["基本挨拶（折り返し版）", "本人不在時対応", "本人応答時", "注意事項"],
+            "visualElements": "オレンジ色ハイライトで重要な注意点を強調"
+          },
+          "bottomSection": {
+            "elements": "終話の挨拶例",
+            "ctaElements": "基本パターンの徹底"
+          }
+        },
+        "actualRole": "折り返し電話の特殊な対応方法指導",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色", "オレンジ色"],
+          "typography": "注意事項はオレンジでハイライト",
+          "visualHierarchy": "基本→応用→注意点",
+          "trustSignals": ["詳細な状況分け", "実践的な注意事項"],
+          "engagementElements": ["色分けによる重要度表示", "実用性の高い内容"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page6": {
+        "layoutStructure": {
+          "backgroundType": "薄い青色背景",
+          "backgroundDescription": "シリーズ最終ページの統一感",
+          "overlayStructure": "CTA要素の配置",
+          "headerType": "なし"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "その他の投稿やマイナビ2027はプロフィールからチェック！",
+            "layout": "センター配置のメインメッセージ"
+          },
+          "middleSection": {
+            "format": "他コンテンツの紹介",
+            "backgroundColor": "白い背景",
+            "items": ["就活準備100問の画像", "就活準備スケジュールの画像"],
+            "visualElements": "「ほかの投稿もCHECK✓」の案内文"
+          },
+          "bottomSection": {
+            "elements": "プロフィール誘導とブックマーク案内",
+            "ctaElements": "「ここをTAPしてプロフィールへ」「気になった投稿は保存」"
+          }
+        },
+        "actualRole": "他コンテンツへの誘導とエンゲージメント促進",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色"],
+          "typography": "CTA文は読みやすい中程度のサイズ",
+          "visualHierarchy": "メインCTA→他コンテンツ紹介→行動促進",
+          "trustSignals": ["豊富なコンテンツの存在"],
+          "engagementElements": ["視覚的なコンテンツ紹介", "明確な行動指示"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "プロフィールアクセス用の丸いアイコン",
+          "swipeIndicators": "なし",
+          "savePrompts": "ブックマークアイコン表示"
+        }
+      }
+    },
+    "overallObservations": {
+      "designConsistency": "全ページで青色ベースの統一されたデザイン",
+      "contentProgression": "理論→準備→実践→応用→関連コンテンツの自然な流れ",
+      "userExperience": "段階的な学習構造で実践的なスキル習得を支援",
+      "brandConsistency": "マイナビブランドと公式教材の信頼性を一貫して訴求",
+      "practicalValue": "すぐに使える具体的な表現と会話例を豊富に提供"
+    }
+  }
+}

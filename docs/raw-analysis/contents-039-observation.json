@@ -1,0 +1,472 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": 1,
+        "totalPages": 10,
+        "pageIndicator": "1/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "青色背景",
+        "overlayStructure": "中央に白い角丸カード配置",
+        "headerType": "上部に白文字タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["27卒のES添削募集中"],
+          "layout": "上部中央に白文字"
+        },
+        "middleSection": {
+          "format": "card-with-badge",
+          "backgroundColor": "白色",
+          "items": ["伊藤忠", "平凡な経験", "ES9割"],
+          "visualElements": "赤い「内定」バッジ、青いカード内背景"
+        },
+        "bottomSection": {
+          "elements": ["1/10表示", "73いいね"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "27卒向けES添削サービスの告知",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "赤色", "黒色"],
+        "typography": "太字フォント、カード内大文字",
+        "visualHierarchy": "タイトル→実績→内定バッジ順",
+        "trustSignals": ["伊藤忠", "ES9割", "内定バッジ"],
+        "engagementElements": ["目立つ配色", "実績数値"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": 2,
+        "totalPages": 10,
+        "pageIndicator": "2/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "白から薄青へのグラデーション",
+        "overlayStructure": "テキストブロック+キャラクター配置",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["ガクチカの添削"],
+          "layout": "青いヘッダーバー内に白文字"
+        },
+        "middleSection": {
+          "format": "text-blocks-with-highlights",
+          "backgroundColor": "白色枠線",
+          "items": [
+            "就活の本質説明",
+            "大手企業採用の説明",
+            "体育会への期待変化の説明"
+          ],
+          "visualElements": "文字強調（赤・黄色）、キャラクターイラスト"
+        },
+        "bottomSection": {
+          "elements": ["青い吹き出し", "メモ取り案内", "2/10表示"],
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "ガクチカ添削の重要性と背景説明",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "赤色", "黄色", "薄青"],
+        "typography": "通常フォント、強調色使用",
+        "visualHierarchy": "説明→強調→キャラクター→CTA順",
+        "trustSignals": ["年間500名サポート実績", "通過率9割"],
+        "engagementElements": ["色彩強調", "キャラクター使用"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "メモを取るのが面倒... 保存なら1タップで完了！"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": 3,
+        "totalPages": 10,
+        "pageIndicator": "3/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "白から薄青へのグラデーション",
+        "overlayStructure": "プロフィール+テキストブロック+フィードバック",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["ガクチカ"],
+          "layout": "青いヘッダーバー内に白文字"
+        },
+        "middleSection": {
+          "format": "profile-and-gakuchika-text",
+          "backgroundColor": "グレー背景",
+          "items": [
+            "学歴・インターン・志望業界情報",
+            "長文ガクチカ本文"
+          ],
+          "visualElements": "グレー背景ボックス、黒文字テキスト"
+        },
+        "bottomSection": {
+          "elements": ["青い吹き出し（不合格判定）", "理由説明", "3/10表示"],
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "実際のガクチカ事例とフィードバック提示",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "グレー", "黒色"],
+        "typography": "通常フォント、長文テキスト",
+        "visualHierarchy": "プロフィール→ガクチカ→判定→理由順",
+        "trustSignals": ["MARCH学歴", "大手インターン合格実績"],
+        "engagementElements": ["実際の事例", "明確な判定"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "保存促進メッセージ"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": 4,
+        "totalPages": 10,
+        "pageIndicator": "4/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "白から薄青へのグラデーション",
+        "overlayStructure": "改善点解説+テキスト分析",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["改善点①"],
+          "layout": "青いヘッダーバー内に白文字、○数字"
+        },
+        "middleSection": {
+          "format": "quoted-text-and-analysis",
+          "backgroundColor": "グレー枠線",
+          "items": [
+            "引用テキスト（グレー枠）",
+            "分析説明文",
+            "青い吹き出し（キャラクター付き）"
+          ],
+          "visualElements": "グレー枠線、キャラクターイラスト、青い吹き出し"
+        },
+        "bottomSection": {
+          "elements": ["保存促進メッセージ", "4/10表示"],
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "具体的改善点1の詳細解説",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "グレー", "黒色"],
+        "typography": "通常フォント、引用表示",
+        "visualHierarchy": "改善点番号→引用→分析→結論順",
+        "trustSignals": ["具体的分析", "論理的説明"],
+        "engagementElements": ["キャラクター使用", "吹き出し形式"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "保存促進メッセージ"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": 5,
+        "totalPages": 10,
+        "pageIndicator": "5/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "白から薄青へのグラデーション",
+        "overlayStructure": "改善点解説+企業情報",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["改善点②"],
+          "layout": "青いヘッダーバー内に白文字、○数字"
+        },
+        "middleSection": {
+          "format": "analysis-with-company-info",
+          "backgroundColor": "薄青",
+          "items": [
+            "引用テキスト（グレー枠）",
+            "総合商社の定義説明",
+            "三井物産・三菱商事の具体的説明"
+          ],
+          "visualElements": "薄青背景ボックス、会社名強調"
+        },
+        "bottomSection": {
+          "elements": ["保存促進メッセージ", "5/10表示"],
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "総合商社特有の要求事項解説",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "薄青", "グレー", "黒色"],
+        "typography": "通常フォント、会社名強調",
+        "visualHierarchy": "改善点番号→問題提起→企業説明→結論順",
+        "trustSignals": ["企業公式情報", "具体的企業名"],
+        "engagementElements": ["企業情報の詳細化", "色分けされた説明"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "保存促進メッセージ"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": 6,
+        "totalPages": 10,
+        "pageIndicator": "6/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "白から薄青へのグラデーション",
+        "overlayStructure": "改善点解説+機能リスト",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["改善点③"],
+          "layout": "青いヘッダーバー内に白文字、○数字"
+        },
+        "middleSection": {
+          "format": "text-with-numbered-list",
+          "backgroundColor": "薄青",
+          "items": [
+            "引用テキスト（グレー枠）",
+            "8つの機能リスト（番号付き）",
+            "分析結果説明"
+          ],
+          "visualElements": "薄青背景ボックス、番号付きリスト、赤文字強調"
+        },
+        "bottomSection": {
+          "elements": ["保存促進メッセージ", "6/10表示"],
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "総合商社の8つの機能と親和性解説",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "薄青", "グレー", "赤色", "黒色"],
+        "typography": "通常フォント、番号付きリスト、赤文字強調",
+        "visualHierarchy": "改善点番号→問題提起→機能リスト→改善提案順",
+        "trustSignals": ["具体的機能分析", "専門的知識"],
+        "engagementElements": ["構造化されたリスト", "色彩による強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "保存促進メッセージ"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": 7,
+        "totalPages": 10,
+        "pageIndicator": "7/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "白から薄青へのグラデーション",
+        "overlayStructure": "改善点解説+詳細分析",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["改善点④"],
+          "layout": "青いヘッダーバー内に白文字、○数字"
+        },
+        "middleSection": {
+          "format": "detailed-analysis-text",
+          "backgroundColor": "薄青",
+          "items": [
+            "引用テキスト（グレー枠）",
+            "オーガナイザー機能の詳細説明",
+            "他業界との差別化説明",
+            "改善アドバイス"
+          ],
+          "visualElements": "薄青背景ボックス、赤文字強調"
+        },
+        "bottomSection": {
+          "elements": ["保存促進メッセージ", "7/10表示"],
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "オーガナイザー機能の重要性と改善方向性説明",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "薄青", "グレー", "赤色", "黒色"],
+        "typography": "通常フォント、赤文字強調",
+        "visualHierarchy": "改善点番号→機能説明→差別化→アドバイス順",
+        "trustSignals": ["専門的機能分析", "業界比較"],
+        "engagementElements": ["詳細な解説", "実践的アドバイス"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "保存促進メッセージ"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": 8,
+        "totalPages": 10,
+        "pageIndicator": "8/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "白から薄青へのグラデーション",
+        "overlayStructure": "まとめ+改善後ガクチカ+転換",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["まとめ"],
+          "layout": "青いヘッダーバー内に白文字"
+        },
+        "middleSection": {
+          "format": "improved-gakuchika-with-results",
+          "backgroundColor": "グレー",
+          "items": [
+            "改善案ラベル（青枠）",
+            "改善後ガクチカ全文",
+            "青い吹き出し（キャラクター付き）"
+          ],
+          "visualElements": "グレー背景、青枠ラベル、キャラクターイラスト"
+        },
+        "bottomSection": {
+          "elements": ["次ページへの誘導", "保存促進メッセージ", "8/10表示"],
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "改善されたガクチカの完成版提示と次ステップへの誘導",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "グレー", "黒色"],
+        "typography": "通常フォント、ラベル強調",
+        "visualHierarchy": "まとめ→改善案→結果→転換順",
+        "trustSignals": ["具体的企業内定実績", "改善前後比較"],
+        "engagementElements": ["成功事例", "キャラクター使用"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "保存促進メッセージ"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": 9,
+        "totalPages": 10,
+        "pageIndicator": "9/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄青から白へのグラデーション",
+        "overlayStructure": "サービス特徴+参加方法",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["27卒のES添削募集中"],
+          "layout": "青いヘッダーバー内に白文字"
+        },
+        "middleSection": {
+          "format": "service-features-and-participation",
+          "backgroundColor": "ピンク・薄青",
+          "items": [
+            "特徴①（ピンク背景ボックス）",
+            "特徴②（ピンク背景ボックス）",
+            "対象者推奨（青背景ボックス）",
+            "参加方法（青背景ボックス）"
+          ],
+          "visualElements": "色分けされた背景ボックス、キャラクターイラスト"
+        },
+        "bottomSection": {
+          "elements": ["9/10表示"],
+          "ctaElements": "DM送信促進"
+        }
+      },
+      "actualRole": "ES添削サービスの詳細紹介と参加方法案内",
+      "designElements": {
+        "colorScheme": ["青色", "ピンク色", "薄青", "白色", "黒色"],
+        "typography": "通常フォント、タイトル強調",
+        "visualHierarchy": "サービス名→特徴→対象→参加方法順",
+        "trustSignals": ["8割以上通過率", "24時間以内添削"],
+        "engagementElements": ["色分け", "キャラクター", "明確な手順"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": 10,
+        "totalPages": 10,
+        "pageIndicator": "10/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄青から白へのグラデーション",
+        "overlayStructure": "講座紹介+受取方法",
+        "headerType": "青いヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["\"テキスト+動画講座\"配布中"],
+          "layout": "青いヘッダーバー内に白文字"
+        },
+        "middleSection": {
+          "format": "course-materials-and-steps",
+          "backgroundColor": "白色",
+          "items": [
+            "4つの教材画像",
+            "教材説明文",
+            "対象者説明",
+            "3ステップの受取方法"
+          ],
+          "visualElements": "教材画像、キャラクターイラスト、ステップアイコン"
+        },
+        "bottomSection": {
+          "elements": ["10/10表示"],
+          "ctaElements": "プロフィールリンク誘導"
+        }
+      },
+      "actualRole": "テキスト+動画講座の詳細紹介と具体的受取手順案内",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "緑色", "薄青", "黒色"],
+        "typography": "通常フォント、ステップ番号強調",
+        "visualHierarchy": "講座名→教材→説明→手順順",
+        "trustSignals": ["具体的教材画像", "実績数値", "明確な手順"],
+        "engagementElements": ["視覚的教材紹介", "ステップ化された手順"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

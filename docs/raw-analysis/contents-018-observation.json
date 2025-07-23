@@ -1,0 +1,305 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "7",
+        "pageIndicator": "1/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青紫系のグラデーション背景",
+        "overlayStructure": "白い角丸カード",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "【就活】業界マップ",
+          "layout": "上部配置、赤と黒の文字組み合わせ"
+        },
+        "middleSection": {
+          "format": "マップ形式の図表",
+          "backgroundColor": "白",
+          "items": ["各業界を黄色の円で配置", "厳しい↔穏やか（横軸）", "論理重視↔人情重視（縦軸）"],
+          "visualElements": "インフラ、人材、SIer、メーカー、大学、商社、コンサル、SaaS、ゲーム等の業界名、各業界に関連イラスト"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「727」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "業界マップ全体図の提示",
+      "designElements": {
+        "colorScheme": ["青紫グラデーション", "白", "黄色", "赤", "黒"],
+        "typography": "ゴシック体、角括弧での強調",
+        "visualHierarchy": "タイトル→マップ全体→各業界",
+        "trustSignals": [],
+        "engagementElements": ["視覚的なマップ形式", "業界ごとのイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（1/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "7",
+        "pageIndicator": "2/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いベージュまたは白色背景",
+        "overlayStructure": "業界ごとのセクション分け",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "インフラ業界の説明セクション",
+          "layout": "黄色い円「インフラ」＋説明文＋企業ロゴ"
+        },
+        "middleSection": {
+          "format": "3つの業界説明（インフラ・人材・SIer）",
+          "backgroundColor": "薄ベージュ",
+          "items": ["向いている人の特徴3つずつ", "代表企業ロゴ4社ずつ"],
+          "visualElements": "各業界の黄色い円、企業ロゴ（関西電力、JR東日本、リクルート、パソナ、富士通、NEC等）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「727」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "3業界の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["薄ベージュ", "黄色", "黒", "企業ロゴの各色"],
+        "typography": "ゴシック体、箇条書き形式",
+        "visualHierarchy": "業界名→特徴→企業ロゴ",
+        "trustSignals": ["有名企業ロゴの掲載"],
+        "engagementElements": ["統一されたレイアウト", "具体的な企業名"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（2/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "7",
+        "pageIndicator": "3/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いベージュまたは白色背景",
+        "overlayStructure": "業界ごとのセクション分け",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "メーカー業界の説明セクション",
+          "layout": "黄色い円「メーカー」＋説明文＋企業ロゴ"
+        },
+        "middleSection": {
+          "format": "3つの業界説明（メーカー・大学・商社）",
+          "backgroundColor": "薄ベージュ",
+          "items": ["向いている人の特徴", "代表企業ロゴ"],
+          "visualElements": "各業界の黄色い円、企業ロゴ（TOYOTA、Canon、東洋大学、三菱商事等）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「727」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "3業界の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["薄ベージュ", "黄色", "黒", "企業ロゴの各色"],
+        "typography": "ゴシック体、箇条書き形式",
+        "visualHierarchy": "業界名→特徴→企業ロゴ",
+        "trustSignals": ["有名企業・大学ロゴの掲載"],
+        "engagementElements": ["統一されたレイアウト", "多様な業界の紹介"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（3/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "7",
+        "pageIndicator": "4/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いベージュまたは白色背景",
+        "overlayStructure": "業界ごとのセクション分け",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "コンサル業界の説明セクション",
+          "layout": "黄色い円「コンサル」＋説明文＋企業ロゴ"
+        },
+        "middleSection": {
+          "format": "3つの業界説明（コンサル・金融系・カード）",
+          "backgroundColor": "薄ベージュ",
+          "items": ["向いている人の特徴", "代表企業ロゴ"],
+          "visualElements": "各業界の黄色い円、企業ロゴ（野村総合研究所、ベイカレント、sansan、トヨタファイナンス等）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「727」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "3業界の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["薄ベージュ", "黄色", "黒", "企業ロゴの各色"],
+        "typography": "ゴシック体、箇条書き形式",
+        "visualHierarchy": "業界名→特徴→企業ロゴ",
+        "trustSignals": ["有名企業ロゴの掲載"],
+        "engagementElements": ["統一されたレイアウト", "専門性の高い業界紹介"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（4/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "7",
+        "pageIndicator": "5/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いベージュまたは白色背景",
+        "overlayStructure": "業界ごとのセクション分け",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "不動産業界の説明セクション",
+          "layout": "黄色い円「不動産」＋説明文＋企業ロゴ"
+        },
+        "middleSection": {
+          "format": "3つの業界説明（不動産・銀行・テレビ出版）",
+          "backgroundColor": "薄ベージュ",
+          "items": ["向いている人の特徴", "代表企業ロゴ"],
+          "visualElements": "各業界の黄色い円、企業ロゴ（大和ハウス、MUFG、日テレ、講談社等）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「727」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "3業界の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["薄ベージュ", "黄色", "黒", "企業ロゴの各色"],
+        "typography": "ゴシック体、箇条書き形式",
+        "visualHierarchy": "業界名→特徴→企業ロゴ",
+        "trustSignals": ["有名企業ロゴの掲載"],
+        "engagementElements": ["統一されたレイアウト", "多様な業界の紹介"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（5/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "7",
+        "pageIndicator": "6/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "手書き風大文字「1保存すると」",
+          "layout": "上部配置、赤いアクセント付き"
+        },
+        "middleSection": {
+          "format": "手書き風メッセージ",
+          "backgroundColor": "白",
+          "items": ["あとで見返せます!!", "タップ→ここへ"],
+          "visualElements": "手書き風イラスト（人物）、指示の矢印"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン「727」",
+          "ctaElements": "保存への誘導"
+        }
+      },
+      "actualRole": "保存促進ページ",
+      "designElements": {
+        "colorScheme": ["白", "黒", "赤（アクセント）"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "保存の呼びかけ→説明→行動指示",
+        "trustSignals": [],
+        "engagementElements": ["手書き風の親しみやすさ", "具体的な行動指示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（6/9）",
+        "savePrompts": "「1保存するとあとで見返せます!!」"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "7",
+        "pageIndicator": "最終ページ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "手書き風メッセージ「いいね！今後に役に立った！と思ってもらえたら...」",
+          "layout": "上部配置、吹き出し風"
+        },
+        "middleSection": {
+          "format": "手書き風イラストとメッセージ",
+          "backgroundColor": "白",
+          "items": ["イラストを2回タップしてね"],
+          "visualElements": "笑顔の手書きイラスト、ハートマーク、「ペコリ」の文字"
+        },
+        "bottomSection": {
+          "elements": "「いつもありがとうございます！」",
+          "ctaElements": "イラストタップの促進"
+        }
+      },
+      "actualRole": "感謝メッセージ・エンゲージメント促進",
+      "designElements": {
+        "colorScheme": ["白", "黒", "赤（ハート）"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "お願い→行動指示→感謝メッセージ",
+        "trustSignals": [],
+        "engagementElements": ["手書きイラスト", "親しみやすい表現", "感謝の気持ち"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "イラストへの2回タップ促進"
+      }
+    }
+  }
+}

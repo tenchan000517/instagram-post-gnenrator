@@ -1,0 +1,56 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 10,
+      "pageIndicator": "x/10形式で表示"
+    },
+    "layoutStructure": {
+      "backgroundType": "多彩な単色背景",
+      "backgroundDescription": "1ページ：紫、2ページ：黄色、3-7ページ：青、8ページ：白、9ページ：白、10ページ：ベージュ",
+      "overlayStructure": "角丸カード、ボックス、吹き出しの重ね配置",
+      "headerType": "ページごとに異なるヘッダーデザイン、番号付き（①〜⑤）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページインジケーター、ヘッダータイトル、キャラクター",
+        "layout": "右上にページ数、中央にメインコンテンツ"
+      },
+      "middleSection": {
+        "format": "問題点指摘→対比例→改善アドバイス",
+        "backgroundColor": "黄色ボックス（例示部分）",
+        "items": [
+          "問題点番号（①〜⑤）",
+          "△悪い例（具体的セリフ付き）",
+          "○良い例（詳細な改善例）",
+          "改善ポイント説明"
+        ],
+        "visualElements": "カエル・ウサギキャラクター、対比記号（△○）"
+      },
+      "bottomSection": {
+        "elements": "Instagram UI、いいね数（413）、ハッシュタグ",
+        "ctaElements": "9-10ページで無料コンテンツとプロフィールURL誘導"
+      }
+    },
+    "actualRole": "student-experience-improvement-guide-with-hr-insights",
+    "designElements": {
+      "colorScheme": ["紫", "黄色", "青", "白", "ベージュ", "赤", "黒"],
+      "typography": "黒文字（本文）、赤文字（強調・タイトル）、白文字（ヘッダー）",
+      "visualHierarchy": "問題提起→5つの弱点→具体例→改善法→まとめ→CTA",
+      "trustSignals": ["現役人事の証言", "具体的改善例", "実績提示（大手3社内定）"],
+      "engagementElements": ["対比表現", "キャラクター使用", "保存促進指示"]
+    },
+    "interactionElements": {
+      "checkboxes": "9ページで3つの無料コンテンツ項目",
+      "buttons": "なし",
+      "swipeIndicators": "ページドット表示",
+      "savePrompts": "『保存してくださいね！』という明確な指示"
+    },
+    "specificObservations": {
+      "problemStructure": "5つの具体的弱点を系統的に整理（期間・受動性・自己完結・過程不明・人材不適合）",
+      "contrastTechnique": "各弱点で△悪い例と○良い例を明確に対比表示",
+      "characterConsistency": "カエルキャラクターが複数ページで一貫して使用",
+      "progressiveDisclosure": "問題認識→具体例→解決策→まとめ→無料価値提供の段階的情報提供",
+      "urgencyCreation": "面接官の内心（あ…この子のガクチカ不採用だ…）でリアリティ演出"
+    }
+  }
+}

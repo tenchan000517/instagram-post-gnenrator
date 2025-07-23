@@ -1,0 +1,172 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 4,
+      "pageIndicator": "標準ドット表示（4ページ構成）"
+    },
+    "page1": {
+      "layoutStructure": {
+        "backgroundType": "実写画像",
+        "backgroundDescription": "暗いオフィス空間の写真（机、椅子、モノクロ調）",
+        "overlayStructure": "中央にテキストオーバーレイ",
+        "headerType": "上部に小さなテキスト（実践型のパフォーマンス・仕事術）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "実践型のパフォーマンス・仕事術（小文字）、hide_workhack（右上）",
+          "layout": "上部左右配置"
+        },
+        "middleSection": {
+          "format": "大きな日本語テキスト中央配置",
+          "backgroundColor": "透明（背景画像が透ける）",
+          "items": ["社会人5,6年", "超えてから", "この力がないと", "苦しくなる..."],
+          "visualElements": "赤とピンクのグラデーション文字、白文字との組み合わせ"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン（40表示）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "emotional-problem-statement-with-targeting",
+      "designElements": {
+        "colorScheme": ["暗いグレー", "赤", "ピンク", "白"],
+        "typography": "大きな日本語フォント、感情的な表現",
+        "visualHierarchy": "年次→問題→感情",
+        "trustSignals": ["専門分野表示"],
+        "engagementElements": ["リアルなオフィス画像", "感情的な色使い"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "layoutStructure": {
+        "backgroundType": "継続した暗い背景",
+        "backgroundDescription": "page1と統一された暗いトーン",
+        "overlayStructure": "テキスト中心のレイアウト",
+        "headerType": "質問形式のタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "こんな経験ないですか...？（赤文字）",
+          "layout": "上部中央"
+        },
+        "middleSection": {
+          "format": "問題説明 + 箇条書きリスト",
+          "backgroundColor": "透明",
+          "items": [
+            "若手ではない年次になってからこんな経験ないですか...？",
+            "・これまで通り、効率的に仕事をしているはずなのになぜか仕事の評価が上がらない...。",
+            "・他部署との調整や合意形成のために資料を作ることが増え、仕事の大半が資料作成に時間を使っている...",
+            "・時間をかけて作った資料も「結局、何が言いたいの？」と指摘されやり直しになるため、ガッカリきてしまう",
+            "・依頼される仕事が若手の頃と比べ抽象的になりどこから手を付ければ良いのか明を抱える時間が多い"
+          ],
+          "visualElements": "白文字テキスト、箇条書き（・）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン（40表示）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "specific-problem-enumeration",
+      "designElements": {
+        "colorScheme": ["暗い背景", "白", "赤"],
+        "typography": "読みやすい日本語フォント、箇条書き形式",
+        "visualHierarchy": "質問→説明→具体例リスト",
+        "trustSignals": ["具体的な経験の列挙"],
+        "engagementElements": ["共感を誘う質問形式"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "layoutStructure": {
+        "backgroundType": "継続した暗い背景",
+        "backgroundDescription": "統一された暗いトーン維持",
+        "overlayStructure": "権威性テキスト中央配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "こんな経験ないですか...？（継続表示）",
+          "layout": "上部"
+        },
+        "middleSection": {
+          "format": "権威性メッセージ",
+          "backgroundColor": "透明",
+          "items": [
+            "若手ではない年次になってからこんな経験ないですか...？",
+            "これまで300名以上の社会人に資料作成やビジネス思考法を指導してきましたがこうした悩みはとてもよく聞きます..."
+          ],
+          "visualElements": "白文字、権威性を示す数字（300名以上）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン（40表示）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "authority-building-and-empathy",
+      "designElements": {
+        "colorScheme": "統一された配色",
+        "typography": "同じフォント系統",
+        "visualHierarchy": "経験→権威性→共感",
+        "trustSignals": ["具体的な指導実績（300名以上）"],
+        "engagementElements": ["実績による信頼構築"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "layoutStructure": {
+        "backgroundType": "継続した暗い背景",
+        "backgroundDescription": "一貫した暗いトーン",
+        "overlayStructure": "解決ヒントメッセージ",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "こんな経験ないですか...？（継続）",
+          "layout": "上部"
+        },
+        "middleSection": {
+          "format": "解決の希望メッセージ",
+          "backgroundColor": "透明",
+          "items": [
+            "若手ではない年次になってからこんな経験ないですか...？",
+            "ただ、こうした悩みは実は「ある力」を伸ばしてもらうと驚くほど結果が変わります"
+          ],
+          "visualElements": "白文字、「ある力」の強調表現"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン（40表示）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "solution-hint-and-hope",
+      "designElements": {
+        "colorScheme": "一貫した配色",
+        "typography": "統一されたフォント",
+        "visualHierarchy": "問題→解決の可能性",
+        "trustSignals": ["具体的な改善可能性の示唆"],
+        "engagementElements": ["謎めいた「ある力」での興味引き"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "最終ページ",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

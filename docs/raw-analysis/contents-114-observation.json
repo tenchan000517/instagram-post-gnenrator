@@ -1,0 +1,78 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-10",
+      "totalPages": "10",
+      "pageIndicator": "1/10から10/10（最後のページのみ表示）"
+    },
+    "layoutStructure": {
+      "backgroundType": "カラフルなパターン背景（1ページ目）、その後グレー背景",
+      "backgroundDescription": "1ページ目：緑・ピンク系のマーブル模様、2-9ページ目：薄いグレー単色背景、10ページ目：薄いグレー背景",
+      "overlayStructure": "テキスト直接配置（カードなし）",
+      "headerType": "Instagram標準ヘッダー（smartbe_official, フォロー）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "タイトル（1ページ目のみ）",
+        "layout": "中央配置"
+      },
+      "middleSection": {
+        "format": "対比構造：「行動できる人」（黄色ハイライト）vs「行動できない人」（グレーハイライト）",
+        "backgroundColor": "透明（背景色のみ）",
+        "items": [
+          "「行動できる人」の黄色ハイライトボックス",
+          "対比する行動・特徴（大きな黒文字）",
+          "「行動できない人」のグレーハイライトボックス", 
+          "対比する行動・特徴（大きな黒文字）"
+        ],
+        "visualElements": "9ページ目と10ページ目にキャラクターイラスト"
+      },
+      "bottomSection": {
+        "elements": "ページインジケーター（青いドット）、Instagram標準UI",
+        "ctaElements": "10ページ目に保存促進メッセージと矢印"
+      }
+    },
+    "actualRole": "行動力の違いを対比形式で明確化し、行動できる人になるためのマインドセット変革を促すモチベーション向上コンテンツ",
+    "designElements": {
+      "colorScheme": ["黄色", "グレー", "黒", "白", "ピンク"],
+      "typography": "日本語フォント、太字の大きなフォントサイズ",
+      "visualHierarchy": "黄色ハイライト → 大きな黒文字 → グレーハイライト → 大きな黒文字",
+      "trustSignals": ["明確な対比構造", "シンプルで分かりやすいメッセージ"],
+      "engagementElements": ["親しみやすいキャラクターイラスト", "励ましメッセージ", "定期更新の約束"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（Instagram標準のいいね・コメント・保存ボタンのみ）",
+      "swipeIndicators": "ページ下部の青いドット（10個）",
+      "savePrompts": "10ページ目に「保存はこちら」の黄色ボタンと矢印"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "backgroundType": "カラフルなマーブル模様（緑・ピンク・青系）",
+        "titlePlacement": "中央に大きく縦書きで「行動できる人 vs できない人」",
+        "textStyle": "黒文字と赤文字の組み合わせ",
+        "specialElements": "背景にカラフルなパターン"
+      },
+      "page2-8": {
+        "layoutPattern": "統一された対比レイアウト",
+        "highlightDesign": "「行動できる人」は黄色背景、「行動できない人」はグレー背景",
+        "textPlacement": "上部に「行動できる人」、下部に「行動できない人」",
+        "fontStyle": "太字の大きなフォントで明確な対比",
+        "backgroundConsistency": "薄いグレー背景で統一"
+      },
+      "page9": {
+        "layoutType": "メッセージ + キャラクター",
+        "mainMessage": "「未来変えるのは行動できる人だけ」を赤文字で強調",
+        "characterPlacement": "右側に笑顔の女の子キャラクター",
+        "emphasizingElements": "「ここ 大事！」の黄色強調テキスト"
+      },
+      "page10": {
+        "layoutType": "挨拶 + CTA",
+        "greetingMessage": "「明日も笑って過ごそう」を大きく表示",
+        "updateInfo": "「平日17時に更新中」の看板",
+        "ctaDesign": "「保存はこちら」の黄色ボタンと下向き矢印",
+        "characterElements": "キャラクター、コーヒーカップ、星のアクセント"
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-10",
+      "totalPages": "10",
+      "pageIndicator": "1/11, 2/11, 3/11, 4/11, 5/11, 6/11, 7/11, 8/11, 9/11, 10/11"
+    },
+    "layoutStructure": {
+      "backgroundType": "写真背景またはグレー背景",
+      "backgroundDescription": "1ページ目：オフィス用品の写真、2ページ目：世界地図、3ページ目以降：グレー背景",
+      "overlayStructure": "Monotone Instagram*の統一ヘッダー + コンテンツエリア",
+      "headerType": "「Monotone Instagram*」ブランドロゴ付きダークヘッダー（全ページ統一）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "Monotone Instagram*ヘッダー、ページ番号",
+        "layout": "上部固定配置"
+      },
+      "middleSection": {
+        "format": "機能番号 + 機能名 + 説明文 + 実例画像/スクリーンショット + 効果説明",
+        "backgroundColor": "白またはグレー",
+        "items": [
+          "丸囲み数字の機能番号",
+          "機能名（太字）",
+          "機能の説明文",
+          "実際のInstagram画面のスクリーンショット",
+          "効果やメリットの解説",
+          "活用のポイント"
+        ],
+        "visualElements": "キャラクターイラスト、Instagram画面キャプチャ、装飾リボン"
+      },
+      "bottomSection": {
+        "elements": "ページインジケーター、Instagram標準UI、ブランド名「dessine*e par『A*M』」", 
+        "ctaElements": "最終ページで保存促進、LINE登録促進"
+      }
+    },
+    "actualRole": "Instagram新機能6つの詳細解説と集客活用方法の実用ガイド",
+    "designElements": {
+      "colorScheme": ["グレー", "白", "黒", "ピンク"],
+      "typography": "日本語フォント、見出しは太字、本文は通常フォント",
+      "visualHierarchy": "ヘッダー → 機能番号 → 機能名 → 説明 → 実例 → 効果",
+      "trustSignals": ["実際のInstagram画面キャプチャ", "専門的なブランディング", "具体的な操作説明"],
+      "engagementElements": ["キャラクターイラスト", "実例での視覚的説明", "保存促進メッセージ"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（Instagram標準のいいね・コメント・保存ボタンのみ）",
+      "swipeIndicators": "ページ下部の青いドット（10個）",
+      "savePrompts": "10ページ目に「この投稿忘れないように保存しておくと見返してもらえたら喜びます！」"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "backgroundType": "オフィス用品の写真（ノート、カメラ、時計、ペンなど）",
+        "titlePlacement": "中央に大きく「集客に役立つインスタ新機能」",
+        "characterPlacement": "下部に3体のキャラクターイラスト",
+        "specialElements": "フランス語テキストオーバーレイ"
+      },
+      "page2": {
+        "backgroundType": "世界地図の写真",
+        "headerBranding": "Monotone Instagram*のロゴ付きヘッダー",
+        "textStructure": "タイトル → 導入文 → 目的説明の3段構成",
+        "characterPlacement": "右下にキャラクターイラスト"
+      },
+      "page3-9": {
+        "layoutPattern": "機能番号（丸囲み）→ 機能名 → 説明文 → 実例画像 → 効果説明の統一構造",
+        "screenshotUsage": "実際のInstagram画面を多用して具体的操作を説明",
+        "characterIntegration": "各ページにキャラクターイラストで親しみやすさ演出",
+        "textBoxes": "重要ポイントは囲み枠で強調表示"
+      },
+      "page10": {
+        "backgroundType": "スマホでInstagramを見る手の写真",
+        "messageStructure": "まとめタイトル → 励ましメッセージ → 講座案内 → 保存促進の4段構成",
+        "characterPlacement": "右側にメインキャラクター配置",
+        "callToAction": "LINE登録とInstagram初級講座の案内"
+      },
+      "page11": {
+        "layoutType": "CTA・LINE登録ページ",
+        "qrCode": "峰川あゆみ LINE公式のQRコード",
+        "offerMessage": "LINE登録で延べ7000人近くが学んだインスタで集客の秘訣プレゼント中！",
+        "profileImage": "峰川あゆみの写真",
+        "brandName": "Ayumi Minekawa *"
+      }
+    }
+  }
+}

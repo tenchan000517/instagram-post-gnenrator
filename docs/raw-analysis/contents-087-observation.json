@@ -1,0 +1,300 @@
+{
+  "observation_id": "contents-087",
+  "analysis_date": "2025-07-23",
+  "raw_observations": {
+    "page_sequence": [
+      {
+        "page": 1,
+        "filename": "S__16253314_0.jpg",
+        "layout_type": "series_cover",
+        "visual_elements": {
+          "background": "coral_red_gradient",
+          "main_text_color": "yellow_gold_3d_effect",
+          "accent_colors": "white_red_combination",
+          "decorative_elements": "geometric_arrow_bottom_right"
+        },
+        "text_content": {
+          "main_title": "1日1分",
+          "subtitle": "業界分析",
+          "category_badge": "金融編",
+          "series_identifier": "daily_industry_analysis"
+        },
+        "ui_elements": {
+          "page_indicator": "1/7",
+          "account_handle": "scareer_official",
+          "instagram_interface": "story_format"
+        }
+      },
+      {
+        "page": 2,
+        "filename": "S__16253316_0.jpg",
+        "layout_type": "point_explanation",
+        "visual_elements": {
+          "background": "coral_red_white_card",
+          "point_badge": "red_circle_POINT_01",
+          "text_layout": "numbered_list_format"
+        },
+        "text_content": {
+          "section_title": "仕事を知る",
+          "explanation_points": [
+            {
+              "number": 1,
+              "content": "金融とは、資金が余っている人から必要としている人に資金を融通すること"
+            },
+            {
+              "number": 2, 
+              "content": "具体例として、銀行は預金を企業や個人に貸し出して利子を得るビジネス"
+            },
+            {
+              "number": 3,
+              "content": "貯蓄や資産運用、保険、住宅ローンなど、金融リテラシーが身につく！"
+            }
+          ]
+        },
+        "ui_elements": {
+          "page_indicator": "2/7"
+        }
+      },
+      {
+        "page": 3,
+        "filename": "S__16253317_0.jpg",
+        "layout_type": "industry_breakdown",
+        "visual_elements": {
+          "background": "coral_red_white_card",
+          "point_badge": "red_circle_POINT_01",
+          "icon_grid": "2x2_industry_symbols"
+        },
+        "text_content": {
+          "section_title": "仕事を知る",
+          "subsection_question": "どんな業種があるの？",
+          "industry_categories": [
+            {
+              "name": "銀行",
+              "icon": "classical_building_columns",
+              "icon_label": "BANK"
+            },
+            {
+              "name": "生命保険・損害保険", 
+              "icon": "business_person_silhouette"
+            },
+            {
+              "name": "証券",
+              "icon": "yen_currency_symbol"
+            },
+            {
+              "name": "リース",
+              "icon": "computer_monitor"
+            }
+          ],
+          "additional_info": {
+            "title": "Check!",
+            "content": "業界的に、給与の高さや待遇面で安定した会社が多い！ただ、外資系金融は実力主義の世界なので覚悟が必要"
+          }
+        },
+        "ui_elements": {
+          "page_indicator": "3/7"
+        }
+      },
+      {
+        "page": 4,
+        "filename": "S__16253318_0.jpg", 
+        "layout_type": "industry_statistics",
+        "visual_elements": {
+          "background": "coral_red_white_card",
+          "point_badge": "red_circle_POINT_02",
+          "statistics_highlight": "red_box_large_numbers"
+        },
+        "text_content": {
+          "section_title": "業界を知る",
+          "main_statistic": {
+            "label": "業界規模は",
+            "value": "60.7兆円",
+            "ranking": "3位 / 190業界",
+            "source": "※2022/06/16時点の情報です"
+          },
+          "market_analysis": [
+            {
+              "number": 1,
+              "categories": ["リース（自動車需要回復）", "損害保険（値上げ効果）", "証券（歴史的な株高）"],
+              "status": "で好調"
+            },
+            {
+              "number": 2,
+              "content": "低金利政策の長期化で銀行の「稼ぐ力」が低迷"
+            },
+            {
+              "number": 3,
+              "content": "金融業界の転換点である日銀の政策金利の動向に注視"
+            }
+          ]
+        },
+        "ui_elements": {
+          "page_indicator": "4/7"
+        }
+      },
+      {
+        "page": 5,
+        "filename": "S__16253319_0.jpg",
+        "layout_type": "company_profile",
+        "visual_elements": {
+          "background": "coral_red_white_card",
+          "point_badge": "red_circle_POINT_03",
+          "data_boxes": "red_label_white_value",
+          "revenue_chart": "percentage_breakdown_icons"
+        },
+        "text_content": {
+          "section_title": "会社を知る",
+          "company_category": "金融 代表企業",
+          "company_profile": {
+            "rank": 1,
+            "name": "三菱UFJ FG",
+            "revenue_label": "売上高",
+            "revenue_value": "6兆758億円",
+            "salary_label": "平均年収", 
+            "salary_value": "1,029万円",
+            "revenue_breakdown_title": "主要売上高の構成比",
+            "revenue_segments": [
+              {
+                "percentage": "25%",
+                "category": "金利/為替の市場取引",
+                "icon": "currency_exchange_symbol"
+              },
+              {
+                "percentage": "20%", 
+                "category": "海外大手サービス",
+                "icon": "bank_building"
+              },
+              {
+                "percentage": "16%",
+                "category": "海外中小サービス", 
+                "icon": "global_network"
+              }
+            ]
+          }
+        },
+        "ui_elements": {
+          "page_indicator": "5/7"
+        }
+      },
+      {
+        "page": 6,
+        "filename": "S__16253320_0.jpg",
+        "layout_type": "company_profile", 
+        "visual_elements": {
+          "background": "coral_red_white_card",
+          "point_badge": "red_circle_POINT_03",
+          "data_boxes": "red_label_white_value",
+          "revenue_chart": "percentage_breakdown_icons"
+        },
+        "text_content": {
+          "section_title": "会社を知る",
+          "company_category": "金融 代表企業",
+          "company_profile": {
+            "rank": 2,
+            "name": "第一生命HD",
+            "revenue_label": "売上高",
+            "revenue_value": "5兆2,919億円", 
+            "salary_label": "平均年収",
+            "salary_value": "978万円",
+            "revenue_breakdown_title": "主要売上高の構成比",
+            "revenue_segments": [
+              {
+                "percentage": "71%",
+                "category": "国内生命保険",
+                "icon": "business_person_silhouette"
+              },
+              {
+                "percentage": "25%",
+                "category": "海外保険",
+                "icon": "world_globe"
+              },
+              {
+                "percentage": "4%",
+                "category": "その他",
+                "icon": "analysis_chart"
+              }
+            ]
+          }
+        },
+        "ui_elements": {
+          "page_indicator": "6/7"
+        }
+      },
+      {
+        "page": 7,
+        "filename": "S__16253321_0.jpg",
+        "layout_type": "service_promotion_cta",
+        "visual_elements": {
+          "background": "coral_red_gradient",
+          "service_circles": "three_red_circles_with_icons",
+          "account_info": "profile_picture_and_handle",
+          "call_to_action_area": "gray_box_with_text"
+        },
+        "text_content": {
+          "gratitude_message": "最後まで見てくれてありがとうございます！",
+          "service_provider": "スポーツリンクエージェント",
+          "service_description": "あなたの就活・転職を応援！",
+          "service_offerings": [
+            {
+              "title": "後輩の相談とか応じたい",
+              "icon": "conversation_support"
+            },
+            {
+              "title": "自己分析手伝って！",
+              "icon": "self_analysis_help"
+            },
+            {
+              "title": "履歴書作成手伝って！", 
+              "icon": "resume_assistance"
+            }
+          ],
+          "service_features": [
+            "1日1分業界分析",
+            "業界別の知らないと損な会社5選",
+            "働く先輩の就活体験談"
+          ],
+          "consultation_services": "【就活相談】【自己分析】【履歴書作成】",
+          "contact_info": "などの相談も無料で受け付けているので、不安な時はいつでも気軽にDMで連絡してね😊"
+        },
+        "hashtags": [
+          "#就活", "#就職活動", "#24卒", "#24卒就活", "#24卒と繋がりたい",
+          "#体育会就活", "#体育会学生", "#就職活動中", "#就活中", "#就活生",
+          "#就活垢", "#東ス就活", "#自己分析", "#就活相談", "#就活情報",
+          "#就活応援", "#エントリーシート", "#就活支援", "#就活頑張ろう",
+          "#面接", "#面接対策", "#面接練習", "#就活ノウハウ", "#金融業界",
+          "#業界研究", "#業界分析", "#ガクチカ", "#履歴書", "#スポーツリンクエージェント",
+          "#スポーツリンク"
+        ],
+        "post_metadata": {
+          "timestamp": "2023年3月3日"
+        }
+      }
+    ],
+    "overall_structure": {
+      "post_type": "educational_industry_series",
+      "topic_focus": "financial_industry_comprehensive_analysis",
+      "information_depth": "basic_to_detailed_company_data",
+      "target_audience": "job_hunting_students_sports_background",
+      "content_authority": "career_support_agency",
+      "engagement_strategy": "education_to_consultation_services"
+    },
+    "design_patterns": {
+      "color_consistency": "red_coral_branding_throughout",
+      "typography": "bold_readable_hierarchy_numbered_points",
+      "layout_progression": "cover_concept_industry_companies_services",
+      "visual_cohesion": "point_badge_system_consistent"
+    },
+    "content_quality_indicators": {
+      "data_accuracy": "specific_financial_figures_provided",
+      "source_citation": "timestamp_source_information",
+      "practical_value": "actionable_company_research_data",
+      "educational_structure": "systematic_industry_breakdown"
+    }
+  },
+  "meta_analysis": {
+    "structural_completeness": "comprehensive_industry_analysis_flow",
+    "information_density": "high_value_financial_data",
+    "engagement_design": "education_plus_consultation_services",
+    "brand_consistency": "strong_series_visual_identity"
+  }
+}

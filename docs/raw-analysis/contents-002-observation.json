@@ -1,0 +1,472 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "10",
+        "pageIndicator": "1/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "ベージュ系グラデーション背景",
+        "overlayStructure": "フレーム枠内にテキスト配置",
+        "headerType": "Instagramインターフェース"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Instagramインターフェース",
+          "layout": "標準システムUI"
+        },
+        "middleSection": {
+          "format": "フレーム内テキスト配置",
+          "backgroundColor": "透明フレーム",
+          "items": ["一生安心できる", "女性が困らない", "キャリア"],
+          "visualElements": "白文字、細い枠線フレーム、装飾要素"
+        },
+        "bottomSection": {
+          "elements": "Instagramインターフェース（アカウント情報）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトルカバーページ - コンテンツテーマの明示",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白色"],
+        "typography": "白文字、太文字",
+        "visualHierarchy": "フレーム → テキスト → 背景",
+        "trustSignals": ["なし"],
+        "engagementElements": ["シンプルで上品なデザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "10",
+        "pageIndicator": "2/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション", 
+        "backgroundDescription": "薄いベージュ背景",
+        "overlayStructure": "白色カード重ね",
+        "headerType": "タイトル「女性が\"困らない\"働き方のヒント」"
+      },  
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ページタイトル + 質問投げかけ",
+          "layout": "「あなたはこんなことない？」"
+        },
+        "middleSection": {
+          "format": "チェックボックスリスト + イラスト",
+          "backgroundColor": "白色カード",
+          "items": [
+            "これからの未来に不安しかない",
+            "このままでいいのか迷う..",
+            "結婚/出産/介護に振り回されたくない"
+          ],
+          "visualElements": "チェックマーク、悩む女性イラスト、吹き出し"
+        },
+        "bottomSection": {
+          "elements": "メッセージ + 保存促進",
+          "ctaElements": "「キャリアに迷う女性が知っておきたいこと」「メモが画面な人は1タップで保存完了！」"
+        }
+      },
+      "actualRole": "問題提起・共感獲得 - ターゲットの悩みを具体化",
+      "designElements": {
+        "colorScheme": ["白色", "ベージュ", "黒色（チェックマーク）"],
+        "typography": "黒文字、チェックボックス形式",
+        "visualHierarchy": "質問 → チェックリスト → イラスト → CTA",
+        "trustSignals": ["具体的な悩み事例"],
+        "engagementElements": ["チェックボックス形式", "共感イラスト", "保存促進"]
+      },
+      "interactionElements": {
+        "checkboxes": "3つのチェックボックス（装飾的）",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "「1タップで保存完了」メッセージ"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3", 
+        "totalPages": "10",
+        "pageIndicator": "3/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いベージュ背景",
+        "overlayStructure": "上部ヘッダー + 白色コンテンツカード",
+        "headerType": "「Point 1」ヘッダーバー（茶色系）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point番号「1」+ タイトル",
+          "layout": "「働き方の選択肢＝人生の選択肢」"
+        },
+        "middleSection": {
+          "format": "イラスト + テキスト説明",
+          "backgroundColor": "白色カード",
+          "items": [
+            "女性はライフイベントによってキャリアの分岐点が多い。",
+            "だからこそ、\"今\"から備えるとラクに◎"
+          ],
+          "visualElements": "4人の女性が肩を組むイラスト（多様性表現）"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "「Next」矢印ボタン"
+        }
+      },
+      "actualRole": "解決策提示1 - 基本概念の説明",
+      "designElements": {
+        "colorScheme": ["茶色系（ヘッダー）", "白色", "ベージュ", "ピンク系（イラスト）"],
+        "typography": "白文字ヘッダー、黒文字本文、強調引用符",
+        "visualHierarchy": "ポイント番号 → タイトル → イラスト → 説明文",
+        "trustSignals": ["論理的な説明"],
+        "engagementElements": ["多様性を表現するイラスト", "Nextボタン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "10", 
+        "pageIndicator": "4/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いベージュ背景継続",
+        "overlayStructure": "ヘッダーバー + コンテンツカード",
+        "headerType": "「Point 2」ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point番号「2」+ タイトル", 
+          "layout": "「どこでも通用するスキルや経験を」"
+        },
+        "middleSection": {
+          "format": "イラスト + テキスト",
+          "backgroundColor": "白色カード",
+          "items": [
+            "1社で働き続ける＝安定じゃない。",
+            "転職も視野に入れ、",
+            "\"選ばれる人/他社でも通用する力\"を意識しておくと◎"
+          ],
+          "visualElements": "握手するビジネスパーソンのイラスト、時計・天秤などのアイコン"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "継続的なナビゲーション"
+        }
+      },
+      "actualRole": "解決策提示2 - スキル開発の重要性",
+      "designElements": {
+        "colorScheme": ["茶色系", "白色", "ベージュ", "青系（イラスト）"],
+        "typography": "ヘッダー白文字、本文黒文字、引用符強調",
+        "visualHierarchy": "ポイント → タイトル → イラスト → 詳細説明",
+        "trustSignals": ["ビジネス的なイラスト"],
+        "engagementElements": ["プロフェッショナルなイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "なし", 
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "10",
+        "pageIndicator": "5/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いベージュ背景継続",
+        "overlayStructure": "ヘッダー + コンテンツカード",
+        "headerType": "「Point 3」ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point番号「3」+ タイトル",
+          "layout": "「いつでも動ける状態」にしておく"
+        },
+        "middleSection": {
+          "format": "イラスト + リスト + テキスト",
+          "backgroundColor": "白色カード",
+          "items": [
+            "履歴書の更新",
+            "自己分析",
+            "スキル棚卸し",
+            "今の職場が合わなくなっても、選べる状態が\"安心\"。",
+            "そのために自己分析など、できることは準備しておくことで差が出る◎"
+          ],
+          "visualElements": "コーヒーを持つ女性イラスト、箇条書きリスト"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "継続誘導"
+        }
+      },
+      "actualRole": "解決策提示3 - 具体的準備行動の提示",
+      "designElements": {
+        "colorScheme": ["茶色系", "白色", "青緑系（リストポイント）", "ピンク系（イラスト）"],
+        "typography": "リスト形式、引用符強調、◎マーク",
+        "visualHierarchy": "ポイント → タイトル → イラスト → アクションリスト → 説明",
+        "trustSignals": ["具体的なアクション項目"],
+        "engagementElements": ["リラックスした女性イラスト", "実行可能なリスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "10",
+        "pageIndicator": "6/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いベージュ背景継続",
+        "overlayStructure": "ヘッダー + コンテンツカード",
+        "headerType": "「Point 4」ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point番号「4」+ タイトル",
+          "layout": "「感情」だけで辞めない/動かない"
+        },
+        "middleSection": {
+          "format": "イラスト + テキスト説明",
+          "backgroundColor": "白色カード",
+          "items": [
+            "勢いの退職で後悔する人も多い。",
+            "モヤモヤの正体を言語化してから決断するクセをつけておこう。"
+          ],
+          "visualElements": "寄り添う2人の女性イラスト（相談・サポート関係）"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "継続誘導"
+        }
+      },
+      "actualRole": "解決策提示4 - 感情的判断回避の重要性",
+      "designElements": {
+        "colorScheme": ["茶色系", "白色", "黄緑系（イラスト）"],
+        "typography": "本文黒文字、自然な文章構成",
+        "visualHierarchy": "ポイント → タイトル → イラスト → アドバイス文",
+        "trustSignals": ["経験に基づく警告"],
+        "engagementElements": ["支え合うイラスト", "親身なアドバイス"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン", 
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "10",
+        "pageIndicator": "7/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いベージュ背景継続",
+        "overlayStructure": "ヘッダー + コンテンツカード",
+        "headerType": "「Point 5」ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point番号「5」+ タイトル",
+          "layout": "問題に直面する前に\"働き方の選択肢\"を広げる"
+        },
+        "middleSection": {
+          "format": "イラスト + テキスト説明",
+          "backgroundColor": "白色カード",
+          "items": [
+            "育児・介護等の問題に直面する前に",
+            "在宅・時短正社員・フレックス制度など",
+            "\"環境\"に左右されない働き方を選んでおく◎"
+          ],
+          "visualElements": "ノートとペンのイラスト（計画・準備の表現）"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "継続誘導"
+        }
+      },
+      "actualRole": "解決策提示5 - 予防的キャリア戦略",
+      "designElements": {
+        "colorScheme": ["茶色系", "白色", "シンプルなモノクロイラスト"],
+        "typography": "引用符強調、◎マーク使用",
+        "visualHierarchy": "ポイント → タイトル → イラスト → 戦略説明",
+        "trustSignals": ["先見性のあるアドバイス"],
+        "engagementElements": ["計画性を表すイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "10",
+        "pageIndicator": "8/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いベージュ背景継続",
+        "overlayStructure": "ヘッダー + コンテンツカード",
+        "headerType": "「Point 6」ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point番号「6」+ タイトル",
+          "layout": "「苦手」より「得意」を活かす方向へ"
+        },
+        "middleSection": {
+          "format": "イラスト + テキスト説明",
+          "backgroundColor": "白色カード",
+          "items": [
+            "苦手克服よりも得意を伸ばす方が",
+            "\"評価されやすい\"し、続けやすい◎",
+            "日々の仕事の中で",
+            "「自分に向いている仕事」を観察しておこう。"
+          ],
+          "visualElements": "ターゲットを指すイラスト（目標達成・得意分野特化の表現）"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "継続誘導"
+        }
+      },
+      "actualRole": "解決策提示6 - 強み活用戦略",
+      "designElements": {
+        "colorScheme": ["茶色系", "白色", "カラフルなターゲットイラスト"],
+        "typography": "引用符強調、◎マーク、観察の重要性強調",
+        "visualHierarchy": "ポイント → タイトル → イラスト → 戦術説明",
+        "trustSignals": ["心理学的に合理的なアドバイス"],
+        "engagementElements": ["目標達成を表すイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "10",
+        "pageIndicator": "9/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いベージュ背景継続",
+        "overlayStructure": "ヘッダー + コンテンツカード",
+        "headerType": "「Point 7」ヘッダー（最終ポイント）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point番号「7」+ タイトル",
+          "layout": "「やりたいこと」より「できること」で軸を作る"
+        },
+        "middleSection": {
+          "format": "イラスト + テキスト説明",
+          "backgroundColor": "白色カード", 
+          "items": [
+            "「やりたいこと」「好きなこと」よりも",
+            "「自分ができることで、会社に貢献できること」",
+            "の方が安定と評価につながりやすい。",
+            "自分の「できる」を育てて、選べる未来をつくっていこう◎"
+          ],
+          "visualElements": "グラフと作業する人々のイラスト（成果・貢献の可視化）"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "最終ページへの誘導"
+        }
+      },
+      "actualRole": "解決策提示7（最終） - 現実的キャリア構築論",
+      "designElements": {
+        "colorScheme": ["茶色系", "白色", "グリーン系（イラスト）"],
+        "typography": "引用符多用、対比構造、◎による締めくくり",
+        "visualHierarchy": "ポイント → タイトル → イラスト → 現実論 → 励ましメッセージ",
+        "trustSignals": ["現実的で建設的なアドバイス"],
+        "engagementElements": ["成果を表すイラスト", "前向きな締めくくり"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "10",
+        "pageIndicator": "最終ページ"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いベージュ背景",
+        "overlayStructure": "複数要素自由配置",
+        "headerType": "「他の記事も読んでみる」ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "他記事誘導メッセージ",
+          "layout": "「他の記事も読んでみる」"
+        },
+        "middleSection": {
+          "format": "アカウント紹介 + プロフィール画面",
+          "backgroundColor": "混在レイアウト",
+          "items": [
+            "楽に生きれる仕事術について毎日発信📱'-",
+            "悩める方はフォローしてね",
+            "まず自己分析から始めてみてね🌿"
+          ],
+          "visualElements": "投稿者の写真、Instagramプロフィール画面のスクリーンショット、指差しアクション"
+        },
+        "bottomSection": {
+          "elements": "ストーリー限定情報の案内",
+          "ctaElements": "「ストーリーではフォロワーさん限定情報も発信中🎵」"
+        }
+      },
+      "actualRole": "エンゲージメント・フォロー促進 - アカウント認知拡大",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白色", "緑色（植物絵文字）", "ピンク系（写真）"],
+        "typography": "絵文字多用、親しみやすい口調",
+        "visualHierarchy": "他記事誘導 → アカウント紹介 → プロフィール表示 → 限定情報案内",
+        "trustSignals": ["実際のプロフィール画面表示", "継続的な情報発信の約束"],
+        "engagementElements": ["親しみやすい写真", "フォロー促進", "限定情報の提示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし（暗示的CTA多数）",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

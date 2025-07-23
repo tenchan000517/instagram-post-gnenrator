@@ -1,0 +1,518 @@
+{
+  "observationData": {
+    "totalPages": 10,
+    "pageAnalysis": {
+      "page1": {
+        "pageInfo": {
+          "currentPage": "1",
+          "totalPages": "10",
+          "pageIndicator": "1/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "カフェでノートPCを使用する人の手、観葉植物が見える温かみのある空間",
+          "overlayStructure": "写真の上に白色テキストを重ね配置",
+          "headerType": "Instagram標準UI（時刻、発見タブ、ユーザー情報）"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "ChatGPTロゴ（白色）",
+            "layout": "左寄り配置"
+          },
+          "middleSection": {
+            "format": "大型テキストレイアウト",
+            "backgroundColor": "透明（写真背景）",
+            "items": ["ワン問題", "正確性UP", "指示文5選"],
+            "visualElements": "疑問マーク『?!』、白い太字フォント"
+          },
+          "bottomSection": {
+            "elements": "インスタグラム標準のいいね・コメント・シェアボタン",
+            "ctaElements": "ページ送りドット表示"
+          }
+        },
+        "actualRole": "title-problem-introduction",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "ベージュ系", "緑色（植物）"],
+          "typography": "太字大型フォント、インパクト重視",
+          "visualHierarchy": "ChatGPTロゴ → ワン問題 → 正確性UP → 指示文5選",
+          "trustSignals": ["ChatGPT公式ロゴの使用"],
+          "engagementElements": ["疑問マーク記号による注意喚起"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "標準インスタグラムUI",
+          "swipeIndicators": "ドット形式（10個）",
+          "savePrompts": "なし（この段階では）"
+        }
+      },
+      "page2": {
+        "pageInfo": {
+          "currentPage": "2", 
+          "totalPages": "10",
+          "pageIndicator": "2/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "グラデーション背景",
+          "backgroundDescription": "青色系グラデーション、雲と飛行機のシルエット",
+          "overlayStructure": "青色背景の上に白い波状区切り、その下に白背景テキストエリア",
+          "headerType": "Instagram標準UI継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "警告メッセージ「AIは100%ではない。頼呑みにしてると危険かも」",
+            "layout": "白文字、中央配置"
+          },
+          "middleSection": {
+            "format": "テキストブロック + キャラクター対話",
+            "backgroundColor": "白色",
+            "items": [
+              "実はAIの回答の精度はまだ完璧じゃない！",
+              "指示文を工夫するだけでより正確な情報をもらいやすくなるからまとめたよ！",
+              "今日から使える神指示文！【保存・シェア】して参考にしてね！"
+            ],
+            "visualElements": "困った表情の女性キャラクター、男性キャラクター、Swipe矢印"
+          },
+          "bottomSection": {
+            "elements": "キャラクター対話「結構AIの回答そのまま信じちゃってた...！」「超優秀なのは確かだけどまだ不完全だから注意だよ！」",
+            "ctaElements": "Swipe右向き矢印"
+          }
+        },
+        "actualRole": "problem-awareness-and-solution-preview",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色", "肌色（キャラクター）"],
+          "typography": "黒字本文、強調部分は青色",
+          "visualHierarchy": "警告メッセージ → 問題説明 → 解決策予告 → キャラクター対話",
+          "trustSignals": ["具体的な問題指摘", "解決策の存在を明示"],
+          "engagementElements": ["キャラクター対話", "保存・シェア促進メッセージ"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "標準インスタグラムUI",
+          "swipeIndicators": "ドット + Swipe矢印",
+          "savePrompts": "【保存・シェア】テキスト"
+        }
+      },
+      "page3": {
+        "pageInfo": {
+          "currentPage": "3",
+          "totalPages": "10", 
+          "pageIndicator": "3/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "明るいブルー系背景色",
+          "overlayStructure": "タブ形式のヘッダー + コンテンツエリア",
+          "headerType": "カスタムタブデザイン"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "番号付きタブ（01-05）、「01 嘘をつかないで」がアクティブ",
+            "layout": "水平タブレイアウト、01が白色で強調"
+          },
+          "middleSection": {
+            "format": "指示文ボックス + 解説ボックス",
+            "backgroundColor": "ピンク背景（指示文）、青背景（解説）",
+            "items": [
+              "指示文: 確証がない場合は『わからない』と答えてください。推測や断言は避けてください。",
+              "解説: ChatGPTはあいまいなまま話を合わせることがある（=ハルシネーション）→この指示で「嘘をつかないAI」に変わり、安心して情報を使えるようになる"
+            ],
+            "visualElements": "ChatGPTロゴアイコン（右上）"
+          },
+          "bottomSection": {
+            "elements": "キャラクター対話",
+            "ctaElements": "男性：「文脈的に自然な回答を優先してばかりだ、雰囲気で答えるモードを解除するよ！」女性：「なるほど！」"
+          }
+        },
+        "actualRole": "specific-instruction-technique-1",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "ピンク色", "肌色"],
+          "typography": "中サイズフォント、指示文は黒字",
+          "visualHierarchy": "タブ → 指示文 → 解説 → キャラクター",
+          "trustSignals": ["構造化された情報提示", "専門用語の説明"],
+          "engagementElements": ["タブインターフェース", "キャラクター対話"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "タブ形式（01-05）",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page4": {
+        "pageInfo": {
+          "currentPage": "4",
+          "totalPages": "10",
+          "pageIndicator": "4/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "明るいブルー系背景色（page3と同一）",
+          "overlayStructure": "タブ形式のヘッダー + コンテンツエリア",
+          "headerType": "カスタムタブデザイン継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "番号付きタブ（01-06）、「02 思考の過程も全部見せて」がアクティブ",
+            "layout": "水平タブレイアウト、02が白色で強調"
+          },
+          "middleSection": {
+            "format": "指示文ボックス + 解説ボックス",
+            "backgroundColor": "ピンク背景（指示文）、青背景（解説）",
+            "items": [
+              "指示文: 最終的な答えだけでなく、そこに至るまでの思考プロセスをステップバイステップで説明してください。",
+              "解説: 「なんでそうなるの？」と感じる回答も。→思考の流れを明示させることで、論理の飛躍や見落としに気づきやすくなり納得感のある答えをもらいやすくなる"
+            ],
+            "visualElements": "ChatGPTロゴアイコン（右上）"
+          },
+          "bottomSection": {
+            "elements": "キャラクター対話",
+            "ctaElements": "男性：「ただ回答をもらうだけより一気に落ちなくならなる！」女性：「そういうやり方もあるんだね！」"
+          }
+        },
+        "actualRole": "specific-instruction-technique-2",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "ピンク色", "肌色"],
+          "typography": "中サイズフォント、指示文は黒字",
+          "visualHierarchy": "タブ → 指示文 → 解説 → キャラクター",
+          "trustSignals": ["論理的な説明", "具体的な効果説明"],
+          "engagementElements": ["タブインターフェース", "キャラクター対話"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし", 
+          "buttons": "タブ形式（01-06）",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page5": {
+        "pageInfo": {
+          "currentPage": "5",
+          "totalPages": "10",
+          "pageIndicator": "5/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "明るいブルー系背景色（統一）",
+          "overlayStructure": "タブ形式のヘッダー + コンテンツエリア",
+          "headerType": "カスタムタブデザイン継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "番号付きタブ（01-06）、「03 出典を必ず出して」がアクティブ",
+            "layout": "水平タブレイアウト、03が白色で強調"
+          },
+          "middleSection": {
+            "format": "指示文ボックス + 解説ボックス",
+            "backgroundColor": "ピンク背景（指示文）、青背景（解説）",
+            "items": [
+              "指示文: データや情報の出典元、参考リンク、具体的な統計があれば明記してください。",
+              "解説: 「なんとなくそれっぽい話」ではなく、根拠付きの回答が得られる！→情報の信頼性を自分でも裏どりできるため、仕事でも安心して使える内容に早変わり"
+            ],
+            "visualElements": "ChatGPTロゴアイコン（右上）"
+          },
+          "bottomSection": {
+            "elements": "キャラクター対話", 
+            "ctaElements": "男性：「事実ベースの回答に引き上げられるから安心！」女性：「確かに出典あれば自分でも確認しやすいね！」"
+          }
+        },
+        "actualRole": "specific-instruction-technique-3",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "ピンク色", "肌色"],
+          "typography": "中サイズフォント、指示文は黒字",
+          "visualHierarchy": "タブ → 指示文 → 解説 → キャラクター",
+          "trustSignals": ["信頼性向上の具体的方法", "仕事での活用可能性"],
+          "engagementElements": ["タブインターフェース", "キャラクター対話"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "タブ形式（01-06）",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page6": {
+        "pageInfo": {
+          "currentPage": "6",
+          "totalPages": "10",
+          "pageIndicator": "6/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "明るいブルー系背景色（統一）",
+          "overlayStructure": "タブ形式のヘッダー + コンテンツエリア",
+          "headerType": "カスタムタブデザイン継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "番号付きタブ（01-06）、「04 複数の視点から見て」がアクティブ",
+            "layout": "水平タブレイアウト、04が白色で強調"
+          },
+          "middleSection": {
+            "format": "指示文ボックス + 解説ボックス",
+            "backgroundColor": "ピンク背景（指示文）、青背景（解説）",
+            "items": [
+              "指示文: 初心者と上級者、両方の立場から比較して回答してください。",
+              "解説: 一方的な視点の偏りを防ぐ→ふたつの立場を比較して説明させることで、ChatGPT自身が「一貫があるか」を内部チェックして矛盾や飛躍に気付く"
+            ],
+            "visualElements": "ChatGPTロゴアイコン（右上）"
+          },
+          "bottomSection": {
+            "elements": "キャラクター対話",
+            "ctaElements": "男性：「ふたつの視点で深掘ることで幅広い理解と再現性を引き出せる◯」女性：「その発想はなかった！」"
+          }
+        },
+        "actualRole": "specific-instruction-technique-4",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "ピンク色", "肌色"],
+          "typography": "中サイズフォント、指示文は黒字",
+          "visualHierarchy": "タブ → 指示文 → 解説 → キャラクター",
+          "trustSignals": ["論理的なアプローチ", "AI自身の内部チェック機能活用"],
+          "engagementElements": ["タブインターフェース", "キャラクター対話", "◯マーク"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "タブ形式（01-06）",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page7": {
+        "pageInfo": {
+          "currentPage": "7",
+          "totalPages": "10",
+          "pageIndicator": "7/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "明るいブルー系背景色（統一）",
+          "overlayStructure": "タブ形式のヘッダー + コンテンツエリア",
+          "headerType": "カスタムタブデザイン継続"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "番号付きタブ（01-06）、「05 間違う可能性も考えて」がアクティブ",
+            "layout": "水平タブレイアウト、05が白色で強調"
+          },
+          "middleSection": {
+            "format": "指示文ボックス + 解説ボックス",
+            "backgroundColor": "ピンク背景（指示文）、青背景（解説）",
+            "items": [
+              "指示文: この回答が間違っている可能性がある場合、どんな誤解や注意点があるかも教えてください。",
+              "解説: これはリスクヘッジ+理解の深掘りに効果抜群！ChatGPTが「もしかしたらズレてるかも...」というところを明示してくれるので、回答を注意して確認することができる！"
+            ],
+            "visualElements": "ChatGPTロゴアイコン（右上）"
+          },
+          "bottomSection": {
+            "elements": "キャラクター対話 + パソコンを使う女性の追加イラスト",
+            "ctaElements": "男性：「全部を疑って確認するより注意するポイントがわかるから確認作業が時短になるよ！」女性：「早速やってみる！」"
+          }
+        },
+        "actualRole": "specific-instruction-technique-5",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "ピンク色", "肌色", "グレー（パソコン）"],
+          "typography": "中サイズフォント、指示文は黒字",
+          "visualHierarchy": "タブ → 指示文 → 解説 → キャラクター + パソコン",
+          "trustSignals": ["リスク管理の重要性", "効率的な確認方法"],
+          "engagementElements": ["タブインターフェース", "キャラクター対話", "実行を促すメッセージ"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "タブ形式（01-06）",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page8": {
+        "pageInfo": {
+          "currentPage": "8",
+          "totalPages": "10",
+          "pageIndicator": "8/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "明るいブルー系背景色（統一）",
+          "overlayStructure": "ヘッダー + コンテンツカード",
+          "headerType": "青色ヘッダーバー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「この投稿も要チェック」白文字ヘッダー",
+            "layout": "中央配置、青色背景"
+          },
+          "middleSection": {
+            "format": "関連投稿紹介カード",
+            "backgroundColor": "白色カード",
+            "items": [
+              "「1.6万人が保存した人気投稿」",
+              "「ChatGPT 精度爆上げ 指示文30選」のカバー画像"
+            ],
+            "visualElements": "実写のカフェ作業風景、ChatGPTロゴ、数字「30」強調"
+          },
+          "bottomSection": {
+            "elements": "左側に男性キャラクター",
+            "ctaElements": "関連コンテンツへの興味喚起"
+          }
+        },
+        "actualRole": "related-content-promotion",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "茶色（カフェ）", "肌色"],
+          "typography": "白色ヘッダー文字、黒字本文",
+          "visualHierarchy": "ヘッダー → 人気投稿紹介 → カバー画像 → キャラクター",
+          "trustSignals": ["1.6万人の保存実績", "人気投稿であることの明示"],
+          "engagementElements": ["人気の証明", "追加価値の提示"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし（直接的なリンクなし）",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "間接的（人気投稿への言及）"
+        }
+      },
+      "page9": {
+        "pageInfo": {
+          "currentPage": "9",
+          "totalPages": "10",
+          "pageIndicator": "9/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "グラデーション + イラスト",
+          "backgroundDescription": "白から青へのグラデーション、気球と空のイラスト",
+          "overlayStructure": "タイトル + リスト + 保存促進要素",
+          "headerType": "なし（フルスクリーンデザイン）"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「正確な回答をもらう神指示文」タイトル（青文字）",
+            "layout": "中央上部配置"
+          },
+          "middleSection": {
+            "format": "番号付きリスト",
+            "backgroundColor": "透明（グラデーション背景）",
+            "items": [
+              "①嘘をつかないで",
+              "②思考の過程も全部見せて", 
+              "③出典を必ず出して",
+              "④複数の視点から見て",
+              "⑤間違う可能性も考えて"
+            ],
+            "visualElements": "番号付き黒文字リスト"
+          },
+          "bottomSection": {
+            "elements": "気球に乗るキャラクター2人、飛行機、保存アイコンと矢印",
+            "ctaElements": "「今日もコツコツ積み上げよう！」「保存はこちら」"
+          }
+        },
+        "actualRole": "summary-and-save-promotion",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色", "カラフル（気球）", "黄色（矢印）"],
+          "typography": "青色タイトル、黒字リスト、白文字吹き出し",
+          "visualHierarchy": "タイトル → 5つのポイント → 保存促進 → キャラクター",
+          "trustSignals": ["完結なまとめ", "実行可能な内容"],
+          "engagementElements": ["楽しいイラスト", "積み上げメッセージ", "保存促進"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "「保存はこちら」黄色矢印 + 保存アイコン"
+        }
+      },
+      "page10": {
+        "pageInfo": {
+          "currentPage": "10",
+          "totalPages": "10",
+          "pageIndicator": "10/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "ビーチで海を眺める2人の後ろ姿",
+          "overlayStructure": "上部に情報カード、下部にスマートフォン画面",
+          "headerType": "Instagram標準UI"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「LINE限定特別案内」LINEロゴ + ギフトボックス",
+            "layout": "白色カードレイアウト"
+          },
+          "middleSection": {
+            "format": "特典紹介 + スマートフォン画面",
+            "backgroundColor": "白色カード",
+            "items": [
+              "複数の特典画像（「秘密」マーク付き）",
+              "「豪華61大特典&無料個別相談」",
+              "コンテンツ随時追加中の告知",
+              "参加無料申し込みボタン"
+            ],
+            "visualElements": "スマートフォン画面のモックアップ、URLリンク表示"
+          },
+          "bottomSection": {
+            "elements": "ビーチの実写背景",
+            "ctaElements": "bit.ly/AJjWURp のURL表示"
+          }
+        },
+        "actualRole": "line-registration-promotion",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "緑色（LINE）", "黄色", "自然色（ビーチ）"],
+          "typography": "白文字、黒文字、カラフルな特典表示",
+          "visualHierarchy": "LINE案内 → 特典紹介 → スマホ画面 → URL",
+          "trustSignals": ["61大特典の具体的数値", "無料であることの明示"],
+          "engagementElements": ["豪華特典", "無料案内", "限定感"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "参加無料申し込みボタン（スマホ画面内）",
+          "swipeIndicators": "最終ページ（ドット表示）",
+          "savePrompts": "なし（LINE登録促進）"
+        }
+      },
+      "page11": {
+        "pageInfo": {
+          "currentPage": "11",
+          "totalPages": "11",
+          "pageIndicator": "1/10（表示上は10ページ目として処理）"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "白色背景",
+          "overlayStructure": "テキストベースレイアウト",
+          "headerType": "「おすすめの投稿」ヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「正確な回答をもらう神指示文」タイトル",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "テキストリスト + 説明文",
+            "backgroundColor": "白色",
+            "items": [
+              "5つの指示文リスト",
+              "「少しでも参考になったら【保存・シェア】でリアクションもらえると励みになります」",
+              "アカウント紹介文",
+              "フォロワー70万人越え等の実績"
+            ],
+            "visualElements": "手書き風セパレーター線"
+          },
+          "bottomSection": {
+            "elements": "ハッシュタグ群、投稿日時",
+            "ctaElements": "各種ハッシュタグ（#インスタ初心者 等）"
+          }
+        },
+        "actualRole": "metadata-and-hashtag-page",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "青色（ハッシュタグ）"],
+          "typography": "標準フォント、ハッシュタグは青文字",
+          "visualHierarchy": "タイトル → 内容リスト → アカウント紹介 → ハッシュタグ",
+          "trustSignals": ["70万フォロワーの実績", "具体的なサービス内容"],
+          "engagementElements": ["保存・シェア促進", "フォローワー数表示"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし（最終情報ページ）",
+          "savePromots": "【保存・シェア】テキスト"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": "9",
+      "contentPages": "7 (8-9ページはプロモーション・キャプション)"
+    },
+    "layoutStructure": {
+      "backgroundType": "薄ピンク背景→白色カード重ね",
+      "backgroundDescription": "全ページ統一された薄ピンク背景、白色の丸角カード重ね",
+      "overlayStructure": "白色の丸角カード、内容に応じてサイズ調整",
+      "headerType": "赤色円番号（1-5）+ 質問形式タイトル"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "赤色円に白抜き数字 + 質問形式タイトル",
+        "layout": "左上に番号、右側にタイトルテキスト"
+      },
+      "middleSection": {
+        "format": "説明文 + 具体例・比較表示 + 実用アドバイス",
+        "backgroundColor": "白色カード内",
+        "items": [
+          "問題提起文",
+          "Before/After比較（ページ2）",
+          "具体的手順・ツール名",
+          "実践的アドバイス"
+        ],
+        "visualElements": "イラスト（人物、PC、ファイル等）、比較表、ツール名表示"
+      },
+      "bottomSection": {
+        "elements": "保存ボタン（ブックマークアイコン）",
+        "ctaElements": "無し（保存アイコンのみ）"
+      }
+    },
+    "actualRole": {
+      "page1": "インパクトあるタイトルでクリック誘導",
+      "page2-6": "習慣1-5の段階的詳細説明（番号順）",
+      "page7": "全体まとめ・継続の重要性強調",
+      "page8": "関連コンテンツ紹介・フォロー誘導",
+      "page9": "SNS投稿用メタデータ・プロフィール誘導"
+    },
+    "designElements": {
+      "colorScheme": ["薄ピンク（背景）", "白色（カード）", "赤色（番号・アクセント）", "黒色（テキスト）", "グレー（Before表示）"],
+      "typography": "ゴシック体メイン、太字で強調",
+      "visualHierarchy": "番号→質問→説明文→具体例→イラスト",
+      "trustSignals": ["具体的なツール名・サービス名", "Before/After比較", "段階的な説明構成"],
+      "engagementElements": ["質問形式のタイトル", "親しみやすいイラスト", "実践的な具体例"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（静的コンテンツ）",
+      "swipeIndicators": "ページドット表示",
+      "savePrompts": "保存アイコン（ブックマーク）各ページ右下"
+    },
+    "instructionalPattern": {
+      "structure": "問題提起（質問）→理由説明→具体的解決策→実践アドバイス",
+      "progression": "基本スキル（ショートカット）→整理術→問題解決力→専門スキル（タイピング）→最新技術（AI）",
+      "difficulty": "易しい内容から段階的にレベルアップ",
+      "actionability": "即実践可能な具体的手順・ツール提示"
+    },
+    "visualConsistency": {
+      "layoutPattern": "全ページ同じカード配置・番号位置",
+      "colorUsage": "赤色を一貫してアクセントカラーとして使用",
+      "fontTreatment": "質問は太字、説明は通常、ツール名は強調",
+      "illustrationStyle": "シンプルなライン系イラスト、統一された人物表現"
+    }
+  }  
+}

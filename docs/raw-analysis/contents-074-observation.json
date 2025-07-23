@@ -1,0 +1,107 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 8,
+      "pageIndicator": "右上に「x/8」形式でページ番号表示"
+    },
+    "layoutStructure": {
+      "backgroundType": "グレー系の紙質テクスチャ背景",
+      "backgroundDescription": "全ページで統一されたグレーの紙質感背景",
+      "overlayStructure": "上部タイトルバー＋中央コンテンツエリア＋下部エンゲージメント",
+      "headerType": "黒いバー内に白文字でタイトル表示"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページタイトルまたはアカウント名「いと【就活情報発信】」",
+        "layout": "左寄せまたは中央配置"
+      },
+      "middleSection": {
+        "format": "ページ1:黒板風、ページ2:吹き出し、ページ3-8:画像＋テキスト",
+        "backgroundColor": "各ページで異なる（黒、白、カラフル）",
+        "items": "テキスト、スクリーンショット、キャラクター画像、機能説明",
+        "visualElements": "実際のサービス画面、キャラクターイラスト、番号付きリスト"
+      },
+      "bottomSection": {
+        "elements": "いいね数、アカウント情報、ハッシュタグ",
+        "ctaElements": "フォローボタン、保存促進メッセージ"
+      }
+    },
+    "actualRole": "job-hunting-service-promotion",
+    "designElements": {
+      "colorScheme": ["グレー", "黒", "白", "赤", "紫", "青"],
+      "typography": "ゴシック系、黒板風の手書き風フォント（ページ1）",
+      "visualHierarchy": "タイトル → サービス画像 → 機能説明 → 行動喚起",
+      "trustSignals": ["実際のスクリーンショット使用", "具体的な機能説明", "無料お試し提供"],
+      "engagementElements": ["キャラクター選択の楽しさ", "限定感のある無料オファー"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "フォローボタンのみ",
+      "swipeIndicators": "標準的なInstagramスワイプ操作",
+      "savePrompts": "「参考になったら保存して」の明示的な促進"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "backgroundStyle": "黒板風の黒背景",
+        "textStyle": "白い手書き風フォントで「とんでもない」、赤字で「就活AIが登場した」",
+        "characterPlacement": "右下にスーツ姿のキャラクターが指差しポーズ",
+        "visualImpact": "チョークで書いたような質感で注意を引く"
+      },
+      "page2": {
+        "dialogueFormat": "円形アイコン＋吹き出しでの対話形式",
+        "studentIcon": "【就活生】のラベル付きアイコン",
+        "infoProviderIcon": "【就活情報発信者】のラベル付きアイコン",
+        "blackBoxInfo": "下部に黒い背景で重要情報を強調表示"
+      },
+      "page3": {
+        "serviceVisual": "「就活パイセン」の紫色ロゴ＋多様なキャラクターの集合写真",
+        "characterDiversity": "7人の異なるキャラクター（スーツ、カジュアル、個性的な服装）",
+        "featureList": "番号付きで4つの主要機能を列挙",
+        "layoutBalance": "上部に画像、下部に機能リスト"
+      },
+      "page4": {
+        "screenshots": "実際のLINEチャット画面を2つ並べて表示",
+        "chatInterface": "就活パイセンとのやり取りの実例",
+        "functionalityDemo": "ES作成から添削までの流れを視覚的に説明",
+        "realismLevel": "実際のサービス画面で信頼性を高める"
+      },
+      "page5": {
+        "mockInterviewScreens": "音声入力による面接練習の画面を2つ表示",
+        "voiceInputFeature": "LINEの音声入力機能を活用した模擬面接",
+        "feedbackSystem": "AIによるフィードバック提供の様子",
+        "practicalBenefit": "恥ずかしさを感じずに練習できる利点を強調"
+      },
+      "page6": {
+        "characterSelection": "「あなたは誰と就活する？」の質問付き",
+        "characterArray": "7人のキャラクターが横一列に並ぶ構図",
+        "personalityMatching": "性格に合わせた選択の重要性を説明",
+        "visualAppeal": "親しみやすいキャラクターデザイン"
+      },
+      "page7": {
+        "limitedOffer": "「今だけ」「3日間無料」の限定感演出",
+        "gradientBackground": "ピンクから青へのグラデーション背景",
+        "premiumPlan": "プレミアプランの制限なし利用を強調",
+        "urgencyCreation": "リリース記念の特別感を演出"
+      },
+      "page8": {
+        "navigationGuide": "「公式LINEのリンクはハイライトから！」の明確な指示",
+        "highlightCircles": "3つの円形ハイライト表示",
+        "servicePromotion": "アカウントの継続的な価値を箇条書きで説明",
+        "hashtagCollection": "就活関連の主要ハッシュタグを網羅",
+        "dateStamp": "2024年11月18日の投稿日時記載"
+      }
+    },
+    "consistentElements": {
+      "backgroundTexture": "全ページでグレー系の紙質感背景を維持",
+      "headerStyle": "黒いタイトルバーに白文字で統一",
+      "pageNumbering": "右上の一貫したページ番号表示",
+      "accountBranding": "「いと【就活情報発信】」の一貫した表記"
+    },
+    "servicePromotionTechniques": {
+      "visualProof": "実際のサービス画面スクリーンショット使用",
+      "characterPersonification": "AIサービスをキャラクター化して親しみやすく",
+      "functionalityFocus": "具体的な機能と使用場面を詳細に説明",
+      "limitedTimeOffer": "無料期間の限定感で行動を促進"
+    }
+  }
+}

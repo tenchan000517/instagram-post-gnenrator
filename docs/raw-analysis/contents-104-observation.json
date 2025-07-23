@@ -1,0 +1,71 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": "11",
+      "contentPages": "9 (10-11ページはプロモーションと目次)"
+    },
+    "layoutStructure": {
+      "backgroundType": "PC画面写真背景（ぼかし）+ 青色枠線",
+      "backgroundDescription": "実際のPC環境写真をぼかした背景、青色の境界線で統一",
+      "overlayStructure": "白色の画面キャプチャ + 説明テキストボックス",
+      "headerType": "黒色円に白抜き数字 + 機能名タイトル"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "数字（1-7）+ 機能名タイトル",
+        "layout": "左上に円番号、右側にタイトルテキスト"
+      },
+      "middleSection": {
+        "format": "実際の画面キャプチャ + 手順番号 + 説明",
+        "backgroundColor": "白色（画面キャプチャ）",
+        "items": [
+          "実際のWebサイト画面",
+          "手順を示す青色矢印・番号",
+          "機能説明テキスト"
+        ],
+        "visualElements": "実画面、QRコード、キャラクターイラスト"
+      },
+      "bottomSection": {
+        "elements": "青色背景の実用性説明ボックス",
+        "ctaElements": "具体的な活用アドバイス文"
+      }
+    },
+    "actualRole": {
+      "page1": "インパクトあるタイトルで関心喚起",
+      "page2-9": "具体的な活用法を画面付きで段階的説明",
+      "page10": "関連コンテンツ・プロフィール紹介",
+      "page11": "全体目次・投稿者情報・ハッシュタグ"
+    },
+    "designElements": {
+      "colorScheme": ["青色（枠線・アクセント）", "白色（画面・テキスト）", "黒色（番号・文字）", "PC画面の実色"],
+      "typography": "ゴシック体、太字強調",
+      "visualHierarchy": "番号→タイトル→画面キャプチャ→手順→説明→実用アドバイス",
+      "trustSignals": ["実際の画面キャプチャ使用", "具体的な手順番号", "教員という職業的信頼性"],
+      "engagementElements": ["キャラクターイラスト", "実用的な具体例", "段階的な詳細説明"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（静的コンテンツ）",
+      "swipeIndicators": "ページドット表示",
+      "savePrompts": "なし"
+    },
+    "instructionalQuality": {
+      "screenCaptures": "各機能の実際の操作画面を正確に表示",
+      "stepByStep": "①②の番号で手順を明確化",
+      "practicalAdvice": "各ページ下部で実用性を具体的に説明",
+      "accessibility": "画面内容を文字でも説明し理解を補助"
+    },
+    "contentAuthority": {
+      "expertise": "教員8年目の中学校数学教師",
+      "context": "ICTを駆使して授業や業務効率化を推進",
+      "credibility": "実際の教育現場での活用経験",
+      "target": "教員・学校関係者・ICT活用者"
+    },
+    "visualConsistency": {
+      "frameDesign": "全ページ同じ青色枠線デザイン",
+      "numberingSystem": "黒円に白抜き数字で統一",
+      "screenLayout": "画面キャプチャ配置位置の統一",
+      "explanationBox": "下部の青色説明ボックス形式統一"
+    }
+  }
+}

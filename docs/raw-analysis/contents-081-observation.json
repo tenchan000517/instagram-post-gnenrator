@@ -1,0 +1,142 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "4",
+        "pageIndicator": "1/4"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真",
+        "backgroundDescription": "会議室の写真、木目調のテーブルとオレンジ色の椅子が4脚配置",
+        "overlayStructure": "中央に白色の角丸長方形オーバーレイ",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "なし"
+        },
+        "middleSection": {
+          "format": "タイトルテキストのみ",
+          "backgroundColor": "白（半透明）",
+          "items": ["🔥就活で使うべきオススメAIツール🔥"],
+          "visualElements": "火の絵文字でタイトルを挟む装飾"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトル提示ページ",
+      "designElements": {
+        "colorScheme": ["白", "黒", "オレンジ（椅子）", "茶色（テーブル）", "グレー（床）"],
+        "typography": "太字ゴシック体",
+        "visualHierarchy": "中央配置のタイトルのみ",
+        "trustSignals": [],
+        "engagementElements": ["火の絵文字による注目度向上"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "4",
+        "pageIndicator": "2/4"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真",
+        "backgroundDescription": "同じ会議室の写真",
+        "overlayStructure": "中央左寄りに赤色の角丸長方形オーバーレイ",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "なし"
+        },
+        "middleSection": {
+          "format": "リスト形式",
+          "backgroundColor": "赤（#FF5757系）",
+          "items": [
+            "• AI就活サポたくん",
+            "• 就活AI",
+            "• ３秒敬語",
+            "• Bing AI",
+            "• Chat GPT",
+            "• 就活秘書",
+            "• ES Maker",
+            "• SmartES"
+          ],
+          "visualElements": "白い丸（•）のリストマーカー、白文字"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツールリスト提示ページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "オレンジ（椅子）", "茶色（テーブル）"],
+        "typography": "ゴシック体、白文字",
+        "visualHierarchy": "縦並びリスト構造",
+        "trustSignals": [],
+        "engagementElements": ["赤背景による強調", "見やすいリスト形式"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "4",
+        "pageIndicator": "3/4"
+      },
+      "layoutStructure": {
+        "backgroundType": "写真",
+        "backgroundDescription": "同じ会議室の写真",
+        "overlayStructure": "上部に赤色ヘッダー、中央に白色の角丸長方形オーバーレイ",
+        "headerType": "赤背景白文字のヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「まとめ」ヘッダー",
+          "layout": "赤背景の角丸長方形、左側に配置"
+        },
+        "middleSection": {
+          "format": "説明文形式",
+          "backgroundColor": "白",
+          "items": ["これらのツールを利用したのちキャリアセンターの教員やエージェント会社のカウンセラーに最終確認してもらう方法がベスト！"],
+          "visualElements": "黒文字の説明文、一部黒塗り（個人情報保護）"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "まとめ・注意事項提示ページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "黒", "オレンジ（椅子）", "茶色（テーブル）"],
+        "typography": "ゴシック体、黒文字",
+        "visualHierarchy": "ヘッダー→本文の階層構造",
+        "trustSignals": ["キャリアセンター", "エージェント会社のカウンセラー"],
+        "engagementElements": ["重要な注意事項の明確な提示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

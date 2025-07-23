@@ -1,0 +1,477 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "11",
+        "pageIndicator": "1/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "パターン",
+        "backgroundDescription": "薄いベージュ背景にジグザグ（山型）の白いパターン",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "黄色い吹き出し「知らない人損するかも」",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "大きなテキスト表示",
+          "backgroundColor": "透明",
+          "items": ["もう手放せない", "生成AI は", "この5つ"],
+          "visualElements": "女性キャラクターイラスト（緑の服、茶髪）が左下に配置"
+        },
+        "bottomSection": {
+          "elements": "「インスタ集客について発信中！」の小さなテキスト",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトル・表紙ページ",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "黄色", "緑", "黒"],
+        "typography": "太字の大きなフォント",
+        "visualHierarchy": "1.黄色吹き出し 2.メインタイトル 3.キャラクター 4.発信内容",
+        "trustSignals": ["発信テーマの明記"],
+        "engagementElements": ["親しみやすいキャラクター", "注意喚起の吹き出し"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に1/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "11",
+        "pageIndicator": "2/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "黄色背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "疲れた表情のキャラクターと吹き出し「調べ物、文章作成、メール返信...やること多すぎて私が10人いても足らん。寝よ。」",
+          "layout": "上部に配置"
+        },
+        "middleSection": {
+          "format": "見出しテキスト",
+          "backgroundColor": "透明",
+          "items": ["生成AI使えば", "一瞬で終わるぞ！"],
+          "visualElements": "起きた表情のキャラクターイラスト"
+        },
+        "bottomSection": {
+          "elements": "説明文ブロック（今日は実際に私が毎日使っている...から始まる文章）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "問題提起と解決策予告ページ",
+      "designElements": {
+        "colorScheme": ["黄色", "黒", "白"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.キャラクターの悩み 2.解決策見出し 3.詳細説明",
+        "trustSignals": ["実際に使用している体験談"],
+        "engagementElements": ["感情移入しやすいキャラクター表現", "比喩表現「天と地ほど変わる」"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に2/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "11",
+        "pageIndicator": "3/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "複合",
+        "backgroundDescription": "上部黄色帯「本当に使える生成AIツール」、下部白背景",
+        "overlayStructure": "なし",
+        "headerType": "黄色帯にツールカテゴリ表示"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「01 ChatGPT」の番号付きタイトル",
+          "layout": "白いボックス内に表示"
+        },
+        "middleSection": {
+          "format": "説明文＋使用例",
+          "backgroundColor": "白",
+          "items": ["言わずと知れた生成AIの代表選手！..."],
+          "visualElements": "キャラクターと複数の吹き出しで使用例を表示"
+        },
+        "bottomSection": {
+          "elements": "緑の破線ボックスと関連投稿の案内バナー",
+          "ctaElements": "「意外と知らないChatGPT活用法6選」バナー"
+        }
+      },
+      "actualRole": "ツール1個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["黄色", "白", "緑", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.基本説明 3.使用例 4.関連情報案内",
+        "trustSignals": ["具体的な使用例の提示"],
+        "engagementElements": ["親しみやすい使用例", "関連コンテンツの案内"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に3/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "11",
+        "pageIndicator": "4/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "複合",
+        "backgroundDescription": "上部黄色帯、下部白背景",
+        "overlayStructure": "なし",
+        "headerType": "黄色帯にツールカテゴリ表示"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「02 Gemini」の番号付きタイトル",
+          "layout": "白いボックス内に表示"
+        },
+        "middleSection": {
+          "format": "説明文＋3つの連携例カード",
+          "backgroundColor": "白",
+          "items": ["Googleが作った生成AI..."],
+          "visualElements": "3つのGoogleサービス連携例（カレンダー、マップ、ドキュメント）"
+        },
+        "bottomSection": {
+          "elements": "緑の破線ボックスで個人的おすすめ体験談",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール2個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["黄色", "白", "緑", "オレンジ", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.基本説明 3.連携例カード 4.体験談",
+        "trustSignals": ["具体的なサービス連携例"],
+        "engagementElements": ["視覚的なカード表示", "個人体験談"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に4/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "11",
+        "pageIndicator": "5/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "複合",
+        "backgroundDescription": "上部黄色帯、下部白背景",
+        "overlayStructure": "なし",
+        "headerType": "黄色帯にツールカテゴリ表示"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「03 NotebookLM」の番号付きタイトル",
+          "layout": "白いボックス内に表示"
+        },
+        "middleSection": {
+          "format": "説明文＋チェックマーク付き機能リスト",
+          "backgroundColor": "白",
+          "items": ["こちらもGoogleが作った生成AI..."],
+          "visualElements": "緑のチェックマーク付きで3つの機能を表示、AIロボットイラスト"
+        },
+        "bottomSection": {
+          "elements": "緑の破線ボックスで活用場面の説明",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール3個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["黄色", "白", "緑", "青", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.基本説明 3.機能チェックリスト 4.活用シーン",
+        "trustSignals": ["信頼性への言及「地味に大事」"],
+        "engagementElements": ["チェックマーク形式", "AIロボットイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に5/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "11",
+        "pageIndicator": "6/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "複合",
+        "backgroundDescription": "上部黄色帯、下部白背景",
+        "overlayStructure": "なし",
+        "headerType": "黄色帯にツールカテゴリ表示"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「04 Canva AI」の番号付きタイトル",
+          "layout": "白いボックス内に表示"
+        },
+        "middleSection": {
+          "format": "説明文＋4つの機能カード",
+          "backgroundColor": "白",
+          "items": ["最近劇的な進化を遂げたCanvaAI！..."],
+          "visualElements": "4つの機能を2x2のカード形式で表示（アプリ開発、スプレッドシート、写真エディター、AI音声）"
+        },
+        "bottomSection": {
+          "elements": "キャラクターによる次回予告メッセージ",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール4個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["黄色", "白", "紫", "オレンジ", "緑", "青", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.基本説明 3.機能カード 4.次回予告",
+        "trustSignals": ["具体的な機能画面の表示"],
+        "engagementElements": ["カラフルな機能カード", "次回予告による継続性"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に6/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "11",
+        "pageIndicator": "7/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "複合",
+        "backgroundDescription": "上部黄色帯、下部白背景",
+        "overlayStructure": "なし",
+        "headerType": "黄色帯にツールカテゴリ表示"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「05 Felo」の番号付きタイトル",
+          "layout": "白いボックス内に表示"
+        },
+        "middleSection": {
+          "format": "説明文＋検索結果比較画面",
+          "backgroundColor": "白",
+          "items": ["検索に特化した生成AI..."],
+          "visualElements": "左側：複雑な検索結果文書、右側：整理されたマインドマップ"
+        },
+        "bottomSection": {
+          "elements": "緑の破線ボックスで効率性の説明",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール5個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["黄色", "白", "緑", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.基本説明 3.比較画面 4.効率性説明",
+        "trustSignals": ["視覚的な効果比較"],
+        "engagementElements": ["Before/After的な比較表示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に7/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "11",
+        "pageIndicator": "8/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いベージュ背景",
+        "overlayStructure": "なし",
+        "headerType": "黄色の「まとめ」ボックス"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「まとめ」の黄色見出しボックス",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "番号付きリスト",
+          "backgroundColor": "白いカード",
+          "items": ["1. ChatGPT", "2. Gemini", "3. NotebookLM", "4. Canva AI", "5. Felo"],
+          "visualElements": "緑色のAIロボットイラスト、「CONCLUSION」の装飾文字"
+        },
+        "bottomSection": {
+          "elements": "キャラクターの吹き出しコメント",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "まとめページ",
+      "designElements": {
+        "colorScheme": ["ベージュ", "黄色", "白", "緑", "黒"],
+        "typography": "見出しは太字、リストは通常フォント",
+        "visualHierarchy": "1.まとめ見出し 2.ツールリスト 3.キャラクターコメント",
+        "trustSignals": ["体系的な整理"],
+        "engagementElements": ["親しみやすいコメント", "AIロボットイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に8/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "11",
+        "pageIndicator": "9/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "パターン",
+        "backgroundDescription": "ピンクの斜線パターン背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「投稿見てくれた方にプレゼント動画配布中！！」",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "スマートフォン画面とバナー",
+          "backgroundColor": "透明",
+          "items": ["インスタ集客つまづき中...等の悩みテキスト"],
+          "visualElements": "Instagramプロフィール画面、「あなただからと選ばれる依頼が止まらない！インスタ運用の5ステップ」バナー"
+        },
+        "bottomSection": {
+          "elements": "インスタ伸ばした秘訣を（文章が途切れている）",
+          "ctaElements": "プレゼント動画の案内"
+        }
+      },
+      "actualRole": "プロモーション・リードマグネットページ",
+      "designElements": {
+        "colorScheme": ["ピンク", "白", "黄色", "緑", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.プレゼント告知 2.悩み共感 3.スマートフォン画面",
+        "trustSignals": ["実際のInstagram画面表示"],
+        "engagementElements": ["プレゼント要素", "共感を誘う悩み"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に9/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "11",
+        "pageIndicator": "10/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "薄いブルーから白へのグラデーション",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「在宅ワーク半年で月30万達成したスクール情報はココ！」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "目標・憧れテキストとスマートフォン画面",
+          "backgroundColor": "透明",
+          "items": ["SNSを極めて趣味を仕事にしたい", "憧れのフリーランスに私もなりたい！", "在宅ワークで遠回りしたくない"],
+          "visualElements": "Instagramプロフィール画面、喜んでいるキャラクターイラスト"
+        },
+        "bottomSection": {
+          "elements": "「ハイライトから無料動画を受け取れます」",
+          "ctaElements": "ハイライト誘導"
+        }
+      },
+      "actualRole": "スクール誘導・CTA ページ",
+      "designElements": {
+        "colorScheme": ["ブルー", "白", "黄色", "緑", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.実績数字 2.目標・憧れ 3.CTA",
+        "trustSignals": ["具体的な実績数字「半年で月30万」"],
+        "engagementElements": ["憧れを刺激する表現", "喜びの表情キャラクター"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "右上に10/11のページ表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page11": {
+      "pageInfo": {
+        "currentPage": "11",
+        "totalPages": "11",
+        "pageIndicator": "なし（最終ページ）"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "手書き風「Thank You」と女性の写真（円形）",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "プロフィール情報と自己紹介",
+          "backgroundColor": "透明",
+          "items": ["人生のハンドルは自分で握ろう！", "フリーランス歴3年", "企業様のSNS集客やマーケティングをサポート"],
+          "visualElements": "Instagram投稿のスクリーンショット3枚"
+        },
+        "bottomSection": {
+          "elements": "2025年の目標宣言",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "プロフィール・ブランディングページ",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "金色", "黒"],
+        "typography": "手書き風フォントと通常フォントの組み合わせ",
+        "visualHierarchy": "1.Thank You 2.写真 3.プロフィール 4.目標",
+        "trustSignals": ["実績年数", "実際の投稿例表示"],
+        "engagementElements": ["手書き風デザイン", "金色の装飾"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

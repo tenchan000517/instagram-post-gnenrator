@@ -1,0 +1,106 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "全10ページの分析",
+      "totalPages": "10",
+      "pageIndicator": "1/10, 2/10, ... 9/10, 10/10（最終ページは異なる形式）"
+    },
+    "layoutStructure": {
+      "backgroundType": "グラデーション背景（一貫した紫-ピンク系）",
+      "backgroundDescription": "ページ1-9: 薄紫から薄ピンクへのグラデーション + 格子パターンオーバーレイ、ページ10: グレー背景にカラフルドット",
+      "overlayStructure": "白色メインカード中心配置",
+      "headerType": "左上にアイコン付きタグ（💬もやもや、POINT 01/02、まとめ）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "左上角にアイコン + タイトル（💬もやもや、POINT 01/02等）+ 右上にページ番号",
+        "layout": "角丸タグスタイル配置"
+      },
+      "middleSection": {
+        "format": "白色カード内にテキストコンテンツ",
+        "backgroundColor": "白色",
+        "items": [
+          "ページ1: タイトル + SWIPE誘導",
+          "ページ2-3: 定義説明 + 問題提起",
+          "ページ4: チェックポイント（赤色ハート付きリスト）",
+          "ページ5: 具体例（面接シーン + 面接官の心の声）",
+          "ページ6: エピソード重要性の説明",
+          "ページ7: Bad/Good例の対比（キャラクターイラスト付き）",
+          "ページ8: まとめ（2ポイント + 喜ぶキャラクター）",
+          "ページ9: CTA（MIRAVEL ロゴ + いいね・フォロー依頼）"
+        ],
+        "visualElements": "キャラクターイラスト、ハート型アイコン、番号付きリスト、対比レイアウト"
+      },
+      "bottomSection": {
+        "elements": "NEXT>> ボタン（数ページ）+ ページ番号 + ハートアイコン",
+        "ctaElements": "ページ9でMIRAVELロゴ + プロフィール誘導"
+      }
+    },
+    "actualRole": "コミュニケーション力向上のための教育コンテンツ（定義→チェック→実例→対策の構造）",
+    "designElements": {
+      "colorScheme": ["紫色", "ピンク色", "白色", "赤色（チェックポイント）", "黄色（マーカー）", "グレー（最終ページ）"],
+      "typography": "太字タイトル + 標準フォント本文 + 強調用マーカー",
+      "visualHierarchy": "アイコンタグ → メインタイトル → 説明文 → チェックポイント/例 → NEXT誘導",
+      "trustSignals": ["元人事が聞いた！", "具体的なチェックポイント", "実際の面接シーン再現"],
+      "engagementElements": ["💬😊❤️のアイコン", "SWIPE/NEXT誘導", "キャラクターイラスト", "Bad/Good対比"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "SWIPE >>, NEXT>> ボタン",
+      "swipeIndicators": "右上ページ番号 + 下部ドット表示",
+      "savePrompts": "ページ9で保存アイコン表示"
+    },
+    "specificObservations": {
+      "page1": {
+        "titleStyle": "ピンクタグ「元人事が聞いた！」+ 大きな黒文字タイトル",
+        "backgroundPattern": "格子状のグリッドパターンオーバーレイ",
+        "swipePrompt": "青色角丸ボタン「SWIPE >>」"
+      },
+      "page2to3": {
+        "iconDesign": "青色円形背景に💬もやもやアイコン",
+        "definitionLayout": "定義を引用符風に強調表示",
+        "listStyle": "ダッシュ + 黄色マーカー強調"
+      },
+      "page4": {
+        "pointDesign": "黄色マーカー「POINT 01」+ 黒太字タイトル",
+        "checklistStyle": "赤色ハートマーク😊 + チェック項目",
+        "noteSection": "グレー背景の補足説明エリア"
+      },
+      "page5": {
+        "exampleLayout": "ピンク円「例」+ 質問 + イラスト + 吹き出し",
+        "characterIllustration": "フラッシュモブ説明の喜ぶ人物イラスト",
+        "speechBubbles": "面接官の疑問を複数の吹き出しで表現",
+        "questionMarks": "大きな赤い「？」マーク"
+      },
+      "page6": {
+        "structuredList": "番号付き(1)(2)(3) + 具体的な能力説明",
+        "emphasizedText": "重要部分の太字 + 行間調整"
+      },
+      "page7": {
+        "comparisonLayout": "Bad（左上）vs Good（右下）の対角配置",
+        "characterDesigns": "Bad: 困り顔男性、Good: 笑顔男性",
+        "speechBubbleStyles": "Bad: 通常吹き出し、Good: 強調吹き出し",
+        "analysisBoxes": "右側に分析コメント配置"
+      },
+      "page8": {
+        "summaryDesign": "青色円「まとめ」+ 白色カード",
+        "pointsList": "(1)(2)番号 + 要点整理",
+        "conclusionStyle": "「この2点を意識するとGood!」+ 赤色Good!",
+        "celebrationIllustration": "両手を上げて喜ぶ男女のイラスト"
+      },
+      "page9": {
+        "ctaMessage": "大きな「いいね❤️とフォロー」+ 「お願いします！」",
+        "logoDesign": "青緑色「M」ロゴ + 「MIRAVEL」文字",
+        "highlightedCTA": "黄色マーカー「自分に合った企業を知りたい就活生は」",
+        "saveIcon": "右下に保存マークアイコン"
+      },
+      "page10": {
+        "backgroundPattern": "グレー背景に青・オレンジ・赤の円形ドット散布",
+        "profileLayout": "左下にプロフィール画像 + アカウント名",
+        "captionStyle": "白文字 + 絵文字🤗✨💪💡使用",
+        "hashtagSection": "複数行にわたるハッシュタグリスト",
+        "dateStamp": "2021年1月21日"
+      }
+    }
+  }
+}

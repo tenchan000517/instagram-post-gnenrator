@@ -1,0 +1,433 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "10",
+        "pageIndicator": "1/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "ベージュ色の無地背景",
+        "overlayStructure": "上部にオレンジ色のヘッダーバー、中央に手持ちスマートフォンの画像",
+        "headerType": "オレンジ色の長方形ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "【永久保存版】の白文字テキスト",
+          "layout": "オレンジ背景に白文字"
+        },
+        "middleSection": {
+          "format": "タイトルテキストと画像",
+          "backgroundColor": "ベージュ",
+          "items": ["転職活動で", "超役に立った", "神アプリ7選"],
+          "visualElements": "黒いスマートフォンを持つ手の写真"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトル提示・期待感醸成ページ",
+      "designElements": {
+        "colorScheme": ["オレンジ", "ベージュ", "白", "黒"],
+        "typography": "太字ゴシック体、大きめのフォントサイズ",
+        "visualHierarchy": "ヘッダー→タイトル→画像",
+        "trustSignals": ["永久保存版"],
+        "engagementElements": ["神アプリ", "7選"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "10",
+        "pageIndicator": "2/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "グレー色の背景",
+        "overlayStructure": "白色のカード型オーバーレイ",
+        "headerType": "紺色背景の番号付きヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「1：KNOCKNOCK(ノックノック)」",
+          "layout": "紺色背景に白文字と黄色文字"
+        },
+        "middleSection": {
+          "format": "アプリ画面と説明文",
+          "backgroundColor": "白",
+          "items": [
+            "スマートフォンのアプリ画面スクリーンショット",
+            "面接官が質問を読み上げてくれるので1人でも面接の練習ができる！",
+            "スタンダードな質問から少しひねった圧迫面接気味の質問など200本近く収録しているので超便利。面接が苦手な人はまずこれで練習。"
+          ],
+          "visualElements": "アプリ画面、赤文字強調、キャラクターアイコン"
+        },
+        "bottomSection": {
+          "elements": "キャラクターアイコン（右下）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "個別アプリ詳細紹介ページ",
+      "designElements": {
+        "colorScheme": ["紺", "黄", "白", "赤", "グレー"],
+        "typography": "ゴシック体、赤文字での強調",
+        "visualHierarchy": "番号→アプリ名→画面→説明文",
+        "trustSignals": ["200本近く収録"],
+        "engagementElements": ["超便利", "赤文字強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "10",
+        "pageIndicator": "3/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "グレー色の背景",
+        "overlayStructure": "白色のカード型オーバーレイ",
+        "headerType": "紺色背景の番号付きヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「2：レジュメ(書類作成アプリ)」",
+          "layout": "紺色背景に白文字と黄色文字"
+        },
+        "middleSection": {
+          "format": "アプリアイコンと説明文",
+          "backgroundColor": "白",
+          "items": [
+            "赤色グラデーションのアプリアイコン",
+            "履歴書＆職務経歴書が作成できるアプリ",
+            "履歴書の原稿も3種類用意されていて自己PRや志望動機の例文集があるためサクッと書類作成できた。",
+            "全国のコンビニで印刷可能です！"
+          ],
+          "visualElements": "アプリアイコン、キャラクターアイコン"
+        },
+        "bottomSection": {
+          "elements": "キャラクターアイコン（右下）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "個別アプリ詳細紹介ページ",
+      "designElements": {
+        "colorScheme": ["紺", "黄", "白", "赤", "ピンク", "グレー"],
+        "typography": "ゴシック体",
+        "visualHierarchy": "番号→アプリ名→アイコン→説明文",
+        "trustSignals": ["3種類用意", "全国のコンビニ"],
+        "engagementElements": ["サクッと"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "10",
+        "pageIndicator": "4/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "グレー色の背景",
+        "overlayStructure": "白色のカード型オーバーレイ",
+        "headerType": "紺色背景の番号付きヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「3：AI就活(転職でも使える)」",
+          "layout": "紺色背景に白文字と黄色文字"
+        },
+        "middleSection": {
+          "format": "アプリアイコンと説明文",
+          "backgroundColor": "白",
+          "items": [
+            "カラフルなグラデーションのAIアイコン",
+            "それぞれの業界に特化した志望動機を生成してくれるAI搭載アプリ。",
+            "キーワードを選ぶだけでリアルに使いやすい自己PRを作ってくれる。",
+            "そのまま使っても効果薄いので出てきた内容をオリジナルにリライトすると効率よくPRを作れて便利です！"
+          ],
+          "visualElements": "AIシューカツアイコン、キャラクターアイコン"
+        },
+        "bottomSection": {
+          "elements": "キャラクターアイコン（右下）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "個別アプリ詳細紹介ページ",
+      "designElements": {
+        "colorScheme": ["紺", "黄", "白", "カラフルグラデーション", "グレー"],
+        "typography": "ゴシック体",
+        "visualHierarchy": "番号→アプリ名→アイコン→説明文",
+        "trustSignals": ["AI搭載"],
+        "engagementElements": ["効率よく", "便利です！"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "10",
+        "pageIndicator": "5/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "グレー色の背景",
+        "overlayStructure": "白色のカード型オーバーレイ",
+        "headerType": "紺色背景の番号付きヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「4.Openwork(口コミサイト)」",
+          "layout": "紺色背景に白文字と黄色文字"
+        },
+        "middleSection": {
+          "format": "アプリ画面と説明文",
+          "backgroundColor": "白",
+          "items": [
+            "評価レーダーチャート画面のスクリーンショット",
+            "元社員の声を八つの評価スコアと8カテゴリーでリアルな口コミが掲載。",
+            "年収給与情報と内訳、残業時間、有給休暇取得率についても掲載しているため不安要素が消えました。",
+            "会社の内情を調べるのに超便利でした！"
+          ],
+          "visualElements": "アプリ画面（レーダーチャート）、キャラクターアイコン"
+        },
+        "bottomSection": {
+          "elements": "キャラクターアイコン（右下）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "個別アプリ詳細紹介ページ",
+      "designElements": {
+        "colorScheme": ["紺", "黄", "白", "水色", "グレー"],
+        "typography": "ゴシック体",
+        "visualHierarchy": "番号→アプリ名→画面→説明文",
+        "trustSignals": ["八つの評価スコア", "8カテゴリー"],
+        "engagementElements": ["超便利でした！"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "10",
+        "pageIndicator": "6/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "グレー色の背景",
+        "overlayStructure": "白色のカード型オーバーレイ",
+        "headerType": "紺色背景の番号付きヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「5：Newspicks(情報収集)」",
+          "layout": "紺色背景に白文字と黄色文字"
+        },
+        "middleSection": {
+          "format": "アプリ画面群と説明文",
+          "backgroundColor": "白",
+          "items": [
+            "3つのスマートフォン画面スクリーンショット",
+            "転職の情報収集に役立つニュースアプリ。",
+            "世界の経済ニュースを無料でまとめてあり志望企業の記事も読めるので、面接にも使える情報も豊富。",
+            "業界を調べたり企業研究でもかなり使えるのでオススメ。"
+          ],
+          "visualElements": "3つのアプリ画面、キャラクターアイコン"
+        },
+        "bottomSection": {
+          "elements": "キャラクターアイコン（右下）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "個別アプリ詳細紹介ページ",
+      "designElements": {
+        "colorScheme": ["紺", "黄", "白", "グレー"],
+        "typography": "ゴシック体",
+        "visualHierarchy": "番号→アプリ名→画面群→説明文",
+        "trustSignals": ["無料", "世界の経済ニュース"],
+        "engagementElements": ["かなり使える", "オススメ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "10",
+        "pageIndicator": "7/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "グレー色の背景",
+        "overlayStructure": "白色のカード型オーバーレイ",
+        "headerType": "紺色背景の番号付きヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「6：YOUTRUST(採用SNS)」",
+          "layout": "紺色背景に白文字と黄色文字"
+        },
+        "middleSection": {
+          "format": "アプリ画面と説明文",
+          "backgroundColor": "白",
+          "items": [
+            "スマートフォンのアプリ画面スクリーンショット",
+            "SNSの繋がりから転職先が見つかるアプリ。",
+            "繋がった人から転職幅が届く仕組み。チャットなどでカジュアルに面談できた。",
+            "転職活動中の人もいいけど転職を将来的にしたい人にもおすすめ"
+          ],
+          "visualElements": "アプリ画面、キャラクターアイコン"
+        },
+        "bottomSection": {
+          "elements": "キャラクターアイコン（右下）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "個別アプリ詳細紹介ページ",
+      "designElements": {
+        "colorScheme": ["紺", "黄", "白", "グレー"],
+        "typography": "ゴシック体",
+        "visualHierarchy": "番号→アプリ名→画面→説明文",
+        "trustSignals": ["SNSの繋がり"],
+        "engagementElements": ["カジュアル", "おすすめ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "10",
+        "pageIndicator": "8/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "グレー色の背景",
+        "overlayStructure": "白色のカード型オーバーレイ",
+        "headerType": "紺色背景の番号付きヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「7：履歴書カメラ」",
+          "layout": "紺色背景に白文字と黄色文字"
+        },
+        "middleSection": {
+          "format": "アプリアイコンと説明文",
+          "backgroundColor": "白",
+          "items": [
+            "水色背景の履歴書アイコン",
+            "証明書の写真を撮影印刷できるアプリ。",
+            "肌補正とクマ消しなど機能たっぷりで綺麗に作成可能だった。",
+            "コンビニや家で印刷できるので証明書代の数百円が浮きます(笑)"
+          ],
+          "visualElements": "履歴書アイコン、キャラクターアイコン"
+        },
+        "bottomSection": {
+          "elements": "キャラクターアイコン（右下）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "個別アプリ詳細紹介ページ",
+      "designElements": {
+        "colorScheme": ["紺", "黄", "白", "水色", "グレー"],
+        "typography": "ゴシック体",
+        "visualHierarchy": "番号→アプリ名→アイコン→説明文",
+        "trustSignals": ["肌補正", "クマ消し"],
+        "engagementElements": ["(笑)"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "10",
+        "pageIndicator": "9/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "白色の背景",
+        "overlayStructure": "紺色ヘッダーと7つのアプリ情報セクション",
+        "headerType": "紺色背景のヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「転職で超役に立った神アプリ7選」",
+          "layout": "紺色背景に黄色文字"
+        },
+        "middleSection": {
+          "format": "アプリ一覧表示",
+          "backgroundColor": "白",
+          "items": [
+            "KNOCKNOCK(ノックノック) =1人で面接練習できるアプリ",
+            "レジュメ =書類を作れるアプリ", 
+            "AI就活 =AI機能搭載で自己PR基盤",
+            "Openwork(口コミサイト)",
+            "Newspicks(情報収集)",
+            "YOUTRUST(採用SNS) →SNSの繋がりから面談できる",
+            "履歴書カメラ →証明写真撮れる"
+          ],
+          "visualElements": "各アプリのアイコンと簡潔な説明文"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "総括・一覧表示ページ",
+      "designElements": {
+        "colorScheme": ["紺", "黄", "白", "各アプリのブランドカラー"],
+        "typography": "ゴシック体、小さめフォント",
+        "visualHierarchy": "ヘッダー→アプリ一覧",
+        "trustSignals": [],
+        "engagementElements": ["一覧性"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

@@ -8,7 +8,7 @@
 
 ### Phase 1-A: 初回データ抽出開始
 
-```
+<!-- ```
 【ステップ⑤】ペルソナ詳細分析・完全カテゴライズを担当します。Phase 1の個別データ抽出を実行してください。
 
 【必読ドキュメント】
@@ -23,8 +23,8 @@
 - docs/content-analysis/results/persona-target/contents-XXX-persona.md
 
 【現在フェーズ】Phase 1: 全100投稿の個別ペルソナ詳細分析
-【担当範囲】contents-001 〜 contents-020
-【作業記録先】docs/content-analysis/analytics/step5-personas/working/batches/phase1-batch1-contents001-020.md
+【担当範囲】contents-041 〜 contents-060
+【作業記録先】docs/content-analysis/analytics/step5-personas/working/batches/phase1-batch1-contents041-060.md
 
 【分析項目】
 1. ペルソナ基本属性（年代、職業、状況）
@@ -33,11 +33,11 @@
 4. ペルソナ判定要素
 
 重要：Phase1では「ペルソナタイプ分類」は行わず、純粋なデータ抽出のみ実施。plan.mdの分析項目に従って記録。
-```
+``` -->
 
 ### Phase 1-B: データ抽出継続（2回目以降）
 
-```
+<!-- ```
 【ステップ⑤】ペルソナ詳細分析・完全カテゴライズを担当します。Phase 1の個別データ抽出を継続してください。
 
 【必読ドキュメント】
@@ -51,15 +51,15 @@
 - docs/content-analysis/results/persona-target/contents-XXX-persona.md
 
 【現在フェーズ】Phase 1: 全100投稿の個別ペルソナ詳細分析
-【担当範囲】contents-021 〜 contents-040 ※範囲は進捗に応じて調整
-【作業記録先】docs/content-analysis/analytics/step5-personas/working/batches/phase1-batch2-contents021-040.md
-【前回完了範囲】contents-001 〜 contents-020 ※進捗に応じて調整
+【担当範囲】contents-081 〜 contents-100 ※範囲は進捗に応じて調整
+【作業記録先】docs/content-analysis/analytics/step5-personas/working/batches/phase1-batch2-contents081-100.md
+【前回完了範囲】contents-061 〜 contents-080 ※進捗に応じて調整
 
 重要：既存の記録フォーマットに従い、ペルソナタイプ分類なしでデータ抽出のみ継続。20投稿ずつバッチ分割で記録。
-```
+``` -->
 
 ## 📊 Phase 2: パターン分析セッション
-
+<!-- 
 ```
 【ステップ⑤】ペルソナ詳細分析・完全カテゴライズを担当します。Phase 2の横断的パターン分析を実行してください。
 
@@ -78,11 +78,11 @@
 3. 重複パターンの発見
 
 重要：データから自然に浮かび上がるペルソナクラスターを発見し、客観的に分類。仮説に囚われず、純粋にデータ駆動で分析。
-```
+``` -->
 
 ## 📝 Phase 3: 最終文書化セッション
 
-```
+<!-- ```
 【ステップ⑤】ペルソナ詳細分析・完全カテゴライズを担当します。Phase 3の最終まとめを実行してください。
 
 【必読ドキュメント】
@@ -100,7 +100,7 @@
 3. 次ステップ引き継ぎ仕様策定
 
 重要：確定したペルソナタイプの定義、判定基準、該当投稿リストを完全に文書化。システム要件定義書に基づくPersonaIDの割り当て。
-```
+``` -->
 
 ## ⚠️ 重要な注意事項
 

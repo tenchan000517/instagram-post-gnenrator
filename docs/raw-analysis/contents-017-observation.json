@@ -1,0 +1,391 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "9",
+        "pageIndicator": "1/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレーまたはベージュ系の背景",
+        "overlayStructure": "青い丸い背景エリア",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "青い丸い背景に「就活生が感じたこと」",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "大きなテキストとキャラクター",
+          "backgroundColor": "薄グレー",
+          "items": ["5月の就活本音5選"],
+          "visualElements": "黄色いひよこキャラクター（下部）"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトルページ・コンテンツ紹介",
+      "designElements": {
+        "colorScheme": ["薄グレー", "青", "黒", "黄色"],
+        "typography": "ゴシック体、大きめの文字サイズ",
+        "visualHierarchy": "副題→メインタイトル→キャラクター",
+        "trustSignals": [],
+        "engagementElements": ["可愛いひよこキャラクター"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（1/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "9",
+        "pageIndicator": "2/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "青い点線枠",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「今回はフォロワーのみんなから募集した」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "枠で囲まれたテキストとキャラクター",
+          "backgroundColor": "白",
+          "items": ["5月の就活で感じたこと5つ"],
+          "visualElements": "青い点線枠、黄色いひよこキャラクター（下部）"
+        },
+        "bottomSection": {
+          "elements": "「紹介していくよ！」",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "コンテンツの説明・導入",
+      "designElements": {
+        "colorScheme": ["白", "黒", "青（点線）", "黄色"],
+        "typography": "ゴシック体、読みやすいサイズ",
+        "visualHierarchy": "説明→強調枠→キャラクター→締めの言葉",
+        "trustSignals": ["フォロワーから募集した実体験"],
+        "engagementElements": ["点線枠での強調", "親しみやすい語りかけ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（2/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "9",
+        "pageIndicator": "3/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "青色背景",
+        "overlayStructure": "白い吹き出し",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "白い吹き出し「周りが終わってきて焦る」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "キャラクターと解説テキスト",
+          "backgroundColor": "青",
+          "items": ["焦る気持ちはよくわかるけど焦って行動しても良いことは何もないよ。焦る時こそ、今何をすべきなのか？落ち着いて一歩ずつ進めていこう。"],
+          "visualElements": "困った表情のひよこキャラクター、汗マーク"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "体験談1の紹介とアドバイス",
+      "designElements": {
+        "colorScheme": ["青", "白", "黒", "黄色"],
+        "typography": "ゴシック体、読みやすいサイズ",
+        "visualHierarchy": "吹き出し（体験談）→キャラクター→アドバイス",
+        "trustSignals": [],
+        "engagementElements": ["共感できる体験談", "キャラクターの表情変化"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（3/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "9",
+        "pageIndicator": "4/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "青色背景",
+        "overlayStructure": "白い吹き出し",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "白い吹き出し「4月からでも企業はある」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "キャラクターと解説テキスト",
+          "backgroundColor": "青",
+          "items": ["終了する企業=良い企業とは限らないからね！ナビサイトに掲載していない企業だって沢山あるから、いろんな方法で検索してみよう"],
+          "visualElements": "普通の表情のひよこキャラクター"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "体験談2の紹介とアドバイス",
+      "designElements": {
+        "colorScheme": ["青", "白", "黒", "黄色"],
+        "typography": "ゴシック体、読みやすいサイズ",
+        "visualHierarchy": "吹き出し（体験談）→キャラクター→アドバイス",
+        "trustSignals": [],
+        "engagementElements": ["ポジティブな視点転換", "具体的な行動提案"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（4/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "9",
+        "pageIndicator": "5/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "青色背景",
+        "overlayStructure": "白い吹き出し",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "白い吹き出し「やる気とモチベ全然続かない」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "キャラクターと解説テキスト",
+          "backgroundColor": "青",
+          "items": ["人間だもの、そんなの当たり前だよ！ずっと全力疾走するのは難しいからたまには歩いても、止まっても大丈夫◎自分なりのバランス、探していこう！"],
+          "visualElements": "疲れた表情のひよこキャラクター、汗マーク"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "体験談3の紹介とアドバイス",
+      "designElements": {
+        "colorScheme": ["青", "白", "黒", "黄色"],
+        "typography": "ゴシック体、読みやすいサイズ、◎マーク使用",
+        "visualHierarchy": "吹き出し（体験談）→キャラクター→アドバイス",
+        "trustSignals": [],
+        "engagementElements": ["共感的な励まし", "許可を与える表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（5/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "9",
+        "pageIndicator": "6/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "青色背景",
+        "overlayStructure": "白い吹き出し",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "白い吹き出し「100点ではなく70点を目指すようにすると気が楽」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "キャラクターと解説テキスト",
+          "backgroundColor": "青",
+          "items": ["そのとおり✨特に就活は頑張れば頑張るほど成果が上がるものではないからこそ、「ここは頑張ろう！」という点を見つけることも大事だよ！"],
+          "visualElements": "笑顔のひよこキャラクター"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "体験談4の紹介とアドバイス",
+      "designElements": {
+        "colorScheme": ["青", "白", "黒", "黄色"],
+        "typography": "ゴシック体、読みやすいサイズ、✨絵文字使用",
+        "visualHierarchy": "吹き出し（体験談）→キャラクター→アドバイス",
+        "trustSignals": [],
+        "engagementElements": ["絵文字での共感表現", "具体的な数字の提示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（6/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "9",
+        "pageIndicator": "7/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "青色背景",
+        "overlayStructure": "白い吹き出し",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "白い吹き出し「大企業だけがいい企業でないとわかった」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "キャラクターと解説テキスト",
+          "backgroundColor": "青",
+          "items": ["名前を聞いたことのない企業の中にも、すごく自分に合う場所があるかもしれない。「誰かにとっての正解」より「自分にとっての心地よさ」を大事にしてね。"],
+          "visualElements": "考える表情のひよこキャラクター"
+        },
+        "bottomSection": {
+          "elements": "ハートアイコン",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "体験談5の紹介とアドバイス",
+      "designElements": {
+        "colorScheme": ["青", "白", "黒", "黄色"],
+        "typography": "ゴシック体、読みやすいサイズ、鍵括弧での強調",
+        "visualHierarchy": "吹き出し（体験談）→キャラクター→アドバイス",
+        "trustSignals": [],
+        "engagementElements": ["価値観の転換を促す", "個人の心地よさの重視"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（7/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "9",
+        "pageIndicator": "8/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "青い点線枠",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「明日から6月！」大きな文字",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "点線枠とキャラクター",
+          "backgroundColor": "白",
+          "items": ["・焦らず", "・比べず"],
+          "visualElements": "青い点線枠、メガネをかけたひよこキャラクター"
+        },
+        "bottomSection": {
+          "elements": "「あなたなりのペースで進んでいこうね！ぴよはいつでもあなたを応援しているよ！一緒に頑張っていこう！」",
+          "ctaElements": "励ましのメッセージ"
+        }
+      },
+      "actualRole": "まとめと励ましのメッセージ",
+      "designElements": {
+        "colorScheme": ["白", "青（点線）", "黒", "黄色"],
+        "typography": "ゴシック体、大きめの文字サイズ",
+        "visualHierarchy": "時期の告知→行動指針→キャラクター→励まし",
+        "trustSignals": [],
+        "engagementElements": ["時期の区切り感", "個別性の尊重", "継続的な応援"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部のドット（8/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "9",
+        "pageIndicator": "最終ページ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い青色背景",
+        "overlayStructure": "白いカード",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "白いカード内「誰も教えてくれない就活の大切なこと」",
+          "layout": "上部配置、青い波線での装飾"
+        },
+        "middleSection": {
+          "format": "テキストとキャラクター",
+          "backgroundColor": "薄青",
+          "items": ["毎週月・水・金に発信中！📧"],
+          "visualElements": "大きなひよこキャラクター"
+        },
+        "bottomSection": {
+          "elements": "「ぴよとあなたの秘密だよ...🤫 保存して何度も見返してね！」",
+          "ctaElements": "保存促進"
+        }
+      },
+      "actualRole": "アカウント紹介・フォロー促進",
+      "designElements": {
+        "colorScheme": ["薄青", "白", "黒", "黄色"],
+        "typography": "ゴシック体、波線装飾",
+        "visualHierarchy": "サービス名→配信頻度→キャラクター→保存促進",
+        "trustSignals": ["定期配信の約束"],
+        "engagementElements": ["秘密感の演出", "絵文字の使用", "保存の促進"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "「保存して何度も見返してね！」"
+      }
+    }
+  }
+}

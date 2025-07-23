@@ -1,0 +1,274 @@
+{
+  "analysisMetadata": {
+    "analysisDate": "2025-07-23",
+    "totalFilesAnalyzed": 104,
+    "analysisScope": "Complete raw-analysis directory template structure extraction",
+    "purpose": "Extract reusable template patterns and page structure groupings for pageStructurePattern implementation"
+  },
+  "pageStructurePatterns": {
+    "groupA_ProblemSolutionCarousel": {
+      "description": "Problem-focused content with solution reveals",
+      "pageCountRange": "8-11 pages",
+      "usageFrequency": "28%",
+      "patterns": {
+        "A1_NumberedProblemSeries": {
+          "pageCount": 9,
+          "pageStructure": [
+            { "page": 1, "role": "title-cover-page", "elements": ["main-title", "visual-hook", "brand-header"] },
+            { "page": 2, "role": "problem-intro-page", "elements": ["problem-statement", "emotional-hook"] },
+            { "page": 3, "role": "problem-list-page", "elements": ["numbered-problems", "problem-cards"] },
+            { "page": 4, "role": "problem-list-page", "elements": ["numbered-problems", "problem-cards"] },
+            { "page": 5, "role": "problem-list-page", "elements": ["numbered-problems", "problem-cards"] },
+            { "page": 6, "role": "authority-page", "elements": ["credentials", "experience-statement"] },
+            { "page": 7, "role": "solution-reveal-page", "elements": ["solution-hint", "value-proposition"] },
+            { "page": 8, "role": "service-offer-page", "elements": ["service-description", "cta-elements"] },
+            { "page": 9, "role": "profile-cta-page", "elements": ["account-promotion", "follow-cta"] }
+          ],
+          "templateId": "problem-solution-carousel-9page",
+          "exampleFiles": ["contents-001", "contents-008", "contents-027"]
+        },
+        "A2_ProblemSolutionBridge": {
+          "pageCount": 10,
+          "pageStructure": [
+            { "page": 1, "role": "title-cover-page", "elements": ["main-title", "visual-hook"] },
+            { "page": 2, "role": "problem-amplification-page", "elements": ["problem-details", "pain-points"] },
+            { "page": 3, "role": "problem-list-page", "elements": ["problem-enumeration"] },
+            { "page": 4, "role": "problem-list-page", "elements": ["problem-enumeration"] },
+            { "page": 5, "role": "problem-list-page", "elements": ["problem-enumeration"] },
+            { "page": 6, "role": "transition-page", "elements": ["bridge-statement"] },
+            { "page": 7, "role": "solution-steps-page", "elements": ["action-items"] },
+            { "page": 8, "role": "solution-steps-page", "elements": ["action-items"] },
+            { "page": 9, "role": "service-offer-page", "elements": ["service-pitch"] },
+            { "page": 10, "role": "profile-cta-page", "elements": ["account-promotion"] }
+          ],
+          "templateId": "problem-solution-bridge-10page",
+          "exampleFiles": ["contents-002", "contents-011", "contents-028"]
+        }
+      }
+    },
+    "groupB_EducationalContent": {
+      "description": "Step-by-step educational and instructional content",
+      "pageCountRange": "6-11 pages",
+      "usageFrequency": "35%",
+      "patterns": {
+        "B1_InstructionalSequence": {
+          "pageCount": 6,
+          "pageStructure": [
+            { "page": 1, "role": "title-cover-page", "elements": ["topic-title", "learning-objective"] },
+            { "page": 2, "role": "instruction-page", "elements": ["step-content", "numbered-sequence"] },
+            { "page": 3, "role": "instruction-page", "elements": ["step-content", "numbered-sequence"] },
+            { "page": 4, "role": "instruction-page", "elements": ["step-content", "numbered-sequence"] },
+            { "page": 5, "role": "summary-page", "elements": ["key-takeaways", "recap"] },
+            { "page": 6, "role": "profile-cta-page", "elements": ["account-promotion", "more-content-cta"] }
+          ],
+          "templateId": "instructional-sequence-6page",
+          "exampleFiles": ["contents-003", "contents-016", "contents-033"]
+        },
+        "B2_DeepDiveAnalysis": {
+          "pageCount": 11,
+          "pageStructure": [
+            { "page": 1, "role": "title-cover-page", "elements": ["analysis-title", "scope-statement"] },
+            { "page": 2, "role": "context-page", "elements": ["background-info", "importance"] },
+            { "page": 3, "role": "analysis-item-page", "elements": ["detailed-point", "supporting-info"] },
+            { "page": 4, "role": "analysis-item-page", "elements": ["detailed-point", "supporting-info"] },
+            { "page": 5, "role": "analysis-item-page", "elements": ["detailed-point", "supporting-info"] },
+            { "page": 6, "role": "analysis-item-page", "elements": ["detailed-point", "supporting-info"] },
+            { "page": 7, "role": "analysis-item-page", "elements": ["detailed-point", "supporting-info"] },
+            { "page": 8, "role": "analysis-item-page", "elements": ["detailed-point", "supporting-info"] },
+            { "page": 9, "role": "synthesis-page", "elements": ["conclusions", "implications"] },
+            { "page": 10, "role": "service-offer-page", "elements": ["related-service"] },
+            { "page": 11, "role": "profile-cta-page", "elements": ["expert-positioning"] }
+          ],
+          "templateId": "deep-dive-analysis-11page",
+          "exampleFiles": ["contents-004", "contents-021", "contents-048"]
+        }
+      }
+    },
+    "groupC_CompanyShowcase": {
+      "description": "Company or service benefit showcases",
+      "pageCountRange": "11 pages",
+      "usageFrequency": "15%",
+      "patterns": {
+        "C1_CompanyBenefitsCarousel": {
+          "pageCount": 11,
+          "pageStructure": [
+            { "page": 1, "role": "title-cover-page", "elements": ["company-intro", "value-proposition"] },
+            { "page": 2, "role": "company-showcase-page", "elements": ["individual-profile", "benefit-highlight"] },
+            { "page": 3, "role": "company-showcase-page", "elements": ["individual-profile", "benefit-highlight"] },
+            { "page": 4, "role": "company-showcase-page", "elements": ["individual-profile", "benefit-highlight"] },
+            { "page": 5, "role": "company-showcase-page", "elements": ["individual-profile", "benefit-highlight"] },
+            { "page": 6, "role": "company-showcase-page", "elements": ["individual-profile", "benefit-highlight"] },
+            { "page": 7, "role": "company-showcase-page", "elements": ["individual-profile", "benefit-highlight"] },
+            { "page": 8, "role": "company-showcase-page", "elements": ["individual-profile", "benefit-highlight"] },
+            { "page": 9, "role": "company-showcase-page", "elements": ["individual-profile", "benefit-highlight"] },
+            { "page": 10, "role": "service-offer-page", "elements": ["recruitment-cta", "application-info"] },
+            { "page": 11, "role": "profile-cta-page", "elements": ["company-account-promotion"] }
+          ],
+          "templateId": "company-benefits-carousel-11page",
+          "exampleFiles": ["contents-005", "contents-022", "contents-055"]
+        }
+      }
+    },
+    "groupD_QuickReference": {
+      "description": "Quick tips, procedures, and reference content",
+      "pageCountRange": "3-8 pages",
+      "usageFrequency": "18%",
+      "patterns": {
+        "D1_ProcedureSummary": {
+          "pageCount": 3,
+          "pageStructure": [
+            { "page": 1, "role": "title-cover-page", "elements": ["procedure-title", "context"] },
+            { "page": 2, "role": "procedure-steps-page", "elements": ["step-list", "key-points"] },
+            { "page": 3, "role": "profile-cta-page", "elements": ["expert-promotion", "more-tips-cta"] }
+          ],
+          "templateId": "procedure-summary-3page",
+          "exampleFiles": ["contents-006", "contents-012", "contents-018"]
+        },
+        "D2_QuestionBank": {
+          "pageCount": 6,
+          "pageStructure": [
+            { "page": 1, "role": "title-cover-page", "elements": ["topic-title", "question-theme"] },
+            { "page": 2, "role": "qa-page", "elements": ["question-item", "answer-content"] },
+            { "page": 3, "role": "qa-page", "elements": ["question-item", "answer-content"] },
+            { "page": 4, "role": "qa-page", "elements": ["question-item", "answer-content"] },
+            { "page": 5, "role": "summary-page", "elements": ["key-insights", "application-advice"] },
+            { "page": 6, "role": "profile-cta-page", "elements": ["consultation-offer"] }
+          ],
+          "templateId": "question-bank-6page",
+          "exampleFiles": ["contents-007", "contents-025", "contents-042"]
+        }
+      }
+    },
+    "groupE_PsychologicalSupport": {
+      "description": "Emotional support and psychological guidance content",
+      "pageCountRange": "8 pages",
+      "usageFrequency": "4%",
+      "patterns": {
+        "E1_AnxietyReliefContent": {
+          "pageCount": 8,
+          "pageStructure": [
+            { "page": 1, "role": "title-cover-page", "elements": ["empathy-title", "emotional-hook"] },
+            { "page": 2, "role": "validation-page", "elements": ["shared-experience", "normalization"] },
+            { "page": 3, "role": "anxiety-item-page", "elements": ["specific-worry", "understanding"] },
+            { "page": 4, "role": "anxiety-item-page", "elements": ["specific-worry", "understanding"] },
+            { "page": 5, "role": "anxiety-item-page", "elements": ["specific-worry", "understanding"] },
+            { "page": 6, "role": "support-page", "elements": ["coping-strategies", "reassurance"] },
+            { "page": 7, "role": "service-offer-page", "elements": ["support-service", "contact-info"] },
+            { "page": 8, "role": "profile-cta-page", "elements": ["community-invitation"] }
+          ],
+          "templateId": "anxiety-relief-content-8page",
+          "exampleFiles": ["contents-009", "contents-029", "contents-051"]
+        }
+      }
+    }
+  },
+  "reusableComponents": {
+    "pageRoles": {
+      "primary": {
+        "title-cover-page": {
+          "description": "Opening page with main title and visual hook",
+          "frequency": "95%",
+          "elements": ["main-title", "visual-background", "brand-header", "hashtag-badge"]
+        },
+        "problem-list-page": {
+          "description": "Enumerated problems or challenges",
+          "frequency": "40%",
+          "elements": ["numbered-list", "problem-cards", "emotional-language"]
+        },
+        "solution-steps-page": {
+          "description": "Action items and recommendations",
+          "frequency": "70%",
+          "elements": ["step-sequence", "action-cards", "implementation-guidance"]
+        },
+        "company-showcase-page": {
+          "description": "Individual profiles or company benefits",
+          "frequency": "15%",
+          "elements": ["profile-card", "benefit-highlights", "visual-testimonials"]
+        },
+        "instruction-page": {
+          "description": "Educational content delivery",
+          "frequency": "55%",
+          "elements": ["learning-content", "sequential-flow", "educational-visuals"]
+        },
+        "service-offer-page": {
+          "description": "Product or service promotion",
+          "frequency": "85%",
+          "elements": ["service-description", "value-proposition", "cta-buttons"]
+        },
+        "profile-cta-page": {
+          "description": "Account promotion and follow requests",
+          "frequency": "90%",
+          "elements": ["account-info", "follow-cta", "more-content-promise"]
+        }
+      },
+      "secondary": {
+        "authority-page": "Credentials and experience display",
+        "transition-page": "Bridge between problem and solution",
+        "validation-page": "Emotional support and normalization",
+        "synthesis-page": "Conclusions and key takeaways",
+        "context-page": "Background information and setup"
+      }
+    },
+    "visualElements": {
+      "backgrounds": {
+        "human-centered": "Real photos, portraits, workplace scenes",
+        "solid-gradient": "Brand colors, clean minimalist designs",
+        "mixed-hybrid": "Combination of photos and solid colors",
+        "illustrated": "Custom illustrations and graphics"
+      },
+      "cardStyles": {
+        "numbered-cards": "Circle numbers with content cards",
+        "checklist-cards": "Checkmarks with item descriptions",
+        "quote-cards": "Speech bubbles and testimonials",
+        "step-cards": "Sequential arrows with process flows"
+      },
+      "ctaElements": {
+        "profile-redirect": "Link to Instagram profile",
+        "save-promotion": "Bookmark and save encouragement",
+        "service-promotion": "External links and contact methods",
+        "follow-promotion": "Account tags and story highlights"
+      }
+    }
+  },
+  "templateMappingStrategy": {
+    "classificationSystem": {
+      "pageCountCategories": {
+        "short-form": "3-5 pages - Quick tips and procedures",
+        "medium-form": "6-8 pages - Educational sequences",
+        "long-form": "9-11 pages - Comprehensive guides and showcases"
+      },
+      "contentTypeDetection": {
+        "problem-focused": "Identifies problems and provides solutions",
+        "educational": "Step-by-step instruction and learning",
+        "showcase": "Company or service benefit highlighting",
+        "reference": "Quick tips and procedural guidance",
+        "support": "Emotional and psychological assistance"
+      },
+      "structuralMatching": {
+        "exact-match": "Same page count and identical structure roles",
+        "adaptive-match": "Same page count with similar content flow",
+        "fallback-match": "Closest available structure pattern"
+      }
+    },
+    "implementationPriority": {
+      "phase1": "Problem-solution patterns (Groups A1, A2) - 28% coverage",
+      "phase2": "Educational patterns (Groups B1, B2) - 35% coverage",
+      "phase3": "Quick reference patterns (Groups D1, D2) - 18% coverage",
+      "phase4": "Showcase and support patterns (Groups C1, E1) - 19% coverage"
+    }
+  },
+  "integrationMappings": {
+    "pageStructureToComponents": {
+      "title-cover-page": ["HeaderComponent", "TitleComponent", "BackgroundComponent"],
+      "problem-list-page": ["NumberedCardComponent", "ProblemItemComponent"],
+      "solution-steps-page": ["StepCardComponent", "ActionItemComponent"],
+      "service-offer-page": ["ServiceCardComponent", "CTAComponent"],
+      "profile-cta-page": ["ProfileComponent", "FollowCTAComponent"]
+    },
+    "existingSystemCompatibility": {
+      "pageStructureMatchingData": "Maps to Group patterns as pageStructureId",
+      "templateItemMapper": "Maps page roles to template components",
+      "knowledgeBaseSystem": "pageStructurePattern field maps to templateId"
+    }
+  }
+}

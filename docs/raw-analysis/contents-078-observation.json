@@ -1,0 +1,85 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-7の全7ページ分析",
+      "totalPages": "7",
+      "pageIndicator": "x/7形式で各ページ右上に表示"
+    },
+    "layoutStructure": {
+      "backgroundType": "グラデーション背景",
+      "backgroundDescription": "ページ1: 緑がかったグラデーション、ページ2-7: 青系グラデーション背景",
+      "overlayStructure": "白い角丸長方形カード重ね配置（中央配置）",
+      "headerType": "上部に青い帯背景で投稿タイトルを白文字表示"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "青い帯に白文字で「あなたの仕事も!?マジでAIに奪われます」タイトル配置",
+        "layout": "幅いっぱいの青い帯、中央揃えのタイトル文字"
+      },
+      "middleSection": {
+        "format": "白い角丸カード内にメインコンテンツ配置",
+        "backgroundColor": "白色",
+        "items": [
+          "ページ1: 大きなタイトルテキスト + 下部にキャラクターと吹き出し",
+          "ページ2: タイトル + 49%の大きな数字 + 説明文 + 右下にキャラクター吹き出し", 
+          "ページ3: 13職業のチェックボックスリスト（2列配置）+ Pick Upマーク3つ + 中央下にキャラクター",
+          "ページ4-6: 職業タイトル + 業務内容ボックス + なくなる理由ボックス + 補足文 + CTAボタン",
+          "ページ7: 15職業のチェックボックスリスト（2列配置）+ 下部にCTAとSNS情報"
+        ],
+        "visualElements": "チェックボックス、Pick Upマーク、キャラクターイラスト、番号付きボックス"
+      },
+      "bottomSection": {
+        "elements": "白い角丸CTAボタン + ページ番号表示 + ハートアイコン（保存促進）",
+        "ctaElements": "各ページに白いボタン（黒文字 + 右向き矢印）"
+      }
+    },
+    "actualRole": "AI代替職業情報提供コンテンツ（統計→リスト→詳細分析→対比情報の流れ）",
+    "designElements": {
+      "colorScheme": ["青系（#6B9BD1程度）", "白色", "黒色", "赤色（Pick Upマーク）", "緑色（ページ1背景とキャラクター）", "灰色（チェックボックス）"],
+      "typography": "ゴシック系フォント、タイトルは太字大サイズ、本文は中サイズ、数字は特大サイズ（49%）",
+      "visualHierarchy": "青い帯タイトル → メインコンテンツ（数字・リスト・詳細） → キャラクターコメント → CTAボタン",
+      "trustSignals": ["オックスフォード大学・野村総研」の権威機関名", "2015年」の具体的年度", "49%」の統計数字", "JR東日本」の実例"],
+      "engagementElements": ["赤色Pick Upマーク", "親しみやすいキャラクターの吹き出し", "チェックボックス形式の整理", "@wakaru_syukatsu25のSNSアカウント"]
+    },
+    "interactionElements": {
+      "checkboxes": "灰色の□チェックボックスを各職業項目の左側に配置",
+      "buttons": "白い角丸ボタンに黒文字とグレーの右向き矢印",
+      "swipeIndicators": "下部中央の点状ドットでページ進行表示",
+      "savePrompts": "各ページ右下にハートマークアイコン"
+    },
+    "specificObservations": {
+      "page1": {
+        "titlePlacement": "白いカード内の上部に大きな黒文字",
+        "characterDesign": "緑色の服を着た親しみやすいキャラクター（右下配置）",
+        "speechBubbleStyle": "白い吹き出しに黒文字「実はデスクワークの方が...?」",
+        "hashtagPosition": "左下に青文字で「#わかる就活」"
+      },
+      "page2": {
+        "statisticDisplay": "49%を非常に大きなフォントで中央配置",
+        "sourceCredibility": "「2015年、オックスフォード大学と野村総研が」を明記",
+        "characterPlacement": "右下角にキャラクター + 吹き出し",
+        "transitionElement": "下部にCTAボタン「なくなる可能性がある職業」"
+      },
+      "page3": {
+        "listLayout": "13の職業を左右2列に均等配置",
+        "checkboxStyle": "各項目の左に灰色□チェックボックス",
+        "pickupHighlight": "IT保守員、CADオペレーター、電車運転士に赤色「Pick Up」マーク",
+        "characterCentering": "リスト下の中央にキャラクター配置"
+      },
+      "page4to6": {
+        "jobNumbering": "左上に職業番号（1、2、3）",
+        "contentStructure": "職業タイトル → 業務内容（青枠）→ なくなる理由（白枠） → 補足文（灰色背景）",
+        "reasonBullets": "なくなる理由を3つのポイントで箇条書き",
+        "noteSection": "各ページ下部に追加情報やアドバイス"
+      },
+      "page7": {
+        "contrastTitle": "「AIに奪われる可能性が低い職業」で対比を明示",
+        "extensiveList": "15の職業を2列で表示",
+        "engagementCTA": "「フィード技術の詳しい解説」など毎日発信してるよ！」",
+        "socialPromotion": "@wakaru_syukatsu25でアカウント誘導",
+        "hashtagCluster": "9つのハッシュタグを下部に配置",
+        "dateStamp": "2024年9月5日"
+      }
+    }
+  }
+}

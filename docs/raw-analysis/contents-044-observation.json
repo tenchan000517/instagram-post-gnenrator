@@ -1,0 +1,514 @@
+{
+  "observationData": {
+    "totalPages": 10,
+    "overallStructure": {
+      "backgroundType": "一貫したティール色（青緑色）グラデーション背景",
+      "contentFormat": "企業情報カード形式",
+      "navigationPattern": "右上角にページインジケーター（X/10形式）"
+    },
+    "pageAnalysis": {
+      "page1": {
+        "pageInfo": {
+          "currentPage": "1",
+          "totalPages": "10", 
+          "pageIndicator": "1/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "ティール色グラデーション",
+          "backgroundDescription": "上部から下部にかけて濃いティール色から明るいティール色へのグラデーション",
+          "overlayStructure": "白色丸角長方形カード重ね",
+          "headerType": "上部センター配置タイトル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "アカウント名「就活落ちたらABABA」白文字",
+            "layout": "上部センター配置"
+          },
+          "middleSection": {
+            "format": "白色カード内の階層テキスト配置",
+            "backgroundColor": "白色",
+            "items": [
+              "学歴フィルターなし（紫色グラデーションバー背景）",
+              "大量採用（赤文字、大サイズ）",
+              "大企業42選（黒文字、最大サイズ）"
+            ],
+            "visualElements": "紫色から赤色へのグラデーションバー背景"
+          },
+          "bottomSection": {
+            "elements": "「続きを読む」CTA矢印アイコン付き",
+            "ctaElements": "右下角の白色矢印アイコン"
+          }
+        },
+        "actualRole": "post-title-and-overview-presentation",
+        "designElements": {
+          "colorScheme": ["ティール色", "白色", "紫色", "赤色", "黒色"],
+          "typography": "太字中心、階層化されたフォントサイズ",
+          "visualHierarchy": "紫グラデーション → 赤文字 → 黒文字の順",
+          "trustSignals": ["具体的数字「42選」"],
+          "engagementElements": ["続きを読む誘導"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "右下角矢印アイコン",
+          "savePrompts": "なし"
+        }
+      },
+      "page2": {
+        "pageInfo": {
+          "currentPage": "2",
+          "totalPages": "10",
+          "pageIndicator": "2/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "同一ティール色グラデーション背景",
+          "backgroundDescription": "page1と同様のグラデーション",
+          "overlayStructure": "白色長方形カード重ね",
+          "headerType": "上部カテゴリー表示「学歴フィルターなし大量採用企業 | IT」"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "カテゴリー表示「学歴フィルターなし大量採用企業 | IT」",
+            "layout": "上部区切り線付き"
+          },
+          "middleSection": {
+            "format": "企業リスト形式（6社）",
+            "backgroundColor": "白色",
+            "items": [
+              "楽天 - 平均年収 794万円 - 企業規模 400人",
+              "大塚商会 - 平均年収 993万円 - 企業規模 300人",
+              "伊藤忠テクノソリューションズ - 平均年収 1077万円 - 企業規模 300人",
+              "NEC - 平均年収 880万円 - 企業規模 700人",
+              "富士ソフト - 平均年収 640万円 - 企業規模 600人",
+              "日本IBM - 平均年収 950万円 - 企業規模 200人"
+            ],
+            "visualElements": "点線区切り、ティール色と紫色のラベル"
+          },
+          "bottomSection": {
+            "elements": "キャラクター吹き出し「今回は学歴フィルターがなく大量採用している大企業を紹介するじょ！」",
+            "ctaElements": "右下角キャラクターアイコン"
+          }
+        },
+        "actualRole": "it-companies-data-presentation-with-context",
+        "designElements": {
+          "colorScheme": ["ティール色", "紫色", "白色", "黒色"],
+          "typography": "企業名（太字）、年収・人数（通常）",
+          "visualHierarchy": "企業名 → 年収 → 採用人数",
+          "trustSignals": ["具体的数値データ", "有名企業名"],
+          "engagementElements": ["キャラクター解説"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし", 
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page3": {
+        "pageInfo": {
+          "currentPage": "3",
+          "totalPages": "10",
+          "pageIndicator": "3/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "同一ティール色グラデーション背景",
+          "backgroundDescription": "前ページと同様",
+          "overlayStructure": "白色長方形カード重ね",
+          "headerType": "同一ヘッダー形式「学歴フィルターなし大量採用企業 | IT」"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "同一カテゴリー表示",
+            "layout": "前ページと同様"
+          },
+          "middleSection": {
+            "format": "企業リスト形式（6社継続）",
+            "backgroundColor": "白色",
+            "items": [
+              "富士通 - 平均年収 965万円 - 企業規模 800人",
+              "NTTドコモ - 平均年収 870万円 - 企業規模 600人",
+              "NECソリューションイノベータ - 平均年収 757万円 - 企業規模 550人",
+              "日本TCS - 平均年収 648万円 - 企業規模 300人",
+              "DTS - 平均年収 601万円 - 企業規模 180人",
+              "TIS - 平均年収 807万円 - 企業規模 300人"
+            ],
+            "visualElements": "前ページと同一の点線区切り、色分けラベル"
+          },
+          "bottomSection": {
+            "elements": "キャラクター吹き出し「富士通は月最大3万円の家賃補助があるんだじょ！」",
+            "ctaElements": "同一キャラクターアイコン配置"
+          }
+        },
+        "actualRole": "it-companies-continuation-with-specific-benefit-highlight",
+        "designElements": {
+          "colorScheme": ["前ページと同一配色"],
+          "typography": "前ページと同一形式",
+          "visualHierarchy": "前ページと同一階層",
+          "trustSignals": ["継続的な具体的数値", "福利厚生具体例"],
+          "engagementElements": ["具体的メリット情報"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし", 
+          "savePrompts": "なし"
+        }
+      },
+      "page4": {
+        "pageInfo": {
+          "currentPage": "4",
+          "totalPages": "10",
+          "pageIndicator": "4/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "同一ティール色グラデーション背景",
+          "backgroundDescription": "一貫したグラデーション",
+          "overlayStructure": "白色長方形カード重ね",
+          "headerType": "カテゴリー変更「学歴フィルターなし大量採用企業 | メーカー」"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "新カテゴリー「メーカー」表示",
+            "layout": "前ページと同様の区切り線付きヘッダー"
+          },
+          "middleSection": {
+            "format": "企業リスト形式（6社）",
+            "backgroundColor": "白色",
+            "items": [
+              "ソニー - 平均年収 1228万円 - 企業規模 1200人",
+              "パナソニック - 平均年収 930万円 - 企業規模 1000人",
+              "三菱電機 - 平均年収 870万円 - 企業規模 850人",
+              "三菱重工業 - 平均年収 1078万円 - 企業規模 570人",
+              "アイリスオーヤマ - 平均年収 600万円 - 企業規模 750人",
+              "トヨタ - 平均年収 983万円 - 企業規模 400人"
+            ],
+            "visualElements": "同一の点線区切り、色分けラベル継続"
+          },
+          "bottomSection": {
+            "elements": "キャラクター吹き出し「パナソニックは半分以上リモートで働けてカフェテリアポイントは年間12万円分もらえる！」",
+            "ctaElements": "同一キャラクターアイコン配置"
+          }
+        },
+        "actualRole": "manufacturer-companies-presentation-with-benefit-highlight",
+        "designElements": {
+          "colorScheme": ["同一配色継続"],
+          "typography": "同一形式継続",
+          "visualHierarchy": "同一階層継続",
+          "trustSignals": ["有名メーカー名", "高年収数値"],
+          "engagementElements": ["リモートワーク・福利厚生情報"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page5": {
+        "pageInfo": {
+          "currentPage": "5",
+          "totalPages": "10",
+          "pageIndicator": "5/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "同一ティール色グラデーション背景",
+          "backgroundDescription": "一貫性維持",
+          "overlayStructure": "白色長方形カード重ね",
+          "headerType": "同一カテゴリー継続「学歴フィルターなし大量採用企業 | メーカー」"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "メーカーカテゴリー継続",
+            "layout": "前ページと同様"
+          },
+          "middleSection": {
+            "format": "企業リスト形式（6社継続）",
+            "backgroundColor": "白色",
+            "items": [
+              "ダイキン工業 - 平均年収 855万円 - 企業規模 370人",
+              "リコージャパン - 平均年収 860万円 - 企業規模 300人",
+              "アイシン - 平均年収 688万円 - 企業規模 150人",
+              "本田技研工業 - 平均年収 896万円 - 企業規模 140人",
+              "シャープ - 平均年収 718万円 - 企業規模 320人",
+              "キーエンス - 平均年収 2039万円 - 企業規模 370人"
+            ],
+            "visualElements": "同一のデザイン要素継続"
+          },
+          "bottomSection": {
+            "elements": "キャラクター吹き出し「シャープは、リフレッシュ休暇がありプライベートと両立しやすいじょ！」",
+            "ctaElements": "同一キャラクターアイコン配置"
+          }
+        },
+        "actualRole": "manufacturer-companies-continuation-with-work-life-balance-highlight",
+        "designElements": {
+          "colorScheme": ["同一配色"],
+          "typography": "同一形式",
+          "visualHierarchy": "同一階層",
+          "trustSignals": ["キーエンス高年収（2039万円）が突出"],
+          "engagementElements": ["ワークライフバランス情報"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page6": {
+        "pageInfo": {
+          "currentPage": "6",
+          "totalPages": "10",
+          "pageIndicator": "6/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "同一ティール色グラデーション背景",
+          "backgroundDescription": "一貫性維持",
+          "overlayStructure": "白色長方形カード重ね",
+          "headerType": "カテゴリー変更「学歴フィルターなし大量採用企業 | 金融」"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "新カテゴリー「金融」表示",
+            "layout": "同様のヘッダー形式"
+          },
+          "middleSection": {
+            "format": "企業リスト形式（6社）",
+            "backgroundColor": "白色",
+            "items": [
+              "明治安田生命 - 平均年収 632万円 - 企業規模 750人",
+              "三井住友銀行 - 平均年収 828万円 - 企業規模 550人",
+              "大和証券 - 平均年収 1626万円 - 企業規模 560人",
+              "東京海上日動火災保険 - 平均年収 855万円 - 企業規模 520人",
+              "りそな銀行 - 平均年収 727万円 - 企業規模 400人",
+              "三井住友海上火災保険 - 平均年収 768万円 - 企業規模 360人"
+            ],
+            "visualElements": "同一のデザイン要素継続"
+          },
+          "bottomSection": {
+            "elements": "キャラクター吹き出し「明治安田生命の全国型社員は5年目まで家賃の72%を会社が負担してくれるじょ！」",
+            "ctaElements": "同一キャラクターアイコン配置"
+          }
+        },
+        "actualRole": "financial-companies-presentation-with-housing-benefit-highlight",
+        "designElements": {
+          "colorScheme": ["同一配色"],
+          "typography": "同一形式",
+          "visualHierarchy": "同一階層",
+          "trustSignals": ["大手金融機関名", "大和証券高年収"],
+          "engagementElements": ["住宅補助具体例"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page7": {
+        "pageInfo": {
+          "currentPage": "7",
+          "totalPages": "10",
+          "pageIndicator": "7/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "同一ティール色グラデーション背景",
+          "backgroundDescription": "一貫性維持",
+          "overlayStructure": "白色長方形カード重ね",
+          "headerType": "カテゴリー変更「学歴フィルターなし大量採用企業 | 住宅・建築」"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "新カテゴリー「住宅・建築」表示",
+            "layout": "同様のヘッダー形式"
+          },
+          "middleSection": {
+            "format": "企業リスト形式（6社）",
+            "backgroundColor": "白色",
+            "items": [
+              "大和ハウス工業 - 平均年収 992万円 - 企業規模 730人",
+              "積水ハウス - 平均年収 859万円 - 企業規模 530人",
+              "大東建託グループ - 平均年収 849万円 - 企業規模 210人",
+              "一条工務店 - 平均年収 750万円 - 企業規模 430人",
+              "清水建設 - 平均年収 982万円 - 企業規模 360人",
+              "大成建設 - 平均年収 1058万円 - 企業規模 420人"
+            ],
+            "visualElements": "同一のデザイン要素継続"
+          },
+          "bottomSection": {
+            "elements": "キャラクター吹き出し「積水ハウスは、住宅手当や家賃補助として月3万円程度の支給があるじょ！」",
+            "ctaElements": "同一キャラクターアイコン配置"
+          }
+        },
+        "actualRole": "construction-real-estate-companies-presentation-with-housing-allowance-highlight",
+        "designElements": {
+          "colorScheme": ["同一配色"],
+          "typography": "同一形式",
+          "visualHierarchy": "同一階層",
+          "trustSignals": ["大手建設・住宅メーカー名"],
+          "engagementElements": ["住宅手当具体例"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page8": {
+        "pageInfo": {
+          "currentPage": "8",
+          "totalPages": "10",
+          "pageIndicator": "8/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "同一ティール色グラデーション背景",
+          "backgroundDescription": "一貫性維持",
+          "overlayStructure": "白色長方形カード重ね",
+          "headerType": "カテゴリー変更「学歴フィルターなし大量採用企業 | その他」"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "新カテゴリー「その他」表示",
+            "layout": "同様のヘッダー形式"
+          },
+          "middleSection": {
+            "format": "企業リスト形式（6社）",
+            "backgroundColor": "白色",
+            "items": [
+              "JR東海 - 平均年収 810万円 - 企業規模 750人",
+              "ニトリ - 平均年収 781万円 - 企業規模 520人",
+              "TOPPAN - 平均年収 817万円 - 企業規模 400人",
+              "JTB - 平均年収 550万円 - 企業規模 360人",
+              "東京電力 - 平均年収 832万円 - 企業規模 560人",
+              "ALSOK - 平均年収 555万円 - 企業規模 550人"
+            ],
+            "visualElements": "同一のデザイン要素継続"
+          },
+          "bottomSection": {
+            "elements": "キャラクター吹き出し「ニトリは、短時間勤務制度や在宅勤務制度があるので女性も働きやすいじょ！」",
+            "ctaElements": "同一キャラクターアイコン配置"
+          }
+        },
+        "actualRole": "other-industries-companies-presentation-with-work-flexibility-highlight",
+        "designElements": {
+          "colorScheme": ["同一配色"],
+          "typography": "同一形式",
+          "visualHierarchy": "同一階層",
+          "trustSignals": ["多様な業界の有名企業"],
+          "engagementElements": ["女性の働きやすさ情報"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page9": {
+        "pageInfo": {
+          "currentPage": "9",
+          "totalPages": "10",
+          "pageIndicator": "9/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "三分割背景（上：ティール、中：黒と黄、下：赤）",
+          "backgroundDescription": "上部ティール色、中央黒色工事風警告デザイン、下部赤色",
+          "overlayStructure": "セクション別背景色変更",
+          "headerType": "なし"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "困った表情の人物イラスト＋吹き出し「この企業も本選考がすでに締め切られてる…」",
+            "layout": "ティール色背景、中央人物配置"
+          },
+          "middleSection": {
+            "format": "警告表示形式",
+            "backgroundColor": "黒色、黄色警告ストライプ",
+            "items": [
+              "6月以降は、本選考エントリーできる企業が",
+              "かなり減ってきます…⚠️"
+            ],
+            "visualElements": "工事現場風黄黒ストライプ、警告マーク"
+          },
+          "bottomSection": {
+            "elements": "「…が、まだ大丈夫！すでに締め切られた企業の本選考を受ける方法 知っていますか？」",
+            "ctaElements": "赤色背景、白文字、「知っていますか？」CTA"
+          }
+        },
+        "actualRole": "problem-identification-and-solution-teaser",
+        "designElements": {
+          "colorScheme": ["ティール色", "黒色", "黄色", "赤色", "白色"],
+          "typography": "感情表現重視、警告テキスト、CTA強調",
+          "visualHierarchy": "困りごと → 警告 → ソリューション",
+          "trustSignals": ["現実的な就活課題認識"],
+          "engagementElements": ["感情的な共感", "ソリューション予告"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page10": {
+        "pageInfo": {
+          "currentPage": "10",
+          "totalPages": "10",
+          "pageIndicator": "10/10"
+        },
+        "layoutStructure": {
+          "backgroundType": "ティール色グラデーション（最終ページ）",
+          "backgroundDescription": "page1と同様のグラデーション",
+          "overlayStructure": "白色カード＋キラキラエフェクト",
+          "headerType": "サービス名表示「就活後半期特化型スカウトサイト」"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「就活後半期特化型スカウトサイト」ヘッダー",
+            "layout": "上部黄色背景帯"
+          },
+          "middleSection": {
+            "format": "サービス紹介カード",
+            "backgroundColor": "白色、キラキラエフェクト付き",
+            "items": [
+              "ABABAロゴ（キャラクター付き）",
+              "「6月以降も企業から選考スカウトが届く！」",
+              "「94%のスカウトがES・面接カット」（強調表示）"
+            ],
+            "visualElements": "キラキラ星エフェクト、吹き出し「しかもABABAなら…」"
+          },
+          "bottomSection": {
+            "elements": "スマートフォン画面モックアップ＋「登録はプロフURLから」＋キャラクター「第一志望企業からスカウトが届くかも⁉今のうちに登録しておこう！」",
+            "ctaElements": "赤色「登録はプロフURLから」ボタン、緊急性メッセージ"
+          }
+        },
+        "actualRole": "service-introduction-and-registration-cta",
+        "designElements": {
+          "colorScheme": ["ティール色", "白色", "黄色", "赤色", "水色"],
+          "typography": "サービス名強調、数値強調、CTA明確",
+          "visualHierarchy": "サービス名 → 主要メリット → 数値証明 → CTA",
+          "trustSignals": ["94%という具体的数値", "スマホ画面実例"],
+          "engagementElements": ["キラキラエフェクト", "緊急性訴求", "登録誘導"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "登録はプロフURLから（赤色ボタン）",
+          "swipeIndicators": "なし",
+          "savePrompts": "暗示的保存誘導（登録促進）"
+        }
+      }
+    },
+    "overallObservations": {
+      "consistentElements": [
+        "全ページ共通のティール色グラデーション背景",
+        "白色カード形式のコンテンツ配置",
+        "右上角のページインジケーター",
+        "キャラクターによる補足説明",
+        "点線区切りのリスト形式"
+      ],
+      "transitionPattern": "情報提示 → 問題認識 → ソリューション提示",
+      "engagementStrategy": "具体的数値＋福利厚生情報＋感情的共感＋解決策提示",
+      "visualConsistency": "高（統一されたカラーパレット、レイアウト、フォント）"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-10",
+      "totalPages": "10",
+      "pageIndicator": "1/10, 2/10, 3/10, 4/10, 5/10, 6/10, 7/10, 8/10, 9/10, 10/10"
+    },
+    "layoutStructure": {
+      "backgroundType": "単色背景（ピンク系、紫系、緑系、青系、黄系）",
+      "backgroundDescription": "各タイプごとに色分けされた背景（INTJ/INTP: 紫系、INFJ/INFP: 緑系、ISTJ/ISFJ: 青系、ISTP/ISFP: 黄系）",
+      "overlayStructure": "左側にタイプ名ボックス + キャラクターイラスト、右側に特徴説明エリア",
+      "headerType": "Instagram標準ヘッダー（yuki_trends, おすすめ, フォロー）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページタイトル（1ページ目のみ）",
+        "layout": "中央配置"
+      },
+      "middleSection": {
+        "format": "2分割構造（上下配置）または単体配置",
+        "backgroundColor": "タイプ別カラー（紫、緑、青、黄）",
+        "items": [
+          "タイプ名ボックス（4文字のタイプコード + 日本語職業名）",
+          "サブタイトル（特徴No.1 + 形容詞付き職業名）",
+          "4つのカテゴリ別特徴説明（人間関係、恋愛観、友人関係、好き嫌い）",
+          "ハッシュタグリスト",
+          "相性情報（◯相性が良い→◯◯◯◯、×相性が悪い→◯◯◯◯）"
+        ],
+        "visualElements": "職業をイメージしたキャラクターイラスト"
+      },
+      "bottomSection": {
+        "elements": "ページインジケーター（青いドット）、Instagram標準UI",
+        "ctaElements": "最終ページでフォロー促進、保存促進"
+      }
+    },
+    "actualRole": "MBTI16タイプの性格特徴を系統立てて詳細解説する情報提供",
+    "designElements": {
+      "colorScheme": ["ピンク", "紫", "緑", "青", "黄色", "白"],
+      "typography": "日本語フォント、見出しは太字、本文は通常フォント",
+      "visualHierarchy": "タイトル → タイプ名ボックス → サブタイトル → 特徴説明 → ハッシュタグ → 相性情報",
+      "trustSignals": ["詳細な4カテゴリ分析", "相性診断情報", "専門的ハッシュタグ"],
+      "engagementElements": ["カラフルなキャラクターイラスト", "保存促進メッセージ", "関連投稿紹介"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（Instagram標準のいいね・コメント・保存ボタンのみ）",
+      "swipeIndicators": "ページ下部の青いドット（10個）",
+      "savePrompts": "最終ページに「見返せるように保存してね♡↓」"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "backgroundType": "ピンクグラデーション",
+        "titlePlacement": "中央上部",
+        "characterLayout": "8体のキャラクターを2行4列で配置",
+        "heartElements": "キャラクター間にピンクのハートマーク配置"
+      },
+      "page2-9": {
+        "layoutPattern": "左側タイプボックス+キャラクター、右側特徴説明の固定レイアウト",
+        "colorCoding": "INTJ/INTP:紫、ENTJ/ENTP:紫、INFJ/INFP:緑、ENFJ/ENFP:緑、ISTJ/ISFJ:青、ESTJ/ESFJ:青、ISTP/ISFP:黄、ESTP/ESFP:黄",
+        "characterStyle": "職業制服を着たイラストキャラクター",
+        "textStructure": "4項目（人間関係、恋愛観、友人関係、好き嫌い）を箇条書きで記載"
+      },
+      "page10": {
+        "profileSection": "アカウント紹介とアバターアイコン",
+        "contentPreview": "3つの関連投稿サムネイル表示",
+        "followPrompt": "フォロー促進と保存促進メッセージ"
+      }
+    }
+  }
+}

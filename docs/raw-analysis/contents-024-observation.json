@@ -1,0 +1,493 @@
+{
+  "observationData": {
+    "generalInfo": {
+      "totalPages": 10,
+      "contentType": "企業情報提供型",
+      "postFormat": "スライド形式企業紹介"
+    },
+    "page1": {
+      "pageInfo": {
+        "currentPage": 1,
+        "totalPages": 11,
+        "pageIndicator": "1/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景（青色）",
+        "backgroundDescription": "濃い青色の背景",
+        "overlayStructure": "中央に白い角丸長方形カード配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "なし"
+        },
+        "middleSection": {
+          "format": "中央配置テキスト",
+          "backgroundColor": "白色",
+          "items": [
+            "まだ内定0でも",
+            "いける大手",
+            "企業5社"
+          ],
+          "visualElements": "「いける大手」は赤色テキスト、「5社」は黄色円背景"
+        },
+        "bottomSection": {
+          "elements": "続きはスワイプ→、109",
+          "ctaElements": "スワイプ誘導"
+        }
+      },
+      "actualRole": "タイトル表示とフック",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "赤色", "黄色", "黒色"],
+        "typography": "太字、大きなフォントサイズ",
+        "visualHierarchy": "タイトル→強調部分→CTA",
+        "trustSignals": ["なし"],
+        "engagementElements": ["スワイプ誘導", "数字強調（5社）"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "続きはスワイプ→",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": 2,
+        "totalPages": 11,
+        "pageIndicator": "2/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景（薄いグレー/白）",
+        "backgroundDescription": "薄いグレーまたは白色の背景",
+        "overlayStructure": "上部にヘッダー、中央に企業情報カード、左下にキャラクター",
+        "headerType": "青色テキストヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "26卒まだエントリーできる大手\nソニーグループ",
+          "layout": "中央寄せ、青色テキスト"
+        },
+        "middleSection": {
+          "format": "枠囲み情報カード",
+          "backgroundColor": "白色、枠線黒色",
+          "items": [
+            "特徴（青色ボタン）",
+            "業界：電機・エレクトロニクス",
+            "年収：約1,113万円",
+            "締切：2025年4月24日（赤色）"
+          ],
+          "visualElements": "右側に黄色背景の選考フロー"
+        },
+        "bottomSection": {
+          "elements": "後から見返す→、109",
+          "ctaElements": "保存促進"
+        }
+      },
+      "actualRole": "企業詳細情報提供（ソニー）",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黒色", "赤色", "黄色"],
+        "typography": "見出し太字、本文標準",
+        "visualHierarchy": "企業名→特徴→選考フロー→CTA",
+        "trustSignals": ["年収情報", "具体的締切日"],
+        "engagementElements": ["保存ブックマーク", "ビジネスマンイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "特徴ボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "後から見返す→"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": 3,
+        "totalPages": 11,
+        "pageIndicator": "3/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景（薄いグレー/白）",
+        "backgroundDescription": "page2と同一デザイン",
+        "overlayStructure": "同一レイアウト構造",
+        "headerType": "青色テキストヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "26卒まだエントリーできる大手\nパナソニックグループ",
+          "layout": "中央寄せ、青色テキスト"
+        },
+        "middleSection": {
+          "format": "枠囲み情報カード",
+          "backgroundColor": "白色、枠線黒色",
+          "items": [
+            "特徴（青色ボタン）",
+            "業界：電機・エレクトロニクス", 
+            "年収：約930万円",
+            "締切：2025年6月3日（最終締切）（赤色）"
+          ],
+          "visualElements": "詳細な選考フロー5段階表示"
+        },
+        "bottomSection": {
+          "elements": "後から見返す→、109",
+          "ctaElements": "保存促進"
+        }
+      },
+      "actualRole": "企業詳細情報提供（パナソニック）",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黒色", "赤色", "黄色"],
+        "typography": "統一フォーマット",
+        "visualHierarchy": "企業名→特徴→選考フロー→CTA",
+        "trustSignals": ["年収情報", "最終締切明記"],
+        "engagementElements": ["保存ブックマーク", "ビジネスマンイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "特徴ボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "後から見返す→"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": 4,
+        "totalPages": 11,
+        "pageIndicator": "4/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "統一デザイン",
+        "backgroundDescription": "前ページと同一",
+        "overlayStructure": "同一レイアウト構造",
+        "headerType": "青色テキストヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "26卒まだエントリーできる大手\n損害保険ジャパン",
+          "layout": "中央寄せ、青色テキスト"
+        },
+        "middleSection": {
+          "format": "枠囲み情報カード",
+          "backgroundColor": "白色、枠線黒色",
+          "items": [
+            "特徴（青色ボタン）",
+            "業界：保険（損害保険）",
+            "年収：約627万円",
+            "締切：2025年4月28日（赤色）"
+          ],
+          "visualElements": "4段階選考フロー表示"
+        },
+        "bottomSection": {
+          "elements": "後から見返す→、109",
+          "ctaElements": "保存促進"
+        }
+      },
+      "actualRole": "企業詳細情報提供（損害保険ジャパン）",
+      "designElements": {
+        "colorScheme": ["統一配色"],
+        "typography": "統一フォーマット",
+        "visualHierarchy": "統一階層",
+        "trustSignals": ["年収情報", "具体的締切日"],
+        "engagementElements": ["保存ブックマーク", "ビジネスマンイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "特徴ボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "後から見返す→"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": 5,
+        "totalPages": 11,
+        "pageIndicator": "5/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "統一デザイン",
+        "backgroundDescription": "前ページと同一",
+        "overlayStructure": "同一レイアウト構造",
+        "headerType": "青色テキストヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "26卒まだエントリーできる大手\n大和証券グループ本社",
+          "layout": "中央寄せ、青色テキスト"
+        },
+        "middleSection": {
+          "format": "枠囲み情報カード",
+          "backgroundColor": "白色、枠線黒色",
+          "items": [
+            "特徴（青色ボタン）",
+            "業界：金融（証券）",
+            "年収：約1,300万円",
+            "締切：2025年4月28日（赤色）"
+          ],
+          "visualElements": "4段階選考フロー表示"
+        },
+        "bottomSection": {
+          "elements": "後から見返す→、109",
+          "ctaElements": "保存促進"
+        }
+      },
+      "actualRole": "企業詳細情報提供（大和証券）",
+      "designElements": {
+        "colorScheme": ["統一配色"],
+        "typography": "統一フォーマット",
+        "visualHierarchy": "統一階層",
+        "trustSignals": ["高年収情報（1,300万円）", "具体的締切日"],
+        "engagementElements": ["保存ブックマーク", "ビジネスマンイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "特徴ボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "後から見返す→"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": 6,
+        "totalPages": 11,
+        "pageIndicator": "6/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "統一デザイン",
+        "backgroundDescription": "前ページと同一",
+        "overlayStructure": "同一レイアウト構造", 
+        "headerType": "青色テキストヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "26卒まだエントリーできる大手\n日本郵政",
+          "layout": "中央寄せ、青色テキスト"
+        },
+        "middleSection": {
+          "format": "枠囲み情報カード",
+          "backgroundColor": "白色、枠線黒色",
+          "items": [
+            "特徴（青色ボタン）",
+            "業界：郵便・金融",
+            "年収：約867万円",
+            "締切：2025年5月1日（赤色）"
+          ],
+          "visualElements": "4段階選考フロー（個別面接複数回明記）"
+        },
+        "bottomSection": {
+          "elements": "後から見返す→、109",
+          "ctaElements": "保存促進"
+        }
+      },
+      "actualRole": "企業詳細情報提供（日本郵政）",
+      "designElements": {
+        "colorScheme": ["統一配色"],
+        "typography": "統一フォーマット",
+        "visualHierarchy": "統一階層",
+        "trustSignals": ["年収情報", "具体的締切日"],
+        "engagementElements": ["保存ブックマーク", "ビジネスマンイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "特徴ボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "後から見返す→"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": 7,
+        "totalPages": 11,
+        "pageIndicator": "7/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "統一デザイン",
+        "backgroundDescription": "前ページと同一",
+        "overlayStructure": "同一レイアウト構造",
+        "headerType": "青色テキストヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "26卒まだエントリーできる大手\n日本航空（JAL）",
+          "layout": "中央寄せ、青色テキスト"
+        },
+        "middleSection": {
+          "format": "枠囲み情報カード",
+          "backgroundColor": "白色、枠線黒色",
+          "items": [
+            "特徴（青色ボタン）",
+            "業界：航空（空運）",
+            "年収：約921万円",
+            "締切：2025年5月7日（赤色）"
+          ],
+          "visualElements": "5段階選考フロー（AI面接・GD含む明記）"
+        },
+        "bottomSection": {
+          "elements": "後から見返す→、109",
+          "ctaElements": "保存促進"
+        }
+      },
+      "actualRole": "企業詳細情報提供（JAL）",
+      "designElements": {
+        "colorScheme": ["統一配色"],
+        "typography": "統一フォーマット",
+        "visualHierarchy": "統一階層",
+        "trustSignals": ["年収情報", "具体的締切日", "詳細選考フロー"],
+        "engagementElements": ["保存ブックマーク", "ビジネスマンイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "特徴ボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "後から見返す→"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": 8,
+        "totalPages": 11,
+        "pageIndicator": "8/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "統一デザイン",
+        "backgroundDescription": "前ページと同一",
+        "overlayStructure": "同一レイアウト構造",
+        "headerType": "青色テキストヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "26卒まだエントリーできる大手\n旭化成",
+          "layout": "中央寄せ、青色テキスト"
+        },
+        "middleSection": {
+          "format": "枠囲み情報カード",
+          "backgroundColor": "白色、枠線黒色",
+          "items": [
+            "特徴（青色ボタン）",
+            "業界：総合化学（素材）",
+            "年収：約753万円",
+            "締切：2025年5月7日（赤色）"
+          ],
+          "visualElements": "4段階選考フロー表示"
+        },
+        "bottomSection": {
+          "elements": "後から見返す→、109",
+          "ctaElements": "保存促進"
+        }
+      },
+      "actualRole": "企業詳細情報提供（旭化成）",
+      "designElements": {
+        "colorScheme": ["統一配色"],
+        "typography": "統一フォーマット",
+        "visualHierarchy": "統一階層",
+        "trustSignals": ["年収情報", "具体的締切日"],
+        "engagementElements": ["保存ブックマーク", "ビジネスマンイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "特徴ボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "後から見返す→"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": 9,
+        "totalPages": 11,
+        "pageIndicator": "9/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景（薄いグレー/白）",
+        "backgroundDescription": "白またはクリーム色背景",
+        "overlayStructure": "上部にヘッダー、中央にチェックリスト、下部にCTA",
+        "headerType": "青色テキストヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "とは言っても、\n大手いける自信がない...",
+          "layout": "中央寄せ、青色テキスト"
+        },
+        "middleSection": {
+          "format": "チェックボックス付きリスト",
+          "backgroundColor": "白色",
+          "items": [
+            "今まで頑張ったけどES落ち",
+            "面接では、2次、最終で落とされる",
+            "自信を持って話せない", 
+            "後悔しているけど、大手諦めたくない"
+          ],
+          "visualElements": "各項目に☑チェックマーク"
+        },
+        "bottomSection": {
+          "elements": "\\そんな方に、朗報です/\n今回、特別に、\n元人事が極秘に教える\n採用の裏側を知っているからこそ教えれる\n『人事目線で行う就活の進め方』\nをプロフィールのURLから渡しています！！\n1秒でも早く納得内定を勝ち取るため\nあなたに向けて作成しました！！",
+          "ctaElements": "プロフィールURL誘導"
+        }
+      },
+      "actualRole": "共感→問題提起→解決策提示→CTA",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黒色", "赤色"],
+        "typography": "ヘッダー太字、リスト標準、CTA強調",
+        "visualHierarchy": "問題提起→共感リスト→解決策→CTA",
+        "trustSignals": ["元人事の権威性", "具体的ベネフィット"],
+        "engagementElements": ["チェックリスト共感", "緊急性訴求（1秒でも早く）"]
+      },
+      "interactionElements": {
+        "checkboxes": "☑4つのチェックマーク",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": 10,
+        "totalPages": 11,
+        "pageIndicator": "10/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景（青色）",
+        "backgroundDescription": "濃い青色背景",
+        "overlayStructure": "中央に白い角丸長方形カード配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "就活、一人で悩んでいませんか？？",
+          "layout": "中央寄せ、下線付き"
+        },
+        "middleSection": {
+          "format": "テキストブロック",
+          "backgroundColor": "白色",
+          "items": [
+            "一旦、立ち止まって考え直しませんか？？",
+            "とりあえず名前だけで会社を選んでませんか？？",
+            "その企業は本当にやりたいことですか？",
+            "皆さんには、本当に後悔してほしくありません。",
+            "現在、無料で就活相談をやってます。",
+            "SNSから不安。わかります。",
+            "だったら、顔出しなし、メッセージだけでも相談してください！！",
+            "毎日、ワクワクして夢や希望に満ち溢れた社会人を増やす。",
+            "そのためのファーストキャリアを僕は創りたいんです。"
+          ],
+          "visualElements": "右矢印→"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "相談への誘導（無料相談）"
+        }
+      },
+      "actualRole": "最終的な関係構築とサポート提供",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黒色"],
+        "typography": "質問文太字、本文標準",  
+        "visualHierarchy": "質問→共感→提案→ミッション",
+        "trustSignals": ["無料相談", "顔出しなし対応", "ミッション提示"],
+        "engagementElements": ["質問による関心喚起", "不安解消提案"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

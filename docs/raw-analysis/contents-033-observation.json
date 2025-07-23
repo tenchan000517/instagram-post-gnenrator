@@ -1,0 +1,485 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "10",
+        "pageIndicator": "1/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "gradient",
+        "backgroundDescription": "青色から明るい青色へのグラデーション背景",
+        "overlayStructure": "中央に大きなテキスト配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "なし",
+          "layout": "空白"
+        },
+        "middleSection": {
+          "format": "large-title-with-character",
+          "backgroundColor": "透明（背景が見える）",
+          "items": [
+            "「あ、この子",
+            "採用したい」",
+            "と思われる",
+            "自己PR"
+          ],
+          "visualElements": "右下に指差しポーズのスーツ姿男性イラスト"
+        },
+        "bottomSection": {
+          "elements": "ページインジケーター「1/10」、いいねアイコン「210」",
+          "ctaElements": "なし（タイトルページのため）"
+        }
+      },
+      "actualRole": "興味を引くタイトルとフック（採用したいと思われる自己PRへの興味喚起）",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黒色"],
+        "typography": "大きな文字サイズ、白文字（影付き効果）",
+        "visualHierarchy": "タイトル→キャラクター→ページ番号",
+        "trustSignals": [],
+        "engagementElements": ["魅力的なタイトル", "プロフェッショナルなキャラクター"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット（スワイプ誘導）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "10",
+        "pageIndicator": "2/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "bordered",
+        "backgroundDescription": "水色の枠線で囲まれた白色背景",
+        "overlayStructure": "中央にテキストとキャラクター配置",
+        "headerType": "赤色背景に白文字でタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「好印象な自己PR。について」赤色背景の白文字タイトル",
+          "layout": "角丸のヘッダー"
+        },
+        "middleSection": {
+          "format": "explanation-with-character",
+          "backgroundColor": "白色",
+          "items": [
+            "大手半導体メーカーの人事さんと話していた時に出てきた内容をまとめたよ▶",
+            "これやれば強い自己PRがなくても「採用したい！」と思ってもらえるから大丈夫です！実践してね！"
+          ],
+          "visualElements": "右下に青い服の人物（手を広げるポーズ）"
+        },
+        "bottomSection": {
+          "elements": "キャラクターイラスト",
+          "ctaElements": "実践への呼びかけ"
+        }
+      },
+      "actualRole": "権威性の提示と安心感の提供（大手企業人事の情報）",
+      "designElements": {
+        "colorScheme": ["水色", "白色", "赤色", "黒色"],
+        "typography": "読みやすいフォント、重要部分の色分け",
+        "visualHierarchy": "タイトル→説明文→キャラクター",
+        "trustSignals": ["大手半導体メーカー人事の情報", "実践的な内容"],
+        "engagementElements": ["権威性", "安心感のメッセージ", "親しみやすいキャラクター"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "10",
+        "pageIndicator": "3/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "bordered",
+        "backgroundDescription": "水色の枠線で囲まれた白色背景",
+        "overlayStructure": "番号付きタイトルとコンテンツ",
+        "headerType": "番号付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「①複数の場面で強みを発揮している」赤文字タイトル",
+          "layout": "左寄せ配置"
+        },
+        "middleSection": {
+          "format": "question-and-explanation",
+          "backgroundColor": "白色",
+          "items": [
+            "「他に強みを活かしたシーンはありますか？」これはよく聞かれる！",
+            "強みなら色んな場面で活かしている方が強みとして説得力があるよね！"
+          ],
+          "visualElements": "右下にスーツ姿の男性（指差しポーズ）"
+        },
+        "bottomSection": {
+          "elements": "キャラクターイラスト",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "第1のポイント解説（複数場面での強み発揮の重要性）",
+      "designElements": {
+        "colorScheme": ["水色", "白色", "赤色", "黒色"],
+        "typography": "番号付きの構造化、質問形式の使用",
+        "visualHierarchy": "番号→質問→説明→キャラクター",
+        "trustSignals": ["よく聞かれる質問という情報"],
+        "engagementElements": ["番号による構造化", "具体的な質問例", "論理的説明"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "10",
+        "pageIndicator": "4/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "bordered",
+        "backgroundDescription": "水色の枠線で囲まれた白色背景",
+        "overlayStructure": "NG/OKの対比構造",
+        "headerType": "番号付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「②仕事での活かし方を理解している」赤文字タイトル",
+          "layout": "左寄せ配置"
+        },
+        "middleSection": {
+          "format": "ng-ok-comparison",
+          "backgroundColor": "白色",
+          "items": [
+            "NG（青色背景）: この強みを活かして御社に貢献します！",
+            "OK（赤色背景）: 強みである粘り強さを活かして営業で成績が出ない時も先輩に助言を聞きに行くなどして諦めずに取り組みます！"
+          ],
+          "visualElements": "右側に面接官（パソコン前で考える様子）、吹き出し「どういう風に活かすのかなぁ」"
+        },
+        "bottomSection": {
+          "elements": "面接官キャラクターと吹き出し",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "第2のポイント解説（具体的な活かし方の重要性）",
+      "designElements": {
+        "colorScheme": ["水色", "白色", "青色", "赤色", "黒色"],
+        "typography": "NG/OKラベルによる対比、具体例の提示",
+        "visualHierarchy": "番号→NG例→OK例→面接官視点",
+        "trustSignals": ["面接官の実際の思考"],
+        "engagementElements": ["NG/OK対比", "具体的な例文", "面接官視点"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "10",
+        "pageIndicator": "5/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "bordered",
+        "backgroundDescription": "水色の枠線で囲まれた白色背景",
+        "overlayStructure": "NG/OKの対比構造",
+        "headerType": "番号付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「③一貫している」赤文字タイトル",
+          "layout": "左寄せ配置"
+        },
+        "middleSection": {
+          "format": "ng-ok-comparison",
+          "backgroundColor": "白色",
+          "items": [
+            "NG（青色背景）: 強みは集中してやり切ることです。弱みは飽き性なことです。",
+            "あれ、どっちだろ...",
+            "OK（赤色背景）: 強みは集中してやり切ることです。弱みは熱中すると周りが見えなくなることです。それを改善するために○○に取り組んでいます。"
+          ],
+          "visualElements": "右側にメガネをかけた面接官（書類を見ている様子）"
+        },
+        "bottomSection": {
+          "elements": "面接官キャラクター",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "第3のポイント解説（一貫性の重要性）",
+      "designElements": {
+        "colorScheme": ["水色", "白色", "青色", "赤色", "黒色"],
+        "typography": "NG/OKラベルによる対比、面接官の疑問表現",
+        "visualHierarchy": "番号→NG例→面接官の疑問→OK例",
+        "trustSignals": ["面接官の実際の反応"],
+        "engagementElements": ["矛盾の指摘", "改善例の提示", "面接官視点"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "10",
+        "pageIndicator": "6/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "bordered",
+        "backgroundDescription": "水色の枠線で囲まれた白色背景",
+        "overlayStructure": "対話形式の構造",
+        "headerType": "番号付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「④企業が求める人物に合っている」赤文字タイトル",
+          "layout": "左寄せ配置"
+        },
+        "middleSection": {
+          "format": "dialogue-scenario",
+          "backgroundColor": "白色",
+          "items": [
+            "面接官: 営業職で、どんどん行動してアプローチできる子がいいな",
+            "学生: 私の長所は丁寧に分析して成功率を上げられることです。",
+            "面接官内心: すごいけどウチには合ってなさそうだな...",
+            "どんな人を求めてるか事前に調べておこう！"
+          ],
+          "visualElements": "右下に学生（パソコンで調べている様子）"
+        },
+        "bottomSection": {
+          "elements": "学生キャラクターとアドバイス",
+          "ctaElements": "事前調査の推奨"
+        }
+      },
+      "actualRole": "第4のポイント解説（企業ニーズとのマッチングの重要性）",
+      "designElements": {
+        "colorScheme": ["水色", "白色", "赤色", "黒色"],
+        "typography": "対話形式、内心の表現、アドバイス文",
+        "visualHierarchy": "番号→面接官発言→学生回答→面接官内心→アドバイス",
+        "trustSignals": ["リアルな面接シーン"],
+        "engagementElements": ["対話シナリオ", "ミスマッチ例", "具体的アドバイス"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "10",
+        "pageIndicator": "7/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "bordered",
+        "backgroundDescription": "水色の枠線で囲まれた白色背景",
+        "overlayStructure": "NG/OK思考の対比構造",
+        "headerType": "番号付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「⑤本気で\"強み\"だと思っている」赤文字タイトル",
+          "layout": "左寄せ配置"
+        },
+        "middleSection": {
+          "format": "ng-ok-thinking-comparison",
+          "backgroundColor": "白色",
+          "items": [
+            "NG思考（青色背景）: 面接で聞かれるからとりあえずそれっぽく作らないと、、、",
+            "OK思考（赤色背景）: この強みなら他の人に負けない！それを面接官にわかってもらおう！",
+            "この自信は面接官にも伝わります！"
+          ],
+          "visualElements": "右下にスーツ姿の男性（自信に満ちた表情）"
+        },
+        "bottomSection": {
+          "elements": "自信に満ちたキャラクターとメッセージ",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "第5のポイント解説（本気度と自信の重要性）",
+      "designElements": {
+        "colorScheme": ["水色", "白色", "青色", "赤色", "黒色"],
+        "typography": "NG/OK思考ラベル、感情表現、励ましメッセージ",
+        "visualHierarchy": "番号→NG思考→OK思考→効果説明",
+        "trustSignals": ["心理的効果の説明"],
+        "engagementElements": ["思考の対比", "自信の重要性", "心理的効果"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "10",
+        "pageIndicator": "8/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "bordered",
+        "backgroundDescription": "水色の枠線で囲まれた白色背景",
+        "overlayStructure": "まとめと次への誘導",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「その強みがあればウチで活躍できる！」と面接官に思ってもらうのが重要！",
+          "layout": "強調表示"
+        },
+        "middleSection": {
+          "format": "summary-and-transition",
+          "backgroundColor": "白色",
+          "items": [
+            "他の質問にも今回のように「面接官視点」で回答を考えれば大手内定はまだ間に合う！！",
+            "「でも、面接官の視点なんてわからない・・・」という人に向けて→"
+          ],
+          "visualElements": "右下に悩んでいる人物（頭を抱えるポーズ）"
+        },
+        "bottomSection": {
+          "elements": "悩むキャラクターと次への誘導",
+          "ctaElements": "次のページへの誘導（暗示的）"
+        }
+      },
+      "actualRole": "まとめと問題提起（面接官視点の重要性と課題提示）",
+      "designElements": {
+        "colorScheme": ["水色", "白色", "赤色", "黒色"],
+        "typography": "まとめ文、励ましメッセージ、問題提起",
+        "visualHierarchy": "まとめ→希望的メッセージ→問題提起→キャラクター",
+        "trustSignals": ["大手内定の可能性"],
+        "engagementElements": ["希望感", "問題の共感", "次への期待"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "10",
+        "pageIndicator": "9/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "mixed",
+        "backgroundDescription": "上部赤色ヘッダー、下部白色背景",
+        "overlayStructure": "商品紹介とCTA",
+        "headerType": "赤色背景に白文字でタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "\"人事目線のノウハウ\"を無料テキストと個別相談で伝授！",
+          "layout": "赤色背景の白文字ヘッダー"
+        },
+        "middleSection": {
+          "format": "product-features-and-consultation",
+          "backgroundColor": "白色、一部ピンク色背景",
+          "items": [
+            "\"受かる\"ための就活テキスト無料配布",
+            "マイナビで300人以上の人事と話して分かった",
+            "・9割通るESのテンプレ",
+            "・人事が本当は欲しい学生",
+            "・就活成功者の動き方",
+            "・応募すべき企業リスト",
+            "をPDFテキストでまとめたよ！個別相談も受付中！",
+            "・夏インターン全落ち",
+            "・自分の強みがわからない",
+            "・普通のバイト経験しかない",
+            "・やりたいことがない",
+            "その悩み、私と直接話すことで解決できます！※無料です"
+          ],
+          "visualElements": "左側にスマートフォン画像（内定実績98%テキスト）、下部に投稿者の顔写真"
+        },
+        "bottomSection": {
+          "elements": "受け取り方法への矢印、商品画像、著者画像",
+          "ctaElements": "受け取り方法▶"
+        }
+      },
+      "actualRole": "商品・サービス紹介（無料テキストと個別相談の提供）",
+      "designElements": {
+        "colorScheme": ["赤色", "白色", "ピンク色", "黒色"],
+        "typography": "商品名の強調、特徴のリスト表示、権威性の表示",
+        "visualHierarchy": "ヘッダー→商品特徴→相談内容→保証→CTA",
+        "trustSignals": ["98%内定実績", "300人以上の人事との対話", "無料保証"],
+        "engagementElements": ["無料オファー", "具体的特徴", "個別対応", "著者の顔"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "受け取り方法の案内"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "10",
+        "pageIndicator": "10/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "mixed",
+        "backgroundDescription": "上部水色ヘッダー、下部薄い青色背景",
+        "overlayStructure": "詳細なCTA手順",
+        "headerType": "水色背景に白文字でタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「受かる」テキスト受け取り&個別相談方法",
+          "layout": "水色背景の白文字ヘッダー、小文字で※相談は希望者のみ"
+        },
+        "middleSection": {
+          "format": "step-by-step-instructions",
+          "backgroundColor": "薄い青色",
+          "items": [
+            "①プロフィールのURLをクリック",
+            "このURLです！（プロフィール画面のスクリーンショット）",
+            "vsql.hp.peraichi.com/?_ga=2.196308907...",
+            "②URL先のブログ内にある受け取りボタンをクリック",
+            "「受かる」就活テキスト受け取りはこちら（青色ボタン）",
+            "③簡単なアンケートに回答",
+            "（個別相談の希望もここで受け付けてます）"
+          ],
+          "visualElements": "プロフィール画面のスクリーンショット、受け取りボタンの画像"
+        },
+        "bottomSection": {
+          "elements": "注意書き「※手動で1人ずつお渡しするので待たせるかも🙏」",
+          "ctaElements": "3ステップの具体的手順"
+        }
+      },
+      "actualRole": "詳細なCTA手順（具体的な受け取り方法の説明）",
+      "designElements": {
+        "colorScheme": ["水色", "薄い青色", "白色", "青色", "黒色"],
+        "typography": "ステップ番号、具体的指示、URL表示、注意書き",
+        "visualHierarchy": "ヘッダー→ステップ1→ステップ2→ステップ3→注意書き",
+        "trustSignals": ["具体的なURL", "実際の画面表示", "手動対応の説明"],
+        "engagementElements": ["明確な手順", "視覚的な説明", "個人対応の価値"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "受け取りボタンの画像表示",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "具体的な行動指示"
+      }
+    }
+  }
+}

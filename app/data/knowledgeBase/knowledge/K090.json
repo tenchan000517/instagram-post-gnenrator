@@ -1,0 +1,77 @@
+{
+  "id": "K090",
+  "title": "面接官に正確性が高いと思われる2つのポイント",
+  "description": "面接で正確性をアピールするための具体的な方法を2つのポイントで解説する実践的就活アドバイス投稿",
+  "category": "面接対策",
+  "tags": ["面接対策", "正確性アピール", "就活アドバイス", "自己PR", "面接テクニック", "就活スキル"],
+  "structure": {
+    "type": "practical_advice_guide",
+    "format": "carousel",
+    "pages": 7,
+    "flow": "cover → definition → context → point_1 → point_2 → self_check → summary_cta"
+  },
+  "content_analysis": {
+    "practical_value": "immediately_applicable_interview_techniques",
+    "learning_structure": "definition_to_application_progression",
+    "specificity": "concrete_examples_and_scenarios",
+    "self_assessment": "built_in_checklist_evaluation"
+  },
+  "visual_elements": {
+    "color_scheme": "purple_to_pink_gradient_consistent",
+    "layout_style": "card_based_organized_text_blocks",
+    "navigation_elements": "clear_next_page_indicators",
+    "brand_integration": "miravel_branding_throughout"
+  },
+  "engagement_factors": {
+    "immediate_applicability": "ready_to_use_interview_advice",
+    "self_diagnostic": "personal_accuracy_assessment_checklist",
+    "concrete_examples": "real_workplace_scenarios",
+    "follow_conversion": "profile_url_and_account_promotion"
+  },
+  "posting_context": {
+    "account": "morevision_miravel",
+    "brand": "MiRAVEL",
+    "service_focus": "就活アドバイス",
+    "post_date": "2021年5月19日",
+    "target_generation": "22卒_23卒"
+  },
+  "advice_content": {
+    "accuracy_definition": "細かいところにまで気を配り、ミスなく作業を進めること",
+    "workplace_relevance": {
+      "critical_industries": ["医療", "食品", "金融"],
+      "relevant_positions": ["事務", "経理職", "エンジニア"]
+    },
+    "point_1": {
+      "title": "正確性を発揮し、成果をあげた経験を話す",
+      "strategy": "正確性の高さをアピールするためには、正確性を発揮し、成果をあげた経験を話すことが大切",
+      "key_element": "周りの人と比べてどのくらい正確だったのか（ミスが少なかったのか）ということをなるべく具体的に話せることが重要",
+      "example": "インターン先での同僚は基本的に週に何度かミスをするのですが、私は一度もミスをしない月もあり、他の人と比べて多くのプロジェクトを抱える等、信頼を置かれています。"
+    },
+    "point_2": {
+      "title": "仕事に対する向き合い方や責任感を話す",
+      "strategy": "仕事に対する向き合い方や責任感の強さなども合わせて伝えることができれば、より説得力が増します",
+      "reasoning_focus": "自分が他の人よりもミスが少ない理由を深掘りすることで浮かび上がってきます",
+      "example_questions": [
+        "なぜ私はミスが少ないのか？",
+        "仕事に取り掛かる前に分からないことは必ず確認するから",
+        "最終チェックができるように確認作業を行う日をもうけているから",
+        "なぜそこまでやるのか？",
+        "チームで仕事をする以上、周りに迷惑をかけたくないから",
+        "1つのミスで積み重ねた信頼を失うことになるから"
+      ],
+      "outcome": "間接的に、チームへの貢献意識の高さや責任感の強さが分かります"
+    },
+    "self_assessment_checklist": [
+      "正確性を発揮した経験はあるか？",
+      "また、成果をあげた経験はあるか？", 
+      "周りに正確だといわれるか？"
+    ]
+  },
+  "content_effectiveness": {
+    "practical_applicability": 9,
+    "structural_clarity": 8,
+    "example_quality": 9,
+    "actionability": 9,
+    "overall_score": 8.75
+  }
+}

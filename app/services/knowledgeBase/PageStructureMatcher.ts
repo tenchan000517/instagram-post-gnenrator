@@ -9,6 +9,7 @@ import efficiencyAnxietyAction3page from './data/pageStructures/efficiency-anxie
 import efficiencyPracticalInfo3page from './data/pageStructures/efficiency-practical-info-3page.json'
 import educationComplexSolution5page from './data/pageStructures/education-complex-solution-5page.json'
 import infoStrategicData4page from './data/pageStructures/info-strategic-data-4page.json'
+import problemSolutionCarousel9page from './data/pageStructures/problem-solution-carousel-9page.json'
 
 export interface MatchingPattern {
   matchingKey: string;
@@ -54,7 +55,8 @@ export class PageStructureMatcher {
     'efficiency-anxiety-action-3page': efficiencyAnxietyAction3page,
     'efficiency-practical-info-3page': efficiencyPracticalInfo3page,
     'education-complex-solution-5page': educationComplexSolution5page,
-    'info-strategic-data-4page': infoStrategicData4page
+    'info-strategic-data-4page': infoStrategicData4page,
+    'problem-solution-carousel-9page': problemSolutionCarousel9page
   };
 
   /**

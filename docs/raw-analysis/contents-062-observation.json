@@ -1,0 +1,242 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 8,
+      "pageIndicator": "x/8形式で表示"
+    },
+    "generalStructure": {
+      "commonLayout": {
+        "backgroundType": "人物写真（ぼかし背景）",
+        "overlayStructure": "上部に黒色グラデーション、中央に白色半透明カード",
+        "pageIndicator": "右上に白文字でページ番号",
+        "bottomArea": "Instagram UI（アカウント情報、エンゲージメント要素）"
+      },
+      "designConsistency": {
+        "colorScheme": ["白色", "黒色", "青色系", "グレー系"],
+        "cardStyle": "角丸の白色半透明カード",
+        "textHierarchy": "大見出し→サブタイトル→箇条書き",
+        "visualElements": "各資格に関連するイラスト、円形評価グラフ"
+      }
+    },
+    "pageByPageObservation": {
+      "page1": {
+        "layoutStructure": {
+          "backgroundType": "人物写真（手でノートを書いている様子、ぼかし処理）",
+          "centerElement": "黒色円形背景に白文字",
+          "overlayText": "虫眼鏡アイコンで「資格」を拡大表示"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "ページ番号（1/8）",
+            "layout": "右上配置"
+          },
+          "centerSection": {
+            "mainTitle": "未来に強い資格5選",
+            "subtitle": "2025年アツい",
+            "visualFocus": "黒色円形背景、白文字、虫眼鏡アイコン"
+          },
+          "bottomSection": {
+            "elements": "Instagramアカウント情報（monexjp）、フォローボタン",
+            "engagement": "いいねボタン、ハートアイコン"
+          }
+        },
+        "actualRole": "タイトル表示・注目喚起"
+      },
+      "page2": {
+        "layoutStructure": {
+          "backgroundType": "人物写真（ぼかし処理）",
+          "overlayStructure": "上部黒色グラデーション、中央白色カード"
+        },
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-01- 日本語教師",
+            "subtitle": "世界で活かせる国家資格",
+            "format": "センター配置、白文字"
+          },
+          "mainContent": {
+            "format": "白色カード内に箇条書き3項目",
+            "items": [
+              "国家資格になり、安定した質の高い教育が提供可能",
+              "国際的なキャリアを築くための第1歩", 
+              "特定技能制度や就労条件の緩和で需要急増"
+            ],
+            "visualElement": "右下に教師のイラスト"
+          },
+          "evaluationSection": {
+            "format": "円形グラフ（レーダーチャート）",
+            "position": "下部中央",
+            "categories": "未経験にオススメ、社会的ニーズ、難易度、幅広く役立つ、年齢を問わない",
+            "scale": "1-5の数値スケール"
+          }
+        },
+        "actualRole": "資格詳細情報提供・評価可視化"
+      },
+      "page3": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-02- キャリアコンサルタント",
+            "subtitle": "大転職時代に頼れるアドバイザー"
+          },
+          "mainContent": {
+            "items": [
+              "職業選択のアドバイスをする国家資格",
+              "最短3ヶ月で国家資格の受験資格を取得可能",
+              "学んだ知識は自身のキャリア形成にも役立つ"
+            ],
+            "visualElement": "キャリア相談のイラスト（人物3名の顔写真風）"
+          },
+          "evaluationSection": "同一形式の円形グラフ"
+        },
+        "actualRole": "資格詳細情報提供・評価可視化"
+      },
+      "page4": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-03- 心理学・カウンセラー",
+            "subtitle": "メンタルケアの専門家"
+          },
+          "mainContent": {
+            "items": [
+              "精神疾患の患者増加で、ニーズが急上昇",
+              "副業やWワーク、オンラインでも働ける",
+              "自分や家族の心の健康を守る力が身につく"
+            ],
+            "visualElement": "カウンセリングのイラスト（2名の人物、椅子に座った対話）"
+          },
+          "evaluationSection": "同一形式の円形グラフ"
+        },
+        "actualRole": "資格詳細情報提供・評価可視化"
+      },
+      "page5": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-04- ファイナンシャルプランナー",
+            "subtitle": "物価高時代 家計を守るプロ"
+          },
+          "mainContent": {
+            "items": [
+              "一度取得すれば、生涯役立つ資産形成のスキル",
+              "金融・生命保険・損害保険会社の就職に有利",
+              "オンライン相談がメジャーになりどこでも働ける"
+            ],
+            "visualElement": "資産管理のイラスト（虫眼鏡、電卓、ドルマーク等）"
+          },
+          "evaluationSection": "同一形式の円形グラフ"
+        },
+        "actualRole": "資格詳細情報提供・評価可視化"
+      },
+      "page6": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-05- 介護職員初任者研修",
+            "subtitle": "全国で求められる介護職"
+          },
+          "mainContent": {
+            "items": [
+              "大学に通わなくても、民間のスクールで取得できる",
+              "約130時間の座学と実技研修",
+              "介護福祉士やケアマネジャーへのキャリアアップも可能"
+            ],
+            "visualElement": "介護職のイラスト（高齢者と介護職員）"
+          },
+          "evaluationSection": "円形グラフなし（シンプルな円形表示のみ）"
+        },
+        "actualRole": "資格詳細情報提供"
+      },
+      "page7": {
+        "layoutStructure": {
+          "backgroundType": "人物写真（ぼかし処理）",
+          "overlayStructure": "白色カード（full-widthに近い）"
+        },
+        "contentDistribution": {
+          "headerSection": {
+            "title": "-さいごに-",
+            "format": "センター配置、黒文字"
+          },
+          "mainContent": {
+            "format": "3つのセクションに分割、各セクションに色付きバー",
+            "section1": {
+              "heading": "資格を取る理由は？",
+              "barColor": "ピンク色",
+              "content": "2項目の説明文"
+            },
+            "section2": {
+              "heading": "これから役に立つ資格",
+              "barColor": "ピンク色",
+              "content": "3項目の説明文"
+            },
+            "section3": {
+              "heading": "自分に役立つ資格の選び方",
+              "barColor": "ピンク色",
+              "content": "3項目の説明文"
+            }
+          },
+          "bottomSection": {
+            "visualElement": "資格証書のイラスト（右下）",
+            "cta": "保存してあとで見る！（大きめの文字）"
+          }
+        },
+        "actualRole": "まとめ・行動促進"
+      },
+      "page8": {
+        "layoutStructure": {
+          "backgroundType": "黄色（金色）のグラデーション背景",
+          "overlayStructure": "灰色カード"
+        },
+        "contentDistribution": {
+          "headerSection": {
+            "branding": "「投資」はじめるなら MONEX",
+            "logo": "MONEXロゴ（黒色）"
+          },
+          "mainContent": {
+            "thankYouMessage": "ご覧いただきありがとうございます！",
+            "description": "マネックス証券公式Instagramでは知らないと損するお金の情報を毎日投稿中！",
+            "disclaimer": "※@monexjpはマネックス証券によって運営されています"
+          },
+          "engagementSection": {
+            "message": "最後まで見ていただきありがとうございました🌟",
+            "cta": "もし参考になったら、📌保存❤️いいね をお願いします！",
+            "linkPromotion": "投資を始めたい人はプロフィールリンクをクリック！"
+          },
+          "visualElements": {
+            "phoneScreenshot": "Instagramアプリ画面のモックアップ",
+            "position": "左下"
+          },
+          "bottomSection": {
+            "hashtags": "大量のハッシュタグ（投資・転職・資格関連）",
+            "date": "6月26日",
+            "socialProof": "2人（いいね数表示）"
+          }
+        },
+        "actualRole": "企業ブランディング・エンゲージメント促進"
+      }
+    },
+    "designElements": {
+      "colorScheme": ["白色", "黒色", "青色系", "グレー", "ピンク色（アクセント）", "黄色（最終ページ）"],
+      "typography": {
+        "mainTitle": "大きめの白文字（太字）",
+        "subtitle": "中サイズの白文字",
+        "bodyText": "小サイズの黒文字",
+        "accentText": "色付きまたは太字"
+      },
+      "visualHierarchy": "タイトル→サブタイトル→箇条書き→評価グラフ→CTA",
+      "consistencyElements": [
+        "番号付きタイトル（-01-から-05-）",
+        "白色半透明カードレイアウト",
+        "円形評価グラフ",
+        "関連イラスト配置",
+        "Instagram UI要素"
+      ]
+    },
+    "interactionElements": {
+      "savePrompts": "最終ページに「保存してあとで見る！」",
+      "engagementCalls": "いいね・保存・フォロー促進",
+      "swipeIndicators": "ページドット表示",
+      "profileLinks": "プロフィールリンクへの誘導"
+    }
+  }
+}

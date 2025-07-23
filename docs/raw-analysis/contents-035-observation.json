@@ -1,0 +1,495 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "10",
+        "pageIndicator": "1/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "紫から緑へのグラデーション背景",
+        "overlayStructure": "中央に白いカード形式の配置",
+        "headerType": "上部に「#わかる就活」のハッシュタグ表示"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ハッシュタグ「#わかる就活」、ページ番号「1/10」",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "白いカード形式のメイン表示エリア",
+          "backgroundColor": "白",
+          "items": [
+            "7/13〜20〆切",
+            "夏インターン（赤下線付き）",
+            "企業30選（青文字で強調）"
+          ],
+          "visualElements": "下部に女性キャラクターイラスト、吹き出し「もう申し込んだ？」"
+        },
+        "bottomSection": {
+          "elements": "アカウント情報「wakaru_syukatsu27」とフォローボタン",
+          "ctaElements": "フォローボタン"
+        }
+      },
+      "actualRole": "タイトル表示・関心喚起・行動促進",
+      "designElements": {
+        "colorScheme": ["紫", "緑", "白", "赤", "青", "黒"],
+        "typography": "階層的テキスト、赤下線での強調、青文字での数値強調",
+        "visualHierarchy": "ハッシュタグ→期間→メインタイトル→キャラクター対話",
+        "trustSignals": ["専門アカウント表示", "具体的期間・数値"],
+        "engagementElements": ["キャラクター対話", "緊急性のある期間表示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "フォローボタン",
+        "swipeIndicators": "下部ドット表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "10",
+        "pageIndicator": "2/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い緑色背景",
+        "overlayStructure": "緑ヘッダー＋白いメインカード",
+        "headerType": "緑色バー「サマーインターン30選」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑ヘッダー「サマーインターン30選」、ページ番号「2/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "企業情報カードのリスト形式",
+          "backgroundColor": "白",
+          "items": [
+            "7/13(日)✕（赤タグ）",
+            "HIS - 5days グローバルセキュリティネットワークの構築/5days 生成AIを用いたアプリ開発体験 - 予想年収657万円 - 旅行・サービス",
+            "JFEスチール - 事務系職種向け「鉄鋼ビジネス」体感インターンシップ #27卒 - 予想年収762万円 - 鉄鋼・製造",
+            "キヤノン - デザインワークショップ2025/ユーザビリティデザインワークショップ2025 - 予想年収632万円 - 電機・カメラ機器",
+            "三井E&S - 5daysインターンシップ&3daysオープン・カンパニー（工場実習型） - 予想年収700万円 - 重工・エンジニアリング"
+          ],
+          "visualElements": "企業ロゴ、オレンジ色予想年収タグ、赤色業界タグ、緑枠の企業カード"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "7/13締切企業の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["緑", "白", "赤", "オレンジ", "黒"],
+        "typography": "企業名（太字）、詳細説明（細字）、年収・業界（タグ形式）",
+        "visualHierarchy": "日程タグ→企業ロゴ→企業名→プログラム詳細→年収→業界",
+        "trustSignals": ["企業ロゴ表示", "具体的年収数値", "詳細なプログラム内容"],
+        "engagementElements": ["統一されたカードデザイン", "視覚的な企業情報整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "10",
+        "pageIndicator": "3/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い緑色背景",
+        "overlayStructure": "緑ヘッダー＋白いメインカード",
+        "headerType": "緑色バー「サマーインターン30選」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑ヘッダー「サマーインターン30選」、ページ番号「3/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "企業情報カードのリスト形式",
+          "backgroundColor": "白",
+          "items": [
+            "7/13(日)✕（赤タグ）",
+            "三菱UFJモルガン・スタンレー証券 - システム部門 インターンシップ - 予想年収1100万円 - 証券・金融",
+            "三菱UFJリサーチ&コンサルティング - 政策研究コース インターンシップ/経営コンサルティングコース インターンシップ - 予想年収1287万円 - コンサルティング・リサーチ",
+            "旭化成（事務系総合職） - 27卒インターンシップ 夏1dayキャリア形成特別プログラム - 予想年収650万円 - 化学・素材",
+            "東北電力 - 1DAY OPEN COMPANY DX・情報コース - 予想年収850万円 - 電力・インフラ"
+          ],
+          "visualElements": "企業ロゴ、オレンジ色予想年収タグ、赤色業界タグ、緑枠の企業カード"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "7/13締切企業の追加詳細情報提供",
+      "designElements": {
+        "colorScheme": ["緑", "白", "赤", "オレンジ", "黒"],
+        "typography": "企業名（太字）、詳細説明（細字）、年収・業界（タグ形式）",
+        "visualHierarchy": "日程タグ→企業ロゴ→企業名→プログラム詳細→年収→業界",
+        "trustSignals": ["企業ロゴ表示", "高年収数値（1287万円等）", "詳細なプログラム内容"],
+        "engagementElements": ["高年収での魅力訴求", "統一されたカードデザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "10",
+        "pageIndicator": "4/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い緑色背景",
+        "overlayStructure": "緑ヘッダー＋白いメインカード",
+        "headerType": "緑色バー「サマーインターン30選」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑ヘッダー「サマーインターン30選」、ページ番号「4/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "企業情報カードのリスト形式",
+          "backgroundColor": "白",
+          "items": [
+            "7/14(月)✕（赤タグ）",
+            "SEGA - プログラマ3daysカレッジ 自社ゲームエンジンに触れてみよう！《SUMMER》 - 予想年収900万円 - ゲーム・エンタメ",
+            "YKKグループ - 【2027卒向け】YKK株式会社 施設研究Workshop（WEB・技術系） - 予想年収600万円 - 製造・技術",
+            "あいおいニッセイ同和損保 - AD Dialogue in summer（アクチュアリー体験コース） - 予想年収640万円 - 損害保険",
+            "ベネッセコーポレーション - 1day Program つくる、教育×DIGITAL/End-User企画メソッド - 予想年収650万円 - 教育・デジタル",
+            "マツダ - デザイナー夏期講座/モデラー夏期講座 〜モデリングの習得〜 - 予想年収650万円 - 自動車"
+          ],
+          "visualElements": "企業ロゴ、オレンジ色予想年収タグ、赤色業界タグ、緑枠の企業カード"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "7/14締切企業の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["緑", "白", "赤", "オレンジ", "黒"],
+        "typography": "企業名（太字）、詳細説明（細字）、年収・業界（タグ形式）",
+        "visualHierarchy": "日程タグ→企業ロゴ→企業名→プログラム詳細→年収→業界",
+        "trustSignals": ["企業ロゴ表示", "具体的年収数値", "詳細なプログラム内容"],
+        "engagementElements": ["多様な業界（ゲーム、自動車、教育等）", "統一されたカードデザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "10",
+        "pageIndicator": "5/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い緑色背景",
+        "overlayStructure": "緑ヘッダー＋白いメインカード",
+        "headerType": "緑色バー「サマーインターン30選」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑ヘッダー「サマーインターン30選」、ページ番号「5/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "企業情報カードのリスト形式",
+          "backgroundColor": "白",
+          "items": [
+            "7/14(月)✕（赤タグ）", 
+            "三井住友カード - SMCC BUSINESS ACADEMY-企画営業コース- - 予想年収850万円 - 金融",
+            "共同通信社 - 27卒 夏季インターンシップ開催決定！ - 予想年収550万円 - マスコミ・報道",
+            "損害保険ジャパン - ジョブ型コース 資産運用コース - 予想年収640万円 - 損害保険",
+            "東宝 - TOHO Creative campアニメコース/TOHO Creative camp不動産コース/TOHO Creative camp映画コース/TOHO Creative camp演劇コース - 予想年収550万円 - 映画・エンタメ",
+            "環境省 - 環境省 就業体験プログラム（本省） - 予想年収450万円 - 公共・行政"
+          ],
+          "visualElements": "企業ロゴ、オレンジ色予想年収タグ、赤色業界タグ、緑枠の企業カード"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "7/14締切企業の追加詳細情報提供",
+      "designElements": {
+        "colorScheme": ["緑", "白", "赤", "オレンジ", "黒"],
+        "typography": "企業名（太字）、詳細説明（細字）、年収・業界（タグ形式）",
+        "visualHierarchy": "日程タグ→企業ロゴ→企業名→プログラム詳細→年収→業界",
+        "trustSignals": ["企業ロゴ表示", "具体的年収数値", "多様な業界選択肢"],
+        "engagementElements": ["幅広い業界カバー（金融、マスコミ、公共等）", "統一されたカードデザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "10",
+        "pageIndicator": "6/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い緑色背景",
+        "overlayStructure": "緑ヘッダー＋白いメインカード",
+        "headerType": "緑色バー「サマーインターン30選」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑ヘッダー「サマーインターン30選」、ページ番号「6/10」",
+          "layout": "横幅フル配置"  
+        },
+        "middleSection": {
+          "format": "企業情報カードのリスト形式",
+          "backgroundColor": "白",
+          "items": [
+            "7/15(火)✕（赤タグ）",
+            "JSR - オープンカンパニー 仕事体験2026 - 予想年収650万円 - 化学・素材",
+            "アクセンチュア - コンサルタント/エンジニアの仕事を知るWEBセミナー - 予想年収1100万円 - コンサルティング・IT",
+            "伊藤忠丸紅鉄鋼 - MISI Summer Workshop 2025 #27卒 - 予想年収762万円 - 鉄鋼・商社",
+            "読売広告社（YOMIKO） - YOMIKOインターンシップ - 予想年収600万円 - 広告・メディア"
+          ],
+          "visualElements": "企業ロゴ、オレンジ色予想年収タグ、赤色業界タグ、緑枠の企業カード"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "7/15締切企業の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["緑", "白", "赤", "オレンジ", "黒"],
+        "typography": "企業名（太字）、詳細説明（細字）、年収・業界（タグ形式）",
+        "visualHierarchy": "日程タグ→企業ロゴ→企業名→プログラム詳細→年収→業界",
+        "trustSignals": ["企業ロゴ表示", "高年収企業（アクセンチュア1100万円）", "詳細なプログラム内容"],
+        "engagementElements": ["高年収企業の魅力訴求", "統一されたカードデザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "10",
+        "pageIndicator": "7/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い緑色背景",
+        "overlayStructure": "緑ヘッダー＋白いメインカード",
+        "headerType": "緑色バー「サマーインターン30選」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑ヘッダー「サマーインターン30選」、ページ番号「7/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "企業情報カードのリスト形式",
+          "backgroundColor": "白",
+          "items": [
+            "7/16(水)✕（赤タグ）",
+            "SEGA - プログラマ1dayカレッジ 〜アプリケーション／クライアント編〜 - 予想年収900万円 - ゲーム・エンタメ",
+            "7/17(木)✕（赤タグ）",
+            "JA共済 - 夏季2daysインターンシップ #27卒 #全国域総合職向け - 予想年収640万円 - 共済・保険",
+            "電通デジタル - 本選考直結！デジタル広告の業務改善システム 要件定義1dayインターンシップ - 予想年収600万円 - 広告・デジタル"
+          ],
+          "visualElements": "企業ロゴ、オレンジ色予想年収タグ、赤色業界タグ、緑枠の企業カード、複数の赤い日程タグ"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "7/16・7/17締切企業の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["緑", "白", "赤", "オレンジ", "黒"],
+        "typography": "企業名（太字）、詳細説明（細字）、年収・業界（タグ形式）",
+        "visualHierarchy": "日程タグ→企業ロゴ→企業名→プログラム詳細→年収→業界",
+        "trustSignals": ["企業ロゴ表示", "「本選考直結」の価値訴求", "詳細なプログラム内容"],
+        "engagementElements": ["本選考直結の特別価値", "複数日程の効率的表示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "10",
+        "pageIndicator": "8/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い緑色背景",
+        "overlayStructure": "緑ヘッダー＋白いメインカード",
+        "headerType": "緑色バー「サマーインターン30選」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑ヘッダー「サマーインターン30選」、ページ番号「8/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "企業情報カードのリスト形式",
+          "backgroundColor": "白",
+          "items": [
+            "7/18(金)✕（赤タグ）",
+            "ADK - 5days ADK Breakthrough Camp/ADK Data Science Camp - 予想年収600万円 - 広告・データサイエンス",
+            "かんぽ生命 - 5daysインターンシップ（総合職） - 予想年収640万円 - 生命保険",
+            "三井住友カード - SMCC BUSINESS ACADEMY-マーケティングコース-/SMCC BUSINESS ACADEMY-データ分析コース- - 予想年収850万円 - 金融",
+            "任天堂 - サウンド系仕事紹介&座談会 - 予想年収900万円 - ゲーム・エンタメ"
+          ],
+          "visualElements": "企業ロゴ、オレンジ色予想年収タグ、赤色業界タグ、緑枠の企業カード"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "7/18締切企業の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["緑", "白", "赤", "オレンジ", "黒"],
+        "typography": "企業名（太字）、詳細説明（細字）、年収・業界（タグ形式）",
+        "visualHierarchy": "日程タグ→企業ロゴ→企業名→プログラム詳細→年収→業界",
+        "trustSignals": ["企業ロゴ表示", "著名企業（任天堂等）", "詳細なプログラム内容"],
+        "engagementElements": ["著名ゲーム企業での魅力訴求", "統一されたカードデザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "10",
+        "pageIndicator": "9/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い緑色背景",
+        "overlayStructure": "緑ヘッダー＋白いメインカード",
+        "headerType": "緑色バー「サマーインターン30選」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑ヘッダー「サマーインターン30選」、ページ番号「9/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "企業情報カードのリスト形式",
+          "backgroundColor": "白",
+          "items": [
+            "7/18(金)✕（赤タグ）",
+            "大広（DAIKO） - DAIKO SUMMER CAMP - 予想年収600万円 - 広告",
+            "横浜銀行 - 1day デジタル戦略・データサイエンスコース - 予想年収700万円 - 銀行・金融",
+            "7/20(日)✕（赤タグ）",
+            "理化学研究所（理研） - 【博士後期課程/女性限定】数理創造研究センター 特別研究員・リサーチアソシエ - 予想年収550万円 - 研究機関・理系アカデミア"
+          ],
+          "visualElements": "企業ロゴ、オレンジ色予想年収タグ、赤色業界タグ、緑枠の企業カード、複数の赤い日程タグ"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "7/18・7/20締切企業の詳細情報提供",
+      "designElements": {
+        "colorScheme": ["緑", "白", "赤", "オレンジ", "黒"],
+        "typography": "企業名（太字）、詳細説明（細字）、年収・業界（タグ形式）",
+        "visualHierarchy": "日程タグ→企業ロゴ→企業名→プログラム詳細→年収→業界",
+        "trustSignals": ["企業ロゴ表示", "研究機関の専門性", "詳細なプログラム内容"],
+        "engagementElements": ["専門性の高い研究機関", "複数日程の効率的表示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "10",
+        "pageIndicator": "10/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "緑系グラデーション背景",
+        "overlayStructure": "中央にメインコンテンツカード",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「これも一緒に確認しておこう！」白文字メッセージ、ページ番号「10/10」右上表示",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "関連投稿の紹介カード",
+          "backgroundColor": "白",
+          "items": [
+            "「#わかる就活」（暗いヘッダー）",
+            "「優秀就活生✨ ES提出前 ✓最終チェック」（メインタイトル）",
+            "女性キャラクターイラスト",
+            "「そのESで本当に大丈夫？」（吹き出し）",
+            "「6/15 投稿」",
+            "「今回の内容も踏まえて、参考にしてね◎」"
+          ],
+          "visualElements": "白いカード内に投稿プレビュー、キャラクターイラスト、吹き出し形式"
+        },
+        "bottomSection": {
+          "elements": "左下に女性キャラクターイラスト（スマートフォン操作）",
+          "ctaElements": "関連投稿への誘導"
+        }
+      },
+      "actualRole": "関連コンテンツ紹介・継続的なエンゲージメント促進",
+      "designElements": {
+        "colorScheme": ["緑", "白", "黒", "青"],
+        "typography": "白文字での呼びかけ、カード内の階層的テキスト",
+        "visualHierarchy": "呼びかけメッセージ→関連投稿カード→キャラクター→詳細情報",
+        "trustSignals": ["過去投稿の実績表示", "継続的なコンテンツ提供"],
+        "engagementElements": ["関連コンテンツへの誘導", "キャラクターによる親しみやすさ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

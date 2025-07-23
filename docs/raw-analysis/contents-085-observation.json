@@ -1,0 +1,435 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "10",
+        "pageIndicator": "1/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "上部にヘッダーメッセージ、中央に白いカード、下部にロゴ",
+        "headerType": "情報配信メッセージ"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大生に有益な情報配信中！",
+          "layout": "上部中央、線の装飾付き"
+        },
+        "middleSection": {
+          "format": "カード型タイトル表示",
+          "backgroundColor": "白",
+          "items": [
+            "お役立ち情報",
+            "全学生向け",
+            "AIツール",
+            "学割紹介",
+            "学割を利用してAIを使いこなそう！"
+          ],
+          "visualElements": "水色のラベル、ロボットキャラクター、区切り線"
+        },
+        "bottomSection": {
+          "elements": "科学大メディア @science_tokyo_media、Next",
+          "ctaElements": "Next表示"
+        }
+      },
+      "actualRole": "ブランド付きタイトル・導入ページ",
+      "designElements": {
+        "colorScheme": ["青", "水色", "白", "黒", "赤"],
+        "typography": "太字ゴシック体、多様なサイズ",
+        "visualHierarchy": "ヘッダー→ラベル→タイトル→サブタイトル→キャラクター",
+        "trustSignals": ["科学大メディア"],
+        "engagementElements": ["お役立ち情報", "ロボットキャラクター"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "Next表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "10",
+        "pageIndicator": "2/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "白いカード内にタイトル、チェックリスト、イラスト",
+        "headerType": "継続的なブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大メディア @science_tokyo_media",
+          "layout": "右上隅配置"
+        },
+        "middleSection": {
+          "format": "対象者特定＋問題提起",
+          "backgroundColor": "白",
+          "items": [
+            "こんな方へ！",
+            "✅ChatGPTは使ってるけど、他のAIはあまり知らない...",
+            "✅AIに課金するほどお金に余裕はない..."
+          ],
+          "visualElements": "困った表情の女性学生イラスト、吹き出し、緑チェックマーク"
+        },
+        "bottomSection": {
+          "elements": "そんな学生の方に授業や就活で使えるAI３選を紹介！",
+          "ctaElements": "解決策の提示"
+        }
+      },
+      "actualRole": "問題提起・対象者明確化ページ",
+      "designElements": {
+        "colorScheme": ["青", "白", "緑", "赤", "黒"],
+        "typography": "標準ゴシック体、チェックマーク付き",
+        "visualHierarchy": "タイトル→問題リスト→解決策提示",
+        "trustSignals": ["具体的な問題の特定"],
+        "engagementElements": ["親しみやすいイラスト", "共感を呼ぶ問題設定"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（✅）",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "10",
+        "pageIndicator": "3/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "白いカード内にタイトル、ロゴ、チェックリスト、イラスト",
+        "headerType": "継続的なブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大メディア @science_tokyo_media",
+          "layout": "右上隅配置"
+        },
+        "middleSection": {
+          "format": "ツール紹介（Gemini）",
+          "backgroundColor": "白",
+          "items": [
+            "Gemini",
+            "✅GoogleのAI",
+            "✅試験勉強、文章作成や宿題のサポートに使える！",
+            "✅大学生は月3000円のアップグレードを無料で15ヶ月間利用可能！",
+            "✅無料期間は6月30日まで！"
+          ],
+          "visualElements": "Googleのカラフルロゴ、青チェックマーク、デスクワーク女性イラスト"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "Gemini基本情報紹介ページ",
+      "designElements": {
+        "colorScheme": ["青", "白", "黄", "赤", "緑", "マルチカラー（Google）"],
+        "typography": "標準ゴシック体、黄色ハイライト",
+        "visualHierarchy": "ツール名→チェックリスト→イラスト",
+        "trustSignals": ["Google", "具体的な期間・価格"],
+        "engagementElements": ["ブランドロゴ", "赤文字強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（✅）",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "10",
+        "pageIndicator": "4/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "白いカード内に機能詳細リスト、イラスト",
+        "headerType": "継続的なブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大メディア @science_tokyo_media",
+          "layout": "右上隅配置"
+        },
+        "middleSection": {
+          "format": "機能詳細説明",
+          "backgroundColor": "白",
+          "items": [
+            "≫≫ Geminiのここがスゴイ！",
+            "● Deep Research",
+            "● 音声概要機能",
+            "● Gemini Live"
+          ],
+          "visualElements": "青い矢印、赤文字機能名、プレゼン女性イラスト、青丸マーカー"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "Gemini詳細機能説明ページ",
+      "designElements": {
+        "colorScheme": ["青", "白", "赤", "黒"],
+        "typography": "標準ゴシック体、赤文字強調",
+        "visualHierarchy": "見出し→機能リスト→詳細説明",
+        "trustSignals": ["具体的な機能説明"],
+        "engagementElements": ["矢印記号", "機能名の色分け"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "10",
+        "pageIndicator": "5/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",  
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "白いカード内にタイトル、チェックリスト、イラスト",
+        "headerType": "継続的なブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大メディア @science_tokyo_media",
+          "layout": "右上隅配置"
+        },
+        "middleSection": {
+          "format": "ツール紹介（Notion）",
+          "backgroundColor": "白",
+          "items": [
+            "Notion",
+            "✅情報整理やプロジェクト管理に使えるオールインワンワークスペース",
+            "✅自分オリジナルにページやデータベースをカスタマイズできる柔軟性が利点！",
+            "✅大学生は月1650円のプラスプランが無料で使える！"
+          ],
+          "visualElements": "青チェックマーク、パソコン・コーヒーカップイラスト、赤文字価格強調"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "Notion基本情報紹介ページ",
+      "designElements": {
+        "colorScheme": ["青", "白", "赤", "黒"],
+        "typography": "標準ゴシック体、黄色ハイライト",
+        "visualHierarchy": "ツール名→チェックリスト→イラスト",
+        "trustSignals": ["具体的な価格情報"],
+        "engagementElements": ["オールインワン", "カスタマイズ"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（✅）",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "10",
+        "pageIndicator": "6/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "白いカード内に機能詳細リスト",
+        "headerType": "継続的なブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大メディア @science_tokyo_media",
+          "layout": "右上隅配置"
+        },
+        "middleSection": {
+          "format": "プラン詳細説明",
+          "backgroundColor": "白",
+          "items": [
+            "≫≫ プラスプランのここがスゴイ！",
+            "● 「ゲスト」最大100人",
+            "● 無制限のアップロードが可能！",
+            "● NotionAIが50%オフ"
+          ],
+          "visualElements": "青い矢印、赤文字数字・機能名、青丸マーカー、黄色ハイライト"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "Notion詳細機能説明ページ",
+      "designElements": {
+        "colorScheme": ["青", "白", "赤", "黄", "黒"],
+        "typography": "標準ゴシック体、複数色での強調",
+        "visualHierarchy": "見出し→機能リスト→詳細説明",
+        "trustSignals": ["具体的な数字（100人、50%オフ）"],
+        "engagementElements": ["無制限", "50%オフ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "10",
+        "pageIndicator": "7/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "白いカード内にタイトル、チェックリスト、イラスト",
+        "headerType": "継続的なブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大メディア @science_tokyo_media",
+          "layout": "右上隅配置"
+        },
+        "middleSection": {
+          "format": "ツール紹介（Cursor Pro）",
+          "backgroundColor": "白",
+          "items": [
+            "Cursor Pro",
+            "✅AIを搭載した革新的なコードエディタでプログラミングをサポート！",
+            "✅OpenAIの最新モデル（GPT-4）を活用できちゃう！",
+            "✅大学生は月20ドルのCursorのProプランを1年間、無料で利用可能"
+          ],
+          "visualElements": "青チェックマーク、プログラミング人物イラスト、赤文字価格強調"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "Cursor Pro基本情報紹介ページ",
+      "designElements": {
+        "colorScheme": ["青", "白", "赤", "黒"],
+        "typography": "標準ゴシック体、黄色ハイライト",
+        "visualHierarchy": "ツール名→チェックリスト→イラスト",
+        "trustSignals": ["OpenAI", "GPT-4", "具体的価格・期間"],
+        "engagementElements": ["革新的", "最新モデル"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（✅）",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "10",
+        "pageIndicator": "8/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "白いカード内に機能詳細リスト",
+        "headerType": "継続的なブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大メディア @science_tokyo_media",
+          "layout": "右上隅配置"
+        },
+        "middleSection": {
+          "format": "機能詳細説明",
+          "backgroundColor": "白",
+          "items": [
+            "≫≫ Cursor Proのここがスゴイ！",
+            "● 各月500回の高速リクエストが可能",
+            "● 無制限の低速リクエストが可能",
+            "● コード補完の回数制限が撤廃"
+          ],
+          "visualElements": "青い矢印、赤文字数字・機能名、青丸マーカー"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "Cursor Pro詳細機能説明ページ",
+      "designElements": {
+        "colorScheme": ["青", "白", "赤", "黒"],
+        "typography": "標準ゴシック体、赤文字強調",
+        "visualHierarchy": "見出し→機能リスト→詳細説明",
+        "trustSignals": ["具体的な数字（500回）"],
+        "engagementElements": ["無制限", "撤廃"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "10",
+        "pageIndicator": "9/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色のグラデーション背景",
+        "overlayStructure": "白いカード内にメッセージ、イラスト2つ",
+        "headerType": "継続的なブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "科学大メディア @science_tokyo_media",
+          "layout": "右上隅配置"
+        },
+        "middleSection": {
+          "format": "まとめメッセージ",
+          "backgroundColor": "白",
+          "items": [
+            "AIは今後必須なスキルの1つです。",
+            "時間のある今こそ、授業や就活でAIを活用して、周りと差をつけよう！"
+          ],
+          "visualElements": "人間とロボットの協力イラスト、サムズアップ群イラスト、黄色ハイライト"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "行動喚起メッセージ"
+        }
+      },
+      "actualRole": "まとめ・行動喚起ページ",
+      "designElements": {
+        "colorScheme": ["青", "白", "黄", "黒", "マルチカラー（手）"],
+        "typography": "標準ゴシック体、黄色ハイライト",
+        "visualHierarchy": "メインメッセージ→行動喚起→イラスト",
+        "trustSignals": ["必須なスキル"],
+        "engagementElements": ["差をつけよう", "協力的なイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

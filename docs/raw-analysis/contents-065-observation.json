@@ -1,0 +1,266 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 11,
+      "pageIndicator": "x/11形式で表示"
+    },
+    "generalStructure": {
+      "commonLayout": {
+        "backgroundType": "page1は黒色、page2-11は統一された青色背景",
+        "overlayStructure": "テキスト中心のシンプルレイアウト",
+        "textAlignment": "手書き風フォントで親しみやすい印象",
+        "bottomArea": "Instagram UI（アカウント情報、エンゲージメント要素）"
+      },
+      "designConsistency": {
+        "colorScheme": ["黒色（page1のみ）", "青色", "白色"],
+        "fontStyle": "手書き風フォント統一",
+        "textHierarchy": "大見出し→本文→チェックリスト→まとめ",
+        "visualElements": "雲型吹き出し、白色ボックス、チェックボックス"
+      }
+    },
+    "pageByPageObservation": {
+      "page1": {
+        "layoutStructure": {
+          "backgroundType": "黒色統一背景",
+          "textColor": "白文字"
+        },
+        "contentDistribution": {
+          "centerSection": {
+            "mainTitle": "優等生系無能タイプ",
+            "subtitle": "完璧じゃないと動けないんです。",
+            "textStyle": "大きな白文字、手書き風フォント"
+          },
+          "pageIndicator": "1/11（右上）",
+          "bottomSection": "アカウント情報（machicoooo）"
+        },
+        "actualRole": "インパクトのあるタイトル表示・問題提起"
+      },
+      "page2": {
+        "layoutStructure": {
+          "backgroundType": "青色統一背景",
+          "centralElement": "白色雲型吹き出し"
+        },
+        "contentDistribution": {
+          "centerSection": {
+            "speechBubble": {
+              "content": "言われたことはできる優等生タイプだけど仕事がバリに微妙〇",
+              "style": "大きな白色雲型吹き出し、黒文字"
+            }
+          },
+          "bottomSection": {
+            "text": "うくまさに私のことでした。",
+            "textColor": "白文字"
+          }
+        },
+        "actualRole": "問題の具体化・共感創出"
+      },
+      "page3": {
+        "layoutStructure": "page2と同一構造（青色背景）",
+        "contentDistribution": {
+          "topSection": {
+            "speechBubbles": "2つの小さな白色吹き出し（「仕事も」「プクも」）"
+          },
+          "centerSection": {
+            "mainText": "本当は、やりたいことはある。でも完璧にすすめたくて、取りかかる覚悟が決まらながら、た。",
+            "textColor": "白文字",
+            "emphasis": "「完璧」の文字に青色下線"
+          }
+        },
+        "actualRole": "問題の心理的背景説明"
+      },
+      "page4": {
+        "layoutStructure": "page2と同一構造（青色背景）",
+        "contentDistribution": {
+          "topSection": {
+            "title": "これって優等生の呪縛？",
+            "style": "白文字、装飾線付き"
+          },
+          "mainContent": {
+            "format": "チェックボックス付きリスト",
+            "items": [
+              "失敗しないことが\"正解\"と教わってきた",
+              "準備不足で始めるなんて、無責任だと思ってた",
+              "「ちゃんとしてるね」が、自分の唯一の価値だった"
+            ],
+            "checkboxStyle": "チェックマーク付き□"
+          }
+        },
+        "actualRole": "問題の根本原因分析"
+      },
+      "page5": {
+        "layoutStructure": "page4と同一構造",
+        "contentDistribution": {
+          "topSection": {
+            "title": "完璧のクセついてました",
+            "style": "白文字、装飾線付き"
+          },
+          "mainContent": {
+            "format": "チェックボックス付きリスト",
+            "items": [
+              "まず\"ちゃんと調べきる\"から始めないと落ち着かない",
+              "わからないことがあると進めない",
+              "少しでも失敗して劣ってると思われたくない"
+            ]
+          },
+          "bottomSection": {
+            "text": "誰を見ていなくても、自分が自分の味方を見けていることが一番大事。",
+            "textColor": "白文字"
+          }
+        },
+        "actualRole": "具体的な行動パターンの分析"
+      },
+      "page6": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "topSection": {
+            "title": "「完璧じゃないと動けない」ぜいぜ、",
+            "style": "白文字、装飾線付き"
+          },
+          "mainContent": {
+            "whiteBoxes": [
+              "自分のやりたいきもちにフタ。",
+              "失敗や減点を避ける毎日。"
+            ],
+            "boxStyle": "白色角丸ボックス、黒文字"
+          },
+          "bottomSection": {
+            "text": "...このままでいいのか、私。",
+            "textColor": "白文字"
+          }
+        },
+        "actualRole": "現状への問題意識の醸成"
+      },
+      "page7": {
+        "layoutStructure": "page4と同一構造",
+        "contentDistribution": {
+          "topSection": {
+            "title": "だって何を頑張ろうとしても",
+            "style": "白文字、装飾線付き"
+          },
+          "mainContent": {
+            "format": "チェックボックス付きリスト",
+            "items": [
+              "「できなかったら恥をかく」がずっと怖い",
+              "自信がないから、準備ばかりが増えていく",
+              "「それくらいできて当然」って言われるんじゃないかと怖い"
+            ]
+          },
+          "bottomSection": {
+            "text": "どうせやってもダメな気がしてくる文句。",
+            "textColor": "白文字"
+          }
+        },
+        "actualRole": "心理的な恐怖の詳細分析"
+      },
+      "page8": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "topSection": {
+            "speechBubble": "でもさ、",
+            "style": "小さな白色吹き出し"
+          },
+          "centerSection": {
+            "quote": "\"やりながら整える\"って、未熟でも行動できる人だけが使える、大人の戦略。",
+            "style": "引用符付き、白文字、強調表示"
+          },
+          "bottomSection": {
+            "text": "なんだと気づいた。",
+            "textColor": "白文字"
+          }
+        },
+        "actualRole": "解決策の核心提示"
+      },
+      "page9": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "topSection": {
+            "title": "だから、まずは、",
+            "style": "白文字"
+          },
+          "centerSection": {
+            "mainAdvice": "あえて「完成度60%」で出してみよう。",
+            "style": "大きな白文字、強調"
+          },
+          "bottomSection": {
+            "detailText": "最終版を作る前に、いろんな人に見せて、フィードバックをもらって、アドバイスをもらおう。",
+            "textColor": "白文字"
+          }
+        },
+        "actualRole": "具体的なアクションプラン提示"
+      },
+      "page10": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "centerSection": {
+            "mainMessage": "根はマジメなんだから\"やりながら修正できる人間\"になれたら無敵かもしれない！！",
+            "style": "大きな白文字、感嘆符付き"
+          },
+          "bottomSection": {
+            "encouragement": "何か始めたいと思ってる人！がんばようね😊!!",
+            "style": "白文字、絵文字付き"
+          }
+        },
+        "actualRole": "励まし・エンパワーメント"
+      },
+      "page11": {
+        "layoutStructure": {
+          "backgroundType": "青色背景（グラデーション）",
+          "overlayStructure": "プロフィール情報中心"
+        },
+        "contentDistribution": {
+          "headerSection": {
+            "text": "本日もリソリと手考えストーリーズ更新中‼ #PR",
+            "style": "白文字、上部配置"
+          },
+          "profileSection": {
+            "avatar": "円形プロフィール画像",
+            "name": "machicoooo",
+            "followButton": "フォローボタン",
+            "description": "自分のストレス特性をわかる支えるアプリ"
+          },
+          "contentDescription": {
+            "items": [
+              "転職で知っておきたいこと",
+              "労働人生のモヤモヤ",
+              "などさまざまな投稿をしています。"
+            ]
+          },
+          "highlightSection": {
+            "description": "自己分析を手伝ってくれる転職サービス、事務職に特化した転職エージェントなどの詳細を書いています！",
+            "visualElement": "ハイライトアイコン群"
+          },
+          "hashtagSection": {
+            "tags": "#アラサー女子 #アラサー #転職 #転職活動 #仕事辞めたい #仕事やめたい #仕事探し #会社辞めたい #会社やめたい #マチ903",
+            "handle": "@machicoooo",
+            "date": "6月3日"
+          }
+        },
+        "actualRole": "プロフィール・コミュニティ紹介"
+      }
+    },
+    "designElements": {
+      "colorScheme": ["黒色（page1）", "青色（メイン）", "白色（テキスト・要素）"],
+      "typography": {
+        "mainFont": "手書き風フォント統一",
+        "titleSize": "大きなサイズ（インパクト重視）",
+        "bodyText": "中サイズ（読みやすさ重視）",
+        "accentText": "引用符、下線、強調表示"
+      },
+      "visualHierarchy": "タイトル→問題提起→分析→解決策→行動促進→励まし→プロフィール",
+      "consistencyElements": [
+        "青色背景の統一（page2-11）",
+        "手書き風フォントの統一",
+        "白色テキストの統一",
+        "雲型吹き出しの使用",
+        "チェックボックスの使用",
+        "装飾線の使用"
+      ]
+    },
+    "interactionElements": {
+      "emotionalConnection": "優等生タイプへの深い共感",
+      "progressiveDisclosure": "問題→分析→解決策の段階的展開",
+      "actionableAdvice": "60%完成度での実行という具体的指針",
+      "encouragement": "最終的な励ましとエンパワーメント"
+    }
+  }
+}

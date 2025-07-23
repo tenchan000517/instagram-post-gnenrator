@@ -1,0 +1,359 @@
+{
+  "source": "contents-035",
+  "problemCategory": "就職活動・インターンシップ",
+  "problemDescription": "大学生が夏インターンシップの締切情報や企業選択で困っている、適切な企業情報を見つけられない",
+  "postType": "004",
+  "postTypeReason": "具体的な企業30選の情報提供により、明日から活用できる実用的なインターンシップ情報を提供している",
+  "solutionContent": {
+    "概要": "7/13〜20締切の夏インターンシップ企業30選の詳細情報を業界別・日程別に整理して提供",
+    "具体的手順": [
+      "企業情報の確認（会社名、プログラム内容、期間、給与、業界）",
+      "締切日程の確認（7/13、7/14、7/15、7/16、7/17、7/18、7/20）",
+      "給与水準の比較検討",
+      "業界分野の選択（IT、金融、メーカー、広告、ゲーム、インフラ、研究機関等）",
+      "ES提出前の最終チェック実行"
+    ],
+    "提供情報": [
+      "30社の詳細情報（企業名、プログラム内容、給与、業界、期間）",
+      "日程別の締切スケジュール",
+      "給与水準（450万円〜1287万円の範囲）",
+      "多様な業界カバー（IT、金融、メーカー、ゲーム、広告、インフラ、研究等）",
+      "過去投稿参照情報（優秀就活生ES提出前最終チェック）"
+    ],
+    "実用的なアドバイス": [
+      "これも一緒に確認しておこう！（関連コンテンツへの誘導）",
+      "もう申し込んだ？（行動促進）",
+      "そのESで本当に大丈夫？（品質確認の促進）",
+      "今回の内容も踏まえて、参考にしてね"
+    ]
+  },
+  "effectiveExpressions": [
+    "カバーページ：グラデーション背景＋吹き出し形式のカード、キャラクターとの対話形式",
+    "企業リストページ：緑ヘッダー＋企業カード形式、統一されたレイアウト（ロゴ・企業名・詳細・給与・業界タグ）",
+    "日程別整理：赤いタグでの締切日表示、視覚的な日程管理",
+    "最終ページ：関連コンテンツの紹介、継続的な学習促進"
+  ],
+  "searchKeywords": [
+    "夏インターン", "インターンシップ", "企業30選", "就活", "締切", "7月", "大学生", "ES", "企業情報", "業界研究", "IT", "金融", "メーカー", "ゲーム", "広告", "コンサル"
+  ],
+  "emotionalTriggers": [
+    "締切の迫る緊急性による行動促進",
+    "網羅的な企業情報による安心感の提供",
+    "高給与情報による憧れと動機付け",
+    "\"もう申し込んだ？\"による焦りと行動促進",
+    "ES品質への不安解消",
+    "多様な選択肢による希望の提供"
+  ],
+  "marketingStage": "大学生（主に27卒）、夏インターンシップ申込を検討中、企業研究段階、ES準備中",
+  "knowledgeId": "K035",
+  "pageStructurePattern": "",
+  "actualTitle": "7/13〜20〆切 夏インターン企業30選",
+  "pageCount": 10,
+  "hashTag": "#わかる就活 7/13〜20締切のインターン情報をまとめたよ 😊 ・・・",
+  "detailedContent": {
+    "page1": {
+      "role": "title-engagement",
+      "content": {
+        "mainTitle": "7/13〜20〆切 夏インターン企業30選",
+        "background": "グラデーション（紫→緑）",
+        "characterDialog": "もう申し込んだ？",
+        "hashTag": "#わかる就活",
+        "pageIndicator": "1/10",
+        "visualElements": "キャラクターイラスト、吹き出し形式の対話"
+      }
+    },
+    "page2": {
+      "role": "company-list-7-13",
+      "content": {
+        "title": "サマーインターン30選",
+        "deadline": "7/13(日)",
+        "companies": [
+          {
+            "name": "HIS",
+            "program": "5days グローバルセキュリティネットワークの構築 / 5days 生成AIを用いたアプリ開発体験",
+            "salary": "657万円",
+            "industry": "旅行・サービス"
+          },
+          {
+            "name": "JFEスチール", 
+            "program": "事務系職種向け「鉄鋼ビジネス」体感インターンシップ #27卒",
+            "salary": "762万円",
+            "industry": "鉄鋼・製造"
+          },
+          {
+            "name": "キヤノン",
+            "program": "デザインワークショップ2025 / ユーザビリティデザインワークショップ2025",
+            "salary": "632万円", 
+            "industry": "電機・カメラ機器"
+          },
+          {
+            "name": "三井E&S",
+            "program": "5daysインターンシップ & 3daysオープン・カンパニー（工場実習型）",
+            "salary": "700万円",
+            "industry": "重工・エンジニアリング"
+          }
+        ],
+        "pageIndicator": "2/10"
+      }
+    },
+    "page3": {
+      "role": "company-list-7-13-continued",
+      "content": {
+        "title": "サマーインターン30選",
+        "deadline": "7/13(日)",
+        "companies": [
+          {
+            "name": "三菱UFJモルガン・スタンレー証券",
+            "program": "システム部門 インターンシップ",
+            "salary": "1100万円",
+            "industry": "証券・金融"
+          },
+          {
+            "name": "三菱UFJリサーチ&コンサルティング",
+            "program": "政策研究コース インターンシップ / 経営コンサルティングコース インターンシップ",
+            "salary": "1287万円",
+            "industry": "コンサルティング・リサーチ"
+          },
+          {
+            "name": "旭化成（事務系総合職）",
+            "program": "27卒インターンシップ 夏1dayキャリア形成特別プログラム",
+            "salary": "650万円",
+            "industry": "化学・素材"
+          },
+          {
+            "name": "東北電力",
+            "program": "1DAY OPEN COMPANY DX・情報コース",
+            "salary": "850万円",
+            "industry": "電力・インフラ"
+          }
+        ],
+        "pageIndicator": "3/10"
+      }
+    },
+    "page4": {
+      "role": "company-list-7-14",
+      "content": {
+        "title": "サマーインターン30選",
+        "deadline": "7/14(月)",
+        "companies": [
+          {
+            "name": "SEGA",
+            "program": "プログラマ3daysカレッジ 自社ゲームエンジンに触れてみよう！《SUMMER》",
+            "salary": "900万円",
+            "industry": "ゲーム・エンタメ"
+          },
+          {
+            "name": "YKKグループ",
+            "program": "【2027卒向け】YKK株式会社 施設研究Workshop（WEB・技術系）",
+            "salary": "600万円",
+            "industry": "製造・技術"
+          },
+          {
+            "name": "あいおいニッセイ同和損保",
+            "program": "AD Dialogue in summer（アクチュアリー体験コース）",
+            "salary": "640万円",
+            "industry": "損害保険"
+          },
+          {
+            "name": "ベネッセコーポレーション",
+            "program": "1day Program つくる、教育×DIGITAL / End-User企画メソッド",
+            "salary": "650万円",
+            "industry": "教育・デジタル"
+          },
+          {
+            "name": "マツダ",
+            "program": "デザイナー夏期講座 / モデラー夏期講座 〜モデリングの習得〜",
+            "salary": "650万円",
+            "industry": "自動車"
+          }
+        ],
+        "pageIndicator": "4/10"
+      }
+    },
+    "page5": {
+      "role": "company-list-7-14-continued",
+      "content": {
+        "title": "サマーインターン30選",
+        "deadline": "7/14(月)",
+        "companies": [
+          {
+            "name": "三井住友カード",
+            "program": "SMCC BUSINESS ACADEMY-企画営業コース-",
+            "salary": "850万円",
+            "industry": "金融"
+          },
+          {
+            "name": "共同通信社",
+            "program": "27卒 夏季インターンシップ開催決定！",
+            "salary": "550万円",
+            "industry": "マスコミ・報道"
+          },
+          {
+            "name": "損害保険ジャパン",
+            "program": "ジョブ型コース 資産運用コース",
+            "salary": "640万円",
+            "industry": "損害保険"
+          },
+          {
+            "name": "東宝",
+            "program": "TOHO Creative campアニメコース / TOHO Creative camp不動産コース / TOHO Creative camp映画コース / TOHO Creative camp演劇コース",
+            "salary": "550万円",
+            "industry": "映画・エンタメ"
+          },
+          {
+            "name": "環境省",
+            "program": "環境省 就業体験プログラム（本省）",
+            "salary": "450万円",
+            "industry": "公共・行政"
+          }
+        ],
+        "pageIndicator": "5/10"
+      }
+    },
+    "page6": {
+      "role": "company-list-7-15",
+      "content": {
+        "title": "サマーインターン30選",
+        "deadline": "7/15(火)",
+        "companies": [
+          {
+            "name": "JSR",
+            "program": "オープンカンパニー 仕事体験2026",
+            "salary": "650万円",
+            "industry": "化学・素材"
+          },
+          {
+            "name": "アクセンチュア",
+            "program": "コンサルタント / エンジニアの仕事を知るWEBセミナー",
+            "salary": "1100万円",
+            "industry": "コンサルティング・IT"
+          },
+          {
+            "name": "伊藤忠丸紅鉄鋼",
+            "program": "MISI Summer Workshop 2025 #27卒",
+            "salary": "762万円",
+            "industry": "鉄鋼・商社"
+          },
+          {
+            "name": "読売広告社（YOMIKO）",
+            "program": "YOMIKOインターンシップ",
+            "salary": "600万円",
+            "industry": "広告・メディア"
+          }
+        ],
+        "pageIndicator": "6/10"
+      }
+    },
+    "page7": {
+      "role": "company-list-7-16-7-17",
+      "content": {
+        "title": "サマーインターン30選",
+        "deadlines": ["7/16(水)", "7/17(木)"],
+        "companies": [
+          {
+            "name": "SEGA",
+            "program": "プログラマ1dayカレッジ 〜アプリケーション／クライアント編〜",
+            "salary": "900万円",
+            "industry": "ゲーム・エンタメ",
+            "deadline": "7/16(水)"
+          },
+          {
+            "name": "JA共済",
+            "program": "夏季2daysインターンシップ #27卒 #全国域総合職向け",
+            "salary": "640万円",
+            "industry": "共済・保険",
+            "deadline": "7/17(木)"
+          },
+          {
+            "name": "電通デジタル",
+            "program": "本選考直結！デジタル広告の業務改善システム 要件定義1dayインターンシップ",
+            "salary": "600万円",
+            "industry": "広告・デジタル",
+            "deadline": "7/17(木)"
+          }
+        ],
+        "pageIndicator": "7/10"
+      }
+    },
+    "page8": {
+      "role": "company-list-7-18",
+      "content": {
+        "title": "サマーインターン30選",
+        "deadline": "7/18(金)",
+        "companies": [
+          {
+            "name": "ADK",
+            "program": "5days ADK Breakthrough Camp / ADK Data Science Camp",
+            "salary": "600万円",
+            "industry": "広告・データサイエンス"
+          },
+          {
+            "name": "かんぽ生命",
+            "program": "5daysインターンシップ（総合職）",
+            "salary": "640万円",
+            "industry": "生命保険"
+          },
+          {
+            "name": "三井住友カード",
+            "program": "SMCC BUSINESS ACADEMY-マーケティングコース- / SMCC BUSINESS ACADEMY-データ分析コース-",
+            "salary": "850万円",
+            "industry": "金融"
+          },
+          {
+            "name": "任天堂",
+            "program": "サウンド系仕事紹介&座談会",
+            "salary": "900万円",
+            "industry": "ゲーム・エンタメ"
+          }
+        ],
+        "pageIndicator": "8/10"
+      }
+    },
+    "page9": {
+      "role": "company-list-7-18-7-20",
+      "content": {
+        "title": "サマーインターン30選",
+        "deadlines": ["7/18(金)", "7/20(日)"],
+        "companies": [
+          {
+            "name": "大広（DAIKO）",
+            "program": "DAIKO SUMMER CAMP",
+            "salary": "600万円",
+            "industry": "広告",
+            "deadline": "7/18(金)"
+          },
+          {
+            "name": "横浜銀行",
+            "program": "1day デジタル戦略・データサイエンスコース",
+            "salary": "700万円",
+            "industry": "銀行・金融",
+            "deadline": "7/18(金)"
+          },
+          {
+            "name": "理化学研究所（理研）",
+            "program": "【博士後期課程 / 女性限定】数理創造研究センター 特別研究員・リサーチアソシエ",
+            "salary": "550万円",
+            "industry": "研究機関・理系アカデミア",
+            "deadline": "7/20(日)"
+          }
+        ],
+        "pageIndicator": "9/10"
+      }
+    },
+    "page10": {
+      "role": "related-content-promotion",
+      "content": {
+        "title": "これも一緒に確認しておこう！",
+        "relatedPost": {
+          "hashtag": "#わかる就活",
+          "title": "優秀就活生✨ ES提出前 ✓最終チェック",
+          "character": "そのESで本当に大丈夫？",
+          "postDate": "6/15 投稿",
+          "encouragement": "今回の内容も踏まえて、参考にしてね◎"
+        },
+        "backgroundColor": "緑グラデーション",
+        "pageIndicator": "10/10"
+      }
+    }
+  }
+}

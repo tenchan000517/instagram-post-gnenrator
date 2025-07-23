@@ -1,0 +1,107 @@
+{
+  "source": "contents-003",
+  "problemCategory": "AI活用・副業収入",
+  "problemDescription": "AIを使った記事作成で収益化を目指したいが、具体的な手順や効果的な活用方法がわからない",
+  "postType": "003",
+  "postTypeReason": "AI記事作成の具体的な手順（7ステップ）と実際の収益実績を情報として提供し、知識習得を目的としているため",
+  "solutionContent": {
+    "概要": "AI上級者が使用する自動指示文作成の7ステップと実績公開",
+    "具体的手順": [
+      "1. Google AI Studioに登録する",
+      "2. Gemini 2.5 Proを選ぶ",
+      "3. Temperatureを「1」にする", 
+      "4. Grounding with Google Searchをオフ",
+      "5. URL contextをオフにする",
+      "6. この指示文をコピペする",
+      "7. Geminiで実行する"
+    ],
+    "提供情報": [
+      "AI記事作成の技術的設定方法",
+      "実際の収益実績（12万4,000円）",
+      "無料動画講座「IAN」の提供",
+      "4つの特典プレゼント"
+    ],
+    "実用的なアドバイス": [
+      "AI使用による初心者でも在宅収益化が可能",
+      "記事作成から収益化までの流れ",
+      "無料講座での実践的ノウハウ習得"
+    ]
+  },
+  "effectiveExpressions": [
+    "カバー画像：ベージュ背景にAI上級者の具体的手法タイトル",
+    "ステップ形式：7つの手順を番号付きリストで明確化",
+    "実績証明：具体的な収益金額（12万4,000円）をスクリーンショットで提示",
+    "無料特典：動画講座と4つの特典で価値提供",
+    "CTA明確化：フォロー→コメント→案内送付の流れ"
+  ],
+  "searchKeywords": [
+    "AI記事作成",
+    "Gemini AI",
+    "副業収入",
+    "在宅収益化",
+    "AIライティング",
+    "Google AI Studio",
+    "AI活用法"
+  ],
+  "emotionalTriggers": [
+    "AI技術への興味と可能性への期待",
+    "具体的な収益実績による信頼感",
+    "無料講座という低リスクでの学習機会",
+    "初心者でも可能という安心感"
+  ],
+  "marketingStage": "AI活用に興味があり、副業収入を得たいと考えている初心者〜中級者",
+  "knowledgeId": "K003",
+  "pageStructurePattern": "",
+  "actualTitle": "AI上級者がこそって使う...自動で指示文をつくる7ステップ",
+  "pageCount": 3,
+  "hashTag": "@nabeken_career ← 無料ブログ添削やってます",
+  "detailedContent": {
+    "page1": {
+      "role": "summary-steps",
+      "mainTitle": "AI上級者がこそって使う...自動で指示文をつくる7ステップ",
+      "pageIndicator": "11/13",
+      "sectionTitle": "まとめ",
+      "stepsList": [
+        "Google AI Studioに登録する",
+        "Gemini 2.5 Proを選ぶ", 
+        "Temperatureを「1」にする",
+        "Grounding with Google Searchをオフ",
+        "URL contextをオフにする",
+        "この指示文をコピペする",
+        "Geminiで実行する"
+      ],
+      "teaser": "実は、AIを使いこなすと初心者でもお家で収益化できて...→"
+    },
+    "page2": {
+      "role": "proof-results",
+      "pageIndicator": "12/13",
+      "sectionTitle": "POINT",
+      "headline": "AIの記事で12万4,000円作れる",
+      "proofImage": "収益スクリーンショット（coco_mama_cf アカウント）",
+      "proofText": "@nabeken_career が作ったGTPs で記事を書いたら、124,000円も作れました😭",
+      "detailText": "自分の頭で考え出したら1週間かかるような1万文字以上の記事が、AIの力を借りたら3倍速く、しかもクオリティも高い。",
+      "additionalInfo": "そのし、私はエンジニアで学中で金なし。リサーチやサポート、マークの勉強、新しいことにチャレンジする時間が取れるようになりました。",
+      "cta": "AIで記事を作ったら収益化も目指せる◎このAIの作り方を無料講座で教えて→"
+    },
+    "page3": {
+      "role": "offer-cta",
+      "targetMessage": "できるだけお金をかけずにAI活用の実践的なノウハウを知りたい\"あなた\"へ",
+      "offerTitle": "無料【全3話】ライター×AIの動画講座「IAN」",
+      "subtitle": "時給6万円を達成したAIの裏側を暴露",
+      "limitedOffer": "期間限定プレゼント",
+      "benefitsTitle": "4つの特典をお届けします",
+      "benefits": [
+        "セールスライティングプロンプト",
+        "心理学プロンプト", 
+        "魔法文章術プロンプト",
+        "キラーワード10選"
+      ],
+      "ctaInstructions": [
+        "フォローしてから",
+        "イアン",
+        "とコメントで案内を送るね◎"
+      ],
+      "phoneScreenshot": "動画講座のスマートフォン表示画面"
+    }
+  }
+}

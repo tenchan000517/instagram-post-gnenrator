@@ -1,0 +1,55 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-10",
+      "totalPages": "10",
+      "pageIndicator": "画面下部にInstagramスワイプインジケーター"
+    },
+    "layoutStructure": {
+      "backgroundType": "実際のスクリーンショット",
+      "backgroundDescription": "MacBook Airのデスクトップ画面、ChatGPTウェブ画面",
+      "overlayStructure": "白色長方形ボックス重ね",
+      "headerType": "なし（スクリーンショット形式）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "実際のChatGPT画面",
+        "layout": "ブラウザウィンドウ表示"
+      },
+      "middleSection": {
+        "format": "screenshot-with-text-overlay",
+        "backgroundColor": "実際の画面背景（グレー系）",
+        "items": [
+          "回答を作成してくれる",
+          "実際に使ってみましょう",
+          "今年から新しく始まる税金制度は？",
+          "いやわからんのかい",
+          "ではこのツールをオンにします",
+          "新しく始まる（下線あり）",
+          "いや分かりやすい！",
+          "この動画を保存してから",
+          "「ほしい」とコメントで送ります"
+        ],
+        "visualElements": "白背景のテキストボックス、実際のUI要素"
+      },
+      "bottomSection": {
+        "elements": "Instagramインターフェース（下部ナビゲーション、ユーザー情報）",
+        "ctaElements": "動画保存、コメント送信の促進"
+      }
+    },
+    "actualRole": "実際のツール使用デモンストレーション",
+    "designElements": {
+      "colorScheme": ["白", "黒", "グレー", "青", "緑"],
+      "typography": "日本語フォント、太字で強調",
+      "visualHierarchy": "1.スクリーンショット → 2.オーバーレイテキスト → 3.ユーザーリアクション",
+      "trustSignals": ["実際の画面キャプチャ", "具体的な使用例"],
+      "engagementElements": ["ユーモアのある表現", "段階的な説明", "保存促進"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "Chrome追加ボタン、Web accessトグル",
+      "swipeIndicators": "Instagram標準のページインジケーター",
+      "savePrompts": "「この動画を保存してから」の明示的な指示"
+    }
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "9",
+        "pageIndicator": "1/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真背景",
+        "backgroundDescription": "ベージュ系背景にマスク着用女性の写真（左下配置）",
+        "overlayStructure": "テキストオーバーレイ、大きな円形背景要素",
+        "headerType": "タイトル中央配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Instagram UI（時刻、バッテリー等）",
+          "layout": "標準的なスマートフォンUI"
+        },
+        "middleSection": {
+          "format": "大きな円形レイアウト",
+          "backgroundColor": "ベージュ系グラデーション",
+          "items": ["意外と知らない", "休日が多くて稼げる仕事", "9選"],
+          "visualElements": "白色の線画アイコン（右上）"
+        },
+        "bottomSection": {
+          "elements": "アカウント情報、フォローボタン",
+          "ctaElements": "フォローボタン"
+        }
+      },
+      "actualRole": "タイトル表示とコンテンツ概要の提示",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "黒"],
+        "typography": "大きな白色フォント、太字使用",
+        "visualHierarchy": "円形レイアウト → タイトル → 数字強調",
+        "trustSignals": ["アカウント認証マーク"],
+        "engagementElements": ["ページインジケーター", "フォローボタン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "フォローボタン",
+        "swipeIndicators": "ページインジケーター（1/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2", 
+        "totalPages": "9",
+        "pageIndicator": "2/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "色分け背景",
+        "backgroundDescription": "上部ベージュ、下部白色の2分割",
+        "overlayStructure": "白色カード重ね",
+        "headerType": "上部にヘッダーテキスト"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ヘッダーメッセージ",
+          "layout": "ベージュ背景に白文字"
+        },
+        "middleSection": {
+          "format": "白色カード内にチェックリスト",
+          "backgroundColor": "白色",
+          "items": [
+            "あなたはこんなことない？",
+            "お給料は上げたいけど休日は欲しい",
+            "できるなら稼ぎたい", 
+            "仕事と休日のバランスが大事"
+          ],
+          "visualElements": "チェックマーク、女性イラスト"
+        },
+        "bottomSection": {
+          "elements": "CTAメッセージ",
+          "ctaElements": "解決策への誘導文"
+        }
+      },
+      "actualRole": "問題共感とニーズの明確化",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "黒", "茶色"],
+        "typography": "標準フォント、問いかけスタイル",
+        "visualHierarchy": "質問 → チェックリスト → イラスト → CTA",
+        "trustSignals": ["共感的な問いかけ"],
+        "engagementElements": ["チェックボックス視覚的要素", "保存促進テキスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "茶色チェックマーク（装飾的）",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター（2/9）",
+        "savePrompts": "メモが画面な人は1タップで保存発見！"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "9", 
+        "pageIndicator": "3/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション背景",
+        "backgroundDescription": "薄いグレーからベージュのグラデーション",
+        "overlayStructure": "Point番号バー、白色カード",
+        "headerType": "Point 1 ITエンジニア"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point 1 ヘッダーバー",
+          "layout": "ベージュ背景に白文字"
+        },
+        "middleSection": {
+          "format": "白色カード内に職業情報",
+          "backgroundColor": "白色",
+          "items": [
+            "女性とPCのイラスト",
+            "平均年収：438万円",
+            "平均年間休日：125日",
+            "ただしプロジェクトの納期やトラブル対応などによって休日出勤が必要になることも。"
+          ],
+          "visualElements": "職業関連アイコン、赤字での年収・休日表示"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "次ページへの誘導"
+        }
+      },
+      "actualRole": "具体的職業情報の提供（1つ目）",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "赤", "黒"],
+        "typography": "赤字での数値強調、黒字での説明文",
+        "visualHierarchy": "Point番号 → 職業名 → イラスト → 数値 → 説明",
+        "trustSignals": ["具体的な数値データ"],
+        "engagementElements": ["Nextボタン", "視覚的アイコン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "ページインジケーター（3/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "9",
+        "pageIndicator": "4/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション背景",
+        "backgroundDescription": "薄いグレーからベージュのグラデーション",
+        "overlayStructure": "Point番号バー、白色カード",
+        "headerType": "Point 2 銀行員"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point 2 ヘッダーバー",
+          "layout": "ベージュ背景に白文字"
+        },
+        "middleSection": {
+          "format": "白色カード内に職業情報",
+          "backgroundColor": "白色",
+          "items": [
+            "BANKビルのイラスト",
+            "平均年収：608万円",
+            "平均年間休日：120日", 
+            "休みはほぼカレンダー通りで休日出勤はほぼなし。"
+          ],
+          "visualElements": "銀行ビルアイコン、赤字での年収・休日表示"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "次ページへの誘導"
+        }
+      },
+      "actualRole": "具体的職業情報の提供（2つ目）",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "赤", "黒", "青"],
+        "typography": "赤字での数値強調、黒字での説明文",
+        "visualHierarchy": "Point番号 → 職業名 → イラスト → 数値 → 説明",
+        "trustSignals": ["具体的な数値データ"],
+        "engagementElements": ["Nextボタン", "視覚的アイコン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "ページインジケーター（4/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "9",
+        "pageIndicator": "5/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション背景",
+        "backgroundDescription": "薄いグレーからベージュのグラデーション",
+        "overlayStructure": "Point番号バー、白色カード",
+        "headerType": "Point 3 MR"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point 3 ヘッダーバー",
+          "layout": "ベージュ背景に白文字"
+        },
+        "middleSection": {
+          "format": "白色カード内に職業情報",
+          "backgroundColor": "白色",
+          "items": [
+            "薬のイラスト",
+            "平均年収：713万円",
+            "平均年間休日：133日",
+            "年収も高い分、高い専門知識は必要。"
+          ],
+          "visualElements": "薬品アイコン、赤字での年収・休日表示"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "次ページへの誘導"
+        }
+      },
+      "actualRole": "具体的職業情報の提供（3つ目）",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "赤", "黒"],
+        "typography": "赤字での数値強調、黒字での説明文",
+        "visualHierarchy": "Point番号 → 職業名 → イラスト → 数値 → 説明",
+        "trustSignals": ["最高年収の提示"],
+        "engagementElements": ["Nextボタン", "視覚的アイコン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "ページインジケーター（5/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "9",
+        "pageIndicator": "6/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション背景",
+        "backgroundDescription": "薄いグレーからベージュのグラデーション",
+        "overlayStructure": "Point番号バー、白色カード",
+        "headerType": "Point 4 コンサルタント"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point 4 ヘッダーバー", 
+          "layout": "ベージュ背景に白文字"
+        },
+        "middleSection": {
+          "format": "白色カード内に職業情報",
+          "backgroundColor": "白色",
+          "items": [
+            "会議のイラスト",
+            "平均年収：575万円",
+            "平均年間休日：122日",
+            "激務のコンサルタントもあるので求人をしっかり見極めることは重要。"
+          ],
+          "visualElements": "会議アイコン、赤字での年収・休日表示"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "次ページへの誘導"
+        }
+      },
+      "actualRole": "具体的職業情報の提供（4つ目）",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "赤", "黒", "黄"],
+        "typography": "赤字での数値強調、黒字での説明文",
+        "visualHierarchy": "Point番号 → 職業名 → イラスト → 数値 → 説明",
+        "trustSignals": ["注意点も含めた公平な情報提供"],
+        "engagementElements": ["Nextボタン", "視覚的アイコン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "ページインジケーター（6/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "9",
+        "pageIndicator": "7/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション背景",
+        "backgroundDescription": "薄いグレーからベージュのグラデーション",
+        "overlayStructure": "Point番号バー、白色カード",
+        "headerType": "Point 5 企画職"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point 5 ヘッダーバー",
+          "layout": "ベージュ背景に白文字"
+        },
+        "middleSection": {
+          "format": "白色カード内に職業情報",
+          "backgroundColor": "白色",
+          "items": [
+            "企画会議のイラスト",
+            "平均年収：529万円",
+            "平均年間休日：127日",
+            "企画職はどの企業も少数精鋭の組織体制を取っていることもあって、平均年収は高めに。"
+          ],
+          "visualElements": "企画・チームワークアイコン、赤字での年収・休日表示"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "次ページへの誘導"
+        }
+      },
+      "actualRole": "具体的職業情報の提供（5つ目）",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "赤", "黒"],
+        "typography": "赤字での数値強調、黒字での説明文",
+        "visualHierarchy": "Point番号 → 職業名 → イラスト → 数値 → 説明",
+        "trustSignals": ["年収が高い理由の説明"],
+        "engagementElements": ["Nextボタン", "視覚的アイコン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "ページインジケーター（7/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "9",
+        "pageIndicator": "8/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション背景",
+        "backgroundDescription": "薄いグレーからベージュのグラデーション",
+        "overlayStructure": "Point番号バー、白色カード",
+        "headerType": "Point 6 機電系エンジニア"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point 6 ヘッダーバー",
+          "layout": "ベージュ背景に白文字"
+        },
+        "middleSection": {
+          "format": "白色カード内に職業情報",
+          "backgroundColor": "白色",
+          "items": [
+            "機械・歯車のイラスト",
+            "平均年収：444万円",
+            "平均年間休日：130日",
+            "電子部品や機械製品の開発や製造を行うお仕事。"
+          ],
+          "visualElements": "機械・歯車アイコン、赤字での年収・休日表示"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "次ページへの誘導"
+        }
+      },
+      "actualRole": "具体的職業情報の提供（6つ目）",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "赤", "黒", "オレンジ"],
+        "typography": "赤字での数値強調、黒字での説明文",
+        "visualHierarchy": "Point番号 → 職業名 → イラスト → 数値 → 説明",
+        "trustSignals": ["職業内容の具体的説明"],
+        "engagementElements": ["Nextボタン", "視覚的アイコン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "ページインジケーター（8/9）",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "9",
+        "pageIndicator": "9/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション背景",
+        "backgroundDescription": "薄いグレーからベージュのグラデーション",
+        "overlayStructure": "Point番号バー、白色カード",
+        "headerType": "Point 7 研究職"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Point 7 ヘッダーバー",
+          "layout": "ベージュ背景に白文字"
+        },
+        "middleSection": {
+          "format": "白色カード内に職業情報",
+          "backgroundColor": "白色",
+          "items": [
+            "研究者のイラスト",
+            "平均年収：565万円",
+            "平均年間休日：134日",
+            "専門性が高く、平均年収もそれに応じて高めに。"
+          ],
+          "visualElements": "研究者アイコン、赤字での年収・休日表示"
+        },
+        "bottomSection": {
+          "elements": "Nextボタン",
+          "ctaElements": "次ページへの誘導"
+        }
+      },
+      "actualRole": "具体的職業情報の提供（7つ目）",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "赤", "黒", "黄"],
+        "typography": "赤字での数値強調、黒字での説明文",
+        "visualHierarchy": "Point番号 → 職業名 → イラスト → 数値 → 説明",
+        "trustSignals": ["専門性と年収の関係性の説明"],
+        "engagementElements": ["Nextボタン", "視覚的アイコン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "Nextボタン",
+        "swipeIndicators": "ページインジケーター（9/9）",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

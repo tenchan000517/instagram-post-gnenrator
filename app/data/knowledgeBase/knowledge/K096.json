@@ -1,0 +1,113 @@
+{
+  "source": "contents-096",
+  "problemCategory": "AIツール活用",
+  "problemDescription": "税金制度に関する質問をしたがChatGPTが答えられない、最新情報の不足で困っている",
+  "postType": "004",
+  "postTypeReason": "具体的なツール（WebChatGPT）の使い方を紹介し、ChatGPTの制限を解決する実用的な情報を提供している",
+  "solutionContent": {
+    "概要": "WebChatGPTという拡張機能を使ってChatGPTの情報制限を解決する方法",
+    "具体的手順": [
+      "Chrome拡張機能でWebChatGPTを追加",
+      "Web accessをONにする",
+      "最新情報が必要な質問をしてみる"
+    ],
+    "提供情報": [
+      "WebChatGPTの紹介とインストール方法",
+      "ChatGPTの情報制限（2021年9月まで）の説明",
+      "実際の使用例（インボイス制度について）"
+    ],
+    "実用的なアドバイス": [
+      "信頼性のある情報源を参照することの重要性",
+      "ChatGPTの制限を理解した上で活用する"
+    ]
+  },
+  "effectiveExpressions": [
+    "実際のChatGPT画面キャプチャによる視覚的説明",
+    "ステップバイステップの白いボックスオーバーレイでの説明",
+    "Instagram投稿スタイルでの情報提示",
+    "「いやわからんのかい」「いや分かりやすい！」のユーモアを交えた表現"
+  ],
+  "searchKeywords": [
+    "ChatGPT",
+    "WebChatGPT",
+    "AI ツール",
+    "最新情報",
+    "Chrome拡張機能",
+    "インボイス制度",
+    "税金制度"
+  ],
+  "emotionalTriggers": [
+    "ChatGPTの制限への共感",
+    "便利ツールの発見",
+    "実用性の高い解決策",
+    "保存してから使いたくなる情報"
+  ],
+  "marketingStage": "ChatGPTを使い始めているが制限に直面している初中級者",
+  "knowledgeId": "K096",
+  "pageStructurePattern": "",
+  "actualTitle": "回答を作成してくれる",
+  "pageCount": 10,
+  "hashTag": "#chatgpt #chatgpt4 #gpt4 #チャットgpt #チャットジーピーティー #チャットjpt #チャットジーピーティーとは #チャットジーピーティー初心者 #チャットジーピーティーの使い方 #aiツール",
+  "detailedContent": {
+    "page1": {
+      "role": "hook-attention-grabber",
+      "content": "ChatGPTとインボイス制度の会話画面",
+      "text": "回答を作成してくれる",
+      "layout": "screenshot-with-overlay-text"
+    },
+    "page2": {
+      "role": "demonstration",
+      "content": "WebChatGPT Chrome拡張の紹介画面",
+      "text": "実際に使ってみましょう",
+      "layout": "browser-screenshot-with-overlay"
+    },
+    "page3": {
+      "role": "question-setup",
+      "content": "ChatGPT画面での質問例",
+      "text": "今年から新しく始まる税金制度は？",
+      "layout": "chat-interface-screenshot"
+    },
+    "page4": {
+      "role": "problem-identification",
+      "content": "ChatGPTの制限説明",
+      "text": "いやわからんのかい",
+      "layout": "chat-response-with-humor"
+    },
+    "page5": {
+      "role": "solution-introduction",
+      "content": "WebChatGPTツールの説明",
+      "text": "ではこのツールをオンにします",
+      "layout": "instruction-with-arrow"
+    },
+    "page6": {
+      "role": "tool-activation",
+      "content": "Web accessをONにする手順",
+      "text": "新しく始まる（下線付き）今年からあたらしくはじまる",
+      "layout": "settings-screenshot"
+    },
+    "page7": {
+      "role": "detailed-explanation",
+      "content": "インボイス制度の詳細情報",
+      "text": "いや分かりやすい！",
+      "layout": "information-display-with-reaction"
+    },
+    "page8": {
+      "role": "save-prompt",
+      "content": "動画保存の促進",
+      "text": "この動画を保存してから",
+      "layout": "save-instruction-overlay"
+    },
+    "page9": {
+      "role": "call-to-action",
+      "content": "コメント送信の促進",
+      "text": "「ほしい」とコメントで送ります",
+      "layout": "engagement-prompt"
+    },
+    "page10": {
+      "role": "hashtag-metadata",
+      "content": "ハッシュタグとメタデータ",
+      "text": "仮想通貨に興味があり、稼ぎたいと考えている人が見つけやすいよう投稿いたします。",
+      "layout": "hashtag-list"
+    }
+  }
+}

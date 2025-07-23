@@ -1,0 +1,219 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "5",
+        "pageIndicator": "ページインジケータなし（トップページ）"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "ライトグリーン（薄緑）の背景",
+        "overlayStructure": "なし",
+        "headerType": "中央配置の企業名とキャッチコピー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "GOOYA Holdings + メガホンアイコン + 人事が伝えたい！",
+          "layout": "横並び配置、黒文字"
+        },
+        "middleSection": {
+          "format": "白背景の強調ボックス",
+          "backgroundColor": "白",
+          "items": ["就活攻略術"],
+          "visualElements": "太字の黒文字で中央配置"
+        },
+        "bottomSection": {
+          "elements": "説明文（2027サマーインターン開始！就活は\"情報戦\"今のうちに知っておくべき4つのこと）+ GOOYAロゴ",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "表紙・タイトルページ",
+      "designElements": {
+        "colorScheme": ["ライトグリーン", "黒", "白"],
+        "typography": "太字と通常フォントの組み合わせ",
+        "visualHierarchy": "1.企業名とキャッチ 2.就活攻略術（強調） 3.説明文",
+        "trustSignals": ["企業ロゴ", "人事からの発信明記"],
+        "engagementElements": ["メガホンアイコン（注目喚起）"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部に5つのドット（●●●○○）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "5",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白背景",
+        "overlayStructure": "なし",
+        "headerType": "緑文字の見出し"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "自己分析は\"今\"が勝負！",
+          "layout": "左寄せ、緑色の太字"
+        },
+        "middleSection": {
+          "format": "説明文と写真の組み合わせ",
+          "backgroundColor": "白",
+          "items": ["就活が本格化する前の今こそ、自己分析を深める絶好のタイミングです。..."],
+          "visualElements": "グラフと虫眼鏡の分析イメージ写真"
+        },
+        "bottomSection": {
+          "elements": "Pointマーク付きアドバイスボックス",
+          "ctaElements": "破線で囲まれた具体的アドバイス"
+        }
+      },
+      "actualRole": "1つ目のポイント説明ページ",
+      "designElements": {
+        "colorScheme": ["緑", "黒", "白"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.緑の見出し 2.説明文 3.写真 4.ポイントボックス",
+        "trustSignals": ["具体的なツール名の提示"],
+        "engagementElements": ["Pointの吹き出しアイコン", "破線囲み"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット（●●●○○）",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "5",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白背景",
+        "overlayStructure": "なし",
+        "headerType": "緑文字の見出し"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "業界研究は\"広く浅く\"がコツ！",
+          "layout": "左寄せ、緑色の太字"
+        },
+        "middleSection": {
+          "format": "説明文と写真の組み合わせ",
+          "backgroundColor": "白",
+          "items": ["業界研究は、最初から絞りすぎず\"広く浅く\"進めるのがポイントです。..."],
+          "visualElements": "ノートとパソコンの写真"
+        },
+        "bottomSection": {
+          "elements": "Pointマーク付きアドバイスボックス",
+          "ctaElements": "破線で囲まれた具体的アドバイス"
+        }
+      },
+      "actualRole": "2つ目のポイント説明ページ",
+      "designElements": {
+        "colorScheme": ["緑", "黒", "白"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.緑の見出し 2.説明文 3.写真 4.ポイントボックス",
+        "trustSignals": ["ビジネスモデルへの言及"],
+        "engagementElements": ["Pointの吹き出しアイコン", "破線囲み"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット（●●●●○）",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "5",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白背景",
+        "overlayStructure": "なし",
+        "headerType": "緑文字の見出し（2行）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "インターン情報は\n\"毎週\"チェック！",
+          "layout": "左寄せ、緑色の太字、改行あり"
+        },
+        "middleSection": {
+          "format": "説明文と写真の組み合わせ",
+          "backgroundColor": "白",
+          "items": ["インターン情報は\"毎週\"チェックするのが鉄則。..."],
+          "visualElements": "ノートパソコンとスマートフォンでOPPORTUNITYと表示された画面"
+        },
+        "bottomSection": {
+          "elements": "Pointマーク付きアドバイスボックス",
+          "ctaElements": "破線で囲まれた具体的アドバイス"
+        }
+      },
+      "actualRole": "3つ目のポイント説明ページ",
+      "designElements": {
+        "colorScheme": ["緑", "黒", "白", "黄色（画面内）"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.緑の見出し 2.説明文 3.写真 4.ポイントボックス",
+        "trustSignals": ["複数サイト活用の推奨", "公式サイトチェックの言及"],
+        "engagementElements": ["Pointの吹き出しアイコン", "破線囲み"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット（●●●●●）",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "5",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白背景",
+        "overlayStructure": "なし",
+        "headerType": "緑文字の見出し（2行）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "SNS・口コミは\n\"リアル\"を知る武器！",
+          "layout": "左寄せ、緑色の太字、改行あり"
+        },
+        "middleSection": {
+          "format": "説明文と写真の組み合わせ",
+          "backgroundColor": "白",
+          "items": ["SNSや口コミサイトは、企業の\"リアル\"を知るための強力なツールです。..."],
+          "visualElements": "青い背景にスマートフォンでInstagramを見ている画面"
+        },
+        "bottomSection": {
+          "elements": "Pointマーク付きアドバイスボックス",
+          "ctaElements": "破線で囲まれた具体的アドバイス"
+        }
+      },
+      "actualRole": "4つ目のポイント説明ページ",
+      "designElements": {
+        "colorScheme": ["緑", "黒", "白", "青（写真背景）"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.緑の見出し 2.説明文 3.写真 4.ポイントボックス",
+        "trustSignals": ["直近の投稿優先の推奨", "批判的思考の促進"],
+        "engagementElements": ["Pointの吹き出しアイコン", "破線囲み"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット（●●●●●）すべて塗りつぶし",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

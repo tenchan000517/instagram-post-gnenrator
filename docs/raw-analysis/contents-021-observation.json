@@ -1,0 +1,480 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "11",
+        "pageIndicator": "1/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "coral pink/salmon color background",
+        "overlayStructure": "white rounded rectangle card in center",
+        "headerType": "none"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "none",
+          "layout": "empty"
+        },
+        "middleSection": {
+          "format": "centered card with text",
+          "backgroundColor": "white",
+          "items": ["家賃補助", "すごい", "会社8選"],
+          "visualElements": "text split into three lines with different sizes"
+        },
+        "bottomSection": {
+          "elements": "page indicator and like count",
+          "ctaElements": "none"
+        }
+      },
+      "actualRole": "title page introducing the topic",
+      "designElements": {
+        "colorScheme": ["coral pink", "white", "red", "black"],
+        "typography": "bold sans-serif with mixed sizes",
+        "visualHierarchy": "家賃補助 (red) → すごい (black) → 会社8選 (black with red 8)",
+        "trustSignals": ["367 likes"],
+        "engagementElements": ["heart icon"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page dots at bottom",
+        "savePrompts": "none"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "11",
+        "pageIndicator": "2/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "layered content with image and text",
+        "headerType": "company name at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "サントリー text",
+          "layout": "left-aligned large text"
+        },
+        "middleSection": {
+          "format": "office photo with overlay",
+          "backgroundColor": "photo of modern office space",
+          "items": ["水と生きる", "SUNTORY"],
+          "visualElements": "turquoise overlay box with white text on office photo"
+        },
+        "bottomSection": {
+          "elements": "benefit description with curved border",
+          "ctaElements": "家賃の8割がでる上限は10万円"
+        }
+      },
+      "actualRole": "company benefit showcase",
+      "designElements": {
+        "colorScheme": ["beige", "turquoise", "red", "black", "white"],
+        "typography": "sans-serif with varying weights",
+        "visualHierarchy": "company name → visual → benefit amount",
+        "trustSignals": ["actual office photo", "company branding"],
+        "engagementElements": ["specific monetary amounts in red"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "11",
+        "pageIndicator": "3/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "similar to page 2",
+        "headerType": "company name at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "NTT データ text",
+          "layout": "left-aligned large text"
+        },
+        "middleSection": {
+          "format": "office photo with logo overlay",
+          "backgroundColor": "office interior photo",
+          "items": ["NTT DATA"],
+          "visualElements": "blue overlay box with white logo"
+        },
+        "bottomSection": {
+          "elements": "benefit description",
+          "ctaElements": "毎月4万円もらえる結婚するとなんと毎月7万円もらえる"
+        }
+      },
+      "actualRole": "company benefit showcase",
+      "designElements": {
+        "colorScheme": ["beige", "blue", "red", "black", "white"],
+        "typography": "consistent with page 2",
+        "visualHierarchy": "company name → logo → benefit amounts",
+        "trustSignals": ["NTT DATA official logo", "office photo"],
+        "engagementElements": ["red text for amounts", "なんと emphasis"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "11",
+        "pageIndicator": "4/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "employee photos with text overlay",
+        "headerType": "company name at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "サイバーエージェント text",
+          "layout": "left-aligned large text"
+        },
+        "middleSection": {
+          "format": "5 employee portrait photos",
+          "backgroundColor": "white overlay on photos",
+          "items": ["みんなでカンパニーをつくる"],
+          "visualElements": "professional headshots of 5 employees"
+        },
+        "bottomSection": {
+          "elements": "benefit description",
+          "ctaElements": "オフィスの最寄りから2駅圏内に住めば毎月3万円もらえる"
+        }
+      },
+      "actualRole": "company benefit showcase with human element",
+      "designElements": {
+        "colorScheme": ["beige", "red", "black", "white"],
+        "typography": "consistent style",
+        "visualHierarchy": "company name → employee faces → benefits",
+        "trustSignals": ["real employee photos", "company culture display"],
+        "engagementElements": ["human faces", "red monetary amounts"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "11",
+        "pageIndicator": "5/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "logo centered",
+        "headerType": "company name at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "クックパッド text",
+          "layout": "left-aligned large text"
+        },
+        "middleSection": {
+          "format": "large logo display",
+          "backgroundColor": "beige",
+          "items": ["cookpad logo with chef hat icon"],
+          "visualElements": "orange circle with white chef hat, black text"
+        },
+        "bottomSection": {
+          "elements": "benefit description",
+          "ctaElements": "会社から2km圏内に住むと毎月3万円もらえる"
+        }
+      },
+      "actualRole": "company benefit showcase",
+      "designElements": {
+        "colorScheme": ["beige", "orange", "red", "black", "white"],
+        "typography": "consistent style",
+        "visualHierarchy": "company name → logo → benefits",
+        "trustSignals": ["official cookpad logo"],
+        "engagementElements": ["20万 highlighted in red"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "11",
+        "pageIndicator": "6/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "building photo with text",
+        "headerType": "company name at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "日立製作所 text",
+          "layout": "left-aligned large text"
+        },
+        "middleSection": {
+          "format": "building exterior photo with logo overlay",
+          "backgroundColor": "building photo",
+          "items": ["HITACHI", "Inspire the Next"],
+          "visualElements": "modern building facade"
+        },
+        "bottomSection": {
+          "elements": "benefit description",
+          "ctaElements": "家賃の50%を補助してもらえる量もあり、毎月1.5万円で住める"
+        }
+      },
+      "actualRole": "company benefit showcase",
+      "designElements": {
+        "colorScheme": ["beige", "red", "black", "white"],
+        "typography": "consistent style",
+        "visualHierarchy": "company name → building/logo → benefits",
+        "trustSignals": ["Hitachi building", "corporate tagline"],
+        "engagementElements": ["50% and 1.5万円 in red"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "11",
+        "pageIndicator": "7/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "logo centered",
+        "headerType": "company name at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ミクシィ text",
+          "layout": "left-aligned large text"
+        },
+        "middleSection": {
+          "format": "large logo display",
+          "backgroundColor": "beige",
+          "items": ["MIXI"],
+          "visualElements": "black MIXI logo with pink and orange accent bars"
+        },
+        "bottomSection": {
+          "elements": "benefit description",
+          "ctaElements": "渋谷から直線3km以内に住めば毎月3万円もらえる"
+        }
+      },
+      "actualRole": "company benefit showcase",
+      "designElements": {
+        "colorScheme": ["beige", "black", "pink", "orange", "red"],
+        "typography": "consistent style",
+        "visualHierarchy": "company name → logo → benefits",
+        "trustSignals": ["MIXI official logo"],
+        "engagementElements": ["3万円 in red"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "11",
+        "pageIndicator": "8/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "building photo",
+        "headerType": "company name at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "京セラ text",
+          "layout": "left-aligned large text"
+        },
+        "middleSection": {
+          "format": "building exterior photo",
+          "backgroundColor": "building photo with blue sky",
+          "items": ["modern office building"],
+          "visualElements": "glass facade building"
+        },
+        "bottomSection": {
+          "elements": "benefit description",
+          "ctaElements": "会社の寮に住めば家賃4000円で生活できる"
+        }
+      },
+      "actualRole": "company benefit showcase",
+      "designElements": {
+        "colorScheme": ["beige", "red", "black", "white"],
+        "typography": "consistent style",
+        "visualHierarchy": "company name → building → benefits",
+        "trustSignals": ["corporate building"],
+        "engagementElements": ["4000円 in red", "！ exclamation"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "11",
+        "pageIndicator": "9/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color with image",
+        "backgroundDescription": "beige with water/ocean photo",
+        "overlayStructure": "logo on water background",
+        "headerType": "company name at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "YKK text",
+          "layout": "left-aligned large text"
+        },
+        "middleSection": {
+          "format": "logo on ocean background",
+          "backgroundColor": "blue water photo",
+          "items": ["YKK", "Little Parts. Big Difference."],
+          "visualElements": "white card with YKK logo over water"
+        },
+        "bottomSection": {
+          "elements": "benefit description",
+          "ctaElements": "家賃の7割を出してもらえる！"
+        }
+      },
+      "actualRole": "company benefit showcase",
+      "designElements": {
+        "colorScheme": ["beige", "blue", "red", "black", "white"],
+        "typography": "consistent style",
+        "visualHierarchy": "company name → logo/tagline → benefits",
+        "trustSignals": ["YKK logo with tagline"],
+        "engagementElements": ["7割, 上限5万円, 上限8万円 in red"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "11",
+        "pageIndicator": "10/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "beige background",
+        "overlayStructure": "speech bubble design",
+        "headerType": "none"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "speech bubble with main message",
+          "layout": "angular speech bubble shape"
+        },
+        "middleSection": {
+          "format": "checklist with checkmarks",
+          "backgroundColor": "beige",
+          "items": [
+            "平凡なエピソードでも上位5%に入るESの書き方",
+            "通過率100%の面接対策"
+          ],
+          "visualElements": "red checkmarks before each item"
+        },
+        "bottomSection": {
+          "elements": "emotional appeal message",
+          "ctaElements": "全て"無料"で教えます！"
+        }
+      },
+      "actualRole": "service offering and trust building",
+      "designElements": {
+        "colorScheme": ["beige", "red", "black"],
+        "typography": "sans-serif with quotes for emphasis",
+        "visualHierarchy": "main message → checklist → free offer",
+        "trustSignals": ["無料", "100%", "top 5%"],
+        "engagementElements": ["😭 emoji", "quotes around key words"]
+      },
+      "interactionElements": {
+        "checkboxes": "red checkmarks (decorative)",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page11": {
+      "pageInfo": {
+        "currentPage": "11",
+        "totalPages": "11",
+        "pageIndicator": "none visible"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "white background",
+        "overlayStructure": "text and profile preview",
+        "headerType": "none"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "main text about achievements",
+          "layout": "left-aligned paragraph"
+        },
+        "middleSection": {
+          "format": "Instagram profile preview",
+          "backgroundColor": "white",
+          "items": ["profile stats showing 717 posts, 5.5万 followers"],
+          "visualElements": "profile screenshot with URL circled in red"
+        },
+        "bottomSection": {
+          "elements": "CTA with URL instruction",
+          "ctaElements": "プロフィール欄のURLからお受け取りください！"
+        }
+      },
+      "actualRole": "final call-to-action with social proof",
+      "designElements": {
+        "colorScheme": ["white", "red", "black"],
+        "typography": "standard text with red highlights",
+        "visualHierarchy": "story → profile proof → action instruction",
+        "trustSignals": ["5.5万 followers", "actual profile screenshot"],
+        "engagementElements": ["1冊のテキストにまとめています！", "pointing finger icon"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "none",
+        "savePrompts": "URL highlighted with red circle"
+      }
+    }
+  }
+}

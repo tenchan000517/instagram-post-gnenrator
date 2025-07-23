@@ -1,0 +1,232 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 6,
+      "pageIndicator": "1/6, 2/6, 3/6, 4/6, 5/6, 6/6"
+    },
+    "page1": {
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "ピンク系グラデーション背景",
+        "overlayStructure": "中央配置コンテンツ",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ページ番号 1/6（右上角丸背景）",
+          "layout": "右上固定"
+        },
+        "middleSection": {
+          "format": "タイトル + イラスト中央配置",
+          "items": ["「今のままじゃダメかも」と", "感じたときに", "考えること"],
+          "visualElements": "泣いている人物イラスト（青色、ピンク帽子、涙）"
+        },
+        "bottomSection": {
+          "elements": "NEMU ブランドマーク（右下）、70表示",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "emotional-problem-introduction",
+      "designElements": {
+        "colorScheme": ["ピンク", "青", "白", "黒"],
+        "typography": "太めの日本語フォント、大きめサイズ",
+        "visualHierarchy": "タイトル→イラスト→ブランド",
+        "trustSignals": ["NEMU ブランドマーク"],
+        "engagementElements": ["感情的なイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし", 
+        "swipeIndicators": "Instagram標準のドット表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "ピンク～ホワイト～ブルーのグラデーション",
+        "overlayStructure": "上部にSTEPサイン、中央にコンテンツ、下部に質問カード",
+        "headerType": "STEP01サインとイラスト"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "STEP01 矢印サイン（ピンク）、考える人物イラスト、Let's think!",
+          "layout": "左にサイン、右にイラストとキャッチ"
+        },
+        "middleSection": {
+          "format": "タイトル + 説明文",
+          "backgroundColor": "透明",
+          "items": ["過去を振り返る", "Look back", "まずは自分自身を理解することから。今までの人生の中で大切にしてきた軸を洗い出してみよう。"],
+          "visualElements": "ピンク色のタイトル背景"
+        },
+        "bottomSection": {
+          "elements": "Question カード（白背景、角丸）",
+          "ctaElements": "4つの質問項目（ピンク星マーク付き）"
+        }
+      },
+      "actualRole": "step1-self-analysis-with-questions",
+      "designElements": {
+        "colorScheme": ["ピンク", "白", "青", "グレー"],
+        "typography": "日本語＋英語併記、階層的サイズ",
+        "visualHierarchy": "STEP表示→タイトル→説明→質問",
+        "trustSignals": ["段階的プロセス表示"],
+        "engagementElements": ["質問形式", "キャラクターイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "layoutStructure": {
+        "backgroundType": "同じグラデーション",
+        "backgroundDescription": "page2と同じピンク～ホワイト～ブルー",
+        "overlayStructure": "STEP02レイアウト",
+        "headerType": "STEP02サイン"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "STEP02 矢印サイン、読書する人物イラスト（コーヒーカップ付き）、Let's think!",
+          "layout": "左サイン、右イラスト"
+        },
+        "middleSection": {
+          "format": "タイトル + 説明文",
+          "items": ["今の自分を知る", "Know yourself", "価値観と現実にギャップはありますか？ギャップの中に「不安の原因」があるかも。"],
+          "visualElements": "ピンク背景のタイトル"
+        },
+        "bottomSection": {
+          "elements": "Question カード",
+          "ctaElements": "3つの質問項目（ピンク星マーク）"
+        }
+      },
+      "actualRole": "step2-current-state-analysis",
+      "designElements": {
+        "colorScheme": "page2と同じ配色",
+        "typography": "同じフォント体系",
+        "visualHierarchy": "同じ構造",
+        "trustSignals": ["プロセスの継続性"],
+        "engagementElements": ["学習イメージのイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "layoutStructure": {
+        "backgroundType": "同じグラデーション",
+        "backgroundDescription": "一貫したグラデーション背景",
+        "overlayStructure": "STEP03レイアウト",
+        "headerType": "STEP03サイン"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "STEP03サイン、喜ぶ人物イラスト（両手上げ）、Let's think!",
+          "layout": "一貫したレイアウト"
+        },
+        "middleSection": {
+          "format": "タイトル + 説明文",
+          "items": ["理想の未来を想像する", "Imagine the future", "ワクワクする未来を描くことが、行動を変えるきっかけになるかも？"],
+          "visualElements": "ピンク背景タイトル"
+        },
+        "bottomSection": {
+          "elements": "Question カード",
+          "ctaElements": "3つの質問項目"
+        }
+      },
+      "actualRole": "step3-future-visualization",
+      "designElements": {
+        "colorScheme": "統一された配色",
+        "typography": "一貫したフォント",
+        "visualHierarchy": "同じ構造維持",
+        "trustSignals": ["プロセス完成度"],
+        "engagementElements": ["ポジティブなイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "layoutStructure": {
+        "backgroundType": "同じグラデーション",
+        "backgroundDescription": "一貫した背景",
+        "overlayStructure": "NEXTサインとまとめコンテンツ",
+        "headerType": "NEXTサイン"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "NEXT矢印サイン（ピンク）、歩く人物イラスト、Enjoy your life!",
+          "layout": "左サイン、右イラスト"
+        },
+        "middleSection": {
+          "format": "タイトル + 長めの説明文",
+          "items": ["最初の一歩を踏み出そう", "Take the first step", "大事なのは今を否定することではなく、今後自分がどうなっていきたいか見つめ直すこと。", "自分自身への問いかけを続けることで、叶えたい理想や目標が見えてきます。"],
+          "visualElements": "ピンクタイトル背景"
+        },
+        "bottomSection": {
+          "elements": "行動促進メッセージ",
+          "ctaElements": "自分自身に向き合いながら、なりたい姿に一歩ずつ近づいていこう！（ピンク色強調）"
+        }
+      },
+      "actualRole": "action-encouragement-summary",
+      "designElements": {
+        "colorScheme": "ピンク強調",
+        "typography": "強調されたCTA文字",
+        "visualHierarchy": "タイトル→説明→CTA",
+        "trustSignals": ["プロセス完了感"],
+        "engagementElements": ["行動的なイラスト", "色による強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "標準",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "layoutStructure": {
+        "backgroundType": "白背景",
+        "backgroundDescription": "明るい白ベース",
+        "overlayStructure": "上部テキスト + 中央スマホ画面 + 右側チェックリスト",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "適職診断紹介文、4つの青いボタン（適・職・診・断）",
+          "layout": "中央配置"
+        },
+        "middleSection": {
+          "format": "ツール紹介 + 実機画面",
+          "backgroundColor": "白",
+          "items": ["スマートフォン実機画面（プロフィール表示）", "ハイライトボタンにピンク矢印"],
+          "visualElements": "実際のInstagramプロフィール画面"
+        },
+        "bottomSection": {
+          "elements": "チェックリスト（右側）、人物イラスト（下部）",
+          "ctaElements": "当てはまった方はハイライトへ！（囲み文字）"
+        }
+      },
+      "actualRole": "tool-promotion-with-checklist",
+      "designElements": {
+        "colorScheme": ["白", "青", "ピンク", "黒"],
+        "typography": "すっきりとした日本語フォント",
+        "visualHierarchy": "タイトル→実機画面→チェックリスト→CTA",
+        "trustSignals": ["実機画面表示", "チェックマーク"],
+        "engagementElements": ["チェックリスト", "実機画面", "矢印による誘導"]
+      },
+      "interactionElements": {
+        "checkboxes": "4つのチェックマーク付きリスト",
+        "buttons": "青い適職診断ボタン（装飾的）",
+        "swipeIndicators": "最終ページ",
+        "savePrompts": "ハイライトへの誘導"
+      }
+    }
+  }
+}

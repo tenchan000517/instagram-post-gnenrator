@@ -1,0 +1,57 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 8,
+      "pageIndicator": "x/8形式で表示"
+    },
+    "layoutStructure": {
+      "backgroundType": "単色背景",
+      "backgroundDescription": "全ページベージュ背景（7ページ目のみオレンジヘッダー付き）",
+      "overlayStructure": "吹き出し、カード、ボックスの重ね配置",
+      "headerType": "7ページ目にオレンジ色の『質問と回答まとめ』ヘッダー"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページインジケーター、タイトル、面接官写真（一部ページ）",
+        "layout": "右上にページ数、中央にメインコンテンツ"
+      },
+      "middleSection": {
+        "format": "質問＋ポイント＋模範回答の3段構成",
+        "backgroundColor": "ベージュボックス内に回答例",
+        "items": [
+          "質問文（吹き出し形式）",
+          "【ポイント】（赤字ヘッダー）",
+          "チェックボックス項目",
+          "【おすすめ回答】（赤字ヘッダー）",
+          "模範回答例文（ベージュボックス内）"
+        ],
+        "visualElements": "面接官写真、チェックマーク、カードデザイン"
+      },
+      "bottomSection": {
+        "elements": "Instagram UI、いいね数（44）",
+        "ctaElements": "最終ページに無料プレゼント資料CTA"
+      }
+    },
+    "actualRole": "interview-question-response-guide-with-model-answers",
+    "designElements": {
+      "colorScheme": ["ベージュ", "オレンジ", "赤", "黒", "白"],
+      "typography": "黒文字（本文）、赤文字（ポイント・ヘッダー）、太字（質問）",
+      "visualHierarchy": "質問→ポイント→模範回答→まとめ→CTA",
+      "trustSignals": ["面接官の写真使用", "具体的模範回答提供", "実践的ポイント整理"],
+      "engagementElements": ["チェックボックス形式", "保存推奨指示", "視覚的な整理"]
+    },
+    "interactionElements": {
+      "checkboxes": "各質問ページで3つのポイントをチェック形式で表示",
+      "buttons": "なし",
+      "swipeIndicators": "ページドット表示",
+      "savePrompts": "『保存して面接前に見返して！』という明確な指示"
+    },
+    "specificObservations": {
+      "questionProgression": "4つの主要質問を段階的に提示（挫折経験→辛い経験→人間関係→ストレス対策）",
+      "answerStructure": "各質問に対して具体的なポイント3つ＋模範回答例の統一フォーマット",
+      "visualConsistency": "3-6ページで同じ面接官写真を使用し、統一感を演出",
+      "practicalApproach": "○○部分を自分の経験に置き換え可能なテンプレート形式",
+      "engagementStrategy": "保存推奨→まとめページ→無料資料CTAの段階的誘導"
+    }
+  }
+}

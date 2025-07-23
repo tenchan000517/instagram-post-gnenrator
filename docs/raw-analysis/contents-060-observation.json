@@ -1,0 +1,327 @@
+{
+  "contentId": "contents-060",
+  "analysisDate": "2025-07-23",
+  "totalSlides": 10,
+  "detailedObservations": {
+    "slide1": {
+      "type": "cover",
+      "bgColor": "#E91E63",
+      "titleLayout": "circular_arrangement",
+      "mainTitle": "仕事ができない人考え方21選",
+      "titlePlacement": {
+        "left": "考え方21選",
+        "center": "できない人",
+        "right": "仕事が"
+      },
+      "backgroundPattern": {
+        "type": "brain_silhouette",
+        "color": "light_pink",
+        "opacity": "low",
+        "position": "center"
+      },
+      "visualStyle": "modern_bold"
+    },
+    "slide2": {
+      "type": "list_items",
+      "bgColor": "#FFFFFF", 
+      "decorativeElements": [
+        {
+          "type": "water_drops",
+          "emoji": "💧",
+          "positions": ["top-left", "bottom-right"]
+        }
+      ],
+      "listItems": [
+        {
+          "number": 1,
+          "text": "仕事に興味がない"
+        },
+        {
+          "number": 2,
+          "text": "失敗したら怒られる"
+        },
+        {
+          "number": 3,
+          "text": "自分には無理である"
+        }
+      ],
+      "textAlignment": "left",
+      "itemSpacing": "large"
+    },
+    "slide3": {
+      "type": "list_items",
+      "bgColor": "#FFFFFF",
+      "decorativeElements": [
+        {
+          "type": "water_drops",
+          "emoji": "💧",
+          "positions": ["top-left", "bottom-right"]
+        }
+      ],
+      "listItems": [
+        {
+          "number": 4,
+          "text": "何もしない方がマシ"
+        },
+        {
+          "number": 5,
+          "text": "計画立てるのが面倒だ"
+        },
+        {
+          "number": 6,
+          "text": "時間なんて気にしない"
+        }
+      ],
+      "textAlignment": "left",
+      "itemSpacing": "large"
+    },
+    "slide4": {
+      "type": "list_items",
+      "bgColor": "#FFFFFF",
+      "decorativeElements": [
+        {
+          "type": "water_drops",
+          "emoji": "💧",
+          "positions": ["top-left", "bottom-right"]
+        }
+      ],
+      "listItems": [
+        {
+          "number": 7,
+          "text": "自分には全く関係ない"
+        },
+        {
+          "number": 8,
+          "text": "自分には向いていない"
+        },
+        {
+          "number": 9,
+          "text": "相談しても無駄だろう"
+        }
+      ],
+      "textAlignment": "left",
+      "itemSpacing": "large"
+    },
+    "slide5": {
+      "type": "list_items",
+      "bgColor": "#FFFFFF",
+      "decorativeElements": [
+        {
+          "type": "water_drops",
+          "emoji": "💧",
+          "positions": ["top-left", "bottom-right"]
+        }
+      ],
+      "listItems": [
+        {
+          "number": 10,
+          "text": "その時の気分で動こう"
+        },
+        {
+          "number": 11,
+          "text": "勉強しても意味がない"
+        },
+        {
+          "number": 12,
+          "text": "ミスを隠して逃げよう"
+        }
+      ],
+      "textAlignment": "left",
+      "itemSpacing": "large"
+    },
+    "slide6": {
+      "type": "list_items",
+      "bgColor": "#FFFFFF",
+      "decorativeElements": [
+        {
+          "type": "water_drops",
+          "emoji": "💧",
+          "positions": ["top-left", "bottom-right"]
+        }
+      ],
+      "listItems": [
+        {
+          "number": 13,
+          "text": "面倒な仕事は避けたい"
+        },
+        {
+          "number": 14,
+          "text": "完璧にしないといけない"
+        },
+        {
+          "number": 15,
+          "text": "前例がないからやらない"
+        }
+      ],
+      "textAlignment": "left",
+      "itemSpacing": "large"
+    },
+    "slide7": {
+      "type": "list_items",
+      "bgColor": "#FFFFFF",
+      "decorativeElements": [
+        {
+          "type": "water_drops",
+          "emoji": "💧",
+          "positions": ["top-left", "bottom-right"]
+        }
+      ],
+      "listItems": [
+        {
+          "number": 16,
+          "text": "どうせ周りがやるだろう"
+        },
+        {
+          "number": 17,
+          "text": "人のせいにして逃げたい"
+        },
+        {
+          "number": 18,
+          "text": "忙しいから何もしたくない"
+        }
+      ],
+      "textAlignment": "left",
+      "itemSpacing": "large"
+    },
+    "slide8": {
+      "type": "list_items",
+      "bgColor": "#FFFFFF",
+      "decorativeElements": [
+        {
+          "type": "water_drops",
+          "emoji": "💧",
+          "positions": ["top-left", "bottom-right"]
+        }
+      ],
+      "listItems": [
+        {
+          "number": 19,
+          "text": "言われた事だけやればいい"
+        },
+        {
+          "number": 20,
+          "text": "人の意見はあてにならない"
+        },
+        {
+          "number": 21,
+          "text": "注意されたらイラっとする"
+        }
+      ],
+      "textAlignment": "left",
+      "itemSpacing": "large"
+    },
+    "slide9": {
+      "type": "summary",
+      "bgColor": "#FFFFFF",
+      "title": {
+        "text": "まとめ💧",
+        "position": "top-left",
+        "size": "large"
+      },
+      "contentLayout": "two_column",
+      "leftColumn": [
+        "1.仕事に興味がない",
+        "2.失敗したら怒られる",
+        "3.自分には無理である",
+        "4.何もしない方がマシ",
+        "5.計画立てるのが面倒だ",
+        "6.時間なんて気にしない",
+        "7.自分には全く関係ない",
+        "8.自分には向いていない",
+        "9.相談しても無駄だろう",
+        "10.その時の気分で動こう"
+      ],
+      "rightColumn": [
+        "11.勉強しても意味がない",
+        "12.ミスを隠して逃げよう",
+        "13.面倒な仕事は避けたい",
+        "14.完璧にしないといけない",
+        "15.前例がないからやらない",
+        "16.どうせ周りがやるだろう",
+        "17.人のせいにして逃げたい",
+        "18.忙しいから何もしたくない",
+        "19.言われた事だけやればいい",
+        "20.人の意見はあてにならない",
+        "21.注意されたらイラっとする"
+      ],
+      "ctaElement": {
+        "text": "保存はこちら",
+        "icon": "bookmark",
+        "position": "bottom-right"
+      },
+      "mascot": {
+        "type": "maneki_neko",
+        "description": "白い招き猫、赤い首輪、小判を持つ",
+        "position": "bottom-left"
+      }
+    },
+    "slide10": {
+      "type": "cta_and_preview",
+      "topSection": {
+        "bgColor": "#E8BBE2",
+        "thankYouMessage": "最後までご覧いただきありがとうございました！！",
+        "textColor": "#333333"
+      },
+      "middleSection": {
+        "bgColor": "#C0C0C0",
+        "previewContent": "次回は、仕事ができる人考え方21選",
+        "highlightColor": "#E91E63",
+        "profileInfo": "daichan_mental.care フォロー"
+      },
+      "bottomSection": {
+        "bgColor": "#333333",
+        "hashtags": [
+          "#仕事", "#仕事ができない", "#仕事の悩み", "#考え方", 
+          "#考え方を変える", "#自己成長", "#自己啓発", "#メンタル", 
+          "#パフォーマンス", "#行動", "#行動を変える"
+        ],
+        "encouragement": "お楽しみに！",
+        "ctaMessage": "気に入りはこちらから→",
+        "bookmarkIcon": "保存アイコン",
+        "closingMessage": "それではまた次回お会いしましょう(^^)/",
+        "date": "5月8日"
+      }
+    }
+  },
+  "designPatterns": {
+    "colorUsage": {
+      "primary": "#E91E63 (ピンク系、カバーとアクセントに使用)",
+      "secondary": "#FFFFFF (白、メインの背景色)",
+      "accent": "#1976D2 (青系、水滴アクセント)",
+      "neutral": "#C0C0C0 (グレー、セクション区切り)",
+      "dark": "#333333 (黒系、最終スライドとテキスト)"
+    },
+    "typographyPatterns": {
+      "titles": "太字、大サイズ、中央配置（カバー）、左寄せ（まとめ）",
+      "listItems": "通常の太さ、左寄せ、番号付き",
+      "hashtags": "小サイズ、多数列挙",
+      "messages": "中サイズ、感謝と予告メッセージ"
+    },
+    "layoutElements": {
+      "waterDrops": "各リストスライドの装飾として使用（💧）",
+      "numbering": "連続番号（1-21）での項目管理",
+      "twoColumn": "まとめスライドでの効率的な情報配置",
+      "sectionDivision": "最終スライドでの色分けセクション"
+    },
+    "illustrationStyle": {
+      "brainSilhouette": "抽象的、薄いピンク、背景パターン",
+      "manekiNeko": "かわいらしい、伝統的デザイン、福を呼ぶ象徴",
+      "minimalist": "シンプル、機能的、情報重視"
+    }
+  },
+  "contentStructure": {
+    "narrative": "問題認識→項目列挙→包括的まとめ→次回予告",
+    "information": "体系的分類、21項目の完全網羅",
+    "engagement": "保存促進→継続視聴促進→関連コンテンツ誘導",
+    "pedagogical": "自己診断ツールとしての活用可能性"
+  },
+  "uniqueFeatures": [
+    "21項目の包括的リスト形式",
+    "水滴絵文字による一貫した装飾",
+    "2列まとめでの全項目表示",
+    "続編コンテンツの予告",
+    "多数のハッシュタグによるSEO対策",
+    "招き猫マスコットによる親しみやすさ",
+    "保存促進の明確なCTA"
+  ]
+}

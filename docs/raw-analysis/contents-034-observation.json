@@ -1,0 +1,579 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "10",
+        "pageIndicator": "1/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "ピンク色背景",
+        "overlayStructure": "中央に白色の角丸カード配置",
+        "headerType": "なし（通知バー表示のみ）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ページインジケーター「1/10」",
+          "layout": "右上角配置"
+        },
+        "middleSection": {
+          "format": "中央カード形式",
+          "backgroundColor": "白色",
+          "items": [
+            "27卒のES添削募集中",
+            "インターン（赤背景ボックス）",
+            "合格獲得",
+            "7月 TODO一覧表（大きな赤文字「7」と「TODO一覧表」の組み合わせ）"
+          ],
+          "visualElements": "赤色アクセントボックス、大きな数字「7」の強調表示"
+        },
+        "bottomSection": {
+          "elements": "ユーザー情報「osaboly_jinji_27」とフォローボタン",
+          "ctaElements": "フォローボタン"
+        }
+      },
+      "actualRole": "コンテンツタイトル表示・アカウント認知",
+      "designElements": {
+        "colorScheme": ["ピンク", "白", "赤", "黒"],
+        "typography": "太字メイン、階層的サイズ設定",
+        "visualHierarchy": "タイトル（最大）→サブタイトル→ページ番号→アカウント情報",
+        "trustSignals": ["専門アカウント名表示"],
+        "engagementElements": ["インパクトのあるタイトル", "フォローボタン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "フォローボタン",
+        "swipeIndicators": "下部ドット表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "10", 
+        "pageIndicator": "2/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いピンク色背景",
+        "overlayStructure": "赤いヘッダーバー＋本文エリア",
+        "headerType": "赤色バー「目次」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "赤いヘッダーバー「目次」、ページ番号「2/10」",
+          "layout": "横幅フル、右上にページ番号"
+        },
+        "middleSection": {
+          "format": "詳細なSTEP一覧＋説明文",
+          "backgroundColor": "薄いピンク",
+          "items": [
+            "STEP1 エントリーシート（エピソード中心）",
+            "STEP2 自己分析（幼少期→小学校→中学校時代）",
+            "STEP3 自己分析（高校→大学時代）",
+            "STEP4 ガクチカの深掘り",
+            "STEP5 パーソナル系質問",
+            "STEP6 エントリーシート（志望動機中心）",
+            "STEP7 志望動機の深掘り",
+            "STEP8 大手企業を志望する27卒へ",
+            "26卒の大手内定サポートをもとに、27卒が大手に内定するための\"TODOリスト120問\"を完成させることができた！",
+            "万全な状態で夏インターンに臨みたいのであれば、普通の大手を志望する人は「STEP3」まで、総合商社やデベロッパーなどの難関企業志望は「STEP5」、夏インターンの内定を出す企業を志望する人は「STEP7」まで",
+            "どんなに遅くても8/31にまでに「STEP3」まで終わらせないと、大手内定の取り返しがつかない可能性が高いので注意が必要！"
+          ],
+          "visualElements": "人物イラスト（右下）、赤文字での重要部分強調"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ「メモを取るのが面倒...保存なら1タップで完了！」",
+          "ctaElements": "保存アクション誘導"
+        }
+      },
+      "actualRole": "全体構成の説明・緊急性の演出",
+      "designElements": {
+        "colorScheme": ["薄いピンク", "赤", "黒", "白"],
+        "typography": "階層的テキスト、重要部分の赤文字強調",
+        "visualHierarchy": "ヘッダー→STEP一覧→説明文→注意事項→保存誘導",
+        "trustSignals": ["具体的数値（120問）", "実績言及（26卒サポート）"],
+        "engagementElements": ["期限設定による緊急性", "保存誘導"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "明示的な保存誘導メッセージ"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "10",
+        "pageIndicator": "3/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いピンク色背景",
+        "overlayStructure": "赤いヘッダー＋中央図解＋説明文",
+        "headerType": "赤色バー「PDCAサイクル」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "赤いヘッダー「PDCAサイクル」、ページ番号「3/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "4色分割の円形図解＋説明文",
+          "backgroundColor": "薄いピンク",
+          "items": [
+            "円形図解（中央「PDCAサイクル」、4色分割：緑PLAN、オレンジDO、紫CHECK、黄ACTION）",
+            "01 計画→02 行動→03 評価→04 改善（矢印で循環表示）",
+            "Job Hunting is very simple.（就活はとても簡単である！）",
+            "上記のようにPDCAサイクルを回し続ければ自然と就活力は上がる",
+            "P：受ける企業のES作成の予定を決定する",
+            "D：[この投稿のリスト]やインターンESの回答作成する",
+            "C：おせぼり人事に添削してもらう",
+            "A：添削アドバイスを元に回答を修正する",
+            "これで大手企業から内定を獲得できる。よって、次ページのTodoリストの回答作成は3周程度したい"
+          ],
+          "visualElements": "4色分割円グラフ、循環矢印、英語メッセージの強調"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ",
+          "ctaElements": "保存誘導"
+        }
+      },
+      "actualRole": "コンセプト説明・理論的根拠の提示",
+      "designElements": {
+        "colorScheme": ["薄いピンク", "赤", "緑", "オレンジ", "紫", "黄", "黒"],
+        "typography": "英語メッセージの強調、階層的テキスト配置",
+        "visualHierarchy": "ヘッダー→図解→英語メッセージ→説明文→具体例",
+        "trustSignals": ["PDCAサイクルという確立された手法の活用"],
+        "engagementElements": ["視覚的な図解", "シンプルさの強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし", 
+        "swipeIndicators": "あり",
+        "savePrompts": "保存誘導メッセージ"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "10",
+        "pageIndicator": "4/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いピンク色背景",
+        "overlayStructure": "赤いヘッダー＋目標一覧",
+        "headerType": "赤色バー「大手志望者の目標」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "赤いヘッダー「大手志望者の目標」、ページ番号「4/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "2つの分類での目標一覧",
+          "backgroundColor": "薄いピンク",
+          "items": [
+            "定量的な行動目標（赤ラベル）",
+            "エントリーシート提出（大手企業のみ）→[〜8月]20回",
+            "動画面接→[〜8月]5回",
+            "グループディスカッション経験→[〜8月]10回", 
+            "WEBテスト→[〜8月]各テスト5回",
+            "面接経験→[〜8月]10回（合否のかかった面接のみ）",
+            "定量的な成果目標（赤ラベル）",
+            "エントリーシート合格率 直近5社80%",
+            "グループディスカッション通過率 直近5社80%",
+            "WEBテスト通過率 各テスト(SPI,玉手箱,TG-WEB) 1回通過",
+            "面接通過率 1回通過"
+          ],
+          "visualElements": "赤色ラベルでの分類表示、具体的数値の明示"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ",  
+          "ctaElements": "保存誘導"
+        }
+      },
+      "actualRole": "具体的目標設定・行動指針の提示",
+      "designElements": {
+        "colorScheme": ["薄いピンク", "赤", "黒"],
+        "typography": "階層的リスト、数値の強調表示",
+        "visualHierarchy": "ヘッダー→分類ラベル→目標項目→数値",
+        "trustSignals": ["具体的数値目標", "明確な期限設定"],
+        "engagementElements": ["達成可能な数値目標", "明確な分類"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり", 
+        "savePrompts": "保存誘導メッセージ"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "10",
+        "pageIndicator": "5/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いピンク色背景",
+        "overlayStructure": "赤いヘッダー＋項目一覧＋ルール説明",
+        "headerType": "赤色バー「STEP1：エントリーシート完成」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "赤いヘッダー「STEP1：エントリーシート完成」、ページ番号「5/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "ES項目一覧＋ルール説明",
+          "backgroundColor": "薄いピンク",
+          "items": [
+            "自己紹介(300) ※話し言葉で",
+            "ガクチカ(400)",
+            "自己PR&サブガクチカ(各400)",
+            "学業で頑張ったこと(400)",
+            "挫折経験(400)",
+            "周囲を巻き込んだ経験(400)",
+            "人生で一番挑戦したこと(300)",
+            "弱みとそれを克服した経験(200)",
+            "働く上で大切にしたい価値観(200)",
+            "趣味/特技(100)",
+            "ルール（赤ラベル）",
+            "①ガクチカ、自己PR&サブガクチカ、学業で頑張ったことは、エピソードジャンルを絶対に被らせないこと",
+            "②選択するエピソードは、高校以降のエピソードにすること",
+            "③同じエピソードジャンルは3つ以上使用しないこと",
+            "④同じエピソードジャンルでも、追った目標は被らせないこと 例えば、ガクチカはチーム目標で、挫折経験は個人目標など"
+          ],
+          "visualElements": "文字数の括弧表示、赤ラベルでのルール分類"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ",
+          "ctaElements": "保存誘導"
+        }
+      },
+      "actualRole": "具体的作業内容の詳細・実行ルールの説明",
+      "designElements": {
+        "colorScheme": ["薄いピンク", "赤", "黒"],
+        "typography": "項目名＋文字数表示、番号付きルール",
+        "visualHierarchy": "ヘッダー→ES項目一覧→ルール説明",
+        "trustSignals": ["具体的文字数指定", "詳細なルール設定"],
+        "engagementElements": ["明確な作業リスト", "実践的ルール"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "保存誘導メッセージ"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "10",
+        "pageIndicator": "6/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いピンク色背景",
+        "overlayStructure": "赤いヘッダー＋質問項目の長いリスト",
+        "headerType": "赤色バー「STEP2：自己分析①完成」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "赤いヘッダー「STEP2：自己分析①完成」、ページ番号「6/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "箇条書きの質問項目リスト",
+          "backgroundColor": "薄いピンク",
+          "items": [
+            "小さいころはどんな性格の子供だったか？",
+            "両親の教育方針は？",
+            "親からはどんな性格だと言われていたか？",
+            "小学校時代、友達はどんなタイプの人が多かった？",
+            "習い事は何をしてた？きっかけと習い事を続けられた理由は？",
+            "いちばん記憶に印象に残っている出来事は？",
+            "自分の幼少期（小学校時代）に点数をつけるとしたら？",
+            "幼少期から性格的に変わったことと、変わってないこと",
+            "小学校時代で形成された「モチベーションの源泉」を教えて",
+            "\"挑戦\"\"チームワーク\"\"創造\"が形成されたエピソードを教えて",
+            "中学校時代、友達はどんなタイプの人が多かった？",
+            "部活は何に所属した？その部に所属を決めたきっかけは？",
+            "挫折経験あった？それをどうやって乗り越えた？",
+            "中学校時代、一番頑張ったことを教えて",
+            "定期テストでの順位の推移とその要因を教えて",
+            "高校受験は成功だったと言える？",
+            "自分の中学時代に点数をつけるとしたら？",
+            "小学生の頃から性格は変わった？",
+            "得意科目と苦手科目それぞれ教えて。",
+            "あなたの\"強み\"が形成されたエピソードを教えて"
+          ],
+          "visualElements": "黒い丸の箇条書き、均等な行間隔"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ",
+          "ctaElements": "保存誘導"
+        }
+      },
+      "actualRole": "詳細な自己分析質問の提供",
+      "designElements": {
+        "colorScheme": ["薄いピンク", "赤", "黒"],
+        "typography": "統一された質問形式、読みやすい行間",
+        "visualHierarchy": "ヘッダー→質問リスト（時系列順）",
+        "trustSignals": ["網羅的な質問項目", "時系列での構成"],
+        "engagementElements": ["具体的質問", "段階的アプローチ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "保存誘導メッセージ"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "10",
+        "pageIndicator": "7/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いピンク色背景",
+        "overlayStructure": "赤いヘッダー＋質問項目の長いリスト",
+        "headerType": "赤色バー「STEP3：自己分析②完成」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "赤いヘッダー「STEP3：自己分析②完成」、ページ番号「7/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "箇条書きの質問項目リスト",
+          "backgroundColor": "薄いピンク",
+          "items": [
+            "入学した高校を決めた理由は？",
+            "部活は何に所属した？その部に所属を決めたきっかけは？",
+            "高校時代、友達はどんなタイプの人が多かった？",
+            "高校で新たに挑戦したエピソードある？きっかけは？",
+            "高校での挫折経験は？どうやって乗り越えたか？",
+            "高校時代、一番頑張ったこと教えて",
+            "大学受験は成功だったと言える？",
+            "小中学校から性格変わった？",
+            "自分の高校時代に点数をつけるとしたら？",
+            "あなたの「目標の原動力」が発見されたエピソードを教えて",
+            "その大学と学部を決めた理由をそれぞれ教えて",
+            "大学での所属コミュニティでの役割は？",
+            "大学一年生で最も頑張ったことは？",
+            "大学二年生で最も頑張ったことは？",
+            "大学三年生で最も頑張ったことは？",
+            "大学で新たに挑戦したエピソードある？きっかけは？",
+            "学生時代に後悔していることある？",
+            "大学時代、友達はどんなタイプの人が多かった？",
+            "高校から性格変わった？",
+            "自分の大学時代に点数をつけるとしたら？"
+          ],
+          "visualElements": "黒い丸の箇条書き、均等な行間隔"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ",
+          "ctaElements": "保存誘導"
+        }
+      },
+      "actualRole": "高校・大学時代の詳細な自己分析質問の提供",
+      "designElements": {
+        "colorScheme": ["薄いピンク", "赤", "黒"],
+        "typography": "統一された質問形式、読みやすい行間",
+        "visualHierarchy": "ヘッダー→質問リスト（時系列順：高校→大学）",
+        "trustSignals": ["網羅的な質問項目", "段階的な時系列構成"],
+        "engagementElements": ["具体的質問", "成長過程の振り返り"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "保存誘導メッセージ"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "10",
+        "pageIndicator": "8/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いピンク色背景",
+        "overlayStructure": "赤いヘッダー＋質問項目の長いリスト",
+        "headerType": "赤色バー「STEP4：面接対策」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "赤いヘッダー「STEP4：面接対策」、ページ番号「8/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "箇条書きの面接質問項目リスト",
+          "backgroundColor": "薄いピンク",
+          "items": [
+            "学生時代頑張ったことを教えて(1分間)",
+            "組織に所属した経験&所属した目的は達成できた？",
+            "その取り組みを続けられたモチベーション",
+            "組織の中でのあなたの役割は？",
+            "上記の役職(役割)は立候補？それとも他薦？その理由は？",
+            "取り組みでのチーム目標と個人目標は？",
+            "上記の目標を達成するための一番の問題は？",
+            "着手した問題の原因は何だった？",
+            "上記の原因はどのように突き止めた？",
+            "上記の原因をもとにどのような課題を設定したの？",
+            "実行した解決策すべてと実行した順番を教えて",
+            "解決策を実行する前後で、どのように周囲を巻き込んだ？",
+            "周囲を巻き込む際に、反対者は出た？",
+            "解決策を実行する際にうまくいかなかったことは？",
+            "取り組みの個人目標とチーム目標は達成できた？",
+            "あなたのおかげでチーム成果を出せた根拠を教えて",
+            "今回の問題が2度と起きないように行動したことある？",
+            "どうすればもっと良い成果を出せた？",
+            "取り組みで成長できたことと学んだことは？",
+            "取り組みで発揮された強みは、どうビジネスで活かせるのか？"
+          ],
+          "visualElements": "黒い丸の箇条書き、時間指定の括弧表示"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ",
+          "ctaElements": "保存誘導"
+        }
+      },
+      "actualRole": "面接での深掘り質問の準備・対策提供",
+      "designElements": {
+        "colorScheme": ["薄いピンク", "赤", "黒"],
+        "typography": "統一された質問形式、時間指定の明示",
+        "visualHierarchy": "ヘッダー→面接質問リスト（論理的な流れ）",
+        "trustSignals": ["実際の面接想定質問", "論理的な質問構成"],
+        "engagementElements": ["実践的な面接対策", "具体的時間指定"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "保存誘導メッセージ"  
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "10",
+        "pageIndicator": "9/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いピンク色背景",
+        "overlayStructure": "赤いヘッダー＋質問項目の長いリスト",
+        "headerType": "赤色バー「STEP5：面接対策」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "赤いヘッダー「STEP5：面接対策」、ページ番号「9/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "箇条書きの面接質問項目リスト",
+          "backgroundColor": "薄いピンク",
+          "items": [
+            "学生時代にc2番目に頑張ったこと(1分間)",
+            "自己PR(1分間)と、その強みが発揮された経験もう1つ教えて",
+            "所属したアルバイトの経験&所属した目的は達成できた？",
+            "所属したサークル・部活の経験&所属した目的は達成できた？",
+            "所属したゼミの経験&所属した目的は達成できた？",
+            "今研究していること/ゼミの内容と学論のテーマの予定(あれば)",
+            "志望している業界と専攻テーマが関係ないのはなぜ？",
+            "弱みと弱みを克服するためにどんなこと意識しているか教えて",
+            "今までで挫折した経験と、その挫折をどうやって克服したか？",
+            "今まででリーダーシップを発揮した経験",
+            "リーダーに必要な3つのことは？",
+            "人生における1番の「挑戦」は何か",
+            "あなたが成長する上で必要な3つの要素？",
+            "ストレスを感じる瞬間と発散方法",
+            "尊敬するタイプは？",
+            "苦手なタイプの特徴は？苦手な人とどのように接している？",
+            "人と意見が対立した時の対処法は？",
+            "周りから「どのような人」だと言われる？",
+            "自分を一言で表すと？",
+            "自分の人生のターニングポイント教えて"
+          ],
+          "visualElements": "黒い丸の箇条書き、時間指定の括弧表示"
+        },
+        "bottomSection": {
+          "elements": "保存促進メッセージ",
+          "ctaElements": "保存誘導"
+        }
+      },
+      "actualRole": "パーソナル・人物面の面接質問対策提供",
+      "designElements": {
+        "colorScheme": ["薄いピンク", "赤", "黒"],
+        "typography": "統一された質問形式、時間指定の明示",
+        "visualHierarchy": "ヘッダー→面接質問リスト（人物・性格重視）",
+        "trustSignals": ["実際の面接想定質問", "人物評価の重要要素"],
+        "engagementElements": ["パーソナルな自己理解促進", "具体的時間指定"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "あり",
+        "savePrompts": "保存誘導メッセージ"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": "10",
+        "totalPages": "10",
+        "pageIndicator": "10/10"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "緑系グラデーション背景",
+        "overlayStructure": "中央メインカード形式",
+        "headerType": "緑背景に白文字「\"今\"だけ無料で受け取れる」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "緑背景ヘッダー「\"今\"だけ無料で受け取れる」、ページ番号「10/10」",
+          "layout": "横幅フル配置"
+        },
+        "middleSection": {
+          "format": "LINE追加特典の詳細カード",
+          "backgroundColor": "緑系",
+          "items": [
+            "LINE追加特典（黄色アクセント文字＋ギフトアイコン）",
+            "本のアイコン＋「ESの書き方/面接対策 WEBテスト/GDなどの極意記録している有料級note」",
+            "書類アイコン＋「*期間限定* 無料かつ無限のES添削 ガクチカと自己PR完成の徹底」",
+            "NEWSアイコン＋「毎朝インターンの資料配布 当日から3日間の大手企業に特化した情報が手に入る！」",
+            "を完全無料でプレゼント"
+          ],
+          "visualElements": "緑色のアイコン、黄色・赤色の強調文字、プレゼントボックスアイコン"
+        },
+        "bottomSection": {
+          "elements": "「プロフURLから受け取ろう」緑色CTAボタン",
+          "ctaElements": "LINE追加促進の大きなボタン"
+        }
+      },
+      "actualRole": "LINE追加によるコンバージョン促進",  
+      "designElements": {
+        "colorScheme": ["緑", "黄", "赤", "白", "黒"],
+        "typography": "強調文字（黄・赤）、CTAボタンの大きな文字",
+        "visualHierarchy": "限定性強調→特典内容→CTAボタン",
+        "trustSignals": ["有料級note」「完全無料」の価値表現"],
+        "engagementElements": ["限定性（\"今\"だけ）", "無料特典", "大きなCTAボタン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "「プロフURLから受け取ろう」CTAボタン",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

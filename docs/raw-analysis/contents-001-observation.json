@@ -1,0 +1,430 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "9",
+        "pageIndicator": "1/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真",
+        "backgroundDescription": "女性と子供の写真（背景ぼかし効果）",
+        "overlayStructure": "タイトルテキストオーバーレイ",
+        "headerType": "Instagramインターフェース（時刻、バッテリー、検索アイコン等）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "Instagramインターフェース",
+          "layout": "システムUI標準配置"
+        },
+        "middleSection": {
+          "format": "テキストオーバーレイ",
+          "backgroundColor": "透明（背景画像が見える）",
+          "items": ["家庭・育児・キャリア！", "働く女性の不安", "あるある７選"],
+          "visualElements": "紫色の波線装飾、白文字"
+        },
+        "bottomSection": {
+          "elements": "Instagramインターフェース（アカウント情報、いいねボタン等）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトルカバーページ - コンテンツのテーマと対象読者を明示",
+      "designElements": {
+        "colorScheme": ["紫色", "白色"],
+        "typography": "白文字、太文字",
+        "visualHierarchy": "タイトル → 装飾要素 → 背景画像",
+        "trustSignals": ["なし"],
+        "engagementElements": ["インパクトのあるタイトル表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "9", 
+        "pageIndicator": "2/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真",
+        "backgroundDescription": "同じ女性と子供の写真（背景ぼかし）",
+        "overlayStructure": "白色半透明カード重ね",
+        "headerType": "カード内にコンテンツ配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "番号「01」（紫色）",
+          "layout": "カード上部中央配置"
+        },
+        "middleSection": {
+          "format": "テキストブロック",
+          "backgroundColor": "白色半透明",
+          "items": [
+            "「女性だから」と雑用を任される",
+            "「お茶出して」「ポスト見てきて」「お土産配って」「電話出て」",
+            "確かにそれも仕事のうち。頼まれたら断らないし、仕事の手を止めてやりますとも。",
+            "でも、それ、女性じゃないとダメですか？",
+            "（手が空いていそうな男性社員、そこにいますよ）"
+          ],
+          "visualElements": "水平線（区切り線）、紫色タイトル文字"
+        },
+        "bottomSection": {
+          "elements": "Swipeアイコン",
+          "ctaElements": "「Swipe」テキストと矢印アイコン"
+        }
+      },
+      "actualRole": "問題提起1 - ジェンダーによる業務分担の不平等を具体例で提示",
+      "designElements": {
+        "colorScheme": ["白色", "紫色", "黒色（テキスト）"],
+        "typography": "紫色見出し、黒色本文、丸括弧でのつぶやき表現",
+        "visualHierarchy": "番号 → タイトル → 具体例 → 心の声",
+        "trustSignals": ["具体的な職場シーン"],
+        "engagementElements": ["共感を呼ぶ具体例", "心の声（括弧内表現）"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし", 
+        "swipeIndicators": "Swipe誘導アイコン",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "9",
+        "pageIndicator": "3/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真",
+        "backgroundDescription": "同じ背景画像継続使用",
+        "overlayStructure": "白色半透明カード",
+        "headerType": "番号表示「02」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "番号「02」（紫色）",
+          "layout": "カード上部中央"
+        },
+        "middleSection": {
+          "format": "テキスト + イラスト",
+          "backgroundColor": "白色半透明",
+          "items": [
+            "体の不調に耐えながらなんとか仕事をこなす",
+            "ああ、よりによって仕事が忙しい日に生理がきた。お腹が痛い。頭も痛い。でも仕事が溜まっている…",
+            "女性の体、難しすぎる"
+          ],
+          "visualElements": "女性イラスト（腕を抱えて体調不良を表現）、紫色強調文字"
+        },
+        "bottomSection": {
+          "elements": "共感メッセージ + Swipeアイコン",
+          "ctaElements": "「私だって、別に好きで体調を崩しているわけじゃない。」"
+        }
+      },
+      "actualRole": "問題提起2 - 女性特有の体調管理と仕事の両立困難を表現",
+      "designElements": {
+        "colorScheme": ["白色", "紫色", "ピンク系（イラスト）"],
+        "typography": "紫色見出し、通常文字、紫色強調",
+        "visualHierarchy": "番号 → タイトル → 状況説明 → イラスト → 共感メッセージ",
+        "trustSignals": ["リアルな体験談"],
+        "engagementElements": ["共感イラスト", "デリケートな話題への理解"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "Swipe誘導継続",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4", 
+        "totalPages": "9",
+        "pageIndicator": "4/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真",
+        "backgroundDescription": "同背景継続",
+        "overlayStructure": "白色半透明カード",
+        "headerType": "番号「03」配置"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "番号「03」（紫色）",
+          "layout": "カード上部中央"
+        },
+        "middleSection": {
+          "format": "テキスト + イラスト配置",
+          "backgroundColor": "白色半透明",
+          "items": [
+            "結婚や出産も考えたいけどキャリアも諦めたくない",
+            "いつかは結婚するかもしれないし、子どもを持つことも考えたい。仕事はどうする？時短にする？",
+            "でも、積み上げてきたキャリアを諦めるなんてイヤだ"
+          ],
+          "visualElements": "悩む女性イラスト（手を頬に当てるポーズ）、紫色強調文字"
+        },
+        "bottomSection": {
+          "elements": "共感メッセージ",
+          "ctaElements": "「どこにも答えがなくて、進む先がわからない。」"
+        }
+      },
+      "actualRole": "問題提起3 - ライフイベントとキャリアの両立ジレンマを表現",
+      "designElements": {
+        "colorScheme": ["白色", "紫色", "肌色系（イラスト）"],
+        "typography": "紫色見出し、通常テキスト、紫色強調",
+        "visualHierarchy": "番号 → タイトル → 悩みの内容 → イラスト → 心情",
+        "trustSignals": ["現実的な悩み内容"],
+        "engagementElements": ["悩みイラスト", "ジレンマの共感表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "継続",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "9", 
+        "pageIndicator": "5/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真",
+        "backgroundDescription": "同背景継続",
+        "overlayStructure": "白色半透明カード",
+        "headerType": "番号「04」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "番号「04」（紫色）",
+          "layout": "上部中央"
+        },
+        "middleSection": {
+          "format": "テキスト + イラスト",
+          "backgroundColor": "白色半透明",
+          "items": [
+            "会社や世間からの結婚・出産コールがしんどい",
+            "「結婚しないの？」「そろそろ子どもは？」「恋人いるんだっけ？」",
+            "それ、あなたに関係ありますか？"
+          ],
+          "visualElements": "困った表情の女性イラスト（頭に手を当てるポーズ）、紫色質問文字"
+        },
+        "bottomSection": {
+          "elements": "権利主張メッセージ",
+          "ctaElements": "「結婚するかも、子どもを持つかも、決める権利は私にあります。」"
+        }
+      },
+      "actualRole": "問題提起4 - 周囲からのプレッシャーに対する反発と自己主張",
+      "designElements": {
+        "colorScheme": ["白色", "紫色", "ピンク系（イラスト）"],
+        "typography": "紫色見出し、引用符による具体的セリフ、紫色反論文",
+        "visualHierarchy": "番号 → タイトル → 具体的プレッシャー → 反論 → イラスト → 権利主張",
+        "trustSignals": ["具体的な周囲の発言"],
+        "engagementElements": ["困った表情イラスト", "自己主張メッセージ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "継続",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "9",
+        "pageIndicator": "6/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真",
+        "backgroundDescription": "同背景継続",
+        "overlayStructure": "白色半透明カード",
+        "headerType": "番号「05」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "番号「05」（紫色）",
+          "layout": "上部中央"
+        },
+        "middleSection": {
+          "format": "テキスト + イラスト",
+          "backgroundColor": "白色半透明", 
+          "items": [
+            "仕事と育児の両立が難しい",
+            "「え？熱が出ちゃいましたか？」保育園からの連絡で会社から飛び出す日々。",
+            "子どもを産んで、実感した。仕事と育児の両立、大変すぎる。"
+          ],
+          "visualElements": "疲れた表情の女性イラスト（頭に手を当てるポーズ）、紫色強調文字"
+        },
+        "bottomSection": {
+          "elements": "現実の厳しさ表現",
+          "ctaElements": "「想定外のことばかりで、働くモチベーションが消えそう…でも、辞める選択も簡単じゃない。」"
+        }
+      },
+      "actualRole": "問題提起5 - 育児と仕事の現実的困難と心境変化",
+      "designElements": {
+        "colorScheme": ["白色", "紫色", "ピンク系（イラスト）"],
+        "typography": "紫色見出し、引用符による具体例、紫色感情表現",
+        "visualHierarchy": "番号 → タイトル → 具体的状況 → 実感 → イラスト → 複雑な心境",
+        "trustSignals": ["リアルな育児経験談"],
+        "engagementElements": ["疲労イラスト", "ジレンマの複雑さ表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし", 
+        "swipeIndicators": "継続",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "9",
+        "pageIndicator": "7/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真",
+        "backgroundDescription": "同背景継続",
+        "overlayStructure": "白色半透明カード",
+        "headerType": "番号「06」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "番号「06」（紫色）",
+          "layout": "上部中央"
+        },
+        "middleSection": {
+          "format": "テキスト + イラスト",
+          "backgroundColor": "白色半透明",
+          "items": [
+            "キャリアアップしたいけど、上層部は男性ばかり",
+            "バリバリ働いて、役職を目指したい！……と思っても、上を見たら男性ばかり。",
+            "あれ、女性の私が入り込む余地ある？"
+          ],
+          "visualElements": "悩む女性イラスト（頭をかくポーズ）、紫色質問文字"
+        },
+        "bottomSection": {
+          "elements": "意欲と現実のギャップ表現",
+          "ctaElements": "「仕事は好き。続けていきたい。目指したい未来だってあるんだよ。でも、壁が高い気がしてならない。」"
+        }
+      },
+      "actualRole": "問題提起6 - 組織内の性別格差とキャリア上限への不安",
+      "designElements": {
+        "colorScheme": ["白色", "紫色", "肌色系（イラスト）"],
+        "typography": "紫色見出し、感嘆符による意欲表現、紫色疑問文",
+        "visualHierarchy": "番号 → タイトル → 意欲表明 → 現実認識 → 疑問 → イラスト → 複雑な心境",
+        "trustSignals": ["組織の現実的な構造問題"],
+        "engagementElements": ["困惑イラスト", "意欲と現実のギャップ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "継続",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "9",
+        "pageIndicator": "8/9"
+      },
+      "layoutStructure": {
+        "backgroundType": "人物写真",
+        "backgroundDescription": "同背景継続",
+        "overlayStructure": "白色半透明カード",
+        "headerType": "番号「07」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "番号「07」（紫色）",
+          "layout": "上部中央"
+        },
+        "middleSection": {
+          "format": "テキスト + 重要メッセージ + イラスト",
+          "backgroundColor": "白色半透明",
+          "items": [
+            "「辞めたい」と思っても、将来の不安で踏み出せない",
+            "「辞めてどうするの？」「結婚するの？」「ひとりで生きていけるの？」「なにがやりたいの？」「ちゃんと考えてるの？」",
+            "考えてるよ。"
+          ],
+          "visualElements": "涙を流す女性イラスト、背景色付きメッセージボックス「考えてるよ。」"
+        },
+        "bottomSection": {
+          "elements": "社会構造問題の認識 + 次ページ誘導",
+          "ctaElements": [
+            "男女間の給料格差。",
+            "ライフイベントと仕事の両立の難しさ。",
+            "わかってる。でも、自分の仕事、自分の人生、もっと、もっと……",
+            "なにかモヤモヤを抱えているなら"
+          ]
+        }
+      },
+      "actualRole": "問題提起7（最終） - 将来不安の複雑さと解決への導入",
+      "designElements": {
+        "colorScheme": ["白色", "紫色", "ピンク系（イラスト）", "薄紫背景（メッセージボックス）"],
+        "typography": "紫色見出し、連続質問文、背景付き強調メッセージ「考えてるよ。」",
+        "visualHierarchy": "番号 → タイトル → 周囲の質問攻め → 感情的返答 → イラスト → 社会問題認識 → 導入文",
+        "trustSignals": ["社会構造的問題への言及"],
+        "engagementElements": ["涙のイラスト", "感情的な訴え", "解決への導入"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "継続",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": "9",
+        "totalPages": "9",
+        "pageIndicator": "MEMO保存アイコン"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色背景",
+        "backgroundDescription": "薄いベージュ/グレー背景",
+        "overlayStructure": "複数要素配置（サービス紹介レイアウト）",
+        "headerType": "サービス名「ポジウィルの無料相談」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "サービス名（青色背景）",
+          "layout": "「ポジウィルの無料相談」センター配置"
+        },
+        "middleSection": {
+          "format": "サービス説明 + 対象悩み + CTA",
+          "backgroundColor": "薄色背景",
+          "items": [
+            "プロのキャリアトレーナーがキャリアのモヤモヤをサポート！",
+            "「やりたいことがわからない」「自分の強みを知りたい」「漠然とした将来の不安がある」",
+            "そんなお悩みがあるなら、45分間たっぷり相談してください◎"
+          ],
+          "visualElements": "相談者と面談者のイラスト、アプリ画面スクリーンショット、「この投稿も参考にどうぞ」メッセージ"
+        },
+        "bottomSection": {
+          "elements": "ブランドアイコンとメッセージ",
+          "ctaElements": "サービス利用促進"
+        }
+      },
+      "actualRole": "解決策提示・CTA - 具体的サービスへの誘導",
+      "designElements": {
+        "colorScheme": ["青色", "薄ベージュ", "白色", "水色系（イラスト）"],
+        "typography": "青色サービス名、黒文字説明、強調マーク（◎）",
+        "visualHierarchy": "サービス名 → 主要メッセージ → 対象悩み → CTA → イラスト → 追加情報",
+        "trustSignals": ["プロのトレーナー", "具体的時間（45分間）", "アプリ画面表示"],
+        "engagementElements": ["親しみやすいイラスト", "具体的サービス内容", "行動促進メッセージ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし", 
+        "buttons": "なし（暗示的CTA）",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "MEMOアイコン（保存促進）"
+      }
+    }
+  }
+}

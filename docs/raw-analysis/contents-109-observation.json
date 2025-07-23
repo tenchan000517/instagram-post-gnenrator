@@ -1,0 +1,580 @@
+{
+  "observationData": {
+    "totalPages": 11,
+    "pageAnalysis": {
+      "page1": {
+        "pageInfo": {
+          "currentPage": "1",
+          "totalPages": "11",
+          "pageIndicator": "1/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "グラデーション背景",
+          "backgroundDescription": "青色（上部）から水色への縦グラデーション",
+          "overlayStructure": "ロゴ + 白いカード + イラスト",
+          "headerType": "Instagram標準UI（studyhacker_media アカウント）"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "STUDY HACKER ロゴ（黒文字、吹き出しアイコン付き）",
+            "layout": "上部中央配置"
+          },
+          "middleSection": {
+            "format": "白い角丸カード",
+            "backgroundColor": "白色",
+            "items": ["仕事が速い人が", "徹底して", "\"手放して\"いる", "3つの", "ある習慣"],
+            "visualElements": "ゴミ箱と紙くずのイラスト、赤文字（3つの、ある習慣）"
+          },
+          "bottomSection": {
+            "elements": "Instagram標準UI",
+            "ctaElements": "ページ送りドット表示（11個）"
+          }
+        },
+        "actualRole": "title-presentation-with-key-concept",
+        "designElements": {
+          "colorScheme": ["青色", "水色", "白色", "黒色", "赤色"],
+          "typography": "太字フォント、赤色強調",
+          "visualHierarchy": "ロゴ → タイトル → キーワード強調 → イラスト",
+          "trustSignals": ["STUDY HACKER ブランド"],
+          "engagementElements": ["\"手放して\"の引用符", "赤文字による強調"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "標準インスタグラムUI",
+          "swipeIndicators": "ドット形式（11個）",
+          "savePrompts": "なし（この段階では）"
+        }
+      },
+      "page2": {
+        "pageInfo": {
+          "currentPage": "2",
+          "totalPages": "11",
+          "pageIndicator": "2/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "複合背景",
+          "backgroundDescription": "青色ヘッダー + 水色グラデーション背景",
+          "overlayStructure": "ヘッダー + 人物画像 + テキストボックス + 吹き出し",
+          "headerType": "青色カスタムヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「仕事が速い人の秘密は「頑張ること」ではなかった」白文字",
+            "layout": "青色ヘッダー内、中央配置"
+          },
+          "middleSection": {
+            "format": "人物画像 + 吹き出し + テキストブロック",
+            "backgroundColor": "水色グラデーション",
+            "items": [
+              "仕事が速くなりたいのに、いつも同じ壁にぶつかる...（吹き出し）",
+              "そんな悩みを抱えていませんか？",
+              "多くの人が「もっと頑張らなきゃ」と自分を追い込むなか、トヨタコンサルタントと東大研究員が実証した効率化の逆転発想。",
+              "それは「追加する」ではなく「手放す」こと。"
+            ],
+            "visualElements": "書類を抱えるビジネスマン、スーツ姿の男性、緑色の矢印"
+          },
+          "bottomSection": {
+            "elements": "「効率化のプロが注目する「しない習慣」の力とは」青色ボックス",
+            "ctaElements": "赤い矢印3つ"
+          }
+        },
+        "actualRole": "problem-identification-and-solution-concept",
+        "designElements": {
+          "colorScheme": ["青色", "水色", "白色", "黒色", "緑色"],
+          "typography": "白文字（ヘッダー）、黒文字（本文）、緑色下線",
+          "visualHierarchy": "ヘッダー → 人物・吹き出し → 問題共感 → 解決策概念 → CTA",
+          "trustSignals": ["トヨタコンサルタント", "東大研究員", "実証された方法"],
+          "engagementElements": ["吹き出しによる共感", "矢印による流れ"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page3": {
+        "pageInfo": {
+          "currentPage": "3",
+          "totalPages": "11",
+          "pageIndicator": "3/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "水色グラデーション背景",
+          "backgroundDescription": "薄い水色から濃い水色へのグラデーション",
+          "overlayStructure": "ヘッダー + 黄色ボックス + アイコン + リスト + 人物",
+          "headerType": "青色カスタムヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「仕事が速い人たちの意外な共通点」白文字",
+            "layout": "青色ヘッダー内、中央配置"
+          },
+          "middleSection": {
+            "format": "黄色ボックス + 電球アイコン + 番号付きリスト",
+            "backgroundColor": "黄色（タイトル部分）、水色（背景）",
+            "items": [
+              "効率化のプロが注目する「しない習慣」の力",
+              "トヨタと東大の専門家が発見した仕事の速さを決める3つの鍵",
+              "①処分をためらう習慣を捨てる",
+              "②分担を遠慮する習慣を捨てる", 
+              "③失敗を引きずる習慣を捨てる"
+            ],
+            "visualElements": "電球アイコン（金色の縁）、鍵のイラスト（各項目）"
+          },
+          "bottomSection": {
+            "elements": "ビジネスマンシルエット + 吹き出し",
+            "ctaElements": "「効率化とは追加することではなく、手放すことから始まる」"
+          }
+        },
+        "actualRole": "three-key-concepts-introduction",
+        "designElements": {
+          "colorScheme": ["青色", "黄色", "白色", "黒色", "金色"],
+          "typography": "白文字（ヘッダー）、黒文字（リスト）",
+          "visualHierarchy": "ヘッダー → 黄色タイトル → 3つの鍵 → 結論",
+          "trustSignals": ["トヨタと東大の専門家", "3つの明確な項目"],
+          "engagementElements": ["電球アイコン", "鍵のメタファー"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page4": {
+        "pageInfo": {
+          "currentPage": "4",
+          "totalPages": "11",
+          "pageIndicator": "4/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "水色グラデーション背景",
+          "backgroundDescription": "薄い水色背景（統一）",
+          "overlayStructure": "ヘッダー + 専門家情報 + リストボックス + アイコン",
+          "headerType": "紺色から青色へのグラデーションヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「しないこと1 処分をためらわない」白文字",
+            "layout": "グラデーションヘッダー内、中央配置"
+          },
+          "middleSection": {
+            "format": "専門家紹介 + 引用 + 詳細リスト",
+            "backgroundColor": "白色（ボックス内）",
+            "items": [
+              "トヨタ出身コンサルタント・森琢也氏",
+              "散らかったデスクの人は探し物に時間を浪費し、成果につながる活動に時間を割けない（引用）",
+              "森氏の「迷わず機械的に処分する」ための6つの基準（青色ヘッダー）",
+              "1. 顧客や取引先に迷惑をかけないもの",
+              "2. 電子化できるもの",
+              "3. 500円以下で再入手できるもの",
+              "4. 5GB以上のデータ",
+              "5. 念のために保管していたもの",
+              "6. 最終版ではないもの（最終版が別にある場合）"
+            ],
+            "visualElements": "専門家シルエット、整理整頓アイコン"
+          },
+          "bottomSection": {
+            "elements": "「整理整頓で集中力アップ！」",
+            "ctaElements": "ファイルキャビネットのアイコン"
+          }
+        },
+        "actualRole": "first-habit-detailed-explanation",
+        "designElements": {
+          "colorScheme": ["紺色", "青色", "白色", "黒色", "水色"],
+          "typography": "白文字（ヘッダー）、黒文字（リスト）",
+          "visualHierarchy": "ヘッダー → 専門家 → 引用 → 基準リスト → 効果",
+          "trustSignals": ["トヨタ出身", "具体的な6項目基準"],
+          "engagementElements": ["専門家権威", "具体的な数値基準"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page5": {
+        "pageInfo": {
+          "currentPage": "5",
+          "totalPages": "11",
+          "pageIndicator": "5/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "水色グラデーション背景",
+          "backgroundDescription": "薄い水色背景（統一）",
+          "overlayStructure": "ヘッダー + 専門家情報 + 画像 + テキスト",
+          "headerType": "緑色グラデーションヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「しないこと2 タスクの分担を遠慮しない」白文字",
+            "layout": "緑色グラデーションヘッダー内、中央配置"
+          },
+          "middleSection": {
+            "format": "専門家紹介 + 引用 + 実写画像 + 説明文",
+            "backgroundColor": "水色背景",
+            "items": [
+              "働き方改革コンサルタント・越川慎司氏の調査",
+              "効率的に成果を出せる人は、タスク実行は自分だけの責任ではないという考え方を持つ（引用）",
+              "ひとりでタスクを抱え込めば疲弊が判断力や集中力を低下させるリスクも高まります。",
+              "適切な分担ができれば仕事をスムーズに進行できます。"
+            ],
+            "visualElements": "専門家シルエット、オフィスでの会議風景、付箋が貼られたノート"
+          },
+          "bottomSection": {
+            "elements": "「効果的な依頼の仕方とは？」緑色ボックス",
+            "ctaElements": "赤い矢印3つ"
+          }
+        },
+        "actualRole": "second-habit-detailed-explanation",
+        "designElements": {
+          "colorScheme": ["緑色", "水色", "白色", "黒色"],
+          "typography": "白文字（ヘッダー）、黒文字（本文）",
+          "visualHierarchy": "ヘッダー → 専門家 → 考え方 → リスク説明 → 解決策",
+          "trustSignals": ["働き方改革コンサルタント", "実際のオフィス風景"],
+          "engagementElements": ["実写画像", "具体的なリスク提示"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page6": {
+        "pageInfo": {
+          "currentPage": "6",
+          "totalPages": "11",
+          "pageIndicator": "6/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "水色グラデーション背景",
+          "backgroundDescription": "薄い水色背景（統一）",
+          "overlayStructure": "ヘッダー + 専門家情報 + 実例ボックス",
+          "headerType": "緑色グラデーションヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「タスク依頼の効果的な伝え方」白文字",
+            "layout": "緑色グラデーションヘッダー内、中央配置"
+          },
+          "middleSection": {
+            "format": "専門家ポイント + 原則 + 具体例",
+            "backgroundColor": "水色背景",
+            "items": [
+              "越川氏のポイント",
+              "相手にとってのメリットと仕事の意義・目的を伝え、納得してもらうことが大切（引用）",
+              "具体的な依頼例①：",
+              "あなたの意見を取り入れたレポートにしたいので一緒に作成してくれませんか？",
+              "具体的な依頼例②：",
+              "あなたの得意分野なので最適任です。チーム全体のスピードアップのためにお願いできますか？"
+            ],
+            "visualElements": "専門家シルエット、ビジネスマン（指差し）、女性（考える仕草）"
+          },
+          "bottomSection": {
+            "elements": "「チームの力で効率アップ」緑色ボックス",
+            "ctaElements": "赤い矢印3つ"
+          }
+        },
+        "actualRole": "delegation-method-with-examples",
+        "designElements": {
+          "colorScheme": ["緑色", "水色", "白色", "黒色"],
+          "typography": "白文字（ヘッダー）、黒文字（本文）",
+          "visualHierarchy": "ヘッダー → 専門家ポイント → 原則 → 具体例2つ",
+          "trustSignals": ["専門家の具体的手法", "実用的な例文"],
+          "engagementElements": ["具体的な会話例", "人物イラスト"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page7": {
+        "pageInfo": {
+          "currentPage": "7",
+          "totalPages": "11",
+          "pageIndicator": "7/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "水色グラデーション背景",
+          "backgroundDescription": "薄い水色背景（統一）",
+          "overlayStructure": "ヘッダー + 専門家情報 + 実写画像 + 説明文",
+          "headerType": "茶色グラデーションヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「しないこと3 ミスや失敗を引きずらない」白文字",
+            "layout": "茶色グラデーションヘッダー内、中央配置"
+          },
+          "middleSection": {
+            "format": "専門家紹介 + 引用 + 問題説明 + 実写画像",
+            "backgroundColor": "水色背景",
+            "items": [
+              "東京大学環境安全研究センター・飯野謙次氏",
+              "失敗こそが最大の成長機会。失敗は恐れて引きずれば損だが、恐れず引きずらなければ得になる（引用）",
+              "失敗を極度に恐れると新たな挑戦をためらい、必要以上に時間をかけ、恐る恐る仕事をする習慣が身につきます。",
+              "これが仕事のスピードを著しく低下させるのです。"
+            ],
+            "visualElements": "専門家シルエット、落ち込む男性（「失敗するのこわい！！」吹き出し）、疲れた女性（ノートPCの前で頭を抱える）"
+          },
+          "bottomSection": {
+            "elements": "「失敗から学ぶ方法は？」茶色ボックス",
+            "ctaElements": "赤い矢印3つ"
+          }
+        },
+        "actualRole": "third-habit-detailed-explanation",
+        "designElements": {
+          "colorScheme": ["茶色", "水色", "白色", "黒色"],
+          "typography": "白文字（ヘッダー）、黒文字（本文）",
+          "visualHierarchy": "ヘッダー → 専門家 → 失敗の価値 → 問題点 → 影響",
+          "trustSignals": ["東京大学研究センター", "学術的権威"],
+          "engagementElements": ["実写画像", "感情的な吹き出し"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page8": {
+        "pageInfo": {
+          "currentPage": "8",
+          "totalPages": "11",
+          "pageIndicator": "8/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "水色グラデーション背景",
+          "backgroundDescription": "薄い水色背景（統一）",
+          "overlayStructure": "ヘッダー + 専門家情報 + リスト + 実例ボックス",
+          "headerType": "茶色グラデーションヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「失敗から得られる3つの成長機会」白文字",
+            "layout": "茶色グラデーションヘッダー内、中央配置"
+          },
+          "middleSection": {
+            "format": "専門家紹介 + 番号付きリスト + 実例",
+            "backgroundColor": "白色（ボックス内）",
+            "items": [
+              "東大研究員・飯野氏が示す失敗の価値",
+              "1. 対応力、思考力、計画力、分析力などの能力向上につながる",
+              "2. 創造性・独自性・価値の向上につながる",
+              "3. 職場の雰囲気を和ませ、連帯感をつくり、大きなトラブルに備えた訓練になる",
+              "例：重要会議での資料ミスを機に、前倒し準備や確認の仕組みを導入すれば、対応力や計画力が向上し、業務全体のスピードも高まる"
+            ],
+            "visualElements": "専門家シルエット、チームワークを示すビジネスパーソンの集合写真"
+          },
+          "bottomSection": {
+            "elements": "「まとめ」茶色ボックス",
+            "ctaElements": "赤い矢印3つ"
+          }
+        },
+        "actualRole": "failure-benefits-with-concrete-example",
+        "designElements": {
+          "colorScheme": ["茶色", "水色", "白色", "黒色"],
+          "typography": "白文字（ヘッダー）、黒文字（リスト）",
+          "visualHierarchy": "ヘッダー → 専門家 → 3つの価値 → 具体例",
+          "trustSignals": ["東大研究員", "具体的な実例"],
+          "engagementElements": ["チームワーク写真", "実践的な例"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page9": {
+        "pageInfo": {
+          "currentPage": "9",
+          "totalPages": "11",
+          "pageIndicator": "9/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "水色グラデーション背景",
+          "backgroundDescription": "水色から濃い青色へのグラデーション",
+          "overlayStructure": "ヘッダー + 番号付きボックス + 原則 + CTA",
+          "headerType": "青色グラデーションヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「仕事が速い人の3つの「しないこと」を実践しよう」白文字",
+            "layout": "青色グラデーションヘッダー内、中央配置"
+          },
+          "middleSection": {
+            "format": "3つの番号付きボックス",
+            "backgroundColor": "白色（ボックス）",
+            "items": [
+              "①処分をためらわない ▶「捨てる基準」を事前に決めて迷わず機械的に処分",
+              "②タスクの分担を遠慮しない ▶相手のメリットと目的を伝え納得してもらう",
+              "③ミスや失敗を引きずらない ▶失敗から学び、成長の糧に変える"
+            ],
+            "visualElements": "各項目にアイコン（ゴミ箱、ネットワーク、成長）"
+          },
+          "bottomSection": {
+            "elements": "「効率化は「追加する」ことではなく「手放す」ことから始まります。」＋「今日からあなたも実践してみませんか？」",
+            "ctaElements": "実行促進メッセージ"
+          }
+        },
+        "actualRole": "summary-with-implementation-cta",
+        "designElements": {
+          "colorScheme": ["青色", "水色", "白色", "黒色"],
+          "typography": "白文字（ヘッダー）、黒文字（ボックス内）",
+          "visualHierarchy": "ヘッダー → 3つの実践項目 → 基本原則 → 実行CTA",
+          "trustSignals": ["構造化された3つの項目", "明確な実践方法"],
+          "engagementElements": ["アイコン付きボックス", "実行促進CTA"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page10": {
+        "pageInfo": {
+          "currentPage": "10",
+          "totalPages": "11",
+          "pageIndicator": "10/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "水色グラデーション背景",
+          "backgroundDescription": "薄い水色背景",
+          "overlayStructure": "イベント告知ポスター + Instagramプロフィール画面",
+          "headerType": "Instagram標準UI"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「三省堂書店めくる塾に時吉秀弥が登壇します！」",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "イベントポスター + 詳細情報",
+            "backgroundColor": "白色（ポスター）",
+            "items": [
+              "オンライン開催！アーカイブ参加もOK",
+              "英語脳で見る「英文法の世界」",
+              "開催日時 2025年5月24日(土)14:00~"
+            ],
+            "visualElements": "講師の写真、三省堂書店ロゴ、英語教材の表紙"
+          },
+          "bottomSection": {
+            "elements": "Instagramプロフィール画面のスクリーンショット + 「授業を受けたい方はトップページのこちらから！」",
+            "ctaElements": "青い雲形吹き出し + 赤い矢印"
+          }
+        },
+        "actualRole": "external-event-promotion",
+        "designElements": {
+          "colorScheme": ["水色", "白色", "青色", "赤色"],
+          "typography": "黒文字、青文字（日時）",
+          "visualHierarchy": "告知 → イベント詳細 → 参加方法案内",
+          "trustSignals": ["三省堂書店", "具体的な日時", "講師写真"],
+          "engagementElements": ["オンライン・アーカイブ対応", "参加誘導"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ドット形式継続",
+          "savePrompts": "なし"
+        }
+      },
+      "page11": {
+        "pageInfo": {
+          "currentPage": "11",
+          "totalPages": "11",
+          "pageIndicator": "11/11"
+        },
+        "layoutStructure": {
+          "backgroundType": "実写写真",
+          "backgroundDescription": "モダンなオフィス空間（天井の構造が見える開放的な空間）",
+          "overlayStructure": "テキスト + 過去投稿サムネイル + ロゴ",
+          "headerType": "Instagram標準UI"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「過去投稿はこちら」白文字 + 曲線矢印",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "過去投稿のサムネイル一覧",
+            "backgroundColor": "透明（オフィス背景）",
+            "items": ["複数の投稿サムネイル（グリッド表示）"],
+            "visualElements": "様々なビジネス・学習関連の投稿画像"
+          },
+          "bottomSection": {
+            "elements": "「\\フォロー\\ STUDY HACKER 学び続けるビジネスパーソンへ」",
+            "ctaElements": "STUDYHACKERロゴ（吹き出し付き）"
+          }
+        },
+        "actualRole": "past-content-promotion-and-follow-cta",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "グレー（オフィス）"],
+          "typography": "白文字（メイン）、黒文字（ロゴ）",
+          "visualHierarchy": "過去投稿案内 → サムネイル一覧 → フォロー促進",
+          "trustSignals": ["豊富なコンテンツ実績", "ブランドロゴ"],
+          "engagementElements": ["過去投稿への誘導", "フォロー促進"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "最終ページ（ドット表示）",
+          "savePrompts": "なし（フォロー促進）"
+        }
+      },
+      "page12": {
+        "pageInfo": {
+          "currentPage": "12",
+          "totalPages": "12",
+          "pageIndicator": "メタデータページ"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "白色背景",
+          "overlayStructure": "テキストベースレイアウト",
+          "headerType": "「おすすめの投稿」ヘッダー"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "投稿内容の詳細説明",
+            "layout": "上部配置"
+          },
+          "middleSection": {
+            "format": "3つの習慣の詳細説明",
+            "backgroundColor": "白色",
+            "items": [
+              "処分をためらわない習慣",
+              "分担を遠慮する習慣", 
+              "失敗を引きずる習慣",
+              "効率化は「追加する」ことではなく「手放す」ことから始まります。今日からあなたも実践してみませんか？"
+            ],
+            "visualElements": "番号付きリスト"
+          },
+          "bottomSection": {
+            "elements": "ハッシュタグ、投稿日時（5月9日）",
+            "ctaElements": "#仕事術 #効率化 #生産性向上 #タイムマネジメント"
+          }
+        },
+        "actualRole": "metadata-and-hashtag-page",
+        "designElements": {
+          "colorScheme": ["白色", "黒色", "青色（ハッシュタグ）"],
+          "typography": "標準フォント、青文字（ハッシュタグ）",
+          "visualHierarchy": "内容説明 → 詳細説明 → ハッシュタグ",
+          "trustSignals": ["詳細な内容説明"],
+          "engagementElements": ["実践促進メッセージ"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし（メタデータページ）",
+          "savePrompts": "なし"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": 1,
+        "totalPages": 8,
+        "pageIndicator": "1/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "薄紫から白へのグラデーション背景",
+        "overlayStructure": "文字と絵文字の重ね配置",
+        "headerType": "右上にページ番号表示"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["ニッケン就活ラボ", "1/8ページ表示"],
+          "layout": "左上にアカウント名、右上にページ数"
+        },
+        "middleSection": {
+          "format": "large-colorful-title",
+          "backgroundColor": "transparent",
+          "items": [
+            "☀️7月〜切27卒夏インターン大手企業18選🛟"
+          ],
+          "visualElements": "太陽、救命浮輪、星、ビジネスマン絵文字を配置"
+        },
+        "bottomSection": {
+          "elements": ["ハートアイコン", "1/8表示"],
+          "ctaElements": "なし（表紙ページ）"
+        }
+      },
+      "actualRole": "インパクトのあるタイトル表示によるコンテンツ紹介",
+      "designElements": {
+        "colorScheme": ["黄色", "ピンク色", "白色", "薄紫"],
+        "typography": "大型太字フォント、絵文字混在",
+        "visualHierarchy": "中央集中レイアウト、タイトルが最優先",
+        "trustSignals": ["ニッケン就活ラボ", "具体的な数字18選"],
+        "engagementElements": ["カラフルな配色", "絵文字使用"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし", 
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": 2,
+        "totalPages": 8,
+        "pageIndicator": "2/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "薄紫から白へのグラデーション背景",
+        "overlayStructure": "ヘッダー + コンテンツリスト配置",
+        "headerType": "虫眼鏡アイコン + internshipラベル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["🔍 internship"],
+          "layout": "左寄せ、アイコン+テキスト組み合わせ"
+        },
+        "middleSection": {
+          "format": "timeline-company-list",
+          "backgroundColor": "transparent",
+          "items": [
+            "7/2〆切 京王電鉄",
+            "7/3〆切 日清製粉グループ 工学系",
+            "7/3〆切 JR西日本（西日本旅客鉄道）"
+          ],
+          "visualElements": "青い楕円形の締切ラベル、企業名を太字強調"
+        },
+        "bottomSection": {
+          "elements": ["2/8表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "時系列順での企業情報提供開始",
+      "designElements": {
+        "colorScheme": ["青色", "ピンク色", "黒色", "薄紫"],
+        "typography": "太字企業名、通常フォント説明文",
+        "visualHierarchy": "締切日→企業名→説明の順",
+        "trustSignals": ["具体的締切日", "大手企業名"],
+        "engagementElements": ["カラーラベル", "整理された情報"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示", 
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": 3,
+        "totalPages": 8,
+        "pageIndicator": "3/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "薄紫から白へのグラデーション背景",
+        "overlayStructure": "ヘッダー + コンテンツリスト配置",
+        "headerType": "虫眼鏡アイコン + internshipラベル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["🔍 internship"],
+          "layout": "左寄せ、アイコン+テキスト組み合わせ"
+        },
+        "middleSection": {
+          "format": "timeline-company-list",
+          "backgroundColor": "transparent", 
+          "items": [
+            "7/5〆切 東レ",
+            "7/6〆切 大成建設",
+            "7/6〆切 日本製鉄 技術系"
+          ],
+          "visualElements": "青い楕円形の締切ラベル、企業名を太字強調"
+        },
+        "bottomSection": {
+          "elements": ["3/8表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "時系列順での企業情報提供継続",
+      "designElements": {
+        "colorScheme": ["青色", "ピンク色", "黒色", "薄紫"],
+        "typography": "太字企業名、通常フォント説明文",
+        "visualHierarchy": "締切日→企業名→説明の順",
+        "trustSignals": ["具体的締切日", "大手企業名"],
+        "engagementElements": ["カラーラベル", "整理された情報"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": 4,
+        "totalPages": 8,
+        "pageIndicator": "4/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "薄紫から白へのグラデーション背景",
+        "overlayStructure": "ヘッダー + コンテンツリスト配置",
+        "headerType": "虫眼鏡アイコン + internshipラベル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["🔍 internship"],
+          "layout": "左寄せ、アイコン+テキスト組み合わせ"
+        },
+        "middleSection": {
+          "format": "timeline-company-list",
+          "backgroundColor": "transparent",
+          "items": [
+            "7/6〆切 野村證券",
+            "7/7〆切 キューピー",
+            "7/7〆切 住友電装 事務系"
+          ],
+          "visualElements": "青い楕円形の締切ラベル、企業名を太字強調"
+        },
+        "bottomSection": {
+          "elements": ["4/8表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "時系列順での企業情報提供継続",
+      "designElements": {
+        "colorScheme": ["青色", "ピンク色", "黒色", "薄紫"],
+        "typography": "太字企業名、通常フォント説明文",
+        "visualHierarchy": "締切日→企業名→説明の順",
+        "trustSignals": ["具体的締切日", "大手企業名"],
+        "engagementElements": ["カラーラベル", "整理された情報"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": 5,
+        "totalPages": 8,
+        "pageIndicator": "5/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "薄紫から白へのグラデーション背景",
+        "overlayStructure": "ヘッダー + コンテンツリスト配置",
+        "headerType": "虫眼鏡アイコン + internshipラベル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["🔍 internship"],
+          "layout": "左寄せ、アイコン+テキスト組み合わせ"
+        },
+        "middleSection": {
+          "format": "timeline-company-list",
+          "backgroundColor": "transparent",
+          "items": [
+            "7/7〆切 SMBC日興証券",
+            "7/8〆切 金融庁",
+            "7/10〆切 ベネッセコーポレーション"
+          ],
+          "visualElements": "青い楕円形の締切ラベル、企業名を太字強調"
+        },
+        "bottomSection": {
+          "elements": ["5/8表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "時系列順での企業情報提供継続",
+      "designElements": {
+        "colorScheme": ["青色", "ピンク色", "黒色", "薄紫"],
+        "typography": "太字企業名、通常フォント説明文",
+        "visualHierarchy": "締切日→企業名→説明の順",
+        "trustSignals": ["具体的締切日", "大手企業名"],
+        "engagementElements": ["カラーラベル", "整理された情報"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": 6,
+        "totalPages": 8,
+        "pageIndicator": "6/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "薄紫から白へのグラデーション背景",
+        "overlayStructure": "ヘッダー + コンテンツリスト配置",
+        "headerType": "虫眼鏡アイコン + internshipラベル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["🔍 internship"],
+          "layout": "左寄せ、アイコン+テキスト組み合わせ"
+        },
+        "middleSection": {
+          "format": "timeline-company-list",
+          "backgroundColor": "transparent",
+          "items": [
+            "7/13〆切 三菱UFJリサーチ&コンサルティング",
+            "7/13〆切 マクロミル",
+            "7/16〆切 アサヒビール"
+          ],
+          "visualElements": "青い楕円形の締切ラベル、企業名を太字強調"
+        },
+        "bottomSection": {
+          "elements": ["6/8表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "時系列順での企業情報提供継続",
+      "designElements": {
+        "colorScheme": ["青色", "ピンク色", "黒色", "薄紫"],
+        "typography": "太字企業名、通常フォント説明文",
+        "visualHierarchy": "締切日→企業名→説明の順",
+        "trustSignals": ["具体的締切日", "大手企業名"],
+        "engagementElements": ["カラーラベル", "整理された情報"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": 7,
+        "totalPages": 8,
+        "pageIndicator": "7/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "薄紫から白へのグラデーション背景",
+        "overlayStructure": "ヘッダー + コンテンツリスト配置",
+        "headerType": "虫眼鏡アイコン + internshipラベル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["🔍 internship"],
+          "layout": "左寄せ、アイコン+テキスト組み合わせ"
+        },
+        "middleSection": {
+          "format": "timeline-company-list",
+          "backgroundColor": "transparent",
+          "items": [
+            "7/21〆切 JR東海（東海旅客鉄道） 事務系",
+            "7/27〆切 ファーストリテイリング",
+            "7/28〆切 バンダイ"
+          ],
+          "visualElements": "青い楕円形の締切ラベル、企業名を太字強調"
+        },
+        "bottomSection": {
+          "elements": ["7/8表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "時系列順での企業情報提供完了",
+      "designElements": {
+        "colorScheme": ["青色", "ピンク色", "黒色", "薄紫"],
+        "typography": "太字企業名、通常フォント説明文",
+        "visualHierarchy": "締切日→企業名→説明の順",
+        "trustSignals": ["具体的締切日", "大手企業名"],
+        "engagementElements": ["カラーラベル", "整理された情報"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": 8,
+        "totalPages": 8,
+        "pageIndicator": "8/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色グラデーション",
+        "backgroundDescription": "薄紫から白へのグラデーション背景",
+        "overlayStructure": "中央集中メッセージ配置",
+        "headerType": "thank you!メッセージ"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["thank you!"],
+          "layout": "中央上部に薄い文字で配置"
+        },
+        "middleSection": {
+          "format": "call-to-action-messages",
+          "backgroundColor": "transparent",
+          "items": [
+            "就活お役立ち情報をコツコツ発信しています。",
+            "いいね❤️押してもらえると励みになります！",
+            "ご質問やお悩みあればDMにて♪"
+          ],
+          "visualElements": "大型太字とハート絵文字の組み合わせ"
+        },
+        "bottomSection": {
+          "elements": ["後で見返したい時は保存🔖が便利！", "8/8表示"],
+          "ctaElements": "保存促進メッセージ（白い吹き出し）"
+        }
+      },
+      "actualRole": "感謝表現と継続的エンゲージメント促進",
+      "designElements": {
+        "colorScheme": ["黄色", "青色", "ピンク色", "薄紫", "白色"],
+        "typography": "大型太字メインメッセージ、通常フォント説明",
+        "visualHierarchy": "感謝→価値提供→行動促進の順",
+        "trustSignals": ["継続的な情報発信の約束"],
+        "engagementElements": ["ハート絵文字", "親しみやすい口調", "吹き出しデザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "保存🔖が便利！（白い吹き出し）"
+      }
+    }
+  }
+}

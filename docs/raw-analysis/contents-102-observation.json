@@ -1,0 +1,67 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": "10",
+      "contentPages": "8 (9-10ページはプロフィール・キャプション)"
+    },
+    "layoutStructure": {
+      "backgroundType": "人物写真背景→半透明白カード重ね",
+      "backgroundDescription": "ページ1: 人物とPC環境写真、ページ2以降: 人物写真（背景ぼかし）+ 白色半透明カード",
+      "overlayStructure": "丸角の白色半透明カード重ね",
+      "headerType": "「about + 番号」形式のセクション表示"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "about + 番号（01-05）のセクションヘッダー",
+        "layout": "左に番号、右にカテゴリタイトル（青色背景）"
+      },
+      "middleSection": {
+        "format": "2つのツール紹介カード（上下配置）",
+        "backgroundColor": "白色カード",
+        "items": [
+          "ツールロゴ（左側）+ サービス名（右上）",
+          "説明文（右下、具体的な特徴・数値）"
+        ],
+        "visualElements": "実際のサービスロゴ、明確な区切り線"
+      },
+      "bottomSection": {
+        "elements": "保存促進メッセージ、スワイプ指示",
+        "ctaElements": "「見返せるように保存してね！」「SWIPE」"
+      }
+    },
+    "actualRole": {
+      "page1": "経験者としての権威性訴求（37歳6年目）",
+      "page2": "4つの具体的悩みによる共感形成",
+      "page3-7": "カテゴリ別（お仕事×3、経費会計×1、開業届×1）詳細ツール紹介",
+      "page8": "全ツール一覧による総合まとめ",
+      "page9": "信頼性構築（実績・人物像）",
+      "page10": "SNS投稿用メタデータ"
+    },
+    "designElements": {
+      "colorScheme": ["白色", "青色（セクションヘッダー）", "黒色（テキスト）", "半透明白（カード背景）"],
+      "typography": "ゴシック体、手書き風フォント（一部）",
+      "visualHierarchy": "セクション番号→カテゴリ名→ツールロゴ→説明文→CTA",
+      "trustSignals": ["37歳6年目の経験表示", "実際のツールロゴ使用", "具体的な数値（450種類、200種類等）"],
+      "engagementElements": ["チェックボックス付き問題提起", "人物写真による親近感", "保存促進メッセージ"]
+    },
+    "interactionElements": {
+      "checkboxes": "4つのチェックボックス付き悩みリスト（ページ2）",
+      "buttons": "なし（静的コンテンツ）",
+      "swipeIndicators": "「SWIPE」表示、ページドット",
+      "savePrompts": "「見返せるように保存してね！」各ページ下部"
+    },
+    "personalBranding": {
+      "credibilityMarkers": "37歳フリーランス6年目",
+      "targetAudience": "フリーランス・副業検討者、主婦層",
+      "expertiseArea": "フリーランスツール、在宅ワーク",
+      "personalStory": "2児のママ、仕事も子育ても在宅ワークで二刀流",
+      "proofElements": "実績画像3枚、具体的な年齢・経験年数表示"
+    },
+    "contentPatterns": {
+      "problemPattern": "Question形式による4つの具体的悩み提示",
+      "solutionPattern": "カテゴリ別（番号付き）→2ツール/ページ→ロゴ+説明",
+      "closingPattern": "まとめ一覧→自己紹介・実績→メタデータ",
+      "consistencyElements": "統一されたカードデザイン、同じ人物、同じフォント"
+    }
+  }
+}

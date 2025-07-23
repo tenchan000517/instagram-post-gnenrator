@@ -1,0 +1,92 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "全6ページの分析",
+      "totalPages": "6",
+      "pageIndicator": "1/6 から 5/6 まで表示、最終ページは表示なし"
+    },
+    "layoutStructure": {
+      "backgroundType": "単色背景",
+      "backgroundDescription": "ページ1-5: 白色背景、ページ6: 上部青色・下部白色の2段構成",
+      "overlayStructure": "白色カード型レイアウト、青色の幾何学的装飾要素（六角形パターン）",
+      "headerType": "各ページで異なる（ハッシュタグ・質問・セクションタイトル・感謝メッセージ）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページ1: #リケイマッチハッシュタグ、ページ2: AI面接って？質問、ページ3-5: 青色ボタンのセクションタイトル、ページ6: 感謝メッセージ",
+        "layout": "中央上部配置"
+      },
+      "middleSection": {
+        "format": "ページごとに異なる構造（タイトル表示・情報整理型・3点リスト・3ステップ・提案型・サービス紹介）",
+        "backgroundColor": "白色",
+        "items": [
+          "ページ1: タイトル表示とイラスト",
+          "ページ2: 定義・形式説明・アイコン付き情報",
+          "ページ3: 評価ポイント3点のアイコン付きリスト",
+          "ページ4: 番号付き3ステップの対策方法",
+          "ページ5: ChatGPT活用提案とスクリーンショット",
+          "ページ6: サービス特徴の箇条書きとキャラクター"
+        ],
+        "visualElements": "AI面接イラスト、アイコン（電球・人物・頭部）、番号付きステップ、スクリーンショット、キャラクターイラスト"
+      },
+      "bottomSection": {
+        "elements": "スワイプ誘導・各種ボタン・リンク・ハッシュタグ",
+        "ctaElements": "swipe → 、評価ポイント・対策方法・活用しよう・さいごに各ボタン、詳しくはこちら➡リンク"
+      }
+    },
+    "actualRole": "AI面接情報提供・理系学生向けサービス紹介コンテンツ（導入→説明→評価→対策→活用→紹介の構造）",
+    "designElements": {
+      "colorScheme": ["白色", "青色（メイン）", "緑色（POINTタグ）", "ベージュ（番号背景）", "赤色（強調部分）", "黒色（文字）"],
+      "typography": "ゴシック系フォント、タイトルは特大・太字、本文は中サイズ、重要部分は青文字強調",
+      "visualHierarchy": "ハッシュタグ/質問/タイトル → メインコンテンツ → 補足情報 → CTA/誘導",
+      "trustSignals": ["リケイマッチブランド", "具体的な方法論", "実際の画面キャプチャ", "理系特化の明示"],
+      "engagementElements": ["視覚的な情報整理", "番号による段階的説明", "アイコン使用", "多数のハッシュタグ", "実践的な提案"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "各ページに誘導ボタン（評価ポイント・対策方法・活用しよう・さいごに）、いいねボタン",
+      "swipeIndicators": "ページ1でswipe → テキスト、各ページ下部の点状インジケーター",
+      "savePrompts": "ページ6で詳しくはこちら➡リンク"
+    },
+    "specificObservations": {
+      "page1": {
+        "titleLayout": "導入企業が増加中！（黒文字、下線付き）+ AI面接（青色、特大フォント）",
+        "illustrationDetail": "人物がデスクでPCに向かい、画面にAIの顔アイコンが表示されている様子",
+        "decorativeElements": "背景に青色の六角形パターン装飾",
+        "engagementElements": "右下にswipe → 誘導、いいね数表示"
+      },
+      "page2": {
+        "questionHeader": "AI面接って？を上部中央に配置",
+        "informationStructure": "はじめに（青色ボタン）→ 定義（青枠内）→ POINT（緑色タグ）→ 形式説明",
+        "iconUsage": "対話型・録画型にそれぞれアイコン付き",
+        "transitionElement": "→ AI面接について解説！で次ページ誘導"
+      },
+      "page3": {
+        "listStructure": "評価ポイントは主に3点！の下に番号付き3項目",
+        "iconDesign": "1.電球アイコン（回答内容）、2.人物アイコン（面接姿勢）、3.頭部アイコン（話し方）",
+        "explanationArea": "下部に補足説明とキャラクターイラスト配置",
+        "buttonPlacement": "対策方法ボタンで次ページ誘導"
+      },
+      "page4": {
+        "stepNumbering": "01、02、03の大きな番号を各セクションに配置",
+        "contentStructure": "技術面→話し方→質問想定の3ステップ",
+        "emphasisMethod": "PREP法・STAR法・POINTなど重要用語を青文字で強調",
+        "detailLevel": "各ステップに具体例と詳細説明を含める"
+      },
+      "page5": {
+        "activityProposal": "ChatGPT等の生成AI活用提案を上部に配置",
+        "serviceIntegration": "→ リケイマッチでも！の緑矢印で自社サービスに誘導",
+        "visualEvidence": "AI面接診断の実際の画面キャプチャを下部に配置",
+        "motivationalMessage": "練習と準備を重ね、デジタル就活で一歩リード！を赤文字で強調"
+      },
+      "page6": {
+        "headerDesign": "青背景に白文字で感謝メッセージ",
+        "serviceDescription": "— リケイマッチ —を線で囲んだタイトル形式",
+        "featureList": "青丸マーカー付き箇条書きでサービス特徴を列挙",
+        "characterPlacement": "リケイマッチキャラクターを下部に配置",
+        "hashtagDensity": "大量のハッシュタグを最下部に密集配置",
+        "linkPlacement": "詳しくはこちら➡を右向き矢印付きで表示"
+      }
+    }
+  }
+}

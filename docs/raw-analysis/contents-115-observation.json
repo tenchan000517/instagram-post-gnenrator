@@ -1,0 +1,85 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-12",
+      "totalPages": "12",
+      "pageIndicator": "1/12から12/12"
+    },
+    "layoutStructure": {
+      "backgroundType": "写真背景（在宅ワーク環境）",
+      "backgroundDescription": "デスクトップ、観葉植物、ノートPC、スマートフォンが配置された在宅ワーク環境の写真",
+      "overlayStructure": "白い丸角カードでコンテンツを重ね表示",
+      "headerType": "Instagram標準ヘッダー（nao_buyerlife, フォロー）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "episode番号、サービス名（青色バー）",
+        "layout": "カード上部に配置"
+      },
+      "middleSection": {
+        "format": "エピソード構造：サービスロゴ + 導入文 + 失敗体験（青色ボックス） + 結論（白色ボックス）",
+        "backgroundColor": "白いカード背景",
+        "items": [
+          "episodeナンバリング（01-06）",
+          "サービス名（青色バー：ポイ活、ブログ、ハンドメイド販売等）",
+          "サービスロゴ（moppy、WordPress、メルカリ等）",
+          "導入説明文",
+          "下向き矢印",
+          "失敗体験（青色背景ボックス）",
+          "結論・学び（赤い電球アイコン付き白ボックス）"
+        ],
+        "visualElements": "サービスロゴ、電球アイコン、矢印"
+      },
+      "bottomSection": {
+        "elements": "保存促進メッセージ、ページインジケーター",
+        "ctaElements": "「同じ失敗をしないように保存してね！」「こんな失敗みんなも経験ある？」"
+      }
+    },
+    "actualRole": "副業失敗体験談を通じた共感型コンテンツで、実体験ベースの副業選びガイド",
+    "designElements": {
+      "colorScheme": ["青", "白", "赤", "ベージュ", "グレー"],
+      "typography": "日本語フォント、見出しは太字、本文は通常フォント",
+      "visualHierarchy": "エピソード番号 → サービス名 → ロゴ → 説明 → 失敗談 → 結論",
+      "trustSignals": ["実体験の具体的数字", "6年間のフリーランス実績", "実名・顔出しでの発信"],
+      "engagementElements": ["共感を誘う失敗談", "具体的な数字の提示", "保存促進メッセージ"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（Instagram標準のいいね・コメント・保存ボタンのみ）",
+      "swipeIndicators": "ページ下部の青いドット（12個）",
+      "savePrompts": "各エピソードページに「同じ失敗をしないように保存してね！」",
+      "commentPrompts": "最終ページで「りんご🍎」コメントでDM配信オファー"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "backgroundType": "在宅ワーク環境の写真",
+        "titlePlacement": "中央に大きく「37歳フリーランス主婦」",
+        "subtitle": "「リアルに失敗した複業6選」と「Freelancer」",
+        "visualElements": "スマートフォンを持つ手、デスク環境"
+      },
+      "page2": {
+        "layoutType": "導入・問題提起",
+        "questionBox": "「Question」ヘッダー付きで疑問を提示",
+        "promiseSection": "フリーランス6年目の実体験談の約束",
+        "offerPreview": "最終ページでのガイドプレゼント予告",
+        "profileImage": "著者の写真と吹き出し"
+      },
+      "page3-8": {
+        "layoutPattern": "統一されたエピソード構造",
+        "episodeHeader": "episode 01-06の番号付きヘッダー",
+        "serviceBar": "各サービス名を青色バーで表示",
+        "logoPlacement": "左側に正方形のサービスロゴ配置",
+        "failureBox": "青色背景で失敗体験を強調表示",
+        "conclusionBox": "電球アイコン付きで学びを明示"
+      },
+      "page12": {
+        "layoutType": "プロフィール・オファー",
+        "offerSection": "41枚のガイド資料の無料プレゼント告知",
+        "commentCTA": "「りんご🍎」コメント指示",
+        "profileSection": "詳細な自己紹介（吃音克服、2児の母、6年のフリーランス経験）",
+        "workDescription": "BUYMA、Shopify、物販講師の3つの事業紹介",
+        "followCTA": "@nao_buyerlifeへのフォロー促進"
+      }
+    }
+  }
+}

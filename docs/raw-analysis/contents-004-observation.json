@@ -1,0 +1,322 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "7",
+        "pageIndicator": "1/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "グラデーション",
+        "backgroundDescription": "青色グラデーション背景",
+        "overlayStructure": "中央配置テキスト + 装飾要素",
+        "headerType": "ハッシュタグバー（#自己分析）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ハッシュタグ",
+          "layout": "#自己分析"
+        },
+        "middleSection": {
+          "format": "吹き出し + メインタイトル + 数字強調",
+          "backgroundColor": "青色グラデーション",
+          "items": ["自分を見直してみよう！", "自己分析", "の方法", "5選"],
+          "visualElements": "黄色吹き出し、白文字、大きな「5選」表示、白い枠装飾"
+        },
+        "bottomSection": {
+          "elements": "アカウント情報",
+          "ctaElements": "マイナビ @mynavi_shukatsu_junbi"
+        }
+      },
+      "actualRole": "タイトルカバーページ - 自己分析手法の紹介開始",
+      "designElements": {
+        "colorScheme": ["青色", "白色", "黄色（吹き出し）"],
+        "typography": "白文字、太文字、数字の強調表示",
+        "visualHierarchy": "ハッシュタグ → 吹き出しメッセージ → メインタイトル → アカウント情報",
+        "trustSignals": ["マイナビブランド"],
+        "engagementElements": ["親しみやすい吹き出し", "数字による具体性"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページインジケーター",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "7",
+        "pageIndicator": "2/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い青色背景",
+        "overlayStructure": "白色カード + チェックマーク付きリスト",
+        "headerType": "質問形式タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "問いかけタイトル",
+          "layout": "そもそもなぜ自己分析が必要？"
+        },
+        "middleSection": {
+          "format": "チェックマーク付き3項目リスト",
+          "backgroundColor": "白色カード",
+          "items": [
+            "自分自身を適切にアピールするため",
+            "企業や仕事を選ぶ軸を決めるため",
+            "キャリア形成を考えるため"
+          ],
+          "visualElements": "青色チェックマーク、各項目の詳細説明文"
+        },
+        "bottomSection": {
+          "elements": "重要メッセージ + 出典",
+          "ctaElements": "自己分析は繰り返しやることが大事！+ 出典情報"
+        }
+      },
+      "actualRole": "問題提起・必要性説明 - なぜ自己分析が重要かを理論的に説明",
+      "designElements": {
+        "colorScheme": ["薄青色", "白色", "青色（チェックマーク）", "黒色（テキスト）"],
+        "typography": "質問形式見出し、チェックリスト形式、強調文",
+        "visualHierarchy": "質問 → チェックリスト → 詳細説明 → 重要メッセージ → 出典",
+        "trustSignals": ["出典明記", "論理的な3つの理由"],
+        "engagementElements": ["チェックマーク視覚化", "重要性の強調"]
+      },
+      "interactionElements": {
+        "checkboxes": "装飾的チェックマーク（3つ）",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "7",
+        "pageIndicator": "3/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い青色背景継続",
+        "overlayStructure": "白色カード + 番号付きセクション",
+        "headerType": "継続タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "継続タイトル",
+          "layout": "自己分析の簡単なやり方5選"
+        },
+        "middleSection": {
+          "format": "番号付き手法説明（1, 2）",
+          "backgroundColor": "白色カード",
+          "items": [
+            "①自分史の作成",
+            "②「なぜ」の深掘り"
+          ],
+          "visualElements": "青色番号円、詳細説明テキスト、ステップ説明、警告マーク付き注意事項"
+        },
+        "bottomSection": {
+          "elements": "出典情報",
+          "ctaElements": "マイナビSTART出典表記"
+        }
+      },
+      "actualRole": "手法詳細説明1 - 最初の2つの自己分析方法を具体的に解説",
+      "designElements": {
+        "colorScheme": ["薄青色", "白色", "青色（番号）", "黒色", "赤色（警告）"],
+        "typography": "番号付き見出し、詳細説明文、警告文（赤色）",
+        "visualHierarchy": "タイトル → 番号付きセクション → 説明文 → 注意事項 → 出典",
+        "trustSignals": ["具体的手順", "注意事項の明記", "出典表記"],
+        "engagementElements": ["番号による整理", "実践的な説明"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし", 
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "7",
+        "pageIndicator": "4/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い青色背景継続",
+        "overlayStructure": "白色カード + グラフ例示",
+        "headerType": "継続タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "同じタイトル",
+          "layout": "自己分析の簡単なやり方5選"
+        },
+        "middleSection": {
+          "format": "手法説明（3） + 視覚的例示",
+          "backgroundColor": "白色カード",
+          "items": [
+            "③モチベーショングラフの作成"
+          ],
+          "visualElements": "青色番号円、詳細説明、手順説明、実際のグラフ例（波形）、警告マーク"
+        },
+        "bottomSection": {
+          "elements": "出典 + グラフ例",
+          "ctaElements": "モチベーショングラフ例の図解表示"
+        }
+      },
+      "actualRole": "手法詳細説明2 - モチベーショングラフの具体的作成方法と例示",
+      "designElements": {
+        "colorScheme": ["薄青色", "白色", "青色", "黒色", "赤色（警告）"],
+        "typography": "番号付き見出し、説明文、グラフラベル",
+        "visualHierarchy": "タイトル → 手法説明 → 手順 → グラフ例 → 注意事項",
+        "trustSignals": ["具体的な図解", "実践例の提示"],
+        "engagementElements": ["視覚的なグラフ例", "分かりやすい波形表示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "7",
+        "pageIndicator": "5/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い青色背景継続",
+        "overlayStructure": "白色カード + マインドマップ図解",
+        "headerType": "継続タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "同じタイトル",
+          "layout": "自己分析の簡単なやり方5選"
+        },
+        "middleSection": {
+          "format": "手法説明（4） + 図解例示",
+          "backgroundColor": "白色カード",
+          "items": [
+            "④マインドマップの作成"
+          ],
+          "visualElements": "青色番号円、手順説明、実際のマインドマップ図（中心から放射状）、警告マーク"
+        },
+        "bottomSection": {
+          "elements": "出典 + マインドマップ例",
+          "ctaElements": "中心「自分」から枝分かれする図解"
+        }
+      },
+      "actualRole": "手法詳細説明3 - マインドマップ作成の具体的方法と図解例",
+      "designElements": {
+        "colorScheme": ["薄青色", "白色", "青色", "黒色", "多色（マインドマップ）"],
+        "typography": "番号付き見出し、ステップ説明、図解ラベル",
+        "visualHierarchy": "タイトル → 手法説明 → 手順 → 図解例 → 効果説明",
+        "trustSignals": ["具体的な図解", "段階的手順"],
+        "engagementElements": ["カラフルなマインドマップ", "中心から放射状の視覚的分かりやすさ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "7",
+        "pageIndicator": "6/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い青色背景継続",
+        "overlayStructure": "白色カード + 4分割図解",
+        "headerType": "継続タイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "同じタイトル",
+          "layout": "自己分析の簡単なやり方5選"
+        },
+        "middleSection": {
+          "format": "手法説明（5） + 理論図解",
+          "backgroundColor": "白色カード",
+          "items": [
+            "⑤「ジョハリの窓」の活用"
+          ],
+          "visualElements": "青色番号円、詳細理論説明、手順、4分割窓図（カラーコード付き）、警告マーク"
+        },
+        "bottomSection": {
+          "elements": "出典 + ジョハリの窓図解",
+          "ctaElements": "4色に分かれた窓の図解（開放・盲点・秘密・未知）"
+        }
+      },
+      "actualRole": "手法詳細説明4 - ジョハリの窓の理論と実践方法、図解による理解促進",
+      "designElements": {
+        "colorScheme": ["薄青色", "白色", "青色", "緑色", "ピンク色", "水色", "黒色"],
+        "typography": "番号付き見出し、理論説明、4分割ラベル",
+        "visualHierarchy": "タイトル → 理論説明 → 手順 → 4分割図解 → 活用方法",
+        "trustSignals": ["心理学理論の引用", "学術的背景", "具体的分類法"],
+        "engagementElements": ["4色分割による視覚的理解", "他者視点の取り入れ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "7",
+        "pageIndicator": "7/7（最終ページ）"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄い青色背景",
+        "overlayStructure": "複数コンテンツカード + CTA要素",
+        "headerType": "他コンテンツ誘導メッセージ"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "他コンテンツへの誘導",
+          "layout": "その他の投稿やマイナビ2027はプロフィールからチェック！"
+        },
+        "middleSection": {
+          "format": "コンテンツサムネイル + 説明",
+          "backgroundColor": "白色カード（複数）",
+          "items": [
+            "ほかの投稿もCHECK",
+            "就活準備100問",
+            "大学1,2年生のキャリア意識調査"
+          ],
+          "visualElements": "投稿サムネイル画像、マイナビロゴ、動画コンテンツ表示"
+        },
+        "bottomSection": {
+          "elements": "行動指示",
+          "ctaElements": "ここをTAPしてプロフィールへ + 気になった投稿は保存マーク"
+        }
+      },
+      "actualRole": "エンゲージメント・誘導 - 他コンテンツやプロフィールへの誘導",
+      "designElements": {
+        "colorScheme": ["薄青色", "白色", "青色（マイナビ）", "緑色（調査資料）"],
+        "typography": "誘導メッセージ、コンテンツタイトル、行動指示",
+        "visualHierarchy": "誘導メッセージ → コンテンツ紹介 → 行動指示",
+        "trustSignals": ["マイナビブランド", "具体的コンテンツ提示"],
+        "engagementElements": ["他コンテンツへの興味喚起", "保存・プロフィール誘導"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし（TAPやマーク保存の指示）",
+        "swipeIndicators": "なし（最終ページ）",
+        "savePrompts": "「気になった投稿は保存マーク」"
+      }
+    }
+  }
+}

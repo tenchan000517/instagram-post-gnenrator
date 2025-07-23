@@ -1,0 +1,377 @@
+{
+  "observationData": {
+    "source": "contents-046",
+    "totalPages": 8,
+    "pageAnalysis": {
+      "page1": {
+        "pageInfo": {
+          "currentPage": 1,
+          "totalPages": 8,
+          "pageIndicator": "1/8"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "青色グラデーション背景",
+          "overlayStructure": "中央に白い角丸カード配置",
+          "headerType": "なし"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "ページインジケーター（1/8）右上",
+            "layout": "右上配置"
+          },
+          "middleSection": {
+            "format": "大きなタイトルカード",
+            "backgroundColor": "白色",
+            "items": ["これで大丈夫", "SPI頻出語句70選"],
+            "visualElements": "SPIは赤文字で強調、その他は黒文字"
+          },
+          "bottomSection": {
+            "elements": "続きはスワイプ→",
+            "ctaElements": "スワイプ誘導テキスト"
+          }
+        },
+        "actualRole": "メインタイトル提示とコンテンツ概要の告知",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "赤色", "黒色"],
+          "typography": "太字ゴシック体、大きなフォントサイズ",
+          "visualHierarchy": "カードタイトル > スワイプ案内 > ページ番号",
+          "trustSignals": ["明確な数量（70選）"],
+          "engagementElements": ["スワイプ誘導"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "続きはスワイプ→",
+          "savePrompts": "なし"
+        }
+      },
+      "page2": {
+        "pageInfo": {
+          "currentPage": 2,
+          "totalPages": 8,
+          "pageIndicator": "2/8"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "青色グラデーション背景",
+          "overlayStructure": "中央に白い角丸カード配置",
+          "headerType": "青いボタン形式のヘッダー2つ"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "これ覚えれば大丈夫 SPI頻出語句（タイトル）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "2カラムテーブル形式",
+            "backgroundColor": "白色",
+            "items": ["語句", "意味"],
+            "visualElements": "左列：語句（読み方）、右列：意味説明、青いヘッダーボタン"
+          },
+          "bottomSection": {
+            "elements": "語句リスト（13行）",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "SPI語句の学習リスト1（語彙知識の提供）",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色"],
+          "typography": "標準ゴシック体、読みやすいサイズ",
+          "visualHierarchy": "ヘッダーボタン > 語句 > 意味説明",
+          "trustSignals": ["体系的な整理", "正確な読み方表記"],
+          "engagementElements": ["きれいな表形式"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page3": {
+        "pageInfo": {
+          "currentPage": 3,
+          "totalPages": 8,
+          "pageIndicator": "3/8"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "青色グラデーション背景",
+          "overlayStructure": "中央に白い角丸カード配置",
+          "headerType": "青いボタン形式のヘッダー2つ"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "これ覚えれば大丈夫 SPI頻出語句（タイトル）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "2カラムテーブル形式",
+            "backgroundColor": "白色",
+            "items": ["語句", "意味"],
+            "visualElements": "左列：語句（読み方）、右列：意味説明、青いヘッダーボタン"
+          },
+          "bottomSection": {
+            "elements": "語句リスト（14行）",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "SPI語句の学習リスト2（語彙知識の提供）",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色"],
+          "typography": "標準ゴシック体、読みやすいサイズ",
+          "visualHierarchy": "ヘッダーボタン > 語句 > 意味説明",
+          "trustSignals": ["体系的な整理", "正確な読み方表記"],
+          "engagementElements": ["きれいな表形式"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page4": {
+        "pageInfo": {
+          "currentPage": 4,
+          "totalPages": 8,
+          "pageIndicator": "4/8"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "青色グラデーション背景",
+          "overlayStructure": "中央に白い角丸カード配置",
+          "headerType": "青いボタン形式のヘッダー2つ"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "これ覚えれば大丈夫 SPI頻出語句（タイトル）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "2カラムテーブル形式",
+            "backgroundColor": "白色",
+            "items": ["語句", "意味"],
+            "visualElements": "左列：語句（読み方）、右列：意味説明、青いヘッダーボタン"
+          },
+          "bottomSection": {
+            "elements": "語句リスト（14行）",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "SPI語句の学習リスト3（語彙知識の提供）",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色"],
+          "typography": "標準ゴシック体、読みやすいサイズ",
+          "visualHierarchy": "ヘッダーボタン > 語句 > 意味説明",
+          "trustSignals": ["体系的な整理", "正確な読み方表記"],
+          "engagementElements": ["きれいな表形式"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page5": {
+        "pageInfo": {
+          "currentPage": 5,
+          "totalPages": 8,
+          "pageIndicator": "5/8"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "青色グラデーション背景",
+          "overlayStructure": "中央に白い角丸カード配置",
+          "headerType": "青いボタン形式のヘッダー2つ"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "これ覚えれば大丈夫 SPI頻出語句（タイトル）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "2カラムテーブル形式",
+            "backgroundColor": "白色",
+            "items": ["語句", "意味"],
+            "visualElements": "左列：語句（読み方）、右列：意味説明、青いヘッダーボタン、最下行は切れている"
+          },
+          "bottomSection": {
+            "elements": "語句リスト（14行、最終行は「不憫（ふびん）」）",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "SPI語句の学習リスト4（語彙知識の提供）",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色"],
+          "typography": "標準ゴシック体、読みやすいサイズ",
+          "visualHierarchy": "ヘッダーボタン > 語句 > 意味説明",
+          "trustSignals": ["体系的な整理", "正確な読み方表記"],
+          "engagementElements": ["きれいな表形式"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page6": {
+        "pageInfo": {
+          "currentPage": 6,
+          "totalPages": 8,
+          "pageIndicator": "6/8"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "青色グラデーション背景",
+          "overlayStructure": "中央に白い角丸カード配置",
+          "headerType": "青いボタン形式のヘッダー2つ"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "これ覚えれば大丈夫 SPI頻出語句（タイトル）",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "2カラムテーブル形式",
+            "backgroundColor": "白色",
+            "items": ["語句", "意味"],
+            "visualElements": "左列：語句（読み方）、右列：意味説明、青いヘッダーボタン"
+          },
+          "bottomSection": {
+            "elements": "語句リスト（15行）",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "SPI語句の学習リスト5（語彙知識の提供）",
+        "designElements": {
+          "colorScheme": ["青色", "白色", "黒色"],
+          "typography": "標準ゴシック体、読みやすいサイズ",
+          "visualHierarchy": "ヘッダーボタン > 語句 > 意味説明",
+          "trustSignals": ["体系的な整理", "正確な読み方表記"],
+          "engagementElements": ["きれいな表形式"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page7": {
+        "pageInfo": {
+          "currentPage": 7,
+          "totalPages": 8,
+          "pageIndicator": "7/8"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "薄いベージュ・オフホワイト背景",
+          "overlayStructure": "テキストが直接配置、カード構造なし",
+          "headerType": "なし"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "とは言っても、大手いける自信がない...（青文字）",
+            "layout": "中央配置、大きめフォント"
+          },
+          "middleSection": {
+            "format": "チェックボックス付きリスト",
+            "backgroundColor": "背景と同色",
+            "items": [
+              "☑ 今まで頑張ったけどES落ち",
+              "☑ 面接では、2次、最終で落とされる",
+              "☑ 自信を持って話せない",
+              "☑ 後悔しているけど、大手諦めたくない"
+            ],
+            "visualElements": "青いチェックマーク、黒文字テキスト"
+          },
+          "bottomSection": {
+            "elements": [
+              "\\そんな方に、朗報です/",
+              "今回、特別に、",
+              "元人事が極秘に教える",
+              "採用の裏側を知っているからこそ教えれる",
+              "『人事目線で行う就活の進め方』",
+              "をプロフィールのURLから渡しています！！",
+              "1秒でも早く納得内定を勝ち取るため",
+              "あなたに向けて作成しました！！"
+            ],
+            "ctaElements": "プロフィールURL参照の誘導"
+          }
+        },
+        "actualRole": "問題共感から解決策提示への転換ページ",
+        "designElements": {
+          "colorScheme": ["ベージュ/オフホワイト", "青色", "黒色"],
+          "typography": "複数フォントサイズの組み合わせ",
+          "visualHierarchy": "メイン問題文 > チェックリスト > 解決策提示 > 行動誘導",
+          "trustSignals": ["元人事という権威性", "極秘情報という希少性"],
+          "engagementElements": ["共感を誘うチェックリスト", "特別感の演出"]
+        },
+        "interactionElements": {
+          "checkboxes": "青いチェックマーク（装飾的）",
+          "buttons": "なし",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      },
+      "page8": {
+        "pageInfo": {
+          "currentPage": 8,
+          "totalPages": 8,
+          "pageIndicator": "8/8"
+        },
+        "layoutStructure": {
+          "backgroundType": "単色背景",
+          "backgroundDescription": "薄いベージュ・オフホワイト背景",
+          "overlayStructure": "複数要素の縦配置、カード構造なし",
+          "headerType": "なし"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "「不安だけど何をしたらいいかわからない..」",
+            "layout": "中央配置"
+          },
+          "middleSection": {
+            "format": "特典紹介とプロフィール表示",
+            "backgroundColor": "背景と同色",
+            "items": [
+              "\\採用の裏側を特別に公開します/",
+              "人事が教える就活ロードマップ（黄色ボタン）",
+              "\\皆さんのために作成しました/",
+              "プロフィール画面の表示"
+            ],
+            "visualElements": "黄色の角丸ボタン、Instagram風プロフィール画面"
+          },
+          "bottomSection": {
+            "elements": "URLから無料で受け取れます（黄色ボタン）",
+            "ctaElements": "黄色の角丸CTA ボタン"
+          }
+        },
+        "actualRole": "最終的な行動喚起とリード獲得",
+        "designElements": {
+          "colorScheme": ["ベージュ/オフホワイト", "黄色", "黒色", "青色"],
+          "typography": "複数フォントサイズの組み合わせ",
+          "visualHierarchy": "問題文 > 特典紹介 > プロフィール > CTA ボタン",
+          "trustSignals": ["実際のプロフィール画面表示", "フォロワー数表示"],
+          "engagementElements": ["鮮やかな黄色ボタン", "無料という訴求"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "黄色の角丸ボタン2つ",
+          "swipeIndicators": "なし",
+          "savePrompts": "なし"
+        }
+      }
+    },
+    "overallObservations": {
+      "designConsistency": "ページ1-6は青背景+白カード、ページ7-8はベージュ背景と明確に分かれている",
+      "contentProgression": "情報提供（語句リスト）→ 問題共感 → 解決策提示 → 行動喚起の流れ",
+      "visualElements": "チェックマーク、カラーボタン、プロフィール画面など多様な要素",
+      "userEngagement": "スワイプ誘導、共感リスト、希少性訴求、無料訴求"
+    }
+  }
+}

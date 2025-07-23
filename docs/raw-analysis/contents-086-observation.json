@@ -1,0 +1,130 @@
+{
+  "observation_id": "contents-086",
+  "analysis_date": "2025-07-23",
+  "raw_observations": {
+    "page_sequence": [
+      {
+        "page": 1,
+        "filename": "S__16253309_0.jpg",
+        "layout_type": "cover_with_hook",
+        "visual_elements": {
+          "background": "desk_laptop_environment",
+          "color_theme": "white_background_green_accent",
+          "text_placement": "center_aligned",
+          "cta_element": "green_button_profile"
+        },
+        "text_content": {
+          "category_tag": "その他",
+          "hook_phrase": "一昔前の情報では古い！",
+          "main_title": "就職白書2024完全解説",
+          "cta_text": "プロイー"
+        },
+        "ui_elements": {
+          "page_indicator": "1/4",
+          "instagram_interface": "story_format",
+          "account_handle": "shukatsu_mensetsu_plot"
+        }
+      },
+      {
+        "page": 2,
+        "filename": "S__16253311_0.jpg",
+        "layout_type": "numbered_topic_explanation",
+        "visual_elements": {
+          "background": "sky_building_blur",
+          "color_theme": "green_primary_overlay",
+          "text_placement": "centered_on_green_bg"
+        },
+        "text_content": {
+          "section_number": "②",
+          "section_title": "早期化",
+          "main_statistic": "25卒の89.8%が3年生の1月時点でインターンや仕事体験に参加",
+          "trend_indicator": "前年比+3.7ptで年々増加中！",
+          "explanation": "企業も6～9月の夏インターンで学生との接点づくりを重視しています",
+          "call_to_action": "26卒・27卒も同じ流れに！今のうちから準備を始めて差をつけよう！"
+        },
+        "ui_elements": {
+          "page_indicator": "2/4",
+          "checkmark_icon": "trend_validation"
+        }
+      },
+      {
+        "page": 3,
+        "filename": "S__16253312_0.jpg",
+        "layout_type": "numbered_topic_explanation",
+        "visual_elements": {
+          "background": "sky_building_blur",
+          "color_theme": "green_primary_overlay",
+          "text_placement": "centered_on_green_bg"
+        },
+        "text_content": {
+          "section_number": "①",
+          "section_title": "売り手市場",
+          "market_explanation": "企業の求人数が学生数を上回り、就活生にとって有利な状況が続いています",
+          "statistic_1": "64.8%の学生が2社以上の内定を獲得",
+          "statistic_2": "68.7%が内定後も就活を継続",
+          "success_factor": "面接の場で\"学歴以上の準備量\"が見えるかが勝負！"
+        },
+        "ui_elements": {
+          "page_indicator": "3/4",
+          "checkmark_icons": "statistics_validation"
+        }
+      },
+      {
+        "page": 4,
+        "filename": "S__16253313_0.jpg",
+        "layout_type": "account_promotion_closing",
+        "visual_elements": {
+          "background": "gradient_dark_green",
+          "color_theme": "dark_with_green_accents",
+          "account_logo": "stylized_S_symbol"
+        },
+        "text_content": {
+          "gratitude_message": "最後まで読んでくださりありがとうございます！",
+          "account_intro": "そんな就活生には《プロイー》‼",
+          "service_description": "プロイーは、面接に特化した就活情報をお届け✨",
+          "service_features": [
+            "よく聞かれる質問と回答例",
+            "自己PRやガクチカの書き方",
+            "企業が見ているポイント",
+            "通過率UPの裏ワザも！"
+          ],
+          "engagement_text": "あなたの「受かりたい」を叶えるために、毎日役立つ情報を発信中💡",
+          "follow_cta": "フォローして、一緒に内定を掴もう🔥"
+        },
+        "hashtags": [
+          "#24卒", "#25卒", "#26卒", "#就活", "#面接対策", "#自己PR",
+          "#ガクチカ", "#就活生", "#内定", "#志望動機", "#就活アカウント", "#プロイー"
+        ],
+        "post_metadata": {
+          "timestamp": "6日前"
+        }
+      }
+    ],
+    "overall_structure": {
+      "post_type": "educational_carousel",
+      "topic_focus": "job_market_analysis_2024",
+      "data_source": "official_job_hunting_white_paper",
+      "target_audience": "current_and_future_job_hunters",
+      "content_authority": "statistical_data_based",
+      "engagement_strategy": "education_to_follow"
+    },
+    "design_patterns": {
+      "color_consistency": "green_branding_throughout",
+      "typography": "bold_readable_hierarchy",
+      "layout_progression": "hook_data_data_cta",
+      "visual_cohesion": "professional_backgrounds"
+    },
+    "content_quality_indicators": {
+      "data_accuracy": "specific_percentages_provided",
+      "recency": "2024_latest_statistics",
+      "practical_value": "actionable_timing_advice",
+      "credibility": "official_source_reference"
+    }
+  },
+  "meta_analysis": {
+    "structural_completeness": "full_carousel_flow",
+    "information_density": "high_value_statistics",
+    "engagement_design": "education_plus_promotion",
+    "brand_consistency": "strong_visual_identity"
+  }
+}

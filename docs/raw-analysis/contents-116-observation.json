@@ -1,0 +1,472 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-11",
+      "totalPages": "11",
+      "pageIndicator": "1/10表示（最終ページのみ番号なし）"
+    },
+    "page1": {
+      "layoutStructure": {
+        "backgroundType": "温かみのある色調の背景（茶系/ベージュ系）",
+        "backgroundDescription": "人物が写った背景画像（ぼかし効果）",
+        "overlayStructure": "テキストを直接配置",
+        "headerType": "Instagram標準ヘッダー（tsubasa_workstyle、おすすめ、フォローボタン）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ページ番号表示（1/10）",
+          "layout": "右上角配置"
+        },
+        "middleSection": {
+          "format": "大きなタイトル文字",
+          "backgroundColor": "透明（背景画像直接表示）",
+          "items": ["損したくない！", "コスパ最強", "な資格", "21選"],
+          "visualElements": "白色大文字、行間を空けた縦配置、強調マークあり"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI（いいね、コメント、シェア、保存）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトル提示・注意喚起",
+      "designElements": {
+        "colorScheme": ["白", "茶系", "ベージュ系"],
+        "typography": "太字、大きなフォントサイズ",
+        "visualHierarchy": "タイトル → 背景 → UI要素",
+        "trustSignals": ["アカウント名表示"],
+        "engagementElements": ["強調マーク（！）", "数字（21選）"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "フォローボタン",
+        "swipeIndicators": "ページ番号（1/10）",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "layoutStructure": {
+        "backgroundType": "温かみのある色調の背景",
+        "backgroundDescription": "前ページと同系色の背景",
+        "overlayStructure": "白色カード形式でコンテンツを重ね配置",
+        "headerType": "Instagram標準ヘッダー継続"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ページ番号表示（2/10）、タイトル「コスパ最強！な資格21選」",
+          "layout": "上部に小さく表示"
+        },
+        "middleSection": {
+          "format": "質問＋チェックリスト形式",
+          "backgroundColor": "白色半透明カード",
+          "items": [
+            "あなたはこんなことない？",
+            "☑ スキルアップのために資格をとりたい",
+            "☑ どんな資格が損しにくい？", 
+            "☑ 転職にも有利になる資格って？"
+          ],
+          "visualElements": "茶色のチェックマーク、女性イラスト（悩んでいる表情）"
+        },
+        "bottomSection": {
+          "elements": "メモが面倒な人は1タップで保存完了！（黄色い矢印で保存ボタンを指示）",
+          "ctaElements": "保存促進メッセージ"
+        }
+      },
+      "actualRole": "問題共感・チェックリスト提示",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "黄色", "ベージュ系"],
+        "typography": "質問は大きめ、チェック項目は中程度",
+        "visualHierarchy": "質問 → チェックリスト → イラスト → 保存促進",
+        "trustSignals": ["共感を誘う質問形式"],
+        "engagementElements": ["チェックマーク", "イラスト", "保存促進"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（茶色）",
+        "buttons": "なし",
+        "swipeIndicators": "ページ番号",
+        "savePrompts": "保存促進メッセージと矢印"
+      }
+    },
+    "page3": {
+      "layoutStructure": {
+        "backgroundType": "グレー系の背景",
+        "backgroundDescription": "淡いグレーの無地背景",
+        "overlayStructure": "白色カード3つを縦配置",
+        "headerType": "Instagram標準ヘッダー継続"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ページ番号なし、上部余白",
+          "layout": "シンプルな構成"
+        },
+        "middleSection": {
+          "format": "番号付きカード3枚",
+          "backgroundColor": "各カード白色、番号部分は茶色円",
+          "items": [
+            "1 簿記3級（日商簿記）",
+            "2 MOS", 
+            "3 FP2級"
+          ],
+          "visualElements": "各カードに対応するアイコン（電卓、オフィス、お金関連）"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "資格リスト提示（1-3番）",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "グレー", "青色（アクセント）"],
+        "typography": "資格名は太字、説明文は通常",
+        "visualHierarchy": "番号 → 資格名 → 説明文 → アイコン",
+        "trustSignals": ["番号による整理", "具体的資格名"],
+        "engagementElements": ["アイコン", "カード形式"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし", 
+        "swipeIndicators": "なし（ページ番号表示なし）",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "layoutStructure": {
+        "backgroundType": "グレー系の背景（前ページと同じ）",
+        "backgroundDescription": "淡いグレーの無地背景",
+        "overlayStructure": "白色カード3つを縦配置",
+        "headerType": "Instagram標準ヘッダー（「おすすめ」から変更なし）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "上部余白のみ",
+          "layout": "シンプルな構成"
+        },
+        "middleSection": {
+          "format": "番号付きカード3枚（4-6番）",
+          "backgroundColor": "各カード白色、番号部分は茶色円",
+          "items": [
+            "4 宅地建物取引士",
+            "5 登録販売者",
+            "6 医療事務"
+          ],
+          "visualElements": "各カードに対応するアイコン（家、販売員、医療関係者）"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "資格リスト提示（4-6番）",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "グレー", "各アイコンの色"],
+        "typography": "資格名は太字、説明文は通常",
+        "visualHierarchy": "番号 → 資格名 → 説明文 → アイコン",
+        "trustSignals": ["連続番号による整理"],
+        "engagementElements": ["アイコン", "カード形式の継続"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "layoutStructure": {
+        "backgroundType": "グレー系の背景（統一）",
+        "backgroundDescription": "淡いグレーの無地背景",
+        "overlayStructure": "白色カード3つを縦配置",
+        "headerType": "Instagram標準ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "上部余白のみ",
+          "layout": "シンプルな構成"
+        },
+        "middleSection": {
+          "format": "番号付きカード3枚（7-9番）",
+          "backgroundColor": "各カード白色、番号部分は茶色円",
+          "items": [
+            "7 調剤事務管理士",
+            "8 保育士", 
+            "9 介護職員初任者研修"
+          ],
+          "visualElements": "各カードに対応するアイコン（薬剤師、保育士、介護職員）"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "資格リスト提示（7-9番）",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "グレー", "各職業に応じたアイコン色"],
+        "typography": "資格名は太字、説明文は通常",
+        "visualHierarchy": "番号 → 資格名 → 説明文 → アイコン",
+        "trustSignals": ["連続番号による整理"],
+        "engagementElements": ["職業イラスト", "カード形式の継続"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "layoutStructure": {
+        "backgroundType": "グレー系の背景（統一）",
+        "backgroundDescription": "淡いグレーの無地背景",
+        "overlayStructure": "白色カード3つを縦配置",
+        "headerType": "Instagram標準ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "上部余白のみ",
+          "layout": "シンプルな構成"
+        },
+        "middleSection": {
+          "format": "番号付きカード3枚（10-12番）",
+          "backgroundColor": "各カード白色、番号部分は茶色円",
+          "items": [
+            "10 TOEIC（600点以上）",
+            "11 ITパスポート",
+            "12 基本情報技術者試験"
+          ],
+          "visualElements": "各カードに対応するアイコン（英語、IT、技術者関連）"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "資格リスト提示（10-12番）",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "グレー", "各分野に応じたアイコン色"],
+        "typography": "資格名は太字、説明文は通常",
+        "visualHierarchy": "番号 → 資格名 → 説明文 → アイコン",
+        "trustSignals": ["連続番号による整理"],
+        "engagementElements": ["専門分野アイコン", "カード形式の継続"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "layoutStructure": {
+        "backgroundType": "グレー系の背景（統一）",
+        "backgroundDescription": "淡いグレーの無地背景",
+        "overlayStructure": "白色カード3つを縦配置",
+        "headerType": "Instagram標準ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "上部余白のみ",
+          "layout": "シンプルな構成"
+        },
+        "middleSection": {
+          "format": "番号付きカード3枚（13-15番）",
+          "backgroundColor": "各カード白色、番号部分は茶色円",
+          "items": [
+            "13 秘書検定2級・準1級",
+            "14 メンタルヘルスマネジメント検定",
+            "15 中小企業診断士"
+          ],
+          "visualElements": "各カードに対応するアイコン（秘書、メンタルヘルス、ビジネス関連）"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "資格リスト提示（13-15番）",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "グレー", "各分野に応じたアイコン色"],
+        "typography": "資格名は太字、説明文は通常",
+        "visualHierarchy": "番号 → 資格名 → 説明文 → アイコン",
+        "trustSignals": ["連続番号による整理"],
+        "engagementElements": ["職業・分野別アイコン", "カード形式の継続"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "layoutStructure": {
+        "backgroundType": "グレー系の背景（統一）",
+        "backgroundDescription": "淡いグレーの無地背景",
+        "overlayStructure": "白色カード3つを縦配置",
+        "headerType": "Instagram標準ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "上部余白のみ",
+          "layout": "シンプルな構成"
+        },
+        "middleSection": {
+          "format": "番号付きカード3枚（16-18番）",
+          "backgroundColor": "各カード白色、番号部分は茶色円",
+          "items": [
+            "16 終活カウンセラー",
+            "17 ウェブデザイン技能検定",
+            "18 インテリアコーディネーター"
+          ],
+          "visualElements": "各カードに対応するアイコン（終活、ウェブデザイン、インテリア関連）"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "資格リスト提示（16-18番）",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "グレー", "各分野に応じたアイコン色"],
+        "typography": "資格名は太字、説明文は通常",
+        "visualHierarchy": "番号 → 資格名 → 説明文 → アイコン",
+        "trustSignals": ["連続番号による整理"],
+        "engagementElements": ["専門分野アイコン", "カード形式の継続"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "layoutStructure": {
+        "backgroundType": "グレー系の背景（統一）",
+        "backgroundDescription": "淡いグレーの無地背景",
+        "overlayStructure": "白色カード3つを縦配置",
+        "headerType": "Instagram標準ヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "上部余白のみ",
+          "layout": "シンプルな構成"
+        },
+        "middleSection": {
+          "format": "番号付きカード3枚（19-21番）",
+          "backgroundColor": "各カード白色、番号部分は茶色円",
+          "items": [
+            "19 福祉住環境コーディネーター（2級）",
+            "20 カラーコーディネーター",
+            "21 第二種電気工事士"
+          ],
+          "visualElements": "各カードに対応するアイコン（福祉、カラー、電気工事関連）"
+        },
+        "bottomSection": {
+          "elements": "Instagram標準UI",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "資格リスト提示（19-21番、最終資格まで）",
+      "designElements": {
+        "colorScheme": ["白", "茶色", "グレー", "各分野に応じたアイコン色"],
+        "typography": "資格名は太字、説明文は通常",
+        "visualHierarchy": "番号 → 資格名 → 説明文 → アイコン",
+        "trustSignals": ["連続番号による整理", "21個完了の達成感"],
+        "engagementElements": ["専門分野アイコン", "カード形式の継続"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "layoutStructure": {
+        "backgroundType": "温かみのある背景",
+        "backgroundDescription": "人物と背景の画像（背景ぼかし）",
+        "overlayStructure": "中央に白色テキストと右側にプロフィール画面のスクリーンショット",  
+        "headerType": "Instagram標準ヘッダー（「おすすめ」表示継続）"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「他の記事も読んでみる🏠」のメッセージ",
+          "layout": "左上配置"
+        },
+        "middleSection": {
+          "format": "メインメッセージ＋プロフィール画面",
+          "backgroundColor": "透明（背景画像直接表示）",
+          "items": [
+            "楽に生きれる仕事術について毎日発信📱",
+            "悩んでる方はフォローしてね",
+            "自分が何に向いてるか分からない🌀",
+            "自分に向いてるが分かる自己分析もやってみて◎"
+          ],
+          "visualElements": "右側にプロフィール画面のスクリーンショット、赤い矢印で各種ハイライトを指示"
+        },
+        "bottomSection": {
+          "elements": "「ストーリーズではフォロワーさん限定情報も発信」",
+          "ctaElements": "フォロー促進メッセージ"
+        }
+      },
+      "actualRole": "フォロー促進・自己分析ツール紹介",
+      "designElements": {
+        "colorScheme": ["白", "赤", "背景の温かい色調"],
+        "typography": "白色文字、絵文字使用",
+        "visualHierarchy": "メインメッセージ → プロフィール画面 → フォロー促進",
+        "trustSignals": ["実際のプロフィール画面表示"],
+        "engagementElements": ["絵文字", "プロフィール画面", "矢印による誘導"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし（プロフィール画面内にはハイライトボタン表示）",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page11": {
+      "layoutStructure": {
+        "backgroundType": "白色無地背景",
+        "backgroundDescription": "シンプルな白背景",
+        "overlayStructure": "テキストコンテンツを直接配置",
+        "headerType": "「おすすめの投稿」表示に変更"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「他の記事もサッと読んで情報収集*.°→@tsubasa_workstyle」",
+          "layout": "上部配置"
+        },
+        "middleSection": {
+          "format": "長文テキスト形式",
+          "backgroundColor": "白色",
+          "items": [
+            "保存促進メッセージ",
+            "相談促進メッセージ", 
+            "個人的な成功体験",
+            "発信内容の説明",
+            "ターゲット読者の悩み3つ",
+            "最終メッセージ"
+          ],
+          "visualElements": "絵文字多用、波線区切り"
+        },
+        "bottomSection": {
+          "elements": "ハッシュタグ一覧、日付（6月13日）",
+          "ctaElements": "複数のハッシュタグによる検索流入狙い"
+        }
+      },
+      "actualRole": "総合的なCTA・個人ブランディング・ハッシュタグ投稿",
+      "designElements": {
+        "colorScheme": ["黒", "白", "絵文字の各色"],
+        "typography": "通常テキスト、絵文字多用",
+        "visualHierarchy": "情報収集促進 → 保存促進 → 相談促進 → 個人紹介 → ハッシュタグ",
+        "trustSignals": ["具体的な成功体験", "年収UP実績"],
+        "engagementElements": ["豊富な絵文字", "個人的体験談", "多数のハッシュタグ"]
+      },
+      "interactionElements": {
+        "checkboxes": "◯マーク付きの悩みリスト（視覚的チェック）",
+        "buttons": "なし",
+        "swipeIndicators": "なし", 
+        "savePrompts": "保存促進の明確なメッセージ"
+      }
+    }
+  }
+}

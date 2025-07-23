@@ -1,0 +1,347 @@
+{
+  "observationData": {
+    "source": "contents-047",
+    "totalPages": 7,
+    "pageAnalysis": {
+      "page1": {
+        "pageInfo": {
+          "currentPage": 1,
+          "totalPages": 7,
+          "pageIndicator": "1/7"
+        },
+        "layoutStructure": {
+          "backgroundType": "写真背景",
+          "backgroundDescription": "ビジネスマンの手とスーツの写真（握手のような手の形）",
+          "overlayStructure": "白い装飾枠と中央テキストボックス配置",
+          "headerType": "人物アイコン付き"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "人物アイコン（黒いシルエット）",
+            "layout": "中央上部配置"
+          },
+          "middleSection": {
+            "format": "装飾付きテキストボックス",
+            "backgroundColor": "白色",
+            "items": ["\\もう迷わない！/", "業界別就活軸"],
+            "visualElements": "白い角型フレーム、赤い下線装飾"
+          },
+          "bottomSection": {
+            "elements": "ページインジケーター1/7",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "タイトル提示と解決メッセージの強調",
+        "designElements": {
+          "colorScheme": ["写真の青・グレー系", "白色", "赤色", "黒色"],
+          "typography": "太字、大きめフォント",
+          "visualHierarchy": "人物アイコン > メインメッセージ > タイトル > ページ番号",
+          "trustSignals": ["ビジネス写真による専門性"],
+          "engagementElements": ["「もう迷わない」という解決感"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ページインジケーター",
+          "savePrompts": "なし"
+        }
+      },
+      "page2": {
+        "pageInfo": {
+          "currentPage": 2,
+          "totalPages": 7,
+          "pageIndicator": "2/7"
+        },
+        "layoutStructure": {
+          "backgroundType": "写真背景",
+          "backgroundDescription": "オフィスビルのエレベーター内部、階数表示（B2-9F）",
+          "overlayStructure": "上部に業界名ボックス、中央にテキストボックス配置",
+          "headerType": "業界名ラベル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "商社（黒背景の白文字ラベル）",
+            "layout": "中央上部配置"
+          },
+          "middleSection": {
+            "format": "黒背景の箇条書きリスト",
+            "backgroundColor": "黒色",
+            "items": [
+              "・グローバルに働きたい",
+              "・スケールの大きい事業をしたい",
+              "・人々の生活にインパクトを与えたい",
+              "・世の中に役に立つ価値を生み出したい"
+            ],
+            "visualElements": "白文字、箇条書き形式"
+          },
+          "bottomSection": {
+            "elements": "ページインジケーター2/7",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "商社業界の働く理由・特徴の提示",
+        "designElements": {
+          "colorScheme": ["写真の茶・グレー系", "黒色", "白色"],
+          "typography": "読みやすい標準フォント",
+          "visualHierarchy": "業界名 > 働く理由リスト > ページ番号",
+          "trustSignals": ["実際のオフィス写真"],
+          "engagementElements": ["具体的な動機の列挙"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ページインジケーター",
+          "savePrompts": "なし"
+        }
+      },
+      "page3": {
+        "pageInfo": {
+          "currentPage": 3,
+          "totalPages": 7,
+          "pageIndicator": "3/7"
+        },
+        "layoutStructure": {
+          "backgroundType": "写真・イラスト背景",
+          "backgroundDescription": "人のシルエット（オレンジ系）とコンピューター画面",
+          "overlayStructure": "業界名ボックス、テキストボックス、注意書き配置",
+          "headerType": "業界名ラベル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "マスコミ・エンタメ（黒背景の白文字ラベル）",
+            "layout": "中央上部配置"
+          },
+          "middleSection": {
+            "format": "黒背景の箇条書きリスト + 注意書き",
+            "backgroundColor": "黒色",
+            "items": [
+              "・日本文化を海外に届けたい",
+              "・人々に感動や喜びを与えたい",
+              "・大勢に頼できる情報を届けたい",
+              "・社会課題をエンタメで解決したい"
+            ],
+            "visualElements": "白文字、受験注意事項の併記"
+          },
+          "bottomSection": {
+            "elements": "スクリーンショットや写真・動画撮影はNG、ページインジケーター3/7",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "マスコミ・エンタメ業界の働く理由・特徴の提示",
+        "designElements": {
+          "colorScheme": ["オレンジ・グレー系", "黒色", "白色", "赤色"],
+          "typography": "読みやすい標準フォント",
+          "visualHierarchy": "業界名 > 働く理由リスト > 注意書き > ページ番号",
+          "trustSignals": ["メディア関連の背景画像"],
+          "engagementElements": ["社会課題解決という目的意識"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ページインジケーター",
+          "savePrompts": "なし"
+        }
+      },
+      "page4": {
+        "pageInfo": {
+          "currentPage": 4,
+          "totalPages": 7,
+          "pageIndicator": "4/7"
+        },
+        "layoutStructure": {
+          "backgroundType": "写真背景",
+          "backgroundDescription": "カフェ・レストランの料理とテーブル設定",
+          "overlayStructure": "業界名ボックス、テキストボックス配置",
+          "headerType": "業界名ラベル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "コンサル（黒背景の白文字ラベル）",
+            "layout": "中央上部配置"
+          },
+          "middleSection": {
+            "format": "黒背景の箇条書きリスト",
+            "backgroundColor": "黒色",
+            "items": [
+              "・企業の成長をサポートしたい",
+              "・組織の立ち上げに参加したい",
+              "・企業を起点に産業の発展に貢献したい",
+              "・多種多様な人と関わりたい",
+              "・若いうちから活躍したい"
+            ],
+            "visualElements": "白文字、箇条書き形式"
+          },
+          "bottomSection": {
+            "elements": "ページインジケーター4/7",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "コンサル業界の働く理由・特徴の提示",
+        "designElements": {
+          "colorScheme": ["写真の暖色系", "黒色", "白色"],
+          "typography": "読みやすい標準フォント",
+          "visualHierarchy": "業界名 > 働く理由リスト > ページ番号",
+          "trustSignals": ["ビジネス会食的な背景"],
+          "engagementElements": ["成長・活躍への欲求訴求"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ページインジケーター",
+          "savePrompts": "なし"
+        }
+      },
+      "page5": {
+        "pageInfo": {
+          "currentPage": 5,
+          "totalPages": 7,
+          "pageIndicator": "5/7"
+        },
+        "layoutStructure": {
+          "backgroundType": "写真背景",
+          "backgroundDescription": "手とノートパソコンの作業風景、キーボード操作",
+          "overlayStructure": "業界名ボックス、テキストボックス配置",
+          "headerType": "業界名ラベル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "メーカー（黒背景の白文字ラベル）",
+            "layout": "中央上部配置"
+          },
+          "middleSection": {
+            "format": "黒背景の箇条書きリスト",
+            "backgroundColor": "黒色",
+            "items": [
+              "・人々に感動を与えたい",
+              "・想像したものを形にしたい",
+              "・新しい価値を提供し続けたい",
+              "・日本の商品を世界に届けたい"
+            ],
+            "visualElements": "白文字、箇条書き形式"
+          },
+          "bottomSection": {
+            "elements": "ページインジケーター5/7",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "メーカー業界の働く理由・特徴の提示",
+        "designElements": {
+          "colorScheme": ["写真のグレー・ベージュ系", "黒色", "白色"],
+          "typography": "読みやすい標準フォント",
+          "visualHierarchy": "業界名 > 働く理由リスト > ページ番号",
+          "trustSignals": ["実際の開発・作業現場"],
+          "engagementElements": ["創造・製造への価値観訴求"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ページインジケーター",
+          "savePrompts": "なし"
+        }
+      },
+      "page6": {
+        "pageInfo": {
+          "currentPage": 6,
+          "totalPages": 7,
+          "pageIndicator": "6/7"
+        },
+        "layoutStructure": {
+          "backgroundType": "写真背景",
+          "backgroundDescription": "オフィスビルのエレベーター内部、階数表示（B1、B2等）",
+          "overlayStructure": "業界名ボックス、テキストボックス配置",
+          "headerType": "業界名ラベル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "IT（黒背景の白文字ラベル）",
+            "layout": "中央上部配置"
+          },
+          "middleSection": {
+            "format": "黒背景の箇条書きリスト",
+            "backgroundColor": "黒色",
+            "items": [
+              "・情報格差をなくしたい",
+              "・自分の技術で生活をより豊かにしたい",
+              "・ITを通じて企業の経営基盤を整えたい",
+              "・専門的な知識、ノウハウを身に着けたい"
+            ],
+            "visualElements": "白文字、箇条書き形式"
+          },
+          "bottomSection": {
+            "elements": "ページインジケーター6/7",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "IT業界の働く理由・特徴の提示",
+        "designElements": {
+          "colorScheme": ["写真の茶・グレー系", "黒色", "白色"],
+          "typography": "読みやすい標準フォント",
+          "visualHierarchy": "業界名 > 働く理由リスト > ページ番号",
+          "trustSignals": ["オフィス環境の背景"],
+          "engagementElements": ["技術による社会改善の価値観"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ページインジケーター",
+          "savePrompts": "なし"
+        }
+      },
+      "page7": {
+        "pageInfo": {
+          "currentPage": 7,
+          "totalPages": 7,
+          "pageIndicator": "7/7"
+        },
+        "layoutStructure": {
+          "backgroundType": "写真背景",
+          "backgroundDescription": "夕焼けの建設現場、クレーンや建物のシルエット",
+          "overlayStructure": "業界名ボックス、テキストボックス配置",
+          "headerType": "業界名ラベル"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "elements": "インフラ（黒背景の白文字ラベル）",
+            "layout": "中央上部配置"
+          },
+          "middleSection": {
+            "format": "黒背景の箇条書きリスト",
+            "backgroundColor": "黒色",
+            "items": [
+              "・人々の生活の根幹を支えたい",
+              "・持続可能な都市づくりをしたい",
+              "・地方活性化に取り組みたい",
+              "・便利な生活を守る仕事がしたい",
+              "・地図に残る仕事がしたい"
+            ],
+            "visualElements": "白文字、箇条書き形式"
+          },
+          "bottomSection": {
+            "elements": "ページインジケーター7/7",
+            "ctaElements": "なし"
+          }
+        },
+        "actualRole": "インフラ業界の働く理由・特徴の提示",
+        "designElements": {
+          "colorScheme": ["オレンジ・黄色系夕焼け", "黒色", "白色"],
+          "typography": "読みやすい標準フォント",
+          "visualHierarchy": "業界名 > 働く理由リスト > ページ番号",
+          "trustSignals": ["実際の建設現場風景"],
+          "engagementElements": ["社会基盤・長期的影響への価値観"]
+        },
+        "interactionElements": {
+          "checkboxes": "なし",
+          "buttons": "なし",
+          "swipeIndicators": "ページインジケーター",
+          "savePrompts": "なし"
+        }
+      }
+    },
+    "overallObservations": {
+      "designConsistency": "全ページで統一された黒ラベル（業界名）+ 黒背景テキストボックス + 実写背景の構成",
+      "contentProgression": "タイトル → 6つの業界を順番に紹介（商社→マスコミ→コンサル→メーカー→IT→インフラ）",
+      "visualElements": "各業界を象徴する実写背景、統一感のある黒白コントラスト",
+      "userEngagement": "具体的な働く理由の列挙、業界ごとの価値観の明確化"
+    }
+  }
+}

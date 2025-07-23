@@ -1,0 +1,195 @@
+{
+  "observation_id": "contents-090",
+  "analysis_date": "2025-07-23",
+  "raw_observations": {
+    "page_sequence": [
+      {
+        "page": 1,
+        "filename": "S__16253336_0.jpg",
+        "layout_type": "branded_advice_cover",
+        "visual_elements": {
+          "background": "purple_to_pink_gradient_professional",
+          "brand_badge": "pink_miravel_advice_label",
+          "title_emphasis": "yellow_highlight_正確性",
+          "navigation_cue": "blue_swipe_button"
+        },
+        "text_content": {
+          "brand_identifier": "MiRAVEL &活アドバイス",
+          "main_topic": "面接官に正確性が高い！と思われる",
+          "content_promise": "2つのポイント",
+          "action_cue": "SWIPE >>"
+        },
+        "ui_elements": {
+          "page_indicator": "1/7",
+          "account_handle": "morevision_miravel"
+        }
+      },
+      {
+        "page": 2,
+        "filename": "S__16253338_0.jpg",
+        "layout_type": "definition_explanation",
+        "visual_elements": {
+          "background": "consistent_purple_pink_gradient",
+          "section_badge": "blue_circle_そもそも",
+          "illustration": "person_working_at_computer_simple"
+        },
+        "text_content": {
+          "section_type": "そもそも",
+          "question": "正確性が高いって？",
+          "answer_label": "A.",
+          "definition": "細かいところにまで気を配り、ミスなく作業を進めることができること",
+          "explanation": "正確性が高いことは、言い換えれば慎重とも言えます。ミスがないことなんて当たり前で、アピールにはならない・・・と思うかもしれませんが、意外とそうではありません。多くの人は注意が散漫になってミスをしたり、細かい点を見落としてしまうものです。",
+          "value_proposition": "そしてそのような正確性は入社後に教育することが難しいため、多くの会社では採用時に重視されます。",
+          "navigation": "NEXT>>"
+        }
+      },
+      {
+        "page": 3,
+        "filename": "S__16253339_0.jpg",
+        "layout_type": "context_explanation",
+        "visual_elements": {
+          "background": "consistent_purple_pink_gradient",
+          "section_badge": "blue_circle_そもそも",
+          "bullet_points": "purple_circle_list_items"
+        },
+        "text_content": {
+          "section_type": "そもそもcontinued",
+          "question": "仕事における正確性の高さとは？",
+          "context_explanation": "仕事においては、",
+          "relevance_areas": [
+            "ミスが許されない業界（医療・食品・金融など）や、",
+            "正確性が求められる事務や経理職、エンジニアなどに適正があります"
+          ],
+          "transition_question": "では、面接でどうアピールすれば「正確性が高い！」と思わせることができるのでしょうか？",
+          "navigation": "NEXT>>"
+        }
+      },
+      {
+        "page": 4,
+        "filename": "S__16253340_0.jpg",
+        "layout_type": "point_detailed_explanation",
+        "visual_elements": {
+          "background": "consistent_purple_pink_gradient",
+          "point_header": "navy_point_01_badge",
+          "content_organization": "structured_text_blocks"
+        },
+        "text_content": {
+          "point_number": "POINT 01",
+          "point_title": "正確性を発揮し、成果をあげた経験を話す",
+          "strategy_explanation": "正確性の高さをアピールするためには、正確性を発揮し、成果をあげた経験を話すことが大切です。",
+          "key_technique": "その際、周りの人と比べてどのくらい正確だったのか（ミスが少なかったのか）、ということをなるべく具体的に話せることが重要です。",
+          "example_header": "【ミスの少なさを示す例】",
+          "concrete_example": "○「インターン先での同僚は基本的に週に何度かミスをするのですが、私は一度もミスをしない月もあり、他の人と比べて多くのプロジェクトを抱える等、信頼を置かれています。」"
+        }
+      },
+      {
+        "page": 5,
+        "filename": "S__16253341_0.jpg",
+        "layout_type": "point_detailed_explanation",
+        "visual_elements": {
+          "background": "consistent_purple_pink_gradient",
+          "point_header": "navy_point_02_badge",
+          "content_organization": "structured_text_with_examples"
+        },
+        "text_content": {
+          "point_number": "POINT 02",
+          "point_title": "仕事に対する向き合い方や責任感を話す",
+          "strategy_explanation": "仕事に対する向き合い方や責任感の強さなども合わせて伝えることができれば、より説得力が増します。仕事に対する向き合い方は「自分が他の人よりもミスが少ない理由」を深掘りすることで浮かび上がってきます。",
+          "example_structure": [
+            {
+              "question_type": "例",
+              "question": "なぜ私はミスが少ないのか？",
+              "answers": [
+                "仕事に取り掛かる前に分からないことは必ず確認するから",
+                "最終チェックができるように確認作業を行う日をもうけているから"
+              ]
+            },
+            {
+              "question_type": "例",
+              "question": "なぜそこまでやるのか？",
+              "answers": [
+                "チームで仕事をする以上、周りに迷惑をかけたくないから",
+                "1つのミスで積み重ねた信頼を失うことになるから"
+              ]
+            }
+          ],
+          "outcome": "間接的に、チームへの貢献意識の高さや責任感の強さが分かります"
+        }
+      },
+      {
+        "page": 6,
+        "filename": "S__16253342_0.jpg",
+        "layout_type": "self_assessment_checklist",
+        "visual_elements": {
+          "background": "consistent_purple_pink_gradient",
+          "checklist_items": "purple_circle_bullet_points",
+          "visual_emphasis": "large_blue_checkmark_icon"
+        },
+        "text_content": {
+          "section_title": "あなたは正確性が高い？",
+          "check_label": "Check ポイント！",
+          "checklist_items": [
+            "正確性を発揮した経験はあるか？",
+            "また、成果をあげた経験はあるか？",
+            "周りに正確だといわれるか？"
+          ]
+        }
+      },
+      {
+        "page": 7,
+        "filename": "S__16253343_0.jpg",
+        "layout_type": "summary_and_cta",
+        "visual_elements": {
+          "background": "consistent_purple_pink_gradient",
+          "summary_badge": "blue_circle_まとめ",
+          "account_promotion": "overlay_account_info_with_emojis"
+        },
+        "text_content": {
+          "section_title": "まとめ",
+          "summary_header": "正確性の高さをアピールするポイント",
+          "summary_points": [
+            "正確性を発揮し、成果をあげた経験を話す",
+            "仕事に対する向き合い方や責任感を話す"
+          ],
+          "follow_promotion": "morevision_miravelをフォローするとGood!",
+          "engagement_message": "今回は、面接官に正確性が高い！と思われるために大事な2つのポイントをご紹介します😊✨",
+          "benefit_statement": "就活レベルがUPすること間違いなし💪",
+          "encouragement": "ぜひ参考にしてみてくださいね！",
+          "service_promotion": "自分に合った企業を知りたい方は、@miravel_morevisionのプロフィールにあるURLをチェック💡"
+        },
+        "hashtags": [
+          "#ミラベル", "#miravel", "#AI就活", "#就活", "#就活中", "#22卒", "#23卒", "#就活生と繋がりたい", "#就活生", "#就活情報", "#就活ノート", "#面接対策", "#ES対策"
+        ],
+        "post_metadata": {
+          "timestamp": "2021年5月19日"
+        }
+      }
+    ],
+    "overall_structure": {
+      "post_type": "practical_interview_advice",
+      "topic_focus": "accuracy_appeal_in_job_interviews",
+      "information_organization": "definition_context_strategies_self_assessment_summary",
+      "target_audience": "job_hunting_students_22_23_graduate",
+      "content_authority": "miravel_career_advice_platform",
+      "engagement_strategy": "education_to_platform_promotion"
+    },
+    "design_patterns": {
+      "color_consistency": "purple_pink_gradient_throughout_all_pages",
+      "typography": "readable_structured_text_with_clear_headers",
+      "layout_progression": "cover_definition_context_point1_point2_checklist_summary",
+      "visual_cohesion": "consistent_section_badges_and_navigation"
+    },
+    "content_quality_indicators": {
+      "practical_applicability": "immediately_usable_interview_techniques",
+      "example_quality": "concrete_workplace_scenarios_provided",
+      "learning_structure": "progressive_definition_to_application",
+      "self_assessment": "built_in_checklist_for_reader_evaluation"
+    }
+  },
+  "meta_analysis": {
+    "structural_completeness": "comprehensive_interview_advice_flow",
+    "information_density": "high_value_practical_interview_guidance",
+    "engagement_design": "education_plus_career_platform_promotion",
+    "brand_consistency": "strong_miravel_brand_integration_throughout"
+  }
+}

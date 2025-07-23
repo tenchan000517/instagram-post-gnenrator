@@ -1,0 +1,227 @@
+{
+  "contentId": "contents-059",
+  "analysisDate": "2025-07-23",
+  "totalSlides": 9,
+  "detailedObservations": {
+    "slide1": {
+      "type": "cover",
+      "bgColor": "#B8D4A8",
+      "mainTitle": "なぜかナメられる人の特徴",
+      "titlePosition": "center-right",
+      "titleSize": "large",
+      "characterIllustration": {
+        "type": "person",
+        "position": "left",
+        "description": "困った表情の人物（黄色い短髪、白い服、手を胸に当てて困惑している様子）"
+      },
+      "layoutStyle": "title_with_illustration"
+    },
+    "slide2": {
+      "type": "introduction_text",
+      "bgColor": "#FFFFFF",
+      "decorativeElement": "spiral_notebook_rings_left",
+      "textContent": [
+        "ちゃんと丁寧に話してるつもりなのに、",
+        "なんか軽く見られたり。",
+        "ナメられるなあ...って思うことない？",
+        "",
+        "私も前は「なんで...？」って",
+        "落ち込んだ。",
+        "",
+        "特徴と対策を紹介するよ！"
+      ],
+      "textAlignment": "left",
+      "textColor": "#333333"
+    },
+    "slide3": {
+      "type": "list_item",
+      "bgColor": "#FFFFFF",
+      "decorativeElement": "spiral_notebook_rings_left",
+      "titleBox": {
+        "text": "なぜかナメられる人の特徴",
+        "bgColor": "#FFE6B3",
+        "position": "top"
+      },
+      "checkmarkItem": {
+        "icon": "✓",
+        "iconBgColor": "#B8D4A8",
+        "iconTextColor": "#FFFFFF",
+        "text": "語尾が伸びる",
+        "highlightColor": "#FFE6B3"
+      },
+      "beforeExample": "そうなんですよねえ～",
+      "arrow": "↓",
+      "afterExample": "そうなんです。",
+      "note": "※「です。」の"。"は明瞭に！語尾つがない話し方がカギ"
+    },
+    "slide4": {
+      "type": "list_item",
+      "bgColor": "#FFFFFF",
+      "decorativeElement": "spiral_notebook_rings_left",
+      "titleBox": {
+        "text": "なぜかナメられる人の特徴",
+        "bgColor": "#FFE6B3",
+        "position": "top"
+      },
+      "checkmarkItem": {
+        "icon": "✓",
+        "iconBgColor": "#B8D4A8",
+        "iconTextColor": "#FFFFFF",
+        "text": "語尾を上げる",
+        "highlightColor": "#FFE6B3"
+      },
+      "beforeExample": "これでいいですか↗？",
+      "arrow": "↓",
+      "afterExample": "これでいいですか↘",
+      "note": "※"言い切る"ことで安心感を出す◎"
+    },
+    "slide5": {
+      "type": "list_item",
+      "bgColor": "#FFFFFF",
+      "decorativeElement": "spiral_notebook_rings_left",
+      "titleBox": {
+        "text": "なぜかナメられる人の特徴",
+        "bgColor": "#FFE6B3",
+        "position": "top"
+      },
+      "checkmarkItem": {
+        "icon": "✓",
+        "iconBgColor": "#B8D4A8",
+        "iconTextColor": "#FFFFFF",
+        "text": "ちょっと参勤不審",
+        "highlightColor": "#FFE6B3"
+      },
+      "beforeExample": "あ、どうも...",
+      "arrow": "↓",
+      "afterExample": "おつかれさまです。",
+      "note": "※あいさつだけでもハキハキ言うと印象がかわる！姿勢も正して^^"
+    },
+    "slide6": {
+      "type": "list_item", 
+      "bgColor": "#FFFFFF",
+      "decorativeElement": "spiral_notebook_rings_left",
+      "titleBox": {
+        "text": "なぜかナメられる人の特徴",
+        "bgColor": "#FFE6B3",
+        "position": "top"
+      },
+      "checkmarkItem": {
+        "icon": "✓",
+        "iconBgColor": "#B8D4A8",
+        "iconTextColor": "#FFFFFF",
+        "text": "小声で終わる",
+        "highlightColor": "#FFE6B3"
+      },
+      "beforeExample": "やってあります...",
+      "arrow": "↓",
+      "afterExample": "やってあります。",
+      "note": "※濁すと自信がなさそうにみえる。「ます。」の"。"を意識。"
+    },
+    "slide7": {
+      "type": "list_item",
+      "bgColor": "#FFFFFF", 
+      "decorativeElement": "spiral_notebook_rings_left",
+      "titleBox": {
+        "text": "なぜかナメられる人の特徴",
+        "bgColor": "#FFE6B3",
+        "position": "top"
+      },
+      "checkmarkItem": {
+        "icon": "✓",
+        "iconBgColor": "#B8D4A8",
+        "iconTextColor": "#FFFFFF",
+        "text": "やたらと笑う",
+        "highlightColor": "#FFE6B3"
+      },
+      "beforeExample": "ええ...まあなんとか...",
+      "arrow": "↓",
+      "afterExample": "では、進めすね。",
+      "note": "※不必要に笑わない！"
+    },
+    "slide8": {
+      "type": "conclusion_text",
+      "bgColor": "#FFFFFF",
+      "decorativeElement": "spiral_notebook_rings_left",
+      "textContent": [
+        "言ってることは同じでも、",
+        ""ひと工夫"で周りの反応も",
+        "がらりするほど変わる◎",
+        "",
+        "日々のコミュニケーションが",
+        "少し楽になりますように♫"
+      ],
+      "textAlignment": "center",
+      "specialSymbols": ["◎", "♫"]
+    },
+    "slide9": {
+      "type": "cta",
+      "bgColor": "#B8D4A8",
+      "thankYouMessage": {
+        "text": "最後まで読んでくれてありがとう！",
+        "position": "top",
+        "textColor": "#333333"
+      },
+      "liveScheduleBox": {
+        "bgColor": "#FFFFFF",
+        "borderColor": "#B8D4A8",
+        "content": [
+          "平日6:45～",
+          "聞くだけで人間関係が",
+          "ラクになるLIVE",
+          "毎朝やってるよ！"
+        ],
+        "timeHighlight": "平日6:45～"
+      },
+      "ctaButton": {
+        "text": "フォローして遊びにきてね！",
+        "bgColor": "#B8D4A8",
+        "textColor": "#FFFFFF",
+        "position": "bottom-left"
+      },
+      "profileIcon": {
+        "type": "character",
+        "description": "本とペンを持つパンダキャラクター",
+        "bgColor": "#FFD700",
+        "position": "bottom-right"
+      }
+    }
+  },
+  "designPatterns": {
+    "colorUsage": {
+      "primary": "#B8D4A8 (緑系、背景とアクセントに使用)",
+      "secondary": "#FFFFFF (白、メインの背景色)",
+      "accent": "#FFE6B3 (黄色系、タイトルボックスとハイライト)",
+      "highlight": "#FFD700 (金色、プロフィールアイコン背景)"
+    },
+    "typographyPatterns": {
+      "titles": "太字、中央寄せまたは左寄せ",
+      "bodyText": "通常の太さ、左寄せ",
+      "examples": "引用符やイタリックなし、プレーンテキスト",
+      "notes": "※記号で始まる補足説明"
+    },
+    "layoutElements": {
+      "spiralRings": "全スライドの左側に配置されたノート風リング綴じ",
+      "checkmarks": "円形背景に白いチェックマーク",
+      "arrows": "手書き風の下向き矢印（↓）",
+      "boxes": "角丸の枠線ボックス（CTA用）"
+    },
+    "illustrationStyle": {
+      "characterDesign": "シンプル、フラット、親しみやすい",
+      "colorPalette": "パステル調、優しい印象",
+      "iconStyle": "ミニマル、幾何学的"
+    }
+  },
+  "contentStructure": {
+    "narrative": "問題提起→解決策提示→まとめ→行動喚起",
+    "engagement": "共感→具体例→実践的アドバイス→継続的関係構築",
+    "informationDensity": "適度、1スライド1ポイント",
+    "readability": "高い、短文中心"
+  },
+  "uniqueFeatures": [
+    "Before/Afterの対比形式",
+    "語尾のイントネーション表記（↗↘）",
+    "実践的な話し方の改善点",
+    "毎朝のライブ配信への誘導",
+    "親しみやすいキャラクター使用"
+  ]
+}

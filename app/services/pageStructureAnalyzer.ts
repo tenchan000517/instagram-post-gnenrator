@@ -5,9 +5,11 @@ import { Genre, getGenreConfig } from '../types/genre'
 import { KnowledgeBaseParams } from '../types/knowledgeBase'
 import { PageStructureMatcher } from './knowledgeBase/PageStructureMatcher'
 import { TemplateItemMapper } from './knowledgeBase/TemplateItemMapper'
+import { MasterDataService } from './knowledgeBase/MasterDataService'
+import { KnowledgeBasedContentGenerator } from './knowledgeBase/KnowledgeBasedContentGenerator'
 
 export class PageStructureAnalyzer {
-  
+
   private model: any
   private genreDetector: GenreDetector
   constructor() {
@@ -16,16 +18,16 @@ export class PageStructureAnalyzer {
   }
 
   async analyzePageStructureAndTemplates(
-    input: string, 
+    input: string,
     knowledgeBaseParams?: KnowledgeBaseParams
   ): Promise<PageStructure[]> {
     // 入力テキストからジャンル情報を抽出
     const specifiedGenre = this.extractGenreFromInput(input)
-    
+
     // ジャンル判定（指定がある場合は優先、なければ自動判定）
     let detectedGenre: Genre
     let confidence: number
-    
+
     if (specifiedGenre) {
       detectedGenre = specifiedGenre
       confidence = 1.0 // 明示的に指定されている場合は100%
@@ -36,9 +38,9 @@ export class PageStructureAnalyzer {
       confidence = genreAnalysis.confidence
       console.log('🎯 ジャンル自動判定:', detectedGenre)
     }
-    
+
     const genreConfig = getGenreConfig(detectedGenre)
-    
+
     console.log('🎯 ジャンル判定結果:', {
       genre: detectedGenre,
       confidence: confidence,
@@ -146,23 +148,23 @@ ${input}
       const result = await this.model.generateContent(basePrompt)
       const response = await result.response
       const text = response.text()
-      
+
       console.log('🎯 PageStructureAnalyzer - 生のレスポンス:', text)
-      
+
       const cleanText = text.replace(/```json\n?|```\n?/g, '').trim()
       const parsed = JSON.parse(cleanText)
-      
+
       console.log('✅ PageStructureAnalyzer - パース済み:', parsed)
-      
+
       return parsed as PageStructure[]
     } catch (error: any) {
       console.error('PageStructureAnalyzer error:', error)
-      
+
       // API制限エラーの場合、より具体的なメッセージを表示
       if (error?.message?.includes('quota') || error?.message?.includes('429')) {
         throw new Error('Gemini APIの無料プラン制限（1日200回）に達しました。明日再度お試しいただくか、有料プランへのアップグレードをご検討ください。')
       }
-      
+
       throw new Error('ページ構造分析に失敗しました')
     }
   }
@@ -175,84 +177,108 @@ ${input}
   private extractGenreFromInput(input: string): Genre | null {
     // 【ジャンル】: xxxxx 形式を探す
     const genreMatch = input.match(/【ジャンル】\s*[:：]\s*([a-zA-Z-]+)/i)
-    
+
     if (genreMatch) {
       const genreString = genreMatch[1].toLowerCase().trim()
-      
+
       // 有効なジャンルかチェック
       const validGenres: Genre[] = [
-        'knowhow', 'book-recommendation', 'internship-deadline', 
-        'entry-deadline', 'industry-features', 'strategy', 
+        'knowhow', 'book-recommendation', 'internship-deadline',
+        'entry-deadline', 'industry-features', 'strategy',
         'step-learning', 'general'
       ]
-      
+
       if (validGenres.includes(genreString as Genre)) {
         return genreString as Genre
       }
     }
-    
+
     return null
   }
 
   /**
    * 新統合システム：厳密マッチング + テンプレート項目マッピング
    */
-  private async generateStructuredContent(
-    input: string,
-    params: KnowledgeBaseParams
-  ): Promise<PageStructure[]> {
-    console.log('🎯 新統合システム開始:', {
-      typeId: params.typeId,
-      targetId: params.targetId
-    });
+private async generateStructuredContent(
+  input: string,
+  params: KnowledgeBaseParams
+): Promise<PageStructure[]> {
+  console.log('🎯 新統合システム開始:', {
+    typeId: params.typeId,
+    targetId: params.targetId
+  });
 
-    try {
-      // Step 1: 厳密マッチングでページ構造を取得
-      const { pattern, structure } = PageStructureMatcher.getCompletePageStructure(
+  try {
+    let pattern: any;
+    let structure: any;
+
+    // Step 1: 選択済みナレッジからpageStructurePatternを確認
+    if (params.knowledgeContents && params.knowledgeContents.length > 0) {
+      const selectedKnowledgeInfo = params.knowledgeContents[0] as any;
+      const selectedKnowledgeId = selectedKnowledgeInfo.knowledgeId;
+      
+      // フルデータを取得
+      const fullKnowledgeData = await MasterDataService.getKnowledgeContent(selectedKnowledgeId);
+      
+      if (fullKnowledgeData && fullKnowledgeData.pageStructurePattern && fullKnowledgeData.pageStructurePattern.trim() !== '') {
+        console.log('📋 ナレッジからページ構造パターンを取得:', fullKnowledgeData.pageStructurePattern);
+        
+        // ハードコード済みの構造を取得
+        structure = PageStructureMatcher.loadPageStructure(fullKnowledgeData.pageStructurePattern);
+        
+        // 模擬的なpatternオブジェクトを作成
+        pattern = {
+          matchingKey: `${params.typeId}-${params.targetId}`,
+          description: `ナレッジベース由来: ${fullKnowledgeData.problemDescription || 'ナレッジデータから取得'}`,
+          pageStructureId: fullKnowledgeData.pageStructurePattern,
+          reasoning: fullKnowledgeData.postTypeReason || 'ナレッジデータから取得'
+        };
+        
+      } else {
+        console.log('📋 従来のマッチング方法を使用');
+        // 従来の方法でページ構造を取得
+        const result = PageStructureMatcher.getCompletePageStructure(
+          params.typeId!,
+          params.targetId!
+        );
+        pattern = result.pattern;
+        structure = result.structure;
+      }
+    } else {
+      // フォールバック
+      const result = PageStructureMatcher.getCompletePageStructure(
         params.typeId!,
         params.targetId!
       );
-
-      console.log('✅ ページ構造マッチング成功:', pattern.description);
-
-      // Step 2: 選択済みナレッジデータを取得
-      const knowledgeData = params.knowledgeData || null;
-      console.log('📚 ナレッジデータ:', knowledgeData ? '使用可能' : '未提供');
-
-      // Step 3: テンプレート項目マッピングで具体的コンテンツを抽出
-      const mapper = new TemplateItemMapper();
-      const mappingResult = await mapper.mapContentToPages(input, structure, knowledgeData);
-
-      console.log('✅ テンプレート項目マッピング完了:', {
-        pagesCount: mappingResult.pages.length,
-        totalExtractions: mappingResult.totalExtractions,
-        processingTime: mappingResult.processingTime + 'ms'
-      });
-
-      // Step 4: PageStructure形式に変換
-      const pageStructures: PageStructure[] = mappingResult.pages.map(page => ({
-        概要: `ナレッジベース統合システムによる最適化コンテンツ（${pattern.description}）`,
-        有益性: `TypeID×TargetID×ThemeID厳密マッチングによる最適化された価値提供`,
-        template: page.templateId as PremiumTemplateType,
-        title: page.title,
-        theme: JSON.stringify(page.mappedItems),
-        isStructuredGeneration: true  // 新統合システム識別フラグ
-      }));
-
-      console.log('🎉 新統合システム完了:', {
-        generatedPages: pageStructures.length,
-        matchingPattern: pattern.pageStructureId
-      });
-
-      return pageStructures;
-
-    } catch (error) {
-      console.error('❌ 新統合システムエラー:', error);
-      // フォールバック禁止 - 明確なエラーを投げる
-      throw new Error(`統合システム処理失敗: ${error}`);
+      pattern = result.pattern;
+      structure = result.structure;
     }
-  }
 
+    console.log('✅ ページ構造マッチング成功:', pattern.description);
+
+    // Step 2: 従来通りのTemplateItemMapperで処理継続
+    const mapper = new TemplateItemMapper();
+    const mappingResult = await mapper.mapContentToPages(input, structure, params.knowledgeContents);
+
+    // 以下は従来通り...
+    console.log('✅ テンプレート項目マッピング完了');
+
+    const pageStructures: PageStructure[] = mappingResult.pages.map(page => ({
+      概要: `ナレッジベース統合システムによる最適化コンテンツ（${pattern.description}）`,
+      有益性: `選択済みナレッジを活用した最適化された価値提供`,
+      template: page.templateId as PremiumTemplateType,
+      title: page.title,
+      theme: JSON.stringify(page.mappedItems),
+      isStructuredGeneration: true
+    }));
+
+    return pageStructures;
+
+  } catch (error) {
+    console.error('❌ 新統合システムエラー:', error);
+    throw new Error(`統合システム処理失敗: ${error instanceof Error ? error.message : 'Unknown error'}`);
+  }
+}
   /**
    * マッピングされたコンテンツをtheme形式に変換（未使用関数）
    */

@@ -1,0 +1,194 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "4",
+        "pageIndicator": "1/4"
+      },
+      "layoutStructure": {
+        "backgroundType": "gradient",
+        "backgroundDescription": "blue to purple gradient background",
+        "overlayStructure": "white card in center with text and illustration",
+        "headerType": "small tag at top"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "small blue tag with white text",
+          "layout": "「就職、転職に強いのはこれ！」"
+        },
+        "middleSection": {
+          "format": "large text on white card",
+          "backgroundColor": "white card",
+          "items": ["学歴よりも", "評価される", "資格10選"],
+          "visualElements": "illustration of businessman running with briefcase"
+        },
+        "bottomSection": {
+          "elements": "call to action text",
+          "ctaElements": "今すぐチェック↓"
+        }
+      },
+      "actualRole": "title page with immediate value proposition",
+      "designElements": {
+        "colorScheme": ["blue", "purple", "white", "black"],
+        "typography": "bold sans-serif with hierarchy",
+        "visualHierarchy": "tag → main title → illustration → CTA",
+        "trustSignals": ["professional illustration"],
+        "engagementElements": ["今すぐチェック↓", "businessman illustration"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page dots",
+        "savePrompts": "none"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "4",
+        "pageIndicator": "2/4"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "white background",
+        "overlayStructure": "simple text layout",
+        "headerType": "title with books emoji"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "title with emoji",
+          "layout": "【実は"学歴よりも"評価される資格10選📚】"
+        },
+        "middleSection": {
+          "format": "numbered list with descriptions",
+          "backgroundColor": "white",
+          "items": [
+            "① 宅地建物取引士（宅建）→ 不動産、金融業界で最強。",
+            "② 日商簿記2級 → 経理・総務・事務の王道。",
+            "③ ITパスポート → 文系の\"とりあえず1個\"はコレ。どの業界でも通し効く",
+            "④ FP2級（ファイナンシャルプランナー）→ 保険・銀行・住宅営業系で高評価。副業にも強い",
+            "⑤ TOEIC 800点以上 → 英語ペラペラより\"スコア証明\"が評価される時代"
+          ],
+          "visualElements": "clean numbered list format"
+        },
+        "bottomSection": {
+          "elements": "none",
+          "ctaElements": "none"
+        }
+      },
+      "actualRole": "information delivery - first 5 qualifications",
+      "designElements": {
+        "colorScheme": ["white", "black"],
+        "typography": "clean sans-serif with arrows",
+        "visualHierarchy": "title → numbered list items",
+        "trustSignals": ["specific qualification names", "industry mentions"],
+        "engagementElements": ["numbered circles", "arrows →"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "none"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "4",
+        "pageIndicator": "3/4"
+      },
+      "layoutStructure": {
+        "backgroundType": "solid color",
+        "backgroundDescription": "white background",
+        "overlayStructure": "continued list format",
+        "headerType": "none"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "continuation of numbered list",
+          "layout": "starting from ⑥"
+        },
+        "middleSection": {
+          "format": "numbered list with descriptions",
+          "backgroundColor": "white",
+          "items": [
+            "⑥ 第二種電気工事士 → 国家資格。インフラ系で年収爆上がり狙える",
+            "⑦ 基本情報技術者試験 → エンジニア・IT未経験からの転職にかなり効く",
+            "⑧ MOS（Excel資格）→ Excel猛者と証明できる資格。事務職でかなり武器",
+            "⑨ 中小企業診断士 → コンサル・経営企画での\"格\"が一段上がる",
+            "⑩ 登録販売者 → ドラッグストア・医薬業界で\"転職無双\"できる"
+          ],
+          "visualElements": "consistent numbered list format"
+        },
+        "bottomSection": {
+          "elements": "promotional message with genie emoji",
+          "ctaElements": "【無料年収UP転職はプロフリンクから🧞】"
+        }
+      },
+      "actualRole": "information delivery - remaining 5 qualifications + service promotion",
+      "designElements": {
+        "colorScheme": ["white", "black"],
+        "typography": "consistent with page 2",
+        "visualHierarchy": "numbered list → service promotion",
+        "trustSignals": ["国家資格", "specific benefits mentioned"],
+        "engagementElements": ["転職無双", "年収爆上がり", "🧞 genie emoji"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "page indicator",
+        "savePrompts": "service promotion message"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "4",
+        "pageIndicator": "none visible"
+      },
+      "layoutStructure": {
+        "backgroundType": "gradient",
+        "backgroundDescription": "green gradient background",
+        "overlayStructure": "multiple elements layered",
+        "headerType": "banner message"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "banner with pointing finger emoji",
+          "layout": "ホワイト企業転職はプロフリンクから👆"
+        },
+        "middleSection": {
+          "format": "Instagram profile preview",
+          "backgroundColor": "white",
+          "items": [
+            "osig_oto48 profile with verification checkmark",
+            "転職社長｜就活・転職情報",
+            "392投稿 4.8万フォロワー 3フォロー中",
+            "ここを押してね！",
+            "worknext.co.jp URL with red arrow pointing to it"
+          ],
+          "visualElements": "actual Instagram profile interface"
+        },
+        "bottomSection": {
+          "elements": "service benefits list",
+          "ctaElements": "ブラック企業を除外してご紹介！bullet points about services"
+        }
+      },
+      "actualRole": "final call-to-action with profile promotion",
+      "designElements": {
+        "colorScheme": ["green", "white", "black", "red"],
+        "typography": "mix of Instagram UI and promotional text",
+        "visualHierarchy": "banner → profile → service benefits",
+        "trustSignals": ["4.8万フォロワー", "verification checkmark", "actual URL"],
+        "engagementElements": ["👆 pointing finger", "red arrow", "ここを押してね！"]
+      },
+      "interactionElements": {
+        "checkboxes": "none",
+        "buttons": "none",
+        "swipeIndicators": "none",
+        "savePrompts": "profile link and service benefits"
+      }
+    }
+  }
+}

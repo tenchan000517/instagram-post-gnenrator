@@ -1,0 +1,56 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "currentPage": "1-10",
+      "totalPages": "10",
+      "pageIndicator": "右上に円形のページ番号表示（1/10～10/10）"
+    },
+    "layoutStructure": {
+      "backgroundType": "グラデーション背景",
+      "backgroundDescription": "ページ1: 薄緑のパターン背景、ページ2-7: 薄緑グラデーション、ページ8: 薄黄色背景、ページ9: クリーム色背景、ページ10: 空と雲の写真背景",
+      "overlayStructure": "サービス紹介ページでは画面キャプチャの上にテキスト配置",
+      "headerType": "緑色の帯状ヘッダー（ページ2-7）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "緑色吹き出し「デザイナーの仕事が奪われる？！」（ページ1）",
+        "layout": "中央配置のタイトル"
+      },
+      "middleSection": {
+        "format": "service-showcase-with-screenshots",
+        "backgroundColor": "各ページで異なる（薄緑、クリーム、空色）",
+        "items": [
+          "すごすぎるAIサービスベスト6",
+          "colorGPT - カラーコード表示",
+          "Galileo AI - UI自動生成",
+          "Genius by Diagram - Figma連携",
+          "Designs.ai - 動画・ロゴ作成",
+          "Uizard - ワイヤーフレーム変換",
+          "VANCE AI - 画像加工",
+          "Instagram プロフィール紹介",
+          "design-excel.jp 媒体紹介",
+          "エンゲージメント促進メッセージ"
+        ],
+        "visualElements": "各AIサービスの実際の画面キャプチャ、Instagram画面、ウェブサイト画面"
+      },
+      "bottomSection": {
+        "elements": "URL表示（各サービスページ）、ハッシュタグ（最終ページ）、ユーザーアカウント情報",
+        "ctaElements": "フォロー促進、保存促進、コメント促進"
+      }
+    },
+    "actualRole": "AIデザインツールの総合紹介とメディア誘導",
+    "designElements": {
+      "colorScheme": ["緑", "白", "黒", "薄黄", "クリーム", "青"],
+      "typography": "太字の日本語フォント、英語サービス名",
+      "visualHierarchy": "1.タイトル → 2.サービス名 → 3.説明文 → 4.URL",
+      "trustSignals": ["実際のツール画面", "具体的なURL", "既存メディアへの誘導"],
+      "engagementElements": ["番号付きリスト", "視覚的なツール紹介", "インタラクティブな指示"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "フォローボタンの表示",
+      "swipeIndicators": "Instagram標準のページドット",
+      "savePrompts": "「保存」の文字による明示的な指示"
+    }
+  }
+}

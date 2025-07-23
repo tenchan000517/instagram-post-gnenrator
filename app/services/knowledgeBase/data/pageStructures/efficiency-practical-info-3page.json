@@ -9,6 +9,12 @@
       "templateId": "enumeration",
       "role": "quick-overview",
       "title": "実践的就活情報まとめ",
+      "templatePattern": {
+        "title": "string",
+        "enumeration": {
+          "items": ["string"]
+        }
+      },
       "itemAssignments": {
         "title": "今すぐ使える就活ノウハウ5選",
         "enumeration": {
@@ -23,6 +29,15 @@
       "templateId": "section-items",
       "role": "detailed-information",
       "title": "効率的な就活戦略データ",
+      "templatePattern": {
+        "title": "string",
+        "sections": [
+          {
+            "sectionTitle": "string",
+            "items": ["string"]
+          }
+        ]
+      },
       "itemAssignments": {
         "title": "実績に基づく効果的手法",
         "sections": [
@@ -40,6 +55,15 @@
       "templateId": "section-items",
       "role": "immediate-action",
       "title": "今日から始める効率就活",
+      "templatePattern": {
+        "title": "string",
+        "sections": [
+          {
+            "sectionTitle": "string",
+            "items": ["string"]
+          }
+        ]
+      },
       "itemAssignments": {
         "title": "即実践可能なアクション",
         "sections": [

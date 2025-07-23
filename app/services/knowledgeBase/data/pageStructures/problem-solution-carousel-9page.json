@@ -1,0 +1,218 @@
+{
+  "pageStructureId": "problem-solution-carousel-9page",
+  "name": "問題解決カルーセル9ページ構成",
+  "targetCombination": "Problem-focused content with solution reveal",
+  "description": "感情的な問題・困りごとを提起し、具体的な悩みの共感から解決へ導く9ページ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "section-items",
+      "role": "title-cover-page",
+      "title": "感情的フックとタイトル提示",
+      "templatePattern": {
+        "title": "string",
+        "sections": [
+          {
+            "sectionTitle": "string",
+            "items": ["string"]
+          }
+        ]
+      },
+      "itemAssignments": {
+        "title": "動的タイトル生成",
+        "sections": [
+          {
+            "sectionTitle": "メインタイトル",
+            "itemType": "emotional-hook-title",
+            "extractionRule": "感情的なフックを含む魅力的なタイトルを生成",
+            "itemCount": 1
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "section-items",
+      "role": "problem-intro-page",
+      "title": "問題提起と共感メッセージ",
+      "templatePattern": {
+        "title": "string",
+        "sections": [
+          {
+            "sectionTitle": "string",
+            "items": ["string"]
+          }
+        ]
+      },
+      "itemAssignments": {
+        "title": "こんな経験ないですか...？",
+        "sections": [
+          {
+            "sectionTitle": "共感を呼ぶ問題提起",
+            "itemType": "empathy-statement",
+            "extractionRule": "読者が「あるある」と感じる問題・悩みの導入",
+            "itemCount": 1
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 3,
+      "templateId": "enumeration",
+      "role": "problem-list-page",
+      "title": "具体的な問題・悩みリスト（前編）",
+      "templatePattern": {
+        "title": "string",
+        "enumeration": {
+          "items": ["string"]
+        }
+      },
+      "itemAssignments": {
+        "title": "よくある悩み・困りごと",
+        "enumeration": {
+          "itemType": "problem-item",
+          "extractionRule": "具体的で共感できる問題・悩みを箇条書きで列挙（前半）",
+          "itemCount": 3
+        }
+      }
+    },
+    {
+      "pageNumber": 4,
+      "templateId": "enumeration",
+      "role": "problem-list-page",
+      "title": "具体的な問題・悩みリスト（中編）",
+      "templatePattern": {
+        "title": "string",
+        "enumeration": {
+          "items": ["string"]
+        }
+      },
+      "itemAssignments": {
+        "title": "さらに深刻な悩み",
+        "enumeration": {
+          "itemType": "problem-item",
+          "extractionRule": "より深刻で切実な問題・悩みを列挙（中間）",
+          "itemCount": 3
+        }
+      }
+    },
+    {
+      "pageNumber": 5,
+      "templateId": "enumeration",
+      "role": "problem-list-page",
+      "title": "具体的な問題・悩みリスト（後編）",
+      "templatePattern": {
+        "title": "string",
+        "enumeration": {
+          "items": ["string"]
+        }
+      },
+      "itemAssignments": {
+        "title": "最も困難な課題",
+        "enumeration": {
+          "itemType": "problem-item",
+          "extractionRule": "最も解決が困難に感じる問題・悩みを列挙（後半）",
+          "itemCount": 3
+        }
+      }
+    },
+    {
+      "pageNumber": 6,
+      "templateId": "section-items",
+      "role": "authority-page",
+      "title": "権威性・信頼性の提示",
+      "templatePattern": {
+        "title": "string",
+        "sections": [
+          {
+            "sectionTitle": "string",
+            "items": ["string"]
+          }
+        ]
+      },
+      "itemAssignments": {
+        "title": "なぜ私が解決できるのか",
+        "sections": [
+          {
+            "sectionTitle": "実績と経験",
+            "itemType": "authority-statement",
+            "extractionRule": "指導実績や経験に基づく権威性を提示",
+            "itemCount": 2
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 7,
+      "templateId": "section-items",
+      "role": "solution-reveal-page",
+      "title": "解決の希望とヒント提示",
+      "templatePattern": {
+        "title": "string",
+        "sections": [
+          {
+            "sectionTitle": "string",
+            "items": ["string"]
+          }
+        ]
+      },
+      "itemAssignments": {
+        "title": "実は解決できる方法があります",
+        "sections": [
+          {
+            "sectionTitle": "解決への道筋",
+            "itemType": "solution-hint",
+            "extractionRule": "具体的な解決策のヒントと希望のメッセージ",
+            "itemCount": 1
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 8,
+      "templateId": "section-items",
+      "role": "service-offer-page",
+      "title": "サービス・解決策の提案",
+      "templatePattern": {
+        "title": "string",
+        "sections": [
+          {
+            "sectionTitle": "string",
+            "items": ["string"]
+          }
+        ]
+      },
+      "itemAssignments": {
+        "title": "具体的な解決方法のご案内",
+        "sections": [
+          {
+            "sectionTitle": "提供するサービス",
+            "itemType": "service-description",
+            "extractionRule": "具体的なサービス内容と価値提案",
+            "itemCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 9,
+      "templateId": "enumeration",
+      "role": "profile-cta-page",
+      "title": "アカウントフォローとアクション促進",
+      "templatePattern": {
+        "title": "string",
+        "enumeration": {
+          "items": ["string"]
+        }
+      },
+      "itemAssignments": {
+        "title": "次のステップへ",
+        "enumeration": {
+          "itemType": "cta-action",
+          "extractionRule": "フォロー促進とアクション喚起のメッセージ",
+          "itemCount": 3
+        }
+      }
+    }
+  ]
+}

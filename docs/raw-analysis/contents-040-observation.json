@@ -1,0 +1,344 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": 1,
+        "totalPages": 7,
+        "pageIndicator": "1/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄青色背景",
+        "overlayStructure": "中央に白い角丸カード配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["1/7表示"],
+          "layout": "右上角"
+        },
+        "middleSection": {
+          "format": "centered-card-title",
+          "backgroundColor": "白色",
+          "items": ["ガクチカ", "優秀ネタ", "30選"],
+          "visualElements": "赤文字、黒文字、大型フォント"
+        },
+        "bottomSection": {
+          "elements": ["ハートアイコン", "295いいね"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ガクチカネタ集の表紙・タイトル提示",
+      "designElements": {
+        "colorScheme": ["薄青色", "白色", "赤色", "黒色"],
+        "typography": "大型太字フォント、赤文字強調",
+        "visualHierarchy": "中央集中、タイトル最優先",
+        "trustSignals": ["30選という具体的数字"],
+        "engagementElements": ["目立つ配色", "明確な数字"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": 2,
+        "totalPages": 7,
+        "pageIndicator": "2/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "ヘッダー + チェックリスト + アドバイス",
+        "headerType": "帯状装飾付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["アルバイト経験編"],
+          "layout": "黄色装飾線付きヘッダー"
+        },
+        "middleSection": {
+          "format": "checklist-with-yellow-checkmarks",
+          "backgroundColor": "薄黄色",
+          "items": [
+            "マニュアルを作成した",
+            "時間の使い方を変えた",
+            "後輩への指導方法を変えた",
+            "商品の知識を習得した",
+            "先回りしたおもてなしをした",
+            "クレームを減少させた",
+            "仕事の役割分担を推進した"
+          ],
+          "visualElements": "黄色チェックマーク、薄黄色背景"
+        },
+        "bottomSection": {
+          "elements": ["直接ではなくてもバイト先の利益に繋がる結果が書けると◎", "2/7表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "アルバイト経験での具体的エピソード例提示",
+      "designElements": {
+        "colorScheme": ["白色", "黄色", "薄黄色", "黒色"],
+        "typography": "通常フォント、チェックリスト形式",
+        "visualHierarchy": "ヘッダー→リスト→アドバイス順",
+        "trustSignals": ["具体的なエピソード例", "実用的アドバイス"],
+        "engagementElements": ["チェックマーク", "色分け"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（機能なし）",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": 3,
+        "totalPages": 7,
+        "pageIndicator": "3/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "ヘッダー + チェックリスト + アドバイス",
+        "headerType": "帯状装飾付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["部活、サークル経験編"],
+          "layout": "黄色装飾線付きヘッダー"
+        },
+        "middleSection": {
+          "format": "checklist-with-yellow-checkmarks",
+          "backgroundColor": "薄黄色",
+          "items": [
+            "独自の練習方法を取り入れた",
+            "学年間の交流を増やした",
+            "勉強会を企画した",
+            "指導方法を同期間で統一した",
+            "新歓で広報の方法を変えた",
+            "練習環境を改善した",
+            "運営費用の見直しをした"
+          ],
+          "visualElements": "黄色チェックマーク、薄黄色背景"
+        },
+        "bottomSection": {
+          "elements": ["高校の部活は評価されづらいので、大学時代のエピソードにしよう。", "3/7表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "部活・サークル経験での具体的エピソード例提示",
+      "designElements": {
+        "colorScheme": ["白色", "黄色", "薄黄色", "黒色"],
+        "typography": "通常フォント、チェックリスト形式",
+        "visualHierarchy": "ヘッダー→リスト→アドバイス順",
+        "trustSignals": ["具体的なエピソード例", "実用的アドバイス"],
+        "engagementElements": ["チェックマーク", "色分け"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（機能なし）",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": 4,
+        "totalPages": 7,
+        "pageIndicator": "4/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "ヘッダー + チェックリスト + アドバイス",
+        "headerType": "帯状装飾付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["学業、ゼミ経験編"],
+          "layout": "黄色装飾線付きヘッダー"
+        },
+        "middleSection": {
+          "format": "checklist-with-yellow-checkmarks",
+          "backgroundColor": "薄黄色",
+          "items": [
+            "対立した意見をまとめた",
+            "仮説と検証を繰り返した",
+            "徹底したアンケート調査を行った",
+            "チームの共通目標を設定した",
+            "目標に向けて計画を立てた",
+            "コツコツと努力し資格を取った",
+            "グループを引っ張った"
+          ],
+          "visualElements": "黄色チェックマーク、薄黄色背景"
+        },
+        "bottomSection": {
+          "elements": ["できればなるべく他の人と関わった経験を話すのがおすすめ。資格とかよりも", "4/7表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "学業・ゼミ経験での具体的エピソード例提示",
+      "designElements": {
+        "colorScheme": ["白色", "黄色", "薄黄色", "黒色"],
+        "typography": "通常フォント、チェックリスト形式",
+        "visualHierarchy": "ヘッダー→リスト→アドバイス順",
+        "trustSignals": ["具体的なエピソード例", "実用的アドバイス"],
+        "engagementElements": ["チェックマーク", "色分け"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（機能なし）",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": 5,
+        "totalPages": 7,
+        "pageIndicator": "5/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "2セクション構成（留学+インターン）",
+        "headerType": "2つの帯状装飾付きタイトル"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["留学経験編", "長期インターン"],
+          "layout": "2つの黄色装飾線付きヘッダー"
+        },
+        "middleSection": {
+          "format": "dual-checklist-sections",
+          "backgroundColor": "薄黄色",
+          "items": [
+            "留学：課題を分析し、語学力をあげた",
+            "留学：グループワークでメンバーをまとめた",
+            "留学：周りに協力を仰ぎイベントを成功させた",
+            "インターン：営業で目標達成した",
+            "インターン：メディア運営で閲覧数をあげた",
+            "インターン：リーダーとしてメンバーの数字をあげた"
+          ],
+          "visualElements": "黄色チェックマーク、薄黄色背景、2セクション分割"
+        },
+        "bottomSection": {
+          "elements": ["5/7表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "留学・インターン経験での具体的エピソード例提示",
+      "designElements": {
+        "colorScheme": ["白色", "黄色", "薄黄色", "黒色"],
+        "typography": "通常フォント、チェックリスト形式",
+        "visualHierarchy": "2つのヘッダー→各リスト順",
+        "trustSignals": ["具体的なエピソード例", "多様な経験カテゴリ"],
+        "engagementElements": ["チェックマーク", "セクション分割"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（機能なし）",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": 6,
+        "totalPages": 7,
+        "pageIndicator": "6/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "吹き出し + メッセージ + 問いかけ",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["いやいや、そんなエピソードないよ..."],
+          "layout": "吹き出し形式、キャラクター付き"
+        },
+        "middleSection": {
+          "format": "empathy-problem-hope-sequence",
+          "backgroundColor": "白色",
+          "items": [
+            "と思ったあなた！",
+            "ガクチカがないとホワイト企業への入社は難しいです。",
+            "今から3ヶ月あればガクチカは作れます。"
+          ],
+          "visualElements": "女性キャラクター、赤文字強調"
+        },
+        "bottomSection": {
+          "elements": ["じゃあ、どうやって作るの？", "6/7表示"],
+          "ctaElements": "次への誘導質問"
+        }
+      },
+      "actualRole": "共感創出・問題提起・希望提示・転換",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "通常フォント、赤文字強調",
+        "visualHierarchy": "吹き出し→共感→問題→希望→質問順",
+        "trustSignals": ["3ヶ月という具体的期間"],
+        "engagementElements": ["キャラクター使用", "親しみやすい口調"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": 7,
+        "totalPages": 7,
+        "pageIndicator": "7/7"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "解決策提示 + プロフィール画面 + CTA",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は..."],
+          "layout": "上部に説明文、赤字強調"
+        },
+        "middleSection": {
+          "format": "solution-with-profile-screenshot",
+          "backgroundColor": "白色",
+          "items": [
+            "プロフィール画面のスクリーンショット",
+            "1冊のテキストにまとめています！",
+            "job-hun.com/ab/shukatsu_lp_ins"
+          ],
+          "visualElements": "プロフィール画面、吹き出し、指差しアイコン、赤枠"
+        },
+        "bottomSection": {
+          "elements": ["プロフィールのURLからお受け取りください！", "7/7表示"],
+          "ctaElements": "赤文字でのURL誘導"
+        }
+      },
+      "actualRole": "具体的解決策の提示と行動促進",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "通常フォント、赤文字強調",
+        "visualHierarchy": "課題→解決策→証拠→行動促進順",
+        "trustSignals": ["プロフィール画面", "大手3社内定の実績"],
+        "engagementElements": ["吹き出しデザイン", "視覚的指示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

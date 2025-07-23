@@ -1,0 +1,95 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 10,
+      "pageIndicators": ["1/10", "2/10", "3/10", "4/10", "5/10", "6/10", "7/10", "8/10", "9/10", "最終ページ"]
+    },
+    "layoutStructure": {
+      "backgroundType": "写真背景（1ページ目）、グレー系背景（2-10ページ）",
+      "backgroundDescription": "1ページ目：スターバックスカップとMacBookキーボード、2-10ページ：薄いベージュ・グレー系無地",
+      "overlayStructure": "白色カード重ね（2-9ページ）、透明オーバーレイ（10ページ）",
+      "headerType": "ページインジケーター右上固定"
+    },
+    "contentDistribution": {
+      "page1": {
+        "topSection": "ページインジケーター 1/10",
+        "middleSection": "大きな白文字「やめない方が良い職場6選」中央配置",
+        "bottomSection": "アカウント情報とInstagramUI"
+      },
+      "page2": {
+        "topSection": "薄茶色長方形「今の職場って恵まれてるのかな？」",
+        "middleSection": "赤文字「やめない方が良い職場には特徴がある！」",
+        "bottomSection": "説明文とプレビューテキスト「辞めない方が良い職場を早速チェック」"
+      },
+      "pages3-8": {
+        "format": "番号付き構造（01-06）",
+        "topSection": "番号（01-06）と下線",
+        "middleSection": {
+          "titleBox": "薄茶色背景のタイトルボックス",
+          "description": "説明文（グレー背景）",
+          "pointSection": "「Point」ラベル付きの重要ポイント"
+        },
+        "bottomSection": "次ページプレビュー（右下角）"
+      },
+      "page9": {
+        "topSection": "保存促進メッセージ",
+        "middleSection": {
+          "title": "やめない方が良い職場6選（下線付き）",
+          "checklist": "6項目のチェックマーク付きリスト",
+          "colors": ["黒文字", "赤文字", "赤文字", "赤文字", "オレンジ文字", "黒文字"]
+        },
+        "bottomSection": "メッセージとイラスト、保存アイコン"
+      },
+      "page10": {
+        "background": "人物写真（耳元のアップ）",
+        "overlay": "半透明オーバーレイ",
+        "elements": {
+          "topMessage": "黄色文字「あと60秒ください。」",
+          "subMessage": "白文字「いまの会社に不満がある人は..」",
+          "ctaText": "青と赤の文字「転職活動始めよう」",
+          "profileArea": "スマートフォン画面のモックアップ",
+          "arrow": "白い矢印でプロフィールを指示"
+        }
+      }
+    },
+    "actualRole": {
+      "page1": "cover-title",
+      "page2": "problem-awareness-introduction",
+      "page3": "content-item-human-relations",
+      "page4": "content-item-evaluation-system",
+      "page5": "content-item-turnover-rate",
+      "page6": "content-item-education-support",
+      "page7": "content-item-management-stability",
+      "page8": "content-item-job-satisfaction",
+      "page9": "summary-checklist-save-prompt",
+      "page10": "cta-profile-redirect"
+    },
+    "designElements": {
+      "colorScheme": ["白", "薄茶色（ベージュ）", "グレー", "赤", "黄色", "青", "オレンジ", "黒"],
+      "typography": "明朝体ベース、太字タイトル、通常ウェイト本文",
+      "visualHierarchy": [
+        "1. 番号（01-06）",
+        "2. タイトル（薄茶色背景）",
+        "3. 説明文（グレー背景）",
+        "4. Pointセクション",
+        "5. 次ページプレビュー"
+      ],
+      "trustSignals": ["番号付け体系化", "具体的な説明", "Point要約"],
+      "engagementElements": ["ページプレビュー", "保存促進", "CTA"]
+    },
+    "interactionElements": {
+      "checkboxes": "9ページ目にチェックマーク6個（✓）",
+      "buttons": "保存アイコンと矢印",
+      "swipeIndicators": "ページインジケーター（x/10）",
+      "savePrompts": "保存してお く（矢印付き）、このチャンスを逃すずに！"
+    },
+    "specificObservations": {
+      "numberingSystem": "01-06の統一した番号体系",
+      "colorCoding": "9ページ目のチェックリストで項目別色分け",
+      "backgroundConsistency": "2-9ページの統一したベージュ系背景",
+      "ctaProgression": "9ページ保存→10ページプロフィール誘導の2段階CTA",
+      "visualFlow": "番号順の体系的な情報提示",
+      "mobileOptimization": "10ページ目のスマートフォン画面表示"
+    }
+  }
+}

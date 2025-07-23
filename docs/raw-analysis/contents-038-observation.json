@@ -1,0 +1,500 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": 1,
+        "totalPages": 11,
+        "pageIndicator": "1/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "ピンク色背景",
+        "overlayStructure": "中央に白い角丸カード配置",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["1/11表示"],
+          "layout": "右上角"
+        },
+        "middleSection": {
+          "format": "centered-card-title",
+          "backgroundColor": "白色",
+          "items": ["人事が思う", "「イタイ」", "就活生の特徴"],
+          "visualElements": "角丸白カード、黒文字、赤文字「イタイ」"
+        },
+        "bottomSection": {
+          "elements": ["ハートアイコン", "182いいね"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "注意喚起を伴うタイトル表示",
+      "designElements": {
+        "colorScheme": ["ピンク色", "白色", "黒色", "赤色"],
+        "typography": "太字フォント、赤文字強調",
+        "visualHierarchy": "中央集中、タイトル最優先",
+        "trustSignals": ["人事の視点という権威性"],
+        "engagementElements": ["「イタイ」という印象的な表現", "角丸デザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": 2,
+        "totalPages": 11,
+        "pageIndicator": "2/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "手書き風テキストと漫画キャラクター",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["大学9%言われなくていと言われているのにあえ？言う"],
+          "layout": "上部に手書き風テキスト"
+        },
+        "middleSection": {
+          "format": "manga-character-dialogue",
+          "backgroundColor": "白色",
+          "items": ["優良大学3年の〇〇と学、本日は...", "もはや高学歴！"],
+          "visualElements": "青いスーツのキャラクター、吹き出し"
+        },
+        "bottomSection": {
+          "elements": ["2/11表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "優秀な就活生の設定と問題提起の導入",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "テキスト→キャラクター→対話",
+        "trustSignals": ["優良大学生という具体的設定"],
+        "engagementElements": ["漫画風キャラクター", "親しみやすい表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": 3,
+        "totalPages": 11,
+        "pageIndicator": "3/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "手書き風テキストと2キャラクター対話",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["説明会でムダに相談しちゃう"],
+          "layout": "上部に手書き風テキスト"
+        },
+        "middleSection": {
+          "format": "two-character-dialogue",
+          "backgroundColor": "白色",
+          "items": ["ううううん"],
+          "visualElements": "2人のキャラクター、青いスーツ"
+        },
+        "bottomSection": {
+          "elements": ["3/11表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的問題点1の提示",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "問題提示→キャラクター対話",
+        "trustSignals": ["具体的な行動例"],
+        "engagementElements": ["対話形式", "表情豊かなキャラクター"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": 4,
+        "totalPages": 11,
+        "pageIndicator": "4/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "手書き風テキストとキャラクター対話",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["エントリーシートで適切なアピールをしてしまう"],
+          "layout": "上部に手書き風テキスト"
+        },
+        "middleSection": {
+          "format": "character-with-document",
+          "backgroundColor": "白色",
+          "items": ["毎日20時間以上も練習しまして。", "詳細なかゆ"],
+          "visualElements": "涙を流すキャラクター、パソコン、青いスーツ"
+        },
+        "bottomSection": {
+          "elements": ["4/11表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的問題点2の提示",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "問題提示→状況描写→感情表現",
+        "trustSignals": ["具体的な時間数（20時間）"],
+        "engagementElements": ["感情豊かな表現", "リアルな状況描写"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": 5,
+        "totalPages": 11,
+        "pageIndicator": "5/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "手書き風テキストと対話シーン",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["資格だけをアピールしてしまう"],
+          "layout": "上部に手書き風テキスト"
+        },
+        "middleSection": {
+          "format": "dialogue-between-characters",
+          "backgroundColor": "白色",
+          "items": ["秘書検定持ってます！", "なんで うちの会社なの？"],
+          "visualElements": "2キャラクター対話、青いスーツ"
+        },
+        "bottomSection": {
+          "elements": ["5/11表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的問題点3の提示",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "問題提示→具体例対話",
+        "trustSignals": ["具体的な資格名（秘書検定）"],
+        "engagementElements": ["リアルな面接対話", "人事の本音表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": 6,
+        "totalPages": 11,
+        "pageIndicator": "6/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "手書き風テキストと対話シーン",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["面接で、会社HPに書いてあることを聞いちゃう"],
+          "layout": "上部に手書き風テキスト"
+        },
+        "middleSection": {
+          "format": "dialogue-with-underline",
+          "backgroundColor": "白色",
+          "items": ["仕事の強み", "教えてください！", "これすでに"],
+          "visualElements": "2キャラクター、赤下線強調"
+        },
+        "bottomSection": {
+          "elements": ["6/11表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的問題点4の提示",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色", "赤色"],
+        "typography": "手書き風フォント、赤下線強調",
+        "visualHierarchy": "問題提示→具体例→強調",
+        "trustSignals": ["具体的な質問例"],
+        "engagementElements": ["赤色での強調", "人事の反応描写"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": 7,
+        "totalPages": 11,
+        "pageIndicator": "7/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "手書き風テキストと詳細説明",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["ビジネス業界がヌルすぎてわいわいやらなくなっちゃう"],
+          "layout": "上部に手書き風テキスト"
+        },
+        "middleSection": {
+          "format": "detailed-explanation-with-character",
+          "backgroundColor": "白色",
+          "items": [
+            "1年料30%メンバーと",
+            "インフラ企業史と",
+            "ユーステップ就業",
+            "ともだちです...",
+            "大丈夫？",
+            "意気込のはいいけれど内連みえることだけ作ればOK！"
+          ],
+          "visualElements": "青いスーツキャラクター、吹き出し"
+        },
+        "bottomSection": {
+          "elements": ["7/11表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的問題点5の提示と業界理解の重要性説明",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "問題提示→詳細説明→アドバイス",
+        "trustSignals": ["業界の厳しさという現実"],
+        "engagementElements": ["親身なアドバイス", "心配する表現"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": 8,
+        "totalPages": 11,
+        "pageIndicator": "8/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "手書き風テキストとグループシーン",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["中身がないのにGD（グループディスカッション）でやたらとイニシアリーダーになる"],
+          "layout": "上部に手書き風テキスト"
+        },
+        "middleSection": {
+          "format": "group-discussion-scene",
+          "backgroundColor": "白色",
+          "items": ["複数キャラクターでのグループワーク"],
+          "visualElements": "4人のキャラクター、テーブル、資料"
+        },
+        "bottomSection": {
+          "elements": ["8/11表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的問題点6の提示",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "問題提示→グループシーン描写",
+        "trustSignals": ["GDという具体的場面設定"],
+        "engagementElements": ["複数キャラクター", "リアルなグループワーク場面"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page9": {
+      "pageInfo": {
+        "currentPage": 9,
+        "totalPages": 11,
+        "pageIndicator": "9/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "手書き風テキストと対話シーン",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["集団面接で、1人だけ話せ尽きちゃう"],
+          "layout": "上部に手書き風テキスト"
+        },
+        "middleSection": {
+          "format": "group-interview-dialogue",
+          "backgroundColor": "白色",
+          "items": [
+            "そろそろと〇〇と",
+            "教えてください",
+            "あいいうの考え昔から考える〇〇というものです",
+            "うわの人にも聞きたいんですけど..."
+          ],
+          "visualElements": "3キャラクター、1人泣いている、青いスーツ"
+        },
+        "bottomSection": {
+          "elements": ["9/11表示"],
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体的問題点7の提示",
+      "designElements": {
+        "colorScheme": ["白色", "青色", "黒色"],
+        "typography": "手書き風フォント",
+        "visualHierarchy": "問題提示→集団面接場面→人事の反応",
+        "trustSignals": ["集団面接という具体的状況"],
+        "engagementElements": ["感情表現（涙）", "人事の本音"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page10": {
+      "pageInfo": {
+        "currentPage": 10,
+        "totalPages": 11,
+        "pageIndicator": "10/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "警告メッセージと行動促進",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["乗り遅れないで！"],
+          "layout": "上部に大きな警告文"
+        },
+        "middleSection": {
+          "format": "urgency-message-with-character",
+          "backgroundColor": "白色",
+          "items": [
+            "就活、もう始まってます...！",
+            "就活は先手必勝。",
+            "1日でも早くスタートした人が勝つゲームです。"
+          ],
+          "visualElements": "赤い服のキャラクター、黄色マーカー強調"
+        },
+        "bottomSection": {
+          "elements": [
+            "「でも、何からやればいいの？」そんな就活生のあなたへ",
+            "10/11表示"
+          ],
+          "ctaElements": "吹き出し形式での問いかけ"
+        }
+      },
+      "actualRole": "緊急性の訴求と行動促進",
+      "designElements": {
+        "colorScheme": ["白色", "赤色", "黄色", "黒色"],
+        "typography": "太字フォント、黄色マーカー強調",
+        "visualHierarchy": "警告→理由説明→問いかけ",
+        "trustSignals": ["先手必勝という競争原理"],
+        "engagementElements": ["緊急感のある表現", "読者への直接問いかけ"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    },
+    "page11": {
+      "pageInfo": {
+        "currentPage": 11,
+        "totalPages": 11,
+        "pageIndicator": "11/11"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "解決策提示とプロフィール画面",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": ["大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は..."],
+          "layout": "上部に説明文、赤字強調"
+        },
+        "middleSection": {
+          "format": "solution-with-profile-screenshot",
+          "backgroundColor": "白色",
+          "items": [
+            "プロフィール画面のスクリーンショット",
+            "1冊のテキストにまとめています！",
+            "job-hun.com/ab/shukatsu_lp_ins"
+          ],
+          "visualElements": "プロフィール画面、吹き出し、指差しアイコン、赤枠"
+        },
+        "bottomSection": {
+          "elements": ["プロフィールのURLからお受け取りください！", "11/11表示"],
+          "ctaElements": "赤文字でのURL誘導"
+        }
+      },
+      "actualRole": "具体的解決策の提示と行動促進",
+      "designElements": {
+        "colorScheme": ["白色", "黒色", "赤色"],
+        "typography": "通常フォント、赤文字強調",
+        "visualHierarchy": "課題→解決策→証拠→行動促進",
+        "trustSignals": ["プロフィール画面", "大手3社内定の実績"],
+        "engagementElements": ["吹き出しデザイン", "視覚的指示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "ページ数表示",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

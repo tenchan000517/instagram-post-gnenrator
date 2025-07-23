@@ -1,0 +1,69 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": "16",
+      "contentPages": "14 (15-16ページは販促・キャプション)"
+    },
+    "layoutStructure": {
+      "backgroundType": "統一デザイン",
+      "backgroundDescription": "青色グラデーション（タイトル）→白色背景（コンテンツページ）→ゴールド系（販促）",
+      "overlayStructure": "白色カード重ね（コンテンツページ）",
+      "headerType": "「2025年3月最新AIツール使い分け」統一ヘッダー（下線付き）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "統一ヘッダータイトル",
+        "layout": "センター配置、下線付き"
+      },
+      "middleSection": {
+        "format": "カテゴリタイトル + ツールグリッド表示 + 説明文",
+        "backgroundColor": "白色",
+        "items": [
+          "カテゴリタイトル（太字、中央配置）",
+          "ツールロゴ付きカード（2×2または3×1グリッド）",
+          "実用的コメント・アドバイス"
+        ],
+        "visualElements": "各ツールの実際のロゴ、統一されたカードデザイン"
+      },
+      "bottomSection": {
+        "elements": "キャラクターコメント",
+        "ctaElements": "吹き出し内での体験談・推奨コメント"
+      }
+    },
+    "actualRole": {
+      "page1": "インパクト重視のタイトル告知",
+      "page2": "共感を呼ぶ問題提起（困っている女性の画像使用）",
+      "page3": "客観的判断基準の提示（3つのポイント形式）",
+      "page4": "全体構成の俯瞰（9カテゴリの一覧表示）",
+      "page5-13": "カテゴリ別詳細情報（実際のロゴ付き具体的ツール紹介）",
+      "page14": "総合まとめ（全ツール一覧＋人物による親しみやすさ演出）",
+      "page15": "商品販促（豪華特典アピール）",
+      "page16": "SNS投稿用メタデータ"
+    },
+    "designElements": {
+      "colorScheme": ["青色", "白色", "薄青色（カード背景）", "ゴールド（販促）"],
+      "typography": "明朝体（タイトル）、ゴシック体（本文）",
+      "visualHierarchy": "ヘッダー→カテゴリタイトル→ツールカード→説明文→キャラクターコメント",
+      "trustSignals": ["実際のツールロゴ使用", "具体的な使用体験コメント", "客観的判断基準提示"],
+      "engagementElements": ["親しみやすいキャラクター", "実体験に基づくコメント", "保存促進メッセージ"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし（静的コンテンツ）",
+      "swipeIndicators": "ページ下部のドット表示",
+      "savePrompts": "「見返せるように保存！→」（最終ページ）"
+    },
+    "contentPatterns": {
+      "introductionPattern": "問題提起→解決方針→カテゴリ俯瞰",
+      "detailPattern": "カテゴリ名→ツールロゴ＋名前→説明文→キャラクターコメント",
+      "closingPattern": "まとめ一覧→販促→メタデータ",
+      "consistencyElements": "統一ヘッダー、同じキャラクター、同じカードデザイン、同じレイアウト構造"
+    },
+    "informationDensity": {
+      "per_page": "中程度（1カテゴリあたり2-4ツール）",
+      "total_tools": "27個のAIツール",
+      "categorization": "9つの明確なカテゴリ分け",
+      "practical_advice": "各ページに具体的な使用コメント付き"
+    }
+  }
+}

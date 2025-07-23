@@ -1,0 +1,347 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "8",
+        "pageIndicator": "1/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "白色背景",
+        "overlayStructure": "上部に赤いヘッダー、中央に白いフレーム、内部に黄色アクセント",
+        "headerType": "赤色背景のブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "TOKYO VIC ACADEMY",
+          "layout": "赤背景に白文字でブランド名"
+        },
+        "middleSection": {
+          "format": "フレーム内タイトル",
+          "backgroundColor": "白（フレーム内）",
+          "items": [
+            "AIに\"伝わる話し方\"がカギ",
+            "AI面接",
+            "SHaiN",
+            "ガチ攻略"
+          ],
+          "visualElements": "黄色のアクセントバー、ロボットキャラクター、青い大文字"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ブランド付きタイトルページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "黄", "青", "黒"],
+        "typography": "太字ゴシック体、多様なサイズ",
+        "visualHierarchy": "ブランド→キーフレーズ→メインタイトル",
+        "trustSignals": ["TOKYO VIC ACADEMY"],
+        "engagementElements": ["ガチ攻略", "ロボットキャラクター"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "8",
+        "pageIndicator": "2/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "白色背景、上部に赤いヘッダー",
+        "overlayStructure": "黄色のセクションヘッダー、本文テキストエリア",
+        "headerType": "継続的な赤色ブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ブランドヘッダー継続",
+          "layout": "赤背景に白文字"
+        },
+        "middleSection": {
+          "format": "セクションタイトル＋説明文",
+          "backgroundColor": "白",
+          "items": [
+            "はじめに",
+            "JALの書類選考が通過すると次に待ち受けているのが「AI面接」です。",
+            "AI面接では、表情、話し方、内容、すべて\"見られている\"のに、リアクションしてくれる人はいない。だからこそ難しい。だけど大丈夫！",
+            "見られているポイントさえ分かれば、SHaiNは通過できる。",
+            "今回は、そんな\"AI面接を突破するためのリアルな攻略法\"をぎゅっとまとめました💡"
+          ],
+          "visualElements": "ロボットキャラクター、黄色ヘッダー、電球絵文字"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "背景説明・問題提起ページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "黄", "黒"],
+        "typography": "標準ゴシック体、読みやすいサイズ",
+        "visualHierarchy": "セクションタイトル→説明文→キャラクター",
+        "trustSignals": ["JAL"],
+        "engagementElements": ["電球絵文字", "親しみやすい口調"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "8",
+        "pageIndicator": "3/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "白色背景、上部に赤いヘッダー",
+        "overlayStructure": "黄色のセクションヘッダー、本文、下部にイラスト",
+        "headerType": "継続的な赤色ブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ブランドヘッダー継続",
+          "layout": "赤背景に白文字"
+        },
+        "middleSection": {
+          "format": "セクションタイトル＋説明文",
+          "backgroundColor": "白",
+          "items": [
+            "SHaiNとは？",
+            "企業の\"人手不足\"と\"公平な選考\"を叶えるために使われる、スマホで完結するAI面接ツール。",
+            "質問に対して自分の声・表情・回答内容を録画で残し、AIがスコア化して企業に提出されます。",
+            "でも、「ただ質問に答えるだけ」じゃ落ちるんです。",
+            "評価ポイントは、めちゃくちゃ細かく見られています。"
+          ],
+          "visualElements": "ロボットキャラクター、JAL資料イラスト、望遠鏡を持つ人のイラスト"
+        },
+        "bottomSection": {
+          "elements": "こちらの記事もチェックしてみてね→",
+          "ctaElements": "関連記事への誘導"
+        }
+      },
+      "actualRole": "SHaiN説明・詳細解説ページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "黄", "黒", "水色（資料）"],
+        "typography": "標準ゴシック体",
+        "visualHierarchy": "セクションタイトル→説明文→関連要素",
+        "trustSignals": ["企業の人手不足", "公平な選考"],
+        "engagementElements": ["関連記事誘導", "イラスト要素"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "8",
+        "pageIndicator": "4/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "白色背景、上部に赤いヘッダー",
+        "overlayStructure": "黄色のセクションヘッダー、番号付きリスト",
+        "headerType": "継続的な赤色ブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ブランドヘッダー継続",
+          "layout": "赤背景に白文字"
+        },
+        "middleSection": {
+          "format": "セクションタイトル＋番号付きリスト",
+          "backgroundColor": "白",
+          "items": [
+            "見られているのはココ！",
+            "①表情・声のトーン・視線",
+            "②内容の構造と一貫性", 
+            "③深掘り質問への耐性"
+          ],
+          "visualElements": "ロボットキャラクター、青い番号背景、警告マーク（⚠️）"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "評価ポイント解説ページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "黄", "青", "黒"],
+        "typography": "標準ゴシック体、番号は太字",
+        "visualHierarchy": "セクションタイトル→番号付きリスト→詳細説明",
+        "trustSignals": ["具体的な評価項目"],
+        "engagementElements": ["警告マーク", "番号付き整理"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "8",
+        "pageIndicator": "5/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "白色背景、上部に赤いヘッダー",
+        "overlayStructure": "黄色のセクションヘッダー、チェックリスト形式",
+        "headerType": "継続的な赤色ブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ブランドヘッダー継続",
+          "layout": "赤背景に白文字"
+        },
+        "middleSection": {
+          "format": "セクションタイトル＋チェックリスト",
+          "backgroundColor": "白",
+          "items": [
+            "対策のカギは\"STAR手法\"",
+            "✅S（Situation）：どんな場面だった？",
+            "✅T（Task）：自分は何を求められていた？",
+            "✅A（Action）：どう行動した？",
+            "✅R（Result）：結果はどうなった？"
+          ],
+          "visualElements": "ロボットキャラクター、緑色チェックマーク、JAL資料イラスト"
+        },
+        "bottomSection": {
+          "elements": "こちらの記事で詳しく解説しています→",
+          "ctaElements": "関連記事への誘導"
+        }
+      },
+      "actualRole": "STAR手法解説ページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "黄", "緑", "黒", "水色（資料）"],
+        "typography": "標準ゴシック体、チェックマーク付き",
+        "visualHierarchy": "セクションタイトル→チェックリスト→関連要素",
+        "trustSignals": ["STAR手法", "面接王道"],
+        "engagementElements": ["チェックマーク", "関連記事誘導"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（✅）",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "8",
+        "pageIndicator": "6/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "白色背景、上部に赤いヘッダー",
+        "overlayStructure": "黄色のセクションヘッダー、具体例テキスト",
+        "headerType": "継続的な赤色ブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ブランドヘッダー継続",
+          "layout": "赤背景に白文字"
+        },
+        "middleSection": {
+          "format": "セクションタイトル＋具体例",
+          "backgroundColor": "白",
+          "items": [
+            "たとえばこんな感じ",
+            "質問：「学生時代に頑張ったことは？」",
+            "具体的な回答例（STAR手法適用）",
+            "→「小さな変化に気づき、行動に移せる観察力と提案力」をアピールできます。"
+          ],
+          "visualElements": "ロボットキャラクター、カラー分けされたSTAR要素、青い矢印"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "具体例提示ページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "黄", "ピンク（S）", "赤（T）", "青（A）", "紫（R）", "黒"],
+        "typography": "標準ゴシック体、カラー分けあり",
+        "visualHierarchy": "セクションタイトル→質問→回答例→まとめ",
+        "trustSignals": ["具体的な実例"],
+        "engagementElements": ["カラー分け", "実践的な例"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "8",
+        "pageIndicator": "7/8"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "白色背景、上部に赤いヘッダー",
+        "overlayStructure": "黄色のセクションヘッダー、番号付きリスト、追加説明",
+        "headerType": "継続的な赤色ブランドヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "ブランドヘッダー継続",
+          "layout": "赤背景に白文字"
+        },
+        "middleSection": {
+          "format": "セクションタイトル＋7項目リスト＋追加説明",
+          "backgroundColor": "白",
+          "items": [
+            "SHaiN対策 7つの具体アクション",
+            "1.事前に想定質問と回答を10本用意",
+            "2.全て\"STAR手法\"で構成しておく",
+            "3.明るい場所＋目線はカメラに固定",
+            "4.最初と最後に\"笑顔\"で話す",
+            "5.語尾はしっかり言い切る（曖昧にしない）",
+            "6.回答ごとに一貫性があるか確認",
+            "7.スマホで自撮りして録画チェック📱"
+          ],
+          "visualElements": "ロボットキャラクター、番号付きリスト、スマホ絵文字、ピンク強調文字"
+        },
+        "bottomSection": {
+          "elements": "追加の解説文",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "総合対策リスト・まとめページ",
+      "designElements": {
+        "colorScheme": ["赤", "白", "黄", "黒", "ピンク"],
+        "typography": "標準ゴシック体、番号は太字、一部ピンク強調",
+        "visualHierarchy": "セクションタイトル→番号付きリスト→補足説明",
+        "trustSignals": ["具体的な7つのアクション"],
+        "engagementElements": ["絵文字", "実践的なアドバイス"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

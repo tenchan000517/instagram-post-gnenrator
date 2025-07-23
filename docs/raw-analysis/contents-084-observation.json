@@ -1,0 +1,105 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "2",
+        "pageIndicator": "なし"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "ベージュ色の無地背景",
+        "overlayStructure": "中央にメモ帳風のデザイン要素",
+        "headerType": "MEMOタイトルのみ"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "MEMO",
+          "layout": "上部中央配置、グレー文字"
+        },
+        "middleSection": {
+          "format": "メモ帳風タイトル表示",
+          "backgroundColor": "白（メモ帳部分）",
+          "items": [
+            "今日の一句",
+            "就活力が",
+            "爆上がりする",
+            "AIツール"
+          ],
+          "visualElements": "スパイラルノートの穴、赤文字強調"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "メモ帳風タイトルページ",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "グレー", "赤", "黒"],
+        "typography": "手書き風フォント、赤色での部分強調",
+        "visualHierarchy": "MEMO→今日の一句→メインタイトル",
+        "trustSignals": ["今日の一句"],
+        "engagementElements": ["爆上がり", "メモ帳風デザイン"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "2",
+        "pageIndicator": "なし"
+      },
+      "layoutStructure": {
+        "backgroundType": "色",
+        "backgroundDescription": "ベージュ色の背景",
+        "overlayStructure": "メモ帳風リスト表示、下部に手とペンの写真",
+        "headerType": "タイトルヘッダー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "就活力爆上げツール",
+          "layout": "上部中央、黒文字"
+        },
+        "middleSection": {
+          "format": "チェックボックス付きリスト",
+          "backgroundColor": "白（メモ帳部分）",
+          "items": [
+            "☑ Genspark = 企業研究",
+            "☑ v0 = スライドの自動生成",
+            "☑ Gemini = データ分析",
+            "☑ Mapify = 情報の自動整理",
+            "☑ Gladia = 自動文字起こし",
+            "☑ Nolang = サイトの動画化",
+            "☑ Napkin AI = 図解生成",
+            "☑ 3秒敬語 = メール作成",
+            "☑ Notion = タスク管理"
+          ],
+          "visualElements": "チェックマーク、赤文字のツール名、罫線"
+        },
+        "bottomSection": {
+          "elements": "手とペンの写真",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツールリスト提示ページ",
+      "designElements": {
+        "colorScheme": ["ベージュ", "白", "グレー", "赤", "黒"],
+        "typography": "標準ゴシック体、赤文字での名前強調",
+        "visualHierarchy": "タイトル→チェックリスト→実写要素",
+        "trustSignals": ["具体的なツール名", "機能説明"],
+        "engagementElements": ["チェックボックス", "実写の手"]
+      },
+      "interactionElements": {
+        "checkboxes": "視覚的チェックマーク（☑）",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    }
+  }
+}

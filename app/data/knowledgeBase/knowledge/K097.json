@@ -1,0 +1,118 @@
+{
+  "source": "contents-097",
+  "problemCategory": "デザイン効率化",
+  "problemDescription": "デザイナーの仕事が奪われるのではないかという不安を持ちながらも、AIサービスを知って効率化を図りたい",
+  "postType": "004",
+  "postTypeReason": "デザイナー向けの6つの優秀AIサービスを紹介し、具体的な活用方法を示す実用的な情報提供",
+  "solutionContent": {
+    "概要": "デザイナーの作業を効率化する6つのAIサービスを紹介",
+    "具体的手順": [
+      "各AIサービスの特徴を理解する",
+      "自分の作業に適したサービスを選択する",
+      "URLからアクセスして実際に使ってみる"
+    ],
+    "提供情報": [
+      "colorGPT - カラーコード表示",
+      "Galileo AI - UI自動生成",
+      "Genius by Diagram - Figma連携AI",
+      "Designs.ai - 動画・ロゴ作成",
+      "Uizard - ワイヤーフレームからプロトタイプ",
+      "VANCE AI - 画像加工・修復"
+    ],
+    "実用的なアドバイス": [
+      "各サービスのURLを具体的に提示",
+      "メディア「デザインエクセル」での詳細解説案内",
+      "フォロー・保存・コメントでの情報活用促進"
+    ]
+  },
+  "effectiveExpressions": [
+    "緑色統一のデザインレイアウト",
+    "各サービスの画面キャプチャ表示",
+    "番号付きの整理された情報構成",
+    "実際のツール画面による視覚的説明"
+  ],
+  "searchKeywords": [
+    "AI サービス",
+    "デザイナー",
+    "デザイン効率化",
+    "colorGPT",
+    "Galileo AI",
+    "Figma",
+    "UI デザイン",
+    "プロトタイプ"
+  ],
+  "emotionalTriggers": [
+    "デザイナーの不安への共感",
+    "AIとの共存提案",
+    "効率化への期待",
+    "実用的なツール発見の喜び"
+  ],
+  "marketingStage": "AIツールに興味があるが具体的に何を使えばいいか分からないデザイナー",
+  "knowledgeId": "K097",
+  "pageStructurePattern": "",
+  "actualTitle": "デザイナーの仕事が奪われる？！",
+  "pageCount": 10,
+  "hashTag": "#chatgpt #時短技 #便利機能 #仕事効率化 #デザイン #社会人の勉強垢 #人工知能 #webデザイン #駆け出しデザイナー #仕事効率アップ #aiツール #ai",
+  "detailedContent": {
+    "page1": {
+      "role": "hook-title",
+      "content": "メインタイトルとキャッチフレーズ",
+      "text": "デザイナーの仕事が奪われる？！すごすぎるAIサービスベスト6",
+      "layout": "title-with-background-pattern"
+    },
+    "page2": {
+      "role": "service-introduction-01",
+      "content": "colorGPTの紹介",
+      "text": "スマホカメラで映すだけでカラーコードが表示 colorGPT",
+      "layout": "service-title-with-screenshot"
+    },
+    "page3": {
+      "role": "service-introduction-02",
+      "content": "Galileo AIの紹介",
+      "text": "UIを爆速で自動生成するサービス Galileo AI",
+      "layout": "service-title-with-screenshot"
+    },
+    "page4": {
+      "role": "service-introduction-03",
+      "content": "Genius by Diagramの紹介",
+      "text": "AIがFigma上でUIデザインを共同制作 Genius by Diagram",
+      "layout": "service-title-with-screenshot"
+    },
+    "page5": {
+      "role": "service-introduction-04",
+      "content": "Designs.aiの紹介",
+      "text": "たった2分で動画やロゴが作れる！Designs.ai",
+      "layout": "service-title-with-screenshot"
+    },
+    "page6": {
+      "role": "service-introduction-05",
+      "content": "Uizardの紹介",
+      "text": "手書きのワイヤーをプロトタイプに自動変換 Uizard",
+      "layout": "service-title-with-screenshot"
+    },
+    "page7": {
+      "role": "service-introduction-06",
+      "content": "VANCE AIの紹介",
+      "text": "Photoshopでの画像加工の手間が無くなる！？VANCE AI",
+      "layout": "service-title-with-screenshot"
+    },
+    "page8": {
+      "role": "engagement-promotion",
+      "content": "フォロー・保存・コメント促進",
+      "text": "ストリーズで質問回答しています！フォローお願いします 他の投稿はこちらをタップ！",
+      "layout": "instagram-profile-showcase"
+    },
+    "page9": {
+      "role": "media-promotion",
+      "content": "デザインエクセル媒体の紹介",
+      "text": "メディア「デザインエクセル」でInstagramでの投稿内容を更に詳しく解説していきます♪",
+      "layout": "website-promotion-with-screenshot"
+    },
+    "page10": {
+      "role": "call-to-action-final",
+      "content": "最終エンゲージメント促進",
+      "text": "画面を2回タップすると風船がハートになるよ！@design_excelをつけて是非投稿してみてください！",
+      "layout": "engagement-instruction-with-hashtags"
+    }
+  }
+}

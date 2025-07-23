@@ -1,0 +1,270 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 10,
+      "pageIndicator": "x/10形式で表示"
+    },
+    "generalStructure": {
+      "commonLayout": {
+        "backgroundType": "白色またはベージュ系統一背景",
+        "overlayStructure": "キャラクターイラストと吹き出し中心のレイアウト",
+        "headerStructure": "ページ4-9で赤茶色のヘッダーバー",
+        "bottomArea": "Instagram UI（アカウント情報、エンゲージメント要素）"
+      },
+      "designConsistency": {
+        "colorScheme": ["白色", "ベージュ", "赤茶色", "青色", "ピンク", "黄色"],
+        "characterStyle": "シンプルなウサギキャラクター（線画スタイル）",
+        "textHierarchy": "タイトル→サブタイトル→説明文→キャラクターセリフ",
+        "visualElements": "雲型吹き出し、星マーク、レインボー装飾"
+      }
+    },
+    "pageByPageObservation": {
+      "page1": {
+        "layoutStructure": {
+          "backgroundType": "ベージュ色統一背景",
+          "centralElement": "雲型背景の赤から青のグラデーション"
+        },
+        "contentDistribution": {
+          "centerSection": {
+            "mainTitle": "仕事がデキる人の指示整理術",
+            "titleStyle": "白文字、雲型グラデーション背景内",
+            "visualElement": "右上にウサギキャラクター"
+          },
+          "pageIndicator": "1/10（右上）",
+          "bottomSection": "アカウント情報（bariri0525）"
+        },
+        "actualRole": "タイトル表示・テーマ提示"
+      },
+      "page2": {
+        "layoutStructure": {
+          "backgroundType": "白色背景",
+          "centralLayout": "テキスト中心、下部にキャラクター配置"
+        },
+        "contentDistribution": {
+          "topSection": {
+            "mainText": "みんな言うことが違う。どれが正しいの...？",
+            "subText": "って悩むこと、ある？",
+            "textColor": "赤色（メインテキスト）、黒色（サブテキスト）"
+          },
+          "bottomSection": {
+            "characters": "4体のウサギキャラクター",
+            "expressions": "1体は怒り顔（赤い線）、他は普通の表情",
+            "speechBubbles": "各キャラクターに雲型吹き出し（色付き）"
+          }
+        },
+        "actualRole": "問題提起・共感創出"
+      },
+      "page3": {
+        "layoutStructure": "page2と同一構造",
+        "contentDistribution": {
+          "centerSection": {
+            "mainText": "今回は、仕事がデキる人の指示整理術をご紹介！",
+            "textColor": "赤色",
+            "visualElement": "雲型吹き出し（赤色）"
+          },
+          "bottomSection": {
+            "characters": "3体のウサギキャラクター",
+            "layout": "左1体（説明役）、右2体（聞き役）"
+          }
+        },
+        "actualRole": "解決策導入・予告"
+      },
+      "page4": {
+        "layoutStructure": {
+          "backgroundType": "白色背景",
+          "headerBar": "赤茶色背景のヘッダー（「仕事がデキる人の『指示整理術』」と「4/10」）"
+        },
+        "contentDistribution": {
+          "headerSection": {
+            "title": "直接バトらせる☆",
+            "backgroundColor": "赤茶色",
+            "textColor": "白色"
+          },
+          "dialogueSection": {
+            "speechBubbles": "2つの角丸吹き出し（左右配置）",
+            "content": "ふつう○○だろ！ / は？**でしょ？"
+          },
+          "charactersSection": {
+            "layout": "3体のウサギキャラクター",
+            "expressions": "左右が議論、中央が傍観"
+          },
+          "explanationSection": {
+            "content": "これ鉄則！！！上司と先輩を同じ場所に呼んでバトらせ...話し合わせよう！自分は無邪気に傍観してYO☆"
+          }
+        },
+        "actualRole": "テクニック1の具体的説明"
+      },
+      "page5": {
+        "layoutStructure": "page4と同一構造（ヘッダー付き）",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "時間制限プレッシャー",
+            "backgroundColor": "赤茶色"
+          },
+          "dialogueSection": {
+            "speechBubble": "1つの大きな角丸吹き出し",
+            "content": "明日までに決めないとお客様に影響があるので、本日16時までにお願いします！"
+          },
+          "charactersSection": {
+            "layout": "3体のウサギキャラクター",
+            "expressions": "左が泣き顔（青い涙）、右2体が慌てた表情"
+          },
+          "explanationSection": {
+            "content": "締切を理由にいますぐの決断を迫ろう！"
+          }
+        },
+        "actualRole": "テクニック2の具体的説明"
+      },
+      "page6": {
+        "layoutStructure": "page4と同一構造（ヘッダー付き）",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "議事録で逃がさない☆",
+            "backgroundColor": "赤茶色"
+          },
+          "dialogueSection": {
+            "speechBubble": "1つの角丸吹き出し",
+            "content": "今回決まったことをメールにまとめました！"
+          },
+          "charactersSection": {
+            "layout": "3体のウサギキャラクター",
+            "props": "左のキャラクターが書類を持っている",
+            "expressions": "左が満足げ、右2体が汗をかいている"
+          },
+          "explanationSection": {
+            "content": "話し合い内容を記録！「言ってない」とか言わせない逃がさない☆"
+          }
+        },
+        "actualRole": "テクニック3の具体的説明"
+      },
+      "page7": {
+        "layoutStructure": "page4と同一構造（ヘッダー付き）",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "虎の威力は借りまくり♡",
+            "backgroundColor": "赤茶色"
+          },
+          "dialogueSection": {
+            "speechBubble": "1つの角丸吹き出し",
+            "content": "部長からも判断を求められているのですが...",
+            "additionalElement": "トラのイラスト（ぷち♡マーク付き）"
+          },
+          "charactersSection": {
+            "layout": "3体のウサギキャラクター",
+            "expressions": "左がめまい状態（渦巻き目）、右2体が困った表情"
+          },
+          "explanationSection": {
+            "content": "部長とかのお偉いさんの名前を持ち出して、決断させよ☆"
+          }
+        },
+        "actualRole": "テクニック4の具体的説明"
+      },
+      "page8": {
+        "layoutStructure": "page4と同一構造（ヘッダー付き）",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "困ったちゃん演出",
+            "backgroundColor": "赤茶色"
+          },
+          "dialogueSection": {
+            "speechBubble": "1つの角丸吹き出し",
+            "content": "私では判断できないのでお二人で決めていただけますか？"
+          },
+          "charactersSection": {
+            "layout": "3体のウサギキャラクター",
+            "props": "左のキャラクターが書類を持って困った表情",
+            "expressions": "左が疑問符（？）、右2体が通常表情"
+          },
+          "explanationSection": {
+            "content": "ポップに理解不足を演じて、二人に決めてもらおう！"
+          }
+        },
+        "actualRole": "テクニック5の具体的説明"
+      },
+      "page9": {
+        "layoutStructure": "page4と同一構造（ヘッダー付き）",
+        "contentDistribution": {
+          "headerSection": {
+            "title": "まとめ",
+            "backgroundColor": "赤茶色"
+          },
+          "listSection": {
+            "format": "5項目の箇条書き",
+            "items": [
+              "直接バトらせる☆",
+              "困ったちゃん演出",
+              "時間制限プレッシャー",
+              "虎の威力は借りまくり♡",
+              "議事録で逃がさない☆"
+            ]
+          },
+          "visualSection": {
+            "elements": "レインボー（虹）と星の装飾",
+            "character": "満足そうなウサギキャラクター",
+            "accent": "指示系統オマス（赤文字）"
+          }
+        },
+        "actualRole": "全テクニックの要約・まとめ"
+      },
+      "page10": {
+        "layoutStructure": {
+          "backgroundType": "グレー系背景",
+          "overlayElements": "多数のテキスト要素が散らばって配置"
+        },
+        "contentDistribution": {
+          "headerSection": {
+            "mainTitle": "みんなのホンネ爆発 ばり姉の毒舌きチャンネル",
+            "subtitle": "1,000人以上が参加ちう！",
+            "titleColor": "赤色"
+          },
+          "profileSection": {
+            "avatar": "円形のプロフィール画像",
+            "name": "bariri0525",
+            "followButton": "フォローボタン",
+            "description": "PRINCESS・世界でいちばん熱い夏、自分の不機嫌さを片づけたいです！"
+          },
+          "contentSection": {
+            "features": [
+              "議事録で逃がさない☆",
+              "話し合い内容を記録して今後の混乱を防ごう！",
+              "ばり姉のプロフィール",
+              "1日10回怒られる新人だった",
+              "年商6,000万円稼ぐトップOLになったけど相変わらずポンコツ",
+              "ボケナス失敗談・仕事術発信",
+              "ストーリーズ限定！社会のエグい裏話ぶちまけ中",
+              "31歳中 社会人7年目"
+            ]
+          },
+          "hashtagSection": {
+            "tags": "#社会人 #言葉 #新人 #営業 #ワーママ #仕事術 #仕事",
+            "date": "6月25日"
+          }
+        },
+        "actualRole": "コミュニティ紹介・エンゲージメント促進"
+      }
+    },
+    "designElements": {
+      "colorScheme": ["白色", "ベージュ", "赤茶色", "青色", "ピンク", "黄色", "虹色"],
+      "typography": {
+        "mainTitle": "大きな黒文字または白文字",
+        "headerTitle": "中サイズの白文字（ヘッダーバー内）",
+        "bodyText": "小サイズの黒文字",
+        "accentText": "赤色または色付き文字"
+      },
+      "visualHierarchy": "ヘッダータイトル→キャラクター対話→説明文→装飾要素",
+      "consistencyElements": [
+        "ウサギキャラクターの統一使用",
+        "雲型吹き出しの統一",
+        "赤茶色ヘッダーの統一（page4-9）",
+        "☆マークや♡マークの装飾",
+        "ページ番号の右上配置"
+      ]
+    },
+    "interactionElements": {
+      "characterExpressions": "感情を表現する多様な表情（怒り、泣き、困惑、満足等）",
+      "speechBubbles": "対話形式での説明",
+      "visualCues": "星、レインボー、記号による視覚的強調",
+      "communityInvitation": "最終ページでのコミュニティ参加促進"
+    }
+  }
+}

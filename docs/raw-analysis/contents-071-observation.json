@@ -1,0 +1,85 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 7,
+      "pageIndicator": "Instagramストーリー形式（ページ番号表示なし）"
+    },
+    "layoutStructure": {
+      "backgroundType": "人物・環境写真",
+      "backgroundDescription": "左側：本棚・図書館のような環境、右側：未来的なオフィス・研究室環境",
+      "overlayStructure": "上部カラーバー＋中央白カード＋下部キャラクター",
+      "headerType": "画面上部の水平カラーバー（左オレンジ/右ターコイズ）"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "年代別カラーバー（2020年=オレンジ、2025年=ターコイズ）",
+        "layout": "画面上部を左右で色分け"
+      },
+      "middleSection": {
+        "format": "左右対称の白いカード配置",
+        "backgroundColor": "白色",
+        "items": [
+          "左カード: 従来ツールのアイコン＋名称",
+          "右カード: AIツールのアイコン＋名称"
+        ],
+        "visualElements": "各ツールの公式ロゴアイコンを使用"
+      },
+      "bottomSection": {
+        "elements": "左右にキャラクター配置",
+        "ctaElements": "視覚的な対比演出（表情の変化）"
+      }
+    },
+    "actualRole": "technology-evolution-comparison",
+    "designElements": {
+      "colorScheme": ["オレンジ", "ターコイズ", "白", "背景の茶系/青系"],
+      "typography": "ゴシック体、太字でツール名を表示",
+      "visualHierarchy": "年代バー → ツールアイコン → ツール名 → キャラクター",
+      "trustSignals": ["公式ロゴの使用", "年代の明確な区別"],
+      "engagementElements": ["キャラクターの表情変化", "色による時代の対比"]
+    },
+    "interactionElements": {
+      "checkboxes": "なし",
+      "buttons": "なし",
+      "swipeIndicators": "Instagramの標準スワイプ操作",
+      "savePrompts": "なし"
+    },
+    "detailedPageObservations": {
+      "page1": {
+        "leftSide": "Wikipedia（紙の百科事典のイメージ）+ 困った表情キャラクター",
+        "rightSide": "Gemini（AI星マーク）+ 満足表情キャラクター",
+        "backgroundContrast": "古い図書館 vs 未来的環境"
+      },
+      "page2": {
+        "leftSide": "PowerPointロゴ（オレンジP）",
+        "rightSide": "Genspark（星形ロゴ）"
+      },
+      "page3": {
+        "leftSide": "Microsoft Word（青いWロゴ）",
+        "rightSide": "ChatGPT（組み合わせロゴ）"
+      },
+      "page4": {
+        "leftSide": "Excel（緑のXロゴ）", 
+        "rightSide": "Copilot（カラフルな折り紙風ロゴ）"
+      },
+      "page5": {
+        "leftSide": "Google検索（Gロゴ）",
+        "rightSide": "Perplexity（幾何学模様ロゴ）"
+      },
+      "page6": {
+        "leftSide": "Adobe（赤いAロゴ）",
+        "rightSide": "NotebookLM（黒背景にテキスト）"
+      },
+      "page7": {
+        "leftSide": "Google翻訳（Gと文字ロゴ）",
+        "rightSide": "DeepL（青いロゴ）"
+      }
+    },
+    "consistentElements": {
+      "headerBars": "全ページで統一された年代カラーバー",
+      "cardFormat": "全ページで統一された白いカード形式",
+      "iconPlacement": "各カードの上部中央にアイコン配置",
+      "namePosition": "アイコン下に黒字でツール名表示",
+      "backgroundConsistency": "左側古典的/右側未来的な環境の一貫性"
+    }
+  }
+}

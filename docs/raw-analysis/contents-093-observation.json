@@ -1,0 +1,348 @@
+{
+  "observationData": {
+    "page1": {
+      "pageInfo": {
+        "currentPage": "1",
+        "totalPages": "8",
+        "pageIndicator": "なし（トップページ）"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "「\\アプリもあり/」の小さなテキスト",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "大きなタイトルテキスト",
+          "backgroundColor": "透明",
+          "items": ["スマホで使える", "オススメAI 5選"],
+          "visualElements": "大きなスマートフォンイラスト（中央に抽象的なロゴ）、緑色のアンダーライン"
+        },
+        "bottomSection": {
+          "elements": "なし",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "タイトル・表紙ページ",
+      "designElements": {
+        "colorScheme": ["グレー", "黒", "白", "緑"],
+        "typography": "太字の大きなフォント",
+        "visualHierarchy": "1.アプリもあり 2.スマホで使える（強調） 3.オススメAI 5選",
+        "trustSignals": ["アプリ対応の明記"],
+        "engagementElements": ["緑色のアンダーライン強調", "スマートフォンイラスト"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "なし",
+        "savePrompts": "なし"
+      }
+    },
+    "page2": {
+      "pageInfo": {
+        "currentPage": "2",
+        "totalPages": "8",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "なし",
+        "headerType": "グレーのヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "グレーバーに「①ChatGPT」とロゴ",
+          "layout": "上部全幅"
+        },
+        "middleSection": {
+          "format": "スマートフォン画面＋説明文",
+          "backgroundColor": "白",
+          "items": ["スマートフォン画面（ChatGPTのメール作成インターフェース）"],
+          "visualElements": "青い吹き出し「スマホで手軽に文章生成・画像生成が可能」"
+        },
+        "bottomSection": {
+          "elements": "説明文ブロック",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール1個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "青", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.機能説明吹き出し 3.具体的使用例",
+        "trustSignals": ["実際のアプリ画面表示"],
+        "engagementElements": ["青い吹き出し", "実用的な使用例"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page3": {
+      "pageInfo": {
+        "currentPage": "3",
+        "totalPages": "8",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "なし",
+        "headerType": "グレーのヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "グレーバーに「②ClovaNote」とアイコン",
+          "layout": "上部全幅"
+        },
+        "middleSection": {
+          "format": "スマートフォン画面＋説明文",
+          "backgroundColor": "白",
+          "items": ["スマートフォン画面（ClovaNote の録音・文字起こし画面）"],
+          "visualElements": "青い吹き出し「スマホでどこでも会話録音・文字起こしが可能」"
+        },
+        "bottomSection": {
+          "elements": "説明文ブロック（ChatGPTとの連携言及）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール2個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "青", "緑", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.機能説明吹き出し 3.連携活用法",
+        "trustSignals": ["実際のアプリ画面表示", "他ツールとの連携提案"],
+        "engagementElements": ["青い吹き出し", "音声波形の視覚表示"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page4": {
+      "pageInfo": {
+        "currentPage": "4",
+        "totalPages": "8",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "なし",
+        "headerType": "グレーのヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "グレーバーに「③Canva」とアイコン",
+          "layout": "上部全幅"
+        },
+        "middleSection": {
+          "format": "スマートフォン画面＋説明文",
+          "backgroundColor": "白",
+          "items": ["スマートフォン画面（Canvaデザイン作成画面、羊の画像とマジック生成）"],
+          "visualElements": "青い吹き出し「スマホでいつでもデザイン・資料作成が可能」"
+        },
+        "bottomSection": {
+          "elements": "説明文ブロック（個人体験談含む）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール3個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "青", "紫", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.機能説明吹き出し 3.個人活用例",
+        "trustSignals": ["実際のアプリ画面表示", "個人使用体験談"],
+        "engagementElements": ["青い吹き出し", "カラフルなデザイン画面"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page5": {
+      "pageInfo": {
+        "currentPage": "5",
+        "totalPages": "8",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "なし",
+        "headerType": "グレーのヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "グレーバーに「④Perplexity」とアイコン",
+          "layout": "上部全幅"
+        },
+        "middleSection": {
+          "format": "スマートフォン画面＋説明文",
+          "backgroundColor": "白",
+          "items": ["スマートフォン画面（飯田橋付近のレストラン検索結果とマップ表示）"],
+          "visualElements": "青い吹き出し「スマホで手軽に情報収集が可能」"
+        },
+        "bottomSection": {
+          "elements": "説明文ブロック（多様な活用場面の説明）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール4個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "青", "緑（マップ）", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.機能説明吹き出し 3.多様な活用例",
+        "trustSignals": ["実際のアプリ画面表示", "具体的な検索結果"],
+        "engagementElements": ["青い吹き出し", "マップ表示", "実店舗情報"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page6": {
+      "pageInfo": {
+        "currentPage": "6",
+        "totalPages": "8",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "なし",
+        "headerType": "グレーのヘッダーバー"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "グレーバーに「⑤ChatPDF」とアイコン",
+          "layout": "上部全幅"
+        },
+        "middleSection": {
+          "format": "スマートフォン画面＋説明文",
+          "backgroundColor": "白",
+          "items": ["スマートフォン画面（PDFチャット画面、戦略的情報探査研究に関する質問応答）"],
+          "visualElements": "青い吹き出し「スマホでどこでもPDFの解析が可能」"
+        },
+        "bottomSection": {
+          "elements": "説明文ブロック（AI要約機能の説明）",
+          "ctaElements": "なし"
+        }
+      },
+      "actualRole": "ツール5個目の詳細説明ページ",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "青", "ピンク", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.ツール名 2.機能説明吹き出し 3.AI処理能力の説明",
+        "trustSignals": ["実際のアプリ画面表示", "専門文書の処理例"],
+        "engagementElements": ["青い吹き出し", "学術的な内容の処理例"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page7": {
+      "pageInfo": {
+        "currentPage": "7",
+        "totalPages": "8",
+        "pageIndicator": "下部にドットインジケータ"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "薄いグレー背景",
+        "overlayStructure": "なし",
+        "headerType": "グレーのヘッダーバー「まとめ」"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "グレーバーに「まとめ」",
+          "layout": "上部全幅"
+        },
+        "middleSection": {
+          "format": "表形式のツール一覧",
+          "backgroundColor": "白",
+          "items": ["5つのツール名を番号付きで左列に、対応するアイコンを右列に配置"],
+          "visualElements": "各ツールの公式アイコン（ChatGPT、ClovaNote、Canva、Perplexity、ChatPDF）"
+        },
+        "bottomSection": {
+          "elements": "行動喚起テキスト「全部スマホ用アプリで利用できるから試してみて！」",
+          "ctaElements": "アプリダウンロード促進"
+        }
+      },
+      "actualRole": "まとめ・行動喚起ページ",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "各ツールのブランドカラー", "黒"],
+        "typography": "見出しは太字、本文は通常フォント",
+        "visualHierarchy": "1.まとめ見出し 2.ツール一覧表 3.行動喚起",
+        "trustSignals": ["公式アイコンの使用", "体系的な整理"],
+        "engagementElements": ["視覚的な表形式", "直接的な行動喚起"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "なし",
+        "swipeIndicators": "下部ドット",
+        "savePrompts": "なし"
+      }
+    },
+    "page8": {
+      "pageInfo": {
+        "currentPage": "8",
+        "totalPages": "8",
+        "pageIndicator": "なし（最終ページ）"
+      },
+      "layoutStructure": {
+        "backgroundType": "単色",
+        "backgroundDescription": "グレー背景",
+        "overlayStructure": "なし",
+        "headerType": "なし"
+      },
+      "contentDistribution": {
+        "topSection": {
+          "elements": "フォロー呼びかけメッセージ",
+          "layout": "上部中央配置"
+        },
+        "middleSection": {
+          "format": "プロフィール情報とフォローボタン",
+          "backgroundColor": "透明",
+          "items": ["プロフィール画像", "sai_chatgpt", "フォローボタン", "統計情報（42投稿、1,260フォロワー、52フォロー中）"],
+          "visualElements": "Instagramプロフィール画面のレイアウト"
+        },
+        "bottomSection": {
+          "elements": "詳細な自己紹介文とハッシュタグ",
+          "ctaElements": "いいね・保存の促進"
+        }
+      },
+      "actualRole": "フォロー促進・プロフィール紹介ページ",
+      "designElements": {
+        "colorScheme": ["グレー", "白", "青", "黒"],
+        "typography": "通常フォントメイン",
+        "visualHierarchy": "1.フォロー呼びかけ 2.プロフィール情報 3.詳細説明",
+        "trustSignals": ["実績数字の表示", "専門性の明記"],
+        "engagementElements": ["フォローボタン", "いいね・保存促進"]
+      },
+      "interactionElements": {
+        "checkboxes": "なし",
+        "buttons": "フォローボタン、メッセージボタン",
+        "swipeIndicators": "なし",
+        "savePrompts": "いいね・保存促進テキスト"
+      }
+    }
+  }
+}

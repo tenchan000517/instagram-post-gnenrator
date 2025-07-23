@@ -1,0 +1,167 @@
+{
+  "source": "contents-100",
+  "problemCategory": "AI導入・活用",
+  "problemDescription": "AIエージェントの社内導入が必要だが具体的にどのツールを選べばいいかわからない、時代の変化に対応できているか不安",
+  "postType": "004",
+  "postTypeReason": "用途別に15種類のAIエージェントを具体的に紹介し、実際の業務効率化に活用できる実用的な情報を提供",
+  "solutionContent": {
+    "概要": "用途別に分類された15種類の実用的なAIエージェントの包括的紹介",
+    "具体的手順": [
+      "自社の課題・用途に合うAIエージェントを選択",
+      "各エージェントの特徴を理解して導入",
+      "実際の業務に適用して効率化を図る"
+    ],
+    "提供情報": [
+      "BootLoopAI - ファームウェア開発特化",
+      "Humoniq - 旅行会社顧客サポート音声AI",
+      "Opennote - AI家庭教師・学習支援",
+      "Kular's Website Visitors - サイト訪問者分析・メール自動送信",
+      "Oki AI - 社内状況レポート自動生成",
+      "Dash - Gmail・Slack・Notion連携統合AI",
+      "Leeroo - 企業データ学習による継続改善AI",
+      "HeroUI - テキストからUI/UX自動デザイン",
+      "Kortix Suna - オープンソース汎用AIエージェント"
+    ],
+    "実用的なアドバイス": [
+      "コスト削減効果の実感",
+      "業務効率化の実現",
+      "成果向上への繋がり",
+      "社内での実際の導入・活用方法"
+    ]
+  },
+  "effectiveExpressions": [
+    "X（Twitter）投稿形式での情報提示",
+    "各AIエージェントの実際の動画デモ",
+    "番号付きの整理された紹介方式",
+    "具体的な用途説明と効果の記載"
+  ],
+  "searchKeywords": [
+    "AI エージェント",
+    "社内導入",
+    "業務効率化",
+    "自動化",
+    "BootLoopAI",
+    "Humoniq",
+    "Opennote",
+    "Dash",
+    "HeroUI",
+    "コスト削減"
+  ],
+  "emotionalTriggers": [
+    "時代遅れへの不安解消",
+    "業務効率化への期待",
+    "コスト削減の実現",
+    "競合優位性の獲得",
+    "具体的な導入イメージの提供"
+  ],
+  "marketingStage": "AIエージェント導入を検討している企業の意思決定者・担当者",
+  "knowledgeId": "K100",
+  "pageStructurePattern": "",
+  "actualTitle": "AIエージェントの社内導入をしないと時代に置いていかれます。",
+  "pageCount": 17,
+  "hashTag": "なし（Xの投稿形式のため）",
+  "detailedContent": {
+    "page1": {
+      "role": "hook-urgency",
+      "content": "時代遅れへの警告と解決策提示",
+      "text": "AIエージェントの社内導入をしないと時代に置いていかれます。実際に多くの業務は既にAIエージェントに任せられます。僕も社内で使っていますが、圧倒的なコスト削減、業務の効率化、成果向上に繋がりました。ということで、用途別の実用的なAIエージェントを15選をまとめました",
+      "layout": "x-post-format"
+    },
+    "page2": {
+      "role": "ai-agent-01",
+      "content": "BootLoopAI紹介",
+      "text": "1. BootLoopAI ファームウェア開発に特化したAIエージェント。コーディングやデバグ等を実行し、数ヶ月かかっていた作業を数分に短縮します。",
+      "layout": "agent-demo-with-video"
+    },
+    "page3": {
+      "role": "ai-agent-02",
+      "content": "Humoniq紹介",
+      "text": "2. Humoniq 旅行会社の顧客サポートを担う音声AIエージェント。人間の代わりに電話対応まで行い、24時間365日、無休で対応してくれます。業務効率と顧客満足度を劇的に向上。",
+      "layout": "agent-demo-with-video"
+    },
+    "page4": {
+      "role": "ai-agent-03",
+      "content": "Opennote紹介",
+      "text": "3. Opennote 生徒一人ひとりに最適化されたビデオレッスンや練習問題を自動生成するAI家庭教師。もはやカリキュラムは生徒ごとにAIが用意して解説もAIがしてくれます。",
+      "layout": "agent-demo-with-illustration"
+    },
+    "page5": {
+      "role": "ai-agent-04",
+      "content": "Kular's Website Visitors紹介",
+      "text": "4. Kular's Website Visitors サイト訪問者を特定・分析し、パーソナライズしたメールを自動送信してくれるAIエージェント。面倒なリード獲得を完全に自動化します。",
+      "layout": "agent-demo-with-video"
+    },
+    "page6": {
+      "role": "ai-agent-05",
+      "content": "Oki AI紹介",
+      "text": "5. Oki AI 社内のコード、チケット、メッセージを全て読み込み、会社の状況をまとめたパーソナライズドレポートを毎日提供してくれるAIエージェント。経営者にとって嬉しい。",
+      "layout": "agent-demo-with-video"
+    },
+    "page7": {
+      "role": "ai-agent-06",
+      "content": "Dash紹介",
+      "text": "6. Dash Gmail、Slack、Notionなどを横断して連携し、情報検索や資料作成、メールの作成等のタスク実行をしてくれるAIエージェント。ワークフローを組んで完全自動化もできます。",
+      "layout": "agent-demo-with-video"
+    },
+    "page8": {
+      "role": "ai-agent-14",
+      "content": "Leeroo紹介",
+      "text": "14. Leeroo 企業のデータやワークフローを自ら学習し、継続的に精度を向上させる「訓練可能」なAIエージェントです。自律的に改善してくれるのが、良いポイント。",
+      "layout": "agent-demo-with-video"
+    },
+    "page9": {
+      "role": "ai-agent-15",
+      "content": "HeroUI紹介",
+      "text": "15. HeroUI テキスト指示だけでウェブサイトやプロダクトのUIをデザイン・開発してくれるAIエージェント。かなり高い精度のUI/UXを作ってくれて、Figmaとの連携もあります。",
+      "layout": "agent-demo-with-screenshot"
+    },
+    "page10": {
+      "role": "bonus-agent",
+      "content": "ボーナス Kortix Suna紹介",
+      "text": "ボーナス. Kortix Suna ブラウザ操作、ファイル管理、API連携など、幅広いタスクをこなすオープンソースの汎用AIエージェント。世界初のオープンソースの汎用型AIエージェントでもあります。",
+      "layout": "agent-demo-with-video"
+    },
+    "page11": {
+      "role": "continuation-indicator",
+      "content": "その他のエージェント紹介継続",
+      "text": "[他の6つのAIエージェントの詳細紹介が続く]",
+      "layout": "continuation-pages"
+    },
+    "page12": {
+      "role": "continuation-indicator",
+      "content": "その他のエージェント紹介継続",
+      "text": "[他の6つのAIエージェントの詳細紹介が続く]",
+      "layout": "continuation-pages"
+    },
+    "page13": {
+      "role": "continuation-indicator",
+      "content": "その他のエージェント紹介継続",
+      "text": "[他の6つのAIエージェントの詳細紹介が続く]",
+      "layout": "continuation-pages"
+    },
+    "page14": {
+      "role": "continuation-indicator",
+      "content": "その他のエージェント紹介継続",
+      "text": "[他の6つのAIエージェントの詳細紹介が続く]",
+      "layout": "continuation-pages"
+    },
+    "page15": {
+      "role": "continuation-indicator",
+      "content": "その他のエージェント紹介継続",
+      "text": "[他の6つのAIエージェントの詳細紹介が続く]",
+      "layout": "continuation-pages"
+    },
+    "page16": {
+      "role": "continuation-indicator",
+      "content": "その他のエージェント紹介継続",
+      "text": "[他の6つのAIエージェントの詳細紹介が続く]",
+      "layout": "continuation-pages"
+    },
+    "page17": {
+      "role": "continuation-indicator",
+      "content": "その他のエージェント紹介継続",
+      "text": "[他の6つのAIエージェントの詳細紹介が続く]",
+      "layout": "continuation-pages"
+    }
+  }
+}

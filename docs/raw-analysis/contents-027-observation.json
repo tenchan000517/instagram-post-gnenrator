@@ -1,0 +1,57 @@
+{
+  "observationData": {
+    "pageInfo": {
+      "totalPages": 9,
+      "pageIndicator": "x/9形式で表示"
+    },
+    "layoutStructure": {
+      "backgroundType": "単色背景",
+      "backgroundDescription": "1ページ目：水色、2-9ページ：白色",
+      "overlayStructure": "情報カードやボックスの重ね配置",
+      "headerType": "青色ヘッダーバーで『聞かれて困った質問』統一"
+    },
+    "contentDistribution": {
+      "topSection": {
+        "elements": "ページインジケーター、ヘッダータイトル（4-7ページ）",
+        "layout": "右上にページ数、中央上部にヘッダー"
+      },
+      "middleSection": {
+        "format": "テキスト中心、Q&A形式",
+        "backgroundColor": "白色ベース",
+        "items": [
+          "問題提起（赤字）",
+          "解決策（黒字）",
+          "質問文（赤字）",
+          "回答アドバイス（黒字）",
+          "実践的Tips（チェックリスト）"
+        ],
+        "visualElements": "人物イラスト、吹き出し、アイコン"
+      },
+      "bottomSection": {
+        "elements": "イラスト配置、Instagram UI",
+        "ctaElements": "最終ページに関連投稿誘導とプロフィールCTA"
+      }
+    },
+    "actualRole": "interview-anxiety-solution-with-practical-qa-guidance",
+    "designElements": {
+      "colorScheme": ["水色", "白", "黒", "赤", "青", "グレー"],
+      "typography": "標準テキスト、赤字強調、黒太字",
+      "visualHierarchy": "問題提起→共感→解決策→具体的Q&A→実践Tips→関連投稿誘導",
+      "trustSignals": ["具体的Q&A提供", "実体験ベース", "実践的アドバイス"],
+      "engagementElements": ["共感的表現", "親しみやすいイラスト", "チェックリスト形式"]
+    },
+    "interactionElements": {
+      "checkboxes": "8ページで3つのチェック項目",
+      "buttons": "なし",
+      "swipeIndicators": "ページドット表示",
+      "savePrompts": "プロフィールから確認くださいという誘導"
+    },
+    "specificObservations": {
+      "emotionalProgression": "問題共感→動揺理解→解決提案→具体的Q&A→実践Tips→継続学習",
+      "questionTypes": "8種類の困った質問を網羅（仕事観、HP感想、理想社会人像、苦手な人、自己表現、企業課題、採用基準、気になるニュース）",
+      "illustrationConsistency": "各ページで状況に応じた人物イラストを配置",
+      "adviceStructure": "質問→回答方針→具体的アドバイスの3段構成",
+      "continuityElement": "最終ページで3つの関連投稿への誘導で学習継続を促進"
+    }
+  }
+}
