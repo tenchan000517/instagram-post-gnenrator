@@ -3,7 +3,9 @@
 import { useState, useEffect } from 'react'
 import { FileText, Send, Lightbulb } from 'lucide-react'
 import KnowledgeBaseSelector from './ui/KnowledgeBaseSelector'
-import { KnowledgeBaseParams } from '@/app/types/knowledgeBase'
+import { KnowledgeBaseParams } from '../types/knowledgeBase'
+import { MasterDataService } from '../services/knowledgeBase/MasterDataService'
+import { KnowledgeMatchingService } from '../services/knowledgeBase/KnowledgeMatchingService'
 
 interface ContentInputProps {
   onSubmit: (content: string, knowledgeBaseParams?: KnowledgeBaseParams) => void
@@ -43,9 +45,92 @@ export default function ContentInput({ onSubmit }: ContentInputProps) {
     }
   }, [])
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (content.trim()) {
-      onSubmit(content, knowledgeBaseParams)
+      // インターセプト: AI生成前にナレッジベースパラメータをログ出力
+      console.log('🔍 AI生成実行前のインターセプト')
+      console.log('='.repeat(50))
+      console.log('📝 入力コンテンツ:', content)
+      console.log('🧠 ナレッジベースパラメータ:', knowledgeBaseParams)
+      
+      if (knowledgeBaseParams?.useKnowledgeBase) {
+        console.log('📊 詳細データ:')
+        console.log('  - TypeID:', knowledgeBaseParams.typeId)
+        console.log('  - TargetID:', knowledgeBaseParams.targetId)
+        console.log('  - PersonaIDs:', knowledgeBaseParams.personaIds)
+        console.log('  - PersonaID数:', knowledgeBaseParams.personaIds?.length || 0)
+        
+        // ペルソナIDからナレッジIDを取得
+        const knowledgeIds = knowledgeBaseParams.personaIds 
+          ? MasterDataService.getKnowledgeIdsForPersonas(knowledgeBaseParams.personaIds)
+          : []
+        
+        console.log('🧠 ナレッジID取得:')
+        console.log('  - KnowledgeIDs:', knowledgeIds)
+        console.log('  - KnowledgeID数:', knowledgeIds.length)
+        
+        // ナレッジIDからナレッジ内容を取得
+        const knowledgeContents = await MasterDataService.getKnowledgeContents(knowledgeIds)
+        
+        console.log('📚 ナレッジ内容取得:')
+        console.log('  - KnowledgeContents数:', knowledgeContents.length)
+        console.log('  - KnowledgeContents:', knowledgeContents)
+        
+        // AI判定で関連ナレッジを選択
+        console.log('🤖 AI判定開始: 関連ナレッジを選択中...')
+        let enhancedParams: KnowledgeBaseParams
+        
+        try {
+          const matchingRequest = { userInput: content, knowledgeContents }
+          const matchResults = await KnowledgeMatchingService.findRelevantKnowledge(matchingRequest)
+          
+          // 🎯 トップスコア選択方式: 最高スコアのナレッジのみ選択
+          const selectedResults = matchResults.length > 0 ? [matchResults[0]] : []
+          const relevantKnowledgeIds = selectedResults.map(r => r.knowledgeId)
+          
+          console.log('✅ AI判定結果:')
+          console.log('  - マッチング結果:', matchResults)
+          console.log('  - 関連ナレッジID:', relevantKnowledgeIds)
+          
+          // AI判定結果のナレッジIDからナレッジデータを実際に取得
+          const filteredKnowledgeContents = await MasterDataService.getKnowledgeContents(relevantKnowledgeIds)
+          
+          console.log('🎯 絞り込み結果:')
+          console.log('  - 絞り込み後ナレッジ数:', filteredKnowledgeContents.length)
+          console.log('  - 絞り込み後ナレッジ:', filteredKnowledgeContents)
+          
+          // 絞り込み済みデータで拡張パラメータ作成
+          enhancedParams = {
+            ...knowledgeBaseParams,
+            knowledgeIds: relevantKnowledgeIds,
+            knowledgeContents: filteredKnowledgeContents,
+            knowledgeData: filteredKnowledgeContents.length > 0 ? filteredKnowledgeContents[0] : null
+          }
+        } catch (error) {
+          console.error('❌ AI判定エラー:', error)
+          // エラー時はフォールバック: 全ナレッジを使用
+          enhancedParams = {
+            ...knowledgeBaseParams,
+            knowledgeIds,
+            knowledgeContents,
+            knowledgeData: knowledgeContents.length > 0 ? knowledgeContents[0] : null
+          }
+        }
+        
+        console.log('🚀 親コンポーネントに渡すデータ:')
+        console.log('  - content:', content)
+        console.log('  - enhancedParams:', enhancedParams)
+        console.log('  - enhancedParams詳細:', JSON.stringify(enhancedParams, null, 2))
+        
+        console.log('='.repeat(50))
+        
+        // 拡張されたパラメータでAI生成実行に進む
+        onSubmit(content, enhancedParams)
+      } else {
+        console.log('='.repeat(50))
+        // ナレッジベース未使用の場合はそのまま
+        onSubmit(content, knowledgeBaseParams)
+      }
     }
   }
 

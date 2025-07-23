@@ -1,0 +1,84 @@
+{
+  "pageStructureId": "mock-method-5page",
+  "name": "K004テスト用カスタム構成",
+  "description": "K004の全データを表示するための新テンプレート構成",
+  "targetPersonas": ["P004"],
+  "totalPages": 5,
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "problem-introduction",
+      "templatePattern": {
+        "mainTitle": "string",
+        "problemStatement": "string",
+        "hookPhrases": ["string"]
+      },
+      "purpose": "問題提起と導入フック"
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "method-detail-card",
+      "templatePattern": {
+        "pageTitle": "string",
+        "methods": [{
+          "methodName": "string",
+          "steps": ["string"],
+          "benefit": "string"
+        }]
+      },
+      "purpose": "手法1-2の詳細カード"
+    },
+    {
+      "pageNumber": 3,
+      "templateId": "method-visual-guide",
+      "templatePattern": {
+        "pageTitle": "string",
+        "methods": [{
+          "methodName": "string",
+          "description": "string",
+          "effectiveness": "string"
+        }]
+      },
+      "purpose": "手法3-4のビジュアルガイド"
+    },
+    {
+      "pageNumber": 4,
+      "templateId": "method-summary-keywords",
+      "templatePattern": {
+        "pageTitle": "string",
+        "lastMethod": {
+          "name": "string",
+          "description": "string",
+          "effectiveness": "string"
+        },
+        "relatedKeywords": ["string"],
+        "emotionalBenefits": ["string"]
+      },
+      "purpose": "最終手法とキーワード集"
+    },
+    {
+      "pageNumber": 5,
+      "templateId": "action-call-checklist",
+      "templatePattern": {
+        "pageTitle": "string",
+        "mainMessage": "string",
+        "actionItems": [{
+          "action": "string",
+          "reason": "string"
+        }],
+        "closingHook": "string"
+      },
+      "purpose": "行動喚起とまとめ"
+    }
+  ],
+  "newTemplateNotes": {
+    "naming": "機能的でわかりやすい名前",
+    "templates": [
+      "problem-introduction: 問題導入専用",
+      "method-detail-card: 手法詳細カード表示",
+      "method-visual-guide: ビジュアル手法ガイド",
+      "method-summary-keywords: 手法まとめ＋キーワード",
+      "action-call-checklist: 行動喚起チェックリスト"
+    ]
+  }
+}

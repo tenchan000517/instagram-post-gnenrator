@@ -14,7 +14,7 @@
  */
 
 import { TypeID, TargetID, ThemeID } from '../../types/knowledgeBase'
-import problemSolutionPairs from './data/problemSolutionPairs.json'
+// import problemSolutionPairs from '../../data/knowledgeBase/problemSolutionPairs.json' // 新システム：個別ファイル読み込みに変更
 import personas from './data/masterData/personas.json'
 
 // フィルタリング結果の型定義

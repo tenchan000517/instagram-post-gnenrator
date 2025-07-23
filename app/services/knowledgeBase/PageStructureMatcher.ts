@@ -65,17 +65,16 @@ export class PageStructureMatcher {
   }
 
   /**
-   * TypeID×TargetID×ThemeIDの組み合わせから厳密なページ構成パターンを取得
+   * TypeID×TargetIDの組み合わせから厳密なページ構成パターンを取得
    * 
    * @param typeId - 投稿タイプID (001-004)
-   * @param targetId - ペルソナID (P001-P008)
-   * @param themeId - テーマID (T001-T021)
+   * @param targetId - ターゲットID (T001-T012)
    * @returns マッチしたページ構成パターン
    * @throws PageStructureMatchingError - マッチするパターンが存在しない場合
    */
-  static findExactMatch(typeId: string, targetId: string, themeId: string): MatchingPattern {
+  static findExactMatch(typeId: string, targetId: string): MatchingPattern {
     const matchingData = this.getMatchingData();
-    const matchingKey = `${typeId}-${targetId}-${themeId}`;
+    const matchingKey = `${typeId}-${targetId}`;
 
     console.log(`🔍 Searching for exact match: ${matchingKey}`);
 
@@ -87,7 +86,7 @@ export class PageStructureMatcher {
       console.error(`Available patterns: ${availableKeys.slice(0, 5).join(', ')}... (${availableKeys.length} total)`);
       
       throw new PageStructureMatchingError(
-        `No page structure pattern found for combination: ${matchingKey}. This indicates that this specific TypeID×TargetID×ThemeID combination has not been analyzed and defined yet.`,
+        `No page structure pattern found for combination: ${matchingKey}. This indicates that this specific TypeID×TargetID combination has not been analyzed and defined yet.`,
         matchingKey,
         availableKeys
       );
@@ -125,15 +124,14 @@ export class PageStructureMatcher {
    * 完全なマッチングプロセス：組み合わせからページ構造まで取得
    * 
    * @param typeId - 投稿タイプID
-   * @param targetId - ペルソナID
-   * @param themeId - テーマID
+   * @param targetId - ターゲットID
    * @returns 完全なページ構造定義
    */
-  static getCompletePageStructure(typeId: string, targetId: string, themeId: string): {
+  static getCompletePageStructure(typeId: string, targetId: string): {
     pattern: MatchingPattern;
     structure: PageStructure;
   } {
-    const pattern = this.findExactMatch(typeId, targetId, themeId);
+    const pattern = this.findExactMatch(typeId, targetId);
     const structure = this.loadPageStructure(pattern.pageStructureId);
 
     return { pattern, structure };

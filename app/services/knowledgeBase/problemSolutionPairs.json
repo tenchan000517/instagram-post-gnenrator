@@ -1,15 +1,202 @@
 {
   "metadata": {
     "totalPairs": 116,
-    "sourceRange": "contents-001 to contents-084, contents-101-116", 
-    "personas": ["P001", "P002", "P003", "P004", "P005", "P006", "P007", "P008", "P009", "P010", "P011", "P012", "P013", "P014", "P015", "P016", "P017", "P018", "P019", "P020", "P021", "P022", "P023", "P024", "P025", "P026", "P027", "P028", "P029", "P030", "P031", "P032", "P033", "P034", "P035", "P036", "P037", "P038", "P039", "P040", "P041", "P042", "P043", "P044", "P045", "P046", "P047", "P048", "P049", "P050", "P051", "P052", "P053", "P054", "P055", "P056", "P057", "P058", "P059", "P060", "P061", "P062", "P063", "P064", "P065", "P066", "P067", "P068", "P069", "P070", "P071", "P072", "P073", "P074", "P075", "P076", "P077", "P078", "P079", "P080", "P081", "P082", "P083", "P084", "P085", "P086", "P087", "P088", "P089", "P090", "P091", "P092", "P093", "P094", "P095", "P096", "P097", "P098", "P099", "P100", "P101", "P102", "P103", "P104", "P105", "P106", "P107", "P108", "P109", "P110", "P111", "P112", "P113", "P114", "P115", "P116"],
-    "categories": ["自己分析", "業界研究", "面接対策", "インターン準備", "キャリア不安", "就活効率化", "働き方", "メンタルヘルス", "スキル習得", "時期別対策", "リード獲得", "AI・技術活用", "フリーランス・副業", "技術スキル向上", "便利技術活用", "自己実現・ライフスタイル", "デザイン・クリエイティブツール", "ポートフォリオ・作品制作", "生産性向上・効率化", "起業・開業手続き", "心理学・性格診断", "SNSマーケティング・集客", "行動心理学・マインドセット", "資格・スキル習得", "ジェンダー・職場問題", "女性キャリア・働き方改革", "転職・キャリア変更", "電話マナー・ビジネススキル", "AIツール選択・活用法", "内定後・新卒入社準備", "電話面接・オンライン面接対策", "インターン実施時期・企業選定", "人事・採用担当者の心理", "学歴コンプレックス・自己肯定感", "ガクチカ表現・記述方法", "大学生活・学年別スケジュール", "学生生活残業時間管理", "就活ヘアスタイル・身だしなみ", "自己PR・アピール手法", "インターン・ES提出時期管理", "夏季インターン戦略", "インターン応募スケジュール", "大学生ES・面接準備", "就活成功体験・合格事例", "HR・人事担当者思考パターン", "インターン・ES情報収集", "就活スケジュール管理・時期別対策", "ガクチカ内容充実・活動指導", "就活後期・5月企業情報", "学歴フィルター・大量採用企業", "適性検査・SPI対策", "業界別・企業研究方法", "仕事効率化・業務習慣", "就職活動・不安解消法", "ワークライフバランス・高収入職種", "働き方マインドセット・ストレス軽減", "職場選択・評価基準", "性格特性・職業適性", "思考力向上・認知能力", "仕事効率化・スピード向上", "高パフォーマンス・成果最大化", "中途転職・スキル職", "対人関係・権威性構築", "仕事能力・改善指導", "メンタル強化・習慣改善", "将来対応・資格取得", "上司関係・職場人間関係", "業務整理・指示管理", "完璧主義・生産性改善", "マニュアル作成・業務効率化"],
+    "sourceRange": "contents-001 to contents-084, contents-101-116",
+    "personas": [
+      "P001",
+      "P002",
+      "P003",
+      "P004",
+      "P005",
+      "P006",
+      "P007",
+      "P008",
+      "P009",
+      "P010",
+      "P011",
+      "P012",
+      "P013",
+      "P014",
+      "P015",
+      "P016",
+      "P017",
+      "P018",
+      "P019",
+      "P020",
+      "P021",
+      "P022",
+      "P023",
+      "P024",
+      "P025",
+      "P026",
+      "P027",
+      "P028",
+      "P029",
+      "P030",
+      "P031",
+      "P032",
+      "P033",
+      "P034",
+      "P035",
+      "P036",
+      "P037",
+      "P038",
+      "P039",
+      "P040",
+      "P041",
+      "P042",
+      "P043",
+      "P044",
+      "P045",
+      "P046",
+      "P047",
+      "P048",
+      "P049",
+      "P050",
+      "P051",
+      "P052",
+      "P053",
+      "P054",
+      "P055",
+      "P056",
+      "P057",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P062",
+      "P063",
+      "P064",
+      "P065",
+      "P066",
+      "P067",
+      "P068",
+      "P069",
+      "P070",
+      "P071",
+      "P072",
+      "P073",
+      "P074",
+      "P075",
+      "P076",
+      "P077",
+      "P078",
+      "P079",
+      "P080",
+      "P081",
+      "P082",
+      "P083",
+      "P084",
+      "P085",
+      "P086",
+      "P087",
+      "P088",
+      "P089",
+      "P090",
+      "P091",
+      "P092",
+      "P093",
+      "P094",
+      "P095",
+      "P096",
+      "P097",
+      "P098",
+      "P099",
+      "P100",
+      "P101",
+      "P102",
+      "P103",
+      "P104",
+      "P105",
+      "P106",
+      "P107",
+      "P108",
+      "P109",
+      "P110",
+      "P111",
+      "P112",
+      "P113",
+      "P114",
+      "P115",
+      "P116"
+    ],
+    "categories": [
+      "自己分析",
+      "業界研究",
+      "面接対策",
+      "インターン準備",
+      "キャリア不安",
+      "就活効率化",
+      "働き方",
+      "メンタルヘルス",
+      "スキル習得",
+      "時期別対策",
+      "リード獲得",
+      "AI・技術活用",
+      "フリーランス・副業",
+      "技術スキル向上",
+      "便利技術活用",
+      "自己実現・ライフスタイル",
+      "デザイン・クリエイティブツール",
+      "ポートフォリオ・作品制作",
+      "生産性向上・効率化",
+      "起業・開業手続き",
+      "心理学・性格診断",
+      "SNSマーケティング・集客",
+      "行動心理学・マインドセット",
+      "資格・スキル習得",
+      "ジェンダー・職場問題",
+      "女性キャリア・働き方改革",
+      "転職・キャリア変更",
+      "電話マナー・ビジネススキル",
+      "AIツール選択・活用法",
+      "内定後・新卒入社準備",
+      "電話面接・オンライン面接対策",
+      "インターン実施時期・企業選定",
+      "人事・採用担当者の心理",
+      "学歴コンプレックス・自己肯定感",
+      "ガクチカ表現・記述方法",
+      "大学生活・学年別スケジュール",
+      "学生生活残業時間管理",
+      "就活ヘアスタイル・身だしなみ",
+      "自己PR・アピール手法",
+      "インターン・ES提出時期管理",
+      "夏季インターン戦略",
+      "インターン応募スケジュール",
+      "大学生ES・面接準備",
+      "就活成功体験・合格事例",
+      "HR・人事担当者思考パターン",
+      "インターン・ES情報収集",
+      "就活スケジュール管理・時期別対策",
+      "ガクチカ内容充実・活動指導",
+      "就活後期・5月企業情報",
+      "学歴フィルター・大量採用企業",
+      "適性検査・SPI対策",
+      "業界別・企業研究方法",
+      "仕事効率化・業務習慣",
+      "就職活動・不安解消法",
+      "ワークライフバランス・高収入職種",
+      "働き方マインドセット・ストレス軽減",
+      "職場選択・評価基準",
+      "性格特性・職業適性",
+      "思考力向上・認知能力",
+      "仕事効率化・スピード向上",
+      "高パフォーマンス・成果最大化",
+      "中途転職・スキル職",
+      "対人関係・権威性構築",
+      "仕事能力・改善指導",
+      "メンタル強化・習慣改善",
+      "将来対応・資格取得",
+      "上司関係・職場人間関係",
+      "業務整理・指示管理",
+      "完璧主義・生産性改善",
+      "マニュアル作成・業務効率化"
+    ],
     "extractionDate": "2025-07-22"
   },
   "pairs": {
     "self-analysis-methods": {
       "source": "contents-004",
-      "targetPersona": "P001",
       "problemCategory": "自己分析",
       "role": "practical-guidance",
       "actualTitle": "自分を見直してみよう！自己分析の方法5選",
@@ -18,7 +205,10 @@
         "methods": [
           {
             "name": "自分史の作成",
-            "steps": ["小学校〜大学で印象に残ったできごとを書き出す", "特に印象に残っているものを深掘り"],
+            "steps": [
+              "小学校〜大学で印象に残ったできごとを書き出す",
+              "特に印象に残っているものを深掘り"
+            ],
             "effectiveness": "時系列で自分の価値観の変遷を理解"
           },
           {
@@ -50,14 +240,28 @@
         "自己分析は繰り返しやることが大事！",
         "プロフィールからチェック！"
       ],
-      "searchKeywords": ["自己分析", "方法", "就活", "自分史", "なぜの深掘り", "モチベーショングラフ", "マインドマップ", "ジョハリの窓"],
-      "emotionalTriggers": ["行動促進", "学習意欲", "継続重視"],
+      "searchKeywords": [
+        "自己分析",
+        "方法",
+        "就活",
+        "自分史",
+        "なぜの深掘り",
+        "モチベーショングラフ",
+        "マインドマップ",
+        "ジョハリの窓"
+      ],
+      "emotionalTriggers": [
+        "行動促進",
+        "学習意欲",
+        "継続重視"
+      ],
       "marketingStage": "学習フェーズ",
-      "conversionMethod": "プロフィール誘導"
+      "conversionMethod": "プロフィール誘導",
+      "knowledgeId": "K004",
+      "pageStructurePattern": "mock-method-5page"
     },
     "mid-career-skills": {
       "source": "contents-008",
-      "targetPersona": "P005",
       "problemCategory": "スキル不足",
       "role": "problem-analysis",
       "actualTitle": "社会人5,6年超えてからこの力がないと苦しくなる...",
@@ -80,14 +284,25 @@
         "驚くほど結果が変わります",
         "300名以上の社会人に指導"
       ],
-      "searchKeywords": ["社会人", "スキル不足", "資料作成", "評価", "中堅", "ビジネススキル"],
-      "emotionalTriggers": ["危機感", "共感", "期待感"],
+      "searchKeywords": [
+        "社会人",
+        "スキル不足",
+        "資料作成",
+        "評価",
+        "中堅",
+        "ビジネススキル"
+      ],
+      "emotionalTriggers": [
+        "危機感",
+        "共感",
+        "期待感"
+      ],
       "marketingStage": "問題認識フェーズ",
-      "conversionMethod": "期待感醸成"
+      "conversionMethod": "期待感醸成",
+      "knowledgeId": "K008"
     },
     "job-hunting-efficiency": {
       "source": "contents-023",
-      "targetPersona": "P003",
       "problemCategory": "就活効率化",
       "role": "practical-guidance",
       "actualTitle": "そりゃ内定だわ 大学3年の7月",
@@ -97,11 +312,19 @@
         "steps": [
           {
             "name": "自己分析",
-            "actions": ["中学〜大学エピソード", "なぜ頑張れたか3回深掘り", "長所短所・興味関心・モチベーション源泉"]
+            "actions": [
+              "中学〜大学エピソード",
+              "なぜ頑張れたか3回深掘り",
+              "長所短所・興味関心・モチベーション源泉"
+            ]
           },
           {
             "name": "業界企業研究",
-            "tools": ["リクナビ業界ナビ", "業界動向サーチ", "業界地図"]
+            "tools": [
+              "リクナビ業界ナビ",
+              "業界動向サーチ",
+              "業界地図"
+            ]
           },
           {
             "name": "インターン応募",
@@ -128,14 +351,25 @@
         "就活、もう始まってます...！",
         "先手必勝"
       ],
-      "searchKeywords": ["就活効率化", "7月", "インターン", "ガクチカ", "webテスト", "スケジュール管理"],
-      "emotionalTriggers": ["緊急感", "競争意識", "効率性"],
+      "searchKeywords": [
+        "就活効率化",
+        "7月",
+        "インターン",
+        "ガクチカ",
+        "webテスト",
+        "スケジュール管理"
+      ],
+      "emotionalTriggers": [
+        "緊急感",
+        "競争意識",
+        "効率性"
+      ],
       "marketingStage": "行動促進フェーズ",
-      "conversionMethod": "緊急性演出"
+      "conversionMethod": "緊急性演出",
+      "knowledgeId": "K023"
     },
     "phone-manner": {
       "source": "contents-010",
-      "targetPersona": "P002",
       "problemCategory": "面接対策",
       "role": "practical-guidance",
       "actualTitle": "実は苦手な人が多い？電話のマナー",
@@ -161,14 +395,24 @@
         "クッション言葉",
         "基本トーク例"
       ],
-      "searchKeywords": ["電話マナー", "就活", "企業連絡", "ビジネス会話", "クッション言葉"],
-      "emotionalTriggers": ["共感", "安心感", "実用性"],
+      "searchKeywords": [
+        "電話マナー",
+        "就活",
+        "企業連絡",
+        "ビジネス会話",
+        "クッション言葉"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "安心感",
+        "実用性"
+      ],
       "marketingStage": "学習フェーズ",
-      "conversionMethod": "実用性強調"
+      "conversionMethod": "実用性強調",
+      "knowledgeId": "K010"
     },
     "working-women-anxiety": {
       "source": "contents-001",
-      "targetPersona": "P006",
       "problemCategory": "働き方",
       "role": "empathy-building",
       "actualTitle": "働く女性の不安・不満に関するキャリア相談",
@@ -190,32 +434,78 @@
         "考えてるよ",
         "45分間たっぷり相談"
       ],
-      "searchKeywords": ["働く女性", "キャリア不安", "性別差別", "職場環境", "相談"],
-      "emotionalTriggers": ["共感", "孤独感解消", "支援感"],
+      "searchKeywords": [
+        "働く女性",
+        "キャリア不安",
+        "性別差別",
+        "職場環境",
+        "相談"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "孤独感解消",
+        "支援感"
+      ],
       "marketingStage": "共感フェーズ",
-      "conversionMethod": "無料相談誘導"
+      "conversionMethod": "無料相談誘導",
+      "knowledgeId": "K001"
     },
     "ai-tool-mastery": {
       "source": "contents-058",
-      "targetPersona": "P007",
       "problemCategory": "スキル習得",
       "role": "practical-guidance",
       "actualTitle": "ChatGPTしか使っていない人は損！AI活用ツール12選",
       "problemDescription": "ChatGPTしか使えずAI活用の幅が狭い人の悩み",
       "solutionContent": {
         "tools": [
-          {"name": "Gamma", "purpose": "プレゼンテーション作成"},
-          {"name": "Canva", "purpose": "デザイン作成"},
-          {"name": "Claude", "purpose": "高度な文章作成"},
-          {"name": "Midjourney", "purpose": "画像生成"},
-          {"name": "Copy.ai", "purpose": "コピーライティング"},
-          {"name": "Jasper", "purpose": "マーケティング文章"},
-          {"name": "Notion AI", "purpose": "文書管理・作成"},
-          {"name": "Loom", "purpose": "動画説明作成"},
-          {"name": "Speechify", "purpose": "音声読み上げ"},
-          {"name": "Otter.ai", "purpose": "音声文字起こし"},
-          {"name": "Grammarly", "purpose": "英文校正"},
-          {"name": "DeepL", "purpose": "高精度翻訳"}
+          {
+            "name": "Gamma",
+            "purpose": "プレゼンテーション作成"
+          },
+          {
+            "name": "Canva",
+            "purpose": "デザイン作成"
+          },
+          {
+            "name": "Claude",
+            "purpose": "高度な文章作成"
+          },
+          {
+            "name": "Midjourney",
+            "purpose": "画像生成"
+          },
+          {
+            "name": "Copy.ai",
+            "purpose": "コピーライティング"
+          },
+          {
+            "name": "Jasper",
+            "purpose": "マーケティング文章"
+          },
+          {
+            "name": "Notion AI",
+            "purpose": "文書管理・作成"
+          },
+          {
+            "name": "Loom",
+            "purpose": "動画説明作成"
+          },
+          {
+            "name": "Speechify",
+            "purpose": "音声読み上げ"
+          },
+          {
+            "name": "Otter.ai",
+            "purpose": "音声文字起こし"
+          },
+          {
+            "name": "Grammarly",
+            "purpose": "英文校正"
+          },
+          {
+            "name": "DeepL",
+            "purpose": "高精度翻訳"
+          }
         ],
         "message": "AI上級者がこっそり使うツール"
       },
@@ -225,16 +515,26 @@
         "12選",
         "保存必須です！"
       ],
-      "searchKeywords": ["AI活用", "ChatGPT以外", "ツール", "効率化", "スキルアップ"],
-      "emotionalTriggers": ["優越感", "効率性", "学習意欲"],
+      "searchKeywords": [
+        "AI活用",
+        "ChatGPT以外",
+        "ツール",
+        "効率化",
+        "スキルアップ"
+      ],
+      "emotionalTriggers": [
+        "優越感",
+        "効率性",
+        "学習意欲"
+      ],
       "marketingStage": "スキル向上フェーズ",
-      "conversionMethod": "優越感訴求"
+      "conversionMethod": "優越感訴求",
+      "knowledgeId": "K058"
     },
     "gakutika-perfection": {
       "source": "contents-020",
-      "targetPersona": "P001",
       "problemCategory": "面接対策",
-      "role": "practical-guidance", 
+      "role": "practical-guidance",
       "actualTitle": "人事がイチコロになるガクチカ5つの極意",
       "problemDescription": "人事に響くガクチカが書けない就活生の悩み",
       "solutionContent": {
@@ -273,14 +573,24 @@
         "このガクチカ書き方最悪だな",
         "保存必須"
       ],
-      "searchKeywords": ["ガクチカ", "学生時代", "人事", "ES", "面接対策"],
-      "emotionalTriggers": ["優越感", "効果期待", "差別化"],
+      "searchKeywords": [
+        "ガクチカ",
+        "学生時代",
+        "人事",
+        "ES",
+        "面接対策"
+      ],
+      "emotionalTriggers": [
+        "優越感",
+        "効果期待",
+        "差別化"
+      ],
       "marketingStage": "スキル向上フェーズ",
-      "conversionMethod": "効果強調"
+      "conversionMethod": "効果強調",
+      "knowledgeId": "K020"
     },
     "career-planning-anxiety": {
       "source": "contents-002",
-      "targetPersona": "P006",
       "problemCategory": "キャリア不安",
       "role": "empathy-building",
       "actualTitle": "一生安心できるキャリアを構築する7つのPoint",
@@ -303,15 +613,25 @@
         "女性のキャリア",
         "将来への不安"
       ],
-      "searchKeywords": ["キャリア構築", "女性", "将来不安", "ライフプランニング", "安心"],
-      "emotionalTriggers": ["安心感", "将来への希望", "自立"],
+      "searchKeywords": [
+        "キャリア構築",
+        "女性",
+        "将来不安",
+        "ライフプランニング",
+        "安心"
+      ],
+      "emotionalTriggers": [
+        "安心感",
+        "将来への希望",
+        "自立"
+      ],
       "marketingStage": "解決策提示フェーズ",
-      "conversionMethod": "長期価値訴求"
+      "conversionMethod": "長期価値訴求",
+      "knowledgeId": "K002"
     },
     "interview-confidence": {
       "source": "contents-009",
-      "targetPersona": "P002",
-      "problemCategory": "面接対策", 
+      "problemCategory": "面接対策",
       "role": "empathy-building",
       "actualTitle": "面接が怖い人へ。不安を解消する5つの方法",
       "problemDescription": "面接に対する恐怖心や不安感を抱える就活生の悩み",
@@ -351,14 +671,24 @@
         "一緒に頑張ろう",
         "応援しているよ"
       ],
-      "searchKeywords": ["面接不安", "恐怖心", "緊張", "面接対策", "メンタル"],
-      "emotionalTriggers": ["共感", "安心感", "励まし"],
+      "searchKeywords": [
+        "面接不安",
+        "恐怖心",
+        "緊張",
+        "面接対策",
+        "メンタル"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "安心感",
+        "励まし"
+      ],
       "marketingStage": "共感フェーズ",
-      "conversionMethod": "励まし・支援"
+      "conversionMethod": "励まし・支援",
+      "knowledgeId": "K009"
     },
     "industry-job-type-confusion": {
       "source": "contents-011",
-      "targetPersona": "P004",
       "problemCategory": "業界研究",
       "role": "practical-guidance",
       "actualTitle": "業界と職種その違いは？",
@@ -367,11 +697,21 @@
         "basicConcept": {
           "industry": {
             "definition": "産業ごとに企業を分類したもの",
-            "examples": ["メーカー", "商社", "金融", "広告・出版・マスコミ"]
+            "examples": [
+              "メーカー",
+              "商社",
+              "金融",
+              "広告・出版・マスコミ"
+            ]
           },
           "jobType": {
             "definition": "仕事の内容によって分類したもの",
-            "examples": ["研究系", "営業系", "事務系", "クリエイティブ系"]
+            "examples": [
+              "研究系",
+              "営業系",
+              "事務系",
+              "クリエイティブ系"
+            ]
           }
         },
         "jobCategories": [
@@ -382,7 +722,7 @@
             "industries": "全業界"
           },
           {
-            "name": "事務系職種", 
+            "name": "事務系職種",
             "description": "総務や人事から経理まで、幅広い業務を担当",
             "requiredSkills": "パソコンスキル、正確性、コミュニケーションスキル",
             "industries": "全業界"
@@ -414,18 +754,29 @@
         "代表的な職種と働く業界",
         "ここをTAPしてプロフィールへ"
       ],
-      "searchKeywords": ["業界研究", "職種研究", "業界と職種の違い", "キャリア選択", "就活準備", "仕事の種類"],
-      "emotionalTriggers": ["学習意欲", "安心感", "理解促進"],
+      "searchKeywords": [
+        "業界研究",
+        "職種研究",
+        "業界と職種の違い",
+        "キャリア選択",
+        "就活準備",
+        "仕事の種類"
+      ],
+      "emotionalTriggers": [
+        "学習意欲",
+        "安心感",
+        "理解促進"
+      ],
       "marketingStage": "学習フェーズ",
-      "conversionMethod": "プロフィール誘導"
+      "conversionMethod": "プロフィール誘導",
+      "knowledgeId": "K011"
     },
     "satisfied-employees-companies": {
       "source": "contents-012",
-      "targetPersona": "P004",
       "problemCategory": "業界研究",
       "role": "practical-guidance",
-      "actualTitle": "満足度が高い隠れ優良メーカー7選",
-      "problemDescription": "大手有名企業ばかり知っていて、働きやすい隠れ優良メーカーを見つけられない就活生の悩み",
+      "actualTitle": "働きやすさ重視！満足度が高い優良メーカー7選",
+      "problemDescription": "大手有名企業ばかり知っていて、働きやすさを重視した隠れ優良メーカーを見つけられない就活生の悩み",
       "solutionContent": {
         "companies": [
           {
@@ -479,14 +830,26 @@
         "続きを読む",
         "社員の満足度が高い"
       ],
-      "searchKeywords": ["隠れ優良企業", "メーカー", "社員満足度", "働きやすい会社", "企業研究", "年収", "休日"],
-      "emotionalTriggers": ["発見喜び", "安心感", "優越感"],
+      "searchKeywords": [
+        "隠れ優良企業",
+        "メーカー",
+        "社員満足度",
+        "働きやすい会社",
+        "企業研究",
+        "年収",
+        "休日"
+      ],
+      "emotionalTriggers": [
+        "発見喜び",
+        "安心感",
+        "優越感"
+      ],
       "marketingStage": "情報提供フェーズ",
-      "conversionMethod": "具体的データ価値訴求"
+      "conversionMethod": "具体的データ価値訴求",
+      "knowledgeId": "K012"
     },
     "job-hunting-genuine-feelings": {
       "source": "contents-013",
-      "targetPersona": "P002",
       "problemCategory": "メンタルヘルス",
       "role": "empathy-building",
       "actualTitle": "6月の就活本音5選",
@@ -530,14 +893,27 @@
         "あなたなりのペースで",
         "いつでもあなたを応援している"
       ],
-      "searchKeywords": ["就活本音", "就活不安", "モチベーション", "就活孤独", "メンタル", "励まし", "共感"],
-      "emotionalTriggers": ["共感", "安心感", "励まし", "理解"],
+      "searchKeywords": [
+        "就活本音",
+        "就活不安",
+        "モチベーション",
+        "就活孤独",
+        "メンタル",
+        "励まし",
+        "共感"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "安心感",
+        "励まし",
+        "理解"
+      ],
       "marketingStage": "共感フェーズ",
-      "conversionMethod": "継続的関係構築"
+      "conversionMethod": "継続的関係構築",
+      "knowledgeId": "K013"
     },
     "university-level-target-companies": {
       "source": "contents-014",
-      "targetPersona": "P001",
       "problemCategory": "就活効率化",
       "role": "practical-guidance",
       "actualTitle": "大学別就活の勝ち組ライン",
@@ -546,29 +922,77 @@
         "universityTiers": [
           {
             "tier": "東京一工",
-            "universities": ["東大", "京大", "一橋", "東工大"],
+            "universities": [
+              "東大",
+              "京大",
+              "一橋",
+              "東工大"
+            ],
             "targetCompanies": {
-              "金融": ["日本銀行", "日本政策投資銀行"],
-              "メーカー": ["P&G", "資生堂", "ユニリーバ", "日本ロレアル", "花王"],
-              "IT": ["Google", "Amazon", "マイクロソフト"]
+              "金融": [
+                "日本銀行",
+                "日本政策投資銀行"
+              ],
+              "メーカー": [
+                "P&G",
+                "資生堂",
+                "ユニリーバ",
+                "日本ロレアル",
+                "花王"
+              ],
+              "IT": [
+                "Google",
+                "Amazon",
+                "マイクロソフト"
+              ]
             }
           },
           {
             "tier": "早慶・旧帝大＋神戸",
-            "universities": ["早稲田", "慶応", "旧帝大", "神戸大"],
+            "universities": [
+              "早稲田",
+              "慶応",
+              "旧帝大",
+              "神戸大"
+            ],
             "targetCompanies": {
-              "金融": ["三井住友銀行", "オリックス"],
-              "メーカー": ["ソニー", "サントリー", "味の素"],
-              "IT": ["富士通", "NTTデータ"]
+              "金融": [
+                "三井住友銀行",
+                "オリックス"
+              ],
+              "メーカー": [
+                "ソニー",
+                "サントリー",
+                "味の素"
+              ],
+              "IT": [
+                "富士通",
+                "NTTデータ"
+              ]
             }
           },
           {
             "tier": "MARCH・関関同立・上位～中堅国公立",
-            "universities": ["MARCH", "関関同立", "上位国公立", "中堅国公立"],
+            "universities": [
+              "MARCH",
+              "関関同立",
+              "上位国公立",
+              "中堅国公立"
+            ],
             "targetCompanies": {
-              "金融": ["りそな", "三井住友信託銀行"],
-              "メーカー": ["キーエンス", "Panasonic"],
-              "IT": ["NEC", "日本アイ・ビー・エム", "伊藤忠テクノソリューションズ"]
+              "金融": [
+                "りそな",
+                "三井住友信託銀行"
+              ],
+              "メーカー": [
+                "キーエンス",
+                "Panasonic"
+              ],
+              "IT": [
+                "NEC",
+                "日本アイ・ビー・エム",
+                "伊藤忠テクノソリューションズ"
+              ]
             }
           }
         ],
@@ -582,14 +1006,27 @@
         "乗り遅れないで！",
         "もう始まってます...！"
       ],
-      "searchKeywords": ["大学別就活", "勝ち組ライン", "企業ランク", "大学群", "目標企業", "就活戦略", "効率的就活"],
-      "emotionalTriggers": ["戦略性", "効率性", "緊急感", "優越感"],
+      "searchKeywords": [
+        "大学別就活",
+        "勝ち組ライン",
+        "企業ランク",
+        "大学群",
+        "目標企業",
+        "就活戦略",
+        "効率的就活"
+      ],
+      "emotionalTriggers": [
+        "戦略性",
+        "効率性",
+        "緊急感",
+        "優越感"
+      ],
       "marketingStage": "戦略策定フェーズ",
-      "conversionMethod": "緊急性演出"
+      "conversionMethod": "緊急性演出",
+      "knowledgeId": "K014"
     },
     "gakuchika-writing-mastery": {
       "source": "contents-015",
-      "targetPersona": "P001",
       "problemCategory": "面接対策",
       "role": "practical-guidance",
       "actualTitle": "人事が嫌うガクチカ→ガクチカの極意5つ",
@@ -641,14 +1078,28 @@
         "保存してあとで見返してね！",
         "1人じゃ大変やし、一緒にがんばろー！"
       ],
-      "searchKeywords": ["ガクチカ", "書き方", "面接対策", "ES", "学生時代", "人事", "極意", "テクニック"],
-      "emotionalTriggers": ["効率性", "優越感", "安心感", "実用性"],
+      "searchKeywords": [
+        "ガクチカ",
+        "書き方",
+        "面接対策",
+        "ES",
+        "学生時代",
+        "人事",
+        "極意",
+        "テクニック"
+      ],
+      "emotionalTriggers": [
+        "効率性",
+        "優越感",
+        "安心感",
+        "実用性"
+      ],
       "marketingStage": "スキル向上フェーズ",
-      "conversionMethod": "無料プレゼント誘導"
+      "conversionMethod": "無料プレゼント誘導",
+      "knowledgeId": "K015"
     },
     "company-reality-vs-promises": {
       "source": "contents-016",
-      "targetPersona": "P005",
       "problemCategory": "働き方",
       "role": "problem-analysis",
       "actualTitle": "クスリのアオキきつすぎ...",
@@ -685,14 +1136,28 @@
         "ほぼ毎日重い荷下ろし",
         "乗り遅れないで"
       ],
-      "searchKeywords": ["転職", "労働環境", "説明会", "現実", "ギャップ", "重労働", "健康管理", "企業分析"],
-      "emotionalTriggers": ["危機感", "現実認識", "健康不安", "転職動機"],
+      "searchKeywords": [
+        "転職",
+        "労働環境",
+        "説明会",
+        "現実",
+        "ギャップ",
+        "重労働",
+        "健康管理",
+        "企業分析"
+      ],
+      "emotionalTriggers": [
+        "危機感",
+        "現実認識",
+        "健康不安",
+        "転職動機"
+      ],
       "marketingStage": "問題認識フェーズ",
-      "conversionMethod": "転職支援誘導"
+      "conversionMethod": "転職支援誘導",
+      "knowledgeId": "K016"
     },
     "job-hunting-motivation-recovery": {
       "source": "contents-017",
-      "targetPersona": "P002",
       "problemCategory": "メンタルヘルス",
       "role": "empathy-building",
       "actualTitle": "5月の就活本音5選",
@@ -728,14 +1193,27 @@
         "自分なりのペース、探していこう！",
         "たまには歩いても、止まっても大丈夫◎"
       ],
-      "searchKeywords": ["5月就活", "モチベーション", "就活疲れ", "企業選択", "心理的サポート", "ペース", "励まし"],
-      "emotionalTriggers": ["共感", "安心感", "励まし", "希望"],
+      "searchKeywords": [
+        "5月就活",
+        "モチベーション",
+        "就活疲れ",
+        "企業選択",
+        "心理的サポート",
+        "ペース",
+        "励まし"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "安心感",
+        "励まし",
+        "希望"
+      ],
       "marketingStage": "心理サポートフェーズ",
-      "conversionMethod": "継続的関係構築"
+      "conversionMethod": "継続的関係構築",
+      "knowledgeId": "K017"
     },
     "comprehensive-industry-map": {
       "source": "contents-018",
-      "targetPersona": "P004",
       "problemCategory": "業界研究",
       "role": "practical-guidance",
       "actualTitle": "【就活】業界マップ",
@@ -743,15 +1221,40 @@
       "solutionContent": {
         "industryMap": {
           "axes": {
-            "horizontal": { "left": "厳しい", "right": "穏やか" },
-            "vertical": { "top": "人材重視", "bottom": "論理重視" }
+            "horizontal": {
+              "left": "厳しい",
+              "right": "穏やか"
+            },
+            "vertical": {
+              "top": "人材重視",
+              "bottom": "論理重視"
+            }
           },
           "industryPositions": {
-            "厳しい×人材重視": ["不動産", "テレビ出版"],
-            "厳しい×論理重視": ["SaaS", "ゲーム"],
-            "穏やか×人材重視": ["人材", "インフラ", "アパレル"],
-            "穏やか×論理重視": ["メーカー"],
-            "中間": ["銀行", "商社", "大学", "SIer", "コンサル", "カード"]
+            "厳しい×人材重視": [
+              "不動産",
+              "テレビ出版"
+            ],
+            "厳しい×論理重視": [
+              "SaaS",
+              "ゲーム"
+            ],
+            "穏やか×人材重視": [
+              "人材",
+              "インフラ",
+              "アパレル"
+            ],
+            "穏やか×論理重視": [
+              "メーカー"
+            ],
+            "中間": [
+              "銀行",
+              "商社",
+              "大学",
+              "SIer",
+              "コンサル",
+              "カード"
+            ]
           }
         },
         "detailedIndustries": [
@@ -761,7 +1264,12 @@
               "目に見えるわかりやすい商品を扱いたい人",
               "転勤OK な人（現地勤務の可能性も）"
             ],
-            "companies": ["TOYOTA", "Canon", "Panasonic", "FUJIFILM"],
+            "companies": [
+              "TOYOTA",
+              "Canon",
+              "Panasonic",
+              "FUJIFILM"
+            ],
             "characteristics": "穏やか×論理重視"
           },
           {
@@ -770,7 +1278,12 @@
               "単純作業も苦にならず正確に行える人",
               "教育現場を支えたい人・アナログOKな人"
             ],
-            "companies": ["東洋大学", "青山学院", "愛媛大学", "富山大学"],
+            "companies": [
+              "東洋大学",
+              "青山学院",
+              "愛媛大学",
+              "富山大学"
+            ],
             "characteristics": "中間"
           },
           {
@@ -780,7 +1293,12 @@
               "ノリがよくフットワークが軽い人",
               "明確なビジョンを持っている人"
             ],
-            "companies": ["三菱商事", "伊藤忠", "Marubeni", "長瀬"],
+            "companies": [
+              "三菱商事",
+              "伊藤忠",
+              "Marubeni",
+              "長瀬"
+            ],
             "characteristics": "中間"
           }
         ],
@@ -798,14 +1316,27 @@
         "保存して何度も見返してね",
         "いいね・保存ありがとうございます♪"
       ],
-      "searchKeywords": ["業界マップ", "業界研究", "向いている人", "業界分析", "企業選択", "自己分析", "適性診断"],
-      "emotionalTriggers": ["理解促進", "自己発見", "学習意欲", "安心感"],
+      "searchKeywords": [
+        "業界マップ",
+        "業界研究",
+        "向いている人",
+        "業界分析",
+        "企業選択",
+        "自己分析",
+        "適性診断"
+      ],
+      "emotionalTriggers": [
+        "理解促進",
+        "自己発見",
+        "学習意欲",
+        "安心感"
+      ],
       "marketingStage": "情報提供フェーズ",
-      "conversionMethod": "保存価値訴求"
+      "conversionMethod": "保存価値訴求",
+      "knowledgeId": "K018"
     },
     "summer-internship-strategy": {
       "source": "contents-019",
-      "targetPersona": "P001",
       "problemCategory": "インターン準備",
       "role": "practical-guidance",
       "actualTitle": "夏インターンに間に合う27卒 vs 手遅れ27卒",
@@ -851,14 +1382,28 @@
         "1業界だけを絞るのは難しすぎる！",
         "条件や興味から3～5業界ピックアップ"
       ],
-      "searchKeywords": ["27卒", "夏インターン", "準備", "ES", "業界研究", "戦略", "行動計画", "効率化"],
-      "emotionalTriggers": ["緊急感", "危機感", "効率性", "戦略性"],
+      "searchKeywords": [
+        "27卒",
+        "夏インターン",
+        "準備",
+        "ES",
+        "業界研究",
+        "戦略",
+        "行動計画",
+        "効率化"
+      ],
+      "emotionalTriggers": [
+        "緊急感",
+        "危機感",
+        "効率性",
+        "戦略性"
+      ],
       "marketingStage": "行動促進フェーズ",
-      "conversionMethod": "緊急性演出・無料プレゼント"
+      "conversionMethod": "緊急性演出・無料プレゼント",
+      "knowledgeId": "K019"
     },
     "rely-on-others-strategy": {
       "source": "contents-020",
-      "targetPersona": "P002",
       "problemCategory": "就活効率化",
       "role": "empathy-building",
       "actualTitle": "就活は「頼ったもん勝ち」",
@@ -893,14 +1438,27 @@
         "全て無料で教えます！",
         "頼れる人がいない😭そんなあなたに届け！"
       ],
-      "searchKeywords": ["頼る", "就活サポート", "無料", "ES書き方", "面接対策", "一人じゃない", "専門指導"],
-      "emotionalTriggers": ["共感", "安心感", "支援感", "孤独解消"],
-      "marketingStage": "リード獲得フェーズ", 
-      "conversionMethod": "無料価値提供"
+      "searchKeywords": [
+        "頼る",
+        "就活サポート",
+        "無料",
+        "ES書き方",
+        "面接対策",
+        "一人じゃない",
+        "専門指導"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "安心感",
+        "支援感",
+        "孤独解消"
+      ],
+      "marketingStage": "リード獲得フェーズ",
+      "conversionMethod": "無料価値提供",
+      "knowledgeId": "K020"
     },
     "hidden-excellent-companies": {
       "source": "contents-067",
-      "targetPersona": "P004",
       "problemCategory": "業界研究",
       "role": "practical-guidance",
       "actualTitle": "有名企業しか知らない人必見！隠れ優良メーカー7選",
@@ -951,14 +1509,24 @@
         "7選",
         "知らないと損"
       ],
-      "searchKeywords": ["隠れ優良企業", "メーカー", "BtoB", "中小企業", "企業研究"],
-      "emotionalTriggers": ["発見喜び", "優越感", "情報価値"],
+      "searchKeywords": [
+        "隠れ優良企業",
+        "メーカー",
+        "BtoB",
+        "中小企業",
+        "企業研究"
+      ],
+      "emotionalTriggers": [
+        "発見喜び",
+        "優越感",
+        "情報価値"
+      ],
       "marketingStage": "情報提供フェーズ",
-      "conversionMethod": "情報価値訴求"
+      "conversionMethod": "情報価値訴求",
+      "knowledgeId": "K067"
     },
     "free-job-hunting-support": {
       "source": "contents-020",
-      "targetPersona": "P002",
       "problemCategory": "リード獲得",
       "role": "trust-building",
       "actualTitle": "就活は「頼ったもん勝ち」",
@@ -973,7 +1541,7 @@
               "credibility": "実証済み手法"
             },
             {
-              "benefit": "面接対策", 
+              "benefit": "面接対策",
               "detail": "通過率100%の面接対策",
               "credibility": "実績100%"
             }
@@ -993,7 +1561,7 @@
         },
         "marketingFunnel": {
           "stage1": "価値提示（ES・面接の具体的ベネフィット）",
-          "stage2": "信頼構築（実績数値と無料提供）", 
+          "stage2": "信頼構築（実績数値と無料提供）",
           "stage3": "行動促進（URL誘導）"
         }
       },
@@ -1007,14 +1575,28 @@
         "凡人学生の私でも大手3社内定",
         "プロフィールのURLから"
       ],
-      "searchKeywords": ["就活支援", "ES書き方", "面接対策", "無料", "頼る", "凡人", "内定", "リード獲得"],
-      "emotionalTriggers": ["共感", "無料価値", "実績証明", "行動促進"],
+      "searchKeywords": [
+        "就活支援",
+        "ES書き方",
+        "面接対策",
+        "無料",
+        "頼る",
+        "凡人",
+        "内定",
+        "リード獲得"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "無料価値",
+        "実績証明",
+        "行動促進"
+      ],
       "marketingStage": "リード獲得フェーズ",
-      "conversionMethod": "無料価値提供"
+      "conversionMethod": "無料価値提供",
+      "knowledgeId": "K020"
     },
     "housing-allowance-companies": {
       "source": "contents-021",
-      "targetPersona": "P004",
       "problemCategory": "業界研究",
       "role": "information-catalog",
       "actualTitle": "家賃補助すごい会社8選",
@@ -1041,8 +1623,14 @@
             "companySlogan": "社内のハーエージェントを支える",
             "housingAllowanceType": "conditional",
             "conditions": [
-              { "condition": "オフィスの最寄りから2駅圏内に住めば", "amount": 30000 },
-              { "condition": "5年以上勤務すると", "amount": 50000 }
+              {
+                "condition": "オフィスの最寄りから2駅圏内に住めば",
+                "amount": 30000
+              },
+              {
+                "condition": "5年以上勤務すると",
+                "amount": 50000
+              }
             ]
           },
           {
@@ -1073,7 +1661,10 @@
             "companyName": "京セラ",
             "housingAllowanceType": "dormitory",
             "dormitoryPrice": 4000,
-            "facilities": ["ベッド", "冷蔵庫"],
+            "facilities": [
+              "ベッド",
+              "冷蔵庫"
+            ],
             "description": "会社の寮に住めば家賃4000円で生活できる寮にはベッドや冷蔵庫など全て揃っている！"
           },
           {
@@ -1094,7 +1685,12 @@
         },
         "economicBenefit": {
           "maxBenefit": "サントリー: 家賃8割補助（上限10万円）",
-          "uniqueFeatures": ["距離条件", "結婚条件", "寮制度", "引越ボーナス"],
+          "uniqueFeatures": [
+            "距離条件",
+            "結婚条件",
+            "寮制度",
+            "引越ボーナス"
+          ],
           "decisionSupport": "企業選択時の経済的メリット比較"
         }
       },
@@ -1110,14 +1706,27 @@
         "20万もらえる",
         "家賃4000円で生活できる"
       ],
-      "searchKeywords": ["家賃補助", "住宅手当", "企業比較", "経済的メリット", "福利厚生", "企業選択", "制度比較"],
-      "emotionalTriggers": ["経済的安心", "具体的メリット", "企業魅力", "将来安定"],
+      "searchKeywords": [
+        "家賃補助",
+        "住宅手当",
+        "企業比較",
+        "経済的メリット",
+        "福利厚生",
+        "企業選択",
+        "制度比較"
+      ],
+      "emotionalTriggers": [
+        "経済的安心",
+        "具体的メリット",
+        "企業魅力",
+        "将来安定"
+      ],
       "marketingStage": "情報提供フェーズ",
-      "conversionMethod": "詳細情報価値訴求"
+      "conversionMethod": "詳細情報価値訴求",
+      "knowledgeId": "K021"
     },
     "ai-tool-selection-guide": {
       "source": "contents-101",
-      "targetPersona": "P101",
       "problemCategory": "AI・技術活用",
       "role": "educational-guidance",
       "actualTitle": "2025年3月最新 もう迷わないAIツール使いわけ",
@@ -1145,9 +1754,15 @@
         },
         "categoryClassification": {
           "categories": [
-            "画像生成", "ライティング", "資料作成",
-            "デザイン", "議事録", "調査・検索", 
-            "図解", "動画生成", "文字起こし"
+            "画像生成",
+            "ライティング",
+            "資料作成",
+            "デザイン",
+            "議事録",
+            "調査・検索",
+            "図解",
+            "動画生成",
+            "文字起こし"
           ],
           "totalCategories": 9,
           "approach": "ジャンル別におすすめAIツールを分類・紹介"
@@ -1177,14 +1792,27 @@
         "9つのジャンルにわけて",
         "参考にしてみてくださいね"
       ],
-      "searchKeywords": ["AIツール", "使い分け", "選択基準", "情報整理", "効率化", "ジャンル分類", "最新技術"],
-      "emotionalTriggers": ["情報過多解消", "選択不安軽減", "効率化実現", "体系的理解"],
+      "searchKeywords": [
+        "AIツール",
+        "使い分け",
+        "選択基準",
+        "情報整理",
+        "効率化",
+        "ジャンル分類",
+        "最新技術"
+      ],
+      "emotionalTriggers": [
+        "情報過多解消",
+        "選択不安軽減",
+        "効率化実現",
+        "体系的理解"
+      ],
       "marketingStage": "教育・理解促進フェーズ",
-      "conversionMethod": "実践的教育価値提供"
+      "conversionMethod": "実践的教育価値提供",
+      "knowledgeId": "K101"
     },
     "freelancer-essential-tools": {
       "source": "contents-102",
-      "targetPersona": "P102",
       "problemCategory": "フリーランス・副業",
       "role": "experience-authority",
       "actualTitle": "37歳フリーランス6年目 フリーランス必須ツール10選",
@@ -1235,33 +1863,68 @@
         "私なりに選んだ安心して使える",
         "気になったら保存してね！"
       ],
-      "searchKeywords": ["フリーランス", "副業", "ツール", "会計", "税務", "仕事獲得", "効率化", "必須ツール"],
-      "emotionalTriggers": ["実体験権威", "悩み共感", "安心感", "効率化実現"],
+      "searchKeywords": [
+        "フリーランス",
+        "副業",
+        "ツール",
+        "会計",
+        "税務",
+        "仕事獲得",
+        "効率化",
+        "必須ツール"
+      ],
+      "emotionalTriggers": [
+        "実体験権威",
+        "悩み共感",
+        "安心感",
+        "効率化実現"
+      ],
       "marketingStage": "実用的解決策提供フェーズ",
-      "conversionMethod": "実体験権威による信頼構築"
+      "conversionMethod": "実体験権威による信頼構築",
+      "knowledgeId": "K102"
     },
     "pc-skills-improvement-habits": {
       "source": "contents-103",
-      "targetPersona": "P103",
       "problemCategory": "技術スキル向上",
       "role": "skill-development",
       "actualTitle": "これだけで作業効率UP あなたは何個できてる？PCスキル伸ばす習慣5選",
       "problemDescription": "PCスキルを効率的に向上させたいが何から始めればいいかわからない技術者・事務職の悩み",
       "solutionContent": {
-        "skillCategories": ["基本操作", "ショートカット", "効率化ツール", "自動化", "学習習慣"],
+        "skillCategories": [
+          "基本操作",
+          "ショートカット",
+          "効率化ツール",
+          "自動化",
+          "学習習慣"
+        ],
         "practicalHabits": "日常業務で実践できる5つの習慣",
         "efficiencyFocus": "作業効率UP",
         "selfAssessment": "あなたは何個できてる？"
       },
-      "effectiveExpressions": ["これだけで作業効率UP", "あなたは何個できてる？", "PCスキル伸ばす習慣", "5選"],
-      "searchKeywords": ["PCスキル", "作業効率", "技術向上", "習慣", "スキルアップ"],
-      "emotionalTriggers": ["効率化実現", "スキル向上", "自己査定"],
+      "effectiveExpressions": [
+        "これだけで作業効率UP",
+        "あなたは何個できてる？",
+        "PCスキル伸ばす習慣",
+        "5選"
+      ],
+      "searchKeywords": [
+        "PCスキル",
+        "作業効率",
+        "技術向上",
+        "習慣",
+        "スキルアップ"
+      ],
+      "emotionalTriggers": [
+        "効率化実現",
+        "スキル向上",
+        "自己査定"
+      ],
       "marketingStage": "スキル向上支援フェーズ",
-      "conversionMethod": "実践的習慣提案"
+      "conversionMethod": "実践的習慣提案",
+      "knowledgeId": "K103"
     },
     "qr-code-creative-usage": {
-      "source": "contents-104", 
-      "targetPersona": "P104",
+      "source": "contents-104",
       "problemCategory": "便利技術活用",
       "role": "creative-application",
       "actualTitle": "知らなきゃ損！もっと使おう！QRコードこんな使い方！おすすめ機種5選",
@@ -1272,15 +1935,30 @@
         "practicalApplications": "日常生活・ビジネスでの実用活用",
         "knowledgeGap": "知らなきゃ損"
       },
-      "effectiveExpressions": ["知らなきゃ損！", "もっと使おう！", "QRコードこんな使い方！", "おすすめ機種5選"],
-      "searchKeywords": ["QRコード", "便利技術", "活用方法", "技術活用", "デバイス"],
-      "emotionalTriggers": ["発見喜び", "活用拡大", "便利性実感"],
+      "effectiveExpressions": [
+        "知らなきゃ損！",
+        "もっと使おう！",
+        "QRコードこんな使い方！",
+        "おすすめ機種5選"
+      ],
+      "searchKeywords": [
+        "QRコード",
+        "便利技術",
+        "活用方法",
+        "技術活用",
+        "デバイス"
+      ],
+      "emotionalTriggers": [
+        "発見喜び",
+        "活用拡大",
+        "便利性実感"
+      ],
       "marketingStage": "活用拡大提案フェーズ",
-      "conversionMethod": "創造的活用提案"
+      "conversionMethod": "創造的活用提案",
+      "knowledgeId": "K104"
     },
     "authentic-life-living": {
       "source": "contents-105",
-      "targetPersona": "P105", 
       "problemCategory": "自己実現・ライフスタイル",
       "role": "life-philosophy",
       "actualTitle": "自分に正直に選ぶ 自分の人生をちゃんと生きてる人",
@@ -1291,15 +1969,28 @@
         "personalChoice": "自分に正直に選ぶ",
         "lifePhilosophy": "人生哲学・価値観の確立"
       },
-      "effectiveExpressions": ["自分に正直に選ぶ", "自分の人生をちゃんと生きてる人"],
-      "searchKeywords": ["自己実現", "人生哲学", "自分らしさ", "価値観", "ライフスタイル"],
-      "emotionalTriggers": ["自己受容", "自由感", "authentic感"],
+      "effectiveExpressions": [
+        "自分に正直に選ぶ",
+        "自分の人生をちゃんと生きてる人"
+      ],
+      "searchKeywords": [
+        "自己実現",
+        "人生哲学",
+        "自分らしさ",
+        "価値観",
+        "ライフスタイル"
+      ],
+      "emotionalTriggers": [
+        "自己受容",
+        "自由感",
+        "authentic感"
+      ],
       "marketingStage": "価値観共有フェーズ",
-      "conversionMethod": "価値観共鳴"
+      "conversionMethod": "価値観共鳴",
+      "knowledgeId": "K105"
     },
     "chatgpt-accuracy-prompts": {
       "source": "contents-106",
-      "targetPersona": "P106",
       "problemCategory": "AI・技術活用",
       "role": "technical-optimization",
       "actualTitle": "ChatGPT ワン問題 正確性UP指示文5選",
@@ -1310,15 +2001,28 @@
         "technicalOptimization": "AI活用最適化",
         "practicalPrompts": "実用的な指示文5選"
       },
-      "effectiveExpressions": ["ChatGPT ワン問題", "正確性UP指示文5選"],
-      "searchKeywords": ["ChatGPT", "プロンプト", "AI活用", "正確性", "指示文"],
-      "emotionalTriggers": ["精度向上", "効率化実現", "技術習得"],
+      "effectiveExpressions": [
+        "ChatGPT ワン問題",
+        "正確性UP指示文5選"
+      ],
+      "searchKeywords": [
+        "ChatGPT",
+        "プロンプト",
+        "AI活用",
+        "正確性",
+        "指示文"
+      ],
+      "emotionalTriggers": [
+        "精度向上",
+        "効率化実現",
+        "技術習得"
+      ],
       "marketingStage": "技術最適化支援フェーズ",
-      "conversionMethod": "技術的解決策提供"
+      "conversionMethod": "技術的解決策提供",
+      "knowledgeId": "K106"
     },
     "canva-free-design-techniques": {
       "source": "contents-107",
-      "targetPersona": "P107",
       "problemCategory": "デザイン・クリエイティブツール",
       "role": "creative-mastery",
       "actualTitle": "Canva 最新版！意外と無料 Canvaテク",
@@ -1329,15 +2033,31 @@
         "budgetFriendly": "予算をかけずに高品質デザイン",
         "hiddenTricks": "知られていない無料機能の活用法"
       },
-      "effectiveExpressions": ["最新版！", "意外と無料", "Canvaテク"],
-      "searchKeywords": ["Canva", "無料版", "デザイン", "テクニック", "最新版", "デザインツール"],
-      "emotionalTriggers": ["驚き", "お得感", "技術習得", "予算節約"],
+      "effectiveExpressions": [
+        "最新版！",
+        "意外と無料",
+        "Canvaテク"
+      ],
+      "searchKeywords": [
+        "Canva",
+        "無料版",
+        "デザイン",
+        "テクニック",
+        "最新版",
+        "デザインツール"
+      ],
+      "emotionalTriggers": [
+        "驚き",
+        "お得感",
+        "技術習得",
+        "予算節約"
+      ],
       "marketingStage": "ツール活用支援フェーズ",
-      "conversionMethod": "無料ツール最大活用提案"
+      "conversionMethod": "無料ツール最大活用提案",
+      "knowledgeId": "K107"
     },
     "portfolio-creation-sites": {
       "source": "contents-108",
-      "targetPersona": "P108",
       "problemCategory": "ポートフォリオ・作品制作",
       "role": "practical-guidance",
       "actualTitle": "まだ使ってないん！？ ポートフォリオ爆速作成サイト5選",
@@ -1348,15 +2068,30 @@
         "timeEfficiency": "時間短縮重視",
         "qualityMaintenance": "品質を保ちながら効率化"
       },
-      "effectiveExpressions": ["まだ使ってないん！？", "爆速作成サイト5選"],
-      "searchKeywords": ["ポートフォリオ", "作成サイト", "爆速", "効率化", "クリエイター", "就活"],
-      "emotionalTriggers": ["緊急性", "効率化実現", "時短", "競合優位"],
+      "effectiveExpressions": [
+        "まだ使ってないん！？",
+        "爆速作成サイト5選"
+      ],
+      "searchKeywords": [
+        "ポートフォリオ",
+        "作成サイト",
+        "爆速",
+        "効率化",
+        "クリエイター",
+        "就活"
+      ],
+      "emotionalTriggers": [
+        "緊急性",
+        "効率化実現",
+        "時短",
+        "競合優位"
+      ],
       "marketingStage": "効率化ツール提案フェーズ",
-      "conversionMethod": "時短ツール推奨"
+      "conversionMethod": "時短ツール推奨",
+      "knowledgeId": "K108"
     },
     "work-efficiency-habits": {
       "source": "contents-109",
-      "targetPersona": "P109",
       "problemCategory": "生産性向上・効率化",
       "role": "behavioral-optimization",
       "actualTitle": "仕事が速い人が徹底して手放している3つのある習慣",
@@ -1367,15 +2102,31 @@
         "behavioralChange": "行動習慣の改善",
         "thoroughApproach": "徹底したアプローチ"
       },
-      "effectiveExpressions": ["仕事が速い人が", "徹底して", "手放している", "3つのある習慣"],
-      "searchKeywords": ["仕事効率", "生産性", "時間管理", "習慣改善", "スピードアップ"],
-      "emotionalTriggers": ["成果向上", "行動変容", "効率化実現", "競争優位"],
+      "effectiveExpressions": [
+        "仕事が速い人が",
+        "徹底して",
+        "手放している",
+        "3つのある習慣"
+      ],
+      "searchKeywords": [
+        "仕事効率",
+        "生産性",
+        "時間管理",
+        "習慣改善",
+        "スピードアップ"
+      ],
+      "emotionalTriggers": [
+        "成果向上",
+        "行動変容",
+        "効率化実現",
+        "競争優位"
+      ],
       "marketingStage": "行動改善支援フェーズ",
-      "conversionMethod": "行動習慣最適化提案"
+      "conversionMethod": "行動習慣最適化提案",
+      "knowledgeId": "K109"
     },
     "freelance-startup-experience": {
       "source": "contents-110",
-      "targetPersona": "P110", 
       "problemCategory": "起業・開業手続き",
       "role": "experience-authority",
       "actualTitle": "37歳主婦が複業 月収0円で開業届け出してみた Freelancer",
@@ -1386,16 +2137,32 @@
         "housewifePerspective": "37歳主婦の視点",
         "practicalGuidance": "実際の手続き流れ"
       },
-      "effectiveExpressions": ["37歳主婦が複業", "月収0円で", "開業届け出してみた"],
-      "searchKeywords": ["開業届", "フリーランス", "起業", "副業", "主婦", "手続き"],
-      "emotionalTriggers": ["実体験権威", "安心感", "親近感", "実現可能性"],
+      "effectiveExpressions": [
+        "37歳主婦が複業",
+        "月収0円で",
+        "開業届け出してみた"
+      ],
+      "searchKeywords": [
+        "開業届",
+        "フリーランス",
+        "起業",
+        "副業",
+        "主婦",
+        "手続き"
+      ],
+      "emotionalTriggers": [
+        "実体験権威",
+        "安心感",
+        "親近感",
+        "実現可能性"
+      ],
       "marketingStage": "実体験共有フェーズ",
-      "conversionMethod": "実体験による信頼構築"
+      "conversionMethod": "実体験による信頼構築",
+      "knowledgeId": "K110"
     },
     "mbti-personality-analysis": {
       "source": "contents-111",
-      "targetPersona": "P111",
-      "problemCategory": "心理学・性格診断", 
+      "problemCategory": "心理学・性格診断",
       "role": "information-catalog",
       "actualTitle": "あなたは何タイプ？ MBTI診断 16タイプ特徴まとめ",
       "problemDescription": "自分の性格タイプを理解したい、MBTI診断の詳細を知りたい自己理解・心理学興味者の悩み",
@@ -1405,15 +2172,29 @@
         "typeClassification": "性格タイプ分類システム",
         "detailedAnalysis": "各タイプ詳細解説"
       },
-      "effectiveExpressions": ["あなたは何タイプ？", "16タイプ特徴まとめ"],
-      "searchKeywords": ["MBTI", "性格診断", "心理学", "自己分析", "性格タイプ"],
-      "emotionalTriggers": ["自己発見", "好奇心", "理解欲求", "分類整理"],
-      "marketingStage": "自己理解支援フェーズ", 
-      "conversionMethod": "包括的情報提供"
+      "effectiveExpressions": [
+        "あなたは何タイプ？",
+        "16タイプ特徴まとめ"
+      ],
+      "searchKeywords": [
+        "MBTI",
+        "性格診断",
+        "心理学",
+        "自己分析",
+        "性格タイプ"
+      ],
+      "emotionalTriggers": [
+        "自己発見",
+        "好奇心",
+        "理解欲求",
+        "分類整理"
+      ],
+      "marketingStage": "自己理解支援フェーズ",
+      "conversionMethod": "包括的情報提供",
+      "knowledgeId": "K111"
     },
     "instagram-marketing-revival": {
       "source": "contents-112",
-      "targetPersona": "P112",
       "problemCategory": "SNSマーケティング・集客",
       "role": "problem-analysis",
       "actualTitle": "インスタ集客 挫折しそう？これ試してみて",
@@ -1424,15 +2205,29 @@
         "practicalSolutions": "具体的解決策提案",
         "motivationRecovery": "やる気回復支援"
       },
-      "effectiveExpressions": ["挫折しそう？", "これ試してみて"],
-      "searchKeywords": ["インスタ集客", "SNSマーケティング", "挫折", "集客", "Instagram"],
-      "emotionalTriggers": ["共感", "励まし", "希望", "解決期待"],
+      "effectiveExpressions": [
+        "挫折しそう？",
+        "これ試してみて"
+      ],
+      "searchKeywords": [
+        "インスタ集客",
+        "SNSマーケティング",
+        "挫折",
+        "集客",
+        "Instagram"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "励まし",
+        "希望",
+        "解決期待"
+      ],
       "marketingStage": "挫折回復支援フェーズ",
-      "conversionMethod": "問題共感と解決策提示"
+      "conversionMethod": "問題共感と解決策提示",
+      "knowledgeId": "K112"
     },
     "instagram-new-features": {
       "source": "contents-113",
-      "targetPersona": "P113",
       "problemCategory": "SNSマーケティング・集客",
       "role": "educational-guidance",
       "actualTitle": "集客に役立つ インスタ新機能",
@@ -1443,15 +2238,29 @@
         "functionalUpdate": "機能アップデート情報",
         "practicalApplication": "実際の集客への応用方法"
       },
-      "effectiveExpressions": ["集客に役立つ", "インスタ新機能"],
-      "searchKeywords": ["Instagram", "新機能", "集客", "SNSマーケティング", "インスタ"],
-      "emotionalTriggers": ["最新情報", "効率化期待", "集客向上", "競争優位"],
+      "effectiveExpressions": [
+        "集客に役立つ",
+        "インスタ新機能"
+      ],
+      "searchKeywords": [
+        "Instagram",
+        "新機能",
+        "集客",
+        "SNSマーケティング",
+        "インスタ"
+      ],
+      "emotionalTriggers": [
+        "最新情報",
+        "効率化期待",
+        "集客向上",
+        "競争優位"
+      ],
       "marketingStage": "機能活用支援フェーズ",
-      "conversionMethod": "最新機能情報提供"
+      "conversionMethod": "最新機能情報提供",
+      "knowledgeId": "K113"
     },
     "action-mindset-comparison": {
       "source": "contents-114",
-      "targetPersona": "P114",
       "problemCategory": "行動心理学・マインドセット",
       "role": "behavioral-analysis",
       "actualTitle": "行動できる人 vs できない人",
@@ -1462,15 +2271,30 @@
         "mindsetDifference": "思考パターンの違い",
         "improvementPath": "行動力向上の道筋"
       },
-      "effectiveExpressions": ["行動できる人", "vs", "できない人"],
-      "searchKeywords": ["行動力", "実行力", "マインドセット", "行動心理学", "自己改善"],
-      "emotionalTriggers": ["自己反省", "改善欲求", "比較分析", "成長意欲"],
+      "effectiveExpressions": [
+        "行動できる人",
+        "vs",
+        "できない人"
+      ],
+      "searchKeywords": [
+        "行動力",
+        "実行力",
+        "マインドセット",
+        "行動心理学",
+        "自己改善"
+      ],
+      "emotionalTriggers": [
+        "自己反省",
+        "改善欲求",
+        "比較分析",
+        "成長意欲"
+      ],
       "marketingStage": "行動分析支援フェーズ",
-      "conversionMethod": "行動パターン比較分析"
+      "conversionMethod": "行動パターン比較分析",
+      "knowledgeId": "K114"
     },
     "freelance-failure-experiences": {
       "source": "contents-115",
-      "targetPersona": "P115",
       "problemCategory": "起業・開業手続き",
       "role": "experience-authority",
       "actualTitle": "37歳フリーランス主婦 リアルに失敗した複業6選",
@@ -1481,15 +2305,31 @@
         "housewifePerspective": "37歳主婦の視点",
         "lessonsLearned": "失敗から学んだ教訓"
       },
-      "effectiveExpressions": ["37歳フリーランス主婦", "リアルに失敗した", "複業6選"],
-      "searchKeywords": ["フリーランス", "副業", "失敗", "起業", "主婦", "体験"],
-      "emotionalTriggers": ["失敗回避", "実体験学習", "現実認識", "リスク理解"],
+      "effectiveExpressions": [
+        "37歳フリーランス主婦",
+        "リアルに失敗した",
+        "複業6選"
+      ],
+      "searchKeywords": [
+        "フリーランス",
+        "副業",
+        "失敗",
+        "起業",
+        "主婦",
+        "体験"
+      ],
+      "emotionalTriggers": [
+        "失敗回避",
+        "実体験学習",
+        "現実認識",
+        "リスク理解"
+      ],
       "marketingStage": "失敗回避支援フェーズ",
-      "conversionMethod": "失敗体験による教訓共有"
+      "conversionMethod": "失敗体験による教訓共有",
+      "knowledgeId": "K115"
     },
     "cost-effective-qualifications": {
       "source": "contents-116",
-      "targetPersona": "P116",
       "problemCategory": "資格・スキル習得",
       "role": "information-catalog",
       "actualTitle": "損したくない！コスパ最強な資格21選",
@@ -1500,15 +2340,29 @@
         "lossAvoidance": "損をしない選択基準",
         "valueOptimization": "価値最大化の視点"
       },
-      "effectiveExpressions": ["損したくない！", "コスパ最強な資格21選"],
-      "searchKeywords": ["資格", "コスパ", "スキルアップ", "資格取得", "コストパフォーマンス"],
-      "emotionalTriggers": ["損失回避", "効率性", "価値重視", "投資効果"],
+      "effectiveExpressions": [
+        "損したくない！",
+        "コスパ最強な資格21選"
+      ],
+      "searchKeywords": [
+        "資格",
+        "コスパ",
+        "スキルアップ",
+        "資格取得",
+        "コストパフォーマンス"
+      ],
+      "emotionalTriggers": [
+        "損失回避",
+        "効率性",
+        "価値重視",
+        "投資効果"
+      ],
       "marketingStage": "資格選択支援フェーズ",
-      "conversionMethod": "コスパ重視の資格情報提供"
+      "conversionMethod": "コスパ重視の資格情報提供",
+      "knowledgeId": "K116"
     },
     "workplace-gender-bias": {
       "source": "contents-001",
-      "targetPersona": "P022",
       "problemCategory": "ジェンダー・職場問題",
       "role": "empathy-building",
       "actualTitle": "働く女性の不安・不満あるある7選",
@@ -1530,14 +2384,27 @@
         "確かにそれも仕事のうち",
         "でも、それ、女性じゃないとダメですか？"
       ],
-      "searchKeywords": ["職場", "女性", "ジェンダーバイアス", "雑用", "不公平", "働く女性", "職場環境"],
-      "emotionalTriggers": ["職場環境改善", "不公平感", "権利意識", "女性活躍"],
+      "searchKeywords": [
+        "職場",
+        "女性",
+        "ジェンダーバイアス",
+        "雑用",
+        "不公平",
+        "働く女性",
+        "職場環境"
+      ],
+      "emotionalTriggers": [
+        "職場環境改善",
+        "不公平感",
+        "権利意識",
+        "女性活躍"
+      ],
       "marketingStage": "共感獲得フェーズ",
-      "conversionMethod": "問題提起・意識改革"
+      "conversionMethod": "問題提起・意識改革",
+      "knowledgeId": "K001"
     },
     "female-career-stability": {
       "source": "contents-002",
-      "targetPersona": "P023",
       "problemCategory": "女性キャリア・働き方改革",
       "role": "empathy-building",
       "actualTitle": "一生安心できる女性が困らないキャリア",
@@ -1558,14 +2425,28 @@
         "あなたはこんなことない？",
         "キャリアに迷う女性が知っておきたいこと"
       ],
-      "searchKeywords": ["女性キャリア", "安定", "将来不安", "結婚", "出産", "介護", "人生設計", "働き方"],
-      "emotionalTriggers": ["キャリア継続", "将来不安", "人生設計", "自立意識"],
+      "searchKeywords": [
+        "女性キャリア",
+        "安定",
+        "将来不安",
+        "結婚",
+        "出産",
+        "介護",
+        "人生設計",
+        "働き方"
+      ],
+      "emotionalTriggers": [
+        "キャリア継続",
+        "将来不安",
+        "人生設計",
+        "自立意識"
+      ],
       "marketingStage": "問題認識フェーズ",
-      "conversionMethod": "メモ画面保存促進"
+      "conversionMethod": "メモ画面保存促進",
+      "knowledgeId": "K002"
     },
     "ai-content-monetization": {
       "source": "contents-003",
-      "targetPersona": "P024",
       "problemCategory": "AI・技術活用",
       "role": "practical-guidance",
       "actualTitle": "AI上級者がこそって使う…自動で指示文をつくる7ステップ",
@@ -1590,14 +2471,28 @@
         "AIの記事で12万4,000円作れる",
         "実は、AIを使いこなすと初心者でもお家で収益化できて"
       ],
-      "searchKeywords": ["AI", "収益化", "Gemini", "記事作成", "副業", "在宅", "12万円", "自動化"],
-      "emotionalTriggers": ["AI収益化", "技術活用", "在宅収入", "スキル向上"],
+      "searchKeywords": [
+        "AI",
+        "収益化",
+        "Gemini",
+        "記事作成",
+        "副業",
+        "在宅",
+        "12万円",
+        "自動化"
+      ],
+      "emotionalTriggers": [
+        "AI収益化",
+        "技術活用",
+        "在宅収入",
+        "スキル向上"
+      ],
       "marketingStage": "学習フェーズ",
-      "conversionMethod": "無料講座誘導"
+      "conversionMethod": "無料講座誘導",
+      "knowledgeId": "K003"
     },
     "side-business-startup-guide": {
       "source": "contents-005",
-      "targetPersona": "P025",
       "problemCategory": "フリーランス・副業",
       "role": "practical-guidance",
       "actualTitle": "副業スタートガイド",
@@ -1615,14 +2510,27 @@
         "強みもスキルもない",
         "400名以上のフリーランスをサポートしている私が"
       ],
-      "searchKeywords": ["副業", "月5万円", "スタートガイド", "スキル不足", "フリーランス", "始め方", "女性"],
-      "emotionalTriggers": ["副業開始", "収入増", "スキル不足解決", "専門指導"],
+      "searchKeywords": [
+        "副業",
+        "月5万円",
+        "スタートガイド",
+        "スキル不足",
+        "フリーランス",
+        "始め方",
+        "女性"
+      ],
+      "emotionalTriggers": [
+        "副業開始",
+        "収入増",
+        "スキル不足解決",
+        "専門指導"
+      ],
       "marketingStage": "問題認識フェーズ",
-      "conversionMethod": "実績による権威付け"
+      "conversionMethod": "実績による権威付け",
+      "knowledgeId": "K005"
     },
     "self-reflection-change": {
       "source": "contents-006",
-      "targetPersona": "P026",
       "problemCategory": "自己実現・ライフスタイル",
       "role": "empathy-building",
       "actualTitle": "「今のままじゃダメかも」と感じたときに考えること",
@@ -1648,14 +2556,27 @@
         "自分に変化を起こしたいあなたへ",
         "まずは自分自身を理解することから"
       ],
-      "searchKeywords": ["自己変革", "現状打破", "自己理解", "人生見直し", "変化", "成長", "内省"],
-      "emotionalTriggers": ["現状不満", "変化願望", "成長意欲", "自己発見"],
+      "searchKeywords": [
+        "自己変革",
+        "現状打破",
+        "自己理解",
+        "人生見直し",
+        "変化",
+        "成長",
+        "内省"
+      ],
+      "emotionalTriggers": [
+        "現状不満",
+        "変化願望",
+        "成長意欲",
+        "自己発見"
+      ],
       "marketingStage": "自己認識フェーズ",
-      "conversionMethod": "補助金活用サポート誘導"
+      "conversionMethod": "補助金活用サポート誘導",
+      "knowledgeId": "K006"
     },
     "job-transfer-success-traits": {
       "source": "contents-007",
-      "targetPersona": "P027",
       "problemCategory": "転職・キャリア変更",
       "role": "practical-guidance",
       "actualTitle": "転職で無双する人の特徴",
@@ -1689,14 +2610,27 @@
         "元大手人事部が教える！",
         "転職で無双する人の特徴はこれです"
       ],
-      "searchKeywords": ["転職", "転職成功", "人事", "応募書類", "面接", "逆質問", "希望条件"],
-      "emotionalTriggers": ["転職成功", "競争優位", "専門知識", "人事視点"],
+      "searchKeywords": [
+        "転職",
+        "転職成功",
+        "人事",
+        "応募書類",
+        "面接",
+        "逆質問",
+        "希望条件"
+      ],
+      "emotionalTriggers": [
+        "転職成功",
+        "競争優位",
+        "専門知識",
+        "人事視点"
+      ],
       "marketingStage": "スキル習得フェーズ",
-      "conversionMethod": "プロフィール誘導"
+      "conversionMethod": "プロフィール誘導",
+      "knowledgeId": "K007"
     },
     "best-ai-apps-selection": {
       "source": "contents-009",
-      "targetPersona": "P028",
       "problemCategory": "AIツール選択・活用法",
       "role": "information-catalog",
       "actualTitle": "最強のAIアプリ12選",
@@ -1704,18 +2638,54 @@
       "solutionContent": {
         "urgencyMessage": "ChatGPTしか使っていない人はマジで損",
         "aiTools": [
-          {"purpose": "情報を調べるなら", "tool": "Perplexity"},
-          {"purpose": "考えを整理するなら", "tool": "GitMind"},
-          {"purpose": "文章を書くなら", "tool": "Gemini"},
-          {"purpose": "画像を作るなら", "tool": "Midjourney"},
-          {"purpose": "スライドを作るなら", "tool": "Gamma"},
-          {"purpose": "プログラミングなら", "tool": "Kite"},
-          {"purpose": "Webサイトを作るなら", "tool": "Squarespace"},
-          {"purpose": "音楽を作るなら", "tool": "Udieo"},
-          {"purpose": "質問するなら", "tool": "Microsoft Copilot"},
-          {"purpose": "動画制作なら", "tool": "Dream Machines"},
-          {"purpose": "LPを作るなら", "tool": "Instapage"},
-          {"purpose": "コンテンツを統合するなら", "tool": "Microsoft Copilot"}
+          {
+            "purpose": "情報を調べるなら",
+            "tool": "Perplexity"
+          },
+          {
+            "purpose": "考えを整理するなら",
+            "tool": "GitMind"
+          },
+          {
+            "purpose": "文章を書くなら",
+            "tool": "Gemini"
+          },
+          {
+            "purpose": "画像を作るなら",
+            "tool": "Midjourney"
+          },
+          {
+            "purpose": "スライドを作るなら",
+            "tool": "Gamma"
+          },
+          {
+            "purpose": "プログラミングなら",
+            "tool": "Kite"
+          },
+          {
+            "purpose": "Webサイトを作るなら",
+            "tool": "Squarespace"
+          },
+          {
+            "purpose": "音楽を作るなら",
+            "tool": "Udieo"
+          },
+          {
+            "purpose": "質問するなら",
+            "tool": "Microsoft Copilot"
+          },
+          {
+            "purpose": "動画制作なら",
+            "tool": "Dream Machines"
+          },
+          {
+            "purpose": "LPを作るなら",
+            "tool": "Instapage"
+          },
+          {
+            "purpose": "コンテンツを統合するなら",
+            "tool": "Microsoft Copilot"
+          }
         ],
         "warning": "もう2度と言わないので保存必須です！"
       },
@@ -1724,14 +2694,28 @@
         "最強のAIアプリ12選",
         "もう2度と言わないので保存必須です！"
       ],
-      "searchKeywords": ["AI", "アプリ", "ツール", "効率化", "Perplexity", "Gemini", "Midjourney", "Gamma"],
-      "emotionalTriggers": ["機会損失回避", "効率化", "最新情報", "保存必須"],
+      "searchKeywords": [
+        "AI",
+        "アプリ",
+        "ツール",
+        "効率化",
+        "Perplexity",
+        "Gemini",
+        "Midjourney",
+        "Gamma"
+      ],
+      "emotionalTriggers": [
+        "機会損失回避",
+        "効率化",
+        "最新情報",
+        "保存必須"
+      ],
       "marketingStage": "情報収集フェーズ",
-      "conversionMethod": "保存行動促進"
+      "conversionMethod": "保存行動促進",
+      "knowledgeId": "K009"
     },
     "phone-etiquette-tips": {
       "source": "contents-010",
-      "targetPersona": "P029",
       "problemCategory": "電話マナー・ビジネススキル",
       "role": "practical-guidance",
       "actualTitle": "電話のマナー - かける前に気をつけておきたいこと",
@@ -1768,14 +2752,27 @@
         "かける前に気をつけておきたいこと",
         "電話でのトーク = ビジネスの会話"
       ],
-      "searchKeywords": ["電話", "マナー", "ビジネス", "コミュニケーション", "就活", "社会人", "準備"],
-      "emotionalTriggers": ["スキル向上", "不安解消", "マナー習得", "準備重視"],
+      "searchKeywords": [
+        "電話",
+        "マナー",
+        "ビジネス",
+        "コミュニケーション",
+        "就活",
+        "社会人",
+        "準備"
+      ],
+      "emotionalTriggers": [
+        "スキル向上",
+        "不安解消",
+        "マナー習得",
+        "準備重視"
+      ],
       "marketingStage": "スキル習得フェーズ",
-      "conversionMethod": "実践的指導提供"
+      "conversionMethod": "実践的指導提供",
+      "knowledgeId": "K010"
     },
     "industry-job-difference": {
       "source": "contents-011",
-      "targetPersona": "P030",
       "problemCategory": "業界研究",
       "role": "problem-analysis",
       "actualTitle": "業界と職種その違いは？",
@@ -1791,17 +2788,28 @@
         "その違いは？",
         "業界研究・仕事研究"
       ],
-      "searchKeywords": ["業界", "職種", "就活", "業界研究", "仕事研究", "基本概念"],
-      "emotionalTriggers": ["学習意欲", "理解深化", "基礎知識"],
+      "searchKeywords": [
+        "業界",
+        "職種",
+        "就活",
+        "業界研究",
+        "仕事研究",
+        "基本概念"
+      ],
+      "emotionalTriggers": [
+        "学習意欲",
+        "理解深化",
+        "基礎知識"
+      ],
       "marketingStage": "基礎学習フェーズ",
-      "conversionMethod": "概念理解支援"
+      "conversionMethod": "概念理解支援",
+      "knowledgeId": "K011"
     },
     "hidden-excellent-manufacturers": {
       "source": "contents-012",
-      "targetPersona": "P031",
       "problemCategory": "業界研究",
       "role": "information-catalog",
-      "actualTitle": "満足度が高い隠れ優良メーカー7選",
+      "actualTitle": "働きやすさ重視！満足度が高い優良メーカー7選",
       "problemDescription": "知名度は低いが働きやすい優良企業を探している就活生の情報ニーズ",
       "solutionContent": {
         "concept": "知名度よりも働きやすさを重視した企業選択",
@@ -1814,14 +2822,24 @@
         "隠れ優良メーカー7選",
         "就活落ちたらABABA"
       ],
-      "searchKeywords": ["隠れ優良企業", "メーカー", "満足度", "働きやすい", "就活"],
-      "emotionalTriggers": ["優越感", "情報価値", "競争回避"],
+      "searchKeywords": [
+        "隠れ優良企業",
+        "メーカー",
+        "満足度",
+        "働きやすい",
+        "就活"
+      ],
+      "emotionalTriggers": [
+        "優越感",
+        "情報価値",
+        "競争回避"
+      ],
       "marketingStage": "企業選択フェーズ",
-      "conversionMethod": "限定情報提供"
+      "conversionMethod": "限定情報提供",
+      "knowledgeId": "K012"
     },
     "june-job-hunting-insights": {
       "source": "contents-013",
-      "targetPersona": "P032",
       "problemCategory": "時期別対策",
       "role": "empathy-building",
       "actualTitle": "6月の就活本音5選",
@@ -1837,14 +2855,25 @@
         "6月の就活本音5選",
         "フォロワーのみんなから募集した"
       ],
-      "searchKeywords": ["6月就活", "就活本音", "就活体験", "就活生の声", "リアル体験"],
-      "emotionalTriggers": ["共感", "安心感", "仲間意識", "励まし"],
+      "searchKeywords": [
+        "6月就活",
+        "就活本音",
+        "就活体験",
+        "就活生の声",
+        "リアル体験"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "安心感",
+        "仲間意識",
+        "励まし"
+      ],
       "marketingStage": "メンタルサポートフェーズ",
-      "conversionMethod": "コミュニティ形成"
+      "conversionMethod": "コミュニティ形成",
+      "knowledgeId": "K013"
     },
     "job-winning-lineup": {
       "source": "contents-014",
-      "targetPersona": "P033",
       "problemCategory": "就活効率化",
       "role": "practical-guidance",
       "actualTitle": "大学別就活の勝ち組ライン",
@@ -1859,14 +2888,24 @@
         "大学別就活の勝ち組ライン",
         "とりえがなくてもホワイト企業内定"
       ],
-      "searchKeywords": ["大学別", "就活", "勝ち組", "ホワイト企業", "内定"],
-      "emotionalTriggers": ["目標設定", "現実認識", "成功願望"],
+      "searchKeywords": [
+        "大学別",
+        "就活",
+        "勝ち組",
+        "ホワイト企業",
+        "内定"
+      ],
+      "emotionalTriggers": [
+        "目標設定",
+        "現実認識",
+        "成功願望"
+      ],
       "marketingStage": "戦略設定フェーズ",
-      "conversionMethod": "レベル別指導"
+      "conversionMethod": "レベル別指導",
+      "knowledgeId": "K014"
     },
     "gakuchika-writing-disasters": {
       "source": "contents-015",
-      "targetPersona": "P034",
       "problemCategory": "面接対策",
       "role": "problem-analysis",
       "actualTitle": "人事が嫌うガクチカ",
@@ -1883,14 +2922,24 @@
         "自慢の経験がなくて不安",
         "何から始めるか分からない不安"
       ],
-      "searchKeywords": ["ガクチカ", "人事", "書き方", "失敗", "面接"],
-      "emotionalTriggers": ["失敗回避", "不安解消", "品質向上"],
+      "searchKeywords": [
+        "ガクチカ",
+        "人事",
+        "書き方",
+        "失敗",
+        "面接"
+      ],
+      "emotionalTriggers": [
+        "失敗回避",
+        "不安解消",
+        "品質向上"
+      ],
       "marketingStage": "品質改善フェーズ",
-      "conversionMethod": "失敗例による学習"
+      "conversionMethod": "失敗例による学習",
+      "knowledgeId": "K015"
     },
     "pharmaceutical-job-hunting": {
       "source": "contents-016",
-      "targetPersona": "P035",
       "problemCategory": "業界研究",
       "role": "empathy-building",
       "actualTitle": "クスリのアオキきっつすぎ…",
@@ -1905,14 +2954,24 @@
         "クスリのアオキきっつすぎ…",
         "ねむねむいくあっぷ！"
       ],
-      "searchKeywords": ["薬局", "クスリのアオキ", "業界研究", "労働環境", "就活"],
-      "emotionalTriggers": ["共感", "現実認識", "業界理解"],
+      "searchKeywords": [
+        "薬局",
+        "クスリのアオキ",
+        "業界研究",
+        "労働環境",
+        "就活"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "現実認識",
+        "業界理解"
+      ],
       "marketingStage": "業界理解フェーズ",
-      "conversionMethod": "現実共有による信頼構築"
+      "conversionMethod": "現実共有による信頼構築",
+      "knowledgeId": "K016"
     },
     "may-job-hunting-insights": {
       "source": "contents-017",
-      "targetPersona": "P036",
       "problemCategory": "時期別対策",
       "role": "empathy-building",
       "actualTitle": "5月の就活本音5選",
@@ -1928,14 +2987,23 @@
         "5月の就活本音5選",
         "今回は、フォロワーのみんなから募集した"
       ],
-      "searchKeywords": ["5月就活", "就活本音", "就活体験", "就活生の声"],
-      "emotionalTriggers": ["共感", "安心感", "仲間意識"],
+      "searchKeywords": [
+        "5月就活",
+        "就活本音",
+        "就活体験",
+        "就活生の声"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "安心感",
+        "仲間意識"
+      ],
       "marketingStage": "メンタルサポートフェーズ",
-      "conversionMethod": "体験共有コミュニティ"
+      "conversionMethod": "体験共有コミュニティ",
+      "knowledgeId": "K017"
     },
     "job-industry-map": {
       "source": "contents-018",
-      "targetPersona": "P037",
       "problemCategory": "業界研究",
       "role": "information-catalog",
       "actualTitle": "就活業界マップ",
@@ -1948,17 +3016,29 @@
       },
       "effectiveExpressions": [
         "就活業界マップ",
-        "厳しい", "穏やか",
-        "論理重視", "人柄重視"
+        "厳しい",
+        "穏やか",
+        "論理重視",
+        "人柄重視"
       ],
-      "searchKeywords": ["業界マップ", "就活", "業界研究", "業界分類", "戦略"],
-      "emotionalTriggers": ["全体把握", "戦略的思考", "効率化"],
+      "searchKeywords": [
+        "業界マップ",
+        "就活",
+        "業界研究",
+        "業界分類",
+        "戦略"
+      ],
+      "emotionalTriggers": [
+        "全体把握",
+        "戦略的思考",
+        "効率化"
+      ],
       "marketingStage": "戦略立案フェーズ",
-      "conversionMethod": "体系的情報提供"
+      "conversionMethod": "体系的情報提供",
+      "knowledgeId": "K018"
     },
     "summer-internship-timing-strategy": {
       "source": "contents-019",
-      "targetPersona": "P038",
       "problemCategory": "インターン準備",
       "role": "practical-guidance",
       "actualTitle": "夏インターンに間に合う27卒 vs 手遅れ27卒",
@@ -1971,18 +3051,28 @@
       },
       "effectiveExpressions": [
         "夏インターンに",
-        "間に合う27卒", "手遅れ27卒",
+        "間に合う27卒",
+        "手遅れ27卒",
         "自慢の経験がなくて不安",
         "何から始めるか分からない不安"
       ],
-      "searchKeywords": ["夏インターン", "27卒", "タイミング", "就活戦略"],
-      "emotionalTriggers": ["タイムプレッシャー", "成功願望", "不安解消"],
+      "searchKeywords": [
+        "夏インターン",
+        "27卒",
+        "タイミング",
+        "就活戦略"
+      ],
+      "emotionalTriggers": [
+        "タイムプレッシャー",
+        "成功願望",
+        "不安解消"
+      ],
       "marketingStage": "タイミング戦略フェーズ",
-      "conversionMethod": "緊急性アピール"
+      "conversionMethod": "緊急性アピール",
+      "knowledgeId": "K019"
     },
     "excellent-company-selection": {
       "source": "contents-021",
-      "targetPersona": "P039",
       "problemCategory": "業界研究",
       "role": "information-catalog",
       "actualTitle": "家賃補助すごい会社8選",
@@ -1996,15 +3086,24 @@
       "effectiveExpressions": [
         "家賃補助すごい会社8選"
       ],
-      "searchKeywords": ["家賃補助", "福利厚生", "優良企業", "住宅手当"],
-      "emotionalTriggers": ["実利重視", "生活安定", "コスト削減"],
+      "searchKeywords": [
+        "家賃補助",
+        "福利厚生",
+        "優良企業",
+        "住宅手当"
+      ],
+      "emotionalTriggers": [
+        "実利重視",
+        "生活安定",
+        "コスト削減"
+      ],
       "marketingStage": "企業選択フェーズ",
-      "conversionMethod": "具体的メリット提示"
+      "conversionMethod": "具体的メリット提示",
+      "knowledgeId": "K021"
     },
     "university-post-offer-preparation": {
       "source": "contents-024",
-      "targetPersona": "P040",
-      "problemCategory": "内定後・新卒入社準備", 
+      "problemCategory": "内定後・新卒入社準備",
       "role": "practical-guidance",
       "actualTitle": "まだ内定0でもいける大手企業5社",
       "problemDescription": "内定がまだもらえていない就活生が、大手企業にもチャンスがあることを知らずに諦めかけている悩み",
@@ -2019,16 +3118,26 @@
         "いける大手企業5社",
         "資格などの強みがなくても"
       ],
-      "searchKeywords": ["内定0", "大手企業", "新卒採用", "就活後期", "企業選択"],
-      "emotionalTriggers": ["希望", "励まし", "具体的解決策"],
+      "searchKeywords": [
+        "内定0",
+        "大手企業",
+        "新卒採用",
+        "就活後期",
+        "企業選択"
+      ],
+      "emotionalTriggers": [
+        "希望",
+        "励まし",
+        "具体的解決策"
+      ],
       "marketingStage": "企業選択フェーズ",
-      "conversionMethod": "続きで詳細情報提供"
+      "conversionMethod": "続きで詳細情報提供",
+      "knowledgeId": "K024"
     },
     "job-interview-phone-etiquette": {
       "source": "contents-025",
-      "targetPersona": "P041",
       "problemCategory": "電話面接・オンライン面接対策",
-      "role": "practical-guidance", 
+      "role": "practical-guidance",
       "actualTitle": "実は苦手な人が多い？電話のマナー",
       "problemDescription": "電話面接やビジネス電話でのマナーが苦手で、面接で失敗するリスクを抱えている学生の悩み",
       "solutionContent": {
@@ -2038,18 +3147,28 @@
         "solution": "正しい電話マナーの習得方法"
       },
       "effectiveExpressions": [
-        "実は苦手な人が多い？", 
+        "実は苦手な人が多い？",
         "電話のマナー",
         "#就活マナー"
       ],
-      "searchKeywords": ["電話マナー", "面接対策", "ビジネスマナー", "就活マナー", "電話面接"],
-      "emotionalTriggers": ["共感", "不安解消", "スキル向上"],
+      "searchKeywords": [
+        "電話マナー",
+        "面接対策",
+        "ビジネスマナー",
+        "就活マナー",
+        "電話面接"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "不安解消",
+        "スキル向上"
+      ],
       "marketingStage": "スキル習得フェーズ",
-      "conversionMethod": "マナー指導"
+      "conversionMethod": "マナー指導",
+      "knowledgeId": "K025"
     },
     "internship-high-multiplier-companies": {
       "source": "contents-026",
-      "targetPersona": "P042",
       "problemCategory": "インターン実施時期・企業選定",
       "role": "strategic-guidance",
       "actualTitle": "インターンで内定できる高倍率企業TOP50",
@@ -2065,14 +3184,24 @@
         "高倍率企業TOP50",
         "とりえがなくてもホワイト企業内定"
       ],
-      "searchKeywords": ["インターン", "内定直結", "高倍率企業", "ホワイト企業", "企業選定"],
-      "emotionalTriggers": ["戦略的思考", "効率化", "成功確率向上"],
+      "searchKeywords": [
+        "インターン",
+        "内定直結",
+        "高倍率企業",
+        "ホワイト企業",
+        "企業選定"
+      ],
+      "emotionalTriggers": [
+        "戦略的思考",
+        "効率化",
+        "成功確率向上"
+      ],
       "marketingStage": "企業選択フェーズ",
-      "conversionMethod": "企業リスト提供"
+      "conversionMethod": "企業リスト提供",
+      "knowledgeId": "K026"
     },
     "interview-mindset-anxiety-management": {
       "source": "contents-027",
-      "targetPersona": "P043",
       "problemCategory": "人事・採用担当者の心理",
       "role": "psychological-insight",
       "actualTitle": "面接で聞かれて心臓止まった質問まとめ",
@@ -2088,14 +3217,24 @@
         "心臓止まった質問",
         "まとめ"
       ],
-      "searchKeywords": ["面接質問", "予想外質問", "面接対策", "緊張対策", "面接官心理"],
-      "emotionalTriggers": ["共感", "不安解消", "準備万全"],
+      "searchKeywords": [
+        "面接質問",
+        "予想外質問",
+        "面接対策",
+        "緊張対策",
+        "面接官心理"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "不安解消",
+        "準備万全"
+      ],
       "marketingStage": "面接準備フェーズ",
-      "conversionMethod": "質問集提供"
+      "conversionMethod": "質問集提供",
+      "knowledgeId": "K027"
     },
     "job-hunting-experience-anxiety": {
       "source": "contents-028",
-      "targetPersona": "P044",
       "problemCategory": "学歴コンプレックス・自己肯定感",
       "role": "emotional-support",
       "actualTitle": "これぐらい答えろよ 人事来れる挫折経験",
@@ -2111,14 +3250,24 @@
         "人事来れる",
         "挫折経験"
       ],
-      "searchKeywords": ["挫折経験", "人事期待", "面接回答", "経験不足", "自己肯定感"],
-      "emotionalTriggers": ["不安解消", "自信回復", "準備支援"],
-      "marketingStage": "面接準備フェーズ", 
-      "conversionMethod": "経験作り指導"
+      "searchKeywords": [
+        "挫折経験",
+        "人事期待",
+        "面接回答",
+        "経験不足",
+        "自己肯定感"
+      ],
+      "emotionalTriggers": [
+        "不安解消",
+        "自信回復",
+        "準備支援"
+      ],
+      "marketingStage": "面接準備フェーズ",
+      "conversionMethod": "経験作り指導",
+      "knowledgeId": "K028"
     },
     "gakuchika-expression-improvement": {
       "source": "contents-029",
-      "targetPersona": "P045",
       "problemCategory": "ガクチカ表現・記述方法",
       "role": "expression-coaching",
       "actualTitle": "あ...この子のガクチカ不採用だ...",
@@ -2133,14 +3282,24 @@
         "あ...この子の",
         "ガクチカ不採用だ..."
       ],
-      "searchKeywords": ["ガクチカ", "不採用", "書き方", "表現方法", "人事評価"],
-      "emotionalTriggers": ["危機感", "改善意欲", "成功願望"],
+      "searchKeywords": [
+        "ガクチカ",
+        "不採用",
+        "書き方",
+        "表現方法",
+        "人事評価"
+      ],
+      "emotionalTriggers": [
+        "危機感",
+        "改善意欲",
+        "成功願望"
+      ],
       "marketingStage": "書類準備フェーズ",
-      "conversionMethod": "ガクチカ添削指導"
+      "conversionMethod": "ガクチカ添削指導",
+      "knowledgeId": "K029"
     },
     "university-life-schedule-anxiety": {
       "source": "contents-030",
-      "targetPersona": "P046",
       "problemCategory": "大学生活・学年別スケジュール",
       "role": "timeline-guidance",
       "actualTitle": "27卒 ガクチカ書くことない...",
@@ -2156,14 +3315,24 @@
         "27卒",
         "ガクチカ書くことない..."
       ],
-      "searchKeywords": ["27卒", "ガクチカ", "大学生活", "活動不足", "就活準備"],
-      "emotionalTriggers": ["同世代共感", "時間制約", "解決急務"],
+      "searchKeywords": [
+        "27卒",
+        "ガクチカ",
+        "大学生活",
+        "活動不足",
+        "就活準備"
+      ],
+      "emotionalTriggers": [
+        "同世代共感",
+        "時間制約",
+        "解決急務"
+      ],
       "marketingStage": "活動準備フェーズ",
-      "conversionMethod": "活動提案・指導"
+      "conversionMethod": "活動提案・指導",
+      "knowledgeId": "K030"
     },
     "student-life-remaining-job-types": {
       "source": "contents-031",
-      "targetPersona": "P047",
       "problemCategory": "学生生活残業時間管理",
       "role": "reality-awareness",
       "actualTitle": "学生よ、これが残業多い職種だ...",
@@ -2178,14 +3347,25 @@
         "学生よ、",
         "これが残業多い職種だ..."
       ],
-      "searchKeywords": ["残業", "職種", "働き方", "学生", "就職準備", "職種選択"],
-      "emotionalTriggers": ["現実認識", "危機感", "事前準備"],
+      "searchKeywords": [
+        "残業",
+        "職種",
+        "働き方",
+        "学生",
+        "就職準備",
+        "職種選択"
+      ],
+      "emotionalTriggers": [
+        "現実認識",
+        "危機感",
+        "事前準備"
+      ],
       "marketingStage": "職種理解フェーズ",
-      "conversionMethod": "現実認識促進"
+      "conversionMethod": "現実認識促進",
+      "knowledgeId": "K031"
     },
     "third-year-undergrad-hair-styling": {
-      "source": "contents-032", 
-      "targetPersona": "P048",
+      "source": "contents-032",
       "problemCategory": "就活ヘアスタイル・身だしなみ",
       "role": "appearance-coaching",
       "actualTitle": "まだ黒髪にしてない3年生へ",
@@ -2200,14 +3380,25 @@
         "まだ黒髪にしてない",
         "3年生へ"
       ],
-      "searchKeywords": ["黒髪", "3年生", "就活準備", "身だしなみ", "髪色", "面接対策"],
-      "emotionalTriggers": ["緊急性", "準備不足認識", "改善促進"],
+      "searchKeywords": [
+        "黒髪",
+        "3年生",
+        "就活準備",
+        "身だしなみ",
+        "髪色",
+        "面接対策"
+      ],
+      "emotionalTriggers": [
+        "緊急性",
+        "準備不足認識",
+        "改善促進"
+      ],
       "marketingStage": "準備フェーズ",
-      "conversionMethod": "身だしなみ指導"
+      "conversionMethod": "身だしなみ指導",
+      "knowledgeId": "K032"
     },
     "self-promotion-targeting-approach": {
       "source": "contents-033",
-      "targetPersona": "P049", 
       "problemCategory": "自己PR・アピール手法",
       "role": "strategic-presentation",
       "actualTitle": "あ、この子採用したいと思われる自己PR",
@@ -2223,20 +3414,31 @@
         "採用したい",
         "と思われる自己PR"
       ],
-      "searchKeywords": ["自己PR", "採用", "面接対策", "アピール", "印象", "戦略"],
-      "emotionalTriggers": ["成功イメージ", "採用確率向上", "差別化"],
-      "marketingStage": "面接準備フェーズ", 
-      "conversionMethod": "PR戦略指導"
+      "searchKeywords": [
+        "自己PR",
+        "採用",
+        "面接対策",
+        "アピール",
+        "印象",
+        "戦略"
+      ],
+      "emotionalTriggers": [
+        "成功イメージ",
+        "採用確率向上",
+        "差別化"
+      ],
+      "marketingStage": "面接準備フェーズ",
+      "conversionMethod": "PR戦略指導",
+      "knowledgeId": "K033"
     },
     "internship-july-application-deadline": {
       "source": "contents-034",
-      "targetPersona": "P050",
       "problemCategory": "インターン・ES提出時期管理",
       "role": "deadline-management",
       "actualTitle": "インターン合格獲得7月TODO一覧表",
       "problemDescription": "7月のインターン応募締切に向けて、やるべきことを整理できていない学生の時期管理の悩み",
       "solutionContent": {
-        "timeTarget": "7月締切インターン対応", 
+        "timeTarget": "7月締切インターン対応",
         "todoManagement": "合格獲得のためのTODO一覧",
         "deadlineStrategy": "締切管理と効率的準備",
         "taskPrioritization": "優先順位付けと実行計画"
@@ -2246,15 +3448,26 @@
         "合格獲得",
         "7月TODO一覧表"
       ],
-      "searchKeywords": ["インターン", "7月", "TODO", "締切", "合格", "準備計画"],
-      "emotionalTriggers": ["時間制約", "計画性", "成功確率向上"],
+      "searchKeywords": [
+        "インターン",
+        "7月",
+        "TODO",
+        "締切",
+        "合格",
+        "準備計画"
+      ],
+      "emotionalTriggers": [
+        "時間制約",
+        "計画性",
+        "成功確率向上"
+      ],
       "marketingStage": "準備計画フェーズ",
-      "conversionMethod": "タスク管理支援"
+      "conversionMethod": "タスク管理支援",
+      "knowledgeId": "K034"
     },
     "summer-internship-application-timing": {
       "source": "contents-035",
-      "targetPersona": "P051",
-      "problemCategory": "夏季インターン戦略", 
+      "problemCategory": "夏季インターン戦略",
       "role": "timing-strategy",
       "actualTitle": "7/13～20〆切 夏インターン企業30選 もう申し込んだ？",
       "problemDescription": "夏インターンの申込み時期を逃しそうになっている学生への緊急性を伝える案内",
@@ -2269,14 +3482,24 @@
         "夏インターン企業30選",
         "もう申し込んだ？"
       ],
-      "searchKeywords": ["夏インターン", "締切", "7月", "企業選択", "申込み"],
-      "emotionalTriggers": ["緊急性", "FOMO", "行動促進"],
+      "searchKeywords": [
+        "夏インターン",
+        "締切",
+        "7月",
+        "企業選択",
+        "申込み"
+      ],
+      "emotionalTriggers": [
+        "緊急性",
+        "FOMO",
+        "行動促進"
+      ],
       "marketingStage": "申込みフェーズ",
-      "conversionMethod": "緊急行動促進"
+      "conversionMethod": "緊急行動促進",
+      "knowledgeId": "K035"
     },
     "large-company-internship-strategy": {
       "source": "contents-036",
-      "targetPersona": "P052",
       "problemCategory": "インターン応募スケジュール",
       "role": "strategic-timing",
       "actualTitle": "27卒 7月〆切 夏インターン 大手企業18選",
@@ -2293,14 +3516,24 @@
         "夏インターン",
         "大手企業18選"
       ],
-      "searchKeywords": ["27卒", "夏インターン", "7月締切", "大手企業", "18選"],
-      "emotionalTriggers": ["同世代アイデンティティ", "大手志向", "限定感"],
+      "searchKeywords": [
+        "27卒",
+        "夏インターン",
+        "7月締切",
+        "大手企業",
+        "18選"
+      ],
+      "emotionalTriggers": [
+        "同世代アイデンティティ",
+        "大手志向",
+        "限定感"
+      ],
       "marketingStage": "企業選定フェーズ",
-      "conversionMethod": "限定情報提供"
+      "conversionMethod": "限定情報提供",
+      "knowledgeId": "K036"
     },
     "internship-success-story-sharing": {
       "source": "contents-037",
-      "targetPersona": "P053",
       "problemCategory": "大学生ES・面接準備",
       "role": "success-inspiration",
       "actualTitle": "夏インターンは8社合格 インターン合格した！大学3年の9月には内定をもらえた",
@@ -2316,14 +3549,24 @@
         "インターン合格した！",
         "大学3年の9月には内定をもらえた"
       ],
-      "searchKeywords": ["夏インターン", "8社合格", "内定", "3年9月", "成功事例"],
-      "emotionalTriggers": ["成功イメージ", "モチベーション", "実現可能性"],
+      "searchKeywords": [
+        "夏インターン",
+        "8社合格",
+        "内定",
+        "3年9月",
+        "成功事例"
+      ],
+      "emotionalTriggers": [
+        "成功イメージ",
+        "モチベーション",
+        "実現可能性"
+      ],
       "marketingStage": "モチベーション向上フェーズ",
-      "conversionMethod": "成功事例共有"
+      "conversionMethod": "成功事例共有",
+      "knowledgeId": "K037"
     },
     "hr-recruiter-ideal-candidate": {
       "source": "contents-038",
-      "targetPersona": "P054",
       "problemCategory": "就活成功体験・合格事例",
       "role": "hr-insight",
       "actualTitle": "人事が思う「イタイ」就活生の特徴",
@@ -2339,14 +3582,25 @@
         "「イタイ」就活生",
         "の特徴"
       ],
-      "searchKeywords": ["人事", "イタイ", "就活生", "特徴", "改善", "評価"],
-      "emotionalTriggers": ["自己反省", "改善意欲", "失敗回避"],
+      "searchKeywords": [
+        "人事",
+        "イタイ",
+        "就活生",
+        "特徴",
+        "改善",
+        "評価"
+      ],
+      "emotionalTriggers": [
+        "自己反省",
+        "改善意欲",
+        "失敗回避"
+      ],
       "marketingStage": "自己改善フェーズ",
-      "conversionMethod": "NG行動回避指導"
+      "conversionMethod": "NG行動回避指導",
+      "knowledgeId": "K038"
     },
     "internship-info-collection-strategy": {
       "source": "contents-039",
-      "targetPersona": "P055",
       "problemCategory": "HR・人事担当者思考パターン",
       "role": "information-strategy",
       "actualTitle": "伊藤忠 平凡な経験 ES9割",
@@ -2362,16 +3616,27 @@
         "平凡な経験",
         "ES9割"
       ],
-      "searchKeywords": ["伊藤忠", "平凡", "経験", "ES", "9割", "通過率"],
-      "emotionalTriggers": ["希望", "実現可能性", "戦略的思考"],
+      "searchKeywords": [
+        "伊藤忠",
+        "平凡",
+        "経験",
+        "ES",
+        "9割",
+        "通過率"
+      ],
+      "emotionalTriggers": [
+        "希望",
+        "実現可能性",
+        "戦略的思考"
+      ],
       "marketingStage": "情報収集フェーズ",
-      "conversionMethod": "戦略的情報提供"
+      "conversionMethod": "戦略的情報提供",
+      "knowledgeId": "K039"
     },
     "gakuchika-premium-networking": {
       "source": "contents-040",
-      "targetPersona": "P056",
       "problemCategory": "インターン・ES情報収集",
-      "role": "networking-strategy", 
+      "role": "networking-strategy",
       "actualTitle": "ガクチカ優秀ネタ30選",
       "problemDescription": "ガクチカで差別化できる優秀なエピソード・ネタを見つけられず、他の学生との差別化に悩んでいる学生の問題",
       "solutionContent": {
@@ -2384,14 +3649,25 @@
         "ガクチカ",
         "優秀ネタ30選"
       ],
-      "searchKeywords": ["ガクチカ", "優秀", "ネタ", "30選", "差別化", "エピソード"],
-      "emotionalTriggers": ["競争優位", "差別化", "優秀感"],
+      "searchKeywords": [
+        "ガクチカ",
+        "優秀",
+        "ネタ",
+        "30選",
+        "差別化",
+        "エピソード"
+      ],
+      "emotionalTriggers": [
+        "競争優位",
+        "差別化",
+        "優秀感"
+      ],
       "marketingStage": "コンテンツ作成フェーズ",
-      "conversionMethod": "優秀ネタ提供"
+      "conversionMethod": "優秀ネタ提供",
+      "knowledgeId": "K040"
     },
     "university-july-bad-things-said": {
       "source": "contents-041",
-      "targetPersona": "P057",
       "problemCategory": "就活スケジュール管理・時期別対策",
       "role": "motivation-recovery",
       "actualTitle": "大学3年7月〆切でも言いたいこと",
@@ -2407,14 +3683,25 @@
         "〆切でも",
         "言いたいこと"
       ],
-      "searchKeywords": ["大学3年", "7月", "締切", "就活", "プレッシャー", "励まし"],
-      "emotionalTriggers": ["励まし", "共感", "不安解消"],
+      "searchKeywords": [
+        "大学3年",
+        "7月",
+        "締切",
+        "就活",
+        "プレッシャー",
+        "励まし"
+      ],
+      "emotionalTriggers": [
+        "励まし",
+        "共感",
+        "不安解消"
+      ],
       "marketingStage": "モチベーション回復フェーズ",
-      "conversionMethod": "励まし・支援"
+      "conversionMethod": "励まし・支援",
+      "knowledgeId": "K041"
     },
     "third-year-should-know-dangerous-gakuchika": {
       "source": "contents-042",
-      "targetPersona": "P058",
       "problemCategory": "ガクチカ内容充実・活動指導",
       "role": "warning-guidance",
       "actualTitle": "大学3年なら知らんとヤバいガクチカの就活スケジュール",
@@ -2430,14 +3717,24 @@
         "知らんとヤバい",
         "ガクチカの就活スケジュール"
       ],
-      "searchKeywords": ["大学3年", "ガクチカ", "就活スケジュール", "ヤバい", "危機感"],
-      "emotionalTriggers": ["危機感", "緊急性", "必要性認識"],
+      "searchKeywords": [
+        "大学3年",
+        "ガクチカ",
+        "就活スケジュール",
+        "ヤバい",
+        "危機感"
+      ],
+      "emotionalTriggers": [
+        "危機感",
+        "緊急性",
+        "必要性認識"
+      ],
       "marketingStage": "危機認識フェーズ",
-      "conversionMethod": "危機感醸成"
+      "conversionMethod": "危機感醸成",
+      "knowledgeId": "K042"
     },
     "may-target-excellent-companies-late-applications": {
       "source": "contents-043",
-      "targetPersona": "P059",
       "problemCategory": "就活後期・5月企業情報",
       "role": "opportunity-guide",
       "actualTitle": "穴場で大手 5月が狙い目の優良企業6選 駆け込みエントリーでもOK！",
@@ -2454,14 +3751,25 @@
         "優良企業6選",
         "駆け込みエントリーでもOK！"
       ],
-      "searchKeywords": ["5月", "大手企業", "優良企業", "穴場", "駆け込み", "エントリー"],
-      "emotionalTriggers": ["希望回復", "機会発見", "安心感"],
+      "searchKeywords": [
+        "5月",
+        "大手企業",
+        "優良企業",
+        "穴場",
+        "駆け込み",
+        "エントリー"
+      ],
+      "emotionalTriggers": [
+        "希望回復",
+        "機会発見",
+        "安心感"
+      ],
       "marketingStage": "機会発見フェーズ",
-      "conversionMethod": "後期機会提供"
+      "conversionMethod": "後期機会提供",
+      "knowledgeId": "K043"
     },
     "non-academic-filter-mass-hiring-companies": {
       "source": "contents-044",
-      "targetPersona": "P060",
       "problemCategory": "学歴フィルター・大量採用企業",
       "role": "equal-opportunity",
       "actualTitle": "学歴フィルターなし大量採用 大企業42選",
@@ -2477,14 +3785,24 @@
         "大量採用",
         "大企業42選"
       ],
-      "searchKeywords": ["学歴フィルター", "大量採用", "大企業", "42選", "学歴不問"],
-      "emotionalTriggers": ["平等感", "希望", "可能性拡大"],
+      "searchKeywords": [
+        "学歴フィルター",
+        "大量採用",
+        "大企業",
+        "42選",
+        "学歴不問"
+      ],
+      "emotionalTriggers": [
+        "平等感",
+        "希望",
+        "可能性拡大"
+      ],
       "marketingStage": "機会平等認識フェーズ",
-      "conversionMethod": "学歴不問機会提供"
+      "conversionMethod": "学歴不問機会提供",
+      "knowledgeId": "K044"
     },
     "selection-expert-appropriate-inspection": {
       "source": "contents-045",
-      "targetPersona": "P061",
       "problemCategory": "適性検査・SPI対策",
       "role": "strategic-preparation",
       "actualTitle": "選考に鬼門になる適性検査 こう解け",
@@ -2500,14 +3818,25 @@
         "適性検査",
         "こう解け"
       ],
-      "searchKeywords": ["適性検査", "SPI", "選考", "鬼門", "解法", "対策"],
-      "emotionalTriggers": ["攻略感", "技術習得", "通過確信"],
+      "searchKeywords": [
+        "適性検査",
+        "SPI",
+        "選考",
+        "鬼門",
+        "解法",
+        "対策"
+      ],
+      "emotionalTriggers": [
+        "攻略感",
+        "技術習得",
+        "通過確信"
+      ],
       "marketingStage": "技術習得フェーズ",
-      "conversionMethod": "解法技術提供"
+      "conversionMethod": "解法技術提供",
+      "knowledgeId": "K045"
     },
     "spi-major-company-frequency-70-selection": {
       "source": "contents-046",
-      "targetPersona": "P062",
       "problemCategory": "適性検査・SPI対策",
       "role": "data-driven-preparation",
       "actualTitle": "これで大丈夫 SPI頻出語句70選",
@@ -2522,14 +3851,25 @@
         "これで大丈夫",
         "SPI頻出語句70選"
       ],
-      "searchKeywords": ["SPI", "頻出語句", "70選", "対策", "試験対策", "得点向上"],
-      "emotionalTriggers": ["安心感", "準備万全", "効率学習"],
+      "searchKeywords": [
+        "SPI",
+        "頻出語句",
+        "70選",
+        "対策",
+        "試験対策",
+        "得点向上"
+      ],
+      "emotionalTriggers": [
+        "安心感",
+        "準備万全",
+        "効率学習"
+      ],
       "marketingStage": "試験対策フェーズ",
-      "conversionMethod": "頻出データ提供"
+      "conversionMethod": "頻出データ提供",
+      "knowledgeId": "K046"
     },
     "industry-specific-business-axis-job-search": {
       "source": "contents-047",
-      "targetPersona": "P063",
       "problemCategory": "業界別・企業研究方法",
       "role": "methodology-guidance",
       "actualTitle": "もう迷わない！業界別就活軸",
@@ -2544,14 +3884,24 @@
         "もう迷わない！",
         "業界別就活軸"
       ],
-      "searchKeywords": ["業界別", "就活軸", "企業研究", "迷わない", "軸設定"],
-      "emotionalTriggers": ["明確化", "迷い解消", "方向性確立"],
+      "searchKeywords": [
+        "業界別",
+        "就活軸",
+        "企業研究",
+        "迷わない",
+        "軸設定"
+      ],
+      "emotionalTriggers": [
+        "明確化",
+        "迷い解消",
+        "方向性確立"
+      ],
       "marketingStage": "方向性決定フェーズ",
-      "conversionMethod": "軸設定指導"
+      "conversionMethod": "軸設定指導",
+      "knowledgeId": "K047"
     },
     "current-period-industry-research-missed": {
       "source": "contents-048",
-      "targetPersona": "P064",
       "problemCategory": "業界別・企業研究方法",
       "role": "timing-strategy",
       "actualTitle": "今の時期 企業研究 ガチれ 選考始まる前に調べまくろう！",
@@ -2568,14 +3918,24 @@
         "ガチれ",
         "選考始まる前に調べまくろう！"
       ],
-      "searchKeywords": ["今の時期", "企業研究", "選考準備", "調査", "事前準備"],
-      "emotionalTriggers": ["緊急性", "集中力", "準備重視"],
+      "searchKeywords": [
+        "今の時期",
+        "企業研究",
+        "選考準備",
+        "調査",
+        "事前準備"
+      ],
+      "emotionalTriggers": [
+        "緊急性",
+        "集中力",
+        "準備重視"
+      ],
       "marketingStage": "集中準備フェーズ",
-      "conversionMethod": "集中行動促進"
+      "conversionMethod": "集中行動促進",
+      "knowledgeId": "K048"
     },
     "efficient-work-habits-fastest-practice": {
       "source": "contents-049",
-      "targetPersona": "P065",
       "problemCategory": "仕事効率化・業務習慣",
       "role": "productivity-improvement",
       "actualTitle": "効率よく仕事をこなせる 仕事が早い人の最強の習慣",
@@ -2591,14 +3951,24 @@
         "仕事が早い人の",
         "最強の習慣"
       ],
-      "searchKeywords": ["仕事効率", "習慣", "生産性", "時間管理", "仕事術"],
-      "emotionalTriggers": ["効率向上", "スキル習得", "成果向上"],
+      "searchKeywords": [
+        "仕事効率",
+        "習慣",
+        "生産性",
+        "時間管理",
+        "仕事術"
+      ],
+      "emotionalTriggers": [
+        "効率向上",
+        "スキル習得",
+        "成果向上"
+      ],
       "marketingStage": "スキル向上フェーズ",
-      "conversionMethod": "習慣改善指導"
+      "conversionMethod": "習慣改善指導",
+      "knowledgeId": "K049"
     },
     "job-anxiety-incompetent-person-characteristics": {
       "source": "contents-050",
-      "targetPersona": "P066",
       "problemCategory": "就職活動・不安解消法",
       "role": "confidence-building",
       "actualTitle": "仕事が・・・デキない人 特徴7選",
@@ -2614,14 +3984,25 @@
         "デキない人",
         "特徴7選"
       ],
-      "searchKeywords": ["仕事", "デキない人", "特徴", "自己改善", "7選", "能力向上"],
-      "emotionalTriggers": ["自己反省", "改善意欲", "自信回復"],
+      "searchKeywords": [
+        "仕事",
+        "デキない人",
+        "特徴",
+        "自己改善",
+        "7選",
+        "能力向上"
+      ],
+      "emotionalTriggers": [
+        "自己反省",
+        "改善意欲",
+        "自信回復"
+      ],
       "marketingStage": "自己改善フェーズ",
-      "conversionMethod": "反面教師・改善指導"
+      "conversionMethod": "反面教師・改善指導",
+      "knowledgeId": "K050"
     },
     "high-paying-holiday-jobs": {
       "source": "contents-051",
-      "targetPersona": "P067",
       "problemCategory": "ワークライフバランス・高収入職種",
       "role": "career-discovery",
       "actualTitle": "意外と知らない休日が多くて稼げる仕事9選",
@@ -2642,12 +4023,22 @@
         "ワークライフバランス重視",
         "高収入×休日充実"
       ],
-      "searchKeywords": ["休日多い仕事", "ワークライフバランス", "高収入職種", "プライベート重視"],
-      "emotionalTriggers": ["発見喜び", "理想実現", "選択肢拡大", "安心感"]
+      "searchKeywords": [
+        "休日多い仕事",
+        "ワークライフバランス",
+        "高収入職種",
+        "プライベート重視"
+      ],
+      "emotionalTriggers": [
+        "発見喜び",
+        "理想実現",
+        "選択肢拡大",
+        "安心感"
+      ],
+      "knowledgeId": "K051"
     },
     "relaxed-work-mindset": {
       "source": "contents-052",
-      "targetPersona": "P068", 
       "problemCategory": "働き方マインドセット・ストレス軽減",
       "role": "mindset-transformation",
       "actualTitle": "仕事はもっと楽でいい",
@@ -2668,13 +4059,23 @@
         "ストレスフリー働き方",
         "無理しない仕事選び"
       ],
-      "searchKeywords": ["楽な仕事", "ストレス軽減", "働き方改革", "ゆるキャリ"],
-      "emotionalTriggers": ["安堵感", "解放感", "共感", "自己肯定"]
+      "searchKeywords": [
+        "楽な仕事",
+        "ストレス軽減",
+        "働き方改革",
+        "ゆるキャリ"
+      ],
+      "emotionalTriggers": [
+        "安堵感",
+        "解放感",
+        "共感",
+        "自己肯定"
+      ],
+      "knowledgeId": "K052"
     },
     "good-workplace-characteristics": {
       "source": "contents-053",
-      "targetPersona": "P069",
-      "problemCategory": "職場選択・評価基準", 
+      "problemCategory": "職場選択・評価基準",
       "role": "evaluation-guidance",
       "actualTitle": "辞めない方が良い職場6選",
       "problemDescription": "転職を考えている人、現在の職場の価値を判断できない人、職場選択の基準がわからない人の悩み",
@@ -2683,7 +4084,7 @@
         "keyMessage": "良い職場の見極め方を理解する",
         "benefits": [
           "適切な職場評価",
-          "転職判断の精度向上", 
+          "転職判断の精度向上",
           "キャリア安定性向上"
         ],
         "approach": "客観的評価基準の提示"
@@ -2694,12 +4095,22 @@
         "転職前の冷静な判断",
         "隠れた職場メリット"
       ],
-      "searchKeywords": ["良い職場", "転職判断", "職場評価", "キャリア選択"],
-      "emotionalTriggers": ["判断支援", "安心感", "客観視", "価値再認識"]
+      "searchKeywords": [
+        "良い職場",
+        "転職判断",
+        "職場評価",
+        "キャリア選択"
+      ],
+      "emotionalTriggers": [
+        "判断支援",
+        "安心感",
+        "客観視",
+        "価値再認識"
+      ],
+      "knowledgeId": "K053"
     },
     "introvert-suitable-jobs": {
       "source": "contents-054",
-      "targetPersona": "P070",
       "problemCategory": "性格特性・職業適性",
       "role": "personality-based-guidance",
       "actualTitle": "繊細でしんどい…内向型さん向いてる仕事24選",
@@ -2717,15 +4128,25 @@
       "effectiveExpressions": [
         "内向型さん向いてる仕事",
         "繊細な人の職業選択",
-        "HSP適職", 
+        "HSP適職",
         "性格を活かした働き方"
       ],
-      "searchKeywords": ["内向型 仕事", "HSP 適職", "繊細 職業", "性格 職業適性"],
-      "emotionalTriggers": ["共感", "安心感", "自己受容", "希望"]
+      "searchKeywords": [
+        "内向型 仕事",
+        "HSP 適職",
+        "繊細 職業",
+        "性格 職業適性"
+      ],
+      "emotionalTriggers": [
+        "共感",
+        "安心感",
+        "自己受容",
+        "希望"
+      ],
+      "knowledgeId": "K054"
     },
     "cognitive-agility-thinking": {
       "source": "contents-055",
-      "targetPersona": "P071",
       "problemCategory": "思考力向上・認知能力",
       "role": "cognitive-enhancement",
       "actualTitle": "頭の回転が早い人考え方21選",
@@ -2746,12 +4167,22 @@
         "思考パターン習得",
         "認知能力アップ"
       ],
-      "searchKeywords": ["頭の回転", "思考力", "認知能力", "考え方"],
-      "emotionalTriggers": ["向上意欲", "学習欲求", "能力開発", "成長実感"]
+      "searchKeywords": [
+        "頭の回転",
+        "思考力",
+        "認知能力",
+        "考え方"
+      ],
+      "emotionalTriggers": [
+        "向上意欲",
+        "学習欲求",
+        "能力開発",
+        "成長実感"
+      ],
+      "knowledgeId": "K055"
     },
     "work-speed-optimization": {
       "source": "contents-056",
-      "targetPersona": "P072",
       "problemCategory": "仕事効率化・スピード向上",
       "role": "efficiency-optimization",
       "actualTitle": "仕事が超早い人の特徴9選",
@@ -2772,12 +4203,22 @@
         "効率化のコツ",
         "スピード向上術"
       ],
-      "searchKeywords": ["仕事 早い", "効率化", "スピードアップ", "作業効率"],
-      "emotionalTriggers": ["効率追求", "時間価値", "生産性向上", "競争優位"]
+      "searchKeywords": [
+        "仕事 早い",
+        "効率化",
+        "スピードアップ",
+        "作業効率"
+      ],
+      "emotionalTriggers": [
+        "効率追求",
+        "時間価値",
+        "生産性向上",
+        "競争優位"
+      ],
+      "knowledgeId": "K056"
     },
     "high-performance-achiever": {
       "source": "contents-057",
-      "targetPersona": "P073", 
       "problemCategory": "高パフォーマンス・成果最大化",
       "role": "performance-enhancement",
       "actualTitle": "バリバリ仕事ができる人特徴7選",
@@ -2798,12 +4239,22 @@
         "高パフォーマンス",
         "成果最大化"
       ],
-      "searchKeywords": ["仕事できる人", "高パフォーマンス", "成果", "優秀"],
-      "emotionalTriggers": ["成功志向", "優越感", "達成欲求", "競争心"]
+      "searchKeywords": [
+        "仕事できる人",
+        "高パフォーマンス",
+        "成果",
+        "優秀"
+      ],
+      "emotionalTriggers": [
+        "成功志向",
+        "優越感",
+        "達成欲求",
+        "競争心"
+      ],
+      "knowledgeId": "K057"
     },
     "mid-career-skill-transition": {
       "source": "contents-058",
-      "targetPersona": "P074",
       "problemCategory": "中途転職・スキル職",
       "role": "career-transition",
       "actualTitle": "30代から始めても遅くない！手に職系の仕事8選",
@@ -2824,12 +4275,22 @@
         "キャリア転換",
         "技能習得"
       ],
-      "searchKeywords": ["手に職", "30代転職", "スキル職", "キャリア転換"],
-      "emotionalTriggers": ["希望", "安心感", "可能性発見", "将来安定"]
+      "searchKeywords": [
+        "手に職",
+        "30代転職",
+        "スキル職",
+        "キャリア転換"
+      ],
+      "emotionalTriggers": [
+        "希望",
+        "安心感",
+        "可能性発見",
+        "将来安定"
+      ],
+      "knowledgeId": "K058"
     },
     "respect-authority-building": {
       "source": "contents-059",
-      "targetPersona": "P075",
       "problemCategory": "対人関係・権威性構築",
       "role": "authority-enhancement",
       "actualTitle": "なぜかナメられる人の特徴",
@@ -2850,12 +4311,22 @@
         "尊敬獲得",
         "対人関係改善"
       ],
-      "searchKeywords": ["ナメられる", "権威性", "尊敬", "対人関係"],
-      "emotionalTriggers": ["自己改善", "権威欲求", "尊敬獲得", "自信回復"]
+      "searchKeywords": [
+        "ナメられる",
+        "権威性",
+        "尊敬",
+        "対人関係"
+      ],
+      "emotionalTriggers": [
+        "自己改善",
+        "権威欲求",
+        "尊敬獲得",
+        "自信回復"
+      ],
+      "knowledgeId": "K059"
     },
     "work-competency-improvement": {
       "source": "contents-060",
-      "targetPersona": "P076",
       "problemCategory": "仕事能力・改善指導",
       "role": "competency-enhancement",
       "actualTitle": "仕事ができない人考え方21選",
@@ -2876,12 +4347,22 @@
         "能力向上",
         "成果改善"
       ],
-      "searchKeywords": ["仕事できない", "能力向上", "成果改善", "職場評価"],
-      "emotionalTriggers": ["危機感", "改善意欲", "成長欲求", "評価向上"]
+      "searchKeywords": [
+        "仕事できない",
+        "能力向上",
+        "成果改善",
+        "職場評価"
+      ],
+      "emotionalTriggers": [
+        "危機感",
+        "改善意欲",
+        "成長欲求",
+        "評価向上"
+      ],
+      "knowledgeId": "K060"
     },
     "mental-strength-habits": {
       "source": "contents-061",
-      "targetPersona": "P077",
       "problemCategory": "メンタル強化・習慣改善",
       "role": "resilience-building",
       "actualTitle": "メンタルが強い人が「やらない」3つの習慣",
@@ -2902,12 +4383,22 @@
         "精神力向上",
         "ストレス耐性"
       ],
-      "searchKeywords": ["メンタル強化", "精神力", "ストレス耐性", "習慣改善"],
-      "emotionalTriggers": ["強さ憧れ", "安定感", "自信向上", "成長実感"]
+      "searchKeywords": [
+        "メンタル強化",
+        "精神力",
+        "ストレス耐性",
+        "習慣改善"
+      ],
+      "emotionalTriggers": [
+        "強さ憧れ",
+        "安定感",
+        "自信向上",
+        "成長実感"
+      ],
+      "knowledgeId": "K061"
     },
     "future-proof-qualifications": {
       "source": "contents-062",
-      "targetPersona": "P078",
       "problemCategory": "将来対応・資格取得",
       "role": "future-preparation",
       "actualTitle": "2025年アツい！未来に強い資格5選",
@@ -2928,12 +4419,22 @@
         "将来準備",
         "市場価値向上"
       ],
-      "searchKeywords": ["2025年", "将来 資格", "未来対応", "市場価値"],
-      "emotionalTriggers": ["将来不安", "安心感", "先取り感", "投資価値"]
+      "searchKeywords": [
+        "2025年",
+        "将来 資格",
+        "未来対応",
+        "市場価値"
+      ],
+      "emotionalTriggers": [
+        "将来不安",
+        "安心感",
+        "先取り感",
+        "投資価値"
+      ],
+      "knowledgeId": "K062"
     },
     "univa-internship-intensity": {
       "source": "contents-069",
-      "targetPersona": "P085",
       "problemCategory": "就活効率化",
       "role": "reality-shock",
       "actualTitle": "ユニバインターンきっつすぎ...",
@@ -2946,15 +4447,34 @@
           "preparation": "相当な準備が必要",
           "competition": "優秀な学生との競争環境"
         },
-        "benefits": ["現実認識", "準備重要性理解", "覚悟決め"]
+        "benefits": [
+          "現実認識",
+          "準備重要性理解",
+          "覚悟決め"
+        ]
       },
-      "effectiveExpressions": ["きっつすぎ", "ユニバインターン", "現実は厳しい", "覚悟して"],
-      "searchKeywords": ["ユニバ", "インターン", "厳しい", "選考", "準備"],
-      "emotionalTriggers": ["現実認識", "危機感", "準備重要性"]
+      "effectiveExpressions": [
+        "きっつすぎ",
+        "ユニバインターン",
+        "現実は厳しい",
+        "覚悟して"
+      ],
+      "searchKeywords": [
+        "ユニバ",
+        "インターン",
+        "厳しい",
+        "選考",
+        "準備"
+      ],
+      "emotionalTriggers": [
+        "現実認識",
+        "危機感",
+        "準備重要性"
+      ],
+      "knowledgeId": "K069"
     },
     "interview-self-questions": {
       "source": "contents-070",
-      "targetPersona": "P086",
       "problemCategory": "面接対策",
       "role": "practical-guidance",
       "actualTitle": "自分に関する質問（面接）チェックリスト",
@@ -2970,13 +4490,30 @@
         ],
         "approach": "具体的なエピソードで自分を説明"
       },
-      "effectiveExpressions": ["自分に関する質問", "チェックリスト", "エピソード", "具体的に"],
-      "searchKeywords": ["面接", "自分", "質問", "エピソード", "強み", "弱み", "挫折"],
-      "emotionalTriggers": ["準備重要性", "不安解消", "自信構築"]
+      "effectiveExpressions": [
+        "自分に関する質問",
+        "チェックリスト",
+        "エピソード",
+        "具体的に"
+      ],
+      "searchKeywords": [
+        "面接",
+        "自分",
+        "質問",
+        "エピソード",
+        "強み",
+        "弱み",
+        "挫折"
+      ],
+      "emotionalTriggers": [
+        "準備重要性",
+        "不安解消",
+        "自信構築"
+      ],
+      "knowledgeId": "K070"
     },
     "information-age-evolution": {
       "source": "contents-071",
-      "targetPersona": "P087",
       "problemCategory": "AI・技術活用",
       "role": "trend-analysis",
       "actualTitle": "2020年Wikipedia vs 2025年Gemini AI比較",
@@ -2993,15 +4530,35 @@
           "interactivity": "対話形式で深掘り可能",
           "customization": "個人ニーズに合わせた情報提供"
         },
-        "benefits": ["情報収集効率化", "理解深化", "時代適応"]
+        "benefits": [
+          "情報収集効率化",
+          "理解深化",
+          "時代適応"
+        ]
       },
-      "effectiveExpressions": ["2020年vs2025年", "情報革命", "進化", "対話的"],
-      "searchKeywords": ["Wikipedia", "Gemini", "AI", "情報収集", "進化", "効率化"],
-      "emotionalTriggers": ["時代変化認識", "効率性", "優越感"]
+      "effectiveExpressions": [
+        "2020年vs2025年",
+        "情報革命",
+        "進化",
+        "対話的"
+      ],
+      "searchKeywords": [
+        "Wikipedia",
+        "Gemini",
+        "AI",
+        "情報収集",
+        "進化",
+        "効率化"
+      ],
+      "emotionalTriggers": [
+        "時代変化認識",
+        "効率性",
+        "優越感"
+      ],
+      "knowledgeId": "K071"
     },
     "mobile-ai-recommendations": {
       "source": "contents-072",
-      "targetPersona": "P088",
       "problemCategory": "AI・技術活用",
       "role": "tool-recommendation",
       "actualTitle": "モバイルAI推薦 - 万能AI、時間化、検索アプリ活用",
@@ -3016,15 +4573,35 @@
           "音楽生成": "Suno",
           "メモ整理": "Notion、Recraft、Grok"
         },
-        "benefits": ["会話的自動作業", "無料画像生成", "実時間検索"]
+        "benefits": [
+          "会話的自動作業",
+          "無料画像生成",
+          "実時間検索"
+        ]
       },
-      "effectiveExpressions": ["モバイルAI推薦", "万能AI", "自動調査", "音楽生成"],
-      "searchKeywords": ["モバイル", "AI", "アプリ", "ChatGPT", "Gemini", "Notion"],
-      "emotionalTriggers": ["便利性", "効率化", "多機能性"]
+      "effectiveExpressions": [
+        "モバイルAI推薦",
+        "万能AI",
+        "自動調査",
+        "音楽生成"
+      ],
+      "searchKeywords": [
+        "モバイル",
+        "AI",
+        "アプリ",
+        "ChatGPT",
+        "Gemini",
+        "Notion"
+      ],
+      "emotionalTriggers": [
+        "便利性",
+        "効率化",
+        "多機能性"
+      ],
+      "knowledgeId": "K072"
     },
     "ai-job-hunting-wisdom": {
       "source": "contents-073",
-      "targetPersona": "P089",
       "problemCategory": "働き方マインドセット・ストレス軽減",
       "role": "value-analysis",
       "actualTitle": "コスパ良すぎ、AI就活の正解はコレ",
@@ -3037,15 +4614,34 @@
           "informationGap": "知らない人が損する情報格差",
           "correctAnswer": "AI就活の正解"
         },
-        "benefits": ["効率化", "情報優位", "競争力向上"]
+        "benefits": [
+          "効率化",
+          "情報優位",
+          "競争力向上"
+        ]
       },
-      "effectiveExpressions": ["コスパ良すぎ", "知らないのはもったいない", "AI就活の正解", "これ"],
-      "searchKeywords": ["AI", "就活", "コスパ", "効率", "正解"],
-      "emotionalTriggers": ["損失回避", "優越感", "効率性"]
+      "effectiveExpressions": [
+        "コスパ良すぎ",
+        "知らないのはもったいない",
+        "AI就活の正解",
+        "これ"
+      ],
+      "searchKeywords": [
+        "AI",
+        "就活",
+        "コスパ",
+        "効率",
+        "正解"
+      ],
+      "emotionalTriggers": [
+        "損失回避",
+        "優越感",
+        "効率性"
+      ],
+      "knowledgeId": "K073"
     },
     "job-hunting-ai-emergence": {
       "source": "contents-074",
-      "targetPersona": "P090",
       "problemCategory": "AI・技術活用",
       "role": "announcement",
       "actualTitle": "とんでもない就活AIが登場した",
@@ -3058,15 +4654,34 @@
           "gameChanger": "就活市場を変える可能性",
           "firstMover": "早期採用者の優位性"
         },
-        "benefits": ["競争優位", "効率化", "革新的体験"]
+        "benefits": [
+          "競争優位",
+          "効率化",
+          "革新的体験"
+        ]
       },
-      "effectiveExpressions": ["とんでもない", "就活AI", "登場した", "革命的"],
-      "searchKeywords": ["就活", "AI", "登場", "革新", "技術"],
-      "emotionalTriggers": ["驚き", "期待感", "先取り優位"]
+      "effectiveExpressions": [
+        "とんでもない",
+        "就活AI",
+        "登場した",
+        "革命的"
+      ],
+      "searchKeywords": [
+        "就活",
+        "AI",
+        "登場",
+        "革新",
+        "技術"
+      ],
+      "emotionalTriggers": [
+        "驚き",
+        "期待感",
+        "先取り優位"
+      ],
+      "knowledgeId": "K074"
     },
     "generative-ai-job-prep": {
       "source": "contents-075",
-      "targetPersona": "P091",
       "problemCategory": "AI・技術活用",
       "role": "practical-guidance",
       "actualTitle": "就活準備での生成AI活用方法",
@@ -3080,15 +4695,34 @@
           "industryResearch": "業界研究",
           "selfAnalysis": "自己分析深化"
         },
-        "benefits": ["作業効率化", "質の向上", "準備完成度向上"]
+        "benefits": [
+          "作業効率化",
+          "質の向上",
+          "準備完成度向上"
+        ]
       },
-      "effectiveExpressions": ["就活準備", "生成AI", "ChatGPTなど", "活用方法"],
-      "searchKeywords": ["就活", "生成AI", "ChatGPT", "準備", "活用"],
-      "emotionalTriggers": ["実用性", "効率化", "成功確率向上"]
+      "effectiveExpressions": [
+        "就活準備",
+        "生成AI",
+        "ChatGPTなど",
+        "活用方法"
+      ],
+      "searchKeywords": [
+        "就活",
+        "生成AI",
+        "ChatGPT",
+        "準備",
+        "活用"
+      ],
+      "emotionalTriggers": [
+        "実用性",
+        "効率化",
+        "成功確率向上"
+      ],
+      "knowledgeId": "K075"
     },
     "latest-ai-competitive-advantage": {
       "source": "contents-076",
-      "targetPersona": "P092",
       "problemCategory": "AI・技術活用",
       "role": "competitive-strategy",
       "actualTitle": "AI使って差をつける！最新AI活用術 就活編",
@@ -3101,15 +4735,35 @@
           "efficiency": "最新技術による効率化",
           "advantage": "競争優位の構築"
         },
-        "benefits": ["差別化", "効率向上", "競争力強化"]
+        "benefits": [
+          "差別化",
+          "効率向上",
+          "競争力強化"
+        ]
       },
-      "effectiveExpressions": ["AI使って差をつける", "最新AI活用術", "就活編", "効率性大幅アップ"],
-      "searchKeywords": ["AI", "差をつける", "最新", "活用術", "就活", "効率性"],
-      "emotionalTriggers": ["競争優位", "差別化欲求", "効率性"]
+      "effectiveExpressions": [
+        "AI使って差をつける",
+        "最新AI活用術",
+        "就活編",
+        "効率性大幅アップ"
+      ],
+      "searchKeywords": [
+        "AI",
+        "差をつける",
+        "最新",
+        "活用術",
+        "就活",
+        "効率性"
+      ],
+      "emotionalTriggers": [
+        "競争優位",
+        "差別化欲求",
+        "効率性"
+      ],
+      "knowledgeId": "K076"
     },
     "interview-communication-skills": {
       "source": "contents-077",
-      "targetPersona": "P093",
       "problemCategory": "面接対策",
       "role": "skill-enhancement",
       "actualTitle": "面接官にコミュ力が高いと思われる2つのポイント",
@@ -3121,15 +4775,34 @@
           "point1": "具体的なエピソードでの表現力",
           "point2": "相手に合わせた適切なコミュニケーション"
         },
-        "benefits": ["面接評価向上", "印象力強化", "内定確率アップ"]
+        "benefits": [
+          "面接評価向上",
+          "印象力強化",
+          "内定確率アップ"
+        ]
       },
-      "effectiveExpressions": ["コミュ力が高いと思われる", "2つのポイント", "面接官に", "印象づける"],
-      "searchKeywords": ["面接", "コミュニケーション", "コミュ力", "印象", "評価"],
-      "emotionalTriggers": ["自信向上", "評価期待", "成功願望"]
+      "effectiveExpressions": [
+        "コミュ力が高いと思われる",
+        "2つのポイント",
+        "面接官に",
+        "印象づける"
+      ],
+      "searchKeywords": [
+        "面接",
+        "コミュニケーション",
+        "コミュ力",
+        "印象",
+        "評価"
+      ],
+      "emotionalTriggers": [
+        "自信向上",
+        "評価期待",
+        "成功願望"
+      ],
+      "knowledgeId": "K077"
     },
     "ai-job-displacement-anxiety": {
       "source": "contents-078",
-      "targetPersona": "P094",
       "problemCategory": "働き方マインドセット・ストレス軽減",
       "role": "reality-awareness",
       "actualTitle": "あなたの仕事も！？マジでAIに奪われます。実はデスクワークの方が...？",
@@ -3142,15 +4815,34 @@
           "focus": "デスクワーク系の仕事により大きな影響",
           "preparation": "変化への準備と適応が必要"
         },
-        "benefits": ["現実認識", "危機意識", "準備促進"]
+        "benefits": [
+          "現実認識",
+          "危機意識",
+          "準備促進"
+        ]
       },
-      "effectiveExpressions": ["あなたの仕事も！？", "マジでAIに奪われます", "デスクワークの方が", "実は"],
-      "searchKeywords": ["AI", "仕事", "奪われる", "デスクワーク", "将来不安"],
-      "emotionalTriggers": ["危機感", "現実認識", "準備必要性"]
+      "effectiveExpressions": [
+        "あなたの仕事も！？",
+        "マジでAIに奪われます",
+        "デスクワークの方が",
+        "実は"
+      ],
+      "searchKeywords": [
+        "AI",
+        "仕事",
+        "奪われる",
+        "デスクワーク",
+        "将来不安"
+      ],
+      "emotionalTriggers": [
+        "危機感",
+        "現実認識",
+        "準備必要性"
+      ],
+      "knowledgeId": "K078"
     },
     "ai-interview-trend": {
       "source": "contents-079",
-      "targetPersona": "P095",
       "problemCategory": "面接対策",
       "role": "trend-information",
       "actualTitle": "導入企業が増加中！AI面接",
@@ -3163,15 +4855,34 @@
           "necessity": "AI面接対策の重要性",
           "preparation": "従来とは異なる準備が必要"
         },
-        "benefits": ["最新動向把握", "準備適正化", "競争優位確保"]
+        "benefits": [
+          "最新動向把握",
+          "準備適正化",
+          "競争優位確保"
+        ]
       },
-      "effectiveExpressions": ["導入企業が増加中", "AI面接", "最新トレンド", "対策必須"],
-      "searchKeywords": ["AI面接", "導入", "企業", "増加", "トレンド"],
-      "emotionalTriggers": ["情報優位", "準備重要性", "時代適応"]
+      "effectiveExpressions": [
+        "導入企業が増加中",
+        "AI面接",
+        "最新トレンド",
+        "対策必須"
+      ],
+      "searchKeywords": [
+        "AI面接",
+        "導入",
+        "企業",
+        "増加",
+        "トレンド"
+      ],
+      "emotionalTriggers": [
+        "情報優位",
+        "準備重要性",
+        "時代適応"
+      ],
+      "knowledgeId": "K079"
     },
     "job-hunting-preparation-checklist-27": {
       "source": "contents-080",
-      "targetPersona": "P096",
       "problemCategory": "時期別対策",
       "role": "comprehensive-guidance",
       "actualTitle": "27卒は夏までに準備！答えられて当然就活基本質問リスト30",
@@ -3184,15 +4895,34 @@
           "expectation": "答えられて当然のレベル",
           "coverage": "基本質問30項目の網羅"
         },
-        "benefits": ["基礎準備完成", "面接対応力向上", "不安解消"]
+        "benefits": [
+          "基礎準備完成",
+          "面接対応力向上",
+          "不安解消"
+        ]
       },
-      "effectiveExpressions": ["27卒は夏までに", "答えられて当然", "基本質問リスト30", "準備必須"],
-      "searchKeywords": ["27卒", "夏まで", "基本質問", "リスト", "準備"],
-      "emotionalTriggers": ["期限切迫感", "必須性認識", "準備完成願望"]
+      "effectiveExpressions": [
+        "27卒は夏までに",
+        "答えられて当然",
+        "基本質問リスト30",
+        "準備必須"
+      ],
+      "searchKeywords": [
+        "27卒",
+        "夏まで",
+        "基本質問",
+        "リスト",
+        "準備"
+      ],
+      "emotionalTriggers": [
+        "期限切迫感",
+        "必須性認識",
+        "準備完成願望"
+      ],
+      "knowledgeId": "K080"
     },
     "recommended-ai-tools-job-hunting": {
       "source": "contents-081",
-      "targetPersona": "P097",
       "problemCategory": "AI・技術活用",
       "role": "tool-recommendation",
       "actualTitle": "就活で使うべきオススメAIツール",
@@ -3203,30 +4933,71 @@
         "toolCategories": [
           {
             "category": "文章作成支援",
-            "tools": ["ChatGPT", "Claude", "Copy.ai"],
-            "useCases": ["ES作成", "自己PR改善", "ガクチカ作成"]
+            "tools": [
+              "ChatGPT",
+              "Claude",
+              "Copy.ai"
+            ],
+            "useCases": [
+              "ES作成",
+              "自己PR改善",
+              "ガクチカ作成"
+            ]
           },
           {
             "category": "面接対策",
-            "tools": ["AI面接練習アプリ", "音声分析ツール"],
-            "useCases": ["模擬面接", "話し方改善", "表情分析"]
+            "tools": [
+              "AI面接練習アプリ",
+              "音声分析ツール"
+            ],
+            "useCases": [
+              "模擬面接",
+              "話し方改善",
+              "表情分析"
+            ]
           },
           {
             "category": "企業研究",
-            "tools": ["情報収集AI", "企業分析ツール"],
-            "useCases": ["業界動向調査", "企業比較", "最新情報収集"]
+            "tools": [
+              "情報収集AI",
+              "企業分析ツール"
+            ],
+            "useCases": [
+              "業界動向調査",
+              "企業比較",
+              "最新情報収集"
+            ]
           }
         ],
-        "benefits": ["効率的準備", "質の向上", "時間短縮"],
+        "benefits": [
+          "効率的準備",
+          "質の向上",
+          "時間短縮"
+        ],
         "urgencyMessage": "AIツール活用で就活を有利に進める"
       },
-      "effectiveExpressions": ["就活で使うべき", "オススメAIツール", "効率化", "有利に進める"],
-      "searchKeywords": ["就活", "AI", "ツール", "効率化", "おすすめ"],
-      "emotionalTriggers": ["効率性", "優位性", "最新技術活用"]
+      "effectiveExpressions": [
+        "就活で使うべき",
+        "オススメAIツール",
+        "効率化",
+        "有利に進める"
+      ],
+      "searchKeywords": [
+        "就活",
+        "AI",
+        "ツール",
+        "効率化",
+        "おすすめ"
+      ],
+      "emotionalTriggers": [
+        "効率性",
+        "優位性",
+        "最新技術活用"
+      ],
+      "knowledgeId": "K081"
     },
     "job-transition-divine-apps": {
       "source": "contents-082",
-      "targetPersona": "P098",
       "problemCategory": "転職・キャリア変更",
       "role": "tool-recommendation",
       "actualTitle": "転職活動で超役に立った神アプリ7選",
@@ -3237,30 +5008,71 @@
         "appCategories": [
           {
             "category": "求人検索・応募管理",
-            "apps": ["リクナビNEXT", "doda", "LinkedIn"],
-            "features": ["幅広い求人情報", "応募履歴管理", "企業からのスカウト"]
+            "apps": [
+              "リクナビNEXT",
+              "doda",
+              "LinkedIn"
+            ],
+            "features": [
+              "幅広い求人情報",
+              "応募履歴管理",
+              "企業からのスカウト"
+            ]
           },
           {
             "category": "履歴書・職務経歴書作成",
-            "apps": ["履歴書作成アプリ", "職務経歴書メーカー"],
-            "features": ["テンプレート豊富", "PDF出力", "項目入力サポート"]
+            "apps": [
+              "履歴書作成アプリ",
+              "職務経歴書メーカー"
+            ],
+            "features": [
+              "テンプレート豊富",
+              "PDF出力",
+              "項目入力サポート"
+            ]
           },
           {
             "category": "面接対策・スケジュール管理",
-            "apps": ["面接対策アプリ", "カレンダー連携ツール"],
-            "features": ["想定質問集", "日程調整", "リマインダー機能"]
+            "apps": [
+              "面接対策アプリ",
+              "カレンダー連携ツール"
+            ],
+            "features": [
+              "想定質問集",
+              "日程調整",
+              "リマインダー機能"
+            ]
           }
         ],
-        "benefits": ["時間効率向上", "応募品質向上", "進捗管理簡素化"],
+        "benefits": [
+          "時間効率向上",
+          "応募品質向上",
+          "進捗管理簡素化"
+        ],
         "practicalAdvice": "永久保存版として活用"
       },
-      "effectiveExpressions": ["超役に立った", "神アプリ7選", "永久保存版", "転職活動で"],
-      "searchKeywords": ["転職", "アプリ", "神アプリ", "役立つ", "効率的"],
-      "emotionalTriggers": ["実用性", "効率性", "成功体験"]
+      "effectiveExpressions": [
+        "超役に立った",
+        "神アプリ7選",
+        "永久保存版",
+        "転職活動で"
+      ],
+      "searchKeywords": [
+        "転職",
+        "アプリ",
+        "神アプリ",
+        "役立つ",
+        "効率的"
+      ],
+      "emotionalTriggers": [
+        "実用性",
+        "効率性",
+        "成功体験"
+      ],
+      "knowledgeId": "K082"
     },
     "ai-interview-strategy-guide": {
       "source": "contents-083",
-      "targetPersona": "P099",
       "problemCategory": "面接対策",
       "role": "comprehensive-guidance",
       "actualTitle": "AI面接SHaiN攻略ガイド",
@@ -3291,15 +5103,34 @@
           "キーワードを意識した回答構成",
           "練習で慣れてから本番に臨む"
         ],
-        "benefits": ["客観的評価獲得", "一貫性確保", "効率的選考"]
+        "benefits": [
+          "客観的評価獲得",
+          "一貫性確保",
+          "効率的選考"
+        ]
       },
-      "effectiveExpressions": ["AI面接", "SHaiN", "攻略ガイド", "伝わる話し方"],
-      "searchKeywords": ["AI面接", "SHaiN", "攻略", "対策", "話し方"],
-      "emotionalTriggers": ["対策重要性", "技術適応", "成功戦略"]
+      "effectiveExpressions": [
+        "AI面接",
+        "SHaiN",
+        "攻略ガイド",
+        "伝わる話し方"
+      ],
+      "searchKeywords": [
+        "AI面接",
+        "SHaiN",
+        "攻略",
+        "対策",
+        "話し方"
+      ],
+      "emotionalTriggers": [
+        "対策重要性",
+        "技術適応",
+        "成功戦略"
+      ],
+      "knowledgeId": "K083"
     },
     "job-hunting-power-enhancement-tools": {
       "source": "contents-084",
-      "targetPersona": "P100",
       "problemCategory": "就活効率化",
       "role": "practical-guidance",
       "actualTitle": "就活力が爆上がりするAIツール",
@@ -3310,17 +5141,26 @@
         "toolBenefits": [
           {
             "benefit": "エントリーシート質向上",
-            "tools": ["文章校正AI", "構成提案AI"],
+            "tools": [
+              "文章校正AI",
+              "構成提案AI"
+            ],
             "impact": "採用担当者に響く文章作成"
           },
           {
             "benefit": "面接対策強化",
-            "tools": ["面接練習AI", "回答改善AI"],
+            "tools": [
+              "面接練習AI",
+              "回答改善AI"
+            ],
             "impact": "自信を持って面接に臨める"
           },
           {
             "benefit": "企業研究効率化",
-            "tools": ["情報収集AI", "分析支援AI"],
+            "tools": [
+              "情報収集AI",
+              "分析支援AI"
+            ],
             "impact": "深い企業理解で差別化"
           }
         ],
@@ -3328,299 +5168,1270 @@
         "urgencyMessage": "積極的活用で就活を有利に進める",
         "simplicity": "シンプルなメモ形式で覚えやすい"
       },
-      "effectiveExpressions": ["就活力", "爆上がり", "AIツール", "今日の一句"],
-      "searchKeywords": ["就活", "爆上がり", "AI", "ツール", "効率化"],
-      "emotionalTriggers": ["成果期待", "競争優位", "簡単実用性"]
+      "effectiveExpressions": [
+        "就活力",
+        "爆上がり",
+        "AIツール",
+        "今日の一句"
+      ],
+      "searchKeywords": [
+        "就活",
+        "爆上がり",
+        "AI",
+        "ツール",
+        "効率化"
+      ],
+      "emotionalTriggers": [
+        "成果期待",
+        "競争優位",
+        "簡単実用性"
+      ],
+      "knowledgeId": "K084"
+    },
+    "academic-credentials-vs-qualifications": {
+      "source": "contents-022",
+      "problemCategory": "資格・スキル習得",
+      "role": "practical-guidance",
+      "actualTitle": "学歴よりも評価される資格10選",
+      "problemDescription": "学歴に自信がない、就職や転職で評価される資格を知りたいと悩んでいる",
+      "solutionContent": {
+        "concept": "学歴以上に実務力を証明できる資格の重要性",
+        "qualificationTypes": [
+          "IT関連資格",
+          "語学資格",
+          "会計・金融資格",
+          "マーケティング関連資格",
+          "プロジェクト管理資格"
+        ],
+        "evaluationCriteria": [
+          "業界での需要度",
+          "実務での活用度",
+          "取得難易度と価値",
+          "将来性"
+        ],
+        "keyMessage": "実際の能力を証明する資格は学歴を超える"
+      },
+      "effectiveExpressions": [
+        "学歴よりも評価される",
+        "就職、転職に強い",
+        "実務で武器になる"
+      ],
+      "searchKeywords": [
+        "学歴",
+        "資格",
+        "評価",
+        "就職",
+        "転職"
+      ],
+      "emotionalTriggers": [
+        "学歴不安解消",
+        "将来安定",
+        "自信構築"
+      ],
+      "conversionMethod": "学歴不安の解消と具体的な資格取得ロードマップ提示",
+      "knowledgeId": "K022"
+    },
+    "boss-relationship-clarity": {
+      "source": "contents-063",
+      "problemCategory": "上司関係・職場人間関係",
+      "role": "empathy-building",
+      "actualTitle": "上司との関係・明確",
+      "problemDescription": "上司との関係性がうまくいかない、コミュニケーションに悩んでいる",
+      "solutionContent": {
+        "concept": "上司との関係を明確にして働きやすい環境を作る",
+        "relationshipTypes": [
+          "報告・連絡・相談の基本",
+          "期待値の明確化",
+          "フィードバックの受け取り方",
+          "境界線の設定"
+        ],
+        "communicationStrategies": [
+          "定期的な1on1の活用",
+          "業務の優先順位確認",
+          "成果の可視化",
+          "課題の早期相談"
+        ],
+        "keyMessage": "関係性の明確化が職場での成功につながる"
+      },
+      "effectiveExpressions": [
+        "やってはいけないこと",
+        "関係・明確"
+      ],
+      "searchKeywords": [
+        "上司",
+        "関係",
+        "職場",
+        "コミュニケーション"
+      ],
+      "emotionalTriggers": [
+        "職場安心",
+        "関係改善",
+        "理解獲得"
+      ],
+      "conversionMethod": "上司との良好な関係構築による職場環境改善",
+      "knowledgeId": "K063"
+    },
+    "task-organization-skills": {
+      "source": "contents-064",
+      "problemCategory": "業務整理・指示管理",
+      "role": "practical-guidance",
+      "actualTitle": "仕事ができる人の指示整理術",
+      "problemDescription": "仕事の指示をうまく整理できない、優先順位がわからないと悩んでいる",
+      "solutionContent": {
+        "concept": "効率的な指示の受け取りと整理システム",
+        "organizationMethods": [
+          "指示の即座メモ化",
+          "優先度マトリックス活用",
+          "期限管理システム",
+          "進捗の可視化"
+        ],
+        "practicalTips": [
+          "5W1Hでの指示確認",
+          "不明点の即座質問",
+          "定期的な進捗報告",
+          "完了報告の徹底"
+        ],
+        "keyMessage": "指示整理力が仕事の成果を左右する"
+      },
+      "effectiveExpressions": [
+        "仕事ができる人の",
+        "指示整理術"
+      ],
+      "searchKeywords": [
+        "指示",
+        "整理",
+        "優先順位",
+        "効率"
+      ],
+      "emotionalTriggers": [
+        "効率追求",
+        "成果向上",
+        "体系化"
+      ],
+      "conversionMethod": "体系的な指示管理による業務効率化",
+      "knowledgeId": "K064"
+    },
+    "high-performer-incompetence-type": {
+      "source": "contents-065",
+      "problemCategory": "完璧主義・生産性改善",
+      "role": "problem-analysis",
+      "actualTitle": "優等生の無能タイプ",
+      "problemDescription": "優秀なはずなのに職場で評価されない、完璧主義で動けないと悩んでいる",
+      "solutionContent": {
+        "concept": "学業成績と実務能力のギャップ理解",
+        "incompetencePatterns": [
+          "完璧主義による行動遅延",
+          "理論偏重で実践不足",
+          "協調性の欠如",
+          "失敗恐怖症"
+        ],
+        "improvementStrategies": [
+          "60%ルールの実践",
+          "チームワークの重視",
+          "実行ファーストの思考",
+          "失敗からの学習習慣"
+        ],
+        "keyMessage": "完璧じゃないと動けないことが最大の問題"
+      },
+      "effectiveExpressions": [
+        "優等生の無能タイプ",
+        "完璧じゃないと動けない"
+      ],
+      "searchKeywords": [
+        "優等生",
+        "無能",
+        "完璧主義",
+        "改善"
+      ],
+      "emotionalTriggers": [
+        "自己改善",
+        "現実認識",
+        "行動促進"
+      ],
+      "conversionMethod": "完璧主義の改善による実務能力向上",
+      "knowledgeId": "K065"
+    },
+    "efficient-work-manual-creation": {
+      "source": "contents-066",
+      "problemCategory": "マニュアル作成・業務効率化",
+      "role": "practical-guidance",
+      "actualTitle": "仕事ができる人の爆速マニュアル",
+      "problemDescription": "業務効率化したい、マニュアル作成のノウハウを知りたいと悩んでいる",
+      "solutionContent": {
+        "concept": "効率的なマニュアル作成による業務標準化",
+        "creationProcess": [
+          "業務の可視化",
+          "標準化可能な要素の抽出",
+          "ステップバイステップの記録",
+          "継続的な改善"
+        ],
+        "speedUpTechniques": [
+          "テンプレート活用",
+          "画面キャプチャの効率化",
+          "チェックリスト作成",
+          "共有方法の最適化"
+        ],
+        "keyMessage": "マニュアル化が生産性向上の鍵"
+      },
+      "effectiveExpressions": [
+        "仕事ができる人の",
+        "爆速マニュアル"
+      ],
+      "searchKeywords": [
+        "マニュアル",
+        "爆速",
+        "効率化",
+        "標準化"
+      ],
+      "emotionalTriggers": [
+        "効率追求",
+        "生産性向上",
+        "業務改善"
+      ],
+      "conversionMethod": "業務標準化による効率化の実現",
+      "knowledgeId": "K066"
+    },
+    "intern-ng-behaviors": {
+      "source": "contents-068",
+      "problemCategory": "インターン準備",
+      "role": "educational-guidance",
+      "actualTitle": "内定逃すインターンNG行動",
+      "problemDescription": "インターンで失敗したくない、内定につながる行動を知りたいと悩んでいる",
+      "solutionContent": {
+        "concept": "インターンでの致命的なNG行動の回避",
+        "ngBehaviors": [
+          "積極性の欠如",
+          "基本的なマナー不足",
+          "コミュニケーション不足",
+          "学習意欲の低さ"
+        ],
+        "correctBehaviors": [
+          "プロアクティブな行動",
+          "適切なビジネスマナー",
+          "積極的な質問・相談",
+          "継続的な学習姿勢"
+        ],
+        "keyMessage": "これをしたら本選考で響くかも..."
+      },
+      "effectiveExpressions": [
+        "内定逃す",
+        "インターンNG行動",
+        "これをしたら本選考で響くかも"
+      ],
+      "searchKeywords": [
+        "インターン",
+        "NG行動",
+        "内定",
+        "失敗回避"
+      ],
+      "emotionalTriggers": [
+        "失敗回避",
+        "内定獲得",
+        "不安解消"
+      ],
+      "conversionMethod": "NG行動の回避による内定獲得率向上",
+      "knowledgeId": "K068"
     }
   },
   "searchIndex": {
     "byPersona": {
-      "P001": ["self-analysis-methods", "gakutika-perfection", "university-level-target-companies", "gakuchika-writing-mastery", "summer-internship-strategy"],
-      "P002": ["phone-manner", "interview-confidence", "job-hunting-genuine-feelings", "job-hunting-motivation-recovery", "free-job-hunting-support"],
-      "P003": ["job-hunting-efficiency"],
-      "P004": ["industry-job-type-confusion", "satisfied-employees-companies", "comprehensive-industry-map", "hidden-excellent-companies", "housing-allowance-companies"], 
-      "P005": ["mid-career-skills", "company-reality-vs-promises"],
-      "P006": ["working-women-anxiety", "career-planning-anxiety"],
-      "P007": ["ai-tool-mastery", "qr-code-creative-usage"],
-      "P009": ["ai-tool-selection-guide", "chatgpt-accuracy-prompts"],
-      "P010": ["freelancer-essential-tools"],
-      "P011": ["pc-skills-improvement-habits"],
-      "P012": ["authentic-life-living"],
-      "P013": ["canva-free-design-techniques"],
-      "P014": ["portfolio-creation-sites"],
-      "P015": ["work-efficiency-habits"],
-      "P016": ["freelance-startup-experience", "freelance-failure-experiences"],
-      "P017": ["mbti-personality-analysis"],
-      "P018": ["instagram-marketing-revival", "instagram-new-features"],
-      "P019": ["action-mindset-comparison"],
-      "P021": ["cost-effective-qualifications"],
-      "P022": ["workplace-gender-bias"],
-      "P023": ["female-career-stability"],
-      "P024": ["ai-content-monetization"],
-      "P025": ["side-business-startup-guide"],
-      "P026": ["self-reflection-change"],
-      "P027": ["job-transfer-success-traits"],
-      "P028": ["best-ai-apps-selection"],
-      "P029": ["phone-etiquette-tips"],
-      "P030": ["industry-job-type-understanding", "business-manner-skill-building"],
-      "P031": ["hidden-excellent-manufacturers"],
-      "P032": ["seasonal-job-hunting-experience-sharing"],
-      "P033": ["seasonal-job-hunting-experience-sharing"],
-      "P034": ["seasonal-job-hunting-experience-sharing"],
-      "P035": ["seasonal-job-hunting-experience-sharing"],
-      "P036": ["seasonal-job-hunting-experience-sharing"],
-      "P037": ["comprehensive-industry-strategic-planning"],
-      "P038": ["summer-internship-timing-strategy"],
-      "P039": ["practical-job-hunting-benefits"],
-      "P040": ["university-post-offer-preparation"],
-      "P041": ["job-interview-phone-etiquette"],
-      "P042": ["internship-high-multiplier-companies"],
-      "P043": ["interview-mindset-anxiety-management"],
-      "P044": ["job-hunting-experience-anxiety"],
-      "P045": ["gakuchika-expression-improvement"],
-      "P046": ["university-life-schedule-anxiety"],
-      "P067": ["high-paying-holiday-jobs"],
-      "P068": ["relaxed-work-mindset"],
-      "P069": ["good-workplace-characteristics"],
-      "P070": ["introvert-suitable-jobs"],
-      "P071": ["cognitive-agility-thinking"],
-      "P072": ["work-speed-optimization"],
-      "P073": ["high-performance-achiever"],
-      "P074": ["mid-career-skill-transition"],
-      "P075": ["respect-authority-building"],
-      "P076": ["work-competency-improvement"],
-      "P077": ["mental-strength-habits"],
-      "P078": ["future-proof-qualifications"],
-      "P085": ["univa-internship-intensity"],
-      "P086": ["interview-self-questions"],
-      "P087": ["information-age-evolution"],
-      "P088": ["mobile-ai-recommendations"],
-      "P089": ["ai-job-hunting-wisdom"],
-      "P090": ["job-hunting-ai-emergence"],
-      "P091": ["generative-ai-job-prep"],
-      "P092": ["latest-ai-competitive-advantage"],
-      "P093": ["interview-communication-skills"],
-      "P094": ["ai-job-displacement-anxiety"],
-      "P095": ["ai-interview-trend"],
-      "P096": ["job-hunting-preparation-checklist-27"],
-      "P097": ["recommended-ai-tools-job-hunting"],
-      "P098": ["job-transition-divine-apps"],
-      "P099": ["ai-interview-strategy-guide"],
-      "P100": ["job-hunting-power-enhancement-tools"]
+      "P001": [
+        "self-analysis-methods",
+        "gakutika-perfection",
+        "university-level-target-companies",
+        "gakuchika-writing-mastery",
+        "summer-internship-strategy"
+      ],
+      "P002": [
+        "phone-manner",
+        "interview-confidence",
+        "job-hunting-genuine-feelings",
+        "job-hunting-motivation-recovery",
+        "free-job-hunting-support"
+      ],
+      "P003": [
+        "job-hunting-efficiency"
+      ],
+      "P004": [
+        "industry-job-type-confusion",
+        "satisfied-employees-companies",
+        "comprehensive-industry-map",
+        "hidden-excellent-companies",
+        "housing-allowance-companies"
+      ],
+      "P005": [
+        "mid-career-skills",
+        "company-reality-vs-promises"
+      ],
+      "P006": [
+        "working-women-anxiety",
+        "career-planning-anxiety"
+      ],
+      "P007": [
+        "ai-tool-mastery",
+        "qr-code-creative-usage"
+      ],
+      "P009": [
+        "ai-tool-selection-guide",
+        "chatgpt-accuracy-prompts"
+      ],
+      "P010": [
+        "freelancer-essential-tools"
+      ],
+      "P011": [
+        "pc-skills-improvement-habits"
+      ],
+      "P012": [
+        "authentic-life-living"
+      ],
+      "P013": [
+        "canva-free-design-techniques"
+      ],
+      "P014": [
+        "portfolio-creation-sites"
+      ],
+      "P015": [
+        "work-efficiency-habits"
+      ],
+      "P016": [
+        "freelance-startup-experience",
+        "freelance-failure-experiences"
+      ],
+      "P017": [
+        "mbti-personality-analysis"
+      ],
+      "P018": [
+        "instagram-marketing-revival",
+        "instagram-new-features"
+      ],
+      "P019": [
+        "action-mindset-comparison"
+      ],
+      "P021": [
+        "cost-effective-qualifications"
+      ],
+      "P022": [
+        "workplace-gender-bias"
+      ],
+      "P023": [
+        "female-career-stability"
+      ],
+      "P024": [
+        "ai-content-monetization"
+      ],
+      "P025": [
+        "side-business-startup-guide"
+      ],
+      "P026": [
+        "self-reflection-change"
+      ],
+      "P027": [
+        "job-transfer-success-traits"
+      ],
+      "P028": [
+        "best-ai-apps-selection"
+      ],
+      "P029": [
+        "phone-etiquette-tips"
+      ],
+      "P030": [
+        "industry-job-type-understanding",
+        "business-manner-skill-building"
+      ],
+      "P031": [
+        "hidden-excellent-manufacturers"
+      ],
+      "P032": [
+        "seasonal-job-hunting-experience-sharing"
+      ],
+      "P033": [
+        "seasonal-job-hunting-experience-sharing"
+      ],
+      "P034": [
+        "seasonal-job-hunting-experience-sharing"
+      ],
+      "P035": [
+        "seasonal-job-hunting-experience-sharing"
+      ],
+      "P036": [
+        "seasonal-job-hunting-experience-sharing"
+      ],
+      "P037": [
+        "comprehensive-industry-strategic-planning"
+      ],
+      "P038": [
+        "summer-internship-timing-strategy"
+      ],
+      "P039": [
+        "practical-job-hunting-benefits"
+      ],
+      "P040": [
+        "university-post-offer-preparation"
+      ],
+      "P041": [
+        "job-interview-phone-etiquette"
+      ],
+      "P042": [
+        "internship-high-multiplier-companies"
+      ],
+      "P043": [
+        "interview-mindset-anxiety-management"
+      ],
+      "P044": [
+        "job-hunting-experience-anxiety"
+      ],
+      "P045": [
+        "gakuchika-expression-improvement"
+      ],
+      "P046": [
+        "university-life-schedule-anxiety"
+      ],
+      "P067": [
+        "high-paying-holiday-jobs"
+      ],
+      "P068": [
+        "relaxed-work-mindset"
+      ],
+      "P069": [
+        "good-workplace-characteristics"
+      ],
+      "P070": [
+        "introvert-suitable-jobs"
+      ],
+      "P071": [
+        "cognitive-agility-thinking"
+      ],
+      "P072": [
+        "work-speed-optimization"
+      ],
+      "P073": [
+        "high-performance-achiever"
+      ],
+      "P074": [
+        "mid-career-skill-transition"
+      ],
+      "P075": [
+        "respect-authority-building"
+      ],
+      "P076": [
+        "work-competency-improvement"
+      ],
+      "P077": [
+        "mental-strength-habits"
+      ],
+      "P078": [
+        "future-proof-qualifications"
+      ],
+      "P085": [
+        "univa-internship-intensity"
+      ],
+      "P086": [
+        "interview-self-questions"
+      ],
+      "P087": [
+        "information-age-evolution"
+      ],
+      "P088": [
+        "mobile-ai-recommendations"
+      ],
+      "P089": [
+        "ai-job-hunting-wisdom"
+      ],
+      "P090": [
+        "job-hunting-ai-emergence"
+      ],
+      "P091": [
+        "generative-ai-job-prep"
+      ],
+      "P092": [
+        "latest-ai-competitive-advantage"
+      ],
+      "P093": [
+        "interview-communication-skills"
+      ],
+      "P094": [
+        "ai-job-displacement-anxiety"
+      ],
+      "P095": [
+        "ai-interview-trend"
+      ],
+      "P096": [
+        "job-hunting-preparation-checklist-27"
+      ],
+      "P097": [
+        "recommended-ai-tools-job-hunting"
+      ],
+      "P098": [
+        "job-transition-divine-apps"
+      ],
+      "P099": [
+        "ai-interview-strategy-guide"
+      ],
+      "P100": [
+        "job-hunting-power-enhancement-tools"
+      ]
     },
     "byCategory": {
-      "自己分析": ["self-analysis-methods"],
-      "面接対策": ["phone-manner", "gakutika-perfection", "interview-confidence", "gakuchika-writing-mastery", "interview-self-questions", "interview-communication-skills", "ai-interview-trend", "ai-interview-strategy-guide"],
-      "就活効率化": ["job-hunting-efficiency", "university-level-target-companies", "univa-internship-intensity", "job-hunting-power-enhancement-tools"],
-      "インターン準備": ["summer-internship-strategy", "summer-internship-timing-strategy"],
-      "業界研究": ["industry-job-type-confusion", "satisfied-employees-companies", "comprehensive-industry-map", "hidden-excellent-companies", "hidden-excellent-manufacturers", "housing-allowance-companies"],
-      "スキル不足": ["mid-career-skills"],
-      "働き方": ["working-women-anxiety", "company-reality-vs-promises"],
-      "キャリア不安": ["career-planning-anxiety"],
-      "スキル習得": ["ai-tool-mastery"],
-      "メンタルヘルス": ["job-hunting-genuine-feelings", "job-hunting-motivation-recovery"],
-      "リード獲得": ["free-job-hunting-support"],
-      "技術スキル向上": ["pc-skills-improvement-habits"],
-      "便利技術活用": ["qr-code-creative-usage"],
-      "自己実現・ライフスタイル": ["authentic-life-living", "self-reflection-change"],
-      "デザイン・クリエイティブツール": ["canva-free-design-techniques"],
-      "ポートフォリオ・作品制作": ["portfolio-creation-sites"],
-      "生産性向上・効率化": ["work-efficiency-habits"],
-      "起業・開業手続き": ["freelance-startup-experience", "freelance-failure-experiences"],
-      "心理学・性格診断": ["mbti-personality-analysis"],
-      "SNSマーケティング・集客": ["instagram-marketing-revival", "instagram-new-features"],
-      "行動心理学・マインドセット": ["action-mindset-comparison"],
-      "資格・スキル習得": ["cost-effective-qualifications"],
-      "ジェンダー・職場問題": ["workplace-gender-bias"],
-      "女性キャリア・働き方改革": ["female-career-stability"],
-      "AI・技術活用": ["ai-content-monetization", "ai-tool-selection-guide", "chatgpt-accuracy-prompts", "information-age-evolution", "mobile-ai-recommendations", "job-hunting-ai-emergence", "generative-ai-job-prep", "latest-ai-competitive-advantage", "recommended-ai-tools-job-hunting"],
-      "フリーランス・副業": ["side-business-startup-guide", "freelancer-essential-tools"],
-      "転職・キャリア変更": ["job-transfer-success-traits", "job-transition-divine-apps"],
-      "電話マナー・ビジネススキル": ["phone-etiquette-tips"],
-      "AIツール選択・活用法": ["best-ai-apps-selection"],
-      "内定後・新卒入社準備": ["university-post-offer-preparation"],
-      "電話面接・オンライン面接対策": ["job-interview-phone-etiquette"],
-      "インターン実施時期・企業選定": ["internship-high-multiplier-companies"],
-      "人事・採用担当者の心理": ["interview-mindset-anxiety-management"],
-      "学歴コンプレックス・自己肯定感": ["job-hunting-experience-anxiety"],
-      "ガクチカ表現・記述方法": ["gakuchika-expression-improvement"],
-      "大学生活・学年別スケジュール": ["university-life-schedule-anxiety"],
-      "ワークライフバランス・高収入職種": ["high-paying-holiday-jobs"],
-      "働き方マインドセット・ストレス軽減": ["relaxed-work-mindset", "ai-job-hunting-wisdom", "ai-job-displacement-anxiety"],
-      "職場選択・評価基準": ["good-workplace-characteristics"],
-      "性格特性・職業適性": ["introvert-suitable-jobs"],
-      "思考力向上・認知能力": ["cognitive-agility-thinking"],
-      "仕事効率化・スピード向上": ["work-speed-optimization"],
-      "高パフォーマンス・成果最大化": ["high-performance-achiever"],
-      "中途転職・スキル職": ["mid-career-skill-transition"],
-      "対人関係・権威性構築": ["respect-authority-building"],
-      "仕事能力・改善指導": ["work-competency-improvement"],
-      "メンタル強化・習慣改善": ["mental-strength-habits"],
-      "将来対応・資格取得": ["future-proof-qualifications"]
+      "自己分析": [
+        "self-analysis-methods"
+      ],
+      "面接対策": [
+        "phone-manner",
+        "gakutika-perfection",
+        "interview-confidence",
+        "gakuchika-writing-mastery",
+        "interview-self-questions",
+        "interview-communication-skills",
+        "ai-interview-trend",
+        "ai-interview-strategy-guide"
+      ],
+      "就活効率化": [
+        "job-hunting-efficiency",
+        "university-level-target-companies",
+        "univa-internship-intensity",
+        "job-hunting-power-enhancement-tools"
+      ],
+      "インターン準備": [
+        "summer-internship-strategy",
+        "summer-internship-timing-strategy"
+      ],
+      "業界研究": [
+        "industry-job-type-confusion",
+        "satisfied-employees-companies",
+        "comprehensive-industry-map",
+        "hidden-excellent-companies",
+        "hidden-excellent-manufacturers",
+        "housing-allowance-companies"
+      ],
+      "スキル不足": [
+        "mid-career-skills"
+      ],
+      "働き方": [
+        "working-women-anxiety",
+        "company-reality-vs-promises"
+      ],
+      "キャリア不安": [
+        "career-planning-anxiety"
+      ],
+      "スキル習得": [
+        "ai-tool-mastery"
+      ],
+      "メンタルヘルス": [
+        "job-hunting-genuine-feelings",
+        "job-hunting-motivation-recovery"
+      ],
+      "リード獲得": [
+        "free-job-hunting-support"
+      ],
+      "技術スキル向上": [
+        "pc-skills-improvement-habits"
+      ],
+      "便利技術活用": [
+        "qr-code-creative-usage"
+      ],
+      "自己実現・ライフスタイル": [
+        "authentic-life-living",
+        "self-reflection-change"
+      ],
+      "デザイン・クリエイティブツール": [
+        "canva-free-design-techniques"
+      ],
+      "ポートフォリオ・作品制作": [
+        "portfolio-creation-sites"
+      ],
+      "生産性向上・効率化": [
+        "work-efficiency-habits"
+      ],
+      "起業・開業手続き": [
+        "freelance-startup-experience",
+        "freelance-failure-experiences"
+      ],
+      "心理学・性格診断": [
+        "mbti-personality-analysis"
+      ],
+      "SNSマーケティング・集客": [
+        "instagram-marketing-revival",
+        "instagram-new-features"
+      ],
+      "行動心理学・マインドセット": [
+        "action-mindset-comparison"
+      ],
+      "資格・スキル習得": [
+        "cost-effective-qualifications"
+      ],
+      "ジェンダー・職場問題": [
+        "workplace-gender-bias"
+      ],
+      "女性キャリア・働き方改革": [
+        "female-career-stability"
+      ],
+      "AI・技術活用": [
+        "ai-content-monetization",
+        "ai-tool-selection-guide",
+        "chatgpt-accuracy-prompts",
+        "information-age-evolution",
+        "mobile-ai-recommendations",
+        "job-hunting-ai-emergence",
+        "generative-ai-job-prep",
+        "latest-ai-competitive-advantage",
+        "recommended-ai-tools-job-hunting"
+      ],
+      "フリーランス・副業": [
+        "side-business-startup-guide",
+        "freelancer-essential-tools"
+      ],
+      "転職・キャリア変更": [
+        "job-transfer-success-traits",
+        "job-transition-divine-apps"
+      ],
+      "電話マナー・ビジネススキル": [
+        "phone-etiquette-tips"
+      ],
+      "AIツール選択・活用法": [
+        "best-ai-apps-selection"
+      ],
+      "内定後・新卒入社準備": [
+        "university-post-offer-preparation"
+      ],
+      "電話面接・オンライン面接対策": [
+        "job-interview-phone-etiquette"
+      ],
+      "インターン実施時期・企業選定": [
+        "internship-high-multiplier-companies"
+      ],
+      "人事・採用担当者の心理": [
+        "interview-mindset-anxiety-management"
+      ],
+      "学歴コンプレックス・自己肯定感": [
+        "job-hunting-experience-anxiety"
+      ],
+      "ガクチカ表現・記述方法": [
+        "gakuchika-expression-improvement"
+      ],
+      "大学生活・学年別スケジュール": [
+        "university-life-schedule-anxiety"
+      ],
+      "ワークライフバランス・高収入職種": [
+        "high-paying-holiday-jobs"
+      ],
+      "働き方マインドセット・ストレス軽減": [
+        "relaxed-work-mindset",
+        "ai-job-hunting-wisdom",
+        "ai-job-displacement-anxiety"
+      ],
+      "職場選択・評価基準": [
+        "good-workplace-characteristics"
+      ],
+      "性格特性・職業適性": [
+        "introvert-suitable-jobs"
+      ],
+      "思考力向上・認知能力": [
+        "cognitive-agility-thinking"
+      ],
+      "仕事効率化・スピード向上": [
+        "work-speed-optimization"
+      ],
+      "高パフォーマンス・成果最大化": [
+        "high-performance-achiever"
+      ],
+      "中途転職・スキル職": [
+        "mid-career-skill-transition"
+      ],
+      "対人関係・権威性構築": [
+        "respect-authority-building"
+      ],
+      "仕事能力・改善指導": [
+        "work-competency-improvement"
+      ],
+      "メンタル強化・習慣改善": [
+        "mental-strength-habits"
+      ],
+      "将来対応・資格取得": [
+        "future-proof-qualifications"
+      ]
     },
     "byRole": {
-      "practical-guidance": ["self-analysis-methods", "job-hunting-efficiency", "phone-manner", "ai-tool-mastery", "gakutika-perfection", "industry-job-type-confusion", "satisfied-employees-companies", "university-level-target-companies", "gakuchika-writing-mastery", "comprehensive-industry-map", "summer-internship-strategy", "summer-internship-timing-strategy", "hidden-excellent-companies", "portfolio-creation-sites", "ai-content-monetization", "side-business-startup-guide", "job-transfer-success-traits", "phone-etiquette-tips", "university-post-offer-preparation", "job-interview-phone-etiquette", "interview-self-questions", "generative-ai-job-prep", "job-hunting-power-enhancement-tools"],
-      "information-catalog": ["housing-allowance-companies", "hidden-excellent-manufacturers", "mbti-personality-analysis", "cost-effective-qualifications", "best-ai-apps-selection"],
-      "empathy-building": ["working-women-anxiety", "career-planning-anxiety", "interview-confidence", "job-hunting-genuine-feelings", "job-hunting-motivation-recovery", "workplace-gender-bias", "female-career-stability", "self-reflection-change"],
-      "problem-analysis": ["mid-career-skills", "company-reality-vs-promises", "instagram-marketing-revival"],
-      "trust-building": ["free-job-hunting-support"],
-      "educational-guidance": ["ai-tool-selection-guide", "instagram-new-features"],
-      "experience-authority": ["freelancer-essential-tools", "freelance-startup-experience", "freelance-failure-experiences"],
-      "skill-development": ["pc-skills-improvement-habits"],
-      "creative-application": ["qr-code-creative-usage"],
-      "life-philosophy": ["authentic-life-living"],
-      "technical-optimization": ["chatgpt-accuracy-prompts"],
-      "creative-mastery": ["canva-free-design-techniques"],
-      "behavioral-optimization": ["work-efficiency-habits"],
-      "behavioral-analysis": ["action-mindset-comparison"],
-      "strategic-guidance": ["internship-high-multiplier-companies"],
-      "psychological-insight": ["interview-mindset-anxiety-management"],
-      "emotional-support": ["job-hunting-experience-anxiety"],
-      "expression-coaching": ["gakuchika-expression-improvement"],
-      "timeline-guidance": ["university-life-schedule-anxiety"],
-      "career-discovery": ["high-paying-holiday-jobs"],
-      "mindset-transformation": ["relaxed-work-mindset"],
-      "evaluation-guidance": ["good-workplace-characteristics"],
-      "personality-based-guidance": ["introvert-suitable-jobs"],
-      "cognitive-enhancement": ["cognitive-agility-thinking"],
-      "efficiency-optimization": ["work-speed-optimization"],
-      "performance-enhancement": ["high-performance-achiever"],
-      "career-transition": ["mid-career-skill-transition"],
-      "authority-enhancement": ["respect-authority-building"],
-      "competency-enhancement": ["work-competency-improvement"],
-      "resilience-building": ["mental-strength-habits"],
-      "future-preparation": ["future-proof-qualifications"],
-      "reality-shock": ["univa-internship-intensity"],
-      "trend-analysis": ["information-age-evolution"],
-      "tool-recommendation": ["mobile-ai-recommendations", "recommended-ai-tools-job-hunting", "job-transition-divine-apps"],
-      "value-analysis": ["ai-job-hunting-wisdom"],
-      "announcement": ["job-hunting-ai-emergence"],
-      "competitive-strategy": ["latest-ai-competitive-advantage"],
-      "skill-enhancement": ["interview-communication-skills"],
-      "reality-awareness": ["ai-job-displacement-anxiety"],
-      "trend-information": ["ai-interview-trend"],
-      "comprehensive-guidance": ["job-hunting-preparation-checklist-27", "ai-interview-strategy-guide"]
+      "practical-guidance": [
+        "self-analysis-methods",
+        "job-hunting-efficiency",
+        "phone-manner",
+        "ai-tool-mastery",
+        "gakutika-perfection",
+        "industry-job-type-confusion",
+        "satisfied-employees-companies",
+        "university-level-target-companies",
+        "gakuchika-writing-mastery",
+        "comprehensive-industry-map",
+        "summer-internship-strategy",
+        "summer-internship-timing-strategy",
+        "hidden-excellent-companies",
+        "portfolio-creation-sites",
+        "ai-content-monetization",
+        "side-business-startup-guide",
+        "job-transfer-success-traits",
+        "phone-etiquette-tips",
+        "university-post-offer-preparation",
+        "job-interview-phone-etiquette",
+        "interview-self-questions",
+        "generative-ai-job-prep",
+        "job-hunting-power-enhancement-tools"
+      ],
+      "information-catalog": [
+        "housing-allowance-companies",
+        "hidden-excellent-manufacturers",
+        "mbti-personality-analysis",
+        "cost-effective-qualifications",
+        "best-ai-apps-selection"
+      ],
+      "empathy-building": [
+        "working-women-anxiety",
+        "career-planning-anxiety",
+        "interview-confidence",
+        "job-hunting-genuine-feelings",
+        "job-hunting-motivation-recovery",
+        "workplace-gender-bias",
+        "female-career-stability",
+        "self-reflection-change"
+      ],
+      "problem-analysis": [
+        "mid-career-skills",
+        "company-reality-vs-promises",
+        "instagram-marketing-revival"
+      ],
+      "trust-building": [
+        "free-job-hunting-support"
+      ],
+      "educational-guidance": [
+        "ai-tool-selection-guide",
+        "instagram-new-features"
+      ],
+      "experience-authority": [
+        "freelancer-essential-tools",
+        "freelance-startup-experience",
+        "freelance-failure-experiences"
+      ],
+      "skill-development": [
+        "pc-skills-improvement-habits"
+      ],
+      "creative-application": [
+        "qr-code-creative-usage"
+      ],
+      "life-philosophy": [
+        "authentic-life-living"
+      ],
+      "technical-optimization": [
+        "chatgpt-accuracy-prompts"
+      ],
+      "creative-mastery": [
+        "canva-free-design-techniques"
+      ],
+      "behavioral-optimization": [
+        "work-efficiency-habits"
+      ],
+      "behavioral-analysis": [
+        "action-mindset-comparison"
+      ],
+      "strategic-guidance": [
+        "internship-high-multiplier-companies"
+      ],
+      "psychological-insight": [
+        "interview-mindset-anxiety-management"
+      ],
+      "emotional-support": [
+        "job-hunting-experience-anxiety"
+      ],
+      "expression-coaching": [
+        "gakuchika-expression-improvement"
+      ],
+      "timeline-guidance": [
+        "university-life-schedule-anxiety"
+      ],
+      "career-discovery": [
+        "high-paying-holiday-jobs"
+      ],
+      "mindset-transformation": [
+        "relaxed-work-mindset"
+      ],
+      "evaluation-guidance": [
+        "good-workplace-characteristics"
+      ],
+      "personality-based-guidance": [
+        "introvert-suitable-jobs"
+      ],
+      "cognitive-enhancement": [
+        "cognitive-agility-thinking"
+      ],
+      "efficiency-optimization": [
+        "work-speed-optimization"
+      ],
+      "performance-enhancement": [
+        "high-performance-achiever"
+      ],
+      "career-transition": [
+        "mid-career-skill-transition"
+      ],
+      "authority-enhancement": [
+        "respect-authority-building"
+      ],
+      "competency-enhancement": [
+        "work-competency-improvement"
+      ],
+      "resilience-building": [
+        "mental-strength-habits"
+      ],
+      "future-preparation": [
+        "future-proof-qualifications"
+      ],
+      "reality-shock": [
+        "univa-internship-intensity"
+      ],
+      "trend-analysis": [
+        "information-age-evolution"
+      ],
+      "tool-recommendation": [
+        "mobile-ai-recommendations",
+        "recommended-ai-tools-job-hunting",
+        "job-transition-divine-apps"
+      ],
+      "value-analysis": [
+        "ai-job-hunting-wisdom"
+      ],
+      "announcement": [
+        "job-hunting-ai-emergence"
+      ],
+      "competitive-strategy": [
+        "latest-ai-competitive-advantage"
+      ],
+      "skill-enhancement": [
+        "interview-communication-skills"
+      ],
+      "reality-awareness": [
+        "ai-job-displacement-anxiety"
+      ],
+      "trend-information": [
+        "ai-interview-trend"
+      ],
+      "comprehensive-guidance": [
+        "job-hunting-preparation-checklist-27",
+        "ai-interview-strategy-guide"
+      ]
     },
     "byEmotionalTrigger": {
-      "効率性": ["job-hunting-efficiency", "ai-tool-mastery", "university-level-target-companies", "gakuchika-writing-mastery", "summer-internship-strategy", "summer-internship-timing-strategy", "information-age-evolution", "mobile-ai-recommendations", "ai-job-hunting-wisdom", "generative-ai-job-prep", "latest-ai-competitive-advantage", "recommended-ai-tools-job-hunting", "job-transition-divine-apps"],
-      "共感": ["phone-manner", "working-women-anxiety", "interview-confidence", "job-hunting-genuine-feelings", "job-hunting-motivation-recovery", "free-job-hunting-support"],
-      "優越感": ["ai-tool-mastery", "gakutika-perfection", "satisfied-employees-companies", "hidden-excellent-companies", "hidden-excellent-manufacturers", "ai-job-hunting-wisdom", "latest-ai-competitive-advantage"],
-      "安心感": ["phone-manner", "career-planning-anxiety", "interview-confidence", "satisfied-employees-companies"],
-      "危機感": ["mid-career-skills", "company-reality-vs-promises", "gakuchika-expression-improvement", "ai-job-displacement-anxiety", "work-competency-improvement"],
-      "学習意欲": ["self-analysis-methods", "ai-tool-mastery", "industry-job-type-confusion", "comprehensive-industry-map", "ai-tool-selection-guide"],
-      "情報過多解消": ["ai-tool-selection-guide"],
-      "驚き": ["canva-free-design-techniques", "job-hunting-ai-emergence"],
-      "お得感": ["canva-free-design-techniques"],
-      "予算節約": ["canva-free-design-techniques"],
-      "緊急性": ["portfolio-creation-sites"],
-      "時短": ["portfolio-creation-sites"],
-      "競合優位": ["portfolio-creation-sites"],
-      "成果向上": ["work-efficiency-habits"],
-      "行動変容": ["work-efficiency-habits"],
-      "競争優位": ["work-efficiency-habits", "latest-ai-competitive-advantage", "work-speed-optimization", "high-performance-achiever", "job-hunting-power-enhancement-tools"],
-      "実体験権威": ["freelance-startup-experience"],
-      "親近感": ["freelance-startup-experience"],
-      "実現可能性": ["freelance-startup-experience"],
-      "自己発見": ["mbti-personality-analysis"],
-      "好奇心": ["mbti-personality-analysis"],
-      "理解欲求": ["mbti-personality-analysis"],
-      "分類整理": ["mbti-personality-analysis"],
-      "励まし": ["instagram-marketing-revival", "university-post-offer-preparation"],
-      "希望": ["instagram-marketing-revival", "university-post-offer-preparation"],
-      "解決期待": ["instagram-marketing-revival"],
-      "最新情報": ["instagram-new-features"],
-      "効率化期待": ["instagram-new-features", "internship-high-multiplier-companies"],
-      "不安解消": ["job-interview-phone-etiquette", "interview-mindset-anxiety-management", "job-hunting-experience-anxiety", "interview-self-questions"],
-      "具体的解決策": ["university-post-offer-preparation"],
-      "集客向上": ["instagram-new-features"],
-      "自己反省": ["action-mindset-comparison"],
-      "改善欲求": ["action-mindset-comparison"],
-      "比較分析": ["action-mindset-comparison"],
-      "成長意欲": ["action-mindset-comparison"],
-      "失敗回避": ["freelance-failure-experiences"],
-      "実体験学習": ["freelance-failure-experiences"],
-      "現実認識": ["freelance-failure-experiences", "univa-internship-intensity"],
-      "リスク理解": ["freelance-failure-experiences"],
-      "損失回避": ["cost-effective-qualifications", "ai-job-hunting-wisdom"],
-      "価値重視": ["cost-effective-qualifications"],
-      "投資効果": ["cost-effective-qualifications"],
-      "職場環境改善": ["workplace-gender-bias"],
-      "不公平感": ["workplace-gender-bias"],
-      "権利意識": ["workplace-gender-bias"],
-      "女性活躍": ["workplace-gender-bias"],
-      "キャリア継続": ["female-career-stability"],
-      "将来不安": ["female-career-stability"],
-      "人生設計": ["female-career-stability"],
-      "自立意識": ["female-career-stability"],
-      "AI収益化": ["ai-content-monetization"],
-      "技術活用": ["ai-content-monetization"],
-      "在宅収入": ["ai-content-monetization"],
-      "スキル向上": ["ai-content-monetization", "job-interview-phone-etiquette"],
-      "副業開始": ["side-business-startup-guide"],
-      "収入増": ["side-business-startup-guide"],
-      "スキル不足解決": ["side-business-startup-guide"],
-      "専門指導": ["side-business-startup-guide"],
-      "戦略的思考": ["internship-high-multiplier-companies"],
-      "成功確率向上": ["internship-high-multiplier-companies", "generative-ai-job-prep"],
-      "準備万全": ["interview-mindset-anxiety-management"],
-      "自信回復": ["job-hunting-experience-anxiety", "respect-authority-building", "interview-communication-skills"],
-      "準備支援": ["job-hunting-experience-anxiety"],
-      "改善意欲": ["gakuchika-expression-improvement"],
-      "成功願望": ["gakuchika-expression-improvement", "interview-communication-skills"],
-      "同世代共感": ["university-life-schedule-anxiety"],
-      "時間制約": ["university-life-schedule-anxiety"],
-      "解決急務": ["university-life-schedule-anxiety"],
-      "発見喜び": ["high-paying-holiday-jobs"],
-      "理想実現": ["high-paying-holiday-jobs"],
-      "選択肢拡大": ["high-paying-holiday-jobs"],
-      "安堵感": ["relaxed-work-mindset"],
-      "解放感": ["relaxed-work-mindset"],
-      "判断支援": ["good-workplace-characteristics"],
-      "客観視": ["good-workplace-characteristics"],
-      "価値再認識": ["good-workplace-characteristics"],
-      "自己受容": ["introvert-suitable-jobs", "relaxed-work-mindset"],
-      "向上意欲": ["cognitive-agility-thinking"],
-      "学習欲求": ["cognitive-agility-thinking"],
-      "能力開発": ["cognitive-agility-thinking"],
-      "成長実感": ["cognitive-agility-thinking"],
-      "効率追求": ["work-speed-optimization"],
-      "時間価値": ["work-speed-optimization"],
-      "生産性向上": ["work-speed-optimization"],
-      "成功志向": ["high-performance-achiever"],
-      "達成欲求": ["high-performance-achiever"],
-      "競争心": ["high-performance-achiever"],
-      "可能性発見": ["high-paying-holiday-jobs", "mid-career-skill-transition"],
-      "将来安定": ["mid-career-skill-transition"],
-      "自己改善": ["respect-authority-building"],
-      "権威欲求": ["respect-authority-building"],
-      "尊敬獲得": ["respect-authority-building"],
-      "評価向上": ["work-competency-improvement"],
-      "強さ憧れ": ["mental-strength-habits"],
-      "投資価値": ["future-proof-qualifications"],
-      "先取り感": ["future-proof-qualifications"],
-      "時代変化認識": ["information-age-evolution"],
-      "準備重要性": ["univa-internship-intensity", "interview-self-questions", "ai-job-displacement-anxiety", "ai-interview-trend"],
-      "自信構築": ["interview-self-questions"],
-      "便利性": ["mobile-ai-recommendations"],
-      "多機能性": ["mobile-ai-recommendations"],
-      "期待感": ["job-hunting-ai-emergence"],
-      "先取り優位": ["job-hunting-ai-emergence"],
-      "差別化欲求": ["latest-ai-competitive-advantage"],
-      "実用性": ["generative-ai-job-prep", "job-transition-divine-apps"],
-      "評価期待": ["interview-communication-skills"],
-      "情報優位": ["ai-interview-trend"],
-      "時代適応": ["ai-interview-trend"],
-      "期限切迫感": ["job-hunting-preparation-checklist-27"],
-      "必須性認識": ["job-hunting-preparation-checklist-27"],
-      "準備完成願望": ["job-hunting-preparation-checklist-27"],
-      "優位性": ["recommended-ai-tools-job-hunting"],
-      "最新技術活用": ["recommended-ai-tools-job-hunting"],
-      "成功体験": ["job-transition-divine-apps"],
-      "対策重要性": ["ai-interview-strategy-guide"],
-      "技術適応": ["ai-interview-strategy-guide"],
-      "成功戦略": ["ai-interview-strategy-guide"],
-      "成果期待": ["job-hunting-power-enhancement-tools"],
-      "簡単実用性": ["job-hunting-power-enhancement-tools"]
+      "効率性": [
+        "job-hunting-efficiency",
+        "ai-tool-mastery",
+        "university-level-target-companies",
+        "gakuchika-writing-mastery",
+        "summer-internship-strategy",
+        "summer-internship-timing-strategy",
+        "information-age-evolution",
+        "mobile-ai-recommendations",
+        "ai-job-hunting-wisdom",
+        "generative-ai-job-prep",
+        "latest-ai-competitive-advantage",
+        "recommended-ai-tools-job-hunting",
+        "job-transition-divine-apps"
+      ],
+      "共感": [
+        "phone-manner",
+        "working-women-anxiety",
+        "interview-confidence",
+        "job-hunting-genuine-feelings",
+        "job-hunting-motivation-recovery",
+        "free-job-hunting-support"
+      ],
+      "優越感": [
+        "ai-tool-mastery",
+        "gakutika-perfection",
+        "satisfied-employees-companies",
+        "hidden-excellent-companies",
+        "hidden-excellent-manufacturers",
+        "ai-job-hunting-wisdom",
+        "latest-ai-competitive-advantage"
+      ],
+      "安心感": [
+        "phone-manner",
+        "career-planning-anxiety",
+        "interview-confidence",
+        "satisfied-employees-companies"
+      ],
+      "危機感": [
+        "mid-career-skills",
+        "company-reality-vs-promises",
+        "gakuchika-expression-improvement",
+        "ai-job-displacement-anxiety",
+        "work-competency-improvement"
+      ],
+      "学習意欲": [
+        "self-analysis-methods",
+        "ai-tool-mastery",
+        "industry-job-type-confusion",
+        "comprehensive-industry-map",
+        "ai-tool-selection-guide"
+      ],
+      "情報過多解消": [
+        "ai-tool-selection-guide"
+      ],
+      "驚き": [
+        "canva-free-design-techniques",
+        "job-hunting-ai-emergence"
+      ],
+      "お得感": [
+        "canva-free-design-techniques"
+      ],
+      "予算節約": [
+        "canva-free-design-techniques"
+      ],
+      "緊急性": [
+        "portfolio-creation-sites"
+      ],
+      "時短": [
+        "portfolio-creation-sites"
+      ],
+      "競合優位": [
+        "portfolio-creation-sites"
+      ],
+      "成果向上": [
+        "work-efficiency-habits"
+      ],
+      "行動変容": [
+        "work-efficiency-habits"
+      ],
+      "競争優位": [
+        "work-efficiency-habits",
+        "latest-ai-competitive-advantage",
+        "work-speed-optimization",
+        "high-performance-achiever",
+        "job-hunting-power-enhancement-tools"
+      ],
+      "実体験権威": [
+        "freelance-startup-experience"
+      ],
+      "親近感": [
+        "freelance-startup-experience"
+      ],
+      "実現可能性": [
+        "freelance-startup-experience"
+      ],
+      "自己発見": [
+        "mbti-personality-analysis"
+      ],
+      "好奇心": [
+        "mbti-personality-analysis"
+      ],
+      "理解欲求": [
+        "mbti-personality-analysis"
+      ],
+      "分類整理": [
+        "mbti-personality-analysis"
+      ],
+      "励まし": [
+        "instagram-marketing-revival",
+        "university-post-offer-preparation"
+      ],
+      "希望": [
+        "instagram-marketing-revival",
+        "university-post-offer-preparation"
+      ],
+      "解決期待": [
+        "instagram-marketing-revival"
+      ],
+      "最新情報": [
+        "instagram-new-features"
+      ],
+      "効率化期待": [
+        "instagram-new-features",
+        "internship-high-multiplier-companies"
+      ],
+      "不安解消": [
+        "job-interview-phone-etiquette",
+        "interview-mindset-anxiety-management",
+        "job-hunting-experience-anxiety",
+        "interview-self-questions"
+      ],
+      "具体的解決策": [
+        "university-post-offer-preparation"
+      ],
+      "集客向上": [
+        "instagram-new-features"
+      ],
+      "自己反省": [
+        "action-mindset-comparison"
+      ],
+      "改善欲求": [
+        "action-mindset-comparison"
+      ],
+      "比較分析": [
+        "action-mindset-comparison"
+      ],
+      "成長意欲": [
+        "action-mindset-comparison"
+      ],
+      "失敗回避": [
+        "freelance-failure-experiences"
+      ],
+      "実体験学習": [
+        "freelance-failure-experiences"
+      ],
+      "現実認識": [
+        "freelance-failure-experiences",
+        "univa-internship-intensity"
+      ],
+      "リスク理解": [
+        "freelance-failure-experiences"
+      ],
+      "損失回避": [
+        "cost-effective-qualifications",
+        "ai-job-hunting-wisdom"
+      ],
+      "価値重視": [
+        "cost-effective-qualifications"
+      ],
+      "投資効果": [
+        "cost-effective-qualifications"
+      ],
+      "職場環境改善": [
+        "workplace-gender-bias"
+      ],
+      "不公平感": [
+        "workplace-gender-bias"
+      ],
+      "権利意識": [
+        "workplace-gender-bias"
+      ],
+      "女性活躍": [
+        "workplace-gender-bias"
+      ],
+      "キャリア継続": [
+        "female-career-stability"
+      ],
+      "将来不安": [
+        "female-career-stability"
+      ],
+      "人生設計": [
+        "female-career-stability"
+      ],
+      "自立意識": [
+        "female-career-stability"
+      ],
+      "AI収益化": [
+        "ai-content-monetization"
+      ],
+      "技術活用": [
+        "ai-content-monetization"
+      ],
+      "在宅収入": [
+        "ai-content-monetization"
+      ],
+      "スキル向上": [
+        "ai-content-monetization",
+        "job-interview-phone-etiquette"
+      ],
+      "副業開始": [
+        "side-business-startup-guide"
+      ],
+      "収入増": [
+        "side-business-startup-guide"
+      ],
+      "スキル不足解決": [
+        "side-business-startup-guide"
+      ],
+      "専門指導": [
+        "side-business-startup-guide"
+      ],
+      "戦略的思考": [
+        "internship-high-multiplier-companies"
+      ],
+      "成功確率向上": [
+        "internship-high-multiplier-companies",
+        "generative-ai-job-prep"
+      ],
+      "準備万全": [
+        "interview-mindset-anxiety-management"
+      ],
+      "自信回復": [
+        "job-hunting-experience-anxiety",
+        "respect-authority-building",
+        "interview-communication-skills"
+      ],
+      "準備支援": [
+        "job-hunting-experience-anxiety"
+      ],
+      "改善意欲": [
+        "gakuchika-expression-improvement"
+      ],
+      "成功願望": [
+        "gakuchika-expression-improvement",
+        "interview-communication-skills"
+      ],
+      "同世代共感": [
+        "university-life-schedule-anxiety"
+      ],
+      "時間制約": [
+        "university-life-schedule-anxiety"
+      ],
+      "解決急務": [
+        "university-life-schedule-anxiety"
+      ],
+      "発見喜び": [
+        "high-paying-holiday-jobs"
+      ],
+      "理想実現": [
+        "high-paying-holiday-jobs"
+      ],
+      "選択肢拡大": [
+        "high-paying-holiday-jobs"
+      ],
+      "安堵感": [
+        "relaxed-work-mindset"
+      ],
+      "解放感": [
+        "relaxed-work-mindset"
+      ],
+      "判断支援": [
+        "good-workplace-characteristics"
+      ],
+      "客観視": [
+        "good-workplace-characteristics"
+      ],
+      "価値再認識": [
+        "good-workplace-characteristics"
+      ],
+      "自己受容": [
+        "introvert-suitable-jobs",
+        "relaxed-work-mindset"
+      ],
+      "向上意欲": [
+        "cognitive-agility-thinking"
+      ],
+      "学習欲求": [
+        "cognitive-agility-thinking"
+      ],
+      "能力開発": [
+        "cognitive-agility-thinking"
+      ],
+      "成長実感": [
+        "cognitive-agility-thinking"
+      ],
+      "効率追求": [
+        "work-speed-optimization"
+      ],
+      "時間価値": [
+        "work-speed-optimization"
+      ],
+      "生産性向上": [
+        "work-speed-optimization"
+      ],
+      "成功志向": [
+        "high-performance-achiever"
+      ],
+      "達成欲求": [
+        "high-performance-achiever"
+      ],
+      "競争心": [
+        "high-performance-achiever"
+      ],
+      "可能性発見": [
+        "high-paying-holiday-jobs",
+        "mid-career-skill-transition"
+      ],
+      "将来安定": [
+        "mid-career-skill-transition"
+      ],
+      "自己改善": [
+        "respect-authority-building"
+      ],
+      "権威欲求": [
+        "respect-authority-building"
+      ],
+      "尊敬獲得": [
+        "respect-authority-building"
+      ],
+      "評価向上": [
+        "work-competency-improvement"
+      ],
+      "強さ憧れ": [
+        "mental-strength-habits"
+      ],
+      "投資価値": [
+        "future-proof-qualifications"
+      ],
+      "先取り感": [
+        "future-proof-qualifications"
+      ],
+      "時代変化認識": [
+        "information-age-evolution"
+      ],
+      "準備重要性": [
+        "univa-internship-intensity",
+        "interview-self-questions",
+        "ai-job-displacement-anxiety",
+        "ai-interview-trend"
+      ],
+      "自信構築": [
+        "interview-self-questions"
+      ],
+      "便利性": [
+        "mobile-ai-recommendations"
+      ],
+      "多機能性": [
+        "mobile-ai-recommendations"
+      ],
+      "期待感": [
+        "job-hunting-ai-emergence"
+      ],
+      "先取り優位": [
+        "job-hunting-ai-emergence"
+      ],
+      "差別化欲求": [
+        "latest-ai-competitive-advantage"
+      ],
+      "実用性": [
+        "generative-ai-job-prep",
+        "job-transition-divine-apps"
+      ],
+      "評価期待": [
+        "interview-communication-skills"
+      ],
+      "情報優位": [
+        "ai-interview-trend"
+      ],
+      "時代適応": [
+        "ai-interview-trend"
+      ],
+      "期限切迫感": [
+        "job-hunting-preparation-checklist-27"
+      ],
+      "必須性認識": [
+        "job-hunting-preparation-checklist-27"
+      ],
+      "準備完成願望": [
+        "job-hunting-preparation-checklist-27"
+      ],
+      "優位性": [
+        "recommended-ai-tools-job-hunting"
+      ],
+      "最新技術活用": [
+        "recommended-ai-tools-job-hunting"
+      ],
+      "成功体験": [
+        "job-transition-divine-apps"
+      ],
+      "対策重要性": [
+        "ai-interview-strategy-guide"
+      ],
+      "技術適応": [
+        "ai-interview-strategy-guide"
+      ],
+      "成功戦略": [
+        "ai-interview-strategy-guide"
+      ],
+      "成果期待": [
+        "job-hunting-power-enhancement-tools"
+      ],
+      "簡単実用性": [
+        "job-hunting-power-enhancement-tools"
+      ]
     }
   }
 }

@@ -5,7 +5,7 @@
 
 import { SimilaritySearchService, SimilarityScore, SimilaritySearchResult } from './SimilaritySearchService';
 import { KnowledgeSearchEngine, SearchResult } from './KnowledgeSearchEngine';
-import problemSolutionPairs from './data/problemSolutionPairs.json';
+// import problemSolutionPairs from '../../data/knowledgeBase/problemSolutionPairs.json'; // 新システム：個別ファイル読み込みに変更
 
 export interface RecommendationConfig {
   // スコア関連

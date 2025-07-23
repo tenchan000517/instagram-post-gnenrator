@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "description": "各テンプレートの必須データ構造定義",
+    "createdDate": "2025-07-23",
+    "purpose": "AIプロンプトに渡すテンプレート構造の正確な定義"
+  },
+  "templates": {
+    "title-description-only": {
+      "displayName": "タイトル+説明文のみ型",
+      "structure": {
+        "title": "string",
+        "description": "string"
+      },
+      "requiredFields": ["title", "description"],
+      "characterLimits": {
+        "title": 25,
+        "description": 120
+      }
+    },
+    "section-items": {
+      "displayName": "セクション+アイテム型",
+      "structure": {
+        "title": "string",
+        "sections": [{
+          "title": "string",
+          "content": "string",
+          "items": ["string"]
+        }]
+      },
+      "requiredFields": ["title", "sections"],
+      "characterLimits": {
+        "title": 25,
+        "sectionTitle": 20,
+        "sectionContent": 50,
+        "item": 30
+      }
+    },
+    "enumeration": {
+      "displayName": "列挙型",
+      "structure": {
+        "title": "string",
+        "items": ["string"]
+      },
+      "requiredFields": ["title", "items"],
+      "characterLimits": {
+        "title": 25,
+        "item": 30
+      }
+    },
+    "simple3": {
+      "displayName": "シンプル型３",
+      "structure": {
+        "title": "string",
+        "content": "string",
+        "points": ["string"]
+      },
+      "requiredFields": ["title", "content", "points"],
+      "characterLimits": {
+        "title": 25,
+        "content": 80,
+        "point": 25
+      }
+    },
+    "list": {
+      "displayName": "リスト型",
+      "structure": {
+        "title": "string",
+        "subtitle": "string",
+        "items": ["string"]
+      },
+      "requiredFields": ["title", "items"],
+      "optionalFields": ["subtitle"],
+      "characterLimits": {
+        "title": 25,
+        "subtitle": 40,
+        "item": 30
+      }
+    },
+    "ranking": {
+      "displayName": "ランキング表示型",
+      "structure": {
+        "title": "string",
+        "rankingData": [{
+          "rank": "number",
+          "name": "string",
+          "value": "string",
+          "description": "string"
+        }]
+      },
+      "requiredFields": ["title", "rankingData"],
+      "characterLimits": {
+        "title": 25,
+        "name": 20,
+        "value": 15,
+        "description": 40
+      }
+    },
+    "checklist-enhanced": {
+      "displayName": "チェックリスト詳細付き型",
+      "structure": {
+        "title": "string",
+        "checklistItems": [{
+          "text": "string",
+          "description": "string",
+          "checked": "boolean"
+        }]
+      },
+      "requiredFields": ["title", "checklistItems"],
+      "characterLimits": {
+        "title": 25,
+        "text": 30,
+        "description": 50
+      }
+    },
+    "item-n-title-content": {
+      "displayName": "独立ボックス構造型",
+      "structure": {
+        "title": "string",
+        "items": [{
+          "title": "string",
+          "content": "string"
+        }]
+      },
+      "requiredFields": ["title", "items"],
+      "characterLimits": {
+        "title": 25,
+        "itemTitle": 20,
+        "itemContent": 60
+      }
+    },
+    "two-column-section-items": {
+      "displayName": "2カラムセクション+アイテム型",
+      "structure": {
+        "title": "string",
+        "twoColumn": {
+          "left": ["string"],
+          "right": ["string"]
+        }
+      },
+      "requiredFields": ["title", "twoColumn"],
+      "characterLimits": {
+        "title": 25,
+        "columnItem": 25
+      }
+    },
+    "table": {
+      "displayName": "表型",
+      "structure": {
+        "title": "string",
+        "tableData": {
+          "headers": ["string"],
+          "rows": [["string"]]
+        }
+      },
+      "requiredFields": ["title", "tableData"],
+      "characterLimits": {
+        "title": 25,
+        "header": 15,
+        "cell": 20
+      }
+    },
+    "graph": {
+      "displayName": "グラフ表示型",
+      "structure": {
+        "title": "string",
+        "graphData": {
+          "type": "string",
+          "data": [{
+            "name": "string",
+            "value": "number"
+          }]
+        }
+      },
+      "requiredFields": ["title", "graphData"],
+      "characterLimits": {
+        "title": 25,
+        "dataName": 15
+      }
+    },
+    "single-section-no-items": {
+      "displayName": "単一セクション・アイテム無し型",
+      "structure": {
+        "title": "string",
+        "content": "string",
+        "sections": [{
+          "title": "string",
+          "content": "string"
+        }]
+      },
+      "requiredFields": ["title", "sections"],
+      "characterLimits": {
+        "title": 25,
+        "content": 100,
+        "sectionTitle": 20,
+        "sectionContent": 80
+      }
+    },
+    "simple5": {
+      "displayName": "シンプル型５",
+      "structure": {
+        "title": "string",
+        "steps": [{
+          "step": "number",
+          "title": "string",
+          "description": "string"
+        }]
+      },
+      "requiredFields": ["title", "steps"],
+      "characterLimits": {
+        "title": 25,
+        "stepTitle": 20,
+        "stepDescription": 50
+      }
+    },
+    "simple6": {
+      "displayName": "シンプル型６",
+      "structure": {
+        "title": "string",
+        "content": "string",
+        "items": ["string"]
+      },
+      "requiredFields": ["title", "content"],
+      "optionalFields": ["items"],
+      "characterLimits": {
+        "title": 25,
+        "content": 100,
+        "item": 30
+      }
+    },
+    "explanation2": {
+      "displayName": "解説型２",
+      "structure": {
+        "title": "string",
+        "subtitle": "string",
+        "content": "string",
+        "points": ["string"]
+      },
+      "requiredFields": ["title", "content"],
+      "optionalFields": ["subtitle", "points"],
+      "characterLimits": {
+        "title": 25,
+        "subtitle": 40,
+        "content": 100,
+        "point": 30
+      }
+    },
+    "index": {
+      "displayName": "INDEX型",
+      "structure": {
+        "title": "string",
+        "subtitle": "string",
+        "badgeText": "string",
+        "items": [{
+          "pageNumber": "number",
+          "title": "string"
+        }]
+      },
+      "requiredFields": ["title", "items"],
+      "optionalFields": ["subtitle", "badgeText"],
+      "characterLimits": {
+        "title": 20,
+        "subtitle": 30,
+        "badgeText": 15,
+        "itemTitle": 25
+      }
+    }
+  }
+}

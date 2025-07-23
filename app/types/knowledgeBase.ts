@@ -3,7 +3,7 @@
  * 既存のTemplateTypesを拡張してナレッジベース情報を統合
  */
 
-import { TemplateData } from './templateTypes';
+// import { TemplateData } from './templateTypes';
 
 export interface KnowledgeSource {
   contentId: string;          // contents-001等の参照元
@@ -19,7 +19,7 @@ export interface KnowledgeSource {
   urgencyLevel: string;            // 緊急度
 }
 
-export interface EnhancedTemplateData extends TemplateData {
+export interface EnhancedTemplateData {
   knowledgeSource?: KnowledgeSource;
   generationMethod?: 'knowledge_based' | 'traditional';
   enhancementApplied?: boolean;
@@ -28,7 +28,10 @@ export interface EnhancedTemplateData extends TemplateData {
 export interface KnowledgeBaseParams {
   typeId: string;
   targetId?: string;
-  themeId?: string;
+  personaIds?: string[];
+  knowledgeIds?: string[];
+  knowledgeContents?: string[];
+  knowledgeData?: any;  // 選択済みナレッジデータ
   useKnowledgeBase: boolean;
 }
 
@@ -62,16 +65,6 @@ export interface TargetOption {
   characteristics: string[];
 }
 
-// ThemeID選択用の型定義（7テーマ）
-export type ThemeID = 'TH001' | 'TH002' | 'TH003' | 'TH004' | 'TH005' | 'TH006' | 'TH007';
-
-export interface ThemeOption {
-  id: ThemeID;
-  name: string;
-  description: string;
-  compatibleTypes: TypeID[];
-  compatibleTargets: TargetID[];
-}
 
 // 統計・分析用の型定義
 export interface PatternStats {
@@ -90,16 +83,14 @@ export interface ContentAnalysis {
   confidence: number;
   reasoning: string;
   recommendedTargets: TargetID[];
-  recommendedThemes: ThemeID[];
 }
 
 // UIコンポーネント用の型定義
 export interface SelectionState {
   typeId?: TypeID;
   targetId?: TargetID;
-  themeId?: ThemeID;
   useKnowledgeBase: boolean;
-  step: 'type' | 'target' | 'theme' | 'generate' | 'complete';
+  step: 'type' | 'target' | 'complete';
 }
 
 export interface ValidationResult {

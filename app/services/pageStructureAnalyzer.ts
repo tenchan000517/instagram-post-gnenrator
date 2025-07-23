@@ -1,7 +1,6 @@
 import { PageStructure, PremiumTemplateType } from '../types/pageStructure'
 import { getGeminiModel } from './geminiClientSingleton'
 import { GenreDetector } from './genreDetector'
-import { ItemCountOptimizer } from './itemCountOptimizer'
 import { Genre, getGenreConfig } from '../types/genre'
 import { KnowledgeBaseParams } from '../types/knowledgeBase'
 import { PageStructureMatcher } from './knowledgeBase/PageStructureMatcher'
@@ -11,12 +10,9 @@ export class PageStructureAnalyzer {
   
   private model: any
   private genreDetector: GenreDetector
-  private itemCountOptimizer: ItemCountOptimizer
-
   constructor() {
     this.model = getGeminiModel()
     this.genreDetector = new GenreDetector()
-    this.itemCountOptimizer = new ItemCountOptimizer()
   }
 
   async analyzePageStructureAndTemplates(
@@ -50,7 +46,7 @@ export class PageStructureAnalyzer {
     })
 
     // ナレッジベース明示的選択モードの場合は統合システムを実行
-    if (knowledgeBaseParams?.useKnowledgeBase && knowledgeBaseParams.typeId && knowledgeBaseParams.targetId && knowledgeBaseParams.themeId) {
+    if (knowledgeBaseParams?.useKnowledgeBase && knowledgeBaseParams.typeId && knowledgeBaseParams.targetId) {
       console.log('🚀 ナレッジベース統合システム実行 - PageStructureMatcher & TemplateItemMapper使用');
       return this.generateStructuredContent(input, knowledgeBaseParams);
     }
@@ -207,23 +203,25 @@ ${input}
   ): Promise<PageStructure[]> {
     console.log('🎯 新統合システム開始:', {
       typeId: params.typeId,
-      targetId: params.targetId,
-      themeId: params.themeId
+      targetId: params.targetId
     });
 
     try {
       // Step 1: 厳密マッチングでページ構造を取得
       const { pattern, structure } = PageStructureMatcher.getCompletePageStructure(
         params.typeId!,
-        params.targetId!,
-        params.themeId!
+        params.targetId!
       );
 
       console.log('✅ ページ構造マッチング成功:', pattern.description);
 
-      // Step 2: テンプレート項目マッピングで具体的コンテンツを抽出
+      // Step 2: 選択済みナレッジデータを取得
+      const knowledgeData = params.knowledgeData || null;
+      console.log('📚 ナレッジデータ:', knowledgeData ? '使用可能' : '未提供');
+
+      // Step 3: テンプレート項目マッピングで具体的コンテンツを抽出
       const mapper = new TemplateItemMapper();
-      const mappingResult = await mapper.mapContentToPages(input, structure);
+      const mappingResult = await mapper.mapContentToPages(input, structure, knowledgeData);
 
       console.log('✅ テンプレート項目マッピング完了:', {
         pagesCount: mappingResult.pages.length,
@@ -231,7 +229,7 @@ ${input}
         processingTime: mappingResult.processingTime + 'ms'
       });
 
-      // Step 3: PageStructure形式に変換
+      // Step 4: PageStructure形式に変換
       const pageStructures: PageStructure[] = mappingResult.pages.map(page => ({
         概要: `ナレッジベース統合システムによる最適化コンテンツ（${pattern.description}）`,
         有益性: `TypeID×TargetID×ThemeID厳密マッチングによる最適化された価値提供`,
@@ -256,8 +254,9 @@ ${input}
   }
 
   /**
-   * マッピングされたコンテンツをtheme形式に変換
+   * マッピングされたコンテンツをtheme形式に変換（未使用関数）
    */
+  /*
   private formatMappedContentAsTheme(mappedItems: any, templateId: string): string {
     try {
       if (mappedItems.sections) {
@@ -288,4 +287,5 @@ ${input}
       return JSON.stringify(mappedItems, null, 2);
     }
   }
+  */
 }

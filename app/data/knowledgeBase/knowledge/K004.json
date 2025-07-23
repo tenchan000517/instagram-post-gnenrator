@@ -1,0 +1,47 @@
+{
+  "source": "contents-004",
+  "problemCategory": "効率アップテクニック",
+  "problemDescription": "AIを仕事に活かしたい人、生産性を上げたい人、時短で結果を出したい就活生の悩み",
+  "postType": "004",
+  "postTypeReason": "効率アップテクニック関連のコンテンツ",
+  "solutionContent": {
+    "概要": "効率化とテクニック向上のソリューション",
+    "具体的手順": ["効率化ツール活用", "時短テクニック実践", "生産性向上方法"],
+    "提供情報": ["効率化ツール", "時短テクニック", "生産性向上方法"],
+    "実用的なアドバイス": ["ツールを活用して効率化", "時間管理を徹底する", "自動化を取り入れる"]
+  },
+  "effectiveExpressions": [
+    "効率化重視のデザイン",
+    "実用的なツール紹介",
+    "時短効果を数値で表現"
+  ],
+  "searchKeywords": [
+    "効率化",
+    "生産性",
+    "時短",
+    "AI活用",
+    "ツール",
+    "テクニック"
+  ],
+  "emotionalTriggers": [
+    "効率を上げて時間を有効活用したい",
+    "生産性を向上させたい",
+    "AIを使って作業を楽にしたい"
+  ],
+  "marketingStage": "効率化に興味がある初心者〜中級者",
+  "knowledgeId": "K004",
+  "pageStructurePattern": "mock-method-5page",
+  "actualTitle": "効率アップテクニック",
+  "pageCount": 5,
+  "hashTag": "#効率化 #生産性 #時短 #AI活用",
+  "detailedContent": {
+    "page1": {
+      "title": "効率アップテクニック",
+      "pageType": "coverPage",
+      "authorCredentials": {
+        "experience": "効率化エキスパート"
+      },
+      "mainTopic": "効率アップテクニック"
+    }
+  }
+}

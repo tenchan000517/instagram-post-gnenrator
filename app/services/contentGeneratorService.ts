@@ -8,6 +8,7 @@ import { PageStructure as PageStructureType } from '../types/pageStructure'
 import { StructureConstrainedGenerator } from './structureConstrainedGenerator'
 import { getGeminiModel } from './geminiClientSingleton'
 import { KnowledgeBaseParams } from '../types/knowledgeBase'
+import { KnowledgeBasedContentGenerator } from './knowledgeBase/KnowledgeBasedContentGenerator'
 
 export interface GeneratedPage {
   pageNumber: number
@@ -72,8 +73,44 @@ export class ContentGeneratorService {
     try {
       console.log('🚀 2段階フロー開始...')
       
+      // ★★★ ナレッジベースシステムインターセプト（ログのみ） ★★★
+      if (knowledgeBaseParams?.useKnowledgeBase && 
+          knowledgeBaseParams.knowledgeContents && 
+          knowledgeBaseParams.knowledgeContents.length > 0) {
+        
+        console.log('🎯 ★★★ナレッジベースシステム検出 - 選択済みナレッジを既存フローで活用')
+        console.log('📊 選択済みナレッジ数:', knowledgeBaseParams.knowledgeContents.length)
+        console.log('📋 選択済みナレッジID:', knowledgeBaseParams.knowledgeContents.map(k => k.knowledgeId))
+        
+        // 🔍 生データ確認用ログ追加
+        console.log('🔍 渡されたknowledgeBaseParams全体の生データ:')
+        console.log(JSON.stringify(knowledgeBaseParams, null, 2))
+        
+        console.log('📖 ナレッジ詳細:')
+        
+        knowledgeBaseParams.knowledgeContents.forEach((knowledge, index) => {
+          console.log(`  ${index + 1}. ${knowledge.knowledgeId}: ${knowledge.actualTitle}`)
+          console.log(`     - カテゴリ: ${knowledge.problemCategory}`)
+          console.log(`     - キーワード: ${knowledge.searchKeywords?.join(', ')}`)
+          console.log(`     - 感情トリガー: ${knowledge.emotionalTriggers?.join(', ')}`)
+          
+          // 🔍 各ナレッジの生データも出力
+          console.log(`     - 生データ: ${JSON.stringify(knowledge, null, 4)}`)
+        })
+        
+        console.log('🔄 既存フローでナレッジデータを活用してコンテンツ生成を続行')
+        
+        // 🚀 新しいナレッジベース起点生成システムへ切り替え
+        if (knowledgeBaseParams.knowledgeContents[0].pageStructurePattern) {
+          console.log('🎯 新ナレッジベース起点システム実行')
+          return await this.generateWithKnowledgeBase(userInput, knowledgeBaseParams)
+        }
+      }
+      
+      // ★★★ 従来フロー（通常の2段階生成） ★★★
+      console.log('📋 従来フロー実行 - 段階1: ページ構造分析中...')
+      
       // 1段階目: ページ構造決定
-      console.log('📋 段階1: ページ構造分析中...')
       const pageStructureAnalyzer = new PageStructureAnalyzer()
       const pageStructures = await pageStructureAnalyzer.analyzePageStructureAndTemplates(userInput, knowledgeBaseParams)
       
@@ -154,6 +191,94 @@ export class ContentGeneratorService {
       throw new Error('AI生成に失敗しました。APIの状態を確認してください。')
     } finally {
       this.isGenerating = false
+    }
+  }
+
+  /**
+   * 新しいナレッジベース起点のコンテンツ生成
+   */
+  private async generateWithKnowledgeBase(userInput: string, knowledgeBaseParams: KnowledgeBaseParams): Promise<GeneratedContent> {
+    try {
+      console.log('🚀 ナレッジベース起点生成開始...')
+      
+      const knowledgeData = knowledgeBaseParams.knowledgeContents[0]
+      const pageStructureId = knowledgeData.pageStructurePattern
+      
+      console.log('📋 使用するページ構成:', pageStructureId)
+      
+      // ページ構造定義を読み込み
+      const pageStructure = await this.loadPageStructure(pageStructureId)
+      if (!pageStructure) {
+        throw new Error(`ページ構造が見つかりません: ${pageStructureId}`)
+      }
+      
+      console.log('✅ ページ構造読み込み完了:', pageStructure.name)
+      
+      // 新しいジェネレーターでページ毎にコンテンツ生成
+      const generator = new KnowledgeBasedContentGenerator()
+      const pages: GeneratedPage[] = []
+      
+      for (const pageInfo of pageStructure.pages) {
+        console.log(`🎨 ページ${pageInfo.pageNumber}生成中...`)
+        
+        const result = await generator.generatePageContent({
+          userInput,
+          knowledgeData,
+          pageStructure,
+          templateStructure: pageInfo.templatePattern,
+          pageNumber: pageInfo.pageNumber
+        })
+        
+        if (result.success) {
+          const generatedPage: GeneratedPage = {
+            pageNumber: pageInfo.pageNumber,
+            templateType: pageInfo.templateId as TemplateType,
+            templateData: result.generatedContent,
+            content: result.generatedContent
+          }
+          
+          pages.push(generatedPage)
+          console.log(`✅ ページ${pageInfo.pageNumber}生成完了`)
+        } else {
+          console.error(`❌ ページ${pageInfo.pageNumber}生成失敗:`, result.error)
+          throw new Error(`ページ${pageInfo.pageNumber}の生成に失敗しました`)
+        }
+      }
+      
+      console.log('🎉 全ページ生成完了')
+      
+      // 既存のハッシュタグ・キャプション生成を使用
+      const hashtags = await this.generateHashtags(userInput, pages)
+      const caption = await this.generateCaptionWithFormat(userInput, pages)
+      
+      const generatedContent: GeneratedContent = {
+        pages,
+        totalPages: pages.length,
+        hashtags,
+        caption,
+        summary: userInput
+      }
+      
+      console.log('🎊 ナレッジベース起点生成完了')
+      return generatedContent
+      
+    } catch (error) {
+      console.error('❌ ナレッジベース起点生成エラー:', error)
+      throw new Error(`ナレッジベース起点生成失敗: ${error}`)
+    }
+  }
+
+  /**
+   * ページ構造定義を読み込み
+   */
+  private async loadPageStructure(pageStructureId: string): Promise<any> {
+    try {
+      // 動的インポートでページ構造を読み込み
+      const module = await import(`./knowledgeBase/data/pageStructures/${pageStructureId}.json`)
+      return module.default || module
+    } catch (error) {
+      console.error('ページ構造読み込みエラー:', error)
+      return null
     }
   }
 

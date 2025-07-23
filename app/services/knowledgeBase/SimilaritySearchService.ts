@@ -4,7 +4,7 @@
  */
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import problemSolutionPairs from './data/problemSolutionPairs.json';
+// import problemSolutionPairs from '../../data/knowledgeBase/problemSolutionPairs.json'; // 新システム：個別ファイル読み込みに変更
 
 export interface SimilarityScore {
   knowledgeId: string;

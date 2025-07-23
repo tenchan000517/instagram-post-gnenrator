@@ -16,6 +16,13 @@ export { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
 export { default as RankingTemplate } from './RankingTemplate'
 export { default as GraphTemplate } from './GraphTemplate'
 
+// 新しいK004テスト用テンプレート
+export { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
+export { MethodDetailCardTemplate } from './MethodDetailCardTemplate'
+export { MethodVisualGuideTemplate } from './MethodVisualGuideTemplate'
+export { MethodSummaryKeywordsTemplate } from './MethodSummaryKeywordsTemplate'
+export { ActionCallChecklistTemplate } from './ActionCallChecklistTemplate'
+
 // 型定義とユーティリティ
 export * from './TemplateTypes'
 export * from './TemplateRegistry'
@@ -38,6 +45,13 @@ import { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
 import RankingTemplate from './RankingTemplate'
 import GraphTemplate from './GraphTemplate'
 
+// 新しいK004テスト用テンプレートのインポート
+import { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
+import { MethodDetailCardTemplate } from './MethodDetailCardTemplate'
+import { MethodVisualGuideTemplate } from './MethodVisualGuideTemplate'
+import { MethodSummaryKeywordsTemplate } from './MethodSummaryKeywordsTemplate'
+import { ActionCallChecklistTemplate } from './ActionCallChecklistTemplate'
+
 import { TemplateType } from './TemplateTypes'
 
 export const templateComponents = {
@@ -56,7 +70,13 @@ export const templateComponents = {
   'item-n-title-content': ItemNTitleContentTemplate,
   'single-section-no-items': SingleSectionNoItemsTemplate,
   ranking: RankingTemplate,
-  graph: GraphTemplate
+  graph: GraphTemplate,
+  // 新しいK004テスト用テンプレート
+  'problem-introduction': ProblemIntroductionTemplate,
+  'method-detail-card': MethodDetailCardTemplate,
+  'method-visual-guide': MethodVisualGuideTemplate,
+  'method-summary-keywords': MethodSummaryKeywordsTemplate,
+  'action-call-checklist': ActionCallChecklistTemplate
 } as const
 
 // テンプレートレンダラー

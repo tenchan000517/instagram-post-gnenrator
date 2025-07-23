@@ -3,7 +3,7 @@
  * AI想像依存を実データ検索に転換するピンポイント検索システム
  */
 
-import problemSolutionPairs from './data/problemSolutionPairs.json';
+// import problemSolutionPairs from '../../data/knowledgeBase/problemSolutionPairs.json'; // 新システム：個別ファイル読み込みに変更
 import contentExamples from './data/contentExamples.json';
 import personaInsights from './data/personaInsights.json';
 
