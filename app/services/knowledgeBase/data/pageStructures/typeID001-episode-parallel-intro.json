@@ -1,0 +1,37 @@
+{
+  "pageStructureId": "typeID001-episode-parallel-intro",
+  "name": "TypeID001 エピソード並列紹介型",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "failure_story_intro",
+      "templateStructure": {
+        "question": "string",
+        "promise": "string"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "failure_episode",
+      "templateStructure": {
+        "episodeNumber": "string",
+        "title": "string", 
+        "logo": "string",
+        "description": "string",
+        "failure": "string",
+        "conclusion": "string",
+        "question": "string"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "episode_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "keyLearnings": "string[]",
+        "finalMessage": "string"
+      }
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 import { TemplateType, TemplateData } from '../components/templates/TemplateTypes'
 import { hashtagService } from '../config/hashtags'
-import { captionService } from '../config/captionFormat'
 import { MarkdownUtils } from '../utils/markdownUtils'
 import { IndexGeneratorService } from './indexGeneratorService'
 import { PageStructureAnalyzer } from './pageStructureAnalyzer'
@@ -80,7 +79,7 @@ export class ContentGeneratorService {
         
         console.log('🎯 ★★★ナレッジベースシステム検出 - 選択済みナレッジを既存フローで活用')
         console.log('📊 選択済みナレッジ数:', knowledgeBaseParams.knowledgeContents.length)
-        console.log('📋 選択済みナレッジID:', knowledgeBaseParams.knowledgeContents.map(k => k.knowledgeId))
+        console.log('📋 選択済みナレッジID:', knowledgeBaseParams.knowledgeContents?.map(k => typeof k === 'string' ? k : k.knowledgeId))
         
         // 🔍 生データ確認用ログ追加
         console.log('🔍 渡されたknowledgeBaseParams全体の生データ:')
@@ -89,13 +88,17 @@ export class ContentGeneratorService {
         console.log('📖 ナレッジ詳細:')
         
         knowledgeBaseParams.knowledgeContents.forEach((knowledge, index) => {
-          console.log(`  ${index + 1}. ${knowledge.knowledgeId}: ${knowledge.actualTitle}`)
-          console.log(`     - カテゴリ: ${knowledge.problemCategory}`)
-          console.log(`     - キーワード: ${knowledge.searchKeywords?.join(', ')}`)
-          console.log(`     - 感情トリガー: ${knowledge.emotionalTriggers?.join(', ')}`)
-          
-          // 🔍 各ナレッジの生データも出力
-          console.log(`     - 生データ: ${JSON.stringify(knowledge, null, 4)}`)
+          if (typeof knowledge === 'string') {
+            console.log(`  ${index + 1}. ${knowledge}: 文字列データ`)
+          } else {
+            console.log(`  ${index + 1}. ${knowledge.knowledgeId || 'ID不明'}: ${knowledge.actualTitle || 'タイトル不明'}`)
+            console.log(`     - カテゴリ: ${knowledge.problemCategory || '不明'}`)
+            console.log(`     - キーワード: ${knowledge.searchKeywords?.join(', ') || '不明'}`)
+            console.log(`     - 感情トリガー: ${knowledge.emotionalTriggers?.join(', ') || '不明'}`)
+            
+            // 🔍 各ナレッジの生データも出力
+            console.log(`     - 生データ: ${JSON.stringify(knowledge, null, 4)}`)
+          }
         })
         
         console.log('🔄 既存フローでナレッジデータを活用してコンテンツ生成を続行')
@@ -201,8 +204,11 @@ export class ContentGeneratorService {
     try {
       console.log('🚀 ナレッジベース起点生成開始...')
       
-      const knowledgeData = knowledgeBaseParams.knowledgeContents[0]
-      const pageStructureId = knowledgeData.pageStructurePattern
+      const knowledgeData = knowledgeBaseParams.knowledgeContents?.[0]
+      if (!knowledgeData) {
+        throw new Error('ナレッジデータが見つかりません')
+      }
+      const pageStructureId = (knowledgeData as any).pageStructurePattern
       
       console.log('📋 使用するページ構成:', pageStructureId)
       
@@ -219,29 +225,116 @@ export class ContentGeneratorService {
       const pages: GeneratedPage[] = []
       
       for (const pageInfo of pageStructure.pages) {
-        console.log(`🎨 ページ${pageInfo.pageNumber}生成中...`)
-        
-        const result = await generator.generatePageContent({
-          userInput,
-          knowledgeData,
-          pageStructure,
-          templateStructure: pageInfo.templatePattern,
-          pageNumber: pageInfo.pageNumber
-        })
-        
-        if (result.success) {
-          const generatedPage: GeneratedPage = {
-            pageNumber: pageInfo.pageNumber,
-            templateType: pageInfo.templateId as TemplateType,
-            templateData: result.generatedContent,
-            content: result.generatedContent
+        // dynamicページの展開処理
+        if (pageInfo.pageNumber === "dynamic") {
+          // mainContentセクションのページを特定
+          const mainContentPages = Object.keys(knowledgeData.detailedContent || {})
+            .filter(key => {
+              const pageData = knowledgeData.detailedContent?.[key]
+              return pageData?.section === "mainContent"
+            })
+            .map(key => parseInt(key.replace('page', '')))
+            .sort((a, b) => a - b)
+
+          // 各mainContentページを生成
+          for (const actualPageNumber of mainContentPages) {
+            console.log(`🎨 ページ${actualPageNumber}生成中... (dynamic)`)
+            
+            const result = await generator.generatePageContent({
+              userInput,
+              knowledgeData,
+              pageStructure,
+              templateStructure: pageInfo.templateStructure,
+              pageNumber: actualPageNumber
+            })
+            
+            if (result.success) {
+              const generatedPage: GeneratedPage = {
+                pageNumber: actualPageNumber,
+                templateType: pageInfo.templateId as TemplateType,
+                templateData: result.generatedContent,
+                content: result.generatedContent
+              }
+              pages.push(generatedPage)
+              console.log(`✅ ページ${actualPageNumber}生成完了`)
+            } else {
+              console.error(`❌ ページ${actualPageNumber}生成失敗:`, result.error)
+              throw new Error(`ページ${actualPageNumber}の生成に失敗しました`)
+            }
           }
-          
-          pages.push(generatedPage)
-          console.log(`✅ ページ${pageInfo.pageNumber}生成完了`)
+        } else if (pageInfo.pageNumber === "last") {
+          // lastページの処理（サマリーページ等）
+          // summaryセクションのページを特定
+          const summaryPages = Object.keys(knowledgeData.detailedContent || {})
+            .filter(key => {
+              const pageData = knowledgeData.detailedContent?.[key]
+              return pageData?.section === "summary"
+            })
+            .map(key => parseInt(key.replace('page', '')))
+            .sort((a, b) => a - b)
+
+          // サマリーページが存在する場合のみ処理
+          if (summaryPages.length > 0) {
+            for (const actualPageNumber of summaryPages) {
+              console.log(`🎨 ページ${actualPageNumber}生成中... (last/summary)`)
+              
+              const result = await generator.generatePageContent({
+                userInput,
+                knowledgeData,
+                pageStructure,
+                templateStructure: pageInfo.templateStructure,
+                pageNumber: actualPageNumber
+              })
+              
+              if (result.success) {
+                const generatedPage: GeneratedPage = {
+                  pageNumber: actualPageNumber,
+                  templateType: pageInfo.templateId as TemplateType,
+                  templateData: result.generatedContent,
+                  content: result.generatedContent
+                }
+                pages.push(generatedPage)
+                console.log(`✅ ページ${actualPageNumber}生成完了`)
+              } else {
+                console.error(`❌ ページ${actualPageNumber}生成失敗:`, result.error)
+                // オプショナルページの場合はエラーにしない
+                if (!pageInfo.optional) {
+                  throw new Error(`ページ${actualPageNumber}の生成に失敗しました`)
+                }
+              }
+            }
+          } else if (!pageInfo.optional) {
+            // オプショナルでない場合はエラー
+            throw new Error(`必須のlastページが見つかりません`)
+          } else {
+            console.log(`📝 オプショナルなlastページはスキップされました`)
+          }
         } else {
-          console.error(`❌ ページ${pageInfo.pageNumber}生成失敗:`, result.error)
-          throw new Error(`ページ${pageInfo.pageNumber}の生成に失敗しました`)
+          // 通常のページ処理（数値ページ番号）
+          console.log(`🎨 ページ${pageInfo.pageNumber}生成中...`)
+          
+          const result = await generator.generatePageContent({
+            userInput,
+            knowledgeData,
+            pageStructure,
+            templateStructure: pageInfo.templateStructure,
+            pageNumber: pageInfo.pageNumber
+          })
+        
+          if (result.success) {
+            const generatedPage: GeneratedPage = {
+              pageNumber: pageInfo.pageNumber,
+              templateType: pageInfo.templateId as TemplateType,
+              templateData: result.generatedContent,
+              content: result.generatedContent
+            }
+            
+            pages.push(generatedPage)
+            console.log(`✅ ページ${pageInfo.pageNumber}生成完了`)
+          } else {
+            console.error(`❌ ページ${pageInfo.pageNumber}生成失敗:`, result.error)
+            throw new Error(`ページ${pageInfo.pageNumber}の生成に失敗しました`)
+          }
         }
       }
       
