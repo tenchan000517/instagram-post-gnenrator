@@ -1,0 +1,50 @@
+{
+  "knowledgeId": "K084",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md (K084記録なし - Phase1範囲外)",
+    "rawObservation": "docs/raw-analysis/contents-084-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K084.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活力を爆上げするAIツールを知りたい、効率的に就活を進めるためのツールを探している",
+    "flowStages": [
+      "各AIツールの機能を理解する",
+      "自分の就活ニーズに合わせてツールを選択",
+      "実際にツールを使って就活効率化を図る"
+    ],
+    "completionState": "9つのAIツールの機能と用途を理解し、チェックリスト形式で活用できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 2,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "メモ帳風タイトル・導入",
+        "description": "「今日の一句」として就活力が爆上がりするAIツールをメモ帳デザインで紹介"
+      },
+      {
+        "pageNumber": 2,
+        "role": "ツールリスト提示",
+        "description": "9つのAIツールをチェックボックス付きリスト形式で用途別に整理して表示"
+      }
+    ],
+    "flowOrder": ["メモ風導入", "実用ツールリスト"]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ベージュ色背景の統一",
+      "メモ帳風デザインの維持",
+      "白いフレーム内での情報配置",
+      "手書き風フォントの使用"
+    ],
+    "requiredElements": [
+      "MEMOタイトル表示",
+      "スパイラルノートの穴デザイン",
+      "チェックボックス（☑）付きリスト",
+      "赤文字でのツール名強調",
+      "手とペンの実写写真",
+      "ノート風の罫線"
+    ],
+    "informationArrangement": "メモ帳の自然な書き込み順序（タイトル→リスト）と実用性を重視した視覚的配置"
+  }
+}

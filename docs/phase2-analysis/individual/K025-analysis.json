@@ -1,0 +1,82 @@
+{
+  "knowledgeId": "K025",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K021-K030-analysis.md (lines 136-166)",
+    "rawObservation": "docs/raw-analysis/contents-025-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K025.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活中の電話応対で失敗したくない、正しい電話マナーや話し方を知りたい",
+    "flowStages": [
+      "疑問提起タイトル（電話マナー知ってる？）",
+      "準備事項詳細（電話前の5つのポイント）",
+      "クッション言葉習得（8実例提供）",
+      "基本会話例習得（7パターン解説）",
+      "折り返し会話例習得（6パターン・注意事項）",
+      "関連コンテンツ誘導（継続学習促進）"
+    ],
+    "completionState": "電話マナーの準備から実践まで完全習得し、継続学習も可能な状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 6,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "疑問形タイトル・関心喚起・ブランド提示",
+        "description": "青グラデーション背景、黄色吹き出しで疑問提起、携帯電話線画イラスト"
+      },
+      {
+        "pageNumber": 2,
+        "role": "電話前準備5項目詳細解説",
+        "description": "セクションタイトル＋番号付き準備事項リスト＋詳細説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "クッション言葉定義・8実例提供",
+        "description": "電球アイコン付き定義説明＋8つのクッション言葉と使用例"
+      },
+      {
+        "pageNumber": 4,
+        "role": "基本電話応対7パターン解説",
+        "description": "シチュエーション別会話例を独立ボックスで配置"
+      },
+      {
+        "pageNumber": 5,
+        "role": "折り返し電話6パターン・注意事項",
+        "description": "折り返し専用会話パターン＋オレンジハイライト注意点"
+      },
+      {
+        "pageNumber": 6,
+        "role": "他コンテンツCTA・エンゲージメント促進",
+        "description": "プロフィールアクセス指示＋他コンテンツ紹介＋ブックマーク保存指示"
+      }
+    ],
+    "flowOrder": [
+      "疑問による関心創出",
+      "体系的準備事項の提示",
+      "実践的スキル習得",
+      "状況別応用方法",
+      "継続学習への誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "セクションタイトル上部中央、番号左配置、詳細説明右配置、出典下部配置の統一構造",
+      "段階的学習進行",
+      "マイナビブランド権威性活用",
+      "実践例重視の情報羅列型",
+      "青色系統一デザイン"
+    ],
+    "requiredElements": [
+      "番号円形デザイン",
+      "ボックス枠線表示",
+      "マイナビブランド表示",
+      "電球アイコン（定義説明）",
+      "会話例の吹き出し形式",
+      "オレンジハイライト（注意事項）",
+      "プロフィールアクセス用丸アイコン",
+      "ブックマークアイコン表示"
+    ],
+    "informationArrangement": "段階的スキル習得構造（理論→準備→実践→応用→継続）で、電話マナーの理論・準備・基本・応用・継続を体系的に分離し、実践的学習を実現する配置"
+  }
+}

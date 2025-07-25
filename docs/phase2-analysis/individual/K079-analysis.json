@@ -1,0 +1,83 @@
+{
+  "knowledgeId": "K079",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K079分析記録",
+    "rawObservation": "docs/raw-analysis/contents-079-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K079.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "導入企業が増加中のAI面接について、その仕組みや対策方法が分からず不安を感じている",
+    "flowStages": [
+      "タイトル",
+      "基本情報・概要",
+      "評価基準",
+      "対策方法",
+      "実践ツール紹介",
+      "クロージング・サービス紹介"
+    ],
+    "completionState": "AI面接の仕組みを理解し、適切な対策を立てて実践できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 6,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル",
+        "description": "ハッシュタグ付きタイトルと関連イラスト"
+      },
+      {
+        "pageNumber": 2,
+        "role": "基本情報",
+        "description": "AI面接の定義と2つの形式説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "評価ポイント",
+        "description": "3つの評価基準の詳細説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "対策方法",
+        "description": "3つの対策ステップと具体例"
+      },
+      {
+        "pageNumber": 5,
+        "role": "実践ツール",
+        "description": "活用ツールのスクリーンショット付き紹介"
+      },
+      {
+        "pageNumber": 6,
+        "role": "サービス紹介",
+        "description": "感謝メッセージとサービス特徴案内"
+      }
+    ],
+    "flowOrder": [
+      "タイトル→基本情報→評価基準→対策方法→実践ツール→サービス紹介"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "2つの形式の対比表示と3つの評価ポイント",
+      "具体的対策方法の構造化",
+      "AI面接イラスト",
+      "2つの形式の対比",
+      "スクリーンショット表示"
+    ],
+    "requiredElements": [
+      "ハッシュタグ",
+      "関連イラスト",
+      "定義文",
+      "POINTタグ",
+      "形式説明",
+      "評価ポイント",
+      "対策ステップ",
+      "具体例",
+      "ツール名",
+      "スクリーンショット",
+      "メリット配列",
+      "サービス特徴",
+      "青色ボタン"
+    ],
+    "informationArrangement": "タイトル→基本情報→評価基準→対策方法→実践ツール→サービス紹介"
+  }
+}

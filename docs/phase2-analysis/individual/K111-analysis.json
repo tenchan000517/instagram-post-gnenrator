@@ -1,0 +1,100 @@
+{
+  "knowledgeId": "K111",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K111-K116-analysis.md lines 8-36",
+    "rawObservation": "/docs/raw-analysis/contents-111-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K111.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "自分の性格タイプや特徴を知りたい、MBTIの16タイプについて詳しく理解したい",
+    "flowStages": [
+      "タイトル提示・背景画像でのインパクト",
+      "16タイプを4つの気質グループ別に色分けして2タイプずつ解説",
+      "各タイプの人間関係・恋愛観・友人関係・好き嫌いの4カテゴリ詳細説明",
+      "相性情報とハッシュタグによる深い理解促進",
+      "プロフィール・フォロー促進・保存促進"
+    ],
+    "completionState": "16タイプ全ての特徴を人間関係・恋愛観・友人関係・好き嫌いの4カテゴリで理解し、相性情報まで把握できた状態、自己理解と他者理解が深まった状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-cover",
+        "description": "テーマ提示・8つのキャラクターイラストでのインパクト"
+      },
+      {
+        "pageNumber": 2,
+        "role": "dual-type-explanation-NT1",
+        "description": "INTJ・INTPタイプの詳細説明（紫系配色）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "dual-type-explanation-NT2",
+        "description": "ENTJ・ENTPタイプの詳細説明（紫系配色）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "dual-type-explanation-NF1",
+        "description": "INFJ・INFPタイプの詳細説明（緑系配色）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "dual-type-explanation-NF2",
+        "description": "ENFJ・ENFPタイプの詳細説明（緑系配色）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "dual-type-explanation-SJ1",
+        "description": "ISTJ・ISFJタイプの詳細説明（青系配色）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "dual-type-explanation-SJ2",
+        "description": "ESTJ・ESFJタイプの詳細説明（青系配色）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "dual-type-explanation-SP1",
+        "description": "ISTP・ISFPタイプの詳細説明（黄系配色）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "dual-type-explanation-SP2",
+        "description": "ESTP・ESFPタイプの詳細説明（黄系配色）"
+      },
+      {
+        "pageNumber": 10,
+        "role": "cta-profile",
+        "description": "プロフィール・関連投稿・フォロー促進・保存促進"
+      }
+    ],
+    "flowOrder": [
+      "感情的インパクト（タイトル・キャラクター）",
+      "系統的解説（気質グループ順：NT→NF→SJ→SP）",
+      "統一フォーマット（4カテゴリ特徴＋相性情報）",
+      "行動促進（フォロー・保存）"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "気質グループ別色分け（NT:紫、NF:緑、SJ:青、SP:黄）",
+      "左側にタイプ名ボックス+キャラクター、右側に特徴説明エリアの固定レイアウト",
+      "2分割構造（上下配置）での効率的情報提示",
+      "統一されたタイプ名ボックスデザイン",
+      "ピンクグラデーション背景（1ページ目）"
+    ],
+    "requiredElements": [
+      "職業制服キャラクターイラスト",
+      "4カテゴリ特徴配列（人間関係・恋愛観・友人関係・好き嫌い）",
+      "相性情報オブジェクト（良い・悪い）",
+      "ハッシュタグ配列",
+      "タイプ名ボックス（4文字のタイプコード + 日本語職業名）",
+      "サブタイトル（特徴No.1 + 形容詞付き職業名）",
+      "プロフィール写真",
+      "関連投稿サムネイル"
+    ],
+    "informationArrangement": "numberedProblems配列、emotionalMessages配列、targetConcerns配列、serviceDetails object、illustrations配列による構造化、気質グループ別の色分けによる視覚的識別、4カテゴリ特徴の統一フォーマット"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "knowledgeId": "K090",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md (K090記録なし - Phase1範囲外)",
+    "rawObservation": "docs/raw-analysis/contents-090-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K090.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "面接で正確性をアピールしたいが、具体的な方法がわからない",
+    "flowStages": [
+      "正確性の定義と企業での重要性を理解する",
+      "正確性が求められる業界・職種を把握する",
+      "POINT 1: 正確性を発揮した成果経験を話す手法を習得する",
+      "POINT 2: 仕事への向き合い方と責任感を伝える手法を習得する",
+      "自己診断チェックで準備状況を確認する"
+    ],
+    "completionState": "正確性の定義を理解し、2つのポイントを使って面接で効果的にアピールできる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "ブランド付きアドバイスカバー",
+        "description": "MiRAVEL就活アドバイスブランドと「正確性が高い！と思われる2つのポイント」"
+      },
+      {
+        "pageNumber": 2,
+        "role": "定義説明",
+        "description": "正確性の定義と企業での重要性、教育困難性の解説"
+      },
+      {
+        "pageNumber": 3,
+        "role": "文脈説明",
+        "description": "仕事における正確性の具体的な適用領域（業界・職種）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "POINT 01詳細解説",
+        "description": "成果経験を話す手法と具体的な比較例の提示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "POINT 02詳細解説",
+        "description": "向き合い方・責任感を伝える手法と深掘り質問例"
+      },
+      {
+        "pageNumber": 6,
+        "role": "自己診断チェックリスト",
+        "description": "3つのチェックポイントによる準備状況確認"
+      },
+      {
+        "pageNumber": 7,
+        "role": "まとめ・CTA",
+        "description": "2つのポイントまとめとMiRAVELプラットフォーム促進"
+      }
+    ],
+    "flowOrder": ["ブランド導入", "定義理解", "適用文脈", "具体手法1", "具体手法2", "自己診断", "まとめCTA"]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "紫からピンクのグラデーション統一",
+      "カードベースの整理されたテキストブロック",
+      "明確なページ進行インジケーター",
+      "MiRAVELブランディングの一貫表示"
+    ],
+    "requiredElements": [
+      "MiRAVEL &活アドバイス ピンクラベル",
+      "黄色ハイライト「正確性」",
+      "青いSWIPEボタン",
+      "青い円形セクションバッジ（そもそも、POINT 01、POINT 02、まとめ）",
+      "紺色POINTバッジ",
+      "紫い円形箇条書きポイント",
+      "大きな青いチェックマークアイコン",
+      "NEXT>> ナビゲーション",
+      "具体例の枠囲み表示",
+      "アカウント情報オーバーレイ"
+    ],
+    "informationArrangement": "段階的理解促進（定義→文脈→手法→診断→行動）と論理的な面接対策指導構造"
+  }
+}

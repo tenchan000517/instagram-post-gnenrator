@@ -1,0 +1,102 @@
+{
+  "knowledgeId": "K109",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K101-K110-analysis.md (該当セクションなし - 記録未完了)",
+    "rawObservation": "docs/raw-analysis/contents-109-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K109.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "仕事が速い人が徹底して手放している3つの習慣を知らず、効率的な働き方ができていない",
+    "flowStages": [
+      "1. 処分をためらわない: 森氏の「迷わず機械的に処分する」ための6つの基準を活用",
+      "2. 分担を遠慮しない: 相手にとってのメリットと仕事の意義・目的を伝え、納得してもらう",
+      "3. ミスや失敗を引きずらない: 失敗から学び、成長の糧に変える考え方を持つ"
+    ],
+    "completionState": "トヨタと東大の専門家が実証した3つの「しない習慣」を身につけ、効率的で成果の出る働き方を実現する状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル提示",
+        "description": "STUDY HACKERブランドで「手放す」コンセプトをゴミ箱イラストで表現"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題意識と解決策概念",
+        "description": "従来の「頑張る」発想から「手放す」発想への転換を専門家権威で説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "3つの習慣概要",
+        "description": "トヨタ・東大専門家発見の3つの鍵を電球アイコンで視覚化"
+      },
+      {
+        "pageNumber": 4,
+        "role": "習慣詳細1: 処分基準",
+        "description": "森氏の6つの処分基準を番号付きリストで詳細説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "習慣詳細2: 分担の考え方",
+        "description": "越川氏調査による効率的な人の考え方とリスク説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "分担方法の具体例",
+        "description": "効果的なタスク依頼の2つの具体例を対話形式で提示"
+      },
+      {
+        "pageNumber": 7,
+        "role": "習慣詳細3: 失敗の捉え方",
+        "description": "飯野氏の失敗観と速度低下の問題を実写画像で説明"
+      },
+      {
+        "pageNumber": 8,
+        "role": "失敗の価値と具体例",
+        "description": "失敗から得られる3つの成長機会をチームワーク写真で表現"
+      },
+      {
+        "pageNumber": 9,
+        "role": "まとめと実行CTA",
+        "description": "3つの実践項目をアイコン付きボックスで整理し行動促進"
+      },
+      {
+        "pageNumber": 10,
+        "role": "外部イベント宣伝",
+        "description": "三省堂書店イベントの告知とプロフィール誘導"
+      },
+      {
+        "pageNumber": 11,
+        "role": "過去投稿宣伝とフォロー促進",
+        "description": "STUDY HACKERブランドでの過去コンテンツ紹介"
+      }
+    ],
+    "flowOrder": [
+      "従来発想の問題提起",
+      "専門家による新発想の提示",
+      "3つの習慣の段階的詳細説明",
+      "実践促進とブランド強化"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "STUDY HACKERロゴによる信頼性の構築",
+      "青色を基調とした統一感のあるデザイン",
+      "専門家（トヨタコンサルタント、東大研究員等）の権威付け",
+      "番号付きの構造化された情報提示"
+    ],
+    "requiredElements": [
+      "STUDY HACKERロゴ（吹き出し付き）",
+      "ゴミ箱と紙くずのイラスト",
+      "専門家シルエット",
+      "電球アイコン（金色の縁）",
+      "鍵のイラスト",
+      "実写のオフィス・ビジネス風景",
+      "番号付きボックス（3つの実践項目）",
+      "アイコン（ゴミ箱、ネットワーク、成長）"
+    ],
+    "informationArrangement": "各習慣を専門家の権威付けとともに詳細説明し、具体的な基準や方法を明確に提示し、最終的に実践可能な形でまとめる形式"
+  }
+}

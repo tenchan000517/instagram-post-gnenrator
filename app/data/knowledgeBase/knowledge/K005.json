@@ -63,20 +63,22 @@
   ],
   "marketingStage": "副業未経験〜検討段階の女性（会社員・主婦など）、スキルや経験に自信がない人",
   "knowledgeId": "K005",
-  "pageStructurePattern": "",
   "actualTitle": "副業スタートガイド",
   "pageCount": 10,
+  "contentPageCount": 8,
   "hashTag": "",
   "detailedContent": {
     "page1": {
-      "role": "カバー・タイトル",
+      "role": "title-cover",
       "headerBadge": "月5万円達成！",
       "mainTitle": "副業スタートガイド",
       "backgroundImage": "作業中の女性後ろ姿（デスク環境）",
       "visualElements": "実用的なワークスペース"
     },
     "page2": {
-      "role": "問題提起・共感",
+      "section": "intro",
+      "template": "basic_intro",
+      "role": "problem-empathy",
       "header": "副業スタートガイド",
       "mainMessage": "月にあと+5万円あれば...",
       "problemList": [
@@ -87,7 +89,9 @@
       "authorImage": "女性プロフィール写真"
     },
     "page3": {
-      "role": "情報提供・選択肢提示",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "category-options",
       "header": "副業スタートガイド",
       "sectionTitle": "副業にはいろんな種類がある！",
       "categories": {
@@ -108,7 +112,9 @@
       "bottomMessage": "今ある「好き」や「得意」から考えよう！"
     },
     "page4": {
-      "role": "具体的手順・Step1",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "step1-goal-setting",
       "header": "副業スタートガイド",
       "stepTitle": "Step1. まずは月5万円を目標に設定",
       "calculation": "月5万円÷4週＝週1.25万円",
@@ -118,7 +124,9 @@
       "illustration": "成功を喜ぶ女性のイラスト"
     },
     "page5": {
-      "role": "具体的手順・Step2",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "step2-genre-selection",
       "header": "副業スタートガイド",
       "stepTitle": "Step2. ジャンル選びのコツ",
       "criteria": [
@@ -135,7 +143,9 @@
       "illustration": "指差しする女性のイラスト"
     },
     "page6": {
-      "role": "具体的手順・Step3",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "step3-trust-building",
       "header": "副業スタートガイド",
       "stepTitle": "Step3. 信頼してもらう",
       "subtitle": "実績がなくても大丈夫！",
@@ -148,7 +158,9 @@
       "illustration": "スマートフォンを持つ女性のイラスト"
     },
     "page7": {
-      "role": "具体的手順・Step4",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "step4-tool-utilization",
       "header": "副業スタートガイド",
       "stepTitle": "Step4. ツールに頼ってOK！",
       "tools": [
@@ -162,7 +174,9 @@
       "bookImage": "ChatGPT差がつく仕事術の本"
     },
     "page8": {
-      "role": "成功事例・信頼性構築",
+      "section": "mainContent",
+      "template": "timeline_story_experience",
+      "role": "success-case-study",
       "header": "講座生の実例",
       "successStory": {
         "badge": "副業未経験→運用代行で収入1.5倍！",
@@ -177,7 +191,9 @@
       }
     },
     "page9": {
-      "role": "まとめ・要点整理",
+      "section": "mainContent",
+      "template": "points_list_analysis",
+      "role": "summary-key-points",
       "header": "まとめ",
       "subtitle": "副業スタートガイド",
       "keyPoints": [
@@ -191,7 +207,9 @@
       "illustration": "指差しポーズの女性イラスト"
     },
     "page10": {
-      "role": "CTA・特典オファー",
+      "section": "summary",
+      "template": "basic_summary",
+      "role": "cta-special-offer",
       "offerTitle": "超豪華プレゼント！",
       "description": "全126講義が格納された無料学習サイトFREE",
       "features": {

@@ -1,0 +1,81 @@
+{
+  "knowledgeId": "K004",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "就活や転職活動において自己分析が必要だが、具体的にどうやって進めれば良いか分からない",
+    "solutionReason": "自己分析の具体的な方法5選という知識・情報を体系的に提供し、読者の学習・理解を目的としているため"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "自己分析の必要性を3つの理由で明確化",
+      "5つの異なる自己分析手法を段階的に詳細説明",
+      "各手法の具体的手順と注意点を提示",
+      "継続的学習機会（プロフィール誘導）を提供"
+    ],
+    "pageRoles": {
+      "page1": "タイトルカバー - メインテーマと行動促進メッセージ",
+      "page2": "必要性説明 - 自己分析が重要な3つの理由",
+      "page3-6": "手法詳細説明 - 5つの方法の具体的手順とコツ",
+      "page7": "エンゲージメント促進・CTA - プロフィール誘導と継続学習"
+    },
+    "solutionCompletionState": "自己分析の必要性理解 → 5つの具体的手法習得 → 実践のための注意点把握 → 継続学習（プロフィール訪問・保存）への行動完成"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 7,
+    "specializedConfiguration": {
+      "titleCover": 1,
+      "necessityExplanation": 1,
+      "detailedMethodsExplanation": 4,
+      "engagementCTA": 1
+    },
+    "divisionReason": "自己分析の重要性を理解させた後、5つの異なる手法を個別に詳細説明し、各手法の具体的手順と注意点を丁寧に伝えるため、最終的に継続学習への動機付けを行うため",
+    "structureFileName": "self-analysis-methods-detailed-explanation-structure.json",
+    "requirement": "必要性説明 + 番号付き手法詳細 + 具体的手順ステップ + 図解例示 + 注意点記載 + 継続学習誘導"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "title-cover-with-action-message",
+      "specificNeeds": "青色グラデーション背景 + 主タイトル + 行動促進メッセージ + アカウント情報"
+    },
+    "page2": {
+      "templatePattern": "three-reasons-explanation",
+      "specificNeeds": "質問形式見出し + 3つの理由リスト + 各理由の詳細説明 + 継続性の重要性強調 + 出典情報"
+    },
+    "page3-6": {
+      "templatePattern": "numbered-method-detailed-explanation",
+      "specificNeeds": "統一タイトル + 手法番号・名前 + 詳細説明 + 具体的手順ステップ + 注意点・コツ + 図解・例示"
+    },
+    "page7": {
+      "templatePattern": "content-promotion-with-profile-cta",
+      "specificNeeds": "関連コンテンツ紹介 + プロフィール誘導指示 + 保存促進 + サムネイル画像表示"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "numberedMethodStructure": "page3-6で方法1-5の明確な番号表示",
+      "reasonsListDisplay": "page2で3つの理由の構造化表示",
+      "stepsVisualization": "各手法の具体的手順の段階表示",
+      "diagramIntegration": "モチベーショングラフ、マインドマップ、ジョハリの窓の図解表示"
+    },
+    "visualExpressionRequirements": {
+      "colorScheme": "青色（背景・アクセント）+ 白色（テキスト）+ 黒色（本文）",
+      "numberedMethodDisplay": "1-5の方法番号の一貫した表示システム",
+      "diagramExamples": "グラフ・マップ・窓の具体的図解表現",
+      "textHierarchy": "番号 → 手法名 → 説明 → 手順 → 注意点の明確な階層"
+    },
+    "dataStructureRequirements": {
+      "methodsSequence": "5つの手法の順序付きデータ管理",
+      "reasonsStructure": "3つの必要性理由の構造化データ",
+      "stepsArray": "各手法の具体的手順配列",
+      "diagramData": "図解・例示の画像データ管理",
+      "warningNotesSystem": "各手法の注意点・コツの統合管理"
+    },
+    "templateName": "SelfAnalysisMethodsDetailedExplanationTemplate"
+  }
+}

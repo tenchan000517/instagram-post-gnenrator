@@ -1,0 +1,62 @@
+{
+  "knowledgeId": "K003",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md lines 71-99",
+    "rawObservation": "/docs/raw-analysis/contents-003-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K003.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "AIを使った記事作成で収益化を目指したいが、具体的な手順や効果的な活用方法がわからない",
+    "flowStages": [
+      "7ステップ技術手順の一覧提示",
+      "実績証明による効果実証（12万4,000円）",
+      "無料講座オファーによる深い学習機会提供"
+    ],
+    "completionState": "AI記事作成の具体的技術手順を理解し、実際の収益可能性を認識、無料講座「IAN」への参加で実践的ノウハウを習得する流れ"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 3,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "technical-steps-summary",
+        "description": "手順まとめページ（7ステップ一覧）"
+      },
+      {
+        "pageNumber": 2,
+        "role": "proof-results-screenshot",
+        "description": "実績証明・信頼構築"
+      },
+      {
+        "pageNumber": 3,
+        "role": "free-course-offer-cta",
+        "description": "最終オファー・行動誘導"
+      }
+    ],
+    "flowOrder": [
+      "手順の可視化",
+      "効果の実証",
+      "実践機会の提供"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ベージュ背景の統一",
+      "白色カードでのコンテンツ配置",
+      "実績スクリーンショットの効果的表示",
+      "特典カード群の視覚的配置",
+      "番号付き円形ボタン（1-7）"
+    ],
+    "requiredElements": [
+      "番号付き円形ボタン（1-7）",
+      "POINTヘッダーの茶色背景",
+      "実績金額の大きな表示",
+      "カラフルな特典カード",
+      "スマートフォン画面表示",
+      "電球アイコン",
+      "実績スクリーンショット",
+      "収益報告画像"
+    ],
+    "informationArrangement": "technicalSteps配列、proofData object、benefitsArray、ctaInstructions配列、monetizationResults objectによる構造化"
+  }
+}

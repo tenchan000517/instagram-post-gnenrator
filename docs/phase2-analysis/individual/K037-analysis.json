@@ -1,0 +1,61 @@
+{
+  "knowledgeId": "K037",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K037分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-037-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K037.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "夏インターンで8社合格してもその後「なんとかなる」と思い自己流でやって痛い目を見た、変わりたいが方法がわからない",
+    "flowStages": [
+      "問題提起・体験談導入→失敗体験・共感創出→解決策提示・行動促進の3段階構成"
+    ],
+    "completionState": "自己流で失敗を経験した学生が、同じ境遇からの成功体験を通じて、具体的な攻略法への関心と行動意欲を獲得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 3,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "problem-experience-introduction",
+        "description": "成功体験の提示と慢心状態の描写"
+      },
+      {
+        "pageNumber": 2,
+        "role": "failure-empathy-creation",
+        "description": "失敗体験の告白と共感創出、変革への導入"
+      },
+      {
+        "pageNumber": 3,
+        "role": "solution-action-promotion",
+        "description": "具体的解決策の提示と行動促進"
+      }
+    ],
+    "flowOrder": [
+      "体験談で関心獲得",
+      "失敗共感で信頼構築",
+      "解決策で行動促進の感情的流れ"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "漫画風イラストでの親しみやすい配置",
+      "実体験ベースのストーリー展開",
+      "感情表現重視",
+      "シンプルな3段階で共感から解決策提示まで効率的に誘導",
+      "短時間での関心獲得"
+    ],
+    "requiredElements": [
+      "character情報（漫画風キャラクター）",
+      "achievement数値（8社合格、3社内定）",
+      "failure story（失敗体験の詳細）",
+      "solution詳細（攻略法テキスト）",
+      "URL等の構造化データ",
+      "感情表現要素",
+      "吹き出し形式",
+      "プロフィール画面表示",
+      "具体的数字の視覚的強調"
+    ],
+    "informationArrangement": "体験談で関心獲得→失敗共感で信頼構築→解決策で行動促進の感情的流れ実行必須"
+  }
+}

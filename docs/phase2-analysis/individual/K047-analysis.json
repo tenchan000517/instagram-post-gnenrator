@@ -1,0 +1,81 @@
+{
+  "knowledgeId": "K047",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K047分析記録",
+    "rawObservation": "contents-047-observation.json - 7ページ構成の観察データ",
+    "knowledgeBase": "K047.json - 業界別就活軸の知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "業界選択で迷っている、自分に合った業界の就活軸がわからない",
+    "flowStages": [
+      "業界分類",
+      "各業界特徴",
+      "適合する就活軸",
+      "選択支援の業界別構成"
+    ],
+    "completionState": "業界選択に迷っていた学生が、主要業界の特徴とそれぞれに適した就活軸を理解し、自分の価値観に基づいた業界選択の指針を獲得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-problem",
+        "description": "タイトル提示と解決メッセージの強調"
+      },
+      {
+        "pageNumber": 2,
+        "role": "industry-category-commercial",
+        "description": "商社業界の働く理由・特徴の提示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "industry-category-media-entertainment",
+        "description": "マスコミ・エンタメ業界の働く理由・特徴の提示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "industry-category-consulting",
+        "description": "コンサル業界の働く理由・特徴の提示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "industry-category-manufacturer",
+        "description": "メーカー業界の働く理由・特徴の提示"
+      },
+      {
+        "pageNumber": 6,
+        "role": "industry-category-it",
+        "description": "IT業界の働く理由・特徴の提示"
+      },
+      {
+        "pageNumber": 7,
+        "role": "industry-category-infrastructure",
+        "description": "インフラ業界の働く理由・特徴の提示"
+      }
+    ],
+    "flowOrder": [
+      "業界理解",
+      "特徴把握",
+      "軸適合性理解",
+      "自己適性判断支援"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "各業界を象徴する実写背景",
+      "黒ラベル（業界名）+ 黒背景テキストボックス",
+      "統一感のある黒白コントラスト",
+      "白い装飾枠と中央テキストボックス配置"
+    ],
+    "requiredElements": [
+      "業界アイコン",
+      "特徴リスト",
+      "就活軸カード",
+      "比較表",
+      "選択支援ツール",
+      "人物アイコン（黒いシルエット）"
+    ],
+    "informationArrangement": "問題提起 + 業界分類 + 各業界特徴×就活軸 + 選択支援"
+  }
+}

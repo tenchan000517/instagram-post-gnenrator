@@ -1,0 +1,92 @@
+{
+  "knowledgeId": "K082",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K061-K080-analysis.md - K082分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-082-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K082.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "転職活動で使える便利なアプリを知りたい、効率的に転職活動を進めたい",
+    "flowStages": [
+      "永久保存版タイトルによる期待感醸成",
+      "7個のアプリ個別詳細説明（各アプリの機能と利点）",
+      "全体総括リストによる記憶定着"
+    ],
+    "completionState": "読者は7つの転職アプリの具体的機能と使用方法を理解し、自分に必要なアプリを選択して効率的な転職活動を開始できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル提示・期待感醸成ページ",
+        "description": "【永久保存版】ヘッダーと神アプリ7選のインパクトあるタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "個別アプリ詳細紹介ページ（KNOCKNOCK）",
+        "description": "面接練習アプリの機能詳細と200本収録の具体的メリット説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "個別アプリ詳細紹介ページ（レジュメ）",
+        "description": "書類作成アプリの機能と全国コンビニ印刷対応の利便性説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "個別アプリ詳細紹介ページ（AI就活）",
+        "description": "AI搭載アプリの志望動機生成機能とオリジナル化の重要性説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "個別アプリ詳細紹介ページ（Openwork）",
+        "description": "口コミサイトの8評価スコア機能と企業内情調査の価値説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "個別アプリ詳細紹介ページ（Newspicks）",
+        "description": "ニュースアプリの情報収集機能と面接対策への活用法説明"
+      },
+      {
+        "pageNumber": 7,
+        "role": "個別アプリ詳細紹介ページ（YOUTRUST）",
+        "description": "採用SNSの人脈活用機能とカジュアル面談の仕組み説明"
+      },
+      {
+        "pageNumber": 8,
+        "role": "個別アプリ詳細紹介ページ（履歴書カメラ）",
+        "description": "証明写真撮影アプリの肌補正機能とコスト削減メリット説明"
+      },
+      {
+        "pageNumber": 9,
+        "role": "総括・一覧表示ページ",
+        "description": "7つのアプリ全体を一覧形式で総括し記憶定着を促進"
+      }
+    ],
+    "flowOrder": [
+      "期待感醸成による価値提示",
+      "各アプリの詳細機能と実用的メリット説明",
+      "全体総括による記憶定着"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "カード型レイアウトでの統一",
+      "番号付きヘッダーでの構造化",
+      "アイコン/スクリーンショット配置",
+      "キャラクター固定配置（右下）"
+    ],
+    "requiredElements": [
+      "【永久保存版】オレンジヘッダー",
+      "紺色背景の番号付きヘッダー",
+      "黄色でのアプリ名強調",
+      "白色カード背景",
+      "グレー外部背景",
+      "各アプリのブランドカラー活用",
+      "キャラクターアイコン（右下固定）",
+      "アプリ画面スクリーンショット",
+      "一覧総括での簡潔な説明文"
+    ],
+    "informationArrangement": "永久保存版タイトル→7個のアプリ個別詳細説明→全体総括リスト（各アプリの詳細情報を十分に伝え、最後にリスト形式で記憶を定着）"
+  }
+}

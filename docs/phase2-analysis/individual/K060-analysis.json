@@ -1,0 +1,98 @@
+{
+  "knowledgeId": "K060",
+  "sourceData": {
+    "phase1Record": "該当セクションなし（注意：K060は欠番扱いされているがファイルは存在）",
+    "rawObservation": "/docs/raw-analysis/contents-060-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K060.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "仕事ができない原因となる考え方やマインドセットを特定したい、自己改善の指針が欲しい",
+    "flowStages": [
+      "問題認識（仕事ができない人の特徴タイトル提示）",
+      "項目列挙（21の考え方を7スライドで段階的提示）",
+      "包括的まとめ（21項目の完全リスト表示）",
+      "次回予告と継続エンゲージメント"
+    ],
+    "completionState": "仕事ができない人の21の考え方パターンを把握し、自己診断ツールとして活用できる状態、続編コンテンツへの期待と保存による継続参照の準備が整った状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "cover",
+        "description": "問題特定タイトルと視覚的インパクト（脳のシルエット背景）"
+      },
+      {
+        "pageNumber": 2,
+        "role": "list_items_1-3",
+        "description": "仕事への興味・失敗への恐れ・自己効力感の欠如（項目1-3）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "list_items_4-6",
+        "description": "回避行動・計画性の欠如・時間意識の問題（項目4-6）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "list_items_7-9",
+        "description": "当事者意識・適性認識・相談回避の問題（項目7-9）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "list_items_10-12",
+        "description": "気分依存・学習拒否・責任回避の問題（項目10-12）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "list_items_13-15",
+        "description": "困難回避・完璧主義・前例依存の問題（項目13-15）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "list_items_16-18",
+        "description": "他者依存・責任転嫁・忙しさ言い訳の問題（項目16-18）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "list_items_19-21",
+        "description": "指示待ち・他者軽視・批判拒否の問題（項目19-21）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "summary",
+        "description": "21項目の2列完全リスト表示と保存促進CTA"
+      },
+      {
+        "pageNumber": 10,
+        "role": "cta_and_preview",
+        "description": "感謝メッセージ・続編予告・ハッシュタグ・エンゲージメント促進"
+      }
+    ],
+    "flowOrder": [
+      "問題認識",
+      "21項目の体系的列挙（3項目ずつ7スライド）",
+      "包括的まとめ",
+      "継続エンゲージメント"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ピンク系（#E91E63）のカバーデザイン",
+      "白背景での一貫したリスト表示",
+      "水滴絵文字（💧）による装飾統一",
+      "番号付きリスト形式（1-21）",
+      "2列まとめレイアウト（9スライド目）"
+    ],
+    "requiredElements": [
+      "脳のシルエット背景パターン",
+      "水滴絵文字（💧）のアクセント",
+      "連続番号（1-21）での項目管理",
+      "招き猫マスコットキャラクター",
+      "保存用ブックマークアイコン",
+      "多数ハッシュタグ表示",
+      "次回予告セクション"
+    ],
+    "informationArrangement": "問題認識→項目列挙（21項目を体系的分類）→包括的まとめ→次回予告による継続エンゲージメント"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "knowledgeId": "K106",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K101-K110-analysis.md (該当セクションなし - 記録未完了)",
+    "rawObservation": "docs/raw-analysis/contents-106-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K106.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "ChatGPTの回答精度が不完全で、適切な指示文の作り方がわからず正確な情報を得にくい",
+    "flowStages": [
+      "1. 確証がない場合は『わからない』と答えてもらう（嘘をつかないで）",
+      "2. 最終的な答えだけでなく、思考プロセスをステップバイステップで説明してもらう",
+      "3. データや情報の出典元、参考リンク、具体的な統計があれば明記してもらう",
+      "4. 初心者と上級者、両方の立場から比較して回答してもらう",
+      "5. この回答が間違っている可能性がある場合の誤解や注意点も教えてもらう"
+    ],
+    "completionState": "ChatGPTで正確性の高い回答を得るための5つの指示文テクニックを身につけ、仕事でも安心してAIを活用できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "問題提起タイトル",
+        "description": "カフェ背景でChatGPTの問題を疑問マーク付きで提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題意識の喚起",
+        "description": "AIの不完全性を警告し、解決策の存在を予告"
+      },
+      {
+        "pageNumber": 3,
+        "role": "指示文詳細1: 嘘をつかないで",
+        "description": "ハルシネーション防止のための指示文と効果説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "指示文詳細2: 思考の過程も全部見せて",
+        "description": "思考プロセス可視化による論理チェックの効果"
+      },
+      {
+        "pageNumber": 5,
+        "role": "指示文詳細3: 出典を必ず出して",
+        "description": "信頼性向上と裏どり可能化のための指示文"
+      },
+      {
+        "pageNumber": 6,
+        "role": "指示文詳細4: 複数の視点から見て",
+        "description": "視点の偏りを防ぐための比較検討指示文"
+      },
+      {
+        "pageNumber": 7,
+        "role": "指示文詳細5: 間違う可能性も考えて",
+        "description": "リスクヘッジと理解深化のための注意点指示文"
+      },
+      {
+        "pageNumber": 8,
+        "role": "関連コンテンツ紹介",
+        "description": "人気投稿「指示文30選」への誘導"
+      },
+      {
+        "pageNumber": 9,
+        "role": "まとめと保存促進",
+        "description": "5つの指示文リストと保存アクション促進"
+      },
+      {
+        "pageNumber": 10,
+        "role": "プロモーションCTA",
+        "description": "LINE限定特典への誘導とURLリンク"
+      }
+    ],
+    "flowOrder": [
+      "問題認識",
+      "5つの指示文テクニックの詳細説明",
+      "関連価値の提示",
+      "実行促進とリード獲得"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ChatGPTロゴとワン問題提起のタイトル配置",
+      "番号付きタブインターフェースによる構造化表示",
+      "ピンク背景の指示文ボックスと青い解説ボックスの対比",
+      "実写背景とイラストキャラクターの組み合わせ"
+    ],
+    "requiredElements": [
+      "ChatGPTロゴ",
+      "番号付きタブ（01-05）",
+      "指示文ボックス（ピンク背景）",
+      "効果説明ボックス（青背景）",
+      "キャラクター対話",
+      "保存促進ビジュアル要素"
+    ],
+    "informationArrangement": "各指示文テクニックをタブ形式で1ページずつ詳細説明し、指示文例と効果を明確に対比表示する形式"
+  }
+}

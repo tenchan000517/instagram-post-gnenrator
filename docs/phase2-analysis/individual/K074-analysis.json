@@ -1,0 +1,90 @@
+{
+  "knowledgeId": "K074",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K074分析記録",
+    "rawObservation": "docs/raw-analysis/contents-074-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K074.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "時間が足りない、もっとスキマ時間に効率よく就活したいがどうすればいいかわからない",
+    "flowStages": [
+      "インパクトタイトル",
+      "問題解決策提示",
+      "サービス紹介",
+      "ES機能詳細",
+      "模擬面接機能",
+      "キャラクター選択",
+      "限定オファー",
+      "行動喚起"
+    ],
+    "completionState": "就活パイセンの機能を理解し、効率的な就活ツールとして活用できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 8,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル",
+        "description": "黒板風背景にインパクトタイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題提起",
+        "description": "時間不足への共感と解決策提示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "サービス概要",
+        "description": "就活パイセンサービスの全体紹介"
+      },
+      {
+        "pageNumber": 4,
+        "role": "ES機能詳細",
+        "description": "ES作成機能のスクリーンショット付き説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "面接機能詳細",
+        "description": "模擬面接機能のスクリーンショット付き説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "キャラクター選択",
+        "description": "多様なキャラクター選択肢の提示"
+      },
+      {
+        "pageNumber": 7,
+        "role": "限定オファー",
+        "description": "無料プランの期間限定オファー"
+      },
+      {
+        "pageNumber": 8,
+        "role": "CTA",
+        "description": "最終的な行動促進とリンク案内"
+      }
+    ],
+    "flowOrder": [
+      "タイトル→問題→サービス→機能詳細（2ページ）→選択肢→オファー→CTA"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "スクリーンショット付きの機能説明と限定感のあるオファー提示",
+      "実際のスクリーンショット表示",
+      "キャラクター集合写真"
+    ],
+    "requiredElements": [
+      "黒板風背景",
+      "指差しキャラクター",
+      "吹き出し",
+      "サービス画像",
+      "スクリーンショット",
+      "機能説明",
+      "キャラクター選択",
+      "限定オファー",
+      "無料プラン内容",
+      "リンク案内"
+    ],
+    "informationArrangement": "タイトル→問題→サービス→機能詳細（2ページ）→選択肢→オファー→CTA"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "knowledgeId": "K036",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K036分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-036-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K036.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "27卒学生が夏インターンの大手企業選びで悩んでいる、インターンシップ応募企業を18選知りたい",
+    "flowStages": [
+      "インパクトのあるタイトル表紙→日付別タイムライン形式での企業リスト（6ページ）→感謝・行動促進ページ"
+    ],
+    "completionState": "大手企業のインターンシップ選択に悩んでいた27卒学生が、締切日付別に整理された18社の情報を獲得し、応募計画を立てられる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 8,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "impact-title",
+        "description": "インパクトのあるタイトル表示によるコンテンツ紹介"
+      },
+      {
+        "pageNumber": 2,
+        "role": "timeline-company-list",
+        "description": "時系列順での企業情報提供開始"
+      },
+      {
+        "pageNumber": 3,
+        "role": "timeline-company-list",
+        "description": "時系列順での企業情報提供継続"
+      },
+      {
+        "pageNumber": 4,
+        "role": "timeline-company-list",
+        "description": "時系列順での企業情報提供継続"
+      },
+      {
+        "pageNumber": 5,
+        "role": "timeline-company-list",
+        "description": "時系列順での企業情報提供継続"
+      },
+      {
+        "pageNumber": 6,
+        "role": "timeline-company-list",
+        "description": "時系列順での企業情報提供継続"
+      },
+      {
+        "pageNumber": 7,
+        "role": "timeline-company-list",
+        "description": "時系列順での企業情報提供完了"
+      },
+      {
+        "pageNumber": 8,
+        "role": "gratitude-action",
+        "description": "感謝表現と継続的エンゲージメント促進"
+      }
+    ],
+    "flowOrder": [
+      "インパクトで関心獲得",
+      "日付順整理で計画支援",
+      "大手企業情報提供",
+      "行動促進で継続的関係構築"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "カラフルな大型タイトル表示",
+      "日付別タイムライン形式",
+      "企業名の太字強調表示",
+      "大手企業18社の情報を日付順で整理",
+      "タイムライン形式での応募計画支援"
+    ],
+    "requiredElements": [
+      "timeline構造（日付別整理）",
+      "date情報（締切日程）",
+      "companies配列（企業名と詳細）",
+      "position情報（タイムライン位置）",
+      "虫眼鏡アイコン",
+      "internshipラベル",
+      "タイムライン視覚化",
+      "企業名太字強調",
+      "絵文字とアイコン",
+      "感謝とCTA要素"
+    ],
+    "informationArrangement": "インパクトで関心獲得→日付順整理で計画支援→大手企業情報提供→行動促進の順序実行必須"
+  }
+}

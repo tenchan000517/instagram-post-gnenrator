@@ -1,0 +1,66 @@
+{
+  "knowledgeId": "K022",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K021-K030-analysis.md (lines 40-68)",
+    "rawObservation": "docs/raw-analysis/contents-022-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K022.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就職・転職で学歴より評価される実用的な資格を知りたい、キャリアアップに役立つ資格情報が欲しい",
+    "flowStages": [
+      "タイトル・価値提示による関心喚起",
+      "資格リスト前半（1-5）の詳細紹介",
+      "資格リスト後半（6-10）の詳細紹介＋サービス誘導",
+      "プロフィール紹介・サービスCTA・最終転換"
+    ],
+    "completionState": "10個の資格とその業界別メリットを完全理解し、自分のキャリアに適した資格選択が可能、転職サービスも利用可能な状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 4,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル・即座の価値提示・視覚的インパクト",
+        "description": "青紫グラデーション背景に白カードでタイトル表示、ビジネスキャラクター使用"
+      },
+      {
+        "pageNumber": 2,
+        "role": "資格1-5の詳細（業界別メリット付き）",
+        "description": "番号付きリスト形式で宅建からTOEICまでの5資格を業界メリット付きで紹介"
+      },
+      {
+        "pageNumber": 3,
+        "role": "資格6-10の詳細＋サービス誘導",
+        "description": "電気工事士から登録販売者までの5資格紹介＋転職サービス告知"
+      },
+      {
+        "pageNumber": 4,
+        "role": "プロフィール紹介・サービスCTA・最終転換",
+        "description": "Instagramプロフィール画面表示＋転職サービス詳細＋URL誘導"
+      }
+    ],
+    "flowOrder": [
+      "価値提示による関心創出",
+      "効率的情報密度での資格紹介",
+      "サービス転換の段階的誘導",
+      "プロフィール権威性による最終転換"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "番号を左に配置、資格名を太字で中央、業界メリットを右矢印で右側配置",
+      "効率的情報密度型構造（10項目を2ページで網羅）",
+      "最終ページでサービス転換",
+      "グラデーション背景によるプロ感演出"
+    ],
+    "requiredElements": [
+      "番号付きリスト形式で順次実行",
+      "業界メリットを矢印で明確化",  
+      "円形番号デザイン",
+      "矢印による流れ表現",
+      "Instagramインターフェース表示",
+      "赤矢印での誘導"
+    ],
+    "informationArrangement": "効率的情報密度型構造（10項目を2ページで網羅）で、情報密度を最適化し、スワイプ疲れを防ぎつつ全情報を提供する効率設計"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "knowledgeId": "K061",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K061分析記録",
+    "rawObservation": "docs/raw-analysis/contents-061-observation.json - 欠番（読み込みエラー）",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K061.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "仕事でプレッシャーやストレスと向き合いながら誰もが「もっとメンタルを強くしたい」と願う中で、ストレスに対処する具体的な方法や習慣を知りたい",
+    "flowStages": [
+      "タイトル提示",
+      "問題共感",
+      "3つの習慣概要",
+      "各習慣の理論・実践詳細",
+      "総合まとめ",
+      "関連サービス紹介",
+      "過去投稿紹介"
+    ],
+    "completionState": "3つの習慣（不安を放置しない、空気を読みすぎない、覚えることをしない）を理解し実践できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 12,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "インパクトあるタイトル",
+        "description": "握りこぶしアイコンとタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題共感・導入",
+        "description": "ストレス・プレッシャーへの共感表現"
+      },
+      {
+        "pageNumber": 3,
+        "role": "解決策リスト",
+        "description": "3つの習慣の概要提示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "習慣1の理論",
+        "description": "不安を放置しない - 専門家の理論的背景"
+      },
+      {
+        "pageNumber": 5,
+        "role": "習慣1の実践",
+        "description": "不安を放置しない - 具体的な実践方法"
+      },
+      {
+        "pageNumber": 6,
+        "role": "習慣2の理論",
+        "description": "空気を読みすぎない - 専門家の理論的背景"
+      },
+      {
+        "pageNumber": 7,
+        "role": "習慣2の実践",
+        "description": "空気を読みすぎない - 具体的な実践方法"
+      },
+      {
+        "pageNumber": 8,
+        "role": "習慣3の理論",
+        "description": "覚えることをしない - 専門家の理論的背景"
+      },
+      {
+        "pageNumber": 9,
+        "role": "習慣3の実践",
+        "description": "覚えることをしない - 具体的な実践方法"
+      },
+      {
+        "pageNumber": 10,
+        "role": "まとめ",
+        "description": "3つの習慣の要点整理"
+      },
+      {
+        "pageNumber": 11,
+        "role": "セミナー案内",
+        "description": "関連サービス紹介"
+      },
+      {
+        "pageNumber": 12,
+        "role": "過去投稿紹介",
+        "description": "関連コンテンツへの誘導"
+      }
+    ],
+    "flowOrder": [
+      "タイトル提示",
+      "問題共感・導入",
+      "解決策リスト",
+      "3つの習慣それぞれに理論+実践",
+      "まとめ",
+      "CTA"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "専門家の権威性を示す写真配置",
+      "実践例の視覚的表現（付箋画像等）",
+      "各習慣に理論と実践を分けて2ページ構成"
+    ],
+    "requiredElements": [
+      "握りこぶしアイコン",
+      "番号付きカード",
+      "Before/After比較",
+      "実際の付箋写真",
+      "専門家情報",
+      "理論説明",
+      "実践手順",
+      "効果説明"
+    ],
+    "informationArrangement": "タイトル→問題提起→解決策リスト→3つの習慣それぞれに2ページずつ（理論+実践）→まとめ→CTA"
+  }
+}

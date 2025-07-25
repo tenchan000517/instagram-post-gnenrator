@@ -1,0 +1,80 @@
+{
+  "knowledgeId": "K008",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "社会人5,6年目を超えてから仕事の評価が上がらない、効率的に仕事をしているのに評価されない、この力がないと苦しくなると悩んでいる",
+    "solutionReason": "「この力がないと苦しくなる...」という感情的な問題・困りごとを提起し、具体的な悩みの共感から始まる構造"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "感情的な問題提起で読者の関心を引く",
+      "中堅社員特有の具体的悩みを列挙し共感を形成",
+      "専門性と権威性を示し信頼を構築",
+      "解決の希望を示し次への期待を醸成"
+    ],
+    "pageRoles": {
+      "page1": "感情的導入 - ターゲット層への直接的問題提起",
+      "page2": "具体的悩み列挙 - 中堅社員特有の困りごと共感",
+      "page3": "権威性提示 - 専門性と経験による信頼構築",
+      "page4": "解決希望提示 - 改善可能性による期待醸成"
+    },
+    "solutionCompletionState": "問題認識 → 具体的悩み共感 → 専門性信頼 → 解決期待向上（継続コンテンツへの関心）"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 4,
+    "specializedConfiguration": {
+      "emotionalProblemIntroduction": 1,
+      "specificProblemsEnumeration": 1,
+      "authorityBuilding": 1,
+      "solutionHopePresentation": 1
+    },
+    "divisionReason": "中堅社員の深い悩みに段階的に共感し、専門性を示した上で解決の希望を与える、コンパクトながら強い印象を残す構造を実現するため",
+    "structureFileName": "mid-career-empathy-authority-hope-structure.json",
+    "requirement": "ターゲット年次明示 + 感情的フック + 具体的悩み列挙 + 権威性証明 + 解決希望提示"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "emotional-problem-hook-with-dark-background",
+      "specificNeeds": "年次指定タイトル + 暗いオフィス背景 + 赤色強調文字 + プロフィール情報"
+    },
+    "page2": {
+      "templatePattern": "specific-problems-enumeration-list",
+      "specificNeeds": "質問形式見出し + 4つの具体的悩み箇条書き + 暗い背景継続 + 白文字"
+    },
+    "page3": {
+      "templatePattern": "authority-experience-statement",
+      "specificNeeds": "権威性数値（300名以上） + 専門分野明示 + 共感メッセージ + 暗い背景継続"
+    },
+    "page4": {
+      "templatePattern": "solution-hope-teaser",
+      "specificNeeds": "解決可能性メッセージ + 「ある力」のティーザー + 結果変化の期待 + 暗い背景継続"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "darkBackgroundConsistency": "全4ページで統一された暗いオフィス背景使用",
+      "problemsListVisualization": "page2での4つの悩みの箇条書き表示",
+      "authorityNumberHighlight": "page3での300名以上の数値強調表示",
+      "mysterySolutionTeaser": "page4での「ある力」のティーザー表現"
+    },
+    "visualExpressionRequirements": {
+      "emotionalColorPalette": "暗い背景 + 赤色（緊急性）+ 白文字（可読性）",
+      "targetingVisualCues": "社会人年次の明確な表示",
+      "problemListFormatting": "箇条書きでの悩み列挙の視覚的整理",
+      "authorityPresentation": "経験値の数値的表現"
+    },
+    "dataStructureRequirements": {
+      "targetYearSpecification": "社会人5,6年目のターゲット年次データ",
+      "problemsArray": "4つの具体的悩み項目配列",
+      "authorityCredentials": "300名指導の権威性データ",
+      "solutionTeaserContent": "「ある力」への期待醸成コンテンツ"
+    },
+    "templateName": "MidCareerEmpathyAuthorityHopeTemplate"
+  }
+}

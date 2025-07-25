@@ -18,6 +18,8 @@ import { itemNTitleContentMetadata } from './ItemNTitleContentTemplate'
 import { singleSectionNoItemsMetadata } from './SingleSectionNoItemsTemplate'
 import { rankingMetadata } from './RankingTemplate'
 import { graphMetadata } from './GraphTemplate'
+import { featureParallelInfoMetadata } from './FeatureParallelInfoTemplate'
+import { featureDetailTipsMetadata } from './FeatureDetailTipsTemplate'
 
 // アクティブテンプレートレジストリ（Critical Priority + INDEX + データ可視化追加）
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
@@ -36,7 +38,9 @@ export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   'item-n-title-content': itemNTitleContentMetadata,
   'single-section-no-items': singleSectionNoItemsMetadata,
   ranking: rankingMetadata,
-  graph: graphMetadata
+  graph: graphMetadata,
+  feature_parallel_info: featureParallelInfoMetadata,
+  feature_detail_tips: featureDetailTipsMetadata
 }
 
 // アクティブテンプレートのジャンル対応（Critical Priority追加）

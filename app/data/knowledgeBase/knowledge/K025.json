@@ -53,9 +53,9 @@
   ],
   "marketingStage": "就活準備中の学生、電話応対に不安を持つ就活生、ビジネスマナーを学びたい学生",
   "knowledgeId": "K025",
-  "pageStructurePattern": "",
   "actualTitle": "実は苦手な人が多い？電話のマナー",
   "pageCount": 6,
+  "contentPageCount": 4,
   "hashTag": "#就職活動 AtoZ",
   "detailedContent": {
     "page1": {
@@ -65,6 +65,8 @@
       "branding": "@mynavi_shukatsu_junbi"
     },
     "page2": {
+      "section": "intro",
+      "template": "basic_intro",
       "role": "preparation-guide",
       "content": "かける前に気をつけておきたいこと",
       "points": [
@@ -97,6 +99,8 @@
       "bottomNote": "（就活準備における）電話でのトーク＝ビジネスの会話 基本的なマナーや注意ポイントをしっかり押さえて活用しましょう！"
     },
     "page3": {
+      "section": "mainContent",
+      "template": "practical_guide_conversation",
       "role": "cushion-phrases",
       "content": "言葉遣い 〜クッション言葉〜",
       "description": "何かを依頼するときなどに相手への心遣いを表す言葉。使用することで、より柔らかい表現になります。",
@@ -136,6 +140,8 @@
       ]
     },
     "page4": {
+      "section": "mainContent",
+      "template": "practical_guide_conversation",
       "role": "basic-conversation",
       "content": "電話応対 〜基本トーク例〜",
       "scenarios": [
@@ -170,6 +176,8 @@
       ]
     },
     "page5": {
+      "section": "mainContent",
+      "template": "practical_guide_conversation",
       "role": "callback-conversation",
       "content": "電話応対 〜折り返しトーク例〜",
       "scenarios": [
@@ -208,6 +216,8 @@
       ]
     },
     "page6": {
+      "section": "summary",
+      "template": "basic_summary",
       "role": "final-cta",
       "content": "その他の投稿やマイナビ2027はプロフィールからチェック！",
       "elements": [

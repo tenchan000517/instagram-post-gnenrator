@@ -1,0 +1,104 @@
+{
+  "knowledgeId": "K052",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K052分析記録",
+    "rawObservation": "contents-052-observation.json - 11ページ構成の観察データ",
+    "knowledgeBase": "K052.json - ゆるキャリマインドの知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "仕事でのストレス過多、キャリアプレッシャーに疲れている",
+    "flowStages": [
+      "マインド紹介",
+      "各考え方詳細",
+      "実践的アドバイス",
+      "心理的解放促進の思考転換型構成"
+    ],
+    "completionState": "仕事のプレッシャーやストレスに疲れていた社会人が、ゆるいキャリアマインドを習得し、心理的な解放感と気楽な働き方への転換意欲を獲得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-mindset",
+        "description": "コンセプト提示とタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-identification",
+        "description": "問題共感と考え方提案の導入"
+      },
+      {
+        "pageNumber": 3,
+        "role": "mindset-details",
+        "description": "マインド１：みんな怒られてるという視野拡大"
+      },
+      {
+        "pageNumber": 4,
+        "role": "mindset-details",
+        "description": "マインド２：「できない」と言うことの許可と体験談"
+      },
+      {
+        "pageNumber": 5,
+        "role": "mindset-details",
+        "description": "マインド３：失敗への恐怖心の軽減"
+      },
+      {
+        "pageNumber": 6,
+        "role": "mindset-details",
+        "description": "マインド４：仕事への期待値調整と自己許容"
+      },
+      {
+        "pageNumber": 7,
+        "role": "mindset-details",
+        "description": "マインド５：自己肯定感向上と開き直りの許可"
+      },
+      {
+        "pageNumber": 8,
+        "role": "mindset-details",
+        "description": "マインド６：自己承認と小さな達成の認識"
+      },
+      {
+        "pageNumber": 9,
+        "role": "mindset-details",
+        "description": "マインド７：完璧主義の緩和とバランス感覚の提示"
+      },
+      {
+        "pageNumber": 10,
+        "role": "mindset-details",
+        "description": "マインド８：働き方の多様性と気楽さの許可"
+      },
+      {
+        "pageNumber": 11,
+        "role": "cta",
+        "description": "アカウント紹介と関連コンテンツへの誘導"
+      }
+    ],
+    "flowOrder": [
+      "マインド提示",
+      "概要理解",
+      "詳細方法習得",
+      "心理解放促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "実写背景に白文字テキストオーバーレイ",
+      "パステル系背景でのリラックス表示",
+      "優しいフォント",
+      "心理的安心感の演出",
+      "白色カード重ね（プロフィールページ）"
+    ],
+    "requiredElements": [
+      "リラックスアイコン",
+      "柔らかい色合い",
+      "マインドセットカード",
+      "心理的安心表示",
+      "点線枠",
+      "区切り線",
+      "キャラクターアイコン",
+      "関連投稿サムネイル"
+    ],
+    "informationArrangement": "マインドセット提示 + 概要 + 詳細マインド + 心理解放促進"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "knowledgeId": "K043",
+  "sourceData": {
+    "phase1Record": "5月時点でも応募可能な優良企業を知りたい、選考機会を逃したくない問題に対し、5月が狙い目となる6つの優良企業を業界別に紹介し、応募タイミング情報を提供している。解決の流れ: 時期特定→企業紹介→各企業詳細→応募促進の企業別構成。各ページ役割: page1: time-targeting, page2: company-introduction-overview, page3-7: individual-company-details, page8: application-promotion。総ページ数8ページ、オレンジ系背景での時期強調、企業ロゴ表示、業界分類表示が必要。",
+    "rawObservation": "10ページ構成。濃紺色背景（全ページ統一）。白色カード背景オーバーレイ（ページ2-7）、背景直書き（ページ1,8-10）。企業ロゴ + 会社概要 + 平均年収 + チェックリスト形式の魅力ポイント + 女性キャラクター形式。企業詳細：三井住友海上火災保険 651万円、三菱UFJリサーチ&コンサルティング 889万円、ネスレ日本 688万円、NECソリューションイノベータ 613万円、ユニリーバ・ジャパン・ホールディングス 700万円、三菱総合研究所 884万円。チェックマーク付きリスト、女性キャラクター（緑色服装）。",
+    "knowledgeBase": "5月が狙い目の優良企業を知りたい就活生のニーズ、穴場で大手企業に駆け込みエントリーしたいという情報需要。5月が狙い目の優良企業6社を具体的に紹介し、各企業の特徴・年収・応募締切情報を詳細提供。濃紺色背景に白色カード配置、企業ロゴと会社名を大きく表示、チェックリスト形式で企業の魅力を整理、締切日を赤色で強調、平均年収を明記して具体性をアピール、女性キャラクターで親しみやすさ演出。"
+  },
+  "problemSolutionFlow": {
+    "problem": "5月時点でも応募可能な優良企業を知りたい、選考機会を逃したくない就活生のニーズ",
+    "flowStages": [
+      "時期特定と戦略提示（5月が狙い目）",
+      "穴場で大手という価値提案の明示",
+      "6つの優良企業の概要紹介",
+      "各企業の詳細情報提供（業界・年収・特徴・締切）",
+      "企業ごとの魅力ポイントをチェックリスト形式で整理",
+      "5月本選考での成功への激励メッセージ",
+      "関連投稿への誘導で追加価値提供",
+      "限定特典による具体的行動促進"
+    ],
+    "completionState": "5月時点で追加の選考機会を探していた学生が、狙い目となる6つの優良企業の詳細情報を獲得し、応募戦略を立てられる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "time-strategy-presentation",
+        "description": "5月が狙い目という時期戦略の提示、穴場で大手という価値提案の明示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "company-overview-list",
+        "description": "6つの優良企業の概要紹介、業界別分類と基本情報の提示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "individual-company-detail-1",
+        "description": "三井住友海上火災保険の詳細情報、年収・業界・魅力ポイントの具体的提示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "individual-company-detail-2",
+        "description": "三菱UFJリサーチ&コンサルティングの詳細情報、高年収と働き方の魅力提示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "individual-company-detail-3",
+        "description": "ネスレ日本の詳細情報、外資系メーカーとしてのブランド力と福利厚生の魅力"
+      },
+      {
+        "pageNumber": 6,
+        "role": "individual-company-detail-4",
+        "description": "NECソリューションイノベータの詳細情報、フラットな組織風土とテレワーク環境"
+      },
+      {
+        "pageNumber": 7,
+        "role": "individual-company-detail-5",
+        "description": "ユニリーバ・ジャパン・ホールディングスの詳細情報、グローバル企業の魅力"
+      },
+      {
+        "pageNumber": 8,
+        "role": "individual-company-detail-6",
+        "description": "三菱総合研究所の詳細情報、コンサル・IT業界での高年収と働き方"
+      },
+      {
+        "pageNumber": 9,
+        "role": "encouragement-action-promotion",
+        "description": "5月本選考での成功への激励、焦らないことと念入りな対策の重要性を強調"
+      },
+      {
+        "pageNumber": 10,
+        "role": "related-content-referral",
+        "description": "関連投稿への誘導、企業選びに関する追加価値コンテンツの紹介"
+      }
+    ],
+    "flowOrder": [
+      "time-strategy-presentation",
+      "company-overview-list",
+      "individual-company-detail-1",
+      "individual-company-detail-2", 
+      "individual-company-detail-3",
+      "individual-company-detail-4",
+      "individual-company-detail-5",
+      "individual-company-detail-6",
+      "encouragement-action-promotion",
+      "related-content-referral"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "濃紺色背景での統一感のある配色",
+      "白色カード背景オーバーレイ（企業詳細ページ2-7）",
+      "背景直書き形式（タイトル・まとめページ1,8-10）",
+      "企業ロゴの大きな表示と会社名の明確な配置",
+      "平均年収の右寄せ表示での視覚的強調",
+      "チェックリスト形式での魅力ポイント整理",
+      "女性キャラクターの右下部分への配置"
+    ],
+    "requiredElements": [
+      "企業ロゴ（各企業の正式ロゴ）",
+      "チェックマーク（✓）付きリスト形式",
+      "女性キャラクター（緑色服装、長髪、シンプルなライン画）",
+      "締切日の赤色強調表示（締切 ○/○○（○））",
+      "平均年収の数値明記（○○○万円）",
+      "企業カテゴリーボタン（メガバンクの大手子会社等）",
+      "ページ番号表示（1/10-10/10）"
+    ],
+    "informationArrangement": "時期戦略提示→企業価値理解→詳細情報提供（6社の個別詳細）→応募タイミング促進→関連価値提供の順序で、戦略的企業選択から具体的応募行動までの段階的誘導を図る構成"
+  }
+}

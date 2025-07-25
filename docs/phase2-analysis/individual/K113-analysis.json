@@ -1,0 +1,108 @@
+{
+  "knowledgeId": "K113",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K111-K116-analysis.md lines 72-101",
+    "rawObservation": "/docs/raw-analysis/contents-113-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K113.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "Instagramの新機能を知らずに集客機会を逃している、最新機能を使って効果的に集客したい",
+    "flowStages": [
+      "タイトル提示・専門ブランディング確立",
+      "新機能活用の重要性説明・導入",
+      "スタンプゲーム機能詳細解説（実際の操作画面付き）",
+      "写真削除機能解説（過去投稿見直し）",
+      "ベストプラクティス機能解説（Instagram公式アドバイス）",
+      "リール複数曲機能解説（動画編集強化）",
+      "新文字フォント機能解説（ストーリー強化）",
+      "インスタSEO機能解説（検索対応）",
+      "総括・保存促進・継続学習への誘導",
+      "LINE登録CTA・専門サービス紹介"
+    ],
+    "completionState": "6つの新機能の具体的操作方法と集客活用法を理解し、実際に使い始められる状態、さらなる学習機会（Instagram初級講座）も把握し専門家サポートも活用可能"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "branded-photo-title",
+        "description": "タイトル提示・Monotone Instagram*ブランディング"
+      },
+      {
+        "pageNumber": 2,
+        "role": "branded-introduction",
+        "description": "導入・概要（新機能活用の重要性）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "feature-detail-explanation-1",
+        "description": "機能1：スタンプゲーム詳細解説"
+      },
+      {
+        "pageNumber": 4,
+        "role": "feature-detail-explanation-1-continued",
+        "description": "機能1続き：スタンプゲーム活用法"
+      },
+      {
+        "pageNumber": 5,
+        "role": "feature-detail-explanation-2",
+        "description": "機能2：複数枚投稿の写真削除"
+      },
+      {
+        "pageNumber": 6,
+        "role": "feature-detail-explanation-3",
+        "description": "機能3：ベストプラクティス"
+      },
+      {
+        "pageNumber": 7,
+        "role": "feature-detail-explanation-4",
+        "description": "機能4：リールで複数曲が選べる"
+      },
+      {
+        "pageNumber": 8,
+        "role": "feature-detail-explanation-5",
+        "description": "機能5：ストーリーの新文字フォント"
+      },
+      {
+        "pageNumber": 9,
+        "role": "feature-detail-explanation-6",
+        "description": "機能6：インスタSEO"
+      },
+      {
+        "pageNumber": 10,
+        "role": "summary-with-encouragement",
+        "description": "まとめ・励まし・保存促進・講座案内"
+      },
+      {
+        "pageNumber": 11,
+        "role": "line-registration-cta",
+        "description": "LINE登録・QRコード・プレゼント告知"
+      }
+    ],
+    "flowOrder": [
+      "専門ブランディング（Monotone Instagram*）",
+      "段階的機能解説（機能1→6の順序）",
+      "実例重視（実際のInstagram画面スクリーンショット）",
+      "継続学習促進（講座案内・LINE登録）"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "Monotone Instagram*ブランドヘッダー統一",
+      "機能番号（丸囲み）→機能名→説明文→実例画像→効果説明の固定構造",
+      "実際のInstagram画面スクリーンショット必須配置",
+      "グレー・白・黒・ピンクの統一配色",
+      "写真背景（1ページ目：オフィス用品、2ページ目：世界地図）"
+    ],
+    "requiredElements": [
+      "実際のInstagram操作画面キャプチャ",
+      "キャラクターイラストによる親しみやすさ演出",
+      "機能番号・機能名・詳細説明・スクリーンショット配列・効果説明・活用ヒント配列・締めメッセージ",
+      "統一ブランディング（Monotone Instagram*ヘッダー）",
+      "QRコード（峠川あゆみ LINE公式）",
+      "プロフィール画像・ブランド名（Ayumi Minekawa *）"
+    ],
+    "informationArrangement": "featureNumber・featureName・description・screenshots配列・effect・tips配列・bottomNoteの構造、ブランドヘッダー統一、実例画面重視、専門的ブランディング維持"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "knowledgeId": "K116",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K111-K116-analysis.md lines 169-198",
+    "rawObservation": "/docs/raw-analysis/contents-116-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K116.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就職・転職・キャリアアップに役立つ資格を知りたいが、どの資格が最もコスパが良いか分からない",
+    "flowStages": [
+      "インパクトタイトル提示（損したくない！コスパ最強な資格21選）",
+      "問題共感・チェックリスト（資格選びの悩み確認）",
+      "21資格を番号順で詳細紹介（1-21番、3つずつ7ページに分割）",
+      "各資格の特徴・活用方法・取得メリットの具体的説明",
+      "フォロー促進・自己分析ツール紹介",
+      "総合的CTA・個人体験談・ハッシュタグによる検索流入促進"
+    ],
+    "completionState": "21個の資格の特徴・活用方法・取得メリットを完全理解し、自分に適した資格選択が可能、継続的情報収集環境（フォロー）も獲得、個人相談環境も把握"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "impact-title-with-photo",
+        "description": "インパクトタイトル・注意喚起（損したくない！）"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-checklist",
+        "description": "問題共感・チェックリスト・保存促進"
+      },
+      {
+        "pageNumber": 3,
+        "role": "qualification-catalog-cards-1-3",
+        "description": "資格1-3番（簿記3級・MOS・FP2級）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "qualification-catalog-cards-4-6",
+        "description": "資格4-6番（宅建・登録販売者・医療事務）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "qualification-catalog-cards-7-9",
+        "description": "資格7-9番（調剤事務・保育士・介護初任者）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "qualification-catalog-cards-10-12",
+        "description": "資格10-12番（TOEIC・ITパスポート・基本情報）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "qualification-catalog-cards-13-15",
+        "description": "資格13-15番（秘書検定・メンタルヘルス・中小企業診断士）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "qualification-catalog-cards-16-18",
+        "description": "資格16-18番（終活・ウェブデザイン・インテリア）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "qualification-catalog-cards-19-21",
+        "description": "資格19-21番（福祉住環境・カラー・電気工事士）"
+      },
+      {
+        "pageNumber": 10,
+        "role": "follow-promotion-with-profile",
+        "description": "フォロー促進・プロフィール・自己分析促進"
+      },
+      {
+        "pageNumber": 11,
+        "role": "comprehensive-cta-branding",
+        "description": "総合CTA・個人ブランディング・ハッシュタグ"
+      }
+    ],
+    "flowOrder": [
+      "注意喚起（損したくない感情）",
+      "番号順序（1-21の連続番号）",
+      "カタログ型（アイコン・説明・活用法セット）",
+      "個人ブランディング（体験談・相談環境・継続情報提供）"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "温かみのある茶系・ベージュ系配色",
+      "白色カード3枚縦配置",
+      "番号部分は茶色円",
+      "各カードに対応するアイコン配置",
+      "背景は淡いグレー統一（3-9ページ目）"
+    ],
+    "requiredElements": [
+      "職業・分野別アイコン多用",
+      "チェックマーク・矢印による視覚誘導",
+      "絵文字活用",
+      "資格番号・資格名・説明配列・アイコンパス・活用方法",
+      "チェックリスト配列",
+      "個人体験談配列（年収UP実績）",
+      "ハッシュタグ文字列",
+      "プロフィール画面スクリーンショット"
+    ],
+    "informationArrangement": "qualificationNumber・qualificationName・description配列・iconPath・utilizationMethod・checklistItems配列・personalStory配列・hashTagsStringによる総合的情報提供構造"
+  }
+}

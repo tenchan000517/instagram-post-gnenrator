@@ -102,24 +102,58 @@ export class PageStructureMatcher {
   }
 
   /**
-   * ページ構成パターンIDから詳細なページ構造定義を取得
+   * カンマ区切りテンプレートパターンから動的にページ構造を生成
+   * 
+   * @param templatePattern - "failure_story_intro,failure_episode,profile_offer" 形式
+   * @returns 動的生成されたページ構造
+   */
+  static loadPageStructureFromPattern(templatePattern: string): PageStructure {
+    const templates = templatePattern.split(',').map(t => t.trim());
+    
+    console.log(`🔄 動的ページ構造生成: ${templatePattern}`);
+    console.log(`📋 テンプレート配列:`, templates);
+    
+    const pages: PageDefinition[] = templates.map((templateId, index) => ({
+      pageNumber: index + 1,
+      templateId: templateId,
+      role: `Page ${index + 1} - ${templateId}`,
+      title: `Page ${index + 1}`,
+      itemAssignments: {}
+    }));
+
+    return {
+      pageStructureId: templatePattern,
+      name: `Dynamic Structure: ${templatePattern}`,
+      targetCombination: 'dynamic',
+      description: `Dynamically generated from template pattern: ${templatePattern}`,
+      pages: pages
+    };
+  }
+
+  /**
+   * ページ構造の読み込み（静的ファイル優先、フォールバック対応）
    * 
    * @param pageStructureId - ページ構成パターンID
    * @returns 詳細なページ構造定義
-   * @throws Error - ページ構造ファイルが見つからない場合
    */
   static loadPageStructure(pageStructureId: string): PageStructure {
+    // 静的ファイルを優先
     const pageStructure = this.pageStructureMap[pageStructureId as keyof typeof this.pageStructureMap];
     
-    if (!pageStructure) {
-      const availableIds = Object.keys(this.pageStructureMap);
-      throw new Error(`Page structure '${pageStructureId}' not found. Available: ${availableIds.join(', ')}`);
+    if (pageStructure) {
+      console.log(`📄 静的ページ構造読み込み: ${pageStructure.name}`);
+      console.log(`📊 Pages count: ${pageStructure.pages.length}`);
+      return pageStructure as PageStructure;
     }
-
-    console.log(`📄 Loaded page structure: ${pageStructure.name}`);
-    console.log(`📊 Pages count: ${pageStructure.pages.length}`);
-
-    return pageStructure as PageStructure;
+    
+    // カンマ区切りパターンの場合は動的生成
+    if (pageStructureId.includes(',')) {
+      return this.loadPageStructureFromPattern(pageStructureId);
+    }
+    
+    // どちらでもない場合はエラー
+    const availableIds = Object.keys(this.pageStructureMap);
+    throw new Error(`Page structure '${pageStructureId}' not found. Available: ${availableIds.join(', ')}`);
   }
 
   /**

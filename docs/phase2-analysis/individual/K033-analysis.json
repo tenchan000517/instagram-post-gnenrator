@@ -1,0 +1,95 @@
+{
+  "knowledgeId": "K033",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K033分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-033-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K033.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "学生が自己PRが苦手で、どのように自分の強みをアピールすれば良いかわからない",
+    "flowStages": [
+      "タイトル→権威性紹介→5つのポイント個別解説（NG/OK対比含む）→まとめと問題提起→商品紹介→詳細CTA"
+    ],
+    "completionState": "自己PRに悩んでいた学生が、人事視点での具体的な作成ポイントを理解し、実践可能な自己PR作成手法を習得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-hook",
+        "description": "興味を引くタイトルとフック（採用したいと思われる自己PRへの興味喚起）"
+      },
+      {
+        "pageNumber": 2,
+        "role": "authority-introduction",
+        "description": "権威性の提示と安心感の提供（大手企業人事の情報）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "point-explanation",
+        "description": "第1のポイント解説（複数場面での強み発揮の重要性）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "point-explanation",
+        "description": "第2のポイント解説（具体的な活かし方の重要性）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "point-explanation",
+        "description": "第3のポイント解説（一貫性の重要性）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "point-explanation",
+        "description": "第4のポイント解説（企業ニーズとのマッチングの重要性）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "point-explanation",
+        "description": "第5のポイント解説（本気度と自信の重要性）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "summary-problem",
+        "description": "まとめと問題提起（面接官視点の重要性と課題提示）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "product-introduction",
+        "description": "商品・サービス紹介（無料テキストと個別相談の提供）"
+      },
+      {
+        "pageNumber": 10,
+        "role": "detailed-cta",
+        "description": "詳細なCTA手順（具体的な受け取り方法の説明）"
+      }
+    ],
+    "flowOrder": [
+      "権威性で信頼獲得",
+      "具体的ポイント提示で理解促進",
+      "対比で明確化",
+      "商品への自然な誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "番号付きの構造化された情報提示",
+      "NG/OK対比の明確な分割表示",
+      "権威性の視覚的強調",
+      "複数ポイントの理解促進",
+      "段階的な納得から行動への誘導"
+    ],
+    "requiredElements": [
+      "points配列（5つのポイント）",
+      "ng/ok examples（対比事例）",
+      "authority情報（人事担当者アイコン）",
+      "product詳細（商品画像）",
+      "URL等の構造化データ",
+      "番号付きリスト",
+      "企業ロゴ"
+    ],
+    "informationArrangement": "権威性で信頼獲得→具体的ポイント提示→対比で理解促進→商品への自然な誘導順序実行必須"
+  }
+}

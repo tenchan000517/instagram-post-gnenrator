@@ -1,0 +1,98 @@
+{
+  "knowledgeId": "K027",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K021-K030-analysis.md (lines 201-231)",
+    "rawObservation": "docs/raw-analysis/contents-027-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K027.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "面接で聞かれて困った質問に対してとりあえず回答してみたけど、面接官の反応がイマイチで心臓止まりそうになる、動揺している様子が相手にも伝わってしまう",
+    "flowStages": [
+      "感情共感タイトル（心臓止まりそうになった話）",
+      "問題共感・状況描写（想定外質問への動揺）",
+      "動揺問題認識・解決提案（事前準備の重要性）",
+      "8つの困った質問の具体的回答法提示",
+      "実践的対処Tips（想定外質問への対応）",
+      "継続学習誘導（関連投稿紹介）"
+    ],
+    "completionState": "8つの困った質問への回答法を習得し、想定外質問への対処法も理解し、継続学習も可能な状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "感情的インパクトタイトル・共感喚起",
+        "description": "水色背景、困った表情キャラクターで緊張・パニック表現"
+      },
+      {
+        "pageNumber": 2,
+        "role": "具体的状況描写・問題共感",
+        "description": "面接シーンイラスト付きで想定外質問への動揺状況を共感的に描写"
+      },
+      {
+        "pageNumber": 3,
+        "role": "動揺問題認識・解決提案",
+        "description": "動揺の伝播問題を指摘し、事前準備による解決策を提案"
+      },
+      {
+        "pageNumber": 4,
+        "role": "困った質問回答法①（仕事観・HP感想）",
+        "description": "青ヘッダー統一、Q&A形式、メガホンイラスト付き"
+      },
+      {
+        "pageNumber": 5,
+        "role": "困った質問回答法②（理想社会人・苦手な人）",
+        "description": "青ヘッダー統一、Q&A形式、疑問符イラスト付き"
+      },
+      {
+        "pageNumber": 6,
+        "role": "困った質問回答法③（自己表現・企業課題）",
+        "description": "青ヘッダー統一、Q&A形式、考える人物イラスト付き"
+      },
+      {
+        "pageNumber": 7,
+        "role": "困った質問回答法④（採用基準・ニュース）",
+        "description": "青ヘッダー統一、Q&A形式、ひらめきイラスト付き"
+      },
+      {
+        "pageNumber": 8,
+        "role": "実践的対処Tips・重要指針",
+        "description": "青い吹き出しボックス、チェックリスト形式、自信あるキャラクター"
+      },
+      {
+        "pageNumber": 9,
+        "role": "継続学習・関連投稿誘導",
+        "description": "3つのコンテンツカード、プロフィールアクセス案内"
+      }
+    ],
+    "flowOrder": [
+      "感情共感による関心創出",
+      "問題状況の具体的共感",
+      "解決方針の提示",
+      "8つの質問への段階的対応法",
+      "緊急時対処法の提供",
+      "継続学習への誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "Q&A形式で質問を上部、回答を下部配置",
+      "実践Tipsは青色ボックス内配置",
+      "感情誘導型進行",
+      "共感→解決→継続の順次実行",
+      "白背景の統一使用（タイトルページは水色）"
+    ],
+    "requiredElements": [
+      "状況に応じたキャラクターイラスト",
+      "青色ヘッダー統一",
+      "共感的表現",
+      "Q&A形式の構造化",
+      "青い吹き出しボックス（Tips）",
+      "チェックリスト形式",
+      "関連コンテンツカード（3つ）",
+      "プロフィールアクセス指示"
+    ],
+    "informationArrangement": "感情共感→問題解決→継続学習の3段階構造で、感情的困りごとに共感してから段階的に解決策を提示し、最終的に継続学習へ誘導する心理的構造"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "knowledgeId": "K087",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md (K087記録なし - Phase1範囲外)",
+    "rawObservation": "docs/raw-analysis/contents-087-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K087.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "金融業界について体系的に理解したい、業界研究のための基本情報から具体的な企業データまで知りたい",
+    "flowStages": [
+      "金融の基本概念を理解する（資金融通の仕組み）",
+      "業界分類を把握する（銀行、保険、証券、リース）",
+      "市場規模を認識する（60.7兆円、3位/190業界）",
+      "代表企業の詳細データを分析する（三菱UFJ FG、第一生命HD）"
+    ],
+    "completionState": "金融業界の全体像と主要企業の具体的データを理解し、業界研究・企業研究を進められる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "シリーズカバー",
+        "description": "「1日1分業界分析（金融編）」のシリーズタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "基本概念説明（POINT 01）",
+        "description": "金融の定義と具体例を3つのポイントで解説"
+      },
+      {
+        "pageNumber": 3,
+        "role": "業界分類説明（POINT 01続き）",
+        "description": "4つの業種（銀行、保険、証券、リース）をアイコン付きで紹介"
+      },
+      {
+        "pageNumber": 4,
+        "role": "市場規模解説（POINT 02）",
+        "description": "業界規模60.7兆円と市場動向分析"
+      },
+      {
+        "pageNumber": 5,
+        "role": "企業分析1（POINT 03）",
+        "description": "三菱UFJ FGの売上高・年収・事業構成比データ"
+      },
+      {
+        "pageNumber": 6,
+        "role": "企業分析2（POINT 03続き）",
+        "description": "第一生命HDの売上高・年収・事業構成比データ"
+      },
+      {
+        "pageNumber": 7,
+        "role": "サービス紹介・CTA",
+        "description": "スポーツリンクエージェントのサービス紹介とDM相談案内"
+      }
+    ],
+    "flowOrder": ["シリーズ導入", "基本概念", "業界分類", "市場規模", "企業詳細1", "企業詳細2", "サービスCTA"]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "赤・コーラル色の統一ブランディング",
+      "POINTバッジシステムの一貫使用",
+      "白いカード内での情報配置",
+      "番号付きリスト形式の維持"
+    ],
+    "requiredElements": [
+      "「1日1分業界分析」シリーズロゴ",
+      "赤い円形POINTバッジ（01、02、03）",
+      "業界アイコン（銀行、保険、証券、リース）",
+      "統計データの大きな表示",
+      "パーセンテージ内訳図",
+      "企業ランキング表示",
+      "売上高・年収の具体的数値",
+      "スポーツリンクエージェントロゴ",
+      "3つの相談サービスアイコン"
+    ],
+    "informationArrangement": "段階的詳細化（概念→分類→規模→企業詳細）とポイント別の構造化された情報提示"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "knowledgeId": "K035",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K035分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-035-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K035.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "大学生が夏インターンシップの締切情報や企業選択で困っている、適切な企業情報を見つけられない",
+    "flowStages": [
+      "タイトル+関心喚起→日程別企業リスト（7ページ）→関連コンテンツ紹介"
+    ],
+    "completionState": "夏インターンシップの企業選択に悩んでいた学生が、締切日程と企業詳細情報を整理して把握し、応募企業の選択判断ができる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-interest",
+        "description": "タイトル表示・関心喚起・行動促進"
+      },
+      {
+        "pageNumber": 2,
+        "role": "date-company-list",
+        "description": "7/13締切企業の詳細情報提供"
+      },
+      {
+        "pageNumber": 3,
+        "role": "date-company-list",
+        "description": "7/13締切企業の追加詳細情報提供"
+      },
+      {
+        "pageNumber": 4,
+        "role": "date-company-list",
+        "description": "7/14締切企業の詳細情報提供"
+      },
+      {
+        "pageNumber": 5,
+        "role": "date-company-list",
+        "description": "7/14締切企業の追加詳細情報提供"
+      },
+      {
+        "pageNumber": 6,
+        "role": "date-company-list",
+        "description": "7/15締切企業の詳細情報提供"
+      },
+      {
+        "pageNumber": 7,
+        "role": "date-company-list",
+        "description": "7/16・7/17締切企業の詳細情報提供"
+      },
+      {
+        "pageNumber": 8,
+        "role": "date-company-list",
+        "description": "7/18締切企業の詳細情報提供"
+      },
+      {
+        "pageNumber": 9,
+        "role": "related-content",
+        "description": "7/18・7/20締切企業の詳細情報提供"
+      },
+      {
+        "pageNumber": 10,
+        "role": "final-promotion",
+        "description": "関連コンテンツ紹介・継続的なエンゲージメント促進"
+      }
+    ],
+    "flowOrder": [
+      "緊急性で関心喚起",
+      "日程別整理で計画支援",
+      "詳細情報で判断材料提供",
+      "関連価値提供で継続性確保"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "グラデーション背景+吹き出し形式",
+      "緑ヘッダー+企業カード統一レイアウト",
+      "日程別分類表示",
+      "30企業の情報量を見やすく整理",
+      "日程別での応募計画立案支援"
+    ],
+    "requiredElements": [
+      "date情報（締切日程）",
+      "companies配列（企業詳細情報）",
+      "logo/industry/salary/details構造",
+      "関連コンテンツ配列",
+      "企業ロゴ表示",
+      "業界タグ分類",
+      "給与情報表示",
+      "締切日の視覚的強調",
+      "統一された企業カードデザイン"
+    ],
+    "informationArrangement": "緊急性で関心喚起→日程別整理で計画支援→詳細情報で判断材料提供→関連価値提供の順序実行必須"
+  }
+}

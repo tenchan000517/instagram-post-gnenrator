@@ -1,0 +1,73 @@
+{
+  "knowledgeId": "K009",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "ChatGPTしか使っていない、他の有益なAIアプリを知りたい、AIツールで効率化を図りたい",
+    "solutionReason": "「ChatGPTしか使っていない人は損！」として、知ったら明日から役立つ実用的なAIアプリ12選を紹介する有益情報提供"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "損失感を煽る問題提起で関心を引く",
+      "12個のAIアプリを目的別に整理して紹介",
+      "転職サービスへの導線を提供"
+    ],
+    "pageRoles": {
+      "page1": "損失感導入 - 機会損失への不安を喚起し関心を引く",
+      "page2": "有益情報提供 - 12個のAIツールを目的別に整理紹介",
+      "page3": "サービス誘導 - 転職サポートサービスへのCTA"
+    },
+    "solutionCompletionState": "機会損失認識 → 具体的ツール情報獲得 → 転職サービス利用（プロフィール訪問）への行動完成"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 3,
+    "specializedConfiguration": {
+      "lossAnxietyIntroduction": 1,
+      "categorizedToolsList": 1,
+      "servicePromotion": 1
+    },
+    "divisionReason": "機会損失への不安を喚起し、即座に価値ある情報を提供し、最終的に転職サービスへ導く効率的な3段階構造を実現するため",
+    "structureFileName": "loss-anxiety-tools-list-service-structure.json",
+    "requirement": "損失感タイトル + 12個のAIツール目的別リスト + 保存促進CTA + 転職サービス導線"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "loss-anxiety-hook-with-impact-visual",
+      "specificNeeds": "損失感タイトル + 走るビジネスマンイラスト + 青い背景 + 白いカード + チェックCTA"
+    },
+    "page2": {
+      "templatePattern": "twelve-tools-purpose-categorized-list",
+      "specificNeeds": "12個のAIツール + 目的別カテゴリ表示 + 白背景 + リスト形式 + 保存促進CTA"
+    },
+    "page3": {
+      "templatePattern": "service-profile-promotion",
+      "specificNeeds": "プロフィール画面表示 + サービス統計情報 + 特徴リスト + CTA指示 + 赤い矢印"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "lossAnxietyTitleDisplay": "page1で損失感を強調するタイトル配置",
+      "toolsListStructure": "page2で12個のツールの構造化表示",
+      "purposeCategoryDisplay": "各ツールの目的カテゴリ明示",
+      "profileScreenIntegration": "page3でプロフィール画面の実機表示"
+    },
+    "visualExpressionRequirements": {
+      "anxietyInducingColorScheme": "青色（信頼性）+ 白色（清潔感）の組み合わせ",
+      "businessIllustration": "走るビジネスマンの効率化イメージ",
+      "cleanListDesign": "白い背景の見やすいリスト形式",
+      "savePromotionDesign": "保存促進メッセージの強調表示"
+    },
+    "dataStructureRequirements": {
+      "twelveToolsArray": "12個のAIツールの構造化データ",
+      "purposeCategoryMapping": "目的別カテゴリとツールのマッピング",
+      "toolDescriptions": "各ツールの用途説明データ",
+      "serviceInformation": "転職サービスのプロフィール情報データ"
+    },
+    "templateName": "LossAnxietyToolsListServiceTemplate"
+  }
+}

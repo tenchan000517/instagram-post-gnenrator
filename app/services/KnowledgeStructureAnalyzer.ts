@@ -270,7 +270,7 @@ export class KnowledgeStructureAnalyzer {
       // Step 2: Perfect Match検出
       const perfectMatch = this.detectPerfectMatch(knowledgeContent, userInput)
       if (perfectMatch) {
-        console.log('🎯 Perfect Match検出:', perfectMatch.specialization)
+        console.log('🎯 Perfect Match検出:', perfectMatch.patternType)
         return {
           selectedStructure: perfectMatch,
           confidence: 1.0,

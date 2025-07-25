@@ -1,0 +1,136 @@
+{
+  "knowledgeId": "K096",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K091-K100-analysis.md (K096分析記録 lines 110-145)",
+    "rawObservation": "/docs/raw-analysis/contents-096-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K096.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "税金制度に関する質問をしたがChatGPTが答えられない、最新情報の不足で困っている",
+    "flowStages": [
+      "ChatGPTの制限認識",
+      "WebChatGPT拡張の紹介",
+      "インストール手順",
+      "実際の使用例",
+      "効果確認",
+      "保存・コメント促進",
+      "メタデータ"
+    ],
+    "completionState": "WebChatGPT拡張機能をインストールし、最新情報での質問ができる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "hook-attention-grabber",
+        "description": "ChatGPTとインボイス制度の会話画面、「回答を作成してくれる」のテキストオーバーレイで問題提起"
+      },
+      {
+        "pageNumber": 2,
+        "role": "demonstration",
+        "description": "WebChatGPT Chrome拡張の紹介画面、「実際に使ってみましょう」でツール紹介"
+      },
+      {
+        "pageNumber": 3,
+        "role": "question-setup",
+        "description": "ChatGPT画面での質問例、「今年から新しく始まる税金制度は？」の具体的質問表示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "problem-identification",
+        "description": "ChatGPTの制限説明、「いやわからんのかい」のユーモアを交えた制限認識"
+      },
+      {
+        "pageNumber": 5,
+        "role": "solution-introduction",
+        "description": "WebChatGPTツールの説明、「ではこのツールをオンにします」の解決策導入"
+      },
+      {
+        "pageNumber": 6,
+        "role": "tool-activation",
+        "description": "Web accessをONにする手順、設定画面で「新しく始まる（下線付き）」の強調表示"
+      },
+      {
+        "pageNumber": 7,
+        "role": "detailed-explanation",
+        "description": "インボイス制度の詳細情報、「いや分かりやすい！」のリアクションで効果実証"
+      },
+      {
+        "pageNumber": 8,
+        "role": "save-prompt",
+        "description": "動画保存の促進、「この動画を保存してから」の明示的な指示"
+      },
+      {
+        "pageNumber": 9,
+        "role": "call-to-action",
+        "description": "コメント送信の促進、「『ほしい』とコメントで送ります」のエンゲージメント促進"
+      },
+      {
+        "pageNumber": 10,
+        "role": "hashtag-metadata",
+        "description": "ハッシュタグとメタデータ表示、関連キーワードでの検索最適化"
+      }
+    ],
+    "flowOrder": [
+      "問題提起",
+      "ツール紹介",
+      "使用手順",
+      "効果確認",
+      "エンゲージメント",
+      "メタデータ"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "実際のスクリーンショット背景（MacBook AirのChatGPTウェブ画面）",
+      "白色長方形ボックスのテキストオーバーレイ",
+      "ブラウザウィンドウ表示形式",
+      "Instagramスワイプインジケーター（画面下部）",
+      "実際のUI要素（Chrome追加ボタン、Web accessトグル）表示"
+    ],
+    "requiredElements": [
+      "実際のChatGPT画面キャプチャ",
+      "白背景のテキストボックスオーバーレイ",
+      "Chrome拡張機能の追加ボタン",
+      "Web accessのトグルスイッチ",
+      "ChatGPTの質問・回答インターフェース",
+      "ユーモアのある日本語テキスト（「いやわからんのかい」「いや分かりやすい！」）",
+      "段階的な説明表示",
+      "保存・コメント促進の指示文",
+      "Instagramのページインジケーター"
+    ],
+    "informationArrangement": "スクリーンショット形式で、1.実際のChatGPT画面 → 2.白色ボックスのオーバーレイテキスト → 3.ユーザーリアクション → 4.次のステップへの誘導の順序で構成"
+  },
+  "visualDesignSpecifications": {
+    "backgroundType": "実際のスクリーンショット",
+    "backgroundDescription": "MacBook Airデスクトップ画面上のChatGPTウェブブラウザ",
+    "overlayStructure": "白色長方形ボックス重ね",
+    "colorScheme": ["白", "黒", "グレー", "青", "緑"],
+    "typography": "日本語フォント、太字で強調",
+    "visualHierarchy": "1.スクリーンショット → 2.オーバーレイテキスト → 3.ユーザーリアクション",
+    "trustSignals": ["実際の画面キャプチャ", "具体的な使用例"],
+    "engagementElements": ["ユーモアのある表現", "段階的な説明", "保存促進"]
+  },
+  "contentIntegrationPoints": {
+    "problemContext": "ChatGPTの情報制限（2021年9月まで）への対処",
+    "solutionMechanism": "WebChatGPT拡張機能による最新情報アクセス",
+    "demonstrationMethod": "実際のツール使用の段階的デモンストレーション",
+    "userJourney": "問題認識 → ツール発見 → インストール → 使用 → 効果確認 → 保存・共有",
+    "marketingStage": "ChatGPTを使い始めているが制限に直面している初中級者",
+    "emotionalTriggers": ["ChatGPTの制限への共感", "便利ツールの発見", "実用性の高い解決策", "保存してから使いたくなる情報"]
+  },
+  "implementationRequirements": {
+    "templateName": "WebChatGPTDemoTemplate.tsx",
+    "structureFileName": "webchatgpt-demo-tutorial-10page.json",
+    "specificRequirements": [
+      "実際のChatGPT画面キャプチャとステップバイステップ説明",
+      "白色テキストボックスオーバーレイでの段階的説明",
+      "Chrome拡張機能のインストールUI表示",
+      "Web accessトグルの設定画面表示",
+      "ユーモアを交えた表現の適切な配置",
+      "Instagram形式のエンゲージメント促進要素"
+    ],
+    "dataStructureRequirements": "WebChatGPT拡張機能の具体的な使用手順データ"
+  }
+}

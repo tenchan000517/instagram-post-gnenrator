@@ -227,6 +227,7 @@ export type TemplateType =
   | 'points_list_analysis'         // ⑱ポイントリスト型
   | 'timeline_story_experience'    // ⑲時系列ストーリー型
   | 'feature_parallel_info'        // ⑳機能紹介並列型
+  | 'feature_detail_tips'          // ㉑機能詳細Tips型
   // 新テンプレート（優先度B - High）
   | 'category_content_learning'    // ㉑カテゴリ別コンテンツ学習型
   | 'step_guide_achievement'       // ㉒ステップガイド達成型
@@ -234,6 +235,9 @@ export type TemplateType =
   | 'practical_guide_conversation' // ㉔実践ガイド会話型
   | 'company_data_list'            // ㉕企業データリスト型
   | 'usage_practical_steps'        // ㉖使用法実践ステップ型
+  | 'failure_episode'              // ㉗失敗エピソード型
+  | 'failure_story_intro'          // ㉘失敗ストーリー導入型
+  | 'profile_offer'                // ㉙プロフィール・オファー型
 
 // テンプレートコンポーネントのプロパティ型
 export interface TemplateProps {

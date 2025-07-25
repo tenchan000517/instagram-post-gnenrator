@@ -1,0 +1,77 @@
+{
+  "knowledgeId": "K071",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K071分析記録",
+    "rawObservation": "docs/raw-analysis/contents-071-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K071.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "AIの急速な発展により、従来のツールから新しいAIツールへの移行が必要だが、どのツールを選ぶべきか分からない",
+    "flowStages": [
+      "ツール進化導入",
+      "各カテゴリのツール比較（6つのカテゴリ）"
+    ],
+    "completionState": "7つのカテゴリで新旧ツールの違いを理解し、AIツールへの移行を決断できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "ツール比較1",
+        "description": "Wikipedia vs Gemini の比較表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "ツール比較2",
+        "description": "パワポ vs Genspark の比較表示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "ツール比較3",
+        "description": "ワード vs ChatGPT の比較表示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "ツール比較4",
+        "description": "Excel vs Copilot の比較表示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "ツール比較5",
+        "description": "Google検索 vs Perplexity の比較表示"
+      },
+      {
+        "pageNumber": 6,
+        "role": "ツール比較6",
+        "description": "Adobe vs NotebookLM の比較表示"
+      },
+      {
+        "pageNumber": 7,
+        "role": "ツール比較7",
+        "description": "Google翻訳 vs DeepL の比較表示"
+      }
+    ],
+    "flowOrder": [
+      "各ページが1つのツールカテゴリの比較を表示する左右分割構成"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "左右分割レイアウトで年代とツールロゴを明確に対比表示",
+      "左2020年/右2025年の分割配置",
+      "各ツールの公式ロゴ配置"
+    ],
+    "requiredElements": [
+      "左右分割レイアウト",
+      "年代表示（2020/2025）",
+      "ツールロゴ",
+      "困った表情→満足表情の変化",
+      "年代別カラーコード",
+      "旧ツール名",
+      "新ツール名",
+      "年代情報"
+    ],
+    "informationArrangement": "各ページが1つのツールカテゴリの比較を視覚的に分かりやすく表示する左右分割構成"
+  }
+}

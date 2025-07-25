@@ -1,0 +1,81 @@
+{
+  "knowledgeId": "K006",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "今の状態にモヤモヤを感じ、自分自身を理解したい、将来の方向性を見つけ出したいと悩んでいる",
+    "solutionReason": "「今のままじゃダメかも」という感情的な悩み・困りごとから始まり、自分自身への問いかけを通じて解決に導く構造"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "感情的な問題提起で共感を形成",
+      "3ステップの自己分析メソッドを段階的に提示",
+      "各ステップで具体的な質問項目を提供",
+      "行動への励ましと動機付けを提供",
+      "具体的解決ツールへの導線を提供"
+    ],
+    "pageRoles": {
+      "page1": "感情的導入 - 共感を誘う問題提起",
+      "page2-4": "3段階自己分析 - STEP01-03の具体的質問提示",
+      "page5": "行動促進 - 前向きな動機付けとエンカレッジメント",
+      "page6": "具体的解決ツール - 適職診断への導線"
+    },
+    "solutionCompletionState": "感情的共感 → 段階的自己理解 → 未来像描写 → 行動意欲向上 → 具体的ツール利用（ハイライト訪問）への行動完成"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 6,
+    "specializedConfiguration": {
+      "emotionalIntroduction": 1,
+      "sequentialSelfAnalysisSteps": 3,
+      "motivationalAction": 1,
+      "toolGuidance": 1
+    },
+    "divisionReason": "感情的な問題から3段階の自己分析プロセスを経て、前向きな行動意欲を醸成し、最終的に具体的解決ツールへ導くコンパクトな構造を実現するため",
+    "structureFileName": "emotional-three-step-self-analysis-structure.json",
+    "requirement": "感情的導入 + 3段階質問カード + 英語サブタイトル + 行動促進メッセージ + ツール診断導線"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "emotional-problem-introduction",
+      "specificNeeds": "感情的タイトル + 泣く人物イラスト + ピンク背景 + 共感形成"
+    },
+    "page2-4": {
+      "templatePattern": "step-based-question-card-layout",
+      "specificNeeds": "STEP番号 + 英語サブタイトル + 説明文 + 複数質問カード + 人物イラスト + Let's think表示"
+    },
+    "page5": {
+      "templatePattern": "motivational-action-encouragement",
+      "specificNeeds": "前向きなタイトル + NEXT表示 + 励ましメッセージ + 歩く人物イラスト + Enjoy your life!"
+    },
+    "page6": {
+      "templatePattern": "tool-promotion-with-checklist",
+      "specificNeeds": "適職診断紹介 + チェックリスト + スマートフォン画面 + ハイライト誘導CTA"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "stepProgressSystem": "page2-4でSTEP01-03の明確な進行表示",
+      "questionCardLayout": "各ステップで複数質問の カード形式表示",
+      "illustrationConsistency": "各ページに感情状態対応の人物イラスト配置",
+      "checklistVisualization": "page6でのチェック項目の視覚的表示"
+    },
+    "visualExpressionRequirements": {
+      "emotionalColorPalette": "ピンク系（感情表現）+ 穏やかな色調",
+      "stepNumberingDesign": "STEP01-03の統一されたデザイン表示",
+      "englishSubtitleStyling": "各ステップの英語サブタイトル装飾",
+      "illustrationProgression": "泣く→考える→読む→喜ぶ→歩くの感情変化表現"
+    },
+    "dataStructureRequirements": {
+      "stepSequenceData": "3段階の自己分析ステップ管理",
+      "questionArrays": "各ステップの複数質問項目配列",
+      "motivationalMessages": "段階別の励ましメッセージ管理",
+      "checklistItems": "適職診断導入用チェック項目配列"
+    },
+    "templateName": "EmotionalThreeStepSelfAnalysisTemplate"
+  }
+}

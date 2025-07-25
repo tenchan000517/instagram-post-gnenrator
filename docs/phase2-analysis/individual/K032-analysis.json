@@ -1,0 +1,100 @@
+{
+  "knowledgeId": "K032",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K032分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-032-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K032.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "大学3年生が髪を黒髪にしてないことで就活への不安を抱いている、自分の経歴やスペックに自信がない",
+    "flowStages": [
+      "ターゲット特定→ストーリー導入→問題認識→対比と不安→自己比較→転機発見→メンター発見→決意転換→成功体験→緊急性演出→CTA"
+    ],
+    "completionState": "自分のスペックに不安を感じていた学生が、実体験を通じて早期就活開始への動機付けを得て、具体的行動への意欲が高まった状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "target-identification",
+        "description": "ターゲット特定とフック（髪を染めていない3年生への呼びかけ）"
+      },
+      {
+        "pageNumber": 2,
+        "role": "story-introduction",
+        "description": "ストーリー導入（主人公の現状説明）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "story-development",
+        "description": "問題の認識（就活への意識と他者比較の始まり）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "problem-recognition",
+        "description": "対比と不安の増大（優秀な同級生との比較）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "comparison-anxiety",
+        "description": "自己分析と劣等感の表現（具体的なスペック比較）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "self-comparison",
+        "description": "転機の発見（成功事例との出会い）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "turning-point",
+        "description": "メンター発見と行動開始（就活テキストとの出会い）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "mentor-discovery",
+        "description": "決意と行動への転換（アドバイスの受容）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "decision-change",
+        "description": "成功体験と読者への励まし（結果の提示）"
+      },
+      {
+        "pageNumber": 10,
+        "role": "success-experience",
+        "description": "緊急性の演出と問題提起への共感"
+      },
+      {
+        "pageNumber": 11,
+        "role": "cta-urgency",
+        "description": "商品提供とCTA（行動喚起）"
+      }
+    ],
+    "flowOrder": [
+      "マンガ形式での親しみやすさで関心獲得",
+      "共感創出で読者との距離を縮める",
+      "不安から希望への転換で心理的変化を促進",
+      "行動促進で具体的なアクションを誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "マンガ形式での親しみやすい配置",
+      "キャラクターの表情変化表現",
+      "対比構造での理解促進",
+      "ストーリー性を保った感情的な流れ",
+      "読者の共感から行動意欲まで段階的に誘導"
+    ],
+    "requiredElements": [
+      "character情報とキャラクターイラスト",
+      "story段階データ",
+      "comparison構造（他者との比較）",
+      "success proof（成功体験の証明）",
+      "URL等の構造化データ",
+      "感情表現と吹き出し",
+      "対比用の分割表示"
+    ],
+    "informationArrangement": "マンガ形式での親しみやすさ→共感創出→不安から希望への転換→行動促進の順序実行必須"
+  }
+}

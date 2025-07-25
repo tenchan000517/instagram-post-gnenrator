@@ -1,0 +1,110 @@
+{
+  "knowledgeId": "K023",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K021-K030-analysis.md (lines 71-101)",
+    "rawObservation": "docs/raw-analysis/contents-023-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K023.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "大学3年生の7月にインターンシップ準備で何をすべきか分からない、就活のスタートダッシュを切りたい",
+    "flowStages": [
+      "タイトル・緊急性提示（カレンダー表示）",
+      "統計的根拠提示（7月申込みピーク）",
+      "Step1: 自己分析詳細解説",
+      "Step2: 業界研究詳細解説", 
+      "Step3: インターン応募詳細解説",
+      "Step4: ガクチカ作成テンプレート提供",
+      "Step5: 自己PR作成テンプレート提供",
+      "Step6: 志望動機作成テンプレート提供",
+      "Step7: webテスト勉強法詳細解説",
+      "緊急性再強調・背中押し",
+      "個人体験談・最終CTA"
+    ],
+    "completionState": "7月中に実行すべき就活準備が完全にリスト化され、各ステップの実行方法も理解でき、実践的なテンプレートやツールも活用できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "カレンダー表示によるタイトル・状況可視化",
+        "description": "週間スケジュールグリッドで7月の忙しさを視覚的に表現"
+      },
+      {
+        "pageNumber": 2,
+        "role": "統計データによる緊急性・根拠提示",
+        "description": "横棒グラフで7月がインターン申込みピーク（45.6%）であることを証明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "Step1詳細解説（自己分析）",
+        "description": "思考キャラクターイラスト付きで3段階の自己分析手順を提示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "Step2詳細解説（業界研究）",
+        "description": "おすすめツール3選と3段階の研究手順を提示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "Step3詳細解説（インターン応募）",
+        "description": "志望度別戦略（高：20社、低：5-10社）をストレスキャラクター付きで提示"
+      },
+      {
+        "pageNumber": 6,
+        "role": "Step4テンプレート提供（ガクチカ）",
+        "description": "400文字ガクチカの穴埋めテンプレートを提供"
+      },
+      {
+        "pageNumber": 7,
+        "role": "Step5テンプレート提供（自己PR）",
+        "description": "400文字自己PRの穴埋めテンプレートを提供"
+      },
+      {
+        "pageNumber": 8,
+        "role": "Step6テンプレート提供（志望動機）",
+        "description": "インターン志望動機の穴埋めテンプレートを提供"
+      },
+      {
+        "pageNumber": 9,
+        "role": "Step7詳細解説（webテスト勉強）",
+        "description": "参考書3冊の実物画像＋1日15分勉強法を提示"
+      },
+      {
+        "pageNumber": 10,
+        "role": "緊急性メッセージ・背中押し",
+        "description": "「乗り遅れないで！」で緊急感創出、先手必勝の重要性強調"
+      },
+      {
+        "pageNumber": 11,
+        "role": "個人体験談・最終CTA",
+        "description": "大手3社内定体験談＋Instagramプロフィール表示＋URL誘導"
+      }
+    ],
+    "flowOrder": [
+      "視覚的状況提示",
+      "データ根拠による納得形成",
+      "7ステップの体系的解説",
+      "実践テンプレート提供",
+      "緊急性による行動促進",
+      "成功体験による信頼構築と転換"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ステップタイトルを上部、イラストを中央、詳細説明を下部の3段配置構造",
+      "順番実行必須（統計根拠→各ステップ詳細→緊急性再喚起→個人体験CTA）",
+      "テンプレート型情報提供",
+      "ベージュ背景の統一使用（統計ページは白、最終ページは白）"
+    ],
+    "requiredElements": [
+      "カレンダーグリッド表示",
+      "統計グラフ表示",
+      "キャラクターイラスト（状況別）",
+      "テンプレート枠表示（○○穴埋め形式）",
+      "参考書実物画像",
+      "Instagramプロフィール画面表示"
+    ],
+    "informationArrangement": "ステップバイステップ教育構造（統計→理論→実践→緊急性→転換）で、7つの複雑なステップを丁寧に1つずつ解説し、実践的テンプレートも提供する構成"
+  }
+}

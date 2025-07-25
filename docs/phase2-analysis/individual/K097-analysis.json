@@ -1,0 +1,137 @@
+{
+  "knowledgeId": "K097",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K091-K100-analysis.md (K097分析記録 lines 147-178)",
+    "rawObservation": "/docs/raw-analysis/contents-097-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K097.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "デザイナーの仕事が奪われるのではないかという不安を持ちながらも、AIサービスを知って効率化を図りたい",
+    "flowStages": [
+      "タイトル・問題提起",
+      "6つのAIサービス順次紹介",
+      "エンゲージメント促進",
+      "メディア誘導",
+      "最終CTA"
+    ],
+    "completionState": "6つのデザインAIサービスを理解し、自分の作業に適したサービスを選択・活用できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "hook-title",
+        "description": "メインタイトルとキャッチフレーズ「デザイナーの仕事が奪われる？！すごすぎるAIサービスベスト6」、薄緑のパターン背景"
+      },
+      {
+        "pageNumber": 2,
+        "role": "service-introduction-01",
+        "description": "colorGPTの紹介「スマホカメラで映すだけでカラーコードが表示」、実際の画面キャプチャと緑色帯状ヘッダー"
+      },
+      {
+        "pageNumber": 3,
+        "role": "service-introduction-02",
+        "description": "Galileo AIの紹介「UIを爆速で自動生成するサービス」、実際の画面キャプチャと緑色帯状ヘッダー"
+      },
+      {
+        "pageNumber": 4,
+        "role": "service-introduction-03",
+        "description": "Genius by Diagramの紹介「AIがFigma上でUIデザインを共同制作」、実際の画面キャプチャと緑色帯状ヘッダー"
+      },
+      {
+        "pageNumber": 5,
+        "role": "service-introduction-04",
+        "description": "Designs.aiの紹介「たった2分で動画やロゴが作れる！」、実際の画面キャプチャと緑色帯状ヘッダー"
+      },
+      {
+        "pageNumber": 6,
+        "role": "service-introduction-05",
+        "description": "Uizardの紹介「手書きのワイヤーをプロトタイプに自動変換」、実際の画面キャプチャと緑色帯状ヘッダー"
+      },
+      {
+        "pageNumber": 7,
+        "role": "service-introduction-06",
+        "description": "VANCE AIの紹介「Photoshopでの画像加工の手間が無くなる！？」、実際の画面キャプチャと緑色帯状ヘッダー"
+      },
+      {
+        "pageNumber": 8,
+        "role": "engagement-promotion",
+        "description": "Instagramプロフィール紹介、フォロー・保存・コメント促進「ストリーズで質問回答しています！」、薄黄色背景"
+      },
+      {
+        "pageNumber": 9,
+        "role": "media-promotion",
+        "description": "デザインエクセル媒体の紹介「Instagramでの投稿内容を更に詳しく解説していきます♪」、クリーム色背景"
+      },
+      {
+        "pageNumber": 10,
+        "role": "call-to-action-final",
+        "description": "最終エンゲージメント促進「画面を2回タップすると風船がハートになるよ！@design_excelをつけて是非投稿してみてください！」、空と雲の写真背景"
+      }
+    ],
+    "flowOrder": [
+      "タイトル",
+      "6つのAIサービス（各1ページ）",
+      "エンゲージメント",
+      "メディア",
+      "CTA"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "緑色統一のデザインレイアウト",
+      "各AIサービスの実際の画面キャプチャ表示",
+      "番号付きの整理された情報構成",
+      "サービス紹介ページでは画面キャプチャの上にテキスト配置",
+      "右上に円形のページ番号表示（1/10～10/10）",
+      "統一された緑色帯状ヘッダー（ページ2-7）"
+    ],
+    "requiredElements": [
+      "緑色パターン背景（ページ1）",
+      "薄緑グラデーション背景（ページ2-7）",
+      "薄黄色背景（ページ8）",
+      "クリーム色背景（ページ9）",
+      "空と雲の写真背景（ページ10）",
+      "各AIサービスの実際のツール画面",
+      "サービス名とURL表示",
+      "緑色吹き出し「デザイナーの仕事が奪われる？！」（ページ1）",
+      "Instagram画面キャプチャ（ページ8）",
+      "ウェブサイト画面キャプチャ（ページ9）",
+      "フォローボタンの表示",
+      "Instagram標準のページドット"
+    ],
+    "informationArrangement": "1.タイトル → 2.サービス名 → 3.説明文 → 4.URL の視覚的階層で構成"
+  },
+  "visualDesignSpecifications": {
+    "backgroundType": "グラデーション背景",
+    "backgroundDescription": "ページ1: 薄緑のパターン背景、ページ2-7: 薄緑グラデーション、ページ8: 薄黄色背景、ページ9: クリーム色背景、ページ10: 空と雲の写真背景",
+    "overlayStructure": "サービス紹介ページでは画面キャプチャの上にテキスト配置",
+    "colorScheme": ["緑", "白", "黒", "薄黄", "クリーム", "青"],
+    "typography": "太字の日本語フォント、英語サービス名",
+    "visualHierarchy": "1.タイトル → 2.サービス名 → 3.説明文 → 4.URL",
+    "trustSignals": ["実際のツール画面", "具体的なURL", "既存メディアへの誘導"],
+    "engagementElements": ["番号付きリスト", "視覚的なツール紹介", "インタラクティブな指示"]
+  },
+  "contentIntegrationPoints": {
+    "problemContext": "デザイナーのAIに対する不安と効率化への期待",
+    "solutionMechanism": "デザイナー向けの6つの優秀AIサービスを紹介し、具体的な活用方法を示す実用的な情報提供",
+    "demonstrationMethod": "各AIサービスの実際の画面キャプチャと統一されたレイアウトでの紹介",
+    "userJourney": "不安認識 → サービス発見 → 各ツール理解 → サービス選択 → 実際の使用開始",
+    "marketingStage": "AIツールに興味があるが具体的に何を使えばいいか分からないデザイナー",
+    "emotionalTriggers": ["デザイナーの不安への共感", "AIとの共存提案", "効率化への期待", "実用的なツール発見の喜び"]
+  },
+  "implementationRequirements": {
+    "templateName": "DesignerAIToolsTemplate.tsx",
+    "structureFileName": "designer-ai-tools-guide-10page.json",
+    "specificRequirements": [
+      "緑色統一デザイン、各AIサービスの実際のインターフェース表示、番号付き整理構成",
+      "統一された緑色帯状ヘッダー（ページ2-7）",
+      "各ページで異なる背景色の適切な適用",
+      "実際のツール画面キャプチャの適切な配置",
+      "サービス名とURL表示の統一フォーマット",
+      "Instagram形式のエンゲージメント促進要素"
+    ],
+    "dataStructureRequirements": "6つのAIサービス（colorGPT, Galileo AI, Genius by Diagram, Designs.ai, Uizard, VANCE AI）の詳細情報"
+  }
+}

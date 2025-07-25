@@ -1,0 +1,100 @@
+{
+  "knowledgeId": "K055",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K055分析記録",
+    "rawObservation": "contents-055-observation.json - 10ページ構成の観察データ",
+    "knowledgeBase": "K055.json - 頭の回転が良い人の思考パターンの知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "思考力を向上させたい、頭の回転を速くしたい、論理的思考を身につけたい",
+    "flowStages": [
+      "思考力不足",
+      "思考パターン理解",
+      "分類提示",
+      "各カテゴリー詳細",
+      "実践方法",
+      "思考力向上促進"
+    ],
+    "completionState": "21の思考パターンを理解し、日常的に実践できる思考力向上手法を習得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "thinking-pattern-introduction",
+        "description": "コンセプト提示とタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "content-list-items-1-3",
+        "description": "思考パターン１－３の紹介"
+      },
+      {
+        "pageNumber": 3,
+        "role": "content-list-items-4-6",
+        "description": "思考パターン４－６の紹介"
+      },
+      {
+        "pageNumber": 4,
+        "role": "content-list-items-7-9",
+        "description": "思考パターン７－９の紹介"
+      },
+      {
+        "pageNumber": 5,
+        "role": "content-list-items-10-12",
+        "description": "思考パターン１０－１２の紹介"
+      },
+      {
+        "pageNumber": 6,
+        "role": "content-list-items-13-15",
+        "description": "思考パターン１３－１５の紹介"
+      },
+      {
+        "pageNumber": 7,
+        "role": "content-list-items-16-18",
+        "description": "思考パターン１６－１８の紹介"
+      },
+      {
+        "pageNumber": 8,
+        "role": "content-list-items-19-21",
+        "description": "思考パターン１９－２１の紹介"
+      },
+      {
+        "pageNumber": 9,
+        "role": "complete-summary-list-with-save",
+        "description": "全２１項目の総括リストと保存促進"
+      },
+      {
+        "pageNumber": 10,
+        "role": "thank-you-related-content-cta",
+        "description": "感謝メッセージと関連コンテンツへのCTA"
+      }
+    ],
+    "flowOrder": [
+      "思考力向上パターン学習型",
+      "知的能力開発を体系的に支援する構成"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "統一された白ベースのシンプルデザイン",
+      "ピンクをアクセントカラーとして一貫使用",
+      "2-8ページの完全に統一されたレイアウト",
+      "3項目ずつの段階的情報提供",
+      "1-21の連続番号体系"
+    ],
+    "requiredElements": [
+      "思考パターンのカテゴリー化",
+      "能力開発への手順表示",
+      "実践ガイダンスのデザイン",
+      "大きなピンクの「考」文字を背景にタイトル配置",
+      "星のアクセント（装飾）",
+      "番号付きリスト項目",
+      "均等配置された文字",
+      "招き猫イラスト",
+      "猫と鼠のイラスト"
+    ],
+    "informationArrangement": "思考パターン分類→カテゴリー別詳細→実践ガイダンス"
+  }
+}

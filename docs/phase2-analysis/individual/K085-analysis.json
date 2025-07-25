@@ -1,0 +1,93 @@
+{
+  "knowledgeId": "K085",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md (K085記録なし - Phase1範囲外)",
+    "rawObservation": "docs/raw-analysis/contents-085-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K085.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "学生向けのAIツール学割情報を知りたい、授業や就活で使えるAIツールの具体的な情報が欲しい",
+    "flowStages": [
+      "各AIツールの基本機能を理解する",
+      "学割の詳細条件と期間を確認する",
+      "授業や就活での活用方法を検討する",
+      "実際にツールを導入・活用する"
+    ],
+    "completionState": "3つの主要AIツール（Gemini、Notion、Cursor Pro）の学割情報と活用方法を理解し、実際に導入できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "ブランド付きタイトル・導入",
+        "description": "科学大メディアブランドと「AIツール学割紹介」のタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題提起・対象者明確化",
+        "description": "ChatGPT以外のAIを知らない、費用面で迷っている学生への共感"
+      },
+      {
+        "pageNumber": 3,
+        "role": "Gemini基本情報紹介",
+        "description": "GoogleのAI Geminiの基本機能と学割詳細（月3000円→15ヶ月無料）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "Gemini詳細機能説明",
+        "description": "Deep Research、音声概要機能、Gemini Liveの詳細解説"
+      },
+      {
+        "pageNumber": 5,
+        "role": "Notion基本情報紹介",
+        "description": "オールインワンワークスペースNotionの機能と学割詳細（月1650円→無料）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "Notion詳細機能説明",
+        "description": "ゲスト100人招待、無制限アップロード、NotionAI 50%オフの詳細"
+      },
+      {
+        "pageNumber": 7,
+        "role": "Cursor Pro基本情報紹介",
+        "description": "AIコードエディタCursor Proの機能と学割詳細（月20ドル→1年無料）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "Cursor Pro詳細機能",
+        "description": "月500回高速リクエスト、無制限低速リクエスト、コード補完制限撤廃"
+      },
+      {
+        "pageNumber": 9,
+        "role": "まとめ・行動喚起",
+        "description": "AIスキルの必要性と授業・就活での活用による差別化の重要性"
+      },
+      {
+        "pageNumber": 10,
+        "role": "記録なし（観察データは9ページまで）",
+        "description": "観察データでは9ページまでしか記録されていない"
+      }
+    ],
+    "flowOrder": ["ブランド導入", "問題共感", "ツール1基本", "ツール1詳細", "ツール2基本", "ツール2詳細", "ツール3基本", "ツール3詳細", "まとめ行動喚起"]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青色グラデーション背景の統一",
+      "白いカード形式での情報配置",
+      "科学大メディアブランドの継続表示",
+      "チェックマーク付きリスト形式の維持"
+    ],
+    "requiredElements": [
+      "科学大メディア @science_tokyo_media のブランド表示",
+      "「お役立ち情報」水色ラベル",
+      "青色チェックマーク（✅）",
+      "ブランドロゴ（Google、Notion等）",
+      "イラスト（学生、デスクワーク、プログラミング）",
+      "赤文字での価格・重要情報強調",
+      "青い矢印記号（≫≫）",
+      "青い丸マーカー（●）"
+    ],
+    "informationArrangement": "段階的な情報提示（問題提起→ツール紹介→詳細機能→次ツール）と視覚的階層構造の維持"
+  }
+}

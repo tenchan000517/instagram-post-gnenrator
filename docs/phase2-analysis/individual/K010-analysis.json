@@ -1,0 +1,83 @@
+{
+  "knowledgeId": "K010",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md lines 295-326",
+    "rawObservation": "/docs/raw-analysis/contents-010-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K010.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活における電話でのマナーが分からない、電話対応で失敗したくない、正しい電話の掛け方や話し方を知りたい",
+    "flowStages": [
+      "共感的問題提起",
+      "事前準備5項目",
+      "クッション言葉8パターン",
+      "基本トーク例（状況別）",
+      "折り返しトーク例",
+      "サービス・コンテンツ誘導"
+    ],
+    "completionState": "電話の事前準備から具体的なトーク例まで体系的に習得し、就活での電話対応に自信を持ち、継続的な学習のためのマイナビサービスを活用する準備ができた状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 6,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "empathy-topic-intro-hashtag",
+        "description": "共感導入"
+      },
+      {
+        "pageNumber": 2,
+        "role": "preparation-checklist-numbered",
+        "description": "事前準備チェックリスト"
+      },
+      {
+        "pageNumber": 3,
+        "role": "language-patterns-cushion",
+        "description": "言葉遣い・クッション言葉"
+      },
+      {
+        "pageNumber": 4,
+        "role": "conversation-scripts-situation",
+        "description": "基本トーク例・状況別"
+      },
+      {
+        "pageNumber": 5,
+        "role": "callback-scripts-specific",
+        "description": "折り返し専用トーク例"
+      },
+      {
+        "pageNumber": 6,
+        "role": "service-engagement-mynavi",
+        "description": "サービス紹介・エンゲージメント"
+      }
+    ],
+    "flowOrder": [
+      "段階的に教育",
+      "準備から実践まで包括的にカバー",
+      "具体的なトーク例で実用性を高め",
+      "継続学習サービスへ誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青系グラデーション背景の6ページ統一",
+      "白フレーム内でのコンテンツ配置",
+      "番号付きアイコン（1⃣-5⃣）",
+      "吹き出し形式の会話例",
+      "オレンジ補足ボックス"
+    ],
+    "requiredElements": [
+      "就活マナーハッシュタグ",
+      "共感質問",
+      "電話アイコン",
+      "電球アイコン（クッション言葉）",
+      "状況別会話吹き出し",
+      "TAPボタン",
+      "保存アイコン📚",
+      "番号付きアイコン（1-5）",
+      "マイナビブランドロゴ",
+      "サービス画像"
+    ],
+    "informationArrangement": "preparationPoints配列、cushionWords配列、conversationScenarios配列、callbackScripts配列、servicePromotion objectによる構造化"
+  }
+}

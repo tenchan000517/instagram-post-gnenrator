@@ -1,0 +1,89 @@
+{
+  "knowledgeId": "K018",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K011-K018-analysis.md lines 147-180",
+    "rawObservation": "docs/raw-analysis/contents-018-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K018.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "業界全体の関係性や位置づけが分からず、業界選択に迷っている",
+    "flowStages": [
+      "タイトル",
+      "マップ全体図",
+      "業界群1詳細",
+      "業界群2詳細",
+      "業界群3詳細",
+      "活用方法"
+    ],
+    "completionState": "業界の全体像を理解し、自分の志向に合う業界を見つけられる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトルと導入",
+        "description": "業界マップ全体図の提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "業界群1詳細情報",
+        "description": "3業界の詳細情報提供"
+      },
+      {
+        "pageNumber": 3,
+        "role": "業界群2詳細情報",
+        "description": "3業界の詳細情報提供"
+      },
+      {
+        "pageNumber": 4,
+        "role": "業界群3詳細情報",
+        "description": "3業界の詳細情報提供"
+      },
+      {
+        "pageNumber": 5,
+        "role": "業界群4詳細情報",
+        "description": "3業界の詳細情報提供"
+      },
+      {
+        "pageNumber": 6,
+        "role": "マップの活用方法",
+        "description": "保存促進ページ"
+      },
+      {
+        "pageNumber": 7,
+        "role": "感謝とエンゲージメント",
+        "description": "感謝メッセージ・エンゲージメント促進"
+      }
+    ],
+    "flowOrder": [
+      "業界マップ全体図",
+      "インフラ・人材・SIer詳細",
+      "メーカー・大学・商社詳細",
+      "コンサル・金融系・カード詳細",
+      "不動産・銀行・テレビ出版詳細",
+      "保存促進",
+      "感謝メッセージ"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青紫グラデーション背景の使用",
+      "白い角丸カードでの情報表示",
+      "薄ベージュ背景での詳細表示",
+      "統一されたセクション分け",
+      "手書き風フォントでの親しみやすさ表現"
+    ],
+    "requiredElements": [
+      "2軸マップ（厳しい↔穏やか、論理重視↔人情重視）",
+      "業界名を黄色い円で表示",
+      "各業界の関連イラスト",
+      "求める人材の特徴3つ",
+      "代表企業ロゴ4社",
+      "手書き風イラストと文字",
+      "保存促進メッセージ",
+      "感謝の表現"
+    ],
+    "informationArrangement": "2軸マップの明確な表示、業界の位置関係の視覚化"
+  }
+}

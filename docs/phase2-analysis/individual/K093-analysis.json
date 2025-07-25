@@ -1,0 +1,295 @@
+{
+  "knowledgeId": "K093",
+  "analysisDate": "2025-07-24",
+  "basicInformation": {
+    "source": "contents-093",
+    "problemCategory": "有益情報",
+    "problemDescription": "スマートフォンでも使えるAIツールの具体的な情報を知りたい人向けのアプリ情報",
+    "postType": "004",
+    "postTypeReason": "スマートフォンで利用できる具体的なAIツール5選を紹介し、明日から実際に使える実用情報を提供しているため",
+    "actualTitle": "スマホで使えるオススメAI 5選",
+    "pageCount": 8,
+    "marketingStage": "スマートフォンで効率化を求める現代のビジネスパーソン・学生"
+  },
+  "solutionStructure": {
+    "solutionFlow": "タイトル・導入→5つのツール順次紹介（各1ページ）→総合まとめ→フォロー促進",
+    "pageRoles": [
+      "page1: タイトル導入",
+      "page2-6: 各ツール詳細紹介",
+      "page7: まとめ一覧",
+      "page8: プロフィール・フォロー促進"
+    ],
+    "solutionCompletionState": "5つのスマートフォンAIツールの特徴と使用方法を理解し、実際に使い始められる状態",
+    "pageStructureDesign": {
+      "totalPages": 8,
+      "knowledgeSpecificStructure": "タイトル→AIツール5種類（各1ページ詳細）→まとめ→プロフィール",
+      "pageDivisionReason": "各AIツールの具体的な使用方法と画面を詳しく説明するため1ツール1ページ構成",
+      "structureFileName": "mobile-ai-tools-showcase-8page.json",
+      "requirements": "実際のスマートフォン画面キャプチャと統一されたレイアウト"
+    }
+  },
+  "contentAnalysis": {
+    "providedInformation": [
+      "ChatGPT：スマホで手軽に文章生成・画像生成が可能、外出先でのメール返信時の文面作成に便利",
+      "ClovaNote：スマホでどこでも会話録音・文字起こしが可能、ChatGPT使えば文字起こしした内容を元に簡単に議事録が作れる",
+      "Canva：スマホでいつでもデザイン・資料作成が可能、AI機能使ってデザインや文章を簡単に生成できる",
+      "Perplexity：スマホで手軽に情報収集が可能、ネットの最新情報を元に回答してくれ仕事にも普段使いにも便利、飲食店探しにも最適",
+      "ChatPDF：スマホでどこでもPDFの解析が可能、AIによりPDFの内容を整理・要約してくれるのでスマホからでも内容を把握しやすい"
+    ],
+    "practicalAdvice": [
+      "全部スマホ用アプリで利用できるから試してみて",
+      "外出先でのメール返信に便利",
+      "議事録作成が簡単になる",
+      "デザイン作成がスマホで可能",
+      "最新情報の収集が手軽",
+      "PDF内容の把握が簡単"
+    ],
+    "searchKeywords": [
+      "スマホAI",
+      "AIアプリ",
+      "ChatGPT",
+      "ClovaNote",
+      "Canva",
+      "Perplexity",
+      "ChatPDF",
+      "モバイルAI",
+      "スマートフォンツール",
+      "文字起こし",
+      "デザインアプリ",
+      "PDF解析"
+    ],
+    "emotionalTriggers": [
+      "手軽さへの憧れ",
+      "スマートフォンでの効率化",
+      "外出先での生産性向上",
+      "最新技術の活用"
+    ]
+  },
+  "templateDesign": {
+    "requiredTemplates": [
+      {
+        "pageNumber": 1,
+        "templatePattern": {
+          "type": "mobile-app-title",
+          "title": "スマホで使えるオススメAI 5選",
+          "phoneIllustration": "スマートフォンイラスト",
+          "highlight": "アプリもあり強調"
+        }
+      },
+      {
+        "pageNumbers": "2-6",
+        "templatePattern": {
+          "type": "app-introduction",
+          "number": "①-⑤",
+          "appLogo": "アプリロゴ",
+          "screenshot": "実際の画面",
+          "features": "主要機能説明",
+          "useTip": "使用のコツ"
+        }
+      },
+      {
+        "pageNumber": 7,
+        "templatePattern": {
+          "type": "tools-summary",
+          "toolsGrid": "5つのツール一覧",
+          "recommendation": "使用推奨メッセージ",
+          "cta": "試してみて促進"
+        }
+      },
+      {
+        "pageNumber": 8,
+        "templatePattern": {
+          "type": "profile-follow",
+          "profileInfo": "プロフィール詳細",
+          "followButton": "フォローボタン",
+          "description": "発信内容説明",
+          "engagement": "いいね・保存促進"
+        }
+      }
+    ],
+    "templateName": "MobileAIToolsTemplate.tsx"
+  },
+  "implementationRequirements": {
+    "layoutRequirements": "統一されたレイアウトでの各ツール紹介、実際のスマートフォン画面表示",
+    "visualRepresentationRequirements": "番号付きツール紹介、アプリロゴ、実際の使用画面、グリッド表示",
+    "dataStructureRequirements": "5つのAIツール（ChatGPT, ClovaNote, Canva, Perplexity, ChatPDF）の詳細使用法データ"
+  },
+  "observedDesignElements": {
+    "effectiveExpressions": [
+      "トップページ：「\\アプリもあり/スマホで使えるオススメAI 5選」と緑のアンダーライン",
+      "各ツール紹介：番号付きで統一されたレイアウト、グレーのヘッダーバーにツール名とアイコン",
+      "スマートフォン画面：実際のアプリ画面スクリーンショットを表示",
+      "青い吹き出し：各ツールの主要機能を「スマホで手軽に○○が可能」の形で統一",
+      "まとめページ：5つのツールを表形式で一覧表示、各ツールのアイコン付き"
+    ],
+    "visualElements": {
+      "colorScheme": ["グレー", "白", "青", "黒", "緑"],
+      "typography": "太字の大きなフォント（タイトル）、見出しは太字、本文は通常フォント",
+      "backgroundTypes": ["薄いグレー背景", "単色背景"],
+      "consistentElements": [
+        "グレーのヘッダーバー",
+        "青い吹き出し",
+        "実際のスマートフォン画面キャプチャ",
+        "番号付き構成（①-⑤）"
+      ]
+    },
+    "layoutPatterns": {
+      "page1": "縦型レイアウト、中央配置のテキストとスマートフォンイラスト",
+      "pages2-6": "上部にヘッダー、左にスマートフォン画面、右に機能説明",
+      "page7": "上部にまとめヘッダー、中央にツール一覧表、下部に行動喚起",
+      "page8": "上部にフォロー呼びかけ、中央にプロフィール情報、下部に詳細説明"
+    },
+    "interactionElements": {
+      "navigation": "ページインジケータ（下部ドット、1ページ目と8ページ目を除く）",
+      "engagement": ["フォローボタン", "メッセージボタン", "いいね・保存促進"]
+    }
+  },
+  "detailedPageContent": {
+    "page1": {
+      "pageNumber": 1,
+      "title": "スマホで使えるオススメAI 5選",
+      "mainHeading": "\\アプリもあり/\nスマホで使える\nオススメAI 5選",
+      "subHeading": "",
+      "bodyText": "",
+      "visualElements": [
+        "薄いグレー背景",
+        "大きなスマートフォンのイラスト（中央に抽象的なロゴ表示）",
+        "緑色のアンダーライン「スマホで使える」"
+      ],
+      "interactionElements": [
+        "ページインジケータなし（トップページ）"
+      ],
+      "layout": "縦型レイアウト、中央配置のテキストとスマートフォンイラスト"
+    },
+    "page2": {
+      "pageNumber": 2,
+      "title": "ChatGPT",
+      "mainHeading": "①ChatGPT",
+      "subHeading": "",
+      "bodyText": "",
+      "visualElements": [
+        "グレーのヘッダーバーにChatGPTロゴと番号",
+        "スマートフォン画面（ChatGPTのメール作成画面）",
+        "青い吹き出し「スマホで手軽に文章生成・画像生成が可能」",
+        "説明文「外出先でメール返す時に文面の作成に使えるのも便利！」"
+      ],
+      "interactionElements": [
+        "ページインジケータ表示"
+      ],
+      "layout": "上部にヘッダー、左にスマートフォン画面、右に機能説明"
+    },
+    "page3": {
+      "pageNumber": 3,
+      "title": "ClovaNote",
+      "mainHeading": "②ClovaNote",
+      "subHeading": "",
+      "bodyText": "",
+      "visualElements": [
+        "グレーのヘッダーバーにClovaNote アイコンと番号",
+        "スマートフォン画面（会話録音・文字起こし画面）",
+        "青い吹き出し「スマホでどこでも会話録音・文字起こしが可能」",
+        "説明文「ChatGPT使えば文字起こしした内容を元に簡単に議事録が作れる！」"
+      ],
+      "interactionElements": [
+        "ページインジケータ表示"
+      ],
+      "layout": "上部にヘッダー、左にスマートフォン画面、右に機能説明"
+    },
+    "page4": {
+      "pageNumber": 4,
+      "title": "Canva",
+      "mainHeading": "③Canva",
+      "subHeading": "",
+      "bodyText": "",
+      "visualElements": [
+        "グレーのヘッダーバーにCanvaアイコンと番号",
+        "スマートフォン画面（Canvaのデザイン作成画面）",
+        "青い吹き出し「スマホでいつでもデザイン・資料作成が可能」",
+        "説明文「AI機能使ってデザインや文章を簡単に生成できる！僕の投稿もいつもCanvaで作ってます！」"
+      ],
+      "interactionElements": [
+        "ページインジケータ表示"
+      ],
+      "layout": "上部にヘッダー、左にスマートフォン画面、右に機能説明"
+    },
+    "page5": {
+      "pageNumber": 5,
+      "title": "Perplexity",
+      "mainHeading": "④Perplexity",
+      "subHeading": "",
+      "bodyText": "",
+      "visualElements": [
+        "グレーのヘッダーバーにPerplexityアイコンと番号",
+        "スマートフォン画面（飯田橋付近のレストラン検索結果とマップ）",
+        "青い吹き出し「スマホで手軽に情報収集が可能」",
+        "説明文「ネットの最新情報を元に回答してくれ、仕事にも普段使いにも便利！飲食店探しにも最適」"
+      ],
+      "interactionElements": [
+        "ページインジケータ表示"
+      ],
+      "layout": "上部にヘッダー、左にスマートフォン画面、右に機能説明"
+    },
+    "page6": {
+      "pageNumber": 6,
+      "title": "ChatPDF",
+      "mainHeading": "⑤ChatPDF",
+      "subHeading": "",
+      "bodyText": "",
+      "visualElements": [
+        "グレーのヘッダーバーにChatPDFアイコンと番号",
+        "スマートフォン画面（PDFチャット画面、戦略的情報探査に関するPDF解析）",
+        "青い吹き出し「スマホでどこでもPDFの解析が可能」",
+        "説明文「AIによりPDFの内容を整理・要約してくれるのでスマホからでも内容を把握しやすい！」"
+      ],
+      "interactionElements": [
+        "ページインジケータ表示"
+      ],
+      "layout": "上部にヘッダー、左にスマートフォン画面、右に機能説明"
+    },
+    "page7": {
+      "pageNumber": 7,
+      "title": "まとめ",
+      "mainHeading": "まとめ",
+      "subHeading": "全部スマホ用アプリで利用できるから試してみて！",
+      "bodyText": "",
+      "visualElements": [
+        "グレーのヘッダーバー「まとめ」",
+        "5つのツールの表形式一覧",
+        "①ChatGPT（ロゴ付き）",
+        "②ClovaNote（アイコン付き）",
+        "③Canva（アイコン付き）",
+        "④Perplexity（アイコン付き）",
+        "⑤ChatPDF（アイコン付き）"
+      ],
+      "interactionElements": [
+        "ページインジケータ表示"
+      ],
+      "layout": "上部にまとめヘッダー、中央にツール一覧表、下部に行動喚起"
+    },
+    "page8": {
+      "pageNumber": 8,
+      "title": "フォロー呼びかけ",
+      "mainHeading": "今後も仕事に役立つものを中心に\n有益なAI情報を発信するので\n見逃さないよう\n\nぜひフォローしてね！",
+      "subHeading": "",
+      "bodyText": "ぜひスマホにアプリをダウンロードして試してみてください😊\n\nサイ | 仕事が10倍ラクになるChatGPT・AI活用術\n↓↓↓↓↓AIに関する有益な情報を紹介！\n====== AI初心者でも簡単にできる💰\n◆ 仕事に生かせるAI情報だけを厳選❗\n\n会社員として仕事をこなす中で、実際にAIを利用して有益だった情報をお届けします！\n\nこの投稿が少しでも参考になった方は\nぜひ「いいね」や「保存」をして頂けると嬉しいです😊",
+      "visualElements": [
+        "グレー背景",
+        "プロフィール画像とユーザー名表示",
+        "フォローボタン",
+        "投稿統計（42投稿、1,260フォロワー、52フォロー中）"
+      ],
+      "interactionElements": [
+        "フォローボタン",
+        "メッセージボタン"
+      ],
+      "layout": "上部にフォロー呼びかけ、中央にプロフィール情報、下部に詳細説明"
+    }
+  },
+  "hashTags": "#chatgpt #チャットジーピーティ #チャットジーピーティー初心者 #最新技術 #仕事術 #仕事時短術 #仕事効率 #仕事効率向上 #openai #aiツール #自然言語 #業務改善 #業務効率化",
+  "dataSources": {
+    "phase1Analysis": "/docs/phase1-analysis/session3-K091-K100-analysis.md (K093 section)",
+    "rawObservation": "/docs/raw-analysis/contents-093-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K093.json"
+  },
+  "analysisNotes": "このナレッジは5つのモバイルAIツールを系統的に紹介する実用情報型投稿。各ツールに1ページずつ割り当て、統一されたレイアウト（グレーヘッダー、青い吹き出し、実際のスマートフォン画面）で構成される。最終的にまとめページと行動喚起（アプリダウンロード促進）で完結する構造が特徴的。"
+}

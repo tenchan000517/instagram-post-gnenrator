@@ -1,0 +1,94 @@
+{
+  "knowledgeId": "K105",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K101-K110-analysis.md (該当セクションなし - 記録未完了)",
+    "rawObservation": "docs/raw-analysis/contents-105-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K105.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "自分らしく生きられていない、人生の選択に迷いがある、他人の目を気にして自分を抑えてしまう",
+    "flowStages": [
+      "1. 世間より自分の感覚を信じる",
+      "2. 選ばれた道ではなく自分で選んだ道を歩く",
+      "3. 我慢ではなく納得で選択している",
+      "4. 嫌われない勇気より好かれようとしない強さがある",
+      "5. 他人と比べる暇があったら自分を磨いている",
+      "6. 不安がある道でも心が動いた方に進む",
+      "7. 幸せかどうかを他人に決めさせない"
+    ],
+    "completionState": "自分らしく生きている人の7つの特徴を理解し、自己決定権を持った主体的な人生を歩む状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトルページ",
+        "description": "ピンク系グラデーション背景で自己実現テーマを温かく提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "特徴1: 自分の感覚を信じる",
+        "description": "世間の空気に流されない自分軸の重要性を説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "特徴2: 自分で選んだ道を歩む",
+        "description": "主体的な人生選択の価値と責任について説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "特徴3: 納得で選択する",
+        "description": "やりたいを基準にした選択の重要性を説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "特徴4: 好かれようとしない強さ",
+        "description": "人間関係における真の強さと自分らしさの維持"
+      },
+      {
+        "pageNumber": 6,
+        "role": "特徴5: 自分を磨くことに集中",
+        "description": "他人との比較よりも自己成長への集中の価値"
+      },
+      {
+        "pageNumber": 7,
+        "role": "特徴6: 心が動く方向に進む",
+        "description": "不安があっても直感に従う勇気の重要性"
+      },
+      {
+        "pageNumber": 8,
+        "role": "特徴7: 幸福の自己決定権",
+        "description": "他人ではなく自分が幸せを定義する力の重要性"
+      },
+      {
+        "pageNumber": 9,
+        "role": "ハッシュタグ・投稿情報",
+        "description": "心理学関連ハッシュタグと投稿時間情報"
+      }
+    ],
+    "flowOrder": [
+      "自分軸の確立",
+      "主体的選択の価値",
+      "人間関係の健全化",
+      "自己成長への集中",
+      "幸福の自己決定"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "温かみのあるベージュ系背景色",
+      "番号付きの明確な構成（①-⑦）",
+      "シンプルで読みやすいテキスト配置",
+      "ミニマルデザインによる心理的安定感演出"
+    ],
+    "requiredElements": [
+      "番号付きタイトル（丸囲み数字）",
+      "詳細説明文",
+      "最初のページに人物イラスト",
+      "心理学的根拠の提示",
+      "自己肯定的なメッセージ"
+    ],
+    "informationArrangement": "各特徴を1ページずつ詳細に説明し、心理学的観点から自分らしい生き方の要素を段階的に提示する形式"
+  }
+}

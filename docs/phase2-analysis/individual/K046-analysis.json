@@ -1,0 +1,88 @@
+{
+  "knowledgeId": "K046",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K046分析記録",
+    "rawObservation": "contents-046-observation.json - 8ページ構成の観察データ",
+    "knowledgeBase": "K046.json - SPI頻出語句70選の知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "SPI言語分野の語彙力不足、頻出語句がわからない",
+    "flowStages": [
+      "語句分類",
+      "カテゴリー別語句紹介",
+      "意味説明",
+      "記憶促進の辞書的構成"
+    ],
+    "completionState": "SPI言語分野の語彙力不足に悩んでいた学生が、頻出70語句をカテゴリー別に習得し、SPI言語分野での成果向上への意欲を獲得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 8,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-overview",
+        "description": "メインタイトル提示とコンテンツ概要の告知"
+      },
+      {
+        "pageNumber": 2,
+        "role": "vocabulary-list-1",
+        "description": "SPI語句の学習リスト1（語彙知識の提供）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "vocabulary-list-2",
+        "description": "SPI語句の学習リスト2（語彙知識の提供）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "vocabulary-list-3",
+        "description": "SPI語句の学習リスト3（語彙知識の提供）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "vocabulary-list-4",
+        "description": "SPI語句の学習リスト4（語彙知識の提供）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "vocabulary-list-5",
+        "description": "SPI語句の学習リスト5（語彙知識の提供）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "problem-identification-empathy",
+        "description": "問題共感から解決策提示への転換ページ"
+      },
+      {
+        "pageNumber": 8,
+        "role": "final-cta-page",
+        "description": "最終的な行動喚起とリード獲得"
+      }
+    ],
+    "flowOrder": [
+      "概要理解",
+      "カテゴリー別習得",
+      "意味理解",
+      "記憶定着促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青系背景での辞書様配置",
+      "語句と意味のセット表示",
+      "カテゴリー分類表示",
+      "2カラムテーブル形式",
+      "白い角丸カード配置"
+    ],
+    "requiredElements": [
+      "SPIアイコン",
+      "語彙カード",
+      "カテゴリータグ",
+      "意味表示",
+      "保存ボタン",
+      "青いヘッダーボタン",
+      "チェックマーク（装飾的）"
+    ],
+    "informationArrangement": "概要提示 + カテゴリー別語句70選 + 記憶促進の辞書型学習材料"
+  }
+}

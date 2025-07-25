@@ -1,0 +1,87 @@
+{
+  "knowledgeId": "K011",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "就活生が業界と職種の違いを理解できていない、どのような職種があるのか知りたい",
+    "solutionReason": "業界と職種の違いの説明、代表的な職種の紹介という特定の情報・知識の習得を目的としているため"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "疑問符付きタイトルで関心を引く",
+      "業界と職種の違いを定義で明確化",
+      "8つの代表的職種を前半4つで詳細説明",
+      "8つの代表的職種を後半4つで詳細説明",
+      "継続学習機会（プロフィール誘導）を提供"
+    ],
+    "pageRoles": {
+      "page1": "疑問提示 - 業界研究タグと疑問符で関心を引く",
+      "page2": "定義説明 - 業界と職種の違いを定義で明確化",
+      "page3": "職種解説前半 - 企画系～販売・サービス系の4職種詳細",
+      "page4": "職種解説後半 - 技術系～専門系の4職種詳細",
+      "page5": "継続学習誘導 - プロフィール訪問と他コンテンツ紹介"
+    },
+    "solutionCompletionState": "基本概念理解 → 定義区別習得 → 前半職種理解 → 後半職種理解 → 継続学習（保存・プロフィール訪問）への行動完成"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 5,
+    "specializedConfiguration": {
+      "questionIntroduction": 1,
+      "definitionExplanation": 1,
+      "jobCategoriesFirstHalf": 1,
+      "jobCategoriesSecondHalf": 1,
+      "continuousLearningPromotion": 1
+    },
+    "divisionReason": "業界と職種の基本理解から8つの具体的職種を前後半に分けて詳細説明し、情報過多を避けながら包括的な知識習得を可能にし、最終的に継続学習への動機付けを行うため",
+    "structureFileName": "industry-job-type-educational-structure.json",
+    "requirement": "疑問提示 + 定義区別説明 + 8職種分割詳細解説 + 業界例表示 + 継続学習誘導"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "question-introduction-with-research-tag",
+      "specificNeeds": "業界研究タグ + 疑問符付きタイトル + 青背景 + アカウント情報"
+    },
+    "page2": {
+      "templatePattern": "definition-explanation-with-examples",
+      "specificNeeds": "定義枠表示 + 業界・職種区別 + 具体例 + 黄色マーカー強調 + 出典情報"
+    },
+    "page3": {
+      "templatePattern": "four-job-categories-detailed-first-half",
+      "specificNeeds": "①-④の職種番号 + 詳細説明 + 主な業界表示 + 黄色背景業界例 + 出典情報"
+    },
+    "page4": {
+      "templatePattern": "four-job-categories-detailed-second-half",
+      "specificNeeds": "⑤-⑧の職種番号 + 詳細説明 + 主な業界表示 + 黄色背景業界例 + 出典情報"
+    },
+    "page5": {
+      "templatePattern": "content-promotion-with-profile-cta",
+      "specificNeeds": "関連コンテンツ紹介 + プロフィール誘導 + 保存促進 + サービス画像表示"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "definitionBoxesDisplay": "page2で業界・職種の定義を枠で区別表示",
+      "numberedJobCategories": "page3-4で①-⑧の職種番号付き表示",
+      "industryExamplesHighlight": "各職種の主な業界を黄色背景で強調表示",
+      "sourceAttributionDisplay": "各ページでの出典情報の適切な配置"
+    },
+    "visualExpressionRequirements": {
+      "consistentBlueTheme": "全ページで青色背景の統一テーマ",
+      "yellowAccentElements": "マーカー強調、業界例背景での黄色使用",
+      "numberedJobSystem": "職種①-⑧の明確な番号表示システム",
+      "definitionFramework": "定義説明での枠組み表示"
+    },
+    "dataStructureRequirements": {
+      "definitionsData": "業界・職種の定義と具体例データ",
+      "eightJobCategoriesArray": "8つの職種の構造化データ配列",
+      "industryExamplesMapping": "各職種と対応業界のマッピングデータ",
+      "sourceAttributions": "各コンテンツの出典情報管理"
+    },
+    "templateName": "IndustryJobTypeEducationalTemplate"
+  }
+}

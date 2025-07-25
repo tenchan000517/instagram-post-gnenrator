@@ -1,0 +1,134 @@
+{
+  "knowledgeId": "K101",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K101-K110-analysis.md lines 8-41",
+    "rawObservation": "/docs/raw-analysis/contents-101-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K101.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "次から次へとAIツールが登場して情報を追いきれない、専門家ではないが効率的にAIツールを使い分けたい",
+    "flowStages": [
+      "タイトル提示による初期関心喚起",
+      "問題共感の構築（困っている女性画像使用）",
+      "情報見極め基準の提示（3つのポイント）",
+      "9カテゴリ俯瞰による全体像把握",
+      "各カテゴリ詳細紹介（実際のツールロゴ付き）",
+      "総合まとめによる活用促進"
+    ],
+    "completionState": "9つのカテゴリ27個のAIツールの特徴を理解し、目的に合わせて適切なツールを選択できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 16,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-introduction",
+        "description": "インパクト重視のタイトル告知（青色グラデーション背景）"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-empathy",
+        "description": "共感を呼ぶ問題提起（困っている女性の画像使用）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "judgment-criteria",
+        "description": "客観的判断基準の提示（3つのポイント形式）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "category-overview",
+        "description": "全体構成の俯瞰（9カテゴリの一覧表示）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "category-detail-image-generation",
+        "description": "画像生成ツール詳細（4ツール：Stablediffusion, Midjourney, DALL-E3, ImageFX）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "category-detail-writing",
+        "description": "ライティングツール詳細（2ツール：Claude, ChatGPT）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "category-detail-document-creation",
+        "description": "資料作成ツール詳細（3ツール：Gamma, イルシル, Felo）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "category-detail-design",
+        "description": "デザインツール詳細（2ツール：Canva, Recraft）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "category-detail-meeting-notes",
+        "description": "議事録ツール詳細（3ツール：tl;dv, Lark, Clove note）"
+      },
+      {
+        "pageNumber": 10,
+        "role": "category-detail-research-search",
+        "description": "調査・検索ツール詳細（4ツール：perplexity, Genspark, Felo, ChatGPT）"
+      },
+      {
+        "pageNumber": 11,
+        "role": "category-detail-diagram",
+        "description": "図解ツール詳細（3ツール：NapkinAI, Claude, V0）"
+      },
+      {
+        "pageNumber": 12,
+        "role": "category-detail-video-generation",
+        "description": "動画生成ツール詳細（4ツール：Runway, Kling, Vidu, Pika）"
+      },
+      {
+        "pageNumber": 13,
+        "role": "category-detail-transcription",
+        "description": "文字起こしツール詳細（3ツール：Gladia, Gemini, Lark）"
+      },
+      {
+        "pageNumber": 14,
+        "role": "comprehensive-summary",
+        "description": "総合まとめ（全ツール一覧＋人物による親しみやすさ演出）"
+      },
+      {
+        "pageNumber": 15,
+        "role": "premium-promotion",
+        "description": "商品販促（豪華特典アピール、ゴールド系背景）"
+      },
+      {
+        "pageNumber": 16,
+        "role": "caption-hashtags",
+        "description": "SNS投稿用メタデータ"
+      }
+    ],
+    "flowOrder": [
+      "インパクト重視の導入",
+      "問題共感構築",
+      "客観的基準提示",
+      "体系的情報整理",
+      "詳細情報提供",
+      "実用的活用促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "「2025年3月最新AIツール使い分け」統一ヘッダー（下線付き）",
+      "青色グラデーション（タイトル）→白色背景（コンテンツページ）→ゴールド系（販促）の色変化",
+      "白色カード重ね（コンテンツページ）",
+      "カテゴリ別カード表示（2×2または3×1グリッド）",
+      "統一されたレイアウト構造の維持"
+    ],
+    "requiredElements": [
+      "スマートフォンとキャラクターイラスト",
+      "各ツールの実際のロゴ使用",
+      "統一されたカードデザイン",
+      "キャラクターによる親しみやすい解説",
+      "実体験に基づくコメント",
+      "保存促進メッセージ",
+      "ページ下部のドット表示（swipeIndicators）",
+      "豪華特典アピール画像",
+      "期間限定表示"
+    ],
+    "informationArrangement": "categoryData配列（9カテゴリ）、toolsData配列（27ツール詳細）、judgmentCriteria配列（3ポイント）、practicalAdvice配列、characterComments配列による構造化"
+  }
+}

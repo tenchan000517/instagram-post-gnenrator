@@ -1,0 +1,111 @@
+{
+  "knowledgeId": "K041",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K041分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-041-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K041.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "大学3年7月の時点で何をすべきかわからない、就活準備の優先順位が不明、インターン応募やESの書き方、企業選択について困っている",
+    "flowStages": [
+      "時期指定と問題意識の共有",
+      "7つの重要項目の予告・導入",
+      "各項目の具体的アドバイス提示（真剣にインターン応募）",
+      "各項目の具体的アドバイス提示（ベンチャー企業インターン）",
+      "各項目の具体的アドバイス提示（企業選択の視野拡大）",
+      "各項目の具体的アドバイス提示（業界選択の真剣化）",
+      "各項目の具体的アドバイス提示（ES落ちでの一喜一憂回避）",
+      "各項目の具体的アドバイス提示（接客アピールの意識化）",
+      "各項目の具体的アドバイス提示（やりきった経験の蓄積）",
+      "実績提示による信頼性構築",
+      "外部リソースへの誘導・行動促進"
+    ],
+    "completionState": "大学3年7月時点で就活準備に迷いを感じていた学生が、時期に適した7つの優先順位付きのアドバイスを理解し、具体的な準備行動を開始できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "time-specification-title",
+        "description": "大学3年7月という時期の重要性を強調するタイトル提示 - 青色グラデーション背景で緊急性演出"
+      },
+      {
+        "pageNumber": 2,
+        "role": "introduction-preview",
+        "description": "導入・共感フェーズと7つのアドバイス予告 - 手書き風テキストで親近感創出"
+      },
+      {
+        "pageNumber": 3,
+        "role": "advice-detail-1",
+        "description": "真剣にインターン応募の重要性解説 - 関西弁調での親しみやすいアドバイス"
+      },
+      {
+        "pageNumber": 4,
+        "role": "advice-detail-2",
+        "description": "ベンチャー企業インターンへの視野拡大提案 - キャラクター青色スーツでの専門性演出"
+      },
+      {
+        "pageNumber": 5,
+        "role": "advice-detail-3",
+        "description": "企業選択の視野拡大アドバイス - 具体的企業名での説得力強化"
+      },
+      {
+        "pageNumber": 6,
+        "role": "advice-detail-4",
+        "description": "業界選択の真剣化提案 - 手書き風テキストでの共感創出"
+      },
+      {
+        "pageNumber": 7,
+        "role": "advice-detail-5",
+        "description": "ES落ちでの一喜一憂回避マインドセット提案 - セリフ吹き出しでの対話形式"
+      },
+      {
+        "pageNumber": 8,
+        "role": "advice-detail-6",
+        "description": "接客アピールの意識化アドバイス - 具体的行動への落とし込み"
+      },
+      {
+        "pageNumber": 9,
+        "role": "advice-detail-7",
+        "description": "やりきった経験の蓄積提案 - 夏からでも間に合う希望提示"
+      },
+      {
+        "pageNumber": 10,
+        "role": "credibility-building",
+        "description": "実績アピール・信頼構築 - 企業ロゴ一覧での信頼性証明"
+      },
+      {
+        "pageNumber": 11,
+        "role": "final-cta",
+        "description": "最終CTA・外部誘導 - プロフィールURL誘導での行動促進"
+      }
+    ],
+    "flowOrder": [
+      "時期認識",
+      "予告・導入",
+      "7つの優先項目詳細解説",
+      "信頼性構築",
+      "行動促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青色グラデーション背景でのタイトルページ設計",
+      "白色背景での統一されたアドバイスページ構成",
+      "ベージュ背景での信頼性構築ページ設計",
+      "手書き風フォントでの親近感演出",
+      "ページ番号での進行状況表示"
+    ],
+    "requiredElements": [
+      "大学3年7月という時期の明確な指定",
+      "7つという具体的数字での項目整理",
+      "関西弁調での親しみやすい表現",
+      "シンプルなキャラクターイラストでの感情表現",
+      "赤色下線での重要ポイント強調",
+      "企業ロゴ一覧での実績証明",
+      "セリフ吹き出しでの対話形式"
+    ],
+    "informationArrangement": "時期認識→優先項目提示→詳細理解→信頼性構築→行動促進の時系列順序での配置"
+  }
+}

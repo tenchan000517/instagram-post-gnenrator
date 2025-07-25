@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Knowledge Base Test</title>
+    <script>
+        // K113のテスト
+        async function testK113Generation() {
+            const testData = {
+                userInput: "Instagram集客に役立つ新機能について教えて",
+                knowledgeData: await fetch('/app/data/knowledgeBase/knowledge/K113.json').then(r => r.json()),
+                pageNumber: 1
+            };
+            
+            console.log('テスト対象:', testData);
+            
+            // page1のテンプレート構造確認
+            const page1 = testData.knowledgeData.detailedContent.page1;
+            console.log('Page1 structure:', page1);
+            console.log('Section:', page1.section);
+            console.log('Template:', page1.template);
+            console.log('Content:', page1.content);
+            
+            // プロンプト生成のテスト（実際のAPIは呼ばない）
+            const mockPrompt = buildTestPrompt(testData);
+            console.log('Generated prompt:', mockPrompt);
+        }
+        
+        function buildTestPrompt(request) {
+            const { userInput, knowledgeData, pageNumber } = request;
+            const pageKey = `page${pageNumber}`;
+            const currentPageData = knowledgeData.detailedContent[pageKey];
+            
+            return `
+【テスト用プロンプト】
+投稿意図: ${userInput}
+ページ番号: ${pageNumber}/${knowledgeData.contentPageCount}
+セクション: ${currentPageData.section}  
+テンプレート: ${currentPageData.template}
+ページ役割: ${currentPageData.role}
+
+【テンプレート構造確認】
+Template: ${currentPageData.template}
+Expected: basic_intro structure
+- title: string
+- subtitle: string?
+- description: string
+- content: string
+
+【コンテンツ参考例】
+${JSON.stringify(currentPageData.content, null, 2)}
+            `;
+        }
+        
+        // テスト実行
+        window.onload = function() {
+            testK113Generation();
+        };
+    </script>
+</head>
+<body>
+    <h1>Knowledge Base Pattern Test</h1>
+    <p>コンソールを確認してください。</p>
+    <button onclick="testK113Generation()">K113 Test Run</button>
+</body>
+</html>

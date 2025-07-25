@@ -1,0 +1,74 @@
+{
+  "knowledgeId": "K089",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md (K089記録なし - Phase1範囲外)",
+    "rawObservation": "docs/raw-analysis/contents-089-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K089.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "サマーインターンシップの種類がわからない、どのタイプが自分に適しているか判断したい",
+    "flowStages": [
+      "4つのインターンシップタイプを理解する",
+      "各タイプの特徴とメリットを把握する",
+      "自分の目的と状況に合わせてタイプを選択する",
+      "各タイプの注意点とアドバイスを考慮して参加する"
+    ],
+    "completionState": "4つのインターンシップタイプ（職種体験、ケーススタディ、企業研究・座学、長期）の特徴を理解し、適切な選択ができる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 6,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "企業ブランド付きカバー",
+        "description": "GOOYA Holdings人事による「就活攻略術」サマーインターン解説の導入"
+      },
+      {
+        "pageNumber": 2,
+        "role": "職種体験型解説",
+        "description": "実際の業務体験ができるインターンシップの特徴と事前確認の重要性"
+      },
+      {
+        "pageNumber": 3,
+        "role": "ケーススタディ型解説",
+        "description": "グループワーク中心のインターンシップの特徴とバランス感覚の重要性"
+      },
+      {
+        "pageNumber": 4,
+        "role": "企業研究・座学型解説",
+        "description": "座学中心のインターンシップの特徴と複数社参加の推奨"
+      },
+      {
+        "pageNumber": 5,
+        "role": "長期型解説",
+        "description": "数週間〜数ヶ月の長期インターンシップの特徴とスケジュール管理の重要性"
+      },
+      {
+        "pageNumber": 6,
+        "role": "企業採用CTA",
+        "description": "GOOYA Holdings採用情報と5つのコース紹介、エントリー案内"
+      }
+    ],
+    "flowOrder": ["企業ブランド導入", "職種体験型", "ケーススタディ型", "座学型", "長期型", "採用CTA"]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "GOOYA緑色ブランディングの統一",
+      "白背景での専門的な情報配置",
+      "破線枠のポイントボックス使用",
+      "企業ロゴの一貫した表示"
+    ],
+    "requiredElements": [
+      "GOOYA Holdings企業名・ロゴ",
+      "メガホンアイコンと「人事が伝えたい！」表示",
+      "緑色テキストでのタイプ名表示",
+      "関連する業務環境写真（キーボード、会議、握手等）",
+      "電球アイコン付き破線枠アドバイス",
+      "黒背景の最終CTA画面",
+      "吹き出し形式のエントリー案内",
+      "緑色カーブ矢印",
+      "リクナビ・マイナビ2027エントリー情報"
+    ],
+    "informationArrangement": "企業権威性を活用した教育コンテンツ（人事視点→タイプ別解説→採用誘導）の論理的構造"
+  }
+}

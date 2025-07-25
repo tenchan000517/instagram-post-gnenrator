@@ -1,0 +1,74 @@
+{
+  "knowledgeId": "K011",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K011-K018-analysis.md lines 8-40",
+    "rawObservation": "docs/raw-analysis/contents-011-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K011.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活生が「業界研究」と「職種研究」の違いを理解できず、どちらを優先すべきか分からない",
+    "flowStages": [
+      "定義の明確化",
+      "業界研究の説明",
+      "職種研究の説明（前半）",
+      "職種研究の説明（後半）",
+      "バランスの重要性"
+    ],
+    "completionState": "業界と職種の違いを理解し、両方の研究の必要性を認識し、バランス良く研究を進められる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 5,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "問題提起と関心喚起",
+        "description": "タイトルページ・投稿の主題提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "業界と職種の定義を対比表示",
+        "description": "基本概念の説明・定義の提示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "代表的な職種の前半紹介",
+        "description": "職種の具体例提示（前半）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "代表的な職種の後半紹介",
+        "description": "職種の具体例提示（後半）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "プロフィール誘導",
+        "description": "CTA・プロフィール誘導ページ"
+      }
+    ],
+    "flowOrder": [
+      "タイトル提示",
+      "定義の対比説明",
+      "職種カテゴリ1-4の紹介",
+      "職種カテゴリ5-8の紹介",
+      "プロフィール誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青色グラデーション背景の使用",
+      "白色の角丸フレーム配置",
+      "黄色マーカーでの強調表示",
+      "番号付きリスト形式での情報表示",
+      "ページインジケーターの表示"
+    ],
+    "requiredElements": [
+      "ハッシュタグ配置",
+      "定義の対比ボックス",
+      "番号付き職種リスト",
+      "主な業界の表示",
+      "出典表記",
+      "CTAボタン"
+    ],
+    "informationArrangement": "定義は左右対比配置、リストは縦方向配置、ページ番号を明示、統一されたカードレイアウト"
+  }
+}

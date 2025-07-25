@@ -5,7 +5,6 @@
 
 import { getGeminiModel } from '../geminiClientSingleton';
 import { PageStructure, PageDefinition } from './PageStructureMatcher';
-import { KnowledgeSearchEngine, SearchResult } from './KnowledgeSearchEngine';
 
 export interface MappedContent {
   pageNumber: number;
@@ -39,11 +38,9 @@ export class TemplateItemMappingError extends Error {
 
 export class TemplateItemMapper {
   private model: any;
-  private knowledgeSearch: KnowledgeSearchEngine;
 
   constructor() {
     this.model = getGeminiModel();
-    this.knowledgeSearch = new KnowledgeSearchEngine();
   }
 
   /**
@@ -51,9 +48,10 @@ export class TemplateItemMapper {
    * 
    * @param input - 入力コンテンツ
    * @param pageStructure - ページ構造定義
+   * @param knowledgeContents - ナレッジベースコンテンツ（オプション）
    * @returns マッピング結果
    */
-  async mapContentToPages(input: string, pageStructure: PageStructure): Promise<MappingResult> {
+  async mapContentToPages(input: string, pageStructure: PageStructure, knowledgeContents?: any[]): Promise<MappingResult> {
     const startTime = Date.now();
     const mappedPages: MappedContent[] = [];
     let totalExtractions = 0;
@@ -63,7 +61,7 @@ export class TemplateItemMapper {
 
     for (const page of pageStructure.pages) {
       try {
-        const mappedContent = await this.mapSinglePage(input, page, pageStructure.targetCombination);
+        const mappedContent = await this.mapSinglePage(input, page, pageStructure.targetCombination, knowledgeContents);
         mappedPages.push(mappedContent);
         totalExtractions += this.countExtractions(mappedContent);
         
@@ -99,7 +97,8 @@ export class TemplateItemMapper {
   private async mapSinglePage(
     input: string,
     page: PageDefinition,
-    targetCombination: string
+    targetCombination: string,
+    knowledgeContents?: any[]
   ): Promise<MappedContent> {
     const extractionRules = this.getExtractionRules(page);
     const itemTypes = this.getItemTypes(page);
@@ -110,7 +109,7 @@ export class TemplateItemMapper {
 
     try {
       // 実データ検索によるコンテンツ抽出
-      const mappedItems = await this.extractFromKnowledgeBase(input, page, targetCombination);
+      const mappedItems = await this.extractFromKnowledgeBase(input, page, targetCombination, knowledgeContents);
 
       return {
         pageNumber: page.pageNumber,
@@ -363,6 +362,230 @@ ${this.getOutputFormat(page.templateId)}
     }
 
     return count;
+  }
+
+  /**
+   * ナレッジベースからコンテンツを抽出
+   */
+  private async extractFromKnowledgeBase(
+    input: string,
+    page: PageDefinition,
+    targetCombination: string,
+    knowledgeContents?: any[]
+  ): Promise<any> {
+    // ナレッジベースコンテンツが提供されている場合はそれを使用
+    if (knowledgeContents && knowledgeContents.length > 0) {
+      console.log('📚 Using provided knowledge contents for extraction');
+      
+      // 最初のナレッジコンテンツから情報を抽出
+      const knowledgeData = knowledgeContents[0];
+      
+      // テンプレート固有の抽出ロジック
+      return this.extractFromKnowledgeData(knowledgeData, page);
+    }
+    
+    // フォールバック: 空のデータ構造を返す（従来のAI生成にフォールバック）
+    throw new Error('No knowledge base data available for extraction');
+  }
+
+  /**
+   * ナレッジデータから情報を抽出（テンプレート別）
+   */
+  private extractFromKnowledgeData(knowledgeData: any, page: PageDefinition): any {
+    const templateId = page.templateId;
+    console.log(`🔍 Extracting data for template: ${templateId}`);
+    
+    // テンプレート別の抽出ロジック
+    switch (templateId) {
+      case 'problem-introduction':
+        return this.extractProblemIntroduction(knowledgeData);
+      case 'method-detail-card':
+        return this.extractMethodDetailCard(knowledgeData);
+      case 'method-visual-guide':
+        return this.extractMethodVisualGuide(knowledgeData);
+      case 'method-summary-keywords':
+        return this.extractMethodSummaryKeywords(knowledgeData);
+      case 'action-call-checklist':
+        return this.extractActionCallChecklist(knowledgeData);
+      // 従来のテンプレート対応
+      case 'list':
+        return this.extractListItems(knowledgeData);
+      case 'simple3':
+        return this.extractSimple3Items(knowledgeData);
+      case 'enumeration':
+        return this.extractEnumerationItems(knowledgeData);
+      default:
+        return this.extractDefaultItems(knowledgeData, page);
+    }
+  }
+
+  /**
+   * problem-introduction テンプレート用の抽出
+   */
+  private extractProblemIntroduction(knowledgeData: any): any {
+    const page1 = knowledgeData.detailedContent?.page1;
+    return {
+      mainTitle: page1?.mainTitle || knowledgeData.actualTitle || 'タイトル',
+      problemStatement: knowledgeData.problemDescription || '問題の説明',
+      hookPhrases: [page1?.callToAction || 'アクションを起こそう！']
+    };
+  }
+
+  /**
+   * method-detail-card テンプレート用の抽出
+   */
+  private extractMethodDetailCard(knowledgeData: any): any {
+    const page3 = knowledgeData.detailedContent?.page3;
+    const methods = [];
+    
+    // method1とmethod2を抽出
+    if (page3?.method1) {
+      methods.push({
+        methodName: page3.method1.name,
+        steps: page3.method1.steps || [page3.method1.description],
+        benefit: page3.method1.warning || page3.method1.description
+      });
+    }
+    
+    if (page3?.method2) {
+      methods.push({
+        methodName: page3.method2.name,
+        steps: page3.method2.examples || [page3.method2.description],
+        benefit: page3.method2.warning || page3.method2.description
+      });
+    }
+    
+    return {
+      pageTitle: page3?.title || 'メソッド詳細',
+      methods: methods.length > 0 ? methods : [{
+        methodName: '方法1',
+        steps: knowledgeData.solutionContent?.具体的手順?.slice(0, 2) || ['手順1', '手順2'],
+        benefit: knowledgeData.solutionContent?.概要 || '効果的な方法です'
+      }]
+    };
+  }
+
+  /**
+   * method-visual-guide テンプレート用の抽出
+   */
+  private extractMethodVisualGuide(knowledgeData: any): any {
+    const page4 = knowledgeData.detailedContent?.page4;
+    const page5 = knowledgeData.detailedContent?.page5;
+    const methods = [];
+    
+    // method3とmethod4を抽出
+    if (page4?.method3) {
+      methods.push({
+        methodName: page4.method3.name,
+        description: page4.method3.description,
+        effectiveness: page4.method3.warning || '効果的な手法です'
+      });
+    }
+    
+    if (page5?.method4) {
+      methods.push({
+        methodName: page5.method4.name,
+        description: page5.method4.description,
+        effectiveness: page5.method4.warning || '効果的な手法です'
+      });
+    }
+    
+    return {
+      pageTitle: page4?.title || page5?.title || 'ビジュアルガイド',
+      methods: methods.length > 0 ? methods : [{
+        methodName: '方法3',
+        description: knowledgeData.solutionContent?.概要 || '説明',
+        effectiveness: '効果的な手法です'
+      }]
+    };
+  }
+
+  /**
+   * method-summary-keywords テンプレート用の抽出
+   */
+  private extractMethodSummaryKeywords(knowledgeData: any): any {
+    const page6 = knowledgeData.detailedContent?.page6;
+    
+    return {
+      pageTitle: page6?.title || '手法まとめ',
+      lastMethod: {
+        name: page6?.method5?.name || '最終手法',
+        description: page6?.method5?.description || knowledgeData.solutionContent?.概要 || '説明',
+        effectiveness: page6?.method5?.warning || '効果的な手法です'
+      },
+      relatedKeywords: knowledgeData.searchKeywords?.slice(0, 4) || ['キーワード1', 'キーワード2'],
+      emotionalBenefits: knowledgeData.emotionalTriggers?.slice(0, 3) || ['効果1', '効果2']
+    };
+  }
+
+  /**
+   * action-call-checklist テンプレート用の抽出
+   */
+  private extractActionCallChecklist(knowledgeData: any): any {
+    const page7 = knowledgeData.detailedContent?.page7;
+    const actionItems: Array<{action: string, reason: string}> = [];
+    
+    // 実用的なアドバイスからアクション項目を生成
+    if (knowledgeData.solutionContent?.実用的なアドバイス) {
+      knowledgeData.solutionContent.実用的なアドバイス.forEach((advice: string, index: number) => {
+        actionItems.push({
+          action: advice,
+          reason: `効果的な取り組み${index + 1}`
+        });
+      });
+    }
+    
+    return {
+      pageTitle: page7?.title || 'アクションプラン',
+      mainMessage: knowledgeData.solutionContent?.概要 || 'まとめメッセージ',
+      actionItems: actionItems.length > 0 ? actionItems : [{
+        action: '今すぐ始めよう',
+        reason: '継続的な成長のため'
+      }],
+      closingHook: page7?.ctaInstructions?.[0] || 'さあ、始めましょう！'
+    };
+  }
+
+  /**
+   * リストテンプレート用の抽出（従来テンプレート）
+   */
+  private extractListItems(knowledgeData: any): any {
+    return {
+      title: knowledgeData.actualTitle || knowledgeData.problemDescription || 'タイトル',
+      items: knowledgeData.solutionContent?.具体的手順 || ['項目1', '項目2', '項目3']
+    };
+  }
+
+  /**
+   * Simple3テンプレート用の抽出（従来テンプレート）
+   */
+  private extractSimple3Items(knowledgeData: any): any {
+    return {
+      title: knowledgeData.actualTitle || knowledgeData.problemDescription || 'タイトル',
+      point1: knowledgeData.solutionContent?.概要 || 'ポイント1',
+      point2: knowledgeData.solutionContent?.具体的手順?.[0] || 'ポイント2',
+      point3: knowledgeData.solutionContent?.実用的なアドバイス?.[0] || 'ポイント3'
+    };
+  }
+
+  /**
+   * Enumerationテンプレート用の抽出（従来テンプレート）
+   */
+  private extractEnumerationItems(knowledgeData: any): any {
+    return {
+      title: knowledgeData.actualTitle || knowledgeData.problemDescription || 'タイトル',
+      enumeration: knowledgeData.solutionContent?.具体的手順 || ['1. 項目1', '2. 項目2', '3. 項目3']
+    };
+  }
+
+  /**
+   * デフォルトの抽出（従来テンプレート）
+   */
+  private extractDefaultItems(knowledgeData: any, page: PageDefinition): any {
+    return {
+      title: knowledgeData.actualTitle || knowledgeData.problemDescription || page.title || 'タイトル',
+      content: knowledgeData.solutionContent?.概要 || 'コンテンツ'
+    };
   }
 
 }

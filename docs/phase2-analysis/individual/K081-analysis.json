@@ -1,0 +1,59 @@
+{
+  "knowledgeId": "K081",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K061-K080-analysis.md - K081分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-081-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K081.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活で使えるAIツールについて知りたい、どのツールを使えばよいか分からない",
+    "flowStages": [
+      "タイトル提示による問題提起と興味喚起",
+      "具体的ツールリスト8個提示",
+      "使用時の重要注意事項とまとめ"
+    ],
+    "completionState": "読者は8つのAIツール名を知り、かつ専門家への確認が必要という実践的知識を得て、効果的で信頼性のあるAIツール活用ができる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 3,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル提示ページ",
+        "description": "火の絵文字で強調されたインパクトのあるタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "ツールリスト提示ページ",
+        "description": "8つのAIツール名を赤背景白文字のリスト形式で視認性高く表示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "まとめ・注意事項提示ページ",
+        "description": "専門家への確認の重要性を「まとめ」ヘッダー付きで強調して提示"
+      }
+    ],
+    "flowOrder": [
+      "タイトルによる問題提起",
+      "具体的解決策（ツールリスト）の提示",
+      "実践時の注意点と信頼性確保"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "会議室の写真背景の統一",
+      "中央配置のタイトル",
+      "左寄せのリスト形式",
+      "ヘッダー付き本文構造"
+    ],
+    "requiredElements": [
+      "火の絵文字による強調装飾",
+      "白色の角丸長方形オーバーレイ（タイトル用）",
+      "赤色背景の角丸長方形（リスト用）",
+      "白い丸（•）のリストマーカー",
+      "赤背景白文字の「まとめ」ヘッダー",
+      "白背景黒文字の注意事項テキスト"
+    ],
+    "informationArrangement": "タイトル→リスト型情報提示→まとめ・注意事項（大量のツール名を視認性高く提示し、最後に重要な注意事項を独立して強調）"
+  }
+}

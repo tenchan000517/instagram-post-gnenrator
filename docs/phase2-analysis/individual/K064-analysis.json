@@ -1,0 +1,102 @@
+{
+  "knowledgeId": "K064",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K064分析記録",
+    "rawObservation": "docs/raw-analysis/contents-064-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K064.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "仕事ができる人の指示の出し方がわからない、上司として部下への指示が苦手",
+    "flowStages": [
+      "タイトル",
+      "問題提起",
+      "解決策導入",
+      "5つのテクニック詳細説明",
+      "まとめ",
+      "コミュニティ紹介"
+    ],
+    "completionState": "5つの指示整理術を理解し、効果的な指示出しができる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル",
+        "description": "雲型グラデーション背景にウサギキャラクターとタイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題共感",
+        "description": "複数意見で困る状況の表現"
+      },
+      {
+        "pageNumber": 3,
+        "role": "解決導入",
+        "description": "指示整理術の予告・導入"
+      },
+      {
+        "pageNumber": 4,
+        "role": "テクニック1",
+        "description": "直接バトらせる☆ - 対話例と説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "テクニック2",
+        "description": "時間制限プレッシャー - 対話例と説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "テクニック3",
+        "description": "議事録で逃がさない☆ - 対話例と説明"
+      },
+      {
+        "pageNumber": 7,
+        "role": "テクニック4",
+        "description": "虎の威力は借りまくり♡ - 対話例と説明"
+      },
+      {
+        "pageNumber": 8,
+        "role": "テクニック5",
+        "description": "困ったちゃん演出 - 対話例と説明"
+      },
+      {
+        "pageNumber": 9,
+        "role": "まとめ",
+        "description": "5つのテクニック要約"
+      },
+      {
+        "pageNumber": 10,
+        "role": "コミュニティ",
+        "description": "プロフィール・コミュニティ紹介"
+      }
+    ],
+    "flowOrder": [
+      "タイトル",
+      "問題提起",
+      "解決導入",
+      "5つのテクニック（各1ページ）",
+      "まとめ",
+      "コミュニティ"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ウサギキャラクターの一貫した使用",
+      "対話例の雲型吹き出し配置",
+      "赤茶色ヘッダーの統一（テクニック説明ページ）"
+    ],
+    "requiredElements": [
+      "ウサギキャラクター",
+      "雲型グラデーション背景",
+      "雲型吹き出し",
+      "赤茶色ヘッダー",
+      "虹色装飾",
+      "テクニック名",
+      "対話例",
+      "説明文",
+      "キャラクター表情変化"
+    ],
+    "informationArrangement": "タイトル→問題提起→解決導入→5つのテクニック（各1ページ）→まとめ→コミュニティ"
+  }
+}

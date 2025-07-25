@@ -1,0 +1,85 @@
+{
+  "knowledgeId": "K078",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K078分析記録",
+    "rawObservation": "docs/raw-analysis/contents-078-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K078.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就職活動中の学生がAIによる仕事の代替可能性について不安を抱いている",
+    "flowStages": [
+      "タイトル",
+      "統計データ提示",
+      "職業リスト概観",
+      "3つの職業詳細分析",
+      "代替困難職業リスト"
+    ],
+    "completionState": "AIに代替される職業と代替されにくい職業を理解し、就職活動の方向性を決められる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル",
+        "description": "緑グラデーション背景にインパクトタイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "統計データ",
+        "description": "AIによる職業代替統計の大きな数値表示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "職業リスト",
+        "description": "代替される職業のチェックボックス表示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "職業分析1",
+        "description": "職業1の詳細分析（業務内容・理由・注意点）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "職業分析2",
+        "description": "職業2の詳細分析（業務内容・理由・注意点）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "職業分析3",
+        "description": "職業3の詳細分析（業務内容・理由・注意点）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "対比リスト",
+        "description": "代替困難職業リストと行動促進"
+      }
+    ],
+    "flowOrder": [
+      "タイトル→統計→リスト→詳細分析3つ→対比リスト"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "統計データの大きな表示とPickUpマークによる強調",
+      "職業詳細の構造化",
+      "統計データの大きな表示",
+      "PickUpマークでの3職業強調"
+    ],
+    "requiredElements": [
+      "緑グラデーション背景",
+      "インパクトタイトル",
+      "統計数値",
+      "ソース情報",
+      "チェックボックス",
+      "PickUpマーク",
+      "職業番号",
+      "業務内容",
+      "代替理由",
+      "注意点",
+      "代替困難職業リスト",
+      "ハッシュタグ"
+    ],
+    "informationArrangement": "タイトル→統計→リスト→詳細分析3つ→対比リスト"
+  }
+}

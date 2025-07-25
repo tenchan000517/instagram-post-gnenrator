@@ -1,0 +1,81 @@
+{
+  "knowledgeId": "K004",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md - K004分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-004-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K004.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活や転職活動において自己分析が必要だが、具体的にどうやって進めれば良いか分からない",
+    "flowStages": [
+      "カバーページでテーマ提示",
+      "必要性の理論説明（3つの理由）",
+      "5つの手法を3ページで詳細解説",
+      "他コンテンツへの誘導"
+    ],
+    "completionState": "5つの自己分析手法（自分史、なぜの深掘り、モチベーショングラフ、マインドマップ、ジョハリの窓）を理解し、実践できる状態、継続的な学習のためのマイナビコンテンツ活用"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトルカバー",
+        "description": "ハッシュタグ、メインタイトル、5選の数字強調、マイナビブランド表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "必要性説明",
+        "description": "なぜ自己分析が必要かを3つの理由でチェックマーク付きリスト形式で説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "手法1-2詳細",
+        "description": "自分史の作成と「なぜ」の深掘りの具体的手順と注意事項"
+      },
+      {
+        "pageNumber": 4,
+        "role": "手法3詳細+図解",
+        "description": "モチベーショングラフの作成方法と実際のグラフ例示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "手法4詳細+図解",
+        "description": "マインドマップの作成手順と中心から放射状の図解例"
+      },
+      {
+        "pageNumber": 6,
+        "role": "手法5詳細+図解",
+        "description": "ジョハリの窓の理論説明と4分割図解による理解促進"
+      },
+      {
+        "pageNumber": 7,
+        "role": "他コンテンツ誘導",
+        "description": "マイナビの他コンテンツ紹介とプロフィール誘導、保存促進"
+      }
+    ],
+    "flowOrder": [
+      "理論説明による必要性の認識",
+      "5手法の段階的詳細解説",
+      "図解による理解促進",
+      "継続学習促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "薄青色背景の統一",
+      "白色カードでのコンテンツ配置",
+      "番号円による手法識別",
+      "図解の効果的配置",
+      "ブランド要素の適切な表示"
+    ],
+    "requiredElements": [
+      "チェックマーク付きリスト",
+      "青色番号円",
+      "実際の図解例（グラフ、マインドマップ、4分割図）",
+      "警告マーク",
+      "マイナビブランドロゴ"
+    ],
+    "informationArrangement": "理論説明＋5手法の段階的詳細解説＋図解例示＋教育コンテンツブランド誘導"
+  }
+}

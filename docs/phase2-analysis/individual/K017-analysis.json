@@ -1,0 +1,101 @@
+{
+  "knowledgeId": "K017",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K011-K018-analysis.md lines 113-144",
+    "rawObservation": "docs/raw-analysis/contents-017-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K017.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "5月時点で内定がなく、焦りや不安を感じている就活生",
+    "flowStages": [
+      "タイトル",
+      "体験談1＋アドバイス",
+      "体験談2＋アドバイス",
+      "体験談3＋アドバイス",
+      "体験談4＋アドバイス",
+      "体験談5＋アドバイス",
+      "総括"
+    ],
+    "completionState": "焦りが和らぎ、前向きな行動への意欲が湧いた状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "共感を呼ぶタイトル",
+        "description": "タイトルページ・コンテンツ紹介"
+      },
+      {
+        "pageNumber": 2,
+        "role": "コンテンツの説明・導入",
+        "description": "コンテンツの説明・導入"
+      },
+      {
+        "pageNumber": 3,
+        "role": "体験談1とアドバイス",
+        "description": "体験談1の紹介とアドバイス"
+      },
+      {
+        "pageNumber": 4,
+        "role": "体験談2とアドバイス",
+        "description": "体験談2の紹介とアドバイス"
+      },
+      {
+        "pageNumber": 5,
+        "role": "体験談3とアドバイス",
+        "description": "体験談3の紹介とアドバイス"
+      },
+      {
+        "pageNumber": 6,
+        "role": "体験談4とアドバイス",
+        "description": "体験談4の紹介とアドバイス"
+      },
+      {
+        "pageNumber": 7,
+        "role": "体験談5とアドバイス",
+        "description": "体験談5の紹介とアドバイス"
+      },
+      {
+        "pageNumber": 8,
+        "role": "全体の励ましメッセージ",
+        "description": "まとめと励ましのメッセージ"
+      },
+      {
+        "pageNumber": 9,
+        "role": "アカウント紹介・フォロー促進",
+        "description": "アカウント紹介・フォロー促進"
+      }
+    ],
+    "flowOrder": [
+      "タイトル紹介",
+      "コンテンツ説明",
+      "周りが終わってきて焦る",
+      "4月からでも企業はある",
+      "やる気とモチベ全然続かない",
+      "100点ではなく70点を目指す",
+      "大企業だけがいい企業でない",
+      "6月への励ましメッセージ",
+      "定期配信の告知"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "薄グレー・白・青色の背景切り替え",
+      "白い吹き出しでの体験談表示",
+      "青い点線枠での強調表示",
+      "ひよこキャラクターの配置",
+      "表情変化による感情表現"
+    ],
+    "requiredElements": [
+      "青い丸い背景エリア",
+      "白い吹き出し",
+      "青い点線枠",
+      "黄色いひよこキャラクター",
+      "表情バリエーション（困った・普通・疲れた・笑顔・考える・メガネ）",
+      "絵文字の使用",
+      "保存促進メッセージ"
+    ],
+    "informationArrangement": "体験談を上部、アドバイスを下部に配置"
+  }
+}

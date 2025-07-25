@@ -1,0 +1,92 @@
+{
+  "knowledgeId": "K045",
+  "sourceData": {
+    "phase1Record": "適性検査の対策方法がわからない、性格検査で一貫性を保てない問題に対し、適性検査の種類別対策法と性格検査での回答一貫性確保方法を具体的に説明している。解決の流れ: 検査種別紹介→各種対策法→実践的アドバイス→成功のコツの体系的構成。各ページ役割: page1: title-problem, page2: test-types-introduction, page3-7: strategy-by-type, page8-9: practical-advice, page10: success-tips。総ページ数10ページ、紫系背景での種類別分類表示、対策ポイントの明確化、実践的アドバイス表示が必要。",
+    "rawObservation": "7ページ構成。青色グラデーション背景（ページ1）から白色背景（ページ2-7）への変化。ページ1は中央に白い角丸カードが配置。適性検査の2種類（能力診断・性格診断）の説明、学力問題の分類（非言語系・言語系）、突破の3つのコツ（消去法・時間配分・出題パターン把握）、WebテストURL見分け方の参照表、7月からの対策開始促進、最終ページで保存促進。ビジネスマン風キャラクターイラスト（全ページ共通）、青色矢印による誘導。",
+    "knowledgeBase": "就職活動中の学生が適性検査（能力診断・性格診断）の対策に不安を感じており、特に学力問題（非言語系・言語系）の解き方やWebテストの種類の見分け方がわからず困っている。適性検査を突破するための具体的な対策方法と攻略のコツを体系的に提供。タイトルページ：青色背景に白い角丸カードでタイトル表示、黄色下線で「こう解け」を強調、表形式での情報整理、チェックボックス付きリスト形式で3つの突破のコツを視覚的に整理、最終ページで保存促進。"
+  },
+  "problemSolutionFlow": {
+    "problem": "適性検査の対策方法がわからない、性格検査で一貫性を保てない、学力問題の解き方が不明",
+    "flowStages": [
+      "問題認識と緊急性の提示（選考に鬼門になる）",
+      "適性検査への不安感への共感（めっちゃ不安じゃない？？）",
+      "適性検査の基本理解（能力診断・性格診断の2種類）",
+      "学力問題の詳細分類（非言語系・言語系の具体的内容）",
+      "突破のコツの実践的提示（消去法・時間配分・出題パターン）",
+      "WebテストURL見分け方の実用的参照資料提供",
+      "7月からの対策開始という具体的行動促進",
+      "情報保存による継続活用の促進"
+    ],
+    "completionState": "適性検査対策に不安を感じていた学生が、種類別の具体的対策法と一貫性確保のノウハウを習得し、適性検査での成果向上の意欲を獲得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-problem-presentation",
+        "description": "適性検査の鬼門性を強調するタイトル提示、解決策予告で関心喚起"
+      },
+      {
+        "pageNumber": 2,
+        "role": "anxiety-empathy-and-basic-explanation",
+        "description": "適性検査への不安感への共感、能力診断と性格診断の基本説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "detailed-problem-classification",
+        "description": "学力問題の詳細分類、非言語系と言語系の具体的内容説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "practical-breakthrough-tips",
+        "description": "突破の3つのコツの具体的提示、実践的アドバイスの重点説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "webtest-identification-reference",
+        "description": "WebテストURL見分け方の参照表、実用的な事前準備方法の提供"
+      },
+      {
+        "pageNumber": 6,
+        "role": "action-motivation-and-timing",
+        "description": "7月からの対策開始促進、後悔回避による感情的動機付け"
+      },
+      {
+        "pageNumber": 7,
+        "role": "save-promotion-and-continuation",
+        "description": "情報保存の促進、継続的活用による就活加速の促進"
+      }
+    ],
+    "flowOrder": [
+      "title-problem-presentation",
+      "anxiety-empathy-and-basic-explanation",
+      "detailed-problem-classification", 
+      "practical-breakthrough-tips",
+      "webtest-identification-reference",
+      "action-motivation-and-timing",
+      "save-promotion-and-continuation"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青色グラデーション背景（ページ1）から白色背景（ページ2-7）への段階的変化",
+      "ページ1のみ中央に白い角丸カード配置",
+      "表形式での情報整理（適性検査種類、WebテストURL特徴）",
+      "チェックボックス付きリスト形式での3つのコツ整理",
+      "ビジネスマン風キャラクターイラストの全ページ統一配置",
+      "最終ページでの保存促進アイコン（大きなブックマーク）表示"
+    ],
+    "requiredElements": [
+      "黄色下線による「こう解け」の強調表示",
+      "青色ヘッダーでの表タイトル表示",
+      "青色チェックマーク（✓）付きリスト形式",
+      "ピンク色ヘッダーの参照表（WebテストURL見分け方）",
+      "ビジネスマン風キャラクターイラスト（スーツ姿、各種ポーズ）",
+      "青色矢印による視線誘導",
+      "青色ブックマークアイコン（保存促進用）",
+      "感嘆符を多用した感情的表現"
+    ],
+    "informationArrangement": "問題認識→不安共感→基本理解→詳細分類→実践的コツ→参照資料→行動促進→保存促進の順序で、適性検査に対する不安から具体的対策法の習得、実践的活用まで段階的に誘導する構成"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "knowledgeId": "K107",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K101-K110-analysis.md (該当セクションなし - 記録未完了)",
+    "rawObservation": "docs/raw-analysis/contents-107-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K107.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "Canvaの無料版では機能が限られていると思い込み、有料版でなければ良いデザインができないと諦めている",
+    "flowStages": [
+      "1. 背景除去: メニューからアプリを選択→Background Eraser検索→画像をアップロード→Remove Backgroundを選択",
+      "2. ぼかし: 使いたい画像を選択→編集＞エフェクトを選択→ぼかしを選択→ぼかし濃度を調節→背景除去した被写体を重ねる",
+      "3. 無料素材を検索: メニューからアプリを選択→Pixabayと検索→使いたい素材を検索する",
+      "4. 写真を文字にする: メニューからアプリを選択→TypeCutOutと検索→使いたいテキストを入力し背景にしたい画像を選択→画像の位置やフォントを決定→Add to designを押す",
+      "5. 印画像に変換: メニューからアプリを選択→Design to imageと検索→使いたい画像を選択する→画像を入れたいページに追加する"
+    ],
+    "completionState": "Canva無料版の5つの神機能を身につけ、有料版に匹敵するプロレベルのデザインを作成できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 8,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル・驚きの提示",
+        "description": "手を重ねる温かい写真背景でCanvaの意外な無料機能をアピール"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題認識と解決策予告",
+        "description": "無料版への諦めを問題提起し、神機能5選の存在を予告"
+      },
+      {
+        "pageNumber": 3,
+        "role": "テクニック詳細1: 背景除去",
+        "description": "Background Eraser使用の4ステップ手順をスマホ画面で説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "テクニック詳細2: ぼかし",
+        "description": "立体感とプロ感を演出するぼかし機能の5ステップ手順"
+      },
+      {
+        "pageNumber": 5,
+        "role": "テクニック詳細3: 無料素材検索",
+        "description": "Pixabay連携による商用利用OKの無料素材活用法"
+      },
+      {
+        "pageNumber": 6,
+        "role": "テクニック詳細4: 写真文字化",
+        "description": "TypeCutOut機能でデザインの幅を広げる5ステップ手順"
+      },
+      {
+        "pageNumber": 7,
+        "role": "テクニック詳細5: 印画像変換",
+        "description": "Design to image機能による時短効果の4ステップ手順"
+      },
+      {
+        "pageNumber": 8,
+        "role": "関連コンテンツとCTA",
+        "description": "過去人気投稿の紹介とアカウント情報、保存促進"
+      }
+    ],
+    "flowOrder": [
+      "無料版への固定観念の打破",
+      "5つの神機能の段階的詳細説明",
+      "実用性とプロ効果の強調",
+      "関連価値の提示と行動促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "Canvaロゴと最新版アピールによる信頼性構築",
+      "青いヘッダーバーによる統一感",
+      "スマートフォン画面のスクリーンショットによる具体性",
+      "番号付きステップ表示による分かりやすさ"
+    ],
+    "requiredElements": [
+      "Canvaロゴ（グラデーション）",
+      "青色ヘッダー（「無料版でもOK神機能｜XX」形式）",
+      "スマートフォン画面キャプチャ",
+      "番号付きステップリスト",
+      "効果説明テキスト（「！！！」強調付き）",
+      "関連投稿のカバー画像"
+    ],
+    "informationArrangement": "各神機能を1ページずつ詳細説明し、実際のアプリ画面と手順番号で操作方法を明確に提示する形式"
+  }
+}

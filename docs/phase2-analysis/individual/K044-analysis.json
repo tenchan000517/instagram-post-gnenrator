@@ -1,0 +1,109 @@
+{
+  "knowledgeId": "K044",
+  "sourceData": {
+    "phase1Record": "選考で落ちた経験を活かせない、新たな選考機会を見つけられない問題に対し、選考落ちの学生向けマッチングサービス「ABABA」の機能と活用方法を紹介している。解決の流れ: 問題提起→サービス紹介→機能説明→利用促進の論理的構成。各ページ役割: page1: problem-introduction, page2: service-introduction, page3-5: function-explanation, page6-7: usage-promotion。総ページ数7ページ、青系背景でのサービス紹介、ロゴ強調、機能説明図解、登録促進ボタンが必要。",
+    "rawObservation": "10ページ構成。一貫したティール色（青緑色）グラデーション背景、企業情報カード形式。学歴フィルターなしで大量採用している企業42社を業界別に分類：IT業界12社、メーカー12社、金融6社、住宅・建築6社、その他6社。各企業の平均年収（640万円～2039万円）と採用人数（140人～1200人）を明示。最終2ページで就活後半期の問題提起とABABAサービス紹介・登録促進。",
+    "knowledgeBase": "学歴フィルターにより大手企業への就職が困難で、学歴に関係なく採用してくれる優良企業の情報が必要。学歴フィルターを設けずに大量採用している企業42社を業界別に分類して紹介。カテゴリ別企業一覧表示（業界タブ形式）、企業名・平均年収・採用人数の3点セット表示、各ページ下部にその業界の特徴的企業の補足説明、最終ページで問題提起とソリューション提示、ABABAの紹介・登録促進のCTA。"
+  },
+  "problemSolutionFlow": {
+    "problem": "学歴フィルターにより大手企業への就職が困難で、学歴に関係なく採用してくれる優良企業の情報が必要",
+    "flowStages": [
+      "問題提起（学歴フィルターなし・大量採用の価値提示）",
+      "業界別企業情報の体系的提供（IT・メーカー・金融・住宅建築・その他）",
+      "各企業の具体的データ提示（年収・採用人数）",
+      "企業ごとの魅力的な福利厚生・働き方の紹介",
+      "就活後半期の現実的課題の認識（6月以降の選考減少）",
+      "問題への共感創出（締切に間に合わない不安）",
+      "解決策としてのABABAサービス紹介",
+      "サービスの具体的メリット提示と登録促進"
+    ],
+    "completionState": "学歴フィルターに悩む就活生が、42社の具体的企業情報を獲得し、ABABAサービスを通じた新たな選考機会獲得の方向性を理解した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "value-proposition-presentation",
+        "description": "学歴フィルターなし・大量採用・大企業42選という価値提案の明確な提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "it-industry-companies-list-1",
+        "description": "IT業界企業6社の詳細情報（楽天・大塚商会・伊藤忠テクノソリューションズ・NEC・富士ソフト・日本IBM）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "it-industry-companies-list-2", 
+        "description": "IT業界企業6社の詳細情報続き（富士通・NTTドコモ・NECソリューションイノベータ・日本TCS・DTS・TIS）と福利厚生情報"
+      },
+      {
+        "pageNumber": 4,
+        "role": "manufacturer-industry-companies-list-1",
+        "description": "メーカー業界企業6社の詳細情報（ソニー・パナソニック・三菱電機・三菱重工業・アイリスオーヤマ・トヨタ）と働き方情報"
+      },
+      {
+        "pageNumber": 5,
+        "role": "manufacturer-industry-companies-list-2",
+        "description": "メーカー業界企業6社の詳細情報続き（ダイキン工業・リコージャパン・アイシン・本田技研工業・シャープ・キーエンス）とワークライフバランス情報"
+      },
+      {
+        "pageNumber": 6,
+        "role": "financial-industry-companies-list",
+        "description": "金融業界企業6社の詳細情報（明治安田生命・三井住友銀行・大和証券・東京海上日動火災保険・りそな銀行・三井住友海上火災保険）と住宅補助情報"
+      },
+      {
+        "pageNumber": 7,
+        "role": "construction-real-estate-companies-list",
+        "description": "住宅・建築業界企業6社の詳細情報（大和ハウス工業・積水ハウス・大東建託グループ・一条工務店・清水建設・大成建設）と住宅手当情報"
+      },
+      {
+        "pageNumber": 8,
+        "role": "other-industries-companies-list",
+        "description": "その他業界企業6社の詳細情報（JR東海・ニトリ・TOPPAN・JTB・東京電力・ALSOK）と女性の働きやすさ情報"
+      },
+      {
+        "pageNumber": 9,
+        "role": "problem-recognition-and-solution-teaser",
+        "description": "就活後半期の現実的課題提示（6月以降の選考減少）と解決策への予告"
+      },
+      {
+        "pageNumber": 10,
+        "role": "ababa-service-introduction-and-registration-cta",
+        "description": "ABABAサービスの紹介、94%のスカウトがES・面接カットという具体的メリット提示と登録促進"
+      }
+    ],
+    "flowOrder": [
+      "value-proposition-presentation",
+      "it-industry-companies-list-1",
+      "it-industry-companies-list-2",
+      "manufacturer-industry-companies-list-1",
+      "manufacturer-industry-companies-list-2", 
+      "financial-industry-companies-list",
+      "construction-real-estate-companies-list",
+      "other-industries-companies-list",
+      "problem-recognition-and-solution-teaser",
+      "ababa-service-introduction-and-registration-cta"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "一貫したティール色グラデーション背景（全ページ統一）",
+      "白色カード形式のコンテンツ配置（企業情報ページ）",
+      "業界別カテゴリーヘッダーの明確な表示",
+      "企業名・平均年収・採用人数の3点セット統一表示",
+      "点線区切りによるリスト形式の整理",
+      "右上角のページインジケーター（X/10形式）"
+    ],
+    "requiredElements": [
+      "ティール色と紫色のラベル（企業カテゴリー表示）",
+      "企業名（太字）・年収・採用人数（通常フォント）の階層表示",
+      "キャラクターによる補足説明（吹き出し形式）",
+      "問題認識ページでの三分割背景（ティール・黒黄警告・赤色）",
+      "ABABAロゴとキャラクター付きサービス紹介",
+      "キラキラ星エフェクト（最終ページ）",
+      "スマートフォン画面モックアップ（登録方法説明）"
+    ],
+    "informationArrangement": "価値提案明示→業界別企業情報提供（IT→メーカー→金融→住宅建築→その他）→福利厚生・働き方情報→現実課題認識→解決策提示→具体的行動促進の順序で、情報提供から問題解決まで段階的に誘導する構成"
+  }
+}

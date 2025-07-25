@@ -1,0 +1,113 @@
+{
+  "knowledgeId": "K065",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K065分析記録",
+    "rawObservation": "docs/raw-analysis/contents-065-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K065.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "完璧主義で働いても動けない、勉強や仕事で失敗することへの恐怖",
+    "flowStages": [
+      "タイトル",
+      "問題共感",
+      "優等生の呪縛分析",
+      "完璧主義のクセ分析",
+      "心理背景",
+      "恐怖心分析",
+      "解決策提示",
+      "具体的アドバイス",
+      "励まし",
+      "プロフィール"
+    ],
+    "completionState": "完璧主義の呪縛から解放され、60%完成度で行動できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "インパクトタイトル",
+        "description": "黒背景に白文字で強いインパクト表現"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題共感1",
+        "description": "優等生タイプの悩みへの共感表現"
+      },
+      {
+        "pageNumber": 3,
+        "role": "問題共感2",
+        "description": "完璧主義の心理的背景説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "呪縛分析",
+        "description": "優等生の呪縛をチェック項目で分析"
+      },
+      {
+        "pageNumber": 5,
+        "role": "クセ分析",
+        "description": "完璧主義のクセをチェック項目で分析"
+      },
+      {
+        "pageNumber": 6,
+        "role": "現状認識",
+        "description": "完璧主義による現在の問題状況"
+      },
+      {
+        "pageNumber": 7,
+        "role": "恐怖心分析",
+        "description": "行動を阻む恐怖心の詳細分析"
+      },
+      {
+        "pageNumber": 8,
+        "role": "解決策提示",
+        "description": "やりながら整えるという解決策の核心"
+      },
+      {
+        "pageNumber": 9,
+        "role": "具体的アドバイス",
+        "description": "60%完成度での実行という具体的指針"
+      },
+      {
+        "pageNumber": 10,
+        "role": "励まし",
+        "description": "実行への励ましとエンパワーメント"
+      },
+      {
+        "pageNumber": 11,
+        "role": "プロフィール",
+        "description": "コミュニティ・プロフィール紹介"
+      }
+    ],
+    "flowOrder": [
+      "タイトル",
+      "問題共感",
+      "呪縛分析（3ページ）",
+      "心理分析（2ページ）",
+      "解決策（2ページ）",
+      "励まし",
+      "プロフィール"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "一貫した青色背景（page2-11）",
+      "チェックボックス形式の問題分析",
+      "黒背景→青背景の変化演出"
+    ],
+    "requiredElements": [
+      "黒背景（page1）",
+      "青色背景（page2-11）",
+      "手書き風フォント",
+      "雲型吹き出し",
+      "白色ボックス強調",
+      "チェックボックス",
+      "呪縛要素",
+      "クセ要素",
+      "恐怖要素",
+      "解決策要素"
+    ],
+    "informationArrangement": "タイトル→問題共感→呪縛分析（3ページ）→心理分析（2ページ）→解決策（2ページ）→励まし→プロフィール"
+  }
+}

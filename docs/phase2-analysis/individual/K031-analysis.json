@@ -1,0 +1,87 @@
+{
+  "knowledgeId": "K031",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K031分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-031-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K031.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "学生が職種選びで残業の多い・少ない職種について知りたい、就活をいつから始めればよいか分からない",
+    "flowStages": [
+      "問題提起→残業多い職種データ→残業少ない職種データ→影響度説明→緊急性演出→解決策提供"
+    ],
+    "completionState": "職種選択判断材料を得て、就活開始への動機付けが完了し、無料攻略情報取得への導線が提供された状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 8,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-and-hook",
+        "description": "問題提起とフック（残業に対する関心喚起）"
+      },
+      {
+        "pageNumber": 2,
+        "role": "ranking-data",
+        "description": "具体的データ提示（残業多い職種TOP10）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "ranking-data",
+        "description": "具体的データ提示（残業多い職種11-20位）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "ranking-data",
+        "description": "対比データ提示（残業少ない職種TOP10）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "ranking-data",
+        "description": "対比データ提示（残業少ない職種11-20位）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "impact-explanation",
+        "description": "残業時間の生活への影響を具体的に説明"
+      },
+      {
+        "pageNumber": 7,
+        "role": "urgency-message",
+        "description": "緊急性の演出と問題提起への共感"
+      },
+      {
+        "pageNumber": 8,
+        "role": "cta-offering",
+        "description": "商品提供とCTA（行動喚起）"
+      }
+    ],
+    "flowOrder": [
+      "インパクトのあるタイトルで関心獲得",
+      "ランキングデータ分割表示（多い/少ない対比）",
+      "影響度段階説明で理解促進",
+      "緊急性演出で行動促進",
+      "CTA導線で解決策提供"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ランキングテーブル形式での統一配置",
+      "色分けによる視覚的分類（青色/オレンジ色での対比表現）",
+      "段階的情報提示",
+      "大量ランキングデータの視認性確保",
+      "対比構造での理解促進"
+    ],
+    "requiredElements": [
+      "ranking配列構造",
+      "impact段階データ",
+      "character情報",
+      "URL等の構造化データ",
+      "赤文字での数値強調",
+      "段階的色分けバー表示",
+      "キャラクターイラスト",
+      "吹き出し形式"
+    ],
+    "informationArrangement": "データを対比構造で提示→影響を具体化→緊急性で行動促進する順序実行必須"
+  }
+}

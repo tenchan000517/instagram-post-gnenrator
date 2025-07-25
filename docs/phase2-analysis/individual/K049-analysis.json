@@ -1,0 +1,97 @@
+{
+  "knowledgeId": "K049",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K049分析記録",
+    "rawObservation": "contents-049-observation.json - 10ページ構成の観察データ",
+    "knowledgeBase": "K049.json - 仕事が早い人の習慣の知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "仕事が遅い、効率的な働き方がわからない、時間管理ができない",
+    "flowStages": [
+      "問題提起",
+      "習慣紹介",
+      "各習慣詳細",
+      "実践促進の習慣別構成"
+    ],
+    "completionState": "仕事の効率化に悩んでいた社会人が、８つの具体的な習慣を習得し、実践可能な効率化手法を理解して日常業務での実践意欲を獲得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-introduction",
+        "description": "タイトル紹介と関心喚起"
+      },
+      {
+        "pageNumber": 2,
+        "role": "habit-presentation",
+        "description": "習慣１：15分以上読書をするの提示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "habit-presentation",
+        "description": "習慣２：週に3回程度の筋トレの提示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "habit-presentation",
+        "description": "習慣３：7時間以上の睡眠を取るの提示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "habit-presentation",
+        "description": "習慣４：身の回りを整理整頓しているの提示"
+      },
+      {
+        "pageNumber": 6,
+        "role": "habit-presentation",
+        "description": "習慣５：仕事で使う情報を収集しているの提示"
+      },
+      {
+        "pageNumber": 7,
+        "role": "habit-presentation",
+        "description": "習慣６：身だしなみがしっかり整っているの提示"
+      },
+      {
+        "pageNumber": 8,
+        "role": "habit-presentation",
+        "description": "習慣７：寝る前にジャーナリングをするの提示"
+      },
+      {
+        "pageNumber": 9,
+        "role": "habit-presentation",
+        "description": "習慣８：プライベートを大切にするの提示"
+      },
+      {
+        "pageNumber": 10,
+        "role": "summary-cta",
+        "description": "まとめ・エンゲージメント促進・フォロー誘導"
+      }
+    ],
+    "flowOrder": [
+      "問題共感",
+      "習慣理解",
+      "詳細方法習得",
+      "実践行動促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ブルー系グラデーション背景で統一",
+      "白色半透明カード重ね（タイトルページとまとめページ）",
+      "背景直接テキスト配置（習慣ページ）",
+      "NUMBER + 大きな数字 + 習慣内容の統一レイアウト"
+    ],
+    "requiredElements": [
+      "効率化アイコン",
+      "習慣番号バッジ",
+      "チェックリスト",
+      "保存ボタン",
+      "PCで作業する人のイラスト",
+      "動物キャラクター（くま）",
+      "「仕事が早い人の最強の習慣」固定ヘッダー"
+    ],
+    "informationArrangement": "問題提起 + 習慣概要 + 8習慣詳細 + 実践促進・保存"
+  }
+}

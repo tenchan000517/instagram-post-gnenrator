@@ -50,13 +50,13 @@
   ],
   "marketingStage": "就活準備段階の大学3年生、自分のスペックに不安を感じている学生",
   "knowledgeId": "K032",
-  "pageStructurePattern": "",
   "actualTitle": "まだ黒髪にしてない3年生へ",
   "pageCount": 11,
+  "contentPageCount": 9,
   "hashTag": "とりえがなくてもホワイト企業内定",
   "detailedContent": {
     "page1": {
-      "role": "title-and-target",
+      "role": "title-cover",
       "content": {
         "title": "まだ黒髪にしてない3年生へ",
         "background": "薄紫色背景",
@@ -66,6 +66,8 @@
       }
     },
     "page2": {
+      "section": "intro",
+      "template": "basic_intro",
       "role": "story-introduction",
       "content": {
         "title": "大学3年生のお話です！",
@@ -86,6 +88,8 @@
       }
     },
     "page3": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
       "role": "problem-realization",
       "content": {
         "background": "白色背景",
@@ -104,6 +108,8 @@
       }
     },
     "page4": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
       "role": "comparison-and-anxiety",
       "content": {
         "background": "白色背景",
@@ -124,6 +130,8 @@
       }
     },
     "page5": {
+      "section": "mainContent",
+      "template": "points_list_analysis",
       "role": "self-comparison",
       "content": {
         "title": "Yちゃんと比べて私は...",
@@ -140,6 +148,8 @@
       }
     },
     "page6": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
       "role": "intern-experience",
       "content": {
         "background": "白色背景",
@@ -159,6 +169,8 @@
       }
     },
     "page7": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
       "role": "mentor-advice",
       "content": {
         "background": "白色背景",
@@ -178,6 +190,8 @@
       }
     },
     "page8": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
       "role": "decision-and-action",
       "content": {
         "background": "白色背景",
@@ -198,6 +212,8 @@
       }
     },
     "page9": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
       "role": "transformation-result",
       "content": {
         "background": "白色背景",
@@ -218,6 +234,8 @@
       }
     },
     "page10": {
+      "section": "mainContent",
+      "template": "practical_guide_conversation",
       "role": "urgency-message",
       "content": {
         "background": "白色背景",
@@ -230,6 +248,8 @@
       }
     },
     "page11": {
+      "section": "summary",
+      "template": "basic_summary",
       "role": "cta-offering",
       "content": {
         "background": "白色背景",

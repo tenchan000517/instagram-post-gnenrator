@@ -1,0 +1,231 @@
+{
+  "knowledgeId": "K100",
+  "analysisDate": "2025-07-24",
+  "dataSourcesUsed": [
+    "docs/phase1-analysis/session3-K091-K100-analysis.md",
+    "docs/raw-analysis/contents-100-observation.json",
+    "app/data/knowledgeBase/knowledge/K100.json"
+  ],
+  "basicInformation": {
+    "problemDescription": "AIエージェントの社内導入が必要だが具体的にどのツールを選べばいいかわからない、時代の変化に対応できているか不安",
+    "solutionReason": "用途別に15種類のAIエージェントを具体的に紹介し、実際の業務効率化に活用できる実用的な情報を提供",
+    "postType": "004",
+    "marketingStage": "AIエージェント導入を検討している企業の意思決定者・担当者"
+  },
+  "contentStructure": {
+    "totalPages": 17,
+    "contentFlow": "時代遅れへの警告・解決策提示→15種類のAIエージェント順次紹介→各エージェントの具体的機能・効果説明",
+    "pageRoles": {
+      "page1": "警告・解決策",
+      "page2-10": "AIエージェント紹介(9種類+ボーナス1種類)",
+      "page11-17": "その他エージェント継続"
+    },
+    "solutionCompletionState": "15種類のAIエージェントの特徴を理解し、自社の用途に適したエージェントを選択・導入できる状態"
+  },
+  "requiredPageStructure": {
+    "structureFileName": "ai-agents-comprehensive-guide-17page.json",
+    "specializationReason": "多様な業務領域での具体的なツール紹介と効果を詳細に説明するため",
+    "designRequirement": "X（Twitter）形式、各AIエージェントの実際の動画デモを含む"
+  },
+  "templateDesignPatterns": {
+    "page1": {
+      "templatePattern": "x-post",
+      "details": {
+        "type": "x-post",
+        "warning": "AIエージェントの社内導入をしないと時代に置いていかれます",
+        "solution": "用途別15選まとめ",
+        "benefits": ["コスト削減", "業務効率化", "成果向上"],
+        "darkTheme": true
+      }
+    },
+    "page2-10": {
+      "templatePattern": "agent-demo",
+      "details": {
+        "type": "agent-demo",
+        "number": "1-9",
+        "agentName": "AIエージェント名",
+        "specialty": "特化分野",
+        "description": "機能説明",
+        "demoVideo": "実際のデモ動画",
+        "benefit": "効果・時間短縮"
+      }
+    },
+    "page10": {
+      "templatePattern": "bonus-agent",
+      "details": {
+        "type": "bonus-agent",
+        "label": "ボーナス",
+        "agentName": "Kortix Suna",
+        "specialty": "オープンソース汎用型",
+        "description": "幅広いタスク対応",
+        "uniqueness": "世界初のオープンソース",
+        "demoVideo": "汎用デモ動画"
+      }
+    },
+    "page11-17": {
+      "templatePattern": "continuation-pages",
+      "details": {
+        "type": "continuation-pages",
+        "content": "他の6つのAIエージェントの詳細紹介が続く",
+        "note": "継続コンテンツ表示"
+      }
+    }
+  },
+  "implementationRequirements": {
+    "templateName": "AIAgentsGuideTemplate.tsx",
+    "layoutRequirements": "X（Twitter）のダークモード、各AIエージェントの実際のデモ動画・画面",
+    "visualRequirements": "番号付き整理、多様なカテゴリー、具体的な活用例、ビジュアル豊富な紹介",
+    "dataStructureRequirements": "15種類のAIエージェント（BootLoopAI, Humoniq, Opennote, Dash, HeroUI等）の詳細情報"
+  },
+  "observedDesignElements": {
+    "backgroundType": "ダークモード画面",
+    "backgroundDescription": "黒・ダークグレー基調のX（Twitter）インターフェース",
+    "colorScheme": ["黒", "ダークグレー", "白", "青", "カラフル（動画内）"],
+    "typography": "X標準フォント、番号付きリスト形式",
+    "visualHierarchy": "1.問題提起 → 2.各AIエージェント紹介 → 3.具体的デモ → 4.効果説明",
+    "trustSignals": ["認証マーク", "実際のツールデモ", "具体的な効果数値", "多様なカテゴリー"],
+    "engagementElements": ["動画デモ", "番号付き整理", "具体的な活用例", "ビジュアル豊富な紹介"]
+  },
+  "contentDetails": {
+    "solutionContent": {
+      "概要": "用途別に分類された15種類の実用的なAIエージェントの包括的紹介",
+      "具体的手順": [
+        "自社の課題・用途に合うAIエージェントを選択",
+        "各エージェントの特徴を理解して導入",
+        "実際の業務に適用して効率化を図る"
+      ],
+      "提供情報": [
+        "BootLoopAI - ファームウェア開発特化",
+        "Humoniq - 旅行会社顧客サポート音声AI",
+        "Opennote - AI家庭教師・学習支援",
+        "Kular's Website Visitors - サイト訪問者分析・メール自動送信",
+        "Oki AI - 社内状況レポート自動生成",
+        "Dash - Gmail・Slack・Notion連携統合AI",
+        "Leeroo - 企業データ学習による継続改善AI",
+        "HeroUI - テキストからUI/UX自動デザイン",
+        "Kortix Suna - オープンソース汎用AIエージェント"
+      ],
+      "実用的なアドバイス": [
+        "コスト削減効果の実感",
+        "業務効率化の実現",
+        "成果向上への繋がり",
+        "社内での実際の導入・活用方法"
+      ]
+    },
+    "effectiveExpressions": [
+      "X（Twitter）投稿形式での情報提示",
+      "各AIエージェントの実際の動画デモ",
+      "番号付きの整理された紹介方式",
+      "具体的な用途説明と効果の記載"
+    ],
+    "actualTitle": "AIエージェントの社内導入をしないと時代に置いていかれます。",
+    "searchKeywords": [
+      "AI エージェント",
+      "社内導入",
+      "業務効率化",
+      "自動化",
+      "BootLoopAI",
+      "Humoniq",
+      "Opennote",
+      "Dash",
+      "HeroUI",
+      "コスト削減"
+    ],
+    "emotionalTriggers": [
+      "時代遅れへの不安解消",
+      "業務効率化への期待",
+      "コスト削減の実現",
+      "競合優位性の獲得",
+      "具体的な導入イメージの提供"
+    ],
+    "detailedPageContent": {
+      "page1": {
+        "role": "hook-urgency",
+        "content": "時代遅れへの警告と解決策提示",
+        "text": "AIエージェントの社内導入をしないと時代に置いていかれます。実際に多くの業務は既にAIエージェントに任せられます。僕も社内で使っていますが、圧倒的なコスト削減、業務の効率化、成果向上に繋がりました。ということで、用途別の実用的なAIエージェントを15選をまとめました",
+        "layout": "x-post-format"
+      },
+      "page2": {
+        "role": "ai-agent-01",
+        "content": "BootLoopAI紹介",
+        "text": "1. BootLoopAI ファームウェア開発に特化したAIエージェント。コーディングやデバグ等を実行し、数ヶ月かかっていた作業を数分に短縮します。",
+        "layout": "agent-demo-with-video"
+      },
+      "page3": {
+        "role": "ai-agent-02",
+        "content": "Humoniq紹介",
+        "text": "2. Humoniq 旅行会社の顧客サポートを担う音声AIエージェント。人間の代わりに電話対応まで行い、24時間365日、無休で対応してくれます。業務効率と顧客満足度を劇的に向上。",
+        "layout": "agent-demo-with-video"
+      },
+      "page4": {
+        "role": "ai-agent-03",
+        "content": "Opennote紹介",
+        "text": "3. Opennote 生徒一人ひとりに最適化されたビデオレッスンや練習問題を自動生成するAI家庭教師。もはやカリキュラムは生徒ごとにAIが用意して解説もAIがしてくれます。",
+        "layout": "agent-demo-with-illustration"
+      },
+      "page5": {
+        "role": "ai-agent-04",
+        "content": "Kular's Website Visitors紹介",
+        "text": "4. Kular's Website Visitors サイト訪問者を特定・分析し、パーソナライズしたメールを自動送信してくれるAIエージェント。面倒なリード獲得を完全に自動化します。",
+        "layout": "agent-demo-with-video"
+      },
+      "page6": {
+        "role": "ai-agent-05",
+        "content": "Oki AI紹介",
+        "text": "5. Oki AI 社内のコード、チケット、メッセージを全て読み込み、会社の状況をまとめたパーソナライズドレポートを毎日提供してくれるAIエージェント。経営者にとって嬉しい。",
+        "layout": "agent-demo-with-video"
+      },
+      "page7": {
+        "role": "ai-agent-06",
+        "content": "Dash紹介",
+        "text": "6. Dash Gmail、Slack、Notionなどを横断して連携し、情報検索や資料作成、メールの作成等のタスク実行をしてくれるAIエージェント。ワークフローを組んで完全自動化もできます。",
+        "layout": "agent-demo-with-video"
+      },
+      "page8": {
+        "role": "ai-agent-14",
+        "content": "Leeroo紹介",
+        "text": "14. Leeroo 企業のデータやワークフローを自ら学習し、継続的に精度を向上させる「訓練可能」なAIエージェントです。自律的に改善してくれるのが、良いポイント。",
+        "layout": "agent-demo-with-video"
+      },
+      "page9": {
+        "role": "ai-agent-15",
+        "content": "HeroUI紹介",
+        "text": "15. HeroUI テキスト指示だけでウェブサイトやプロダクトのUIをデザイン・開発してくれるAIエージェント。かなり高い精度のUI/UXを作ってくれて、Figmaとの連携もあります。",
+        "layout": "agent-demo-with-screenshot"
+      },
+      "page10": {
+        "role": "bonus-agent",
+        "content": "ボーナス Kortix Suna紹介",
+        "text": "ボーナス. Kortix Suna ブラウザ操作、ファイル管理、API連携など、幅広いタスクをこなすオープンソースの汎用AIエージェント。世界初のオープンソースの汎用型AIエージェントでもあります。",
+        "layout": "agent-demo-with-video"
+      }
+    }
+  },
+  "interactionElements": {
+    "checkboxes": "なし",
+    "buttons": "フォローボタン、エンゲージメントボタン",
+    "swipeIndicators": "なし（スクロール形式）",
+    "savePrompts": "標準的なX保存機能"
+  },
+  "analysisNotes": {
+    "uniqueCharacteristics": [
+      "X（Twitter）形式での包括的なAIエージェントガイド投稿",
+      "17ページにわたる大規模なコンテンツ構成",
+      "15種類の多様なAIエージェントの体系的紹介",
+      "各エージェントの実際のデモ動画を含む詳細説明",
+      "ボーナスページを含む階層化された情報提示"
+    ],
+    "specialRequirements": [
+      "15種類のAIエージェントそれぞれの実際のデモ動画配置",
+      "一貫した番号付きレイアウトの17ページ対応",
+      "各エージェントの特化分野と効果の明確な表示",
+      "X（Twitter）インターフェースの忠実な再現"
+    ],
+    "implementationChallenges": [
+      "17ページという大規模コンテンツの統合管理",
+      "多様なAIエージェントデモ動画の統合配置",
+      "継続ページ（11-17）の適切な表示処理",
+      "各エージェントの特性を活かした個別レイアウト設計"
+    ]
+  }
+}

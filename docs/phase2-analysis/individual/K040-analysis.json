@@ -1,0 +1,88 @@
+{
+  "knowledgeId": "K040",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K040分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-040-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K040.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "ガクチカのネタが思い浮かばない、どんな経験をアピールすればよいかわからない、エピソードがなくてガクチカが書けない",
+    "flowStages": [
+      "タイトルでの問題意識共有と数的訴求",
+      "アルバイト経験でのエピソード例提示",
+      "部活・サークル経験でのエピソード例提示",
+      "学業・ゼミ経験でのエピソード例提示",
+      "留学・長期インターン経験でのエピソード例提示",
+      "エピソードがない悩みへの共感と問題認識",
+      "希望提示と具体的解決策の提示・行動促進"
+    ],
+    "completionState": "ガクチカのネタに悩んでいた学生が、30種類の具体的なネタ例をカテゴリー別に獲得し、自分に適したアピールポイントを発見でき、攻略法テキストの取得方法を理解して行動を起こせる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-hook",
+        "description": "ガクチカネタ集の表紙・タイトル提示 - 薄青背景に白カード、30選という数的訴求"
+      },
+      {
+        "pageNumber": 2,
+        "role": "category-topics-introduction",
+        "description": "アルバイト経験での具体的エピソード例提示 - チェックリスト形式での整理された情報提示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "category-topics-introduction",
+        "description": "部活・サークル経験での具体的エピソード例提示 - チェックリスト形式での整理された情報提示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "category-topics-introduction",
+        "description": "学業・ゼミ経験での具体的エピソード例提示 - チェックリスト形式での整理された情報提示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "category-topics-introduction",
+        "description": "留学・インターン経験での具体的エピソード例提示 - 2セクション構成での整理"
+      },
+      {
+        "pageNumber": 6,
+        "role": "empathy-problem-hope",
+        "description": "共感創出・問題提起・希望提示・転換 - キャラクター使用での親しみやすい対話形式"
+      },
+      {
+        "pageNumber": 7,
+        "role": "solution-action-promotion",
+        "description": "具体的解決策の提示と行動促進 - プロフィール画面使用での信頼性構築"
+      }
+    ],
+    "flowOrder": [
+      "問題意識共有",
+      "カテゴリー別ネタ提示",
+      "具体例での発想支援",
+      "共感と問題認識の深化",
+      "希望提示",
+      "解決策提示",
+      "行動促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "薄青色背景に白い角丸カード構造での表紙設計",
+      "白色背景での統一されたチェックリスト表示",
+      "黄色装飾線付きヘッダーでのカテゴリー分類",
+      "薄黄色背景でのリスト項目強調",
+      "キャラクター配置での親しみやすさ演出"
+    ],
+    "requiredElements": [
+      "30選という具体的数字での訴求",
+      "黄色チェックマークでの視覚的整理",
+      "各カテゴリーでの実用的アドバイス",
+      "共感を呼ぶキャラクター対話",
+      "プロフィール画面での信頼性証明",
+      "具体的URL提示での行動促進"
+    ],
+    "informationArrangement": "問題意識共有→カテゴリー別ネタ提示→具体例で発想支援→共感と希望提示→解決策提示→行動促進の資料集型配置"
+  }
+}

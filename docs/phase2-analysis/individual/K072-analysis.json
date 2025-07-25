@@ -1,0 +1,59 @@
+{
+  "knowledgeId": "K072",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K072分析記録",
+    "rawObservation": "docs/raw-analysis/contents-072-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K072.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "AIツールが多すぎてどれを選べばいいか分からない、業務効率化に役立つAIツールの情報が欲しい",
+    "flowStages": [
+      "主要AIツール紹介",
+      "包括的ツールリスト",
+      "60個ツール俯瞰"
+    ],
+    "completionState": "60個のAIツールから目的別に最適なツールを選択できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 3,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "主要ツール表示",
+        "description": "主要9ツールの3x3グリッド表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "包括的リスト",
+        "description": "60個ツールのカテゴリ別リスト表示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "全体俯瞰",
+        "description": "円形ダイアグラムでの全体俯瞰表示"
+      }
+    ],
+    "flowOrder": [
+      "主要ツール→詳細リスト→全体俯瞰の3段階情報提示"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "グリッドレイアウト→リスト形式→円形ダイアグラムの多様な表示形式",
+      "各ツールの公式アイコン使用",
+      "カテゴリ別色分け"
+    ],
+    "requiredElements": [
+      "3x3グリッド",
+      "カード形式",
+      "ツールアイコン",
+      "カテゴリ分類",
+      "円形ダイアグラム",
+      "矢印による使用方向指示",
+      "クレジット表示",
+      "ツール名",
+      "説明文"
+    ],
+    "informationArrangement": "主要ツール→詳細リスト→全体俯瞰の3段階情報提示"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "knowledgeId": "K007",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md lines 201-229",
+    "rawObservation": "/docs/raw-analysis/contents-007-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K007.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "転職を成功させたい、転職で無双したい、何が転職成功の要因かを知りたい",
+    "flowStages": [
+      "権威性タイトルによる興味喚起",
+      "5つの具体的特徴の詳細解説",
+      "転職サービス紹介・実機画面誘導"
+    ],
+    "completionState": "人事部視点からの転職成功要因5つを理解し、具体的実践方法を把握、転職サポートサービスへの接続で実際の転職活動を開始する準備が整った状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 3,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "authority-title-intro",
+        "description": "権威タイトル導入"
+      },
+      {
+        "pageNumber": 2,
+        "role": "detailed-info-list-expert",
+        "description": "専門知識リスト詳細"
+      },
+      {
+        "pageNumber": 3,
+        "role": "service-promotion-real-screen",
+        "description": "サービス紹介・実機画面"
+      }
+    ],
+    "flowOrder": [
+      "権威性による信頼獲得",
+      "専門的な5つの知識を詳細提供",
+      "実際のサービス利用へ誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青グラデーション→白背景→緑背景の段階的背景変化",
+      "権威性の白カード強調",
+      "情報密度の高いテキスト配置",
+      "実機画面の効果的表示"
+    ],
+    "requiredElements": [
+      "権威性ラベル",
+      "走るビジネスマンイラスト",
+      "グレー丸アイコン付きリスト",
+      "実際のInstagramプロフィール画面",
+      "赤矢印による誘導表示",
+      "「今すぐチェック」CTA",
+      "サービス説明カード",
+      "転職サービス誘導バナー"
+    ],
+    "informationArrangement": "authorityInfo object、featuresList配列、serviceInfo object、realScreenData objectによる構造化"
+  }
+}

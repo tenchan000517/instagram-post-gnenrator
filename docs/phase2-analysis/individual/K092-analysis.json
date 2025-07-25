@@ -1,0 +1,244 @@
+{
+  "knowledgeId": "K092",
+  "basicInfo": {
+    "problemDescription": "調べ物・文章作成・メール返信などの作業が多すぎて効率が悪く、生産性を向上させたい人向けの実用的な生成AIツール情報",
+    "solutionReason": "実際に毎日使える5つの生成AIツールを厳選して紹介し、生産性向上の具体的方法を提供",
+    "postType": "004",
+    "postTypeReason": "具体的な生成AIツール5つを紹介し、明日から実際に使える実用情報を提供しているため",
+    "marketingStage": "仕事で効率化を求める会社員・フリーランス"
+  },
+  "structuralAnalysis": {
+    "solutionFlow": "問題共感→解決策提示→5つのツール順次紹介→まとめ→プロモーション→プロフィール",
+    "pageRoles": {
+      "page1": "タイトル・表紙ページ",
+      "page2": "問題提起と解決策予告ページ",
+      "page3": "ツール1個目の詳細説明ページ（ChatGPT）",
+      "page4": "ツール2個目の詳細説明ページ（Gemini）",
+      "page5": "ツール3個目の詳細説明ページ（NotebookLM）",
+      "page6": "ツール4個目の詳細説明ページ（Canva AI）",
+      "page7": "ツール5個目の詳細説明ページ（Felo）",
+      "page8": "まとめページ",
+      "page9": "プロモーション・リードマグネットページ",
+      "page10": "スクール誘導・CTA ページ",
+      "page11": "プロフィール・ブランディングページ"
+    },
+    "completionState": "5つの生成AIツールの特徴と使用方法を理解し、実際に使い始められる状態"
+  },
+  "pageStructureDesign": {
+    "totalPages": 11,
+    "structurePattern": "タイトル→問題・解決策→5つのツール（各1ページ詳細）→まとめ→プロモーション→プロフィール",
+    "divisionReason": "各AIツールの具体的な使用方法と画面を詳しく説明するため1ツール1ページ構成と、プロモーション要素を含む構成",
+    "structureFileName": "ai-tools-showcase-with-promotion-11page.json",
+    "requirements": "実際のAIツール画面キャプチャと統一されたレイアウト、親しみやすいキャラクター案内"
+  },
+  "templatePatterns": {
+    "page1": {
+      "type": "title-cover",
+      "title": "もう手放せない生成AIはこの5つ",
+      "attention": "知らない人損するかも",
+      "backgroundPattern": "ジグザグ背景パターン",
+      "character": "女性キャラクターイラスト"
+    },
+    "page2": {
+      "type": "problem-solution",
+      "problem": "調べ物、文章作成、メール返信...やること多すぎて私が10人いても足らん。寝よ。",
+      "solution": "生成AI使えば一瞬で終わるぞ！",
+      "explanation": "相棒AIがいるかどうかで生産性が天と地ほど変わる",
+      "character": "疲れた表情と起きた表情のキャラクター"
+    },
+    "page3": {
+      "type": "tool-introduction",
+      "number": "01",
+      "toolName": "ChatGPT",
+      "description": "言わずと知れた生成AIの代表選手！調べ物も文章も、タスク整理や人生相談まで全部任せられる万能すぎる相棒です。",
+      "usageExamples": [
+        "この技術の内容をキャプションの文章にアレンジして！",
+        "確定申告のために今からできること教えて！",
+        "今日の夜ご飯のお取りどうしよ〜手抜きに見えないやつっ",
+        "今日のスケジュールを整理して欲しい！",
+        "落ち込んじゃったよ〜TT",
+        "次のメールの返信を考えて"
+      ],
+      "relatedContent": "意外と知らないChatGPT活用法6選"
+    },
+    "page4": {
+      "type": "tool-introduction",
+      "number": "02",
+      "toolName": "Gemini",
+      "description": "Googleが作った生成AI。Googleツールと連携できるのが最大の強み！優秀な秘書さんができた感覚になれます。",
+      "integrationExamples": [
+        {
+          "service": "Googleカレンダー",
+          "feature": "スケジュールをかむ吟してタスク調整"
+        },
+        {
+          "service": "Googleマップ",
+          "feature": "近所の美味しいランチ情報も即レス"
+        },
+        {
+          "service": "Googleドキュメント",
+          "feature": "文章をその場で考えてくれる"
+        }
+      ],
+      "personalRecommendation": "私のおすすめは、旅行先で近くの美味しいお店を探すこと！時短にもなるし選択肢も広がりました✨"
+    },
+    "page5": {
+      "type": "tool-introduction",
+      "number": "03",
+      "toolName": "NotebookLM",
+      "description": "こちらもGoogleが作った生成AI。アップした情報だけで文章を作ってくれるから情報の信頼性が抜群！（地味に大事）",
+      "features": [
+        "PDFやYouTube、音声ファイルも読み込める",
+        "質問にピンポイントで回答＋根拠も提示",
+        "動画や音声の文字起こしもできちゃう"
+      ],
+      "useCase": "難しい規約、会議の議事録、情報収集に追われてる人にとっては神ツール✨大量の情報処理が一瞬で終わる！"
+    },
+    "page6": {
+      "type": "tool-introduction",
+      "number": "04",
+      "toolName": "Canva AI",
+      "description": "最近劇的な進化を遂げたCanvaAI！特におすすめの4つの機能を紹介します。",
+      "functions": [
+        {
+          "name": "アプリ開発",
+          "detail": "機能を伝えるだけでアプリ開発できる（UIデザイン作成画面）"
+        },
+        {
+          "name": "スプレッドシート",
+          "detail": "データ分析、閲覧数作成フォロー予算集約グラフが一瞬で描ける"
+        },
+        {
+          "name": "写真エディター",
+          "detail": "画像編集がより自由に（編集ツールアイコン群）"
+        },
+        {
+          "name": "AI自動音声",
+          "detail": "文章を入れて言語を選びモデルを選択"
+        }
+      ],
+      "nextPromise": "すごすぎるから次の投稿で解説するね！"
+    },
+    "page7": {
+      "type": "tool-introduction",
+      "number": "05",
+      "toolName": "Felo",
+      "description": "検索に特化した生成AI。検索精度が高く、知りたい情報が即見つかるし情報のまとめもお手のもの！",
+      "comparison": {
+        "before": "複雑な検索結果",
+        "after": "整理されたマインドマップ"
+      },
+      "benefit": "検索して資料作る時間がゼロに！今は「ググる」よりも生成AIに聞いた方が早いし深い。"
+    },
+    "page8": {
+      "type": "summary",
+      "title": "本当に使える生成AIツール",
+      "toolsList": [
+        "ChatGPT",
+        "Gemini", 
+        "NotebookLM",
+        "Canva AI",
+        "Felo"
+      ],
+      "characterComment": "いくつ知ってた＆使えてましたか？知ってるだけで差がつく時代。早速使ってみてね〜！"
+    },
+    "page9": {
+      "type": "lead-magnet",
+      "title": "投稿見てくれた方にプレゼント動画配布中！！",
+      "problems": [
+        "インスタ集客つまづき中・・・",
+        "インスタを仕事にしたい・・・",
+        "フォロワー増える気がしない・・・"
+      ],
+      "offer": "インスタ伸ばした秘訣を",
+      "visual": "Instagramプロフィール画面とプレゼントバナー"
+    },
+    "page10": {
+      "type": "school-cta",
+      "achievement": "在宅ワーク半年で月30万達成",
+      "title": "スクール情報はココ！",
+      "aspirations": [
+        "SNSを極めて✨趣味を仕事にしたい",
+        "✨憧れのフリーランスに私もなりたい！",
+        "在宅ワークで遠回りしたくない✨"
+      ],
+      "cta": "ハイライトから無料動画を受け取れます"
+    },
+    "page11": {
+      "type": "profile-branding",
+      "gratitude": "Thank You",
+      "philosophy": "人生のハンドルは自分で握ろう！",
+      "credentials": "フリーランス歴3年 企業様のSNS集客やマーケティングをサポート",
+      "mission": "2025年は在宅ワークをきっかけにライフスタイルを選べる女性を増やしていきます！",
+      "visual": "手書き風文字、女性の写真、Instagram投稿例"
+    }
+  },
+  "implementationRequirements": {
+    "layoutRequirements": "統一されたレイアウトでの各ツール紹介、実際のAIツール画面表示、親しみやすいキャラクター案内",
+    "visualRepresentation": "番号付きツール紹介、実際の使用画面、4つの機能カード、Before/After比較表示",
+    "dataStructure": "5つのAIツール（ChatGPT, Gemini, NotebookLM, Canva AI, Felo）の詳細使用法データ",
+    "templateName": "AIToolsShowcaseTemplate.tsx"
+  },
+  "contentSolution": {
+    "overview": "実際に毎日使える5つの生成AIツールを厳選して紹介し、生産性向上の具体的方法を提供",
+    "providedInformation": [
+      "ChatGPT：万能すぎる相棒で調べ物から人生相談まで対応",
+      "Gemini：GoogleツールとのGoogle連携が最大の強み",
+      "NotebookLM：PDFやYouTube、音声ファイルも読み込める、質問にピンポイントで回答",
+      "Canva AI：4つの機能（アプリ開発、スプレッドシート作成、写真エディター、AI自動音声）",
+      "Felo：検索に特化した生成AI、検索精度が高く情報のまとめもお手のもの"
+    ],
+    "practicalAdvice": [
+      "生成AI使えば一瞬で終わる作業が多い",
+      "相棒AIがいるかどうかで生産性が天と地ほど変わる",
+      "検索して資料作る時間がゼロになる",
+      "今は「ググる」よりも生成AIに聞いた方が早いし深い"
+    ]
+  },
+  "effectiveExpressions": [
+    "トップページ：吹き出し「知らない人損するかも」+ 強調文字「もう手放せない生成AI は この5つ」",
+    "キャラクター：親しみやすい女性キャラクターが各ページで案内",
+    "各ツール紹介：番号付きでツール名を大きく表示、特徴説明、実際の画面スクリーンショット",
+    "まとめページ：5つのツールを一覧表示、キャラクターによる親しみやすいコメント"
+  ],
+  "searchKeywords": [
+    "生成AI",
+    "AIツール",
+    "ChatGPT",
+    "Gemini",
+    "NotebookLM",
+    "Canva AI",
+    "Felo",
+    "生産性向上",
+    "業務効率化",
+    "文章作成",
+    "調べ物",
+    "メール返信"
+  ],
+  "emotionalTriggers": [
+    "効率化による時短への憧れ",
+    "実用的なツール情報への興味",
+    "生産性向上への欲求",
+    "最新技術活用への関心"
+  ],
+  "observationData": {
+    "actualTitle": "もう手放せない生成AIはこの5つ",
+    "pageCount": 11,
+    "hashTag": "#在宅ワーク #仕事効率化 #DX化 #インスタ運用代行 #生成AI #CanvaAI",
+    "colorScheme": ["ベージュ", "白", "黄色", "緑", "黒"],
+    "layoutPattern": "縦型レイアウト、統一された背景デザイン、キャラクター案内形式",
+    "interactionElements": [
+      "ページインジケータ（X/11形式）",
+      "関連投稿案内バナー",
+      "緑の破線ボックスでのアドバイス表示",
+      "プレゼント動画の案内",
+      "ハイライト誘導CTA"
+    ]
+  },
+  "dataSource": {
+    "phase1Analysis": "/docs/phase1-analysis/session3-K091-K100-analysis.md - K092分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-092-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K092.json"
+  },
+  "analysisNote": "この分析は実際に記録されたデータのみに基づいており、推測や補完は含まれていません。Phase 1分析記録、詳細観察データ、ナレッジベースファイルの3つのソースから客観的に抽出された情報です。"
+}

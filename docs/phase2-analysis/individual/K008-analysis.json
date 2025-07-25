@@ -1,0 +1,65 @@
+{
+  "knowledgeId": "K008",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md - K008分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-008-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K008.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "社会人5,6年目を超えてから仕事の評価が上がらない、効率的に仕事をしているのに評価されない、この力がないと苦しくなると悩んでいる",
+    "flowStages": [
+      "年次特定による感情的問題提起",
+      "中堅社員特有の具体的悩み列挙",
+      "権威性提示による共感・信頼構築",
+      "解決の希望とヒント提示"
+    ],
+    "completionState": "中堅社員特有の悩みに深く共感され、専門家の経験による信頼を得て、「ある力」の存在を知り、解決への希望を抱いた状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 4,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "感情的問題提起・ターゲティング",
+        "description": "年次特定（5,6年目）による具体的ターゲティングと感情的問題メッセージ"
+      },
+      {
+        "pageNumber": 2,
+        "role": "具体的問題列挙",
+        "description": "中堅社員特有の悩みを箇条書き（・）形式で具体的に列挙"
+      },
+      {
+        "pageNumber": 3,
+        "role": "権威性構築・共感",
+        "description": "300名以上の指導経験による権威性提示と共感メッセージ"
+      },
+      {
+        "pageNumber": 4,
+        "role": "解決ヒント・希望提示",
+        "description": "謎めいた「ある力」による解決可能性の提示"
+      }
+    ],
+    "flowOrder": [
+      "感情的な問題提起で共感を獲得",
+      "具体的悩みで深い理解を示す",
+      "権威性で信頼を構築",
+      "解決への希望で興味を引く"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "暗いオフィス背景画像の4ページ統一",
+      "テキストオーバーレイ中央配置",
+      "赤・ピンク・白の感情的色使い",
+      "年次の明確なターゲティング表示"
+    ],
+    "requiredElements": [
+      "実写オフィス背景",
+      "赤ピンクグラデーション文字",
+      "箇条書き（・）による問題列挙",
+      "権威性数字の強調",
+      "謎めいた「ある力」表現"
+    ],
+    "informationArrangement": "暗い背景統一による感情表現＋年次ターゲティング＋具体的悩み共感＋権威性による信頼構築＋謎めいた解決ヒント"
+  }
+}

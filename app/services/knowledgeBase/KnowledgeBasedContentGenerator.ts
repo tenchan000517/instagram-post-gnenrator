@@ -71,6 +71,7 @@ export class KnowledgeBasedContentGenerator {
       const prompt = this.buildKnowledgeBasedPrompt(request)
       
       console.log('📝 生成プロンプト:', prompt.substring(0, 200) + '...')
+      console.log('🔍 プロンプト全文:', prompt)
       
       // AI生成実行
       const result = await this.model.generateContent(prompt)
@@ -101,7 +102,7 @@ export class KnowledgeBasedContentGenerator {
    * ナレッジベース起点のプロンプトを構築
    */
   private buildKnowledgeBasedPrompt(request: KnowledgeBasedGenerationRequest): string {
-    const { userInput, knowledgeData, pageNumber } = request
+    const { userInput, knowledgeData, pageNumber, templateStructure } = request
     
     // 投稿タイプ情報を取得
     const typeId = knowledgeData.knowledgeId?.startsWith('K0') ? 
@@ -120,9 +121,24 @@ export class KnowledgeBasedContentGenerator {
 あなたはInstagram投稿の専門コンテンツクリエイターです。
 ナレッジベースの情報を活用して、指定されたテンプレート構造に完璧に適合するコンテンツを生成してください。
 
+【生成対象ページ情報】
+ページ番号: ${pageNumber}/${knowledgeData.contentPageCount || knowledgeData.pageCount}
+ページの役割: ${currentPageData.role}
+セクション: ${currentPageData.section}
+テンプレート: ${currentPageData.template}
+
+【このページの必須コンテンツ】
+${JSON.stringify(currentPageData.content, null, 2)}
+
+【テンプレート構造】
+${JSON.stringify(templateStructure, null, 2)}
+
 【投稿意図】
 ${userInput}
 ↑この投稿意図に合致する内容で生成してください
+
+【ターゲットの学習レベル】
+ ${knowledgeData.marketingStage || ''}
 
 【投稿タイプ】${typeInfo.name}
 【投稿タイプ理由】${knowledgeData.postTypeReason || ''}
@@ -130,43 +146,22 @@ ${userInput}
 【解決すべき困った】
 ${knowledgeData.problemDescription}
 
-【問題カテゴリ】
-${knowledgeData.problemCategory || ''}
-
-【ターゲットの学習レベル】
-${knowledgeData.marketingStage || ''}
-
 【活用すべき解決策】
 ${JSON.stringify(knowledgeData.solutionContent, null, 2)}
 
-【安全確認済み表現事例】
-${knowledgeData.effectiveExpressions?.join('\n') || ''}
-
-【感情トリガー】
-${knowledgeData.emotionalTriggers?.join(', ') || ''}
-
 【検索キーワード】
 ${knowledgeData.searchKeywords?.join(', ') || ''}
-
-【生成対象ページ情報】
-ページ番号: ${pageNumber}/${knowledgeData.contentPageCount || knowledgeData.pageCount}
-ページの役割: ${currentPageData.role}
-セクション: ${currentPageData.section}
-テンプレート: ${currentPageData.template}
-
-【このページのコンテンツ参考例】
-${JSON.stringify(currentPageData.content, null, 2)}
-
-【テンプレート構造】
-${JSON.stringify(this.getTemplateStructure(currentPageData.template), null, 2)}
 
 【生成ルール】
 1. 投稿意図に完璧に合致する内容で生成（ナレッジの単純コピーではない）
 2. このページが全体の${pageNumber}/${knowledgeData.contentPageCount || knowledgeData.pageCount}ページ目であることを意識
 3. ページの役割「${currentPageData.role}」に完璧に適合
-4. 上記のテンプレート構造に完璧に適合するJSONで出力
-5. ナレッジの解決策を必須活用（参考程度ではない）
-6. 解決密度を維持（一般化・抽象化禁止）
+4. **元のコンテンツと同程度の情報量を維持（Instagram投稿1ページに適した簡潔性重視）**
+5. **長文・詳細説明・リスト羅列を避け、要点のみを簡潔に表現**
+6. **CTA（「次のページへ」「保存してね」等）は含めない - コンテンツのみに集中**
+7. 上記のテンプレート構造に完璧に適合するJSONで出力
+8. ナレッジの解決策を必須活用（参考程度ではない）
+9. 解決密度を維持（一般化・抽象化禁止）
 
 【出力形式】
 上記のテンプレート構造と完全に一致するJSONのみを出力してください。
@@ -220,7 +215,12 @@ ${JSON.stringify(this.getTemplateStructure(currentPageData.template), null, 2)}
         featureNumber: 'number',
         featureName: 'string',
         description: 'string',
-        effect: 'string'
+        effect: 'string',
+        bottomNote: 'string?' // optional
+      },
+      'feature_detail_tips': {
+        explanation: 'string',
+        tips: 'string[]'
       },
       
       // 新テンプレート（優先度B - High）

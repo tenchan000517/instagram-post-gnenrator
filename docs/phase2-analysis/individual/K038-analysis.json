@@ -1,0 +1,93 @@
+{
+  "knowledgeId": "K038",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K038分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-038-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K038.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活で避けるべき行動がわからない、人事に悪印象を与えてしまう恐れ",
+    "flowStages": [
+      "タイトル→導入→個別特徴詳細（8項目）→まとめ一覧の段階的構成"
+    ],
+    "completionState": "就活マナーに不安を感じていた学生が、人事視点での「避けるべき8つの行動」を理解し、適切な就活行動の指針を獲得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-hook",
+        "description": "注意喚起を伴うタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "introduction",
+        "description": "優秀な就活生の設定と問題提起の導入"
+      },
+      {
+        "pageNumber": 3,
+        "role": "feature-details",
+        "description": "具体的問題点1の提示（説明会でムダに相談）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "feature-details",
+        "description": "具体的問題点2の提示（エントリーシートでの不適切なアピール）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "feature-details",
+        "description": "具体的問題点3の提示（資格だけのアピール）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "feature-details",
+        "description": "具体的問題点4の提示（面接での不適切な質問）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "feature-details",
+        "description": "具体的問題点5の提示と業界理解の重要性説明"
+      },
+      {
+        "pageNumber": 8,
+        "role": "feature-details-continued",
+        "description": "具体的問題点6の提示（グループディスカッションでの問題）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "summary-list-cta",
+        "description": "具体的問題点7の提示（集団面接での問題）"
+      }
+    ],
+    "flowOrder": [
+      "人事視点での権威性確立",
+      "具体的悪例提示で理解促進",
+      "改善行動明確化",
+      "保存で定着化"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "オレンジ背景に白カード重ね構造",
+      "番号付きリスト形式",
+      "特徴の個別詳細表示",
+      "8つの特徴の詳細理解促進",
+      "具体例での行動改善支援"
+    ],
+    "requiredElements": [
+      "features配列（8つの「イタイ」特徴）",
+      "number/title/description/example構造",
+      "summary用配列",
+      "人事アイコン表示",
+      "番号付きバッジ",
+      "具体例の分かりやすい表示",
+      "保存促進ボタン",
+      "漫画風キャラクター",
+      "手書き風フォント",
+      "対話形式の吹き出し"
+    ],
+    "informationArrangement": "人事視点での権威性→具体的悪例提示→改善行動明確化→保存で定着化の順序実行必須"
+  }
+}

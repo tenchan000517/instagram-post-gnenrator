@@ -1,0 +1,102 @@
+{
+  "knowledgeId": "K005",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md lines 134-166",
+    "rawObservation": "/docs/raw-analysis/contents-005-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K005.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "副業を始めたいが何から始めていいか分からない、強みもスキルもないと感じている女性",
+    "flowStages": [
+      "カバー→問題共感・著者信頼性",
+      "副業種類の体系化",
+      "4ステップ詳細解説",
+      "成功事例証明",
+      "まとめ・要点整理",
+      "特典オファー"
+    ],
+    "completionState": "4ステップの副業開始方法を習得し、月5万円目標の実現可能性を確信、成功事例に励まされ、無料学習サイトFREEで深い学習を継続する状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "goal-achievement-cover",
+        "description": "カバー・タイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-empathy-author",
+        "description": "問題提起・共感"
+      },
+      {
+        "pageNumber": 3,
+        "role": "category-options-systematic",
+        "description": "情報提供・選択肢提示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "step-detail-practical-1",
+        "description": "Step1詳細(月5万円目標設定)"
+      },
+      {
+        "pageNumber": 5,
+        "role": "step-detail-practical-2",
+        "description": "Step2詳細(ジャンル選び)"
+      },
+      {
+        "pageNumber": 6,
+        "role": "step-detail-practical-3",
+        "description": "Step3詳細(信頼構築)"
+      },
+      {
+        "pageNumber": 7,
+        "role": "step-detail-practical-4",
+        "description": "Step4詳細(ツール活用)"
+      },
+      {
+        "pageNumber": 8,
+        "role": "success-story-proof",
+        "description": "成功事例・信頼性構築"
+      },
+      {
+        "pageNumber": 9,
+        "role": "summary-points-star",
+        "description": "まとめ・要点整理"
+      },
+      {
+        "pageNumber": 10,
+        "role": "premium-offer-free",
+        "description": "CTA・特典オファー"
+      }
+    ],
+    "flowOrder": [
+      "共感誘導",
+      "体系化",
+      "段階的実行方法の習得",
+      "成功可能性の確信",
+      "継続学習への誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "写真背景の統一（デスク環境）",
+      "ベージュヘッダーバーの一貫使用",
+      "茶色メインバーでの各セクション区分",
+      "白色カードでのコンテンツ配置"
+    ],
+    "requiredElements": [
+      "チェックマーク付きリスト",
+      "カテゴリ別アイコン表示",
+      "4ステップの段階的視覚化",
+      "成功事例の証明写真",
+      "星マーク付きまとめ",
+      "デバイスモックアップ",
+      "実際の作業環境写真",
+      "ツールロゴ",
+      "プロフィール写真"
+    ],
+    "informationArrangement": "problemList配列、categories object、stepDetails配列、successStory object、keyPoints配列、offerFeatures objectによる構造化"
+  }
+}

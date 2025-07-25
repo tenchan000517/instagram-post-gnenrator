@@ -1,0 +1,62 @@
+{
+  "knowledgeId": "K086",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md (K086記録なし - Phase1範囲外)",
+    "rawObservation": "docs/raw-analysis/contents-086-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K086.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "一昔前の情報では古い、就職白書2024の最新データを基にした就活市場の動向を知りたい",
+    "flowStages": [
+      "就活市場の売り手市場化を理解する（64.8%が2社以上内定、68.7%が内定後も就活継続）",
+      "早期化傾向を把握する（25卒の89.8%が3年生1月時点でインターン参加、前年比+3.7pt）",
+      "26卒・27卒への具体的な準備アドバイスを実践する"
+    ],
+    "completionState": "就職白書2024の統計データに基づいた市場動向を理解し、早期準備の重要性を認識して行動できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 4,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "フック・導入",
+        "description": "「一昔前の情報では古い！」のフックと「就職白書2024完全解説」のタイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "早期化データ解説",
+        "description": "25卒の89.8%がインターン参加という統計と前年比+3.7ptの増加傾向"
+      },
+      {
+        "pageNumber": 3,
+        "role": "売り手市場データ解説",
+        "description": "64.8%が2社以上内定、68.7%が内定後も就活継続という市場状況"
+      },
+      {
+        "pageNumber": 4,
+        "role": "サービス紹介・CTA",
+        "description": "プロイーの面接特化サービス紹介とフォロー促進"
+      }
+    ],
+    "flowOrder": ["フック導入", "早期化解説", "売り手市場解説", "サービスCTA"]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "緑色ブランディングの統一",
+      "空・ビル背景の環境写真使用",
+      "中央配置での統計データ強調",
+      "チェックマーク付き統計表示"
+    ],
+    "requiredElements": [
+      "「その他」カテゴリタグ",
+      "緑色オーバーレイ背景",
+      "番号付きセクション（①②）",
+      "統計数値の大きな表示",
+      "チェックマークアイコン",
+      "前年比データ表示",
+      "プロイーのロゴ・サービス説明",
+      "フォローボタン"
+    ],
+    "informationArrangement": "統計データを中心とした情報提示（フック→データ解説→市場分析→行動促進）と視覚的な数値強調"
+  }
+}

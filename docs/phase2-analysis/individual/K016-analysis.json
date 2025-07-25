@@ -1,0 +1,118 @@
+{
+  "knowledgeId": "K016",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K011-K018-analysis.md lines 76-110",
+    "rawObservation": "docs/raw-analysis/contents-016-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K016.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "くすりのアオキへの就職を検討しているが、実際の働き方や環境が分からない",
+    "flowStages": [
+      "感情的導入",
+      "良い面1",
+      "厳しい面1",
+      "良い面2", 
+      "厳しい面2",
+      "良い面3",
+      "厳しい面3",
+      "良い面4",
+      "総合評価",
+      "覚悟確認",
+      "応援"
+    ],
+    "completionState": "企業の実態を理解し、自分に合うか判断できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "感情的な問いかけで引き込む",
+        "description": "タイトルページ・問題提起"
+      },
+      {
+        "pageNumber": 2,
+        "role": "疑問の投げかけ",
+        "description": "問題提起・疑問の投げかけ"
+      },
+      {
+        "pageNumber": 3,
+        "role": "良い面の提示",
+        "description": "企業説明会の良い点の紹介"
+      },
+      {
+        "pageNumber": 4,
+        "role": "厳しい面の提示",
+        "description": "労働時間の厳しさの説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "厳しい面の提示",
+        "description": "物理的な労働の厳しさの説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "良い面の提示",
+        "description": "キャリアパスのポジティブな面の紹介"
+      },
+      {
+        "pageNumber": 7,
+        "role": "厳しい面の提示",
+        "description": "キャリアパスの現実的な困難さの説明"
+      },
+      {
+        "pageNumber": 8,
+        "role": "厳しい面の提示",
+        "description": "シフト制の労働条件の説明"
+      },
+      {
+        "pageNumber": 9,
+        "role": "総合評価と離職率",
+        "description": "企業の離職率と注意喚起"
+      },
+      {
+        "pageNumber": 10,
+        "role": "就活促進",
+        "description": "就活開始の促し・CTA準備"
+      },
+      {
+        "pageNumber": 11,
+        "role": "サービス紹介",
+        "description": "サービス紹介・最終CTA"
+      }
+    ],
+    "flowOrder": [
+      "感情的導入",
+      "疑問提起",
+      "説明会の良い面",
+      "労働時間の厳しさ",
+      "重労働の実態",
+      "キャリアの良い面",
+      "キャリアの厳しさ",
+      "シフト制の困難",
+      "離職率と注意喚起",
+      "就活開始促進",
+      "無料サービス紹介"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "白色・ベージュ背景の交互使用",
+      "テキストと人物イラストの組み合わせ",
+      "吹き出し形式での情報提示",
+      "赤文字での重要部分強調",
+      "黄色ハイライトでの注目部分表示"
+    ],
+    "requiredElements": [
+      "困った表情の人物イラスト",
+      "企業ロゴ",
+      "説明会場面のイラスト",
+      "重労働場面のイラスト",
+      "疲労を表現するイラスト",
+      "指差しポーズのイラスト",
+      "プロフィール画像",
+      "URLリンク"
+    ],
+    "informationArrangement": "キャラクターの表情変化、吹き出し形式での情報提示"
+  }
+}

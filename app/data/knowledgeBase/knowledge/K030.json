@@ -1,7 +1,7 @@
 {
   "source": "contents-030",
   "problemCategory": "ガクチカ作成不安",
-  "problemDescription": "27歳でガクチカ書くことないと悩んでいる、大学とバイトだけで目立つことしてなくて困っている",
+  "problemDescription": "27卒でガクチカ書くことないと悩んでいる、大学とバイトだけで目立つことしてなくて困っている",
   "postType": "001",
   "postTypeReason": "ガクチカがないという感情的な悩み・困りごとを解決し、経験が少ないことへの不安を取り除く内容のため",
   "solutionContent": {
@@ -29,7 +29,7 @@
     ]
   },
   "effectiveExpressions": [
-    "共感的なタイトル（27歳 ガクチカ書くことない…）",
+    "共感的なタイトル（27卒 ガクチカ書くことない…）",
     "親しみやすいキャラクター（黄色いヒヨコ）の一貫使用",
     "感情表現による共感誘発（悩んでいるなら、ガクチカのこと誤解してるかも！）",
     "企業視点の明確化（企業がガクチカで見ていること）",
@@ -51,7 +51,7 @@
     "面接対策"
   ],
   "emotionalTriggers": [
-    "年齢的な不安への共感（27歳という具体年齢）",
+    "状況な不安への共感（27卒という具体的状況）",
     "経験不足への理解と安心感提供",
     "企業の本当のニーズ理解による自信回復",
     "日常経験の価値再発見による希望創出",
@@ -60,54 +60,76 @@
   ],
   "marketingStage": "就活に不安を感じている学生・社会人、特に目立った経験がないと感じている人、ガクチカ作成に困っている人、年齢的なハンデを感じている人",
   "knowledgeId": "K030",
-  "pageStructurePattern": "",
-  "actualTitle": "27歳 ガクチカ書くことない…",
+  "actualTitle": "27卒 ガクチカ書くことない…",
   "pageCount": 8,
+  "contentPageCount": 6,
   "hashTag": "",
   "detailedContent": {
     "page1": {
+      "role": "title-cover",
       "type": "title_page",
-      "content": "27歳 ガクチカ書くことない…",
+      "content": "27卒ガクチカ書くことない…",
       "design": "薄い青背景、黄色ヒヨコキャラクター、年齢を強調した共感的タイトル",
       "page_indicator": "1/8"
     },
     "page2": {
+      "section": "intro",
+      "template": "basic_intro",
+      "role": "problem-empathy",
       "type": "empathy_problem",
       "content": "ガクチカに書けるような経験してこなかった…",
       "design": "薄い青背景、悩むヒヨコキャラクター、机と紙の設定で状況表現",
       "page_indicator": "2/8"
     },
     "page3": {
+      "section": "intro",
+      "template": "basic_intro",
+      "role": "misconception-reveal",
       "type": "problem_identification",
       "content": "大学とバイトだけで目立つこと何もしてないよ💧 って悩んでいるなら、ガクチカのこと誤解してるかも！",
       "design": "薄い青背景、ヒヨコキャラクター、青いボックスで重要メッセージ強調",
       "page_indicator": "3/8"
     },
     "page4": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
+      "role": "insight-revelation",
       "type": "insight_revelation",
       "content": "そもそもガクチカって『学生時代に力を入れたこと』の略。だけど、キラキラした経験を評価するための質問ではないんだ！",
       "design": "薄い青背景、説明的なヒヨコキャラクター、青いボックスで定義説明",
       "page_indicator": "4/8"
     },
     "page5": {
+      "section": "mainContent",
+      "template": "points_list_analysis",
+      "role": "corporate-perspective",
       "type": "corporate_perspective",
       "content": "企業がガクチカで見ていること ・どんな姿勢で取り組んだ？ ・困難にどう向き合った？ ・そこから何を学んだ？ つまり「何をしたか」ではなく「どう向き合ったか」を聞きたい！",
       "design": "薄い青背景、虫眼鏡を持つヒヨコ、点線枠で3つのポイント強調",
       "page_indicator": "5/8"
     },
     "page6": {
+      "section": "mainContent",
+      "template": "usage_practical_steps",
+      "role": "practical-examples",
       "type": "practical_examples",
       "content": "例えば こんな経験でも立派なガクチカ！『バイトで効率を上げるために売れ行き商品を取りやすい位置に配置』『ゼミの意見がまとまらない時率先してまとめるように動いた』",
       "design": "薄い青背景、ヒヨコキャラクター、2つの青いボックスで具体例提示",
       "page_indicator": "6/8"
     },
     "page7": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
+      "role": "encouragement-message",
       "type": "encouragement_message",
       "content": "企業が探しているのは『すごい経歴の人』じゃなくて『一緒に働きたいと思える人』 小さくても大丈夫！工夫して乗り越えた経験を言語化してみよう！",
       "design": "薄い青背景、喜ぶヒヨコキャラクター、星の装飾、励ましメッセージ",
       "page_indicator": "7/8"
     },
     "page8": {
+      "section": "summary",
+      "template": "basic_summary",
+      "role": "follow-up-cta",
       "type": "follow_up_cta",
       "content": "誰も教えてくれない就活の大切なこと 毎週 月・水・金 に発信中！📧 ひよこ あなたの秘密だよ…🤫 保存して何度も見返してね♪",
       "design": "薄い青背景、白い角丸ボックス、継続コンテンツ紹介、保存促進",

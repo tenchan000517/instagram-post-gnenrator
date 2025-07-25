@@ -12,7 +12,7 @@ interface MethodVisualGuideData {
 }
 
 export const MethodVisualGuideTemplate: React.FC<TemplateProps> = ({ data }) => {
-  const templateData = data as MethodVisualGuideData
+  const templateData = data as unknown as MethodVisualGuideData
 
   return (
     <div className="bg-white rounded-lg p-8 h-full flex flex-col">

@@ -1,0 +1,68 @@
+{
+  "knowledgeId": "K012",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "就活生が社員満足度が高く、働きやすい隠れ優良メーカーを知りたい",
+    "solutionReason": "社員満足度が高い隠れ優良メーカー7選を紹介し、各社の詳細情報（年収、休日、残業時間など）を提供する実用的な情報提供のため"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "サービスブランドとタイトルで関心を引く",
+      "各企業を個別ページで詳細紹介",
+      "統一フォーマットで比較検討を容易にする",
+      "キャラクターコメントで親しみやすさを演出"
+    ],
+    "pageRoles": {
+      "page1": "タイトル導入  - サービスブランドと企業情報タイトル提示",
+      "page2-7": "企業詳細紹介 - 各企業の基本データと特徴を統一フォーマットで提示"
+    },
+    "solutionCompletionState": "隠れ優良企業認知 → 各社詳細データ理解 → 比較検討材料獲得 → 就活選択肢拡大完成"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 7,
+    "specializedConfiguration": {
+      "brandedTitleIntroduction": 1,
+      "uniformCompanyProfiles": 6
+    },
+    "divisionReason": "各企業を個別ページで丁寧に紹介し、統一されたデータフォーマットで読者の比較検討を容易にし、詳細情報を網羅的に提供するため",
+    "structureFileName": "hidden-gem-companies-detailed-profiles-structure.json",
+    "requirement": "ブランド導入 + 6社統一プロフィールカード + 3つの数値データボックス + 企業特徴ハイライト + キャラクターコメント"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "branded-service-title-introduction",
+      "specificNeeds": "サービスブランド名 + 企業リストタイトル + 緑色グラデーション背景 + 白色角丸カード"
+    },
+    "page2-7": {
+      "templatePattern": "uniform-company-profile-card",
+      "specificNeeds": "企業番号・名前 + 事業概要 + 3つのデータボックス（休日・年収・残業） + 募集情報 + 特徴ハイライト + キャラクターコメント"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "uniformDataStructure": "page2-7で統一された企業情報レイアウト",
+      "threeDataBoxes": "年間休日・平均年収・平均残業時間の3つのボックス表示",
+      "recruitmentInfoSection": "募集職種と採用人数の情報セクション",
+      "characterCommentBubble": "緑色キャラクターの吹き出しコメント配置"
+    },
+    "visualExpressionRequirements": {
+      "consistentGreenTheme": "全ページで緑色統一ブランドテーマ",
+      "companyNumbering": "企業①-⑥の明確な番号表示",
+      "dataVisualization": "3つの数値データの視覚的ボックス表示",
+      "characterMascotUsage": "メガネをかけた緑色キャラクターの一貫使用"
+    },
+    "dataStructureRequirements": {
+      "sixCompaniesArray": "6社の企業データ構造化配列",
+      "standardDataFields": "年間休日・平均年収・平均残業時間の標準フィールド",
+      "recruitmentDetails": "各社の募集職種と採用人数データ",
+      "highlightMessages": "各企業の特徴ハイライトメッセージ配列"
+    },
+    "templateName": "HiddenGemCompaniesDetailedProfilesTemplate"
+  }
+}

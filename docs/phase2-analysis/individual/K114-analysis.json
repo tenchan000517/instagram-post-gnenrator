@@ -1,0 +1,100 @@
+{
+  "knowledgeId": "K114",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K111-K116-analysis.md lines 105-133",
+    "rawObservation": "/docs/raw-analysis/contents-114-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K114.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "やるべきことは分かっているのに行動できない、いつも途中で挫折してしまう、なかなか結果が出ない",
+    "flowStages": [
+      "タイトル提示・対比構造の導入",
+      "7つの対比で行動力の違いを明確化（意思決定・失敗への態度・完璧主義・言い訳・継続力・他人の視線・責任感）",
+      "各対比での「行動できる人」と「行動できない人」の具体的違いの提示",
+      "視覚的コントラスト（黄色ハイライト vs グレーハイライト）による理解促進",
+      "行動の重要性を強調・意識変革の促進",
+      "励まし・継続支援・保存促進"
+    ],
+    "completionState": "行動できない原因を明確に理解し、行動できる人のマインドセットを獲得、行動変容への意識改革完了、「未来変えるのは行動できる人だけ」の理解と実践意欲獲得"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "colorful-title",
+        "description": "カラフル背景でのインパクトタイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "comparison-highlight-1",
+        "description": "対比1：意思決定（即決する vs 考えすぎて止まる）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "comparison-highlight-2",
+        "description": "対比2：失敗への態度（失敗を失敗と思わない vs いちいち心が折れる）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "comparison-highlight-3",
+        "description": "対比3：完璧主義（完璧を求めない vs 準備が整うまで動かない）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "comparison-highlight-4",
+        "description": "対比4：言い訳（言い訳は捨てる vs 言い訳を並べる）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "comparison-highlight-5",
+        "description": "対比5：継続力（結果を出すまでやる vs 途中で諦める）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "comparison-highlight-6",
+        "description": "対比6：他人の視線（他人の目を気にしない vs 嫌われたくない）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "comparison-highlight-7",
+        "description": "対比7：責任感（自分で責任とる vs 誰かのせいにする）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "conclusion-with-character",
+        "description": "結論・重要性強調（未来変えるのは行動できる人だけ）"
+      },
+      {
+        "pageNumber": 10,
+        "role": "encouragement-cta",
+        "description": "励まし・更新情報・保存促進"
+      }
+    ],
+    "flowOrder": [
+      "感情的インパクト（カラフル背景）",
+      "対比構造（黄色 vs グレーの明確なコントラスト）",
+      "意識変革（行動力の違いの理解）",
+      "励まし・継続支援（定期更新・保存促進）"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "対比構造（上部：黄色ハイライト「行動できる人」、下部：グレーハイライト「行動できない人」）",
+      "テキスト直接配置（カードなし）",
+      "太字大フォントで明確な対比表現",
+      "カラフルなマーブル背景（1ページ目）",
+      "薄いグレー背景（2-10ページ目）"
+    ],
+    "requiredElements": [
+      "対比ペア配列（actionable・nonActionable）",
+      "ハイライト指定（黄色・グレー）",
+      "親しみやすいキャラクターイラスト",
+      "励ましメッセージ",
+      "キャラクター画像パス",
+      "更新情報（平日17時に更新中）",
+      "保存促進ボタンと矢印"
+    ],
+    "informationArrangement": "actionableText・nonActionableText・highlightColorの対比ペア構造、mainMessage・encouragement・updateInfo・savePromptによる励ましとCTA構造"
+  }
+}

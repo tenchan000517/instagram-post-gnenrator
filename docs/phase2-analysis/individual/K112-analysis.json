@@ -1,0 +1,102 @@
+{
+  "knowledgeId": "K112",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K111-K116-analysis.md lines 39-69",
+    "rawObservation": "/docs/raw-analysis/contents-112-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K112.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "Instagram集客がうまくいかない、成果が出なくて挫折しそう、効果的な運用方法を知りたい",
+    "flowStages": [
+      "問題提起・共感（挫折への理解）",
+      "現状把握（ターゲット・時間の明確化）",
+      "目標設定（数値による具体的目標）",
+      "行動計画（目標達成のための具体的アクション）",
+      "分析・振り返り（結果分析と改善策の検討）",
+      "改善実行（小さな変更から継続実施）",
+      "サポート活用（困った時の専門家への相談）",
+      "総合まとめ（6ステップの整理と継続の重要性）",
+      "感謝・保存促進"
+    ],
+    "completionState": "体系的な6ステップで集客プロセスを理解し、継続可能な仕組みを構築できる状態、困った時のサポート環境も把握し、無理なく続けられる仕組みで継続実行可能"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "problem-focused-title",
+        "description": "タイトル提示・Instagram集客の困りごとへの共感"
+      },
+      {
+        "pageNumber": 2,
+        "role": "empathy-introduction",
+        "description": "問題共感・導入（ステップ0：はじめに）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "step-with-dual-examples-1",
+        "description": "ステップ1：自分の現状を知る（具体例2つ付き）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "step-with-dual-examples-2",
+        "description": "ステップ2：目標を決める（具体例2つ付き）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "step-with-dual-examples-3",
+        "description": "ステップ3：行動を決める（具体例2つ付き）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "step-with-dual-examples-4",
+        "description": "ステップ4：振り返りをする（具体例2つ付き）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "step-with-dual-examples-5",
+        "description": "ステップ5：改善していく（具体例2つ付き）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "step-with-dual-examples-6",
+        "description": "ステップ6：困ったときは（具体例2つ付き）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "checklist-summary",
+        "description": "まとめ・チェックリスト形式での6ステップ整理"
+      },
+      {
+        "pageNumber": 10,
+        "role": "thank-you-cta",
+        "description": "感謝メッセージ・保存促進"
+      }
+    ],
+    "flowOrder": [
+      "感情的共感（挫折への理解）",
+      "段階的解決（6ステップの順序実行）",
+      "実践重視（各ステップに具体例2つ）",
+      "行動促進（保存・継続のメッセージ）"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "全ページ統一ピンク系グラデーション背景",
+      "白い丸角カードによる情報整理",
+      "ステップ番号と人型アイコン付きタイトルバー",
+      "2つの具体例を左右並列配置",
+      "キャラクターイラストは下部サポート配置"
+    ],
+    "requiredElements": [
+      "ビジネス系キャラクターイラスト",
+      "ステップ番号・タイトル・メインメッセージ・具体例配列（2つ固定）・締めメッセージ",
+      "ピンク枠の具体例ボックス",
+      "チェックマーク付きリスト（まとめページ）",
+      "各種アイコン（ターゲット、時計、検索、分析など）",
+      "ピンクのハート、手紙イラスト、リボン"
+    ],
+    "informationArrangement": "stepNumber・stepTitle・mainMessage・examples配列（2つ固定）・bottomMessage・characterImagePathの構造、checklist配列による6ステップまとめ、感謝メッセージとCTA"
+  }
+}

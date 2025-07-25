@@ -1,0 +1,90 @@
+{
+  "knowledgeId": "K059",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K046-K059-analysis.md - K059分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-059-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K059.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "職場でナメられる、軽く見られる、なぜかリスペクトされない",
+    "flowStages": [
+      "ナメられ悩み→共感形成",
+      "特徴理解→個別改善方法",
+      "Before→After実践",
+      "まとめ→継続支援"
+    ],
+    "completionState": "5つの特徴を理解し、Before→Afterの改善方法を実践できるコミュニケーション能力を習得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "problem-title",
+        "description": "コミュニケーション問題のタイトル提示と困った表情の人物イラスト"
+      },
+      {
+        "pageNumber": 2,
+        "role": "empathy-introduction",
+        "description": "共感形成と問題への理解、解決策予告の導入"
+      },
+      {
+        "pageNumber": 3,
+        "role": "feature-improvement-item1",
+        "description": "語尾が伸びる特徴のBefore→After改善例と実践アドバイス"
+      },
+      {
+        "pageNumber": 4,
+        "role": "feature-improvement-item2",
+        "description": "語尾を上げる特徴のBefore→After改善例と実践アドバイス"
+      },
+      {
+        "pageNumber": 5,
+        "role": "feature-improvement-item3",
+        "description": "ちょっと挨拶不審特徴のBefore→After改善例と実践アドバイス"
+      },
+      {
+        "pageNumber": 6,
+        "role": "feature-improvement-item4",
+        "description": "小声で終わる特徴のBefore→After改善例と実践アドバイス"
+      },
+      {
+        "pageNumber": 7,
+        "role": "feature-improvement-item5",
+        "description": "やたらと笑う特徴のBefore→After改善例と実践アドバイス"
+      },
+      {
+        "pageNumber": 8,
+        "role": "summary-conclusion",
+        "description": "改善効果のまとめと日々のコミュニケーション向上への励まし"
+      },
+      {
+        "pageNumber": 9,
+        "role": "live-support-cta",
+        "description": "毎朝のライブ配信案内とフォロー促進、継続的な関係構築"
+      }
+    ],
+    "flowOrder": [
+      "問題提示→共感導入",
+      "5項目の特徴改善（Before→After形式）",
+      "まとめ→継続支援"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ライトグリーン背景でスパイラルノート風デザイン",
+      "チェックマーク付きリスト形式",
+      "手書き風矢印による対比表示",
+      "パステル調の優しい色合い統一"
+    ],
+    "requiredElements": [
+      "スパイラルノート風のリング綴じ",
+      "円形背景の白いチェックマーク（✓）",
+      "手書き風の下向き矢印（↓）",
+      "イントネーション表記（↗↘）",
+      "パンダキャラクターアイコン",
+      "角丸の枠線ボックス"
+    ],
+    "informationArrangement": "問題提示→共感導入→特徴改善（5項目）→Before→After対比で具体的改善方法→まとめ→継続支援"
+  }
+}

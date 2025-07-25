@@ -63,13 +63,13 @@
   ],
   "marketingStage": "就活準備中の大学生、ガクチカ作成に悩んでいる、特別なエピソードがないと感じている、ホワイト企業を志望している段階",
   "knowledgeId": "K040",
-  "pageStructurePattern": "",
   "actualTitle": "ガクチカ優秀ネタ30選",
   "pageCount": 7,
+  "contentPageCount": 5,
   "hashTag": "#ガクチカ #就活",
   "detailedContent": {
     "page1": {
-      "role": "タイトル・表紙ページ",
+      "role": "title-cover",
       "content": {
         "title": "ガクチカ優秀ネタ30選",
         "design": "薄青背景、白い角丸カード、赤文字タイトル",
@@ -77,7 +77,9 @@
       }
     },
     "page2": {
-      "role": "アルバイト経験編",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "category-examples",
       "content": {
         "header": "アルバイト経験編",
         "episodes": [
@@ -94,7 +96,9 @@
       }
     },
     "page3": {
-      "role": "部活・サークル経験編",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "category-examples",
       "content": {
         "header": "部活、サークル経験編",
         "episodes": [
@@ -111,7 +115,9 @@
       }
     },
     "page4": {
-      "role": "学業・ゼミ経験編",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "category-examples",
       "content": {
         "header": "学業、ゼミ経験編",
         "episodes": [
@@ -128,7 +134,9 @@
       }
     },
     "page5": {
-      "role": "留学・長期インターン経験編",
+      "section": "mainContent",
+      "template": "step_guide_achievement",
+      "role": "category-examples",
       "content": {
         "sections": [
           {
@@ -152,7 +160,9 @@
       }
     },
     "page6": {
-      "role": "共感・問題提起・希望提示",
+      "section": "mainContent",
+      "template": "timeline_story_experience",
+      "role": "empathy-hope-message",
       "content": {
         "empathy": {
           "dialogue": "いやいや、そんなエピソードないよ...",
@@ -168,7 +178,9 @@
       }
     },
     "page7": {
-      "role": "解決策提示・行動促進",
+      "section": "summary",
+      "template": "basic_summary",
+      "role": "solution-cta",
       "content": {
         "solution": "大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は...",
         "delivery": "1冊のテキストにまとめています！",

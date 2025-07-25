@@ -1,0 +1,94 @@
+{
+  "knowledgeId": "K010",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "就活における電話でのマナーが分からない、電話対応で失敗したくない、正しい電話の掛け方や話し方を知りたい",
+    "solutionReason": "電話のマナーという明確な手順で達成可能なスキル・ゴールを段階的に解説する構造"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "共感を誘う問題提起で関心を引く",
+      "電話前の準備事項を5段階で解説",
+      "クッション言葉の8パターンを詳細紹介",
+      "基本的な電話応対のトーク例を提示",
+      "折り返し電話時の具体的トーク例を提供",
+      "継続学習機会（プロフィール誘導）を提供"
+    ],
+    "pageRoles": {
+      "page1": "共感導入 - 電話への苦手意識に共感し関心を引く",
+      "page2": "準備事項解説 - 電話前の5つの注意点詳細説明",
+      "page3": "クッション言葉指導 - 8パターンの具体的使用例",
+      "page4": "基本トーク例 - 状況別の電話応対スクリプト",
+      "page5": "折り返しトーク例 - 折り返し電話の具体的スクリプト",
+      "page6": "継続学習誘導 - プロフィール訪問と他コンテンツ紹介"
+    },
+    "solutionCompletionState": "電話への不安共感 → 準備方法理解 → 言葉遣い習得 → 基本対応習得 → 応用対応習得 → 継続学習（保存・プロフィール訪問）への行動完成"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 6,
+    "specializedConfiguration": {
+      "empathyIntroduction": 1,
+      "preparationStepsExplanation": 1,
+      "cushionWordsPatterns": 1,
+      "basicDialogueExamples": 1,
+      "callbackDialogueExamples": 1,
+      "continuousLearningPromotion": 1
+    },
+    "divisionReason": "電話マナーの包括的理解のため、準備→言葉遣い→基本対応→応用対応という段階的習得を可能にし、最終的に継続学習への動機付けを行うため",
+    "structureFileName": "phone-manner-comprehensive-guide-structure.json",
+    "requirement": "共感導入 + 5段階準備解説 + 8パターンクッション言葉 + 状況別トーク例 + 折り返し対応例 + 継続学習誘導"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "empathy-introduction-with-topic-tag",
+      "specificNeeds": "就活マナータグ + 共感タイトル + 青背景 + 電話アイコン + マイナビロゴ"
+    },
+    "page2": {
+      "templatePattern": "five-preparation-points-detailed",
+      "specificNeeds": "5つの番号付きポイント + 各ポイント詳細説明 + 青背景 + 白フレーム + 出典表示"
+    },
+    "page3": {
+      "templatePattern": "eight-cushion-words-patterns",
+      "specificNeeds": "8パターンのクッション言葉 + 具体的使用例 + 電球アイコン + 青背景"
+    },
+    "page4": {
+      "templatePattern": "situation-based-dialogue-examples",
+      "specificNeeds": "状況別トーク例 + 吹き出し形式 + 会話スクリプト + 青背景"
+    },
+    "page5": {
+      "templatePattern": "callback-specific-dialogue-examples",
+      "specificNeeds": "折り返し専用トーク例 + 詳細スクリプト + オレンジ補足ボックス + 青背景"
+    },
+    "page6": {
+      "templatePattern": "content-promotion-with-profile-cta",
+      "specificNeeds": "関連コンテンツ紹介 + プロフィール誘導 + 保存促進 + サービス画像表示"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "numberedPreparationPoints": "page2で5つの準備ポイントの番号付き表示",
+      "cushionWordsGrid": "page3で8パターンのクッション言葉の構造化表示",
+      "dialogueScriptLayout": "page4-5で会話形式の吹き出し表示",
+      "servicePromotionImages": "page6で関連サービスの画像表示"
+    },
+    "visualExpressionRequirements": {
+      "consistentBlueTheme": "全ページで青色背景の統一テーマ",
+      "numberingSystem": "準備ポイント1-5の明確な番号表示",
+      "speechBubbleDesign": "トーク例での吹き出し形式表現",
+      "iconUsage": "電話アイコン、電球アイコン等の適切な配置"
+    },
+    "dataStructureRequirements": {
+      "preparationPointsArray": "5つの準備ポイントの構造化データ",
+      "cushionWordsPatterns": "8パターンのクッション言葉と使用例",
+      "dialogueScenarios": "状況別の電話応対スクリプト配列",
+      "callbackScripts": "折り返し電話専用のスクリプト配列"
+    },
+    "templateName": "PhoneMannerComprehensiveGuideTemplate"
+  }
+}

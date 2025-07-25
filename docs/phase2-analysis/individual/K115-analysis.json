@@ -1,0 +1,108 @@
+{
+  "knowledgeId": "K115",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K111-K116-analysis.md lines 137-165",
+    "rawObservation": "/docs/raw-analysis/contents-115-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K115.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "副業や複業で失敗続きで何をすれば良いかわからない、スキルがなくても稼げる方法を知りたい、時間をかけても結果が出ない",
+    "flowStages": [
+      "タイトル・ステータス提示（37歳フリーランス主婦の信頼性確立）",
+      "問題提起・共感表明・実体験談の約束",
+      "6つの失敗エピソード詳細解説（ポイ活・ブログ・ハンドメイド・データ入力・物販・動画編集）",
+      "各エピソードでの失敗理由と学びの明確化",
+      "失敗から成功への転換点の説明",
+      "プロフィール・実用ガイド無料提供・フォロー促進"
+    ],
+    "completionState": "6つの副業失敗パターンを理解し、時間浪費の理由を把握、実体験者からの具体的ガイド（41枚の資料）入手で成功への道筋獲得、同じ失敗を避けて効率的な副業選択が可能"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 12,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "status-title-with-photo",
+        "description": "ステータス・タイトル提示（37歳フリーランス主婦）"
+      },
+      {
+        "pageNumber": 2,
+        "role": "question-introduction",
+        "description": "問題提起・自己紹介・約束・最終オファー予告"
+      },
+      {
+        "pageNumber": 3,
+        "role": "failure-episode-01",
+        "description": "episode 01：ポイ活失敗体験談"
+      },
+      {
+        "pageNumber": 4,
+        "role": "failure-episode-02",
+        "description": "episode 02：ブログ失敗体験談"
+      },
+      {
+        "pageNumber": 5,
+        "role": "failure-episode-03",
+        "description": "episode 03：ハンドメイド販売失敗体験談"
+      },
+      {
+        "pageNumber": 6,
+        "role": "failure-episode-04",
+        "description": "episode 04：データ入力失敗体験談"
+      },
+      {
+        "pageNumber": 7,
+        "role": "failure-episode-05",
+        "description": "episode 05：物販失敗体験談"
+      },
+      {
+        "pageNumber": 8,
+        "role": "failure-episode-06",
+        "description": "episode 06：動画編集失敗体験談"
+      },
+      {
+        "pageNumber": 9,
+        "role": "additional-failure-stories-1",
+        "description": "追加失敗談・スキル系副業の実態"
+      },
+      {
+        "pageNumber": 10,
+        "role": "additional-failure-stories-2",
+        "description": "追加失敗談・アンケート回答の現実"
+      },
+      {
+        "pageNumber": 11,
+        "role": "additional-failure-stories-3",
+        "description": "追加失敗談・総合的な学び"
+      },
+      {
+        "pageNumber": 12,
+        "role": "profile-with-free-offer",
+        "description": "プロフィール・無料オファー（41枚ガイド）・フォロー促進"
+      }
+    ],
+    "flowOrder": [
+      "信頼性確立（実体験・ステータス提示）",
+      "エピソード形式（01-06番号付き構造化ストーリー）",
+      "共感から解決へのストーリー展開",
+      "実用ガイド提供（具体的価値提供）"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "在宅ワーク環境写真背景",
+      "白い丸角カードでコンテンツ重ね表示",
+      "episodeナンバリング→サービス名（青色バー）→ロゴ→説明→失敗体験（青色ボックス）→結論（電球アイコン付き白ボックス）の統一構造",
+      "青・白・赤・ベージュ・グレーの配色"
+    ],
+    "requiredElements": [
+      "実際のサービスロゴ（moppy、WordPress、メルカリ等）",
+      "電球アイコン・矢印での視覚誘導",
+      "エピソード番号・サービス名・ロゴパス・導入説明・失敗詳細・結論学び・保存促進メッセージ",
+      "プロフィール情報（吠音克服、2児の母、6年のフリーランス経験）",
+      "無料オファー（41枚ガイド資料）",
+      "コメント指示（りんご🍎）"
+    ],
+    "informationArrangement": "episodeNumber・serviceName・logoPath・description・failureDetail・conclusion・savePromptの構造、profileInfo・freeOffer・workDescription・followCTAによる信頼性とオファー構造"
+  }
+}

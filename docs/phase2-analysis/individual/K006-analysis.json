@@ -1,0 +1,79 @@
+{
+  "knowledgeId": "K006",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md lines 169-198",
+    "rawObservation": "/docs/raw-analysis/contents-006-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K006.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "今の状態にモヤモヤを感じ、自分自身を理解したい、将来の方向性を見つけ出したいと悩んでいる",
+    "flowStages": [
+      "感情的問題提起",
+      "3ステップ自己分析（過去振り返り→現在把握→未来想像）",
+      "行動促進・まとめ",
+      "具体的ツール誘導"
+    ],
+    "completionState": "3つの段階的質問を通じて自己理解を深め、理想の未来を描き、具体的な一歩として適職診断ツールを活用する準備ができた状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 6,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "emotional-problem-intro",
+        "description": "感情的問題導入"
+      },
+      {
+        "pageNumber": 2,
+        "role": "step-analysis-bilingual-01",
+        "description": "3ステップ自己分析(STEP01-過去振り返り)"
+      },
+      {
+        "pageNumber": 3,
+        "role": "step-analysis-bilingual-02",
+        "description": "3ステップ自己分析(STEP02-現在把握)"
+      },
+      {
+        "pageNumber": 4,
+        "role": "step-analysis-bilingual-03",
+        "description": "3ステップ自己分析(STEP03-未来想像)"
+      },
+      {
+        "pageNumber": 5,
+        "role": "action-encouragement-next",
+        "description": "行動促進・まとめ"
+      },
+      {
+        "pageNumber": 6,
+        "role": "tool-promotion-diagnostic",
+        "description": "ツール紹介・チェックリストCTA"
+      }
+    ],
+    "flowOrder": [
+      "感情的な悩みから段階的に自己理解を深める",
+      "3つのステップで過去・現在・未来を整理",
+      "具体的行動ツールへ誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ピンクグラデーション背景の統一",
+      "STEPサインによる進行表示",
+      "質問カード形式",
+      "最終ページのみ白背景で差別化",
+      "実機画面の効果的配置"
+    ],
+    "requiredElements": [
+      "感情表現イラスト（泣く→考える→読書→喜ぶ→歩く）",
+      "英語サブタイトル併記",
+      "ピンク星マーク付き質問",
+      "青色適職診断ボタン",
+      "実機画面表示",
+      "Let's think!キャッチフレーズ",
+      "STEP01-03サイン",
+      "NEXTサイン",
+      "チェックリスト"
+    ],
+    "informationArrangement": "stepAnalysis配列、questionsPerStep配列、emotionalIllustrations配列、toolPromotion objectによる構造化"
+  }
+}

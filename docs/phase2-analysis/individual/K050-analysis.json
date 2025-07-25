@@ -1,0 +1,103 @@
+{
+  "knowledgeId": "K050",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K050分析記録",
+    "rawObservation": "contents-050-observation.json - 11ページ構成の観察データ",
+    "knowledgeBase": "K050.json - 仕事ができない人の特徴の知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "仕事でうまくいかない理由がわからない、自分の問題点を把握したい",
+    "flowStages": [
+      "特徴提示",
+      "各項目詳細",
+      "改善ポイント",
+      "自己改善促進の問題解決型構成"
+    ],
+    "completionState": "仕事での成果が出ないことに悩んでいた社会人が、７つの問題特徴を理解し、各特徴に対する具体的な改善方法を習得して自己改善への意欲を獲得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-impact",
+        "description": "タイトル提示と視覚的インパクト"
+      },
+      {
+        "pageNumber": 2,
+        "role": "theme-explanation",
+        "description": "テーマ説明とコンテンツ予告"
+      },
+      {
+        "pageNumber": 3,
+        "role": "feature-details-improvement",
+        "description": "特徴１：自己理解が足らないの詳細解説と改善方法"
+      },
+      {
+        "pageNumber": 4,
+        "role": "feature-details-improvement",
+        "description": "特徴２：自己分析ステップの詳細解説と改善方法"
+      },
+      {
+        "pageNumber": 5,
+        "role": "feature-details-improvement",
+        "description": "特徴３：教育システムの問題の詳細解説と改善方法"
+      },
+      {
+        "pageNumber": 6,
+        "role": "feature-details-improvement",
+        "description": "特徴４：言語化の必要性の詳細解説と改善方法"
+      },
+      {
+        "pageNumber": 7,
+        "role": "feature-details-improvement",
+        "description": "特徴５：紙に書き出す効果の詳細解説と改善方法"
+      },
+      {
+        "pageNumber": 8,
+        "role": "feature-details-improvement",
+        "description": "特徴６：思考深化の技法の詳細解説と改善方法"
+      },
+      {
+        "pageNumber": 9,
+        "role": "feature-details-improvement",
+        "description": "特徴７：時間確保の重要性の詳細解説と改善方法"
+      },
+      {
+        "pageNumber": 10,
+        "role": "summary-save-promotion",
+        "description": "内容総括と保存促進"
+      },
+      {
+        "pageNumber": 11,
+        "role": "profile-promotion",
+        "description": "プロフィール誘導とアカウントフォロー促進"
+      }
+    ],
+    "flowOrder": [
+      "問題認識",
+      "特徴理解",
+      "改善方法習得",
+      "自己改善行動促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "実写海背景（タイトルページ）",
+      "ブルー系グラデーション（詳細ページ）",
+      "白色角丸カード重ね（詳細ページ）",
+      "ターコイズ系単色背景（プロフィールページ）"
+    ],
+    "requiredElements": [
+      "注意アイコン",
+      "特徴番号バッジ",
+      "問題ポイント表示",
+      "改善アクションアイテム",
+      "ブルー色の円形番号バッジ",
+      "赤文字強調見出し",
+      "ヤシの木イラスト",
+      "人物キャラクター（黄色シャツの男性）"
+    ],
+    "informationArrangement": "問題提起 + 特徴概要 + 7特徴詳細×改善方法 + 自己改善促進"
+  }
+}

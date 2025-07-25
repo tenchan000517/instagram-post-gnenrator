@@ -1,0 +1,80 @@
+{
+  "knowledgeId": "K075",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K061-K080-analysis.md - K075分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-075-observation.json（ファイル未存在）",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K075.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "ChatGPTなどの生成AIが就活で活用されているのは知っているが、具体的な活用方法や効果的な使い方の情報が欲しい",
+    "flowStages": [
+      "タイトル提示",
+      "利用実態調査データ提示",
+      "活用用途ランキング",
+      "適切な活用指導",
+      "具体的プロンプト例",
+      "追加情報CTA"
+    ],
+    "completionState": "生成AI就活活用の実態を理解し、適切なバランスで活用できる状態、マイナビの調査データに基づく信頼性の高い情報を習得した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 6,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル提示とアカウント紹介",
+        "description": "ノート風レイアウトでのタイトル表示とマイナビアカウント情報"
+      },
+      {
+        "pageNumber": 2,
+        "role": "生成AI利用実態の調査結果",
+        "description": "マイナビ2025年調査に基づく生成AI認知・利用状況の統計データとグラフ"
+      },
+      {
+        "pageNumber": 3,
+        "role": "具体的な活用用途ランキング",
+        "description": "ES推敲56.6%をトップとする7つの活用用途のランキング形式表示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "適切な活用方法の指導",
+        "description": "生成AIと自分の役割分担図解とバランスの取れた活用アドバイス"
+      },
+      {
+        "pageNumber": 5,
+        "role": "具体的なプロンプト例の提示",
+        "description": "面接官設定や添削依頼などの実用的なプロンプト例集"
+      },
+      {
+        "pageNumber": 6,
+        "role": "追加情報とCTA",
+        "description": "他コンテンツ紹介とプロフィール誘導、保存促進"
+      }
+    ],
+    "flowOrder": [
+      "調査データによる実態把握",
+      "ランキングによる用途理解",
+      "適切な活用方法の指導",
+      "実践的なプロンプト例の提供"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ノート風バインダー背景の統一",
+      "緑色背景での強調表示",
+      "統計グラフの視覚化",
+      "ランキング形式での情報整理",
+      "役割分担図解の明確な表示"
+    ],
+    "requiredElements": [
+      "薄緑のバインダー風背景",
+      "統計データのグラフ表示",
+      "ランキング番号表示（1st-7th）",
+      "役割分担の図解",
+      "具体的なプロンプト例表示",
+      "マイナビ調査ソース表記",
+      "ページ番号（1/6-6/6）"
+    ],
+    "informationArrangement": "タイトル→実態データ→用途ランキング→活用指導→プロンプト例→CTA（調査データ、ランキング、指導内容をそれぞれ詳しく説明）"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "knowledgeId": "K080",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K080分析記録",
+    "rawObservation": "docs/raw-analysis/contents-080-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K080.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活生が面接で聞かれる質問に対して準備不足で答えられない課題",
+    "flowStages": [
+      "タイトル",
+      "質問リスト1（1-10）",
+      "質問リスト2（11-20）",
+      "質問リスト3（21-30）",
+      "回答ポイント",
+      "CTA・サービス案内"
+    ],
+    "completionState": "30の基本質問を把握し、適切な回答構成で準備できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 6,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "緊急性タイトル",
+        "description": "人物手元写真背景に緊急性訴求タイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "質問リスト1",
+        "description": "質問1-10の番号付きテーブル表示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "質問リスト2",
+        "description": "質問11-20の番号付きテーブル表示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "質問リスト3",
+        "description": "質問21-30の番号付きテーブル表示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "回答ポイント",
+        "description": "3つの回答構成要素と時間指導"
+      },
+      {
+        "pageNumber": 6,
+        "role": "サービスCTA",
+        "description": "QRコード付きサービス案内と緊急行動促進"
+      }
+    ],
+    "flowOrder": [
+      "タイトル→質問リスト3分割→回答ポイント→CTA"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "番号付きテーブル形式と時期的緊急性の訴求",
+      "回答構成の明確化",
+      "人物手元写真背景",
+      "番号付き質問テーブル",
+      "QRコード中央配置"
+    ],
+    "requiredElements": [
+      "人物手元写真",
+      "緊急性タイトル",
+      "保存促進",
+      "番号付きテーブル",
+      "白色半透明カード",
+      "ブラウン系背景",
+      "回答構成要素",
+      "時間指示",
+      "QRコード",
+      "赤色CTA",
+      "サービス説明"
+    ],
+    "informationArrangement": "タイトル→質問リスト3分割→回答ポイント→CTA"
+  }
+}

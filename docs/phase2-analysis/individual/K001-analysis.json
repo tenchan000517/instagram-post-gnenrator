@@ -1,0 +1,94 @@
+{
+  "knowledgeId": "K001",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md lines 8-36",
+    "rawObservation": "/docs/raw-analysis/contents-001-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K001.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "働く女性が職場で「女性だから」という理由で雑用を任される、体調不良時の仕事継続の困難、結婚・出産とキャリアの両立への不安、職場での男女格差、将来への漠然とした不安を抱えている",
+    "flowStages": [
+      "カバーページによるテーマ提示",
+      "7つの具体的悩み事例の個別提示（01-07番号付き）",
+      "問題の深刻さと複雑さの認識",
+      "専門サービスによる解決提案"
+    ],
+    "completionState": "プロのキャリアトレーナーによる45分間の無料相談サービスへの誘導で、「やりたいことがわからない」「自分の強みを知りたい」「漠然とした将来の不安」に対する専門的サポート提供が可能な状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-cover",
+        "description": "テーマ提示・背景画像でのインパクト"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-identification-01",
+        "description": "「女性だから」雑用問題の具体例と心の声"
+      },
+      {
+        "pageNumber": 3,
+        "role": "problem-identification-02", 
+        "description": "体調不良と仕事両立の困難"
+      },
+      {
+        "pageNumber": 4,
+        "role": "problem-identification-03",
+        "description": "結婚・出産とキャリアのジレンマ"
+      },
+      {
+        "pageNumber": 5,
+        "role": "problem-identification-04",
+        "description": "周囲からのプレッシャーへの反発"
+      },
+      {
+        "pageNumber": 6,
+        "role": "problem-identification-05",
+        "description": "育児と仕事の現実的困難"
+      },
+      {
+        "pageNumber": 7,
+        "role": "problem-identification-06",
+        "description": "組織内の性別格差とキャリア上限"
+      },
+      {
+        "pageNumber": 8,
+        "role": "problem-summary-07",
+        "description": "将来不安の複雑さと解決への導入"
+      },
+      {
+        "pageNumber": 9,
+        "role": "solution-cta",
+        "description": "専門サービスへの誘導と行動促進"
+      }
+    ],
+    "flowOrder": [
+      "感情的インパクト",
+      "7つの段階的問題提示",
+      "深い共感の構築",
+      "解決への希望提示"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "背景画像の継続使用（女性と子供の写真）",
+      "白色半透明カードでのコンテンツ統一",
+      "番号の紫色強調（01-07）",
+      "最終ページのみ背景色変更（薄色背景）",
+      "Swipe誘導アイコン配置"
+    ],
+    "requiredElements": [
+      "紫色アクセント",
+      "女性共感イラスト", 
+      "段階的感情誘導（具体例→心の声→イラスト）",
+      "引用符による現実感演出",
+      "番号付きカード形式",
+      "プロフィール写真",
+      "相談イラスト",
+      "アプリ画面スクリーンショット"
+    ],
+    "informationArrangement": "numberedProblems配列、emotionalMessages配列、targetConcerns配列、serviceDetails object、illustrations配列による構造化"
+  }
+}

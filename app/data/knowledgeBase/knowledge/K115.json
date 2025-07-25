@@ -59,47 +59,37 @@
   ],
   "marketingStage": "副業で失敗経験があり、何から始めれば良いかわからない初心者〜中級者レベル",
   "knowledgeId": "K115",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "typeID001-episode-parallel-intro",
   "actualTitle": "37歳フリーランス主婦 リアルに失敗した複業6選",
-  "pageCount": 12,
+  "pageCount": 7,
   "hashTag": "#フリーランス #副業 #在宅ワーク #開業",
   "detailedContent": {
     "page1": {
-      "role": "タイトルページ",
-      "layout": "写真背景 + タイトル + ステータス表示",
+      "role": "導入・問題提起",
+      "layout": "質問形式 + 自己紹介 + 約束",
+      "section": "intro",
       "content": {
-        "title": "37歳フリーランス主婦 リアルに失敗した複業6選",
-        "subtitle": "Freelancer",
-        "backgroundImage": "在宅ワーク環境の写真（デスク、植物、スマホ）",
-        "pageIndicator": "1/12"
+        "question": "「スキル0でもOK！」「スキマ時間に稼げる！」って副業、実際どうなの？",
+        "promise": "フリーランス6年目に至るまでのわたしのリアル失敗談をお話しします"
       }
     },
     "page2": {
-      "role": "導入・問題提起",
-      "layout": "質問形式 + 自己紹介 + 約束",
-      "content": {
-        "question": "「スキル0でもOK！」「スキマ時間に稼げる！」って複業、実際どうなの？",
-        "promise": "フリーランス6年目に至るまでのわたしのリアル失敗談をお話しします（笑）",
-        "finalPageOffer": "最後のページで、わたしが紆余曲折してたどり着いた複業の始め方ガイドをプレゼントするよ！",
-        "cta": "気になったら保存してね!"
-      }
-    },
-    "page3": {
       "role": "episode 01 - ポイ活",
       "layout": "エピソード形式",
+      "section": "mainContent",
       "content": {
         "episodeNumber": "01",
         "title": "ポイ活",
         "logo": "moppy",
         "description": "「アンケートに答えるだけで100pt」の手軽さに惹かれて始めたけど...",
         "failure": "1件5分→10件で50分。1時間近くかけて貯まるのはたった500ptと気づいて我に帰りました...。",
-        "conclusion": "楽して稼ごうつもりが思った以上に時間を浪費。「お得」より「時間の使い方」の方が大事だった...",
-        "savePrompt": "同じ失敗をしないように保存してね！"
+        "conclusion": "楽して稼ごうつもりが思った以上に時間を浪費。「お得」より「時間の使い方」の方が大事だった..."
       }
     },
-    "page4": {
+    "page3": {
       "role": "episode 02 - ブログ",
       "layout": "エピソード形式",
+      "section": "mainContent",
       "content": {
         "episodeNumber": "02",
         "title": "ブログ",
@@ -110,37 +100,57 @@
         "question": "こんな失敗みんなも経験ある？"
       }
     },
-    "page5": {
+    "page4": {
       "role": "episode 03 - ハンドメイド販売",
       "layout": "エピソード形式", 
+      "section": "mainContent",
       "content": {
         "episodeNumber": "03",
         "title": "ハンドメイド販売",
         "logo": "メルカリ",
         "description": "モノづくりが好きだし、これで稼げたら最高じゃない？って思い立って始めたら...",
         "failure": "かわいいアクセサリーを作ってメルカリで販売したけど、制作時間と利益が全然見合わなかった...。",
-        "conclusion": "好きなことを仕事にできたら最高だけど、わたしはやっぱり収入も大事だと気付きました！",
-        "savePrompt": "同じ失敗をしないように保存してね！"
+        "conclusion": "好きなことを仕事にできたら最高だけど、わたしはやっぱり収入も大事だと気付きました！"
       }
     },
-    "page6-11": {
-      "role": "episodes 04-06 + その他の失敗談",
-      "layout": "同様のエピソード形式",
+    "page5": {
+      "role": "episode 04 - データ入力・アンケート",
+      "layout": "エピソード形式",
+      "section": "mainContent",
       "content": {
-        "note": "データ入力、アンケート回答、物販、動画編集などの失敗体験を同様の構造で紹介"
+        "episodeNumber": "04",
+        "title": "データ入力・アンケート",
+        "logo": "クラウドワークス",
+        "description": "スキル不要で始められる！と思ってデータ入力やアンケート回答を始めたけど...",
+        "failure": "長時間作業しても単価が低く、時給に換算すると300円程度。体も疲弊してしまった...。",
+        "conclusion": "単価の低い作業は時間の浪費。スキルアップに時間を使う方が有意義だと気付きました！"
       }
     },
-    "page12": {
-      "role": "プロフィール・オファーページ",
-      "layout": "自己紹介 + 無料プレゼント + SNS情報",
+    "page6": {
+      "role": "episode 05 - 物販",
+      "layout": "エピソード形式",
+      "section": "mainContent",
       "content": {
-        "offer": "わたしが6年間続けてるお仕事物販始め方ガイド41枚の資料を「りんご🍎」とコメントでDMにお届けしてます。",
-        "restriction": "フォロー様限定です⭐",
-        "profile": {
-          "introduction": "「アパレル物販」でフリーランスになった2児のママです。20年間苦しんだ言語障害（吃音）生きづらさを乗り越えて、自分らしい働き方を確立 フリーランスとして6年目。",
-          "work": "BUYMAパーソナルショッパー、shopifyでのオリジナルショップ、物販講師",
-          "followMessage": "フォロー大歓迎です🧸 ▶▶@nao_buyerlife"
-        }
+        "episodeNumber": "05",
+        "title": "物販",
+        "logo": "Amazon",
+        "description": "商品を安く仕入れて高く売る、シンプルなビジネスモデルに魅力を感じて始めたけど...",
+        "failure": "仕入れ資金が必要で、在庫管理も大変。売れない商品を抱えて赤字になってしまった...。",
+        "conclusion": "初期投資とリスク管理の重要性を痛感。資金計画なしでは危険だと学びました！",
+        "question": "物販って思ったより難しいよね？"
+      }
+    },
+    "page7": {
+      "role": "episode 06 - 動画編集",
+      "layout": "エピソード形式",
+      "section": "mainContent",
+      "content": {
+        "episodeNumber": "06",
+        "title": "動画編集",
+        "logo": "Premiere Pro",
+        "description": "YouTubeブームで需要が高い動画編集。スキルを身につければ稼げると思って始めたけど...",
+        "failure": "競争が激化して単価が下がり続け、長時間の作業に見合わない報酬になってしまった...。",
+        "conclusion": "市場の競争状況を見極めることが大切。トレンドに乗るだけでは持続しないと実感！"
       }
     }
   }

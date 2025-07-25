@@ -1,0 +1,104 @@
+{
+  "knowledgeId": "K039",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K039分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-039-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K039.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "27卒の学生がESの添削方法や書き方がわからない、平凡な経験しかない体育会学生のES9割通過方法を知りたい",
+    "flowStages": [
+      "サービス紹介による関心喚起",
+      "ガクチカ添削の重要性と背景説明",
+      "実際のガクチカ事例とフィードバック提示",
+      "4つの改善点を段階的に詳細解説",
+      "改善されたガクチカの完成版提示",
+      "ES添削サービスの特徴説明",
+      "テキスト+動画講座の詳細紹介と受取手順案内"
+    ],
+    "completionState": "ES作成に不安を感じていた27卒学生が、プロの添削サービスの詳細を理解し、応募への具体的行動を起こせる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "service-introduction",
+        "description": "27卒向けES添削サービスの告知 - 青色背景で統一感のあるデザイン、実績訴求"
+      },
+      {
+        "pageNumber": 2,
+        "role": "importance-explanation",
+        "description": "ガクチカ添削の重要性と背景説明 - 就活本質と大手企業採用基準の解説"
+      },
+      {
+        "pageNumber": 3,
+        "role": "case-study-presentation",
+        "description": "実際のガクチカ事例とフィードバック提示 - 具体的事例での問題点明示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "improvement-point-1",
+        "description": "改善点①の詳細解説 - 総合商社では通用しない理由の分析"
+      },
+      {
+        "pageNumber": 5,
+        "role": "improvement-point-2",
+        "description": "改善点②の詳細解説 - 総合商社の定義と求める人材の説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "improvement-point-3",
+        "description": "改善点③の詳細解説 - 総合商社の8つの機能と親和性解説"
+      },
+      {
+        "pageNumber": 7,
+        "role": "improvement-point-4",
+        "description": "改善点④の詳細解説 - オーガナイザー機能の重要性と改善方向性説明"
+      },
+      {
+        "pageNumber": 8,
+        "role": "summary-and-improved-version",
+        "description": "改善されたガクチカの完成版提示と次ステップへの誘導"
+      },
+      {
+        "pageNumber": 9,
+        "role": "service-details",
+        "description": "ES添削サービスの詳細紹介と参加方法案内"
+      },
+      {
+        "pageNumber": 10,
+        "role": "course-materials",
+        "description": "テキスト+動画講座の詳細紹介と具体的受取手順案内"
+      }
+    ],
+    "flowOrder": [
+      "サービス価値提示",
+      "問題認識の深化",
+      "具体事例での理解促進", 
+      "段階的改善点解説",
+      "改善結果の提示",
+      "サービス詳細説明",
+      "行動促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青色系背景での統一感維持",
+      "グラデーション背景（白から薄青へ）の一貫使用",
+      "青いヘッダーバーでの構造統一",
+      "グレー背景での引用文表示",
+      "色分けされた背景ボックス（ピンク・薄青）での情報整理"
+    ],
+    "requiredElements": [
+      "27卒向け明確なターゲット設定",
+      "ES9割通過実績の数値訴求",
+      "実際のガクチカ改善前後比較",
+      "番号付き改善点の構造化表示",
+      "キャラクターイラストでの親しみやすさ演出",
+      "保存促進メッセージでの継続的エンゲージメント",
+      "具体的手順の段階化表示"
+    ],
+    "informationArrangement": "サービス価値提示→詳細理解促進→具体事例分析→段階的改善解説→完成版提示→サービス詳細→行動促進の直線的流れ"
+  }
+}

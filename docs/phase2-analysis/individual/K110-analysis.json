@@ -1,0 +1,106 @@
+{
+  "knowledgeId": "K110",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K101-K110-analysis.md (該当セクションなし - 記録未完了)",
+    "rawObservation": "docs/raw-analysis/contents-110-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K110.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "37歳主婦がフリーランスで月収0円でも開業届を出して独立を始める方法がわからない",
+    "flowStages": [
+      "1. 収入0円でも開業届を出すことが可能であることを理解する",
+      "2. 開業届を出すことで得られる5つのメリットを把握する",
+      "3. 各メリットの詳細内容を理解する（生活費経費化、保育園申請、仕事用口座、オンライン提出、節税効果）",
+      "4. 開業届の出し方ガイドを活用して実際の手続きを行う",
+      "5. 特別ガイドを入手して完全な手続きを完了する"
+    ],
+    "completionState": "フリーランス6年目の実体験に基づく5つのメリットを理解し、開業届を実際に提出してフリーランスとしての基盤を確立した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "個人体験タイトル",
+        "description": "37歳主婦の自撮り動画でリアルな体験談をピンク吹き出しで表現"
+      },
+      {
+        "pageNumber": 2,
+        "role": "疑問への回答と価値予告",
+        "description": "収入0円での開業可能性を肯定し、6年目の経験価値と特典を予告"
+      },
+      {
+        "pageNumber": 3,
+        "role": "5つのメリット概要",
+        "description": "チェックマーク付きリストで明確なメリットを視覚化し詳細予告"
+      },
+      {
+        "pageNumber": 4,
+        "role": "メリット詳細1: 生活費経費化",
+        "description": "家賃・光熱費・通信費の経費計上による節税効果を説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "メリット詳細2: 保育園申請",
+        "description": "個人事業主としての就労証明書発行と入園優位性を説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "メリット詳細3: 仕事用口座",
+        "description": "屋号付き銀行口座開設による事業資金管理の明確化を説明"
+      },
+      {
+        "pageNumber": 7,
+        "role": "メリット詳細4: オンライン提出",
+        "description": "e-Tax活用による在宅手続き完結の利便性を説明"
+      },
+      {
+        "pageNumber": 8,
+        "role": "メリット詳細5: 節税効果",
+        "description": "青色申告特別控除65万円による大幅節税効果を説明"
+      },
+      {
+        "pageNumber": 9,
+        "role": "手続きガイド紹介",
+        "description": "必要書類・記入方法・提出先の詳細ガイド存在を説明"
+      },
+      {
+        "pageNumber": 10,
+        "role": "無料ガイド提供CTA",
+        "description": "完全ガイドの無料提供とDM送付条件を説明"
+      },
+      {
+        "pageNumber": 11,
+        "role": "個人プロフィールとフォロー促進",
+        "description": "言語障害克服体験と複数事業展開実績でフォロー促進"
+      }
+    ],
+    "flowOrder": [
+      "個人体験による信頼性構築",
+      "疑問解消と価値提示",
+      "5つのメリットの段階的詳細説明",
+      "実行支援とリード獲得"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "37歳主婦の実体験による親しみやすさ",
+      "一貫したデスク環境背景",
+      "角丸カード形式による情報整理",
+      "チェックマーク付きリストによる明確なメリット提示"
+    ],
+    "requiredElements": [
+      "スマートフォン自撮り動画",
+      "ピンクの吹き出し",
+      "ノートPCとコーヒーの作業環境",
+      "「Question」白文字ラベル",
+      "青いチェックマーク",
+      "電球アイコン（オレンジ色）",
+      "プレゼントボックスアイコン",
+      "「保存してね！」「SWIPE」テキスト",
+      "ドレスアイコン（緑色）",
+      "クマのアイコン"
+    ],
+    "informationArrangement": "個人体験談から始まり、疑問への回答、5つのメリットの詳細説明、実行支援という流れで、実体験の信頼性を最大限活用する形式"
+  }
+}

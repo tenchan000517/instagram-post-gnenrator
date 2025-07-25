@@ -1,0 +1,102 @@
+{
+  "knowledgeId": "K076",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K076分析記録",
+    "rawObservation": "docs/raw-analysis/contents-076-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K076.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活でAIを効果的に活用する方法が分からない、就活準備（自己分析、業界研究、ES準備、選考対策）が忙しすぎて負担を感じている",
+    "flowStages": [
+      "タイトル",
+      "導入・問題提起",
+      "活用術1詳細",
+      "活用術2詳細",
+      "活用術3詳細",
+      "まとめ・心得",
+      "プロフィール・場所情報"
+    ],
+    "completionState": "3つのAI活用術を理解し、就活の効率化を実現できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル",
+        "description": "青グラデーション背景にプロフィール付きタイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "導入",
+        "description": "就活AI活用の問題提起と解決策概要"
+      },
+      {
+        "pageNumber": 3,
+        "role": "活用術1概要",
+        "description": "活用術1の番号付きステップとフロー"
+      },
+      {
+        "pageNumber": 4,
+        "role": "活用術1詳細",
+        "description": "活用術1のTips・注意点の色分け説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "活用術2概要",
+        "description": "活用術2の番号付きステップとフロー"
+      },
+      {
+        "pageNumber": 6,
+        "role": "活用術2詳細",
+        "description": "活用術2のTips・注意点の色分け説明"
+      },
+      {
+        "pageNumber": 7,
+        "role": "活用術3概要",
+        "description": "活用術3の番号付きステップとフロー"
+      },
+      {
+        "pageNumber": 8,
+        "role": "活用術3詳細",
+        "description": "活用術3のTips・注意点の色分け説明"
+      },
+      {
+        "pageNumber": 9,
+        "role": "まとめ",
+        "description": "3つの心得のまとめと行動促進"
+      },
+      {
+        "pageNumber": 10,
+        "role": "プロフィール",
+        "description": "カフェ外観とプロフィール情報"
+      }
+    ],
+    "flowOrder": [
+      "タイトル→導入→3つの活用術（各2ページ）→まとめ→プロフィール"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "番号付きステップと視覚的フローの表示",
+      "Tips・注意点の色分け",
+      "番号付きステップ表示",
+      "視覚的フロー図",
+      "色分けされたTips"
+    ],
+    "requiredElements": [
+      "青グラデーション背景",
+      "プロフィール情報",
+      "アイコン",
+      "番号付きステップ",
+      "フロー図",
+      "Tips配列",
+      "注意点配列",
+      "色分け表示",
+      "心得リスト",
+      "カフェ外観写真",
+      "ハッシュタグ"
+    ],
+    "informationArrangement": "タイトル→導入→3つの活用術（各2ページ）→まとめ→プロフィール"
+  }
+}

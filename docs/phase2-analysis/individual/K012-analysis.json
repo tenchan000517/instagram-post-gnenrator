@@ -1,0 +1,90 @@
+{
+  "knowledgeId": "K012",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K011-K018-analysis.md lines 42-73",
+    "rawObservation": "docs/raw-analysis/contents-012-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K012.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "大手企業だけでなく、隠れた優良メーカーを知りたい就活生のニーズ", 
+    "flowStages": [
+      "タイトル提示",
+      "企業1",
+      "企業2", 
+      "企業3",
+      "企業4",
+      "企業5",
+      "企業6",
+      "企業7",
+      "まとめ"
+    ],
+    "completionState": "7つの優良メーカーを具体的に知り、視野が広がった状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 7,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトルと期待感醸成",
+        "description": "タイトルページ・サービス紹介"
+      },
+      {
+        "pageNumber": 2,
+        "role": "企業1詳細情報",
+        "description": "企業詳細情報提示（1社目）"
+      },
+      {
+        "pageNumber": 3,
+        "role": "企業2詳細情報",
+        "description": "企業詳細情報提示（2社目）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "企業3詳細情報",
+        "description": "企業詳細情報提示（3社目）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "企業4詳細情報",
+        "description": "企業詳細情報提示（4社目）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "企業5詳細情報",
+        "description": "企業詳細情報提示（5社目）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "企業6詳細情報",
+        "description": "企業詳細情報提示（6社目）"
+      }
+    ],
+    "flowOrder": [
+      "タイトル・期待感醸成",
+      "東京エレクトロンデバイス詳細",
+      "アドバンテスト詳細",
+      "日立ハイテク詳細",
+      "DIC詳細",
+      "デュポンジャパン詳細",
+      "ボッシュ詳細"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "緑色背景の統一使用",
+      "白色コンテンツエリア配置",
+      "企業名を上部に配置",
+      "3つの数値ボックスを中央に配置",
+      "特徴を下部に配置"
+    ],
+    "requiredElements": [
+      "丸数字付き企業名",
+      "会社概要ボックス（青枠）",
+      "年間休日・平均年収・平均残業時間の数値ボックス",
+      "募集・採用人数情報",
+      "特徴吹き出し（薄青背景）",
+      "緑色マスコットキャラクター"
+    ],
+    "informationArrangement": "企業名を上部、3つの数値ボックスを中央、特徴を下部に配置"
+  }
+}

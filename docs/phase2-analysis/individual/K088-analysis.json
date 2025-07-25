@@ -1,0 +1,74 @@
+{
+  "knowledgeId": "K088",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md (K088記録なし - Phase1範囲外)",
+    "rawObservation": "docs/raw-analysis/contents-088-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K088.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "パソコン作業を効率化したい、ショートカットキーを体系的に学びたい",
+    "flowStages": [
+      "ショートカットキーの基本概念を理解する",
+      "使用場面を把握する（レポート、エクセル、プレゼン、仕事、就活）",
+      "カテゴリ別に習得する（頻繁使用、文字装飾、Excel専用）",
+      "実際の作業で活用して効率化を実現する"
+    ],
+    "completionState": "基本から応用まで17個のショートカットキーを理解し、カテゴリ別に使い分けてPC作業効率を向上できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 6,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "カテゴリ概要カバー",
+        "description": "3つのカテゴリ（頻繁使用、文字装飾、Excel）の視覚的紹介"
+      },
+      {
+        "pageNumber": 2,
+        "role": "概念説明・使用場面",
+        "description": "ショートカットキーの定義と5つの具体的使用場面"
+      },
+      {
+        "pageNumber": 3,
+        "role": "基本ショートカット（頻繁使用編）",
+        "description": "6つの基本ショートカットキー（コピー、戻る、削除+コピー等）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "文字装飾・Excel基本",
+        "description": "文字装飾4種類とExcelの上書き保存"
+      },
+      {
+        "pageNumber": 5,
+        "role": "Excel応用ショートカット",
+        "description": "Excel専用の5つの高度なショートカット機能"
+      },
+      {
+        "pageNumber": 6,
+        "role": "ブランド紹介・フォロー促進",
+        "description": "RUN MAGAZINEの紹介と早稲田祭での販売告知"
+      }
+    ],
+    "flowOrder": ["カテゴリ紹介", "基本概念", "頻繁使用", "装飾・Excel基本", "Excel応用", "ブランドCTA"]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青・ティール色グラデーションの統一",
+      "丸みを帯びたボックスカードシステム",
+      "実際のPC・キーボード画像使用",
+      "高い情報密度の整理された配置"
+    ],
+    "requiredElements": [
+      "「保存必須」の価値提案表示",
+      "3つのカテゴリ視覚セクション",
+      "実際の学生作業写真",
+      "機能とキー組み合わせのペア表示",
+      "青い丸みのあるカテゴリヘッダー",
+      "LAST PAGE >> ナビゲーション",
+      "RUN MAGAZINE円形黄色ロゴ",
+      "「FOLLOW US」バナー",
+      "早稲田祭販売予定告知"
+    ],
+    "informationArrangement": "段階的難易度上昇（基本→応用）とカテゴリ別整理による体系的学習構造"
+  }
+}

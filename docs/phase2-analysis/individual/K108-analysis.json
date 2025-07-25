@@ -1,0 +1,99 @@
+{
+  "knowledgeId": "K108",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K101-K110-analysis.md (該当セクションなし - 記録未完了)",
+    "rawObservation": "docs/raw-analysis/contents-108-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K108.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "案件応募をしたいけれど、ポートフォリオの作り方がわからず、どこで作ればいいのかも迷っている",
+    "flowStages": [
+      "1. salon.io: ドラッグ&ドロップだけで数分で作成完了、忙しい人に超おすすめ",
+      "2. MATCH BOX: 画像やデータがあれば簡単にポートフォリオ完成、全機能無料だから安心して試せる",
+      "3. portfolio box: 世界中で使われていてテンプレも豊富、細かなカスタマイズで唯一無二のポートフォリオが作れる",
+      "4. Strikingly: テンプレートが充実してて動画埋め込みもOK、サイト上にあるテンプレを活かしてサクッと作りたい方におすすめ",
+      "5. Behance: Adobe運営だからデザイン性◯、グラフィックに強く見た目重視のポートフォリオを作りたい人に最適"
+    ],
+    "completionState": "5つのポートフォリオ作成サイトの特徴を理解し、自分の目的に合ったサイトで案件応募に使えるポートフォリオを作成できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル・緊急性の提示",
+        "description": "プログラミング作業デスク背景で驚きと緊急性をアピール"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題の特定",
+        "description": "困った男性キャラクターでポートフォリオ作成の悩みを共感的に提示"
+      },
+      {
+        "pageNumber": 3,
+        "role": "解決策の概要",
+        "description": "5つのサイトの存在と初心者でも簡単に作れることを保存促進付きで説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "サイト紹介1: salon.io",
+        "description": "直感操作で忙しい人向けの特徴をスクリーンショット付きで説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "サイト紹介2: MATCH BOX",
+        "description": "無料でお試ししたい人向けの特徴をレスポンシブ表示で説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "サイト紹介3: portfolio box",
+        "description": "オリジナル性重視の人向けの特徴をファッション系例で説明"
+      },
+      {
+        "pageNumber": 7,
+        "role": "サイト紹介4: Strikingly",
+        "description": "サクッと作りたい人向けの特徴をテンプレート豊富さで説明"
+      },
+      {
+        "pageNumber": 8,
+        "role": "サイト紹介5: Behance",
+        "description": "デザイン重視の人向けの特徴をAdobe運営の信頼性で説明"
+      },
+      {
+        "pageNumber": 9,
+        "role": "まとめと保存CTA",
+        "description": "5つのサイトをターゲット別に分類して保存促進"
+      },
+      {
+        "pageNumber": 10,
+        "role": "アカウント宣伝",
+        "description": "ハイライト閲覧促進とプロフィール誘導"
+      }
+    ],
+    "flowOrder": [
+      "問題共感",
+      "解決策の存在確認",
+      "5つのサイトの段階的詳細説明",
+      "ターゲット別まとめ",
+      "アカウント誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "プログラミング関連の背景写真による専門性アピール",
+      "緑色ヘッダーによる統一感（①-⑤番号付き）",
+      "各サイトのスクリーンショットによる具体性",
+      "Pointラベルによる重要情報の強調"
+    ],
+    "requiredElements": [
+      "困った表情のキャラクター",
+      "ビジネスマンキャラクター（TRANSLATIONラベル付き）",
+      "実際のWebサイトスクリーンショット",
+      "緑色の番号ラベル（①-⑤）",
+      "「Point」強調ラベル",
+      "「保存必須」「保存！」CTA要素",
+      "スマートフォン画面モックアップ"
+    ],
+    "informationArrangement": "各サイトを1ページずつ詳細説明し、スクリーンショットと特徴を明確に対比表示し、最後にターゲット別推奨でまとめる形式"
+  }
+}

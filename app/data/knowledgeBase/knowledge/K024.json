@@ -53,9 +53,9 @@
   ],
   "marketingStage": "26卒で内定がまだ取れていない就活生、大手企業志望だが時期的に諦めかけている学生",
   "knowledgeId": "K024",
-  "pageStructurePattern": "",
   "actualTitle": "まだ内定0でもいける大手企業5社",
   "pageCount": 10,
+  "contentPageCount": 8,
   "hashTag": "【資格などの強みがなくても大手から内定もらいたい...】",
   "detailedContent": {
     "page1": {
@@ -65,6 +65,8 @@
       "cta": "続きはスワイプ→"
     },
     "page2": {
+      "section": "mainContent",
+      "template": "company_data_list",
       "role": "company-detail",
       "content": "26卒まだエントリーできる大手ソニーグループ",
       "details": {
@@ -75,6 +77,8 @@
       "selectionFlow": ["ES提出", "適性検査", "面接複数回", "内々定"]
     },
     "page3": {
+      "section": "mainContent",
+      "template": "company_data_list",
       "role": "company-detail", 
       "content": "26卒まだエントリーできる大手パナソニックグループ",
       "details": {
@@ -85,6 +89,8 @@
       "selectionFlow": ["ES提出", "Web適性検査（SPI）", "一次面接", "二次面接", "最終面接"]
     },
     "page4": {
+      "section": "mainContent",
+      "template": "company_data_list",
       "role": "company-detail",
       "content": "26卒まだエントリーできる大手損害保険ジャパン",
       "details": {
@@ -95,6 +101,8 @@
       "selectionFlow": ["ES提出", "適性検査", "面接複数回", "内々定"]
     },
     "page5": {
+      "section": "mainContent",
+      "template": "company_data_list",
       "role": "company-detail",
       "content": "26卒まだエントリーできる大手大和証券グループ本社",
       "details": {
@@ -105,6 +113,8 @@
       "selectionFlow": ["ES提出", "Webテスト", "一次面接", "最終面接"]
     },
     "page6": {
+      "section": "mainContent",
+      "template": "company_data_list",
       "role": "company-detail",
       "content": "26卒まだエントリーできる大手日本郵政",
       "details": {
@@ -115,6 +125,8 @@
       "selectionFlow": ["ES提出", "適性検査", "個別面接（複数回）", "内々定"]
     },
     "page7": {
+      "section": "mainContent",
+      "template": "company_data_list",
       "role": "company-detail",
       "content": "26卒まだエントリーできる大手日本航空（JAL）",
       "details": {
@@ -125,6 +137,8 @@
       "selectionFlow": ["ES提出", "適性検査", "面接複数回（AI面接・GD含む）", "内々定"]
     },
     "page8": {
+      "section": "mainContent",
+      "template": "company_data_list",
       "role": "company-detail",
       "content": "26卒まだエントリーできる大手旭化成",
       "details": {
@@ -135,6 +149,8 @@
       "selectionFlow": ["ES提出", "適性検査", "面接複数回", "内々定"]
     },
     "page9": {
+      "section": "mainContent",
+      "template": "timeline_story_experience",
       "role": "empathy-problem",
       "content": "とは言っても、大手いける自信がない...",
       "problems": [
@@ -147,6 +163,8 @@
       "cta": "1秒でも早く納得内定を勝ち取るためあなたに向けて作成しました！！"
     },
     "page10": {
+      "section": "summary",
+      "template": "basic_summary",
       "role": "final-cta",
       "content": "就活、一人で悩んでいませんか？？",
       "message": "一旦、立ち止まって考え直しませんか？？とりあえず名前だけで会社を選んでませんか？？その企業は本当にやりたいことですか？",

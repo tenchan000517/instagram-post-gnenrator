@@ -1,0 +1,87 @@
+{
+  "knowledgeId": "K062",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K062分析記録",
+    "rawObservation": "docs/raw-analysis/contents-062-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K062.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "将来に強い資格を取りたいが、どの資格を選べばよいかわからない",
+    "flowStages": [
+      "タイトル",
+      "5つの資格詳細紹介（各1ページ）",
+      "資格選びのアドバイス",
+      "企業情報・エンゲージメント"
+    ],
+    "completionState": "5つの資格の特徴を理解し、自分に適した資格を選択できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 8,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル提示",
+        "description": "虫眼鏡アイコンと「未来に強い資格5選」表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "資格1詳細",
+        "description": "日本語教師 - 評価グラフと特徴説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "資格2詳細",
+        "description": "キャリアコンサルタント - 評価グラフと特徴説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "資格3詳細",
+        "description": "心理学・カウンセラー - 評価グラフと特徴説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "資格4詳細",
+        "description": "ファイナンシャルプランナー - 評価グラフと特徴説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "資格5詳細",
+        "description": "介護職員初任者研修 - 特徴説明"
+      },
+      {
+        "pageNumber": 7,
+        "role": "選び方アドバイス",
+        "description": "資格選択のガイダンス"
+      },
+      {
+        "pageNumber": 8,
+        "role": "企業CTA",
+        "description": "企業ブランディング・エンゲージメント促進"
+      }
+    ],
+    "flowOrder": [
+      "タイトル提示",
+      "資格1-5（各1ページ詳細）",
+      "選び方アドバイス",
+      "企業CTA"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "円形グラフによる5段階評価の視覚化",
+      "各資格のイラスト配置",
+      "人物写真背景の統一"
+    ],
+    "requiredElements": [
+      "虫眼鏡アイコン",
+      "円形評価グラフ",
+      "番号付き資格表示",
+      "企業ロゴ",
+      "資格名",
+      "評価項目",
+      "特徴リスト",
+      "イラスト情報"
+    ],
+    "informationArrangement": "タイトル→資格1-5（各1ページ詳細）→選び方アドバイス→企業CTA"
+  }
+}

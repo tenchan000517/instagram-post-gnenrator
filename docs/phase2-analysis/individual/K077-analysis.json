@@ -1,0 +1,106 @@
+{
+  "knowledgeId": "K077",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K077分析記録",
+    "rawObservation": "docs/raw-analysis/contents-077-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K077.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "面接官にコミュニケーション力が高いと思われる方法が分からない、面接での印象向上を図りたい",
+    "flowStages": [
+      "タイトル",
+      "コミュニケーション定義",
+      "社会人定義",
+      "ポイント1説明",
+      "ポイント1具体例",
+      "ポイント2説明",
+      "ポイント2具体例",
+      "まとめ",
+      "エンゲージメント",
+      "プロフィール"
+    ],
+    "completionState": "コミュニケーション力の2つのポイントを理解し、面接で実践できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル",
+        "description": "紫-ピンクグラデーション背景にタイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "コミュニケーション定義",
+        "description": "コミュニケーション力の定義説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "社会人定義",
+        "description": "社会人に求められるコミュニケーション力"
+      },
+      {
+        "pageNumber": 4,
+        "role": "ポイント1説明",
+        "description": "POINT1のチェックリストと強調ポイント"
+      },
+      {
+        "pageNumber": 5,
+        "role": "ポイント1具体例",
+        "description": "POINT1の質問例とBad/Good対比"
+      },
+      {
+        "pageNumber": 6,
+        "role": "ポイント2説明",
+        "description": "POINT2のチェックリストと強調ポイント"
+      },
+      {
+        "pageNumber": 7,
+        "role": "ポイント2具体例",
+        "description": "POINT2の質問例とBad/Good対比"
+      },
+      {
+        "pageNumber": 8,
+        "role": "まとめ",
+        "description": "2つのポイントの要約"
+      },
+      {
+        "pageNumber": 9,
+        "role": "エンゲージメント",
+        "description": "いいね促進とロゴ表示"
+      },
+      {
+        "pageNumber": 10,
+        "role": "プロフィール",
+        "description": "背景デザインとハッシュタグ付きプロフィール"
+      }
+    ],
+    "flowOrder": [
+      "タイトル→定義（2ページ）→ポイント1（2ページ）→ポイント2（2ページ）→まとめ→CTA→プロフィール"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "POINT表示とBad/Good例の対比",
+      "チェックポイントのリスト化",
+      "POINT番号表示",
+      "チェックポイントリスト",
+      "Bad/Good対比表現"
+    ],
+    "requiredElements": [
+      "紫-ピンクグラデーション",
+      "格子パターン",
+      "定義アイコン",
+      "スキルリスト",
+      "POINT番号",
+      "チェック項目",
+      "質問例",
+      "面接官心声",
+      "Bad/Good対比",
+      "まとめイラスト",
+      "ロゴ",
+      "ハッシュタグ"
+    ],
+    "informationArrangement": "タイトル→定義（2ページ）→ポイント1（2ページ）→ポイント2（2ページ）→まとめ→CTA→プロフィール"
+  }
+}

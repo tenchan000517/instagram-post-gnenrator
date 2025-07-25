@@ -1,0 +1,102 @@
+{
+  "knowledgeId": "K073",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K073分析記録",
+    "rawObservation": "docs/raw-analysis/contents-073-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K073.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "AI就活のコスパがよいことは知っているが、具体的な活用方法や正しい使い方がわからない",
+    "flowStages": [
+      "問題提起",
+      "効果実証",
+      "AIツール使い分け",
+      "ES対策",
+      "面接対策",
+      "業界研究",
+      "自己PR",
+      "企業研究",
+      "まとめ",
+      "特典紹介"
+    ],
+    "completionState": "AI就活の5つの活用術を理解し、効率的な就活を実践できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "フック",
+        "description": "インパクトタイトルとキャラクター"
+      },
+      {
+        "pageNumber": 2,
+        "role": "データ実証",
+        "description": "統計データによる効果実証"
+      },
+      {
+        "pageNumber": 3,
+        "role": "ツール使い分け",
+        "description": "AIツールの4分割比較"
+      },
+      {
+        "pageNumber": 4,
+        "role": "ES対策詳細",
+        "description": "ES作成の具体的手法とプロンプト例"
+      },
+      {
+        "pageNumber": 5,
+        "role": "面接対策詳細",
+        "description": "面接準備の具体的手法とプロンプト例"
+      },
+      {
+        "pageNumber": 6,
+        "role": "業界研究詳細",
+        "description": "業界研究の具体的手法とプロンプト例"
+      },
+      {
+        "pageNumber": 7,
+        "role": "自己PR詳細",
+        "description": "自己PR作成の具体的手法とプロンプト例"
+      },
+      {
+        "pageNumber": 8,
+        "role": "企業研究詳細",
+        "description": "企業研究の具体的手法とプロンプト例"
+      },
+      {
+        "pageNumber": 9,
+        "role": "まとめ",
+        "description": "5つの活用術のステップ要約"
+      },
+      {
+        "pageNumber": 10,
+        "role": "特典CTA",
+        "description": "限定特典の案内と行動促進"
+      }
+    ],
+    "flowOrder": [
+      "フック→実証→ツール解説→5つの活用術詳細→まとめ→特典"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "統計データと具体的プロンプト例の両方を効果的に表示",
+      "統計データの大きな表示",
+      "プロンプト例の枠囲み"
+    ],
+    "requiredElements": [
+      "インパクトタイトル",
+      "キャラクター発言",
+      "統計数値",
+      "データソース",
+      "4分割カード",
+      "Bad/Good対比",
+      "ステップ番号表示",
+      "プロンプト例",
+      "特典リスト",
+      "ハッシュタグ"
+    ],
+    "informationArrangement": "フック→実証→ツール解説→5つの活用術詳細→まとめ→特典"
+  }
+}

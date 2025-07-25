@@ -13,7 +13,7 @@ interface ActionCallChecklistData {
 }
 
 export const ActionCallChecklistTemplate: React.FC<TemplateProps> = ({ data }) => {
-  const templateData = data as ActionCallChecklistData
+  const templateData = data as unknown as ActionCallChecklistData
 
   return (
     <div className="bg-white rounded-lg p-8 h-full flex flex-col">

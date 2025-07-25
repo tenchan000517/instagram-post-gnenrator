@@ -51,9 +51,9 @@
   ],
   "marketingStage": "就活準備中の学生や転職を考えている社会人で、自己分析の必要性を感じているが方法が分からない層",
   "knowledgeId": "K004",
-  "pageStructurePattern": "mock-method-5page",
   "actualTitle": "自己分析の方法5選",
   "pageCount": 7,
+  "contentPageCount": 5,
   "hashTag": "#就職活動 AtoZ",
   "detailedContent": {
     "page1": {
@@ -66,9 +66,10 @@
       "accountInfo": "マイナビ @mynavi_shukatsu_junbi"
     },
     "page2": {
+      "section": "intro",
+      "template": "basic_intro",
       "role": "problem-why",
       "title": "そもそもなぜ自己分析が必要？",
-      "pageIndicator": "2/7",
       "reasons": [
         {
           "title": "自分自身を適切にアピールするため",
@@ -83,13 +84,13 @@
           "description": "就活準備では、入社後のキャリアについても考える必要があり自分の価値観が分かっていることが役立つはずです。"
         }
       ],
-      "emphasis": "自己分析は繰り返しやることが大事！自己分析は一度やれば終わりではありません。早い時期から繰り返しおこない自己理解を深めていくのがおすすめです。",
-      "source": "出典：マイナビSTART「自己分析のやり方は？簡単な5つの方法と教えに失敗しない理由を紹介」"
+      "emphasis": "自己分析は繰り返しやることが大事！自己分析は一度やれば終わりではありません。早い時期から繰り返しおこない自己理解を深めていくのがおすすめです。"
     },
     "page3": {
+      "section": "mainContent",
+      "template": "method_systematic_info",
       "role": "method-detail",
       "title": "自己分析の簡単なやり方5選",
-      "pageIndicator": "3/7",
       "method1": {
         "number": "1",
         "name": "自分史の作成",
@@ -113,9 +114,10 @@
       }
     },
     "page4": {
+      "section": "mainContent",
+      "template": "method_systematic_info",
       "role": "method-detail",
       "title": "自己分析の簡単なやり方5選",
-      "pageIndicator": "4/7", 
       "method3": {
         "number": "3",
         "name": "モチベーショングラフの作成",
@@ -124,14 +126,14 @@
           "「嬉しいと感じたとき」「落ち込んだとき」それぞれにどのような出来事があったのかをまとめる",
           "共通する項目が見つかる！"
         ],
-        "warning": "「なぜそう感したのか」を深掘りすることで価値観が見つかりやすくなります",
-        "visualExample": "モチベーショングラフ例（年齢0-60の波形グラフ、ポジティブ→感情→ネガティブの軸）"
+        "warning": "「なぜそう感したのか」を深掘りすることで価値観が見つかりやすくなります"
       }
     },
     "page5": {
+      "section": "mainContent",
+      "template": "method_systematic_info",
       "role": "method-detail",
       "title": "自己分析の簡単なやり方5選",
-      "pageIndicator": "5/7",
       "method4": {
         "number": "4",
         "name": "マインドマップの作成", 
@@ -142,14 +144,14 @@
           "各単語からさらに枝を広げて、思いついたことをどんどん書き足していく",
           "その中から自分の価値観を示すような言葉をピックアップ！"
         ],
-        "warning": "これによって、自分がどのような価値観を持っているのかが分かりやすくなります",
-        "visualExample": "マインドマップ例（中心に「自分」、周囲に「性格」「夢」「好きなこと」等の枝分かれ図）"
+        "warning": "これによって、自分がどのような価値観を持っているのかが分かりやすくなります"
       }
     },
     "page6": {
+      "section": "mainContent",
+      "template": "method_systematic_info",
       "role": "method-detail",
       "title": "自己分析の簡単なやり方5選", 
-      "pageIndicator": "6/7",
       "method5": {
         "number": "5",
         "name": "「ジョハリの窓」の活用",
@@ -160,14 +162,14 @@
           "自分で自分に当てはまると思う言葉を選ぶ",
           "開放の窓／青点の窓／秘密の窓／未知の窓　という4つに分類する"
         ],
-        "warning": "自分に対するイメージのズレを認識し、「開放の窓」と「青点の窓」にある言葉を活用することで、自己PRを作りやすくなります",
-        "visualExample": "ジョハリの窓の4分割図（開放の窓、盲点の窓、秘密の窓、未知の窓）"
+        "warning": "自分に対するイメージのズレを認識し、「開放の窓」と「青点の窓」にある言葉を活用することで、自己PRを作りやすくなります"
       }
     },
     "page7": {
+      "section": "summary",
+      "template": "basic_summary",
       "role": "engagement-cta",
       "title": "その他の投稿やマイナビ2027はプロフィールからチェック！",
-      "pageIndicator": "7/7",
       "contentPreview": [
         "ほかの投稿もCHECK",
         "就活準備100問（動画コンテンツ）",
@@ -177,8 +179,7 @@
         "ここをTAPしてプロフィールへ",
         "気になった投稿は保存マーク"
       ],
-      "additionalContent": "業界・仕事研究って何をやればいいですか？",
-      "visualElements": "投稿サムネイル画像、マイナビロゴ"
+      "additionalContent": "業界・仕事研究って何をやればいいですか？"
     }
   }
 }

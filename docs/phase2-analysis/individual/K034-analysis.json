@@ -1,0 +1,98 @@
+{
+  "knowledgeId": "K034",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session2-K031-K045-analysis.md - K034分析記録",
+    "rawObservation": "/docs/raw-analysis/contents-034-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K034.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "27卒大学生がインターンシップの合格獲得やES添削、面接対策で困っている",
+    "flowStages": [
+      "タイトル発表→目次（8STEP）→PDCAサイクル説明→目標設定→各STEP詳細（ES完成、自己分析、面接対策）→LINE追加特典"
+    ],
+    "completionState": "インターンシップ対策に悩んでいた27卒学生が、体系的なTODOリストを獲得し、各段階での具体的な行動計画を立てられる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-announcement",
+        "description": "コンテンツタイトル表示・アカウント認知"
+      },
+      {
+        "pageNumber": 2,
+        "role": "table-of-contents",
+        "description": "全体構成の説明・緊急性の演出"
+      },
+      {
+        "pageNumber": 3,
+        "role": "pdca-explanation",
+        "description": "コンセプト説明・理論的根拠の提示"
+      },
+      {
+        "pageNumber": 4,
+        "role": "goal-setting",
+        "description": "具体的目標設定・行動指針の提示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "step-details",
+        "description": "具体的作業内容の詳細・実行ルールの説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "step-details",
+        "description": "詳細な自己分析質問の提供"
+      },
+      {
+        "pageNumber": 7,
+        "role": "step-details",
+        "description": "高校・大学時代の詳細な自己分析質問の提供"
+      },
+      {
+        "pageNumber": 8,
+        "role": "step-details",
+        "description": "面接での深掘り質問の準備・対策提供"
+      },
+      {
+        "pageNumber": 9,
+        "role": "line-benefits",
+        "description": "パーソナル・人物面の面接質問対策提供"
+      },
+      {
+        "pageNumber": 10,
+        "role": "final-cta",
+        "description": "LINE追加によるコンバージョン促進"
+      }
+    ],
+    "flowOrder": [
+      "全体像提示で理解促進",
+      "体系的思考法でアプローチ明確化",
+      "段階的TODOで行動計画策定",
+      "詳細質問で具体的準備",
+      "特典での動機付けとアクション促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ピンク背景+白カード構造",
+      "番号付きステップ表示",
+      "質問項目の整理された配置",
+      "大量のTODO項目の整理",
+      "段階的な理解促進"
+    ],
+    "requiredElements": [
+      "steps配列（8段階のSTEP）",
+      "questions配列（自己分析・面接対策質問）",
+      "tips配列（実践的アドバイス）",
+      "benefits配列（LINE特典内容）",
+      "URL等の構造化データ",
+      "PDCAサイクル図解",
+      "赤文字での注意喚起",
+      "チェックリスト形式",
+      "LINE公式アカウント表示"
+    ],
+    "informationArrangement": "全体像提示→体系的思考法→段階的TODO→詳細質問→特典での動機付けの順序実行必須"
+  }
+}

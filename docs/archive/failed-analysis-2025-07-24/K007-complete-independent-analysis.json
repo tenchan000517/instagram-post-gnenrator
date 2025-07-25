@@ -1,0 +1,73 @@
+{
+  "knowledgeId": "K007",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "転職を成功させたい、転職で無双したい、何が転職成功の要因かを知りたい",
+    "solutionReason": "元大手人事部が教える転職成功者の特徴という、具体的な情報・知識の提供コンテンツ"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "権威性のあるタイトルで専門性を示す",
+      "転職成功の5つの具体的特徴を詳細説明",
+      "転職サービスへの具体的導線を提供"
+    ],
+    "pageRoles": {
+      "page1": "権威性導入 - 専門性を示すタイトルとインパクト",
+      "page2": "知識提供 - 5つの成功特徴の詳細解説",
+      "page3": "サービス誘導 - 転職サポートサービスへのCTA"
+    },
+    "solutionCompletionState": "専門性認知 → 具体的成功要因理解 → 転職サービス利用（プロフィール訪問）への行動完成"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 3,
+    "specializedConfiguration": {
+      "authorityIntroduction": 1,
+      "detailedFeaturesExplanation": 1,
+      "servicePromotion": 1
+    },
+    "divisionReason": "権威性による信頼構築、専門知識の提供、具体的解決策（サービス利用）への導線という3段階で効率的に転職成功への道筋を示すため",
+    "structureFileName": "authority-based-knowledge-to-service-structure.json",
+    "requirement": "権威性タイトル + 専門知識詳細 + 5つの特徴説明 + サービス導線"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "authority-title-with-impact-visual",
+      "specificNeeds": "権威性タイトル + 走るビジネスマンイラスト + 青い背景 + 白いカード + チェックCTA"
+    },
+    "page2": {
+      "templatePattern": "five-features-detailed-explanation",
+      "specificNeeds": "5つの特徴リスト + 各特徴の詳細説明 + グレー丸アイコン + 白背景 + テキスト中心"
+    },
+    "page3": {
+      "templatePattern": "service-profile-promotion",
+      "specificNeeds": "プロフィール画面表示 + サービス統計情報 + 特徴リスト + CTA指示 + 赤い矢印"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "authorityTitleDisplay": "page1で専門性を強調するタイトル配置",
+      "featuresListStructure": "page2で5つの特徴の構造化表示",
+      "profileScreenIntegration": "page3でプロフィール画面の実機表示",
+      "ctaArrowPlacement": "page3での赤い矢印による誘導表示"
+    },
+    "visualExpressionRequirements": {
+      "authorityColorScheme": "青色（権威性）+ 白色（清潔感）の組み合わせ",
+      "professionalIllustration": "ビジネス関連イラストの使用",
+      "cleanCardDesign": "白い背景の清潔感あるカード形式",
+      "serviceScreenDisplay": "実際のプロフィール画面の忠実な再現"
+    },
+    "dataStructureRequirements": {
+      "fiveFeaturesArray": "5つの転職成功特徴の構造化データ",
+      "featureDescriptions": "各特徴の詳細説明文管理",
+      "serviceInformation": "転職サービスのプロフィール情報データ",
+      "statisticsData": "フォロワー数、投稿数等の統計情報"
+    },
+    "templateName": "AuthorityBasedKnowledgeToServiceTemplate"
+  }
+}

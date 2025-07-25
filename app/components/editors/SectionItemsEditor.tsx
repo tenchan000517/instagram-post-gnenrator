@@ -29,7 +29,7 @@ export function SectionItemsEditor({ data, onUpdate }: SectionItemsEditorProps) 
       setSection({
         title: sectionData.title || '',
         content: sectionData.content || '',
-        items: sectionData.items || []
+        items: Array.isArray(sectionData.items) ? sectionData.items.filter((item): item is string => typeof item === 'string') : []
       })
     } else if (data.points && data.points.length > 0) {
       // pointsデータからの変換

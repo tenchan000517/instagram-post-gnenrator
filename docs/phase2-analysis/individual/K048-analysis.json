@@ -1,0 +1,93 @@
+{
+  "knowledgeId": "K048",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K048分析記録",
+    "rawObservation": "contents-048-observation.json - 9ページ構成の観察データ",
+    "knowledgeBase": "K048.json - 企業研究の知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "企業研究の具体的方法がわからない、効果的な研究手順を知りたい",
+    "flowStages": [
+      "重要性強調",
+      "研究ステップ",
+      "各段階詳細",
+      "実践促進の手順的構成"
+    ],
+    "completionState": "企業研究の方法に悩んでいた学生が、目的・メリット・注意点・具体的進め方を体系的に習得し、効果的な企業研究の実践方法を理解した状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "urgency-title-page-with-branding",
+        "description": "緊急性とブランディングを組み合わせたタイトルページ"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-solution-identification-page",
+        "description": "問題認識と解決策提示ページ"
+      },
+      {
+        "pageNumber": 3,
+        "role": "purpose-explanation",
+        "description": "企業研究の3つの目的説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "benefits-explanation",
+        "description": "企業研究の4つのメリット説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "caution-points",
+        "description": "企業研究の3つの注意点説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "website-sections",
+        "description": "企業サイトで見るべき4セクションの説明"
+      },
+      {
+        "pageNumber": 7,
+        "role": "analysis-framework",
+        "description": "企業分析の10項目フレームワーク提示"
+      },
+      {
+        "pageNumber": 8,
+        "role": "summary-page",
+        "description": "内容総括とエンゲージメント促進"
+      },
+      {
+        "pageNumber": 9,
+        "role": "service-promotion",
+        "description": "サービス紹介とリード獲得"
+      }
+    ],
+    "flowOrder": [
+      "重要性認識",
+      "ステップ理解",
+      "詳細方法習得",
+      "実践行動促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "薦緑から薦青へのグラデーション背景",
+      "白色カード重ね",
+      "ページインジケーター右上固定",
+      "番号付きステップ表示",
+      "チェックリスト形式"
+    ],
+    "requiredElements": [
+      "企業研究アイコン",
+      "ステップ番号バッジ",
+      "チェックボックス",
+      "ツールアイコン",
+      "マスコットキャラクター",
+      "吹き出し",
+      "矢印"
+    ],
+    "informationArrangement": "重要性強調 + ステップ概要 + 詳細方法 + 実践促進"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "knowledgeId": "K051",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K051分析記録",
+    "rawObservation": "contents-051-observation.json - 9ページ構成の観察データ",
+    "knowledgeBase": "K051.json - 休日が多くて稼げる仕事の知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "ワークライフバランスと収入を両立したい、休日が多い高収入職種を知りたい",
+    "flowStages": [
+      "職種分類",
+      "各職種詳細",
+      "収入・休日情報",
+      "選択支援の職種別構成"
+    ],
+    "completionState": "ワークライフバランスと収入の両立に悩んでいた社会人が、９つの具体的な職種選択肢とそれぞれの収入・休日情報を獲得し、自分に適した働き方の選択指針を得た状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-appeal",
+        "description": "タイトル表示とコンテンツ概要の提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-identification",
+        "description": "問題共感とニーズの明確化"
+      },
+      {
+        "pageNumber": 3,
+        "role": "job-introduction",
+        "description": "職業１：ITエンジニアの具体的情報提供"
+      },
+      {
+        "pageNumber": 4,
+        "role": "job-introduction",
+        "description": "職業２：銀行員の具体的情報提供"
+      },
+      {
+        "pageNumber": 5,
+        "role": "job-introduction",
+        "description": "職業３：MRの具体的情報提供"
+      },
+      {
+        "pageNumber": 6,
+        "role": "job-introduction",
+        "description": "職業４：コンサルタントの具体的情報提供"
+      },
+      {
+        "pageNumber": 7,
+        "role": "job-introduction",
+        "description": "職業５：企画職の具体的情報提供"
+      },
+      {
+        "pageNumber": 8,
+        "role": "job-introduction",
+        "description": "職業６：機電系エンジニアの具体的情報提供"
+      },
+      {
+        "pageNumber": 9,
+        "role": "job-introduction",
+        "description": "職業７：研究職の具体的情報提供"
+      }
+    ],
+    "flowOrder": [
+      "訴求提示",
+      "職種理解",
+      "詳細情報把握",
+      "選択支援"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ベージュ系グラデーション背景",
+      "人物写真配置",
+      "大きな円形レイアウトで「9選」を強調",
+      "Point番号バー + 白色カードの統一レイアウト",
+      "赤字での数値強調"
+    ],
+    "requiredElements": [
+      "職種アイコン",
+      "収入数値",
+      "休日数表示",
+      "業界タグ",
+      "ワークスタイル表示",
+      "チェックマーク（装飾的）",
+      "Nextボタン"
+    ],
+    "informationArrangement": "タイトル訴求 + 職種概要 + 9職種詳細×収入情報 + 選択支援"
+  }
+}

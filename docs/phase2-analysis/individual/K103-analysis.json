@@ -1,0 +1,91 @@
+{
+  "knowledgeId": "K103",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K101-K110-analysis.md (該当セクションなし - 記録未完了)",
+    "rawObservation": "docs/raw-analysis/contents-103-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K103.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "作業効率を上げたい、PCスキルを向上させたい",
+    "flowStages": [
+      "1. ショートカットキーを使う（Ctrl+C、Ctrl+T等）",
+      "2. ファイル名をルール化して整理する",
+      "3. PCトラブルは自分で調べる習慣をつける",
+      "4. タッチタイピングを身につける",
+      "5. AIを活用して学習効率を上げる"
+    ],
+    "completionState": "5つのPCスキル向上習慣を身につけ、作業効率を飛躍的に向上させる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトルページ",
+        "description": "赤色基調、白色カードでインパクトのあるタイトル提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "習慣1: ショートカット",
+        "description": "Before/After比較表でショートカットキーの効果を実証"
+      },
+      {
+        "pageNumber": 3,
+        "role": "習慣2: ファイル整理",
+        "description": "ファイル整理ルールとツール活用方法を説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "習慣3: トラブル自己解決",
+        "description": "PCトラブル時の自己解決習慣の重要性を説明"
+      },
+      {
+        "pageNumber": 5,
+        "role": "習慣4: タッチタイピング",
+        "description": "タッチタイピング練習法と効果を説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "習慣5: AI活用",
+        "description": "AI活用による学習効率向上の5つのポイント"
+      },
+      {
+        "pageNumber": 7,
+        "role": "まとめ",
+        "description": "習慣の継続による成長の重要性をまとめ"
+      },
+      {
+        "pageNumber": 8,
+        "role": "関連投稿・フォロー誘導",
+        "description": "過去投稿の紹介とフォロー促進"
+      },
+      {
+        "pageNumber": 9,
+        "role": "キャプション・ハッシュタグ",
+        "description": "詳細説明とハッシュタグ情報"
+      }
+    ],
+    "flowOrder": [
+      "問題提起",
+      "5つの習慣の段階的説明",
+      "まとめと継続の重要性",
+      "関連コンテンツ誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "赤色を基調とした統一デザイン",
+      "白色カード形式による情報整理",
+      "番号付きの段階的説明（1-5）",
+      "Before/After比較表示機能"
+    ],
+    "requiredElements": [
+      "PC作業イラスト",
+      "番号付きタイトル",
+      "具体的なツール名・サービス名の明記",
+      "ポイント強調ボックス",
+      "SAMURAI ENGINEERロゴ"
+    ],
+    "informationArrangement": "各習慣を1ページずつ詳細に説明し、具体的な手順と効果を提示する形式"
+  }
+}

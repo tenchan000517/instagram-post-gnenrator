@@ -1,0 +1,81 @@
+{
+  "knowledgeId": "K083",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md (K083記録なし - Phase1範囲外)",
+    "rawObservation": "docs/raw-analysis/contents-083-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K083.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "AI面接で評価されるポイントが分からない、AI面接を突破するための具体的な攻略法を知りたい",
+    "flowStages": [
+      "AI面接の仕組みを理解する",
+      "評価ポイント3点を把握する（表情・声のトーン・視線、内容の構造と一貫性、深掘り質問への耐性）",
+      "STAR手法で回答を構成する（Situation、Task、Action、Result）",
+      "7つの具体的アクションを実践する"
+    ],
+    "completionState": "SHaiNのAI面接システムを理解し、評価基準に基づいた準備と対策を実行できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 8,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "ブランド付きタイトル・導入",
+        "description": "TOKYO VIC ACADEMYのブランドヘッダーと「AI面接 SHaiN ガチ攻略」のインパクトタイトル"
+      },
+      {
+        "pageNumber": 2,
+        "role": "背景説明・問題提起",
+        "description": "JALのAI面接導入背景とAI面接の特殊性について説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "SHaiN詳細解説",
+        "description": "SHaiNというAI面接ツールの仕組みと企業導入目的の説明"
+      },
+      {
+        "pageNumber": 4,
+        "role": "評価ポイント解説",
+        "description": "AI面接で見られている3つの重要な評価ポイントを番号付きで提示"
+      },
+      {
+        "pageNumber": 5,
+        "role": "STAR手法解説",
+        "description": "面接回答の構造化手法STARのチェックボックス形式での説明"
+      },
+      {
+        "pageNumber": 6,
+        "role": "具体例提示",
+        "description": "STAR手法を適用した「学生時代に頑張ったこと」の回答例"
+      },
+      {
+        "pageNumber": 7,
+        "role": "総合対策リスト",
+        "description": "SHaiN対策の7つの具体的アクション項目"
+      },
+      {
+        "pageNumber": 8,
+        "role": "記録なし（観察データは7ページまで）",
+        "description": "観察データでは7ページまでしか記録されていない"
+      }
+    ],
+    "flowOrder": ["ブランド導入", "背景・問題提起", "ツール説明", "評価基準", "解決手法", "具体例", "総合対策"]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "赤色ブランドヘッダーの継続的使用",
+      "黄色のセクションヘッダーでの統一",
+      "白背景での可読性確保",
+      "ロボットキャラクターの一貫した配置"
+    ],
+    "requiredElements": [
+      "TOKYO VIC ACADEMYのブランド表示",
+      "番号付きリスト（評価ポイント、対策項目）",
+      "チェックボックス形式（STAR手法）",
+      "カラー分けされたSTAR要素表示",
+      "警告マーク（⚠️）での注意喚起",
+      "ロボットキャラクターのイラスト"
+    ],
+    "informationArrangement": "階層構造での情報提示（導入→問題→解説→手法→実例→対策）と視覚的な強調要素の効果的配置"
+  }
+}

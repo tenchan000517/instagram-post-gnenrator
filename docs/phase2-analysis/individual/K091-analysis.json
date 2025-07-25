@@ -1,0 +1,75 @@
+{
+  "knowledgeId": "K091",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session3-K091-K100-analysis.md (K091分析記録 lines 9-40)",
+    "rawObservation": "/docs/raw-analysis/contents-091-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K091.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "2027年のサマーインターン開始前に「就活は情報戦」と呼ばれる中で、今から準備すべき内容について知りたい",
+    "flowStages": [
+      "就活における情報戦という概念について説明",
+      "準備すべき4つのポイントを具体的に情報提供",
+      "自己分析の重要性とタイミング",
+      "業界研究の効果的なアプローチ方法",
+      "インターン情報収集の頻度と方法",
+      "SNS・口コミを活用したリアル情報収集"
+    ],
+    "completionState": "就活を「情報戦」として捉え、4つのポイント（自己分析、業界研究、インターン情報チェック、SNS・口コミ活用）を理解し、2027年サマーインターン開始前の準備ができる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 5,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "表紙・タイトルページ",
+        "description": "GOOYA Holdings企業ブランディング付きのタイトル表示、緑背景に白文字で「就活攻略術」強調、メガホンアイコンで注目喚起"
+      },
+      {
+        "pageNumber": 2,
+        "role": "1つ目のポイント説明ページ",
+        "description": "自己分析は「今」が勝負！をテーマに、価値観や強みの言語化の重要性説明、データ分析グラフと虫眼鏡の写真使用"
+      },
+      {
+        "pageNumber": 3,
+        "role": "2つ目のポイント説明ページ",
+        "description": "業界研究は「広く浅く」がコツ！をテーマに、多様な業界把握の重要性説明、ノートとパソコンの写真使用"
+      },
+      {
+        "pageNumber": 4,
+        "role": "3つ目のポイント説明ページ",
+        "description": "インターン情報は「毎週」チェック！をテーマに、定期的な情報収集の重要性説明、インターン募集画面の写真使用"
+      },
+      {
+        "pageNumber": 5,
+        "role": "4つ目のポイント説明ページ",
+        "description": "SNS・口コミは「リアル」を知る武器！をテーマに、企業のリアル情報収集方法説明、スマートフォンのSNS画面写真使用"
+      }
+    ],
+    "flowOrder": [
+      "企業ブランディング付きタイトル表示",
+      "自己分析の重要性とタイミング",
+      "業界研究の効果的アプローチ",
+      "インターン情報の定期収集",
+      "SNS・口コミ活用方法"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "Page1: 緑色背景、中央配置テキスト、企業ロゴ配置",
+      "Page2-5: 白背景、上部に緑色見出し、中央に説明文と写真、下部にPointボックス",
+      "全ページ: 下部にドットインジケータ配置",
+      "統一された「Point」マーク使用",
+      "破線で囲まれたアドバイスボックス配置"
+    ],
+    "requiredElements": [
+      "企業名「GOOYA Holdings」とメガホンアイコン",
+      "各ページの緑色見出しタイトル",
+      "「Point」の吹き出しアイコン",
+      "破線囲みの具体的アドバイスボックス",
+      "各ページ対応の写真（データ分析、ノートPC、インターン画面、SNS画面）",
+      "ページインジケータのドット表示"
+    ],
+    "informationArrangement": "縦型レイアウトで、1.企業ブランディング表示 → 2.緑色見出し → 3.説明文 → 4.関連写真 → 5.Pointアドバイスボックスの順序で統一配置"
+  }
+}

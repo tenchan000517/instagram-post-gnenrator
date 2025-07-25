@@ -16,7 +16,13 @@ interface GraphDataItem {
 
 interface GraphData {
   type: 'pie' | 'bar'
-  data: GraphDataItem[]
+  data?: GraphDataItem[]
+  categories?: string[]
+  series?: Array<{
+    name: string
+    data: number[]
+    unit?: string
+  }>
   source?: {
     organization: string
     year: string
@@ -25,13 +31,6 @@ interface GraphData {
 }
 
 export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
-  const [graphData, setGraphData] = useState<GraphData>({
-    type: 'pie',
-    data: [],
-    source: undefined
-  })
-  const [draggedItem, setDraggedItem] = useState<number | null>(null)
-
   // デフォルトカラーパレット
   const COLORS = [
     '#3B82F6', // blue-500
@@ -44,9 +43,19 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
     '#F97316', // orange-500
   ]
 
+  const [graphData, setGraphData] = useState<GraphData>({
+    type: 'pie',
+    data: [
+      { name: '項目1', value: 40, color: COLORS[0] },
+      { name: '項目2', value: 35, color: COLORS[1] },
+      { name: '項目3', value: 25, color: COLORS[2] }
+    ]
+  })
+  const [draggedItem, setDraggedItem] = useState<number | null>(null)
+
   // 初期データの設定
   useEffect(() => {
-    if (data.graphData) {
+    if (data.graphData && data.graphData.data) {
       setGraphData(data.graphData)
     } else {
       // デフォルトの3項目
@@ -56,8 +65,7 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
           { name: '項目1', value: 40, color: COLORS[0] },
           { name: '項目2', value: 35, color: COLORS[1] },
           { name: '項目3', value: 25, color: COLORS[2] }
-        ],
-        source: undefined
+        ]
       })
     }
   }, [data])
@@ -81,35 +89,35 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
 
   // 項目追加
   const addItem = () => {
-    if (graphData.data.length >= 8) return // 最大8項目
+    if ((graphData.data?.length || 0) >= 8) return // 最大8項目
     
     const newItem: GraphDataItem = {
-      name: `項目${graphData.data.length + 1}`,
+      name: `項目${(graphData.data?.length || 0) + 1}`,
       value: 10,
-      color: COLORS[graphData.data.length % COLORS.length]
+      color: COLORS[(graphData.data?.length || 0) % COLORS.length]
     }
     
     const newGraphData = {
       ...graphData,
-      data: [...graphData.data, newItem]
+      data: [...(graphData.data || []), newItem]
     }
     updateData(newGraphData)
   }
 
   // 項目削除
   const removeItem = (index: number) => {
-    if (graphData.data.length <= 1) return // 最小1項目
+    if ((graphData.data?.length || 0) <= 1) return // 最小1項目
     
     const newGraphData = {
       ...graphData,
-      data: graphData.data.filter((_, i) => i !== index)
+      data: (graphData.data || []).filter((_, i) => i !== index)
     }
     updateData(newGraphData)
   }
 
   // 項目編集
   const updateItem = (index: number, field: keyof GraphDataItem, value: string | number) => {
-    const newData = [...graphData.data]
+    const newData = [...(graphData.data || [])]
     newData[index] = { ...newData[index], [field]: value }
     const newGraphData = { ...graphData, data: newData }
     updateData(newGraphData)
@@ -117,7 +125,8 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
 
   // 出典情報編集
   const updateSource = (field: keyof NonNullable<GraphData['source']>, value: string) => {
-    const newSource = { ...graphData.source, [field]: value }
+    const currentSource = graphData.source || { organization: '', year: '', date: '' }
+    const newSource = { ...currentSource, [field]: value }
     const newGraphData = { ...graphData, source: newSource }
     updateData(newGraphData)
   }
@@ -143,7 +152,7 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
 
   // 値の合計を計算（円グラフ用）
   const getTotalValue = () => {
-    return graphData.data.reduce((sum, item) => sum + item.value, 0)
+    return (graphData.data || []).reduce((sum, item) => sum + item.value, 0)
   }
 
   // 値を100%に正規化
@@ -151,7 +160,7 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
     const total = getTotalValue()
     if (total === 0) return
     
-    const newData = graphData.data.map(item => ({
+    const newData = (graphData.data || []).map(item => ({
       ...item,
       value: Math.round((item.value / total) * 100)
     }))
@@ -176,7 +185,7 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
     
     if (draggedItem === null) return
     
-    const newData = [...graphData.data]
+    const newData = [...(graphData.data || [])]
     const draggedItemValue = newData[draggedItem]
     
     // 要素を移動
@@ -266,7 +275,7 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
       <div className="space-y-4">
         <h4 className="font-semibold text-gray-800">データ項目</h4>
         
-        {graphData.data.map((item, index) => (
+        {(graphData.data || []).map((item, index) => (
           <div
             key={index}
             className={`border-2 rounded-lg p-4 bg-white ${
@@ -328,9 +337,9 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
               {/* 削除ボタン */}
               <button
                 onClick={() => removeItem(index)}
-                disabled={graphData.data.length <= 1}
+                disabled={(graphData.data || []).length <= 1}
                 className={`flex-shrink-0 p-2 rounded-full transition-colors ${
-                  graphData.data.length <= 1
+                  (graphData.data || []).length <= 1
                     ? 'text-gray-300 cursor-not-allowed'
                     : 'text-red-500 hover:bg-red-50'
                 }`}
@@ -347,15 +356,15 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
       <div className="flex justify-center">
         <button
           onClick={addItem}
-          disabled={graphData.data.length >= 8}
+          disabled={(graphData.data || []).length >= 8}
           className={`flex items-center gap-2 px-4 py-2 rounded-lg border-2 border-dashed transition-colors ${
-            graphData.data.length >= 8
+            (graphData.data || []).length >= 8
               ? 'border-gray-300 text-gray-400 cursor-not-allowed'
               : 'border-blue-300 text-blue-600 hover:bg-blue-50'
           }`}
         >
           <Plus className="w-5 h-5" />
-          項目を追加 ({graphData.data.length}/8)
+          項目を追加 ({(graphData.data || []).length}/8)
         </button>
       </div>
 
@@ -432,7 +441,7 @@ export function GraphEditor({ data, onUpdate }: GraphEditorProps) {
         <h4 className="font-semibold text-gray-800 mb-2">プレビュー情報</h4>
         <div className="text-sm text-gray-600 space-y-1">
           <p>• グラフタイプ: {graphData.type === 'pie' ? '円グラフ' : '棒グラフ'}</p>
-          <p>• データ項目数: {graphData.data.length}</p>
+          <p>• データ項目数: {(graphData.data || []).length}</p>
           <p>• 合計値: {totalValue}{graphData.type === 'pie' ? '%' : ''}</p>
           <p>• 出典: {graphData.source ? '設定済み' : '未設定'}</p>
           <p>• ドラッグ&ドロップで項目の順序を変更できます</p>

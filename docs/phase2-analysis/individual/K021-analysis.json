@@ -1,0 +1,109 @@
+{
+  "knowledgeId": "K021",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session1-K021-K030-analysis.md (lines 8-37)",
+    "rawObservation": "docs/raw-analysis/contents-021-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K021.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "就活生が生活費を抑えて経済的に安定したい、特に家賃補助がある企業を知りたい",
+    "flowStages": [
+      "タイトル提示による関心喚起",
+      "企業1（サントリー）詳細紹介",
+      "企業2（NTTデータ）詳細紹介",
+      "企業3（サイバーエージェント）詳細紹介",
+      "企業4（クックパッド）詳細紹介",
+      "企業5（日立製作所）詳細紹介",
+      "企業6（ミクシィ）詳細紹介",
+      "企業7（京セラ）詳細紹介",
+      "企業8（YKK）詳細紹介",
+      "就活サポートサービス紹介",
+      "プロフィールCTA・最終誘導"
+    ],
+    "completionState": "8つの家賃補助制度を完全に理解し、具体的な補助額や条件を把握、かつ就活サポートも受けられる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル・関心喚起",
+        "description": "coral pink背景にタイトル表示による視覚的インパクト創出"
+      },
+      {
+        "pageNumber": 2,
+        "role": "サントリー詳細紹介",
+        "description": "オフィス写真付きで家賃の8割補助（上限10万円）を紹介"
+      },
+      {
+        "pageNumber": 3,
+        "role": "NTTデータ詳細紹介",
+        "description": "ロゴ付きオフィス写真で毎月4万円（既婚者7万円）補助を紹介"
+      },
+      {
+        "pageNumber": 4,
+        "role": "サイバーエージェント詳細紹介",
+        "description": "従業員写真で最寄り2駅圏内3万円補助を紹介"
+      },
+      {
+        "pageNumber": 5,
+        "role": "クックパッド詳細紹介",
+        "description": "cookpadロゴで2km圏内3万円補助を紹介"
+      },
+      {
+        "pageNumber": 6,
+        "role": "日立製作所詳細紹介",
+        "description": "建物写真で家賃50%補助を紹介"
+      },
+      {
+        "pageNumber": 7,
+        "role": "ミクシィ詳細紹介",
+        "description": "MIXIロゴで渋谷3km圏内3万円補助を紹介"
+      },
+      {
+        "pageNumber": 8,
+        "role": "京セラ詳細紹介",
+        "description": "建物写真で寮家賃4000円を紹介"
+      },
+      {
+        "pageNumber": 9,
+        "role": "YKK詳細紹介",
+        "description": "水背景にロゴで家賃7割補助を紹介"
+      },
+      {
+        "pageNumber": 10,
+        "role": "就活サポートサービス紹介",
+        "description": "ES添削・面接対策の無料サービス提供を告知"
+      },
+      {
+        "pageNumber": 11,
+        "role": "プロフィールCTA・最終誘導",
+        "description": "Instagramプロフィール画面表示でURL誘導"
+      }
+    ],
+    "flowOrder": [
+      "視覚的インパクトタイトル",
+      "企業別詳細情報の順次提示",
+      "信頼性構築（実際の写真・ロゴ使用）",
+      "サービス価値提示",
+      "最終行動誘導"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "企業名を上部に大きく配置",
+      "視覚要素（ロゴ・写真）を中央配置",
+      "補助額情報を下部に赤字で強調配置の3段構造",
+      "beige背景の統一使用（タイトルページ除く）",
+      "ページインジケーター下部表示"
+    ],
+    "requiredElements": [
+      "企業ロゴまたはオフィス写真による信頼性向上",
+      "具体的金額の赤字強調表示",
+      "統一されたカードデザイン",
+      "視覚的階層（企業名→視覚要素→補助額）",
+      "最終ページでのプロフィール画面表示"
+    ],
+    "informationArrangement": "企業情報カード型連続表示構造（1企業1ページの詳細表示）で、各企業の詳細（業界・写真・具体的補助額）を丁寧に伝える配置"
+  }
+}

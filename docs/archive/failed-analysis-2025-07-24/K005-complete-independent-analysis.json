@@ -1,0 +1,101 @@
+{
+  "knowledgeId": "K005",
+  "analysisDate": "2025-07-24",
+  "analysisType": "完全独立分析",
+  
+  "basicInformation": {
+    "problem": "副業を始めたいが何から始めていいか分からない、強みもスキルもないと感じている女性",
+    "solutionReason": "副業で月5万円達成という明確なゴールに向けた具体的手順を順番に提示"
+  },
+  
+  "solutionStructureAnalysis": {
+    "solutionFlow": [
+      "読者の悩みに共感し、専門性を示す",
+      "副業の種類をカテゴリ別に整理提示",
+      "4つのステップで具体的手順を段階的説明",
+      "成功事例で可能性を実証",
+      "要点まとめで知識定着を促進",
+      "特別プレゼントで継続学習機会を提供"
+    ],
+    "pageRoles": {
+      "page1": "カバー・タイトル - 明確な目標金額設定と導入",
+      "page2": "問題提起・共感 - 読者の悩みに共感し専門性を示す",
+      "page3": "情報提供・選択肢提示 - 副業の種類をカテゴリ分けで整理",
+      "page4-7": "具体的手順 - Step1-4の詳細説明",
+      "page8": "成功事例・信頼性構築 - 実際の成功例で可能性実証",
+      "page9": "まとめ・要点整理 - 重要ポイントの再確認",
+      "page10": "CTA・特典オファー - 無料学習サイトへの導線"
+    },
+    "solutionCompletionState": "副業への不安解消 → 具体的選択肢理解 → 4段階手順習得 → 成功可能性認識 → 知識定着 → 継続学習機会（プロフィール訪問）への行動完成"
+  },
+  
+  "requiredPageStructureDesign": {
+    "totalPages": 10,
+    "specializedConfiguration": {
+      "titleCover": 1,
+      "problemEmpathy": 1,
+      "optionsPresentation": 1,
+      "sequentialSteps": 4,
+      "successCase": 1,
+      "summaryPoints": 1,
+      "offerCTA": 1
+    },
+    "divisionReason": "副業への不安から成功への道筋を段階的に示し、4つのステップを個別に詳細説明し、成功事例で信頼性を構築した後、まとめで定着を図り、最終的に継続学習への動機付けを行うため",
+    "structureFileName": "side-hustle-step-by-step-guide-structure.json",
+    "requirement": "目標設定 + 共感形成 + 選択肢整理 + 4段階手順詳細 + 成功事例 + 要点まとめ + 特典オファー"
+  },
+  
+  "requiredTemplateDesign": {
+    "page1": {
+      "templatePattern": "goal-oriented-cover-with-background-image",
+      "specificNeeds": "目標金額バッジ + メインタイトル + 実際の作業環境背景画像"
+    },
+    "page2": {
+      "templatePattern": "empathy-problem-with-authority-building",
+      "specificNeeds": "共感メッセージ + 問題チェックリスト + 専門性証明 + プロフィール写真"
+    },
+    "page3": {
+      "templatePattern": "categorized-options-with-icons",
+      "specificNeeds": "3カテゴリ分類 + アイコン付き選択肢 + 注目ハイライト + 行動促進メッセージ"
+    },
+    "page4-7": {
+      "templatePattern": "numbered-step-detailed-explanation",
+      "specificNeeds": "Step番号 + 詳細説明 + 計算・例示 + 効果・メリット + 励ましメッセージ + イラスト"
+    },
+    "page8": {
+      "templatePattern": "success-story-testimonial",
+      "specificNeeds": "成功バッジ + プロフィール + 成長過程 + 証言 + プロフィール写真"
+    },
+    "page9": {
+      "templatePattern": "summary-key-points-with-cta-lead",
+      "specificNeeds": "要点リスト + 励ましメッセージ + 次ページ誘導 + イラスト"
+    },
+    "page10": {
+      "templatePattern": "premium-offer-with-device-mockup",
+      "specificNeeds": "豪華プレゼント表示 + 詳細特典リスト + アクセス方法 + 緊急性メッセージ + デバイス画面表示"
+    }
+  },
+  
+  "implementationRequirements": {
+    "layoutRequirements": {
+      "stepNumberingSystem": "page4-7でStep1-4の統一表示",
+      "categoryIconDisplay": "page3で3カテゴリのアイコン付き表示",
+      "successJourneyVisualization": "page8で成長過程の段階表示",
+      "summaryBulletPoints": "page9で要点の箇条書き表示"
+    },
+    "visualExpressionRequirements": {
+      "backgroundImageUsage": "page1で実際の作業環境画像使用",
+      "categoryColorCoding": "スキル系・販売系・サポート系の色分け",
+      "stepProgressVisualization": "4段階の進行状況表示",
+      "successBadgeDesign": "成功事例での成果バッジ表示"
+    },
+    "dataStructureRequirements": {
+      "categorizedOptions": "3カテゴリの副業選択肢データ管理",
+      "sequentialSteps": "Step1-4の順序付きコンテンツ",
+      "toolsInformation": "4つのツールの詳細情報管理",
+      "successStoryData": "成功事例のプロフィールと成長過程データ",
+      "offerDetails": "特典オファーの詳細仕様管理"
+    },
+    "templateName": "SideHustleStepByStepGuideTemplate"
+  }
+}

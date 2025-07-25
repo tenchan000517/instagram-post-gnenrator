@@ -12,7 +12,7 @@ interface MethodDetailCardData {
 }
 
 export const MethodDetailCardTemplate: React.FC<TemplateProps> = ({ data }) => {
-  const templateData = data as MethodDetailCardData
+  const templateData = data as unknown as MethodDetailCardData
 
   return (
     <div className="bg-white rounded-lg p-8 h-full flex flex-col">

@@ -1,0 +1,99 @@
+{
+  "knowledgeId": "K053",
+  "sourceData": {
+    "phase1Record": "session2-K046-K059-analysis.md - K053分析記録",
+    "rawObservation": "contents-053-observation.json - 10ページ構成の観察データ",
+    "knowledgeBase": "K053.json - やめない方が良い職場の知識データ"
+  },
+  "problemSolutionFlow": {
+    "problem": "転職すべきか迷っている、今の職場の価値がわからない",
+    "flowStages": [
+      "転職迷い",
+      "職場価値不明",
+      "価値基準提示",
+      "各特徴詳細",
+      "価値説明",
+      "現状維持判断",
+      "価値再認識"
+    ],
+    "completionState": "現在の職場の価値を正しく認識し、転職判断に必要な評価基準を持った状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "workplace-value-title",
+        "description": "タイトル提示と職場価値評価のコンセプト表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-awareness-introduction",
+        "description": "問題意識と特徴紹介"
+      },
+      {
+        "pageNumber": 3,
+        "role": "workplace-feature-detail",
+        "description": "特徴１：人間関係が良好の詳細解説"
+      },
+      {
+        "pageNumber": 4,
+        "role": "workplace-feature-detail",
+        "description": "特徴２：適切な評価制度の詳細解説"
+      },
+      {
+        "pageNumber": 5,
+        "role": "workplace-feature-detail",
+        "description": "特徴３：離職率が低いの詳細解説"
+      },
+      {
+        "pageNumber": 6,
+        "role": "workplace-feature-detail",
+        "description": "特徴４：社内教育や成長支援の詳細解説"
+      },
+      {
+        "pageNumber": 7,
+        "role": "workplace-feature-detail",
+        "description": "特徴５：経営が安定しているの詳細解説"
+      },
+      {
+        "pageNumber": 8,
+        "role": "workplace-feature-detail",
+        "description": "特徴６：仕事にやりがいがあるの詳細解説"
+      },
+      {
+        "pageNumber": 9,
+        "role": "value-confirmation-summary",
+        "description": "価値確認サマリーと保存促進"
+      },
+      {
+        "pageNumber": 10,
+        "role": "cta-profile-redirect",
+        "description": "CTAとプロフィールリダイレクト"
+      }
+    ],
+    "flowOrder": [
+      "職場の価値を客観的に評価させる情報提供型",
+      "転職せずに現職場の価値を再発見させる構成"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "スターバックスカップとMacBookのある職場環境（タイトルページ）",
+      "薬茶色長方形のメッセージボックス",
+      "青系背景でポジティブな印象",
+      "チェックリスト形式で現状評価を促進",
+      "01-06の番号付き構造"
+    ],
+    "requiredElements": [
+      "職場特徴の分類表示",
+      "評価基準の明確化",
+      "転職判断支援のデザイン",
+      "チェックマーク６個（✓）",
+      "保存アイコンと矢印",
+      "スマートフォン画面のモックアップ",
+      "白い矢印でプロフィールを指示"
+    ],
+    "informationArrangement": "職場価値評価→06特徴個別詳細→価値確認サマリー"
+  }
+}

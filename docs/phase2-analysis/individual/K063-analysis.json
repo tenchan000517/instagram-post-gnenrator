@@ -1,0 +1,95 @@
+{
+  "knowledgeId": "K063",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K061-K080-analysis.md - K063分析記録",
+    "rawObservation": "docs/raw-analysis/contents-063-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K063.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "上司との関係が悪い、付き合いが苦手で避けてしまう",
+    "flowStages": [
+      "タイトル",
+      "問題共感",
+      "5つのNG行動詳細説明",
+      "メリット提示",
+      "関連コンテンツ紹介"
+    ],
+    "completionState": "5つのNG行動を理解し、上司との良好な関係を築く方法を実践できる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 9,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトル",
+        "description": "スーツ人物背景に縦書きタイトル表示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "問題共感",
+        "description": "上司との付き合い苦手意識への共感表現"
+      },
+      {
+        "pageNumber": 3,
+        "role": "NG行動1",
+        "description": "コミュニケーションを減らす - 詳細と改善策"
+      },
+      {
+        "pageNumber": 4,
+        "role": "NG行動2",
+        "description": "自分の扱い方を伝えない - 詳細と改善策"
+      },
+      {
+        "pageNumber": 5,
+        "role": "NG行動3",
+        "description": "褒めない - 詳細と改善策"
+      },
+      {
+        "pageNumber": 6,
+        "role": "NG行動4",
+        "description": "メリハリを見せない - 詳細と改善策"
+      },
+      {
+        "pageNumber": 7,
+        "role": "NG行動5",
+        "description": "人前で悪口を言う - 詳細と改善策"
+      },
+      {
+        "pageNumber": 8,
+        "role": "メリット提示",
+        "description": "上司と上手くやるメリットの明示"
+      },
+      {
+        "pageNumber": 9,
+        "role": "関連コンテンツ",
+        "description": "他の投稿紹介・フォロー促進"
+      }
+    ],
+    "flowOrder": [
+      "タイトル",
+      "問題共感",
+      "NG行動5つ（各1ページ）",
+      "メリット",
+      "関連コンテンツ"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "上司部下関係を表すイラスト配置",
+      "各NG行動の視覚的表現",
+      "青色ボックスでの強調表示"
+    ],
+    "requiredElements": [
+      "スーツ人物背景",
+      "上司部下イラスト",
+      "青色ボックス強調",
+      "関係性イラスト",
+      "点線枠具体例",
+      "NG行動タイトル",
+      "説明文",
+      "改善ポイント",
+      "関連イラスト"
+    ],
+    "informationArrangement": "タイトル→問題共感→NG行動5つ（各1ページ）→メリット→関連コンテンツ"
+  }
+}

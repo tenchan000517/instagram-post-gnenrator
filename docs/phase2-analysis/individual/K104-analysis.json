@@ -1,0 +1,103 @@
+{
+  "knowledgeId": "K104",
+  "sourceData": {
+    "phase1Record": "docs/phase1-analysis/session3-K101-K110-analysis.md (該当セクションなし - 記録未完了)",
+    "rawObservation": "docs/raw-analysis/contents-104-observation.json",
+    "knowledgeBase": "app/data/knowledgeBase/knowledge/K104.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "QRコードの基本的な使い方以外の活用法を知らない、QRコードを便利に使いこなせていない",
+    "flowStages": [
+      "1. サイトでQRコード作成（URLを入力）",
+      "2. アイコン・文字入れでデザインQRコード作成",
+      "3. メール作成用QRコード作成",
+      "4. おまとめQRで複数サイトを一つにまとめる",
+      "5. 自由テキストをQRコード化",
+      "6. 可変QRコードで後からリンク変更可能にする",
+      "7. アドレス帳登録用QRコード作成"
+    ],
+    "completionState": "QRコードの7つの活用方法を身につけ、業務効率化や連絡先交換の利便性を大幅に向上させる状態"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 11,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "タイトルページ",
+        "description": "PC画面背景でQRコード活用方法のタイトル提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "活用法1: サイト活用",
+        "description": "基本的なQRコード作成方法を画面付きで説明"
+      },
+      {
+        "pageNumber": 3,
+        "role": "活用法2: デザインQRコード",
+        "description": "アイコン・文字入れ機能で個性あるQRコード作成"
+      },
+      {
+        "pageNumber": 4,
+        "role": "活用法3: メール作成",
+        "description": "メールテンプレート化によるQRコード活用"
+      },
+      {
+        "pageNumber": 5,
+        "role": "活用法4: おまとめQR",
+        "description": "複数サイトを一つにまとめる便利機能"
+      },
+      {
+        "pageNumber": 6,
+        "role": "活用法5: 自由テキスト",
+        "description": "文章をQRコード化して紙で保存する方法"
+      },
+      {
+        "pageNumber": 7,
+        "role": "活用法6: 可変QRコード（作成）",
+        "description": "後からURL変更可能なQRコード作成方法"
+      },
+      {
+        "pageNumber": 8,
+        "role": "活用法6: 可変QRコード（変更）",
+        "description": "作成後のURL変更手順とパスワード管理"
+      },
+      {
+        "pageNumber": 9,
+        "role": "活用法7: アドレス帳登録",
+        "description": "連絡先交換の効率化によるQRコード活用"
+      },
+      {
+        "pageNumber": 10,
+        "role": "関連投稿・プロフィール紹介",
+        "description": "ICT活用関連の過去投稿とフォロー促進"
+      },
+      {
+        "pageNumber": 11,
+        "role": "目次・キャプション",
+        "description": "7つの活用法まとめと教員プロフィール、ハッシュタグ"
+      }
+    ],
+    "flowOrder": [
+      "基本機能から応用機能へ段階的説明",
+      "画面キャプチャによる具体的手順提示",
+      "実用性を強調した活用アドバイス",
+      "全体俯瞰による理解促進"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "青色を基調とした統一デザイン",
+      "PC画面背景（ぼかし）+ 青色枠線",
+      "番号付きの段階的説明（1-7）",
+      "実際の画面キャプチャによる具体性"
+    ],
+    "requiredElements": [
+      "実際のWebサイト画面キャプチャ",
+      "手順を示す青色矢印・番号",
+      "キャラクターイラスト",
+      "青色背景の実用性説明ボックス",
+      "教員としての権威性表示"
+    ],
+    "informationArrangement": "各活用法を番号順に1ページずつ詳細説明し、実際の操作画面と手順を明確に提示する形式"
+  }
+}

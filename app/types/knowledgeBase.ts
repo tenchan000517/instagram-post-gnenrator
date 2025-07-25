@@ -25,12 +25,37 @@ export interface EnhancedTemplateData {
   enhancementApplied?: boolean;
 }
 
+// ナレッジコンテンツのデータ構造
+export interface KnowledgeContent {
+  source: string;
+  problemCategory: string;
+  problemDescription: string;
+  postType: string;
+  postTypeReason: string;
+  solutionContent: {
+    概要: string;
+    具体的手順: string[];
+    提供情報: string[];
+    実用的なアドバイス: string[];
+  };
+  effectiveExpressions: string[];
+  searchKeywords: string[];
+  emotionalTriggers: string[];
+  marketingStage: string;
+  knowledgeId: string;
+  pageStructurePattern: string;
+  actualTitle: string;
+  pageCount: number;
+  hashTag: string;
+  detailedContent?: Record<string, any>;
+}
+
 export interface KnowledgeBaseParams {
   typeId: string;
   targetId?: string;
   personaIds?: string[];
   knowledgeIds?: string[];
-  knowledgeContents?: string[];
+  knowledgeContents?: KnowledgeContent[];
   knowledgeData?: any;  // 選択済みナレッジデータ
   useKnowledgeBase: boolean;
 }

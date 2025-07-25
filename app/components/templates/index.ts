@@ -15,6 +15,13 @@ export { ItemNTitleContentTemplate } from './ItemNTitleContentTemplate'
 export { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
 export { default as RankingTemplate } from './RankingTemplate'
 export { default as GraphTemplate } from './GraphTemplate'
+export { FeatureParallelInfoTemplate } from './FeatureParallelInfoTemplate'
+export { FeatureDetailTipsTemplate } from './FeatureDetailTipsTemplate'
+
+// K115用テンプレート
+export { FailureEpisodeTemplate } from './FailureEpisodeTemplate'
+export { FailureStoryIntroTemplate } from './FailureStoryIntroTemplate'
+export { ProfileOfferTemplate } from './ProfileOfferTemplate'
 
 // 新しいK004テスト用テンプレート
 export { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
@@ -44,6 +51,13 @@ import { ItemNTitleContentTemplate } from './ItemNTitleContentTemplate'
 import { SingleSectionNoItemsTemplate } from './SingleSectionNoItemsTemplate'
 import RankingTemplate from './RankingTemplate'
 import GraphTemplate from './GraphTemplate'
+import { FeatureParallelInfoTemplate } from './FeatureParallelInfoTemplate'
+import { FeatureDetailTipsTemplate } from './FeatureDetailTipsTemplate'
+
+// K115用テンプレートのインポート
+import { FailureEpisodeTemplate } from './FailureEpisodeTemplate'
+import { FailureStoryIntroTemplate } from './FailureStoryIntroTemplate'
+import { ProfileOfferTemplate } from './ProfileOfferTemplate'
 
 // 新しいK004テスト用テンプレートのインポート
 import { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
@@ -71,6 +85,12 @@ export const templateComponents = {
   'single-section-no-items': SingleSectionNoItemsTemplate,
   ranking: RankingTemplate,
   graph: GraphTemplate,
+  feature_parallel_info: FeatureParallelInfoTemplate,
+  feature_detail_tips: FeatureDetailTipsTemplate,
+  // K115用テンプレート
+  failure_episode: FailureEpisodeTemplate,
+  failure_story_intro: FailureStoryIntroTemplate,
+  profile_offer: ProfileOfferTemplate,
   // 新しいK004テスト用テンプレート
   'problem-introduction': ProblemIntroductionTemplate,
   'method-detail-card': MethodDetailCardTemplate,

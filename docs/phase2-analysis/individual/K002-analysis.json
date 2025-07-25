@@ -1,0 +1,97 @@
+{
+  "knowledgeId": "K002",
+  "sourceData": {
+    "phase1Record": "/docs/phase1-analysis/session1-K001-K010-analysis.md lines 39-68",
+    "rawObservation": "/docs/raw-analysis/contents-002-observation.json",
+    "knowledgeBase": "/app/data/knowledgeBase/knowledge/K002.json"
+  },
+  "problemSolutionFlow": {
+    "problem": "女性が将来への不安、キャリア継続の不安、結婚・出産・介護などのライフイベントに振り回されずに安定したキャリアを築きたいと考えている",
+    "flowStages": [
+      "カバーページでの問題提示",
+      "問題の可視化（チェックボックス）",
+      "Point1-7の段階的解決策提示",
+      "アカウントフォロー促進"
+    ],
+    "completionState": "7つの具体的な行動指針を習得し、ライフイベントに左右されない安定したキャリア構築の道筋を理解、継続的な情報取得のためのフォロー関係構築"
+  },
+  "pageStructureRequirements": {
+    "totalPages": 10,
+    "pageRoles": [
+      {
+        "pageNumber": 1,
+        "role": "title-cover",
+        "description": "タイトルカバー・問題提示"
+      },
+      {
+        "pageNumber": 2,
+        "role": "problem-identification-checklist",
+        "description": "問題提起・共感獲得"
+      },
+      {
+        "pageNumber": 3,
+        "role": "solution-point-1",
+        "description": "Point1の解決策（働き方の選択肢＝人生の選択肢）"
+      },
+      {
+        "pageNumber": 4,
+        "role": "solution-point-2",
+        "description": "Point2の解決策（どこでも通用するスキル）"
+      },
+      {
+        "pageNumber": 5,
+        "role": "solution-point-3",
+        "description": "Point3の解決策（いつでも動ける状態）"
+      },
+      {
+        "pageNumber": 6,
+        "role": "solution-point-4",
+        "description": "Point4の解決策（感情的判断回避）"
+      },
+      {
+        "pageNumber": 7,
+        "role": "solution-point-5",
+        "description": "Point5の解決策（予防的キャリア戦略）"
+      },
+      {
+        "pageNumber": 8,
+        "role": "solution-point-6",
+        "description": "Point6の解決策（強み活用戦略）"
+      },
+      {
+        "pageNumber": 9,
+        "role": "solution-point-7",
+        "description": "Point7の解決策（現実的キャリア構築論）"
+      },
+      {
+        "pageNumber": 10,
+        "role": "engagement-follow-promotion",
+        "description": "エンゲージメント・フォロー促進"
+      }
+    ],
+    "flowOrder": [
+      "問題の提示と共感",
+      "段階的解決策の教育",
+      "継続的関係構築"
+    ]
+  },
+  "templateRequirements": {
+    "layoutConstraints": [
+      "ベージュ系グラデーション背景の統一",
+      "Point番号の茶色系ヘッダーバー",
+      "白色カードでのコンテンツ配置",
+      "Nextボタンによる明確なナビゲーション",
+      "チェックボックス形式での問題可視化"
+    ],
+    "requiredElements": [
+      "チェックボックス形式での問題可視化",
+      "多様性表現イラスト（女性の働き方）",
+      "段階的Point番号システム",
+      "プロフィール画面の実装",
+      "茶色系統一デザイン",
+      "Nextボタン",
+      "保存促進メッセージ"
+    ],
+    "informationArrangement": "pointSolutions配列、actionItems配列、illustrationTypes配列、engagementMessages object、checkboxProblems配列による構造化"
+  }
+}
