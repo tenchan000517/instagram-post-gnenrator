@@ -59,6 +59,7 @@
   "pageStructurePattern": "",
   "actualTitle": "一生安心できる女性が困らないキャリア",
   "pageCount": 10,
+  "contentPageCount": 8,
   "hashTag": "このまま働き続けられるか不安",
   "detailedContent": {
     "page1": {
@@ -69,6 +70,8 @@
       "designElements": "白文字タイトル、枠線装飾"
     },
     "page2": {
+      "section": "intro",
+      "template": "basic_intro",
       "role": "problem-identification",
       "title": "女性が\"困らない\"働き方のヒント",
       "targetAudience": "あなたはこんなことない？",
@@ -83,6 +86,8 @@
       "savePrompt": "メモが画面な人は1タップで保存完了！"
     },
     "page3": {
+      "section": "mainContent",
+      "template": "sequential_step_learning",
       "role": "solution-point",
       "pointNumber": "1",
       "title": "働き方の選択肢＝人生の選択肢",
@@ -94,6 +99,8 @@
       "illustration": "4人の女性が肩を組むイラスト（多様性表現）"
     },
     "page4": {
+      "section": "mainContent",
+      "template": "sequential_step_learning",
       "role": "solution-point",
       "pointNumber": "2", 
       "title": "どこでも通用するスキルや経験を",
@@ -106,6 +113,8 @@
       "illustration": "握手するビジネスパーソンのイラスト（転職・協力関係）"
     },
     "page5": {
+      "section": "mainContent",
+      "template": "sequential_step_learning",
       "role": "solution-point",
       "pointNumber": "3",
       "title": "「いつでも動ける状態」にしておく",
@@ -122,6 +131,8 @@
       "illustration": "コーヒーを持つ女性イラスト（準備・余裕の表現）"
     },
     "page6": {
+      "section": "mainContent",
+      "template": "sequential_step_learning",
       "role": "solution-point",
       "pointNumber": "4",
       "title": "「感情」だけで辞めない/動かない",
@@ -133,6 +144,8 @@
       "illustration": "寄り添う2人の女性イラスト（相談・サポート関係）"
     },
     "page7": {
+      "section": "mainContent",
+      "template": "sequential_step_learning",
       "role": "solution-point",
       "pointNumber": "5",
       "title": "問題に直面する前に\"働き方の選択肢\"を広げる",
@@ -145,6 +158,8 @@
       "illustration": "ノートとペンのイラスト（計画・準備）"
     },
     "page8": {
+      "section": "mainContent",
+      "template": "sequential_step_learning",
       "role": "solution-point",
       "pointNumber": "6",
       "title": "「苦手」より「得意」を活かす方向へ",
@@ -158,6 +173,8 @@
       "illustration": "ターゲットを指すイラスト（目標達成・得意分野特化）"
     },
     "page9": {
+      "section": "mainContent",
+      "template": "sequential_step_learning",
       "role": "solution-point",
       "pointNumber": "7",
       "title": "「やりたいこと」より「できること」で軸を作る",
@@ -171,6 +188,8 @@
       "illustration": "グラフと作業する人々のイラスト（成果・貢献の可視化）"
     },
     "page10": {
+      "section": "summary",
+      "template": "basic_summary",
       "role": "engagement-cta",
       "title": "楽に生きれる仕事術について毎日発信📱'-",
       "subtitle": "悩める方はフォローしてね",

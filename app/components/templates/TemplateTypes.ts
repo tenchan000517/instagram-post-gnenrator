@@ -141,11 +141,70 @@ export interface TemplateData {
       url?: string
     }
   }
+  
+  // 新テンプレート用データ構造（優先度A - Critical）
+  // sequential_step_learning用
+  stepNumber?: number
+  stepTitle?: string
+  stepContent?: string[]
+  questions?: string[]
+  
+  // parallel_qa_discussion用
+  questionText?: string
+  answerText?: string
+  practicalAdvice?: string
+  
+  // points_list_analysis用
+  pointsTitle?: string
+  pointsList?: string[]
+  summaryMessage?: string
+  
+  // timeline_story_experience用
+  timePoint?: string
+  scene?: string
+  character?: string
+  emotion?: string
+  context?: string
+  
+  // feature_parallel_info用
+  featureNumber?: number
+  featureName?: string
+  effect?: string
+  
+  // 新テンプレート用データ構造（優先度B - High）
+  // category_content_learning用
+  categoryName?: string
+  episodes?: string[]
+  advice?: string
+  
+  // step_guide_achievement用
+  benefit?: string
+  motivationalMessage?: string
+  
+  // method_systematic_info用
+  methodNumber?: number
+  methodName?: string
+  
+  // practical_guide_conversation用
+  guideType?: string
+  examples?: Array<{
+    phrase: string
+    usage: string
+  }>
+  
+  // company_data_list用
+  companyName?: string
+  industry?: string
+  salary?: string
+  deadline?: string
+  selectionFlow?: string[]
+  
   [key: string]: any  // For dynamic field access
 }
 
-// アクティブテンプレートタイプ（16個、Critical Priority + High Priority + INDEX + データ可視化追加）
+// アクティブテンプレートタイプ（既存16個 + 新テンプレート11個）
 export type TemplateType = 
+  // 既存テンプレート
   | 'index'            // ⓪INDEX型（目次ページ）
   | 'enumeration'      // ①列挙型
   | 'list'             // ②リスト型
@@ -162,3 +221,22 @@ export type TemplateType =
   | 'single-section-no-items'  // ⑬単一セクション・アイテム無し型（High Priority）
   | 'ranking'                  // ⑭ランキング表示型（データ可視化）
   | 'graph'                    // ⑮グラフ表示型（データ可視化・recharts使用）
+  // 新テンプレート（優先度A - Critical）
+  | 'sequential_step_learning'     // ⑯順序依存ステップ型
+  | 'parallel_qa_discussion'       // ⑰Q&A並列紹介型
+  | 'points_list_analysis'         // ⑱ポイントリスト型
+  | 'timeline_story_experience'    // ⑲時系列ストーリー型
+  | 'feature_parallel_info'        // ⑳機能紹介並列型
+  // 新テンプレート（優先度B - High）
+  | 'category_content_learning'    // ㉑カテゴリ別コンテンツ学習型
+  | 'step_guide_achievement'       // ㉒ステップガイド達成型
+  | 'method_systematic_info'       // ㉓方法論体系的情報型
+  | 'practical_guide_conversation' // ㉔実践ガイド会話型
+  | 'company_data_list'            // ㉕企業データリスト型
+  | 'usage_practical_steps'        // ㉖使用法実践ステップ型
+
+// テンプレートコンポーネントのプロパティ型
+export interface TemplateProps {
+  data: TemplateData
+  pageNumber?: number
+}

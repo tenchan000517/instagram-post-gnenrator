@@ -58,6 +58,7 @@
   "pageStructurePattern": "",
   "actualTitle": "集客に役立つインスタ新機能",
   "pageCount": 10,
+  "contentPageCount": 8,
   "hashTag": "情報提供のみで具体的なハッシュタグの記載なし",
   "detailedContent": {
     "page1": {
@@ -71,6 +72,8 @@
       }
     },
     "page2": {
+      "section": "intro",
+      "template": "basic_intro",
       "role": "導入・概要ページ",
       "layout": "世界地図背景 + 説明文",
       "content": {
@@ -81,6 +84,8 @@
       }
     },
     "page3": {
+      "section": "mainContent",
+      "template": "feature_parallel_info",
       "role": "機能1：スタンプゲーム",
       "layout": "機能説明 + 実例画像 + 効果説明",
       "content": {
@@ -93,6 +98,8 @@
       }
     },
     "page4": {
+      "section": "mainContent",
+      "template": "feature_parallel_info",
       "role": "機能1詳細：スタンプゲーム活用法",
       "layout": "スタンプ画面 + 活用説明",
       "content": {
@@ -106,6 +113,8 @@
       }
     },
     "page5": {
+      "section": "mainContent",
+      "template": "feature_parallel_info",
       "role": "機能2：複数枚投稿の写真削除",
       "layout": "機能説明 + 操作画像 + メリット",
       "content": {
@@ -118,6 +127,8 @@
       }
     },
     "page6": {
+      "section": "mainContent",
+      "template": "feature_parallel_info",
       "role": "機能3：ベストプラクティス",
       "layout": "機能説明 + 画面例 + ポイント",
       "content": {
@@ -135,6 +146,8 @@
       }
     },
     "page7": {
+      "section": "mainContent",
+      "template": "feature_parallel_info",
       "role": "機能4：リールで複数曲が選べる",
       "layout": "機能説明 + 動画編集画面 + 効果",
       "content": {
@@ -153,6 +166,8 @@
       }
     },
     "page8": {
+      "section": "mainContent",
+      "template": "feature_parallel_info",
       "role": "機能5：ストーリーの新文字",
       "layout": "機能説明 + 文字例 + 活用法",
       "content": {
@@ -166,6 +181,8 @@
       }
     },
     "page9": {
+      "section": "mainContent",
+      "template": "feature_parallel_info",
       "role": "機能6：インスタSEO",
       "layout": "機能説明 + SEO要素 + 効果",
       "content": {
@@ -183,6 +200,8 @@
       }
     },
     "page10": {
+      "section": "summary",
+      "template": "basic_summary",
       "role": "まとめページ",
       "layout": "総括 + メッセージ + 保存促進",
       "content": {
