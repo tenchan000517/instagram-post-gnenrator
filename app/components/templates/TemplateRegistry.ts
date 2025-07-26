@@ -20,6 +20,12 @@ import { rankingMetadata } from './RankingTemplate'
 import { graphMetadata } from './GraphTemplate'
 import { featureParallelInfoMetadata } from './FeatureParallelInfoTemplate'
 import { featureDetailTipsMetadata } from './FeatureDetailTipsTemplate'
+import { sequentialDependencyMetadata } from './SequentialDependencyTemplate'
+
+// K002用テンプレートのメタデータインポート
+import { basicIntroMetadata } from './BasicIntroTemplate'
+import { stepGuideAchievementMetadata } from './StepGuideAchievementTemplate'
+import { achievementSummaryMetadata } from './AchievementSummaryTemplate'
 
 // アクティブテンプレートレジストリ（Critical Priority + INDEX + データ可視化追加）
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
@@ -40,7 +46,12 @@ export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   ranking: rankingMetadata,
   graph: graphMetadata,
   feature_parallel_info: featureParallelInfoMetadata,
-  feature_detail_tips: featureDetailTipsMetadata
+  feature_detail_tips: featureDetailTipsMetadata,
+  sequential_dependency: sequentialDependencyMetadata,
+  // K002用テンプレート
+  basic_intro: basicIntroMetadata,
+  step_guide_achievement: stepGuideAchievementMetadata,
+  achievement_summary: achievementSummaryMetadata
 }
 
 // アクティブテンプレートのジャンル対応（Critical Priority追加）
@@ -125,6 +136,11 @@ export class TemplateSelector {
     // ポイント・コツ系（列挙型）
     if (/ポイント|コツ|秘訣|要点|重要|注意/.test(contentLower) && /[1-9]|①|②|③/.test(content)) {
       return 'enumeration'
+    }
+    
+    // 順序依存ステップ系（typeID002パターン）
+    if (/Point\s*[1-9]|ポイント\s*[1-9]|困らない|働き方|キャリア|備える|身に着ける/.test(contentLower)) {
+      return 'sequential_dependency'
     }
     
     return null

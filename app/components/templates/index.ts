@@ -17,6 +17,7 @@ export { default as RankingTemplate } from './RankingTemplate'
 export { default as GraphTemplate } from './GraphTemplate'
 export { FeatureParallelInfoTemplate } from './FeatureParallelInfoTemplate'
 export { FeatureDetailTipsTemplate } from './FeatureDetailTipsTemplate'
+export { SequentialDependencyTemplate } from './SequentialDependencyTemplate'
 
 // K115用テンプレート
 export { FailureEpisodeTemplate } from './FailureEpisodeTemplate'
@@ -29,6 +30,11 @@ export { MethodDetailCardTemplate } from './MethodDetailCardTemplate'
 export { MethodVisualGuideTemplate } from './MethodVisualGuideTemplate'
 export { MethodSummaryKeywordsTemplate } from './MethodSummaryKeywordsTemplate'
 export { ActionCallChecklistTemplate } from './ActionCallChecklistTemplate'
+
+// K002用テンプレート
+export { default as BasicIntroTemplate } from './BasicIntroTemplate'
+export { default as StepGuideAchievementTemplate } from './StepGuideAchievementTemplate'
+export { default as AchievementSummaryTemplate } from './AchievementSummaryTemplate'
 
 // 型定義とユーティリティ
 export * from './TemplateTypes'
@@ -53,6 +59,7 @@ import RankingTemplate from './RankingTemplate'
 import GraphTemplate from './GraphTemplate'
 import { FeatureParallelInfoTemplate } from './FeatureParallelInfoTemplate'
 import { FeatureDetailTipsTemplate } from './FeatureDetailTipsTemplate'
+import { SequentialDependencyTemplate } from './SequentialDependencyTemplate'
 
 // K115用テンプレートのインポート
 import { FailureEpisodeTemplate } from './FailureEpisodeTemplate'
@@ -65,6 +72,11 @@ import { MethodDetailCardTemplate } from './MethodDetailCardTemplate'
 import { MethodVisualGuideTemplate } from './MethodVisualGuideTemplate'
 import { MethodSummaryKeywordsTemplate } from './MethodSummaryKeywordsTemplate'
 import { ActionCallChecklistTemplate } from './ActionCallChecklistTemplate'
+
+// K002用テンプレートのインポート
+import BasicIntroTemplate from './BasicIntroTemplate'
+import StepGuideAchievementTemplate from './StepGuideAchievementTemplate'
+import AchievementSummaryTemplate from './AchievementSummaryTemplate'
 
 import { TemplateType } from './TemplateTypes'
 
@@ -87,6 +99,7 @@ export const templateComponents = {
   graph: GraphTemplate,
   feature_parallel_info: FeatureParallelInfoTemplate,
   feature_detail_tips: FeatureDetailTipsTemplate,
+  sequential_dependency: SequentialDependencyTemplate,
   // K115用テンプレート
   failure_episode: FailureEpisodeTemplate,
   failure_story_intro: FailureStoryIntroTemplate,
@@ -96,7 +109,11 @@ export const templateComponents = {
   'method-detail-card': MethodDetailCardTemplate,
   'method-visual-guide': MethodVisualGuideTemplate,
   'method-summary-keywords': MethodSummaryKeywordsTemplate,
-  'action-call-checklist': ActionCallChecklistTemplate
+  'action-call-checklist': ActionCallChecklistTemplate,
+  // K002用テンプレート
+  'basic_intro': BasicIntroTemplate,
+  'step_guide_achievement': StepGuideAchievementTemplate,
+  'achievement_summary': AchievementSummaryTemplate
 } as const
 
 // テンプレートレンダラー

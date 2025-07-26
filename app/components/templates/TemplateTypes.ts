@@ -149,6 +149,10 @@ export interface TemplateData {
   stepContent?: string[]
   questions?: string[]
   
+  // sequential_dependency用
+  pointNumber?: number
+  actionItems?: string[]
+  
   // parallel_qa_discussion用
   questionText?: string
   answerText?: string
@@ -228,6 +232,7 @@ export type TemplateType =
   | 'timeline_story_experience'    // ⑲時系列ストーリー型
   | 'feature_parallel_info'        // ⑳機能紹介並列型
   | 'feature_detail_tips'          // ㉑機能詳細Tips型
+  | 'sequential_dependency'        // ㉒順序依存ステップ型（typeID002対応）
   // 新テンプレート（優先度B - High）
   | 'category_content_learning'    // ㉑カテゴリ別コンテンツ学習型
   | 'step_guide_achievement'       // ㉒ステップガイド達成型
@@ -238,6 +243,9 @@ export type TemplateType =
   | 'failure_episode'              // ㉗失敗エピソード型
   | 'failure_story_intro'          // ㉘失敗ストーリー導入型
   | 'profile_offer'                // ㉙プロフィール・オファー型
+  | 'basic_intro'                  // ㉚基本導入型（K002用）
+  | 'step_guide_achievement'       // ㉛ステップガイド達成型（K002用）
+  | 'achievement_summary'          // ㉜達成まとめ型（K002用）
 
 // テンプレートコンポーネントのプロパティ型
 export interface TemplateProps {

@@ -1,0 +1,37 @@
+{
+  "pageStructureId": "typeID002-sequential-dependency", 
+  "name": "TypeID002 順序依存型ステップフロー",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string", 
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "step_guide_achievement",
+      "templateStructure": {
+        "pointNumber": "string",
+        "title": "string",
+        "content": "string[]",
+        "actionItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "last", 
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

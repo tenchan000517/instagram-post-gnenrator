@@ -83,6 +83,14 @@ export class KnowledgeBasedContentGenerator {
       // JSONパース
       const parsedContent = this.parseGeneratedContent(generatedText)
       
+      // 🎯 画像フィールドを元データから補完
+      const pageKey = `page${request.pageNumber}`
+      const currentPageData = request.knowledgeData.detailedContent[pageKey]
+      if (currentPageData?.content?.illustrationImage && !parsedContent.illustrationImage) {
+        console.log('🖼️ 画像フィールドを補完:', currentPageData.content.illustrationImage)
+        parsedContent.illustrationImage = currentPageData.content.illustrationImage
+      }
+      
       return {
         success: true,
         generatedContent: parsedContent
@@ -162,6 +170,7 @@ ${knowledgeData.searchKeywords?.join(', ') || ''}
 7. 上記のテンプレート構造に完璧に適合するJSONで出力
 8. ナレッジの解決策を必須活用（参考程度ではない）
 9. 解決密度を維持（一般化・抽象化禁止）
+10. **【重要】currentPageData.contentにillustrationImageが含まれている場合は、必ずそのまま出力JSONに含める**
 
 【出力形式】
 上記のテンプレート構造と完全に一致するJSONのみを出力してください。
@@ -211,6 +220,12 @@ ${knowledgeData.searchKeywords?.join(', ') || ''}
         emotion: 'string',
         context: 'string'
       },
+      'sequential_dependency': {
+        pointNumber: 'number',
+        stepTitle: 'string',
+        stepContent: 'string[]',
+        actionItems: 'string[]?'
+      },
       'feature_parallel_info': {
         featureNumber: 'number',
         featureName: 'string',
@@ -230,10 +245,11 @@ ${knowledgeData.searchKeywords?.join(', ') || ''}
         advice: 'string'
       },
       'step_guide_achievement': {
-        stepTitle: 'string',
-        description: 'string',
-        benefit: 'string',
-        motivationalMessage: 'string'
+        pointNumber: 'string',
+        title: 'string',
+        content: 'string[]',
+        actionItems: 'string[]?',
+        illustrationImage: 'string?'
       },
       'method_systematic_info': {
         methodNumber: 'number',

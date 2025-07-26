@@ -56,148 +56,134 @@
   ],
   "marketingStage": "キャリア形成期の女性（20-30代中心）で、将来のライフイベントを見据えてキャリア戦略を考えたい層",
   "knowledgeId": "K002",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "typeID002-sequential-dependency",
   "actualTitle": "一生安心できる女性が困らないキャリア",
-  "pageCount": 10,
-  "contentPageCount": 8,
+  "pageCount": 8,
+  "contentPageCount": 7,
   "hashTag": "このまま働き続けられるか不安",
   "detailedContent": {
     "page1": {
-      "role": "title-cover",
-      "mainTitle": "一生安心できる女性が困らないキャリア",
-      "pageIndicator": "1/10",
-      "backgroundImage": "ベージュ系グラデーション背景",
-      "designElements": "白文字タイトル、枠線装飾"
+      "role": "導入・問題提起",
+      "layout": "基本紹介形式",
+      "section": "intro",
+      "content": {
+        "title": "女性が\"困らない\"働き方のヒント",
+        "targetAudience": "あなたはこんなことない？",
+        "problems": [
+          "これからの未来に不安しかない",
+          "このままでいいのか迷う..",
+          "結婚/出産/介護に振り回されたくない"
+        ],
+        "additionalMessage": "キャリアに迷う女性が知っておきたいこと"      }
     },
     "page2": {
-      "section": "intro",
-      "template": "basic_intro",
-      "role": "problem-identification",
-      "title": "女性が\"困らない\"働き方のヒント",
-      "targetAudience": "あなたはこんなことない？",
-      "problems": [
-        "これからの未来に不安しかない",
-        "このままでいいのか迷う..",
-        "結婚/出産/介護に振り回されたくない"
-      ],
-      "pageIndicator": "2/10",
-      "illustration": "悩む女性イラスト（頭に手を当てるポーズ）",
-      "additionalMessage": "キャリアに迷う女性が知っておきたいこと",
-      "savePrompt": "メモが画面な人は1タップで保存完了！"
+      "role": "solution-point-1",
+      "layout": "ステップガイド形式",
+      "section": "mainContent",
+      "content": {
+        "pointNumber": "1",
+        "title": "働き方の選択肢＝人生の選択肢",
+        "content": [
+          "女性はライフイベントによってキャリアの分岐点が多い。",
+          "だからこそ、\"今\"から備えるとラクに◎"
+        ],
+        "illustrationImage": "/misaki.png"
+      }
     },
     "page3": {
+      "role": "solution-point-2",
+      "layout": "ステップガイド形式",
       "section": "mainContent",
-      "template": "sequential_step_learning",
-      "role": "solution-point",
-      "pointNumber": "1",
-      "title": "働き方の選択肢＝人生の選択肢",
-      "content": [
-        "女性はライフイベントによってキャリアの分岐点が多い。",
-        "だからこそ、\"今\"から備えるとラクに◎"
-      ],
-      "pageIndicator": "3/10",
-      "illustration": "4人の女性が肩を組むイラスト（多様性表現）"
+      "content": {
+        "pointNumber": "2", 
+        "title": "どこでも通用するスキルや経験を",
+        "content": [
+          "1社で働き続ける＝安定じゃない。",
+          "転職も視野に入れ、",
+          "\"選ばれる人/他社でも通用する力\"を意識しておくと◎"
+        ],
+        "illustrationImage": "/misaki.png"
+      }
     },
     "page4": {
+      "role": "solution-point-3",
+      "layout": "ステップガイド形式",
       "section": "mainContent",
-      "template": "sequential_step_learning",
-      "role": "solution-point",
-      "pointNumber": "2", 
-      "title": "どこでも通用するスキルや経験を",
-      "content": [
-        "1社で働き続ける＝安定じゃない。",
-        "転職も視野に入れ、",
-        "\"選ばれる人/他社でも通用する力\"を意識しておくと◎"
-      ],
-      "pageIndicator": "4/10",
-      "illustration": "握手するビジネスパーソンのイラスト（転職・協力関係）"
+      "content": {
+        "pointNumber": "3",
+        "title": "「いつでも動ける状態」にしておく",
+        "actionItems": [
+          "履歴書の更新",
+          "自己分析", 
+          "スキル棚卸し"
+        ],
+        "content": [
+          "今の職場が合わなくなっても、選べる状態が\"安心\"。",
+          "そのために自己分析など、できることは準備しておくことで差が出る◎"
+        ],
+        "illustrationImage": "/misaki.png"
+      }
     },
     "page5": {
+      "role": "solution-point-4",
+      "layout": "ステップガイド形式",
       "section": "mainContent",
-      "template": "sequential_step_learning",
-      "role": "solution-point",
-      "pointNumber": "3",
-      "title": "「いつでも動ける状態」にしておく",
-      "actionItems": [
-        "履歴書の更新",
-        "自己分析", 
-        "スキル棚卸し"
-      ],
-      "content": [
-        "今の職場が合わなくなっても、選べる状態が\"安心\"。",
-        "そのために自己分析など、できることは準備しておくことで差が出る◎"
-      ],
-      "pageIndicator": "5/10",
-      "illustration": "コーヒーを持つ女性イラスト（準備・余裕の表現）"
+      "content": {
+        "pointNumber": "4",
+        "title": "「感情」だけで辞めない/動かない",
+        "content": [
+          "勢いの退職で後悔する人も多い。",
+          "モヤモヤの正体を言語化してから決断するクセをつけておこう。"
+        ],
+        "illustrationImage": "/misaki.png"
+      }
     },
     "page6": {
+      "role": "solution-point-5",
+      "layout": "ステップガイド形式",
       "section": "mainContent",
-      "template": "sequential_step_learning",
-      "role": "solution-point",
-      "pointNumber": "4",
-      "title": "「感情」だけで辞めない/動かない",
-      "content": [
-        "勢いの退職で後悔する人も多い。",
-        "モヤモヤの正体を言語化してから決断するクセをつけておこう。"
-      ],
-      "pageIndicator": "6/10",
-      "illustration": "寄り添う2人の女性イラスト（相談・サポート関係）"
+      "content": {
+        "pointNumber": "5",
+        "title": "問題に直面する前に\"働き方の選択肢\"を広げる",
+        "content": [
+          "育児・介護等の問題に直面する前に",
+          "在宅・時短正社員・フレックス制度など",
+          "\"環境\"に左右されない働き方を選んでおく◎"
+        ],
+        "illustrationImage": "/misaki.png"
+      }
     },
     "page7": {
+      "role": "solution-point-6",
+      "layout": "ステップガイド形式",
       "section": "mainContent",
-      "template": "sequential_step_learning",
-      "role": "solution-point",
-      "pointNumber": "5",
-      "title": "問題に直面する前に\"働き方の選択肢\"を広げる",
-      "content": [
-        "育児・介護等の問題に直面する前に",
-        "在宅・時短正社員・フレックス制度など",
-        "\"環境\"に左右されない働き方を選んでおく◎"
-      ],
-      "pageIndicator": "7/10",
-      "illustration": "ノートとペンのイラスト（計画・準備）"
+      "content": {
+        "pointNumber": "6",
+        "title": "「苦手」より「得意」を活かす方向へ",
+        "content": [
+          "苦手克服よりも得意を伸ばす方が",
+          "\"評価されやすい\"し、続けやすい◎",
+          "日々の仕事の中で",
+          "「自分に向いている仕事」を観察しておこう。"
+        ],
+        "illustrationImage": "/misaki.png"
+      }
     },
     "page8": {
+      "role": "solution-point-7",
+      "layout": "ステップガイド形式",
       "section": "mainContent",
-      "template": "sequential_step_learning",
-      "role": "solution-point",
-      "pointNumber": "6",
-      "title": "「苦手」より「得意」を活かす方向へ",
-      "content": [
-        "苦手克服よりも得意を伸ばす方が",
-        "\"評価されやすい\"し、続けやすい◎",
-        "日々の仕事の中で",
-        "「自分に向いている仕事」を観察しておこう。"
-      ],
-      "pageIndicator": "8/10",
-      "illustration": "ターゲットを指すイラスト（目標達成・得意分野特化）"
-    },
-    "page9": {
-      "section": "mainContent",
-      "template": "sequential_step_learning",
-      "role": "solution-point",
-      "pointNumber": "7",
-      "title": "「やりたいこと」より「できること」で軸を作る",
-      "content": [
-        "「やりたいこと」「好きなこと」よりも",
-        "「自分ができることで、会社に貢献できること」",
-        "の方が安定と評価につながりやすい。",
-        "自分の「できる」を育てて、選べる未来をつくっていこう◎"
-      ],
-      "pageIndicator": "9/10",
-      "illustration": "グラフと作業する人々のイラスト（成果・貢献の可視化）"
-    },
-    "page10": {
-      "section": "summary",
-      "template": "basic_summary",
-      "role": "engagement-cta",
-      "title": "楽に生きれる仕事術について毎日発信📱'-",
-      "subtitle": "悩める方はフォローしてね",
-      "profilePromotion": "まず自己分析から始めてみてね🌿",
-      "accountDisplay": "tsubasa_workstyle プロフィール画面表示",
-      "ctaMessage": "ストーリーではフォロワーさん限定情報も発信中🎵",
-      "pageIndicator": "10/10（最終ページ）",
-      "additionalMessage": "他の記事も読んでみる"
+      "content": {
+        "pointNumber": "7",
+        "title": "「やりたいこと」より「できること」で軸を作る",
+        "content": [
+          "「やりたいこと」「好きなこと」よりも",
+          "「自分ができることで、会社に貢献できること」",
+          "の方が安定と評価につながりやすい。",
+          "自分の「できる」を育てて、選べる未来をつくっていこう◎"
+        ],
+        "illustrationImage": "/misaki.png"
+      }
     }
   }
 }
