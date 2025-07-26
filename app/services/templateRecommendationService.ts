@@ -417,7 +417,23 @@ export class TemplateRecommendationService {
       'item-n-title-content': [200, 600],
       'single-section-no-items': [150, 400],
       'ranking': [200, 600],
-      'graph': [150, 500]
+      'graph': [150, 500],
+      sequential_step_learning: [200, 800],
+      parallel_qa_discussion: [150, 600],
+      points_list_analysis: [100, 400],
+      timeline_story_experience: [300, 1000],
+      feature_parallel_info: [150, 500],
+      feature_detail_tips: [200, 700],
+      sequential_dependency: [200, 800],
+      category_content_learning: [200, 800],
+      step_guide_achievement: [200, 600],
+      method_systematic_info: [250, 900],
+      practical_guide_conversation: [200, 700],
+      company_data_list: [100, 400],
+      usage_practical_steps: [150, 600],
+      failure_episode: [200, 800],
+      failure_story_intro: [100, 300],
+      profile_offer: [150, 400]
     }
     
     const [min, max] = optimalLengths[templateType]
@@ -449,7 +465,23 @@ export class TemplateRecommendationService {
       'item-n-title-content': analysis.hasSections ? 15 : 5,
       'single-section-no-items': analysis.hasSections && !analysis.hasLists ? 15 : 5,
       'ranking': analysis.hasLists && analysis.hasComparisons ? 20 : 5,
-      'graph': analysis.hasComparisons || analysis.contentLength > 300 ? 18 : 8
+      'graph': analysis.hasComparisons || analysis.contentLength > 300 ? 18 : 8,
+      sequential_step_learning: analysis.hasSections ? 18 : 10,
+      parallel_qa_discussion: analysis.hasLists ? 16 : 8,
+      points_list_analysis: analysis.hasLists ? 20 : 10,
+      timeline_story_experience: analysis.hasStoryElements ? 22 : 12,
+      feature_parallel_info: analysis.hasLists ? 15 : 8,
+      feature_detail_tips: analysis.hasSections ? 18 : 10,
+      sequential_dependency: analysis.hasStepSequence ? 20 : 12,
+      category_content_learning: analysis.hasSections ? 20 : 12,
+      step_guide_achievement: analysis.hasSections ? 18 : 10,
+      method_systematic_info: analysis.hasSections && analysis.hasLists ? 25 : 15,
+      practical_guide_conversation: analysis.hasStoryElements ? 20 : 12,
+      company_data_list: analysis.hasLists ? 18 : 10,
+      usage_practical_steps: analysis.hasSections ? 16 : 10,
+      failure_episode: analysis.hasStoryElements ? 25 : 15,
+      failure_story_intro: analysis.hasStoryElements ? 20 : 10,
+      profile_offer: 12
     }
     
     return complexityScores[templateType] || 5
@@ -529,7 +561,23 @@ export class TemplateRecommendationService {
       'item-n-title-content': '独立ボックス形式で構成',
       'single-section-no-items': '単一セクション詳細解説形式',
       'ranking': 'ランキング形式で順位データを表示',
-      'graph': 'グラフによるデータ可視化表示'
+      'graph': 'グラフによるデータ可視化表示',
+      sequential_step_learning: '順序依存ステップ学習形式',
+      parallel_qa_discussion: 'Q&A並列討論形式',
+      points_list_analysis: 'ポイントリスト分析形式',
+      timeline_story_experience: '時系列ストーリー体験形式',
+      feature_parallel_info: '機能並列情報形式',
+      feature_detail_tips: '機能詳細Tips形式',
+      sequential_dependency: '順序依存ステップ形式',
+      category_content_learning: 'カテゴリ別学習形式',
+      step_guide_achievement: 'ステップガイド達成形式',
+      method_systematic_info: '方法論体系情報形式',
+      practical_guide_conversation: '実践ガイド会話形式',
+      company_data_list: '企業データリスト形式',
+      usage_practical_steps: '使用法実践ステップ形式',
+      failure_episode: '失敗エピソード形式',
+      failure_story_intro: '失敗ストーリー導入形式',
+      profile_offer: 'プロフィール・オファー形式'
     }
 
     return `${templateDescriptions[templateType]}\n→ ${contentSummary}`

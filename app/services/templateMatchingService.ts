@@ -573,7 +573,24 @@ export class TemplateMatchingService {
       'item-n-title-content': { min: 2, max: 5 },
       'single-section-no-items': { min: 1, max: 1 },
       'ranking': { min: 3, max: 5 },
-      'graph': { min: 3, max: 8 }
+      'graph': { min: 3, max: 8 },
+      // 新テンプレートタイプ
+      sequential_step_learning: { min: 3, max: 7 },
+      parallel_qa_discussion: { min: 2, max: 6 },
+      points_list_analysis: { min: 3, max: 5 },
+      timeline_story_experience: { min: 4, max: 8 },
+      feature_parallel_info: { min: 2, max: 6 },
+      feature_detail_tips: { min: 2, max: 5 },
+      sequential_dependency: { min: 3, max: 8 },
+      category_content_learning: { min: 3, max: 8 },
+      step_guide_achievement: { min: 3, max: 6 },
+      method_systematic_info: { min: 2, max: 7 },
+      practical_guide_conversation: { min: 2, max: 5 },
+      company_data_list: { min: 5, max: 20 },
+      usage_practical_steps: { min: 3, max: 6 },
+      failure_episode: { min: 1, max: 3 },
+      failure_story_intro: { min: 1, max: 2 },
+      profile_offer: { min: 1, max: 2 }
     }
 
     const requirement = volumeRequirements[templateType]
@@ -612,7 +629,24 @@ export class TemplateMatchingService {
       'item-n-title-content': { min: 2, max: 5 },
       'single-section-no-items': { min: 1, max: 1 },
       'ranking': { min: 3, max: 5 },
-      'graph': { min: 3, max: 8 }
+      'graph': { min: 3, max: 8 },
+      // 新テンプレートタイプ
+      sequential_step_learning: { min: 3, max: 7 },
+      parallel_qa_discussion: { min: 2, max: 6 },
+      points_list_analysis: { min: 3, max: 5 },
+      timeline_story_experience: { min: 4, max: 8 },
+      feature_parallel_info: { min: 2, max: 6 },
+      feature_detail_tips: { min: 2, max: 5 },
+      sequential_dependency: { min: 3, max: 8 },
+      category_content_learning: { min: 3, max: 8 },
+      step_guide_achievement: { min: 3, max: 6 },
+      method_systematic_info: { min: 2, max: 7 },
+      practical_guide_conversation: { min: 2, max: 5 },
+      company_data_list: { min: 5, max: 20 },
+      usage_practical_steps: { min: 3, max: 6 },
+      failure_episode: { min: 1, max: 3 },
+      failure_story_intro: { min: 1, max: 2 },
+      profile_offer: { min: 1, max: 2 }
     }
 
     const requirement = volumeRequirements[templateType]
@@ -683,7 +717,23 @@ export class TemplateMatchingService {
       'item-n-title-content': '独立ボックス型',
       'single-section-no-items': '単一セクション・アイテム無し型',
       'ranking': 'ランキング型',
-      'graph': 'グラフ型'
+      'graph': 'グラフ型',
+      sequential_step_learning: '順序依存ステップ型',
+      parallel_qa_discussion: 'Q&A並列紹介型',
+      points_list_analysis: 'ポイントリスト型',
+      timeline_story_experience: '時系列ストーリー型',
+      feature_parallel_info: '機能紹介並列型',
+      feature_detail_tips: '機能詳細Tips型',
+      sequential_dependency: '順序依存ステップ型',
+      category_content_learning: 'カテゴリ別コンテンツ学習型',
+      step_guide_achievement: 'ステップガイド達成型',
+      method_systematic_info: '方法論体系的情報型',
+      practical_guide_conversation: '実践ガイド会話型',
+      company_data_list: '企業データリスト型',
+      usage_practical_steps: '使用法実践ステップ型',
+      failure_episode: '失敗エピソード型',
+      failure_story_intro: '失敗ストーリー導入型',
+      profile_offer: 'プロフィール・オファー型'
     }
     return displayNames[templateType] || templateType
   }

@@ -60,6 +60,7 @@
       }
     ]
   },
+  "postType": "003",
   "content_effectiveness": {
     "information_comprehensiveness": 9,
     "visual_clarity": 8,

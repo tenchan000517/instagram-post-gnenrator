@@ -72,7 +72,6 @@ export function KnowledgeBaseSelector({ onSelectionChange, initialSelection }: K
       // ターゲット選択時に紐づくペルソナIDを全て取得
       const personas = MasterDataService.getPersonasForTarget(selectionState.targetId)
       setCurrentPersonas(personas)
-      console.log(`✅ ターゲット ${selectionState.targetId} に紐づくペルソナID:`, personas)
     } else {
       setCurrentPersonas([])
     }

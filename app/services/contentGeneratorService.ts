@@ -62,6 +62,8 @@ export class ContentGeneratorService {
   }
 
   async generateHighQualityContent(userInput: string, knowledgeBaseParams?: KnowledgeBaseParams): Promise<GeneratedContent> {
+    // インターセプト解除: デバッグ完了
+    
     // AI呼び出しの直列化（503エラー対策）
     if (this.isGenerating) {
       throw new Error('AI生成が進行中です。少し待ってから再度お試しください。')

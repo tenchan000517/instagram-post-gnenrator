@@ -112,9 +112,8 @@ export class KnowledgeBasedContentGenerator {
   private buildKnowledgeBasedPrompt(request: KnowledgeBasedGenerationRequest): string {
     const { userInput, knowledgeData, pageNumber, templateStructure } = request
     
-    // 投稿タイプ情報を取得
-    const typeId = knowledgeData.knowledgeId?.startsWith('K0') ? 
-      knowledgeData.knowledgeId.substring(1, 4) : '002' // K004 -> 002
+    // 投稿タイプ情報を取得（ナレッジのpostTypeフィールドから直接取得）
+    const typeId = knowledgeData.postType || '002'
     const typeInfo = POST_TYPES[typeId as keyof typeof POST_TYPES] || POST_TYPES['002']
     
     // 現在のページ情報を取得（新方式: knowledgeData.detailedContentから直接取得）

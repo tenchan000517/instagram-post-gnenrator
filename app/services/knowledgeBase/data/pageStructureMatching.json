@@ -263,6 +263,24 @@
       "description": "効率型×実践志向×行動促進",
       "pageStructureId": "efficiency-practical-action-3page",
       "reasoning": "実践志向には効率的な行動促進で即座の実践開始"
+    },
+    {
+      "matchingKey": "001-T002",
+      "description": "共感型×体系教育（K002暫定対応）",
+      "pageStructureId": "empathy-systematic-career-7page",
+      "reasoning": "K002用の暫定パターン：共感型アプローチでの段階的キャリア形成支援"
+    },
+    {
+      "matchingKey": "002-T002",
+      "description": "教育型×体系教育（K002専用：女性キャリア7ポイント）",
+      "pageStructureId": "typeID002-sequential-dependency",
+      "reasoning": "K002の7つのポイント構造に最適化された段階的キャリア教育アプローチ"
+    },
+    {
+      "matchingKey": "002-T005",
+      "description": "教育型×戦略設計（K073等：AI就活スキル習得）",
+      "pageStructureId": "education-complex-solution-5page",
+      "reasoning": "AI就活等のスキル習得ニーズに対応した教育的アプローチでの段階的戦略設計支援"
     }
   ]
 }

@@ -441,7 +441,24 @@ export class ContentLayoutService {
       'item-n-title-content': ['ポイント', 'カテゴリ', '要素'],
       'single-section-no-items': ['セクション', '詳細', '解説'],
       ranking: ['ランキング', 'ワースト', 'ベスト', 'トップ'],
-      graph: ['グラフ', 'データ', '統計', '分析']
+      graph: ['グラフ', 'データ', '統計', '分析'],
+      // 新テンプレートタイプ
+      sequential_step_learning: ['ステップ', '学習', '順序'],
+      parallel_qa_discussion: ['Q&A', '質問', '回答'],
+      points_list_analysis: ['ポイント', '分析', 'リスト'],
+      timeline_story_experience: ['時系列', 'ストーリー', '体験'],
+      feature_parallel_info: ['機能', '並列', '情報'],
+      feature_detail_tips: ['詳細', 'Tips', '機能'],
+      sequential_dependency: ['Point', 'ポイント', 'ステップ'],
+      category_content_learning: ['カテゴリ', '学習', 'コンテンツ'],
+      step_guide_achievement: ['ガイド', '達成', 'ステップ'],
+      method_systematic_info: ['方法論', '体系', '情報'],
+      practical_guide_conversation: ['実践', 'ガイド', '会話'],
+      company_data_list: ['企業', 'データ', 'リスト'],
+      usage_practical_steps: ['使用法', '実践', 'ステップ'],
+      failure_episode: ['失敗', 'エピソード', '体験'],
+      failure_story_intro: ['失敗', 'ストーリー', '導入'],
+      profile_offer: ['プロフィール', 'オファー', '提案']
     }
 
     const candidates = badgeMap[templateType] || ['ポイント']

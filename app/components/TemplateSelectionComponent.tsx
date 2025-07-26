@@ -62,7 +62,24 @@ export default function TemplateSelectionComponent({
       'item-n-title-content': '独立ボックス型',
       'single-section-no-items': '単一セクション・アイテム無し型',
       'ranking': 'ランキング型',
-      'graph': 'グラフ型'
+      'graph': 'グラフ型',
+      // 新テンプレートタイプ
+      sequential_step_learning: '順序依存ステップ型',
+      parallel_qa_discussion: 'Q&A並列紹介型',
+      points_list_analysis: 'ポイントリスト型',
+      timeline_story_experience: '時系列ストーリー型',
+      feature_parallel_info: '機能紹介並列型',
+      feature_detail_tips: '機能詳細Tips型',
+      sequential_dependency: '順序依存ステップ型',
+      category_content_learning: 'カテゴリ別コンテンツ学習型',
+      step_guide_achievement: 'ステップガイド達成型',
+      method_systematic_info: '方法論体系的情報型',
+      practical_guide_conversation: '実践ガイド会話型',
+      company_data_list: '企業データリスト型',
+      usage_practical_steps: '使用法実践ステップ型',
+      failure_episode: '失敗エピソード型',
+      failure_story_intro: '失敗ストーリー導入型',
+      profile_offer: 'プロフィール・オファー型'
     }
     return names[templateType] || templateType
   }
@@ -84,7 +101,24 @@ export default function TemplateSelectionComponent({
       'item-n-title-content': '独立したボックス型構成。複数の独立したトピックを並列で表示したい場合に最適。',
       'single-section-no-items': '単一セクション情報を詳細表示。特定のトピックを深く解説したい場合に最適。',
       'ranking': 'ランキング形式でデータを表示。順位やワースト・ベストデータを視覚的に示したい場合に最適。',
-      'graph': 'グラフ形式でデータを可視化表示。統計データや割合を円グラフ・棒グラフで表現したい場合に最適。'
+      'graph': 'グラフ形式でデータを可視化表示。統計データや割合を円グラフ・棒グラフで表現したい場合に最適。',
+      // 新テンプレートタイプの説明
+      sequential_step_learning: '順序依存ステップ型。順番通りに実行する必要がある学習コンテンツ。',
+      parallel_qa_discussion: 'Q&A並列紹介型。質問と回答を並列で紹介。',
+      points_list_analysis: 'ポイントリスト型。複数のポイントを体系的に整理。',
+      timeline_story_experience: '時系列ストーリー型。時間軸に沿った体験談。',
+      feature_parallel_info: '機能紹介並列型。複数機能を並列で紹介。',
+      feature_detail_tips: '機能詳細Tips型。機能の詳細と使い方のTips。',
+      sequential_dependency: '順序依存ステップ型。K002パターンに対応した段階的手順表示。',
+      category_content_learning: 'カテゴリ別コンテンツ学習型。カテゴリ別に整理された学習コンテンツ。',
+      step_guide_achievement: 'ステップガイド達成型。目標達成のためのステップガイド。',
+      method_systematic_info: '方法論体系的情報型。体系的な方法論情報。',
+      practical_guide_conversation: '実践ガイド会話型。実践的なガイドを会話形式で。',
+      company_data_list: '企業データリスト型。企業関連データのリスト表示。',
+      usage_practical_steps: '使用法実践ステップ型。実践的な使用法のステップ。',
+      failure_episode: '失敗エピソード型。失敗体験エピソード。',
+      failure_story_intro: '失敗ストーリー導入型。失敗ストーリーの導入ページ。',
+      profile_offer: 'プロフィール・オファー型。プロフィールとオファー情報。'
     }
     return descriptions[templateType] || 'テンプレートの説明'
   }

@@ -168,7 +168,24 @@ export default function ContentApprovalComponent({
       'single-section-no-items': '単一セクション・アイテム無し型',
       'index': 'INDEX（目次）型',
       'ranking': 'ランキング型',
-      'graph': 'グラフ型'
+      'graph': 'グラフ型',
+      // 新テンプレートタイプ
+      sequential_step_learning: '順序依存ステップ型',
+      parallel_qa_discussion: 'Q&A並列紹介型',
+      points_list_analysis: 'ポイントリスト型',
+      timeline_story_experience: '時系列ストーリー型',
+      feature_parallel_info: '機能紹介並列型',
+      feature_detail_tips: '機能詳細Tips型',
+      sequential_dependency: '順序依存ステップ型',
+      category_content_learning: 'カテゴリ別コンテンツ学習型',
+      step_guide_achievement: 'ステップガイド達成型',
+      method_systematic_info: '方法論体系的情報型',
+      practical_guide_conversation: '実践ガイド会話型',
+      company_data_list: '企業データリスト型',
+      usage_practical_steps: '使用法実践ステップ型',
+      failure_episode: '失敗エピソード型',
+      failure_story_intro: '失敗ストーリー導入型',
+      profile_offer: 'プロフィール・オファー型'
     }
     return typeMap[templateType] || templateType
   }
