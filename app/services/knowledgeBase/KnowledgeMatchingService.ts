@@ -47,8 +47,21 @@ export class KnowledgeMatchingService {
       const genAI = this.initializeAI()
       const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
 
-      // プロンプト構築
-      const prompt = this.buildMatchingPrompt(request)
+      // プロンプト構築前の確認
+      console.log('🔍 プロンプト構築前のknowledgeContents:', request.knowledgeContents.map(k => ({
+        knowledgeId: k.knowledgeId,
+        hasActualTitle: !!k.actualTitle,
+        hasProblemDescription: !!k.problemDescription
+      })))
+      
+      let prompt: string
+      try {
+        prompt = this.buildMatchingPrompt(request)
+        console.log('📝 生成されたプロンプト:', prompt)
+      } catch (error) {
+        console.error('❌ プロンプト構築エラー:', error)
+        throw error
+      }
 
       // AI判定実行
       const result = await model.generateContent(prompt)
@@ -114,13 +127,17 @@ ${knowledgeData}
 4. 感情・ニーズの一致度
 
 【出力形式】
-上記ナレッジリストの「**ナレッジID**」のみを使用して、関連性の高い順に出力してください：
+上記ナレッジリストの「**ナレッジID**」のみを使用して、関連性の高い順に出力してください。
 
-K004 0.85
-K001 0.72
+出力例（実際のナレッジIDは上記リストのものを使用）：
+${request.knowledgeContents.length >= 2 
+  ? `${request.knowledgeContents[0].knowledgeId} 0.85
+${request.knowledgeContents[1].knowledgeId} 0.7`
+  : 'K### 0.85\nK### 0.7'}
 
+要件：
 - 必ず上記リストに記載されたナレッジIDのみ使用
-- K〇〇〇形式でナレッジIDを出力
+- 改行区切りで1行に1つのナレッジIDとスコア
 - 半角スペース区切りでスコア（0.0-1.0）を併記
 - スコア0.5以上のもののみ出力
 - 最大3個まで

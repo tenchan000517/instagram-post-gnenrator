@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { FileText, Send, Lightbulb } from 'lucide-react'
 import KnowledgeBaseSelector from './ui/KnowledgeBaseSelector'
 import { KnowledgeBaseParams } from '../types/knowledgeBase'
@@ -13,7 +13,10 @@ interface ContentInputProps {
 
 export default function ContentInput({ onSubmit }: ContentInputProps) {
   const [content, setContent] = useState('')
-  const [knowledgeBaseParams, setKnowledgeBaseParams] = useState<KnowledgeBaseParams | undefined>()
+  const [knowledgeBaseParams, setKnowledgeBaseParams] = useState<KnowledgeBaseParams | undefined>(() => {
+    console.log('🔍 ContentInput初期化: knowledgeBaseParams = undefined')
+    return undefined
+  })
 
   useEffect(() => {
     // LocalStorageから formatted_content を取得
@@ -46,38 +49,31 @@ export default function ContentInput({ onSubmit }: ContentInputProps) {
   }, [])
 
   const handleSubmit = async () => {
+    console.log('🚨 handleSubmit実行時点のknowledgeBaseParams:', knowledgeBaseParams)
+    console.log('  - JSON詳細:', JSON.stringify(knowledgeBaseParams, null, 2))
+    console.log('  - useKnowledgeBase:', knowledgeBaseParams?.useKnowledgeBase)
+    
     if (content.trim()) {
-      // インターセプト: AI生成前にナレッジベースパラメータをログ出力
-      console.log('🔍 AI生成実行前のインターセプト')
-      console.log('='.repeat(50))
-      console.log('📝 入力コンテンツ:', content)
-      console.log('🧠 ナレッジベースパラメータ:', knowledgeBaseParams)
-      
       if (knowledgeBaseParams?.useKnowledgeBase) {
-        console.log('📊 詳細データ:')
-        console.log('  - TypeID:', knowledgeBaseParams.typeId)
-        console.log('  - TargetID:', knowledgeBaseParams.targetId)
-        console.log('  - PersonaIDs:', knowledgeBaseParams.personaIds)
-        console.log('  - PersonaID数:', knowledgeBaseParams.personaIds?.length || 0)
-        
         // ペルソナIDからナレッジIDを取得
         const knowledgeIds = knowledgeBaseParams.personaIds 
           ? MasterDataService.getKnowledgeIdsForPersonas(knowledgeBaseParams.personaIds)
           : []
         
-        console.log('🧠 ナレッジID取得:')
-        console.log('  - KnowledgeIDs:', knowledgeIds)
-        console.log('  - KnowledgeID数:', knowledgeIds.length)
+        console.log('🔍 ペルソナIDからナレッジIDへの変換:', {
+          personaIds: knowledgeBaseParams.personaIds,
+          knowledgeIds: knowledgeIds
+        })
         
         // ナレッジIDからナレッジ内容を取得
         const knowledgeContents = await MasterDataService.getKnowledgeContents(knowledgeIds)
         
-        console.log('📚 ナレッジ内容取得:')
-        console.log('  - KnowledgeContents数:', knowledgeContents.length)
-        console.log('  - KnowledgeContents:', knowledgeContents)
+        console.log('📚 取得したナレッジ内容:', {
+          count: knowledgeContents.length,
+          knowledgeIds: knowledgeContents.map(k => k.knowledgeId)
+        })
         
         // AI判定で関連ナレッジを選択
-        console.log('🤖 AI判定開始: 関連ナレッジを選択中...')
         let enhancedParams: KnowledgeBaseParams
         
         try {
@@ -88,46 +84,40 @@ export default function ContentInput({ onSubmit }: ContentInputProps) {
           const selectedResults = matchResults.length > 0 ? [matchResults[0]] : []
           const relevantKnowledgeIds = selectedResults.map(r => r.knowledgeId)
           
-          console.log('✅ AI判定結果:')
-          console.log('  - マッチング結果:', matchResults)
-          console.log('  - 関連ナレッジID:', relevantKnowledgeIds)
-          
           // AI判定結果のナレッジIDからナレッジデータを実際に取得
           const filteredKnowledgeContents = await MasterDataService.getKnowledgeContents(relevantKnowledgeIds)
           
-          console.log('🎯 絞り込み結果:')
-          console.log('  - 絞り込み後ナレッジ数:', filteredKnowledgeContents.length)
-          console.log('  - 絞り込み後ナレッジ:', filteredKnowledgeContents)
-          
           // 絞り込み済みデータで拡張パラメータ作成
+          const selectedKnowledgeData = filteredKnowledgeContents.length > 0 ? filteredKnowledgeContents[0] : null
+          
+          // AI選択されたナレッジのpostTypeを使ってtypeIdを更新
+          const updatedTypeId = selectedKnowledgeData?.postType || knowledgeBaseParams.typeId
+          
           enhancedParams = {
             ...knowledgeBaseParams,
+            typeId: updatedTypeId,
             knowledgeIds: relevantKnowledgeIds,
             knowledgeContents: filteredKnowledgeContents,
-            knowledgeData: filteredKnowledgeContents.length > 0 ? filteredKnowledgeContents[0] : null
+            knowledgeData: selectedKnowledgeData
           }
         } catch (error) {
           console.error('❌ AI判定エラー:', error)
           // エラー時はフォールバック: 全ナレッジを使用
+          const fallbackKnowledgeData = knowledgeContents.length > 0 ? knowledgeContents[0] : null
+          const fallbackTypeId = fallbackKnowledgeData?.postType || knowledgeBaseParams.typeId
+          
           enhancedParams = {
             ...knowledgeBaseParams,
+            typeId: fallbackTypeId,
             knowledgeIds,
             knowledgeContents,
-            knowledgeData: knowledgeContents.length > 0 ? knowledgeContents[0] : null
+            knowledgeData: fallbackKnowledgeData
           }
         }
-        
-        console.log('🚀 親コンポーネントに渡すデータ:')
-        console.log('  - content:', content)
-        console.log('  - enhancedParams:', enhancedParams)
-        console.log('  - enhancedParams詳細:', JSON.stringify(enhancedParams, null, 2))
-        
-        console.log('='.repeat(50))
         
         // 拡張されたパラメータでAI生成実行に進む
         onSubmit(content, enhancedParams)
       } else {
-        console.log('='.repeat(50))
         // ナレッジベース未使用の場合はそのまま
         onSubmit(content, knowledgeBaseParams)
       }
@@ -153,7 +143,13 @@ export default function ContentInput({ onSubmit }: ContentInputProps) {
       {/* ナレッジベース選択 */}
       <div className="post-preview">
         <KnowledgeBaseSelector
-          onSelectionChange={setKnowledgeBaseParams}
+          onSelectionChange={useCallback((params) => {
+            console.log('📨 ContentInput: KnowledgeBaseSelectorからパラメータ受信')
+            console.log('  - 受信データ:', JSON.stringify(params, null, 2))
+            console.log('  - 受信前のstate:', knowledgeBaseParams)
+            setKnowledgeBaseParams(params)
+            console.log('  - state更新完了（非同期なので即座には反映されない）')
+          }, [])}
         />
       </div>
 
