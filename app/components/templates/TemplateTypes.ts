@@ -246,6 +246,9 @@ export type TemplateType =
   | 'basic_intro'                  // ㉚基本導入型（K002用）
   | 'step_guide_achievement'       // ㉛ステップガイド達成型（K002用）
   | 'achievement_summary'          // ㉜達成まとめ型（K002用）
+  | 'ng_good_comparison'           // ㉝NG/GOOD比較型（K117用）
+  | 'category_explanation'         // ㉞カテゴリ説明型（K117用）
+  | 'vision_strength_matrix'       // ㉟ビジョン×強みマトリックス型（K117用）
 
 // テンプレートコンポーネントのプロパティ型
 export interface TemplateProps {

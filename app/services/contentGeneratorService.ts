@@ -251,9 +251,12 @@ export class ContentGeneratorService {
             })
             
             if (result.success) {
+              // templateOverridesを考慮してtemplateTypeを決定
+              const finalTemplateType = knowledgeData.templateOverrides?.[actualPageNumber.toString()] || pageInfo.templateId
+              
               const generatedPage: GeneratedPage = {
                 pageNumber: actualPageNumber,
-                templateType: pageInfo.templateId as TemplateType,
+                templateType: finalTemplateType as TemplateType,
                 templateData: result.generatedContent,
                 content: result.generatedContent
               }
@@ -289,9 +292,12 @@ export class ContentGeneratorService {
               })
               
               if (result.success) {
+                // templateOverridesを考慮してtemplateTypeを決定
+                const finalTemplateType = knowledgeData.templateOverrides?.[actualPageNumber.toString()] || pageInfo.templateId
+                
                 const generatedPage: GeneratedPage = {
                   pageNumber: actualPageNumber,
-                  templateType: pageInfo.templateId as TemplateType,
+                  templateType: finalTemplateType as TemplateType,
                   templateData: result.generatedContent,
                   content: result.generatedContent
                 }
@@ -324,9 +330,12 @@ export class ContentGeneratorService {
           })
         
           if (result.success) {
+            // templateOverridesを考慮してtemplateTypeを決定
+            const finalTemplateType = knowledgeData.templateOverrides?.[pageInfo.pageNumber.toString()] || pageInfo.templateId
+            
             const generatedPage: GeneratedPage = {
               pageNumber: pageInfo.pageNumber,
-              templateType: pageInfo.templateId as TemplateType,
+              templateType: finalTemplateType as TemplateType,
               templateData: result.generatedContent,
               content: result.generatedContent
             }

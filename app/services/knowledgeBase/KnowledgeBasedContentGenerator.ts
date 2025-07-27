@@ -110,7 +110,7 @@ export class KnowledgeBasedContentGenerator {
    * ナレッジベース起点のプロンプトを構築
    */
   private buildKnowledgeBasedPrompt(request: KnowledgeBasedGenerationRequest): string {
-    const { userInput, knowledgeData, pageNumber, templateStructure } = request
+    const { userInput, knowledgeData, pageStructure, pageNumber, templateStructure } = request
     
     // 投稿タイプ情報を取得（ナレッジのpostTypeフィールドから直接取得）
     const typeId = knowledgeData.postType || '002'
@@ -123,6 +123,19 @@ export class KnowledgeBasedContentGenerator {
     if (!currentPageData) {
       throw new Error(`ページ${pageNumber}のデータが見つかりません`)
     }
+
+    // テンプレート決定: pageStructureから基本テンプレート取得 → templateOverridesで上書き
+    let baseTemplate = 'step_guide_achievement' // デフォルト
+    
+    // 対応するページ情報を探す
+    const pageInfo = pageStructure.pages.find((p: any) => p.pageNumber === pageNumber) ||
+                     pageStructure.pages.find((p: any) => p.pageNumber === "dynamic")
+    
+    if (pageInfo) {
+      baseTemplate = pageInfo.templateId
+    }
+    
+    const finalTemplate = knowledgeData.templateOverrides?.[pageNumber.toString()] || baseTemplate
     
     return `
 あなたはInstagram投稿の専門コンテンツクリエイターです。
@@ -132,7 +145,7 @@ export class KnowledgeBasedContentGenerator {
 ページ番号: ${pageNumber}/${knowledgeData.contentPageCount || knowledgeData.pageCount}
 ページの役割: ${currentPageData.role}
 セクション: ${currentPageData.section}
-テンプレート: ${currentPageData.template}
+テンプレート: ${finalTemplate}
 
 【このページの必須コンテンツ】
 ${JSON.stringify(currentPageData.content, null, 2)}

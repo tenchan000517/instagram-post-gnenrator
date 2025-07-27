@@ -1,0 +1,36 @@
+{
+  "pageStructureId": "typeID001-emotion-empathy-list",
+  "name": "TypeID001 感情共感型問題解決",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "emotion_empathy_intro",
+      "optional": true,
+      "templateStructure": {
+        "title": "string",
+        "description": "string",
+        "targetAudience": "string"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "emotion_empathy_list",
+      "templateStructure": {
+        "number": "string",
+        "title": "string",
+        "content": "string[]",
+        "additionalText": "string"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "emotion_empathy_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryMessage": "string",
+        "keyPoints": "string[]",
+        "encouragement": "string"
+      }
+    }
+  ]
+}

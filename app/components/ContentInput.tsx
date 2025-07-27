@@ -90,12 +90,9 @@ export default function ContentInput({ onSubmit }: ContentInputProps) {
           // 絞り込み済みデータで拡張パラメータ作成
           const selectedKnowledgeData = filteredKnowledgeContents.length > 0 ? filteredKnowledgeContents[0] : null
           
-          // AI選択されたナレッジのpostTypeを使ってtypeIdを更新
-          const updatedTypeId = selectedKnowledgeData?.postType || knowledgeBaseParams.typeId
-          
+          // UI選択のtypeIdを保持（AIが選択したナレッジのpostTypeで上書きしない）
           enhancedParams = {
             ...knowledgeBaseParams,
-            typeId: updatedTypeId,
             knowledgeIds: relevantKnowledgeIds,
             knowledgeContents: filteredKnowledgeContents,
             knowledgeData: selectedKnowledgeData

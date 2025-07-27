@@ -179,10 +179,10 @@ export class MasterDataService {
       }
     }
 
-    // ターゲット数チェック（各タイプに3つのターゲット）
+    // ターゲット数チェック（各タイプに6つのターゲット）
     for (const [typeId, targets] of Object.entries(this.relations.typeToTargets)) {
-      if (targets.length !== 3) {
-        errors.push(`TypeId ${typeId} should have 3 targets, but has ${targets.length}`)
+      if (targets.length !== 6) {
+        errors.push(`TypeId ${typeId} should have 6 targets, but has ${targets.length}`)
       }
     }
 

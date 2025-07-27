@@ -1,0 +1,204 @@
+{
+  "source": "contents-136",
+  "problemCategory": "仕事効率化",
+  "problemDescription": "生成AIって何に使えるのか全然わからない・従来ツールから代替AIがわからない",
+  "postType": "004",
+  "postTypeReason": "従来ツールから代替AIツールへの置き換えによる作業効率化を目的とした効率・実用特化型コンテンツ",
+  "solutionContent": {
+    "概要": "従来の6つのツールを代替AIに置き換えることで作業効率を劇的に向上させる方法",
+    "具体的手順": [
+      "Google検索をPerplexityに置き換えて信頼できる情報を素早く入手する",
+      "PowerPointをGammaに置き換えてプレゼン資料作成を効率化する",
+      "メモアプリをNotion AIに置き換えて情報整理を自動化する",
+      "ExcelをCopilotに置き換えてデータ分析を簡単にする",
+      "WordをChatGPTに置き換えて文章作成を効率化する",
+      "Google翻訳をDeepLに置き換えて自然な翻訳を得る"
+    ],
+    "提供情報": [
+      "6つの従来ツールと代替AIツールの対応表",
+      "各AIツールの具体的なメリットと効果",
+      "情報検索における信頼性向上の方法",
+      "プレゼン資料作成の時短テクニック",
+      "メモ・情報整理の自動化手法",
+      "データ分析・グラフ作成の簡略化",
+      "文章作成の効率化・品質向上",
+      "翻訳精度向上による業務効率化"
+    ],
+    "実用的なアドバイス": [
+      "どれが正しい情報か悩まず、信頼できる情報がすぐ手に入ります",
+      "要点もまとめてくれるから調べ物がグッと楽になります",
+      "構成からデザインまで時間が溶けるほど効率化できます",
+      "スライド資料作成が苦手でも一瞬で見栄えよく仕上がります",
+      "テーマを一言入れればすぐ形になります",
+      "見返すのが面倒で埋もれがちな情報も生成AIがまとめるから情報が埋もれにくくなります",
+      "メモの整理や検索もラクになって作業がスムーズに進みます",
+      "分析やグラフ作りでよくつまずく場合でも「グラフにして」と言うだけでOKです",
+      "数字がニガテでも、分析や報告がラクにできるようになります",
+      "文章が思いつかずいつも固まる場合でも目的を伝えると文章がパッと出ます",
+      "たたき台があるだけで、効率よくクオリティも高く仕上がります",
+      "日本語がちょっと不自然な場合でも伝わる自然な言い回しになります",
+      "信頼感のある翻訳だから安心して仕事に使えます"
+    ]
+  },
+  "effectiveExpressions": [
+    "今どきはコレ！",
+    "代替AIでサクッとお仕事",
+    "ちょっと置き換えるだけで仕事の効率が変わる",
+    "まずはひとつ、試してみる",
+    "効率が上がった",
+    "すぐ形になる",
+    "一瞬で見栄えよく仕上がる"
+  ],
+  "searchKeywords": [
+    "生成AI",
+    "代替AI",
+    "仕事効率化",
+    "AIツール",
+    "Perplexity",
+    "Gamma",
+    "Notion AI",
+    "Copilot",
+    "ChatGPT",
+    "DeepL",
+    "業務効率",
+    "ツール置き換え"
+  ],
+  "emotionalTriggers": [
+    "AI活用への迷いの解消",
+    "具体的ツール置き換えの提示",
+    "即実践可能な効率化",
+    "作業時間短縮への期待",
+    "品質向上の実感"
+  ],
+  "marketingStage": "業務効率化検討段階（AIツール導入検討時期）",
+  "knowledgeId": "K136",
+  "pageStructurePattern": "typeID004-tool-service-introduction",
+  "actualTitle": "今どきはコレ！代替AIでサクッとお仕事",
+  "pageCount": 8,
+  "detailedContent": {
+    "page1": {
+      "role": "導入・問題提起",
+      "section": "introduction",
+      "content": {
+        "title": "今どきはコレ！代替AIでサクッとお仕事",
+        "subtitle": "",
+        "problemStatement": "生成AI便利ってよく聞くけど正直、何に使えるのか全然わからない",
+        "empathy": "わかります。以前は使い慣れたツールばかり使用していました。",
+        "valueProposal": "でも、それを生成AIに置き換えたら効率が上がりましたので紹介いたします！"
+      }
+    },
+    "page2": {
+      "role": "ツール1: 情報検索",
+      "section": "mainContent",
+      "content": {
+        "toolName": "情報検索",
+        "before": {
+          "name": "Google",
+          "description": "どれが正しい情報か？"
+        },
+        "after": {
+          "name": "Perplexity",
+          "description": "信頼できる情報がすぐ手に入ります！"
+        },
+        "benefit": "要点もまとめてくれるから調べ物がグッと楽になります！"
+      }
+    },
+    "page3": {
+      "role": "ツール2: プレゼン資料作成",
+      "section": "mainContent",
+      "content": {
+        "toolName": "プレゼン資料作成",
+        "before": {
+          "name": "PowerPoint",
+          "description": "構成からデザインまで時間が溶ける"
+        },
+        "after": {
+          "name": "Gamma",
+          "description": "テーマを一言入れればすぐ形になります！"
+        },
+        "benefit": "スライド資料作成が苦手でも一瞬で見栄えよく仕上がります。"
+      }
+    },
+    "page4": {
+      "role": "ツール3: メモ・情報整理",
+      "section": "mainContent",
+      "content": {
+        "toolName": "メモ・情報整理",
+        "before": {
+          "name": "メモアプリ",
+          "description": "見返すのが面倒で埋もれちゃう"
+        },
+        "after": {
+          "name": "Notion AI",
+          "description": "生成AIがまとめるから情報が埋もれにくい！"
+        },
+        "benefit": "メモの整理や検索もラクになって作業がスムーズに進みます！"
+      }
+    },
+    "page5": {
+      "role": "ツール4: データ管理・分析",
+      "section": "mainContent",
+      "content": {
+        "toolName": "データ管理・分析",
+        "before": {
+          "name": "Excel",
+          "description": "分析やグラフ作りでよくつまずく"
+        },
+        "after": {
+          "name": "Copilot",
+          "description": "「グラフにして」と言うだけでOKです！"
+        },
+        "benefit": "数字がニガテでも、分析や報告がラクにできるようになります。"
+      }
+    },
+    "page6": {
+      "role": "ツール5: 文章作成",
+      "section": "mainContent",
+      "content": {
+        "toolName": "文章作成",
+        "before": {
+          "name": "Word",
+          "description": "文章が思いつかずいつも固まる"
+        },
+        "after": {
+          "name": "ChatGPT",
+          "description": "目的を伝えると文章がパッと出ます！"
+        },
+        "benefit": "たたき台があるだけで、効率よくクオリティも高く仕上がります！"
+      }
+    },
+    "page7": {
+      "role": "ツール6: 翻訳",
+      "section": "mainContent",
+      "content": {
+        "toolName": "翻訳",
+        "before": {
+          "name": "Google翻訳",
+          "description": "日本語がちょっと不自然"
+        },
+        "after": {
+          "name": "DeepL",
+          "description": "伝わる自然な言い回し"
+        },
+        "benefit": "信頼感のある翻訳だから安心して仕事に使えます。"
+      }
+    },
+    "page8": {
+      "role": "まとめ・実践促進",
+      "section": "summary",
+      "content": {
+        "title": "まとめ",
+        "replacements": [
+          { "from": "Google", "to": "Perplexity" },
+          { "from": "PowerPoint", "to": "Gamma" },
+          { "from": "メモアプリ", "to": "Notion AI" },
+          { "from": "Excel", "to": "Copilot" },
+          { "from": "Word", "to": "ChatGPT" },
+          { "from": "Google翻訳", "to": "DeepL" }
+        ],
+        "encouragement": "ちょっと置き換えるだけで仕事の効率が変わります。まずはひとつ、試してみましょう！",
+        "callToAction": "保存して後で復習しましょう！"
+      }
+    }
+  }
+}

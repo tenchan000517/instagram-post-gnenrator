@@ -46,8 +46,9 @@ export interface KnowledgeContent {
   pageStructurePattern: string;
   actualTitle: string;
   pageCount: number;
-  hashTag: string;
+  hashTag?: string;
   detailedContent?: Record<string, any>;
+  templateOverrides?: Record<string, string>; // ページ番号 -> テンプレートID
 }
 
 export interface KnowledgeBaseParams {
@@ -79,8 +80,8 @@ export interface TypeOption {
   recommendedFor: string[];
 }
 
-// TargetID 選択用の型定義（12ターゲット：4投稿タイプ×3ターゲット）
-export type TargetID = 'T001' | 'T002' | 'T003' | 'T004' | 'T005' | 'T006' | 'T007' | 'T008' | 'T009' | 'T010' | 'T011' | 'T012';
+// TargetID 選択用の型定義（24ターゲット：4投稿タイプ×6ターゲット）
+export type TargetID = 'T001' | 'T002' | 'T003' | 'T004' | 'T005' | 'T006' | 'T007' | 'T008' | 'T009' | 'T010' | 'T011' | 'T012' | 'T013' | 'T014' | 'T015' | 'T016' | 'T017' | 'T018' | 'T019' | 'T020' | 'T021' | 'T022' | 'T023' | 'T024';
 
 export interface TargetOption {
   id: TargetID;

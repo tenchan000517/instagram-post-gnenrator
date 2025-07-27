@@ -11,6 +11,7 @@ import educationComplexSolution5page from './data/pageStructures/education-compl
 import infoStrategicData4page from './data/pageStructures/info-strategic-data-4page.json'
 import problemSolutionCarousel9page from './data/pageStructures/problem-solution-carousel-9page.json'
 import typeID002SequentialDependency from './data/pageStructures/typeID002-sequential-dependency.json'
+import typeID001EmotionEmpathyList from './data/pageStructures/typeID001-emotion-empathy-list.json'
 
 export interface MatchingPattern {
   matchingKey: string;
@@ -58,7 +59,8 @@ export class PageStructureMatcher {
     'education-complex-solution-5page': educationComplexSolution5page,
     'info-strategic-data-4page': infoStrategicData4page,
     'problem-solution-carousel-9page': problemSolutionCarousel9page,
-    'typeID002-sequential-dependency': typeID002SequentialDependency
+    'typeID002-sequential-dependency': typeID002SequentialDependency,
+    'typeID001-emotion-empathy-list': typeID001EmotionEmpathyList
   };
 
   /**
@@ -136,16 +138,24 @@ export class PageStructureMatcher {
    * ページ構造の読み込み（静的ファイル優先、フォールバック対応）
    * 
    * @param pageStructureId - ページ構成パターンID
+   * @param templateOverrides - テンプレートオーバーライド（オプション）
    * @returns 詳細なページ構造定義
    */
-  static loadPageStructure(pageStructureId: string): PageStructure {
+  static loadPageStructure(pageStructureId: string, templateOverrides?: Record<string, string>): PageStructure {
     // 静的ファイルを優先
     const pageStructure = this.pageStructureMap[pageStructureId as keyof typeof this.pageStructureMap];
     
     if (pageStructure) {
       console.log(`📄 静的ページ構造読み込み: ${pageStructure.name}`);
       console.log(`📊 Pages count: ${pageStructure.pages.length}`);
-      return pageStructure as PageStructure;
+      
+      // templateOverridesが指定されている場合は適用
+      let modifiedStructure = pageStructure as PageStructure;
+      if (templateOverrides && Object.keys(templateOverrides).length > 0) {
+        modifiedStructure = this.applyTemplateOverrides(modifiedStructure, templateOverrides);
+      }
+      
+      return modifiedStructure;
     }
     
     // カンマ区切りパターンの場合は動的生成
@@ -159,18 +169,62 @@ export class PageStructureMatcher {
   }
 
   /**
+   * テンプレートオーバーライドを適用
+   * 
+   * @param structure - 元のページ構造
+   * @param templateOverrides - オーバーライド設定
+   * @returns オーバーライド適用後のページ構造
+   */
+  private static applyTemplateOverrides(
+    structure: PageStructure, 
+    templateOverrides: Record<string, string>
+  ): PageStructure {
+    console.log(`🔧 テンプレートオーバーライド適用:`, templateOverrides);
+    
+    const modifiedPages = structure.pages.map(page => {
+      const pageNumberStr = page.pageNumber.toString();
+      
+      if (templateOverrides[pageNumberStr]) {
+        const originalTemplateId = page.templateId;
+        const newTemplateId = templateOverrides[pageNumberStr];
+        
+        console.log(`  📝 Page ${pageNumberStr}: ${originalTemplateId} → ${newTemplateId}`);
+        
+        return {
+          ...page,
+          templateId: newTemplateId,
+          role: `${page.role} (Override: ${newTemplateId})`
+        };
+      }
+      
+      return page;
+    });
+
+    return {
+      ...structure,
+      pages: modifiedPages,
+      name: `${structure.name} (Modified)`
+    };
+  }
+
+  /**
    * 完全なマッチングプロセス：組み合わせからページ構造まで取得
    * 
    * @param typeId - 投稿タイプID
    * @param targetId - ターゲットID
+   * @param templateOverrides - テンプレートオーバーライド（オプション）
    * @returns 完全なページ構造定義
    */
-  static getCompletePageStructure(typeId: string, targetId: string): {
+  static getCompletePageStructure(
+    typeId: string, 
+    targetId: string, 
+    templateOverrides?: Record<string, string>
+  ): {
     pattern: MatchingPattern;
     structure: PageStructure;
   } {
     const pattern = this.findExactMatch(typeId, targetId);
-    const structure = this.loadPageStructure(pattern.pageStructureId);
+    const structure = this.loadPageStructure(pattern.pageStructureId, templateOverrides);
 
     return { pattern, structure };
   }

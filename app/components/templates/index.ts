@@ -24,6 +24,11 @@ export { FailureEpisodeTemplate } from './FailureEpisodeTemplate'
 export { FailureStoryIntroTemplate } from './FailureStoryIntroTemplate'
 export { ProfileOfferTemplate } from './ProfileOfferTemplate'
 
+// K117用テンプレート
+export { NgGoodComparisonTemplate } from './NgGoodComparisonTemplate'
+export { CategoryExplanationTemplate } from './CategoryExplanationTemplate'
+export { VisionStrengthMatrixTemplate } from './VisionStrengthMatrixTemplate'
+
 // 新しいK004テスト用テンプレート
 export { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
 export { MethodDetailCardTemplate } from './MethodDetailCardTemplate'
@@ -35,6 +40,9 @@ export { ActionCallChecklistTemplate } from './ActionCallChecklistTemplate'
 export { default as BasicIntroTemplate } from './BasicIntroTemplate'
 export { default as StepGuideAchievementTemplate } from './StepGuideAchievementTemplate'
 export { default as AchievementSummaryTemplate } from './AchievementSummaryTemplate'
+
+// K001用テンプレート
+export { default as EmotionEmpathyListTemplate } from './EmotionEmpathyListTemplate'
 
 // 型定義とユーティリティ
 export * from './TemplateTypes'
@@ -78,6 +86,14 @@ import BasicIntroTemplate from './BasicIntroTemplate'
 import StepGuideAchievementTemplate from './StepGuideAchievementTemplate'
 import AchievementSummaryTemplate from './AchievementSummaryTemplate'
 
+// K001用テンプレートのインポート
+import EmotionEmpathyListTemplate from './EmotionEmpathyListTemplate'
+
+// K117用テンプレートのインポート
+import { NgGoodComparisonTemplate } from './NgGoodComparisonTemplate'
+import { CategoryExplanationTemplate } from './CategoryExplanationTemplate'
+import { VisionStrengthMatrixTemplate } from './VisionStrengthMatrixTemplate'
+
 import { TemplateType } from './TemplateTypes'
 
 export const templateComponents = {
@@ -113,7 +129,15 @@ export const templateComponents = {
   // K002用テンプレート
   'basic_intro': BasicIntroTemplate,
   'step_guide_achievement': StepGuideAchievementTemplate,
-  'achievement_summary': AchievementSummaryTemplate
+  'achievement_summary': AchievementSummaryTemplate,
+  // K001用テンプレート
+  'emotion_empathy_intro': EmotionEmpathyListTemplate,
+  'emotion_empathy_list': EmotionEmpathyListTemplate,
+  'emotion_empathy_summary': EmotionEmpathyListTemplate,
+  // K117用テンプレート
+  'ng_good_comparison': NgGoodComparisonTemplate,
+  'category_explanation': CategoryExplanationTemplate,
+  'vision_strength_matrix': VisionStrengthMatrixTemplate
 } as const
 
 // テンプレートレンダラー

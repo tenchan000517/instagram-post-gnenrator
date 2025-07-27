@@ -27,6 +27,11 @@ import { basicIntroMetadata } from './BasicIntroTemplate'
 import { stepGuideAchievementMetadata } from './StepGuideAchievementTemplate'
 import { achievementSummaryMetadata } from './AchievementSummaryTemplate'
 
+// K117用テンプレートのメタデータインポート
+import { ngGoodComparisonMetadata } from './NgGoodComparisonTemplate'
+import { categoryExplanationMetadata } from './CategoryExplanationTemplate'
+import { visionStrengthMatrixMetadata } from './VisionStrengthMatrixTemplate'
+
 // アクティブテンプレートレジストリ（Critical Priority + INDEX + データ可視化追加）
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   index: indexMetadata,
@@ -51,7 +56,11 @@ export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   // K002用テンプレート
   basic_intro: basicIntroMetadata,
   step_guide_achievement: stepGuideAchievementMetadata,
-  achievement_summary: achievementSummaryMetadata
+  achievement_summary: achievementSummaryMetadata,
+  // K117用テンプレート
+  ng_good_comparison: ngGoodComparisonMetadata,
+  category_explanation: categoryExplanationMetadata,
+  vision_strength_matrix: visionStrengthMatrixMetadata
 }
 
 // アクティブテンプレートのジャンル対応（Critical Priority追加）

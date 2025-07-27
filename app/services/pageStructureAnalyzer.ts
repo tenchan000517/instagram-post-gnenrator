@@ -223,8 +223,14 @@ private async generateStructuredContent(
       if (fullKnowledgeData && fullKnowledgeData.pageStructurePattern && fullKnowledgeData.pageStructurePattern.trim() !== '') {
         console.log('📋 ナレッジからページ構造パターンを取得:', fullKnowledgeData.pageStructurePattern);
         
-        // ハードコード済みの構造を取得
-        structure = PageStructureMatcher.loadPageStructure(fullKnowledgeData.pageStructurePattern);
+        // templateOverridesを取得
+        const templateOverrides = fullKnowledgeData.templateOverrides;
+        if (templateOverrides) {
+          console.log('🔧 テンプレートオーバーライド検出:', templateOverrides);
+        }
+        
+        // ハードコード済みの構造を取得（templateOverridesを適用）
+        structure = PageStructureMatcher.loadPageStructure(fullKnowledgeData.pageStructurePattern, templateOverrides);
         
         // 模擬的なpatternオブジェクトを作成
         pattern = {
