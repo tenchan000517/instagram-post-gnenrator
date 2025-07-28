@@ -1,0 +1,38 @@
+{
+  "pageStructureId": "typeID002-ng-good-comparison-pattern",
+  "name": "TypeID002 NG/GOOD比較フォーカス型",
+  "description": "実践的スキル習得において、NG例とGOOD例の対比による学習効果を最大化するパターン",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string", 
+        "problems": "string[]",
+        "additionalMessage": "string"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "ng_good_comparison",
+      "templateStructure": {
+        "title": "string",
+        "ngExample": "object",
+        "goodExample": "object",
+        "explanation": "string",
+        "tips": "string[]"
+      }
+    },
+    {
+      "pageNumber": "final",
+      "templateId": "achievement_summary",
+      "templateStructure": {
+        "title": "string",
+        "summary": "string[]",
+        "encouragement": "string",
+        "nextAction": "string"
+      }
+    }
+  ]
+}

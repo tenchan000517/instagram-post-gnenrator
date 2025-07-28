@@ -1,0 +1,105 @@
+{
+  "pageStructureId": "typeID003-industry-infographic-analysis",
+  "name": "TypeID003 業界図解・インフォグラフィック型",
+  "description": "業界トレンド・市場分析・技術動向を図解・チャート・インフォグラフィックで視覚的に表現するパターン",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateOptions": ["basic_intro", "type003_intro", "type003_intro_job"],
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string?"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "industry_infographic",
+      "templateStructure": {
+        "title": "string",
+        "subtitle": "string?",
+        "visualType": "chart | grid | circular | list | statistics",
+        "categories": [
+          {
+            "name": "string",
+            "color": "string",
+            "items": [
+              {
+                "name": "string",
+                "icon": "string?",
+                "description": "string?",
+                "value": "string | number?"
+              }
+            ]
+          }
+        ],
+        "chartData": {
+          "type": "bar | pie | line | horizontal-bar",
+          "data": [
+            {
+              "label": "string",
+              "value": "number",
+              "color": "string?",
+              "percentage": "number?"
+            }
+          ],
+          "unit": "string?"
+        },
+        "gridItems": [
+          {
+            "name": "string", 
+            "icon": "string?",
+            "description": "string?",
+            "value": "string | number?"
+          }
+        ],
+        "statisticsData": {
+          "mainStat": {
+            "label": "string",
+            "value": "string | number",
+            "color": "string?"
+          },
+          "subStats": [
+            {
+              "label": "string",
+              "value": "string | number", 
+              "color": "string?"
+            }
+          ]
+        },
+        "callToAction": "string?",
+        "backgroundPattern": "dots | waves | gradient | solid"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string?"
+      }
+    }
+  ],
+  "usageScenarios": [
+    "業界AI活用実態調査",
+    "生成AI利用ランキング可視化",
+    "ビジネスツール60選円形配置",
+    "業界トレンド統計グラフ",
+    "市場分析インフォグラフィック",
+    "技術導入状況チャート表示",
+    "採用市場動向の図解説明"
+  ],
+  "keyFeatures": [
+    "複数の可視化パターン対応",
+    "チャート・グラフ表示機能",
+    "カテゴリ別情報整理",
+    "統計データの効果的表現",
+    "インフォグラフィック要素",
+    "視覚的インパクトの最大化"
+  ]
+}

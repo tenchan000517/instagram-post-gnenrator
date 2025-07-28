@@ -1,215 +1,251 @@
-# ユーザーフロー関数単位追跡分析レポート
+ナレッジベース生成フロー詳細追跡レポート
 
-**作成日**: 2025-07-22  
-**分析者**: Claude Code  
-**目的**: ユーザーが投稿タイプを選択してからのシステムフローを関数レベルで完全追跡
+  作成日: 2025-07-23対象: 新ナレッジベース起点生成システム範囲: UI選択からコンテンツ表示完了まで
 
----
+  ---
+  📊 システムフロー概要
 
-## 📊 システムフロー概要
+  UI選択 → ペルソナマッピング → AI判定 → ナレッジ選択 → ページ構造決定 → 個別ページ生成（×9回） → UI表示
 
-```
-UI選択 → パラメータ構築 → 生成開始 → ナレッジベース分岐 → 🚨IDマッチング失敗 → エラー
-```
+  ---
+  🔍 ステップ別詳細フロー
 
-**結果**: 現在のシステムはステップ5-6でデータ不整合により失敗する
+  ステップ1: UI選択処理
 
----
+  場所: KnowledgeBaseSelector.tsx
 
-## 🔍 詳細フロー追跡
+  1.1 投稿タイプ選択
 
-### 1. UI選択フロー
+  - 関数: handleTypeSelect()
+  - 処理: ユーザーが投稿タイプ（001-004）を選択
+  - データ変換: UIの選択値をselectionState.typeIdに格納
+  - 次処理: ターゲット選択画面に遷移
 
-| ファイル | 行数 | 関数・コンポーネント | 役割 |
-|---------|------|---------------------|------|
-| `app/page.tsx` | 14 | `NewFlowPostGenerator` | メインフロー開始 |
-| `app/components/NewFlowPostGenerator.tsx` | 156 | `ContentInput` | コンテンツ入力画面 |
-| `app/components/ContentInput.tsx` | 70-72 | `KnowledgeBaseSelector` | ナレッジベース選択UI |
+  1.2 ターゲット選択
 
-### 2. ナレッジベース選択プロセス
+  - 関数: handleTargetSelect()
+  - 処理: 投稿タイプに応じたターゲット選択肢を表示
+  - データ変換: 選択されたターゲットIDをselectionState.targetIdに格納
+  - 副作用: useEffectでペルソナIDマッピングを実行
 
-| ファイル | 行数 | 関数名 | 処理内容 |
-|---------|------|--------|---------|
-| `app/components/ui/KnowledgeBaseSelector.tsx` | 225 | `handleTypeSelect` | 投稿タイプ選択 (001-004) |
-| `app/components/ui/KnowledgeBaseSelector.tsx` | 235 | `handleTargetSelect` | ターゲット選択 (T001-T012) |
-| `app/components/ui/KnowledgeBaseSelector.tsx` | 244 | `handleThemeSelect` | テーマ選択 (TH001-TH007) |
-| `app/components/ui/KnowledgeBaseSelector.tsx` | 217 | `onSelectionChange` | パラメータ構築・通知 |
+  1.3 ペルソナマッピング実行
 
-#### 選択可能なオプション詳細
+  - 関数: useEffect（targetId変更時）
+  - 処理: MasterDataService.getPersonasForTarget()を呼び出し
+  - データ変換: TargetID（T001-T012）→ PersonaIDs（P001-P116）への変換
+  - 結果: currentPersonas配列に複数のペルソナIDが格納
 
-**投稿タイプ (TypeID)**:
-- `001`: キャリアの悩み解決法
-- `002`: スキルアップガイド  
-- `003`: 業界・企業情報まとめ
-- `004`: 効率アップテクニック
+  1.4 選択完了通知
 
-**ターゲット (TargetID)**:
-- `T001-T003`: キャリアの悩み解決法対応
-- `T004-T006`: スキルアップガイド対応
-- `T007-T009`: 業界・企業情報対応
-- `T010-T012`: 効率アップテクニック対応
+  - 関数: useEffect（依存関係: selectionState, currentPersonas）
+  - 処理: 親コンポーネントに選択結果を通知
+  - 送信データ: KnowledgeBaseParamsオブジェクト
+    - typeId: 投稿タイプ
+    - targetId: ターゲットID
+    - personaIds: マッピングされたペルソナID配列
+    - useKnowledgeBase: true
 
-**テーマ (ThemeID)**:
-- `TH001-TH007`: 各投稿タイプ・ターゲットの組み合わせに対応
+  ---
+  ステップ2: コンテンツ入力処理
 
-### 3. コンテンツ生成開始
+  場所: ContentInput.tsx
 
-| ファイル | 行数 | 関数名 | 処理内容 |
-|---------|------|--------|---------|
-| `app/components/ContentInput.tsx` | 48 | `onSubmit` | パラメータ付きでコンテンツ送信 |
-| `app/components/NewFlowPostGenerator.tsx` | 40 | `contentGeneratorService.generateHighQualityContent` | メイン生成サービス呼び出し |
+  2.1 パラメータ受信
 
-### 4. メイン生成フロー
+  - 関数: コンポーネントprops
+  - 受信データ: KnowledgeBaseParams（ステップ1.4の結果）
+  - 格納: knowledgeBaseParamsstate に保存
 
-| ファイル | 行数 | 関数名 | 処理内容 |
-|---------|------|--------|---------|
-| `app/services/contentGeneratorService.ts` | 78 | `pageStructureAnalyzer.analyzePageStructureAndTemplates` | ページ構造分析開始 |
+  2.2 ナレッジID取得
 
-### 5. ナレッジベース統合システム分岐 🚨
+  - トリガー: handleSubmit()実行時
+  - 関数: MasterDataService.getKnowledgeIdsForPersonas()
+  - 処理: ペルソナID配列からナレッジID配列への変換
+  - 例: [P006, P008, P010] → [K008, K015, K023]
 
-| ファイル | 行数 | 処理内容 | 問題点 |
-|---------|------|---------|--------|
-| `app/services/pageStructureAnalyzer.ts` | 53 | `knowledgeBaseParams?.useKnowledgeBase`チェック | 正常 |
-| `app/services/pageStructureAnalyzer.ts` | 55 | `generateStructuredContent()`呼び出し | 正常 |
-| `app/services/pageStructureAnalyzer.ts` | 216 | `PageStructureMatcher.getCompletePageStructure()` | **ID不一致で失敗** |
-| `app/services/pageStructureAnalyzer.ts` | 226 | `TemplateItemMapper.mapContentToPages()` | **到達不可能** |
+  2.3 ナレッジ内容取得
 
-### 6. ID不一致の詳細分析
+  - 関数: MasterDataService.getKnowledgeContents()
+  - 処理: ナレッジIDから実際のナレッジ内容を取得
+  - データソース: app/data/knowledgeBase/knowledge/*.json
+  - 結果: ナレッジオブジェクト配列（problemDescription, solutionContent等を含む）
 
-#### 6.1 UIで生成されるパラメータ
-```typescript
-// KnowledgeBaseSelectorからの出力
-{
-  typeId: "001",      // 投稿タイプ
-  targetId: "T001",   // ターゲットID
-  themeId: "TH001",   // テーマID
-  useKnowledgeBase: true
-}
-```
+  2.4 AI判定による関連ナレッジ選択
 
-#### 6.2 PageStructureMatcherの期待値
-```typescript
-// app/services/knowledgeBase/PageStructureMatcher.ts:78
-const matchingKey = `${typeId}-${targetId}-${themeId}`;
-// 期待される形式: "001-T001-TH001"
-```
+  - 関数: KnowledgeMatchingService.findRelevantKnowledge()
+  - 入力: ユーザー入力テキスト + 取得したナレッジ内容
+  - 処理: AIがユーザー入力に最も関連するナレッジを判定
+  - 選択方式: トップスコア選択（最高スコアの1件のみ）
+  - 出力: 選択されたナレッジID
 
-#### 6.3 実際のデータベース構造
-**問題**: 以下のIDマッピングが不整合
-- **UIのTargetID**: T001-T012  
-- **データベースのPersonaID**: P001-P116
-- **マッピングルール**: 存在しない or 不完全
+  2.5 拡張パラメータ作成
 
-### 7. システムが正常に動作した場合の後続フロー（現在は到達不可能）
+  - 処理: AI選択結果を用いて最終的なパラメータを構築
+  - 作成データ: enhancedParams
+    - 元のknowledgeBaseParamsを継承
+    - knowledgeIds: AI選択されたナレッジID配列
+    - knowledgeContents: 対応するナレッジ内容配列
+    - knowledgeData: 選択されたナレッジ（配列の先頭要素）
 
-| サービス | 処理内容 |
-|---------|---------|
-| `TemplateItemMapper` | テンプレートとコンテンツのマッピング |
-| `convertStructuredGenerationResult` | 結果の変換 |
-| `generateHashtags` | ハッシュタグ生成 |
-| `generateCaptionWithFormat` | キャプション生成 |
+  2.6 親コンポーネント呼び出し
 
----
+  - 関数: onSubmit(content, enhancedParams)
+  - 渡すデータ: ユーザー入力テキスト + 拡張パラメータ
 
-## 🚨 根本的問題の特定
+  ---
+  ステップ3: メイン生成処理開始
 
-### 1. データ整合性問題
+  場所: NewFlowPostGenerator.tsx
 
-| 問題種別 | 詳細 | 影響 |
-|---------|------|------|
-| **ID体系の不一致** | UIのT001-T012 vs データベースのP001-P116 | マッチング完全失敗 |
-| **マッピングの欠如** | TargetID → PersonaIDの変換ロジック不存在 | システム動作不可 |
-| **データ分散** | personaInsights.json vs masterData/personas.json | 参照エラー |
+  3.1 コンテンツ生成サービス呼び出し
 
-### 2. システム設計の不整合
+  - 関数: contentGeneratorService.generateHighQualityContent()
+  - 引数:
+    - userInput: ユーザー入力テキスト
+    - knowledgeBaseParams: 拡張パラメータ（ステップ2.5の結果）
 
-| レイヤー | 期待値 | 実際の値 | 状態 |
-|---------|-------|----------|------|
-| **UI選択** | T001-T012 | T001-T012 | ✅ 正常 |
-| **パラメータ構築** | T001-T012 | T001-T012 | ✅ 正常 |
-| **データベース検索** | P001-P116 | T001-T012 | ❌ **不一致** |
-| **マッチング結果** | 存在するパターン | null/undefined | ❌ **失敗** |
+  ---
+  ステップ4: 生成フロー分岐
 
----
+  場所: contentGeneratorService.ts
 
-## 🎯 問題解決の優先順位
+  4.1 ナレッジベースシステム検出
 
-### 🔥 緊急対応（システム動作に必須）
+  - 判定条件: knowledgeBaseParams?.useKnowledgeBase && knowledgeBaseParams.knowledgeContents
+  - 処理: 従来フローをスキップし、ナレッジベース起点フローに分岐
 
-1. **TargetID → PersonaID マッピングテーブル作成**
-   - T001 → P001 の対応表を定義
-   - KnowledgeBaseSelectorで変換処理を追加
+  4.2 新ナレッジベース起点システム判定
 
-2. **PageStructureMatcherの修正**
-   - 正しいPersonaIDでのマッチング処理
-   - エラーハンドリングの改善
+  - 判定条件: knowledgeBaseParams.knowledgeContents[0].pageStructurePattern
+  - 処理: pageStructurePatternが存在する場合、新システムを実行
+  - 関数呼び出し: generateWithKnowledgeBase()
 
-### 🔧 中期対応
+  ---
+  ステップ5: ページ構造決定
 
-3. **データ統合**
-   - personaInsights.jsonとmasterData/personas.jsonの統合
-   - 一元的なデータ管理システム構築
+  場所: contentGeneratorService.ts - generateWithKnowledgeBase()
 
-4. **SearchIndexの再構築**
-   - 全ペルソナを含む完全なインデックス作成
-   - 重複エントリの除去
+  5.1 ページ構造パターン取得
 
-### 📋 長期対応
+  - データソース: 選択されたナレッジのpageStructurePatternプロパティ
+  - 例: "problem-solution-carousel-9page"
 
-5. **システムアーキテクチャの見直し**
-   - ID体系の統一
-   - データモデルの再設計
+  5.2 ページ構造定義読み込み
 
----
+  - 関数: PageStructureMatcher.loadPageStructure()
+  - 処理: パターン名に対応するページ構造JSONファイルを読み込み
+  - ファイル例: problem-solution-carousel-9page.json
+  - 取得内容: 9ページ分の構造定義（templateId, role, itemAssignments）
 
-## 🔬 技術的洞察
+  ---
+  ステップ6: 個別ページ生成（問題箇所）
 
-### 1. 現在のエラーパターン
-```typescript
-// PageStructureMatcher.findExactMatch() で発生
-throw new PageStructureMatchingError(
-  `No page structure pattern found for combination: ${matchingKey}`,
-  matchingKey,
-  availableKeys
-);
-```
+  場所: contentGeneratorService.ts
 
-### 2. 修正すべき処理フロー
-```typescript
-// 修正前（現在）
-const matchingKey = `${typeId}-${targetId}-${themeId}`;
-// "001-T001-TH001" → データベースに存在しない
+  6.1 ページ毎のループ処理
 
-// 修正後（提案）
-const personaId = mapTargetIdToPersonaId(targetId); // T001 → P001
-const matchingKey = `${typeId}-${personaId}-${themeId}`;
-// "001-P001-TH001" → データベースに存在する可能性
-```
+  - 処理方式: forループで各ページを順次処理
+  - ループ回数: 9回（9ページ構成の場合）
+  - 生成器: KnowledgeBasedContentGeneratorのインスタンス作成
 
----
+  6.2 各ページでのAI生成呼び出し
 
-## 📈 修復による期待効果
+  - 関数: generator.generatePageContent()
+  - 引数:
+    - userInput: ユーザー入力
+    - knowledgeData: 選択されたナレッジ内容
+    - pageStructure: ページ構造定義
+    - templateStructure: pageInfo.templatePattern（未定義のため undefined）
+    - pageNumber: 現在のページ番号
 
-### 1. 即座の効果
-- ✅ ナレッジベース機能の完全動作
-- ✅ 統合システムによる高品質コンテンツ生成
-- ✅ ユーザー体験の大幅改善
+  ---
+  ステップ7: AI生成実行
 
-### 2. システム品質向上
-- 🔧 データ整合性の確保
-- 🔧 エラー率の大幅減少
-- 🔧 保守性の向上
+  場所: KnowledgeBasedContentGenerator.ts
 
----
+  7.1 プロンプト構築
 
-## 📋 次のアクション項目
+  - 関数: buildKnowledgeBasedPrompt()
+  - 処理: ナレッジ内容とページ構造を基にプロンプト作成
+  - 問題: templatePatternが未定義のため、適切な生成構造が指定されない
 
-1. **緊急**: TargetID→PersonaIDマッピングテーブル作成
-2. **緊急**: PageStructureMatcher修正
-3. **高**: データベース統合作業
-4. **高**: SearchIndex再構築
-5. **中**: システムアーキテクチャ見直し
+  7.2 Gemini API呼び出し
 
----
+  - モデル: gemini-1.5-flash
+  - 実行回数: 各ページごと（9回）
+  - 問題: 一括生成ではなく個別生成によるコスト増大
 
-**結論**: 現在のシステムはUIとデータベース間のID不一致により、ナレッジベース機能が完全に機能停止している。緊急対応としてマッピングテーブルの作成とMatcherの修正が必要である。
+  7.3 レスポンス解析
+
+  - 関数: parseGeneratedContent()
+  - 処理: JSON形式のレスポンスをパース
+  - 問題: テンプレート構造未定義により、期待した構造でデータが生成されない
+
+  ---
+  ステップ8: 結果統合
+
+  場所: contentGeneratorService.ts
+
+  8.1 ページ結果収集
+
+  - 処理: 各ページの生成結果をpages配列に格納
+  - データ形式: GeneratedPageオブジェクト
+
+  8.2 最終コンテンツ構築
+
+  - 処理: ハッシュタグ・キャプション生成
+  - 戻り値: GeneratedContentオブジェクト
+
+  ---
+  ステップ9: UI表示
+
+  場所: NewFlowPostGenerator.tsx
+
+  9.1 結果受信
+
+  - 処理: 生成完了後のGeneratedContentを受信
+  - 状態更新: generatedContentstateに格納
+
+  9.2 画面レンダリング
+
+  - コンポーネント: PostPreviewに結果を渡して表示
+  - 問題: templatePatternが未定義のため、UIに正しく表示されない（undefined表示）
+
+  ---
+  🚨 特定された問題点
+
+  1. 非効率な生成方式
+
+  - 問題: ページごとの個別生成（9回のAPI呼び出し）
+  - 影響: コスト9倍、生成時間増大、一貫性欠如
+
+  2. テンプレート構造未定義
+
+  - 問題: pageInfo.templatePatternが存在しない
+  - 影響: AI生成時の構造指定不可、適切なJSON生成失敗
+
+  3. データ構造不一致
+
+  - 問題: 生成データ（具体的手順、提供情報、実用的なアドバイス）とテンプレート期待値の相違
+  - 影響: UIでの表示失敗（undefined表示）
+
+  ---
+  🎯 解決すべき優先課題
+
+  1. 緊急: templatePatternの定義追加
+  2. 緊急: 一括生成システムの実装
+  3. 高: データ構造の統一
+  4. 中: エラーハンドリングの改善
+
+● Update Todos
+  ⎿  ☒ Examine current problem-solution-carousel-9page.json template structure
+     ☒ Analyze actual AI-generated data format from logs/code
+     ☒ Check if content generation is per-page or batch
+     ☒ Trace detailed knowledge base generation flow from UI to completion
+     ☐ Fix template structure to match generated data format
+     ☐ Test UI display after template fix
+
+● 📋 まとめ
+
+  現在のナレッジベース生成システムは9つのステップで構成され、ステップ6-7で個別ページ生成による非効率性と、テンプレート構造未定義に
+  よる表示問題が発生しています。

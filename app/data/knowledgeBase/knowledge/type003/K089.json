@@ -1,0 +1,74 @@
+{
+  "id": "K089",
+  "title": "サマーインターンシップの種類と特徴解説",
+  "description": "GOOYA Holdings人事が解説する4つのインターンシップタイプの特徴と選び方ガイド投稿",
+  "category": "企業情報・採用",
+  "tags": ["サマーインターン", "インターンシップ", "企業採用", "就活攻略", "職種体験", "ケーススタディ"],
+  "structure": {
+    "type": "corporate_educational_content",
+    "format": "carousel",
+    "pages": 6,
+    "flow": "cover → internship_type_1 → internship_type_2 → internship_type_3 → internship_type_4 → company_cta"
+  },
+  "content_analysis": {
+    "educational_value": "comprehensive_internship_guidance",
+    "authority_source": "corporate_hr_perspective",
+    "practical_application": "internship_selection_support",
+    "brand_integration": "seamless_education_to_recruitment"
+  },
+  "visual_elements": {
+    "color_scheme": "gooya_brand_green_primary",
+    "layout_style": "text_heavy_information_cards",
+    "imagery": "business_context_professional_photos",
+    "branding_consistency": "corporate_logo_throughout"
+  },
+  "engagement_factors": {
+    "authority": "hr_direct_communication",
+    "comprehensiveness": "four_complete_internship_types",
+    "practical_value": "selection_criteria_and_tips",
+    "conversion_focus": "clear_entry_pathway"
+  },
+  "posting_context": {
+    "account": "gooya_recruit_n",
+    "company": "GOOYA Holdings",
+    "context": "summer_internship_recruitment",
+    "post_date": "7月11日",
+    "entry_platforms": ["mynavi_2027", "rikunabi"]
+  },
+  "internship_types_covered": {
+    "job_experience_type": {
+      "description": "実際の業務に近い仕事を体験できるインターンシップ",
+      "benefits": ["企業文化や業務の流れを感じることができる", "企業が求めるスキルや知識を直接学べる", "仕事の進め方やプロセスを理解できる"],
+      "key_point": "事前に業務内容の確認し、良い点悪い点を理解して参加することも大事！"
+    },
+    "case_study_type": {
+      "description": "複数人でグループディスカッションやケーススタディを行い、企業や業界の課題に対する解決策を提案するインターンシップ",
+      "benefits": ["チームワークや問題解決能力を養うことができる", "企業に対して自分の思考力や提案力をアピールできる"],
+      "key_point": "グループワークの結果が個人のパフォーマンスに影響を与えることがあるため、自己主張と協力のバランスを考えておくことが大事です。"
+    },
+    "research_seminar_type": {
+      "description": "実務よりも企業の理念や業務内容について学ぶことが中心のインターンシップ。座学やセミナー形式で、業界の知識を深めたり、企業文化を理解したりします",
+      "benefits": ["企業や業界について深く学ぶことができる", "特に初めての業界では有益な情報が得られる可能性が高い"],
+      "key_point": "複数社に渡って参加してみることをおススメします！"
+    },
+    "long_term_type": {
+      "description": "数週間から数ヶ月の間、実際の業務に携わることができるのが長期インターンシップ。実際の業務を深く理解できるとともに、長期にわたる経験で自分の成長を確認できる",
+      "benefits": ["実際の業務を深く理解できる", "長期にわたる経験で自分の成長を確認できる", "インターン先によってはそのまま内定に繋がる可能性も"],
+      "key_point": "長期間のコミットメントが必要で、学業とのバランスを取るのが難しい場合があります。始める前にしっかりスケジュールの確認をし、余裕をもって参加して下さい。"
+    }
+  },
+  "company_recruitment_info": {
+    "course_variety": "5つのコースをご用意し、それぞれの想い、希望に対応できるような形になっています",
+    "entry_platforms": ["マイナビ2027", "リクナビ"],
+    "entry_status": "エントリー受付中",
+    "website_link": "job.rikunabi.com/2026/company/..."
+  },
+  "postType": "003",
+  "content_effectiveness": {
+    "educational_comprehensiveness": 9,
+    "corporate_branding": 8,
+    "practical_utility": 9,
+    "conversion_design": 8,
+    "overall_score": 8.5
+  }
+}

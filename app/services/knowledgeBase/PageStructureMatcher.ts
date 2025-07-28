@@ -12,6 +12,8 @@ import infoStrategicData4page from './data/pageStructures/info-strategic-data-4p
 import problemSolutionCarousel9page from './data/pageStructures/problem-solution-carousel-9page.json'
 import typeID002SequentialDependency from './data/pageStructures/typeID002-sequential-dependency.json'
 import typeID001EmotionEmpathyList from './data/pageStructures/typeID001-emotion-empathy-list.json'
+import typeID002ParallelIntroduction from './data/pageStructures/typeID002-parallel-introduction.json'
+import typeID002NgGoodComparisonPattern from './data/pageStructures/typeID002-ng-good-comparison-pattern.json'
 
 export interface MatchingPattern {
   matchingKey: string;
@@ -60,7 +62,9 @@ export class PageStructureMatcher {
     'info-strategic-data-4page': infoStrategicData4page,
     'problem-solution-carousel-9page': problemSolutionCarousel9page,
     'typeID002-sequential-dependency': typeID002SequentialDependency,
-    'typeID001-emotion-empathy-list': typeID001EmotionEmpathyList
+    'typeID001-emotion-empathy-list': typeID001EmotionEmpathyList,
+    'typeID002-parallel-introduction': typeID002ParallelIntroduction,
+    'typeID002-ng-good-comparison-pattern': typeID002NgGoodComparisonPattern
   };
 
   /**

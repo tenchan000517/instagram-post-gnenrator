@@ -422,6 +422,10 @@ FIND to DO(@find_to_do)では
           ...page.templateData,
           pageNumber: page.pageNumber
         }}
+        {...(page.templateType === 'basic_intro' ? {
+          postType: generatedContent.postType || '001',
+          targetId: generatedContent.targetId || 'T001'
+        } : {})}
       />
     )
   }
@@ -481,6 +485,10 @@ FIND to DO(@find_to_do)では
               ...page.templateData,
               pageNumber: page.pageNumber
             }}
+            {...(page.templateType === 'basic_intro' ? {
+              postType: generatedContent.postType || '001',
+              targetId: generatedContent.targetId || 'T001'
+            } : {})}
           />
         </div>
       )

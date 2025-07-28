@@ -4,12 +4,12 @@
   "pages": [
     {
       "pageNumber": 1,
-      "templateId": "emotion_empathy_intro",
-      "optional": true,
+      "templateId": "basic_intro",
       "templateStructure": {
         "title": "string",
-        "description": "string",
-        "targetAudience": "string"
+        "targetAudience": "string", 
+        "problems": "string[]",
+        "additionalMessage": "string"
       }
     },
     {

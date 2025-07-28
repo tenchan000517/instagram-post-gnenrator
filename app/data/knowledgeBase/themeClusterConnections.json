@@ -1,0 +1,211 @@
+{
+  "_metadata": {
+    "version": "1.0.0",
+    "description": "4つのテーマクラスター間の相互参照・連携システム設定",
+    "purpose": "ユーザージャーニー最適化とナレッジ間シナジー効果創出",
+    "updateDate": "2025-07-28",
+    "clustersAnalyzed": "163件のナレッジから抽出した4大テーマクラスター"
+  },
+  "themeClusters": {
+    "就活戦略・企業分析": {
+      "description": "戦略的就活アプローチと企業情報分析",
+      "coreKnowledgeIds": ["K001", "K002", "K004", "K024", "K031", "K032", "K033", "K036", "K037", "K041", "K042", "K050", "K060", "K063", "K065", "K114", "K149", "K151"],
+      "primaryPostTypes": ["001", "002", "003"],
+      "userJourneyStage": "就活準備〜企業選択段階",
+      "emotionalNeeds": ["不安解消", "戦略的思考", "情報整理", "意思決定支援"]
+    },
+    "スキル習得・自己成長": {
+      "description": "継続的なスキル開発と自己成長システム",
+      "coreKnowledgeIds": ["K003", "K005", "K010", "K011", "K016", "K018", "K023", "K025", "K026", "K028", "K034", "K039", "K040", "K045", "K048", "K051", "K058", "K059", "K061", "K073", "K075", "K076", "K079", "K083", "K097", "K103", "K105", "K110", "K112", "K113", "K117", "K118", "K134", "K135", "K140", "K141", "K143", "K144", "K145", "K150", "K159", "K166", "K169", "K173", "K174", "K186"],
+      "primaryPostTypes": ["002", "004"],
+      "userJourneyStage": "スキル開発〜実践応用段階",
+      "emotionalNeeds": ["成長実感", "効率化", "実践的価値", "継続動機"]
+    },
+    "効率化・AI活用": {
+      "description": "AI・デジタルツールによる業務効率化",
+      "coreKnowledgeIds": ["K009", "K073", "K076", "K079", "K083", "K132", "K133", "K152", "K154", "K156", "K157", "K161", "K162", "K163", "K164", "K165", "K167", "K170", "K171", "K175", "K176", "K177", "K180", "K181", "K182"],
+      "primaryPostTypes": ["002", "004"],
+      "userJourneyStage": "デジタル化〜最適化段階",
+      "emotionalNeeds": ["時短効果", "技術不安解消", "競争優位", "未来適応"]
+    },
+    "副業・キャリア発展": {
+      "description": "副業開始からキャリア拡張まで",
+      "coreKnowledgeIds": ["K007", "K012", "K021", "K022", "K024", "K029", "K033", "K035", "K036", "K042", "K043", "K044", "K046", "K047", "K053", "K054", "K055", "K056", "K057", "K071", "K072", "K074", "K078", "K081", "K082", "K084", "K085", "K086", "K087", "K088", "K089", "K091", "K093", "K096", "K098", "K099", "K100", "K104", "K106", "K107", "K108", "K109", "K111", "K136", "K146", "K148", "K153", "K155", "K158", "K168", "K172", "K178", "K183", "K184", "K185"],
+      "primaryPostTypes": ["001", "003", "004"],
+      "userJourneyStage": "副業検討〜収益化段階",
+      "emotionalNeeds": ["収入不安解消", "自由度向上", "専門性構築", "将来保障"]
+    }
+  },
+  "clusterConnections": {
+    "就活戦略・企業分析": {
+      "naturalProgressions": [
+        {
+          "toCluster": "スキル習得・自己成長",
+          "triggerCondition": "内定獲得後のスキルアップニーズ",
+          "bridgeKnowledgeIds": ["K002", "K010", "K025"],
+          "transitionMessage": "就活成功の次は、社会人としてのスキル習得で更なる成長を"
+        },
+        {
+          "toCluster": "副業・キャリア発展", 
+          "triggerCondition": "キャリア多様化への関心",
+          "bridgeKnowledgeIds": ["K024", "K033"],
+          "transitionMessage": "安定した就職をベースに、副業でキャリアの幅を広げませんか"
+        }
+      ],
+      "supportiveConnections": [
+        {
+          "fromCluster": "効率化・AI活用",
+          "supportKnowledgeIds": ["K009", "K180"],
+          "value": "就活効率化ツールとAI活用による情報収集最適化"
+        }
+      ]
+    },
+    "スキル習得・自己成長": {
+      "naturalProgressions": [
+        {
+          "toCluster": "効率化・AI活用",
+          "triggerCondition": "学習効率化ニーズの発生",
+          "bridgeKnowledgeIds": ["K073", "K181"],
+          "transitionMessage": "身につけたスキルをAI活用で更に効率化・高度化しませんか"
+        },
+        {
+          "toCluster": "副業・キャリア発展",
+          "triggerCondition": "スキルの収益化意欲",
+          "bridgeKnowledgeIds": ["K186", "K184"],
+          "transitionMessage": "習得したスキルを副業で活かし、収入に結びつけましょう"
+        }
+      ],
+      "foundationalSupport": [
+        {
+          "forCluster": "就活戦略・企業分析",
+          "supportKnowledgeIds": ["K004", "K010"],
+          "value": "自己分析とビジネスマナーによる就活基盤強化"
+        }
+      ]
+    },
+    "効率化・AI活用": {
+      "crossClusterEnhancement": [
+        {
+          "enhancesCluster": "就活戦略・企業分析",
+          "enhancementKnowledgeIds": ["K009", "K180"],
+          "value": "AI活用による企業分析効率化と情報収集最適化"
+        },
+        {
+          "enhancesCluster": "スキル習得・自己成長", 
+          "enhancementKnowledgeIds": ["K181", "K003"],
+          "value": "AI支援による学習効率化と高度スキル習得"
+        },
+        {
+          "enhancesCluster": "副業・キャリア発展",
+          "enhancementKnowledgeIds": ["K076", "K083"],
+          "value": "副業業務のAI活用による生産性向上と競争優位構築"
+        }
+      ]
+    },
+    "副業・キャリア発展": {
+      "naturalProgressions": [
+        {
+          "toCluster": "スキル習得・自己成長",
+          "triggerCondition": "副業スキル向上ニーズ",
+          "bridgeKnowledgeIds": ["K186", "K073"],
+          "transitionMessage": "副業成功のため、更なるスキル習得で差別化を図りませんか"
+        },
+        {
+          "toCluster": "効率化・AI活用",
+          "triggerCondition": "副業効率化・自動化ニーズ",
+          "bridgeKnowledgeIds": ["K009", "K181"],
+          "transitionMessage": "副業をAI活用で効率化し、収益性を大幅向上させましょう"
+        }
+      ],
+      "foundationalRequirement": [
+        {
+          "fromCluster": "就活戦略・企業分析",
+          "requirementKnowledgeIds": ["K001", "K002"],
+          "value": "安定した基盤キャリアの上に副業を構築する重要性"
+        }
+      ]
+    }
+  },
+  "userJourneyOptimization": {
+    "beginnerPath": {
+      "description": "初心者向け最適学習順序",
+      "sequence": [
+        {
+          "stage": 1,
+          "cluster": "就活戦略・企業分析",
+          "focusKnowledgeIds": ["K001", "K004", "K024"],
+          "goal": "基盤キャリア構築"
+        },
+        {
+          "stage": 2,
+          "cluster": "スキル習得・自己成長", 
+          "focusKnowledgeIds": ["K010", "K025", "K186"],
+          "goal": "実践スキル獲得"
+        },
+        {
+          "stage": 3,
+          "cluster": "効率化・AI活用",
+          "focusKnowledgeIds": ["K180", "K181", "K009"],
+          "goal": "効率化によるレバレッジ獲得"
+        },
+        {
+          "stage": 4,
+          "cluster": "副業・キャリア発展",
+          "focusKnowledgeIds": ["K183", "K185", "K184"],
+          "goal": "多収入源構築"
+        }
+      ]
+    },
+    "experiencedPath": {
+      "description": "経験者向け特化学習ルート",
+      "parallelTracks": [
+        {
+          "track": "技術特化",
+          "clusters": ["効率化・AI活用", "スキル習得・自己成長"],
+          "focusKnowledgeIds": ["K003", "K181", "K073", "K186"]
+        },
+        {
+          "track": "ビジネス特化",
+          "clusters": ["副業・キャリア発展", "就活戦略・企業分析"],
+          "focusKnowledgeIds": ["K184", "K185", "K024", "K033"]
+        }
+      ]
+    }
+  },
+  "recommendationEngine": {
+    "crossClusterRecommendations": {
+      "afterK001": {
+        "immediate": ["K004", "K024"],
+        "nextCluster": ["K010", "K186"],
+        "advanced": ["K180", "K183"]
+      },
+      "afterK180": {
+        "immediate": ["K181", "K009"],
+        "nextCluster": ["K186", "K073"],
+        "advanced": ["K003", "K184"]
+      },
+      "afterK183": {
+        "immediate": ["K185", "K186"],
+        "nextCluster": ["K184", "K181"],
+        "advanced": ["K073", "K033"]
+      }
+    },
+    "synergisticCombinations": [
+      {
+        "combination": ["K001", "K180", "K183"],
+        "synergyValue": "キャリア不安→AI活用による効率化→副業での収入安定化",
+        "userType": "キャリア不安を抱える会社員"
+      },
+      {
+        "combination": ["K004", "K186", "K184"],
+        "synergyValue": "自己分析→スキル習得システム→成功事例学習",
+        "userType": "体系的な成長を求める向上心の高い人"
+      },
+      {
+        "combination": ["K181", "K003", "K073"],
+        "synergyValue": "AI基礎習得→上級テクニック→専門スキル応用",
+        "userType": "技術的な深化を求める学習意欲の高い人"
+      }
+    ]
+  }
+}

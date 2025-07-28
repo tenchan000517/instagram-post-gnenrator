@@ -1,0 +1,255 @@
+{
+  "source": "contents-164",
+  "problemCategory": "メンタルヘルス・心理的サポート",
+  "problemDescription": "気持ちが沈むNG思考パターンによる心理的な悩み・自信喪失",
+  "postType": "001",
+  "postTypeReason": "感情的な問題（気持ちが沈む）に対して共感と具体的な解決策を提供する感情誘導型コンテンツ",
+  "solutionContent": {
+    "概要": "12個のNG思考パターンを特定し、それぞれに対してOK思考への変換方法を提示",
+    "具体的手順": [
+      "NG思考パターンの認識と理解",
+      "各思考パターンの具体的な改善方法の実践",
+      "OK思考への意識的な変換",
+      "日常での継続的な実践"
+    ],
+    "提供情報": [
+      "12個のNG思考パターンの特徴",
+      "各NG思考に対応するOK思考の例",
+      "思考パターン改善の具体的方法",
+      "心理的な成長のためのマインドセット"
+    ],
+    "実用的なアドバイス": [
+      "NG思考に気づいたら即座にOK思考に切り替える",
+      "小さなことでも気にしすぎずポジティブに捉える",
+      "他人との比較ではなく昨日の自分との比較を意識する",
+      "失敗を成長の機会として捉える習慣をつける"
+    ]
+  },
+  "effectiveExpressions": [
+    "今すぐやめて！",
+    "気持ちが沈むNG思考",
+    "ネガティブな考えをしちゃうときもありました",
+    "でも、NG思考を知ったら考え方がガラッと変わった",
+    "ミスは行動した証拠です",
+    "小さいことは気にしません",
+    "保存して後で復習しましょう"
+  ],
+  "searchKeywords": [
+    "NG思考",
+    "メンタルヘルス",
+    "ポジティブ思考",
+    "心理的サポート",
+    "気分改善",
+    "自己改善",
+    "マインドセット",
+    "感情コントロール",
+    "就活メンタル",
+    "ストレス解消"
+  ],
+  "emotionalTriggers": [
+    "気持ちが沈む不安からの解放",
+    "NG思考への気づきと共感",
+    "具体的な改善方法の提示",
+    "OK思考による希望の提供",
+    "心理的な成長への動機づけ"
+  ],
+  "marketingStage": "就活不安・メンタル面でのサポートが必要な時期",
+  "knowledgeId": "K164",
+  "pageStructurePattern": "typeID001-emotion-empathy-list",
+  "actualTitle": "今すぐやめて！気持ちが沈むNG思考",
+  "pageCount": 10,
+  "detailedContent": {
+    "page1": {
+      "role": "タイトル・感情的問題提起",
+      "section": "introduction",
+      "content": {
+        "title": "今すぐやめて！気持ちが沈むNG思考",
+        "subtitle": "",
+        "image": "/ten_worry.png"
+      }
+    },
+    "page2": {
+      "role": "導入・問題共感",
+      "section": "introduction", 
+      "content": {
+        "title": "はじめに",
+        "description": "なんだかいつもうまくいかないです。みんなが羨ましいです。その気持ちわかります。ネガティブな考えをしちゃうときもありました。でも、NG思考を知ったら考え方がガラッと変わったから紹介します！",
+        "image": "/kikuyo.png"
+      }
+    },
+    "page3": {
+      "role": "第1-2項目の対比提示",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "1",
+            "title": "一度のミスで諦める",
+            "ngDescription": "やっぱり何をやってもダメです。",
+            "okDescription": "うまくいかない方法がわかりました！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          },
+          {
+            "number": "2", 
+            "title": "タスクから逃げる",
+            "ngDescription": "とりあえずテレビでも見ます。",
+            "okDescription": "ひとつずつ片付けます！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "role": "第3-4項目の対比提示",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "3",
+            "title": "相手の評価を重視",
+            "ngDescription": "嫌われないように頑張らないといけません。",
+            "okDescription": "後悔のない選択で毎日が充実します！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          },
+          {
+            "number": "4",
+            "title": "迷惑かもと思いがち",
+            "ngDescription": "こんなお願いしたらきっと迷惑です。",
+            "okDescription": "支え合うことが大事です！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "role": "第5-6項目の対比提示", 
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "5",
+            "title": "頼まれると断れない",
+            "ngDescription": "しんどいのにまた引き受けました。",
+            "okDescription": "無理はお互いよくありません！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          },
+          {
+            "number": "6",
+            "title": "謙遜しすぎ",
+            "ngDescription": "そんな褒められるほどすごくありません。",
+            "okDescription": "そう言ってもらえて嬉しいです！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "role": "第7-8項目の対比提示",
+      "section": "mainContent", 
+      "content": {
+        "items": [
+          {
+            "number": "7",
+            "title": "他人と比べる",
+            "ngDescription": "あの人に比べたら全然ダメです。",
+            "okDescription": "昨日の自分よりできるが増えました！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          },
+          {
+            "number": "8",
+            "title": "嫌なことを思い返す",
+            "ngDescription": "なんであんなことを言われたのかです。",
+            "okDescription": "今日はお風呂に入れて幸せです！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "role": "第9-10項目の対比提示",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "9", 
+            "title": "目標＝ムダ",
+            "ngDescription": "どうせ3日坊主で終わります。",
+            "okDescription": "できた日を大事にします！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          },
+          {
+            "number": "10",
+            "title": "できないに注目",
+            "ngDescription": "あれもこれもできませんでした。",
+            "okDescription": "今日はこれができました！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page8": {
+      "role": "第11-12項目の対比提示",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "11",
+            "title": "ミスを失敗と捉える", 
+            "ngDescription": "またミスしました。向いてません。",
+            "okDescription": "ミスは行動した証拠です！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          },
+          {
+            "number": "12",
+            "title": "何気ない一言で凹む",
+            "ngDescription": "あの一言がずっと引っかかってます。",
+            "okDescription": "小さいことは気にしません！",
+            "ngImage": "/ten_worry.png",
+            "okImage": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page9": {
+      "role": "まとめ・全項目の一覧提示",
+      "section": "summary",
+      "content": {
+        "title": "まとめ",
+        "items": [
+          { "number": "1", "title": "一度のミスで諦める", "image": "/ten_worry.png" },
+          { "number": "2", "title": "タスクから逃げる", "image": "/ten_worry.png" },
+          { "number": "3", "title": "相手の評価を重視", "image": "/ten_worry.png" },
+          { "number": "4", "title": "迷惑かもと思いがち", "image": "/ten_worry.png" },
+          { "number": "5", "title": "頼まれると断れない", "image": "/ten_worry.png" },
+          { "number": "6", "title": "謙遜しすぎ", "image": "/ten_worry.png" },
+          { "number": "7", "title": "他人と比べる", "image": "/ten_worry.png" },
+          { "number": "8", "title": "嫌なことを思い返す", "image": "/ten_worry.png" },
+          { "number": "9", "title": "目標＝ムダ", "image": "/ten_worry.png" },
+          { "number": "10", "title": "できないに注目", "image": "/ten_worry.png" },
+          { "number": "11", "title": "ミスを失敗と捉える", "image": "/ten_worry.png" },
+          { "number": "12", "title": "何気ない一言で凹む", "image": "/ten_worry.png" }
+        ]
+      }
+    },
+    "page10": {
+      "role": "行動促進・エンドメッセージ",
+      "section": "summary",
+      "content": {
+        "title": "保存して後で復習しましょう！",
+        "description": "NG思考に気づいたら、この投稿を見返してOK思考に切り替えてください。きっと心が軽くなります。",
+        "image": "/kikuyo.png"
+      }
+    }
+  }
+}

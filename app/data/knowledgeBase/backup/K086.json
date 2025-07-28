@@ -1,0 +1,45 @@
+{
+  "id": "K086",
+  "title": "就職白書2024データ解説投稿",
+  "description": "25卒の最新統計データを基に就活市場の売り手市場化と早期化傾向を解説し、26卒・27卒への実践的アドバイスを提供する情報投稿",
+  "category": "情報解説",
+  "tags": ["就活データ", "統計解説", "市場分析", "早期化", "売り手市場", "インターン"],
+  "structure": {
+    "type": "information_explanation",
+    "format": "carousel",
+    "pages": 4,
+    "flow": "cover → data_point_1 → data_point_2 → cta_closing"
+  },
+  "content_analysis": {
+    "hook_strength": "high",
+    "data_authority": "official_statistics",
+    "practical_value": "actionable_advice",
+    "target_specificity": "multi_generation"
+  },
+  "visual_elements": {
+    "color_scheme": "green_primary",
+    "background_style": "environmental_photos",
+    "text_hierarchy": "bold_centered",
+    "data_presentation": "checkmark_statistics"
+  },
+  "engagement_factors": {
+    "credibility": "official_data_source",
+    "urgency": "preparation_timing",
+    "specificity": "percentage_statistics",
+    "actionability": "concrete_next_steps"
+  },
+  "posting_context": {
+    "account": "shukatsu_mensetsu_plot",
+    "category_tag": "その他",
+    "hashtags": ["#24卒", "#25卒", "#26卒", "#就活", "#面接対策", "#自己PR", "#ガクチカ", "#就活生", "#内定", "#志望動機", "#就活アカウント", "#プロイー"],
+    "post_timing": "6日前"
+  },
+  "postType": "003",
+  "content_effectiveness": {
+    "information_value": 9,
+    "visual_clarity": 8,
+    "actionability": 8,
+    "target_relevance": 9,
+    "overall_score": 8.5
+  }
+}

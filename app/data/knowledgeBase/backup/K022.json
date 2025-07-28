@@ -1,0 +1,174 @@
+{
+  "source": "contents-022",
+  "problemCategory": "有益情報",
+  "problemDescription": "就職・転職で学歴より評価される実用的な資格を知りたい、キャリアアップに役立つ資格情報が欲しい",
+  "postType": "004",
+  "postTypeReason": "学歴よりも評価される資格10選という明日から活用できる実用的な情報を提供しているため",
+  "solutionContent": {
+    "概要": "就職・転職で学歴以上に評価される実用的な資格10選を業界別に紹介",
+    "具体的手順": [
+      "各資格の特徴と有効性を理解",
+      "自分の志望業界に合った資格を選択",
+      "資格取得によるキャリアメリットを把握"
+    ],
+    "提供情報": [
+      "宅地建物取引士（宅建）: 不動産・金融業界で最強",
+      "日商簿記2級: 経理・総務・事務の王道",
+      "ITパスポート: 文系の「とりあえず1個」として有効、どの業界でも通用",
+      "FP2級（ファイナンシャルプランナー）: 保険・銀行・住宅営業系で高評価、副業にも強い",
+      "TOEIC 800点以上: 英語ペラペラより「スコア証明」が評価される時代",
+      "第二種電気工事士: 国家資格、インフラ系で年収爆上がりが狙える",
+      "基本情報技術者試験: エンジニア・IT未経験からの転職にかなり効く",
+      "MOS（Excel資格）: Excel猛者と証明できる資格、事務職でかなり武器",
+      "中小企業診断士: コンサル・経営企画での「格」が一段上がる",
+      "登録販売者: ドラッグストア・医薬業界で「転職無双」できる"
+    ],
+    "実用的なアドバイス": [
+      "文系でも取得しやすい資格の紹介",
+      "業界特化型資格と汎用性の高い資格の使い分け",
+      "転職での具体的な評価ポイント",
+      "無料年収UP転職はプロフィールリンクから"
+    ]
+  },
+  "effectiveExpressions": [
+    "青紫のグラデーション背景に白カードで清潔感のあるデザイン",
+    "番号付きリスト形式で整理された読みやすい構成",
+    "各資格の業界別メリットを具体的に記載",
+    "最後にサービスの宣伝とCTAを配置"
+  ],
+  "searchKeywords": [
+    "資格",
+    "就職",
+    "転職",
+    "学歴",
+    "キャリアアップ",
+    "宅建",
+    "簿記",
+    "ITパスポート",
+    "FP",
+    "TOEIC",
+    "電気工事士",
+    "基本情報技術者",
+    "MOS",
+    "中小企業診断士",
+    "登録販売者"
+  ],
+  "emotionalTriggers": [
+    "学歴コンプレックスの解消",
+    "転職での競争力向上への期待",
+    "具体的な年収アップの可能性",
+    "資格取得による自信向上"
+  ],
+  "marketingStage": "就職・転職を考えている社会人・学生、キャリアアップを目指す人",
+  "knowledgeId": "K022",
+  "pageStructurePattern": "",
+  "actualTitle": "学歴よりも評価される資格10選",
+  "pageCount": 4,
+  "hashTag": "#就職 #転職 #資格 #キャリアアップ",
+  "detailedContent": {
+    "page1": {
+      "type": "cover",
+      "content": {
+        "mainTitle": "学歴よりも評価される資格10選",
+        "subtitle": "就職、転職に強いのはこれ！",
+        "backgroundColor": "blue-purple gradient",
+        "illustration": "businessman running with briefcase",
+        "ctaText": "今すぐチェック↓",
+        "pageIndicator": "1/4"
+      }
+    },
+    "page2": {
+      "type": "qualification-list",
+      "content": {
+        "title": "【実は学歴よりも評価される資格10選📚】",
+        "qualifications": [
+          {
+            "number": "①",
+            "name": "宅地建物取引士（宅建）",
+            "benefit": "→ 不動産、金融業界で最強。"
+          },
+          {
+            "number": "②",
+            "name": "日商簿記2級",
+            "benefit": "→ 経理・総務・事務の王道。"
+          },
+          {
+            "number": "③",
+            "name": "ITパスポート",
+            "benefit": "→ 文系の\"とりあえず1個\"はコレ。どの業界でも通し効く"
+          },
+          {
+            "number": "④",
+            "name": "FP2級（ファイナンシャルプランナー）",
+            "benefit": "→ 保険・銀行・住宅営業系で高評価。副業にも強い"
+          },
+          {
+            "number": "⑤",
+            "name": "TOEIC 800点以上",
+            "benefit": "→ 英語ペラペラより\"スコア証明\"が評価される時代"
+          }
+        ],
+        "backgroundColor": "white",
+        "pageIndicator": "2/4"
+      }
+    },
+    "page3": {
+      "type": "qualification-list-continued",
+      "content": {
+        "qualifications": [
+          {
+            "number": "⑥",
+            "name": "第二種電気工事士",
+            "benefit": "→ 国家資格。インフラ系で年収爆上がり狙える"
+          },
+          {
+            "number": "⑦",
+            "name": "基本情報技術者試験",
+            "benefit": "→ エンジニア・IT未経験からの転職にかなり効く"
+          },
+          {
+            "number": "⑧",
+            "name": "MOS（Excel資格）",
+            "benefit": "→ Excel猛者と証明できる資格。事務職でかなり武器"
+          },
+          {
+            "number": "⑨",
+            "name": "中小企業診断士",
+            "benefit": "→ コンサル・経営企画での\"格\"が一段上がる"
+          },
+          {
+            "number": "⑩",
+            "name": "登録販売者",
+            "benefit": "→ ドラッグストア・医薬業界で\"転職無双\"できる"
+          }
+        ],
+        "ctaMessage": "【無料年収UP転職はプロフリンクから🧞】",
+        "backgroundColor": "white",
+        "pageIndicator": "3/4"
+      }
+    },
+    "page4": {
+      "type": "service-promotion",
+      "content": {
+        "topBanner": "ホワイト企業転職はプロフリンクから👆",
+        "profileInfo": {
+          "username": "osig_oto48",
+          "title": "転職社長｜就活・転職情報",
+          "stats": "392投稿 4.8万フォロワー 3フォロー中",
+          "message": "ここを押してね！",
+          "url": "worknext.co.jp"
+        },
+        "serviceDescription": {
+          "title": "ブラック企業を除外してご紹介！",
+          "benefits": [
+            "転職、就職を考えている",
+            "ホワイト企業で働きたい",
+            "完全無料で転職サポート"
+          ]
+        },
+        "backgroundColor": "green gradient",
+        "pageIndicator": "4/4"
+      }
+    }
+  }
+}

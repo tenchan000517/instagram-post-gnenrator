@@ -4,7 +4,7 @@
   "pages": [
     {
       "pageNumber": 1,
-      "templateId": "tools_intro",
+      "templateId": "basic_intro",
       "templateStructure": {
         "title": "string",
         "targetAudience": "string", 

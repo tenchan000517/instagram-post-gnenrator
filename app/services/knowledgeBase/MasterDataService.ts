@@ -123,19 +123,28 @@ export class MasterDataService {
    * @returns ナレッジ内容、見つからない場合null
    */
   static async getKnowledgeContent(knowledgeId: string): Promise<any | null> {
-    try {
-      // 動的インポートでナレッジファイルを読み込み
-      // K001 → /app/data/knowledgeBase/knowledge/K001.json
-      const module = await import(`../../data/knowledgeBase/knowledge/${knowledgeId}.json`)
-      const knowledgeData = module.default || module
-      
-      console.log(`✅ ナレッジファイル読み込み成功: ${knowledgeId}`)
-      return knowledgeData
-      
-    } catch (error) {
-      console.error(`❌ ナレッジファイル読み込みエラー (${knowledgeId}):`, error)
-      return null
+    // 各typeディレクトリを試行
+    const typeDirectories = ['type001', 'type002', 'type003', 'type004']
+    
+    for (const typeDir of typeDirectories) {
+      try {
+        // 動的インポートでナレッジファイルを読み込み
+        // K001 → /app/data/knowledgeBase/knowledge/type001/K001.json
+        const module = await import(`../../data/knowledgeBase/knowledge/${typeDir}/${knowledgeId}.json`)
+        const knowledgeData = module.default || module
+        
+        console.log(`✅ ナレッジファイル読み込み成功: ${typeDir}/${knowledgeId}`)
+        return knowledgeData
+        
+      } catch (error) {
+        // このtypeディレクトリにファイルがない場合は次を試行
+        continue
+      }
     }
+    
+    // 全てのディレクトリで見つからなかった場合
+    console.error(`❌ ナレッジファイル読み込みエラー (${knowledgeId}): ファイルが見つかりません`)
+    return null
   }
 
   /**

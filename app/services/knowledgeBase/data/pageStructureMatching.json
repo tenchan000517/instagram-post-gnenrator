@@ -265,16 +265,10 @@
       "reasoning": "実践志向には効率的な行動促進で即座の実践開始"
     },
     {
-      "matchingKey": "001-T002",
-      "description": "共感型×体系教育（K002暫定対応）",
-      "pageStructureId": "empathy-systematic-career-7page",
-      "reasoning": "K002用の暫定パターン：共感型アプローチでの段階的キャリア形成支援"
-    },
-    {
-      "matchingKey": "002-T002",
-      "description": "教育型×体系教育（K002専用：女性キャリア7ポイント）",
+      "matchingKey": "002-T002-cognitive-optimized",
+      "description": "K002最適化：認知科学型段階的キャリア教育",
       "pageStructureId": "typeID002-sequential-dependency",
-      "reasoning": "K002の7つのポイント構造に最適化された段階的キャリア教育アプローチ"
+      "reasoning": "女性キャリア7ポイントを3チャンクに最適化。基礎準備・スキル構築・実践応用の段階的学習で認知負荷を管理し、各ポイントに具体的行動指針を関連付け"
     },
     {
       "matchingKey": "002-T005",
@@ -293,6 +287,66 @@
       "description": "効率型×ツール・サービス紹介型（AI活用等）",
       "pageStructureId": "typeID004-tools-services-introduction",
       "reasoning": "AIツール等の効率化サービスを体系的に紹介するパターン。効率重視のビジネスパーソンに最適"
+    },
+    {
+      "matchingKey": "002-T007-ng-good",
+      "description": "スキル習得型×就活ノウハウ×NG/GOOD比較フォーカス",
+      "pageStructureId": "typeID002-ng-good-comparison-pattern",
+      "reasoning": "就活における実践的スキル習得で、間違いやすい内容をNG/GOOD対比で効果的に学習するパターン"
+    },
+    {
+      "matchingKey": "K009-ai-resource-hub",
+      "description": "K009最適化：AIツール包括リソースハブ",
+      "pageStructureId": "typeID004-comprehensive-resource-hub",
+      "reasoning": "12個のAIツールを4カテゴリにチャンク化。情報収集・コンテンツ制作・開発構築・統合最適化の体系的分類で使用シーンマッピングと難易度レベルを提供"
+    },
+    {
+      "matchingKey": "K010-phone-manner-optimized",
+      "description": "K010最適化：電話マナー段階的マスターガイド",
+      "pageStructureId": "typeID002-sequential-dependency",
+      "reasoning": "電話マナー6ステップを3フェーズに最適化。準備・実践・継続の段階的学習で各フェーズに具体的行動指針と記憶アンカーを関連付け、アイコン・絵文字なしのプロフェッショナル仕様"
+    },
+    {
+      "matchingKey": "K004-comprehensive-self-analysis",
+      "description": "K004+K006統合：包括的自己分析完全マスターガイド",
+      "pageStructureId": "typeID002-sequential-dependency",
+      "reasoning": "感情的自己理解（K006）から論理的自己分析（K004）への3フェーズ統合。感情理解→客観分析→統合理解の段階的学習で、内面的モヤモヤから完璧な自己理解まで完全網羅"
+    },
+    {
+      "matchingKey": "K180-ai-fatigue-empathy",
+      "description": "AI疲れ・デジタル疲労共感型（効率化×感情支援）",
+      "pageStructureId": "typeID001-emotion-empathy-list",
+      "reasoning": "AI・効率化ツール情報過多で疲れたビジネスパーソンの感情的困りごとを「あるある」形式で共有し、共感コミュニティを形成。感情的共感から段階的スキル習得への自然な橋渡し"
+    },
+    {
+      "matchingKey": "K181-ai-skill-mastery-system",
+      "description": "AI活用スキル段階的習得システム（効率化×目標達成）",
+      "pageStructureId": "typeID002-systematic-skill-mastery",
+      "reasoning": "デジタル疲れからAI活用スキル習得への段階的な流れで、初心者から上級者まで体系的にスキルアップを達成する目標達成型コンテンツ"
+    },
+    {
+      "matchingKey": "K183-side-business-anxiety-empathy",
+      "description": "副業・スキルアップ不安共感型（副業×感情支援）",
+      "pageStructureId": "typeID001-emotional-empathy-story",
+      "reasoning": "副業・スキルアップに対する不安、恐れ、劣等感などの感情的な悩みに寄り添い、共感と安心感を提供する感情共感型ストーリー"
+    },
+    {
+      "matchingKey": "K184-side-business-success-analysis",
+      "description": "副業成功事例詳細分析（副業×情報提供）",
+      "pageStructureId": "typeID003-detailed-case-studies",
+      "reasoning": "実際の副業成功者の具体的な収益額、方法論、戦略を詳細に分析・紹介する専門的な情報提供型コンテンツ"
+    },
+    {
+      "matchingKey": "K185-side-business-skill-comparison",
+      "description": "副業・スキル診断比較システム（副業×比較検討）",
+      "pageStructureId": "typeID004-comprehensive-comparison-matrix",
+      "reasoning": "複数の副業・スキル分野を体系的に比較し、読者が自分に最適な選択肢を見つけられるよう支援する比較検討型コンテンツ"
+    },
+    {
+      "matchingKey": "K186-side-business-development-system",
+      "description": "副業・スキル習得5段階システム（副業×体系教育）",
+      "pageStructureId": "typeID002-systematic-development-guide",
+      "reasoning": "副業・スキル習得の段階的な学習システムを体系化し、初心者から収益化まで確実に導く実践的ノウハウ伝授型コンテンツ"
     }
   ]
 }

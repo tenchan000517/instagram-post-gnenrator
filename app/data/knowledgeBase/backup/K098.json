@@ -1,0 +1,119 @@
+{
+  "source": "contents-098",
+  "problemCategory": "AI技術情報",
+  "problemDescription": "最新のAI技術（ChatGPTエージェント）の詳細情報を知りたい、SaaS時代の変化への理解を深めたい",
+  "postType": "003",
+  "postTypeReason": "OpenAIの新機能「ChatGPTエージェント」に関する技術情報と詳細仕様を提供する情報型投稿",
+  "solutionContent": {
+    "概要": "OpenAIが発表したChatGPTエージェントの機能と活用方法を詳しく解説",
+    "具体的手順": [
+      "エージェント機能の概要理解",
+      "具体的な利用シーン例の確認",
+      "Pro/Plus/Teamユーザー向けの利用開始"
+    ],
+    "提供情報": [
+      "ブラウザ・ターミナル・API等の自律的使用機能",
+      "30分を超える複雑なタスクの自律実行能力",
+      "仮想コンピューター環境での作業実行",
+      "ツール連携機能（Web・ターミナル・API）",
+      "リアルタイムでの介入・修正・引き継ぎ機能",
+      "Pro・Plus・Teamユーザー向け順次提供開始"
+    ],
+    "実用的なアドバイス": [
+      "具体的な利用例（決算報告書更新、アニメステッカー作成）",
+      "プライバシー管理（パスワード等の入力データは保存されない）",
+      "利用上限（Proユーザー月400メッセージ、その他月40メッセージ）"
+    ]
+  },
+  "effectiveExpressions": [
+    "X（Twitter）の投稿スタイルでの情報提示",
+    "実際のツール画面キャプチャ",
+    "段階的な機能説明（1/, 2/, 3/, 4/, 5/）",
+    "詳細な技術仕様の記載"
+  ],
+  "searchKeywords": [
+    "ChatGPT",
+    "OpenAI",
+    "AI エージェント",
+    "自律的実行",
+    "SaaS",
+    "API",
+    "ターミナル",
+    "ブラウザ",
+    "仮想コンピューター"
+  ],
+  "emotionalTriggers": [
+    "最新技術への興味",
+    "SaaS時代終了への衝撃",
+    "AIエージェント・カンパニー時代への期待",
+    "技術的優位性の理解"
+  ],
+  "marketingStage": "AI技術の最新動向に関心の高い技術者・ビジネス関係者",
+  "knowledgeId": "K098",
+  "pageStructurePattern": "",
+  "actualTitle": "SaaS時代は終わり。AIエージェント・カンパニーを構築する時代の始まり。",
+  "pageCount": 10,
+  "hashTag": "なし（Xの投稿形式のため）",
+  "detailedContent": {
+    "page1": {
+      "role": "hook-announcement",
+      "content": "時代転換の宣言",
+      "text": "SaaS時代は終わり。AIエージェント・カンパニーを構築する時代の始まり。",
+      "layout": "x-post-format"
+    },
+    "page2": {
+      "role": "news-announcement",
+      "content": "OpenAI新機能発表",
+      "text": "【速報】OpenAI、新機能「ChatGPTエージェント」を発表",
+      "layout": "x-post-with-video"
+    },
+    "page3": {
+      "role": "performance-data",
+      "content": "ベンチマーク性能データ",
+      "text": "1-A/ 主要ベンチマークでの性能",
+      "layout": "chart-display"
+    },
+    "page4": {
+      "role": "performance-data-continued",
+      "content": "実世界タスク性能データ",
+      "text": "1-B/ 主要ベンチマークでの性能（実世界タスク関連）",
+      "layout": "chart-display"
+    },
+    "page5": {
+      "role": "feature-explanation",
+      "content": "主な機能とツール説明",
+      "text": "2/ 主な機能とツール",
+      "layout": "feature-list-with-video"
+    },
+    "page6": {
+      "role": "use-case-example-1",
+      "content": "具体的利用例1",
+      "text": "3/ 具体的な利用シーンの例 - データフィルタリング、コード実行、スライド生成",
+      "layout": "example-with-video"
+    },
+    "page7": {
+      "role": "use-case-example-2",
+      "content": "具体的利用例2",
+      "text": "ビジュアルとテキストの両方に対応のWebブラウザ、ターミナル（コード実行）、API実行",
+      "layout": "example-with-video"
+    },
+    "page8": {
+      "role": "user-control-features",
+      "content": "ユーザー操作性とコントロール",
+      "text": "4/ ユーザーによる操作性とコントロール",
+      "layout": "feature-explanation-with-video"
+    },
+    "page9": {
+      "role": "privacy-and-limits",
+      "content": "プライバシー管理と進捗管理",
+      "text": "プライバシー管理：パスワードなどの入力データは保存されず、閲覧データも一括削除可能",
+      "layout": "technical-details-with-video"
+    },
+    "page10": {
+      "role": "availability-and-limits",
+      "content": "提供対象と利用条件",
+      "text": "5/ 提供対象と利用条件 - Pro, Plus, Teamユーザー向けに本日より順次ロールアウト",
+      "layout": "specification-details"
+    }
+  }
+}

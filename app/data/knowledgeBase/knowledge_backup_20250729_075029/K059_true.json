@@ -1,0 +1,155 @@
+{
+  "source": "contents-059",
+  "problemCategory": "職場コミュニケーション改善",
+  "problemDescription": "職場でコミュニケーションを取るとき、なぜか軽く見られる・ナメられてしまう",
+  "postType": "001",
+  "postTypeReason": "職場での不安・困惑に共感し、具体的な話し方改善により悩みを解決する感情共感・悩み解決型コンテンツ",
+  "solutionContent": {
+    "概要": "コミュニケーションで軽く見られる5つの特徴とNG/GOOD比較による具体的改善方法",
+    "具体的手順": [
+      "語尾を伸ばさず「です。」で明瞭に終わらせる",
+      "語尾を上げずに下降調で言い切る",
+      "挨拶は曖昧にせずハキハキと明確に言う",
+      "小声で終わらず最後まで明瞭に話す",
+      "不必要に笑わず明確な意思表示をする"
+    ],
+    "提供情報": [
+      "ナメられる人の5つの特徴",
+      "各特徴のNG/GOOD具体例",
+      "話し方改善の具体的ポイント",
+      "印象改善のための実践方法"
+    ],
+    "実用的なアドバイス": [
+      "「です。」の句点を意識して明瞭に話す",
+      "言い切ることで相手に安心感を与える",
+      "挨拶だけでもハキハキ言うと印象が変わる",
+      "姿勢も正して自信を持って話す",
+      "まずは一つずつ意識的に改善していく"
+    ]
+  },
+  "effectiveExpressions": [
+    "ちゃんと丁寧に話してるつもりなのに、なんか軽く見られたり",
+    "ナメられるなあ...って思うことない？",
+    "言ってることは同じでも、ひと工夫で周りの反応もがらりと変わる",
+    "日々のコミュニケーションが少し楽になりますように♫"
+  ],
+  "searchKeywords": [
+    "コミュニケーション",
+    "人間関係",
+    "職場",
+    "話し方",
+    "印象改善",
+    "ナメられる",
+    "語尾",
+    "挨拶"
+  ],
+  "emotionalTriggers": [
+    "職場での軽視に対する不安解消",
+    "コミュニケーション改善への希望",
+    "具体的方法による安心感",
+    "同じ経験への共感",
+    "改善による自信回復"
+  ],
+  "marketingStage": "職場コミュニケーション改善段階（悩み認識・解決方法模索時期）",
+  "knowledgeId": "K059_true",
+  "targetIds": ["T002"],
+  "targetReason": "仕事・キャリアに悩んでいる女性に対するコミュニケーション改善の実践的ノウハウ",
+  "pageStructurePattern": "typeID001-emotion-empathy-list",
+  "actualTitle": "なぜかナメられる人の特徴",
+  "pageCount": 9,
+  "templateOverrides": {
+    "3": "ng_good_comparison",
+    "4": "ng_good_comparison",
+    "5": "ng_good_comparison",
+    "6": "ng_good_comparison",
+    "7": "ng_good_comparison"
+  },
+  "detailedContent": {
+    "page1": {
+      "role": "タイトルページ・問題提起",
+      "section": "introduction",
+      "content": {
+        "title": "なぜかナメられる人の特徴",
+        "character_image": "/misaki_worry.png",
+        "emotion": "困惑・不安"
+      }
+    },
+    "page2": {
+      "role": "導入・共感・問題意識の共有",
+      "section": "introduction",
+      "content": {
+        "hook_message": "ちゃんと丁寧に話してるつもりなのに、なんか軽く見られたり。ナメられるなあ...って思うことない？",
+        "empathy_connection": "私も前は「なんで...？」って落ち込んだ。",
+        "solution_preview": "特徴と対策を紹介するよ！"
+      }
+    },
+    "page3": {
+      "role": "NG/GOOD比較1：語尾が伸びる問題",
+      "section": "mainContent",
+      "content": {
+        "category": "語尾の処理",
+        "ng_example": "そうなんですよねえ～",
+        "good_example": "そうなんです。",
+        "improvement_point": "「です。」の。を明瞭に！語尾を伸ばさない話し方がカギ"
+      }
+    },
+    "page4": {
+      "role": "NG/GOOD比較2：語尾を上げる問題",
+      "section": "mainContent",
+      "content": {
+        "category": "語尾のイントネーション",
+        "ng_example": "これでいいですか↗？",
+        "good_example": "これでいいですか↘",
+        "improvement_point": "言い切ることで安心感を出す◎"
+      }
+    },
+    "page5": {
+      "role": "NG/GOOD比較3：挨拶の問題",
+      "section": "mainContent",
+      "content": {
+        "category": "挨拶の仕方",
+        "ng_example": "あ、どうも...",
+        "good_example": "おつかれさまです。",
+        "improvement_point": "あいさつだけでもハキハキ言うと印象がかわる！姿勢も正して^^"
+      }
+    },
+    "page6": {
+      "role": "NG/GOOD比較4：声の出し方の問題",
+      "section": "mainContent",
+      "content": {
+        "category": "声の出し方",
+        "ng_example": "やってあります...",
+        "good_example": "やってあります。",
+        "improvement_point": "濁すと自信がなさそうにみえる。「ます。」の。を意識。"
+      }
+    },
+    "page7": {
+      "role": "NG/GOOD比較5：表情・態度の問題",
+      "section": "mainContent",
+      "content": {
+        "category": "表情・態度",
+        "ng_example": "ええ...まあなんとか...",
+        "good_example": "では、進めますね。",
+        "improvement_point": "不必要に笑わない！明確な意思表示を"
+      }
+    },
+    "page8": {
+      "role": "まとめ・効果説明",
+      "section": "summary",
+      "content": {
+        "key_insight": "言ってることは同じでも、ひと工夫で周りの反応もがらりと変わる◎",
+        "encouragement": "日々のコミュニケーションが少し楽になりますように♫",
+        "character_image": "/misaki.png"
+      }
+    },
+    "page9": {
+      "role": "クロージング",
+      "section": "summary",
+      "content": {
+        "gratitude": "最後まで読んでくれてありがとう！",
+        "additional_value": "平日6:45～聞くだけで人間関係がラクになるLIVE毎朝やってるよ！",
+        "call_to_action": "フォローして遊びにきてね！"
+      }
+    }
+  }
+}

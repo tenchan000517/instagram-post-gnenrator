@@ -1,0 +1,247 @@
+{
+  "source": "contents-002-practical-skill-mastery",
+  "problemCategory": "女性のキャリア戦略・実践スキル習得",
+  "problemDescription": "感情的な困りごとを理解した上で、具体的で実践可能なキャリア戦略を身につけたい。段階的にスキルを習得し、自信を持ってキャリアを築きたい女性のための実践ガイド",
+  "postType": "002",
+  "postTypeReason": "感情共感の次段階として、女性が実際に行動できる7つの実践スキルを段階的に習得する実践型習得コンテンツ",
+  "solutionContent": {
+    "概要": "働く女性が困らないための7つの実践スキル完全習得ガイド。即効性のある具体的アクションと長期的キャリア戦略を段階的にマスター",
+    "具体的手順": [
+      "Phase1: 基礎マインドセット構築（選択肢思考・市場価値意識）",
+      "Phase2: 実践的準備スキル（準備状態維持・感情的判断回避）", 
+      "Phase3: 戦略的キャリア構築（働き方多様化・強み活用・軸作り）",
+      "各フェーズで即座に実行できる具体的アクションを提供",
+      "段階的習得により確実なスキル定着を実現",
+      "実践→振り返り→改善のサイクルで継続的成長を促進"
+    ],
+    "提供情報": [
+      "即効性のある今すぐ実行できるアクション一覧",
+      "段階別スキル習得チェックリスト",
+      "実践的な自己分析・スキル棚卸しの具体的方法",
+      "感情的判断を避ける冷静な意思決定技術",
+      "働き方多様化時代の戦略的キャリア構築法",
+      "強みを活かした安定キャリアの作り方"
+    ],
+    "実用的なアドバイス": [
+      "感情的困りごとから戦略的解決への段階的移行法",
+      "今すぐ実行できる具体的アクションによる即効性の確保",
+      "段階的スキル習得による確実な能力向上と自信獲得",
+      "実践→振り返り→改善サイクルによる継続的成長システム",
+      "働き方多様化時代に対応した柔軟なキャリア戦略の構築",
+      "強み特化による安定した市場価値の確立と維持"
+    ]
+  },
+  "effectiveExpressions": [
+    "感情共感から実践解決への自然な流れ設計",
+    "「今すぐできる」アクション重視で即効性をアピール",
+    "段階的習得により確実なスキル定着を保証",
+    "具体的チェックリストで実践の見える化",
+    "働き方の選択肢＝人生の選択肢の戦略的解釈",
+    "強み活用による持続可能なキャリア構築",
+    "実践的ガイドとしての信頼性と実用性の強調"
+  ],
+  "searchKeywords": [
+    "女性キャリア実践",
+    "働き方スキル",
+    "キャリア戦略",
+    "実践ガイド",
+    "スキル習得",
+    "今すぐできるアクション",
+    "段階的キャリア構築",
+    "女性の実践的働き方"
+  ],
+  "emotionalTriggers": [
+    "感情的困りごとから具体的解決への希望",
+    "今すぐ実行できるアクションへの期待感",
+    "段階的スキル習得による達成感と自信獲得",
+    "実践的ガイドへの信頼感と安心感",
+    "自分でコントロールできるキャリアへの憧れ"
+  ],
+  "marketingStage": "感情的共感を得た後、具体的な行動と実践スキルを求める段階の女性。今すぐ実行できるアクションと段階的スキル習得で確実な成長を望む層",
+  "knowledgeId": "K002",
+  "targetIds": ["T009"],
+  "targetReason": "新しいスキルを身に着けたい女性に対する働き方改革・キャリア形成の実践的ノウハウ",
+  "cognitiveOptimization": {
+    "chunkingStrategy": "7つのポイントを3つのチャンクに分割（基礎準備・スキル構築・実践応用）",
+    "learningProgression": "段階的習得による認知負荷管理",
+    "memoryAnchors": "各ポイントに具体的行動項目を関連付け"
+  },
+  "pageStructurePattern": "typeID002-sequential-dependency",
+  "actualTitle": "働く女性のための実践スキル7選〜今すぐできるアクション〜",
+  "pageCount": 8,
+  "detailedContent": {
+    "page1": {
+      "role": "実践導入・スキル習得への誘導",
+      "section": "practical-introduction",
+      "content": {
+        "title": "働く女性のための実践スキル7選",
+        "subtitle": "〜今すぐできるアクション〜",
+        "targetAudience": "感情的な困りごとに共感した後は、具体的な行動で解決しませんか？",
+        "practicalPromise": [
+          "今すぐ実行できる具体的アクション",
+          "段階的にスキルが身につく構成",
+          "確実に自信がつく実践ガイド"
+        ],
+        "bridgeFromEmotion": "理不尽や困りごとを感じるのは当然。でも、戦略的に行動することで道は開けます。",
+        "skillAcquisitionMessage": "一緒に実践スキルを身につけて、自分でコントロールできるキャリアを築きましょう"
+      }
+    },
+    "page2": {
+      "role": "Phase1 Skill1 - 選択肢思考スキル習得",
+      "section": "mainContent",
+      "phaseInfo": {
+        "phaseNumber": 1,
+        "phaseTitle": "基礎マインドセット構築",
+        "phaseDescription": "キャリアの土台となる思考スキルを習得"
+      },
+      "practicalSkill": {
+        "skillNumber": "1",
+        "skillName": "選択肢思考スキル",
+        "skillDescription": "働き方の選択肢＝人生の選択肢として戦略的に考える力",
+        "immediateAction": [
+          "今すぐ実行: 自分の働き方選択肢リスト作成",
+          "ライフイベントごとのシミュレーション実施",
+          "毎月の選択肢更新スケジュール設定"
+        ],
+        "skillCheck": "✓ 選択肢リストが5つ以上作成できたらスキル習得完了",
+        "imageSrc": "/misaki.png"
+      }
+    },
+    "page3": {
+      "role": "Phase1 Skill2 - 市場価値意識スキル習得",
+      "section": "mainContent",
+      "phaseInfo": {
+        "phaseNumber": 1,
+        "phaseTitle": "基礎マインドセット構築",
+        "phaseDescription": "市場価値を意識したスキル構築力を習得"
+      },
+      "practicalSkill": {
+        "skillNumber": "2", 
+        "skillName": "市場価値意識スキル",
+        "skillDescription": "どこでも通用するスキルや経験を戦略的に身につける力",
+        "immediateAction": [
+          "今すぐ実行: 現在のスキルの市場価値調査",
+          "転職サイトで自分の経験の需要チェック",
+          "月1回のスキルアップデー計画作成"
+        ],
+        "skillCheck": "✓ 自分の市場価値を客観的に評価できたらスキル習得完了",
+        "imageSrc": "/misaki.png"
+      }
+    },
+    "page4": {
+      "role": "Phase2 Skill3 - 準備状態維持スキル習得",
+      "section": "mainContent",
+      "phaseInfo": {
+        "phaseNumber": 2,
+        "phaseTitle": "実践的準備スキル",
+        "chunkDescription": "実践的な準備行動を習慣化する力を習得"
+      },
+      "practicalSkill": {
+        "skillNumber": "3",
+        "skillName": "準備状態維持スキル",
+        "skillDescription": "いつでも動ける状態をシステマチックに維持する力",
+        "practicalActionList": [
+          "履歴書の毎月更新",
+          "自己分析の定期実施", 
+          "スキル棚卸しのシステム化"
+        ],
+        "immediateAction": [
+          "今すぐ実行: 準備状態チェックリスト作成",
+          "毎月の更新スケジュール設定",
+          "緊急時のアクションプラン作成"
+        ],
+        "skillCheck": "✓ 準備状態を常に維持できるシステムが構築できたらスキル習得完了",
+        "imageSrc": "/misaki.png"
+      }
+    },
+    "page5": {
+      "role": "Phase2 Skill4 - 冷静な意思決定スキル習得",
+      "section": "mainContent",
+      "phaseInfo": {
+        "chunkNumber": 2,
+        "phaseTitle": "実践的準備スキル",
+        "chunkDescription": "感情的判断を避ける理性的意思決定力を習得"
+      },
+      "practicalSkill": {
+        "skillNumber": "4",
+        "skillName": "冷静な意思決定スキル",
+        "skillDescription": "感情だけで辞めない/動かない理性的判断力",
+        "decisionFramework": [
+          "モヤモヤの言語化テクニック習得",
+          "24-48時間の冷却期間設定",
+          "メリット・デメリット分析手法体得"
+        ],
+        "immediateAction": [
+          "今すぐ実行: 意思決定フレームワーク作成",
+          "冷却期間中のアクションリスト作成",
+          "過去の感情的判断の振り返り実施"
+        ],
+        "skillCheck": "✓ 感情的になった時でも冷静な判断ができるようになったらスキル習得完了",
+        "imageSrc": "/misaki.png"
+      }
+    },
+    "page6": {
+      "role": "Point 5 - 問題に直面する前に働き方の選択肢を広げる",
+      "section": "mainContent",
+      "chunkInfo": {
+        "chunkNumber": 3,
+        "chunkTitle": "実践応用フェーズ",
+        "chunkDescription": "環境変化への適応戦略"
+      },
+      "content": {
+        "pointNumber": "5",
+        "title": "問題に直面する前に働き方の選択肢を広げる",
+        "content": [
+          "育児・介護等の問題に直面する前に",
+          "在宅・時短正社員・フレックス制度など",
+          "環境に左右されない働き方を選んでおくことが大切です。"
+        ],
+        "actionableInsight": "現在の会社の制度を今すぐ調べてみましょう",
+        "imageSrc": "/misaki.png"
+      }
+    },
+    "page7": {
+      "role": "Point 6 - 苦手より得意を活かす方向へ",
+      "section": "mainContent",
+      "chunkInfo": {
+        "chunkNumber": 3,
+        "chunkTitle": "実践応用フェーズ",
+        "chunkDescription": "強みの最大化戦略"
+      },
+      "content": {
+        "pointNumber": "6",
+        "title": "苦手より得意を活かす方向へ",
+        "content": [
+          "苦手克服よりも得意を伸ばす方が",
+          "評価されやすく、続けやすいです。",
+          "日々の仕事の中で",
+          "自分に向いている仕事を観察しておきましょう。"
+        ],
+        "actionableInsight": "今週から得意な業務を意識的に増やしてみましょう",
+        "imageSrc": "/misaki.png"
+      }
+    },
+    "page8": {
+      "role": "Point 7 - やりたいことよりできることで軸を作る",
+      "section": "mainContent",
+      "chunkInfo": {
+        "chunkNumber": 3,
+        "chunkTitle": "実践応用フェーズ",
+        "chunkDescription": "持続可能なキャリア軸の構築"
+      },
+      "content": {
+        "pointNumber": "7",
+        "title": "やりたいことよりできることで軸を作る",
+        "content": [
+          "やりたいこと・好きなことよりも",
+          "自分ができることで、会社に貢献できること",
+          "の方が安定と評価につながりやすいです。",
+          "自分のできるを育てて、選べる未来をつくっていきましょう。"
+        ],
+        "actionableInsight": "自分の『できること』リストを作成し、毎月更新しましょう",
+        "integrationMessage": "この7つのポイントを実践することで、働く女性が直面する様々な困難を戦略的に乗り越えることができます。",
+        "imageSrc": "/misaki.png"
+      }
+    }
+  }
+}

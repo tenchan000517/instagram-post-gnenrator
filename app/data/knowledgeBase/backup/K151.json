@@ -1,0 +1,252 @@
+{
+  "source": "contents-151",
+  "problemCategory": "メンタルヘルス・自己理解",
+  "problemDescription": "落ち込むことばかりで自信がない・人生いろいろ大変でメンタルが不安定",
+  "postType": "001",
+  "postTypeReason": "メンタル不安定による感情的な悩み・困った状況からの解決を提供する共感・感情誘導型コンテンツ",
+  "solutionContent": {
+    "概要": "メンタル安定のための12個の考え方とマインドセット変革法",
+    "具体的手順": [
+      "許すと楽になる：自分の心を軽くできる選択をする",
+      "八方美人をやめる：わかってくれる人がいれば十分と考える",
+      "白黒つけなくていい：今はまだ決めなくて良いと受け入れる",
+      "境界線は引いてOK：距離を大切にすると自分を守れる",
+      "人より自分軸：周りの意見があるから何も挑戦しない状況から自己肯定感を高める",
+      "心配はだいたい不要：まあ、なんとかなると楽観的に考える"
+    ],
+    "提供情報": [
+      "メンタル安定の12個の基本的な考え方",
+      "自己受容と他者受容のバランス法",
+      "完璧主義を手放す思考パターン",
+      "境界線設定の重要性と方法",
+      "相談のタイミングと効果的な方法",
+      "休息の価値と実践方法"
+    ],
+    "実用的なアドバイス": [
+      "許せない自分は心が狭いと感じるより、自分の心を軽くできる選択をする",
+      "嫌われる自分は価値がないと思うより、わかってくれる人がいれば十分と考える",
+      "あいまいな自分は決断力がないと思うより、今はまだ決めなくて良いと受け入れる",
+      "線を引く自分は冷たいと思うより、距離を大切にすると自分を守れると理解する",
+      "周りの意見があるから何も挑戦しないより、自己肯定感を高めて自分軸で生きる",
+      "心配事で頭の中がいっぱいになるより、まあなんとかなると楽観的に考える",
+      "決められないなんて頼りないと思うより、誰かに話すと考えが整理されると知る",
+      "こんなに言ってるのに伝わらないと悩むより、十人十色だから合わない人もいると受け入れる",
+      "頑張れないなんて根性がないと思うより、大事な場面で力を発揮すると考える",
+      "仕事で休まず働くのが美徳と思うより、リフレッシュして元気でいることが大切と理解する",
+      "寝る間も惜しんでお仕事するより、効率よく動いて寝る時間を確保する",
+      "不安で動けないのは弱いと思うより、今できることをやれば大丈夫と信じる"
+    ]
+  },
+  "effectiveExpressions": [
+    "9割が知らない！",
+    "メンタル安定のコツ",
+    "落ち込むことばかりで自信がない",
+    "人生いろいろ大変です",
+    "その気持ちわかります",
+    "私も周りと比べてばかりで落ち込むことがありました",
+    "実は、ある考え方を取り入れたら変わったから紹介します！"
+  ],
+  "searchKeywords": [
+    "メンタル安定",
+    "自信がない",
+    "落ち込む",
+    "感情コントロール",
+    "マインドセット",
+    "自己肯定感",
+    "ストレス管理",
+    "心理的安定",
+    "メンタルヘルス",
+    "考え方",
+    "思考転換",
+    "心の持ち方"
+  ],
+  "emotionalTriggers": [
+    "メンタル不安定への共感",
+    "具体的な解決方法の提示",
+    "12個の体系的なアプローチによる安心感",
+    "思考転換による希望の提示",
+    "自己受容への導き"
+  ],
+  "marketingStage": "自己理解・メンタルケア段階（メンタル安定・自信構築時期）",
+  "knowledgeId": "K151",
+  "pageStructurePattern": "typeID001-emotion-empathy-list",
+  "actualTitle": "9割が知らない！メンタル安定のコツ",
+  "pageCount": 9,
+  "detailedContent": {
+    "page1": {
+      "role": "導入・タイトル提示",
+      "section": "introduction",
+      "content": {
+        "title": "9割が知らない！",
+        "subtitle": "メンタル安定のコツ",
+        "character": "猫キャラクター（本を積み上げている）"
+      }
+    },
+    "page2": {
+      "role": "問題共感・導入メッセージ",
+      "section": "introduction",
+      "content": {
+        "title": "はじめに",
+        "empathyMessage": "落ち込むことばかりで自信がない。人生いろいろ大変ですね。",
+        "understanding": "その気持ちわかります。",
+        "personalExperience": "私も周りと比べてばかりで落ち込むことがありました。",
+        "transformation": "実は、ある考え方を取り入れたら変わったから紹介します！",
+        "savePrompt": "後で見るなら保存です→"
+      }
+    },
+    "page3": {
+      "role": "方法1-2の詳細説明",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "1",
+            "title": "許すと楽になる",
+            "ngThinking": "許せない自分は心が狭いです。",
+            "okThinking": "自分の心を軽くできる選択にします。",
+            "imageSrc": "/misaki_worry.png"
+          },
+          {
+            "number": "2",
+            "title": "八方美人をやめる",
+            "ngThinking": "嫌われる自分は価値がないです。",
+            "okThinking": "わかってくれる人がいれば十分です。",
+            "imageSrc": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "role": "方法3-4の詳細説明",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "3",
+            "title": "白黒つけなくていい",
+            "ngThinking": "あいまいな自分は決断力がないです。",
+            "okThinking": "今はまだ決めなくて良いのです！",
+            "imageSrc": "/king.png"
+          },
+          {
+            "number": "4",
+            "title": "境界線は引いてOK",
+            "ngThinking": "線を引く自分は冷たいです。",
+            "okThinking": "距離を大切にすると自分を守れます。",
+            "imageSrc": "/king_warry.png"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "role": "方法5-6の詳細説明",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "5",
+            "title": "人より自分軸",
+            "ngThinking": "周りの意見があるから何も挑戦しないです。",
+            "okThinking": "自己肯定感が高まって自分軸が育ちます。",
+            "imageSrc": "/misaki.png"
+          },
+          {
+            "number": "6",
+            "title": "心配はだいたい不要",
+            "ngThinking": "心配事で頭の中がいっぱいです。",
+            "okThinking": "まあ、なんとかなります！",
+            "imageSrc": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "role": "方法7-8の詳細説明",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "7",
+            "title": "20秒悩んだら相談",
+            "ngThinking": "決められないなんて頼りないです。",
+            "okThinking": "誰かに話すと考えが整理されてくるのです。",
+            "imageSrc": "/king.png"
+          },
+          {
+            "number": "8",
+            "title": "他人を変えない",
+            "ngThinking": "こんなに言ってるのに伝わりません。",
+            "okThinking": "十人十色だから合わない人もいるのです。",
+            "imageSrc": "/king_warry.png"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "role": "方法9-10の詳細説明",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "9",
+            "title": "ここぞで全力",
+            "ngThinking": "頑張れないなんて根性がないです！",
+            "okThinking": "大事な場面で力を発揮するのです。",
+            "imageSrc": "/king.png"
+          },
+          {
+            "number": "10",
+            "title": "休むのも仕事",
+            "ngThinking": "仕事で休まず働くのが美徳です。",
+            "okThinking": "リフレッシュして元気でいるのです！",
+            "imageSrc": "/misaki.png"
+          }
+        ]
+      }
+    },
+    "page8": {
+      "role": "方法11-12の詳細説明",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "11",
+            "title": "たっぷり寝る",
+            "ngThinking": "寝る間も惜しんでお仕事をするものです。",
+            "okThinking": "効率よく動いて寝る時間を確保します！",
+            "imageSrc": "/kikuyo.png"
+          },
+          {
+            "number": "12",
+            "title": "人生なんとかなる",
+            "ngThinking": "不安で動けないのは弱いです。",
+            "okThinking": "今できることをやれば大丈夫です！",
+            "imageSrc": "/king.png"
+          }
+        ]
+      }
+    },
+    "page9": {
+      "role": "全項目まとめ・復習",
+      "section": "summary",
+      "content": {
+        "title": "まとめ",
+        "grid": [
+          {"number": "1", "title": "許すと楽になる", "imageSrc": "/misaki.png"},
+          {"number": "2", "title": "八方美人をやめる", "imageSrc": "/kikuyo.png"},
+          {"number": "3", "title": "白黒つけなくていい", "imageSrc": "/king.png"},
+          {"number": "4", "title": "境界線は引いてOK", "imageSrc": "/king_warry.png"},
+          {"number": "5", "title": "人より自分軸", "imageSrc": "/misaki.png"},
+          {"number": "6", "title": "心配はだいたい不要", "imageSrc": "/kikuyo.png"},
+          {"number": "7", "title": "20秒悩んだら相談", "imageSrc": "/king.png"},
+          {"number": "8", "title": "他人を変えない", "imageSrc": "/king_warry.png"},
+          {"number": "9", "title": "ここぞで全力", "imageSrc": "/king.png"},
+          {"number": "10", "title": "休むのも仕事", "imageSrc": "/misaki.png"},
+          {"number": "11", "title": "たっぷり寝る", "imageSrc": "/kikuyo.png"},
+          {"number": "12", "title": "人生なんとかなる", "imageSrc": "/king.png"}
+        ],
+        "finalMessage": "保存して後で復習しましょう！"
+      }
+    }
+  }
+}

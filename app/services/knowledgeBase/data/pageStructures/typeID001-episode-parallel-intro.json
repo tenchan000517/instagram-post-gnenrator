@@ -4,10 +4,12 @@
   "pages": [
     {
       "pageNumber": 1,
-      "templateId": "failure_story_intro",
+      "templateId": "basic_intro",
       "templateStructure": {
-        "question": "string",
-        "promise": "string"
+        "title": "string",
+        "targetAudience": "string", 
+        "problems": "string[]",
+        "additionalMessage": "string"
       }
     },
     {

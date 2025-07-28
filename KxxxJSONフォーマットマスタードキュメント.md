@@ -33,7 +33,7 @@ export interface KnowledgeContent {
   emotionalTriggers: string[];                // 感情的トリガー
   marketingStage: string;                     // マーケティング段階
   knowledgeId: string;                        // ナレッジID
-  pageStructurePattern: string;               // ページ構造パターン
+  pageStructurePatternちょｔ: string;               // ページ構造パターン
   actualTitle: string;                        // 実際のタイトル
   pageCount: number;                          // ページ数
 }
@@ -171,6 +171,47 @@ interface KnowledgeContent {
 - **形式**: ページ別の構造化データ
 - **用途**: テンプレート生成時の参照データ
 
+#### detailedContentの正しい構造
+```json
+{
+  "page1": {
+    "role": "ページの役割説明（例：導入・問題提起）",
+    "section": "必須フィールド（introduction/mainContent/summary）",
+    "content": {
+      // テンプレート固有のコンテンツ構造
+    }
+  }
+}
+```
+
+#### 重要な注意事項
+- **sectionフィールドは必須**: `introduction`, `mainContent`, `summary`のいずれかを指定
+- **layoutフィールドは禁止**: テンプレートIDを混入させない
+- **iconフィールドは禁止**: 使用用途がなくコンテンツ生成に支障をきたすため
+- **role**: ページの役割を日本語で説明
+- **content**: テンプレート固有の構造に従う
+
+#### 語尾変換ルール（必須）
+元コンテンツのキャラクター語尾を標準的な丁寧語に変換する：
+
+```
+❌ 禁止語尾：
+「にゃ」「にゃよ」「にゃね」「だにゃ」「するにゃ」等
+
+✅ 正しい語尾：
+「です」「ます」「ください」「でしょう」「ことができます」「が重要です」「が大切です」
+
+【変換例】
+× 「早く進むにゃよ」
+○ 「早く進むことができます」
+
+× 「ムダを省くにゃ！」  
+○ 「ムダを省くことが重要です」
+
+× 「保存して後で復習にゃ！」
+○ 「保存して後で復習しましょう」
+```
+
 ## 🚨 重要な注意事項
 
 ### 必須要件
@@ -192,6 +233,11 @@ interface KnowledgeContent {
 2. **具体的すぎる表現**
    - 「励ましメッセージ」→「まとめページ」
    - 汎用的な表現に統一
+
+3. **特殊語尾の含有**
+   - キャラクター特有の語尾（「にゃ」「にゃよ」「にゃね」等）は全て削除
+   - 標準的な丁寧語（「です」「ます」「ください」）に統一
+   - ブランド固有の表現ではなく、汎用的な表現を使用
 
 ## 🔄 作成フロー
 
@@ -233,6 +279,13 @@ pageStructurePattern: "typeID002-sequential-dependency"  // ページ構成判�
 - [ ] 3つのマスタードキュメントとの整合性
 - [ ] CTA要素の除去
 - [ ] 汎用的な表現への統一
+
+### detailedContent構造チェック項目（必須）
+- [ ] **sectionフィールド存在確認**: 全ページに`section`フィールドが設定されている
+- [ ] **section値妥当性**: `introduction`, `mainContent`, `summary`のいずれかが使用されている
+- [ ] **layoutフィールド禁止**: `layout`フィールドが含まれていない（テンプレートIDの混入禁止）
+- [ ] **iconフィールド禁止**: `icon`フィールドが含まれていない（使用用途なし・生成支障の原因）
+- [ ] **語尾統一**: 「にゃ」「にゃよ」等の特殊語尾が「です・ます」調に統一されている
 
 ## 🎯 今後の拡張
 

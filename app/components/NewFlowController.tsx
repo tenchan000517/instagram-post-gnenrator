@@ -10,6 +10,7 @@ import { CheckCircle, FileText, Layout, Edit3, Download, ArrowRight } from 'luci
 
 interface NewFlowControllerProps {
   generatedContent: string
+  fullGeneratedContent?: { postType?: string; targetId?: string } // BasicIntroTemplate用の動的情報
   onComplete: (finalData: { templateType: TemplateType; templateData: TemplateData }) => void
   onCancel: () => void
 }
@@ -18,6 +19,7 @@ type FlowStep = 'template-selection' | 'layout-preview' | 'partial-edit' | 'fina
 
 export default function NewFlowController({
   generatedContent,
+  fullGeneratedContent,
   onComplete,
   onCancel
 }: NewFlowControllerProps) {
@@ -160,7 +162,11 @@ export default function NewFlowController({
               <h3 className="font-medium text-gray-800 mb-3">プレビュー</h3>
               <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
                 {React.createElement(templateComponents[selectedTemplateType], {
-                  data: layoutedData
+                  data: layoutedData,
+                  ...(selectedTemplateType === 'basic_intro' ? {
+                    postType: fullGeneratedContent?.postType || '001',
+                    targetId: fullGeneratedContent?.targetId || 'T001'
+                  } : {})
                 })}
               </div>
             </div>
@@ -257,7 +263,11 @@ export default function NewFlowController({
             <h3 className="font-medium text-gray-800 mb-3">最終プレビュー</h3>
             <div className="border border-gray-200 rounded-lg p-4 bg-gray-50">
               {React.createElement(templateComponents[selectedTemplateType], {
-                data: finalData
+                data: finalData,
+                ...(selectedTemplateType === 'basic_intro' ? {
+                  postType: fullGeneratedContent?.postType || '001',
+                  targetId: fullGeneratedContent?.targetId || 'T001'
+                } : {})
               })}
             </div>
           </div>

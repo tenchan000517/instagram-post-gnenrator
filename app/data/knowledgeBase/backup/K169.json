@@ -1,0 +1,276 @@
+{
+  "source": "contents-169",
+  "problemCategory": "時間管理・効率化",
+  "problemDescription": "やりたいことがあるけど仕事や家のことで忙しくて時間がない",
+  "postType": "002",
+  "postTypeReason": "時間管理の12個の実践的な方法を並列的に紹介する実践的ノウハウ伝授型コンテンツ",
+  "targetIds": ["T009", "T010", "T007"],
+  "targetReason": "時間管理は性別・立場を問わない汎用スキルのため、女性・男性・学生すべてに該当",
+  "solutionContent": {
+    "概要": "時間がある人と時間がない人の違いを12個の項目で比較し、時間管理の実践的方法を提供",
+    "具体的手順": [
+      "24時間の使い方を考える習慣をつける",
+      "できることはすぐ動く行動スピードを身に着ける",
+      "まず完成させて改善するマインドセットに変える",
+      "自分の時間使用を把握・記録する",
+      "スケジュールに余白を作る習慣をつける",
+      "仕事を前半でまとめ後半で整える進め方に変える",
+      "人に頼ったり仕組みに任せる方法を学ぶ",
+      "やるべきことを絞る優先順位設定法を身に着ける",
+      "寝る時間を決めて睡眠時間を守る生活リズムを作る",
+      "スマホを使う目的を決めて見る習慣をつける",
+      "小さな前進でもOKと思えるメンタルを育てる",
+      "どうやったらできるか考える思考のクセをつける"
+    ],
+    "提供情報": [
+      "時間がある人と時間がない人の12個の違い",
+      "時間の使い方の具体的な改善方法",
+      "行動スピードを上げる実践的テクニック",
+      "完了主義による効率化の考え方",
+      "時間把握と管理の具体的方法",
+      "スケジュール作成の効果的なコツ",
+      "仕事の進め方の効率化手法",
+      "依頼・委託による時間確保の方法",
+      "優先順位設定の実践的手法",
+      "生活リズムの整え方",
+      "スマホとの健全な付き合い方",
+      "前向きなメンタル管理法"
+    ],
+    "実用的なアドバイス": [
+      "24時間をどう使うか意識的に考える時間を作る",
+      "5分でできることはその場ですぐ済ませる",
+      "60点でもまず完成させて後から改善していく",
+      "時間の使い方を記録して無駄な時間を見つける",
+      "予定の間に15分程度の余白を入れておく",
+      "期限の前半で大枠を作り後半で仕上げる",
+      "一人で抱え込まずに頼れるところは人に任せる",
+      "すべてやろうとせずに本当に重要なことに集中する",
+      "決めた時間に寝る習慣で翌日のパフォーマンスを保つ",
+      "SNSを見るときは目的を決めてから開く",
+      "小さな前進も成果として認めて自分を褒める",
+      "できない理由より解決方法を考える習慣をつける"
+    ]
+  },
+  "effectiveExpressions": [
+    "あなたはどっち？",
+    "時間が消える人vs増える人",
+    "同じくらい忙しいのに、やりたいことをやっている人は何が違うの？",
+    "時間がある人のマネをしたら少しずつ変わった",
+    "保存して後で復習しましょう"
+  ],
+  "searchKeywords": [
+    "時間管理",
+    "効率化",
+    "タイムマネジメント",
+    "生産性向上",
+    "時間の使い方",
+    "スケジュール管理",
+    "仕事術",
+    "ライフハック",
+    "時短テクニック",
+    "行動改善",
+    "習慣化",
+    "ワークライフバランス"
+  ],
+  "emotionalTriggers": [
+    "時間不足への共感",
+    "効率的な人への憧れ",
+    "実践可能な改善方法の提示",
+    "段階的変化への期待",
+    "自己改善への意欲"
+  ],
+  "marketingStage": "スキルアップ段階（時間管理・効率化スキル習得時期）",
+  "knowledgeId": "K169",
+  "pageStructurePattern": "typeID002-parallel-introduction",
+  "actualTitle": "あなたはどっち？時間が消える人vs増える人",
+  "pageCount": 9,
+  "detailedContent": {
+    "page1": {
+      "role": "導入・問題提起",
+      "section": "introduction",
+      "content": {
+        "title": "あなたはどっち？",
+        "subtitle": "時間が消える人vs増える人",
+        "problemStatement": "やりたいことがあるけど仕事や家のことで忙しくて時間がない。時間が足りないって感じるでしょう。",
+        "hookMessage": "同じくらい忙しいのに、やりたいことをやっている人は何が違うの？って思うでしょうね。",
+        "solutionPreview": "でも、時間がある人のマネをしたら少しずつ変わったから紹介します！"
+      }
+    },
+    "page2": {
+      "role": "12項目の概要提示",
+      "section": "mainContent",
+      "content": {
+        "title": "まとめ",
+        "methodList": [
+          { "number": "1", "title": "24時間の使い方を考える", "imageSrc": "/misaki.png" },
+          { "number": "2", "title": "できることはすぐ動く", "imageSrc": "/kikuyo.png" },
+          { "number": "3", "title": "まず完成させて改善する", "imageSrc": "/king.png" },
+          { "number": "4", "title": "どこに何分使ってるか把握してる", "imageSrc": "/ten_worry.png" },
+          { "number": "5", "title": "余白を作っておく", "imageSrc": "/misaki_worry.png" },
+          { "number": "6", "title": "前半でざっくりまとめ後半で整える", "imageSrc": "/kikuyo_worry.png" },
+          { "number": "7", "title": "人に頼ったり仕組みに任せる", "imageSrc": "/king_warry.png" },
+          { "number": "8", "title": "やるべきことを絞る", "imageSrc": "/iida.png" },
+          { "number": "9", "title": "寝る時間を決めて睡眠時間を守る", "imageSrc": "/misaki.png" },
+          { "number": "10", "title": "スマホは使う目的を決めて見る", "imageSrc": "/kikuyo.png" },
+          { "number": "11", "title": "小さな前進でもOKと思える", "imageSrc": "/king.png" },
+          { "number": "12", "title": "どうやったらできるか考える", "imageSrc": "/ten_worry.png" }
+        ],
+        "saveMessage": "保存して後で復習しましょう！"
+      }
+    },
+    "page3": {
+      "role": "方法1-2",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "1",
+            "title": "時間の使い方",
+            "badExample": "なんとなく過ごす",
+            "goodExample": "24時間の使い方を考える",
+            "description": "時間がある人は1日の時間をどう使うか計画的に考えています",
+            "imageSrc": "/misaki.png"
+          },
+          {
+            "number": "2",
+            "title": "行動のスピード",
+            "badExample": "小さなことでも先延ばし",
+            "goodExample": "できることはすぐ動く",
+            "description": "すぐにできることは後回しにせず、その場で済ませることが大切です",
+            "imageSrc": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "role": "方法3-4",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "3",
+            "title": "完璧主義/完了主義",
+            "badExample": "100点じゃないと進めない",
+            "goodExample": "まず完成させて改善する",
+            "description": "完璧を求めすぎず、まず完成させてから改善していくことが効率的です",
+            "imageSrc": "/king.png"
+          },
+          {
+            "number": "4",
+            "title": "自分の時間の把握",
+            "badExample": "時間の流れがあいまい",
+            "goodExample": "どこに何分使ってるか把握してる",
+            "description": "自分の時間の使い方を記録して把握することで改善点が見えてきます",
+            "imageSrc": "/ten_worry.png"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "role": "方法5-6",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "5",
+            "title": "スケジュールの組み方",
+            "badExample": "ギチギチに予定を詰める",
+            "goodExample": "余白を作っておく",
+            "description": "予定の間に余裕を持たせることで、急な変更にも対応できます",
+            "imageSrc": "/misaki_worry.png"
+          },
+          {
+            "number": "6",
+            "title": "仕事の進め方",
+            "badExample": "納期ギリギリで動く",
+            "goodExample": "前半でざっくりまとめ後半で整える",
+            "description": "早めに大枠を作って、後半で細かく調整する方が効率的です",
+            "imageSrc": "/kikuyo_worry.png"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "role": "方法7-8",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "7",
+            "title": "頼り方",
+            "badExample": "なんでも一人で抱え込む",
+            "goodExample": "人に頼ったり仕組みに任せる",
+            "description": "一人でやろうとせず、人に頼ったり仕組みを活用することが大切です",
+            "imageSrc": "/king_warry.png"
+          },
+          {
+            "number": "8",
+            "title": "優先順位の明確さ",
+            "badExample": "全部やろうとする",
+            "goodExample": "やるべきことを絞る",
+            "description": "すべてをやろうとせず、本当に重要なことに集中することが大切です",
+            "imageSrc": "/iida.png"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "role": "方法9-10",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "9",
+            "title": "生活リズム",
+            "badExample": "つい夜更かしして翌朝バタバタ",
+            "goodExample": "寝る時間を決めて睡眠時間を守る",
+            "description": "規則正しい睡眠リズムを作ることで、翌日のパフォーマンスが向上します",
+            "imageSrc": "/misaki.png"
+          },
+          {
+            "number": "10",
+            "title": "スマホの付き合い方",
+            "badExample": "なんとなくSNSを見てる",
+            "goodExample": "使う目的を決めて見る",
+            "description": "目的を決めてからスマホを使うことで、無駄な時間を減らせます",
+            "imageSrc": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page8": {
+      "role": "方法11-12",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "11",
+            "title": "メンタル",
+            "badExample": "不安や焦りで動けない",
+            "goodExample": "小さな前進でもOKと思える",
+            "description": "完璧でなくても、小さな前進を積み重ねることが大切です",
+            "imageSrc": "/king.png"
+          },
+          {
+            "number": "12",
+            "title": "思考のクセ",
+            "badExample": "できない理由を探す",
+            "goodExample": "どうやったらできるか考える",
+            "description": "できない理由よりも、どうすればできるかを考える習慣をつけましょう",
+            "imageSrc": "/ten_worry.png"
+          }
+        ]
+      }
+    },
+    "page9": {
+      "role": "まとめ・励まし",
+      "section": "summary",
+      "content": {
+        "title": "時間管理で人生が変わる",
+        "summary": "この12個の違いを意識することで、時間の使い方が劇的に改善されます。",
+        "encouragement": "すべてを一度に変える必要はありません。まずは1つずつ取り入れて、時間がある人の習慣を身に着けていきましょう。",
+        "actionCall": "今日からできそうなものを1つ選んで、実践してみてください。"
+      }
+    }
+  }
+}

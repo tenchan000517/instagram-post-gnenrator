@@ -1,0 +1,644 @@
+{
+  "source": "side-business-004-skill-type-comparison",
+  "problemCategory": "副業・スキル選択比較",
+  "problemDescription": "副業やスキルアップを始めたいが、どの分野に取り組むべきか迷っている。自分の適性や市場価値、将来性を考慮した最適な選択をしたい",
+  "postType": "004",
+  "postTypeReason": "複数の副業・スキル分野を体系的に比較し、読者が自分に最適な選択肢を見つけられるよう支援する比較検討型コンテンツ",
+  "solutionContent": {
+    "概要": "12の主要な副業・スキル分野を「難易度・収益性・将来性・適性」の4軸で体系的に比較分析",
+    "具体的手順": [
+      "各分野の特徴と要求スキルを理解",
+      "自分の適性と市場価値を4軸で評価",
+      "短期・中期・長期の目標に合わせて選択",
+      "選択した分野での具体的な学習計画立案"
+    ],
+    "提供情報": [
+      "デジタルスキル系: Webデザイン、プログラミング、動画編集、SNS運用",
+      "コンテンツ制作系: ライティング、ブログ運営、YouTube、ポッドキャスト",
+      "コンサル・教育系: オンライン講師、コーチング、コンサルティング",
+      "物販・サービス系: ハンドメイド、転売・せどり、代行サービス",
+      "各分野の難易度（★1-5）・収益性（月1-50万円）・将来性・必要時間・初期投資を詳細比較"
+    ],
+    "実用的なアドバイス": [
+      "自分の現在のスキル・経験を活かせる分野の優先",
+      "市場需要と競合状況の現実的な評価",
+      "短期収益vs長期資産構築のバランス",
+      "複数分野の組み合わせによる相乗効果",
+      "ライフスタイルとの適合性チェック"
+    ]
+  },
+  "effectiveExpressions": [
+    "4軸比較チャートでの視覚的な分野比較",
+    "適性診断フローチャートで読者の方向性決定支援",
+    "実際の収益例とタイムラインの具体的提示",
+    "メリット・デメリットの均等な情報提供",
+    "「あなたはどのタイプ？」診断機能の組み込み"
+  ],
+  "searchKeywords": [
+    "副業比較", "スキル選択", "副業選び方", "スキルアップ分野",
+    "Webデザイン副業", "プログラミング副業", "ライティング副業", "動画編集副業",
+    "副業適性", "スキル将来性", "副業収益比較", "スキル難易度"
+  ],
+  "emotionalTriggers": [
+    "最適な選択への期待と安心感",
+    "自分の適性発見による自信の向上",
+    "将来への不安解消と道筋の明確化",
+    "効率的な成長への期待",
+    "時間とお金の投資に対する納得感"
+  ],
+  "marketingStage": "副業・スキルアップ検討段階（選択肢を絞り込む段階）",
+  "knowledgeId": "K185",
+  "pageStructurePattern": "typeID004-comprehensive-comparison-matrix",
+  "actualTitle": "あなたに最適な副業・スキル診断【12分野完全比較】",
+  "pageCount": 15,
+  "targetIds": ["T019", "T020", "T021"],
+  "targetReason": "副業・スキル選択は年齢や経験に関係なく需要が高く、特に比較検討段階の幅広い層にアプローチ",
+  "detailedContent": {
+    "page1": {
+      "role": "title-diagnostic",
+      "template": "comparison_diagnostic_cover",
+      "content": {
+        "mainTitle": "あなたに最適な副業・スキル診断",
+        "subtitle": "12分野完全比較で適性発見",
+        "diagnosticPromise": "3分で最適解が見つかる",
+        "backgroundDesign": "診断チャート風のグラフィック背景",
+        "callToAction": "今すぐ診断スタート！"
+      }
+    },
+    "page2": {
+      "role": "comparison-overview",
+      "template": "comparison_matrix_overview",
+      "content": {
+        "sectionTitle": "12分野の全体マップ",
+        "comparisonAxis": {
+          "x軸": "習得難易度（易←→難）",
+          "y軸": "収益ポテンシャル（低←→高）"
+        },
+        "fieldMapping": [
+          {
+            "quadrant": "低難易度・低収益",
+            "fields": ["ハンドメイド", "転売・せどり", "代行サービス"],
+            "characteristic": "すぐ始められる"
+          },
+          {
+            "quadrant": "低難易度・高収益", 
+            "fields": ["ライティング", "SNS運用", "ブログ運営"],
+            "characteristic": "コスパ抜群"
+          },
+          {
+            "quadrant": "高難易度・低収益",
+            "fields": ["ポッドキャスト", "YouTube"],
+            "characteristic": "長期的資産"
+          },
+          {
+            "quadrant": "高難易度・高収益",
+            "fields": ["プログラミング", "Webデザイン", "コンサルティング"],
+            "characteristic": "専門性重視"
+          }
+        ]
+      }
+    },
+    "page3": {
+      "role": "self-assessment",
+      "template": "diagnostic_questionnaire",
+      "content": {
+        "sectionTitle": "まずは自己診断！",
+        "diagnosticQuestions": [
+          {
+            "question": "あなたの現在の状況は？",
+            "options": [
+              "A: 会社員で安定収入あり",
+              "B: フリーランス・自営業", 
+              "C: 学生・主婦で時間に融通きく",
+              "D: 転職・キャリアチェンジ検討中"
+            ]
+          },
+          {
+            "question": "学習時間はどれくらい確保できる？",
+            "options": [
+              "A: 平日2時間・休日5時間以上",
+              "B: 平日1時間・休日3時間程度",
+              "C: 隙間時間中心で週10時間未満",
+              "D: 集中期間を作って短期習得"
+            ]
+          },
+          {
+            "question": "収益化の目標時期は？",
+            "options": [
+              "A: 1ヶ月以内に初収益",
+              "B: 3ヶ月で月5万円",
+              "C: 6ヶ月で月10万円",
+              "D: 1年で月20万円以上"
+            ]
+          }
+        ],
+        "nextPagePromise": "診断結果で最適分野を特定！"
+      }
+    },
+    "page4": {
+      "role": "digital-skills-comparison",
+      "template": "detailed_field_comparison",
+      "content": {
+        "categoryTitle": "デジタルスキル系 4分野比較",
+        "fields": [
+          {
+            "name": "Webデザイン",
+            "difficulty": "★★★★☆",
+            "revenue": "月8-25万円",
+            "futureProspect": "★★★★★",
+            "timeToEarn": "3-6ヶ月",
+            "initialCost": "5-15万円",
+            "pros": ["需要安定", "高単価案件多数", "スキル資産価値高"],
+            "cons": ["学習期間長", "競合多数", "技術アップデート必要"]
+          },
+          {
+            "name": "プログラミング",
+            "difficulty": "★★★★★",
+            "revenue": "月15-50万円",
+            "futureProspect": "★★★★★",
+            "timeToEarn": "6-12ヶ月", 
+            "initialCost": "3-10万円",
+            "pros": ["最高収益レベル", "転職にも有利", "論理思考力向上"],
+            "cons": ["習得困難", "継続学習必須", "挫折率高"]
+          },
+          {
+            "name": "動画編集",
+            "difficulty": "★★★☆☆",
+            "revenue": "月5-20万円",
+            "futureProspect": "★★★★☆",
+            "timeToEarn": "2-4ヶ月",
+            "initialCost": "10-20万円",
+            "pros": ["需要急増中", "クリエイティブ", "在宅完結"],
+            "cons": ["機材投資必要", "納期プレッシャー", "目への負担"]
+          },
+          {
+            "name": "SNS運用",
+            "difficulty": "★★☆☆☆",
+            "revenue": "月3-15万円", 
+            "futureProspect": "★★★☆☆",
+            "timeToEarn": "1-3ヶ月",
+            "initialCost": "1-5万円",
+            "pros": ["初心者参入易", "少額スタート", "マーケティング学習"],
+            "cons": ["単価上昇困難", "競合激化", "トレンド変化早"]
+          }
+        ]
+      }
+    },
+    "page5": {
+      "role": "content-creation-comparison",
+      "template": "detailed_field_comparison",
+      "content": {
+        "categoryTitle": "コンテンツ制作系 4分野比較",
+        "fields": [
+          {
+            "name": "Webライティング",
+            "difficulty": "★★☆☆☆",
+            "revenue": "月5-18万円",
+            "futureProspect": "★★★☆☆",
+            "timeToEarn": "1-2ヶ月",
+            "initialCost": "ほぼ0円",
+            "pros": ["最低コスト", "即座に開始可", "文章力向上"],
+            "cons": ["単価低下傾向", "AI競合懸念", "肉体的負担"]
+          },
+          {
+            "name": "ブログ運営",
+            "difficulty": "★★★☆☆",
+            "revenue": "月0-30万円",
+            "futureProspect": "★★★☆☆",
+            "timeToEarn": "6-12ヶ月",
+            "initialCost": "1-3万円",
+            "pros": ["不労所得化", "専門性構築", "個人ブランド"],
+            "cons": ["収益化まで長期", "検索順位に依存", "継続が困難"]
+          },
+          {
+            "name": "YouTube",
+            "difficulty": "★★★★☆",
+            "revenue": "月0-100万円+",
+            "futureProspect": "★★★★☆",
+            "timeToEarn": "6-18ヶ月",
+            "initialCost": "5-20万円",
+            "pros": ["収益上限なし", "影響力構築", "多様な収益源"],
+            "cons": ["顔出し必要", "編集時間膨大", "炎上リスク"]
+          },
+          {
+            "name": "ポッドキャスト",
+            "difficulty": "★★☆☆☆",
+            "revenue": "月1-10万円",
+            "futureProspect": "★★★☆☆",
+            "timeToEarn": "3-8ヶ月",
+            "initialCost": "2-8万円",
+            "pros": ["顔出し不要", "ながら聴き需要", "音声特化"],
+            "cons": ["収益化困難", "リスナー獲得難", "市場小さい"]
+          }
+        ]
+      }
+    },
+    "page6": {
+      "role": "consulting-education-comparison", 
+      "template": "detailed_field_comparison",
+      "content": {
+        "categoryTitle": "コンサル・教育系 3分野比較",
+        "fields": [
+          {
+            "name": "オンライン講師",
+            "difficulty": "★★★☆☆",
+            "revenue": "月8-35万円",
+            "futureProspect": "★★★★★",
+            "timeToEarn": "3-6ヶ月",
+            "initialCost": "3-10万円",
+            "pros": ["専門知識活用", "高単価", "やりがい大"],
+            "cons": ["専門性必須", "準備時間長", "責任重大"]
+          },
+          {
+            "name": "コーチング",
+            "difficulty": "★★★★☆",
+            "revenue": "月10-40万円",
+            "futureProspect": "★★★★☆",
+            "timeToEarn": "4-8ヶ月",
+            "initialCost": "10-30万円",
+            "pros": ["人の成長支援", "深い人間関係", "継続収入"],
+            "cons": ["資格取得費用", "メンタル負担", "集客困難"]
+          },
+          {
+            "name": "ビジネスコンサル",
+            "difficulty": "★★★★★",
+            "revenue": "月20-100万円+",
+            "futureProspect": "★★★★★",
+            "timeToEarn": "6-12ヶ月",
+            "initialCost": "5-20万円",
+            "pros": ["最高収益レベル", "経験豊富者有利", "問題解決力"],
+            "cons": ["高度な専門性", "責任とプレッシャー", "実績が必須"]
+          }
+        ]
+      }
+    },
+    "page7": {
+      "role": "physical-service-comparison",
+      "template": "detailed_field_comparison", 
+      "content": {
+        "categoryTitle": "物販・サービス系 3分野比較",
+        "fields": [
+          {
+            "name": "ハンドメイド販売",
+            "difficulty": "★★☆☆☆",
+            "revenue": "月3-15万円",
+            "futureProspect": "★★☆☆☆",
+            "timeToEarn": "1-2ヶ月",
+            "initialCost": "2-8万円",
+            "pros": ["趣味の延長", "創作の喜び", "在庫調整可"],
+            "cons": ["労働集約的", "スケール困難", "材料費負担"]
+          },
+          {
+            "name": "転売・せどり",
+            "difficulty": "★☆☆☆☆",
+            "revenue": "月5-25万円",
+            "futureProspect": "★★☆☆☆",
+            "timeToEarn": "1ヶ月",
+            "initialCost": "10-50万円",
+            "pros": ["即金性高", "シンプル", "市場理解向上"],
+            "cons": ["在庫リスク", "資金必要", "規制リスク"]
+          },
+          {
+            "name": "代行サービス",
+            "difficulty": "★☆☆☆☆",
+            "revenue": "月2-12万円",
+            "futureProspect": "★★☆☆☆", 
+            "timeToEarn": "1-2ヶ月",
+            "initialCost": "ほぼ0円",
+            "pros": ["無資本開始", "地域密着", "人脈構築"],
+            "cons": ["単価低い", "肉体労働", "時間切り売り"]
+          }
+        ]
+      }
+    },
+    "page8": {
+      "role": "lifestyle-fit-analysis",
+      "template": "lifestyle_compatibility_matrix",
+      "content": {
+        "sectionTitle": "ライフスタイル別適性分析",
+        "lifestyleCategories": [
+          {
+            "type": "会社員（本業あり）",
+            "availableTime": "平日夜2-3時間、休日",
+            "recommendations": [
+              {
+                "field": "Webライティング",
+                "reason": "時間の区切りがつけやすい",
+                "compatibility": "★★★★★"
+              },
+              {
+                "field": "SNS運用",
+                "reason": "隙間時間活用可能",
+                "compatibility": "★★★★☆"
+              },
+              {
+                "field": "ブログ運営",
+                "reason": "自分のペースで継続",
+                "compatibility": "★★★☆☆"
+              }
+            ]
+          },
+          {
+            "type": "主婦・育児中",
+            "availableTime": "子供の昼寝・夜間",
+            "recommendations": [
+              {
+                "field": "ハンドメイド販売",
+                "reason": "在宅で完結、時間調整自由",
+                "compatibility": "★★★★★"
+              },
+              {
+                "field": "オンライン講師",
+                "reason": "専門知識活用、時間設定自由",
+                "compatibility": "★★★★☆"
+              },
+              {
+                "field": "代行サービス",
+                "reason": "地域コミュニティ活用",
+                "compatibility": "★★★☆☆"
+              }
+            ]
+          },
+          {
+            "type": "学生",
+            "availableTime": "授業の合間、長期休暇",
+            "recommendations": [
+              {
+                "field": "プログラミング",
+                "reason": "将来性抜群、学習時間確保可",
+                "compatibility": "★★★★★"
+              },
+              {
+                "field": "動画編集",
+                "reason": "若者のトレンド感を活用",
+                "compatibility": "★★★★☆"
+              },
+              {
+                "field": "転売・せどり",
+                "reason": "即金性、ビジネス学習",
+                "compatibility": "★★★☆☆"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "page9": {
+      "role": "roi-timeline-comparison",
+      "template": "investment_return_analysis",
+      "content": {
+        "sectionTitle": "投資対効果・回収期間比較",
+        "roiAnalysis": [
+          {
+            "field": "Webライティング",
+            "initialInvestment": "ほぼ0円",
+            "monthlyRevenue": "5-18万円",
+            "breakEvenPeriod": "即時",
+            "yearlyROI": "∞%（投資額ほぼ0のため）"
+          },
+          {
+            "field": "プログラミング", 
+            "initialInvestment": "5-10万円",
+            "monthlyRevenue": "15-50万円",
+            "breakEvenPeriod": "2-3ヶ月",
+            "yearlyROI": "2000-6000%"
+          },
+          {
+            "field": "動画編集",
+            "initialInvestment": "15-25万円",
+            "monthlyRevenue": "8-20万円",
+            "breakEvenPeriod": "3-6ヶ月",
+            "yearlyROI": "400-960%"
+          },
+          {
+            "field": "オンライン講師",
+            "initialInvestment": "5-15万円",
+            "monthlyRevenue": "10-35万円",
+            "breakEvenPeriod": "2-4ヶ月",
+            "yearlyROI": "800-2800%"
+          }
+        ],
+        "bestROIHighlight": "Webライティング・プログラミングが最優秀"
+      }
+    },
+    "page10": {
+      "role": "skill-synergy-matrix",
+      "template": "synergy_combination_guide",
+      "content": {
+        "sectionTitle": "スキル組み合わせ相乗効果",
+        "synergyPatterns": [
+          {
+            "combination": "Webデザイン × プログラミング",
+            "synergyEffect": "フルスタック開発者として高単価案件獲得",
+            "multiplier": "収益1.5-2倍",
+            "examples": ["Webサイト制作の一貫受注", "SaaS開発", "システム開発"]
+          },
+          {
+            "combination": "ライティング × SEO × ブログ",
+            "synergyEffect": "コンテンツマーケティング専門家",
+            "multiplier": "収益1.3-1.8倍",
+            "examples": ["企業のオウンドメディア運営", "SEOコンサル", "記事制作事業"]
+          },
+          {
+            "combination": "動画編集 × SNS運用 × マーケティング",
+            "synergyEffect": "デジタルマーケティングの総合提案",
+            "multiplier": "収益1.4-2.2倍",
+            "examples": ["SNS動画コンテンツ制作", "広告運用", "インフルエンサー支援"]
+          },
+          {
+            "combination": "コーチング × オンライン講師 × ブログ",
+            "synergyEffect": "個人ブランディング×教育事業",
+            "multiplier": "収益1.6-3倍",
+            "examples": ["個人コンサル事業", "オンラインスクール", "書籍出版"]
+          }
+        ]
+      }
+    },
+    "page11": {
+      "role": "market-trend-analysis",
+      "template": "future_market_outlook",
+      "content": {
+        "sectionTitle": "2025-2030年市場トレンド予測",
+        "trendAnalysis": {
+          "成長分野": [
+            {
+              "field": "AI関連スキル",
+              "growth": "+300%",
+              "reason": "AI活用需要の爆発的増加",
+              "opportunities": ["プロンプトエンジニア", "AIツール活用コンサル"]
+            },
+            {
+              "field": "動画コンテンツ",
+              "growth": "+150%", 
+              "reason": "ショート動画・ライブ配信の普及",
+              "opportunities": ["TikTok運用", "ライブコマース支援"]
+            },
+            {
+              "field": "オンライン教育",
+              "growth": "+120%",
+              "reason": "リモート学習の定着",
+              "opportunities": ["マイクロラーニング", "VR/AR教育"]
+            }
+          ],
+          "安定分野": [
+            {
+              "field": "Webデザイン・開発",
+              "growth": "+30%",
+              "reason": "デジタル化の継続需要"
+            },
+            {
+              "field": "コンテンツライティング",
+              "growth": "+10%", 
+              "reason": "SEO・マーケティング需要継続"
+            }
+          ],
+          "減少懸念分野": [
+            {
+              "field": "単純データ入力",
+              "growth": "-50%",
+              "reason": "AI・RPA による自動化"
+            },
+            {
+              "field": "基本的な翻訳業務",
+              "growth": "-30%",
+              "reason": "AI翻訳精度向上"
+            }
+          ]
+        }
+      }
+    },
+    "page12": {
+      "role": "diagnostic-result-type-a",
+      "template": "personalized_recommendation",
+      "content": {
+        "resultType": "安定志向×着実成長タイプ",
+        "characteristics": [
+          "リスクを避けて確実に収入を得たい",
+          "本業と並行して無理なく継続",
+          "専門性を徐々に高めていきたい"
+        ],
+        "recommendedFields": [
+          {
+            "rank": "1位",
+            "field": "Webライティング",
+            "reason": "低リスク・確実収益・スキル蓄積",
+            "startingPlan": "月10記事から開始→専門分野特化→月15万円目標"
+          },
+          {
+            "rank": "2位",
+            "field": "SNS運用代行",
+            "reason": "需要安定・スキル転用可・実績積みやすい",
+            "startingPlan": "個人アカウント運用→小規模事業者支援→月10万円目標"
+          },
+          {
+            "rank": "3位",
+            "field": "オンライン講師",
+            "reason": "既存知識活用・高単価・長期安定",
+            "startingPlan": "得意分野でミニ講座→継続受講者獲得→月20万円目標"
+          }
+        ],
+        "actionPlan": "まずはWebライティングで基礎収入を確保してから他分野に展開"
+      }
+    },
+    "page13": {
+      "role": "diagnostic-result-type-b",
+      "template": "personalized_recommendation",
+      "content": {
+        "resultType": "挑戦志向×高収益追求タイプ",
+        "characteristics": [
+          "高い収益を目指して積極的に投資",
+          "学習時間を確保して本格的にスキル習得",
+          "将来的な独立・転職も視野に入れている"
+        ],
+        "recommendedFields": [
+          {
+            "rank": "1位",
+            "field": "プログラミング",
+            "reason": "最高収益・転職可能・長期資産価値",
+            "startingPlan": "6ヶ月集中学習→ポートフォリオ構築→月30万円目標"
+          },
+          {
+            "rank": "2位",
+            "field": "Webデザイン + フロントエンド",
+            "reason": "クリエイティブ×技術・高単価・需要安定",
+            "startingPlan": "デザインツール習得→コーディング学習→月25万円目標"
+          },
+          {
+            "rank": "3位",
+            "field": "ビジネスコンサルティング",
+            "reason": "経験活用・最高単価・影響力構築",
+            "startingPlan": "得意領域明確化→実績構築→月50万円目標"
+          }
+        ],
+        "actionPlan": "プログラミングで技術基盤を構築し、コンサルで経験を収益化"
+      }
+    },
+    "page14": {
+      "role": "implementation-roadmap",
+      "template": "step_by_step_action_plan",
+      "content": {
+        "sectionTitle": "選択後の実行ロードマップ",
+        "phases": [
+          {
+            "phase": "Phase 1: 準備期間（1-2週間）",
+            "objectives": "学習環境整備・情報収集",
+            "actions": [
+              "選択分野の詳細調査（市場・競合・必要スキル）",
+              "学習リソースの選定（書籍・オンライン講座・メンター）",
+              "作業環境の整備（PC・ソフト・作業スペース）",
+              "目標設定と進捗管理システムの構築"
+            ]
+          },
+          {
+            "phase": "Phase 2: 学習期間（1-6ヶ月）",
+            "objectives": "基礎スキル習得・ポートフォリオ構築",
+            "actions": [
+              "体系的な学習計画の実行",
+              "実践プロジェクトでスキル定着",
+              "ポートフォリオ・実績作品の制作",
+              "業界コミュニティへの参加・ネットワーキング"
+            ]
+          },
+          {
+            "phase": "Phase 3: 収益化期間（3-12ヶ月）",
+            "objectives": "案件獲得・収入安定化",
+            "actions": [
+              "低単価案件で実績・評価を蓄積",
+              "徐々に単価向上・案件規模拡大",
+              "継続クライアントとの関係構築",
+              "収益目標達成と次段階への準備"
+            ]
+          }
+        ]
+      }
+    },
+    "page15": {
+      "role": "final-encouragement-cta",
+      "template": "motivational_next_action",
+      "content": {
+        "inspirationalMessage": "選択は決断の始まり。行動が未来を変える。",
+        "keyReminders": [
+          "完璧な選択より、最初の一歩が重要",
+          "どの分野も継続すれば必ず成果が出る",
+          "市場は変化するが、学習力は一生の資産",
+          "今始めれば1年後の自分は確実に変わっている"
+        ],
+        "immediateNextActions": [
+          "診断結果を保存して友人・家族と共有",
+          "選択した分野の詳細学習計画を立案",
+          "必要なツール・リソースをリストアップ",
+          "学習開始日を具体的に決定"
+        ],
+        "relatedContent": {
+          "K183": "副業への不安解消 - マインドセット準備",
+          "K184": "副業成功事例 - 具体的な戦略学習",
+          "K186": "副業・スキル習得5段階システム - 学習計画",
+          "K005": "副業スタートガイド - 実践的な始め方",
+          "K024": "まだ間に合う大手企業 - 就活との両立"
+        },
+        "finalMessage": "あなたの可能性は無限大。今日が新しいスタートです。",
+        "communityInvitation": "同じ志を持つ仲間と一緒に成長しませんか？"
+      }
+    }
+  }
+}

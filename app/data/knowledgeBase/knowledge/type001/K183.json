@@ -1,0 +1,200 @@
+{
+  "source": "side-business-001-skill-insecurity-empathy",
+  "problemCategory": "副業・スキルアップへの不安・迷い",
+  "problemDescription": "副業を始めたいけれど自分にはスキルがない、年齢的に遅いのではないか、失敗したらどうしようという不安を抱いている。周りが副業で成功している話を聞くと焦りを感じるが、何から始めれば良いか分からず行動できずにいる",
+  "postType": "001",
+  "postTypeReason": "副業・スキルアップに対する不安、恐れ、劣等感などの感情的な悩みに寄り添い、共感と安心感を提供する感情共感型コンテンツ",
+  "solutionContent": {
+    "概要": "副業・スキルアップに対する不安と迷いに深く共感し、誰でも最初は不安だったことを伝え、自分のペースで始めることの大切さを伝える",
+    "具体的手順": [
+      "副業への不安・恐れの感情に共感する",
+      "「みんな最初は同じだった」という安心感を提供",
+      "小さな一歩から始めることの価値を伝える",
+      "完璧を求めずに進むことの重要性を示す"
+    ],
+    "提供情報": [
+      "副業・スキルアップへの不安は自然な感情であること",
+      "年齢や経験に関係なく始められること",
+      "失敗も学習の一部であること",
+      "自分のペースで進むことの重要性",
+      "小さな成功の積み重ねが自信につながること"
+    ],
+    "実用的なアドバイス": [
+      "完璧を求めすぎない",
+      "他人と比較しない",
+      "小さな一歩を大切にする",
+      "失敗を恐れず経験として受け入れる",
+      "自分の成長を認める",
+      "継続することの価値を理解する"
+    ]
+  },
+  "effectiveExpressions": [
+    "温かみのある色調とイラストで安心感を演出",
+    "「大丈夫。あなたのペースで。」というメッセージで共感",
+    "実際の体験談やエピソードで親近感を創出",
+    "不安を持つ人物のイラストから希望的な表情への変化",
+    "「みんな最初は同じだった」という安心感のメッセージ",
+    "具体的な次のステップへの導線設計"
+  ],
+  "searchKeywords": [
+    "副業不安", "スキルアップ迷い", "副業始め方", "スキルない副業",
+    "副業年齢", "副業失敗", "副業恐れ", "スキル不足",
+    "副業自信ない", "副業焦り", "スキルアップ不安", "副業心配"
+  ],
+  "emotionalTriggers": [
+    "副業への不安・恐れに対する深い共感",
+    "「みんな同じだった」という安心感の提供",
+    "年齢や経験への劣等感の解消",
+    "失敗への恐れに対する理解と受容",
+    "自分のペースを認めることの安心感",
+    "小さな成長への価値認識"
+  ],
+  "marketingStage": "副業・スキルアップ検討初期段階（不安・迷い段階）",
+  "knowledgeId": "K183",
+  "pageStructurePattern": "typeID001-emotional-empathy-story",
+  "actualTitle": "副業始めたいけど、私にできるかな...",
+  "pageCount": 8,
+  "targetIds": ["T001", "T002"],
+  "targetReason": "副業・スキルアップへの不安は性別や年齢を問わない感情的な悩みだが、特に女性の方が自信の問題として表出しやすく、男性も含めて幅広い層に共感を提供",
+  "detailedContent": {
+    "page1": {
+      "role": "title-empathy",
+      "template": "emotional_empathy_cover",
+      "content": {
+        "mainTitle": "副業始めたいけど、私にできるかな...",
+        "emotionalSubtitle": "そんな不安を抱えているあなたへ",
+        "backgroundDesign": "温かみのあるピンク〜オレンジグラデーション",
+        "characterIllustration": "不安そうな表情の女性（スマホを見ている）",
+        "supportiveMessage": "大丈夫。みんな最初は同じ気持ちでした。"
+      }
+    },
+    "page2": {
+      "role": "empathy-anxiety-list",
+      "template": "emotional_empathy_problems",
+      "content": {
+        "empathyMessage": "こんな気持ち、ありませんか？",
+        "anxietyList": [
+          "特別なスキルなんて何もない...",
+          "今から始めるなんて遅すぎるかも",
+          "失敗したらどうしよう",
+          "周りはみんな成功してるのに",
+          "時間もお金もないし...",
+          "何から始めればいいか分からない"
+        ],
+        "characterExpression": "悩んでいる女性のイラスト",
+        "validationMessage": "そう思うのは、とても自然なことです。"
+      }
+    },
+    "page3": {
+      "role": "universal-experience",
+      "template": "emotional_empathy_universality",
+      "content": {
+        "mainMessage": "実は、みんな最初は同じでした",
+        "storyIntro": "成功している人たちも、みんな最初は...",
+        "commonExperiences": [
+          "「私には無理かも」と思っていた",
+          "何度も挫折しそうになった",
+          "小さなことから始めた",
+          "失敗を重ねながら学んだ"
+        ],
+        "reassurance": "あなただけが特別不安なわけじゃありません。",
+        "illustration": "様々な人たちが手を取り合っているイラスト"
+      }
+    },
+    "page4": {
+      "role": "reframe-perspective",
+      "template": "emotional_empathy_reframing",
+      "content": {
+        "perspectiveShift": "実は、その不安こそが大切な証拠",
+        "reframingPoints": [
+          {
+            "concern": "スキルがない → ",
+            "reframe": "だからこそ成長できる"
+          },
+          {
+            "concern": "遅すぎる → ",
+            "reframe": "今が一番若い日"
+          },
+          {
+            "concern": "失敗が怖い → ",
+            "reframe": "失敗は最高の先生"
+          },
+          {
+            "concern": "時間がない → ",
+            "reframe": "小さな時間も貴重な資源"
+          }
+        ],
+        "encouragement": "不安に思えることこそ、成長のチャンスです。",
+        "supportiveCharacter": "応援している女性のイラスト"
+      }
+    },
+    "page5": {
+      "role": "small-steps-value",
+      "template": "emotional_empathy_small_steps",
+      "content": {
+        "mainMessage": "小さな一歩が、大きな変化を生む",
+        "smallStepsExamples": [
+          "まずは1日10分の学習時間を作る",
+          "興味のある分野の本を1冊読む",
+          "無料のオンライン講座を試してみる",
+          "SNSで情報収集を始める"
+        ],
+        "keyPrinciple": "完璧を目指さず、続けることを大切に",
+        "visualMetaphor": "階段を一歩ずつ上がる人のイラスト",
+        "encouragingMessage": "あなたのペースで大丈夫。"
+      }
+    },
+    "page6": {
+      "role": "success-story-relatability",
+      "template": "emotional_empathy_story",
+      "content": {
+        "storyTitle": "Aさんの場合（34歳、2児の母）",
+        "initialState": "「私なんて...」から始まった",
+        "journey": [
+          "最初は育児の合間にスマホで情報収集",
+          "子供が寝た後に30分だけ勉強",
+          "小さなスキルから実践開始",
+          "失敗を重ねながらも継続",
+          "1年後には月3万円の副収入"
+        ],
+        "keyMessage": "「特別じゃない私でもできた」",
+        "relatabilityPoint": "完璧じゃなくても、続けることで必ず変わる",
+        "characterIllustration": "笑顔で子供と一緒にいる女性"
+      }
+    },
+    "page7": {
+      "role": "permission-to-start",
+      "template": "emotional_empathy_permission",
+      "content": {
+        "permissionMessage": "あなたには、挑戦する権利があります",
+        "affirmations": [
+          "完璧じゃなくても始めていい",
+          "小さな成長も素晴らしい成果",
+          "失敗しても経験になる",
+          "自分のペースで進んでいい",
+          "今の自分から成長できる",
+          "未来の可能性は無限大"
+        ],
+        "coreMessage": "大丈夫。あなたなら必ずできます。",
+        "supportiveIllustration": "太陽に向かって手を広げる人のシルエット"
+      }
+    },
+    "page8": {
+      "role": "gentle-next-step",
+      "template": "emotional_empathy_next_step",
+      "content": {
+        "transitionMessage": "不安を感じるのは自然なこと。でも、その一歩を踏み出すことで未来は変わります。",
+        "nextStepInvitation": "準備ができたら、具体的な副業・スキルアップの方法を一緒に探してみませんか？",
+        "relatedContent": {
+          "K005": "副業スタートガイド - 具体的な始め方",
+          "K186": "副業・スキル習得5段階システム - 体系的学習法",
+          "K185": "最適な副業・スキル診断 - 適性発見支援",
+          "K001": "キャリア迷いへの共感 - 働き方の不安解消"
+        },
+        "gentleEncouragement": "焦らなくて大丈夫。あなたの人生、あなたのペースで。",
+        "supportMessage": "いつでも応援しています。",
+        "closingIllustration": "希望に満ちた表情の人物"
+      }
+    }
+  }
+}

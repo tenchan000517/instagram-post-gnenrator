@@ -1,0 +1,143 @@
+{
+  "source": "contents-009",
+  "problemCategory": "AI活用・効率化ツール",
+  "problemDescription": "ChatGPTしか使っていない、他の有益なAIアプリを知りたい、AIツールで効率化を図りたい",
+  "postType": "004",
+  "postTypeReason": "「ChatGPTしか使っていない人は損！」として、知ったら明日から役立つ実用的なAIアプリ12選を紹介する有益情報提供",
+  "solutionContent": {
+    "概要": "ChatGPT以外の最強AIアプリ12選を目的別に紹介し、業務効率化に役立つツールを提供",
+    "具体的手順": [],
+    "提供情報": [
+      "情報を調べるなら「Perplexity」",
+      "考えを整理するなら「GitMind」",
+      "文章を書くなら「Gemini」",
+      "画像を作るなら「Midjourney」",
+      "スライドを作るなら「Gamma」",
+      "プログラミングなら「Kite」",
+      "Webサイトを作るなら「Squarespace」",
+      "音楽を作るなら「Udioe」",
+      "質問するなら「Microsoft Copilot」",
+      "動画制作なら「Dream Machines」",
+      "LPを作るなら「Instapage」",
+      "コンテンツを統合するなら「Microsoft Copilot」"
+    ],
+    "実用的なアドバイス": [
+      "ChatGPTしか使っていない人はマジで損している",
+      "目的に応じて最適なAIツールを使い分けることが重要",
+      "もう2度と言わないので保存必須",
+      "これらのツールで業務効率化が大幅に向上する"
+    ]
+  },
+  "effectiveExpressions": [
+    "損失を強調する表現「ChatGPTしか使っていない人は損！」",
+    "具体的な数字「最強のAIアプリ12選」",
+    "白い背景の清潔感のあるカード形式",
+    "目的別の分かりやすい整理「〜するなら『〜』」",
+    "緊急性を煽る表現「もう2度と言わないので保存必須」",
+    "実機画面を使った転職サービス紹介"
+  ],
+  "searchKeywords": [
+    "ChatGPT",
+    "AIアプリ",
+    "AI ツール",
+    "効率化",
+    "Perplexity",
+    "GitMind",
+    "Gemini",
+    "Midjourney",
+    "Gamma",
+    "業務効率化"
+  ],
+  "emotionalTriggers": [
+    "他の人より遅れているという不安感",
+    "有益情報への欲求",
+    "効率化への期待",
+    "具体的ツール紹介による実用性"
+  ],
+  "marketingStage": "AIツールに興味があるが ChatGPT しか知らない初心者から中級者、業務効率化を求めている段階",
+  "knowledgeId": "K009",
+  "pageStructurePattern": "efficiency-practical-info-3page",
+  "actualTitle": "ChatGPTしか使っていない人は損！最強のAIアプリ12選",
+  "pageCount": 3,
+  "hashTag": "最強のAIアプリ12選！ chatgpt しか使っていないと損します ...",
+  "detailedContent": {
+    "page1": {
+      "title": "ChatGPTしか使っていない人は損！最強のAIアプリ12選",
+      "content": "問題提起とタイトル提示",
+      "visualElements": "走るビジネスマンのイラスト、青い背景、白いカード形式、「今すぐチェック」のCTA"
+    },
+    "page2": {
+      "title": "ChatGPTしか使ってない人はマジで損。",
+      "content": "12個のAIアプリの目的別紹介",
+      "aiApps": [
+        {
+          "purpose": "情報を調べるなら",
+          "app": "Perplexity"
+        },
+        {
+          "purpose": "考えを整理するなら",
+          "app": "GitMind"
+        },
+        {
+          "purpose": "文章を書くなら",
+          "app": "Gemini"
+        },
+        {
+          "purpose": "画像を作るなら",
+          "app": "Midjourney"
+        },
+        {
+          "purpose": "スライドを作るなら",
+          "app": "Gamma"
+        },
+        {
+          "purpose": "プログラミングなら",
+          "app": "Kite"
+        },
+        {
+          "purpose": "Webサイトを作るなら",
+          "app": "Squarespace"
+        },
+        {
+          "purpose": "音楽を作るなら",
+          "app": "Udioe"
+        },
+        {
+          "purpose": "質問するなら",
+          "app": "Microsoft Copilot"
+        },
+        {
+          "purpose": "動画制作なら",
+          "app": "Dream Machines"
+        },
+        {
+          "purpose": "LPを作るなら",
+          "app": "Instapage"
+        },
+        {
+          "purpose": "コンテンツを統合するなら",
+          "app": "Microsoft Copilot"
+        }
+      ],
+      "cta": "もう2度と言わないので保存必須です！",
+      "servicePromotion": "【無料年収UP転職はプロフリンクから🧐】",
+      "visualElements": "白背景、黒文字テキスト、リスト形式"
+    },
+    "page3": {
+      "title": "ホワイト企業転職はプロフリンクから",
+      "content": "転職サービスの紹介ページ",
+      "serviceInfo": {
+        "account": "osig_oto48",
+        "description": "転職社長|就活・転職情報",
+        "stats": "392投稿、4.8万フォロワー、3フォロー中",
+        "features": [
+          "転職、就職を考えている",
+          "ホワイト企業で働きたい",
+          "完全無料で転職サポート"
+        ]
+      },
+      "cta": "ここを押してね！ブラック企業を除外してご紹介！",
+      "visualElements": "プロフィール画面、赤い矢印、緑の背景、サービス説明カード"
+    }
+  }
+}

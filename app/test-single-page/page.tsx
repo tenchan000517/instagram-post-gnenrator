@@ -18,7 +18,7 @@ export default function TestSinglePage() {
     
     try {
       // K115.jsonを読み込み (既存システムと同じ動的インポート)
-      const module = await import(`../data/knowledgeBase/knowledge/K115.json`)
+      const module = await import(`../data/knowledgeBase/knowledge/type001/K115.json`)
       const k115Data = module.default || module
       
       console.log('='.repeat(50))

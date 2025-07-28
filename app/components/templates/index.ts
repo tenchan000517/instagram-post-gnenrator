@@ -57,6 +57,11 @@ export { default as ToolsIntroTemplate } from './ToolsIntroTemplate'
 // K001用テンプレート
 export { default as EmotionEmpathyListTemplate } from './EmotionEmpathyListTemplate'
 
+// Type003用業界情報テンプレート
+export { default as IndustryRankingTemplate } from './IndustryRankingTemplate'
+export { default as CompanyDetailTemplate } from './CompanyDetailTemplate'
+export { default as IndustryInfographicTemplate } from './IndustryInfographicTemplate'
+
 // 型定義とユーティリティ
 export * from './TemplateTypes'
 export * from './TemplateRegistry'
@@ -105,6 +110,11 @@ import ToolsIntroTemplate from './ToolsIntroTemplate'
 
 // K001用テンプレートのインポート
 import EmotionEmpathyListTemplate from './EmotionEmpathyListTemplate'
+
+// Type003用業界情報テンプレートのインポート
+import IndustryRankingTemplate from './IndustryRankingTemplate'
+import CompanyDetailTemplate from './CompanyDetailTemplate'
+import IndustryInfographicTemplate from './IndustryInfographicTemplate'
 
 // K117用テンプレートのインポート
 import { NgGoodComparisonTemplate } from './NgGoodComparisonTemplate'
@@ -173,15 +183,33 @@ export const templateComponents = {
   'tool_feature': ToolFeatureTemplate,
   'efficiency_tips': EfficiencyTipsTemplate,
   // 複数アイテム表示テンプレート
-  'multiple_items_display': MultipleItemsDisplayTemplate
+  'multiple_items_display': MultipleItemsDisplayTemplate,
+  // Type003用業界情報テンプレート
+  'industry_ranking': IndustryRankingTemplate,
+  'company_detail': CompanyDetailTemplate,
+  'industry_infographic': IndustryInfographicTemplate
 } as const
 
 // テンプレートレンダラー
-export function renderTemplate(templateType: TemplateType, data: any) {
+export function renderTemplate(
+  templateType: TemplateType, 
+  data: any, 
+  additionalProps?: { postType?: string, targetId?: string }
+) {
   const TemplateComponent = templateComponents[templateType]
   if (!TemplateComponent) {
     console.warn(`Unknown template type: ${templateType}`)
     return null
   }
+  
+  // BasicIntroTemplateの場合のみ追加propsを渡す
+  if (templateType === 'basic_intro') {
+    return TemplateComponent({ 
+      data, 
+      postType: additionalProps?.postType as '001' | '002' | '003' | '004', 
+      targetId: additionalProps?.targetId 
+    })
+  }
+  
   return TemplateComponent({ data })
 }

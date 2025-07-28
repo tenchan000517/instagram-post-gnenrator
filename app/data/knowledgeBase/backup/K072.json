@@ -1,0 +1,101 @@
+{
+  "source": "contents-072",
+  "problemCategory": "AI生産性ツール選択",
+  "problemDescription": "AIツールが多すぎてどれを選べばいいか分からない、業務効率化に役立つAIツールの情報が欲しい",
+  "postType": "004",
+  "postTypeReason": "多数のAI生産性ツールを体系的に分類・整理して提供する実用的な情報コンテンツ",
+  "solutionContent": {
+    "概要": "用途別に分類されたAI生産性ツール一覧を提供し、目的に応じたツール選択を支援",
+    "具体的手順": [
+      "自分の業務領域を特定（万能AI、視覚化、検索等）",
+      "カテゴリ別に推奨ツールを確認",
+      "具体的なツール名とアイコンで識別",
+      "60個の選択肢から最適なツールを選択"
+    ],
+    "提供情報": [
+      "万能AI: ChatGPT、Genspark、Perplexity",
+      "資料作成: Liner、Claude、Suno",
+      "会議録: Notion、Recraft、Grok",
+      "AI生産性ツール総合リスト（60個）",
+      "カテゴリ別分類: マーケティング、動画作成、プログラミング、生産性、デザイン、営業"
+    ],
+    "実用的なアドバイス": [
+      "目的に応じてツールを使い分ける",
+      "複数のAIツールを組み合わせて使う",
+      "各ツールの特徴を理解して適切に選択",
+      "60個のツールから自分に最適なものを見つける"
+    ]
+  },
+  "effectiveExpressions": [
+    "3x3グリッドレイアウトでの直感的なツール配置",
+    "各ツールのオリジナルアイコンと日本語ラベル",
+    "用途別カテゴリーでの色分けと整理",
+    "円形ダイアグラムによる包括的なツール俯瞰"
+  ],
+  "searchKeywords": [
+    "AI生産性ツール", "AIツール一覧", "業務効率化", "ツール選択",
+    "ChatGPT", "Claude", "Notion", "生産性向上", "AIアプリケーション"
+  ],
+  "emotionalTriggers": [
+    "多すぎる選択肢への混乱の解消",
+    "体系化された情報による安心感",
+    "業務効率化への期待と動機",
+    "最適なツール発見への導き"
+  ],
+  "marketingStage": "ビジネスパーソン・AI初心者〜中級者・効率化を求める人",
+  "knowledgeId": "K072",
+  "pageStructurePattern": "",
+  "actualTitle": "モバイルAI推奨✨",
+  "pageCount": 3,
+  "hashTag": "モバイルAIアプリケーション推奨",
+  "detailedContent": {
+    "page1": {
+      "role": "主要AIツール紹介とカテゴリ別整理",
+      "layout": "3x3グリッドレイアウト",
+      "content": {
+        "header": "モバイルAI推奨✨",
+        "categories": {
+          "万能AI": ["ChatGPT", "Genspark", "Perplexity"],
+          "資料作成": ["Liner", "Claude", "Suno"],
+          "会議録作成": ["Notion", "Recraft", "Grok"]
+        },
+        "visualElements": "各ツールの公式アイコンと矢印による使用方向指示"
+      }
+    },
+    "page2": {
+      "role": "包括的なAI生産性ツールリスト",
+      "layout": "カテゴリ別リスト形式",
+      "content": {
+        "header": "AI PRODUCTIVITY TOOLS",
+        "categories": {
+          "AI CHATBOTS": ["ChatGPT", "Claude", "DeepSeek", "Gemini", "Grok", "Meta AI", "MS Copilot", "Perplexity"],
+          "AI PRESENTATION": ["Beautiful.AI", "Gamma", "Pitch", "Plus", "PopAi", "Presentation.Ai", "Slidesgo", "Tome"],
+          "AI CODING ASSISTANCE": ["Askcode", "Codiqa", "Cursor", "GitHub Copilot", "Qodo", "Replit", "Tabnine"],
+          "AI EMAIL ASSISTANCE": ["Clippit.Ai", "Friday", "Mailmaestro", "Shortwave", "Superhuman"],
+          "AI IMAGE GENERATION": ["Adobe Firefly", "DALL-E", "FLUX.1", "Ideogram", "Midjourney", "Recraft", "StableDiffusion"],
+          "AI SPREADSHEET": ["Bricks", "Formula Bot", "Gigasheet", "Rows", "SheetAI"],
+          "AI MEETING NOTES": ["Avoma", "Equal Time", "Fathom", "Fellow.App", "Fireflies", "Krisp", "Otter"],
+          "AI WORKFLOW AUTOMATION": ["Integrately", "Make", "Monday.Com", "N8n", "Pabbly", "Zapier"],
+          "AI WRITING GENERATION": ["Copy.ai", "Grammarly", "Jasper", "Jarvis", "Quarkle", "Quillbot", "Rytr", "Sudowrite", "Writesonic"],
+          "AI SCHEDULING": ["Calendly", "Clockwise", "Motion", "Reclaim AI", "Task Magic", "Trevor AI"],
+          "AI GRAPHIC DESIGN": ["AutoDraw", "Canva", "Design.Com", "Framer", "Microsoft Designer", "Ulizard"],
+          "AI KNOWLEDGE MANAGEMENT": ["Mem", "Notion", "Tettra"],
+          "AI VIDEO GENERATION": ["Descript", "Haiper AI", "InVideo AI", "Kling", "Kreo AI", "LTX Studio", "Luma AI", "Pika AI", "Runway", "Sora"],
+          "AI DATA VISUALIZATION": ["Deckpilot", "Flourish", "Julius", "Visme", "Zing Data"]
+        },
+        "creditInfo": "Techie Programmer ©2025"
+      }
+    },
+    "page3": {
+      "role": "60個のAIツールの全体俯瞰",
+      "layout": "円形ダイアグラム",
+      "content": {
+        "header": "60 AI TOOLS",
+        "centerCategories": ["Marketing", "Video Creation", "Programming", "Productivity", "Design", "Sales"],
+        "toolsArrangement": "カテゴリ別に円周上に配置された60個のAIツール",
+        "visualStructure": "中央にカテゴリ、外周にツールアイコンの同心円構造",
+        "creditInfo": "ai_tech_pro, ai_creation_lab"
+      }
+    }
+  }
+}

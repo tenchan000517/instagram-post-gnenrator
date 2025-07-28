@@ -1,0 +1,252 @@
+{
+  "source": "contents-170",
+  "problemCategory": "ワークライフバランス・ストレス管理",
+  "problemDescription": "週末も仕事のことで頭がいっぱいで全然休めない",
+  "postType": "002",
+  "postTypeReason": "休日の過ごし方に関する12個の実践的な方法を並列的に紹介する実践的ノウハウ伝授型コンテンツ",
+  "targetIds": ["T009", "T010"],
+  "targetReason": "ワークライフバランスとストレス管理は働く女性・男性に共通して必要なスキル",
+  "solutionContent": {
+    "概要": "平日もごきげんになる最高の休日習慣を12個の方法で紹介し、効果的な休息とリフレッシュ方法を提供",
+    "具体的手順": [
+      "金曜夕方から週末の計画を立てる",
+      "土曜日はアクティブに体を動かす",
+      "日曜日はリラックスして自分を甘やかす",
+      "お気に入りの癒しの場所を見つける",
+      "デジタルデトックスで自然を感じる",
+      "未来日記で理想を描く",
+      "意識的に何もしない時間を作る",
+      "セルフインタビューで自分と向き合う",
+      "自分だけのBGMプレイリストを作る",
+      "ごきげんになるタネを仕込んでおく",
+      "行きたい場所リストを作成する",
+      "特別な朝ごはんで1日を始める"
+    ],
+    "提供情報": [
+      "効果的な週末計画の立て方",
+      "アクティブな過ごし方のコツ",
+      "リラックス方法の具体例",
+      "癒し空間の見つけ方",
+      "デジタルデトックスの実践法",
+      "未来日記の書き方",
+      "質の高い休息の取り方",
+      "セルフインタビューの質問例",
+      "気分を上げる音楽活用法",
+      "ごきげん要素の見つけ方",
+      "楽しみの仕込み方",
+      "特別感のある朝ごはんアイデア"
+    ],
+    "実用的なアドバイス": [
+      "金曜日に予定を立てると土曜の朝からスムーズにスタートできる",
+      "体を動かすことで気持ちまでスッキリする",
+      "自分を甘やかす時間で一週間の疲れを癒す",
+      "お気に入りの場所があるだけで心の避難所になる",
+      "スマホを持たずに散歩すると脳がリフレッシュされる",
+      "理想を描くと無意識にそこへ向かう力が湧いてくる",
+      "空白があるからアイデアも心の余白も生まれる",
+      "自分に質問して答えると頭の中がクリアになる",
+      "自分だけのプレイリストで週末の気分が変わる",
+      "楽しいことをストックしておけば平日も楽しみになる",
+      "行きたい場所を保存しておくだけでワクワクする",
+      "特別な朝ごはんで1日のスタートが充実する"
+    ]
+  },
+  "effectiveExpressions": [
+    "平日もごきげん！",
+    "最高の休日習慣",
+    "ちょっとしたコツで休日がグンと充実する",
+    "うまく休むにはコツがある",
+    "保存して後で復習しましょう"
+  ],
+  "searchKeywords": [
+    "休日の過ごし方",
+    "ワークライフバランス",
+    "ストレス解消",
+    "リフレッシュ方法",
+    "週末習慣",
+    "リラクゼーション",
+    "セルフケア",
+    "メンタルヘルス",
+    "気分転換",
+    "休息",
+    "癒し",
+    "デジタルデトックス"
+  ],
+  "emotionalTriggers": [
+    "仕事疲れへの共感",
+    "理想的な休日への憧れ",
+    "実践可能な休息方法の提示",
+    "リフレッシュ効果への期待",
+    "自己管理スキルの向上意欲"
+  ],
+  "marketingStage": "スキルアップ段階（ワークライフバランス・ストレス管理スキル習得時期）",
+  "knowledgeId": "K170",
+  "pageStructurePattern": "typeID002-parallel-introduction",
+  "actualTitle": "平日もごきげん！最高の休日習慣",
+  "pageCount": 9,
+  "detailedContent": {
+    "page1": {
+      "role": "導入・問題提起",
+      "section": "introduction",
+      "content": {
+        "title": "平日もごきげん！",
+        "subtitle": "最高の休日習慣",
+        "problemStatement": "週末も仕事のことで頭がいっぱいで全然休めない。",
+        "hookMessage": "うまく休むにはコツがあります！週末の過ごし方をちょっと変えただけで気分がぜんぜん違います。",
+        "solutionPreview": "休日の過ごし方を変えたらすごくスッキリできたから紹介します！"
+      }
+    },
+    "page2": {
+      "role": "12項目の概要提示",
+      "section": "mainContent",
+      "content": {
+        "title": "まとめ",
+        "methodList": [
+          { "number": "1", "title": "金曜夕方から計画", "imageSrc": "/misaki.png" },
+          { "number": "2", "title": "土曜日はアクティブ", "imageSrc": "/kikuyo.png" },
+          { "number": "3", "title": "日曜日はリラックス", "imageSrc": "/king.png" },
+          { "number": "4", "title": "癒しの場所探し", "imageSrc": "/ten_worry.png" },
+          { "number": "5", "title": "デジタルデトックス", "imageSrc": "/misaki_worry.png" },
+          { "number": "6", "title": "未来日記をかく", "imageSrc": "/kikuyo_worry.png" },
+          { "number": "7", "title": "なにもしない", "imageSrc": "/king_warry.png" },
+          { "number": "8", "title": "セルフインタビュー", "imageSrc": "/iida.png" },
+          { "number": "9", "title": "マイBGMをつくる", "imageSrc": "/misaki.png" },
+          { "number": "10", "title": "ごきげんのタネを仕込む", "imageSrc": "/kikuyo.png" },
+          { "number": "11", "title": "行きたい場所リスト", "imageSrc": "/king.png" },
+          { "number": "12", "title": "贅沢な朝ごはん", "imageSrc": "/ten_worry.png" }
+        ],
+        "saveMessage": "保存して後で復習しましょう！"
+      }
+    },
+    "page3": {
+      "role": "方法1-2",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "1",
+            "title": "金曜夕方から計画",
+            "description": "週末の作戦会議をします。金曜に予定を立てると土曜の朝からいいスタートを切れます",
+            "imageSrc": "/misaki.png"
+          },
+          {
+            "number": "2",
+            "title": "土曜日はアクティブ",
+            "description": "汗をかいて気分爽快になります。外に出て体を動かすと気持ちまでスッキリします",
+            "imageSrc": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "role": "方法3-4",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "3",
+            "title": "日曜日はリラックス",
+            "description": "自分をとことん甘やかします。一週間の疲れを癒して明日からの準備をします",
+            "imageSrc": "/king.png"
+          },
+          {
+            "number": "4",
+            "title": "癒しの場所を探す",
+            "description": "最近はカフェがお気に入りです。お気に入りの場所があるだけで心の避難所になります",
+            "imageSrc": "/ten_worry.png"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "role": "方法5-6",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "5",
+            "title": "デジタルデトックス",
+            "description": "スマホを持たずに散歩してみます。自然を感じると脳がじわ〜っとリフレッシュされます",
+            "imageSrc": "/misaki_worry.png"
+          },
+          {
+            "number": "6",
+            "title": "未来日記をかく",
+            "description": "妄想くらい自由でいいです。理想を描くと無意識にそこへ向かう力が湧いてきます",
+            "imageSrc": "/kikuyo_worry.png"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "role": "方法7-8",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "7",
+            "title": "なにもしない",
+            "description": "サボリじゃない！リセットです。空白があるから、アイデアも心の余白も生まれます",
+            "imageSrc": "/king_warry.png"
+          },
+          {
+            "number": "8",
+            "title": "セルフインタビュー",
+            "description": "自分に仲良くなるって意外と大事です。自分に質問して答えてみると頭の中がクリアになります",
+            "imageSrc": "/iida.png"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "role": "方法9-10",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "9",
+            "title": "マイBGMをつくる",
+            "description": "音って思ってる以上に魔法です。自分だけのプレイリストで週末の気分がぐっと変わります",
+            "imageSrc": "/misaki.png"
+          },
+          {
+            "number": "10",
+            "title": "ごきげんのタネを仕込む",
+            "description": "なにをすると楽しいか考えます。週末にその方法をストックしておけば平日も楽しみになります",
+            "imageSrc": "/kikuyo.png"
+          }
+        ]
+      }
+    },
+    "page8": {
+      "role": "方法11-12",
+      "section": "mainContent",
+      "content": {
+        "items": [
+          {
+            "number": "11",
+            "title": "行きたい場所リスト",
+            "description": "未来の楽しみを仕込んでおきます。Googleマップに保存しておくだけでもワクワクしますね",
+            "imageSrc": "/king.png"
+          },
+          {
+            "number": "12",
+            "title": "贅沢な朝ごはん",
+            "description": "朝から元気モリモリになります。特別な朝ごはんを作るだけで1日のスタートが充実します",
+            "imageSrc": "/ten_worry.png"
+          }
+        ]
+      }
+    },
+    "page9": {
+      "role": "まとめ・励まし",
+      "section": "summary",
+      "content": {
+        "title": "休日習慣で人生が変わる",
+        "summary": "この12個の休日習慣を取り入れることで、平日もごきげんで過ごせるようになります。",
+        "encouragement": "すべてを一度にやる必要はありません。気になるものから1つずつ試して、自分にぴったりの休日スタイルを見つけてください。",
+        "actionCall": "今度の週末に、1つでも試してみてくださいね。"
+      }
+    }
+  }
+}

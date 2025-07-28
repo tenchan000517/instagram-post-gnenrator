@@ -16,68 +16,35 @@ export default function AchievementSummaryTemplate({ data }: AchievementSummaryT
     encouragementMessage = ''
   } = data || {};
   return (
-    <div className="w-full h-full bg-gradient-to-b from-blue-50 to-white flex flex-col justify-center items-center p-8 relative">
+    <div className="w-full h-full bg-gradient-to-b from-blue-50 to-white flex flex-col justify-center items-center p-6 relative">
       {/* まとめタイトル */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-5">
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800 leading-tight">
           {summaryTitle}
         </h1>
       </div>
 
       {/* 達成ポイントリスト */}
-      <div className="w-full max-w-2xl mb-8">
-        <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
-          <div className="space-y-4">
-            {achievementPoints.map((point, index) => (
-              <div key={index} className="flex items-start space-x-4">
-                {/* ポイント番号 */}
-                <div className="flex-shrink-0 w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
-                  {index + 1}
+      <div className="w-full max-w-xl">
+        <div className="bg-white rounded-lg shadow-sm border border-gray-100 px-3 py-4 flex justify-center">
+          <div className="text-left">
+            <div className="space-y-1">
+              {achievementPoints.map((point, index) => (
+                <div key={index} className="flex items-start space-x-4">
+                  {/* ポイント番号 - シンプルテキスト */}
+                  <span className="flex-shrink-0 text-2xl font-bold text-blue-500 pt-1">
+                    {index + 1}.
+                  </span>
+                  {/* ポイント内容 */}
+                  <p className="text-gray-700 text-2xl font-bold leading-relaxed flex-1 pt-1">
+                    {point}
+                  </p>
                 </div>
-                {/* ポイント内容 */}
-                <p className="text-gray-700 text-lg leading-relaxed flex-1 pt-1">
-                  {point}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* 成功イメージイラスト */}
-      <div className="mb-8">
-        <div className="relative">
-          {/* 成功を表現するシンプルなイラスト */}
-          <div className="w-24 h-24 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center">
-            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-              <div className="w-8 h-8 border-4 border-green-500 rounded-full flex items-center justify-center">
-                <div className="w-3 h-2 border-l-2 border-b-2 border-green-500 transform rotate-45 translate-y-[-1px]"></div>
-              </div>
+              ))}
             </div>
           </div>
-          {/* 装飾的な要素 */}
-          <div className="absolute -top-2 -right-2 w-4 h-4 bg-yellow-400 rounded-full"></div>
-          <div className="absolute -bottom-2 -left-2 w-3 h-3 bg-pink-400 rounded-full"></div>
-          <div className="absolute top-2 -left-4 w-2 h-2 bg-blue-400 rounded-full"></div>
         </div>
       </div>
-
-      {/* 励ましメッセージ */}
-      <div className="text-center max-w-lg">
-        <p className="text-gray-700 text-lg leading-relaxed font-medium">
-          {encouragementMessage}
-        </p>
-      </div>
-
-      {/* 完了を示すバッジ */}
-      <div className="absolute top-6 right-6">
-        <div className="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium">
-          Complete!
-        </div>
-      </div>
-
-      {/* フッター装飾 */}
-      <div className="absolute bottom-0 left-0 right-0 h-2 bg-gradient-to-r from-blue-400 via-green-400 to-purple-400"></div>
     </div>
   );
 }

@@ -1,0 +1,1543 @@
+{
+  "summary": {
+    "total_count": 153,
+    "post_type_distribution": {
+      "001": 18,
+      "002": 54,
+      "003": 38,
+      "004": 43
+    }
+  },
+  "detailed_analysis": [
+    {
+      "knowledgeId": "K001",
+      "postType": "001",
+      "actualTitle": "家庭・育児・キャリア！働く女性の不安あるある７選",
+      "problemDescription": "働く女性が職場で「女性だから」という理由で雑用を任される、体調不良時の仕事継続の困難、結婚・出産とキャリアの両立への不安、職場での男女格差、将来への漠然とした不安を抱えている",
+      "solutionOverview": "働く女性のキャリア・職場環境の悩みを共有し、共感とヒントを提供",
+      "problemCategory": "働く女性のキャリア・職場環境",
+      "uniqueValue": "",
+      "fileName": "K001.json"
+    },
+    {
+      "knowledgeId": "K002",
+      "postType": "002",
+      "actualTitle": "女性が困らない働き方のヒント",
+      "problemDescription": "女性が将来への不安、キャリア継続の不安、結婚・出産・介護などのライフイベントに振り回されずに安定したキャリアを築きたいと考えている",
+      "solutionOverview": "女性が一生安心できるキャリアを築くための7つの具体的ポイント",
+      "problemCategory": "女性のキャリア形成・働き方改革",
+      "uniqueValue": "",
+      "fileName": "K002.json"
+    },
+    {
+      "knowledgeId": "K003",
+      "postType": "003",
+      "actualTitle": "AI上級者がこそって使う...自動で指示文をつくる7ステップ",
+      "problemDescription": "AIを使った記事作成で収益化を目指したいが、具体的な手順や効果的な活用方法がわからない",
+      "solutionOverview": "AI上級者が使用する自動指示文作成の7ステップと実績公開",
+      "problemCategory": "AI活用・副業収入",
+      "uniqueValue": "",
+      "fileName": "K003.json"
+    },
+    {
+      "knowledgeId": "K004",
+      "postType": "002",
+      "actualTitle": "【完全版】感情×論理の包括的自己分析マスターガイド",
+      "problemDescription": "自己分析が必要だが、具体的な方法が分からない。同時にモヤモヤ感や将来への不安も抱えている。論理的分析と感情的理解の両面から自己を完璧に把握したい",
+      "solutionOverview": "感情と論理の両面からアプローチする包括的自己分析マスターガイド。内面的モヤモヤの解消から客観的自己理解まで完全網羅",
+      "problemCategory": "包括的自己分析完全マスター",
+      "uniqueValue": "",
+      "fileName": "K004.json"
+    },
+    {
+      "knowledgeId": "K005",
+      "postType": "002",
+      "actualTitle": "副業スタートガイド",
+      "problemDescription": "副業を始めたいが何から始めていいか分からない、強みもスキルもないと感じている女性",
+      "solutionOverview": "副業スタートガイドとして4ステップで月5万円の目標達成方法を提示",
+      "problemCategory": "副業・起業支援",
+      "uniqueValue": "",
+      "fileName": "K005.json"
+    },
+    {
+      "knowledgeId": "K007",
+      "postType": "003",
+      "actualTitle": "元大手人事部が教える！転職で無双する人の特徴",
+      "problemDescription": "転職を成功させたい、転職で無双したい、何が転職成功の要因かを知りたい",
+      "solutionOverview": "元大手人事部の視点から、転職で無双する人の具体的な5つの特徴を解説",
+      "problemCategory": "転職成功・キャリアアップ",
+      "uniqueValue": "",
+      "fileName": "K007.json"
+    },
+    {
+      "knowledgeId": "K008",
+      "postType": "001",
+      "actualTitle": "社会人5,6年超えてからこの力がないと苦しくなる...",
+      "problemDescription": "社会人5,6年目を超えてから仕事の評価が上がらない、効率的に仕事をしているのに評価されない、この力がないと苦しくなると悩んでいる",
+      "solutionOverview": "社会人5,6年目を超えてからこの力がないと苦しくなる状況への共感と解決のヒント提示",
+      "problemCategory": "仕事の効率・スキル不足",
+      "uniqueValue": "",
+      "fileName": "K008.json"
+    },
+    {
+      "knowledgeId": "K009",
+      "postType": "004",
+      "actualTitle": "ChatGPTしか使っていない人は損！最強のAIアプリ12選",
+      "problemDescription": "ChatGPTしか使っていない、他の有益なAIアプリを知りたい、AIツールで効率化を図りたい",
+      "solutionOverview": "ChatGPT以外の最強AIアプリ12選を目的別に紹介し、業務効率化に役立つツールを提供",
+      "problemCategory": "AI活用・効率化ツール",
+      "uniqueValue": "",
+      "fileName": "K009.json"
+    },
+    {
+      "knowledgeId": "K010",
+      "postType": "002",
+      "actualTitle": "【完全版】就活電話マナー完全マスターガイド",
+      "problemDescription": "就活における電話でのマナーが分からない、電話対応で失敗したくない、正しい電話の掛け方や話し方を知りたい。準備から実践まで包括的な電話スキルを習得したい",
+      "solutionOverview": "就活における電話対応の完全マスターガイド。事前準備・基本マナー・クッション言葉・実践トーク例・折り返し対応まで、段階的かつ包括的に解説した統合版電話スキル習得コンテンツ",
+      "problemCategory": "就活マナー・電話対応",
+      "uniqueValue": "",
+      "fileName": "K010.json"
+    },
+    {
+      "knowledgeId": "K011",
+      "postType": "003",
+      "actualTitle": "業界と職種その違いは？",
+      "problemDescription": "就活生が業界と職種の違いを理解できていない、どのような職種があるのか知りたい",
+      "solutionOverview": "業界と職種の違いを明確に定義し、代表的な8つの職種とその仕事内容を紹介",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K011.json"
+    },
+    {
+      "knowledgeId": "K012",
+      "postType": "004",
+      "actualTitle": "満足度が高い隠れ優良メーカー7選",
+      "problemDescription": "就活生が社員満足度が高く、働きやすい隠れ優良メーカーを知りたい",
+      "solutionOverview": "社員満足度が高い隠れ優良メーカー7社を詳細データとともに紹介",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K012.json"
+    },
+    {
+      "knowledgeId": "K016",
+      "postType": "003",
+      "actualTitle": "クスリのアオキきっつすぎ...",
+      "problemDescription": "くすりのアオキの説明会情報や労働条件がどうなっているか知りたい就活生が情報を求めている",
+      "solutionOverview": "くすりのアオキの説明会開催と労働条件の実態を詳しく説明",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K016.json"
+    },
+    {
+      "knowledgeId": "K017",
+      "postType": "003",
+      "actualTitle": "就活生が感じたこと 5月の就活本音5選",
+      "problemDescription": "5月の就活生が実際に感じた本音や悩みを知りたい就活生が体験談や心境の情報を求めている",
+      "solutionOverview": "フォロワーから募集した5月の就活で感じた本音を5つ紹介し、就活のマインドセットをアドバイス",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K017.json"
+    },
+    {
+      "knowledgeId": "K018",
+      "postType": "003",
+      "actualTitle": "【就活】業界マップ",
+      "problemDescription": "就活生が各業界がどんな人材を求めているか知りたいと思っており、業界選択の参考となる情報を求めている",
+      "solutionOverview": "業界マップを通じて各業界が求める人材像と代表企業を一覧で紹介し、就活生の業界選択をサポート",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K018.json"
+    },
+    {
+      "knowledgeId": "K021",
+      "postType": "004",
+      "actualTitle": "家賃補助すごい会社8選",
+      "problemDescription": "就活生が生活費を抑えて経済的に安定したい、特に家賃補助がある企業を知りたい",
+      "solutionOverview": "家賃補助・住宅手当がある大手企業8社を紹介し、具体的な補助金額を明示",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K021.json"
+    },
+    {
+      "knowledgeId": "K022",
+      "postType": "004",
+      "actualTitle": "学歴よりも評価される資格10選",
+      "problemDescription": "就職・転職で学歴より評価される実用的な資格を知りたい、キャリアアップに役立つ資格情報が欲しい",
+      "solutionOverview": "就職・転職で学歴以上に評価される実用的な資格10選を業界別に紹介",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K022.json"
+    },
+    {
+      "knowledgeId": "K023",
+      "postType": "002",
+      "actualTitle": "「そりゃ内定だわ」大学3年の7月",
+      "problemDescription": "大学3年生の7月にインターンシップ準備で何をすべきか分からない、就活のスタートダッシュを切りたい",
+      "solutionOverview": "大学3年生の7月に実施すべきインターンシップ準備の7つのステップを段階的に解説",
+      "problemCategory": "目的",
+      "uniqueValue": "",
+      "fileName": "K023.json"
+    },
+    {
+      "knowledgeId": "K024",
+      "postType": "003",
+      "actualTitle": "まだ内定0でもいける大手企業5社",
+      "problemDescription": "26卒で内定0でも大手企業に入れる情報を知りたい",
+      "solutionOverview": "まだエントリー可能な大手企業5社の詳細情報を提供",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K024.json"
+    },
+    {
+      "knowledgeId": "K026",
+      "postType": "003",
+      "actualTitle": "インターンで内定できる高倍率企業TOP50",
+      "problemDescription": "大学生がインターンシップで内定につながりやすい高倍率企業の情報を知りたい、どの企業が採用実績があるか調べたい",
+      "solutionOverview": "インターンで内定できる高倍率企業TOP50をランキング形式で提供し、各企業の業種と採用状況を明示",
+      "problemCategory": "インターン情報収集",
+      "uniqueValue": "",
+      "fileName": "K026.json"
+    },
+    {
+      "knowledgeId": "K027",
+      "postType": "001",
+      "actualTitle": "面接で聞かれて心臓止まった質問まとめ",
+      "problemDescription": "面接で聞かれて困った質問に対してとりあえず回答してみたけど、面接官の反応がイマイチで心臓止まりそうになる、動揺している様子が相手にも伝わってしまう",
+      "solutionOverview": "面接で聞かれて困った質問への具体的な回答方法と、想定外質問に対する心構えや対処テクニックを提供",
+      "problemCategory": "面接不安・緊張",
+      "uniqueValue": "",
+      "fileName": "K027.json"
+    },
+    {
+      "knowledgeId": "K028",
+      "postType": "003",
+      "actualTitle": "これぐらい答えろよ人事呆れる挫折経験",
+      "problemDescription": "人事から聞かれる挫折経験やストレス対策の質問にどう答えればよいかわからない、模範回答を知りたい",
+      "solutionOverview": "面接でよく聞かれる挫折経験やストレス対策等の質問に対する具体的な回答ポイントと模範回答例を提供",
+      "problemCategory": "面接質問対策",
+      "uniqueValue": "",
+      "fileName": "K028.json"
+    },
+    {
+      "knowledgeId": "K029",
+      "postType": "004",
+      "actualTitle": "あ…この子のガクチカ不採用だ…",
+      "problemDescription": "大学時代の実績や資格がない凡人学生でも面接でアピールできる方法を知りたい、ガクチカが微妙で不安",
+      "solutionOverview": "現役人事が微妙だと思うガクチカの特徴を整理し、それを魅力的に見せる5つの手法を提供",
+      "problemCategory": "学生時代アピール方法",
+      "uniqueValue": "",
+      "fileName": "K029.json"
+    },
+    {
+      "knowledgeId": "K030",
+      "postType": "001",
+      "actualTitle": "27卒 ガクチカ書くことない…",
+      "problemDescription": "27卒でガクチカ書くことないと悩んでいる、大学とバイトだけで目立つことしてなくて困っている",
+      "solutionOverview": "経験が少ない人でもガクチカ作成のコツを理解し、企業が求める視点で自分の経験を再評価できるようになる",
+      "problemCategory": "ガクチカ作成不安",
+      "uniqueValue": "",
+      "fileName": "K030.json"
+    },
+    {
+      "knowledgeId": "K031",
+      "postType": "003",
+      "actualTitle": "学生よ、これが残業多い職種だ...",
+      "problemDescription": "学生が職種選びで残業の多い・少ない職種について知りたい、就活をいつから始めればよいか分からない",
+      "solutionOverview": "残業の多い職種と少ない職種をランキング形式で情報提供し、就活は早めに始めるべきことを説明",
+      "problemCategory": "就活・キャリア",
+      "uniqueValue": "",
+      "fileName": "K031.json"
+    },
+    {
+      "knowledgeId": "K032",
+      "postType": "001",
+      "actualTitle": "まだ黒髪にしてない3年生へ",
+      "problemDescription": "大学3年生が髪を黒髪にしてないことで就活への不安を抱いている、自分の経歴やスペックに自信がない",
+      "solutionOverview": "低スペックでも大手企業に内定できた実体験を通じて、早期の就活開始の重要性を伝える",
+      "problemCategory": "就活・キャリア",
+      "uniqueValue": "",
+      "fileName": "K032.json"
+    },
+    {
+      "knowledgeId": "K033",
+      "postType": "004",
+      "actualTitle": "「あ、この子採用したい」と思われる自己PR",
+      "problemDescription": "学生が自己PRが苦手で、どのように自分の強みをアピールすれば良いかわからない",
+      "solutionOverview": "人事担当者の視点から好印象な自己PRの作り方を5つのポイントで解説",
+      "problemCategory": "就活・キャリア",
+      "uniqueValue": "",
+      "fileName": "K033.json"
+    },
+    {
+      "knowledgeId": "K034",
+      "postType": "003",
+      "actualTitle": "27卒のES添削募集中 インターン合格獲得 TODO一覧表 7月",
+      "problemDescription": "27卒大学生がインターンシップの合格獲得やES添削、面接対策で困っている",
+      "solutionOverview": "インターンシップ合格に向けた8段階のTODOリストと各段階の詳細な質問・対策を提供",
+      "problemCategory": "就職活動・インターンシップ",
+      "uniqueValue": "",
+      "fileName": "K034.json"
+    },
+    {
+      "knowledgeId": "K035",
+      "postType": "004",
+      "actualTitle": "7/13〜20〆切 夏インターン企業30選",
+      "problemDescription": "大学生が夏インターンシップの締切情報や企業選択で困っている、適切な企業情報を見つけられない",
+      "solutionOverview": "7/13〜20締切の夏インターンシップ企業30選の詳細情報を業界別・日程別に整理して提供",
+      "problemCategory": "就職活動・インターンシップ",
+      "uniqueValue": "",
+      "fileName": "K035.json"
+    },
+    {
+      "knowledgeId": "K036",
+      "postType": "003",
+      "actualTitle": "7月〜切27卒夏インターン大手企業18選",
+      "problemDescription": "27卒学生が夏インターンの大手企業選びで悩んでいる、インターンシップ応募企業を18選知りたい",
+      "solutionOverview": "27卒向け夏インターン大手企業18社を締切日付別に整理して提供",
+      "problemCategory": "インターンシップ選び",
+      "uniqueValue": "",
+      "fileName": "K036.json"
+    },
+    {
+      "knowledgeId": "K037",
+      "postType": "001",
+      "actualTitle": "夏インターンは8社合格",
+      "problemDescription": "夏インターンで8社合格してもその後「なんとかなる」と思い自己流でやって痛い目を見た、変わりたいが方法がわからない",
+      "solutionOverview": "実績や資格がない凡人学生でも大手3社内定できた攻略法をテキストで提供",
+      "problemCategory": "就活内定獲得の悩み",
+      "uniqueValue": "",
+      "fileName": "K037.json"
+    },
+    {
+      "knowledgeId": "K038",
+      "postType": "001",
+      "actualTitle": "人事が思う「イタイ」就活生の特徴",
+      "problemDescription": "人事が思う「イタイ」就活生の特徴について知りたい、就活で失敗したくない、何から始めればいいかわからない",
+      "solutionOverview": "人事が思う「イタイ」就活生の特徴を漫画で紹介し、就活を早くスタートすることの重要性を説明、具体的な攻略法を提供",
+      "problemCategory": "就活内定獲得の悩み",
+      "uniqueValue": "",
+      "fileName": "K038.json"
+    },
+    {
+      "knowledgeId": "K039",
+      "postType": "003",
+      "actualTitle": "27卒のES添削募集中 伊藤忠 平凡な経験 ES9割",
+      "problemDescription": "27卒の学生がESの添削方法や書き方がわからない、平凡な経験しかない体育会学生のES9割通過方法を知りたい",
+      "solutionOverview": "平凡な経験の体育会学生でもES9割通過した実体験とノウハウ、改善点を詳細に解説し、最終的にテキスト+動画講座を提供",
+      "problemCategory": "エントリーシート作成の悩み",
+      "uniqueValue": "",
+      "fileName": "K039.json"
+    },
+    {
+      "knowledgeId": "K040",
+      "postType": "002",
+      "actualTitle": "ガクチカ優秀ネタ30選",
+      "problemDescription": "エピソードがなくてガクチカが書けない、ホワイト企業への入社が難しいと感じている、どうやってガクチカを作るかわからない",
+      "solutionOverview": "様々な活動経験から30の優秀なエピソードを抽出し、ガクチカ作成のための具体的な活動例を体系化して提供、最終的に攻略法テキストを提供",
+      "problemCategory": "ガクチカ作成の悩み",
+      "uniqueValue": "",
+      "fileName": "K040.json"
+    },
+    {
+      "knowledgeId": "K041",
+      "postType": "001",
+      "actualTitle": "大学3年7月 何してでも言いたいこと",
+      "problemDescription": "大学3年7月という時期に就活で何をすればいいかわからない学生の悩み、インターン応募やESの書き方、企業選択について困っている",
+      "solutionOverview": "大学3年7月の就活生がやるべき7つのことを提示し、具体的な行動指針を提供",
+      "problemCategory": "就職活動",
+      "uniqueValue": "",
+      "fileName": "K041.json"
+    },
+    {
+      "knowledgeId": "K042",
+      "postType": "003",
+      "actualTitle": "大学3年なら知らんとやばいガチの就活スケジュール",
+      "problemDescription": "大学3年生が就活をいつから始めるべきか分からない、やばいガチの就活スケジュールを知りたいというニーズ",
+      "solutionOverview": "大学3年生向けの時期別就活スケジュールを月ごとに詳細に提示し、各時期にやるべきことを具体的に説明",
+      "problemCategory": "就職活動",
+      "uniqueValue": "",
+      "fileName": "K042.json"
+    },
+    {
+      "knowledgeId": "K043",
+      "postType": "004",
+      "actualTitle": "穴場で大手 5月が狙い目の優良企業6選",
+      "problemDescription": "5月が狙い目の優良企業を知りたい就活生のニーズ、穴場で大手企業に駆け込みエントリーしたいという情報需要",
+      "solutionOverview": "5月が狙い目の優良企業6社を具体的に紹介し、各企業の特徴・年収・応募締切情報を詳細提供",
+      "problemCategory": "就職活動",
+      "uniqueValue": "",
+      "fileName": "K043.json"
+    },
+    {
+      "knowledgeId": "K044",
+      "postType": "004",
+      "actualTitle": "就活落ちたらABABA",
+      "problemDescription": "学歴フィルターにより大手企業への就職が困難で、学歴に関係なく採用してくれる優良企業の情報が必要",
+      "solutionOverview": "学歴フィルターを設けずに大量採用している企業42社を業界別に分類して紹介",
+      "problemCategory": "就職活動",
+      "uniqueValue": "",
+      "fileName": "K044.json"
+    },
+    {
+      "knowledgeId": "K045",
+      "postType": "003",
+      "actualTitle": "選考に鬼門になる適性検査 こう解け",
+      "problemDescription": "就職活動中の学生が適性検査（能力診断・性格診断）の対策に不安を感じており、特に学力問題（非言語系・言語系）の解き方やWebテストの種類の見分け方がわからず困っている",
+      "solutionOverview": "適性検査を突破するための具体的な対策方法と攻略のコツを体系的に提供",
+      "problemCategory": "就職活動の適性検査対策",
+      "uniqueValue": "",
+      "fileName": "K045.json"
+    },
+    {
+      "knowledgeId": "K046",
+      "postType": "003",
+      "actualTitle": "これで大丈夫 SPI頻出語句70選",
+      "problemDescription": "SPIが苦手で大手の選考通過に自信がない、面接で自信を持って受け答えできない",
+      "solutionOverview": "SPI頻出語句70選を覚えることで大丈夫になると解決策を提示",
+      "problemCategory": "就活・面接",
+      "uniqueValue": "",
+      "fileName": "K046.json"
+    },
+    {
+      "knowledgeId": "K047",
+      "postType": "004",
+      "actualTitle": "もう迷わない！業界別就活軸",
+      "problemDescription": "27卒の就活生が業界選択に迷っており、自分に合った業界や働く環境を見つけたい",
+      "solutionOverview": "主要5業界（商社・マスコミ・エンタメ・コンサル・メーカー・IT・インフラ）の志望動機例を提示",
+      "problemCategory": "就活・業界選択",
+      "uniqueValue": "",
+      "fileName": "K047.json"
+    },
+    {
+      "knowledgeId": "K048",
+      "postType": "002",
+      "actualTitle": "今の時期企業研究ガチれ",
+      "problemDescription": "企業研究のやり方が分からない、どこを見ればいいか分からない、何が正解かが不明",
+      "solutionOverview": "企業研究の目的・メリット・注意点・具体的な進め方を体系的に解説",
+      "problemCategory": "就活・企業研究",
+      "uniqueValue": "",
+      "fileName": "K048.json"
+    },
+    {
+      "knowledgeId": "K049",
+      "postType": "004",
+      "actualTitle": "効率よく仕事をこなせる 仕事が早い人の最強の習慣",
+      "problemDescription": "仕事が遅く効率よく仕事をこなせない、生産性を上げたい",
+      "solutionOverview": "仕事が早い人の8つの最強習慣を体系的に紹介",
+      "problemCategory": "仕事効率・生産性向上",
+      "uniqueValue": "",
+      "fileName": "K049.json"
+    },
+    {
+      "knowledgeId": "K050",
+      "postType": "001",
+      "actualTitle": "仕事がデキない人 特徴7選",
+      "problemDescription": "仕事ができない・仕事選びに失敗する・自己理解ができていない・キャリア迷い",
+      "solutionOverview": "仕事がデキない人の7つの特徴を分析し、自己理解と言語化による解決方法を提示",
+      "problemCategory": "仕事・自己理解・キャリア選択",
+      "uniqueValue": "",
+      "fileName": "K050.json"
+    },
+    {
+      "knowledgeId": "K051",
+      "postType": "003",
+      "actualTitle": "意外と知らない 休日が多くて稼げる仕事 9選",
+      "problemDescription": "休日をしっかり取りたいが給料も下げたくない。お給料は上げたいけど休日は欲しい、できるなら稼ぎたい、仕事と休日のバランスが大事という働き方の悩み",
+      "solutionOverview": "休日が多くて稼げる9つの職業を年収・平均年間休日・特徴とともに紹介",
+      "problemCategory": "キャリア・職業選択",
+      "uniqueValue": "",
+      "fileName": "K051.json"
+    },
+    {
+      "knowledgeId": "K052",
+      "postType": "001",
+      "actualTitle": "ゆるキャリマインド 仕事はもっと楽でいい",
+      "problemDescription": "ブラック企業で仕事がしんどい、自分の目に映るものがすべてじゃない、優秀に見えるあの人も実は疲れて怒られたりしている状況で悩んでいる",
+      "solutionOverview": "「ゆるキャリマインド」を持つことで仕事を楽しく、ストレスなく働く方法を提案",
+      "problemCategory": "キャリア・働き方マインドセット",
+      "uniqueValue": "",
+      "fileName": "K052.json"
+    },
+    {
+      "knowledgeId": "K053",
+      "postType": "003",
+      "actualTitle": "やめない方が良い職場6選",
+      "problemDescription": "今の職場に恵まれているかわからない、良い職場を見極めたい",
+      "solutionOverview": "やめない方が良い職場の6つの特徴を順次説明し、職場環境をチェックする指標を提供",
+      "problemCategory": "転職・職場選び",
+      "uniqueValue": "",
+      "fileName": "K053.json"
+    },
+    {
+      "knowledgeId": "K054",
+      "postType": "003",
+      "actualTitle": "繊細でしんどい内向型さん向いてる仕事24選",
+      "problemDescription": "繊細でしんどい内向型の人が自分に合った仕事を見つけたい",
+      "solutionOverview": "内向型の4つのタイプ別に特徴と適職を説明し、自分らしく働くための仕事選びのコツを提供",
+      "problemCategory": "性格タイプ・適職分析",
+      "uniqueValue": "",
+      "fileName": "K054.json"
+    },
+    {
+      "knowledgeId": "K055",
+      "postType": "003",
+      "actualTitle": "頭の回転が良い人考え方21選",
+      "problemDescription": "頭の回転が悪い、会話がうまくできない、考え方を知りたい",
+      "solutionOverview": "頭の回転が良い人の21の特徴を番号付きで体系的に紹介し、思考力向上の参考情報を提供",
+      "problemCategory": "コミュニケーション・対話力",
+      "uniqueValue": "",
+      "fileName": "K055.json"
+    },
+    {
+      "knowledgeId": "K056",
+      "postType": "004",
+      "actualTitle": "仕事が超早い人の特徴9選",
+      "problemDescription": "仕事が遅く効率が悪い、仕事を早く終わらせるための特徴や行動を知りたい",
+      "solutionOverview": "仕事が早い人に共通する9つの特徴を提示し、効率化のための行動指針を提供",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K056.json"
+    },
+    {
+      "knowledgeId": "K057",
+      "postType": "004",
+      "actualTitle": "バリバリ仕事ができる人特徴7選",
+      "problemDescription": "仕事ができない、バリバリ仕事ができる人になりたい、効率的に仕事を進める特徴を知りたい",
+      "solutionOverview": "バリバリ仕事ができる人の7つの特徴を各ページで詳しく説明し、実践可能な行動指針を提供",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K057.json"
+    },
+    {
+      "knowledgeId": "K058",
+      "postType": "003",
+      "actualTitle": "30代から始めても遅くない！\"手に職系\"の仕事8選",
+      "problemDescription": "30代から新しい職種に挑戦したい、柔軟な働き方がしたい、一生続けられる職種にキャリアチェンジしたい",
+      "solutionOverview": "30代から始めても遅くない8つの職種を詳しく紹介し、各職種の仕事内容と必要なスキルを具体的に説明",
+      "problemCategory": "キャリア選択",
+      "uniqueValue": "",
+      "fileName": "K058.json"
+    },
+    {
+      "knowledgeId": "K059",
+      "postType": "002",
+      "actualTitle": "",
+      "problemDescription": "",
+      "solutionOverview": "",
+      "problemCategory": "",
+      "uniqueValue": "",
+      "fileName": "K059.json"
+    },
+    {
+      "knowledgeId": "K060",
+      "postType": "001",
+      "actualTitle": "",
+      "problemDescription": "",
+      "solutionOverview": "",
+      "problemCategory": "",
+      "uniqueValue": "",
+      "fileName": "K060.json"
+    },
+    {
+      "knowledgeId": "K061",
+      "postType": "003",
+      "actualTitle": "メンタルが強い人が「やらない」3つの習慣",
+      "problemDescription": "仕事でプレッシャーやストレスと向き合いながら誰もが「もっとメンタルを強くしたい」と願う中で、ストレスに対処する具体的な方法や習慣を知りたい",
+      "solutionOverview": "メンタルが強い人が実践する3つの習慣（不安を放置しない、空気を読みすぎない、覚えることをしない）を理論と実践方法で解説",
+      "problemCategory": "メンタル強化・ストレス対処法",
+      "uniqueValue": "",
+      "fileName": "K061.json"
+    },
+    {
+      "knowledgeId": "K062",
+      "postType": "004",
+      "actualTitle": "未来に強い資格5選",
+      "problemDescription": "将来に強い資格を取りたいが、どの資格を選べばよいかわからない",
+      "solutionOverview": "将来に強い5つの資格（日本語教師、キャリアコンサルタント、心理学・カウンセラー、ファイナンシャルプランナー、介護職員初任者研修）を詳しく紹介",
+      "problemCategory": "キャリア・転職",
+      "uniqueValue": "",
+      "fileName": "K062.json"
+    },
+    {
+      "knowledgeId": "K063",
+      "postType": "001",
+      "actualTitle": "上司との関係・嫌・壊",
+      "problemDescription": "上司との関係が悪い、付き合いが苦手で避けてしまう",
+      "solutionOverview": "上司との付き合いを上手くやるための5つのNG行動を避け、良好な関係を築く方法",
+      "problemCategory": "職場・上司関係",
+      "uniqueValue": "",
+      "fileName": "K063.json"
+    },
+    {
+      "knowledgeId": "K064",
+      "postType": "002",
+      "actualTitle": "仕事がデキる人の指示整理術",
+      "problemDescription": "仕事ができる人の指示の出し方がわからない、上司として部下への指示が苦手",
+      "solutionOverview": "仕事ができる人の指示整理術を5つのステップで実践する方法",
+      "problemCategory": "仕事・業務効率",
+      "uniqueValue": "",
+      "fileName": "K064.json"
+    },
+    {
+      "knowledgeId": "K065",
+      "postType": "001",
+      "actualTitle": "優等生系無能タイプ",
+      "problemDescription": "完璧主義で働いても動けない、勉強や仕事で失敗することへの恐怖",
+      "solutionOverview": "優等生タイプの「完璧じゃないと動けない」悩みを克服する考え方と実践方法",
+      "problemCategory": "学習・自己啓発・成長",
+      "uniqueValue": "",
+      "fileName": "K065.json"
+    },
+    {
+      "knowledgeId": "K071",
+      "postType": "004",
+      "actualTitle": "2020年と2025年のツール比較",
+      "problemDescription": "AIの急速な発展により、従来のツールから新しいAIツールへの移行が必要だが、どのツールを選ぶべきか分からない",
+      "solutionOverview": "2020年と2025年の主要ツールを比較し、現在有効なAIツールを紹介",
+      "problemCategory": "AIツール・技術革新への対応",
+      "uniqueValue": "",
+      "fileName": "K071.json"
+    },
+    {
+      "knowledgeId": "K072",
+      "postType": "004",
+      "actualTitle": "モバイルAI推奨✨",
+      "problemDescription": "AIツールが多すぎてどれを選べばいいか分からない、業務効率化に役立つAIツールの情報が欲しい",
+      "solutionOverview": "用途別に分類されたAI生産性ツール一覧を提供し、目的に応じたツール選択を支援",
+      "problemCategory": "AI生産性ツール選択",
+      "uniqueValue": "",
+      "fileName": "K072.json"
+    },
+    {
+      "knowledgeId": "K073",
+      "postType": "002",
+      "actualTitle": "コスパ良すぎ、AI就活の正解はコレ",
+      "problemDescription": "AI就活のコスパがよいことは知っているが、具体的な活用方法や正しい使い方がわからない",
+      "solutionOverview": "就活ガチ勢100人への調査結果に基づいたAI活用術を5つの具体的な手法で解説",
+      "problemCategory": "AI就活活用方法がわからない",
+      "uniqueValue": "",
+      "fileName": "K073.json"
+    },
+    {
+      "knowledgeId": "K074",
+      "postType": "004",
+      "actualTitle": "とんでもない就活AIが登場した",
+      "problemDescription": "時間が足りない、もっとスキマ時間に効率よく就活したいがどうすればいいかわからない",
+      "solutionOverview": "就活パイセンというAI就活支援サービスの機能とメリットを紹介し、効率的な就活を実現",
+      "problemCategory": "効率的な就活ツール不足",
+      "uniqueValue": "",
+      "fileName": "K074.json"
+    },
+    {
+      "knowledgeId": "K075",
+      "postType": "003",
+      "actualTitle": "就活準備での生成AI（ChatGPTなど）活用方法",
+      "problemDescription": "ChatGPTなどの生成AIが就活で活用されているのは知っているが、具体的な活用方法や効果的な使い方の情報が欲しい",
+      "solutionOverview": "マイナビ2025年調査結果に基づき、生成AI就活活用の実態と効果的な使用方法を詳細解説",
+      "problemCategory": "生成AI就活活用情報不足",
+      "uniqueValue": "",
+      "fileName": "K075.json"
+    },
+    {
+      "knowledgeId": "K076",
+      "postType": "003",
+      "actualTitle": "【AI使って差をつける！】最新AI活用術 就活編",
+      "problemDescription": "就活でAIを効果的に活用する方法が分からない、就活準備（自己分析、業界研究、ES準備、選考対策）が忙しすぎて負担を感じている",
+      "solutionOverview": "就活でAIを活用する3つの実用的活用術を紹介",
+      "problemCategory": "就活・AI活用",
+      "uniqueValue": "",
+      "fileName": "K076.json"
+    },
+    {
+      "knowledgeId": "K077",
+      "postType": "003",
+      "actualTitle": "元人事が聞いた！面接官にコミュ力が高いと思われる2つのポイント",
+      "problemDescription": "面接官にコミュニケーション力が高いと思われる方法が分からない、面接での印象向上を図りたい",
+      "solutionOverview": "面接官にコミュニケーション力が高いと思われる2つのポイントを解説",
+      "problemCategory": "コミュニケーション・面接",
+      "uniqueValue": "",
+      "fileName": "K077.json"
+    },
+    {
+      "knowledgeId": "K078",
+      "postType": "004",
+      "actualTitle": "あなたの仕事も!? マジでAIに奪われます。",
+      "problemDescription": "就職活動中の学生がAIによる仕事の代替可能性について不安を抱いている",
+      "solutionOverview": "AIに代替される職業と代替されにくい職業を具体的に分類し、理由を説明",
+      "problemCategory": "AIに仕事を奪われる不安",
+      "uniqueValue": "",
+      "fileName": "K078.json"
+    },
+    {
+      "knowledgeId": "K079",
+      "postType": "004",
+      "actualTitle": "導入企業が増加中！AI面接",
+      "problemDescription": "導入企業が増加中のAI面接について、その仕組みや対策方法が分からず不安を感じている",
+      "solutionOverview": "AI面接の基本的な仕組みと形式を説明し、評価ポイントと具体的な対策方法を提供",
+      "problemCategory": "就活",
+      "uniqueValue": "",
+      "fileName": "K079.json"
+    },
+    {
+      "knowledgeId": "K080",
+      "postType": "003",
+      "actualTitle": "27卒は夏までに準備 / 答えられて当然 就活基本質問リスト30",
+      "problemDescription": "就活生が面接で聞かれる質問に対して準備不足で答えられない課題",
+      "solutionOverview": "面接で頻出する30の質問リストと回答のポイントを提供",
+      "problemCategory": "就活準備・面接対策",
+      "uniqueValue": "",
+      "fileName": "K080.json"
+    },
+    {
+      "knowledgeId": "K081",
+      "postType": "004",
+      "actualTitle": "就活で使うべきオススメAIツール",
+      "problemDescription": "就活で使えるAIツールについて知りたい、どのツールを使えばよいか分からない",
+      "solutionOverview": "就活で活用できる8つのAIツールとその効果的な使い方を紹介",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K081.json"
+    },
+    {
+      "knowledgeId": "K082",
+      "postType": "004",
+      "actualTitle": "転職活動で超役に立った神アプリ7選",
+      "problemDescription": "転職活動で使える便利なアプリを知りたい、効率的に転職活動を進めたい",
+      "solutionOverview": "転職活動で超役に立つ7つの神アプリを紹介",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K082.json"
+    },
+    {
+      "knowledgeId": "K083",
+      "postType": "003",
+      "actualTitle": "AI面接 SHaiN ガチ攻略",
+      "problemDescription": "AI面接で評価されるポイントが分からない、AI面接を突破するための具体的な攻略法を知りたい",
+      "solutionOverview": "AI面接「SHaiN」の仕組みと攻略法を体系的に解説",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K083.json"
+    },
+    {
+      "knowledgeId": "K084",
+      "postType": "004",
+      "actualTitle": "就活力が爆上がりするAIツール",
+      "problemDescription": "就活力を爆上げするAIツールを知りたい、効率的に就活を進めるためのツールを探している",
+      "solutionOverview": "就活力爆上げAIツール9選をメモ帳形式で紹介",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K084.json"
+    },
+    {
+      "knowledgeId": "K085",
+      "postType": "003",
+      "actualTitle": "AIツール学割紹介",
+      "problemDescription": "学生向けのAIツール学割情報を知りたい、授業や就活で使えるAIツールの具体的な情報が欲しい",
+      "solutionOverview": "全学生向けAIツール学割紹介として3つの主要AIツールを詳細解説",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K085.json"
+    },
+    {
+      "knowledgeId": "K086",
+      "postType": "003",
+      "actualTitle": "",
+      "problemDescription": "",
+      "solutionOverview": "",
+      "problemCategory": "",
+      "uniqueValue": "",
+      "fileName": "K086.json"
+    },
+    {
+      "knowledgeId": "K087",
+      "postType": "003",
+      "actualTitle": "",
+      "problemDescription": "",
+      "solutionOverview": "",
+      "problemCategory": "",
+      "uniqueValue": "",
+      "fileName": "K087.json"
+    },
+    {
+      "knowledgeId": "K088",
+      "postType": "004",
+      "actualTitle": "",
+      "problemDescription": "",
+      "solutionOverview": "",
+      "problemCategory": "",
+      "uniqueValue": "",
+      "fileName": "K088.json"
+    },
+    {
+      "knowledgeId": "K089",
+      "postType": "003",
+      "actualTitle": "",
+      "problemDescription": "",
+      "solutionOverview": "",
+      "problemCategory": "",
+      "uniqueValue": "",
+      "fileName": "K089.json"
+    },
+    {
+      "knowledgeId": "K090",
+      "postType": "002",
+      "actualTitle": "",
+      "problemDescription": "",
+      "solutionOverview": "",
+      "problemCategory": "",
+      "uniqueValue": "",
+      "fileName": "K090.json"
+    },
+    {
+      "knowledgeId": "K091",
+      "postType": "003",
+      "actualTitle": "就活攻略術",
+      "problemDescription": "2027年のサマーインターン開始前に「就活は情報戦」と呼ばれる中で、今から準備すべき内容について知りたい",
+      "solutionOverview": "就活を「情報戦」として捉え、2027年サマーインターン開始前に準備すべき4つのポイントを解説",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K091.json"
+    },
+    {
+      "knowledgeId": "K092",
+      "postType": "004",
+      "actualTitle": "もう手放せない生成AIはこの5つ",
+      "problemDescription": "調べ物・文章作成・メール返信などの作業が多すぎて効率が悪く、生産性を向上させたい人向けの実用的な生成AIツール情報",
+      "solutionOverview": "実際に毎日使える5つの生成AIツールを厳選して紹介し、生産性向上の具体的方法を提供",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K092.json"
+    },
+    {
+      "knowledgeId": "K093",
+      "postType": "004",
+      "actualTitle": "スマホで使えるオススメAI 5選",
+      "problemDescription": "スマートフォンでも使えるAIツールの具体的な情報を知りたい人向けのアプリ情報",
+      "solutionOverview": "スマートフォンで利用できる便利なAIツール5つを具体的な使用例と共に紹介",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K093.json"
+    },
+    {
+      "knowledgeId": "K096",
+      "postType": "004",
+      "actualTitle": "回答を作成してくれる",
+      "problemDescription": "税金制度に関する質問をしたがChatGPTが答えられない、最新情報の不足で困っている",
+      "solutionOverview": "WebChatGPTという拡張機能を使ってChatGPTの情報制限を解決する方法",
+      "problemCategory": "AIツール活用",
+      "uniqueValue": "",
+      "fileName": "K096.json"
+    },
+    {
+      "knowledgeId": "K097",
+      "postType": "004",
+      "actualTitle": "デザイナーの仕事が奪われる？！",
+      "problemDescription": "デザイナーの仕事が奪われるのではないかという不安を持ちながらも、AIサービスを知って効率化を図りたい",
+      "solutionOverview": "デザイナーの作業を効率化する6つのAIサービスを紹介",
+      "problemCategory": "デザイン効率化",
+      "uniqueValue": "",
+      "fileName": "K097.json"
+    },
+    {
+      "knowledgeId": "K098",
+      "postType": "003",
+      "actualTitle": "SaaS時代は終わり。AIエージェント・カンパニーを構築する時代の始まり。",
+      "problemDescription": "最新のAI技術（ChatGPTエージェント）の詳細情報を知りたい、SaaS時代の変化への理解を深めたい",
+      "solutionOverview": "OpenAIが発表したChatGPTエージェントの機能と活用方法を詳しく解説",
+      "problemCategory": "AI技術情報",
+      "uniqueValue": "",
+      "fileName": "K098.json"
+    },
+    {
+      "knowledgeId": "K099",
+      "postType": "004",
+      "actualTitle": "Webサイトからのデータの自動収集にコーディングは不要です。",
+      "problemDescription": "Webサイトからのデータ収集にコーディングが必要で効率が悪い、営業リスト作成や市場調査に時間がかかる",
+      "solutionOverview": "テキスト指示だけでAIがWebサイトの情報を自動収集してくれるChrome拡張機能の活用",
+      "problemCategory": "データ収集・分析効率化",
+      "uniqueValue": "",
+      "fileName": "K099.json"
+    },
+    {
+      "knowledgeId": "K100",
+      "postType": "004",
+      "actualTitle": "AIエージェントの社内導入をしないと時代に置いていかれます。",
+      "problemDescription": "AIエージェントの社内導入が必要だが具体的にどのツールを選べばいいかわからない、時代の変化に対応できているか不安",
+      "solutionOverview": "用途別に分類された15種類の実用的なAIエージェントの包括的紹介",
+      "problemCategory": "AI導入・活用",
+      "uniqueValue": "",
+      "fileName": "K100.json"
+    },
+    {
+      "knowledgeId": "K101",
+      "postType": "003",
+      "actualTitle": "もう迷わないAIツール使いわけ",
+      "problemDescription": "次から次へとAIツールが登場して情報を追いきれない、専門家ではないが効率的にAIツールを使い分けたい",
+      "solutionOverview": "2025年3月時点での最新AIツールを9つのジャンル別に整理して紹介",
+      "problemCategory": "情報不足・情報過多",
+      "uniqueValue": "",
+      "fileName": "K101.json"
+    },
+    {
+      "knowledgeId": "K102",
+      "postType": "004",
+      "actualTitle": "フリーランス必須ツール10選",
+      "problemDescription": "フリーランスが安心できるお仕事サイト探し、税金や経費の管理が苦手、開業届出方法、経費レシートがバラバラで探すのが大変という悩み",
+      "solutionOverview": "37歳フリーランス6年目の経験者が実際に使って厳選したツール10選を3カテゴリで紹介",
+      "problemCategory": "フリーランス・副業の悩み",
+      "uniqueValue": "",
+      "fileName": "K102.json"
+    },
+    {
+      "knowledgeId": "K103",
+      "postType": "002",
+      "actualTitle": "PCスキル伸ばす習慣5選",
+      "problemDescription": "作業効率を上げたい、PCスキルを向上させたい",
+      "solutionOverview": "作業効率UPのためのPCスキル伸ばす習慣5選を番号付きで紹介",
+      "problemCategory": "スキルアップ・効率化",
+      "uniqueValue": "",
+      "fileName": "K103.json"
+    },
+    {
+      "knowledgeId": "K104",
+      "postType": "004",
+      "actualTitle": "もっと使おう！QRコードこんな使い方！",
+      "problemDescription": "QRコードの基本的な使い方以外の活用法を知らない、QRコードを便利に使いこなせていない",
+      "solutionOverview": "QRコードの基本用途以外の便利な活用方法を7パターンで画面付きで紹介",
+      "problemCategory": "ITツール・便利機能の情報不足",
+      "uniqueValue": "",
+      "fileName": "K104.json"
+    },
+    {
+      "knowledgeId": "K105",
+      "postType": "003",
+      "actualTitle": "自分の人生をちゃんと生きている人",
+      "problemDescription": "自分らしく生きられていない、人生の選択に迷いがある、他人の目を気にして自分を抑えてしまう",
+      "solutionOverview": "自分の人生をちゃんと生きている人の7つの特徴を心理学的観点から解説",
+      "problemCategory": "人生・生き方の悩み",
+      "uniqueValue": "",
+      "fileName": "K105.json"
+    },
+    {
+      "knowledgeId": "K106",
+      "postType": "004",
+      "actualTitle": "ChatGPT ワン問題 正確性UP 指示文5選",
+      "problemDescription": "ChatGPTの回答精度が不完全で、適切な指示文の作り方がわからず正確な情報を得にくい",
+      "solutionOverview": "ChatGPTで正確な回答を得るための5つの神指示文テクニック",
+      "problemCategory": "ChatGPT使用スキル",
+      "uniqueValue": "",
+      "fileName": "K106.json"
+    },
+    {
+      "knowledgeId": "K107",
+      "postType": "004",
+      "actualTitle": "意外と無料 Canvaテク",
+      "problemDescription": "Canvaの無料版では機能が限られていると思い込み、有料版でなければ良いデザインができないと諦めている",
+      "solutionOverview": "Canvaの無料版でも使える意外と知らない神機能5選",
+      "problemCategory": "デザインスキル向上",
+      "uniqueValue": "",
+      "fileName": "K107.json"
+    },
+    {
+      "knowledgeId": "K108",
+      "postType": "002",
+      "actualTitle": "ポートフォリオ爆速作成サイト5選",
+      "problemDescription": "案件応募をしたいけれど、ポートフォリオの作り方がわからず、どこで作ればいいのかも迷っている",
+      "solutionOverview": "ドラッグ&ドロップで簡単に作れるポートフォリオ作成サイト5選",
+      "problemCategory": "就職活動・転職準備",
+      "uniqueValue": "",
+      "fileName": "K108.json"
+    },
+    {
+      "knowledgeId": "K109",
+      "postType": "004",
+      "actualTitle": "仕事が速い人が徹底して\"手放して\"いる 3つのある習慣",
+      "problemDescription": "仕事が速い人が徹底して手放している3つの習慣を知らず、効率的な働き方ができていない",
+      "solutionOverview": "仕事が速い人が徹底して手放している3つの「しない習慣」",
+      "problemCategory": "仕事効率化・生産性向上",
+      "uniqueValue": "",
+      "fileName": "K109.json"
+    },
+    {
+      "knowledgeId": "K110",
+      "postType": "002",
+      "actualTitle": "37歳主婦が複業 月収0円で開業届け出してみた Freelancer",
+      "problemDescription": "37歳主婦がフリーランスで月収0円でも開業届を出して独立を始める方法がわからない",
+      "solutionOverview": "収入0円でも開業届を出すメリットと手順",
+      "problemCategory": "フリーランス開業・副業開始",
+      "uniqueValue": "",
+      "fileName": "K110.json"
+    },
+    {
+      "knowledgeId": "K111",
+      "postType": "003",
+      "actualTitle": "あなたは何タイプ？MBTI診断 16タイプ特徴まとめ",
+      "problemDescription": "自分の性格タイプや特徴を知りたい、MBTIの16タイプについて詳しく理解したい",
+      "solutionOverview": "MBTI16タイプの特徴を詳細に解説し、各タイプの性格、人間関係、恋愛観、友人関係、好き嫌いを紹介",
+      "problemCategory": "ニーズ（情報）",
+      "uniqueValue": "",
+      "fileName": "K111.json"
+    },
+    {
+      "knowledgeId": "K112",
+      "postType": "002",
+      "actualTitle": "インスタ集客挫折しそう？これ試してみて",
+      "problemDescription": "Instagram集客がうまくいかない、成果が出なくて挫折しそう、効果的な運用方法を知りたい",
+      "solutionOverview": "Instagram集客を成功させるための6つのステップを順序立てて解説し、継続可能な仕組みを構築する方法を提供",
+      "problemCategory": "目的",
+      "uniqueValue": "",
+      "fileName": "K112.json"
+    },
+    {
+      "knowledgeId": "K113",
+      "postType": "004",
+      "actualTitle": "集客に役立つインスタ新機能",
+      "problemDescription": "Instagramの新機能を知らずに集客機会を逃している、最新機能を使って効果的に集客したい",
+      "solutionOverview": "Instagram集客に役立つ6つの新機能を詳細に紹介し、それぞれの効果と使い方を実例とともに解説",
+      "problemCategory": "有益情報",
+      "uniqueValue": "",
+      "fileName": "K113.json"
+    },
+    {
+      "knowledgeId": "K114",
+      "postType": "001",
+      "actualTitle": "行動できる人 vs できない人",
+      "problemDescription": "やるべきことは分かっているのに行動できない、いつも途中で挫折してしまう、なかなか結果が出ない",
+      "solutionOverview": "行動できる人とできない人の根本的な違いを8つの観点から明確にし、行動力向上のためのマインドセット変革を提案",
+      "problemCategory": "悩み・困った",
+      "uniqueValue": "",
+      "fileName": "K114.json"
+    },
+    {
+      "knowledgeId": "K115",
+      "postType": "001",
+      "actualTitle": "37歳フリーランス主婦 リアルに失敗した複業6選",
+      "problemDescription": "副業や複業で失敗続きで何をすれば良いかわからない、スキルがなくても稼げる方法を知りたい、時間をかけても結果が出ない",
+      "solutionOverview": "実際の失敗体験を6つのエピソードで紹介し、それぞれの失敗理由と学びを明確にして、最終的に成功する副業の始め方を提案",
+      "problemCategory": "悩み・困った",
+      "uniqueValue": "",
+      "fileName": "K115.json"
+    },
+    {
+      "knowledgeId": "K116",
+      "postType": "003",
+      "actualTitle": "損したくない！コスパ最強な資格21選",
+      "problemDescription": "就職・転職・キャリアアップに役立つ資格を知りたいが、どの資格が最もコスパが良いか分からない",
+      "solutionOverview": "コスパ最強の資格21選を具体的に紹介し、各資格の特徴と活用方法を解説",
+      "problemCategory": "キャリア・資格取得",
+      "uniqueValue": "",
+      "fileName": "K116.json"
+    },
+    {
+      "knowledgeId": "K117",
+      "postType": "002",
+      "actualTitle": "人事は志望動機のここ見てます",
+      "problemDescription": "志望動機の作り方がわからない・企業研究が浅い",
+      "solutionOverview": "志望動機に必要な4つのポイントとNG/GOOD例による具体的解説、企業分析フレームワーク",
+      "problemCategory": "就活スキル習得",
+      "uniqueValue": "",
+      "fileName": "K117.json"
+    },
+    {
+      "knowledgeId": "K118",
+      "postType": "002",
+      "actualTitle": "全面接の突破のコツ教えます",
+      "problemDescription": "全面接の突破方法がわからない・各面接段階での重要ポイントが不明",
+      "solutionOverview": "1次・2次・最終面接での重要ポイントとNG/GOOD例による具体的解説、各段階別攻略法",
+      "problemCategory": "就活スキル習得",
+      "uniqueValue": "",
+      "fileName": "K118.json"
+    },
+    {
+      "knowledgeId": "K132",
+      "postType": "002",
+      "actualTitle": "仕事がデキる人がやってる方法！",
+      "problemDescription": "自分は要領が悪くて仕事が遅い・効率的に仕事ができない",
+      "solutionOverview": "リモートワークで要領良く仕事をするための12個の具体的方法・テクニックの紹介",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K132.json"
+    },
+    {
+      "knowledgeId": "K133",
+      "postType": "002",
+      "actualTitle": "マネするだけ！シゴデキの時短習慣",
+      "problemDescription": "作業が遅くて毎日クタクタになってしまう・仕事が早い人の習慣を知りたい",
+      "solutionOverview": "仕事が早い人が実践している6つの時短習慣の具体的な方法と効果",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K133.json"
+    },
+    {
+      "knowledgeId": "K134",
+      "postType": "002",
+      "actualTitle": "再現率100% 印象激変する謝り方",
+      "problemDescription": "謝るときの語彙がわからない・適切な謝り方ができない",
+      "solutionOverview": "印象を激変させる12個の謝り方表現を段階的に学習し、再現率100%で活用できるようになる",
+      "problemCategory": "ビジネスマナー・コミュニケーション",
+      "uniqueValue": "",
+      "fileName": "K134.json"
+    },
+    {
+      "knowledgeId": "K135",
+      "postType": "002",
+      "actualTitle": "実はカンタン！相手に伝わる説明のコツ",
+      "problemDescription": "一生懸命話しても言いたいことが相手に伝わらなくて苦しい・説明が上手くできない",
+      "solutionOverview": "相手に確実に伝わる説明のための12個の実践的なコツとテクニック",
+      "problemCategory": "コミュニケーションスキル",
+      "uniqueValue": "",
+      "fileName": "K135.json"
+    },
+    {
+      "knowledgeId": "K136",
+      "postType": "004",
+      "actualTitle": "今どきはコレ！代替AIでサクッとお仕事",
+      "problemDescription": "生成AIって何に使えるのか全然わからない・従来ツールから代替AIがわからない",
+      "solutionOverview": "従来の6つのツールを代替AIに置き換えることで作業効率を劇的に向上させる方法",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K136.json"
+    },
+    {
+      "knowledgeId": "K137",
+      "postType": "002",
+      "actualTitle": "たったこれだけ！イライラしない神習慣",
+      "problemDescription": "小さいことでもイラッとしてしまって周りにキツく当たってしまう・心に余裕がなくてモヤモヤしている",
+      "solutionOverview": "イライラしない神習慣6つの方法で毎日のストレスから解放され、心に余裕を持って生活できるようになる",
+      "problemCategory": "ストレス管理",
+      "uniqueValue": "",
+      "fileName": "K137.json"
+    },
+    {
+      "knowledgeId": "K138",
+      "postType": "002",
+      "actualTitle": "ごきげん体質に！自分軸が整うワザ",
+      "problemDescription": "職場でもプライベートでも気を使いすぎて疲れる・自分を見失うことがある",
+      "solutionOverview": "自分軸が整うワザ12個でごきげん体質になり、職場でもプライベートでも自分らしく過ごせるようになる",
+      "problemCategory": "セルフマネジメント",
+      "uniqueValue": "",
+      "fileName": "K138.json"
+    },
+    {
+      "knowledgeId": "K139",
+      "postType": "002",
+      "actualTitle": "本音がわかる！言語化ノート術",
+      "problemDescription": "自信がない・自分がやりたいこともよくわからない",
+      "solutionOverview": "言語化ノート術（ジャーナリング）5つの方法で自分の本音がわかり、自己理解が深まる",
+      "problemCategory": "自己分析",
+      "uniqueValue": "",
+      "fileName": "K139.json"
+    },
+    {
+      "knowledgeId": "K140",
+      "postType": "002",
+      "actualTitle": "人を遠ざける地雷ワード",
+      "problemDescription": "人を傷つけて関係を悪化させる地雷ワードを無意識に使ってしまう",
+      "solutionOverview": "人を遠ざける5つのカテゴリの地雷ワードを認識し、相手を思いやる言葉に変える実践的方法",
+      "problemCategory": "コミュニケーションスキル",
+      "uniqueValue": "",
+      "fileName": "K140.json"
+    },
+    {
+      "knowledgeId": "K141",
+      "postType": "002",
+      "actualTitle": "成功者がやってる毎日習慣",
+      "problemDescription": "今までうまくいかない・成功できない状況から抜け出したい",
+      "solutionOverview": "成功者がやっている6つの毎日習慣を身につけて理想の自分に近づく実践的方法",
+      "problemCategory": "成功習慣・自己成長",
+      "uniqueValue": "",
+      "fileName": "K141.json"
+    },
+    {
+      "knowledgeId": "K142",
+      "postType": "002",
+      "actualTitle": "仕事で疲弊 NG習慣",
+      "problemDescription": "仕事で疲弊してしまう・一人で抱え込んで疲れてしまう",
+      "solutionOverview": "仕事で疲弊する12個のNG習慣を認識し、健康的で効率的な働き方に改善する実践的方法",
+      "problemCategory": "働き方改善・ワークライフバランス",
+      "uniqueValue": "",
+      "fileName": "K142.json"
+    },
+    {
+      "knowledgeId": "K143",
+      "postType": "002",
+      "actualTitle": "1日10分で差がつく最強の記憶法",
+      "problemDescription": "やる気はあるのに覚えられない・学習効果が低い・前は学んだこともすぐに覚えられたけど昨日の夕飯すら思い出せない",
+      "solutionOverview": "1日10分で差がつく最強の記憶法10個による学習効率の劇的向上",
+      "problemCategory": "学習効率化",
+      "uniqueValue": "",
+      "fileName": "K143.json"
+    },
+    {
+      "knowledgeId": "K144",
+      "postType": "002",
+      "actualTitle": "脱『時間がない』1日が伸びるひけつ",
+      "problemDescription": "忙しくて時間がない・時間の使い方がうまくいかない・1日が短く感じる",
+      "solutionOverview": "脱『時間がない』を実現する1日が伸びる6つの時間管理秘訣",
+      "problemCategory": "時間管理",
+      "uniqueValue": "",
+      "fileName": "K144.json"
+    },
+    {
+      "knowledgeId": "K145",
+      "postType": "002",
+      "actualTitle": "知る人ぞ知る！好きを仕事にする思考術",
+      "problemDescription": "仕事がつらい・好きだけじゃ食べていけない・得意が何かもわからない・好きを仕事にできない",
+      "solutionOverview": "知る人ぞ知る！好きを仕事にする12の思考術",
+      "problemCategory": "キャリア・仕事観",
+      "uniqueValue": "",
+      "fileName": "K145.json"
+    },
+    {
+      "knowledgeId": "K146",
+      "postType": "004",
+      "actualTitle": "人生がラクになる がんばらない10のこと",
+      "problemDescription": "周りのことばかり気にして疲れる・もっと楽に生きるコツが知りたい",
+      "solutionOverview": "人生がラクになるための10個の実践的な考え方と行動パターンの提案",
+      "problemCategory": "仕事・生活効率化",
+      "uniqueValue": "",
+      "fileName": "K146.json"
+    },
+    {
+      "knowledgeId": "K148",
+      "postType": "003",
+      "actualTitle": "今すぐチェック！これができたらシゴデキ確定",
+      "problemDescription": "自分がシゴデキかどうかわからない・シゴデキになるための要素を知りたい",
+      "solutionOverview": "仕事ができる人（シゴデキ）の15の特徴をチェックリスト形式で体系的に整理",
+      "problemCategory": "仕事スキル向上",
+      "uniqueValue": "",
+      "fileName": "K148.json"
+    },
+    {
+      "knowledgeId": "K149",
+      "postType": "001",
+      "actualTitle": "完璧主義のゆるめ方",
+      "problemDescription": "完璧にできない自分はダメだとモヤモヤして辛い",
+      "solutionOverview": "完璧主義によるモヤモヤを解消するための10個の思い込みを手放す方法",
+      "problemCategory": "メンタルヘルス・自己理解",
+      "uniqueValue": "",
+      "fileName": "K149.json"
+    },
+    {
+      "knowledgeId": "K150",
+      "postType": "002",
+      "actualTitle": "ビジネススキル完全習得マスターガイド",
+      "problemDescription": "仕事でミスをして信頼を失い、同時に成果も出せない。守りのスキル（ミス防止）と攻めのスキル（成果創出）を包括的に習得したい",
+      "solutionOverview": "ビジネススキル完全習得マスターガイド。信頼構築（ミス防止）から成果創出（シゴデキ仕事術）まで、守攻一体の完全なビジネスプロフェッショナル育成システム",
+      "problemCategory": "ビジネススキル完全習得マスター",
+      "uniqueValue": "",
+      "fileName": "K150.json"
+    },
+    {
+      "knowledgeId": "K151",
+      "postType": "001",
+      "actualTitle": "9割が知らない！メンタル安定のコツ",
+      "problemDescription": "落ち込むことばかりで自信がない・人生いろいろ大変でメンタルが不安定",
+      "solutionOverview": "メンタル安定のための12個の考え方とマインドセット変革法",
+      "problemCategory": "メンタルヘルス・自己理解",
+      "uniqueValue": "",
+      "fileName": "K151.json"
+    },
+    {
+      "knowledgeId": "K152",
+      "postType": "002",
+      "actualTitle": "今すぐやめて！時間のムダNG習慣",
+      "problemDescription": "勉強したほうがいいとわかっているけれどやる気が出ない・時間がムダになってしまう",
+      "solutionOverview": "時間がムダになる10個のNG習慣とその改善方法を具体的なNG/GOOD例とともに紹介",
+      "problemCategory": "時間管理・効率化",
+      "uniqueValue": "",
+      "fileName": "K152.json"
+    },
+    {
+      "knowledgeId": "K153",
+      "postType": "004",
+      "actualTitle": "ガチで使える知らないと損！神ツール",
+      "problemDescription": "生成AIツールが色々ありすぎてわからない・何を使えばいいかわからない",
+      "solutionOverview": "目的別に分類された15個の神生成AIツールを5つのカテゴリで効率的に紹介",
+      "problemCategory": "AI効率化・ツール活用",
+      "uniqueValue": "",
+      "fileName": "K153.json"
+    },
+    {
+      "knowledgeId": "K154",
+      "postType": "002",
+      "actualTitle": "ここで差がつく！好かれる人の言い方習慣",
+      "problemDescription": "ちゃんと接しているのに好かれない・言い方で損をしている",
+      "solutionOverview": "好かれる人の言い方習慣6つを具体的な対比例とともに実践的に紹介",
+      "problemCategory": "コミュニケーション・人間関係",
+      "uniqueValue": "",
+      "fileName": "K154.json"
+    },
+    {
+      "knowledgeId": "K155",
+      "postType": "004",
+      "actualTitle": "やる気ゼロでもOK! 夜時間を活かすヒケツ",
+      "problemDescription": "やりたいことがあっても仕事から帰ってきてヘトヘトで何も進まない・夜時間を有効活用できない",
+      "solutionOverview": "やる気ゼロでも実践できる夜時間活用の5つのヒケツによる効率的な時間活用法",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K155.json"
+    },
+    {
+      "knowledgeId": "K156",
+      "postType": "002",
+      "actualTitle": "たったこれだけ？人生が好転 自信の育て方",
+      "problemDescription": "自分はどうせ何もできないと思い込み自信がない・自己効力感が低い",
+      "solutionOverview": "自己効力感を育てる4つの方法による自信の構築法",
+      "problemCategory": "自己成長・自信",
+      "uniqueValue": "",
+      "fileName": "K156.json"
+    },
+    {
+      "knowledgeId": "K157",
+      "postType": "002",
+      "actualTitle": "脱・考えすぎ！最強メンタル思考術",
+      "problemDescription": "いつも自分を責めてしまって自信が持てない・落ち込んでばかりで考えすぎてしまう",
+      "solutionOverview": "考えすぎを脱却し最強メンタルを作る12個の思考術",
+      "problemCategory": "メンタル管理・思考術",
+      "uniqueValue": "",
+      "fileName": "K157.json"
+    },
+    {
+      "knowledgeId": "K158",
+      "postType": "004",
+      "actualTitle": "無料でここまで?! ChatGPT神機能",
+      "problemDescription": "ChatGPTの有料版でないとだめなのでは？無料版の機能に限界を感じている",
+      "solutionOverview": "ChatGPT無料版で使える5つの神機能を活用した効率化方法",
+      "problemCategory": "作業効率化",
+      "uniqueValue": "",
+      "fileName": "K158.json"
+    },
+    {
+      "knowledgeId": "K159",
+      "postType": "002",
+      "actualTitle": "もう損しない！ChatGPTのNG使用例",
+      "problemDescription": "ChatGPTを使っているが思うような回答が得られない・効率的に使えない",
+      "solutionOverview": "ChatGPTのNG使用例とOK例による効率的な使い方の習得法",
+      "problemCategory": "スキル習得",
+      "uniqueValue": "",
+      "fileName": "K159.json"
+    },
+    {
+      "knowledgeId": "K160",
+      "postType": "001",
+      "actualTitle": "ストレス撃退！メンタル安定の神習慣",
+      "problemDescription": "職場で気持ちが落ち着かない・ざわざわする・仕事のやる気も出ない",
+      "solutionOverview": "職場でのストレス・不安解消のための10個のメンタル安定習慣",
+      "problemCategory": "ストレス管理",
+      "uniqueValue": "",
+      "fileName": "K160.json"
+    },
+    {
+      "knowledgeId": "K161",
+      "postType": "002",
+      "actualTitle": "今からでも○！人生が好転する10のひけつ",
+      "problemDescription": "仕事がツライ・好きなことじゃない・毎日がしんどくて人生を変えたい",
+      "solutionOverview": "人生が好転する10個の実践的な方法を紹介。自分のストーリー作成から投資まで、人生全般の改善方法を並列的に提供",
+      "problemCategory": "人生・ライフスタイル",
+      "uniqueValue": "",
+      "fileName": "K161.json"
+    },
+    {
+      "knowledgeId": "K162",
+      "postType": "002",
+      "actualTitle": "毎日が豊かに！ゆるっと整え習慣",
+      "problemDescription": "やっても褒められない・疲れもたまる・単調な日々に疲れて全部がイヤで心を豊かにしたい",
+      "solutionOverview": "心の豊かさを得るための12個の実践的習慣を紹介。サウナや読書から感謝の習慣まで、日常に取り入れやすい方法を並列的に提供",
+      "problemCategory": "ライフスタイル・心の整え",
+      "uniqueValue": "",
+      "fileName": "K162.json"
+    },
+    {
+      "knowledgeId": "K163",
+      "postType": "002",
+      "actualTitle": "あなたは知ってる？不安を力に変える秘訣",
+      "problemDescription": "毎日なんだかモヤモヤして心配ばっかりしていて不安をコントロールしたい",
+      "solutionOverview": "不安を力に変えるための5つの実践的秘訣を紹介。心配ごとの96%は起きないという研究データと、具体的な対処法をNG/OK対比で提供",
+      "problemCategory": "メンタル・不安管理",
+      "uniqueValue": "",
+      "fileName": "K163.json"
+    },
+    {
+      "knowledgeId": "K164",
+      "postType": "002",
+      "actualTitle": "今すぐやめて！気持ちが沈むNG思考",
+      "problemDescription": "ネガティブ思考で気持ちが沈む・考え方を前向きに変えたい",
+      "solutionOverview": "気持ちが沈む12個のNG思考パターンとその改善方法を対比形式で具体的に解説",
+      "problemCategory": "メンタルスキル習得",
+      "uniqueValue": "",
+      "fileName": "K164.json"
+    },
+    {
+      "knowledgeId": "K165",
+      "postType": "002",
+      "actualTitle": "休み方革命！余白時間の使い方",
+      "problemDescription": "疲れが取れない・ちゃんと休めない・効果的な休み方がわからない",
+      "solutionOverview": "疲れが取れない悩みを解決する5つの休み方革命・余白時間の効果的な使い方を具体的に解説",
+      "problemCategory": "ワークライフバランス・時間管理",
+      "uniqueValue": "",
+      "fileName": "K165.json"
+    },
+    {
+      "knowledgeId": "K166",
+      "postType": "002",
+      "actualTitle": "1年後が変わる！行動力の育て方",
+      "problemDescription": "やりたいことがあるけど行動に移せない・行動力が不足している",
+      "solutionOverview": "やりたいことを行動に移せない悩みを解決するインド発ライフハック「ジュガール」の5つの行動力育成法を具体的に解説",
+      "problemCategory": "行動力・実行力",
+      "uniqueValue": "",
+      "fileName": "K166.json"
+    },
+    {
+      "knowledgeId": "K167",
+      "postType": "002",
+      "actualTitle": "学びを加速させる思考の整え方",
+      "problemDescription": "仕事と家族のことで頭がいっぱいで学びがなかなか追いつかない・マルチタスクで学習時間がない",
+      "solutionOverview": "学びを加速させる15個の思考整理方法で、忙しい中でも効率的に学習を進められるノウハウ",
+      "problemCategory": "学習効率化",
+      "uniqueValue": "",
+      "fileName": "K167.json"
+    },
+    {
+      "knowledgeId": "K168",
+      "postType": "004",
+      "actualTitle": "こんな使い方が？超時短Gemini仕事術",
+      "problemDescription": "仕事が忙しくて終わらない・手伝ってくれる人がいなくて大変・効率的に作業を進めたい",
+      "solutionOverview": "Geminiの4つの機能を活用した仕事効率化で、リサーチ・スケジュール管理・資料作成を劇的に時短",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K168.json"
+    },
+    {
+      "knowledgeId": "K169",
+      "postType": "002",
+      "actualTitle": "あなたはどっち？時間が消える人vs増える人",
+      "problemDescription": "やりたいことがあるけど仕事や家のことで忙しくて時間がない",
+      "solutionOverview": "時間がある人と時間がない人の違いを12個の項目で比較し、時間管理の実践的方法を提供",
+      "problemCategory": "時間管理・効率化",
+      "uniqueValue": "",
+      "fileName": "K169.json"
+    },
+    {
+      "knowledgeId": "K170",
+      "postType": "002",
+      "actualTitle": "平日もごきげん！最高の休日習慣",
+      "problemDescription": "週末も仕事のことで頭がいっぱいで全然休めない",
+      "solutionOverview": "平日もごきげんになる最高の休日習慣を12個の方法で紹介し、効果的な休息とリフレッシュ方法を提供",
+      "problemCategory": "ワークライフバランス・ストレス管理",
+      "uniqueValue": "",
+      "fileName": "K170.json"
+    },
+    {
+      "knowledgeId": "K171",
+      "postType": "002",
+      "actualTitle": "印象激変！シゴデキの伝え方18選",
+      "problemDescription": "伝えたあとに相手の反応がイマイチ薄くてモヤモヤする・伝え方が難しい",
+      "solutionOverview": "印象が激変するシゴデキの伝え方18選を紹介し、効果的なコミュニケーション方法を提供",
+      "problemCategory": "コミュニケーション・伝え方スキル",
+      "uniqueValue": "",
+      "fileName": "K171.json"
+    },
+    {
+      "knowledgeId": "K172",
+      "postType": "004",
+      "actualTitle": "家事にも大活躍！ChatGPT意外な活用法",
+      "problemDescription": "毎日の家事がバタバタで忙しく、やることが終わらない・心も体も休まる時がない",
+      "solutionOverview": "ChatGPTを活用した家事効率化の12の具体的な活用方法と実践テクニック",
+      "problemCategory": "生活効率化",
+      "uniqueValue": "",
+      "fileName": "K172.json"
+    },
+    {
+      "knowledgeId": "K173",
+      "postType": "002",
+      "actualTitle": "9割がやってない！賢い人の話し方",
+      "problemDescription": "伝えたいことはあるのにうまく伝わらなくて周りの反応がイマイチ・上手く伝わらなくてもどかしい気持ちになる",
+      "solutionOverview": "賢い話し方を身につけることで評価が変わる10の実践的テクニック",
+      "problemCategory": "コミュニケーションスキル習得",
+      "uniqueValue": "",
+      "fileName": "K173.json"
+    },
+    {
+      "knowledgeId": "K174",
+      "postType": "002",
+      "actualTitle": "人生が整う！コミュ力爆上げ術",
+      "problemDescription": "話し下手で空回りばかり・面倒くさい・人付き合いって難しい・コミュ力がなくて、たくさん悩んだ",
+      "solutionOverview": "スポットライトの法則による相手が主役になる会話術で信頼関係を構築する5つの実践テクニック",
+      "problemCategory": "コミュニケーション能力向上",
+      "uniqueValue": "",
+      "fileName": "K174.json"
+    },
+    {
+      "knowledgeId": "K175",
+      "postType": "002",
+      "actualTitle": "マネしないで！仕事が遅い人のNG習慣",
+      "problemDescription": "仕事が遅い・効率が悪い・作業に時間がかかって疲れる",
+      "solutionOverview": "仕事が遅い人の12個のNG習慣を特定し、各習慣をやめることで仕事を効率化する方法",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K175.json"
+    },
+    {
+      "knowledgeId": "K176",
+      "postType": "002",
+      "actualTitle": "脳疲労リセット！考えすぎを手放す習慣",
+      "problemDescription": "脳疲労・モヤモヤ・やる気が出ない・考えすぎ・心配が止まらない",
+      "solutionOverview": "脳疲労のサインを理解し、10個の習慣を実践することで考えすぎを手放し、集中力と思考力を回復させる方法",
+      "problemCategory": "ストレス・メンタルケア",
+      "uniqueValue": "",
+      "fileName": "K176.json"
+    },
+    {
+      "knowledgeId": "K177",
+      "postType": "002",
+      "actualTitle": "心の疲れ解消！メンタルを強くする方法",
+      "problemDescription": "案件に落ちる・すぐに落ち込む・メンタルが弱い",
+      "solutionOverview": "メンタルが強い人の特徴を理解し、6個の方法を実践することでメンタルを強化し、ストレス耐性を向上させる方法",
+      "problemCategory": "メンタル強化・ストレス耐性",
+      "uniqueValue": "",
+      "fileName": "K177.json"
+    },
+    {
+      "knowledgeId": "K178",
+      "postType": "004",
+      "actualTitle": "ChatGPT精度爆上げ！驚きの一言",
+      "problemDescription": "ChatGPTを使いこなせない・もっと効率的に活用したい",
+      "solutionOverview": "ChatGPTの精度を爆上げする6つの具体的なプロンプト技術を実践的に紹介",
+      "problemCategory": "仕事効率化",
+      "uniqueValue": "",
+      "fileName": "K178.json"
+    },
+    {
+      "knowledgeId": "K179",
+      "postType": "002",
+      "actualTitle": "言語化力を鍛える10の方法",
+      "problemDescription": "自分の考えや意見を的確に言語化して伝える力が不足している",
+      "solutionOverview": "言語化力を鍛えるための10個の実践的方法を具体的に紹介",
+      "problemCategory": "コミュニケーションスキル向上",
+      "uniqueValue": "",
+      "fileName": "K179.json"
+    },
+    {
+      "knowledgeId": "K181",
+      "postType": "002",
+      "actualTitle": "元メンヘラが最強メンタルになった方法",
+      "problemDescription": "メンタルが弱い・他人の評価に振り回される・ネガティブ思考に陥りやすい",
+      "solutionOverview": "元メンヘラが実践して最強メンタルになった6つの方法を紹介",
+      "problemCategory": "メンタルヘルス",
+      "uniqueValue": "",
+      "fileName": "K181.json"
+    },
+    {
+      "knowledgeId": "K182",
+      "postType": "002",
+      "actualTitle": "今年こそ変わる！人生が上向く神習慣",
+      "problemDescription": "今年こそ変わりたいが三日坊主で終わってしまう・良い習慣が継続できない",
+      "solutionOverview": "今年こそ変わりたい人のための人生が上向く3つの神習慣を紹介",
+      "problemCategory": "習慣形成・自己改善",
+      "uniqueValue": "",
+      "fileName": "K182.json"
+    }
+  ]
+}

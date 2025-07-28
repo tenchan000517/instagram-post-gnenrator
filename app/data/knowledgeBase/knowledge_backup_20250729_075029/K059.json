@@ -1,0 +1,252 @@
+{
+  "id": "K059",
+  "contentId": "contents-059",
+  "title": "なぜかナメられる人の特徴",
+  "category": "コミュニケーション",
+  "tags": ["コミュニケーション", "人間関係", "職場", "対処法", "ビジネススキル"],
+  "structure": {
+    "format": "carousel_educational_list",
+    "totalSlides": 9,
+    "components": {
+      "coverSlide": {
+        "title": "なぜかナメられる人の特徴",
+        "subtitle": null,
+        "visualElements": [
+          {
+            "type": "illustration",
+            "description": "困った表情の人物イラスト",
+            "position": "left"
+          }
+        ]
+      },
+      "introductionSlide": {
+        "content": "ちゃんと丁寧に話してるつもりなのに、なんか軽く見られたり。ナメられるなあ...って思うことない？私も前は「なんで...？」って落ち込んだ。特徴と対策を紹介するよ！"
+      },
+      "listItems": [
+        {
+          "slideNumber": 3,
+          "title": "なぜかナメられる人の特徴",
+          "item": "語尾が伸びる",
+          "description": "そうなんですよねえ～",
+          "arrow": "down",
+          "followUp": "そうなんです。",
+          "note": "※「です。」の。は明瞭に！語尾つがない話し方がカギ"
+        },
+        {
+          "slideNumber": 4,
+          "title": "なぜかナメられる人の特徴",
+          "item": "語尾を上げる",
+          "description": "これでいいですか↗？",
+          "arrow": "down",
+          "followUp": "これでいいですか↘",
+          "note": "※言い切ることで安心感を出す◎"
+        },
+        {
+          "slideNumber": 5,
+          "title": "なぜかナメられる人の特徴",
+          "item": "ちょっと参勤不審",
+          "description": "あ、どうも...",
+          "arrow": "down",
+          "followUp": "おつかれさまです。",
+          "note": "※あいさつだけでもハキハキ言うと印象がかわる！姿勢も正して^^"
+        },
+        {
+          "slideNumber": 6,
+          "title": "なぜかナメられる人の特徴",
+          "item": "小声で終わる",
+          "description": "やってあります...",
+          "arrow": "down",
+          "followUp": "やってあります。",
+          "note": "※濁すと自信がなさそうにみえる。「ます。」の。を意識。"
+        },
+        {
+          "slideNumber": 7,
+          "title": "なぜかナメられる人の特徴",
+          "item": "やたらと笑う",
+          "description": "ええ...まあなんとか...",
+          "arrow": "down",
+          "followUp": "では、進めすね。",
+          "note": "※不必要に笑わない！"
+        }
+      ],
+      "conclusionSlide": {
+        "content": "言ってることは同じでも、ひと工夫で周りの反応もがらりすがほど変わる◎日々のコミュニケーションが少し楽になりますように♫"
+      },
+      "ctaSlide": {
+        "content": "最後まで読んでくれてありがとう！",
+        "liveSchedule": "平日6:45～聞くだけで人間関係がラクになるLIVE毎朝やってるよ！",
+        "ctaButton": "フォローして遊びにきてね！",
+        "profileIcon": "本とペンダのパンダキャラクター"
+      }
+    }
+  },
+  "textContent": {
+    "coverSlide": {
+      "title": "なぜかナメられる人の特徴"
+    },
+    "slides": [
+      {
+        "slideNumber": 2,
+        "content": [
+          "ちゃんと丁寧に話してるつもりなのに、",
+          "なんか軽く見られたり。",
+          "ナメられるなあ...って思うことない？",
+          "",
+          "私も前は「なんで...？」って",
+          "落ち込んだ。",
+          "",
+          "特徴と対策を紹介するよ！"
+        ]
+      },
+      {
+        "slideNumber": 3,
+        "content": [
+          "なぜかナメられる人の特徴",
+          "",
+          "✓ 語尾が伸びる",
+          "",
+          "そうなんですよねえ～",
+          "",
+          "↓",
+          "",
+          "そうなんです。",
+          "",
+          "※「です。」の。は明瞭に！",
+          "語尾つがない話ギ方がカギ"
+        ]
+      },
+      {
+        "slideNumber": 4,
+        "content": [
+          "なぜかナメられる人の特徴",
+          "",
+          "✓ 語尾を上げる",
+          "",
+          "これでいいですか↗？",
+          "",
+          "↓",
+          "",
+          "これでいいですか↘",
+          "",
+          "※言い切ることで安心感を出す◎"
+        ]
+      },
+      {
+        "slideNumber": 5,
+        "content": [
+          "なぜかナメられる人の特徴",
+          "",
+          "✓ ちょっと参勤不審",
+          "",
+          "あ、どうも...",
+          "",
+          "↓",
+          "",
+          "おつかれさまです。",
+          "",
+          "※あいさつだけでもハキハキ言うと",
+          "印象がかわる！姿勢も正して^^"
+        ]
+      },
+      {
+        "slideNumber": 6,
+        "content": [
+          "なぜかナメられる人の特徴",
+          "",
+          "✓ 小声で終わる",
+          "",
+          "やってあります...",
+          "",
+          "↓",
+          "",
+          "やってあります。",
+          "",
+          "※濁すと自信がなさそうにみえる。",
+          "「ます。」の。を意識。"
+        ]
+      },
+      {
+        "slideNumber": 7,
+        "content": [
+          "なぜかナメられる人の特徴",
+          "",
+          "✓ やたらと笑う",
+          "",
+          "ええ...まあなんとか...",
+          "",
+          "↓",
+          "",
+          "では、進めすね。",
+          "",
+          "※不必要に笑わない！"
+        ]
+      },
+      {
+        "slideNumber": 8,
+        "content": [
+          "言ってることは同じでも、",
+          "ひと工夫で周りの反応も",
+          "がらりするほど変わる◎",
+          "",
+          "日々のコミュニケーションが",
+          "少し楽になりますように♫"
+        ]
+      },
+      {
+        "slideNumber": 9,
+        "content": [
+          "最後まで読んでくれて",
+          "ありがとう！",
+          "",
+          "平日6:45～",
+          "聞くだけで人間関係が",
+          "ラクになるLIVE",
+          "毎朝やってるよ！",
+          "",
+          "フォローして",
+          "遊びにきてね！"
+        ]
+      }
+    ]
+  },
+  "visualElements": {
+    "colorScheme": {
+      "primary": "#B8D4A8",
+      "secondary": "#FFFFFF",
+      "accent": "#FFD700",
+      "text": "#333333"
+    },
+    "designElements": [
+      "スパイラルノート風のリング綴じ",
+      "手書き風の矢印（↓）",
+      "チェックマーク（✓）",
+      "音符記号（♫）",
+      "上昇・下降矢印（↗↘）",
+      "パンダキャラクターのアイコン"
+    ],
+    "illustrations": [
+      {
+        "slide": 1,
+        "description": "困った表情の人物イラスト（黄色い髪、白い服）"
+      },
+      {
+        "slide": 9,
+        "description": "本とペンを持つパンダキャラクター"
+      }
+    ]
+  },
+  "postType": "002",
+  "metadata": {
+    "analysisDate": "2025-07-23",
+    "pageCount": 9,
+    "contentType": "educational_list",
+    "targetAudience": "business_professionals",
+    "primaryTopic": "communication_skills",
+    "engagementElements": [
+      "relatable_scenarios",
+      "practical_solutions",
+      "before_after_examples",
+      "live_session_promotion"
+    ]
+  }
+}

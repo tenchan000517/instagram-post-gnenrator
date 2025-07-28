@@ -95,15 +95,18 @@
         "tools": [
           {
             "name": "ChatGPT",
-            "description": "質問をしながら文章を作れる"
+            "description": "質問をしながら文章を作れる",
+            "imageSrc": "/imag/ai/ChatGPT-Logo.png"
           },
           {
             "name": "Claude", 
-            "description": "自然な日本語が得意"
+            "description": "自然な日本語が得意",
+            "imageSrc": "/imag/ai/claude-ai-icon.png"
           },
           {
             "name": "Perplexity",
-            "description": "調べた内容からまとめてくれる"
+            "description": "調べた内容からまとめてくれる",
+            "imageSrc": "/imag/ai/perplexity.png"
           }
         ],
         "benefit": "文章を書くのが苦手でもあっという間に完成します！"
@@ -117,15 +120,18 @@
         "tools": [
           {
             "name": "mymind",
-            "description": "マインドマップが自動で作れる"
+            "description": "めんどうな整理を勝手にやってくれる",
+            "imageSrc": "/imag/ai/mymind.png"
           },
           {
             "name": "Napkin.ai",
-            "description": "考えを図解にしてくれる"
+            "description": "テキストを図解にしてくれる",
+            "imageSrc": "/imag/ai/Napkin-ai.png"
           },
           {
             "name": "NotebookLM",
-            "description": "Q&A形式で理解を助けてくれる"
+            "description": "仕事の効率を上げてくれる",
+            "imageSrc": "/imag/ai/NotebookLM_logo.png"
           }
         ],
         "benefit": "モヤモヤが整理できて次にやることが明確になります。"

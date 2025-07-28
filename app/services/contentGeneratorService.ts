@@ -51,6 +51,9 @@ export interface GeneratedContent {
     all: string[]
   }
   summary: string
+  // BasicIntroTemplate用の動的選択に必要
+  postType?: string
+  targetId?: string
 }
 
 export class ContentGeneratorService {
@@ -180,7 +183,9 @@ export class ContentGeneratorService {
         totalPages: finalPages.length,
         hashtags,
         caption,
-        summary: userInput
+        summary: userInput,
+        postType: knowledgeBaseParams?.typeId,
+        targetId: knowledgeBaseParams?.targetId
       }
       
       console.log('🎉 2段階フロー完了')
@@ -360,7 +365,9 @@ export class ContentGeneratorService {
         totalPages: pages.length,
         hashtags,
         caption,
-        summary: userInput
+        summary: userInput,
+        postType: knowledgeBaseParams?.typeId,
+        targetId: knowledgeBaseParams?.targetId
       }
       
       console.log('🎊 ナレッジベース起点生成完了')

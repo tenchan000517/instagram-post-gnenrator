@@ -1,0 +1,71 @@
+{
+  "id": "K087",
+  "title": "1日1分業界分析（金融編）",
+  "description": "金融業界の基本概念、業種分類、市場規模、代表企業の詳細データを体系的に解説する教育コンテンツ投稿",
+  "category": "業界解説",
+  "tags": ["業界分析", "金融業界", "企業研究", "就活情報", "統計データ", "年収情報"],
+  "structure": {
+    "type": "educational_series",
+    "format": "carousel",
+    "pages": 7,
+    "flow": "cover → concept_explanation → industry_overview → company_analysis_1 → company_analysis_2 → cta_services"
+  },
+  "content_analysis": {
+    "educational_value": "systematic_industry_learning",
+    "data_reliability": "official_statistics_based",
+    "practical_application": "job_hunting_research",
+    "complexity_level": "beginner_friendly"
+  },
+  "visual_elements": {
+    "color_scheme": "red_primary_white_background",
+    "icon_usage": "industry_specific_symbols",
+    "data_visualization": "pie_chart_revenue_breakdown",
+    "layout_consistency": "point_numbered_structure"
+  },
+  "engagement_factors": {
+    "series_continuity": "daily_1_minute_format",
+    "practical_value": "actionable_company_data",
+    "accessibility": "digestible_information_chunks",
+    "expertise": "financial_metrics_included"
+  },
+  "posting_context": {
+    "account": "scareer_official",
+    "series_branding": "1日1分業界分析",
+    "target_audience": "job_hunting_students", 
+    "post_date": "2023年3月3日",
+    "related_mention": "@sportslink_agent"
+  },
+  "data_specifics": {
+    "industry_scale": "60.7兆円 (3位/190業界)",
+    "featured_companies": [
+      {
+        "name": "三菱UFJ FG",
+        "revenue": "6兆758億円",
+        "average_salary": "1,029万円",
+        "revenue_breakdown": {
+          "金利_為替市場取引": "25%",
+          "海外大手サービス": "20%",
+          "海外中小サービス": "16%"
+        }
+      },
+      {
+        "name": "第一生命HD", 
+        "revenue": "5兆2,919億円",
+        "average_salary": "978万円",
+        "revenue_breakdown": {
+          "国内生命保険": "71%",
+          "海外保険": "25%",
+          "その他": "4%"
+        }
+      }
+    ]
+  },
+  "postType": "003",
+  "content_effectiveness": {
+    "information_comprehensiveness": 9,
+    "visual_clarity": 8,
+    "educational_structure": 9,
+    "practical_utility": 8,
+    "overall_score": 8.5
+  }
+}

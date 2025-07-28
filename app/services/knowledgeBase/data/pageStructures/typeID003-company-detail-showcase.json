@@ -1,0 +1,73 @@
+{
+  "pageStructureId": "typeID003-company-detail-showcase",
+  "name": "TypeID003 企業詳細紹介型",
+  "description": "1-2社の企業を深掘りして詳細に紹介するパターン。年収・労働条件・選考フロー・企業文化まで包括的に情報提供",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateOptions": ["basic_intro", "type003_intro", "type003_intro_job"],
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string?"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "company_detail",
+      "templateStructure": {
+        "companyName": "string",
+        "catchphrase": "string?",
+        "logo": "string?",
+        "backgroundImage": "string?",
+        "features": {
+          "industry": "string",
+          "salary": "string?",
+          "deadline": "string?",
+          "workingHours": "string?",
+          "holidays": "string?",
+          "employees": "string?",
+          "overtime": "string?"
+        },
+        "details": {
+          "overview": "string",
+          "recruitment": "string[]",
+          "hiringCount": "string?",
+          "benefits": "string[]?"
+        },
+        "selectionProcess": "string[]?",
+        "illustration": "string?",
+        "highlightMessage": "string?",
+        "additionalInfo": "string?"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string?"
+      }
+    }
+  ],
+  "usageScenarios": [
+    "隠れ優良企業の詳細紹介",
+    "大手企業の採用情報詳細",
+    "業界特化企業の深掘り分析",
+    "福利厚生充実企業の特集",
+    "新卒採用企業の選考情報",
+    "企業文化・働き方の詳細解説"
+  ],
+  "keyFeatures": [
+    "企業情報の包括的表示",
+    "視覚的なレイアウト設計",
+    "数値データの強調表示",
+    "選考プロセスの可視化",
+    "企業の特徴・魅力の訴求"
+  ]
+}

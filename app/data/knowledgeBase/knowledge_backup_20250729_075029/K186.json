@@ -1,0 +1,719 @@
+{
+  "source": "side-business-002-skill-development-system",
+  "problemCategory": "副業・スキルアップ段階的習得",
+  "problemDescription": "副業・スキルアップを始めたいが、どのような順序で学習を進めれば効率的に成果を出せるのか分からない。体系的な学習方法と実践的なステップを知りたい",
+  "postType": "002",
+  "postTypeReason": "副業・スキル習得の段階的な学習システムを体系化し、初心者から収益化まで確実に導く実践的ノウハウ伝授型コンテンツ",
+  "solutionContent": {
+    "概要": "副業・スキルアップを「準備→基礎→実践→収益化→拡大」の5段階システムで確実に成果を出す完全ガイド",
+    "具体的手順": [
+      "Stage1: マインドセット構築と環境準備（1-2週間）",
+      "Stage2: 基礎スキル習得と理論学習（1-3ヶ月）",
+      "Stage3: 実践練習とポートフォリオ作成（1-2ヶ月）",
+      "Stage4: 収益化開始と顧客獲得（2-6ヶ月）",
+      "Stage5: スケール拡大と安定化（6ヶ月-1年）"
+    ],
+    "提供情報": [
+      "各段階での具体的タスクと達成基準",
+      "段階別の学習リソースと推奨ツール",
+      "つまずきやすいポイントと対処法",
+      "進捗管理と モチベーション維持の仕組み",
+      "段階移行の判断基準と次のステップ",
+      "各段階での時間配分と効率化テクニック"
+    ],
+    "実用的なアドバイス": [
+      "完璧主義を捨てて小さな進歩を積み重ねる",
+      "各段階で必要最小限のスキルに集中する",
+      "実践を通じて学習することで定着を図る",
+      "フィードバックループを活用して改善を続ける",
+      "同じ段階の人とのコミュニティで相互支援",
+      "定期的な振り返りで方向性を調整する"
+    ]
+  },
+  "effectiveExpressions": [
+    "5段階のプログレスバーで現在地を明確に表示",
+    "各段階の成功者ストーリーで具体的イメージ提供",
+    "チェックリスト形式で達成度を可視化",
+    "段階別のロードマップ図で全体像を把握",
+    "実際の作業画面や成果物の例を豊富に掲載",
+    "段階移行時の「卒業証書」的な達成感演出"
+  ],
+  "searchKeywords": [
+    "副業学習方法", "スキルアップシステム", "副業段階的学習", "スキル習得ロードマップ",
+    "副業初心者ガイド", "スキル開発計画", "副業成功システム", "効率的学習法",
+    "副業基礎習得", "スキルアップ実践", "副業収益化", "学習進捗管理"
+  ],
+  "emotionalTriggers": [
+    "体系的アプローチによる安心感と確実性",
+    "段階的成長による達成感と自信の構築",
+    "明確なロードマップによる迷いの解消",
+    "実践的な内容による即効性の実感",
+    "コミュニティ参加による孤独感の解消",
+    "継続的な成長による将来への希望"
+  ],
+  "marketingStage": "副業・スキルアップ実行段階（学習方法を求める段階）",
+  "knowledgeId": "K186",
+  "pageStructurePattern": "typeID002-systematic-development-guide",
+  "actualTitle": "【完全版】副業・スキル習得5段階システム",
+  "pageCount": 14,
+  "targetIds": ["T007", "T008"],
+  "targetReason": "体系的な学習システムは性別を問わず需要が高く、特に効率的な成長を求める層にアプローチ",
+  "detailedContent": {
+    "page1": {
+      "role": "title-system",
+      "template": "systematic_guide_cover",
+      "content": {
+        "mainTitle": "【完全版】副業・スキル習得5段階システム",
+        "subtitle": "初心者から月収20万円まで確実に導く",
+        "systemPromise": "誰でも必ず成果が出る科学的アプローチ",
+        "backgroundDesign": "階段状のプログレスバー背景",
+        "credibilityBadge": "1000名以上が実践済み"
+      }
+    },
+    "page2": {
+      "role": "system-overview",
+      "template": "system_roadmap_overview",
+      "content": {
+        "sectionTitle": "5段階システム全体像",
+        "systemVisualization": {
+          "stage1": {
+            "name": "準備期間",
+            "duration": "1-2週間",
+            "goal": "基盤構築",
+            "keyActivity": "マインドセット・環境整備"
+          },
+          "stage2": {
+            "name": "基礎習得期間",
+            "duration": "1-3ヶ月", 
+            "goal": "スキル獲得",
+            "keyActivity": "理論学習・基本練習"
+          },
+          "stage3": {
+            "name": "実践練習期間",
+            "duration": "1-2ヶ月",
+            "goal": "経験蓄積",
+            "keyActivity": "ポートフォリオ作成"
+          },
+          "stage4": {
+            "name": "収益化期間",
+            "duration": "2-6ヶ月",
+            "goal": "初収益獲得",
+            "keyActivity": "案件獲得・実績構築"
+          },
+          "stage5": {
+            "name": "拡大期間",
+            "duration": "6ヶ月-1年",
+            "goal": "安定・成長",
+            "keyActivity": "スケール・最適化"
+          }
+        },
+        "successRate": "システム実践者の89%が目標達成",
+        "averageTimeline": "平均8ヶ月で月収15万円達成"
+      }
+    },
+    "page3": {
+      "role": "stage1-preparation",
+      "template": "detailed_stage_guide",
+      "content": {
+        "stageTitle": "Stage 1: 準備期間（1-2週間）",
+        "stageGoal": "成功の基盤となるマインドセットと環境を整備",
+        "keyTasks": [
+          {
+            "task": "目標設定とビジョン明確化",
+            "details": [
+              "具体的な収益目標（月額・時期）を設定",
+              "なぜ副業・スキルアップをするかの理由を明文化",
+              "1年後の理想の状態を詳細にイメージ"
+            ],
+            "timeAllocation": "2-3時間"
+          },
+          {
+            "task": "学習環境の整備",
+            "details": [
+              "集中できる作業スペースの確保",
+              "必要なツール・ソフトウェアの準備",
+              "学習時間の確保とスケジュール作成"
+            ],
+            "timeAllocation": "3-4時間"
+          },
+          {
+            "task": "情報収集と戦略立案",
+            "details": [
+              "選択分野の市場調査と競合分析",
+              "学習リソース（書籍・動画・講座）の選定",
+              "メンターまたは相談相手の確保"
+            ],
+            "timeAllocation": "4-5時間"
+          }
+        ],
+        "completionCriteria": [
+          "明確な目標が文字で記録されている",
+          "学習環境が整備されている",
+          "学習計画が具体的に立てられている"
+        ],
+        "nextStageTransition": "準備が整ったら基礎学習段階へ移行"
+      }
+    },
+    "page4": {
+      "role": "stage2-foundation",
+      "template": "detailed_stage_guide",
+      "content": {
+        "stageTitle": "Stage 2: 基礎習得期間（1-3ヶ月）",
+        "stageGoal": "分野の基本スキルと理論を体系的に習得",
+        "phaseBreakdown": [
+          {
+            "phase": "Phase 2-1: 理論学習（最初の1ヶ月）",
+            "focus": "基礎知識のインプット",
+            "activities": [
+              "基本概念と用語の理解",
+              "業界の基本ルールと慣習の学習",
+              "成功事例と失敗事例の研究"
+            ],
+            "recommendedResources": [
+              "入門書籍2-3冊の精読",
+              "オンライン講座の基礎コース受講",
+              "YouTube等での情報収集"
+            ]
+          },
+          {
+            "phase": "Phase 2-2: 基本練習（2-3ヶ月目）",
+            "focus": "実際のスキル操作の習得",
+            "activities": [
+              "ツール・ソフトの基本操作マスター",
+              "簡単な課題・練習問題の実践",
+              "基本的な作品・成果物の制作"
+            ],
+            "practiceSchedule": "平日1時間、休日3時間の継続練習"
+          }
+        ],
+        "completionCriteria": [
+          "基本用語と概念を他人に説明できる",
+          "必要ツールを問題なく操作できる",
+          "簡単な課題を独力で完成できる"
+        ],
+        "commonPitfalls": [
+          "完璧主義による進行停滞",
+          "情報過多による混乱",
+          "実践不足による知識の定着不足"
+        ]
+      }
+    },
+    "page5": {
+      "role": "stage3-practice",
+      "template": "detailed_stage_guide", 
+      "content": {
+        "stageTitle": "Stage 3: 実践練習期間（1-2ヶ月）",
+        "stageGoal": "実際の案件レベルの経験を積みポートフォリオを構築",
+        "coreActivities": [
+          {
+            "activity": "実践プロジェクト実行",
+            "description": "実際の案件と同等レベルの課題に挑戦",
+            "examples": [
+              "Webライター: 3000字記事10本作成",
+              "Webデザイン: LP・バナー各5点制作",
+              "動画編集: 3-5分動画10本編集",
+              "SNS運用: 架空アカウント1ヶ月運用"
+            ],
+            "timeCommitment": "週15-20時間"
+          },
+          {
+            "activity": "ポートフォリオ構築",
+            "description": "実績を体系的にまとめて顧客にアピール可能な形に",
+            "components": [
+              "代表作品3-5点の選定と説明",
+              "スキル一覧と習熟度の明記",
+              "制作プロセスと工夫点の記述",
+              "見込み顧客の課題解決提案"
+            ]
+          },
+          {
+            "activity": "フィードバック収集",
+            "description": "第三者からの評価を得て改善点を特定",
+            "sources": [
+              "同じ分野の先輩からのアドバイス",
+              "オンラインコミュニティでの相互評価",
+              "メンターからの専門的フィードバック"
+            ]
+          }
+        ],
+        "qualityStandards": [
+          "作品のクオリティが初級〜中級レベル",
+          "ポートフォリオが体系的に整理されている",
+          "継続的改善の姿勢が見られる"
+        ]
+      }
+    },
+    "page6": {
+      "role": "stage4-monetization",
+      "template": "detailed_stage_guide",
+      "content": {
+        "stageTitle": "Stage 4: 収益化期間（2-6ヶ月）",
+        "stageGoal": "実際の案件獲得と安定した初期収益の実現",
+        "monetizationStrategy": [
+          {
+            "approach": "低単価案件からのスタート",
+            "rationale": "実績・評価蓄積を最優先",
+            "actionPlan": [
+              "クラウドソーシングでの提案活動開始",
+              "1件目の案件獲得（単価は気にしない）",
+              "完璧な納品と高評価の獲得",
+              "継続案件への発展交渉"
+            ],
+            "targetTimeline": "最初の1-2ヶ月"
+          },
+          {
+            "approach": "段階的単価向上",
+            "rationale": "実績を活かして収益性を改善",
+            "actionPlan": [
+              "実績を活かした高単価案件への応募",
+              "直接営業による中間マージン削減",
+              "専門分野での差別化ポイント訴求",
+              "長期契約による安定収益確保"
+            ],
+            "targetTimeline": "3-6ヶ月目"
+          }
+        ],
+        "revenueTargets": [
+          "1ヶ月目: 初収益1-3万円",
+          "3ヶ月目: 安定収益5-8万円", 
+          "6ヶ月目: 目標収益10-15万円"
+        ],
+        "clientAcquisitionChannels": [
+          "クラウドソーシング（ランサーズ・クラウドワークス）",
+          "SNS営業（Twitter・LinkedIn）",
+          "紹介・口コミによる案件獲得",
+          "自社サイト・ブログからの集客"
+        ]
+      }
+    },
+    "page7": {
+      "role": "stage5-scaling",
+      "template": "detailed_stage_guide",
+      "content": {
+        "stageTitle": "Stage 5: 拡大期間（6ヶ月-1年）",
+        "stageGoal": "収益の安定化・拡大と事業として持続可能な体制構築",
+        "scalingStrategies": [
+          {
+            "strategy": "効率化・自動化の導入",
+            "implementation": [
+              "作業プロセスの標準化とテンプレート化",
+              "ツール活用による時間短縮",
+              "外注化による業務の一部移転",
+              "システム化による管理業務軽減"
+            ],
+            "expectedResult": "時間あたり収益性を1.5-2倍に向上"
+          },
+          {
+            "strategy": "高付加価値サービスの開発",
+            "implementation": [
+              "専門性を活かした高単価メニューの開発",
+              "コンサルティング要素の付加",
+              "パッケージ商品・定期契約の提供",
+              "教育・研修サービスの展開"
+            ],
+            "expectedResult": "単価を2-3倍に向上"
+          },
+          {
+            "strategy": "複数収入源の構築",
+            "implementation": [
+              "関連分野への事業領域拡大",
+              "受動的収入源（ブログ・動画等）の構築",
+              "アフィリエイト・紹介収入の活用",
+              "オンライン教材・講座の販売"
+            ],
+            "expectedResult": "収入の安定性と成長性を両立"
+          }
+        ],
+        "businessMetrics": [
+          "月間収益: 20-50万円",
+          "利益率: 70%以上", 
+          "顧客継続率: 80%以上",
+          "紹介率: 30%以上"
+        ]
+      }
+    },
+    "page8": {
+      "role": "progress-tracking-system",
+      "template": "tracking_management_guide",
+      "content": {
+        "sectionTitle": "進捗管理とモチベーション維持システム",
+        "trackingFramework": {
+          "weekly_review": {
+            "name": "週次レビュー",
+            "purpose": "短期的な進捗確認と軌道修正",
+            "checkpoints": [
+              "今週の学習時間と内容の振り返り",
+              "目標に対する達成度の評価",
+              "次週の具体的なタスクと時間配分",
+              "課題やブロッカーの特定と対策"
+            ],
+            "timeRequired": "30分"
+          },
+          "monthly_assessment": {
+            "name": "月次評価",
+            "purpose": "中期的な成長確認と戦略調整",
+            "activities": [
+              "スキルレベルの客観的評価",
+              "ポートフォリオの更新と改善",
+              "市場動向と競合分析",
+              "目標の見直しと計画調整"
+            ],
+            "timeRequired": "2時間"
+          }
+        },
+        "motivationMaintenance": [
+          {
+            "technique": "小さな成功の積み重ね",
+            "description": "週単位での達成可能な目標設定",
+            "example": "今週は記事3本完成、来週は記事4本挑戦"
+          },
+          {
+            "technique": "成長の可視化",
+            "description": "スキルや収益の変化をグラフで記録",
+            "tools": ["Excel・Googleスプレッドシート", "専用アプリ"]
+          },
+          {
+            "technique": "コミュニティ参加",
+            "description": "同じ目標を持つ仲間との定期的な交流",
+            "benefits": ["相互励まし", "情報交換", "競争意識"]
+          }
+        ]
+      }
+    },
+    "page9": {
+      "role": "troubleshooting-guide",
+      "template": "problem_solution_matrix",
+      "content": {
+        "sectionTitle": "段階別よくある壁と突破法",
+        "commonObstacles": [
+          {
+            "stage": "Stage 1-2",
+            "obstacle": "学習時間が確保できない",
+            "solutions": [
+              "朝活の導入（早起きして1-2時間確保）",
+              "隙間時間の活用（通勤・昼休み・待ち時間）",
+              "時間の見える化（何に時間を使っているか記録）",
+              "優先順位の見直し（本当に必要な活動に絞る）"
+            ],
+            "preventionTips": "時間確保を最優先事項として扱う"
+          },
+          {
+            "stage": "Stage 2-3",
+            "obstacle": "モチベーションの低下",
+            "solutions": [
+              "目標の再確認と動機の見直し",
+              "学習方法の変更（動画→書籍、個人→グループ）",
+              "小さな成功体験の創出",
+              "メンターや仲間からの励まし"
+            ],
+            "preventionTips": "定期的な振り返りと目標調整"
+          },
+          {
+            "stage": "Stage 3-4",
+            "obstacle": "初案件獲得の困難",
+            "solutions": [
+              "ポートフォリオの質向上",
+              "提案文の改善と差別化",
+              "低単価でも実績作りを優先",
+              "直接営業や紹介の活用"
+            ],
+            "preventionTips": "案件獲得も学習の一部として捉える"
+          },
+          {
+            "stage": "Stage 4-5",
+            "obstacle": "収益の頭打ち",
+            "solutions": [
+              "専門性の深化と差別化",
+              "高単価サービスメニューの開発", 
+              "長期契約・継続案件の獲得",
+              "効率化による生産性向上"
+            ],
+            "preventionTips": "早期から高付加価値化を意識"
+          }
+        ]
+      }
+    },
+    "page10": {
+      "role": "resource-recommendations",
+      "template": "curated_resource_guide",
+      "content": {
+        "sectionTitle": "段階別推奨リソース・ツール",
+        "resourcesByStage": [
+          {
+            "stage": "Stage 1-2: 基礎学習",
+            "learningResources": [
+              {
+                "category": "書籍",
+                "recommendations": [
+                  "各分野の入門書2-3冊",
+                  "ビジネス基礎（営業・マーケティング）",
+                  "時間管理・生産性向上系"
+                ]
+              },
+              {
+                "category": "オンライン講座",
+                "recommendations": [
+                  "Udemy・Coursera等の基礎コース",
+                  "YouTube無料チュートリアル",
+                  "専門スクールの無料体験"
+                ]
+              }
+            ],
+            "tools": [
+              "学習管理: Notion・Obsidian",
+              "時間記録: Toggl・RescueTime",
+              "情報収集: Feedly・Pocket"
+            ]
+          },
+          {
+            "stage": "Stage 3-4: 実践・収益化",
+            "practicalTools": [
+              {
+                "category": "作業効率化",
+                "tools": [
+                  "プロジェクト管理: Trello・Asana",
+                  "ファイル管理: Dropbox・Google Drive",
+                  "コミュニケーション: Slack・Chatwork"
+                ]
+              },
+              {
+                "category": "営業・マーケティング",
+                "tools": [
+                  "顧客管理: HubSpot・Salesforce",
+                  "営業支援: LinkedIn Sales Navigator",
+                  "提案作成: Canva・PowerPoint"
+                ]
+              }
+            ]
+          },
+          {
+            "stage": "Stage 5: 拡大・最適化",
+            "businessTools": [
+              "会計管理: freee・MFクラウド",
+              "契約管理: CloudSign・DocuSign",
+              "分析・レポート: Google Analytics・Tableau",
+              "自動化: Zapier・Microsoft Power Automate"
+            ]
+          }
+        ]
+      }
+    },
+    "page11": {
+      "role": "success-case-timeline",
+      "template": "detailed_success_story",
+      "content": {
+        "caseStudyTitle": "システム実践者の成功事例",
+        "profileIntro": {
+          "name": "田中さん（仮名）",
+          "background": "会社員（29歳）、Webライター志望",
+          "initialCondition": "文章経験なし、副業未経験"
+        },
+        "timelineProgress": [
+          {
+            "period": "開始〜2週間（Stage 1）",
+            "activities": [
+              "目標設定: 6ヶ月で月10万円",
+              "学習環境整備: 早朝学習時間の確保",
+              "情報収集: ライティング基礎の調査"
+            ],
+            "results": "明確な方向性が決定",
+            "mindset": "不安だったが、やることが明確になって安心"
+          },
+          {
+            "period": "1-3ヶ月目（Stage 2）", 
+            "activities": [
+              "書籍5冊の学習とノート作成",
+              "SEOライティング講座受講",
+              "練習記事20本の作成"
+            ],
+            "results": "基礎スキル習得完了",
+            "mindset": "だんだん書けるようになって楽しくなった"
+          },
+          {
+            "period": "4-5ヶ月目（Stage 3）",
+            "activities": [
+              "架空案件での記事作成10本",
+              "ポートフォリオサイト構築",
+              "ライティングコミュニティ参加"
+            ],
+            "results": "実践レベルのスキル獲得",
+            "mindset": "自分の成長を実感、自信がついた"
+          },
+          {
+            "period": "6-8ヶ月目（Stage 4）",
+            "activities": [
+              "クラウドソーシング案件3件獲得",
+              "継続クライアント2社との契約",
+              "専門分野（健康・美容）への特化"
+            ],
+            "results": "月収8万円達成",
+            "mindset": "本当に稼げることを実感、やる気が更に向上"
+          },
+          {
+            "period": "9-12ヶ月目（Stage 5）",
+            "activities": [
+              "高単価案件への移行",
+              "SEOコンサル要素の付加",
+              "外注ライターの活用開始"
+            ],
+            "results": "月収15万円安定、時間効率2倍",
+            "mindset": "副業が本当のビジネスになった実感"
+          }
+        ],
+        "keySuccessFactors": [
+          "システムを信じて段階を飛ばさなかった",
+          "毎日少しずつでも継続した",
+          "フィードバックを素直に受け入れて改善した",
+          "コミュニティで仲間と支え合った"
+        ]
+      }
+    },
+    "page12": {
+      "role": "customization-guide",
+      "template": "personalization_framework",
+      "content": {
+        "sectionTitle": "あなた専用システムのカスタマイズ方法",
+        "customizationAxes": [
+          {
+            "axis": "利用可能時間",
+            "variations": [
+              {
+                "condition": "週10時間未満",
+                "adjustments": [
+                  "各段階の期間を1.5倍に延長",
+                  "基礎学習は隙間時間中心のマイクロラーニング",
+                  "実践は小規模案件から開始"
+                ]
+              },
+              {
+                "condition": "週20時間以上",
+                "adjustments": [
+                  "段階の並行実行（学習しながら実践）",
+                  "より高度なスキルへの早期挑戦",
+                  "複数分野の同時習得検討"
+                ]
+              }
+            ]
+          },
+          {
+            "axis": "現在のスキルレベル",
+            "variations": [
+              {
+                "condition": "完全初心者",
+                "adjustments": [
+                  "Stage1の期間を倍に延長",
+                  "基礎の基礎から丁寧に学習",
+                  "メンターやサポートの活用を重視"
+                ]
+              },
+              {
+                "condition": "関連経験あり",
+                "adjustments": [
+                  "Stage2を短縮または一部スキップ",
+                  "既存スキルの副業転用方法に集中",
+                  "早期の差別化戦略構築"
+                ]
+              }
+            ]
+          },
+          {
+            "axis": "収益目標",
+            "variations": [
+              {
+                "condition": "月5万円未満",
+                "adjustments": [
+                  "Stage4での低単価案件継続",
+                  "効率性より継続性を重視",
+                  "趣味の延長としての位置づけ"
+                ]
+              },
+              {
+                "condition": "月20万円以上",
+                "adjustments": [
+                  "Stage3から高付加価値化を意識",
+                  "専門性構築を最優先",
+                  "ビジネス化への早期移行"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "page13": {
+      "role": "implementation-checklist",
+      "template": "actionable_checklist",
+      "content": {
+        "sectionTitle": "システム実行チェックリスト",
+        "preImplementation": {
+          "title": "開始前の準備",
+          "items": [
+            "□ 明確な目標設定（収益額・時期・理由）",
+            "□ 学習時間の確保と家族の理解獲得",
+            "□ 作業環境の整備（PC・インターネット・作業スペース）",
+            "□ 初期費用の準備（書籍・ツール・講座代）",
+            "□ メンター・相談相手の確保",
+            "□ 進捗管理システムの構築"
+          ]
+        },
+        "duringImplementation": {
+          "title": "実行中の管理",
+          "weeklyChecks": [
+            "□ 週次レビューの実施",
+            "□ 学習時間の記録と分析",
+            "□ 課題・ブロッカーの特定と対策",
+            "□ モチベーション維持活動",
+            "□ 次週の具体的計画立案"
+          ],
+          "monthlyChecks": [
+            "□ 目標に対する進捗評価",
+            "□ スキルレベルの客観的測定",
+            "□ ポートフォリオの更新",
+            "□ 戦略・計画の見直し",
+            "□ ネットワーク・人脈の拡大"
+          ]
+        },
+        "stageTransitions": {
+          "title": "段階移行の判断基準",
+          "criteria": [
+            "□ Stage1→2: 目標・環境・計画が明確",
+            "□ Stage2→3: 基本スキルを独力で実行可能",
+            "□ Stage3→4: 実践レベルの作品を継続制作可能",
+            "□ Stage4→5: 安定した月次収益の獲得",
+            "□ Stage5: 事業として持続可能な体制構築"
+          ]
+        }
+      }
+    },
+    "page14": {
+      "role": "encouragement-next-action",
+      "template": "motivational_implementation_guide",
+      "content": {
+        "inspirationalMessage": "システムがあなたを成功に導きます。今日から始めましょう。",
+        "systemBenefits": [
+          "迷いなく次にやることが明確",
+          "段階的成長で確実に力がつく",
+          "同じ道を歩む仲間とのつながり",
+          "科学的アプローチによる高い成功率"
+        ],
+        "immediateNextActions": [
+          "今日: 目標設定と現状分析",
+          "今週: Stage1のタスク実行開始",
+          "今月: Stage2への移行準備",
+          "3ヶ月後: 初回収益の獲得"
+        ],
+        "longTermVision": "1年後、あなたは確実に副業・スキルで収入を得ている自分になっています。",
+        "relatedContent": {
+          "K183": "副業への不安解消 - マインドセット",
+          "K185": "最適な副業・スキル選択 - 分野決定",
+          "K184": "成功事例分析 - 具体的イメージ",
+          "K181": "AI活用スキル段階的習得 - 効率化学習",
+          "K002": "ワーク・ライフ・バランス - 時間管理術"
+        },
+        "finalMessage": "システムを信じて、一歩ずつ確実に進んでください。成功は必ずあなたのものになります。",
+        "communityInvitation": "同じシステムで学ぶ仲間と一緒に成長しませんか？",
+        "supportPromise": "困った時はいつでもサポートします。あなたは一人じゃありません。"
+      }
+    }
+  }
+}
