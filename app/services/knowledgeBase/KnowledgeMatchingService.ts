@@ -44,6 +44,16 @@ export class KnowledgeMatchingService {
         knowledgeCount: request.knowledgeContents.length
       })
 
+      // 直接K###指定チェック（最優先処理）
+      const directKnowledgeIds = this.extractDirectKnowledgeIds(request.userInput, request.knowledgeContents)
+      if (directKnowledgeIds.length > 0) {
+        console.log('🎯 直接ナレッジ指定検出:', directKnowledgeIds)
+        return directKnowledgeIds.map((knowledgeId: string, index: number) => ({
+          knowledgeId,
+          score: 0.95 - (index * 0.05) // 複数指定時は順序で差をつける
+        }))
+      }
+
       const genAI = this.initializeAI()
       const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
 
@@ -57,7 +67,7 @@ export class KnowledgeMatchingService {
       let prompt: string
       try {
         prompt = this.buildMatchingPrompt(request)
-        console.log('📝 生成されたプロンプト:', prompt)
+        console.log('📝 生成されたプロンプト長:', prompt.length)
       } catch (error) {
         console.error('❌ プロンプト構築エラー:', error)
         throw error
@@ -92,19 +102,24 @@ export class KnowledgeMatchingService {
   }
 
   /**
-   * マッチング用プロンプトを構築
+   * マッチング用プロンプトを構築（最適化版：プロンプト圧縮）
    */
   private static buildMatchingPrompt(request: KnowledgeMatchingRequest): string {
     const knowledgeData = request.knowledgeContents.map((knowledge, index) => {
+      // プロンプト圧縮：必要最小限の情報のみ抽出
+      const summary = knowledge.solutionContent?.概要 || 'なし'
+      const providedInfo = knowledge.solutionContent?.提供情報?.join(', ') || 'なし'
+      const keywords = knowledge.searchKeywords?.join(', ') || 'なし'
+      
       return `
 ナレッジ${index + 1}:
 - **ナレッジID: ${knowledge.knowledgeId}** ← これを出力に使用
 - タイトル: ${knowledge.actualTitle}
 - 問題: ${knowledge.problemDescription}
 - カテゴリ: ${knowledge.problemCategory}
-- 解決内容: ${JSON.stringify(knowledge.solutionContent || {}, null, 2)}
-- キーワード: ${knowledge.searchKeywords?.join(', ') || ''}
-- 感情トリガー: ${knowledge.emotionalTriggers?.join(', ') || ''}
+- 解決概要: ${summary}
+- 提供情報: ${providedInfo}
+- キーワード: ${keywords}
 `
     }).join('\n')
 
@@ -147,6 +162,27 @@ ${request.knowledgeContents[1].knowledgeId} 0.7`
 - 最大3個まで
 - 余計な説明文やJSONは不要
 `
+  }
+
+  /**
+   * ユーザー入力から直接指定されたナレッジIDを抽出
+   * @param userInput ユーザー入力
+   * @param knowledgeContents 利用可能なナレッジ一覧
+   * @returns 存在する直接指定されたナレッジID配列
+   */
+  private static extractDirectKnowledgeIds(userInput: string, knowledgeContents: any[]): string[] {
+    // K###パターンをすべて抽出（大文字小文字混在対応）
+    const knowledgeIdPattern = /[Kk](\d{3})/g
+    const matches = userInput.match(knowledgeIdPattern)
+    
+    if (!matches) return []
+    
+    // 正規化（大文字K + 3桁数字）して重複除去
+    const extractedIds = [...new Set(matches.map(match => match.toUpperCase()))]
+    
+    // 利用可能なナレッジリストに存在するIDのみを返す
+    const availableIds = knowledgeContents.map(k => k.knowledgeId)
+    return extractedIds.filter(id => availableIds.includes(id))
   }
 
   /**

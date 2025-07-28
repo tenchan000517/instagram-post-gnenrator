@@ -74,7 +74,7 @@
   "knowledgeId": "K160",
   "targetIds": ["T002", "T003"],
   "targetReason": "職場でのストレス・メンタル管理は性別を問わない汎用的な課題で、仕事・キャリアに悩む女性・男性両方に該当する",
-  "pageStructurePattern": "typeID001-emotion-empathy-list",
+  "pageStructurePattern": "typeID002-parallel-introduction",
   "actualTitle": "ストレス撃退！メンタル安定の神習慣",
   "pageCount": 9,
   "detailedContent": {
