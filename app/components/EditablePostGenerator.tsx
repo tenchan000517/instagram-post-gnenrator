@@ -27,6 +27,10 @@ import { SimpleSixEditor } from './editors/SimpleSixEditor'
 import { IndexEditor } from './editors/IndexEditor'
 import { SingleSectionNoItemsEditor } from './editors/SingleSectionNoItemsEditor'
 import { TwoColumnSectionItemsEditor } from './editors/TwoColumnSectionItemsEditor'
+import { DualEnumerationEditor } from './editors/DualEnumerationEditor'
+import { AchievementSummaryEditor } from './editors/AchievementSummaryEditor'
+import { ToolsIntroEditor } from './editors/ToolsIntroEditor'
+import { MultipleItemsDisplayEditor } from './editors/MultipleItemsDisplayEditor'
 
 interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
@@ -810,6 +814,42 @@ FIND to DO(@find_to_do)では
                   data={page.templateData}
                   onUpdate={(field, value) => handlePageTextEdit(editingPage, field, value)}
                   onDataUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {/* DualEnumerationTemplate専用エディタ */}
+            {page.templateType === 'dual_enumeration' && (
+              <div className="border-t pt-6 mt-6">
+                <DualEnumerationEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {/* AchievementSummaryTemplate専用エディタ */}
+            {page.templateType === 'achievement_summary' && (
+              <div className="border-t pt-6 mt-6">
+                <AchievementSummaryEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {/* ToolsIntroTemplate専用エディタ */}
+            {page.templateType === 'tools_intro' && (
+              <div className="border-t pt-6 mt-6">
+                <ToolsIntroEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+            {/* MultipleItemsDisplayTemplate専用エディタ */}
+            {page.templateType === 'multiple_items_display' && (
+              <div className="border-t pt-6 mt-6">
+                <MultipleItemsDisplayEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
                 />
               </div>
             )}
