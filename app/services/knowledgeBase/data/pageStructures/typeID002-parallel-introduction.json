@@ -1,0 +1,34 @@
+{
+  "pageStructureId": "typeID002-parallel-introduction",
+  "name": "TypeID002 並列紹介型",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string", 
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "dual_enumeration",
+      "templateStructure": {
+        "title": "string",
+        "items": "{number: string, name?: string, title?: string, description: string, imageSrc?: string}[] (厳密に2個のアイテムのみ)"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

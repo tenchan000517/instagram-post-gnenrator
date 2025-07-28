@@ -21,6 +21,7 @@ import { graphMetadata } from './GraphTemplate'
 import { featureParallelInfoMetadata } from './FeatureParallelInfoTemplate'
 import { featureDetailTipsMetadata } from './FeatureDetailTipsTemplate'
 import { sequentialDependencyMetadata } from './SequentialDependencyTemplate'
+import { dualEnumerationMetadata } from './DualEnumerationTemplate'
 
 // K002用テンプレートのメタデータインポート
 import { basicIntroMetadata } from './BasicIntroTemplate'
@@ -31,6 +32,15 @@ import { achievementSummaryMetadata } from './AchievementSummaryTemplate'
 import { ngGoodComparisonMetadata } from './NgGoodComparisonTemplate'
 import { categoryExplanationMetadata } from './CategoryExplanationTemplate'
 import { visionStrengthMatrixMetadata } from './VisionStrengthMatrixTemplate'
+
+// 新しいサマリー系テンプレートのメタデータインポート
+import { categorySummaryMetadata } from './CategorySummaryTemplate'
+import { gridSummaryMetadata } from './GridSummaryTemplate'
+import { toolFeatureMetadata } from './ToolFeatureTemplate'
+import { efficiencyTipsMetadata } from './EfficiencyTipsTemplate'
+
+// 複数アイテム表示テンプレートのメタデータインポート
+import { multipleItemsDisplayMetadata } from './MultipleItemsDisplayTemplate'
 
 // アクティブテンプレートレジストリ（Critical Priority + INDEX + データ可視化追加）
 export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
@@ -53,6 +63,7 @@ export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   feature_parallel_info: featureParallelInfoMetadata,
   feature_detail_tips: featureDetailTipsMetadata,
   sequential_dependency: sequentialDependencyMetadata,
+  dual_enumeration: dualEnumerationMetadata,
   // K002用テンプレート
   basic_intro: basicIntroMetadata,
   step_guide_achievement: stepGuideAchievementMetadata,
@@ -60,7 +71,14 @@ export const templateRegistry: Record<TemplateType, TemplateMetadata> = {
   // K117用テンプレート
   ng_good_comparison: ngGoodComparisonMetadata,
   category_explanation: categoryExplanationMetadata,
-  vision_strength_matrix: visionStrengthMatrixMetadata
+  vision_strength_matrix: visionStrengthMatrixMetadata,
+  // 新しいサマリー系テンプレート
+  category_summary: categorySummaryMetadata,
+  grid_summary: gridSummaryMetadata,
+  tool_feature: toolFeatureMetadata,
+  efficiency_tips: efficiencyTipsMetadata,
+  // 複数アイテム表示テンプレート
+  multiple_items_display: multipleItemsDisplayMetadata
 }
 
 // アクティブテンプレートのジャンル対応（Critical Priority追加）

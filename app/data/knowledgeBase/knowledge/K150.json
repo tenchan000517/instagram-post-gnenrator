@@ -85,6 +85,13 @@
   "pageStructurePattern": "typeID002-parallel-introduction",
   "actualTitle": "信頼度爆上がり！私、ミスしないのでの裏側",
   "pageCount": 9,
+  "templateOverrides": {
+    "3": "multiple_items_display",
+    "4": "multiple_items_display",
+    "5": "multiple_items_display",
+    "6": "multiple_items_display",
+    "7": "multiple_items_display"
+  },
   "detailedContent": {
     "page1": {
       "role": "導入・タイトル提示",

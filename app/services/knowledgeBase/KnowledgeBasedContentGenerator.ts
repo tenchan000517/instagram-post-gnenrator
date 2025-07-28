@@ -151,7 +151,22 @@ export class KnowledgeBasedContentGenerator {
 ${JSON.stringify(currentPageData.content, null, 2)}
 
 【テンプレート構造】
-${JSON.stringify(templateStructure, null, 2)}
+${(() => {
+  const isOverride = knowledgeData.templateOverrides?.[pageNumber.toString()];
+  const structure = isOverride 
+    ? this.getTemplateStructure(finalTemplate)
+    : templateStructure;
+  
+  console.log(`🔍 テンプレート構造ログ - Page ${pageNumber}:`, {
+    isOverride: !!isOverride,
+    finalTemplate,
+    overrideKey: pageNumber.toString(),
+    overrideValue: knowledgeData.templateOverrides?.[pageNumber.toString()],
+    structure
+  });
+  
+  return JSON.stringify(structure, null, 2);
+})()}
 
 【投稿意図】
 ${userInput}
@@ -249,6 +264,10 @@ ${knowledgeData.searchKeywords?.join(', ') || ''}
         explanation: 'string',
         tips: 'string[]'
       },
+      'dual_enumeration': {
+        title: 'string',
+        items: '{number: string, name?: string, title?: string, description: string, imageSrc?: string}[] (厳密に2個のアイテムのみ)'
+      },
       
       // 新テンプレート（優先度B - High）
       'category_content_learning': {
@@ -286,6 +305,67 @@ ${knowledgeData.searchKeywords?.join(', ') || ''}
         title: 'string',
         content: 'string',
         practicalAdvice: 'string'
+      },
+      
+      // 新しいサマリー系テンプレート
+      'category_summary': {
+        title: 'string',
+        subtitle: 'string?',
+        improvementExample: '{before: string, beforeIcon: string, after: string, afterIcon: string, tip: string}?',
+        categorySummary: '{number: string, name: string, examples: string[]}[]'
+      },
+      'grid_summary': {
+        title: 'string',
+        subtitle: 'string?',
+        grid: '{number: string, title: string, imageSrc?: string}[]',
+        finalMessage: 'string?'
+      },
+      'tool_feature': {
+        number: 'string',
+        title: 'string',
+        description: 'string',
+        process: '{before: string, after: string}?',
+        benefit: 'string',
+        imageSrc: 'string?'
+      },
+      'efficiency_tips': {
+        number: 'string',
+        title: 'string',
+        description: 'string',
+        explanation: 'string?',
+        benefit: 'string',
+        imageSrc: 'string?'
+      },
+      
+      // K117オーバーライド用テンプレート構造
+      'ng_good_comparison': {
+        ngSection: {
+          title: 'string',
+          examples: 'string[]'
+        },
+        goodSection: {
+          title: 'string',
+          examples: 'string[]'
+        },
+        bottomNote: 'string?'
+      },
+      'category_explanation': {
+        categoryTitle: 'string',
+        categoryDescription: 'string',
+        examples: 'string[]',
+        additionalTips: 'string?'
+      },
+      'vision_strength_matrix': {
+        matrixTitle: 'string',
+        rows: '{vision: string, strength: string, result: string}[]',
+        conclusion: 'string'
+      },
+      
+      // 複数アイテム表示テンプレート構造
+      'multiple_items_display': {
+        title: 'string',
+        subtitle: 'string?',
+        items: '{name?: string, title?: string, text?: string, description: string, imageSrc?: string}[] (2-5個の柔軟対応)'
       }
     }
     

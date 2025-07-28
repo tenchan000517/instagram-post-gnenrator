@@ -57,9 +57,14 @@
   "knowledgeId": "K140",
   "pageStructurePattern": "typeID002-parallel-introduction",
   "actualTitle": "人を遠ざける地雷ワード",
-  "pageCount": 8,
+  "pageCount": 7,
   "templateOverrides": {
-    "8": "category_summary"
+    "2": "multiple_items_display",
+    "3": "multiple_items_display",
+    "4": "multiple_items_display",
+    "5": "multiple_items_display",
+    "6": "multiple_items_display",
+    "7": "category_summary"
   },
   "detailedContent": {
     "page1": {
@@ -73,40 +78,6 @@
       }
     },
     "page2": {
-      "role": "5つのカテゴリ紹介",
-      "section": "mainContent",
-      "content": {
-        "title": "5つの地雷ワードカテゴリ",
-        "categories": [
-          {
-            "number": "1",
-            "name": "突き放し系",
-            "description": "相手を遠ざける冷たい表現"
-          },
-          {
-            "number": "2", 
-            "name": "上から目線系",
-            "description": "相手を見下すような表現"
-          },
-          {
-            "number": "3",
-            "name": "責任転嫁系", 
-            "description": "自分の責任を相手に押し付ける表現"
-          },
-          {
-            "number": "4",
-            "name": "頭から否定系",
-            "description": "相手の意見を最初から否定する表現"
-          },
-          {
-            "number": "5",
-            "name": "お笑い風だけどNG系",
-            "description": "軽い感じだが相手を傷つける表現"
-          }
-        ]
-      }
-    },
-    "page3": {
       "role": "突き放し系地雷ワード",
       "section": "mainContent", 
       "content": {
@@ -137,7 +108,7 @@
         "impact": "その一言で、本音が言えない人と思われてしまう"
       }
     },
-    "page4": {
+    "page3": {
       "role": "上から目線系地雷ワード",
       "section": "mainContent",
       "content": {
@@ -168,7 +139,7 @@
         "impact": "正しさで押してしまうと責められてる気持ちになる"
       }
     },
-    "page5": {
+    "page4": {
       "role": "責任転嫁系地雷ワード",
       "section": "mainContent",
       "content": {
@@ -199,7 +170,7 @@
         "impact": "誰が悪い？じゃなくどう良くする？に意識を向ける"
       }
     },
-    "page6": {
+    "page5": {
       "role": "頭から否定系地雷ワード",
       "section": "mainContent",
       "content": {
@@ -230,7 +201,7 @@
         "impact": "否定は、相手の芽をつぶす。理解と応援を伝える"
       }
     },
-    "page7": {
+    "page6": {
       "role": "お笑い風だけどNG系地雷ワード",
       "section": "mainContent",
       "content": {
@@ -261,7 +232,7 @@
         "impact": "バカにする笑いは人を傷つける。やさしさがあるユーモアにする"
       }
     },
-    "page8": {
+    "page7": {
       "role": "改善方法とまとめ",
       "section": "summary",
       "content": {

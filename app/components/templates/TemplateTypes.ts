@@ -233,6 +233,7 @@ export type TemplateType =
   | 'feature_parallel_info'        // ⑳機能紹介並列型
   | 'feature_detail_tips'          // ㉑機能詳細Tips型
   | 'sequential_dependency'        // ㉒順序依存ステップ型（typeID002対応）
+  | 'dual_enumeration'             // ㉓2アイテム上下配置型（K132対応）
   // 新テンプレート（優先度B - High）
   | 'category_content_learning'    // ㉑カテゴリ別コンテンツ学習型
   | 'step_guide_achievement'       // ㉒ステップガイド達成型
@@ -249,6 +250,11 @@ export type TemplateType =
   | 'ng_good_comparison'           // ㉝NG/GOOD比較型（K117用）
   | 'category_explanation'         // ㉞カテゴリ説明型（K117用）
   | 'vision_strength_matrix'       // ㉟ビジョン×強みマトリックス型（K117用）
+  | 'category_summary'             // ㊱カテゴリサマリー型（K140用）
+  | 'grid_summary'                 // ㊲グリッドサマリー型（K150用）
+  | 'tool_feature'                 // ㊳ツール機能紹介型（K168用）
+  | 'efficiency_tips'              // ㊴効率化ヒケツ型（K155用）
+  | 'multiple_items_display'       // ㊵複数アイテム表示型（2-5個柔軟対応）
 
 // テンプレートコンポーネントのプロパティ型
 export interface TemplateProps {

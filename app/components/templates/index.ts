@@ -18,6 +18,7 @@ export { default as GraphTemplate } from './GraphTemplate'
 export { FeatureParallelInfoTemplate } from './FeatureParallelInfoTemplate'
 export { FeatureDetailTipsTemplate } from './FeatureDetailTipsTemplate'
 export { SequentialDependencyTemplate } from './SequentialDependencyTemplate'
+export { DualEnumerationTemplate } from './DualEnumerationTemplate'
 
 // K115用テンプレート
 export { FailureEpisodeTemplate } from './FailureEpisodeTemplate'
@@ -28,6 +29,15 @@ export { ProfileOfferTemplate } from './ProfileOfferTemplate'
 export { NgGoodComparisonTemplate } from './NgGoodComparisonTemplate'
 export { CategoryExplanationTemplate } from './CategoryExplanationTemplate'
 export { VisionStrengthMatrixTemplate } from './VisionStrengthMatrixTemplate'
+
+// 新しいサマリー系テンプレート
+export { CategorySummaryTemplate } from './CategorySummaryTemplate'
+export { GridSummaryTemplate } from './GridSummaryTemplate'
+export { ToolFeatureTemplate } from './ToolFeatureTemplate'
+export { EfficiencyTipsTemplate } from './EfficiencyTipsTemplate'
+
+// 複数アイテム表示テンプレート
+export { MultipleItemsDisplayTemplate } from './MultipleItemsDisplayTemplate'
 
 // 新しいK004テスト用テンプレート
 export { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
@@ -68,6 +78,7 @@ import GraphTemplate from './GraphTemplate'
 import { FeatureParallelInfoTemplate } from './FeatureParallelInfoTemplate'
 import { FeatureDetailTipsTemplate } from './FeatureDetailTipsTemplate'
 import { SequentialDependencyTemplate } from './SequentialDependencyTemplate'
+import { DualEnumerationTemplate } from './DualEnumerationTemplate'
 
 // K115用テンプレートのインポート
 import { FailureEpisodeTemplate } from './FailureEpisodeTemplate'
@@ -94,6 +105,15 @@ import { NgGoodComparisonTemplate } from './NgGoodComparisonTemplate'
 import { CategoryExplanationTemplate } from './CategoryExplanationTemplate'
 import { VisionStrengthMatrixTemplate } from './VisionStrengthMatrixTemplate'
 
+// 新しいサマリー系テンプレートのインポート
+import { CategorySummaryTemplate } from './CategorySummaryTemplate'
+import { GridSummaryTemplate } from './GridSummaryTemplate'
+import { ToolFeatureTemplate } from './ToolFeatureTemplate'
+import { EfficiencyTipsTemplate } from './EfficiencyTipsTemplate'
+
+// 複数アイテム表示テンプレートのインポート
+import { MultipleItemsDisplayTemplate } from './MultipleItemsDisplayTemplate'
+
 import { TemplateType } from './TemplateTypes'
 
 export const templateComponents = {
@@ -116,6 +136,7 @@ export const templateComponents = {
   feature_parallel_info: FeatureParallelInfoTemplate,
   feature_detail_tips: FeatureDetailTipsTemplate,
   sequential_dependency: SequentialDependencyTemplate,
+  dual_enumeration: DualEnumerationTemplate,
   // K115用テンプレート
   failure_episode: FailureEpisodeTemplate,
   failure_story_intro: FailureStoryIntroTemplate,
@@ -137,7 +158,14 @@ export const templateComponents = {
   // K117用テンプレート
   'ng_good_comparison': NgGoodComparisonTemplate,
   'category_explanation': CategoryExplanationTemplate,
-  'vision_strength_matrix': VisionStrengthMatrixTemplate
+  'vision_strength_matrix': VisionStrengthMatrixTemplate,
+  // 新しいサマリー系テンプレート
+  'category_summary': CategorySummaryTemplate,
+  'grid_summary': GridSummaryTemplate,
+  'tool_feature': ToolFeatureTemplate,
+  'efficiency_tips': EfficiencyTipsTemplate,
+  // 複数アイテム表示テンプレート
+  'multiple_items_display': MultipleItemsDisplayTemplate
 } as const
 
 // テンプレートレンダラー
