@@ -7,8 +7,9 @@ interface MultipleItemsDisplayTemplateProps {
 }
 
 export function MultipleItemsDisplayTemplate({ data }: MultipleItemsDisplayTemplateProps) {
-  // データ構造解析 - 複数のフィールド名に対応
-  const items = data.items || data.examples || data.methods || data.tools || []
+  // データ構造解析 - 複数のフィールド名に対応（空配列も考慮）
+  const items = [data.items, data.examples, data.methods, data.tools]
+    .find(arr => arr && arr.length > 0) || []
   const title = data.title || ''
   const subtitle = data.subtitle || ''
 
@@ -18,7 +19,7 @@ export function MultipleItemsDisplayTemplate({ data }: MultipleItemsDisplayTempl
       case 2:
         return 'grid-cols-2' // 2カラム
       case 3:
-        return 'grid-cols-3' // 3カラム（トライアングル）
+        return 'grid-cols-2' // 3個ピラミッド型（1行目1個、2行目2個）
       case 4:
         return 'grid-cols-2' // 2x2グリッド
       case 5:
@@ -28,7 +29,7 @@ export function MultipleItemsDisplayTemplate({ data }: MultipleItemsDisplayTempl
     }
   }
 
-  // 5個の場合の特別なレイアウト用クラス
+  // 特別なレイアウト用クラス
   const getItemClass = (index: number, total: number) => {
     if (total === 5) {
       if (index === 0) return 'col-span-2' // 1行目：1個（幅2倍）
@@ -48,7 +49,7 @@ export function MultipleItemsDisplayTemplate({ data }: MultipleItemsDisplayTempl
     const itemDescription = item.description || ''
 
     return (
-      <div className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm hover:shadow-md transition-shadow ${getItemClass(index, total)}`}>
+      <div className="bg-white rounded-lg border border-gray-200 p-4 shadow-sm hover:shadow-md transition-shadow">
         {/* 画像（オプショナル） */}
         {hasImage && (
           <div className="mb-3 flex justify-center">
@@ -103,16 +104,38 @@ export function MultipleItemsDisplayTemplate({ data }: MultipleItemsDisplayTempl
 
         {/* アイテムグリッド */}
         <div className="flex-1 flex items-center justify-center">
-          <div className={`grid gap-4 w-full max-w-5xl ${getLayoutClass(items.length)}`}>
-            {items.map((item: any, index: number) => (
-              <ItemCard 
-                key={index} 
-                item={item} 
-                index={index} 
-                total={items.length}
-              />
-            ))}
-          </div>
+          {items.length === 3 ? (
+            // 3個の場合：ピラミッド型レイアウト
+            <div className="flex flex-col gap-4 w-full max-w-5xl">
+              {/* 1行目：1個（中央配置） */}
+              <div className="flex justify-center">
+                <div className="w-64">
+                  <ItemCard item={items[0]} index={0} total={3} />
+                </div>
+              </div>
+              {/* 2行目：2個 */}
+              <div className="flex justify-center gap-4">
+                <div className="w-64">
+                  <ItemCard item={items[1]} index={1} total={3} />
+                </div>
+                <div className="w-64">
+                  <ItemCard item={items[2]} index={2} total={3} />
+                </div>
+              </div>
+            </div>
+          ) : (
+            // その他：グリッドレイアウト
+            <div className={`grid gap-4 w-full max-w-5xl ${getLayoutClass(items.length)}`}>
+              {items.map((item: any, index: number) => (
+                <ItemCard 
+                  key={index} 
+                  item={item} 
+                  index={index} 
+                  total={items.length}
+                />
+              ))}
+            </div>
+          )}
         </div>
 
         {/* フォールバック: アイテムがない場合 */}

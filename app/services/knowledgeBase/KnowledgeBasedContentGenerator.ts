@@ -217,6 +217,12 @@ ${knowledgeData.searchKeywords?.join(', ') || ''}
         description: 'string',
         content: 'string'
       },
+      'tools_intro': {
+        title: 'string',
+        subtitle: 'string?',
+        description: 'string',
+        content: 'string'
+      },
       'basic_summary': {
         title: 'string',
         content: 'string',

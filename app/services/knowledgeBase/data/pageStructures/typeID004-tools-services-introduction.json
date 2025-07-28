@@ -1,0 +1,38 @@
+{
+  "pageStructureId": "typeID004-tools-services-introduction",
+  "name": "TypeID004 ツール・サービス紹介型",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "tools_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string", 
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "multiple_items_display",
+      "templateStructure": {
+        "title": "string",
+        "subtitle": "string?",
+        "category": "string?",
+        "tools": "{name: string, description: string, imageSrc?: string}[] (3個のツール)",
+        "items": "{name: string, description: string, imageSrc?: string}[] (3個のアイテム)",
+        "benefit": "string?"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

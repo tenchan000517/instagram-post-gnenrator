@@ -281,6 +281,18 @@
       "description": "教育型×戦略設計（K073等：AI就活スキル習得）",
       "pageStructureId": "education-complex-solution-5page",
       "reasoning": "AI就活等のスキル習得ニーズに対応した教育的アプローチでの段階的戦略設計支援"
+    },
+    {
+      "matchingKey": "002-T010",
+      "description": "スキル習得型×効率化志向×並列的ノウハウ紹介",
+      "pageStructureId": "typeID002-parallel-introduction",
+      "reasoning": "独立した複数のノウハウ・方法を並列的に紹介するパターン。効率化志向の男性社会人に最適"
+    },
+    {
+      "matchingKey": "004-T011",
+      "description": "効率型×ツール・サービス紹介型（AI活用等）",
+      "pageStructureId": "typeID004-tools-services-introduction",
+      "reasoning": "AIツール等の効率化サービスを体系的に紹介するパターン。効率重視のビジネスパーソンに最適"
     }
   ]
 }

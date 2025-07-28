@@ -51,6 +51,9 @@ export { default as BasicIntroTemplate } from './BasicIntroTemplate'
 export { default as StepGuideAchievementTemplate } from './StepGuideAchievementTemplate'
 export { default as AchievementSummaryTemplate } from './AchievementSummaryTemplate'
 
+// TypeID004用テンプレート
+export { default as ToolsIntroTemplate } from './ToolsIntroTemplate'
+
 // K001用テンプレート
 export { default as EmotionEmpathyListTemplate } from './EmotionEmpathyListTemplate'
 
@@ -96,6 +99,9 @@ import { ActionCallChecklistTemplate } from './ActionCallChecklistTemplate'
 import BasicIntroTemplate from './BasicIntroTemplate'
 import StepGuideAchievementTemplate from './StepGuideAchievementTemplate'
 import AchievementSummaryTemplate from './AchievementSummaryTemplate'
+
+// TypeID004用テンプレートのインポート
+import ToolsIntroTemplate from './ToolsIntroTemplate'
 
 // K001用テンプレートのインポート
 import EmotionEmpathyListTemplate from './EmotionEmpathyListTemplate'
@@ -151,6 +157,8 @@ export const templateComponents = {
   'basic_intro': BasicIntroTemplate,
   'step_guide_achievement': StepGuideAchievementTemplate,
   'achievement_summary': AchievementSummaryTemplate,
+  // TypeID004用テンプレート
+  'tools_intro': ToolsIntroTemplate,
   // K001用テンプレート
   'emotion_empathy_intro': EmotionEmpathyListTemplate,
   'emotion_empathy_list': EmotionEmpathyListTemplate,
