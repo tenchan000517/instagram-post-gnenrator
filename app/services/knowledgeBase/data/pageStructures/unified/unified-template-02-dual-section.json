@@ -1,0 +1,53 @@
+{
+  "pageStructureId": "unified-template-02-dual-section",
+  "name": "Unified Template 02 - Dual Section Pattern",
+  "description": "導入・2セクション上下配置・まとめ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "index_template",
+      "optional": true,
+      "templateStructure": {
+        "indexTitle": "string",
+        "indexItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "dual_section",
+      "templateStructure": {
+        "items": [
+          {
+            "title": "string",
+            "number": "number",
+            "description": "string | string[]",
+            "imageSrc": "string",
+            "imageAlt": "string"
+          }
+        ],
+        "footerDescription": "string"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

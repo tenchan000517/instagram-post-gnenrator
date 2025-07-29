@@ -1,0 +1,61 @@
+{
+  "pageStructureId": "unified-template-06-company-detail",
+  "name": "Unified Template 06 - Company Detail Pattern",
+  "description": "導入・企業詳細紹介・まとめ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "index_template",
+      "optional": true,
+      "templateStructure": {
+        "indexTitle": "string",
+        "indexItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "company_detail",
+      "templateStructure": {
+        "companyName": "string",
+        "catchphrase": "string",
+        "logo": "string",
+        "features": {
+          "industry": "string",
+          "salary": "string",
+          "holidays": "string",
+          "overtime": "string",
+          "employees": "string"
+        },
+        "details": {
+          "overview": "string",
+          "recruitment": "string[]",
+          "hiringCount": "string",
+          "benefits": "string[]"
+        },
+        "selectionProcess": "string[]",
+        "highlightMessage": "string"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

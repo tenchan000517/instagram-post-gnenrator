@@ -1,0 +1,47 @@
+{
+  "pageStructureId": "unified-template-01-simple-intro",
+  "name": "Unified Template 01 - Simple Intro Pattern",
+  "description": "導入・シンプル紹介・まとめの基本構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "index_template",
+      "optional": true,
+      "templateStructure": {
+        "indexTitle": "string",
+        "indexItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "simple_intro",
+      "templateStructure": {
+        "title": "string",
+        "description": "string",
+        "imageSrc": "string",
+        "imageAlt": "string"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

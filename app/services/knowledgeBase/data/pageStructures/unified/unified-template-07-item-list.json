@@ -1,0 +1,50 @@
+{
+  "pageStructureId": "unified-template-07-item-list",
+  "name": "Unified Template 07 - Item List Pattern",
+  "description": "導入・アイテムリスト・まとめ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "index_template",
+      "optional": true,
+      "templateStructure": {
+        "indexTitle": "string",
+        "indexItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "item_list",
+      "templateStructure": {
+        "title": "string",
+        "items": [
+          {
+            "name": "string",
+            "description": "string"
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

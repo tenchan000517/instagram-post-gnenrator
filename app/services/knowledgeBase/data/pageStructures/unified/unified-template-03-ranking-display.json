@@ -1,0 +1,64 @@
+{
+  "pageStructureId": "unified-template-03-ranking-display",
+  "name": "Unified Template 03 - Ranking Display Pattern",
+  "description": "導入・ランキング/Tier表示・まとめ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "index_template",
+      "optional": true,
+      "templateStructure": {
+        "indexTitle": "string",
+        "indexItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "ranking_display",
+      "templateStructure": {
+        "title": "string",
+        "subtitle": "string",
+        "displayType": "string",
+        "items": [
+          {
+            "rank": "number",
+            "name": "string",
+            "primaryValue": "string | number",
+            "secondaryValue": "string | number",
+            "description": "string",
+            "category": "string"
+          }
+        ],
+        "tiers": {
+          "SSS": "RankingItem[]",
+          "SS": "RankingItem[]",
+          "S": "RankingItem[]",
+          "A": "RankingItem[]"
+        },
+        "note": "string",
+        "source": "string"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

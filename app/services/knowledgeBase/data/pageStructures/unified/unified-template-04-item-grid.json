@@ -1,0 +1,53 @@
+{
+  "pageStructureId": "unified-template-04-item-grid",
+  "name": "Unified Template 04 - Item Grid Pattern",
+  "description": "導入・アイテムボックスグリッド・まとめ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "index_template",
+      "optional": true,
+      "templateStructure": {
+        "indexTitle": "string",
+        "indexItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "item_grid",
+      "templateStructure": {
+        "title": "string",
+        "subtitle": "string",
+        "items": [
+          {
+            "name": "string",
+            "description": "string",
+            "imageSrc": "string",
+            "imageAlt": "string"
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

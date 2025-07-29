@@ -1,0 +1,51 @@
+{
+  "pageStructureId": "unified-template-10-image-point",
+  "name": "Unified Template 10 - Image Point Pattern",
+  "description": "導入・画像+ポイント・まとめ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "index_template",
+      "optional": true,
+      "templateStructure": {
+        "indexTitle": "string",
+        "indexItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "image_point",
+      "templateStructure": {
+        "title": "string",
+        "mainImage": "string",
+        "importantPoint": "string",
+        "description": "string",
+        "bottomSection": {
+          "name": "string",
+          "content": "string | string[]"
+        }
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}
