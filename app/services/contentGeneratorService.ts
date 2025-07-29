@@ -8,6 +8,7 @@ import { StructureConstrainedGenerator } from './structureConstrainedGenerator'
 import { getGeminiModel } from './geminiClientSingleton'
 import { KnowledgeBaseParams } from '../types/knowledgeBase'
 import { KnowledgeBasedContentGenerator } from './knowledgeBase/KnowledgeBasedContentGenerator'
+import { PageStructureMatcher } from './knowledgeBase/PageStructureMatcher'
 
 export interface GeneratedPage {
   pageNumber: number
@@ -219,8 +220,8 @@ export class ContentGeneratorService {
       
       console.log('📋 使用するページ構成:', pageStructureId)
       
-      // ページ構造定義を読み込み
-      const pageStructure = await this.loadPageStructure(pageStructureId)
+      // ページ構造定義を読み込み（PageStructureMatcherを使用）
+      const pageStructure = PageStructureMatcher.loadPageStructure(pageStructureId)
       if (!pageStructure) {
         throw new Error(`ページ構造が見つかりません: ${pageStructureId}`)
       }
@@ -323,33 +324,77 @@ export class ContentGeneratorService {
             console.log(`📝 オプショナルなlastページはスキップされました`)
           }
         } else {
-          // 通常のページ処理（数値ページ番号）
-          console.log(`🎨 ページ${pageInfo.pageNumber}生成中...`)
-          
-          const result = await generator.generatePageContent({
-            userInput,
-            knowledgeData,
-            pageStructure,
-            templateStructure: pageInfo.templateStructure,
-            pageNumber: pageInfo.pageNumber
-          })
-        
-          if (result.success) {
-            // templateOverridesを考慮してtemplateTypeを決定
-            const finalTemplateType = knowledgeData.templateOverrides?.[pageInfo.pageNumber.toString()] || pageInfo.templateId
-            
-            const generatedPage: GeneratedPage = {
-              pageNumber: pageInfo.pageNumber,
-              templateType: finalTemplateType as TemplateType,
-              templateData: result.generatedContent,
-              content: result.generatedContent
+          // INDEXページの処理チェック
+          if (pageInfo.templateId === 'index_template' && pageInfo.optional) {
+            // indexセクションのページを特定
+            const indexPages = Object.keys(knowledgeData.detailedContent || {})
+              .filter(key => {
+                const pageData = knowledgeData.detailedContent?.[key]
+                return pageData?.section === "index"
+              })
+
+            // INDEXページが存在する場合のみ処理
+            if (indexPages.length > 0) {
+              const indexPageKey = indexPages[0]
+              console.log(`🎨 ページ${pageInfo.pageNumber}生成中... (index from ${indexPageKey})`)
+              
+              const result = await generator.generatePageContent({
+                userInput,
+                knowledgeData,
+                pageStructure,
+                templateStructure: pageInfo.templateStructure,
+                pageNumber: pageInfo.pageNumber
+              })
+              
+              if (result.success) {
+                const finalTemplateType = knowledgeData.templateOverrides?.[pageInfo.pageNumber.toString()] || pageInfo.templateId
+                
+                const generatedPage: GeneratedPage = {
+                  pageNumber: pageInfo.pageNumber,
+                  templateType: finalTemplateType as TemplateType,
+                  templateData: result.generatedContent,
+                  content: result.generatedContent
+                }
+                pages.push(generatedPage)
+                console.log(`✅ ページ${pageInfo.pageNumber}生成完了 (index)`)
+              } else {
+                console.error(`❌ ページ${pageInfo.pageNumber}生成失敗:`, result.error)
+                if (!pageInfo.optional) {
+                  throw new Error(`ページ${pageInfo.pageNumber}の生成に失敗しました`)
+                }
+              }
+            } else {
+              console.log(`📝 オプショナルなINDEXページはスキップされました`)
             }
-            
-            pages.push(generatedPage)
-            console.log(`✅ ページ${pageInfo.pageNumber}生成完了`)
           } else {
-            console.error(`❌ ページ${pageInfo.pageNumber}生成失敗:`, result.error)
-            throw new Error(`ページ${pageInfo.pageNumber}の生成に失敗しました`)
+            // 通常のページ処理（数値ページ番号）
+            console.log(`🎨 ページ${pageInfo.pageNumber}生成中...`)
+            
+            const result = await generator.generatePageContent({
+              userInput,
+              knowledgeData,
+              pageStructure,
+              templateStructure: pageInfo.templateStructure,
+              pageNumber: pageInfo.pageNumber
+            })
+          
+            if (result.success) {
+              // templateOverridesを考慮してtemplateTypeを決定
+              const finalTemplateType = knowledgeData.templateOverrides?.[pageInfo.pageNumber.toString()] || pageInfo.templateId
+              
+              const generatedPage: GeneratedPage = {
+                pageNumber: pageInfo.pageNumber,
+                templateType: finalTemplateType as TemplateType,
+                templateData: result.generatedContent,
+                content: result.generatedContent
+              }
+              
+              pages.push(generatedPage)
+              console.log(`✅ ページ${pageInfo.pageNumber}生成完了`)
+            } else {
+              console.error(`❌ ページ${pageInfo.pageNumber}生成失敗:`, result.error)
+              throw new Error(`ページ${pageInfo.pageNumber}の生成に失敗しました`)
+            }
           }
         }
       }
@@ -379,19 +424,6 @@ export class ContentGeneratorService {
     }
   }
 
-  /**
-   * ページ構造定義を読み込み
-   */
-  private async loadPageStructure(pageStructureId: string): Promise<any> {
-    try {
-      // 動的インポートでページ構造を読み込み
-      const module = await import(`./knowledgeBase/data/pageStructures/${pageStructureId}.json`)
-      return module.default || module
-    } catch (error) {
-      console.error('ページ構造読み込みエラー:', error)
-      return null
-    }
-  }
 
 
   async regenerateCaption(content: GeneratedContent): Promise<string> {

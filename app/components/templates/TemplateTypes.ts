@@ -226,26 +226,26 @@ export type TemplateType =
   | 'ranking'                  // ⑭ランキング表示型（データ可視化）
   | 'graph'                    // ⑮グラフ表示型（データ可視化・recharts使用）
   // 新テンプレート（優先度A - Critical）
-  | 'sequential_step_learning'     // ⑯順序依存ステップ型
-  | 'parallel_qa_discussion'       // ⑰Q&A並列紹介型
-  | 'points_list_analysis'         // ⑱ポイントリスト型
-  | 'timeline_story_experience'    // ⑲時系列ストーリー型
+  // | 'sequential_step_learning'     // ⑯順序依存ステップ型 (未実装)
+  // | 'parallel_qa_discussion'       // ⑰Q&A並列紹介型 (未実装)
+  // | 'points_list_analysis'         // ⑱ポイントリスト型 (未実装)
+  // | 'timeline_story_experience'    // ⑲時系列ストーリー型 (未実装)
   | 'feature_parallel_info'        // ⑳機能紹介並列型
   | 'feature_detail_tips'          // ㉑機能詳細Tips型
   | 'sequential_dependency'        // ㉒順序依存ステップ型（typeID002対応）
   | 'dual_enumeration'             // ㉓2アイテム上下配置型（K132対応）
   // 新テンプレート（優先度B - High）
-  | 'category_content_learning'    // ㉑カテゴリ別コンテンツ学習型
-  | 'step_guide_achievement'       // ㉒ステップガイド達成型
-  | 'method_systematic_info'       // ㉓方法論体系的情報型
-  | 'practical_guide_conversation' // ㉔実践ガイド会話型
-  | 'company_data_list'            // ㉕企業データリスト型
-  | 'usage_practical_steps'        // ㉖使用法実践ステップ型
+  // | 'category_content_learning'    // ㉑カテゴリ別コンテンツ学習型 (未実装)
+  // | 'step_guide_achievement_old'   // ㉒ステップガイド達成型 (未実装・重複)
+  // | 'method_systematic_info'       // ㉓方法論体系的情報型 (未実装)
+  // | 'practical_guide_conversation' // ㉔実践ガイド会話型 (未実装)
+  // | 'company_data_list'            // ㉕企業データリスト型 (未実装)
+  // | 'usage_practical_steps'        // ㉖使用法実践ステップ型 (未実装)
   | 'failure_episode'              // ㉗失敗エピソード型
   | 'failure_story_intro'          // ㉘失敗ストーリー導入型
   | 'profile_offer'                // ㉙プロフィール・オファー型
   | 'basic_intro'                  // ㉚基本導入型（K002用）
-  | 'step_guide_achievement'       // ㉛ステップガイド達成型（K002用）
+  | 'step_guide_achievement'       // ㉛ステップガイド達成型（K002用・実装済み）
   | 'achievement_summary'          // ㉜達成まとめ型（K002用）
   | 'ng_good_comparison'           // ㉝NG/GOOD比較型（K117用）
   | 'category_explanation'         // ㉞カテゴリ説明型（K117用）
@@ -255,6 +255,17 @@ export type TemplateType =
   | 'tool_feature'                 // ㊳ツール機能紹介型（K168用）
   | 'efficiency_tips'              // ㊴効率化ヒケツ型（K155用）
   | 'multiple_items_display'       // ㊵複数アイテム表示型（2-5個柔軟対応）
+  // Unified templates
+  | 'simple_intro'                 // ㊶シンプル導入型（unified）
+  | 'dual_section'                 // ㊷デュアルセクション型（unified）
+  | 'ranking_display'              // ㊸ランキング表示型（unified）
+  | 'item_grid'                    // ㊹アイテムグリッド型（unified）
+  | 'comparison'                   // ㊺比較型（unified）
+  | 'unified_company_detail'       // ㊻企業詳細型（unified）
+  | 'item_list'                    // ㊼アイテムリスト型（unified）
+  | 'section_blocks'               // ㊽セクションブロック型（unified）
+  | 'dynamic_boxes'                // ㊾ダイナミックボックス型（unified）
+  | 'image_point'                  // ㊿画像ポイント型（unified）
 
 // テンプレートコンポーネントのプロパティ型
 export interface TemplateProps {

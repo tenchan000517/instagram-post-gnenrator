@@ -15,6 +15,18 @@ import typeID001EmotionEmpathyList from './data/pageStructures/typeID001-emotion
 import typeID002ParallelIntroduction from './data/pageStructures/typeID002-parallel-introduction.json'
 import typeID002NgGoodComparisonPattern from './data/pageStructures/typeID002-ng-good-comparison-pattern.json'
 
+// Unified templates import
+import unifiedTemplate01SimpleIntro from './data/pageStructures/unified/unified-template-01-simple-intro.json'
+import unifiedTemplate02DualSection from './data/pageStructures/unified/unified-template-02-dual-section.json'
+import unifiedTemplate03RankingDisplay from './data/pageStructures/unified/unified-template-03-ranking-display.json'
+import unifiedTemplate04ItemGrid from './data/pageStructures/unified/unified-template-04-item-grid.json'
+import unifiedTemplate05Comparison from './data/pageStructures/unified/unified-template-05-comparison.json'
+import unifiedTemplate06CompanyDetail from './data/pageStructures/unified/unified-template-06-company-detail.json'
+import unifiedTemplate07ItemList from './data/pageStructures/unified/unified-template-07-item-list.json'
+import unifiedTemplate08SectionBlocks from './data/pageStructures/unified/unified-template-08-section-blocks.json'
+import unifiedTemplate09DynamicBoxes from './data/pageStructures/unified/unified-template-09-dynamic-boxes.json'
+import unifiedTemplate10ImagePoint from './data/pageStructures/unified/unified-template-10-image-point.json'
+
 export interface MatchingPattern {
   matchingKey: string;
   description: string;
@@ -35,11 +47,13 @@ export interface PageStructure {
 }
 
 export interface PageDefinition {
-  pageNumber: number;
+  pageNumber: number | "dynamic" | "last";
   templateId: string;
   role: string;
   title: string;
   itemAssignments: any;
+  templateStructure?: Record<string, any>;
+  optional?: boolean;
 }
 
 export class PageStructureMatchingError extends Error {
@@ -64,7 +78,18 @@ export class PageStructureMatcher {
     'typeID002-sequential-dependency': typeID002SequentialDependency,
     'typeID001-emotion-empathy-list': typeID001EmotionEmpathyList,
     'typeID002-parallel-introduction': typeID002ParallelIntroduction,
-    'typeID002-ng-good-comparison-pattern': typeID002NgGoodComparisonPattern
+    'typeID002-ng-good-comparison-pattern': typeID002NgGoodComparisonPattern,
+    // Unified templates
+    'unified-template-01-simple-intro': unifiedTemplate01SimpleIntro,
+    'unified-template-02-dual-section': unifiedTemplate02DualSection,
+    'unified-template-03-ranking-display': unifiedTemplate03RankingDisplay,
+    'unified-template-04-item-grid': unifiedTemplate04ItemGrid,
+    'unified-template-05-comparison': unifiedTemplate05Comparison,
+    'unified-template-06-company-detail': unifiedTemplate06CompanyDetail,
+    'unified-template-07-item-list': unifiedTemplate07ItemList,
+    'unified-template-08-section-blocks': unifiedTemplate08SectionBlocks,
+    'unified-template-09-dynamic-boxes': unifiedTemplate09DynamicBoxes,
+    'unified-template-10-image-point': unifiedTemplate10ImagePoint
   };
 
   /**

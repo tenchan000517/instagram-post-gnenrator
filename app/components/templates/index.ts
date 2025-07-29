@@ -39,6 +39,18 @@ export { EfficiencyTipsTemplate } from './EfficiencyTipsTemplate'
 // 複数アイテム表示テンプレート
 export { MultipleItemsDisplayTemplate } from './MultipleItemsDisplayTemplate'
 
+// Unified templates
+export { SimpleIntroTemplate } from './unified/SimpleIntroTemplate'
+export { DualSectionTemplate } from './unified/DualSectionTemplate'
+export { default as RankingDisplayTemplate } from './unified/RankingDisplayTemplate'
+export { ItemGridTemplate } from './unified/ItemGridTemplate'
+export { ComparisonTemplate } from './unified/ComparisonTemplate'
+export { CompanyDetailTemplate as UnifiedCompanyDetailTemplate } from './unified/CompanyDetailTemplate'
+export { ItemListTemplate } from './unified/ItemListTemplate'
+export { SectionBlocksTemplate } from './unified/SectionBlocksTemplate'
+export { DynamicBoxesTemplate } from './unified/DynamicBoxesTemplate'
+export { ImagePointTemplate } from './unified/ImagePointTemplate'
+
 // 新しいK004テスト用テンプレート
 export { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
 export { MethodDetailCardTemplate } from './MethodDetailCardTemplate'
@@ -130,6 +142,18 @@ import { EfficiencyTipsTemplate } from './EfficiencyTipsTemplate'
 // 複数アイテム表示テンプレートのインポート
 import { MultipleItemsDisplayTemplate } from './MultipleItemsDisplayTemplate'
 
+// Unified templatesのインポート
+import { SimpleIntroTemplate } from './unified/SimpleIntroTemplate'
+import { DualSectionTemplate } from './unified/DualSectionTemplate'
+import RankingDisplayTemplate from './unified/RankingDisplayTemplate'
+import { ItemGridTemplate } from './unified/ItemGridTemplate'
+import { ComparisonTemplate } from './unified/ComparisonTemplate'
+import { CompanyDetailTemplate as UnifiedCompanyDetail } from './unified/CompanyDetailTemplate'
+import { ItemListTemplate } from './unified/ItemListTemplate'
+import { SectionBlocksTemplate } from './unified/SectionBlocksTemplate'
+import { DynamicBoxesTemplate } from './unified/DynamicBoxesTemplate'
+import { ImagePointTemplate } from './unified/ImagePointTemplate'
+
 import { TemplateType } from './TemplateTypes'
 
 export const templateComponents = {
@@ -187,7 +211,18 @@ export const templateComponents = {
   // Type003用業界情報テンプレート
   'industry_ranking': IndustryRankingTemplate,
   'company_detail': CompanyDetailTemplate,
-  'industry_infographic': IndustryInfographicTemplate
+  'industry_infographic': IndustryInfographicTemplate,
+  // Unified templates
+  'simple_intro': SimpleIntroTemplate,
+  'dual_section': DualSectionTemplate,
+  'ranking_display': RankingDisplayTemplate,
+  'item_grid': ItemGridTemplate,
+  'comparison': ComparisonTemplate,
+  'unified_company_detail': UnifiedCompanyDetail,
+  'item_list': ItemListTemplate,
+  'section_blocks': SectionBlocksTemplate,
+  'dynamic_boxes': DynamicBoxesTemplate,
+  'image_point': ImagePointTemplate
 } as const
 
 // テンプレートレンダラー
