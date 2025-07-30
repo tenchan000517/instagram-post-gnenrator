@@ -11,7 +11,7 @@ export function NgGoodComparisonTemplate({ data }: NgGoodComparisonTemplateProps
   
   // content配列からNG/GOOD例を解析
   const parseContent = () => {
-    const parsed = { ngItems: [], goodItems: [], mainText: '' };
+    const parsed = { ngItems: [] as string[], goodItems: [] as string[], mainText: '' };
     
     contentArray.forEach((content: string) => {
       if (content.includes('❌')) {

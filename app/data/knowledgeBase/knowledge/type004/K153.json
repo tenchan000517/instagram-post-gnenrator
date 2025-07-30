@@ -73,9 +73,9 @@
   ],
   "marketingStage": "効率化・ツール導入検討段階（AI活用初期）",
   "knowledgeId": "K153",
-  "pageStructurePattern": "typeID004-tools-services-introduction",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "ガチで使える知らないと損！神ツール",
-  "pageCount": 8,
+  "pageCount": 6,
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
@@ -88,153 +88,38 @@
       }
     },
     "page2": {
-      "role": "文章作成ツール紹介",
       "section": "mainContent",
       "content": {
-        "category": "1 文章作成",
-        "tools": [
-          {
-            "name": "ChatGPT",
-            "description": "質問をしながら文章を作れる",
-            "imageSrc": "/imag/ai/ChatGPT-Logo.png"
-          },
-          {
-            "name": "Claude", 
-            "description": "自然な日本語が得意",
-            "imageSrc": "/imag/ai/claude-ai-icon.png"
-          },
-          {
-            "name": "Perplexity",
-            "description": "調べた内容からまとめてくれる",
-            "imageSrc": "/imag/ai/perplexity.png"
-          }
-        ],
-        "benefit": "文章を書くのが苦手でもあっという間に完成します！"
+        "title": "文章作成ツール",
+        "content": "ChatGPT：質問をしながら文章を作れるため、文章作成が苦手でも対話形式で簡単に完成できます。Claude：自然な日本語が得意で、違和感のない文章作成が可能です。Perplexity：調べた内容からまとめてくれるため、リサーチ効率が大幅に向上します。"
       }
     },
     "page3": {
-      "role": "思考整理ツール紹介",
       "section": "mainContent",
       "content": {
-        "category": "2 思考整理",
-        "tools": [
-          {
-            "name": "mymind",
-            "description": "めんどうな整理を勝手にやってくれる",
-            "imageSrc": "/imag/ai/mymind.png"
-          },
-          {
-            "name": "Napkin.ai",
-            "description": "テキストを図解にしてくれる",
-            "imageSrc": "/imag/ai/Napkin-ai.png"
-          },
-          {
-            "name": "NotebookLM",
-            "description": "仕事の効率を上げてくれる",
-            "imageSrc": "/imag/ai/NotebookLM_logo.png"
-          }
-        ],
-        "benefit": "モヤモヤが整理できて次にやることが明確になります。"
+        "title": "思考整理ツール",
+        "content": "mymind：マインドマップが自動で作れるため、めんどうな整理を勝手にやってくれて思考の整理が視覚的に可能です。Napkin.ai：考えを図解にしてくれるため、複雑な概念も理解しやすくなります。NotebookLM：Q&A形式で理解を助けてくれるため、学習効率が大幅に向上します。"
       }
     },
     "page4": {
-      "role": "資料作成ツール紹介",
       "section": "mainContent",
       "content": {
-        "category": "3 資料作成",
-        "tools": [
-          {
-            "name": "Gamma",
-            "description": "テキストをもとに自動で作成"
-          },
-          {
-            "name": "Adobe Firefly",
-            "description": "イメージ通りの画像が作れる"
-          },
-          {
-            "name": "DEFY",
-            "description": "コードなしで説明ツールを作成"
-          }
-        ],
-        "benefit": "時間がかかって大変な資料がサクッと簡単に作れます。"
+        "title": "資料作成ツール",
+        "content": "Gamma：テキストをもとに自動で資料作成するため、時間を大幅に短縮できます。Adobe Firefly：イメージ通りの画像が作れるため、デザイン作業が効率化されます。DEFY：コードなしで説明ツールを作成できるため、技術的な説明が簡単になります。"
       }
     },
     "page5": {
-      "role": "作業効率化ツール紹介",
       "section": "mainContent",
       "content": {
-        "category": "4 作業効率化",
-        "tools": [
-          {
-            "name": "Scribe",
-            "description": "操作を記録してマニュアルを作成"
-          },
-          {
-            "name": "Zapier",
-            "description": "ツールをつなげて作業を自動化"
-          },
-          {
-            "name": "Otter.ai",
-            "description": "会議を自動で文字起こし"
-          }
-        ],
-        "benefit": "面倒なルーティンワークが自動化できてラクになります！"
+        "title": "作業効率化ツール",
+        "content": "Scribe：操作を記録してマニュアルを作成するため、手順書作成が自動化されます。Zapier：ツールをつなげて作業を自動化するため、繰り返し作業から解放されます。Otter.ai：会議を自動で文字起こしするため、議事録作成が不要になります。"
       }
     },
     "page6": {
-      "role": "生活サポートツール紹介",
       "section": "mainContent",
       "content": {
-        "category": "5 生活サポート",
-        "tools": [
-          {
-            "name": "Suno",
-            "description": "歌詞を入力してオリジナル曲を作成"
-          },
-          {
-            "name": "Speechify",
-            "description": "文章を読み上げてながら読書できる"
-          },
-          {
-            "name": "Canva",
-            "description": "チラシや画像を簡単に作れる"
-          }
-        ],
-        "benefit": "毎日忙しくてもスキマ時間に使えて日常の助けになります。"
-      }
-    },
-    "page7": {
-      "role": "まとめ・活用促進",
-      "section": "summary",
-      "content": {
-        "title": "まとめ",
-        "categories": [
-          {
-            "number": "1",
-            "name": "文章作成",
-            "tools": ["ChatGPT", "Claude", "Perplexity"]
-          },
-          {
-            "number": "2", 
-            "name": "思考整理",
-            "tools": ["mymind", "Napkin.ai", "NotebookLM"]
-          },
-          {
-            "number": "3",
-            "name": "資料作成", 
-            "tools": ["Gamma", "Adobe Firefly", "DEFY"]
-          },
-          {
-            "number": "4",
-            "name": "作業効率化",
-            "tools": ["Scribe", "Zapier", "Otter.ai"]
-          },
-          {
-            "number": "5",
-            "name": "生活サポート",
-            "tools": ["Suno", "Speechify", "Canva"]
-          }
-        ]
+        "title": "生活サポートツール",
+        "content": "Suno：歌詞を入力してオリジナル曲を作成できるため、創作活動が手軽になります。Speechify：文章を読み上げてながら読書ができるため、時間を有効活用できます。Canva：チラシや画像を簡単に作れるため、デザインスキルが不要です。"
       }
     }
   }

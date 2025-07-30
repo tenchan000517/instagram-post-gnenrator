@@ -50,217 +50,72 @@
   ],
   "marketingStage": "就活準備段階の大学3年生、自分のスペックに不安を感じている学生",
   "knowledgeId": "K032",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "まだ黒髪にしてない3年生へ",
-  "pageCount": 11,
-  "contentPageCount": 9,
-  "hashTag": "とりえがなくてもホワイト企業内定",
+  "pageCount": 9,
   "detailedContent": {
     "page1": {
-      "role": "title-cover",
-      "content": {
-        "title": "まだ黒髪にしてない3年生へ",
-        "background": "薄紫色背景",
-        "mainElement": "白色角丸カード",
-        "character": "茶髪の女の子のイラスト",
-        "pageIndicator": "1/11"
-      }
+      "role": "ストーリー導入・状況設定",
+      "section": "introduction",
+      "title": "大学3年生のお話です",
+      "content": "就活アプリを入れてセミナーを少し見たくらいで、大学の課題とバイトで忙しくて家に帰るのはいつも22時過ぎ。そんな日々を過ごしていました。",
+      "imageSrc": "/misaki_worry.png"
     },
     "page2": {
-      "section": "intro",
-      "template": "basic_intro",
-      "role": "story-introduction",
-      "content": {
-        "title": "大学3年生のお話です！",
-        "background": "青色ヘッダー、白色背景",
-        "format": "manga-style",
-        "scene1": {
-          "character": "青い服の女の子（スマホを見ている）",
-          "speech": "といっても就活アプリ入れてセミナーを少し見たくらいで",
-          "emotion": "不安そうな表情"
-        },
-        "scene2": {
-          "character": "同じ女の子（家で勉強）",
-          "speech": "家に帰るのはいつも22時すぎ。",
-          "context": "大学の課題とバイトで忙しくて",
-          "emotion": "疲れた表情"
-        },
-        "pageIndicator": "2/11"
-      }
+      "role": "問題認識・きっかけ",
+      "section": "mainContent",
+      "title": "そろそろ就活しないと",
+      "content": "そう思いながらいつものバイト先に行ったら、同い年の子が髪を黒く染めていました。立教大学の子で、来週からインターンが始まるとのことでした。",
+      "imageSrc": "/ten_worry.png"
     },
     "page3": {
+      "role": "比較・不安感情",
       "section": "mainContent",
-      "template": "timeline_story_experience",
-      "role": "problem-realization",
-      "content": {
-        "background": "白色背景",
-        "format": "manga-style",
-        "scene1": {
-          "character": "青い服の女の子（思考中）",
-          "thought": "そう思いながらいつものバイト先に行ったら...",
-          "speech": "そろそろ就活しないと..."
-        },
-        "scene2": {
-          "character": "同じ女の子と同い年のYちゃん",
-          "yCharacter": "髪を黒く染めて（立教大学）が髪を黒く染めていたんです",
-          "emotion": "驚いた表情"
-        },
-        "pageIndicator": "3/11"
-      }
+      "title": "同じ年の子はもう就活をしている",
+      "content": "その子は学生団体の副リーダーで、TOEICも850点くらい持っています。正直、もう就活をしているんだとすごく焦りました。",
+      "imageSrc": "/iida_worry.png"
     },
     "page4": {
+      "role": "自己評価・劣等感",
       "section": "mainContent",
-      "template": "timeline_story_experience",
-      "role": "comparison-and-anxiety",
-      "content": {
-        "background": "白色背景",
-        "format": "manga-style",
-        "scene1": {
-          "character": "Yちゃん（黒髪、笑顔）",
-          "speech": "来週からインターン始まるんだ！",
-          "emotion": "嬉しそう"
-        },
-        "scene2": {
-          "character": "主人公（茶髪、不安）",
-          "speech": "髪染めたんだ...私",
-          "thought": "正直、もう就活してるんだとすごく焦りました。",
-          "context": "Yちゃんは学生団体の副リーダーで、TOEIC も850点くらい持ってるんです。",
-          "emotion": "焦りと不安"
-        },
-        "pageIndicator": "4/11"
-      }
+      "title": "その子と比べて私は",
+      "content": "大した学歴なし（大学受験に失敗。本当はMARCHに行きたかった）、2年間バイトのみ（ひたすら家でダラダラ）、資格は漢検3級。まって就活終わったと思いました。",
+      "imageSrc": "/kikuyo_worry.png"
     },
     "page5": {
+      "role": "転機・希望の兆し",
       "section": "mainContent",
-      "template": "points_list_analysis",
-      "role": "self-comparison",
-      "content": {
-        "title": "Yちゃんと比べて私は...",
-        "background": "白色背景",
-        "format": "comparison-list",
-        "selfComparison": [
-          "大した学歴なし（大学受験に失敗。本当はMARCHに行きたかった...）",
-          "2年間バイトのみ（2年間ひたすら家でダラダラ...）",
-          "資格は漢検3級"
-        ],
-        "character": "茶髪の女の子（困った表情）",
-        "speech": "まって就活終わった...",
-        "pageIndicator": "5/11"
-      }
+      "title": "6月からインターン始まるのに",
+      "content": "まだ全然準備できていません。バイトしかしてなかったし何も話せることがありません。そんな時、同じバイト先の日本大学の先輩が大手企業に内定をもらったと聞きました。",
+      "imageSrc": "/king_warry.png"
     },
     "page6": {
+      "role": "メンター出現・助言",
       "section": "mainContent",
-      "template": "timeline_story_experience",
-      "role": "intern-experience",
-      "content": {
-        "background": "白色背景",
-        "format": "manga-style",
-        "scene1": {
-          "character": "男性スーツ姿（焦っている）",
-          "speech": "6月からインターン始まるのに、まだ全然準備できてない...",
-          "context": "バイトしかしてなかったし何も話せることないよ...",
-          "emotion": "焦り"
-        },
-        "scene2": {
-          "character": "日本大学の先輩（笑顔）",
-          "speech": "そんな時、同じバイト先の日本大学の先輩が大手企業に内定をもらったと聞いたんです。",
-          "emotion": "嬉しそう"
-        },
-        "pageIndicator": "6/11"
-      }
+      "title": "先輩からのアドバイス",
+      "content": "失礼ですがこの先輩が大手企業にと思ったので聞いてみました。恐る恐る就活テキストを受け取ったのです。",
+      "imageSrc": "/iida.png"
     },
     "page7": {
+      "role": "決意・行動開始",
       "section": "mainContent",
-      "template": "timeline_story_experience",
-      "role": "mentor-advice",
-      "content": {
-        "background": "白色背景",
-        "format": "manga-style",
-        "scene1": {
-          "character": "男性先輩（スマホを見せる）",
-          "speech": "失礼ですがこの先輩が...?",
-          "thought": "と思ったので聞いてみたんです。",
-          "emotion": "疑問"
-        },
-        "scene2": {
-          "character": "茶髪の女の子",
-          "speech": "恐る恐る就活テキストを受け取ったんです。",
-          "emotion": "不安だけど興味深そう"
-        },
-        "pageIndicator": "7/11"
-      }
+      "title": "準備にどれだけ力を入れたかで決まる",
+      "content": "内定がもらえるかは準備にどれだけ力を入れたかで決まります。学歴や経験に自信がないからこそ、1日でも早く就活を始めてライバルに差をつけることが大事だと痛感しました。",
+      "imageSrc": "/king.png"
     },
     "page8": {
+      "role": "結果・成功体験",
       "section": "mainContent",
-      "template": "timeline_story_experience",
-      "role": "decision-and-action",
-      "content": {
-        "background": "白色背景",
-        "format": "manga-style",
-        "scene1": {
-          "character": "男性（指差し）",
-          "speech": "準備にとれだけ力を入れたかで決まります",
-          "context": "内定がもらえるかは",
-          "brandName": "就活テキスト"
-        },
-        "scene2": {
-          "character": "主人公（決意）",
-          "thought": "学歴や経験に自信がないからこそ刻も早く就活を始めてライバルに差をつけることが大事だと痛感しました",
-          "context": "何もしていない自分にとって、この言葉がすごく刺さったんです。",
-          "emotion": "決意"
-        },
-        "pageIndicator": "8/11"
-      }
+      "title": "インターン受かった",
+      "content": "その日から少しずつ自己分析、企業研究をしていくうちに、インターンに受かりました。こんな私でもできたと自信になりました。",
+      "imageSrc": "/misaki.png"
     },
     "page9": {
+      "role": "まとめ・行動促進",
       "section": "mainContent",
-      "template": "timeline_story_experience",
-      "role": "transformation-result",
-      "content": {
-        "background": "白色背景",
-        "format": "manga-style",
-        "scene1": {
-          "character": "主人公（嬉しそう）",
-          "speech": "え、インターン受かった...",
-          "context": "その日から少しずつ自己分析、企業研究をしていくうちに",
-          "emotion": "驚きと喜び"
-        },
-        "bottomSection": {
-          "message": "就活は1日でも早く動き出した人が勝つゲームです！",
-          "characters": "二人の学生（笑顔）",
-          "context": "不安な方も大丈夫。一緒に内定を目指しませんか？",
-          "emphasis": "こんな私でもできたと自信に",
-          "pageIndicator": "9/11"
-        }
-      }
-    },
-    "page10": {
-      "section": "mainContent",
-      "template": "practical_guide_conversation",
-      "role": "urgency-message",
-      "content": {
-        "background": "白色背景",
-        "mainMessage": "乗り遅れないで！",
-        "subMessage": "就活、もう始まってます...！",
-        "keyPoint": "就活は先手必勝。1日でも早くスタートした人が勝つゲームです。",
-        "speech": "「でも、何からやればいいの？」そんな就活生のあなたへ",
-        "character": "赤い服の人物キャラクター",
-        "pageIndicator": "10/11"
-      }
-    },
-    "page11": {
-      "section": "summary",
-      "template": "basic_summary",
-      "role": "cta-offering",
-      "content": {
-        "background": "白色背景",
-        "mainTitle": "大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は...",
-        "productImage": "就活攻略テキストのプロフィール画面",
-        "highlightedText": "1冊のテキストにまとめています！",
-        "url": "job-hun.com/ab/shukatsu_lp_inst",
-        "cta": "プロフィールのURLからお受け取りください！",
-        "socialProof": "資格は「漢検3級」のみ😂学生はバイトばかりの自信ない学生でも...続きを読む",
-        "pageIndicator": "11/11"
-      }
+      "title": "就活は先手必勝",
+      "content": "就活は1日でも早く動き出した人が勝つゲームです。不安な方も大丈夫。一緒に内定を目指しませんか。乗り遅れないでください。就活、もう始まっています。",
+      "imageSrc": "/ten.png"
     }
   }
 }

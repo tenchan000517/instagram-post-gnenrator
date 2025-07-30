@@ -59,10 +59,9 @@
   ],
   "marketingStage": "大学3年生、インターンシップ選択段階、具体的企業研究を始めたい学生、効率的な就活情報収集を求める学生",
   "knowledgeId": "K026",
-  "pageStructurePattern": "typeID003-industry-ranking-list",
+  "pageStructurePattern": "",
   "actualTitle": "インターンで内定できる高倍率企業TOP50",
   "pageCount": 3,
-  "hashTag": "とりえがなくてもホワイト企業内定",
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",

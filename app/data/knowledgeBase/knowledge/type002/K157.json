@@ -170,13 +170,15 @@
             "number": "7",
             "title": "悩み続けない",
             "description": "5分悩んだら行動します",
-            "benefit": "思考のループから抜けて行動が増えると自信がつきます"
+            "benefit": "思考のループから抜けて行動が増えると自信がつきます",
+            "imageSrc": "/king_warry.png"
           },
           {
             "number": "8",
             "title": "したいことを考える",
             "description": "わくわくすることを選びます",
-            "benefit": "自然とモチベーションが上がって楽しい気持ちになれます"
+            "benefit": "自然とモチベーションが上がって楽しい気持ちになれます",
+            "imageSrc": "/misaki.png"
           }
         ]
       }
@@ -190,13 +192,15 @@
             "number": "9",
             "title": "意識して休む",
             "description": "日曜の午後はのんびり過ごします",
-            "benefit": "エネルギーが回復して明日への活力になります"
+            "benefit": "エネルギーが回復して明日への活力になります",
+            "imageSrc": "/kikuyo.png"
           },
           {
             "number": "10",
             "title": "嫌われても気にしない",
             "description": "合わない人がいるのは当たり前です",
-            "benefit": "周りに気を使いすぎることがなくなって自分軸が保てます"
+            "benefit": "周りに気を使いすぎることがなくなって自分軸が保てます",
+            "imageSrc": "/ten_worry.png"
           }
         ]
       }
@@ -210,13 +214,15 @@
             "number": "11",
             "title": "できたことに注目する",
             "description": "今日は10分読書できました",
-            "benefit": "小さなことでも達成感が得られて自己肯定感がアップします"
+            "benefit": "小さなことでも達成感が得られて自己肯定感がアップします",
+            "imageSrc": "/misaki_worry.png"
           },
           {
             "number": "12",
             "title": "ツライときは逃げる",
             "description": "体を壊す前に立ち止まることも大事です",
-            "benefit": "自分を追いつめずにすんで心の安定が守られます"
+            "benefit": "自分を追いつめずにすんで心の安定が守られます",
+            "imageSrc": "/king.png"
           }
         ]
       }

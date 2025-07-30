@@ -575,22 +575,38 @@ export class TemplateMatchingService {
       'ranking': { min: 3, max: 5 },
       'graph': { min: 3, max: 8 },
       // 新テンプレートタイプ
-      sequential_step_learning: { min: 3, max: 7 },
-      parallel_qa_discussion: { min: 2, max: 6 },
-      points_list_analysis: { min: 3, max: 5 },
-      timeline_story_experience: { min: 4, max: 8 },
       feature_parallel_info: { min: 2, max: 6 },
       feature_detail_tips: { min: 2, max: 5 },
       sequential_dependency: { min: 3, max: 8 },
-      category_content_learning: { min: 3, max: 8 },
       step_guide_achievement: { min: 3, max: 6 },
-      method_systematic_info: { min: 2, max: 7 },
-      practical_guide_conversation: { min: 2, max: 5 },
-      company_data_list: { min: 5, max: 20 },
-      usage_practical_steps: { min: 3, max: 6 },
       failure_episode: { min: 1, max: 3 },
       failure_story_intro: { min: 1, max: 2 },
-      profile_offer: { min: 1, max: 2 }
+      profile_offer: { min: 1, max: 2 },
+      // K002用テンプレート
+      basic_intro: { min: 1, max: 3 },
+      achievement_summary: { min: 2, max: 5 },
+      // K117用テンプレート
+      ng_good_comparison: { min: 2, max: 6 },
+      category_explanation: { min: 2, max: 4 },
+      vision_strength_matrix: { min: 3, max: 6 },
+      // 追加テンプレート
+      dual_enumeration: { min: 2, max: 2 },
+      category_summary: { min: 2, max: 5 },
+      grid_summary: { min: 4, max: 12 },
+      tool_feature: { min: 2, max: 6 },
+      efficiency_tips: { min: 3, max: 8 },
+      multiple_items_display: { min: 2, max: 5 },
+      // Unified templates
+      simple_intro: { min: 1, max: 3 },
+      dual_section: { min: 2, max: 2 },
+      ranking_display: { min: 3, max: 10 },
+      item_grid: { min: 2, max: 12 },
+      comparison: { min: 2, max: 6 },
+      unified_company_detail: { min: 2, max: 8 },
+      item_list: { min: 2, max: 10 },
+      section_blocks: { min: 2, max: 8 },
+      dynamic_boxes: { min: 2, max: 6 },
+      image_point: { min: 2, max: 5 }
     }
 
     const requirement = volumeRequirements[templateType]
@@ -631,22 +647,38 @@ export class TemplateMatchingService {
       'ranking': { min: 3, max: 5 },
       'graph': { min: 3, max: 8 },
       // 新テンプレートタイプ
-      sequential_step_learning: { min: 3, max: 7 },
-      parallel_qa_discussion: { min: 2, max: 6 },
-      points_list_analysis: { min: 3, max: 5 },
-      timeline_story_experience: { min: 4, max: 8 },
       feature_parallel_info: { min: 2, max: 6 },
       feature_detail_tips: { min: 2, max: 5 },
       sequential_dependency: { min: 3, max: 8 },
-      category_content_learning: { min: 3, max: 8 },
       step_guide_achievement: { min: 3, max: 6 },
-      method_systematic_info: { min: 2, max: 7 },
-      practical_guide_conversation: { min: 2, max: 5 },
-      company_data_list: { min: 5, max: 20 },
-      usage_practical_steps: { min: 3, max: 6 },
       failure_episode: { min: 1, max: 3 },
       failure_story_intro: { min: 1, max: 2 },
-      profile_offer: { min: 1, max: 2 }
+      profile_offer: { min: 1, max: 2 },
+      // K002用テンプレート
+      basic_intro: { min: 1, max: 3 },
+      achievement_summary: { min: 2, max: 5 },
+      // K117用テンプレート
+      ng_good_comparison: { min: 2, max: 6 },
+      category_explanation: { min: 2, max: 4 },
+      vision_strength_matrix: { min: 3, max: 6 },
+      // 追加テンプレート
+      dual_enumeration: { min: 2, max: 2 },
+      category_summary: { min: 2, max: 5 },
+      grid_summary: { min: 4, max: 12 },
+      tool_feature: { min: 2, max: 6 },
+      efficiency_tips: { min: 3, max: 8 },
+      multiple_items_display: { min: 2, max: 5 },
+      // Unified templates
+      simple_intro: { min: 1, max: 3 },
+      dual_section: { min: 2, max: 2 },
+      ranking_display: { min: 3, max: 10 },
+      item_grid: { min: 2, max: 12 },
+      comparison: { min: 2, max: 6 },
+      unified_company_detail: { min: 2, max: 8 },
+      item_list: { min: 2, max: 10 },
+      section_blocks: { min: 2, max: 8 },
+      dynamic_boxes: { min: 2, max: 6 },
+      image_point: { min: 2, max: 5 }
     }
 
     const requirement = volumeRequirements[templateType]
@@ -718,22 +750,38 @@ export class TemplateMatchingService {
       'single-section-no-items': '単一セクション・アイテム無し型',
       'ranking': 'ランキング型',
       'graph': 'グラフ型',
-      sequential_step_learning: '順序依存ステップ型',
-      parallel_qa_discussion: 'Q&A並列紹介型',
-      points_list_analysis: 'ポイントリスト型',
-      timeline_story_experience: '時系列ストーリー型',
       feature_parallel_info: '機能紹介並列型',
       feature_detail_tips: '機能詳細Tips型',
       sequential_dependency: '順序依存ステップ型',
-      category_content_learning: 'カテゴリ別コンテンツ学習型',
       step_guide_achievement: 'ステップガイド達成型',
-      method_systematic_info: '方法論体系的情報型',
-      practical_guide_conversation: '実践ガイド会話型',
-      company_data_list: '企業データリスト型',
-      usage_practical_steps: '使用法実践ステップ型',
       failure_episode: '失敗エピソード型',
       failure_story_intro: '失敗ストーリー導入型',
-      profile_offer: 'プロフィール・オファー型'
+      profile_offer: 'プロフィール・オファー型',
+      // K002用テンプレート
+      basic_intro: '基本導入型',
+      achievement_summary: '達成まとめ型',
+      // K117用テンプレート
+      ng_good_comparison: 'NG/GOOD比較型',
+      category_explanation: 'カテゴリ説明型',
+      vision_strength_matrix: 'ビジョン×強みマトリックス型',
+      // 追加テンプレート
+      dual_enumeration: '2アイテム上下配置型',
+      category_summary: 'カテゴリサマリー型',
+      grid_summary: 'グリッドサマリー型',
+      tool_feature: 'ツール機能紹介型',
+      efficiency_tips: '効率化ヒケツ型',
+      multiple_items_display: '複数アイテム表示型',
+      // Unified templates
+      simple_intro: 'シンプル導入型（unified）',
+      dual_section: 'デュアルセクション型（unified）',
+      ranking_display: 'ランキング表示型（unified）',
+      item_grid: 'アイテムグリッド型（unified）',
+      comparison: '比較型（unified）',
+      unified_company_detail: '企業詳細型（unified）',
+      item_list: 'アイテムリスト型（unified）',
+      section_blocks: 'セクションブロック型（unified）',
+      dynamic_boxes: 'ダイナミックボックス型（unified）',
+      image_point: '画像ポイント型（unified）'
     }
     return displayNames[templateType] || templateType
   }

@@ -53,116 +53,119 @@
   ],
   "marketingStage": "内向型・繊細な性格で現在の仕事に悩みを持つ人、転職や適職探しを考えている人",
   "knowledgeId": "K054",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "繊細でしんどい内向型さん向いてる仕事24選",
-  "pageCount": 9,
-  "hashTag": "#他の投稿もチェックしてみる👆'-/",
+  "pageCount": 7,
   "detailedContent": {
     "page1": {
-      "role": "cover",
-      "backgroundImage": "ベージュ系のぼかし背景",
-      "titleText": "繊細でしんどい..\n内向型さん\n向いてる仕事\n24選",
-      "titleDesign": "黒文字、大きな赤い円の背景に24の数字",
-      "pageIndicator": "1/9"
+      "role": "problem-introduction",
+      "section": "introduction",
+      "content": {
+        "header": "内向型が活かせるお仕事24選",
+        "questionBox": "あなたはこんなことない？",
+        "checklist": [
+          "仕事が合ってないような気がする..",
+          "どんな仕事が合うの？",
+          "繊細なタイプでもできる仕事は？"
+        ],
+        "illustration": "悩んでいる女性のイラスト",
+        "bottomMessage": "内向型のタイプ別にお仕事分けてみたよ"
+      }
     },
     "page2": {
-      "role": "problem-introduction",
-      "header": "内向型が活かせるお仕事24選",
-      "questionBox": "あなたはこんなことない？",
-      "checklist": [
-        "仕事が合ってないような気がする..",
-        "どんな仕事が合うの？",
-        "繊細なタイプでもできる仕事は？"
-      ],
-      "illustration": "悩んでいる女性のイラスト",
-      "bottomMessage": "内向型のタイプ別にお仕事分けてみたよ",
-      "savePrompt": "メモが面倒な人は1タップで保存完了！"
+      "role": "content-type1",
+      "section": "mainContent",
+      "content": {
+        "pointNumber": "1",
+        "title": "気配りが得意な内向型",
+        "description": "内向型でも、大人数やチームでのコミュニケーションは苦手だけど1対1は得意だという人が。そんなあなたは強みである「傾聴力」や「人の気持ちに寄り添う力」を活かしていけると◎",
+        "illustration": "二人の人物が会話しているイラスト",
+        "jobList": [
+          "薬剤師",
+          "栄養士",
+          "セラピスト",
+          "修理業者",
+          "カウンセラー",
+          "整体師"
+        ]
+      }
     },
     "page3": {
-      "role": "content-type1",
-      "pointNumber": "1",
-      "title": "気配りが得意な内向型",
-      "description": "内向型でも、大人数やチームでのコミュニケーションは苦手だけど1対1は得意だという人が。そんなあなたは強みである「傾聴力」や「人の気持ちに寄り添う力」を活かしていけると◎",
-      "illustration": "二人の人物が会話しているイラスト",
-      "jobList": [
-        "薬剤師",
-        "栄養士",
-        "セラピスト",
-        "修理業者",
-        "カウンセラー",
-        "整体師"
-      ]
+      "role": "content-type2",
+      "section": "mainContent",
+      "content": {
+        "pointNumber": "2",
+        "title": "自分のペースで集中できる内向型",
+        "description": "一人で黙々と作業を進めることが得意なあなたは、強みである「集中力」を最大限に活かす多数の人とコミュニケーションをとる必要のないお仕事が◎",
+        "illustration": "二人の女性が立っているイラスト",
+        "jobList": [
+          "警備員",
+          "図書館司書",
+          "清掃員",
+          "倉庫作業",
+          "ドライバー",
+          "ビルメンテナンス"
+        ]
+      }
     },
     "page4": {
-      "role": "content-type2",
-      "pointNumber": "2",
-      "title": "自分のペースで集中できる内向型",
-      "description": "一人で黙々と作業を進めることが得意なあなたは、強みである「集中力」を最大限に活かす多数の人とコミュニケーションをとる必要のないお仕事が◎",
-      "illustration": "二人の女性が立っているイラスト",
-      "jobList": [
-        "警備員",
-        "図書館司書",
-        "清掃員",
-        "倉庫作業",
-        "ドライバー",
-        "ビルメンテナンス"
-      ]
+      "role": "content-type3",
+      "section": "mainContent",
+      "content": {
+        "pointNumber": "3",
+        "title": "物事を慎重にみる内向型",
+        "description": "色々と考えすぎてしまい、行動に移すまでに時間が内向型のあなたは強みの「深い考察力」や「分析力」を活かしたお仕事に就けると◎",
+        "illustration": "考えている女性のイラスト",
+        "jobList": [
+          "プログラマー",
+          "事務/経理",
+          "イラストレーター",
+          "ネットワーク監視",
+          "WEBデザイナー",
+          "品質管理"
+        ]
+      }
     },
     "page5": {
-      "role": "content-type3",
-      "pointNumber": "3",
-      "title": "物事を慎重にみる内向型",
-      "description": "色々と考えすぎてしまい、行動に移すまでに時間が内向型のあなたは強みの「深い考察力」や「分析力」を活かしたお仕事に就けると◎",
-      "illustration": "考えている女性のイラスト",
-      "jobList": [
-        "プログラマー",
-        "事務/経理",
-        "イラストレーター",
-        "ネットワーク監視",
-        "WEBデザイナー",
-        "品質管理"
-      ]
+      "role": "content-type4",
+      "section": "mainContent",
+      "content": {
+        "pointNumber": "4",
+        "title": "繊細な内向型",
+        "description": "刺激にはネガティブで共感力が高く、人の痛みや苦しみを自分のことのように感じて疲れるあなたは、「細かいところに気を配れる」「思考深い」のを強みにできるお仕事だと◎",
+        "illustration": "デスクワークをしている女性のイラスト",
+        "jobList": [
+          "エンジニア",
+          "飼育員",
+          "在宅ワーク（職種問わず）",
+          "事務職",
+          "WEBライター",
+          "製造"
+        ]
+      }
     },
     "page6": {
-      "role": "content-type4",
-      "pointNumber": "4",
-      "title": "繊細な内向型",
-      "description": "刺激にはネガティブで共感力が高く、人の痛みや苦しみを自分のことのように感じて疲れるあなたは、「細かいところに気を配れる」「思考深い」のを強みにできるお仕事だと◎",
-      "illustration": "デスクワークをしている女性のイラスト",
-      "jobList": [
-        "エンジニア",
-        "飼育員",
-        "在宅ワーク（職種問わず）",
-        "事務職",
-        "WEBライター",
-        "製造"
-      ]
+      "role": "advice-tips",
+      "section": "mainContent",
+      "content": {
+        "pointNumber": "5",
+        "title": "自分らしく働くための仕事選びのコツ",
+        "illustration": "デスクでコーヒーを飲みながら作業する女性のイラスト",
+        "tips": [
+          "人目を気にした仕事選びをしない（他人軸ではなく自分軸で）",
+          "自分がどんな内向型なのかを明確に（得意・苦手分野を明確に）"
+        ]
+      }
     },
     "page7": {
-      "role": "advice-tips",
-      "pointNumber": "5",
-      "title": "自分らしく働くための仕事選びのコツ",
-      "illustration": "デスクでコーヒーを飲みながら作業する女性のイラスト",
-      "tips": [
-        "人目を気にした仕事選びをしない（他人軸ではなく自分軸で）",
-        "自分がどんな内向型なのかを明確に（得意・苦手分野を明確に）"
-      ]
-    },
-    "page8": {
       "role": "additional-advice",
-      "pointNumber": "6",
-      "title": "迷ったら自己分析サイトも活用してみるもアリ",
-      "illustration": "椅子に座ってパソコンを見ている女性のイラスト",
-      "description": "自分がどんな傾向があるのか、強み、弱みがわからない..って方は「自己分析ツール」を活用したり、「無料相談」すると客観的に自分が分かるよ◎"
-    },
-    "page9": {
-      "role": "cta-follow",
-      "header": "他の記事も読んでみる👆'-/",
-      "mainTitle": "仕事/退職/転職について毎日発信📱'-",
-      "subTitle": "悩んでる方はフォローしてね",
-      "ctaLeft": "ハイライトでは無料自己分析もまとめてるよ",
-      "ctaRight": "ストーリーではフォロワーさん限定情報も発信中😉！",
-      "profilePreview": "tsubasa_workstyle アカウント画面のモックアップ"
+      "section": "summary",
+      "content": {
+        "pointNumber": "6",
+        "title": "迷ったら自己分析サイトも活用してみるもアリ",
+        "illustration": "椅子に座ってパソコンを見ている女性のイラスト",
+        "description": "自分がどんな傾向があるのか、強み、弱みがわからない..って方は「自己分析ツール」を活用したり、「無料相談」すると客観的に自分が分かるよ◎"
+      }
     }
   }
 }

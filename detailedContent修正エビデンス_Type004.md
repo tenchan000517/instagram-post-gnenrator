@@ -1012,7 +1012,272 @@ DualSectionTemplate.tsx
 - page3: 下部3項目は全て画像なし
 **理由**: Instagram機能系コンテンツはテキスト情報が中心で、ItemGridTemplateの○パターン（上部のみ画像あり）が最適。各機能の詳細説明で情報価値を提供
 
+### 🔧 K136.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-05-comparison
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（軽微）
+**修正理由**: CTA要素除去とsection統一のため。ComparisonTemplate構造は既に適合済み。
+
+**修正内容**:
+- page8 section: "summary" → "mainContent"に変更
+- CTA要素（callToAction）完全削除
+- 6つの従来ツール→AIツール比較構造は維持
+- 装飾的フィールド（role）は保持（ComparisonTemplate特性）
+
+#### 🎨 画像配置戦略
+**画像要否**: 不要
+**理由**: 
+- ComparisonTemplate特性上、Before/After対比構造で十分な視覚的整理
+- 6つのツール比較は文字情報中心で情報価値が高い
+- 各ページの対比レイアウトで視覚的メリハリが確保済み
+
+### 🔧 K146.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-02-dual-section
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（大幅）
+**修正理由**: 
+1. DualSectionTemplate構造（topSection/bottomSection）への完全変更
+2. 9ページ→7ページへの大幅集約
+3. items配列をtopSection/bottomSection構造に変更
+4. CTA要素完全除去
+
+**修正内容**:
+- pageStructurePattern: typeID002-parallel-introduction → unified-template-02-dual-section
+- pageCount: 9→7に変更
+- 複雑な9ページ構成→introduction + dual_section×5ページ構造
+- page2-3統合→page2（introduction）
+- items構造→topSection/bottomSection構造に完全変更
+- 10個の「がんばらないこと」を5ページ×2項目ずつ配置
+- CTA要素（callToAction）完全削除
+- 各項目の詳細説明を適切に統合
+
+#### 🎨 画像配置戦略
+**画像要否**: 必要
+**具体的配置**:
+- page1: kikuyo_worry.png（悩む女性）
+- page3 top: misaki.png, bottom: ten.png
+- page4 top: kikuyo.png, bottom: king.png
+- page5 top: misaki_work.png, bottom: iida_fighting.png
+- page6 top: kikuyo_point.png, bottom: king_point.png
+- page7 top: iida.png, bottom: misaki_study.png
+
+**理由**: 
+- 人生効率化系コンテンツは親しみやすさが重要
+- 各項目の内容に応じた適切なキャラクター選択で理解促進
+- DualSectionTemplateの構造で充実した内容展開が可能
+
+### 🔧 K153.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-08-section-blocks
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（大幅）
+**修正理由**: 
+1. SectionBlocksTemplate構造（title + content）への完全変更
+2. 8ページ→6ページへの集約
+3. ツール配列をシンプルなcontent文章に統合
+4. 装飾的フィールド（role、category、tools配列等）完全削除
+
+**修正内容**:
+- pageStructurePattern: typeID004-tools-services-introduction → unified-template-08-section-blocks
+- pageCount: 8→6に変更
+- 複雑な8ページ構成→introduction + 5セクションブロック構造
+- tools配列をcontent文章に統合（各ツールの詳細説明付き）
+- category、benefit等の装飾的フィールド完全削除
+- ページ7（まとめ）削除により情報集約
+- 15個のAIツールを5カテゴリに分けてセクション化
+
+#### 🎨 画像配置戦略
+**画像要否**: 必要
+**具体的配置**:
+- page1: misaki_work.png（AIを活用して仕事をする女性）
+
+**理由**: 
+- AIツール紹介系コンテンツは親しみやすさが重要
+- SectionBlocksTemplateは情報密度重視でテキスト中心設計
+- 導入ページのみ画像配置で視覚的親近感を提供
+- 5つのセクションで15個のツールを効果的に整理
+
+### 🔧 K155.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-07-item-list
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（大幅）
+**修正理由**: 
+1. ItemListTemplate構造（title + items[{name, description}]）への完全変更
+2. 9ページ→2ページへの大幅集約
+3. 複雑な個別ページ構造を5項目リスト形式に統合
+4. CTA要素完全除去
+
+**修正内容**:
+- pageStructurePattern: typeID004-tools-services-introduction → unified-template-07-item-list
+- pageCount: 9→2に変更
+- 複雑な9ページ構成→introduction + 5項目リスト構造
+- 各ヒケツの詳細説明を実用的で簡潔な説明に統合
+- role、number、example、benefit等の装飾的フィールド完全削除
+- CTA要素（actionCall）完全削除
+- 夜時間活用の5つのヒケツを効果的にリスト化
+
+#### 🎨 画像配置戦略
+**画像要否**: 必要
+**具体的配置**:
+- page1: misaki_work.png（仕事をする女性）
+
+**理由**: 
+- 時間効率化系コンテンツは親しみやすさが重要
+- ItemListTemplateは情報密度重視でテキスト中心設計
+- 導入ページのみ画像配置で視覚的親近感を提供
+- 仕事帰りの時間活用という文脈に適切
+
+### 🔧 K158.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-07-item-list
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（大幅）
+**修正理由**: 
+1. ItemListTemplate構造（title + items[{name, description}]）への完全変更
+2. 8ページ→2ページへの大幅集約
+3. 複雑な個別機能ページを5項目リスト形式に統合
+4. 装飾的フィールド（role、number、details、benefit等）完全削除
+
+**修正内容**:
+- pageStructurePattern: ""（空白） → unified-template-07-item-list
+- pageCount: 8→2に変更
+- 複雑な8ページ構成→introduction + 5項目リスト構造
+- 各神機能の詳細説明を実用的で簡潔な説明に統合
+- 5つの神機能を効果的にリスト化（音声会話、共有リンク、回答形式指定、メモリー、画像生成）
+
+#### 🎨 画像配置戦略
+**画像要否**: 必要
+**具体的配置**:
+- page1: misaki_study.png（AI学習する女性）
+
+**理由**: 
+- ChatGPT活用系コンテンツは親しみやすさが重要
+- ItemListTemplateは情報密度重視でテキスト中心設計  
+- 導入ページのみ画像配置で視覚的親近感を提供
+- AI学習・活用という文脈に適切
+
+### 🔧 K168.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-07-item-list
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（大幅）
+**修正理由**: 
+1. ItemListTemplate構造（title + items[{name, description, imageSrc}]）への完全変更
+2. 8ページ→2ページへの大幅集約
+3. Geminiの4機能を4項目リスト形式で統合
+4. 装飾的フィールド（role、section、number等）完全削除
+
+**修正内容**:
+- pageCount: 8→2に変更
+- 複雑な8ページ構成→introduction + 4項目リスト構造
+- 各機能の詳細説明を実用的で簡潔な説明に統合（Deep Research、スケジュール登録、スプレッドシート連携、ドキュメント出力）
+- process（before/after）情報を各項目のdescriptionに統合
+- benefit情報を各項目の説明文に含めて価値向上
+- 実際の使用例（「このサービスを詳しく調べて」→「情報をまとめてもらえる」等）を保持
+
+#### 🎨 画像配置戦略
+**画像要否**: 必要
+**具体的配置**:
+- page1: ten_worry.png（困っている男性）
+- page2各項目: kikuyo.png, misaki.png, king.png, kikuyo.png
+**理由**: 
+- 仕事効率化系コンテンツは親しみやすさが重要
+- 各機能の特徴に応じた適切なキャラクター選択で理解促進
+- ItemListTemplateの構造で充実した機能説明が可能
+
+### 🔧 K172.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-09-dynamic-boxes
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（大幅）
+**修正理由**: 
+1. DynamicBoxesTemplate構造（title + boxes[{name, content}]）への完全変更
+2. 8ページ→4ページへの集約（情報欠損なし）
+3. 12項目を全て保持（情報欠損完全回避）
+4. 装飾的フィールド（number、role等）削除、sectionは正しく保持
+
+**修正内容**:
+- actualTitle: 「ChatGPT意外な活用法」→「ChatGPT活用法12選」（正確な数量表示）
+- pageCount: 8→4に変更
+- pageStructurePattern: unified-template-09-dynamic-boxes
+- 複雑な8ページ構成→introduction + dynamic_boxes×3ページ構造
+- **情報欠損なし**: 12項目全てを保持（残り物レシピ、メニュー作成、買い物リスト、時短料理、声かけ、洗濯コツ、メール文章、食材保存、童話作成、家計管理、旅行計画、整理整頓）
+- 3カテゴリ構成: 料理・食事（4項目）、育児・生活管理（4項目）、特別サポート・管理（4項目）
+- 各項目の具体的な使用例とメリットを完全保持
+- number表記除去、自然な名称表記に統一
+
+#### 🎨 画像配置戦略
+**画像要否**: 不要
+**理由**: 
+- DynamicBoxesTemplateは情報密度重視でテキスト中心設計
+- 12項目の詳細な活用法説明で十分な情報価値を提供
+- 家事効率化系コンテンツは実用性重視で文字情報が中心
+- 4+4+4の均等なボックス配置で視覚的整理が十分
+
+### 🔧 K178.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-07-item-list
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（大幅）
+**修正理由**: 
+1. ItemListTemplate構造（title + items[{name, description, imageSrc}]）への完全変更
+2. 5ページ→2ページへの大幅集約
+3. 6つのプロンプト技術を全て保持（情報欠損なし）
+4. 装飾的フィールド（number、role等）削除、ナンバリング表記除去
+
+**修正内容**:
+- pageCount: 5→2に変更
+- 複雑な5ページ構成→introduction + 6項目リスト構造
+- 6つのプロンプト技術を全て保持（60点を100点にして、わからないことは知らないと答えて、あなたはプロの○○です、小学生でもわかる言葉で答えて、具体化してください、会話を一旦忘れてください）
+- number表記（1-6）除去、自然な名称表記に統一
+- 各技術の効果・メリット説明を詳細化
+- まとめページの情報をintroductionに統合してコンテンツ完結性向上
+- action（保存促進）等のCTA要素削除
+
+#### 🎨 画像配置戦略
+**画像要否**: 必要
+**具体的配置**:
+- page1: misaki_study.png（AI学習する女性）
+- page2各項目: misaki.png, kikuyo.png, king.png, misaki_work.png, iida.png（6項目中5項目に画像配置）
+**理由**: 
+- ChatGPT活用系コンテンツは親しみやすさが重要
+- プロンプト技術という専門的内容を視覚的に親しみやすく伝達
+- ItemListTemplateの構造で充実した技術説明が可能
+- 学習・作業系キャラクターで実用性を強調
+
+### 🔧 K185.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-05-comparison
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要（大幅）
+**修正理由**: 
+1. ComparisonTemplate構造（title + leftSide/rightSide）への完全変更
+2. 14ページ→5ページへの大幅集約（情報欠損なし）
+3. 12分野の副業・スキル比較情報を全て保持
+4. 複雑な診断・分析構造を比較型コンテンツに最適化
+
+**修正内容**:
+- pageCount: 14→5に変更
+- pageStructurePattern: unified-template-05-comparison
+- 複雑な14ページ構成→introduction + comparison×4ページ構造
+- **情報欠損なし**: 12分野全ての詳細情報を保持（Webライティング、SNS運用、転売、代行サービス、プログラミング、Webデザイン、ビジネスコンサル、動画編集、ブログ運営、YouTube、ポッドキャスト、ハンドメイド販売、オンライン講師、コーチング）
+- 比較軸の明確化: 難易度・収益性・将来性・適性の4軸比較を左右対比で表現
+- 診断機能の統合: 安定志向vs挑戦志向タイプ別おすすめを比較形式で整理
+- 実行ロードマップの簡潔化: 3段階の学習・収益化プロセスを左右構造で表現
+- 装飾的フィールド（role、diagnosticQuestions等）除去、比較テンプレート準拠
+
+#### 🎨 画像配置戦略
+**画像要否**: 不要
+**理由**: 
+- ComparisonTemplate特性上、左右対比構造で十分な視覚的整理
+- 12分野の詳細比較情報は文字情報中心で情報価値が高い
+- 各分野の収益・難易度・将来性データが視覚的要素として機能
+- 比較レイアウトで視覚的メリハリが確保済み
+
 ### 修正完了状況
-- **エビデンス作成完了**: 34/39 ファイル (K047, K049, K056, K057, K062, K071, K072, K074, K078, K079, K081, K082, K084, K085, K088, K092, K093, K096, K097, K098, K099, K100, K101, K102, K104, K106, K107, K109, K113, K116)
-- **修正内容確定**: 34/39 ファイル (K047, K049, K056, K057, K062, K071, K072, K074, K078, K079, K081, K082, K084, K085, K088, K092, K093, K096, K097, K098, K099, K100, K101, K102, K104, K106, K107, K109, K113, K116)
+- **エビデンス作成完了**: 42/42 ファイル（全完了）
+- **修正内容確定**: 42/42 ファイル（全完了）
 

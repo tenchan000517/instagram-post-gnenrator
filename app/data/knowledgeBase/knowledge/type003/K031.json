@@ -45,24 +45,13 @@
   ],
   "marketingStage": "就活準備段階の大学生、職種選択に迷っている学生",
   "knowledgeId": "K031",
-  "pageStructurePattern": "typeID003-industry-ranking-list",
+  "pageStructurePattern": "",
   "actualTitle": "学生よ、これが残業多い職種だ...",
-  "pageCount": 8,
-  "hashTag": "とりえがなくてもホワイト企業内定",
+  "pageCount": 6,
   "detailedContent": {
     "page1": {
-      "role": "title-and-hook",
-      "content": {
-        "title": "学生よ、これが残業多い職種だ...",
-        "background": "青色グラデーション背景",
-        "mainElement": "白色角丸カード",
-        "titleText": "学生よ、これが残業多い職種だ...",
-        "illustration": "ストレス表情のサラリーマンイラスト（書類とPC前）",
-        "pageIndicator": "1/8"
-      }
-    },
-    "page2": {
       "role": "ranking-data-1",
+      "section": "mainContent",
       "content": {
         "title": "残業多い職種ランキング",
         "format": "table-ranking",
@@ -78,11 +67,11 @@
           {"rank": "9位", "job": "運輸/物流サービス", "hours": "29.0"},
           {"rank": "10位", "job": "研究開発/R&D（IT/通信）", "hours": "28.6"}
         ],
-        "pageIndicator": "2/8"
       }
     },
-    "page3": {
+    "page2": {
       "role": "ranking-data-2",
+      "section": "mainContent",
       "content": {
         "title": "残業多い職種ランキング",
         "format": "table-ranking",
@@ -98,11 +87,11 @@
           {"rank": "19位", "job": "プラントエンジニア", "hours": "25.9"},
           {"rank": "20位", "job": "ゲームクリエイター（Web/モバイル/ソーシャル）", "hours": "25.6"}
         ],
-        "pageIndicator": "3/8"
       }
     },
-    "page4": {
+    "page3": {
       "role": "ranking-data-3",
+      "section": "mainContent",
       "content": {
         "title": "残業少ない職種ランキング",
         "background": "オレンジ色背景",
@@ -119,11 +108,11 @@
           {"rank": "9位", "job": "総務事務/法務事務/知財事務/広報事務", "hours": "14.2"},
           {"rank": "10位", "job": "テレマーケティング/カスタマーサポート/コールセンター", "hours": "14.9"}
         ],
-        "pageIndicator": "4/8"
       }
     },
-    "page5": {
+    "page4": {
       "role": "ranking-data-4",
+      "section": "mainContent",
       "content": {
         "title": "残業少ない職種ランキング",
         "background": "オレンジ色背景",
@@ -140,11 +129,11 @@
           {"rank": "19位", "job": "テクニカルサポート/ヘルプデスク", "hours": "17.0"},
           {"rank": "20位", "job": "教育/スクール", "hours": "17.1"}
         ],
-        "pageIndicator": "5/8"
       }
     },
-    "page6": {
+    "page5": {
       "role": "impact-explanation",
+      "section": "mainContent",
       "content": {
         "title": "ちなみに・・・",
         "format": "step-by-step-bars",
@@ -158,35 +147,16 @@
           {"range": "60〜80時間未満", "impact": "会社にいる時間が1日の半分（12時間）", "color": "赤オレンジ"},
           {"range": "80〜100時間", "impact": "1ヶ月間ずっと仕事から帰って寝るだけ", "color": "赤"}
         ],
-        "pageIndicator": "6/8"
       }
     },
-    "page7": {
+    "page6": {
       "role": "urgency-message",
+      "section": "summary",
       "content": {
-        "background": "白色背景",
         "mainMessage": "乗り遅れないで！",
         "subMessage": "就活、もう始まってます...！",
         "keyPoint": "就活は先手必勝。1日でも早くスタートした人が勝つゲームです。",
-        "speech": "「でも、何からやればいいの？」そんな就活生のあなたへ",
-        "character": "赤い服の人物キャラクター",
-        "pageIndicator": "7/8"
-      }
-    },
-    "page8": {
-      "role": "cta-offering",
-      "content": {
-        "background": "ベージュ色背景",
-        "mainTitle": "2000人の学生をサポートした私が",
-        "highlightedText": "絶対後悔しない就活の進め方",
-        "subtitle": "作成しました",
-        "testimonial": "人事に「これがあれば安心」と大絶賛された",
-        "productImage": "就活攻略本の表紙",
-        "socialProof": "1,309投稿、5.9万フォロワー、元・メンヘラ院生による就活攻略情報",
-        "cta": "ここから無料で受け取ってね！",
-        "url": "job-hun.com/lab/shukatsu_sop-manga_inst",
-        "character": "指差しポーズの人物キャラクター",
-        "pageIndicator": "8/8"
+        "encouragement": "残業時間を考慮した職種選択で、理想の働き方を見つけよう！"
       }
     }
   }

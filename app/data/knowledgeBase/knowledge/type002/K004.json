@@ -59,22 +59,11 @@
   "marketingStage": "就活・転職を考え始めたがモヤモヤしている人、自己分析の必要性を感じているが具体的な方法が分からず、感情と論理の両面から完璧に自己を理解したい人",
   "knowledgeId": "K004",
   "actualTitle": "【完全版】感情×論理の包括的自己分析マスターガイド",
-  "pageCount": 9,
-  "contentPageCount": 5,
-  "hashTag": "#自己分析完全版 #感情×論理 #モヤモヤ解消",
+  "pageCount": 5,
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "detailedContent": {
     "page1": {
-      "role": "title-cover",
-      "mainTitle": "自己分析の方法5選",
-      "pageIndicator": "1/7",
-      "hashtag": "#自己分析",
-      "callToAction": "自分を見直してみよう！",
-      "backgroundDesign": "青色グラデーション背景",
-      "accountInfo": "マイナビ @mynavi_shukatsu_junbi"
-    },
-    "page2": {
-      "section": "intro",
-      "template": "basic_intro",
+      "section": "introduction",
       "role": "problem-why",
       "title": "そもそもなぜ自己分析が必要？",
       "reasons": [
@@ -93,9 +82,8 @@
       ],
       "emphasis": "自己分析は繰り返しやることが大事！自己分析は一度やれば終わりではありません。早い時期から繰り返しおこない自己理解を深めていくのがおすすめです。"
     },
-    "page3": {
+    "page2": {
       "section": "mainContent",
-      "template": "method_systematic_info",
       "role": "method-detail",
       "title": "自己分析の簡単なやり方5選",
       "method1": {
@@ -120,9 +108,8 @@
         "warning": "さらに複数の項目で深掘りすると共通するポイントが見えやすくなります"
       }
     },
-    "page4": {
+    "page3": {
       "section": "mainContent",
-      "template": "method_systematic_info",
       "role": "method-detail",
       "title": "自己分析の簡単なやり方5選",
       "method3": {
@@ -136,9 +123,8 @@
         "warning": "「なぜそう感したのか」を深掘りすることで価値観が見つかりやすくなります"
       }
     },
-    "page5": {
+    "page4": {
       "section": "mainContent",
-      "template": "method_systematic_info",
       "role": "method-detail",
       "title": "自己分析の簡単なやり方5選",
       "method4": {
@@ -154,9 +140,8 @@
         "warning": "これによって、自分がどのような価値観を持っているのかが分かりやすくなります"
       }
     },
-    "page6": {
-      "section": "mainContent",
-      "template": "method_systematic_info",
+    "page5": {
+      "section": "summary",
       "role": "method-detail",
       "title": "自己分析の簡単なやり方5選", 
       "method5": {
@@ -171,22 +156,6 @@
         ],
         "warning": "自分に対するイメージのズレを認識し、「開放の窓」と「青点の窓」にある言葉を活用することで、自己PRを作りやすくなります"
       }
-    },
-    "page7": {
-      "section": "summary",
-      "template": "basic_summary",
-      "role": "engagement-cta",
-      "title": "その他の投稿やマイナビ2027はプロフィールからチェック！",
-      "contentPreview": [
-        "ほかの投稿もCHECK",
-        "就活準備100問（動画コンテンツ）",
-        "大学1,2年生のキャリア意識調査"
-      ],
-      "ctaInstructions": [
-        "ここをTAPしてプロフィールへ",
-        "気になった投稿は保存マーク"
-      ],
-      "additionalContent": "業界・仕事研究って何をやればいいですか？"
     }
   }
 }

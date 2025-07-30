@@ -53,99 +53,54 @@
   ],
   "marketingStage": "仕事で成果を出したいが効率化や能力向上に悩む若手〜中堅社会人",
   "knowledgeId": "K057",
-  "pageStructurePattern": "",
-  "actualTitle": "バリバリ仕事ができる人特徴7選",
-  "pageCount": 9,
-  "hashTag": "なし（表示されていない）",
+  "pageStructurePattern": "unified-template-02-dual-section",
+  "actualTitle": "バリバリ仕事ができる人特徴6選",
+  "pageCount": 4,
   "detailedContent": {
     "page1": {
-      "type": "title_page",
-      "content": {
-        "title": "バリバリ仕事ができる人特徴7選",
-        "backgroundColor": "ライトグリーン",
-        "cardColor": "白",
-        "layout": "中央配置"
-      }
+      "title": "バリバリ仕事ができる人特徴6選",
+      "subtitle": "高いパフォーマンスを発揮する人に共通する行動パターンをご紹介します"
     },
     "page2": {
-      "type": "feature_detail",
-      "content": {
-        "number": "①",
-        "title": "忙しいをログセにしない",
-        "backgroundColor": "ライトグリーン",
-        "cardColor": "白"
+      "topSection": {
+        "title": "適切な境界設定をする",
+        "content": "忙しさを言い訳にせず、できない事は無理に引き受けません。自分の能力と時間を正確に把握し、質の高い仕事に集中することで継続的な成果を生み出します。",
+        "imageSrc": "/king_point.png",
+        "imageAlt": "重要ポイントを教える男性"
+      },
+      "bottomSection": {
+        "title": "足を引っ張る敵を作らない",
+        "content": "職場での人間関係を良好に保ち、協力的な環境を構築します。対立や摩擦を避けることで、チーム全体のパフォーマンス向上に貢献し、自分の仕事もスムーズに進められます。",
+        "imageSrc": "/team_work.png",
+        "imageAlt": "チームワーク・会議イラスト"
       }
     },
     "page3": {
-      "type": "feature_detail", 
-      "content": {
-        "number": "②",
-        "title": "足を引っ張る敵を作らない",
-        "backgroundColor": "ライトグリーン",
-        "cardColor": "白"
+      "topSection": {
+        "title": "仕事スイッチを自分に作る",
+        "content": "自分なりの仕事モードに入る方法を確立しています。決まったルーティンや環境設定により、素早く集中状態に入り、高い生産性を維持することができます。",
+        "imageSrc": "/misaki_work.png",
+        "imageAlt": "楽しそうに仕事する女性"
+      },
+      "bottomSection": {
+        "title": "行動しながら軌道修正する",
+        "content": "完璧な計画を立てることより、まず行動に移し、進行中に改善を重ねます。実行重視の姿勢により、変化に柔軟に対応し、最適な結果を導き出します。",
+        "imageSrc": "/iida_fighting.png",
+        "imageAlt": "モチベーション高い男性"
       }
     },
     "page4": {
-      "type": "feature_detail",
-      "content": {
-        "number": "③", 
-        "title": "仕事スイッチを自分に作る",
-        "backgroundColor": "ライトグリーン",
-        "cardColor": "白"
-      }
-    },
-    "page5": {
-      "type": "feature_detail",
-      "content": {
-        "number": "④",
-        "title": "行動しながら軌道修正する", 
-        "backgroundColor": "ライトグリーン",
-        "cardColor": "白"
-      }
-    },
-    "page6": {
-      "type": "feature_detail",
-      "content": {
-        "number": "⑤",
+      "topSection": {
         "title": "レスポンスをワンテンポ早くする",
-        "backgroundColor": "ライトグリーン", 
-        "cardColor": "白"
-      }
-    },
-    "page7": {
-      "type": "feature_detail",
-      "content": {
-        "number": "⑥",
+        "content": "連絡や依頼に対して迅速に対応し、相手の時間を大切にします。素早いレスポンスにより信頼関係を築き、円滑なコミュニケーションを実現します。",
+        "imageSrc": "/misaki_study.png",
+        "imageAlt": "勉強する女性"
+      },
+      "bottomSection": {
         "title": "実力の少し上の目標設定にする",
-        "backgroundColor": "ライトグリーン",
-        "cardColor": "白"
-      }
-    },
-    "page8": {
-      "type": "feature_detail",
-      "content": {
-        "number": "⑦",
-        "title": "できない事は無理に引き受けない",
-        "backgroundColor": "ライトグリーン",
-        "cardColor": "白"
-      }
-    },
-    "page9": {
-      "type": "summary_list",
-      "content": {
-        "title": "バリバリ仕事ができる人特徴7選",
-        "items": [
-          "①忙しいをログセにしない",
-          "②足を引っ張る敵を作らない", 
-          "③仕事スイッチを自分に作る",
-          "④行動しながら軌道修正する",
-          "⑤レスポンスをワンテンポ早くする",
-          "⑥実力の少し上の目標設定にする",
-          "⑦できない事は無理に引き受けない"
-        ],
-        "cta": "保存はこちら↓",
-        "backgroundColor": "ライトグリーン",
-        "cardColor": "白"
+        "content": "現在の能力より少し高い目標を設定し、成長を促進します。適度な挑戦により能力を段階的に向上させ、長期的なキャリア発展を実現します。",
+        "imageSrc": "/kikuyo_point.png",
+        "imageAlt": "重要ポイントを教える女性"
       }
     }
   }

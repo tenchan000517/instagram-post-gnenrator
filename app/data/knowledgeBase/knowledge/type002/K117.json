@@ -53,28 +53,17 @@
   ],
   "marketingStage": "就活準備段階（企業研究・志望動機作成時期）",
   "knowledgeId": "K117",
-  "pageStructurePattern": "typeID002-sequential-dependency",
+  "pageStructurePattern": "",
   "actualTitle": "人事は志望動機のここ見てます",
-  "pageCount": 6,
-  "hashTag": "#わかる就活",
+  "pageCount": 5,
   "templateOverrides": {
-    "3": "ng_good_comparison",
+    "2": "ng_good_comparison",
+    "3": "category_explanation",
     "4": "category_explanation",
-    "5": "category_explanation",
-    "6": "vision_strength_matrix"
+    "5": "vision_strength_matrix"
   },
   "detailedContent": {
     "page1": {
-      "role": "タイトル・問題提起",
-      "layout": "タイトル形式",
-      "section": "intro",
-      "content": {
-        "title": "人事は志望動機のここ見てます",
-        "subtitle": "#わかる就活",
-        "hook": "できてない子が多すぎる..."
-      }
-    },
-    "page2": {
       "role": "志望動機の必須要素チェックリスト",
       "layout": "チェックリスト形式",
       "section": "mainContent",
@@ -101,7 +90,7 @@
         "footer": "各項目をNG例と一緒に具体例を解説！"
       }
     },
-    "page3": {
+    "page2": {
       "role": "ポイント1 - 将来成し遂げたいこと",
       "layout": "NG/GOOD比較形式",
       "section": "mainContent",
@@ -127,7 +116,7 @@
         "footer": "「成し遂げたいと思ったキッカケ」がエピソードとして話せるとGOOD！"
       }
     },
-    "page4": {
+    "page3": {
       "role": "ポイント2 - ほかの業界ではダメなのか",
       "layout": "業界別具体例形式",
       "section": "mainContent",
@@ -152,7 +141,7 @@
         "footer": "中立的に業界分析をして、自分が受協できない点を探そう！"
       }
     },
-    "page5": {
+    "page4": {
       "role": "ポイント3 - ほかの企業ではダメなのか",
       "layout": "差別化ポイント説明形式",
       "section": "mainContent",
@@ -181,7 +170,7 @@
         "footer": "HPなどでその企業が何をアピールしているかを調べておこう！"
       }
     },
-    "page6": {
+    "page5": {
       "role": "ポイント4 - その企業にどう貢献するか",
       "layout": "マトリックス分析形式",
       "section": "mainContent",

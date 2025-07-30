@@ -60,9 +60,9 @@
   ],
   "marketingStage": "自己理解・メンタルケア段階（完璧主義の悩み解決時期）",
   "knowledgeId": "K149",
-  "pageStructurePattern": "typeID001-emotion-empathy-list",
+  "pageStructurePattern": "unified-template-05-comparison",
   "actualTitle": "完璧主義のゆるめ方",
-  "pageCount": 10,
+  "pageCount": 9,
   "detailedContent": {
     "page1": {
       "role": "導入・タイトル提示",
@@ -239,15 +239,6 @@
           {"number": "10", "title": "家事が終わらない", "description": "全部しなくていいのです。", "imageSrc": "/king.png"}
         ],
         "finalMessage": "保存して後で復習しましょう！"
-      }
-    },
-    "page10": {
-      "role": "行動促進・まとめ",
-      "section": "summary",
-      "content": {
-        "encouragementMessage": "思い込みを手放して、心軽やかに過ごしましょう！",
-        "actionPrompt": "まずは1つの思い込みから実践してみてください",
-        "saveMessage": "保存して後で見返してくださいね"
       }
     }
   }

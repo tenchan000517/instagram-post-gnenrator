@@ -53,22 +53,13 @@
   ],
   "marketingStage": "26卒で内定がまだ取れていない就活生、大手企業志望だが時期的に諦めかけている学生",
   "knowledgeId": "K024",
-  "pageStructurePattern": "typeID003-company-detail-showcase",
+  "pageStructurePattern": "",
   "actualTitle": "まだ内定0でもいける大手企業5社",
-  "pageCount": 10,
-  "contentPageCount": 8,
-  "hashTag": "【資格などの強みがなくても大手から内定もらいたい...】",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "title-impact",
-      "content": "まだ内定0でもいける大手企業5社",
-      "design": "青背景、白い角丸四角に黒文字タイトル、「いける大手」は赤文字、「5社」は黄色円で強調",
-      "cta": "続きはスワイプ→"
-    },
-    "page2": {
-      "section": "mainContent",
-      "template": "company_data_list",
       "role": "company-detail",
+      "section": "mainContent",
       "content": "26卒まだエントリーできる大手ソニーグループ",
       "details": {
         "業界": "電機・エレクトロニクス",
@@ -77,10 +68,9 @@
       },
       "selectionFlow": ["ES提出", "適性検査", "面接複数回", "内々定"]
     },
-    "page3": {
-      "section": "mainContent",
-      "template": "company_data_list",
-      "role": "company-detail", 
+    "page2": {
+      "role": "company-detail",
+      "section": "mainContent", 
       "content": "26卒まだエントリーできる大手パナソニックグループ",
       "details": {
         "業界": "電機・エレクトロニクス",
@@ -89,10 +79,9 @@
       },
       "selectionFlow": ["ES提出", "Web適性検査（SPI）", "一次面接", "二次面接", "最終面接"]
     },
-    "page4": {
-      "section": "mainContent",
-      "template": "company_data_list",
+    "page3": {
       "role": "company-detail",
+      "section": "mainContent",
       "content": "26卒まだエントリーできる大手損害保険ジャパン",
       "details": {
         "業界": "保険（損害保険）",
@@ -101,10 +90,9 @@
       },
       "selectionFlow": ["ES提出", "適性検査", "面接複数回", "内々定"]
     },
-    "page5": {
-      "section": "mainContent",
-      "template": "company_data_list",
+    "page4": {
       "role": "company-detail",
+      "section": "mainContent",
       "content": "26卒まだエントリーできる大手大和証券グループ本社",
       "details": {
         "業界": "金融（証券）",
@@ -113,10 +101,9 @@
       },
       "selectionFlow": ["ES提出", "Webテスト", "一次面接", "最終面接"]
     },
-    "page6": {
-      "section": "mainContent",
-      "template": "company_data_list",
+    "page5": {
       "role": "company-detail",
+      "section": "mainContent",
       "content": "26卒まだエントリーできる大手日本郵政",
       "details": {
         "業界": "郵便・金融",
@@ -125,10 +112,9 @@
       },
       "selectionFlow": ["ES提出", "適性検査", "個別面接（複数回）", "内々定"]
     },
-    "page7": {
-      "section": "mainContent",
-      "template": "company_data_list",
+    "page6": {
       "role": "company-detail",
+      "section": "mainContent",
       "content": "26卒まだエントリーできる大手日本航空（JAL）",
       "details": {
         "業界": "航空（空運）",
@@ -137,10 +123,9 @@
       },
       "selectionFlow": ["ES提出", "適性検査", "面接複数回（AI面接・GD含む）", "内々定"]
     },
-    "page8": {
-      "section": "mainContent",
-      "template": "company_data_list",
+    "page7": {
       "role": "company-detail",
+      "section": "mainContent",
       "content": "26卒まだエントリーできる大手旭化成",
       "details": {
         "業界": "総合化学（素材）",
@@ -148,6 +133,23 @@
         "締切": "2025年5月7日"
       },
       "selectionFlow": ["ES提出", "適性検査", "面接複数回", "内々定"]
+    },
+    "page8": {
+      "role": "summary",
+      "section": "summary",
+      "content": {
+        "title": "まだ内定0でもいける大手企業",
+        "companies": [
+          "ソニーグループ",
+          "パナソニックグループ", 
+          "損害保険ジャパン",
+          "大和証券グループ本社",
+          "日本郵政",
+          "日本航空（JAL）",
+          "旭化成"
+        ],
+        "encouragement": "まだ諦めるのは早い！今からでも大手企業に挑戦可能です"
+      }
     }
    }
 }

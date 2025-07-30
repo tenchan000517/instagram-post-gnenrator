@@ -53,9 +53,9 @@
   ],
   "marketingStage": "仕事をしている社会人の時間効率化ニーズ段階",
   "knowledgeId": "K155",
-  "pageStructurePattern": "typeID004-tools-services-introduction",
+  "pageStructurePattern": "unified-template-07-item-list",
   "actualTitle": "やる気ゼロでもOK! 夜時間を活かすヒケツ",
-  "pageCount": 9,
+  "pageCount": 2,
   "targetIds": ["T020", "T021"],
   "targetReason": "夜時間の効率化テクニックは性別を問わない汎用的な生活効率化スキルであり、女性・男性どちらにも適用可能",
   "detailedContent": {
@@ -63,107 +63,38 @@
       "role": "導入・タイトル提示",
       "section": "introduction",
       "content": {
-        "title": "やる気ゼロでもOK!",
-        "subtitle": "夜時間を活かすヒケツ",
-        "backgroundInfo": "リモラボ",
-        "visualElement": "ベッドで読書するキャラクター"
+        "title": "やる気ゼロでもOK! 夜時間を活かすヒケツ",
+        "description": "やりたいことがあっても仕事から帰ってくるとヘトヘトで何も進まない…その気持ちわかります。夜を有効活用するヒケツを知ったら効果抜群だったので、帰宅後の時間を有効活用してなりたい自分に一歩近づける5つの方法を紹介します。",
+        "imageSrc": "/misaki_work.png",
+        "imageAlt": "仕事をする女性"
       }
     },
     "page2": {
-      "role": "問題提起・共感",
-      "section": "introduction", 
-      "content": {
-        "title": "はじめに",
-        "problem": "やりたいことがあっても仕事から帰ってくるとヘトヘトで何も進まない",
-        "empathy": "その気持ちわかります",
-        "solution": "夜を有効活用するヒケツを知ったら効果抜群だったから紹介します"
-      }
-    },
-    "page3": {
-      "role": "効果説明・Before/After",
-      "section": "introduction",
-      "content": {
-        "title": "帰宅後を充実させる効果",
-        "before": "帰ってもすぐ寝また仕事です",
-        "after": "資格の勉強を最後までできました",
-        "benefit": "自分のやりたいことをして達成感を得られると不思議と行動力も高まります",
-        "nextPageTeaser": "次ページから具体例を紹介します"
-      }
-    },
-    "page4": {
-      "role": "ヒケツ1：時間の区分け",
       "section": "mainContent",
       "content": {
-        "number": "1",
-        "title": "1日を2つに分ける",
-        "description": "仕事時間と夜の時間を分ければ集中力もUPです",
-        "explanation": "日中は仕事に全力集中、夜はずっと読みたかった本を読む",
-        "benefit": "夜に楽しみが待っていると日中の仕事をより頑張れます",
-        "imageSrc": "/misaki.png"
-      }
-    },
-    "page5": {
-      "role": "ヒケツ2：決断の効率化",
-      "section": "mainContent",
-      "content": {
-        "number": "2", 
-        "title": "決断を減らす",
-        "description": "あれもこれも考えていたらそれだけで時間がなくなります",
-        "example": "ご飯のあとはお風呂が沸くまで勉強です",
-        "benefit": "やることが決まっていれば悩む時間もなくて楽に動けます",
-        "imageSrc": "/king.png"
-      }
-    },
-    "page6": {
-      "role": "ヒケツ3：集中方法",
-      "section": "mainContent",
-      "content": {
-        "number": "3",
-        "title": "シングルタスク", 
-        "description": "短い時間でできることは限られています",
-        "example": "今日は資格の勉強に徹します",
-        "benefit": "ひとつに絞れば、じっくり時間をかけられて進行度が段違いです",
-        "imageSrc": "/kikuyo.png"
-      }
-    },
-    "page7": {
-      "role": "ヒケツ4：行動優先",
-      "section": "mainContent",
-      "content": {
-        "number": "4",
-        "title": "まずは試してみる",
-        "description": "考えるよりもまずは行動に移してみないと課題にも気がつけません",
-        "example": "運動不足解消に今日はヨガをしてみます",
-        "benefit": "はやく動けばその分はやく結果がでてきます",
-        "imageSrc": "/ten_worry.png"
-      }
-    },
-    "page8": {
-      "role": "ヒケツ5：継続方法",
-      "section": "mainContent",
-      "content": {
-        "number": "5",
-        "title": "今できることに集中",
-        "description": "疲れていてもできる小さなことから継続します",
-        "example": "まずは参考書を開くことを続けます",
-        "benefit": "ハードルを低くすれば無理せず続けられて力になります",
-        "imageSrc": "/misaki_worry.png"
-      }
-    },
-    "page9": {
-      "role": "まとめ・実践促進",
-      "section": "summary",
-      "content": {
-        "title": "まとめ",
-        "summary": [
-          "1日を2つに分ける",
-          "決断を減らす", 
-          "シングルタスク",
-          "まずは試してみる",
-          "今できることに集中"
-        ],
-        "message": "帰宅後の時間を有効活用してなりたい自分に一歩近づきます",
-        "actionCall": "今日から試してみてください"
+        "title": "夜時間を活かす5つのヒケツ",
+        "items": [
+          {
+            "name": "1日を2つに分ける",
+            "description": "仕事時間と夜の時間を明確に区別します。日中は仕事に全力集中、夜はずっと読みたかった本を読むなど、夜に楽しみが待っていると日中の仕事をより頑張れます。"
+          },
+          {
+            "name": "決断を減らす",
+            "description": "あれもこれも考えていたらそれだけで時間がなくなります。ご飯のあとはお風呂が沸くまで勉強するなど、やることが決まっていれば悩む時間もなくて楽に動けます。"
+          },
+          {
+            "name": "シングルタスク",
+            "description": "短い時間でできることは限られています。今日は資格の勉強に徹するなど、ひとつに絞ればじっくり時間をかけられて進行度が段違いになります。"
+          },
+          {
+            "name": "まずは試してみる",
+            "description": "考えるよりもまずは行動に移してみないと課題にも気がつけません。運動不足解消に今日はヨガをしてみるなど、はやく動けばその分はやく結果がでてきます。"
+          },
+          {
+            "name": "今できることに集中",
+            "description": "疲れていてもできる小さなことから継続します。まずは参考書を開くことを続けるなど、ハードルを低くすれば無理せず続けられて力になります。"
+          }
+        ]
       }
     }
   }

@@ -72,6 +72,8 @@ export interface TemplateMetadata {
     content: number
     subtitle: number
     items: number
+    footerDescription?: number
+    [key: string]: number | undefined  // Allow additional properties
   }
   keywords: string[]
 }
@@ -99,6 +101,9 @@ export interface TemplateData {
   boxes?: Array<{
     title: string
     content: string
+  }> | Array<{
+    name: string
+    content: string | string[]
   }>
   twoColumn?: {
     left: (string | { title?: string; content?: string })[]
@@ -108,6 +113,11 @@ export interface TemplateData {
     title: string
     content: string
     items?: (string | { title?: string; content?: string })[]
+  }> | Array<{
+    name: string
+    content: string | string[]
+    image?: string
+    footerText?: string
   }>
   steps?: Array<{
     step: number
@@ -194,7 +204,7 @@ export interface TemplateData {
   examples?: Array<{
     phrase: string
     usage: string
-  }>
+  }> | (string | { title?: string; content?: string })[]
   
   // company_data_list用
   companyName?: string
@@ -202,6 +212,22 @@ export interface TemplateData {
   salary?: string
   deadline?: string
   selectionFlow?: string[]
+  
+  // Image properties for unified templates
+  imageSrc?: string
+  image?: string
+  imageAlt?: string
+  
+  // Footer properties for unified templates
+  footerDescription?: string
+  
+  // Additional array properties for unified templates  
+  methods?: (string | { title?: string; content?: string })[]
+  tools?: (string | { title?: string; content?: string })[]
+  
+  // Character properties for templates
+  characterImage?: string
+  characterPosition?: 'left' | 'right'
   
   [key: string]: any  // For dynamic field access
 }

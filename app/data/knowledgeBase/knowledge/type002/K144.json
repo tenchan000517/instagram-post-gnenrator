@@ -62,9 +62,7 @@
   ],
   "marketingStage": "スキルアップ・効率化段階（時間管理スキル向上を求める時期）",
   "knowledgeId": "K144",
-  "targetIds": ["T007", "T009", "T010"],
-  "targetReason": "時間管理スキルは学習効率向上・スキルアップの基礎として就活生・女性・男性すべてに共通して必要なスキル",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "",
   "actualTitle": "脱『時間がない』1日が伸びるひけつ",
   "pageCount": 5,
   "detailedContent": {

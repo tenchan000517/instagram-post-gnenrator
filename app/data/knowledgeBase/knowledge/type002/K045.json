@@ -2,7 +2,7 @@
   "source": "contents-045",
   "problemCategory": "就職活動の適性検査対策",
   "problemDescription": "就職活動中の学生が適性検査（能力診断・性格診断）の対策に不安を感じており、特に学力問題（非言語系・言語系）の解き方やWebテストの種類の見分け方がわからず困っている",
-  "postType": "003",
+  "postType": "002",
   "postTypeReason": "適性検査の具体的な対策方法、問題種類の分類、Webテストの見分け方など、特定の情報・知識の習得を目的としているため",
   "solutionContent": {
     "概要": "適性検査を突破するための具体的な対策方法と攻略のコツを体系的に提供",
@@ -55,19 +55,11 @@
   "knowledgeId": "K045",
   "pageStructurePattern": "",
   "actualTitle": "選考に鬼門になる適性検査 こう解け",
-  "pageCount": 7,
-  "hashTag": "資格などの強みがなくても大手から内定もらいたい",
+  "pageCount": 4,
   "detailedContent": {
     "page1": {
-      "role": "title-cover",
-      "mainTitle": "選考に鬼門になる適性検査",
-      "subTitle": "こう解け",
-      "pageIndicator": "1/7",
-      "backgroundStyle": "青色グラデーション背景",
-      "designElements": "白い角丸カード、黄色下線強調、赤文字"
-    },
-    "page2": {
       "role": "problem-identification",
+      "section": "introduction",
       "title": "適性検査の対策",
       "question": "めっちゃ不安じゃない？？",
       "content": {
@@ -78,11 +70,11 @@
       },
       "warning": "一般的な問題ですが対策なしでは危険！志望企業に面接すら受けられないなんて悲しすぎます...",
       "transition": "具体的な対策はこちら→",
-      "pageIndicator": "2/7",
       "illustration": "ビジネスマン（スーツ姿、ポーズ）"
     },
-    "page3": {
+    "page2": {
       "role": "detailed-explanation",
+      "section": "mainContent",
       "title": "対策方法（学力問題）",
       "content": {
         "問題の種類": {
@@ -100,11 +92,11 @@
       },
       "keyMessage": "特に非言語系や語彙力などの問題でつまづく人が続出！今からコツコツ対策することが適性の鍵です。",
       "transition": "具体的な対策はこちら→",
-      "pageIndicator": "3/7",
       "illustration": "ビジネスマン（考えるポーズ）"
     },
-    "page4": {
+    "page3": {
       "role": "solution-tips",
+      "section": "mainContent",
       "title": "この3つは意識してみて！！",
       "subtitle": "突破のコツ",
       "tips": [
@@ -124,11 +116,11 @@
           "description": "会社独自の問題以外は、毎年似たような問題が出題されます。対策本や過去問で十分に対策可能"
         }
       ],
-      "callout": "企業ごと実施しているWebテストは異なる！実は、実施する前に何のテストか見分ける方法があります！",
-      "pageIndicator": "4/7"
+      "callout": "企業ごと実施しているWebテストは異なる！実は、実施する前に何のテストか見分ける方法があります！"
     },
-    "page5": {
+    "page4": {
       "role": "reference-table",
+      "section": "summary",
       "title": "WEBテストURL の見分け方",
       "table": [
         {
@@ -156,33 +148,7 @@
           "identifier": "URLに「ef-1g」が入っている"
         }
       ],
-      "callToAction": "企業からメールを確認して テストの種類を確認しよう！！",
-      "pageIndicator": "5/7"
-    },
-    "page6": {
-      "role": "action-prompt",
-      "title": "7月からWEBテストの対策始めてみませんか？？",
-      "motivation": [
-        "行きたい会社があるのに",
-        "オフィスに行かずに不合格なんて",
-        "一生、後悔します。"
-      ],
-      "encouragement": [
-        "後悔しないためにも",
-        "今からコツコツ頑張りましょう！"
-      ],
-      "cta": "忘れないよう保存しておいてね！",
-      "pageIndicator": "6/7",
-      "illustration": "ビジネスマン（ポジティブなポーズ）"
-    },
-    "page7": {
-      "role": "save-prompt",
-      "mainMessage": "忘れないように『保存』しておいて！",
-      "icon": "青色ブックマークアイコン（大きく表示）",
-      "motivation": "夏インターンで就活を加速させよう",
-      "pageIndicator": "7/7",
-      "illustration": "ビジネスマン（指差しポーズ）",
-      "backgroundElement": "青色矢印"
+      "callToAction": "企業からメールを確認して テストの種類を確認しよう！！"
     }
   }
 }

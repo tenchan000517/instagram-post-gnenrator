@@ -52,15 +52,13 @@
   ],
   "marketingStage": "AI・効率化ツール情報の多さに疲れ、何から始めれば良いか分からず焦りと不安を感じている段階。感情的なつながりと「私だけじゃない」という安心感を必要とし、仲間意識を通じて前向きなエネルギーを得たい層",
   "knowledgeId": "K180",
-  "pageStructurePattern": "typeID001-emotion-empathy-list",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "AI・効率化ツール疲れあるある7選〜みんな疲れてるよ〜",
   "pageCount": 8,
-  "hashTag": "AI疲れ #デジタル疲労 #情報過多 #共感",
   "detailedContent": {
     "page1": {
       "role": "導入・共感誘発",
-      "layout": "あるある導入形式",
-      "section": "empathy-intro",
+      "section": "introduction",
       "content": {
         "title": "AI・効率化ツール疲れあるある7選",
         "subtitle": "〜みんな疲れてるよ〜",
@@ -76,7 +74,7 @@
       }
     },
     "page2": {
-      "section": "empathyContent",
+      "section": "mainContent",
       "role": "emotional-resonance",
       "number": "01",
       "title": "新しいAIツールラッシュ疲れあるある",
@@ -90,11 +88,10 @@
       "innerVoice": "（昨日覚えたツールがもう古いって...どういうこと？？）",
       "emotionalExpression": "そんな時の心の叫び: 『もう新しいの出さないで...』",
       "communityMessage": "みんなも同じ気持ちだよね...?",
-      "pageIndicator": "2/8",
       "empathyLevel": "high"
     },
     "page3": {
-      "section": "empathyContent",
+      "section": "mainContent",
       "role": "emotional-resonance",
       "number": "02",
       "title": "効率化のための時間が非効率あるある",
@@ -107,12 +104,11 @@
       "innerVoice": "（効率化のために時間使いすぎて本末転倒...）",
       "emotionalExpression": "効率化で疲れるって、なんか違うよね？",
       "empathyMessage": "みんなも同じ道を通ってる...辛いよね",
-      "pageIndicator": "3/8",
       "illustration": "疲れ切った状態でパソコンに向かう人",
       "empathyLevel": "high"
     },
     "page4": {
-      "section": "empathyContent",
+      "section": "mainContent",
       "role": "emotional-resonance",
       "number": "03",
       "title": "周りについて行けない焦りあるある",
@@ -125,12 +121,11 @@
       "innerVoice": "（私だけ取り残されてる気がする...）",
       "emotionalExpression": "みんなデキすぎて、私ひとり浦島太郎状態",
       "empathyMessage": "同じように感じてる人、きっといるよね...",
-      "pageIndicator": "4/8",
       "illustration": "置いて行かれる不安を感じる人",
       "empathyLevel": "high"
     },
     "page5": {
-      "section": "empathyContent",
+      "section": "mainContent",
       "role": "emotional-resonance",
       "number": "04",
       "title": "情報収集で一日が終わるあるある",
@@ -143,12 +138,11 @@
       "innerVoice": "（情報収集してるだけで満足しちゃってる...）",
       "emotionalExpression": "知識は増えたけど、何も変わってない現実",
       "empathyMessage": "情報の海で溺れそうになってる人、手を上げて...",
-      "pageIndicator": "5/8",
       "illustration": "情報の渦に巻き込まれる人",
       "empathyLevel": "high"
     },
     "page6": {
-      "section": "empathyContent",
+      "section": "mainContent",
       "role": "emotional-resonance",
       "number": "05",
       "title": "完璧主義でスタートできないあるある",
@@ -161,12 +155,11 @@
       "innerVoice": "（みんなみたいに上手く使えなかったらどうしよう...）",
       "emotionalExpression": "完璧にやりたいのに、完璧の基準が分からない",
       "empathyMessage": "同じループにハマってる人、いませんか...",
-      "pageIndicator": "6/8",
       "illustration": "スタートラインで立ち止まる人",
       "empathyLevel": "high"
     },
     "page7": {
-      "section": "empathyContent",
+      "section": "mainContent",
       "role": "emotional-resonance",
       "number": "06",
       "title": "ツール選択肢多すぎて決められないあるある",
@@ -179,12 +172,11 @@
       "innerVoice": "（選択肢多すぎて、選ぶのも疲れる...）",
       "emotionalExpression": "自由って言われても、道しるべが欲しい",
       "empathyMessage": "選択疲れで動けなくなってる人、いるよね...",
-      "pageIndicator": "7/8",
       "illustration": "選択肢の多さに困惑する人",
       "empathyLevel": "high"
     },
     "page8": {
-      "section": "empathyClimax",
+      "section": "summary",
       "role": "emotional-climax-to-hope-transition",
       "number": "07",
       "title": "それでも私たちは諦めない",
@@ -210,15 +202,8 @@
       "hopeTransition": {
         "empathyToStrategy": "感情だけじゃなく、段階的に学べば道は開ける",
         "concreteHope": "実は、AI活用を無理なく身につける方法があります",
-        "bridgeToAction": "共感から、今度は実践へ。一緒に解決策を見つけませんか？",
-        "nextStepInvitation": "『AI活用スキル段階的習得マスターガイド（K181）』で、あなたのペースで確実にスキルアップしましょう",
-        "relatedContent": {
-          "K181": "デジタル疲れを解消しながら段階的にAIスキルを習得",
-          "K003": "スキル習得後はAI上級者テクニックで更なるレベルアップ",
-          "K009": "ツール選択に迷った時の最適選択ガイド"
-        }
+        "encouragement": "大丈夫。一歩ずつ進んでいけば必ず慣れます"
       },
-      "pageIndicator": "8/8",
       "illustration": "疲労から希望へ転換する人",
       "empathyLevel": "climax",
       "transitionLevel": "high"

@@ -63,78 +63,58 @@
   ],
   "marketingStage": "就活中の大学生・専門学校生で、5月～6月の就活継続中の学生",
   "knowledgeId": "K017",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "就活生が感じたこと 5月の就活本音5選",
-  "pageCount": 9,
-  "hashTag": "#就活 #5月就活 #就活本音",
+  "pageCount": 7,
   "detailedContent": {
     "page1": {
-      "pageNumber": 1,
-      "elements": {
-        "text": "就活生が感じたこと 5月の就活本音5選",
-        "visualElements": "薄グレー背景、青い丸い背景にタイトル、黄色いひよこキャラクター"
-      }
+      "role": "企画説明・導入",
+      "section": "introduction",
+      "title": "5月の就活本音5選",
+      "content": "今回は「5月の就活で感じたこと5つ」を紹介していきます！",
+      "imageSrc": "/kikuyo.png"
     },
     "page2": {
-      "pageNumber": 2,
-      "elements": {
-        "text": "今回はフォロワーのみんなから募集した「5月の就活で感じたこと5つ」紹介していくよ！",
-        "visualElements": "青い点線枠で強調、ひよこキャラクター"
-      }
+      "role": "本音1・焦りの悩み",
+      "section": "mainContent",
+      "title": "周りが終わってきて焦る",
+      "content": "焦る気持ちはよくわかりますが、焦って行動しても良いことは何もありません。焦る時こそ、今何をすべきなのか？落ち着いて一歩ずつ進めていきましょう。",
+      "imageSrc": "/misaki_worry.png"
     },
     "page3": {
-      "pageNumber": 3,
-      "elements": {
-        "text": "周りが終わってきて焦る",
-        "commentary": "焦る気持ちはよくわかるけど焦って行動しても良いことは何もないよ。焦る時こそ、今何をすべきなのか？落ち着いて一歩ずつ進めていこう。",
-        "visualElements": "青い背景、白い吹き出し、困った表情のひよこ"
-      }
+      "role": "本音2・企業の現実",
+      "section": "mainContent",
+      "title": "4月からでも企業はある",
+      "content": "終了する企業=良い企業とは限りません！ナビサイトに掲載していない企業だって沢山あるから、いろんな方法で検索してみましょう。",
+      "imageSrc": "/iida.png"
     },
     "page4": {
-      "pageNumber": 4,
-      "elements": {
-        "text": "4月からでも企業はある",
-        "commentary": "終了する企業=良い企業とは限らないからね！ナビサイトに掲載していない企業だって沢山あるから、いろんな方法で検索してみよう",
-        "visualElements": "青い背景、白い吹き出し、普通の表情のひよこ"
-      }
+      "role": "本音3・モチベ維持の悩み",
+      "section": "mainContent",
+      "title": "やる気とモチベ全然続かない",
+      "content": "人間だもの、そんなの当たり前です！ずっと全力疾走するのは難しいから、たまには歩いても、止まっても大丈夫◎自分なりのバランスを探していきましょう！",
+      "imageSrc": "/ten_worry.png"
     },
     "page5": {
-      "pageNumber": 5,
-      "elements": {
-        "text": "やる気とモチベ全然続かない",
-        "commentary": "人間だもの、そんなの当たり前だよ！ずっと全力疾走するのは難しいからたまには歩いても、止まっても大丈夫◎自分なりのバランス、探していこう！",
-        "visualElements": "青い背景、白い吹き出し、疲れた表情のひよこ"
-      }
+      "role": "本音4・完璧主義からの脱却",
+      "section": "mainContent",
+      "title": "100点ではなく70点を目指すと気が楽",
+      "content": "そのとおりです✨特に就活は頑張れば頑張るほど成果が上がるものではないからこそ、「ここは頑張ろう！」という点を見つけることも大事です！",
+      "imageSrc": "/kikuyo.png"
     },
     "page6": {
-      "pageNumber": 6,
-      "elements": {
-        "text": "100点ではなく70点を目指すようにすると気が楽",
-        "commentary": "そのとおり✨特に就活は頑張れば頑張るほど成果が上がるものではないからこそ、「ここは頑張ろう！」という点を見つけることも大事だよ！",
-        "visualElements": "青い背景、白い吹き出し、笑顔のひよこ"
-      }
+      "role": "本音5・企業選びの価値観変化",
+      "section": "mainContent",
+      "title": "大企業だけがいい企業でないとわかった",
+      "content": "名前を聞いたことのない企業の中にも、すごく自分に合う場所があるかもしれません。「誰かにとっての正解」より「自分にとっての心地よさ」を大事にしてください。",
+      "imageSrc": "/king.png"
     },
     "page7": {
-      "pageNumber": 7,
-      "elements": {
-        "text": "大企業だけがいい企業でないとわかった",
-        "commentary": "名前を聞いたことのない企業の中にも、すごく自分に合う場所があるかもしれない。「誰かにとっての正解」より「自分にとっての心地よさ」を大事にしてね。",
-        "visualElements": "青い背景、白い吹き出し、考える表情のひよこ"
-      }
-    },
-    "page8": {
-      "pageNumber": 8,
-      "elements": {
-        "text": "明日から6月！ ・焦らず ・比べず あなたなりのペースで進んでいこうね！ ぴよはいつでもあなたを応援しているよ！一緒に頑張っていこう！",
-        "visualElements": "青い点線枠、メガネをかけたひよこキャラクター"
-      }
-    },
-    "page9": {
-      "pageNumber": 9,
-      "elements": {
-        "text": "誰も教えてくれない就活の大切なこと 毎週月・水・金に発信中！📧 ぴよとあなたの秘密だよ...🤫 保存して何度も見返してね！",
-        "visualElements": "薄青背景、白いカード、大きなひよこキャラクター"
-      }
+      "role": "まとめ・応援メッセージ",
+      "section": "mainContent",
+      "title": "明日から6月！",
+      "content": "・焦らず ・比べず あなたなりのペースで進んでいきましょう！いつでもあなたを応援しています！一緒に頑張っていきましょう！",
+      "imageSrc": "/misaki.png"
     }
   }
 }

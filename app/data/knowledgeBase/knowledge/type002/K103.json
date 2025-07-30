@@ -71,62 +71,71 @@
   "knowledgeId": "K103",
   "pageStructurePattern": "",
   "actualTitle": "PCスキル伸ばす習慣5選",
-  "pageCount": 9,
-  "hashTag": "#PC初心者 #パソコン苦手 #時短テクニック #パソコン勉強 #タイピング練習 #AI活用 #効率化術 #社会人の勉強垢 #今日の積み上げ #仕事効率化 #PCスキル #デジタルスキル #学び直し #自己成長 #スキルアップ #IT初心者 #作業効率化 #業務効率化 #待エンジニア #ITスクール",
+  "pageCount": 6,
   "detailedContent": {
     "page1": {
-      "role": "タイトルページ",
-      "content": "これだけで作業効率UP あなたは何個できてる？ PCスキル伸ばす習慣5選",
-      "background": "赤色基調、白色カード",
-      "elements": "PC作業する女性のイラスト、SAMURAI ENGINEERロゴ"
+      "role": "習慣1: ショートカット",
+      "section": "introduction",
+      "content": {
+        "title": "ショートカット使ってる？",
+        "content": "マウス多用すると作業が遅くなりがち、まずはキーボードショートカットを覚えることから始めよう",
+        "examples": ["Ctrl+C（コピー）", "Ctrl+T（新しいタブ）"]
+      }
     },
     "page2": {
-      "role": "習慣1: ショートカット",
-      "content": "ショートカット使ってる？ マウス多用すると作業が遅くなりがち、まずはキーボードショートカットを覚えることから始めよう",
-      "background": "白色カード",
-      "elements": "Before/After比較表（Ctrl+C、Ctrl+T例）"
+      "role": "習慣2: ファイル整理",
+      "section": "mainContent",
+      "content": {
+        "title": "ファイル名ぐちゃぐちゃのまま放置してない？",
+        "content": "フォルダ用途ごとに分ける、ルールを決めて名前をつける、WindowsのEverything、MacのSpotlight活用"
+      }
     },
     "page3": {
-      "role": "習慣2: ファイル整理",
-      "content": "ファイル名ぐちゃぐちゃのまま放置してない？ フォルダ用途ごとに分ける、ルールを決めて名前をつける、WindowsのEverything、MacのSpotlight活用",
-      "background": "白色カード",
-      "elements": "ファイル整理するイラスト"
+      "role": "習慣3: トラブル自己解決",
+      "section": "mainContent",
+      "content": {
+        "title": "PCトラブル、すぐ人に聞いてない？",
+        "content": "PC遅い、ネット繋がらない時はまず自分で原因を調べる習慣をつけよう、Google検索で解決策すぐ見つかる"
+      }
     },
     "page4": {
-      "role": "習慣3: トラブル自己解決",
-      "content": "PCトラブル、すぐ人に聞いてない？ PC遅い、ネット繋がらない時はまず自分で原因を調べる習慣をつけよう、Google検索で解決策すぐ見つかる",
-      "background": "白色カード",
-      "elements": "検索・問題解決のイラスト"
+      "role": "習慣4: タッチタイピング",
+      "section": "mainContent",
+      "content": {
+        "title": "まだ見ながら入力してる？",
+        "content": "キーボード見ずに打てるタッチタイピングはPC作業の基本スキル、寿司打・e-typingで練習、毎日５分続けるだけで飛躍的向上",
+        "tools": ["寿司打", "e-typing"]
+      }
     },
     "page5": {
-      "role": "習慣4: タッチタイピング",
-      "content": "まだ見ながら入力してる？ キーボード見ずに打てるタッチタイピングはPC作業の基本スキル、寿司打・e-typingで練習、毎日5分続けるだけで飛躍的向上",
-      "background": "白色カード",
-      "elements": "おすすめツール名表示"
+      "role": "習慣5: AI活用",
+      "section": "mainContent",
+      "content": {
+        "title": "AI、ちゃんと使いこなしてる？",
+        "content": "わからないことはGoogle検索だけでなくAIに直接質問、ChatGPT/Claude/Geminiなど",
+        "points": [
+          "24時間質問できる",
+          "解説の深掘り",
+          "アイデア出し・ブレインストーミング",
+          "学習計画の相談"
+        ]
+      }
     },
     "page6": {
-      "role": "習慣5: AI活用",
-      "content": "AI、ちゃんと使いこなしてる？ わからないことはGoogle検索だけでなくAIに直接質問、ChatGPT/Claude/Geminiなど、5つのポイント詳細",
-      "background": "白色カード",
-      "elements": "ポイントボックス、AI活用場面詳細"
-    },
-    "page7": {
       "role": "まとめ",
-      "content": "PCスキルは一気に上達するものではなく毎日のちょっとした習慣が大切、まずはショートカットキーから始め少しずつ取り組む、困ったときは自分で調べる力が成長の力",
-      "background": "白色カード",
-      "elements": "PC作業する男女のイラスト"
-    },
-    "page8": {
-      "role": "関連投稿・フォロー誘導",
-      "content": "他投稿はこちらからチェック！ 過去の人気投稿ピックアップ、SAMURAI ENGINEER紹介",
-      "background": "白色カード",
-      "elements": "過去投稿3つのサムネイル、フォローボタン"
-    },
-    "page9": {
-      "role": "キャプション・ハッシュタグ",
-      "content": "投稿の詳細説明、学習診断の案内、多数のハッシュタグ",
-      "background": "白色",
-      "elements": "テキスト詳細、プロフィールリンク案内、ハッシュタグ"
+      "section": "summary",
+      "content": {
+        "title": "PCスキル伸ばす習慣5選",
+        "summary": "PCスキルは一気に上達するものではなく毎日のちょっとした習慣が大切",
+        "points": [
+          "1. ショートカットキーを使う",
+          "2. ファイル名をルール化して整理",
+          "3. PCトラブルは自分で調べる",
+          "4. タッチタイピングを身につける",
+          "5. AIを活用して学習効率を上げる"
+        ],
+        "conclusion": "まずはショートカットキーから始め少しずつ取り組む、困ったときは自分で調べる力が成長の力"
+      }
     }
   }
 }

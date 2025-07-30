@@ -52,27 +52,16 @@
   ],
   "marketingStage": "就活中期（面接対策・実践段階）",
   "knowledgeId": "K118",
-  "pageStructurePattern": "typeID002-sequential-dependency",
+  "pageStructurePattern": "",
   "actualTitle": "全面接の突破のコツ教えます",
-  "pageCount": 6,
-  "hashTag": "",
+  "pageCount": 5,
   "templateOverrides": {
-    "3": "ng_good_comparison",
-    "4": "category_explanation",
-    "5": "category_explanation"
+    "2": "ng_good_comparison",
+    "3": "category_explanation",
+    "4": "category_explanation"
   },
   "detailedContent": {
     "page1": {
-      "role": "タイトル・問題提起",
-      "layout": "タイトル形式",
-      "section": "intro",
-      "content": {
-        "title": "全面接の突破のコツ教えます",
-        "subtitle": "#わかる就活",
-        "hook": "知らないと全落ちかも..."
-      }
-    },
-    "page2": {
       "role": "進度別突破のコツ一覧",
       "layout": "ステップ形式",
       "section": "mainContent",
@@ -99,7 +88,7 @@
         ]
       }
     },
-    "page3": {
+    "page2": {
       "role": "1次面接 - 減点されないこと",
       "layout": "NG/GOOD比較形式",
       "section": "mainContent",
@@ -129,7 +118,7 @@
         "footer": "面接練習の動画を撮って、客観的に自分を見てみよう！"
       }
     },
-    "page4": {
+    "page3": {
       "role": "2次面接 - 貢献できる人材アピール",
       "layout": "カテゴリ説明形式",
       "section": "mainContent",
@@ -161,7 +150,7 @@
         "footer": "ビジネスモデル...企業が利益を生む仕組み\n再現性...スキルが別の場所でも活かせるか"
       }
     },
-    "page5": {
+    "page4": {
       "role": "最終面接 - 志望度MAXで挑む",
       "layout": "カテゴリ説明形式",
       "section": "mainContent",
@@ -192,7 +181,7 @@
         ]
       }
     },
-    "page6": {
+    "page5": {
       "role": "深掘り質問例・まとめ",
       "layout": "質問リスト形式",
       "section": "mainContent",

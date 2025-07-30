@@ -56,127 +56,46 @@
   ],
   "marketingStage": "効率化意識段階（仕事の効率化ツールを求めている時期）",
   "knowledgeId": "K168",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "unified-template-07-item-list",
   "actualTitle": "こんな使い方が？超時短Gemini仕事術",
-  "pageCount": 9,
+  "pageCount": 2,
   "detailedContent": {
     "page1": {
-      "role": "タイトル・導入",
+      "role": "導入・Gemini説明",
       "section": "introduction",
       "content": {
-        "title": "こんな使い方が？超時短Gemini仕事術",
-        "subtitle": "",
-        "description": "",
-        "imageSrc": "/king.png"
-      }
-    },
-    "page2": {
-      "role": "問題提起・背景説明",
-      "section": "introduction",
-      "content": {
-        "title": "はじめに",
-        "description": "忙しくて仕事が終わらない。もう逃げ出したい。その気持ちわかります！手伝ってくれる人がいなくて大変だったから、ある生成AIを使うようになりました。実際に爆速で仕事が片付いたからGeminiの活用術を紹介します！",
+        "title": "仕事が爆速で終わるGemini活用術",
+        "description": "忙しくて仕事が終わらない。もう逃げ出したい。その気持ちわかります！手伝ってくれる人がいなくて大変だったから、ある生成AIを使うようになりました。Googleが提供する最新の生成AI「Gemini」は、まるで助手のような存在です。チャット形式だから話しかけるだけでOK。Googleと連携できる「使いやすさ」と「連携力」が強みで、いつも使っているツールとつながって時短になります。実際に爆速で仕事が片付いたからGeminiの活用術を紹介します！",
         "imageSrc": "/ten_worry.png"
       }
     },
-    "page3": {
-      "role": "Geminiの基本説明",
+    "page2": {
+      "role": "4つの活用機能リスト",
       "section": "mainContent",
       "content": {
-        "title": "Geminiとは",
-        "description": "Googleが提供する最新の生成AI。まるで助手のような存在です。チャット形式だから話しかけるだけでOK。簡単に調べものや情報の整理をサポートしてくれます！",
-        "imageSrc": "/misaki.png"
-      }
-    },
-    "page4": {
-      "role": "他の生成AIとの違い説明",
-      "section": "mainContent",
-      "content": {
-        "title": "他の生成AIとの違い",
-        "subtitle": "Geminiは「使いやすさ」と「連携力」が強み！",
-        "features": [
-          "Googleと連携できる",
-          "大量の情報に強い",
-          "画像や音声に対応"
-        ],
-        "description": "いつも使っているツールとつながって時短になります。",
-        "imageSrc": "/king.png"
-      }
-    },
-    "page5": {
-      "role": "機能1：Deep Research",
-      "section": "mainContent",
-      "content": {
-        "number": "1",
-        "title": "Deep Research",
-        "description": "複数のWebサイトを一括で検索・要約してくれる機能です。",
-        "process": {
-          "before": "このサービスを詳しく調べて",
-          "after": "情報をまとめてもらえる"
-        },
-        "benefit": "1時間かけていたリサーチが5分でできるようになります！",
-        "imageSrc": "/kikuyo.png"
-      }
-    },
-    "page6": {
-      "role": "機能2：スケジュール登録",
-      "section": "mainContent",
-      "content": {
-        "number": "2",
-        "title": "スケジュール登録",
-        "description": "Googleカレンダーと連携して予定を登録できます。",
-        "process": {
-          "before": "来週火曜10時から打ち合わせ",
-          "after": "登録完了"
-        },
-        "benefit": "話しかけるだけで、一瞬で登録できてミスが少ないです。",
-        "imageSrc": "/misaki.png"
-      }
-    },
-    "page7": {
-      "role": "機能3：スプレッドシート連携",
-      "section": "mainContent",
-      "content": {
-        "number": "3",
-        "title": "スプレッドシート連携",
-        "description": "データやリストを指示するだけでスプレッドシートにまとめられます。",
-        "process": {
-          "before": "この売上一覧を表にして",
-          "after": "エクスポートボタンで出力"
-        },
-        "benefit": "細かい作業が必要なくなって爆速で表を作れます。",
-        "imageSrc": "/king.png"
-      }
-    },
-    "page8": {
-      "role": "機能4：ドキュメント出力",
-      "section": "mainContent",
-      "content": {
-        "number": "4",
-        "title": "ドキュメント出力",
-        "description": "Geminiで作った文章を出力・共有できます。",
-        "process": {
-          "before": "議事録をまとめて",
-          "after": "チーム内に共有できる"
-        },
-        "benefit": "下書きいらずで、資料作成のスピードが劇的に上がります。",
-        "imageSrc": "/kikuyo.png"
-      }
-    },
-    "page9": {
-      "role": "まとめ・4つの機能一覧",
-      "section": "summary",
-      "content": {
-        "title": "まとめ",
-        "subtitle": "仕事が爆速で終わるGemini活用術",
+        "title": "超時短！Gemini仕事術4選",
         "items": [
-          "1 Deep Research",
-          "2 スケジュール登録", 
-          "3 スプレッドシート連携",
-          "4 ドキュメント出力"
-        ],
-        "message": "お仕事の効率をUPさせて時短できるようにGeminiを使ってみてください！",
-        "imageSrc": "/misaki.png"
+          {
+            "name": "Deep Research",
+            "description": "複数のWebサイトを一括で検索・要約してくれる機能です。「このサービスを詳しく調べて」→情報をまとめてもらえる。1時間かけていたリサーチが5分でできるようになります！",
+            "imageSrc": "/kikuyo.png"
+          },
+          {
+            "name": "スケジュール登録",
+            "description": "Googleカレンダーと連携して予定を登録できます。「来週火曜10時から打ち合わせ」→登録完了。話しかけるだけで、一瞬で登録できてミスが少ないです。",
+            "imageSrc": "/misaki.png"
+          },
+          {
+            "name": "スプレッドシート連携", 
+            "description": "データやリストを指示するだけでスプレッドシートにまとめられます。「この売上一覧を表にして」→エクスポートボタンで出力。細かい作業が必要なくなって爆速で表を作れます。",
+            "imageSrc": "/king.png"
+          },
+          {
+            "name": "ドキュメント出力",
+            "description": "Geminiで作った文章を出力・共有できます。「議事録をまとめて」→チーム内に共有できる。下書きいらずで、資料作成のスピードが劇的に上がります。お仕事の効率をUPさせて時短できるようにGeminiを使ってみてください！",
+            "imageSrc": "/kikuyo.png"
+          }
+        ]
       }
     }
   }

@@ -76,166 +76,91 @@
   ],
   "marketingStage": "生活効率化・家事負担軽減を求める段階",
   "knowledgeId": "K172",
-  "pageStructurePattern": "typeID004-tools-services-introduction",
-  "actualTitle": "家事にも大活躍！ChatGPT意外な活用法",
-  "pageCount": 9,
+  "pageStructurePattern": "unified-template-09-dynamic-boxes",
+  "actualTitle": "家事にも大活躍！ChatGPT活用法12選",
+  "pageCount": 4,
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
       "section": "introduction",
       "content": {
-        "title": "家事にも大活躍！ChatGPT意外な活用法",
-        "problemStatement": "毎日バタバタでもうムリです。やることが終わらないです。心も体も休まるヒマがないです。",
-        "solution": "でも、ChatGPTが私生活でもすごく役立ったから紹介します！",
-        "hookMessage": "忙しい毎日が少し楽になります。"
+        "title": "家事にも大活躍！ChatGPT活用法12選",
+        "description": "毎日バタバタでもうムリです。やることが終わらないです。心も体も休まるヒマがないです。でも、ChatGPTが私生活でもすごく役立ったから紹介します！忙しい毎日が少し楽になる12の実用的な活用法をお伝えします。"
       }
     },
     "page2": {
-      "role": "活用法1-2",
-      "section": "mainContent",
+      "role": "料理・食事関連4項目",
+      "section": "dynamic_boxes",
       "content": {
-        "items": [
+        "title": "料理・食事の効率化",
+        "boxes": [
           {
-            "number": "1",
-            "title": "残り物でレシピ提案",
-            "description": "残ったカレーでレシピを考えてください。ある食材だけで、すぐ作れる献立がわかります。",
-            "imageSrc": "/misaki.png"
+            "name": "残り物でレシピ提案",
+            "content": "「残ったカレーでレシピを考えてください」と依頼。ある食材だけで、すぐ作れる献立がわかります。"
           },
           {
-            "number": "2", 
-            "title": "1週間のメニュー作成",
-            "description": "家族4人分の1週間の献立を教えてください。毎日の「何作ろう」から解放されてストレスフリーです。",
-            "imageSrc": "/kikuyo.png"
+            "name": "1週間のメニュー作成",
+            "content": "「家族4人分の1週間の献立を教えてください」で解決。毎日の「何作ろう」から解放されてストレスフリーです。"
+          },
+          {
+            "name": "買い物リストの作成",
+            "content": "「カレーを作るから買い物リストを作成してください」で買い忘れ防止。献立に合わせたリストで買い忘れがなくなります。"
+          },
+          {
+            "name": "時短料理を聞く",
+            "content": "「15分以内で作れるレシピを教えてください」で疲れた日も安心。すぐ作れる料理でごはんが用意できます。"
           }
         ]
       }
     },
     "page3": {
-      "role": "活用法3-4",
-      "section": "mainContent",
+      "role": "育児・生活管理4項目",
+      "section": "dynamic_boxes",
       "content": {
-        "items": [
+        "title": "育児・生活管理の効率化",
+        "boxes": [
           {
-            "number": "3",
-            "title": "買い物リストの作成",
-            "description": "カレーを作るから買い物リストを作成してください。献立に合わせたリストで買い忘れがなくなります。",
-            "imageSrc": "/king.png"
+            "name": "声かけの例をきく",
+            "content": "「泣いている子どもにも伝わる声かけを教えてください」で子育てをサポート。子どもにも気持ちが伝わりやすい声かけでケンカが減ります。"
           },
           {
-            "number": "4",
-            "title": "時短料理を聞く",
-            "description": "15分以内で作れるレシピを教えてください。すぐ作れる料理で疲れた日もごはんが用意できます。",
-            "imageSrc": "/ten_worry.png"
+            "name": "洗濯のコツ",
+            "content": "「雨でも早く乾く方法を教えてください」で洗濯上手に。天気に合った干し方で洗濯が失敗しにくくなります。"
+          },
+          {
+            "name": "メールの文章作成",
+            "content": "「保育園からの呼び出しで会議を休む謝罪文を作ってください」で時短。伝えたい内容をもとに丁寧な文をパッと書いてくれます。"
+          },
+          {
+            "name": "食材の保存方法",
+            "content": "「りんごを長持ちさせる保存のコツを教えてください」でフードロス削減。傷みにくくする保存テクでムダなく使い切れます。"
           }
         ]
       }
     },
     "page4": {
-      "role": "活用法5-6",
-      "section": "mainContent",
+      "role": "特別なサポート4項目",
+      "section": "dynamic_boxes",
       "content": {
-        "items": [
+        "title": "特別なサポート・管理",
+        "boxes": [
           {
-            "number": "5",
-            "title": "声かけの例をきく",
-            "description": "泣いている子どもにも伝わる声かけを教えてください。子どもにも気持ちが伝わりやすい声かけでケンカが減ります。",
-            "imageSrc": "/misaki_worry.png"
+            "name": "童話を作成",
+            "content": "「5歳男の子向けの寝る前のお話を作ってください」で寝かしつけサポート。子どもの年齢に合ったお話で寝かしつけがスムーズです。"
           },
           {
-            "number": "6",
-            "title": "洗濯のコツ",
-            "description": "雨でも早く乾く方法を教えてください。天気に合った干し方で洗濯が失敗しにくくなります。",
-            "imageSrc": "/kikuyo_worry.png"
-          }
-        ]
-      }
-    },
-    "page5": {
-      "role": "活用法7-8",
-      "section": "mainContent",
-      "content": {
-        "items": [
-          {
-            "number": "7",
-            "title": "メールの文章作成",
-            "description": "保育園からの呼び出しで会議を休む謝罪文を作ってください。伝えたい内容をもとに丁寧な文をパッと書いてくれます。",
-            "imageSrc": "/king_warry.png"
+            "name": "家計管理のサポート",
+            "content": "「残り3万円で今月乗り切るコツを教えてください」で節約相談。残高に合わせてムリなく節約できる方法が見つかります。"
           },
           {
-            "number": "8",
-            "title": "食材の保存方法",
-            "description": "りんごを長持ちさせる保存のコツを教えてください。傷みにくくする保存テクでムダなく使い切れます。",
-            "imageSrc": "/iida.png"
-          }
-        ]
-      }
-    },
-    "page6": {
-      "role": "活用法9-10",
-      "section": "mainContent",
-      "content": {
-        "items": [
-          {
-            "number": "9",
-            "title": "童話を作成",
-            "description": "5歳男の子向けの寝る前のお話を作ってください。子どもの年齢に合ったお話で寝かしつけがスムーズです。",
-            "imageSrc": "/misaki.png"
+            "name": "家族旅行の計画",
+            "content": "「家族4人の1泊2日旅行プランを考えてください」で旅行準備を時短。調べる時間が減って楽しい時間に集中できます。"
           },
           {
-            "number": "10",
-            "title": "家計管理のサポート",
-            "description": "残り3万円で今月乗り切るコツを教えてください。残高に合わせてムリなく節約できる方法が見つかります。",
-            "imageSrc": "/kikuyo.png"
+            "name": "整理整頓のコツ",
+            "content": "「やる気ゼロでもできる片付け方を教えてください」で片付け上手に。時間や気力に合った片づけ方法で始めやすいです。"
           }
         ]
-      }
-    },
-    "page7": {
-      "role": "活用法11-12",
-      "section": "mainContent",
-      "content": {
-        "items": [
-          {
-            "number": "11",
-            "title": "家族旅行の計画",
-            "description": "家族4人の1泊2日旅行プランを考えてください。調べる時間が減って楽しい時間に集中できます。",
-            "imageSrc": "/king.png"
-          },
-          {
-            "number": "12",
-            "title": "整理整頓のコツ",
-            "description": "やる気ゼロでもできる片付け方を教えてください。時間や気力に合った片づけ方法で始めやすいです。",
-            "imageSrc": "/ten_worry.png"
-          }
-        ]
-      }
-    },
-    "page8": {
-      "role": "まとめページ（活用法一覧）",
-      "section": "summary",
-      "content": {
-        "title": "まとめ",
-        "itemList": [
-          { "number": "1", "title": "残り物でレシピ提案" },
-          { "number": "2", "title": "1週間分のメニュー作成" },
-          { "number": "3", "title": "買い物リストの作成" },
-          { "number": "4", "title": "時短料理を聞く" },
-          { "number": "5", "title": "声かけの例をきく" },
-          { "number": "6", "title": "洗濯のコツ" },
-          { "number": "7", "title": "メールの文章作成" },
-          { "number": "8", "title": "食材の保存方法" },
-          { "number": "9", "title": "童話を作成" },
-          { "number": "10", "title": "家計管理のサポート" },
-          { "number": "11", "title": "家族旅行の計画" },
-          { "number": "12", "title": "整理整頓のコツ" }
-        ]
-      }
-    },
-    "page9": {
-      "role": "最終メッセージ",
-      "section": "summary",
-      "content": {
-        "finalMessage": "保存して後で復習しましょう！"
       }
     }
   }

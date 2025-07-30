@@ -53,66 +53,58 @@
   ],
   "marketingStage": "就活中の大学生、自己流で失敗経験がある、実績や資格に自信がない、大手企業を志望している段階",
   "knowledgeId": "K037",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "夏インターンは8社合格",
-  "pageCount": 3,
-  "hashTag": "#就活 #内定",
+  "pageCount": 7,
   "detailedContent": {
     "page1": {
-      "role": "問題提起・体験談導入",
-      "content": {
-        "storyIntro": {
-          "achievement": "夏インターンは8社合格",
-          "timeline": "大学3年の9月には内定をもらえた"
-        },
-        "problem": {
-          "mindset": "うーん...インター合格した！",
-          "assumption": "もう内定もってるの？",
-          "reality": "まあ、きっともうなんとかなるでしょ"
-        },
-        "visualElements": ["漫画風キャラクター", "吹き出し", "合格通知書"],
-        "pageIndicator": "11/13"
-      }
+      "role": "導入・共感誘発",
+      "section": "introduction",
+      "title": "夏インターンは8社合格したのに",
+      "content": "夏インターンで8社も合格して、早期内定ももらえました。あなたも同じように、良い結果が出たことで安心していませんか。私もその時は、もう大丈夫だと思っていました。",
+      "imageSrc": "/misaki.png"
     },
     "page2": {
-      "role": "失敗体験・共感創出",
-      "content": {
-        "confession": "私も昔... 自己流でやって痛い目をみました。",
-        "failureStory": {
-          "attitude": "「なんとかなる」と思って",
-          "method": "ダラダラ先のばしにして",
-          "result": "失敗しました。"
-        },
-        "empathy": "あなたには同じ思いをしてほしくない。",
-        "transition": {
-          "condition": "もし「変わりたい」そう思ったなら...",
-          "emphasis": "変わりたい"
-        },
-        "visualElements": ["キャラクターイラスト", "感情表現"],
-        "pageIndicator": "12/13"
-      }
+      "role": "油断・問題発生",
+      "section": "mainContent",
+      "title": "きっともうなんとかなるでしょ",
+      "content": "インターンに合格したし、早期内定ももらえたから、本選考も大丈夫だろうと思っていました。その油断が後に大きな失敗を招くことになるとは、その時は思いもしませんでした。",
+      "imageSrc": "/king.png"
     },
     "page3": {
-      "role": "解決策提示・行動促進",
-      "content": {
-        "solution": {
-          "description": "大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は...",
-          "delivery": "1冊のテキストにまとめています！",
-          "access": "プロフィール欄のURLからお受け取りください！"
-        },
-        "credibilityInfo": {
-          "account": "元・メンヘラ就活生による就活攻略術",
-          "blog": "個人ブログ「とりあえずなくても内定したい方へ」",
-          "stats": "717投稿 5.5万フォロワー 0フォロー中",
-          "background": "バイトばかりで資格は運転免許のみ"
-        },
-        "cta": {
-          "url": "job-hun.com/ab/shukatsu_sep-manga_ins",
-          "emphasis": "プロフィール欄のURLから"
-        },
-        "visualElements": ["プロフィール画面スクリーンショット", "指差しアイコン", "吹き出し"],
-        "pageIndicator": "13/13"
-      }
+      "role": "失敗体験・共感創出",
+      "section": "mainContent",
+      "title": "自己流でやって痛い目をみました",
+      "content": "本選考が始まってから、インターンの時と同じ感覚で臨んだら全く通用しませんでした。準備不足で面接でボロが出て、志望していた企業から次々とお祈りメールが届きました。",
+      "imageSrc": "/iida_worry.png"
+    },
+    "page4": {
+      "role": "気づき・反省",
+      "section": "mainContent",
+      "title": "インターンと本選考は別物だった",
+      "content": "インターン選考と本選考では、企業が見ているポイントが全く違うことに気づきました。インターンは可能性を見るけれど、本選考では即戦力性や志望度の高さが重視されます。",
+      "imageSrc": "/ten_worry.png"
+    },
+    "page5": {
+      "role": "学んだ教訓",
+      "section": "mainContent",
+      "title": "油断が最大の敵だと学びました",
+      "content": "早期に良い結果が出たことで、自己分析や企業研究を怠っていました。本選考では、なぜその企業なのか、自分の強みをどう活かせるかを具体的に語れないと通用しません。",
+      "imageSrc": "/kikuyo_worry.png"
+    },
+    "page6": {
+      "role": "具体的アドバイス",
+      "section": "mainContent",
+      "title": "インターン後も準備を続けることが大切",
+      "content": "インターン合格後も、自己分析を深掘りし、業界・企業研究を継続することが重要です。特に志望動機は、インターンの経験を踏まえてより具体的に語れるように準備しましょう。",
+      "imageSrc": "/iida.png"
+    },
+    "page7": {
+      "role": "まとめ・励まし",
+      "section": "mainContent",
+      "title": "早期の成功に満足せず準備を続けよう",
+      "content": "インターンや早期内定はゴールではなくスタートです。その経験を活かして、本選考に向けてさらに準備を重ねることで、本当に行きたい企業から内定を得ることができます。一緒に頑張りましょう。",
+      "imageSrc": "/misaki.png"
     }
   }
 }

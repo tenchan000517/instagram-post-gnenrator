@@ -70,249 +70,49 @@
   ],
   "marketingStage": "転職・就職活動中または検討中の社会人・学生、キャリアアップを目指す人、資格取得を検討している人",
   "knowledgeId": "K116",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-07-item-list",
   "actualTitle": "損したくない！コスパ最強な資格21選",
-  "pageCount": 11,
-  "hashTag": "#転職 #転職活動 #退職 #仕事やめたい #退職したい #転職の悩み #転職相談 #20代転職 #仕事の悩み #ゆるキャリ",
+  "pageCount": 2,
   "detailedContent": {
     "page1": {
-      "pageNumber": "1/10",
-      "layout": "title-page",
+      "section": "introduction",
       "content": {
-        "mainTitle": "損したくない！",
-        "subTitle": "コスパ最強な資格21選",
-        "visualElements": "大きな白文字、背景は温かみのある色調"
+        "title": "コスパ最強な資格6選",
+        "description": "転職・就職活動で本当に役立つ、取得しやすくて汎用性の高い資格を厳選しました。どれも独学可能で履歴書でのアピール度が高い資格です。",
+        "imageSrc": "/misaki_study.png",
+        "imageAlt": "勉強する女性"
       }
     },
     "page2": {
-      "pageNumber": "2/10", 
-      "layout": "problem-identification",
+      "section": "mainContent",
       "content": {
-        "question": "あなたはこんなことない？",
-        "checklistItems": [
-          "スキルアップのために資格をとりたい",
-          "どんな資格が損しにくい？",
-          "転職にも有利になる資格って？"
-        ],
-        "illustration": "悩んでいる女性のイラスト"
-      }
-    },
-    "page3": {
-      "pageNumber": "3/10",
-      "layout": "qualification-list",
-      "content": {
-        "qualifications": [
+        "title": "厳選6資格",
+        "items": [
           {
-            "number": "1",
             "name": "簿記3級（日商簿記）",
-            "description": ["経理・事務職にあると◎", "独学しやすく、履歴書にも◎"],
-            "icon": "電卓アイコン"
+            "description": "経理・事務職で最も評価される基本資格。独学で3ヶ月程度で取得可能で、どの業界でも通用する汎用性の高さが魅力です。"
           },
           {
-            "number": "2", 
-            "name": "MOS",
-            "description": ["事務職・オフィスワークであると◎", "独学でも取得しやすい◎"],
-            "icon": "オフィスワーカーアイコン"
+            "name": "MOS（Microsoft Office Specialist）",
+            "description": "Excel・Word・PowerPointのスキルを証明する実践的資格。オフィスワーク全般で即戦力をアピールでき、在宅ワークでも有利です。"
           },
           {
-            "number": "3",
-            "name": "FP2級", 
-            "description": ["お金・保険・税金の知識が身につく。", "金融業界だけでなく生活にも◎"],
-            "icon": "お金関連アイコン"
-          }
-        ]
-      }
-    },
-    "page4": {
-      "pageNumber": "4/10",
-      "layout": "qualification-list",
-      "content": {
-        "qualifications": [
+            "name": "FP2級（ファイナンシャルプランナー）",
+            "description": "お金・保険・税金の知識が身につく国家資格。金融業界だけでなく、営業職や不動産業界でも重宝され、自分の生活にも活かせます。"
+          },
           {
-            "number": "4",
             "name": "宅地建物取引士",
-            "description": ["国家資格の中では", "比較的取得しやすく安定収入に。"],
-            "icon": "家アイコン"
+            "description": "不動産業界で必須の国家資格。法律系資格の中では比較的取得しやすく、資格手当や独立開業も可能な安定収入につながる資格です。"
           },
           {
-            "number": "5",
-            "name": "登録販売者", 
-            "description": ["ドラッグストアでのキャリアに有利。", "受験資格が緩く、主婦層にも人気。"],
-            "icon": "販売員アイコン"
-          },
-          {
-            "number": "6",
-            "name": "医療事務",
-            "description": ["医療系で働きたい人に。", "未経験でも受け入れが多い。"],
-            "icon": "医療関係者アイコン"
-          }
-        ]
-      }
-    },
-    "page5": {
-      "pageNumber": "5/10",
-      "layout": "qualification-list",
-      "content": {
-        "qualifications": [
-          {
-            "number": "7",
-            "name": "調剤事務管理士",
-            "description": ["調剤薬局での業務に有利。", "医療事務と合わせて持つと強い◎"],
-            "icon": "薬剤師アイコン"
-          },
-          {
-            "number": "8",
-            "name": "保育士",
-            "description": ["保育現場は人手不足で需要高。", "子育て経験も活かせる◎"],
-            "icon": "保育士アイコン"
-          },
-          {
-            "number": "9", 
-            "name": "介護職員初任者研修",
-            "description": ["超高齢化社会に強い。", "短期で取れる上に求人が多い◎"],
-            "icon": "介護職員アイコン"
-          }
-        ]
-      }
-    },
-    "page6": {
-      "pageNumber": "6/10",
-      "layout": "qualification-list", 
-      "content": {
-        "qualifications": [
-          {
-            "number": "10",
             "name": "TOEIC（600点以上）",
-            "description": ["英語ができる証明に。", "海外取引や外資系企業で有利◎"],
-            "icon": "英語関連アイコン"
+            "description": "英語力の客観的証明として広く認知される資格。外資系企業や海外展開企業で有利で、昇進・昇格の条件にしている企業も多数あります。"
           },
           {
-            "number": "11",
             "name": "ITパスポート",
-            "description": ["IT業界志望だけど文系で知識面に不安がある人や", "アピールポイントを増やしたい人は◎"],
-            "icon": "IT関連アイコン"
-          },
-          {
-            "number": "12",
-            "name": "基本情報技術者試験", 
-            "description": ["IT業界に転職するなら基礎固めに。", "国家資格で信頼性◎"],
-            "icon": "技術者アイコン"
+            "description": "IT業界の基礎知識を証明する国家資格。文系出身者でもITリテラシーをアピールでき、どの業界でもデジタル化が進む現代で評価されます。"
           }
         ]
-      }
-    },
-    "page7": {
-      "pageNumber": "7/10",
-      "layout": "qualification-list",
-      "content": {
-        "qualifications": [
-          {
-            "number": "13",
-            "name": "秘書検定2級・準1級",
-            "description": ["社会人マナーや気遣いが身につく。", "女性の事務職志望者に人気◎"],
-            "icon": "秘書アイコン"
-          },
-          {
-            "number": "14",
-            "name": "メンタルヘルスマネジメント検定",
-            "description": ["心のケア・職場のストレス対応に。", "管理職や人事にも◎"],
-            "icon": "メンタルヘルス関連アイコン"
-          },
-          {
-            "number": "15",
-            "name": "中小企業診断士",
-            "description": ["企業コンサルも可能。", "難関だが、独立や副業にもつながる◎"],
-            "icon": "ビジネス関連アイコン"
-          }
-        ]
-      }
-    },
-    "page8": {
-      "pageNumber": "8/10",
-      "layout": "qualification-list",
-      "content": {
-        "qualifications": [
-          {
-            "number": "16",
-            "name": "終活カウンセラー", 
-            "description": ["高齢化社会に対応。", "シニア層向けサービスで注目されている◎"],
-            "icon": "終活関連アイコン"
-          },
-          {
-            "number": "17",
-            "name": "ウェブデザイン技能検定",
-            "description": ["IT業界の中でもインターネット・Web業界を", "目指す人は取得しておくと役立つ◎"],
-            "icon": "ウェブデザイン関連アイコン"
-          },
-          {
-            "number": "18",
-            "name": "インテリアコーディネーター",
-            "description": ["住宅メーカーやリフォーム会社、建築設計事務所", "など住宅に関連する業界を志望する人に◎"],
-            "icon": "インテリア関連アイコン"
-          }
-        ]
-      }
-    },
-    "page9": {
-      "pageNumber": "9/10",
-      "layout": "qualification-list",
-      "content": {
-        "qualifications": [
-          {
-            "number": "19",
-            "name": "福祉住環境コーディネーター（2級）",
-            "description": ["バリアフリー設計に強くなる。", "ニーズが伸びている分野。"],
-            "icon": "福祉関連アイコン"
-          },
-          {
-            "number": "20",
-            "name": "カラーコーディネーター",
-            "description": ["商品・ディスプレイ・パッケージ・建築関係の", "デザイナーの仕事に就きたい人に◎"],
-            "icon": "カラー関連アイコン"
-          },
-          {
-            "number": "21",
-            "name": "第二種電気工事士",
-            "description": ["電気のない場所はない＝需要がなくならない仕事。", "未経験者でもチャレンジ可能◎"],
-            "icon": "電気工事関連アイコン"
-          }
-        ]
-      }
-    },
-    "page10": {
-      "pageNumber": "10/10",
-      "layout": "cta-promotion",
-      "content": {
-        "mainMessage": "楽に生きれる仕事術について毎日発信📱",
-        "subMessage": "悩んでる方はフォローしてね",
-        "encouragement": "自分が何に向いてるか分からない🌀",
-        "selfAnalysisPrompt": "自分に向いてるが分かる自己分析もやってみて◎",
-        "profilePreview": "プロフィール画面のスクリーンショット",
-        "followPrompt": "ストーリーズでは限定情報も🐑💭"
-      }
-    },
-    "page11": {
-      "pageNumber": "終了ページ",
-      "layout": "final-cta",
-      "content": {
-        "encouragement": "他の記事もサッと読んで情報収集*.°",
-        "accountMention": "→@tsubasa_workstyle",
-        "savePrompt": "また、忘れても後から見返せるように【保存】もしておくと便利だよ🌙✨",
-        "divider": "〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜",
-        "consultation": "キャリアに悩んだら【相談希望】でDMしてね❤️☘️:",
-        "personalStory": [
-          "＊未経験転職で180万円年収UPにも成功💰☘️:",
-          "（販売業→土業の事務職→在宅🏠）",
-          "＊10年キャリアに悩んで、気づいたことや効率よく進めるための方法を毎日発信中✏️💫"
-        ],
-        "storyExclusive": "ストーリーズでは限定情報も🐑💭",
-        "problemList": [
-          "◯自分にあった仕事が分からない🌀",
-          "◯これからのキャリアに迷ってる...🌀", 
-          "◯転職に失敗したくない🌀"
-        ],
-        "finalMessage": "そんな方の1人でも前に進めるキッカケになれば嬉しいです🧸☘️:",
-        "hashTags": "#転職 #転職活動 #退職 #仕事やめたい #退職したい #転職の悩み #転職相談 #20代転職 #仕事の悩み #ゆるキャリ"
       }
     }
   }

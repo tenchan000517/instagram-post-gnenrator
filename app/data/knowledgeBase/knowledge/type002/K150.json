@@ -49,12 +49,13 @@
   ],
   "marketingStage": "仕事でミスをして信頼を失い、成果も出せないことに悩んでいるビジネスパーソン。守りと攻めの両方を包括的に学び、プロフェッショナルとして成長したい社会人",
   "knowledgeId": "K150",
-  "pageStructurePattern": "typeID002-sequential-dependency",
+  "pageStructurePattern": "",
   "actualTitle": "ビジネススキル完全習得マスターガイド",
   "pageCount": 8,
-  "hashTag": "#ビジネススキル完全版 #守攻一体仕事術",
   "detailedContent": {
     "page1": {
+      "role": "導入・問題提起",
+      "section": "introduction",
       "phase": "title-introduction",
       "title": "ビジネススキル完全習得マスターガイド",
       "subtitle": "守り（ミス防止）→攻め（成果創出）でプロフェッショナルへ",
@@ -63,6 +64,8 @@
       "keyMessage": "守攻一体で真のビジネスプロを目指そう"
     },
     "page2": {
+      "role": "Phase1信頼構築",
+      "section": "mainContent",
       "phase": "phase1-trust-building-foundation",
       "title": "Phase1: 信頼構築基盤 - 15のミス防止工夫",
       "content": "「私、ミスしないので」と言える信頼されるビジネスパーソンへ",
@@ -96,6 +99,8 @@
       "nextPhase": "Phase2で成果創出技術へ"
     },
     "page3": {
+      "role": "Phase2成果創出",
+      "section": "mainContent",
       "phase": "phase2-performance-creation-skills",
       "title": "Phase2: 成果創出技術 - 6つのシゴデキ仕事術",
       "content": "信頼される基盤ができたら、今度は成果を出す技術を習得しよう",
@@ -142,6 +147,8 @@
       "nextPhase": "Phase3で守攻一体の統合実践へ"
     },
     "page4": {
+      "role": "Phase3統合実践",
+      "section": "mainContent",
       "phase": "phase3-integrated-practice",
       "title": "Phase3: 統合実践 - 守攻一体の業務遂行",
       "content": "守りと攻めを統合し、状況に応じて柔軟に対応できるプロフェッショナルへ",
@@ -190,6 +197,8 @@
       "nextPhase": "Phase4で継続的成長システムへ"
     },
     "page5": {
+      "role": "Phase4継続向上",
+      "section": "mainContent",
       "phase": "phase4-continuous-improvement",
       "title": "Phase4: 継続的スキル向上システム",
       "content": "ビジネススキルは一度身につけて終わりではありません。常に進化し続けるシステムを構築",
@@ -256,6 +265,8 @@
       "systemGoal": "一生浯にわたってビジネススキルを進化させ、常に成長し続けるプロフェッショナルの確立"
     },
     "page6": {
+      "role": "スキル統合マトリックス",
+      "section": "mainContent",
       "phase": "skill-integration-matrix",
       "title": "スキル統合マトリックス",
       "content": "守り15個+攻め6個=計21のスキルを状況別に整理",
@@ -295,6 +306,8 @@
       "usage_guideline": "状況に応じて守りと攻めのスキルを選択的に組み合わせ、最適なパフォーマンスを発揮しましょう"
     },
     "page7": {
+      "role": "実世界応用例",
+      "section": "mainContent",
       "phase": "real-world-application",
       "title": "実世界での応用例",
       "content": "21のスキルを実際のビジネスシーンでどう活用するかの具体例",
@@ -338,6 +351,8 @@
       ]
     },
     "page8": {
+      "role": "まとめ・次のステップ",
+      "section": "summary",
       "phase": "mastery-celebration-next-steps",
       "title": "ビジネススキル完全習得達成！",
       "content": "おめでとうございます！あなたは守攻一体のビジネススキルを完全習得しました。",

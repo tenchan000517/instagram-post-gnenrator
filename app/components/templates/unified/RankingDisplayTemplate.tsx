@@ -115,7 +115,7 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data })
           
           {/* Tier内のアイテム */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 ml-4">
-            {tierItems?.map((item, index) => (
+            {(tierItems as RankingItem[])?.map((item, index) => (
               <div
                 key={index}
                 className="bg-white rounded-lg shadow-sm p-3 border-l-4"

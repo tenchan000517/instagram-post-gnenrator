@@ -21,8 +21,8 @@
     ],
     "実用的なアドバイス": [
       "各サービスのURLを具体的に提示",
-      "メディア「デザインエクセル」での詳細解説案内",
-      "フォロー・保存・コメントでの情報活用促進"
+      "実際のツール画面による視覚的説明",
+      "デザイナーとAIの共存を提案"
     ]
   },
   "effectiveExpressions": [
@@ -49,70 +49,121 @@
   ],
   "marketingStage": "AIツールに興味があるが具体的に何を使えばいいか分からないデザイナー",
   "knowledgeId": "K097",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-07-item-list",
   "actualTitle": "デザイナーの仕事が奪われる？！",
-  "pageCount": 10,
-  "hashTag": "#chatgpt #時短技 #便利機能 #仕事効率化 #デザイン #社会人の勉強垢 #人工知能 #webデザイン #駆け出しデザイナー #仕事効率アップ #aiツール #ai",
+  "pageCount": 7,
   "detailedContent": {
     "page1": {
-      "role": "hook-title",
-      "content": "メインタイトルとキャッチフレーズ",
-      "text": "デザイナーの仕事が奪われる？！すごすぎるAIサービスベスト6",
-      "layout": "title-with-background-pattern"
+      "pageNumber": "1/7",
+      "role": "タイトル・問題提起",
+      "section": "introduction",
+      "content": {
+        "mainTitle": "デザイナーの仕事が奪われる？！",
+        "subTitle": "すごすぎるAIサービスベスト6",
+        "bodyText": "デザイナーの仕事がAIに奪われると言われていますが、実際は効率化のパートナーとして活用できます。今回は特に優秀な6つのAIサービスを紹介します。",
+        "visualElements": [
+          "緑色統一のデザインレイアウト",
+          "AIとデザイナーの共存を表すビジュアル"
+        ]
+      }
     },
     "page2": {
-      "role": "service-introduction-01",
-      "content": "colorGPTの紹介",
-      "text": "スマホカメラで映すだけでカラーコードが表示 colorGPT",
-      "layout": "service-title-with-screenshot"
+      "pageNumber": "2/7",
+      "role": "サービス紹介1・2",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "カラー＆UI生成AI",
+        "subTitle": "colorGPT / Galileo AI",
+        "bodyText": "colorGPT：スマホカメラで映すだけでカラーコードが表示される便利ツール\n\nGalileo AI：UIを爆速で自動生成するサービス、プロトタイプ作成が劇的に早くなる",
+        "visualElements": [
+          "colorGPTの画面キャプチャ",
+          "Galileo AIの使用例",
+          "各サービスのロゴ"
+        ]
+      }
     },
     "page3": {
-      "role": "service-introduction-02",
-      "content": "Galileo AIの紹介",
-      "text": "UIを爆速で自動生成するサービス Galileo AI",
-      "layout": "service-title-with-screenshot"
+      "pageNumber": "3/7",
+      "role": "サービス紹介3・4",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "Figma連携＆動画作成AI",
+        "subTitle": "Genius by Diagram / Designs.ai",
+        "bodyText": "Genius by Diagram：AIがFigma上でUIデザインを共同制作、デザインワークフローが革新される\n\nDesigns.ai：たった2分で動画やロゴが作れる総合デザインツール",
+        "visualElements": [
+          "Genius by DiagramのFigma連携画面",
+          "Designs.aiの作成例",
+          "実際の操作画面"
+        ]
+      }
     },
     "page4": {
-      "role": "service-introduction-03",
-      "content": "Genius by Diagramの紹介",
-      "text": "AIがFigma上でUIデザインを共同制作 Genius by Diagram",
-      "layout": "service-title-with-screenshot"
+      "pageNumber": "4/7",
+      "role": "サービス紹介5・6",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "プロトタイプ＆画像加工AI",
+        "subTitle": "Uizard / VANCE AI",
+        "bodyText": "Uizard：手書きのワイヤーをプロトタイプに自動変換、アイデアを素早く形にできる\n\nVANCE AI：Photoshopでの画像加工の手間が無くなる高機能画像処理AI",
+        "visualElements": [
+          "Uizardのワイヤーフレーム変換例",
+          "VANCE AIの画像加工例",
+          "Before/After比較"
+        ]
+      }
     },
     "page5": {
-      "role": "service-introduction-04",
-      "content": "Designs.aiの紹介",
-      "text": "たった2分で動画やロゴが作れる！Designs.ai",
-      "layout": "service-title-with-screenshot"
+      "pageNumber": "5/7",
+      "role": "活用方法",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "効果的な活用方法",
+        "subTitle": "AIとデザイナーの協働",
+        "bodyText": "これらのAIツールは仕事を奪うものではなく、創造性をサポートするパートナーです。ルーティンワークを自動化し、より創造的な作業に集中できます。",
+        "visualElements": [
+          "AIとデザイナーの協働図",
+          "効率化のフローチャート",
+          "時間短縮効果の可視化"
+        ]
+      }
     },
     "page6": {
-      "role": "service-introduction-05",
-      "content": "Uizardの紹介",
-      "text": "手書きのワイヤーをプロトタイプに自動変換 Uizard",
-      "layout": "service-title-with-screenshot"
+      "pageNumber": "6/7",
+      "role": "実践のコツ",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "導入時のポイント",
+        "subTitle": "段階的な活用",
+        "bodyText": "まずは1つのツールから始めて、慣れてきたら他のツールも組み合わせて使いましょう。各ツールの特徴を理解し、適材適所で活用することが重要です。",
+        "visualElements": [
+          "段階的導入のステップ",
+          "ツール選択の指針",
+          "学習コストと効果のバランス"
+        ]
+      }
     },
     "page7": {
-      "role": "service-introduction-06",
-      "content": "VANCE AIの紹介",
-      "text": "Photoshopでの画像加工の手間が無くなる！？VANCE AI",
-      "layout": "service-title-with-screenshot"
-    },
-    "page8": {
-      "role": "engagement-promotion",
-      "content": "フォロー・保存・コメント促進",
-      "text": "ストリーズで質問回答しています！フォローお願いします 他の投稿はこちらをタップ！",
-      "layout": "instagram-profile-showcase"
-    },
-    "page9": {
-      "role": "media-promotion",
-      "content": "デザインエクセル媒体の紹介",
-      "text": "メディア「デザインエクセル」でInstagramでの投稿内容を更に詳しく解説していきます♪",
-      "layout": "website-promotion-with-screenshot"
-    },
-    "page10": {
-      "role": "call-to-action-final",
-      "content": "最終エンゲージメント促進",
-      "text": "画面を2回タップすると風船がハートになるよ！@design_excelをつけて是非投稿してみてください！",
-      "layout": "engagement-instruction-with-hashtags"
+      "pageNumber": "7/7",
+      "role": "まとめ",
+      "section": "summary",
+      "content": {
+        "mainTitle": "AIでデザインワークを進化させよう",
+        "subTitle": "未来のデザイナーへ",
+        "bodyText": "AIツールを活用することで、デザイナーはより価値の高い創造的な仕事に集中できるようになります。恐れるのではなく、積極的に活用していきましょう。",
+        "visualElements": [
+          "6つのAIサービス一覧",
+          "未来のデザインワークのビジョン",
+          "まとめのインフォグラフィック"
+        ],
+        "listItems": [
+          "1. colorGPT - カラーコード表示",
+          "2. Galileo AI - UI自動生成",
+          "3. Genius by Diagram - Figma連携AI",
+          "4. Designs.ai - 動画・ロゴ作成",
+          "5. Uizard - ワイヤーフレーム変換",
+          "6. VANCE AI - 画像加工・修復"
+        ]
+      }
     }
   }
 }

@@ -26,7 +26,7 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
   // フォールバック: 既存NgGoodパターンの解析
   const parseNgGoodContent = () => {
     const contentArray = (data as any).content || [];
-    const parsed = { ngItems: [], goodItems: [], mainText: '' };
+    const parsed = { ngItems: [] as string[], goodItems: [] as string[], mainText: '' };
     
     contentArray.forEach((content: string) => {
       if (content.includes('❌')) {

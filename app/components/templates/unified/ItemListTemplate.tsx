@@ -5,10 +5,6 @@ interface ItemListTemplateProps {
   data: TemplateData
 }
 
-interface ListItem {
-  name: string;
-  description: string;
-}
 
 export function ItemListTemplate({ data }: ItemListTemplateProps) {
   const title = data.title || ''
@@ -33,7 +29,7 @@ export function ItemListTemplate({ data }: ItemListTemplateProps) {
         {/* アイテムリスト */}
         <div className="flex-1 flex flex-col justify-center">
           <div className="max-w-3xl mx-auto w-full space-y-6">
-            {displayItems.map((item: ListItem, index: number) => (
+            {displayItems.map((item: any, index: number) => (
               <div 
                 key={index}
                 className="bg-white rounded-lg border-l-4 border-blue-500 p-6 shadow-sm hover:shadow-md transition-shadow"
@@ -43,12 +39,12 @@ export function ItemListTemplate({ data }: ItemListTemplateProps) {
                   <span className="bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
                     {index + 1}
                   </span>
-                  {cleanMarkdown(item.name || item.title || '')}
+                  {cleanMarkdown(typeof item === 'string' ? item : (item.name || item.title || ''))}
                 </h3>
                 
                 {/* アイテム説明 */}
                 <p className="text-gray-700 leading-relaxed pl-11">
-                  {cleanMarkdown(item.description || '')}
+                  {cleanMarkdown(typeof item === 'string' ? '' : (item.description || item.content || ''))}
                 </p>
               </div>
             ))}

@@ -54,138 +54,111 @@
   ],
   "marketingStage": "就活・転職で企業選択の意思決定を行う段階。客観的データと総合的な情報リソースを求め、個別最適化されたキャリア選択と競争優位性の獲得を望む層",
   "knowledgeId": "K012",
-  "pageStructurePattern": "",
-  "actualTitle": "就活・転職成功のための企業選択支援リソース7選",
-  "pageCount": 7,
-  "hashTag": "なし（ABABAのサービス紹介投稿）",
+  "pageStructurePattern": "unified-template-06-company-detail",
+  "actualTitle": "社員満足度の高い優良メーカー6社",
+  "pageCount": 6,
   "detailedContent": {
     "page1": {
-      "pageNumber": "1/10",
-      "content": {
-        "header": "就活落ちたらABABA",
-        "mainTitle": "満足度が高い隠れ優良メーカー7選",
-        "design": {
-          "background": "緑色グラデーション",
-          "titleCard": "白色角丸カード",
-          "titleDesign": "上部紫グラデーション、下部赤文字"
-        },
-        "accountInfo": "ababa_official",
-        "engagement": "いいね数17、続きを読む"
-      }
+      "role": "企業情報1",
+      "section": "mainContent",
+      "companyName": "東京エレクトロンデバイス",
+      "features": {
+        "industry": "半導体商社兼メーカー",
+        "salary": "909万円",
+        "holidays": "123日",
+        "overtime": "30.6時間"
+      },
+      "details": {
+        "overview": "半導体商社兼メーカー、情報通信機器の販売も行う",
+        "recruitment": ["総合職（営業系・技術系・事務系）"],
+        "hiringCount": "約20名"
+      },
+      "highlightMessage": "テレワークが推進されているためある程度残業があってもプライベートの時間を確保できる！"
     },
     "page2": {
-      "pageNumber": "2/10",
-      "content": {
-        "header": "社員の満足度が高い隠れ優良メーカー",
-        "company": "①東京エレクトロンデバイス",
-        "companyInfo": {
-          "overview": "半導体商社兼メーカー、情報通信機器の販売も行う",
-          "annualHolidays": "123日",
-          "averageSalary": "909万円",
-          "averageOvertime": "30.6時間"
-        },
-        "recruitment": {
-          "positions": "総合職（営業系・技術系・事務系）",
-          "hireCount": "約20名"
-        },
-        "highlight": "テレワークが推進されているためある程度残業があってもプライベートの時間を確保できる！",
-        "mascot": "緑色キャラクター（メガネ）"
-      }
+      "role": "企業情報2",
+      "section": "mainContent",
+      "companyName": "アドバンテスト",
+      "features": {
+        "industry": "半導体商社兼メーカー",
+        "salary": "840万円",
+        "holidays": "131日",
+        "overtime": "14.2時間"
+      },
+      "details": {
+        "overview": "半導体商社兼メーカー、業界No.1の幅広い商品群を持つ",
+        "recruitment": ["文系職・理系職"],
+        "hiringCount": "約50名"
+      },
+      "highlightMessage": "有給は5日の取得に加えて、4〜10月の間で5営業日連続の夏季休暇を取得できます！"
     },
     "page3": {
-      "pageNumber": "3/10",
-      "content": {
-        "header": "社員の満足度が高い隠れ優良メーカー",
-        "company": "②アドバンテスト",
-        "companyInfo": {
-          "overview": "半導体商社兼メーカー、業界No.1の幅広い商品群を持つ",
-          "annualHolidays": "131日",
-          "averageSalary": "840万円",
-          "averageOvertime": "14.2時間"
-        },
-        "recruitment": {
-          "positions": "文系職・理系職",
-          "hireCount": "約50名"
-        },
-        "highlight": "有給は5日の取得に加えて、4〜10月の間で5営業日連続の夏季休暇を取得できるじょ！",
-        "mascot": "緑色キャラクター（メガネ）"
-      }
+      "role": "企業情報3",
+      "section": "mainContent",
+      "companyName": "日立ハイテク",
+      "features": {
+        "industry": "精密機器メーカー",
+        "salary": "834万円",
+        "holidays": "127日",
+        "overtime": "31.6時間"
+      },
+      "details": {
+        "overview": "日立グループの精密機器メーカー、電子デバイス製品で世界トップシェア",
+        "recruitment": ["総合職（営業系・エンジニア・事業スタッフ）"],
+        "hiringCount": "約120名"
+      },
+      "highlightMessage": "入社初年度から有給が24日付与される！年に3万円程度の支援金ももらえます"
     },
     "page4": {
-      "pageNumber": "4/10",
-      "content": {
-        "header": "社員の満足度が高い隠れ優良メーカー",
-        "company": "③日立ハイテク",
-        "companyInfo": {
-          "overview": "日立グループの精密機器メーカー、電子デバイス製品で世界トップシェア",
-          "annualHolidays": "127日",
-          "averageSalary": "834万円",
-          "averageOvertime": "31.6時間"
-        },
-        "recruitment": {
-          "positions": "総合職（営業系・エンジニア・事業スタッフ）",
-          "hireCount": "約120名"
-        },
-        "highlight": "入社初年度から有給が24日付与される！年に3万円程度の支援金ももらえるじょ",
-        "mascot": "緑色キャラクター（メガネ）"
-      }
+      "role": "企業情報4",
+      "section": "mainContent",
+      "companyName": "DIC",
+      "features": {
+        "industry": "化学メーカー",
+        "salary": "758万円",
+        "holidays": "124日",
+        "overtime": "16.1時間"
+      },
+      "details": {
+        "overview": "化学メーカー、印刷インキを製造。60カ国以上で展開",
+        "recruitment": ["事務職・生産職・技術職"],
+        "hiringCount": "約100名"
+      },
+      "highlightMessage": "会社としてテレワークの回数制限もないため年に数回のみ出社する社員もいます"
     },
     "page5": {
-      "pageNumber": "5/10",
-      "content": {
-        "header": "社員の満足度が高い隠れ優良メーカー",
-        "company": "④DIC",
-        "companyInfo": {
-          "overview": "化学メーカー、印刷インキを製造。60カ国以上で展開",
-          "annualHolidays": "124日",
-          "averageSalary": "758万円",
-          "averageOvertime": "16.1時間"
-        },
-        "recruitment": {
-          "positions": "事務職・生産職・技術職",
-          "hireCount": "約100名"
-        },
-        "highlight": "会社としてテレワークの回数制限もないため年に数回のみ出社する社員もいるそうじゃ",
-        "mascot": "緑色キャラクター（メガネ）"
-      }
+      "role": "企業情報5",
+      "section": "mainContent",
+      "companyName": "デュポンジャパン",
+      "features": {
+        "industry": "外資系化学メーカー",
+        "salary": "955万円",
+        "holidays": "121日",
+        "overtime": "22.1時間"
+      },
+      "details": {
+        "overview": "外資系化学メーカー、自動車等輸送機器などを製造",
+        "recruitment": ["技術営業職"],
+        "hiringCount": "約10名"
+      },
+      "highlightMessage": "チームワークを大切にする文化があり自分の時間をきちんと確保できます！"
     },
     "page6": {
-      "pageNumber": "6/10",
-      "content": {
-        "header": "社員の満足度が高い隠れ優良メーカー",
-        "company": "⑤デュポンジャパン",
-        "companyInfo": {
-          "overview": "外資系化学メーカー、自動車等輸送機器などを製造",
-          "annualHolidays": "121日",
-          "averageSalary": "955万円",
-          "averageOvertime": "22.1時間"
-        },
-        "recruitment": {
-          "positions": "技術営業職",
-          "hireCount": "約10名"
-        },
-        "highlight": "チームワークを大切にする文化があり自分の時間をきちんと確保できる！",
-        "mascot": "緑色キャラクター（メガネ）"
-      }
-    },
-    "page7": {
-      "pageNumber": "7/10",
-      "content": {
-        "header": "社員の満足度が高い隠れ優良メーカー",
-        "company": "⑥ボッシュ",
-        "companyInfo": {
-          "overview": "自動車部品の開発・製造・販売を行う、ボッシュグループに属する",
-          "annualHolidays": "121日",
-          "averageSalary": "746万円",
-          "averageOvertime": "11.0時間"
-        },
-        "recruitment": {
-          "positions": "技術系・事務系職種",
-          "hireCount": "約120名"
-        },
-        "highlight": "フルフレックス制でプライベートの予定に合わせて働けるじょ、有給取得率もほぼ100％と高い！",
-        "mascot": "緑色キャラクター（メガネ）"
-      }
+      "role": "企業情報6",
+      "section": "mainContent",
+      "companyName": "ボッシュ",
+      "features": {
+        "industry": "自動車部品メーカー",
+        "salary": "746万円",
+        "holidays": "121日",
+        "overtime": "11.0時間"
+      },
+      "details": {
+        "overview": "自動車部品の開発・製造・販売を行う、ボッシュグループに属する",
+        "recruitment": ["技術系・事務系職種"],
+        "hiringCount": "約120名"
+      },
+      "highlightMessage": "フルフレックス制でプライベートの予定に合わせて働けます、有給取得率もほぼ100％と高いです！"
     }
   }
 }

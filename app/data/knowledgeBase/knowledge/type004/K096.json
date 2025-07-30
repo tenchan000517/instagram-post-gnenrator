@@ -44,70 +44,107 @@
   ],
   "marketingStage": "ChatGPTを使い始めているが制限に直面している初中級者",
   "knowledgeId": "K096",
-  "pageStructurePattern": "",
-  "actualTitle": "回答を作成してくれる",
-  "pageCount": 10,
-  "hashTag": "#chatgpt #chatgpt4 #gpt4 #チャットgpt #チャットジーピーティー #チャットjpt #チャットジーピーティーとは #チャットジーピーティー初心者 #チャットジーピーティーの使い方 #aiツール",
+  "pageStructurePattern": "unified-template-02-dual-section",
+  "actualTitle": "WebChatGPTで最新情報を取得する方法",
+  "pageCount": 7,
   "detailedContent": {
     "page1": {
-      "role": "hook-attention-grabber",
-      "content": "ChatGPTとインボイス制度の会話画面",
-      "text": "回答を作成してくれる",
-      "layout": "screenshot-with-overlay-text"
+      "pageNumber": "1/7",
+      "role": "問題の提起",
+      "section": "introduction",
+      "content": {
+        "mainTitle": "ChatGPTが答えられない質問",
+        "subTitle": "最新情報の制限",
+        "bodyText": "「今年から新しく始まる税金制度は？」このような質問にChatGPTは答えられません。ChatGPTの情報は2021年9月までで切れているためです。",
+        "visualElements": [
+          "ChatGPTとインボイス制度の会話画面",
+          "ChatGPTの制限説明画面"
+        ]
+      }
     },
     "page2": {
-      "role": "demonstration",
-      "content": "WebChatGPT Chrome拡張の紹介画面",
-      "text": "実際に使ってみましょう",
-      "layout": "browser-screenshot-with-overlay"
+      "pageNumber": "2/7",
+      "role": "解決策の紹介",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "WebChatGPT拡張機能",
+        "subTitle": "Chrome拡張で最新情報アクセス",
+        "bodyText": "WebChatGPTというChrome拡張機能を使えば、ChatGPTで最新のウェブ情報を参照できるようになります。",
+        "visualElements": [
+          "WebChatGPT Chrome拡張の紹介画面",
+          "Chrome拡張ストアでの検索結果"
+        ]
+      }
     },
     "page3": {
-      "role": "question-setup",
-      "content": "ChatGPT画面での質問例",
-      "text": "今年から新しく始まる税金制度は？",
-      "layout": "chat-interface-screenshot"
+      "pageNumber": "3/7",
+      "role": "インストール手順",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "インストール方法",
+        "subTitle": "3ステップで簡単設定",
+        "bodyText": "1. Chrome拡張機能でWebChatGPTを検索\n2. 「Chromeに追加」をクリック\n3. ChatGPTページでWeb accessをONにする",
+        "visualElements": [
+          "Chrome拡張機能のインストール画面",
+          "WebChatGPTの設定画面"
+        ]
+      }
     },
     "page4": {
-      "role": "problem-identification",
-      "content": "ChatGPTの制限説明",
-      "text": "いやわからんのかい",
-      "layout": "chat-response-with-humor"
+      "pageNumber": "4/7",
+      "role": "実演開始",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "実演：Web accessをONに",
+        "subTitle": "設定の変更方法",
+        "bodyText": "ChatGPTの画面でWebChatGPTのWeb accessボタンをONにします。これで最新のウェブ情報を参照できるようになります。",
+        "visualElements": [
+          "Web accessをONにする手順",
+          "設定変更前後の比較画面"
+        ]
+      }
     },
     "page5": {
-      "role": "solution-introduction",
-      "content": "WebChatGPTツールの説明",
-      "text": "ではこのツールをオンにします",
-      "layout": "instruction-with-arrow"
+      "pageNumber": "5/7",
+      "role": "実際の質問例",
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "同じ質問を再実行",
+        "subTitle": "「今年から新しく始まる税金制度は？」",
+        "bodyText": "WebChatGPTを有効にして同じ質問をすると、最新のインボイス制度について詳細な回答が得られます。",
+        "visualElements": [
+          "質問の再実行画面",
+          "Web検索結果を参照した回答"
+        ]
+      }
     },
     "page6": {
-      "role": "tool-activation",
-      "content": "Web accessをONにする手順",
-      "text": "新しく始まる（下線付き）今年からあたらしくはじまる",
-      "layout": "settings-screenshot"
+      "pageNumber": "6/7",
+      "role": "詳細情報の表示", 
+      "section": "mainContent",
+      "content": {
+        "mainTitle": "インボイス制度の詳細",
+        "subTitle": "具体的で分かりやすい回答",
+        "bodyText": "WebChatGPTにより、インボイス制度の開始時期、対象者、具体的な影響について最新の情報を元にした詳細な説明が得られました。",
+        "visualElements": [
+          "インボイス制度の詳細情報",
+          "情報の参照元URL表示"
+        ]
+      }
     },
     "page7": {
-      "role": "detailed-explanation",
-      "content": "インボイス制度の詳細情報",
-      "text": "いや分かりやすい！",
-      "layout": "information-display-with-reaction"
-    },
-    "page8": {
-      "role": "save-prompt",
-      "content": "動画保存の促進",
-      "text": "この動画を保存してから",
-      "layout": "save-instruction-overlay"
-    },
-    "page9": {
-      "role": "call-to-action",
-      "content": "コメント送信の促進",
-      "text": "「ほしい」とコメントで送ります",
-      "layout": "engagement-prompt"
-    },
-    "page10": {
-      "role": "hashtag-metadata",
-      "content": "ハッシュタグとメタデータ",
-      "text": "仮想通貨に興味があり、稼ぎたいと考えている人が見つけやすいよう投稿いたします。",
-      "layout": "hashtag-list"
+      "pageNumber": "7/7",
+      "role": "まとめ・注意点",
+      "section": "summary",
+      "content": {
+        "mainTitle": "WebChatGPT活用のポイント",
+        "subTitle": "効果的な使い方",
+        "bodyText": "WebChatGPTは最新情報にアクセスできる便利なツールですが、情報の信頼性を確認することも重要です。複数の信頼できるソースを参照しましょう。",
+        "visualElements": [
+          "WebChatGPTの利点まとめ",
+          "注意事項の表示"
+        ]
+      }
     }
   }
 }

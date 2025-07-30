@@ -52,11 +52,9 @@
   ],
   "marketingStage": "副業検討〜実行段階（具体的な方法論を求める段階）",
   "knowledgeId": "K184",
-  "pageStructurePattern": "typeID003-detailed-case-studies",
+  "pageStructurePattern": "",
   "actualTitle": "副業で月50万円稼ぐ人の戦略大公開",
   "pageCount": 12,
-  "targetIds": ["T013", "T014"],
-  "targetReason": "副業成功事例・収益化情報は性別を問わず需要が高く、特に具体的な数値や戦略に関心の高い層にアプローチ",
   "detailedContent": {
     "page1": {
       "role": "title-hook",
@@ -128,8 +126,8 @@
       }
     },
     "page4": {
-      "role": "case-study-02", 
-      "template": "detailed_case_study",
+      "role": "case-study-02",
+      "section": "mainContent",
       "content": {
         "caseNumber": "Case 2",
         "profession": "SNS運用代行",
@@ -157,7 +155,7 @@
     },
     "page5": {
       "role": "case-study-03",
-      "template": "detailed_case_study", 
+      "section": "mainContent", 
       "content": {
         "caseNumber": "Case 3",
         "profession": "オンライン講師",
@@ -185,7 +183,7 @@
     },
     "page6": {
       "role": "case-study-04",
-      "template": "detailed_case_study",
+      "section": "mainContent",
       "content": {
         "caseNumber": "Case 4", 
         "profession": "ハンドメイド販売",
@@ -213,7 +211,7 @@
     },
     "page7": {
       "role": "revenue-comparison",
-      "template": "comparative_analysis",
+      "section": "mainContent",
       "content": {
         "sectionTitle": "副業別収益性・難易度比較",
         "comparisonMatrix": [
@@ -254,7 +252,7 @@
     },
     "page8": {
       "role": "high-earner-cases",
-      "template": "detailed_case_study",
+      "section": "mainContent",
       "content": {
         "sectionTitle": "月30万円超えの高収益事例",
         "caseNumber": "Case 5",
@@ -283,7 +281,7 @@
     },
     "page9": {
       "role": "skill-acquisition-timeline",
-      "template": "timeline_development",
+      "section": "mainContent",
       "content": {
         "sectionTitle": "スキル習得〜収益化タイムライン",
         "timeline": [
@@ -316,7 +314,7 @@
     },
     "page10": {
       "role": "success-factors-analysis",
-      "template": "factor_analysis",
+      "section": "mainContent",
       "content": {
         "sectionTitle": "成功者共通の5つの要因",
         "successFactors": [
@@ -355,7 +353,7 @@
     },
     "page11": {
       "role": "roi-investment-analysis",
-      "template": "financial_analysis",
+      "section": "mainContent",
       "content": {
         "sectionTitle": "投資対効果（ROI）分析",
         "investmentBreakdown": [
@@ -384,7 +382,7 @@
     },
     "page12": {
       "role": "actionable-next-steps",
-      "template": "practical_guide_next_action",
+      "section": "summary",
       "content": {
         "transitionMessage": "成功事例を学んだら、次は行動です。",
         "immediateActions": [

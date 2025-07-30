@@ -64,20 +64,11 @@
   "marketingStage": "副業未経験〜検討段階の女性（会社員・主婦など）、スキルや経験に自信がない人",
   "knowledgeId": "K005",
   "actualTitle": "副業スタートガイド",
-  "pageCount": 10,
-  "contentPageCount": 8,
-  "hashTag": "",
+  "pageCount": 8,
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "detailedContent": {
     "page1": {
-      "role": "title-cover",
-      "headerBadge": "月5万円達成！",
-      "mainTitle": "副業スタートガイド",
-      "backgroundImage": "作業中の女性後ろ姿（デスク環境）",
-      "visualElements": "実用的なワークスペース"
-    },
-    "page2": {
-      "section": "intro",
-      "template": "basic_intro",
+      "section": "introduction",
       "role": "problem-empathy",
       "header": "副業スタートガイド",
       "mainMessage": "月にあと+5万円あれば...",
@@ -88,9 +79,8 @@
       "empathyMessage": "そんな女性たちへ 400名以上のフリーランスをサポートしている私がおすすめの副業をご紹介✨",
       "authorImage": "女性プロフィール写真"
     },
-    "page3": {
+    "page2": {
       "section": "mainContent",
-      "template": "step_guide_achievement",
       "role": "category-options",
       "header": "副業スタートガイド",
       "sectionTitle": "副業にはいろんな種類がある！",
@@ -111,9 +101,8 @@
       },
       "bottomMessage": "今ある「好き」や「得意」から考えよう！"
     },
-    "page4": {
+    "page3": {
       "section": "mainContent",
-      "template": "step_guide_achievement",
       "role": "step1-goal-setting",
       "header": "副業スタートガイド",
       "stepTitle": "Step1. まずは月5万円を目標に設定",
@@ -123,9 +112,8 @@
       "motivationalMessage": "大きく稼ぐ前に小さな目標で成功を積み重ねていこう",
       "illustration": "成功を喜ぶ女性のイラスト"
     },
-    "page5": {
+    "page4": {
       "section": "mainContent",
-      "template": "step_guide_achievement",
       "role": "step2-genre-selection",
       "header": "副業スタートガイド",
       "stepTitle": "Step2. ジャンル選びのコツ",
@@ -142,9 +130,8 @@
       "bottomMessage": "無理に「正解」を探さなくてOK！",
       "illustration": "指差しする女性のイラスト"
     },
-    "page6": {
+    "page5": {
       "section": "mainContent",
-      "template": "step_guide_achievement",
       "role": "step3-trust-building",
       "header": "副業スタートガイド",
       "stepTitle": "Step3. 信頼してもらう",
@@ -157,9 +144,8 @@
       "keyMessage": "できることを見せることで、信頼につながる！",
       "illustration": "スマートフォンを持つ女性のイラスト"
     },
-    "page7": {
+    "page6": {
       "section": "mainContent",
-      "template": "step_guide_achievement",
       "role": "step4-tool-utilization",
       "header": "副業スタートガイド",
       "stepTitle": "Step4. ツールに頼ってOK！",
@@ -173,9 +159,8 @@
       "reference": "ChatGPTの使い方はこの投稿でも紹介してます →",
       "bookImage": "ChatGPT差がつく仕事術の本"
     },
-    "page8": {
+    "page7": {
       "section": "mainContent",
-      "template": "timeline_story_experience",
       "role": "success-case-study",
       "header": "講座生の実例",
       "successStory": {
@@ -190,9 +175,8 @@
         "profileImage": "女性のプロフィール写真"
       }
     },
-    "page9": {
-      "section": "mainContent",
-      "template": "points_list_analysis",
+    "page8": {
+      "section": "summary",
       "role": "summary-key-points",
       "header": "まとめ",
       "subtitle": "副業スタートガイド",
@@ -205,26 +189,6 @@
       "finalMessage": "正しいやり方を知ればあなたにもできる！",
       "ctaLead": "最後に特別なお知らせが！",
       "illustration": "指差しポーズの女性イラスト"
-    },
-    "page10": {
-      "section": "summary",
-      "template": "basic_summary",
-      "role": "cta-special-offer",
-      "offerTitle": "超豪華プレゼント！",
-      "description": "全126講義が格納された無料学習サイトFREE",
-      "features": {
-        "content": "フリーランス無料学習サイトFREE",
-        "volume": "超特大ボリューム！",
-        "details": [
-          "全126本講義が網羅",
-          "テキスト教材 30時間",
-          "動画教材 496本"
-        ]
-      },
-      "access": "受け取りはプロフリンクから",
-      "urgency": "突然終了することもあるので、お早めに",
-      "deviceMockup": "PC・スマートフォンの画面表示",
-      "profilePreview": "プロフィール画面のスクリーンショット"
     }
   }
 }

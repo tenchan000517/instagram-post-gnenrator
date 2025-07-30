@@ -72,7 +72,7 @@
   ],
   "marketingStage": "業務効率化検討段階（AIツール導入検討時期）",
   "knowledgeId": "K136",
-  "pageStructurePattern": "typeID004-tool-service-introduction",
+  "pageStructurePattern": "unified-template-05-comparison",
   "actualTitle": "今どきはコレ！代替AIでサクッとお仕事",
   "pageCount": 8,
   "detailedContent": {
@@ -185,7 +185,7 @@
     },
     "page8": {
       "role": "まとめ・実践促進",
-      "section": "summary",
+      "section": "mainContent",
       "content": {
         "title": "まとめ",
         "replacements": [
@@ -197,7 +197,6 @@
           { "from": "Google翻訳", "to": "DeepL" }
         ],
         "encouragement": "ちょっと置き換えるだけで仕事の効率が変わります。まずはひとつ、試してみましょう！",
-        "callToAction": "保存して後で復習しましょう！"
       }
     }
   }

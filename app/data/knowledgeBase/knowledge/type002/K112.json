@@ -58,20 +58,11 @@
   "knowledgeId": "K112",
   "pageStructurePattern": "",
   "actualTitle": "インスタ集客挫折しそう？これ試してみて",
-  "pageCount": 10,
-  "hashTag": "#インスタ集客 #インスタ運用 #インスタ運用代行 #sns集客 #インスタ初心者 #インスタ活用法 #女性起業家 #女性起業家サポート",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "タイトルページ・問題提起",
-      "layout": "中央配置のタイトル + Instagramアイコン + キャラクターイラスト",
-      "content": {
-        "title": "インスタ集客挫折しそう？これ試してみて",
-        "visualElements": "ピンク背景、Instagramロゴ、PCを使う女性キャラクター、電球アイコン",
-        "pageIndicator": "1/10"
-      }
-    },
-    "page2": {
       "role": "問題の共感・導入",
+      "section": "introduction",
       "layout": "ステップ0の説明",
       "content": {
         "stepNumber": "0",
@@ -83,8 +74,9 @@
         "visualElements": "悩む女性キャラクター、アカウント写真"
       }
     },
-    "page3": {
+    "page2": {
       "role": "ステップ1の解説",
+      "section": "mainContent",
       "layout": "ステップタイトル + 具体例2つ + 説明",
       "content": {
         "stepNumber": "1",
@@ -104,8 +96,9 @@
         "visualElements": "考える女性キャラクター"
       }
     },
-    "page4": {
+    "page3": {
       "role": "ステップ2の解説",
+      "section": "mainContent",
       "layout": "ステップタイトル + 具体例2つ + 説明",
       "content": {
         "stepNumber": "2",
@@ -125,8 +118,9 @@
         "visualElements": "スマホを見る女性キャラクター"
       }
     },
-    "page5": {
+    "page4": {
       "role": "ステップ3の解説",
+      "section": "mainContent",
       "layout": "ステップタイトル + 具体例2つ + 説明",
       "content": {
         "stepNumber": "3",
@@ -146,8 +140,9 @@
         "visualElements": "思考する女性キャラクター"
       }
     },
-    "page6": {
+    "page5": {
       "role": "ステップ4の解説",
+      "section": "mainContent",
       "layout": "ステップタイトル + 具体例2つ + 説明",
       "content": {
         "stepNumber": "4",
@@ -167,8 +162,9 @@
         "visualElements": "ノートを見る女性キャラクター"
       }
     },
-    "page7": {
+    "page6": {
       "role": "ステップ5の解説",
+      "section": "mainContent",
       "layout": "ステップタイトル + 具体例2つ + 説明",
       "content": {
         "stepNumber": "5",
@@ -188,8 +184,9 @@
         "visualElements": "分析する女性キャラクター"
       }
     },
-    "page8": {
+    "page7": {
       "role": "ステップ6の解説",
+      "section": "mainContent",
       "layout": "ステップタイトル + 具体例2つ + 説明",
       "content": {
         "stepNumber": "6",
@@ -209,8 +206,9 @@
         "visualElements": "アカウント写真、笑顔の女性"
       }
     },
-    "page9": {
+    "page8": {
       "role": "まとめページ",
+      "section": "summary",
       "layout": "チェックリスト形式のまとめ",
       "content": {
         "title": "まとめ",
@@ -228,14 +226,5 @@
         "savePrompt": "保存はこちら"
       }
     },
-    "page10": {
-      "role": "感謝・保存促進ページ",
-      "layout": "感謝メッセージ + 保存促進",
-      "content": {
-        "mainMessage": "THANK YOU !",
-        "visualElements": "ピンクのハート、手紙イラスト、ピンクのリボン",
-        "savePrompt": "ここから保存してね♪"
-      }
-    }
   }
 }

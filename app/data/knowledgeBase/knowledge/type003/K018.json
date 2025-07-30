@@ -67,21 +67,22 @@
   "knowledgeId": "K018",
   "pageStructurePattern": "",
   "actualTitle": "【就活】業界マップ",
-  "pageCount": 7,
-  "hashTag": "#就活 #業界マップ #業界研究",
+  "pageCount": 5,
   "detailedContent": {
     "page1": {
-      "pageNumber": 1,
-      "elements": {
-        "text": "【就活】業界マップ",
-        "visualElements": "青い背景、白いカード内に業界マップ、各業界を黄色の円で配置、「厳しい↔穏やか」「論理重視↔人情重視」の軸、各業界にイラスト付き"
+      "role": "導入・全体像提示",
+      "section": "introduction",
+      "content": {
+        "title": "【就活】業界マップ",
+        "mainVisualization": "青い背景、白いカード内に業界マップ、各業界を黄色の円で配置、「厳しい↔穏やか」「論理重視↔人情重視」の軸、各業界にイラスト付き",
+        "description": "業界マップ全体図で各業界の特徴と位置づけを可視化"
       }
     },
     "page2": {
-      "pageNumber": 2,
-      "elements": {
-        "text": "インフラ・人材・SIer業界の説明",
-        "details": {
+      "role": "業界詳細1",
+      "section": "mainContent",
+      "content": {
+        "industries": {
           "インフラ": {
             "向いている人": ["安定した仕事に就きたい人", "古い体質もOKな人", "マニュアルに沿った正確な仕事がしたい人"],
             "代表企業": ["関西電力", "JR東日本", "日立造船", "ENEOS"]
@@ -98,10 +99,10 @@
       }
     },
     "page3": {
-      "pageNumber": 3,
-      "elements": {
-        "text": "メーカー・大学・商社業界の説明",
-        "details": {
+      "role": "業界詳細2",
+      "section": "mainContent",
+      "content": {
+        "industries": {
           "メーカー": {
             "向いている人": ["目に見えるわかりやすい商品を扱いたい人", "転勤OKな人（跨地勤務の可能性も）"],
             "代表企業": ["TOYOTA", "Canon", "Panasonic", "FUJIFILM"]
@@ -118,10 +119,10 @@
       }
     },
     "page4": {
-      "pageNumber": 4,
-      "elements": {
-        "text": "コンサル・金融系・カード業界の説明",
-        "details": {
+      "role": "業界詳細3",
+      "section": "mainContent",
+      "content": {
+        "industries": {
           "コンサル": {
             "向いている人": ["答えなき問題に楽しんで向き合える人", "仕事を通じて自身の価値を感じたい人"],
             "代表企業": ["野村総合研究所", "ベイカレント", "accenture", "ABEamConsulting"]
@@ -138,10 +139,10 @@
       }
     },
     "page5": {
-      "pageNumber": 5,
-      "elements": {
-        "text": "不動産・銀行・テレビ出版業界の説明",
-        "details": {
+      "role": "業界詳細4",
+      "section": "mainContent",
+      "content": {
+        "industries": {
           "不動産": {
             "向いている人": ["プレッシャーに耐えられる人", "人と接するのが好きな人", "お金をたくさん稼ぎたい人"],
             "代表企業": ["大和ハウス", "東京建物", "大東建託", "一条工務店"]
@@ -155,20 +156,6 @@
             "代表企業": ["日テレ", "フジテレビ", "講談社", "光文社"]
           }
         }
-      }
-    },
-    "page6": {
-      "pageNumber": 6,
-      "elements": {
-        "text": "1保存するとあとで見返せます!! タップ→ここへ",
-        "visualElements": "手書き風の文字とイラスト、赤いアクセント"
-      }
-    },
-    "page7": {
-      "pageNumber": 7,
-      "elements": {
-        "text": "いいね！今後に役に立った！と思ってもらえたら... イラストを2回タップしてね いつもありがとうございます！",
-        "visualElements": "手書き風の文字、ハートマーク、笑顔のイラスト"
       }
     }
   }

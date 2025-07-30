@@ -54,52 +54,72 @@
   ],
   "marketingStage": "データ収集業務を効率化したい営業・マーケティング・調査担当者",
   "knowledgeId": "K099",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-02-dual-section",
   "actualTitle": "Webサイトからのデータの自動収集にコーディングは不要です。",
   "pageCount": 7,
-  "hashTag": "なし（Xの投稿形式のため）",
   "detailedContent": {
     "page1": {
       "role": "hook-problem-statement",
-      "content": "問題提起とソリューション紹介",
-      "text": "Webサイトからのデータの自動収集にコーディングは不要です。テキストで指示するだけで、AIがウェブサイトの情報を根こそぎ収集してくれるChrome拡張機能「Chat4data」が登場しました。",
-      "layout": "x-post-format"
+      "section": "introduction",
+      "content": {
+        "description": "問題提起とソリューション紹介",
+        "text": "Webサイトからのデータの自動収集にコーディングは不要です。テキストで指示するだけで、AIがウェブサイトの情報を根こそぎ収集してくれるChrome拡張機能「Chat4data」が登場しました。",
+        "layout": "x-post-format"
+      }
     },
     "page2": {
       "role": "feature-demo-1",
-      "content": "自然言語でのデータ収集デモ",
-      "text": "1. 自然言語でデータ収集「このサイトにある製品名と価格、画像のURLをリストアップして」のように、欲しいデータをテキストで指示するだけ。AIが自動で情報を抽出してくれます。",
-      "layout": "demo-video-with-explanation"
+      "section": "mainContent",
+      "content": {
+        "description": "自然言語でのデータ収集デモ",
+        "text": "1. 自然言語でデータ収集「このサイトにある製品名と価格、画像のURLをリストアップして」のように、欲しいデータをテキストで指示するだけ。AIが自動で情報を抽出してくれます。",
+        "layout": "demo-video-with-explanation"
+      }
     },
     "page3": {
       "role": "feature-demo-2",
-      "content": "複数ページ対応デモ",
-      "text": "2. ページを複数跨いで自動で情報収集「次のページへ」ボタンのクリックや無限スクロールなど、複数ページにまたがるデータも「50ページ分スクレイピングして」といった指示で自動対応してくれます。",
-      "layout": "multi-page-demo-video"
+      "section": "mainContent",
+      "content": {
+        "description": "複数ページ対応デモ",
+        "text": "2. ページを複数跨いで自動で情報収集「次のページへ」ボタンのクリックや無限スクロールなど、複数ページにまたがるデータも「50ページ分スクレイピングして」といった指示で自動対応してくれます。",
+        "layout": "multi-page-demo-video"
+      }
     },
     "page4": {
       "role": "feature-demo-3",
-      "content": "簡単セットアップデモ",
-      "text": "3. セットアップや外部ツール不要で簡単に利用可能 セットアップや外部のAPIは不要でこのツール一つで全てが完結します。",
-      "layout": "setup-demo-video"
+      "section": "mainContent",
+      "content": {
+        "description": "簡単セットアップデモ",
+        "text": "3. セットアップや外部ツール不要で簡単に利用可能 セットアップや外部のAPIは不要でこのツール一つで全てが完結します。",
+        "layout": "setup-demo-video"
+      }
     },
     "page5": {
       "role": "feature-demo-4",
-      "content": "データ選択・カスタマイズデモ",
-      "text": "4. 欲しいデータを自分で選択して収集 取得したデータから不要な項目を削除したり、列名を変更したり、特定の箇所だけを抽出したりと、欲しいデータだけを正確に手に入れられます。",
-      "layout": "customization-demo-video"
+      "section": "mainContent",
+      "content": {
+        "description": "データ選択・カスタマイズデモ",
+        "text": "4. 欲しいデータを自分で選択して収集 取得したデータから不要な項目を削除したり、列名を変更したり、特定の箇所だけを抽出したりと、欲しいデータだけを正確に手に入れられます。",
+        "layout": "customization-demo-video"
+      }
     },
     "page6": {
       "role": "feature-demo-5",
-      "content": "多様なデータ対応デモ",
-      "text": "5. 画像やファイルも収集可能 テキスト情報だけでなく、画像、動画、ファイルのリンク、メールアドレスなどの連絡先情報も収集可能。ECサイトの商品情報収集やコンテンツライブラリ作成に便利です。",
-      "layout": "media-collection-demo"
+      "section": "mainContent",
+      "content": {
+        "description": "多様なデータ対応デモ",
+        "text": "5. 画像やファイルも収集可能 テキスト情報だけでなく、画像、動画、ファイルのリンク、メールアドレスなどの連絡先情報も収集可能。ECサイトの商品情報収集やコンテンツライブラリ作成に便利です。",
+        "layout": "media-collection-demo"
+      }
     },
     "page7": {
       "role": "cost-and-conclusion",
-      "content": "コストパフォーマンスと総括",
-      "text": "6. 圧倒的なコストパフォーマンス サイトの分析は初回のみで、ページごとに課金されないトークンベースの料金体系。無料で100万トークン使え、その後は100万トークンあたり$1と格安です。今までエンジニアに依頼していたようなデータ収集作業が、誰でもブラウザ上で完結する時代になりました。",
-      "layout": "cost-summary-with-conclusion"
+      "section": "summary",
+      "content": {
+        "description": "コストパフォーマンスと総括",
+        "text": "6. 圧倒的なコストパフォーマンス サイトの分析は初回のみで、ページごとに課金されないトークンベースの料金体系。無料で100万トークン使え、その後は100万トークンあたり$1と格安です。今までエンジニアに依頼していたようなデータ収集作業が、誰でもブラウザ上で完結する時代になりました。",
+        "layout": "cost-summary-with-conclusion"
+      }
     }
   }
 }

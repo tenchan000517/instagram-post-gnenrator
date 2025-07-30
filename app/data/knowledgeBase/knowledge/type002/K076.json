@@ -49,21 +49,11 @@
   "knowledgeId": "K076",
   "pageStructurePattern": "",
   "actualTitle": "【AI使って差をつける！】最新AI活用術 就活編",
-  "pageCount": 10,
-  "hashTag": "#北海道大学 #北大 #春から北大 #春から大学生 #26卒 #27卒 #26卒と繋がりたい #カフェ #wifiカフェ #無料カフェ #就活支援 #pluginlab #ai #ai活用術 #chatgpt #就活",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "タイトルページ",
-      "elements": {
-        "title": "【AI使って差をつける！】最新AI活用術 就活編",
-        "backgroundImage": "青いグラデーション背景",
-        "profileArea": "円形プロフィール画像（はると）+ 検索・資料・更新のアイコン",
-        "footer": "plugin lab Hokkaido University",
-        "pageIndicator": "1/10"
-      }
-    },
-    "page2": {
       "role": "導入・問題提起",
+      "section": "introduction",
       "elements": {
         "header": "▶ はじめに",
         "problemStatement": "就活、忙しすぎない…？",
@@ -72,8 +62,9 @@
         "benefitTags": ["⚡実践的", "✅今すぐ使える", "⭐差がつく"]
       }
     },
-    "page3": {
+    "page2": {
       "role": "活用術1の説明",
+      "section": "mainContent",
       "elements": {
         "title": "💡 活用術1",
         "subtitle": "\"エリート就活生バージョン\"の自分をつくる",
@@ -85,8 +76,9 @@
         ]
       }
     },
-    "page4": {
+    "page3": {
       "role": "活用術1の詳細・コツ",
+      "section": "mainContent",
       "elements": {
         "title": "💡 活用術1（つづき）",
         "subtitle": "もっと効果的な活用のコツ",
@@ -104,8 +96,9 @@
         }
       }
     },
-    "page5": {
+    "page4": {
       "role": "活用術2の説明",
+      "section": "mainContent",
       "elements": {
         "title": "🔍 活用術2",
         "subtitle": "企業や業界の情報収集を短時間で",
@@ -130,8 +123,9 @@
         }
       }
     },
-    "page6": {
+    "page5": {
       "role": "活用術2の応用・効率化",
+      "section": "mainContent",
       "elements": {
         "title": "🔍 活用術2（つづき）",
         "subtitle": "情報収集をもっと効率的に（応用編）",
@@ -157,8 +151,9 @@
         ]
       }
     },
-    "page7": {
+    "page6": {
       "role": "活用術3の説明",
+      "section": "mainContent",
       "elements": {
         "title": "💬 活用術3",
         "subtitle": "いつでも練習できる\"AI面接官\"",
@@ -184,8 +179,9 @@
         "tip": "💡Tips：「採用面接官のロールプレイをしてください」と指示するとより本番に近い形で練習できます"
       }
     },
-    "page8": {
+    "page7": {
       "role": "活用術3の応用・コツ",
+      "section": "mainContent",
       "elements": {
         "title": "💬 活用術3（つづき）",
         "subtitle": "人相手とAI相手の\"いいとこ取り\"がおすすめ",
@@ -219,8 +215,9 @@
         "tip": "💡Tips：面接練習後は「私の回答のここをもっと改善するには？」と聞くと、より具体的なアドバイスが得られます！"
       }
     },
-    "page9": {
+    "page8": {
       "role": "まとめ・心得",
+      "section": "summary",
       "elements": {
         "title": "🏁 最後に",
         "subtitle": "AI活用の心得",
@@ -244,20 +241,6 @@
           }
         ],
         "cta": "AI × 就活で、あなたらしさを最大限に活かそう。AIを味方につけて、効率的かつ効果的な就職活動を！"
-      }
-    },
-    "page10": {
-      "role": "プロフィール・場所情報",
-      "elements": {
-        "backgroundImage": "カフェの外観写真",
-        "profileInfo": "pluginlab.hokkaido",
-        "locationDetails": {
-          "businessHours": "営業時間（平日のみ）12:00-20:00",
-          "facilities": ["Freeドリンク", "Wi-Fi", "電源", "本・雑誌"],
-          "services": ["会員登録無料", "自習やミーティング、団体利用など色々な目的で使える"],
-          "access": "北海道札幌市北区北12条西4丁目1-20 ルーチェエルム 1F北12条駅から徒歩30秒 北大北13条門から徒歩3分"
-        },
-        "hashtags": "#北海道大学 #北大 #春から北大 #春から大学生 #26卒 #27卒 #26卒と繋がりたい #カフェ #wifiカフェ #無料カフェ #就活支援 #pluginlab #ai #ai活用術 #chatgpt #就活"
       }
     }
   }

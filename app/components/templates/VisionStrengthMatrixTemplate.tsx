@@ -10,7 +10,7 @@ export function VisionStrengthMatrixTemplate({ data }: VisionStrengthMatrixTempl
   
   // content配列からマトリックス情報を解析
   const parseContent = () => {
-    const parsed = { pairs: [], mainText: '' };
+    const parsed = { pairs: [] as { left: string; right: string }[], mainText: '' };
     
     contentArray.forEach((content: string) => {
       // × マークで対応関係を表現している場合

@@ -2,7 +2,7 @@
   "source": "contents-077",
   "problemCategory": "コミュニケーション・面接",
   "problemDescription": "面接官にコミュニケーション力が高いと思われる方法が分からない、面接での印象向上を図りたい",
-  "postType": "003",
+  "postType": "002",
   "postTypeReason": "コミュニケーション力向上のための具体的な知識・情報の習得を目的とした投稿のため",
   "solutionContent": {
     "概要": "面接官にコミュニケーション力が高いと思われる2つのポイントを解説",
@@ -49,22 +49,12 @@
   "knowledgeId": "K077",
   "pageStructurePattern": "",
   "actualTitle": "元人事が聞いた！面接官にコミュ力が高いと思われる2つのポイント",
-  "pageCount": 10,
-  "hashTag": "#ミラベル #miravel #AI就活 #就活 #就活中 #22卒 #23卒 #就活生と繋がりたい #就活生 #就活情報 #就活ノート #面接対策 #ES対策",
+  "pageCount": 7,
   "detailedContent": {
     "page1": {
-      "role": "タイトルページ",
-      "elements": {
-        "tag": "元人事が聞いた！",
-        "title": "面接官にコミュ力が高いと思われる2つのポイント",
-        "backgroundPattern": "紫-ピンクグラデーション + 格子パターン",
-        "swipePrompt": "SWIPE >>",
-        "pageIndicator": "1/10"
-      }
-    },
-    "page2": {
       "role": "コミュニケーション定義・問題提起",
-      "elements": {
+      "section": "introduction",
+      "content": {
         "icon": "💬もやもや",
         "title": "コミュニケーションって何？",
         "definition": "コミュニケーションの語源はラテン語のコムニス（communis）と言われており、その意味は「分かち合うこと、共有すること」です。",
@@ -81,9 +71,10 @@
         "navigationButton": "NEXT>>"
       }
     },
-    "page3": {
+    "page2": {
       "role": "コミュニケーション力の社会人定義",
-      "elements": {
+      "section": "introduction",
+      "content": {
         "icon": "💬もやもや",
         "title": "コミュニケーションって何？",
         "introduction": "前のページを踏まえ、社会人に必要なコミュニケーション力を定義するならば、",
@@ -98,9 +89,10 @@
         "navigationButton": "NEXT>>"
       }
     },
-    "page4": {
+    "page3": {
       "role": "ポイント1の説明",
-      "elements": {
+      "section": "mainContent",
+      "content": {
         "pointNumber": "POINT 01",
         "title": "相手に合わせた話し方ができる",
         "subtitle": "相手に合わせて話ができる＝「年齢や立場が違う人に対してもわかりやすく説明できること」",
@@ -115,9 +107,10 @@
         "note": "仲の良い友人であれば通用する言葉や考え方が、年齢や性別の違う面接官には通用しないこともあります。それが分かった上で、相手と言葉の前提を揃えたり、例を交えながら話ができる人は面接において「コミュ力が高い」と感じます。"
       }
     },
-    "page5": {
+    "page4": {
       "role": "ポイント1の具体例",
-      "elements": {
+      "section": "mainContent",
+      "content": {
         "pointNumber": "POINT 01",
         "title": "具体的にどんな対策をすればいいの？",
         "subtitle": "以下の例を参考にしてみよう",
@@ -134,9 +127,10 @@
         "lesson": "このように、意外と相手には伝わっていません。一方的に話すのではなく、面接でも相手の理解度を確認しながら、意思疎通をはかってください。"
       }
     },
-    "page6": {
+    "page5": {
       "role": "ポイント2の説明",
-      "elements": {
+      "section": "mainContent",
+      "content": {
         "pointNumber": "POINT 02",
         "title": "社会人になっても活かせそうな「コミュ力エピソード」を話す",
         "introduction": "前ページにある「説明力」がいくら高くても、仕事に役立ちそうな「コミュニケーション力を生かした経験」を話せないと評価されません。",
@@ -150,9 +144,10 @@
         "emphasis": "特に好きだからコミュ力を発揮できました！という話よりも、「やらなければいけなかった・やりたくなかった」エピソードの方が仕事という場面においては想像しやすいと思います。"
       }
     },
-    "page7": {
+    "page6": {
       "role": "ポイント2の具体例",
-      "elements": {
+      "section": "mainContent",
+      "content": {
         "pointNumber": "POINT 02",
         "title": "具体的には？",
         "badExample": {
@@ -172,9 +167,10 @@
         "note": "会社に入ってからも、取引先や社内のメンバーともうまくコミュニケーションがとれそう！"
       }
     },
-    "page8": {
+    "page7": {
       "role": "まとめ",
-      "elements": {
+      "section": "summary",
+      "content": {
         "title": "まとめ",
         "subtitle": "コミュ力をアピールするポイント",
         "points": [
@@ -183,28 +179,6 @@
         ],
         "conclusion": "この2点を意識するとGood!",
         "characters": "喜んでいる男女2人のイラスト"
-      }
-    },
-    "page9": {
-      "role": "エンゲージメント・CTA",
-      "elements": {
-        "message": "いいね❤️とフォローお願いします！",
-        "logo": "MIRAVEL（Mロゴ）",
-        "cta": "自分に合った企業を知りたい就活生は、プロフィール欄のURLをチェック！",
-        "savePrompt": "保存はこちら（保存アイコン）"
-      }
-    },
-    "page10": {
-      "role": "プロフィール・ハッシュタグ",
-      "elements": {
-        "backgroundDesign": "グレー背景にカラフルな丸いドット",
-        "profile": "morevision_miravel",
-        "caption": "今回は、面接官に「コミュ力が高い！」と思われるために大事な2つのポイントをご紹介しました🤗✨",
-        "encouragement": "就活レベルがUPすること間違いなし💪",
-        "request": "ぜひ参考にしてみてくださいね！",
-        "ctaMessage": "自分に合った企業を知りたい方は、@miravel_morevisionのプロフィールにあるURLをチェック💡",
-        "hashtags": "#ミラベル #miravel #AI就活 #就活 #就活中 #22卒 #23卒 #就活生と繋がりたい #就活生 #就活情報 #就活ノート #面接対策 #ES対策",
-        "date": "2021年1月21日"
       }
     }
   }

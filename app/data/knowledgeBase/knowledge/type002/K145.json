@@ -74,9 +74,7 @@
   ],
   "marketingStage": "キャリア構築・自己実現段階（仕事観・キャリア設計を求める時期）",
   "knowledgeId": "K145",
-  "targetIds": ["T007", "T009", "T010"],
-  "targetReason": "キャリア構築・仕事観の思考スキルは就活でのキャリア設計・社会人のスキルアップとして就活生・女性・男性すべてに共通して必要なスキル",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "",
   "actualTitle": "知る人ぞ知る！好きを仕事にする思考術",
   "pageCount": 8,
   "detailedContent": {

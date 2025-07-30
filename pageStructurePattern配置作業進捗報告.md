@@ -159,16 +159,16 @@
 - [x] K107.json - unified-template-07-item-list (2025-07-30)
 - [x] K109.json - unified-template-07-item-list (2025-07-30)
 - [x] K113.json - unified-template-04-item-grid (2025-07-30)
-- [ ] K116.json
-- [ ] K136.json
-- [ ] K146.json
-- [ ] K153.json
-- [ ] K155.json
-- [ ] K158.json
-- [ ] K168.json
-- [ ] K172.json
-- [ ] K178.json
-- [ ] K185.json
+- [x] K116.json - unified-template-07-item-list (2025-07-30)
+- [x] K136.json - unified-template-05-comparison (2025-07-30)
+- [x] K146.json - unified-template-02-dual-section (2025-07-30)
+- [x] K153.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K155.json - unified-template-07-item-list (2025-07-30)
+- [x] K158.json - unified-template-07-item-list (2025-07-30)
+- [x] K168.json - unified-template-07-item-list (2025-07-30)
+- [x] K172.json - unified-template-04-item-grid (2025-07-30)
+- [x] K178.json - unified-template-07-item-list (2025-07-30)
+- [x] K185.json - unified-template-05-comparison (2025-07-30)
 
 ## 使用可能Unifiedテンプレート一覧
 

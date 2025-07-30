@@ -4,8 +4,6 @@
   "problemDescription": "勉強したほうがいいとわかっているけれどやる気が出ない・時間がムダになってしまう",
   "postType": "002",
   "postTypeReason": "時間を効率的に使うための10個の実践的なNG習慣改善方法を並列的に紹介する実践的ノウハウ伝授型コンテンツ",
-  "targetIds": ["T009", "T010"],
-  "targetReason": "時間管理と効率化のスキルは性別を問わない汎用的なスキルアップニーズで、女性・男性両方に該当する",
   "solutionContent": {
     "概要": "時間がムダになる10個のNG習慣とその改善方法を具体的なNG/GOOD例とともに紹介",
     "具体的手順": [
@@ -74,7 +72,7 @@
   ],
   "marketingStage": "自己改善・スキルアップ段階（時間管理改善時期）",
   "knowledgeId": "K152",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "",
   "actualTitle": "今すぐやめて！時間のムダNG習慣",
   "pageCount": 7,
   "detailedContent": {

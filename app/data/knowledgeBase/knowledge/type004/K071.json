@@ -44,130 +44,92 @@
   ],
   "marketingStage": "ビジネスパーソン・学習者・AIツール初心者",
   "knowledgeId": "K071",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-05-comparison",
   "actualTitle": "2020年と2025年のツール比較",
   "pageCount": 7,
-  "hashTag": "",
   "detailedContent": {
     "page1": {
-      "role": "ツール進化の導入と問題提起",
-      "layout": "左右分割比較レイアウト",
-      "content": {
-        "header": "2020年 vs 2025年のヘッダー表示",
-        "leftSide": {
-          "tool": "Wikipedia",
-          "toolIcon": "Wikipediaロゴ",
-          "year": "2020年",
-          "character": "困った表情のキャラクター"
-        },
-        "rightSide": {
-          "tool": "Gemini", 
-          "toolIcon": "Geminiロゴ",
-          "year": "2025年",
-          "character": "満足した表情のキャラクター"
-        }
+      "section": "introduction",
+      "title": "情報収集ツールの進化",
+      "leftSide": {
+        "title": "2020年",
+        "content": "Wikipedia\n百科事典形式の情報収集\n調べたい内容をキーワード検索\n情報の信頼性を自分で判断"
+      },
+      "rightSide": {
+        "title": "2025年",
+        "content": "Gemini\nAI対話形式で質問可能\n複雑な質問も自然言語で\n情報の整理と要約まで自動化"
       }
     },
     "page2": {
-      "role": "プレゼンテーション系ツール比較",
-      "layout": "左右分割比較レイアウト",
-      "content": {
-        "header": "2020年 vs 2025年のヘッダー表示",
-        "leftSide": {
-          "tool": "パワポ",
-          "toolIcon": "PowerPointロゴ",
-          "year": "2020年"
-        },
-        "rightSide": {
-          "tool": "Genspark",
-          "toolIcon": "Gensparkロゴ", 
-          "year": "2025年"
-        }
+      "section": "mainContent",
+      "title": "プレゼンテーション作成の変化",
+      "leftSide": {
+        "title": "2020年",
+        "content": "PowerPoint\n手動でスライド作成\nデザインテンプレートから選択\n内容構成を自分で考える"
+      },
+      "rightSide": {
+        "title": "2025年",
+        "content": "Genspark\nAIが内容に応じて自動生成\nテーマを伝えるだけで完成\n構成から装飾まで自動最適化"
       }
     },
     "page3": {
-      "role": "文書作成ツール比較",
-      "layout": "左右分割比較レイアウト",
-      "content": {
-        "header": "2020年 vs 2025年のヘッダー表示",
-        "leftSide": {
-          "tool": "ワード",
-          "toolIcon": "Microsoft Wordロゴ",
-          "year": "2020年"
-        },
-        "rightSide": {
-          "tool": "ChatGPT",
-          "toolIcon": "ChatGPTロゴ",
-          "year": "2025年"
-        }
+      "section": "mainContent",
+      "title": "文書作成効率の向上",
+      "leftSide": {
+        "title": "2020年",
+        "content": "Microsoft Word\n白紙から文章を作成\n文法チェックは基本機能のみ\n構成や表現は自分で工夫"
+      },
+      "rightSide": {
+        "title": "2025年",
+        "content": "ChatGPT\n要点を伝えるだけで文章生成\n目的に応じた文体調整\n推敲や改善提案も自動"
       }
     },
     "page4": {
-      "role": "表計算ツール比較",
-      "layout": "左右分割比較レイアウト",
-      "content": {
-        "header": "2020年 vs 2025年のヘッダー表示",
-        "leftSide": {
-          "tool": "Excel",
-          "toolIcon": "Microsoft Excelロゴ",
-          "year": "2020年"
-        },
-        "rightSide": {
-          "tool": "Copilot",
-          "toolIcon": "Copilotロゴ",
-          "year": "2025年"
-        }
+      "section": "mainContent",
+      "title": "データ処理能力の拡張",
+      "leftSide": {
+        "title": "2020年",
+        "content": "Microsoft Excel\n手動での数式作成\n基本的な集計・分析機能\nマクロは専門知識が必要"
+      },
+      "rightSide": {
+        "title": "2025年",
+        "content": "Copilot\n自然言語でデータ分析指示\n複雑な処理も対話で実現\nグラフ作成や洞察提供まで自動"
       }
     },
     "page5": {
-      "role": "検索ツール比較",
-      "layout": "左右分割比較レイアウト",
-      "content": {
-        "header": "2020年 vs 2025年のヘッダー表示",
-        "leftSide": {
-          "tool": "Google検索",
-          "toolIcon": "Googleロゴ",
-          "year": "2020年"
-        },
-        "rightSide": {
-          "tool": "Perplexity",
-          "toolIcon": "Perplexityロゴ",
-          "year": "2025年"
-        }
+      "section": "mainContent",
+      "title": "検索体験の革新",
+      "leftSide": {
+        "title": "2020年",
+        "content": "Google検索\nキーワードベースの検索\n検索結果から手動で情報選別\n複数サイトを確認して判断"
+      },
+      "rightSide": {
+        "title": "2025年",
+        "content": "Perplexity\n質問形式で直接回答取得\n信頼できるソースから自動要約\n追加質問で深掘り可能"
       }
     },
     "page6": {
-      "role": "デザイン・編集ツール比較",
-      "layout": "左右分割比較レイアウト",
-      "content": {
-        "header": "2020年 vs 2025年のヘッダー表示",
-        "leftSide": {
-          "tool": "Adobe",
-          "toolIcon": "Adobeロゴ",
-          "year": "2020年"
-        },
-        "rightSide": {
-          "tool": "NotebookLM",
-          "toolIcon": "NotebookLMロゴ",
-          "year": "2025年"
-        }
+      "section": "mainContent",
+      "title": "デザイン作業の民主化",
+      "leftSide": {
+        "title": "2020年",
+        "content": "Adobe Creative Suite\n専門スキルが必要\n高度な機能だが学習コスト大\nプロ向けの複雑なインターフェース"
+      },
+      "rightSide": {
+        "title": "2025年",
+        "content": "NotebookLM\nテキストから画像やデザイン生成\n直感的な操作で高品質な成果物\n専門知識不要で創作活動が可能"
       }
     },
     "page7": {
-      "role": "翻訳ツール比較",
-      "layout": "左右分割比較レイアウト",
-      "content": {
-        "header": "2020年 vs 2025年のヘッダー表示",
-        "leftSide": {
-          "tool": "Google翻訳",
-          "toolIcon": "Google翻訳ロゴ",
-          "year": "2020年"
-        },
-        "rightSide": {
-          "tool": "DeepL",
-          "toolIcon": "DeepLロゴ",
-          "year": "2025年"
-        }
+      "section": "mainContent",
+      "title": "翻訳精度の飛躍的向上",
+      "leftSide": {
+        "title": "2020年",
+        "content": "Google翻訳\n単語や文単位の翻訳\n文脈を考慮しない直訳傾向\n自然さに欠ける表現"
+      },
+      "rightSide": {
+        "title": "2025年",
+        "content": "DeepL\n文脈を理解した高精度翻訳\nニュアンスや専門用語も的確\n人間らしい自然な表現"
       }
     }
   }

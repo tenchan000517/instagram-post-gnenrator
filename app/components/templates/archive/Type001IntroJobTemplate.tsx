@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckSquare } from 'lucide-react';
-import { TemplateMetadata } from './TemplateTypes';
+import { TemplateMetadata } from '../TemplateTypes';
 
 interface Type001IntroJobTemplateProps {
   data: {

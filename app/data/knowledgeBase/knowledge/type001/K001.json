@@ -52,10 +52,9 @@
   ],
   "marketingStage": "働く女性の日常的な困りごとに共感を求める段階。感情的なつながりと「私だけじゃない」という安心感を必要とし、仲間意識を通じて前向きなエネルギーを得たい層",
   "knowledgeId": "K001",
-  "pageStructurePattern": "typeID001-emotion-empathy-list",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "働く女性の理不尽あるある７選〜私たちは一人じゃない〜",
   "pageCount": 8,
-  "hashTag": "働く女性あるある #共感 #理不尽",
   "detailedContent": {
     "page1": {
       "role": "導入・共感誘発",
@@ -89,7 +88,6 @@
       "innerVoice": "（隣にいる男性社員、スマホいじってるけど？？）",
       "emotionalExpression": "そんな時の心の叫び: 『それ、女性限定の仕事ですか？』",
       "communityMessage": "みんなも思ったことあるよね...?",
-      "pageIndicator": "2/8",
       "empathyLevel": "high"
     },
     "page3": {
@@ -106,7 +104,6 @@
       "innerVoice": "（私だって好きで体調崩してるわけじゃないのに...）",
       "emotionalExpression": "女性の体って、本当に複雑で大変",
       "empathyMessage": "みんなも我慢しながら頑張ってる...辛いよね",
-      "pageIndicator": "3/8",
       "illustration": "体調不良でも頑張る女性イラスト",
       "empathyLevel": "high"
     },
@@ -124,7 +121,6 @@
       "innerVoice": "（なんでこんなに選択しなきゃいけないの？）",
       "emotionalExpression": "答えのない道で、一人で迷うしかないのが辛い",
       "empathyMessage": "みんなの未来への不安、よくわかる...",
-      "pageIndicator": "4/8",
       "illustration": "板挟みする女性イラスト",
       "empathyLevel": "high"
     },
@@ -142,7 +138,6 @@
       "innerVoice": "（それって....あなたに関係ありますか？）",
       "emotionalExpression": "決めるのは私です。そっとしておいてください。",
       "empathyMessage": "みんなもこんな質問攻撃、経験あるでしょ？",
-      "pageIndicator": "5/8",
       "illustration": "プレッシャーを感じる女性イラスト",
       "empathyLevel": "high"
     },
@@ -160,7 +155,7 @@
       "innerVoice": "（一体いつ休めばいいの...？）",
       "emotionalExpression": "想像してたよりも、ずっと大変だった",
       "empathyMessage": "ワーキングママの皆さん、本当にお疲れ様...",
-      "pageIndicator": "6/8", 
+ 
       "illustration": "疲れ切ったワーキングママイラスト",
       "empathyLevel": "high"
     },
@@ -178,7 +173,6 @@
       "innerVoice": "（頑張っても、結局ガラスの天井があるのかな...）",
       "emotionalExpression": "仕事は好き、続けたい、でも道筋が見えないもどかしさ",
       "empathyMessage": "同じように感じてる人、きっとたくさんいるよね...",
-      "pageIndicator": "7/8",
       "illustration": "見えない壁を感じる女性イラスト",
       "empathyLevel": "high"
     },
@@ -211,7 +205,7 @@
         "bridgeToAction": "共感から、今度は実践へ。一緒に解決策を見つけませんか？",
         "nextStepInvitation": "『女性が困らない働き方のヒント7選』で、具体的な一歩を踏み出しましょう"
       },
-      "pageIndicator": "8/8",  
+  
       "illustration": "涙から希望へ転換する女性イラスト",
       "empathyLevel": "climax",
       "transitionLevel": "high"

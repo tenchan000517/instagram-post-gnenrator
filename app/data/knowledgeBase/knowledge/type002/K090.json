@@ -1,78 +1,128 @@
 {
-  "id": "K090",
-  "title": "面接官に正確性が高いと思われる2つのポイント",
-  "description": "面接で正確性をアピールするための具体的な方法を2つのポイントで解説する実践的就活アドバイス投稿",
-  "category": "面接対策",
-  "tags": ["面接対策", "正確性アピール", "就活アドバイス", "自己PR", "面接テクニック", "就活スキル"],
-  "structure": {
-    "type": "practical_advice_guide",
-    "format": "carousel",
-    "pages": 7,
-    "flow": "cover → definition → context → point_1 → point_2 → self_check → summary_cta"
-  },
-  "content_analysis": {
-    "practical_value": "immediately_applicable_interview_techniques",
-    "learning_structure": "definition_to_application_progression",
-    "specificity": "concrete_examples_and_scenarios",
-    "self_assessment": "built_in_checklist_evaluation"
-  },
-  "visual_elements": {
-    "color_scheme": "purple_to_pink_gradient_consistent",
-    "layout_style": "card_based_organized_text_blocks",
-    "navigation_elements": "clear_next_page_indicators",
-    "brand_integration": "miravel_branding_throughout"
-  },
-  "engagement_factors": {
-    "immediate_applicability": "ready_to_use_interview_advice",
-    "self_diagnostic": "personal_accuracy_assessment_checklist",
-    "concrete_examples": "real_workplace_scenarios",
-    "follow_conversion": "profile_url_and_account_promotion"
-  },
-  "posting_context": {
-    "account": "morevision_miravel",
-    "brand": "MiRAVEL",
-    "service_focus": "就活アドバイス",
-    "post_date": "2021年5月19日",
-    "target_generation": "22卒_23卒"
-  },
-  "advice_content": {
-    "accuracy_definition": "細かいところにまで気を配り、ミスなく作業を進めること",
-    "workplace_relevance": {
-      "critical_industries": ["医療", "食品", "金融"],
-      "relevant_positions": ["事務", "経理職", "エンジニア"]
-    },
-    "point_1": {
-      "title": "正確性を発揮し、成果をあげた経験を話す",
-      "strategy": "正確性の高さをアピールするためには、正確性を発揮し、成果をあげた経験を話すことが大切",
-      "key_element": "周りの人と比べてどのくらい正確だったのか（ミスが少なかったのか）ということをなるべく具体的に話せることが重要",
-      "example": "インターン先での同僚は基本的に週に何度かミスをするのですが、私は一度もミスをしない月もあり、他の人と比べて多くのプロジェクトを抱える等、信頼を置かれています。"
-    },
-    "point_2": {
-      "title": "仕事に対する向き合い方や責任感を話す",
-      "strategy": "仕事に対する向き合い方や責任感の強さなども合わせて伝えることができれば、より説得力が増します",
-      "reasoning_focus": "自分が他の人よりもミスが少ない理由を深掘りすることで浮かび上がってきます",
-      "example_questions": [
-        "なぜ私はミスが少ないのか？",
-        "仕事に取り掛かる前に分からないことは必ず確認するから",
-        "最終チェックができるように確認作業を行う日をもうけているから",
-        "なぜそこまでやるのか？",
-        "チームで仕事をする以上、周りに迷惑をかけたくないから",
-        "1つのミスで積み重ねた信頼を失うことになるから"
-      ],
-      "outcome": "間接的に、チームへの貢献意識の高さや責任感の強さが分かります"
-    },
-    "self_assessment_checklist": [
-      "正確性を発揮した経験はあるか？",
-      "また、成果をあげた経験はあるか？", 
-      "周りに正確だといわれるか？"
+  "source": "contents-090",
+  "problemCategory": "面接対策",
+  "problemDescription": "面接で正確性をアピールする方法が分からない、正確性の高さを面接官に伝える具体的なテクニックを知りたい",
+  "postType": "002",
+  "postTypeReason": "正確性アピールのための2つの具体的方法を体系的に解説する実践的ノウハウ伝授型コンテンツ",
+  "solutionContent": {
+    "概要": "面接官に正確性が高いと思われる2つのポイントを解説",
+    "具体的手順": [
+      "ポイント1: 正確性を発揮し、成果をあげた経験を話す",
+      "ポイント2: 仕事に対する向き合い方や責任感を話す"
+    ],
+    "提供情報": [
+      "正確性の定義（細かいところにまで気を配り、ミスなく作業を進めること）",
+      "正確性が重要な業界・職種（医療、食品、金融、事務、経理職、エンジニア）",
+      "具体的なアピール方法と実例",
+      "セルフチェック項目"
+    ],
+    "実用的なアドバイス": [
+      "周りの人と比べてどのくらい正確だったかを具体的に話す",
+      "ミスが少ない理由を深掘りして責任感をアピール",
+      "チームへの貢献意識を間接的に伝える",
+      "信頼関係構築につながるエピソードを用意する"
     ]
   },
-  "postType": "002",
-  "content_effectiveness": {
-    "practical_applicability": 9,
-    "structural_clarity": 8,
-    "example_quality": 9,
-    "actionability": 9,
-    "overall_score": 8.75
+  "effectiveExpressions": [
+    "元人事が聞いた！面接官に正確性が高いと思われる2つのポイント",
+    "POINT 01, POINT 02での構造化",
+    "セルフチェック項目での自己診断促進",
+    "具体例を使った説得力のある説明"
+  ],
+  "searchKeywords": [
+    "正確性",
+    "面接対策",
+    "自己PR",
+    "面接テクニック",
+    "就活スキル",
+    "責任感",
+    "信頼性",
+    "ミス防止"
+  ],
+  "emotionalTriggers": [
+    "面接での差別化への期待",
+    "具体的なアピール方法の安心感",
+    "実践的テクニックによる自信向上",
+    "就活成功への意欲"
+  ],
+  "marketingStage": "面接準備中の学生、自己PRに悩んでいる就活生",
+  "knowledgeId": "K090",
+  "pageStructurePattern": "",
+  "actualTitle": "元人事が聞いた！面接官に正確性が高いと思われる2つのポイント",
+  "pageCount": 6,
+  "detailedContent": {
+    "page1": {
+      "role": "正確性の定義・重要性説明",
+      "section": "introduction",
+      "content": {
+        "title": "正確性って何？",
+        "definition": "細かいところにまで気を配り、ミスなく作業を進めること",
+        "importance": "医療、食品、金融などの業界や、事務、経理職、エンジニアなどの職種では特に重要な能力です",
+        "question": "では、面接でどうアピールすれば「正確性が高い！」と思われることができるのでしょうか？"
+      }
+    },
+    "page2": {
+      "role": "ポイント1の説明",
+      "section": "mainContent",
+      "content": {
+        "pointNumber": "POINT 01",
+        "title": "正確性を発揮し、成果をあげた経験を話す",
+        "strategy": "正確性の高さをアピールするためには、正確性を発揮し、成果をあげた経験を話すことが大切",
+        "keyElement": "周りの人と比べてどのくらい正確だったのか（ミスが少なかったのか）ということをなるべく具体的に話せることが重要",
+        "example": "インターン先での同僚は基本的に週に何度かミスをするのですが、私は一度もミスをしない月もあり、他の人と比べて多くのプロジェクトを抱える等、信頼を置かれています。"
+      }
+    },
+    "page3": {
+      "role": "ポイント2の説明",
+      "section": "mainContent",
+      "content": {
+        "pointNumber": "POINT 02",
+        "title": "仕事に対する向き合い方や責任感を話す",
+        "strategy": "仕事に対する向き合い方や責任感の強さなども合わせて伝えることができれば、より説得力が増します",
+        "reasoningFocus": "自分が他の人よりもミスが少ない理由を深掘りすることで浮かび上がってきます",
+        "deepDiveQuestions": [
+          "なぜ私はミスが少ないのか？",
+          "仕事に取り掛かる前に分からないことは必ず確認するから",
+          "最終チェックができるように確認作業を行う日をもうけているから"
+        ]
+      }
+    },
+    "page4": {
+      "role": "ポイント2の深掘り説明",
+      "section": "mainContent", 
+      "content": {
+        "furtherQuestions": [
+          "なぜそこまでやるのか？",
+          "チームで仕事をする以上、周りに迷惑をかけたくないから",
+          "1つのミスで積み重ねた信頼を失うことになるから"
+        ],
+        "outcome": "間接的に、チームへの貢献意識の高さや責任感の強さが分かります"
+      }
+    },
+    "page5": {
+      "role": "セルフチェック",
+      "section": "mainContent",
+      "content": {
+        "title": "セルフチェック",
+        "checklistItems": [
+          "正確性を発揮した経験はあるか？",
+          "また、成果をあげた経験はあるか？",
+          "周りに正確だといわれるか？"
+        ]
+      }
+    },
+    "page6": {
+      "role": "まとめ",
+      "section": "summary",
+      "content": {
+        "title": "まとめ",
+        "subtitle": "正確性をアピールするポイント",
+        "points": [
+          "(1)正確性を発揮し、成果をあげた経験を話す",
+          "(2)仕事に対する向き合い方や責任感を話す"
+        ],
+        "conclusion": "この2点を意識して正確性をアピールしましょう！"
+      }
+    }
   }
 }

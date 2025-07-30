@@ -443,22 +443,38 @@ export class ContentLayoutService {
       ranking: ['ランキング', 'ワースト', 'ベスト', 'トップ'],
       graph: ['グラフ', 'データ', '統計', '分析'],
       // 新テンプレートタイプ
-      sequential_step_learning: ['ステップ', '学習', '順序'],
-      parallel_qa_discussion: ['Q&A', '質問', '回答'],
-      points_list_analysis: ['ポイント', '分析', 'リスト'],
-      timeline_story_experience: ['時系列', 'ストーリー', '体験'],
       feature_parallel_info: ['機能', '並列', '情報'],
       feature_detail_tips: ['詳細', 'Tips', '機能'],
       sequential_dependency: ['Point', 'ポイント', 'ステップ'],
-      category_content_learning: ['カテゴリ', '学習', 'コンテンツ'],
       step_guide_achievement: ['ガイド', '達成', 'ステップ'],
-      method_systematic_info: ['方法論', '体系', '情報'],
-      practical_guide_conversation: ['実践', 'ガイド', '会話'],
-      company_data_list: ['企業', 'データ', 'リスト'],
-      usage_practical_steps: ['使用法', '実践', 'ステップ'],
       failure_episode: ['失敗', 'エピソード', '体験'],
       failure_story_intro: ['失敗', 'ストーリー', '導入'],
-      profile_offer: ['プロフィール', 'オファー', '提案']
+      profile_offer: ['プロフィール', 'オファー', '提案'],
+      // K002用テンプレート
+      basic_intro: ['基本', '導入', '紹介'],
+      achievement_summary: ['達成', 'まとめ', '成果'],
+      // K117用テンプレート
+      ng_good_comparison: ['比較', 'NG/GOOD', '対比'],
+      category_explanation: ['カテゴリ', '説明', '分類'],
+      vision_strength_matrix: ['ビジョン', '強み', 'マトリックス'],
+      // 追加テンプレート
+      dual_enumeration: ['2項目', '上下', '配置'],
+      category_summary: ['カテゴリ', 'サマリー', 'まとめ'],
+      grid_summary: ['グリッド', '一覧', 'まとめ'],
+      tool_feature: ['ツール', '機能', '紹介'],
+      efficiency_tips: ['効率化', 'ヒケツ', 'コツ'],
+      multiple_items_display: ['複数項目', '表示', 'アイテム'],
+      // Unified templates
+      simple_intro: ['シンプル', '導入', '基本'],
+      dual_section: ['2セクション', '上下', '配置'],
+      ranking_display: ['ランキング', '順位', '表示'],
+      item_grid: ['アイテム', 'グリッド', '一覧'],
+      comparison: ['比較', '対比', '検討'],
+      unified_company_detail: ['企業', '詳細', '情報'],
+      item_list: ['アイテム', 'リスト', '一覧'],
+      section_blocks: ['セクション', 'ブロック', '構成'],
+      dynamic_boxes: ['ダイナミック', 'ボックス', '柔軟'],
+      image_point: ['画像', 'ポイント', 'ビジュアル']
     }
 
     const candidates = badgeMap[templateType] || ['ポイント']

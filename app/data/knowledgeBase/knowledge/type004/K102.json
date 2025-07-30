@@ -55,70 +55,65 @@
   ],
   "marketingStage": "フリーランス初心者〜中級者、ツール選びに迷っている人、37歳前後の主婦層",
   "knowledgeId": "K102",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "フリーランス必須ツール10選",
-  "pageCount": 10,
-  "hashTag": "#フリーランス #副業 #主婦副業 #在宅ワーク #アプリ紹介",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "タイトルページ",
-      "content": "37歳フリーランス6年目 フリーランス必須ツール10選 Freelancer",
-      "background": "人物とPC環境の写真",
-      "elements": "スマートフォン、ページ数表示1/9"
-    },
-    "page2": {
       "role": "問題提起・共感",
+      "section": "introduction",
       "content": "フリーランスの皆さん こんなお悩みありませんか？ 安心できるお仕事サイトを探してる、税金や経費の管理が苦手、開業届ってどう出せばいいの？、経費レシートがバラバラで探すのが大変",
       "background": "人物写真（背景ぼかし）",
       "elements": "Question セクション、チェックボックス付きリスト、人物による解説"
     },
-    "page3": {
+    "page2": {
       "role": "お仕事ツール①",
+      "section": "mainContent",
       "content": "ランサーズ - 主婦にも人気の在宅ワーク案件多数、データ入力や記事作成など未経験からでも安心スタート / クラウドワークス - 初めての副業挑戦としてもおすすめのアプリ、スキルに合わせて仕事が探せる、仕事ジャンルは200種類以上",
       "background": "白色半透明カード",
       "elements": "about 01 セクション、各サービスロゴ"
     },
-    "page4": {
+    "page3": {
       "role": "お仕事ツール②",
+      "section": "mainContent",
       "content": "ココナラ - スキルをお金に替えられるアプリ、ジャンル分野は450種類以上も、得意を売って収入に♪ / 複業クラウド - 複業・フリーランス向けの仕事探しにおすすめ、業務委託求人が多数掲載、リモート案件もある",
       "background": "白色半透明カード",
       "elements": "about 02 セクション、各サービスロゴ"
     },
-    "page5": {
+    "page4": {
       "role": "お仕事ツール③",
+      "section": "mainContent",
       "content": "Wantedly - 400万人が「憧い」で仕事探し♪価値観でつながる採用ならWantedly、やりがいのある仕事とマッチ / Workship - フリーランス・複業人材専門のサイト、個人と企業をマッチング、お仕事探しや複業を探している人にも◎",
       "background": "白色半透明カード",
       "elements": "about 03 セクション、各サービスロゴ"
     },
-    "page6": {
+    "page5": {
       "role": "経費会計管理ツール",
+      "section": "mainContent",
       "content": "マネーフォワードME - 支出がひと目で見える化、経費感覚が自然と身につく、家計簿感覚で使えるから操作もカンタンだよ / クラウド会計freee - 帳簿・申告がスマホだけで完結、開業初期の手続きにも対応、経理初心者の方の味方になるアプリ",
       "background": "白色半透明カード",
       "elements": "about 04 セクション、各サービスロゴ"
     },
-    "page7": {
+    "page6": {
       "role": "開業届出ツール",
+      "section": "mainContent",
       "content": "Googleドライブ - 書類やレシートをクラウドで保管、どこでも確認できて便利、これで確定申告の準備もラクになります / freee開業 - 開業届がスマホで出せる、質問に答えるだけでOK、これを使って時間も手間もグッと削減できたよ",
       "background": "白色半透明カード",
       "elements": "about 05 セクション、各サービスロゴ"
     },
-    "page8": {
+    "page7": {
       "role": "まとめ・一覧表示",
+      "section": "mainContent",
       "content": "お仕事・会計ツールまとめ - 全10ツールのロゴ一覧表示、家事と仕事の効率化ツールはこの投稿で紹介してるよ",
       "background": "白色半透明カード",
       "elements": "Summary セクション、全ツールロゴ一覧、Pick!マーク、関連投稿への誘導"
     },
-    "page9": {
-      "role": "自己紹介・実績アピール",
+    "page8": {
+      "role": "まとめ・感謝",
+      "section": "summary",
       "content": "THANK YOU! なお 37歳2児のママ、仕事も子育ても在宅ワークで二刀流、私ってこんなことできるんだ...、スキル0から収入UPのコツを発信",
       "background": "白色",
       "elements": "人物写真、実績紹介画像3枚、いいねボタン誘導"
-    },
-    "page10": {
-      "role": "キャプション・プロフィール",
-      "content": "投稿の詳細説明、自己紹介、ハッシュタグ",
-      "background": "白色",
-      "elements": "テキスト詳細、プロフィール情報、ハッシュタグ"
     }
   }
 }

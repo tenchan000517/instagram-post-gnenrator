@@ -20,13 +20,7 @@ export default function TestSinglePage() {
       // K115.jsonを読み込み (既存システムと同じ動的インポート)
       const module = await import(`../data/knowledgeBase/knowledge/type001/K115.json`)
       const k115Data = module.default || module
-      
-      console.log('='.repeat(50))
-      console.log(`🧪 K115 Page${pageNumber} テスト開始`)
-      console.log('='.repeat(50))
-      console.log('K115データ:', k115Data)
-      console.log(`ページ${pageNumber}の構造:`, k115Data.detailedContent[`page${pageNumber}`])
-      
+
       // 本番と同じフロー：ContentGeneratorServiceを使用
       const contentGenerator = new ContentGeneratorService()
       const generatedContent = await contentGenerator.generateHighQualityContent("副業や複業で失敗続きで何をすれば良いかわからない", {
@@ -55,8 +49,8 @@ export default function TestSinglePage() {
       console.log('🔍 Pageのcontent詳細:', JSON.stringify(pageStructure?.content, null, 2))
       console.log('🎯 生成されたテンプレートデータ:', targetPage.templateData)
       
-      setGeneratedPage(targetPage.templateData)
-      setSelectedTemplate(targetPage.templateType)
+      // setGeneratedPage(targetPage.templateData)
+      // setSelectedTemplate(targetPage.templateType)
       
     } catch (err) {
       console.error('❌ テストエラー:', err)

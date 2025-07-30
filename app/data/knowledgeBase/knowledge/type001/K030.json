@@ -55,81 +55,51 @@
   ],
   "marketingStage": "27卒就活生のガクチカ不安に共感を求める段階。ガクチカで書くことがない焦りと「私だけが取り残されている」という孤独感を解消し、就活仲間意識を通じて前向きなエネルギーを得たい層",
   "knowledgeId": "K030",
-  "pageStructurePattern": "typeID001-emotion-empathy-list",
-  "actualTitle": "27卒ガクチカあるある7選〜書くことない焦り〜",
-  "pageCount": 8,
-  "contentPageCount": 6,
-  "hashTag": "",
+  "pageStructurePattern": "unified-template-01-simple-intro",
+  "actualTitle": "27卒ガクチカあるある〜書くことない悩みを解決〜",
+  "pageCount": 6,
   "detailedContent": {
     "page1": {
-      "role": "title-cover",
-      "type": "title_page",
-      "content": "27卒ガクチカ書くことない…",
-      "design": "薄い青背景、黄色ヒヨコキャラクター、年齢を強調した共感的タイトル",
-      "page_indicator": "1/8"
+      "role": "導入・共感誘発",
+      "section": "introduction",
+      "title": "ガクチカに書けるような経験してこなかった",
+      "content": "ガクチカに書けるような経験をしてこなかったと悩んでいる方は多いのではないでしょうか。でも安心してください。その悩みはあなただけではありません。",
+      "imageSrc": "/misaki_worry.png"
     },
     "page2": {
-      "section": "intro",
-      "template": "basic_intro",
-      "role": "problem-empathy",
-      "type": "empathy_problem",
-      "content": "ガクチカに書けるような経験してこなかった…",
-      "design": "薄い青背景、悩むヒヨコキャラクター、机と紙の設定で状況表現",
-      "page_indicator": "2/8"
+      "role": "問題認識・誤解解消",
+      "section": "mainContent",
+      "title": "大学とバイトだけで目立つこと何もしてない",
+      "content": "大学とバイトだけで目立つこと何もしてないと悩んでいるなら、ガクチカについて誤解しているかもしれません。ガクチカの本当の意味を理解することが大切です。",
+      "imageSrc": "/ten_worry.png"
     },
     "page3": {
-      "section": "intro",
-      "template": "basic_intro",
-      "role": "misconception-reveal",
-      "type": "problem_identification",
-      "content": "大学とバイトだけで目立つこと何もしてないよ💧 って悩んでいるなら、ガクチカのこと誤解してるかも！",
-      "design": "薄い青背景、ヒヨコキャラクター、青いボックスで重要メッセージ強調",
-      "page_indicator": "3/8"
+      "role": "洞察・真の目的説明",
+      "section": "mainContent",
+      "title": "ガクチカの本当の意味",
+      "content": "そもそもガクチカは「学生時代に力を入れたこと」の略です。しかし、キラキラした経験を評価するための質問ではありません。企業が本当に知りたいのは別のことです。",
+      "imageSrc": "/iida.png"
     },
     "page4": {
+      "role": "企業視点の解説",
       "section": "mainContent",
-      "template": "timeline_story_experience",
-      "role": "insight-revelation",
-      "type": "insight_revelation",
-      "content": "そもそもガクチカって『学生時代に力を入れたこと』の略。だけど、キラキラした経験を評価するための質問ではないんだ！",
-      "design": "薄い青背景、説明的なヒヨコキャラクター、青いボックスで定義説明",
-      "page_indicator": "4/8"
+      "title": "企業がガクチカで見ていること",
+      "content": "企業がガクチカで知りたいのは、どんな姿勢で取り組んだか、困難にどう向き合ったか、そこから何を学んだかです。つまり「何をしたか」ではなく「どう向き合ったか」を聞きたいのです。",
+      "imageSrc": "/kikuyo.png"
     },
     "page5": {
+      "role": "具体例・実践アドバイス",
       "section": "mainContent",
-      "template": "points_list_analysis",
-      "role": "corporate-perspective",
-      "type": "corporate_perspective",
-      "content": "企業がガクチカで見ていること ・どんな姿勢で取り組んだ？ ・困難にどう向き合った？ ・そこから何を学んだ？ つまり「何をしたか」ではなく「どう向き合ったか」を聞きたい！",
-      "design": "薄い青背景、虫眼鏡を持つヒヨコ、点線枠で3つのポイント強調",
-      "page_indicator": "5/8"
+      "title": "こんな経験でも立派なガクチカ",
+      "content": "例えば、バイトで効率を上げるために売れ行き商品を取りやすい位置に配置したことや、ゼミの意見がまとまらない時に率先してまとめるように動いたことも、立派なガクチカになります。",
+      "imageSrc": "/king.png"
     },
     "page6": {
+      "role": "励まし・まとめ",
       "section": "mainContent",
-      "template": "usage_practical_steps",
-      "role": "practical-examples",
-      "type": "practical_examples",
-      "content": "例えば こんな経験でも立派なガクチカ！『バイトで効率を上げるために売れ行き商品を取りやすい位置に配置』『ゼミの意見がまとまらない時率先してまとめるように動いた』",
-      "design": "薄い青背景、ヒヨコキャラクター、2つの青いボックスで具体例提示",
-      "page_indicator": "6/8"
-    },
-    "page7": {
-      "section": "mainContent",
-      "template": "timeline_story_experience",
-      "role": "encouragement-message",
-      "type": "encouragement_message",
-      "content": "企業が探しているのは『すごい経歴の人』じゃなくて『一緒に働きたいと思える人』 小さくても大丈夫！工夫して乗り越えた経験を言語化してみよう！",
-      "design": "薄い青背景、喜ぶヒヨコキャラクター、星の装飾、励ましメッセージ",
-      "page_indicator": "7/8"
-    },
-    "page8": {
-      "section": "summary",
-      "template": "basic_summary",
-      "role": "follow-up-cta",
-      "type": "follow_up_cta",
-      "content": "誰も教えてくれない就活の大切なこと 毎週 月・水・金 に発信中！📧 ひよこ あなたの秘密だよ…🤫 保存して何度も見返してね♪",
-      "design": "薄い青背景、白い角丸ボックス、継続コンテンツ紹介、保存促進",
-      "page_indicator": "8/8"
+      "title": "企業が探しているのは",
+      "content": "企業が探しているのは「すごい経歴の人」ではなく「一緒に働きたいと思える人」です。小さなことでも大丈夫です。工夫して乗り越えた経験を言語化してみましょう。",
+      "imageSrc": "/misaki.png"
     }
   }
 }

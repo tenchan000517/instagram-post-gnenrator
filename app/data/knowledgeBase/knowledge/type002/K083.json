@@ -2,7 +2,7 @@
   "source": "contents-083",
   "problemCategory": "ニーズ（情報）",
   "problemDescription": "AI面接で評価されるポイントが分からない、AI面接を突破するための具体的な攻略法を知りたい",
-  "postType": "003",
+  "postType": "002",
   "postTypeReason": "AI面接という新しい選考方法について、評価ポイントから対策方法まで体系的な情報を提供するため",
   "solutionContent": {
     "概要": "AI面接「SHaiN」の仕組みと攻略法を体系的に解説",
@@ -57,27 +57,12 @@
   "knowledgeId": "K083",
   "pageStructurePattern": "",
   "actualTitle": "AI面接 SHaiN ガチ攻略",
-  "pageCount": 7,
-  "hashTag": "#エアラインスクール #エアライン就活 #客室乗務員になりたい #就職活動 #エアライン採用試験 #エアライン受験 #エアライン転職 #客室乗務員 #キャビンアテンダント #CA #ai面接",
+  "pageCount": 6,
   "detailedContent": {
     "page1": {
-      "pageNumber": "1/8",
-      "role": "タイトル・導入",
-      "content": {
-        "mainTitle": "AI面接 SHaiN ガチ攻略",
-        "subTitle": "AIに\"伝わる話し方\"がカギ",
-        "bodyText": "",
-        "visualElements": [
-          "TOKYO VIC ACADEMYの赤いヘッダー",
-          "白いフレーム内に黄色のアクセント",
-          "ロボットのキャラクターイラスト",
-          "青い大文字タイトル"
-        ]
-      }
-    },
-    "page2": {
-      "pageNumber": "2/8",
+      "pageNumber": "1/6",
       "role": "背景・問題提起",
+      "section": "introduction",
       "content": {
         "mainTitle": "はじめに",
         "subTitle": "",
@@ -89,9 +74,10 @@
         ]
       }
     },
-    "page3": {
-      "pageNumber": "3/8",
+    "page2": {
+      "pageNumber": "2/6",
       "role": "SHaiN説明",
+      "section": "introduction",
       "content": {
         "mainTitle": "SHaiNとは？",
         "subTitle": "",
@@ -104,9 +90,10 @@
         ]
       }
     },
-    "page4": {
-      "pageNumber": "4/8",
+    "page3": {
+      "pageNumber": "3/6",
       "role": "評価ポイント説明",
+      "section": "mainContent",
       "content": {
         "mainTitle": "見られているのはココ！",
         "subTitle": "",
@@ -124,9 +111,10 @@
         ]
       }
     },
-    "page5": {
-      "pageNumber": "5/8",
+    "page4": {
+      "pageNumber": "4/6",
       "role": "STAR手法説明",
+      "section": "mainContent",
       "content": {
         "mainTitle": "対策のカギは\"STAR手法\"",
         "subTitle": "",
@@ -145,9 +133,10 @@
         ]
       }
     },
-    "page6": {
-      "pageNumber": "6/8",
+    "page5": {
+      "pageNumber": "5/6",
       "role": "具体例提示",
+      "section": "mainContent",
       "content": {
         "mainTitle": "たとえばこんな感じ",
         "subTitle": "",
@@ -160,9 +149,10 @@
         ]
       }
     },
-    "page7": {
-      "pageNumber": "7/8",
+    "page6": {
+      "pageNumber": "6/6",
       "role": "具体的対策リスト",
+      "section": "summary",
       "content": {
         "mainTitle": "SHaiN対策 7つの具体アクション",
         "subTitle": "",

@@ -70,9 +70,9 @@
   ],
   "marketingStage": "日常生活改善段階（ストレス軽減・効率化検討時期）",
   "knowledgeId": "K146",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "unified-template-02-dual-section",
   "actualTitle": "人生がラクになる がんばらない10のこと",
-  "pageCount": 9,
+  "pageCount": 7,
   "detailedContent": {
     "page1": {
       "role": "タイトル・表紙",
@@ -87,153 +87,95 @@
       "role": "導入・問題提起",
       "section": "introduction", 
       "content": {
-        "title": "はじめに",
-        "description": "いつも周りのことばかり気にしてしまって疲れる...",
-        "empathy": "その気持ちわかります。",
-        "experience": "以前は無意識にがんばってしまうことがありました。",
-        "solution": "がんばることをやめたら劇的にラクになったから紹介します！"
+        "title": "人生がラクになる がんばらない10のこと",
+        "description": "いつも周りのことばかり気にしてしまって疲れる...その気持ちわかります。以前は無意識にがんばってしまうことがありましたが、がんばることをやめたら劇的にラクになったので紹介します。",
+        "imageSrc": "/kikuyo_worry.png",
+        "imageAlt": "悩む女性"
       }
     },
     "page3": {
-      "role": "問題確認・共感",
-      "section": "introduction",
+      "section": "mainContent",
       "content": {
-        "title": "がんばりすぎてにやい？",
-        "subtitle": "もっと楽に生きるコツは...",
-        "mainMessage": "がんばらないこと！",
-        "advice": "ときには「まあいいか」と力を抜くことも大事です。",
-        "nextMessage": "実践的なコツを紹介します。"
+        "topSection": {
+          "title": "すごくなくていい",
+          "content": "みんながすごい人と思われたいという気持ちがありますが、自分が納得できれば大丈夫です。完璧でなくても、自分らしくいることが大切です。",
+          "imageSrc": "/misaki.png",
+          "imageAlt": "笑顔の女性"
+        },
+        "bottomSection": {
+          "title": "結果を急がない",
+          "content": "成果が出なくて焦る気持ちは理解できますが、続けることで結果がついてきます。プロセスを大切にし、焦らずに取り組みましょう。",
+          "imageSrc": "/ten.png",
+          "imageAlt": "笑顔の男性"
+        }
       }
     },
     "page4": {
-      "role": "方法1-2",
       "section": "mainContent",
       "content": {
-        "items": [
-          {
-            "number": "1",
-            "title": "すごくなくていい",
-            "description": "みんながすごい人と思われたいです！",
-            "advice": "自分が納得できれば大丈夫です。",
-            "imageSrc": "/misaki_worry.png"
-          },
-          {
-            "number": "2",
-            "title": "結果を急がない",
-            "description": "成果が出なくて焦ります...",
-            "advice": "続けると結果がついてくることでしょう。",
-            "imageSrc": "/ten_worry.png"
-          }
-        ]
+        "topSection": {
+          "title": "期待にこたえない",
+          "content": "チームのためにがんばることも大切ですが、自分がやりたくてやることが最も重要です。他人の期待より自分の意志を優先しましょう。",
+          "imageSrc": "/kikuyo.png",
+          "imageAlt": "笑顔の女性"
+        },
+        "bottomSection": {
+          "title": "完璧を目指さない",
+          "content": "完璧にできるまでやり直そうとする気持ちはわかりますが、まずはやってみて改善していくことが大切です。完璧でなくても行動することに価値があります。",
+          "imageSrc": "/king.png",
+          "imageAlt": "笑顔の男性"
+        }
       }
     },
     "page5": {
-      "role": "方法3-4", 
-      "section": "mainContent",
+      "section": "mainContent", 
       "content": {
-        "items": [
-          {
-            "number": "3",
-            "title": "期待にこたえない",
-            "description": "チームのためにがんばります。",
-            "advice": "自分がやりたくてやることです。",
-            "imageSrc": "/kikuyo_worry.png"
-          },
-          {
-            "number": "4",
-            "title": "完璧を目指さない",
-            "description": "完璧にできるまでやり直します！",
-            "advice": "まずはやってみて改善することでしょう。",
-            "imageSrc": "/king_warry.png"
-          }
-        ]
+        "topSection": {
+          "title": "自分に厳しくしない",
+          "content": "もっとがんばらないとダメだと思いがちですが、今日はここまでできたから大丈夫という考え方を持ちましょう。自分を認めることが大切です。",
+          "imageSrc": "/misaki_work.png",
+          "imageAlt": "仕事をする女性"
+        },
+        "bottomSection": {
+          "title": "他人と比べない",
+          "content": "あの人はいつもすごいと思ってしまいますが、比べるべきは過去の自分です。他人との比較ではなく、自分の成長に注目しましょう。",
+          "imageSrc": "/iida_fighting.png",
+          "imageAlt": "モチベーション高い人"
+        }
       }
     },
     "page6": {
-      "role": "方法5-6",
-      "section": "mainContent", 
+      "section": "mainContent",
       "content": {
-        "items": [
-          {
-            "number": "5",
-            "title": "自分に厳しくしない",
-            "description": "もっとがんばらないとダメです！",
-            "advice": "今日はここまでできたから大丈夫です。",
-            "imageSrc": "/misaki.png"
-          },
-          {
-            "number": "6",
-            "title": "他人と比べない",
-            "description": "あの人はいつもすごいです。",
-            "advice": "比べるのは過去の自分です。",
-            "imageSrc": "/king.png"
-          }
-        ]
+        "topSection": {
+          "title": "他人を優先しない",
+          "content": "本当はニガテだけどがまんしてしまうことがありますが、自分の価値観を大切にしましょう。無理をしてまで他人に合わせる必要はありません。",
+          "imageSrc": "/kikuyo_point.png",
+          "imageAlt": "ポイントを教える女性"
+        },
+        "bottomSection": {
+          "title": "理解されなくていい",
+          "content": "話せばわかってくれるはずだと期待しがちですが、意見が違う人がいて当然です。全ての人に理解されなくても大丈夫です。",
+          "imageSrc": "/king_point.png",
+          "imageAlt": "ポイントを教える男性"
+        }
       }
     },
     "page7": {
-      "role": "方法7-8",
       "section": "mainContent",
       "content": {
-        "items": [
-          {
-            "number": "7", 
-            "title": "他人を優先しない",
-            "description": "本当はニガテだけどがまんします...",
-            "advice": "自分の価値観を大切にしましょう。",
-            "imageSrc": "/kikuyo.png"
-          },
-          {
-            "number": "8",
-            "title": "理解されなくていい",
-            "description": "話せばわかってくれるはずです！",
-            "advice": "意見が違う人がいて当然です。",
-            "imageSrc": "/ten.png"
-          }
-        ]
-      }
-    },
-    "page8": {
-      "role": "方法9-10",
-      "section": "mainContent",
-      "content": {
-        "items": [
-          {
-            "number": "9",
-            "title": "過去を引きずらない", 
-            "description": "先月のミスが頭から離れません...",
-            "advice": "ミスがあるから成長できます！",
-            "imageSrc": "/ten_worry.png"
-          },
-          {
-            "number": "10",
-            "title": "未来を不安がらない",
-            "description": "失敗がこわくて挑戦できません。",
-            "advice": "不安があっても今に集中しましょう。",
-            "imageSrc": "/misaki_worry.png"
-          }
-        ]
-      }
-    },
-    "page9": {
-      "role": "まとめ・保存促進",
-      "section": "summary",
-      "content": {
-        "title": "まとめ",
-        "summary": "がんばらない10のこと",
-        "itemList": [
-          "1 すごくなくていい",
-          "2 結果を急がない", 
-          "3 期待にこたえない",
-          "4 完璧を目指さない",
-          "5 自分に厳しくしない",
-          "6 他人と比べない",
-          "7 他人を優先しない", 
-          "8 理解されなくていい",
-          "9 過去を引きずらない",
-          "10 未来を不安がらない"
-        ],
-        "callToAction": "保存して後で復習しましょう！"
+        "topSection": {
+          "title": "過去を引きずらない", 
+          "content": "先月のミスが頭から離れないことがありますが、ミスがあるから成長できると考えましょう。過去の失敗は学習の機会と捉えることが大切です。",
+          "imageSrc": "/iida.png",
+          "imageAlt": "笑顔の人"
+        },
+        "bottomSection": {
+          "title": "未来を不安がらない",
+          "content": "失敗がこわくて挑戦できない気持ちはわかりますが、不安があっても今に集中しましょう。未来への不安より、今できることに意識を向けることが重要です。",
+          "imageSrc": "/misaki_study.png",
+          "imageAlt": "勉強する女性"
+        }
       }
     }
   }

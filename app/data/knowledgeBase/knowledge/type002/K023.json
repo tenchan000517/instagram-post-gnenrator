@@ -61,156 +61,151 @@
   "knowledgeId": "K023",
   "pageStructurePattern": "",
   "actualTitle": "就活生のためのインターン準備実践スキル7選〜今すぐできるアクション〜",
-  "pageCount": 11,
-  "hashTag": "#就活 #インターン #大学3年生 #就活準備",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "type": "cover",
+      "role": "導入・問題提起",
+      "section": "introduction",
       "content": {
-        "mainTitle": "「そりゃ内定だわ」大学3年の7月",
-        "calendar": "7月の就活スケジュールカレンダー",
-        "backgroundColor": "light blue",
-        "activities": [
-          "バイト", "説明会", "大学", "GD", "大学", "就活イベント",
-          "バイト", "面接", "大学", "説明会", "大学", "テストセンター"
+        "title": "大学3年7月 インターン準備",
+        "targetAudience": "インターン準備に不安を抱える就活生",
+        "problems": [
+          "7月のインターン申し込みピークに向けて何をすべきか",
+          "準備が追いつかず周りに置いていかれる不安",
+          "具体的な準備方法がわからない"
         ],
-        "pageIndicator": "1/11"
+        "additionalMessage": "7つの実践スキルで確実なインターン準備を進めましょう"
       }
     },
     "page2": {
-      "type": "statistics",
+      "role": "スキル1-2",
+      "section": "mainContent",
       "content": {
-        "title": "\\大学3年7月ってこんな月/",
-        "subtitle": "インターンの申し込み",
-        "chart": {
-          "type": "bar chart",
-          "title": "インターンに申し込んだ時期（n=500、複数回答）",
-          "data": "7月が最多45.6%、次いで6月41.4%、8月36.4%",
-          "highlight": "7月がピーク"
-        },
-        "message": "そんな7月に絶対にやってほしいことをまとめました！",
-        "backgroundColor": "white",
-        "pageIndicator": "2/11"
+        "items": [
+          {
+            "number": "1",
+            "title": "自己分析をする",
+            "description": "中学〜大学のエピソードを3回深掘りし、長所短所・興味関心・モチベーションの源泉を明確化",
+            "imageSrc": "/misaki_worry.png"
+          },
+          {
+            "number": "2",
+            "title": "業界企業研究をする",
+            "description": "リクナビ・業界動向サーチ・業界地図を活用し、成長性と事業内容を体系的に調査",
+            "imageSrc": "/ten_worry.png"
+          }
+        ]
       }
     },
     "page3": {
-      "type": "step-guide",
+      "role": "スキル3-4",
+      "section": "mainContent",
       "content": {
-        "title": "1. 自己分析をする",
-        "illustration": "person thinking with thought bubbles",
-        "steps": [
-          "1) 中学〜大学のエピソードを書く",
-          "2) なぜ頑張れたかを3回深掘りする",
-          "3) 上記から、長所短所、興味関心、モチベーションの源泉を考える"
-        ],
-        "backgroundColor": "beige",
-        "pageIndicator": "3/11"
+        "items": [
+          {
+            "number": "3",
+            "title": "インターンに応募する",
+            "description": "志望度が高い業界は複数daysインターン20社、低い業界は1day 5-10社に戦略的応募",
+            "imageSrc": "/kikuyo_worry.png"
+          },
+          {
+            "number": "4",
+            "title": "ガクチカ400文字作成",
+            "description": "要約→問題→原因→解決策→結果の構造で、数字を使った具体的成果を明記",
+            "imageSrc": "/iida.png"
+          }
+        ]
       }
     },
     "page4": {
-      "type": "step-guide",
+      "role": "スキル5-6",
+      "section": "mainContent",
       "content": {
-        "title": "2. 業界企業研究をする",
-        "subtitle": "\\おすすめのひとたち/",
-        "resources": [
-          "① リクナビの業界ナビ",
-          "② 業界動向サーチ", 
-          "③ 業界地図"
-        ],
-        "steps": [
-          "1) 気になる業界を選ぶ",
-          "2) 業界の成長性や、誰に/何を/どのように提供しているか調べる",
-          "3) 業界の中で、気になる企業の事業内容、業務内容を調べる"
-        ],
-        "backgroundColor": "beige",
-        "pageIndicator": "4/11"
+        "items": [
+          {
+            "number": "5",
+            "title": "自己PR400文字作成",
+            "description": "強み→具体的エピソード→問題解決過程→結果→企業での活用意欲を構造化",
+            "imageSrc": "/king_warry.png"
+          },
+          {
+            "number": "6",
+            "title": "インターン志望動機作成",
+            "description": "学習目標→将来ビジョン→企業選択理由→貢献意欲を一貫性を持って構成",
+            "imageSrc": "/misaki.png"
+          }
+        ]
       }
     },
     "page5": {
-      "type": "step-guide",
+      "role": "スキル7",
+      "section": "mainContent",
       "content": {
-        "title": "3. インターンに応募する",
-        "illustration": "stressed person at computer with calendar",
-        "subtitle": "\\おすすめの応募方法/",
-        "strategies": [
-          "志望度が高い業界：早期選考に繋がる複数daysインターンに応募（目標20社！）",
-          "志望度が低い業界：1dayなど選考なしのインターンに幅広く応募！（5〜10社）"
-        ],
-        "backgroundColor": "beige",
-        "pageIndicator": "5/11"
+        "items": [
+          {
+            "number": "7",
+            "title": "webテストの勉強",
+            "description": "SPI問題集を1日15分継続し、志望度低めの企業で実践テストを受けて苦手分野を把握",
+            "imageSrc": "/kikuyo.png"
+          }
+        ]
       }
     },
     "page6": {
-      "type": "template",
+      "role": "テンプレート詳細",
+      "section": "mainContent",
       "content": {
-        "title": "4. ガクチカ400文字作成",
-        "subtitle": "\\超おすすめのテンプレート/",
-        "template": "○○に力を入れた。（全体の要約）\n\n○○に取り組んだ際、○○な問題に直面した。原因は○○だと考えた。\n\n（解決するため）○○が必要だと考え○○を実行した。（一番文字数を割く）\n\n結果、○○になった（数字で示すと◎）",
-        "backgroundColor": "beige",
-        "pageIndicator": "6/11"
+        "templateTitle": "実践テンプレート3種",
+        "templates": [
+          {
+            "type": "ガクチカ",
+            "structure": "要約→問題→原因→解決策→結果（数字）"
+          },
+          {
+            "type": "自己PR",
+            "structure": "強み→エピソード→問題解決→結果→企業貢献"
+          },
+          {
+            "type": "志望動機",
+            "structure": "学習目標→将来ビジョン→企業理由→貢献意欲"
+          }
+        ],
+        "additionalMessage": "各テンプレートを使って400文字で作成しましょう"
       }
     },
     "page7": {
-      "type": "template",
+      "role": "勉強戦略",
+      "section": "mainContent",
       "content": {
-        "title": "5. 自己PR400文字作成",
-        "subtitle": "\\超おすすめのテンプレート/",
-        "template": "強みは○○だ。（※協調性などと抽象的な言葉ではなく、自分の言葉で）\n\n○○に取り組んだ際、○○な問題に直面した。原因は○○だと考えた。○○が必要だと考え○○を実行した。結果、○○になった（数字で示すと◎）\n\nこの強みを貴社でも生かしたい。",
-        "backgroundColor": "beige",
-        "pageIndicator": "7/11"
-      }
-    },
-    "page8": {
-      "type": "template",
-      "content": {
-        "title": "6. インターン志望動機作成",
-        "subtitle": "\\超おすすめのテンプレート/",
-        "template": "貴社で○○を学びたく、志望します。私は○○した経験から、将来○○したいと考えています。\n\n業界の中でも○○な貴社なら○○が実現できると考え、インターンシップを志望しました。インターンシップでは大学で培った○○を発揮し、貢献します。",
-        "backgroundColor": "beige",
-        "pageIndicator": "8/11"
-      }
-    },
-    "page9": {
-      "type": "study-guide",
-      "content": {
-        "title": "7. webテストの勉強",
-        "subtitle": "\\おすすめの問題集たち/",
-        "books": [
+        "strategyTitle": "効率的webテスト対策",
+        "resources": [
           "これが本当のSPI3だ！2025年度版",
           "史上最強SPI&テストセンター超実戦問題集",
           "これが本当のWebテストだ！2023年度版"
         ],
-        "subtitle2": "\\超おすすめwebテスト勉強方法/",
-        "methods": [
-          "1) 志望度低めの企業のインターンに応募し、webテストを受けてみる",
-          "2) 苦手な分野を理解する",
-          "3) 問題集を1日15分ずつでも進める"
+        "method": [
+          "志望度低めの企業で実践テスト受験",
+          "苦手分野の把握と集中対策",
+          "1日15分の継続学習サイクル確立"
         ],
-        "backgroundColor": "beige",
-        "pageIndicator": "9/11"
+        "additionalMessage": "実践→分析→改善の循環で確実な実力向上を実現"
       }
     },
-    "page10": {
-      "type": "urgency-message",
+    "page8": {
+      "role": "まとめ",
+      "section": "summary",
       "content": {
-        "mainMessage": "乗り遅れないで！就活、もう始まってます...！",
-        "keyPoint": "就活は先手必勝。1日でも早くスタートした人が勝つゲームです。",
-        "question": "「でも、何からやればいいの？」そんな就活生のあなたへ",
-        "illustration": "character pointing finger",
-        "backgroundColor": "beige",
-        "pageIndicator": "10/11"
-      }
-    },
-    "page11": {
-      "type": "cta",
-      "content": {
-        "story": "大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は...",
-        "profilePreview": "Instagram profile showing follower count and description",
-        "ctaMessage": "1冊のテキストにまとめています！",
-        "url": "job-hun.com/ab/shukatsu_lp_ins",
-        "instruction": "プロフィールのURLからお受け取りください！",
-        "backgroundColor": "white",
-        "pageIndicator": "11/11"
+        "summaryTitle": "7月インターン準備 完全攻略",
+        "achievementPoints": [
+          "1. 自己分析をする（エピソード3回深掘り）",
+          "2. 業界企業研究をする（3つのツール活用）",
+          "3. インターンに応募する（戦略的応募数設定）",
+          "4. ガクチカ400文字作成（構造化テンプレート）",
+          "5. 自己PR400文字作成（強み→エピソード→貢献）",
+          "6. 志望動機作成（学習→ビジョン→理由→貢献）",
+          "7. webテスト勉強（実践→分析→改善サイクル）"
+        ],
+        "encouragementMessage": "これらの準備で確実なインターン成功を掴みましょう"
       }
     }
   }

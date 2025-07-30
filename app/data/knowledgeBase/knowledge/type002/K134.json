@@ -60,30 +60,25 @@
   ],
   "marketingStage": "就活準備段階（面接対策・ビジネスマナー習得時期）",
   "knowledgeId": "K134",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "",
   "actualTitle": "再現率100% 印象激変する謝り方",
-  "pageCount": 9,
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
       "section": "introduction",
       "content": {
-        "title": "再現率100%",
-        "subtitle": "印象激変する謝り方",
-        "description": "謝るときの語彙がわからないという悩みを解決する12個の表現を紹介します"
+        "title": "再現率100% 印象激変する謝り方",
+        "targetAudience": "謝るときの語彙がわからない人",
+        "problems": [
+          "謝るときの語彙って何が正しいのかよくわからない",
+          "謝るときの語彙が少なくて困った",
+          "スマートな謝り方を知りたい"
+        ],
+        "additionalMessage": "印象を激変させる12個の謝り方表現を紹介します"
       }
     },
     "page2": {
-      "role": "問題共感・体験談共有",
-      "section": "mainContent",
-      "content": {
-        "title": "はじめに",
-        "problem": "謝るときの語彙って何が正しいのかよくわからないですよね。",
-        "experience": "私も謝るときの語彙が少なくて困ったこともありました。",
-        "solution": "スマートな謝り方を知ったらすごく役立ったから紹介します！"
-      }
-    },
-    "page3": {
       "role": "表現1-2の学習",
       "section": "mainContent",
       "content": {
@@ -105,7 +100,7 @@
         ]
       }
     },
-    "page4": {
+    "page3": {
       "role": "表現3-4の学習",
       "section": "mainContent",
       "content": {
@@ -127,7 +122,7 @@
         ]
       }
     },
-    "page5": {
+    "page4": {
       "role": "表現5-6の学習",
       "section": "mainContent",
       "content": {
@@ -149,7 +144,7 @@
         ]
       }
     },
-    "page6": {
+    "page5": {
       "role": "表現7-8の学習",
       "section": "mainContent",
       "content": {
@@ -171,7 +166,7 @@
         ]
       }
     },
-    "page7": {
+    "page6": {
       "role": "表現9-10の学習",
       "section": "mainContent",
       "content": {
@@ -193,7 +188,7 @@
         ]
       }
     },
-    "page8": {
+    "page7": {
       "role": "表現11-12の学習",
       "section": "mainContent",
       "content": {
@@ -215,7 +210,7 @@
         ]
       }
     },
-    "page9": {
+    "page8": {
       "role": "まとめ・実践促進",
       "section": "summary",
       "content": {

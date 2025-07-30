@@ -59,69 +59,55 @@
   "knowledgeId": "K110",
   "pageStructurePattern": "",
   "actualTitle": "37歳主婦が複業 月収0円で開業届け出してみた Freelancer",
-  "pageCount": 11,
-  "hashTag": "#開業 #開業届 #在宅ワーク #フリーランス #フリーランス初心者 #主婦副業 #副業マママ #ママフリーランス #フリーランスママ #物販",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "title-personal-story",
-      "content": "37歳主婦が複業 月収0円で開業届け出してみた Freelancer",
-      "visualElements": "スマートフォン自撮り動画、ピンクの吹き出し、実写背景"
-    },
-    "page2": {
       "role": "question-introduction",
+      "section": "introduction",
       "content": "Question: 収入0円でも開業できるの？ → 収入0円でも出してOK！むしろ出した方がメリットあるかも？ フリーランス6年目の私が開業届を出して感じたメリットを紹介していきます！最後に開業届の特別ガイドをプレゼント！",
       "visualElements": "ノートPCとコーヒーの作業環境、女性の指差しポーズ、プレゼントボックス、吹き出し"
     },
-    "page3": {
+    "page2": {
       "role": "benefits-overview",
+      "section": "mainContent",
       "content": "開業届を出すとこんなメリットがあるよ。5つのメリット: ✓生活費を経費にできる ✓保育園の申請に使える ✓仕事用の口座が作れる ✓オンラインで提出OK ✓最大65万円分の節税効果。次のページからメリットの詳しい内容を紹介します！",
       "visualElements": "チェックマーク付きリスト、電球アイコン、女性の説明ポーズ、保存促進メッセージ"
     },
-    "page4": {
+    "page3": {
       "role": "benefit-detail-1",
+      "section": "mainContent",
       "content": "メリット①: 生活費を経費にできる。家賃、光熱費、通信費などの一部を事業経費として計上可能。節税効果が期待できる。",
       "visualElements": "家のアイコン、電卓、書類"
     },
-    "page5": {
+    "page4": {
       "role": "benefit-detail-2", 
+      "section": "mainContent",
       "content": "メリット②: 保育園の申請に使える。個人事業主として就労証明書が発行可能。保育園の入園申請で有利になる。",
       "visualElements": "保育園、子どものアイコン、書類"
     },
-    "page6": {
+    "page5": {
       "role": "benefit-detail-3",
+      "section": "mainContent",
       "content": "メリット③: 仕事用の口座が作れる。屋号付きの銀行口座開設が可能。事業資金の管理が明確になる。",
       "visualElements": "銀行口座、通帳、お金のアイコン"
     },
-    "page7": {
+    "page6": {
       "role": "benefit-detail-4",
+      "section": "mainContent",
       "content": "メリット④: オンラインで提出OK。e-Taxを使用してオンライン提出可能。税務署に行く必要がない。",
       "visualElements": "パソコン、オンライン手続き、クリックアイコン"
     },
-    "page8": {
+    "page7": {
       "role": "benefit-detail-5",
+      "section": "mainContent",
       "content": "メリット⑤: 最大65万円分の節税効果。青色申告特別控除により所得から65万円控除可能。大幅な節税効果。",
       "visualElements": "計算機、お金、節税グラフ"
     },
-    "page9": {
+    "page8": {
       "role": "how-to-guide",
+      "section": "summary",
       "content": "開業届の出し方ガイド。必要書類、記入方法、提出先について詳しく解説。初心者でも安心して手続きできる。",
       "visualElements": "ガイドブック、ステップ図解、チェックリスト"
-    },
-    "page10": {
-      "role": "cta-guide-offer",
-      "content": "開業届特別ガイドプレゼント！詳しい手順と記入例を含む完全ガイドを無料でお渡しします。DMでお送りします。",
-      "visualElements": "プレゼントボックス、ガイド資料、DMアイコン"
-    },
-    "page11": {
-      "role": "personal-profile-cta",
-      "content": "上記①と②をしていただいた方にDMでお送りします❤ ーーーー Me「アパレル物販」でフリーランスになった2児のママです。20年間苦しんだ言語障害(吃音)生きづらさを乗り越えて、自分らしい働き方を確立フリーランスとして6年目。My work: BUYMAパーソナルショッパー、shopifyでのオリジナルショップ、物販講師 フォロー大歓迎です ▶▶@nao_buyerlife",
-      "visualElements": "プロフィール写真、ドレスアイコン、ハッシュタグ群"
-    },
-    "page12": {
-      "role": "metadata-hashtags",
-      "content": "フリーランス開業に関する情報とハッシュタグ",
-      "hashtags": "#開業 #開業届 #在宅ワーク #フリーランス #フリーランス初心者 #主婦副業 #副業ママ #ママフリーランス #フリーランスママ #物販",
-      "date": "7月9日"
     }
   }
 }

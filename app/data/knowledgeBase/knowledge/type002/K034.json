@@ -2,7 +2,7 @@
   "source": "contents-034",
   "problemCategory": "就職活動・インターンシップ",
   "problemDescription": "27卒大学生がインターンシップの合格獲得やES添削、面接対策で困っている",
-  "postType": "003",
+  "postType": "002",
   "postTypeReason": "インターンシップ合格のための具体的なTODOリスト・手順・面接質問集・対策方法など、特定の情報・知識の習得を目的としたコンテンツ",
   "solutionContent": {
     "概要": "インターンシップ合格に向けた8段階のTODOリストと各段階の詳細な質問・対策を提供",
@@ -55,65 +55,43 @@
   "knowledgeId": "K034",
   "pageStructurePattern": "",
   "actualTitle": "27卒のES添削募集中 インターン合格獲得 TODO一覧表 7月",
-  "pageCount": 10,
-  "hashTag": "@osaboly_jinji_27 ▼他の就活ノウハウをチェック",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "title-announcement",
+      "role": "introduction",  
+      "section": "introduction",
       "content": {
-        "mainTitle": "27卒のES添削募集中",
-        "subTitle": "インターン合格獲得 TODO一覧表 7月",
-        "pageIndicator": "1/10",
-        "backgroundColor": "ピンク",
-        "cardStyle": "白背景カード",
-        "accentColor": "赤文字"
+        "title": "27卒インターン合格獲得 TODO一覧表 7月",
+        "description": "26卒の大手内定サポートをもとに、27卒が大手に内定するための\"TODOリスト120問\"を完成させることができた！",
+        "urgencyMessage": "万全な状態で夏インターンに臨みたいのであれば、普通の大手を志望する人は「STEP3」まで、総合商社やデベロッパーなどの難関企業志望は「STEP5」、夏インターンの内定を出す企業を志望する人は「STEP7」まで",
+        "warningMessage": "どんなに遅くても8/31にまでに「STEP3」まで終わらせないと、大手内定の取り返しがつかない可能性が高いので注意が必要！"
       }
     },
     "page2": {
-      "role": "table-of-contents",
-      "content": {
-        "title": "目次",
-        "steps": [
-          "STEP1 エントリーシート（エピソード中心）",
-          "STEP2 自己分析（幼少期→小学校→中学校時代）",
-          "STEP3 自己分析（高校→大学時代）",
-          "STEP4 ガクチカの深掘り",
-          "STEP5 パーソナル系質問",
-          "STEP6 エントリーシート（志望動機中心）",
-          "STEP7 志望動機の深掘り",
-          "STEP8 大手企業を志望する27卒へ"
-        ],
-        "description": "26卒の大手内定サポートをもとに、27卒が大手に内定するための\"TODOリスト120問\"を完成させることができた！",
-        "urgencyMessage": "万全な状態で夏インターンに臨みたいのであれば、普通の大手を志望する人は「STEP3」まで、総合商社やデベロッパーなどの難関企業志望は「STEP5」、夏インターンの内定を出す企業を志望する人は「STEP7」まで",
-        "warningMessage": "どんなに遅くても8/31にまでに「STEP3」まで終わらせないと、大手内定の取り返しがつかない可能性が高いので注意が必要！",
-        "pageIndicator": "2/10"
-      }
-    },
-    "page3": {
       "role": "concept-explanation",
+      "section": "mainContent",
       "content": {
         "title": "PDCAサイクル",
-        "diagram": "4色分割円グラフ（PLAN-DO-CHECK-ACTION）",
+        "mainMessage": "Job Hunting is very simple.（就活はとても簡単である！）",
+        "explanation": "上記のようにPDCAサイクルを回し続ければ自然と就活力は上がる",
         "steps": [
           "01 計画 PLAN",
           "02 行動 DO", 
           "03 評価 CHECK",
           "04 改善 ACTION"
         ],
-        "mainMessage": "Job Hunting is very simple.（就活はとても簡単である！）",
-        "explanation": "上記のようにPDCAサイクルを回し続ければ自然と就活力は上がる",
         "details": [
           "P：受ける企業のES作成の予定を決定する",
           "D：[この投稿のリスト]やインターンESの回答作成する",
           "C：おせぼり人事に添削してもらう",
           "A：添削アドバイスを元に回答を修正する"
         ],
-        "conclusion": "これで大手企業から内定を獲得できる。よって、次ページのTodoリストの回答作成は3周程度したい",
-        "pageIndicator": "3/10"
+        "conclusion": "これで大手企業から内定を獲得できる。よって、次ページのTodoリストの回答作成は3周程度したい"
       }
     },
-    "page4": {
+    "page3": {
       "role": "goal-setting",
+      "section": "mainContent",
       "content": {
         "title": "大手志望者の目標",
         "quantitativeGoals": [
@@ -128,12 +106,12 @@
           "グループディスカッション通過率 直近5社80%",
           "WEBテスト通過率 各テスト(SPI,玉手箱,TG-WEB) 1回通過",
           "面接通過率 1回通過"
-        ],
-        "pageIndicator": "4/10"
+        ]
       }
     },
-    "page5": {
+    "page4": {
       "role": "step-detail",
+      "section": "mainContent",
       "content": {
         "title": "STEP1：エントリーシート完成",
         "items": [
@@ -153,12 +131,12 @@
           "選択するエピソードは、高校以降のエピソードにすること",
           "同じエピソードジャンルは3つ以上使用しないこと",
           "同じエピソードジャンルでも、追った目標は被らせないこと 例えば、ガクチカはチーム目標で、挫折経験は個人目標など"
-        ],
-        "pageIndicator": "5/10"
+        ]
       }
     },
-    "page6": {
+    "page5": {
       "role": "self-analysis-questions",
+      "section": "mainContent",
       "content": {
         "title": "STEP2：自己分析①完成",
         "questions": [
@@ -182,12 +160,12 @@
           "小学生の頃から性格は変わった？",
           "得意科目と苦手科目それぞれ教えて。",
           "あなたの\"強み\"が形成されたエピソードを教えて"
-        ],
-        "pageIndicator": "6/10"
+        ]
       }
     },
-    "page7": {
+    "page6": {
       "role": "self-analysis-questions",
+      "section": "mainContent",
       "content": {
         "title": "STEP3：自己分析②完成",
         "questions": [
@@ -211,12 +189,12 @@
           "大学時代、友達はどんなタイプの人が多かった？",
           "高校から性格変わった？",
           "自分の大学時代に点数をつけるとしたら？"
-        ],
-        "pageIndicator": "7/10"
+        ]
       }
     },
-    "page8": {
+    "page7": {
       "role": "interview-questions",
+      "section": "mainContent",
       "content": {
         "title": "STEP4：面接対策",
         "questions": [
@@ -235,67 +213,32 @@
           "周囲を巻き込む際に、反対者は出た？",
           "解決策を実行する際にうまくいかなかったことは？",
           "取り組みの個人目標とチーム目標は達成できた？",
-          "あなたのおかげでチーム成果を出せた根拠を教えて",
+          "あなたのおかぜでチーム成果を出せた根拠を教えて",
           "今回の問題が2度と起きないように行動したことある？",
           "どうすればもっと良い成果を出せた？",
           "取り組みで成長できたことと学んだことは？",
           "取り組みで発揮された強みは、どうビジネスで活かせるのか？"
-        ],
-        "pageIndicator": "8/10"
+        ]
       }
     },
-    "page9": {
-      "role": "interview-questions",
+    "page8": {
+      "role": "まとめ",
+      "section": "summary",
       "content": {
-        "title": "STEP5：面接対策",
-        "questions": [
-          "学生時代にc2番目に頑張ったこと(1分間)",
-          "自己PR(1分間)と、その強みが発揮された経験もう1つ教えて",
-          "所属したアルバイトの経験&所属した目的は達成できた？",
-          "所属したサークル・部活の経験&所属した目的は達成できた？",
-          "所属したゼミの経験&所属した目的は達成できた？",
-          "今研究していること/ゼミの内容と学論のテーマの予定(あれば)",
-          "志望している業界と専攻テーマが関係ないのはなぜ？",
-          "弱みと弱みを克服するためにどんなこと意識しているか教えて",
-          "今までで挫折した経験と、その挫折をどうやって克服したか？",
-          "今まででリーダーシップを発揮した経験",
-          "リーダーに必要な3つのことは？",
-          "人生における1番の「挑戦」は何か",
-          "あなたが成長する上で必要な3つの要素？",
-          "ストレスを感じる瞬間と発散方法",
-          "尊敬するタイプは？",
-          "苦手なタイプの特徴は？苦手な人とどのように接している？",
-          "人と意見が対立した時の対処法は？",
-          "周りから「どのような人」だと言われる？",
-          "自分を一言で表すと？",
-          "自分の人生のターニングポイント教えて"
+        "summaryTitle": "27卿インターン合格 TODOリスト完全ガイド",
+        "achievementPoints": [
+          "STEP1: エントリーシート完成（エピソード中心）",
+          "STEP2-3: 自己分析完全版（幼少期〜大学時代まで）",
+          "STEP4: ガクチカの深掘り面接対策",
+          "STEP5: パーソナル系質問完全対策",
+          "STEP6-7: 志望動機作成と深掘り対策"
         ],
-        "pageIndicator": "9/10"
-      }
-    },
-    "page10": {
-      "role": "line-promotion",
-      "content": {
-        "title": "\"今\"だけ無料で受け取れる",
-        "subtitle": "LINE追加特典",
-        "benefits": [
-          {
-            "icon": "本のアイコン",
-            "title": "ESの書き方/面接対策 WEBテスト/GDなどの極意記録している有料級note"
-          },
-          {
-            "icon": "書類アイコン",
-            "title": "*期間限定* 無料かつ無限のES添削 ガクチカと自己PR完成の徹底"
-          },
-          {
-            "icon": "NEWSアイコン",
-            "title": "毎朝インターンの資料配布 当日から3日間の大手企業に特化した情報が手に入る！"
-          }
+        "urgencyMessage": [
+          "8/31までにSTEP3まで終わらせないと大手内定の取り返しがつかない可能性が高い",
+          "PDCAサイクルを回し続ければ自然と就活力は上がる",
+          "TODOリスト120問の回答作成は3周程度したい"
         ],
-        "cta": "プロフURLから受け取ろう",
-        "note": "を完全無料でプレゼント",
-        "backgroundColor": "緑",
-        "pageIndicator": "10/10"
+        "encouragementMessage": "Job Hunting is very simple。このガイドで確実な大手内定を掴みましょう"
       }
     }
   }

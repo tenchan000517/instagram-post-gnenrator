@@ -52,23 +52,20 @@
   ],
   "marketingStage": "就活準備段階の大学生、業界研究・職種研究を始めたばかりの学生",
   "knowledgeId": "K011",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "業界と職種その違いは？",
-  "pageCount": 5,
-  "hashTag": "#業界研究・仕事研究",
+  "pageCount": 4,
   "detailedContent": {
     "page1": {
-      "pageNumber": "1/5",
+      "role": "introduction",
+      "section": "introduction",
       "content": {
-        "tagSection": "#業界研究・仕事研究",
-        "mainTitle": "業界と職種",
-        "subTitle": "その違いは？",
-        "questionMark": "???",
-        "accountInfo": "マイナビ @mynavi_shukatsu_junbi"
+        "text": "業界と職種その違いは？",
+        "visualElements": "#業界研究・仕事研究タグ、???マーク"
       }
     },
     "page2": {
-      "pageNumber": "2/5",
+      "section": "mainContent",
       "content": {
         "title": "業界と職種の違いは？",
         "mainText": "「職種」は「業界」や「業種」と混同されやすい概念の一つです。業界が企業を産業ごとに分類したものであるのに対し、職種は仕事の内容によって分類したもので、代表的な例としては研究職・営業職・事務職などがあります。（業種は提供する商品やサービスによって業界をさらに細かく分類したものです）同じ職種であっても属する業界や企業によって業務内容に違いが生じることもあるため、就活準備においては各企業の具体的な仕事内容を確認しておくことがとても重要です。また、日本では「総合職」として入社時に職種を限定せず、多くの職種を経験するケースが多いことも知っておきましょう。",
@@ -80,7 +77,7 @@
       }
     },
     "page3": {
-      "pageNumber": "3/5",
+      "section": "mainContent",
       "content": {
         "title": "代表的な職種と働く業界",
         "intro": "職種にはどのような種類があるのか？ここでは代表的な職種と主に働く業界について見てみましょう。",
@@ -114,7 +111,7 @@
       }
     },
     "page4": {
-      "pageNumber": "4/5",
+      "section": "summary",
       "content": {
         "title": "代表的な職種と働く業界（つづき）",
         "jobCategories": [
@@ -144,27 +141,6 @@
           }
         ],
         "source": "出典：マイナビSTART「各業界にはどんな職種がある？」より"
-      }
-    },
-    "page5": {
-      "pageNumber": "5/5",
-      "content": {
-        "mainText": "その他の投稿やマイナビ2027はプロフィールからチェック！",
-        "checkPrompt": "ほかの投稿もCHECK",
-        "profileHighlight": {
-          "title": "就活準備 100問",
-          "greenBadge": "#活動状況レポート",
-          "profileText": "21/26卒あわせて約50万人が愛用した 大学1,2年生のキャリア意識調査",
-          "accountInfo": "マイナビ"
-        },
-        "leftCTA": {
-          "text": "ここをTAPしてプロフィールへ",
-          "icon": "○"
-        },
-        "rightCTA": {
-          "text": "気になった投稿は□",
-          "icon": "↓"
-        }
       }
     }
   }

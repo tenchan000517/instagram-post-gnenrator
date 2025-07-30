@@ -65,76 +65,72 @@
   ],
   "marketingStage": "IT初心者〜中級者、教員、業務効率化を求める会社員",
   "knowledgeId": "K104",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-07-item-list",
   "actualTitle": "もっと使おう！QRコードこんな使い方！",
-  "pageCount": 11,
-  "hashTag": "#QRコード #働き方改革 #便利 #教員 #ICT活用",
+  "pageCount": 9,
   "detailedContent": {
     "page1": {
-      "role": "タイトルページ",
-      "content": "知らなきゃ損！もっと使おう！QRコードこんな使い方！おすすめ機種PC 5選",
-      "background": "PC画面写真背景",
-      "elements": "QRコードイラスト、PCアイコン、ページ数1/10"
-    },
-    "page2": {
       "role": "活用法1: サイト活用",
+      "section": "introduction",
       "content": "このサイトを活用 - QRコード作成サイトの基本的な使い方、URLを入力してQRコード作成",
       "background": "PC画面背景",
       "elements": "実際のGoogle検索画面、QRコード作成画面キャプチャ"
     },
-    "page3": {
+    "page2": {
       "role": "活用法2: デザインQRコード",
+      "section": "mainContent",
       "content": "アイコン・文字入れ - 個性が出るデザインQRコードで見やすさと楽しさをプラス",
       "background": "PC画面背景",
       "elements": "アイコン・文字入れ画面キャプチャ、手順番号表示"
     },
-    "page4": {
+    "page3": {
       "role": "活用法3: メール作成",
+      "section": "mainContent",
       "content": "メール作成用QRコード - よく使うメールをQRコード化して即時作成可能、テンプレート化",
       "background": "PC画面背景",
       "elements": "メール作成画面キャプチャ、完成QRコード表示"
     },
-    "page5": {
+    "page4": {
       "role": "活用法4: おまとめQR",
+      "section": "mainContent",
       "content": "おまとめQR - 複数サイトを一つにまとめて整理されたQRコードで便利に共有",
       "background": "PC画面背景",
       "elements": "複数URL入力画面、キャラクターイラスト"
     },
-    "page6": {
+    "page5": {
       "role": "活用法5: 自由テキスト",
+      "section": "mainContent",
       "content": "自由テキスト - よく使う文章もQRコードとして保存、紙で持っておきたいときにおすすめ",
       "background": "PC画面背景",
       "elements": "テキスト入力画面キャプチャ、キャラクターイラスト"
     },
-    "page7": {
+    "page6": {
       "role": "活用法6: 可変QRコード",
+      "section": "mainContent",
       "content": "可変QRコード - 本来リンクは後から変更できないが、可変型なら紐付け変更可能",
       "background": "PC画面背景",
       "elements": "URL入力・パスワード設定画面キャプチャ"
     },
-    "page8": {
-      "role": "活用法6: 可変QRコード（変更方法）",
-      "content": "可変QRコード（変更方法） - 先ほどのアドレスとパスワードでURL変更可能、保存必須",
-      "background": "PC画面背景",
-      "elements": "変更画面キャプチャ、手順説明"
-    },
-    "page9": {
+    "page7": {
       "role": "活用法7: アドレス帳登録",
+      "section": "mainContent",
       "content": "アドレス帳登録用 - 連絡先交換がスムーズになるQRコードで便利、1つ持っておくと便利",
       "background": "PC画面背景",
       "elements": "アドレス帳情報入力画面、キャラクターイラスト"
     },
-    "page10": {
+    "page8": {
       "role": "関連投稿・プロフィール紹介",
+      "section": "mainContent",
       "content": "ICTについてを発信中 - 人気な投稿、教員・学校でのICT活用方法について発信",
       "background": "PC画面背景",
       "elements": "過去投稿3つのサムネイル、フォロー促進"
     },
-    "page11": {
-      "role": "目次・キャプション",
-      "content": "目次（1-7の活用法一覧）、教員8年目の中学校教師プロフィール、ハッシュタグ",
+    "page9": {
+      "role": "目次・まとめ",
+      "section": "summary",
+      "content": "目次（1-7の活用法一覧）、教員8年目の中学校教師プロフィール",
       "background": "白色",
-      "elements": "7つの活用法まとめ、自己紹介、ハッシュタグ"
+      "elements": "7つの活用法まとめ、自己紹介"
     }
   }
 }

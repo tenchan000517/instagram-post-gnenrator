@@ -9,7 +9,7 @@ import masterRelations from '../../data/knowledgeBase/type-target-persona-relati
 export interface TypeTargetPersonaRelations {
   typeToTargets: Record<string, string[]>
   targetToPersonas: Record<string, string[]>
-  personaToKnowledge: Record<string, string>
+  personaToKnowledge: Record<string, string[]>
 }
 
 export class MasterDataService {
@@ -103,7 +103,17 @@ export class MasterDataService {
    * @returns 対応するナレッジID (K001-K109), 見つからない場合null
    */
   static getKnowledgeIdForPersona(personaId: string): string | null {
-    return this.relations.personaToKnowledge[personaId] || null
+    const knowledgeIds = this.relations.personaToKnowledge[personaId]
+    return knowledgeIds && knowledgeIds.length > 0 ? knowledgeIds[0] : null
+  }
+
+  /**
+   * ペルソナIDから全ナレッジID配列を取得
+   * @param personaId ペルソナID (P001-P109)
+   * @returns 対応するナレッジID配列
+   */
+  static getAllKnowledgeIdsForPersona(personaId: string): string[] {
+    return this.relations.personaToKnowledge[personaId] || []
   }
 
   /**

@@ -59,53 +59,31 @@
   ],
   "marketingStage": "就活中の学生、効率化ツールを探している段階",
   "knowledgeId": "K084",
-  "pageStructurePattern": "",
-  "actualTitle": "就活力が爆上がりするAIツール",
+  "pageStructurePattern": "unified-template-07-item-list",
+  "actualTitle": "就活力が爆上がりするAIツール9選",
   "pageCount": 2,
-  "hashTag": "",
   "detailedContent": {
     "page1": {
-      "pageNumber": "1/2",
-      "role": "タイトル・導入",
-      "content": {
-        "mainTitle": "今日の一句",
-        "subTitle": "就活力が爆上がりするAIツール",
-        "bodyText": "",
-        "visualElements": [
-          "MEMOタイトル",
-          "ノート帳のスパイラル部分",
-          "ベージュ色の背景",
-          "メモ帳風のデザイン",
-          "赤文字での「就活力」「AIツール」強調"
-        ]
-      }
+      "section": "introduction",
+      "title": "就活力が爆上がりするAIツール9選",
+      "content": "就活を効率化し、他の学生と差をつけるためのAIツールをまとめました。企業研究から資料作成、タスク管理まで、各段階で活用できるツールを厳選してご紹介します。これらのツールを使いこなして、就活を有利に進めましょう。",
+      "imageSrc": "/misaki_study.png"
     },
     "page2": {
-      "pageNumber": "2/2", 
-      "role": "ツールリスト提示",
-      "content": {
-        "mainTitle": "就活力爆上げツール",
-        "subTitle": "",
-        "bodyText": "",
-        "listItems": [
-          "☑ Genspark = 企業研究",
-          "☑ v0 = スライドの自動生成",
-          "☑ Gemini = データ分析",
-          "☑ Mapify = 情報の自動整理",
-          "☑ Gladia = 自動文字起こし",
-          "☑ Nolang = サイトの動画化",
-          "☑ Napkin AI = 図解生成",
-          "☑ 3秒敬語 = メール作成",
-          "☑ Notion = タスク管理"
-        ],
-        "visualElements": [
-          "チェックボックス付きリスト",
-          "赤文字でのツール名強調",
-          "手書きペンを持つ手の写真",
-          "ノート風の罫線",
-          "ベージュ色の背景"
-        ]
-      }
+      "section": "item_list",
+      "title": "厳選AIツール一覧",
+      "items": [
+        "Genspark：企業研究を効率化する情報収集ツール",
+        "v0：プレゼンテーションスライドの自動生成",
+        "Gemini：データ分析と洞察の抽出",
+        "Mapify：収集した情報の自動整理と可視化",
+        "Gladia：面接や説明会の自動文字起こし",
+        "Nolang：企業サイトの動画化で理解促進",
+        "Napkin AI：図解生成でわかりやすい資料作成",
+        "3秒敬語：正しい敬語でのメール作成支援",
+        "Notion：就活タスクの効率的な管理"
+      ],
+      "imageSrc": "/team_work.png"
     }
   }
 }

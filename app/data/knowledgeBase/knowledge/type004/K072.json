@@ -44,58 +44,121 @@
   ],
   "marketingStage": "ビジネスパーソン・AI初心者〜中級者・効率化を求める人",
   "knowledgeId": "K072",
-  "pageStructurePattern": "",
-  "actualTitle": "モバイルAI推奨✨",
-  "pageCount": 3,
-  "hashTag": "モバイルAIアプリケーション推奨",
+  "pageStructurePattern": "unified-template-04-item-grid",
+  "actualTitle": "厳選AI生産性ツール18選",
+  "pageCount": 4,
   "detailedContent": {
     "page1": {
-      "role": "主要AIツール紹介とカテゴリ別整理",
-      "layout": "3x3グリッドレイアウト",
-      "content": {
-        "header": "モバイルAI推奨✨",
-        "categories": {
-          "万能AI": ["ChatGPT", "Genspark", "Perplexity"],
-          "資料作成": ["Liner", "Claude", "Suno"],
-          "会議録作成": ["Notion", "Recraft", "Grok"]
-        },
-        "visualElements": "各ツールの公式アイコンと矢印による使用方向指示"
-      }
+      "section": "introduction",
+      "title": "厳選AI生産性ツール18選",
+      "subtitle": "仕事効率を劇的に向上させる実用AIツール",
+      "content": "ビジネスで実際に使える高品質なAIツールのみを厳選しました。対話・検索系から資料作成、効率化まで、用途別に整理してご紹介します。"
     },
     "page2": {
-      "role": "包括的なAI生産性ツールリスト",
-      "layout": "カテゴリ別リスト形式",
-      "content": {
-        "header": "AI PRODUCTIVITY TOOLS",
-        "categories": {
-          "AI CHATBOTS": ["ChatGPT", "Claude", "DeepSeek", "Gemini", "Grok", "Meta AI", "MS Copilot", "Perplexity"],
-          "AI PRESENTATION": ["Beautiful.AI", "Gamma", "Pitch", "Plus", "PopAi", "Presentation.Ai", "Slidesgo", "Tome"],
-          "AI CODING ASSISTANCE": ["Askcode", "Codiqa", "Cursor", "GitHub Copilot", "Qodo", "Replit", "Tabnine"],
-          "AI EMAIL ASSISTANCE": ["Clippit.Ai", "Friday", "Mailmaestro", "Shortwave", "Superhuman"],
-          "AI IMAGE GENERATION": ["Adobe Firefly", "DALL-E", "FLUX.1", "Ideogram", "Midjourney", "Recraft", "StableDiffusion"],
-          "AI SPREADSHEET": ["Bricks", "Formula Bot", "Gigasheet", "Rows", "SheetAI"],
-          "AI MEETING NOTES": ["Avoma", "Equal Time", "Fathom", "Fellow.App", "Fireflies", "Krisp", "Otter"],
-          "AI WORKFLOW AUTOMATION": ["Integrately", "Make", "Monday.Com", "N8n", "Pabbly", "Zapier"],
-          "AI WRITING GENERATION": ["Copy.ai", "Grammarly", "Jasper", "Jarvis", "Quarkle", "Quillbot", "Rytr", "Sudowrite", "Writesonic"],
-          "AI SCHEDULING": ["Calendly", "Clockwise", "Motion", "Reclaim AI", "Task Magic", "Trevor AI"],
-          "AI GRAPHIC DESIGN": ["AutoDraw", "Canva", "Design.Com", "Framer", "Microsoft Designer", "Ulizard"],
-          "AI KNOWLEDGE MANAGEMENT": ["Mem", "Notion", "Tettra"],
-          "AI VIDEO GENERATION": ["Descript", "Haiper AI", "InVideo AI", "Kling", "Kreo AI", "LTX Studio", "Luma AI", "Pika AI", "Runway", "Sora"],
-          "AI DATA VISUALIZATION": ["Deckpilot", "Flourish", "Julius", "Visme", "Zing Data"]
+      "section": "mainContent",
+      "title": "対話・検索系AIツール",
+      "items": [
+        {
+          "name": "ChatGPT",
+          "description": "最も有名な対話AI。文章作成、アイデア発想、問題解決に幅広く活用できます。",
+          "imageSrc": "/imag/ai/ChatGPT-Logo.png",
+          "imageAlt": "ChatGPTロゴ"
         },
-        "creditInfo": "Techie Programmer ©2025"
-      }
+        {
+          "name": "Claude",
+          "description": "Anthropic社が開発した高性能AI。長文の理解や詳細な分析に優れています。",
+          "imageSrc": "/imag/ai/claude-ai-icon.png",
+          "imageAlt": "Claudeアイコン"
+        },
+        {
+          "name": "Gemini",
+          "description": "Googleが開発したマルチモーダルAI。テキスト、画像、音声を統合的に処理できます。",
+          "imageSrc": "/imag/ai/Google-Gemini-1.png",
+          "imageAlt": "Geminiロゴ"
+        },
+        {
+          "name": "Perplexity",
+          "description": "AI搭載の次世代検索エンジン。リアルタイム情報を根拠付きで提供します。",
+          "imageSrc": "/imag/ai/perplexity.png",
+          "imageAlt": "Perplexityロゴ"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "description": "Microsoftが提供するAIアシスタント。Officeアプリとの連携で業務効率を大幅向上。",
+          "imageSrc": "/imag/ai/copilot.png",
+          "imageAlt": "Microsoft Copilotロゴ"
+        },
+        {
+          "name": "NotebookLM",
+          "description": "Googleのメモ管理AI。ドキュメントをアップロードして内容を分析・要約できます。",
+          "imageSrc": "/imag/ai/NotebookLM_logo.png",
+          "imageAlt": "NotebookLMロゴ"
+        }
+      ]
     },
     "page3": {
-      "role": "60個のAIツールの全体俯瞰",
-      "layout": "円形ダイアグラム",
-      "content": {
-        "header": "60 AI TOOLS",
-        "centerCategories": ["Marketing", "Video Creation", "Programming", "Productivity", "Design", "Sales"],
-        "toolsArrangement": "カテゴリ別に円周上に配置された60個のAIツール",
-        "visualStructure": "中央にカテゴリ、外周にツールアイコンの同心円構造",
-        "creditInfo": "ai_tech_pro, ai_creation_lab"
-      }
+      "section": "mainContent",
+      "title": "資料作成系AIツール",
+      "items": [
+        {
+          "name": "Gamma",
+          "description": "AIが自動でプレゼンテーションを作成。テキストを入力するだけで美しいスライドが完成します。",
+          "imageSrc": "/imag/ai/gamma.png",
+          "imageAlt": "Gammaロゴ"
+        },
+        {
+          "name": "Adobe Firefly",
+          "description": "AdobeのAI画像生成ツール。テキストから高品質な画像やグラフィックを生成できます。",
+          "imageSrc": "/imag/ai/Adobe_Firefly_Logo.png",
+          "imageAlt": "Adobe Fireflyロゴ"
+        },
+        {
+          "name": "Canva AI",
+          "description": "CanvaにAI機能が統合。デザインの自動生成や素材の推奨で効率的な作業を実現。"
+        },
+        {
+          "name": "Beautiful.AI",
+          "description": "AIがデザインルールを自動適用。美しいプレゼンテーションを簡単に作成できます。"
+        },
+        {
+          "name": "Tome",
+          "description": "AIパワードのストーリーテリングツール。インタラクティブなプレゼンテーションを作成。"
+        },
+        {
+          "name": "Framer",
+          "description": "AIアシスト付きのWebデザインツール。コード不要でプロフェッショナルなWebサイトを作成。"
+        }
+      ]
+    },
+    "page4": {
+      "section": "mainContent",
+      "title": "効率化・Automation系AIツール",
+      "items": [
+        {
+          "name": "Zapier",
+          "description": "AIを使ったワークフロー自動化ツール。5000以上のアプリを連携して作業を自動化。"
+        },
+        {
+          "name": "Motion",
+          "description": "AIスケジューリングアシスタント。タスクの優先度を判断して最適なスケジュールを提案。"
+        },
+        {
+          "name": "Grammarly",
+          "description": "AIライティングアシスタント。文法チェックから文体改善まで幅広くサポート。"
+        },
+        {
+          "name": "Otter.ai",
+          "description": "AI文字起こし・会議録作成ツール。音声をリアルタイムでテキスト化し要約も生成。"
+        },
+        {
+          "name": "Calendly",  
+          "description": "AI搭載のスケジュール管理ツール。最適な打ち合わせ時間を自動提案して効率化。"
+        },
+        {
+          "name": "Notion AI",
+          "description": "NotionにAI機能が統合。ドキュメント作成、要約、翻訳などをシームレスに実行。"
+        }
+      ]
     }
   }
 }

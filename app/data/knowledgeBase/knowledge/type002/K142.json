@@ -4,8 +4,6 @@
   "problemDescription": "仕事で疲弊してしまう・一人で抱え込んで疲れてしまう",
   "postType": "002",
   "postTypeReason": "働き方改善のための実践的ノウハウ伝授型コンテンツ。12個のNG習慣とその改善方法を具体的に提供する",
-  "targetIds": ["T009", "T010"],
-  "targetReason": "働き方改善・ワークライフバランススキルは男女を問わず社会人全般に必要な汎用スキル",
   "solutionContent": {
     "概要": "仕事で疲弊する12個のNG習慣を認識し、健康的で効率的な働き方に改善する実践的方法",
     "具体的手順": [
@@ -62,7 +60,7 @@
   ],
   "marketingStage": "働き方改善段階（ワークライフバランス改善・効率化時期）",
   "knowledgeId": "K142",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "",
   "actualTitle": "仕事で疲弊 NG習慣",
   "pageCount": 9,
   "detailedContent": {

@@ -1,78 +1,86 @@
 {
-  "id": "K088",
-  "title": "ショートカットキー完全ガイド",
-  "description": "パソコン作業効率化のための基本から応用までのショートカットキーを体系的に紹介する実用投稿",
-  "category": "実用ガイド",
-  "tags": ["ショートカットキー", "PC効率化", "作業効率", "学習支援", "実用スキル", "パソコンスキル"],
-  "structure": {
-    "type": "practical_guide",
-    "format": "carousel", 
-    "pages": 6,
-    "flow": "cover_categories → concept_explanation → basic_shortcuts → text_formatting → excel_advanced → follow_promotion"
-  },
-  "content_analysis": {
-    "practical_value": "immediately_applicable_skills",
-    "difficulty_progression": "basic_to_advanced_structure",
-    "learning_approach": "category_based_organization",
-    "use_case_coverage": "student_to_professional"
-  },
-  "visual_elements": {
-    "color_scheme": "blue_teal_gradient_consistent",
-    "layout_style": "rounded_box_information_cards", 
-    "visual_aids": "actual_pc_screenshots_keyboards",
-    "information_density": "high_but_organized"
-  },
-  "engagement_factors": {
-    "save_worthiness": "保存必須_clear_value_proposition",
-    "immediate_utility": "actionable_keyboard_combinations",
-    "comprehensive_coverage": "basic_to_advanced_progression",
-    "personal_connection": "real_experience_sharing"
-  },
-  "posting_context": {
-    "account": "run20020000",
-    "target_audience": "high_school_university_students",
-    "brand_context": "magazine_publishing_run_magazine",
-    "post_date": "2023年6月9日",
-    "related_promotion": "RUN_MAGAZINE_VOL2_waseda_festival"
-  },
-  "shortcut_categories": {
-    "frequently_used": {
-      "copy": "Ctrl(command)+C",
-      "undo": "Ctrl(command)+Z", 
-      "cut": "Ctrl+X",
-      "select_all": "Ctrl+A",
-      "find": "Ctrl+F",
-      "screenshot": "Ctrl+shift+F"
-    },
-    "text_formatting": {
-      "bold": "Ctrl(command)+B",
-      "italic": "Ctrl(command)+I",
-      "underline": "Ctrl+U",
-      "strikethrough": "Alt+Shift+5"
-    },
-    "excel_specific": {
-      "save": "Ctrl+S",
-      "format_cells": "Ctrl+1",
-      "print": "Ctrl+P", 
-      "create_table": "Ctrl+T",
-      "today_date": "Ctrl+;",
-      "current_time": "Ctrl+:"
-    }
-  },
-  "use_cases_mentioned": [
-    "大学レポート",
-    "エクセル使用時",
-    "プレゼン準備", 
-    "パソコンを使う仕事",
-    "就活",
-    "雑誌制作"
-  ],
+  "source": "contents-088",
+  "problemCategory": "有益情報",
+  "problemDescription": "パソコン作業を効率化するショートカットキーを知りたい、作業時間を短縮したい",
   "postType": "004",
-  "content_effectiveness": {
-    "practical_applicability": 10,
-    "information_comprehensiveness": 9,
-    "visual_organization": 8,
-    "learning_structure": 9,
-    "overall_score": 9.0
+  "postTypeReason": "パソコン作業効率化のための実用的なショートカットキーを体系的に紹介する実務的な情報提供型コンテンツのため",
+  "solutionContent": {
+    "概要": "基本から応用までのショートカットキーを体系的に紹介する実用ガイド",
+    "具体的手順": [
+      "頻繁に使用するショートカットキーから覚える",
+      "文字装飾のショートカットキーを習得する",
+      "Excel特有の便利なショートカットキーを使いこなす"
+    ],
+    "提供情報": [
+      "頻繁に使うショートカットキー（コピー、アンドゥ、カット、全選択、検索、スクリーンショット）",
+      "文字装飾ショートカットキー（太字、斜体、下線、取り消し線）",
+      "Excel専用ショートカットキー（保存、セル書式設定、印刷、テーブル作成、今日の日付、現在時刻）"
+    ],
+    "実用的なアドバイス": [
+      "大学レポート作成時に時間短縮効果大",
+      "エクセル使用時の作業効率が劇的に向上",
+      "プレゼン準備や就活資料作成で差をつけられる"
+    ]
+  },
+  "effectiveExpressions": [
+    "保存必須のショートカットキー",
+    "作業効率化の決定版",
+    "体系的なカテゴリ分け",
+    "実際のキーボード画面での説明",
+    "青色グラデーションの統一感あるデザイン"
+  ],
+  "searchKeywords": [
+    "ショートカットキー",
+    "PC効率化",
+    "作業効率",
+    "パソコンスキル",
+    "Excel",
+    "文字装飾",
+    "コピー",
+    "アンドゥ",
+    "保存",
+    "実用スキル"
+  ],
+  "emotionalTriggers": [
+    "作業時間の大幅短縮",
+    "効率的なパソコン操作",
+    "スキルアップによる自信向上"
+  ],
+  "marketingStage": "学生・社会人、パソコン作業を効率化したい段階",
+  "knowledgeId": "K088",
+  "pageStructurePattern": "unified-template-08-section-blocks",
+  "actualTitle": "保存必須ショートカットキー完全ガイド",
+  "pageCount": 4,
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "content": {
+        "mainTitle": "保存必須ショートカットキー",
+        "subTitle": "基本から応用まで完全ガイド",
+        "bodyText": "パソコン作業効率化のための必須ショートカットキーを体系的に紹介。大学レポート、エクセル作業、プレゼン準備で差をつけよう！",
+        "imageSrc": "/misaki_work.png"
+      }
+    },
+    "page2": {
+      "section": "section_blocks",
+      "content": {
+        "title": "基本操作ショートカット",
+        "content": "日常的に最もよく使用する6つの基本ショートカットです。\n\nコピー: Ctrl(command)+C\nアンドゥ: Ctrl(command)+Z\nカット: Ctrl+X\n全選択: Ctrl+A\n検索: Ctrl+F\nスクリーンショット: Ctrl+shift+F\n\nこれらを覚えるだけで、パソコン作業の効率が大幅に向上します。"
+      }
+    },
+    "page3": {
+      "section": "section_blocks",
+      "content": {
+        "title": "文字装飾ショートカット",
+        "content": "レポートや資料作成時に文字装飾を素早く行うためのショートカットです。\n\n太字: Ctrl(command)+B\n斜体: Ctrl(command)+I\n下線: Ctrl+U\n取り消し線: Alt+Shift+5\n\nこれらを使いこなすことで、文書作成時の装飾作業が効率化されます。"
+      }
+    },
+    "page4": {
+      "section": "section_blocks",
+      "content": {
+        "title": "Excel専用ショートカット",
+        "content": "Excel作業で特に役立つ専用ショートカットです。これらを覚えることでExcel作業が飛躍的に効率化されます。\n\n保存: Ctrl+S\nセル書式設定: Ctrl+1\n印刷: Ctrl+P\nテーブル作成: Ctrl+T\n今日の日付: Ctrl+;\n現在時刻: Ctrl+:\n\n特にテーブル作成や日付・時刻入力は知らないと损する機能です。"
+      }
+    }
   }
 }

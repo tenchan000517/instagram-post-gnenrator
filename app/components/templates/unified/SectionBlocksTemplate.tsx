@@ -11,6 +11,7 @@ interface SectionBlock {
   name: string;
   content: string | string[];
   image?: string;
+  footerText?: string;
 }
 
 interface SectionBlocksData extends TemplateData {

@@ -50,62 +50,66 @@
   ],
   "marketingStage": "就活中の大学3-4年生、AIツールの活用方法を模索している段階",
   "knowledgeId": "K081",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-07-item-list",
   "actualTitle": "就活で使うべきオススメAIツール",
   "pageCount": 3,
-  "hashTag": "",
   "detailedContent": {
     "page1": {
-      "pageNumber": "1/4",
-      "role": "タイトル・導入",
-      "content": {
-        "mainTitle": "🔥就活で使うべきオススメAIツール🔥",
-        "subTitle": "",
-        "bodyText": "",
-        "visualElements": [
-          "会議室の背景写真（木目テーブル、オレンジ色の椅子）",
-          "白い角丸長方形のテキストボックス",
-          "火の絵文字によるタイトル強調"
-        ]
-      }
+      "section": "introduction",
+      "title": "就活で使うべきオススメAIツール",
+      "content": "就活を効率化し、質の高いエントリーシートや面接対策を行うために活用できるAIツールを8つご紹介します。これらのツールを使って、他の就活生と差をつけましょう。"
     },
     "page2": {
-      "pageNumber": "2/4",
-      "role": "ツールリスト提示",
-      "content": {
-        "mainTitle": "",
-        "subTitle": "",
-        "bodyText": "",
-        "listItems": [
-          "AI就活サポたくん",
-          "就活AI",
-          "３秒敬語",
-          "Bing AI",
-          "Chat GPT",
-          "就活秘書",
-          "ES Maker",
-          "SmartES"
-        ],
-        "visualElements": [
-          "赤色背景の角丸長方形",
-          "白文字のリスト形式",
-          "白い丸（●）のリストマーカー"
-        ]
-      }
+      "section": "mainContent",
+      "title": "就活に役立つAIツール8選",
+      "items": [
+        {
+          "name": "AI就活サポたくん",
+          "description": "就活全般をAIがサポートするオールインワンツール"
+        },
+        {
+          "name": "就活AI",
+          "description": "エントリーシートの作成から面接対策まで幅広く支援"
+        },
+        {
+          "name": "３秒敬語",
+          "description": "ビジネス敬語を瞬時に変換・チェックできるツール"
+        },
+        {
+          "name": "Bing AI",
+          "description": "企業研究や業界分析に活用できるAI検索エンジン"
+        },
+        {
+          "name": "Chat GPT",
+          "description": "自己分析やES作成の壁打ち相手として優秀"
+        },
+        {
+          "name": "就活秘書",
+          "description": "就活スケジュール管理とタスク整理をAIが支援"
+        },
+        {
+          "name": "ES Maker",
+          "description": "エントリーシート作成に特化したAIライティングツール"
+        },
+        {
+          "name": "SmartES",
+          "description": "ES添削と改善提案を行うインテリジェントツール"
+        }
+      ]
     },
     "page3": {
-      "pageNumber": "3/4",
-      "role": "まとめ・注意事項",
-      "content": {
-        "mainTitle": "まとめ",
-        "subTitle": "",
-        "bodyText": "これらのツールを利用したのちキャリアセンターの教員やエージェント会社のカウンセラーに最終確認してもらう方法がベスト！",
-        "visualElements": [
-          "赤色背景の「まとめ」ヘッダー",
-          "白背景の角丸長方形テキストボックス",
-          "黒文字での注意事項記載"
-        ]
-      }
+      "section": "mainContent",
+      "title": "AIツール活用時の重要なポイント",
+      "items": [
+        {
+          "name": "最終確認は人間が行う",
+          "description": "ツールを利用した後は、必ずキャリアセンターの教員やエージェント会社のカウンセラーに最終確認してもらいましょう"
+        },
+        {
+          "name": "複数ツールの組み合わせ",
+          "description": "各ツールの特徴を理解し、目的に応じて使い分けることで効果を最大化できます"
+        }
+      ]
     }
   }
 }

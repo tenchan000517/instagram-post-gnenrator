@@ -68,9 +68,7 @@
   ],
   "marketingStage": "スキルアップ・自己学習段階（学習効率向上を求める時期）",
   "knowledgeId": "K143",
-  "targetIds": ["T007", "T009", "T010"],
-  "targetReason": "記憶法は学習・スキルアップの基礎として就活生・女性・男性すべてに共通して必要なスキル",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "",
   "actualTitle": "1日10分で差がつく最強の記憶法",
   "pageCount": 7,
   "detailedContent": {

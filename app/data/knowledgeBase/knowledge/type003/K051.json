@@ -59,24 +59,13 @@
   ],
   "marketingStage": "転職検討中・キャリアチェンジを考えている社会人、新卒で職業選択に悩む学生",
   "knowledgeId": "K051",
-  "pageStructurePattern": "typeID003-industry-ranking-list",
+  "pageStructurePattern": "",
   "actualTitle": "意外と知らない 休日が多くて稼げる仕事 9選",
-  "pageCount": 9,
-  "hashTag": "#仕事 #退職 #転職について毎日発信",
+  "pageCount": 10,
   "detailedContent": {
     "page1": {
-      "type": "title",
-      "content": {
-        "mainTitle": "意外と知らない",
-        "subTitle": "休日が多くて稼げる仕事",
-        "highlight": "9選",
-        "background": "ベージュ系グラデーション背景",
-        "personImage": "マスク着用女性のポーズ写真",
-        "pageIndicator": "1/9"
-      }
-    },
-    "page2": {
-      "type": "problem-identification",
+      "role": "problem-identification",
+      "section": "introduction",
       "content": {
         "header": "できれば休日はしっかりとりたい",
         "question": "あなたはこんなことない？",
@@ -87,11 +76,11 @@
         ],
         "illustration": "悩んでいる女性のイラスト",
         "ctaText": "そんな条件を叶えてくれるお仕事はコレ！",
-        "pageIndicator": "2/9"
       }
     },
-    "page3": {
-      "type": "job-introduction",
+    "page2": {
+      "role": "job-introduction",
+      "section": "mainContent",
       "content": {
         "pointNumber": "1",
         "jobTitle": "ITエンジニア",
@@ -99,11 +88,11 @@
         "averageIncome": "438万円",
         "averageHolidays": "125日",
         "description": "ただしプロジェクトの納期やトラブル対応などによって休日出勤が必要になることも。",
-        "pageIndicator": "3/9"
       }
     },
-    "page4": {
-      "type": "job-introduction",
+    "page3": {
+      "role": "job-introduction",
+      "section": "mainContent",
       "content": {
         "pointNumber": "2",
         "jobTitle": "銀行員",
@@ -111,11 +100,11 @@
         "averageIncome": "608万円", 
         "averageHolidays": "120日",
         "description": "休みはほぼカレンダー通りで休日出勤はほぼなし。",
-        "pageIndicator": "4/9"
       }
     },
-    "page5": {
-      "type": "job-introduction",
+    "page4": {
+      "role": "job-introduction",
+      "section": "mainContent",
       "content": {
         "pointNumber": "3",
         "jobTitle": "MR",
@@ -123,11 +112,11 @@
         "averageIncome": "713万円",
         "averageHolidays": "133日", 
         "description": "年収も高い分、高い専門知識は必要。",
-        "pageIndicator": "5/9"
       }
     },
-    "page6": {
-      "type": "job-introduction", 
+    "page5": {
+      "role": "job-introduction",
+      "section": "mainContent", 
       "content": {
         "pointNumber": "4",
         "jobTitle": "コンサルタント",
@@ -135,11 +124,11 @@
         "averageIncome": "575万円",
         "averageHolidays": "122日",
         "description": "激務のコンサルタントもあるので求人をしっかり見極めることは重要。",
-        "pageIndicator": "6/9"
       }
     },
-    "page7": {
-      "type": "job-introduction",
+    "page6": {
+      "role": "job-introduction",
+      "section": "mainContent",
       "content": {
         "pointNumber": "5",
         "jobTitle": "企画職",
@@ -147,11 +136,11 @@
         "averageIncome": "529万円",
         "averageHolidays": "127日",
         "description": "企画職はどの企業も少数精鋭の組織体制を取っていることもあって、平均年収は高めに。",
-        "pageIndicator": "7/9"
       }
     },
-    "page8": {
-      "type": "job-introduction",
+    "page7": {
+      "role": "job-introduction",
+      "section": "mainContent",
       "content": {
         "pointNumber": "6", 
         "jobTitle": "機電系エンジニア",
@@ -159,11 +148,11 @@
         "averageIncome": "444万円",
         "averageHolidays": "130日",
         "description": "電子部品や機械製品の開発や製造を行うお仕事。",
-        "pageIndicator": "8/9"
       }
     },
-    "page9": {
-      "type": "job-introduction",
+    "page8": {
+      "role": "job-introduction",
+      "section": "mainContent",
       "content": {
         "pointNumber": "7",
         "jobTitle": "研究職", 
@@ -171,11 +160,11 @@
         "averageIncome": "565万円",
         "averageHolidays": "134日",
         "description": "専門性が高く、平均年収もそれに応じて高めに。",
-        "pageIndicator": "9/9"
       }
     },
-    "page10": {
-      "type": "job-introduction",
+    "page9": {
+      "role": "job-introduction",
+      "section": "mainContent",
       "content": {
         "pointNumber": "8",
         "jobTitle": "大学職員",
@@ -183,11 +172,11 @@
         "averageIncome": "442万円",
         "averageHolidays": "120日",
         "description": "国公立大学か私立大学かによって待遇や仕事内容が変わることが多い。",
-        "pageIndicator": "10/9"
       }
     },
-    "page11": {
-      "type": "job-introduction",
+    "page10": {
+      "role": "job-summary",
+      "section": "summary",
       "content": {
         "pointNumber": "9", 
         "jobTitle": "営業職",
@@ -195,11 +184,8 @@
         "averageIncome": "435万円",
         "averageHolidays": "124日",
         "description": "求人をしっかり見極めれば、休日がしっかりあって年収が高めのお仕事も○",
-        "pageIndicator": "11/9"
       }
-    },
-    "page12": {
-      "type": "summary",
+    }
       "content": {
         "pointNumber": "10",
         "title": "休みが多くて稼げる仕事の特徴",
@@ -211,19 +197,5 @@
         "advice": "まずは自己分析をして自分の強みや弱みを理解するところから始めてみて○",
         "highlight": "ハイライトに自己分析法もまとめてるよ",
         "toolIcons": ["3分自己分析", "事務転職", "未経験転職", "キャリア○", "仕事探し"],
-        "pageIndicator": "12/9"
-      }
-    },
-    "page13": {
-      "type": "cta",
-      "content": {
-        "message": "仕事/退職/転職について毎日発信",
-        "subMessage": "悩んでる方はフォローしてね",
-        "profilePreview": "Instagramアカウントプレビュー表示",
-        "highlight": "ハイライトでは悩みの解決策もまとめてるよ",
-        "storyNote": "ストーリーではフォロワーさん限定情報も発信〜",
-        "pageIndicator": "13/9"
-      }
-    }
   }
 }

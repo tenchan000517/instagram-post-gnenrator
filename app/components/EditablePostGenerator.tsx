@@ -862,6 +862,380 @@ FIND to DO(@find_to_do)では
               </div>
             )}
 
+            {/* Unified Templates専用エディタ */}
+            {(
+              page.templateType === 'simple_intro' ||
+              page.templateType === 'dual_section' ||
+              page.templateType === 'ranking_display' ||
+              page.templateType === 'item_grid' ||
+              page.templateType === 'comparison' ||
+              page.templateType === 'company_detail' ||
+              page.templateType === 'item_list' ||
+              page.templateType === 'section_blocks' ||
+              page.templateType === 'dynamic_boxes' ||
+              page.templateType === 'image_point'
+            ) && (
+              <div className="border-t pt-6 mt-6">
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <h4 className="text-lg font-semibold text-blue-800 mb-3">統一テンプレート編集</h4>
+                  <p className="text-blue-700 mb-4">テンプレートタイプ: {page.templateType}</p>
+                  
+                  <div className="space-y-6">
+                    {/* 基本フィールド */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {/* descriptionフィールド */}
+                      {page.templateData?.description !== undefined && (
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-2">説明文</label>
+                          <textarea
+                            value={page.templateData.description || ''}
+                            onChange={(e) => handlePageDataUpdate(editingPage, { description: e.target.value })}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            rows={3}
+                            placeholder="説明文を入力"
+                          />
+                        </div>
+                      )}
+                      
+                      {/* imageSrcフィールド */}
+                      {(page.templateData?.imageSrc !== undefined || page.templateData?.image !== undefined) && (
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-2">画像URL</label>
+                          <input
+                            type="text"
+                            value={page.templateData.imageSrc || page.templateData.image || ''}
+                            onChange={(e) => handlePageDataUpdate(editingPage, { 
+                              imageSrc: e.target.value,
+                              image: e.target.value 
+                            })}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="画像URLを入力"
+                          />
+                        </div>
+                      )}
+                      
+                      {/* imageAltフィールド */}
+                      {page.templateData?.imageAlt !== undefined && (
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-2">画像代替テキスト</label>
+                          <input
+                            type="text"
+                            value={page.templateData.imageAlt || ''}
+                            onChange={(e) => handlePageDataUpdate(editingPage, { imageAlt: e.target.value })}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="画像代替テキスト"
+                          />
+                        </div>
+                      )}
+
+                      {/* displayTypeフィールド (Rankingテンプレート用) */}
+                      {page.templateData?.displayType !== undefined && (
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-2">表示タイプ</label>
+                          <select
+                            value={page.templateData.displayType || 'ranking'}
+                            onChange={(e) => handlePageDataUpdate(editingPage, { displayType: e.target.value })}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          >
+                            <option value="ranking">ランキング</option>
+                            <option value="tier">Tier</option>
+                          </select>
+                        </div>
+                      )}
+
+                      {/* noteフィールド */}
+                      {page.templateData?.note !== undefined && (
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-2">注釈</label>
+                          <input
+                            type="text"
+                            value={page.templateData.note || ''}
+                            onChange={(e) => handlePageDataUpdate(editingPage, { note: e.target.value })}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="注釈を入力"
+                          />
+                        </div>
+                      )}
+
+                      {/* sourceフィールド */}
+                      {page.templateData?.source !== undefined && (
+                        <div>
+                          <label className="block text-sm font-medium text-gray-700 mb-2">出典</label>
+                          <input
+                            type="text"
+                            value={page.templateData.source || ''}
+                            onChange={(e) => handlePageDataUpdate(editingPage, { source: e.target.value })}
+                            className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="出典を入力"
+                          />
+                        </div>
+                      )}
+                    </div>
+
+                    {/* 複雑アイテム編集 (DualSection, Ranking等) */}
+                    {page.templateData?.items && (
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-3">アイテムリスト</label>
+                        <div className="space-y-4">
+                          {page.templateData.items.map((item: any, index: number) => (
+                            <div key={index} className="border border-gray-300 rounded-lg p-4 bg-white">
+                              <div className="flex justify-between items-center mb-3">
+                                <h5 className="font-medium text-gray-800">アイテム {index + 1}</h5>
+                                <button
+                                  onClick={() => {
+                                    const newItems = [...page.templateData.items]
+                                    newItems.splice(index, 1)
+                                    handlePageDataUpdate(editingPage, { items: newItems })
+                                  }}
+                                  className="text-red-500 hover:text-red-700 text-sm"
+                                >
+                                  削除
+                                </button>
+                              </div>
+                              
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                                {/* タイトル/名前 */}
+                                {(item.title !== undefined || item.name !== undefined) && (
+                                  <div>
+                                    <label className="block text-xs text-gray-600 mb-1">タイトル/名前</label>
+                                    <input
+                                      type="text"
+                                      value={item.title || item.name || ''}
+                                      onChange={(e) => {
+                                        const newItems = [...page.templateData.items]
+                                        newItems[index] = {
+                                          ...item,
+                                          title: e.target.value,
+                                          name: e.target.value
+                                        }
+                                        handlePageDataUpdate(editingPage, { items: newItems })
+                                      }}
+                                      className="w-full p-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+                                    />
+                                  </div>
+                                )}
+                                
+                                {/* 番号/ランク */}
+                                {(item.number !== undefined || item.rank !== undefined) && (
+                                  <div>
+                                    <label className="block text-xs text-gray-600 mb-1">番号/ランク</label>
+                                    <input
+                                      type="number"
+                                      value={item.number || item.rank || ''}
+                                      onChange={(e) => {
+                                        const newItems = [...page.templateData.items]
+                                        newItems[index] = {
+                                          ...item,
+                                          number: parseInt(e.target.value) || 0,
+                                          rank: parseInt(e.target.value) || 0
+                                        }
+                                        handlePageDataUpdate(editingPage, { items: newItems })
+                                      }}
+                                      className="w-full p-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+                                    />
+                                  </div>
+                                )}
+                                
+                                {/* メイン値 */}
+                                {item.primaryValue !== undefined && (
+                                  <div>
+                                    <label className="block text-xs text-gray-600 mb-1">メイン値</label>
+                                    <input
+                                      type="text"
+                                      value={item.primaryValue || ''}
+                                      onChange={(e) => {
+                                        const newItems = [...page.templateData.items]
+                                        newItems[index] = {
+                                          ...item,
+                                          primaryValue: e.target.value
+                                        }
+                                        handlePageDataUpdate(editingPage, { items: newItems })
+                                      }}
+                                      className="w-full p-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+                                    />
+                                  </div>
+                                )}
+                                
+                                {/* サブ値 */}
+                                {item.secondaryValue !== undefined && (
+                                  <div>
+                                    <label className="block text-xs text-gray-600 mb-1">サブ値</label>
+                                    <input
+                                      type="text"
+                                      value={item.secondaryValue || ''}
+                                      onChange={(e) => {
+                                        const newItems = [...page.templateData.items]
+                                        newItems[index] = {
+                                          ...item,
+                                          secondaryValue: e.target.value
+                                        }
+                                        handlePageDataUpdate(editingPage, { items: newItems })
+                                      }}
+                                      className="w-full p-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+                                    />
+                                  </div>
+                                )}
+                                
+                                {/* カテゴリ */}
+                                {item.category !== undefined && (
+                                  <div>
+                                    <label className="block text-xs text-gray-600 mb-1">カテゴリ</label>
+                                    <input
+                                      type="text"
+                                      value={item.category || ''}
+                                      onChange={(e) => {
+                                        const newItems = [...page.templateData.items]
+                                        newItems[index] = {
+                                          ...item,
+                                          category: e.target.value
+                                        }
+                                        handlePageDataUpdate(editingPage, { items: newItems })
+                                      }}
+                                      className="w-full p-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+                                    />
+                                  </div>
+                                )}
+                                
+                                {/* 画像URL */}
+                                {(item.imageSrc !== undefined || item.image !== undefined) && (
+                                  <div>
+                                    <label className="block text-xs text-gray-600 mb-1">画像URL</label>
+                                    <input
+                                      type="text"
+                                      value={item.imageSrc || item.image || ''}
+                                      onChange={(e) => {
+                                        const newItems = [...page.templateData.items]
+                                        newItems[index] = {
+                                          ...item,
+                                          imageSrc: e.target.value,
+                                          image: e.target.value
+                                        }
+                                        handlePageDataUpdate(editingPage, { items: newItems })
+                                      }}
+                                      className="w-full p-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+                                    />
+                                  </div>
+                                )}
+                              </div>
+                              
+                              {/* 説明/コンテンツ */}
+                              {(item.description !== undefined || item.content !== undefined) && (
+                                <div className="mt-3">
+                                  <label className="block text-xs text-gray-600 mb-1">説明/コンテンツ</label>
+                                  <textarea
+                                    value={item.description || item.content || ''}
+                                    onChange={(e) => {
+                                      const newItems = [...page.templateData.items]
+                                      newItems[index] = {
+                                        ...item,
+                                        description: e.target.value,
+                                        content: e.target.value
+                                      }
+                                      handlePageDataUpdate(editingPage, { items: newItems })
+                                    }}
+                                    className="w-full p-2 border rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+                                    rows={2}
+                                  />
+                                </div>
+                              )}
+                            </div>
+                          ))}
+                          
+                          <button
+                            onClick={() => {
+                              const newItem = {
+                                title: '',
+                                name: '',
+                                description: '',
+                                content: '',
+                                number: page.templateData.items.length + 1,
+                                rank: page.templateData.items.length + 1,
+                                primaryValue: '',
+                                secondaryValue: '',
+                                category: '',
+                                imageSrc: '',
+                                image: ''
+                              }
+                              const newItems = [...page.templateData.items, newItem]
+                              handlePageDataUpdate(editingPage, { items: newItems })
+                            }}
+                            className="w-full p-3 border-2 border-dashed border-gray-300 rounded-lg text-gray-500 hover:border-blue-400 hover:text-blue-600 transition-colors"
+                          >
+                            + アイテムを追加
+                          </button>
+                        </div>
+                      </div>
+                    )}
+                    
+                    {/* セクション編集 */}
+                    {page.templateData?.sections && (
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-3">セクション</label>
+                        <div className="space-y-3">
+                          {page.templateData.sections.map((section: any, index: number) => (
+                            <div key={index} className="border border-gray-300 rounded-lg p-4 bg-white">
+                              <div className="flex justify-between items-center mb-2">
+                                <h5 className="font-medium text-gray-800">セクション {index + 1}</h5>
+                                <button
+                                  onClick={() => {
+                                    const newSections = [...page.templateData.sections]
+                                    newSections.splice(index, 1)
+                                    handlePageDataUpdate(editingPage, { sections: newSections })
+                                  }}
+                                  className="text-red-500 hover:text-red-700 text-sm"
+                                >
+                                  削除
+                                </button>
+                              </div>
+                              <input
+                                type="text"
+                                value={section.title || ''}
+                                onChange={(e) => {
+                                  const newSections = [...page.templateData.sections]
+                                  newSections[index] = {
+                                    ...section,
+                                    title: e.target.value
+                                  }
+                                  handlePageDataUpdate(editingPage, { sections: newSections })
+                                }}
+                                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-2"
+                                placeholder={`セクション ${index + 1} タイトル`}
+                              />
+                              <textarea
+                                value={section.content || ''}
+                                onChange={(e) => {
+                                  const newSections = [...page.templateData.sections]
+                                  newSections[index] = {
+                                    ...section,
+                                    content: e.target.value
+                                  }
+                                  handlePageDataUpdate(editingPage, { sections: newSections })
+                                }}
+                                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                rows={3}
+                                placeholder={`セクション ${index + 1} 内容`}
+                              />
+                            </div>
+                          ))}
+                          
+                          <button
+                            onClick={() => {
+                              const newSection = { title: '', content: '' }
+                              const newSections = [...(page.templateData.sections || []), newSection]
+                              handlePageDataUpdate(editingPage, { sections: newSections })
+                            }}
+                            className="w-full p-3 border-2 border-dashed border-gray-300 rounded-lg text-gray-500 hover:border-blue-400 hover:text-blue-600 transition-colors"
+                          >
+                            + セクションを追加
+                          </button>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Steps編集 (simple5用) */}
             {page.templateData?.steps && (
               <div>

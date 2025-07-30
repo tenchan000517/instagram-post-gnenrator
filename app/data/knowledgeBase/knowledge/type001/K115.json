@@ -59,15 +59,13 @@
   ],
   "marketingStage": "副業で失敗経験があり、何から始めれば良いかわからない初心者〜中級者レベル",
   "knowledgeId": "K115",
-  "pageStructurePattern": "typeID001-episode-parallel-intro",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "37歳フリーランス主婦 リアルに失敗した複業6選",
   "pageCount": 7,
-  "hashTag": "#フリーランス #副業 #在宅ワーク #開業",
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
-      "layout": "質問形式 + 自己紹介 + 約束",
-      "section": "intro",
+      "section": "introduction",
       "content": {
         "question": "「スキル0でもOK！」「スキマ時間に稼げる！」って副業、実際どうなの？",
         "promise": "フリーランス6年目に至るまでのわたしのリアル失敗談をお話しします"
@@ -75,7 +73,6 @@
     },
     "page2": {
       "role": "episode 01 - ポイ活",
-      "layout": "エピソード形式",
       "section": "mainContent",
       "content": {
         "episodeNumber": "01",
@@ -88,7 +85,6 @@
     },
     "page3": {
       "role": "episode 02 - ブログ",
-      "layout": "エピソード形式",
       "section": "mainContent",
       "content": {
         "episodeNumber": "02",
@@ -115,7 +111,6 @@
     },
     "page5": {
       "role": "episode 04 - データ入力・アンケート",
-      "layout": "エピソード形式",
       "section": "mainContent",
       "content": {
         "episodeNumber": "04",
@@ -128,7 +123,6 @@
     },
     "page6": {
       "role": "episode 05 - 物販",
-      "layout": "エピソード形式",
       "section": "mainContent",
       "content": {
         "episodeNumber": "05",
@@ -142,7 +136,6 @@
     },
     "page7": {
       "role": "episode 06 - 動画編集",
-      "layout": "エピソード形式",
       "section": "mainContent",
       "content": {
         "episodeNumber": "06",

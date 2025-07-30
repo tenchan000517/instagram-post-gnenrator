@@ -57,129 +57,55 @@
   ],
   "marketingStage": "就活中の大学生・就活準備中の学生",
   "knowledgeId": "K021",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-09-dynamic-boxes",
   "actualTitle": "家賃補助すごい会社8選",
-  "pageCount": 11,
-  "hashTag": "#就活 #就活生と繋がりたい #25卒 #26卒 #就活あるある",
+  "pageCount": 2,
   "detailedContent": {
     "page1": {
-      "type": "cover",
-      "content": {
-        "mainTitle": "家賃補助すごい会社8選",
-        "subTitle": "",
-        "backgroundColor": "coral pink",
-        "textColor": "red and black",
-        "pageIndicator": "1/11"
-      }
+      "role": "企業紹介1",
+      "section": "mainContent",
+      "title": "家賃補助すごい会社8選（前半）",
+      "boxes": [
+        {
+          "name": "サントリー",
+          "content": "家賃の8割補助（上限10万円）"
+        },
+        {
+          "name": "NTTデータ",
+          "content": "毎月4万円支給、結婚すると毎月7万円支給"
+        },
+        {
+          "name": "サイバーエージェント",
+          "content": "オフィス最寄りから2駅圏内で毎月3万円、5年以上勤務で毎月5万円"
+        },
+        {
+          "name": "クックパッド",
+          "content": "会社から2km圏内で毎月3万円、初回引っ越し時20万円支給"
+        }
+      ]
     },
     "page2": {
-      "type": "company-introduction",
-      "content": {
-        "companyName": "サントリー",
-        "companyTagline": "水と生きる SUNTORY",
-        "officeImage": "modern office interior",
-        "benefit": "家賃の8割がでる 上限は10万円",
-        "backgroundColor": "beige",
-        "pageIndicator": "2/11"
-      }
-    },
-    "page3": {
-      "type": "company-introduction",
-      "content": {
-        "companyName": "NTTデータ",
-        "companyLogo": "NTT DATA logo",
-        "officeImage": "office space with open layout",
-        "benefit": "毎月4万円もらえる 結婚するとなんと毎月7万円もらえる",
-        "backgroundColor": "beige",
-        "pageIndicator": "3/11"
-      }
-    },
-    "page4": {
-      "type": "company-introduction",
-      "content": {
-        "companyName": "サイバーエージェント",
-        "employeeImages": "5 employee portraits",
-        "benefit": "オフィスの最寄りから2駅圏内に住めば毎月3万円もらえる 5年以上勤務すると5万/月もらえる",
-        "backgroundColor": "beige",
-        "pageIndicator": "4/11"
-      }
-    },
-    "page5": {
-      "type": "company-introduction",
-      "content": {
-        "companyName": "クックパッド",
-        "companyLogo": "cookpad logo with chef hat icon",
-        "benefit": "会社から2km圏内に住むと毎月3万円もらえる 会社から2km圏内に初めて引っ越すときは20万もらえる",
-        "backgroundColor": "beige",
-        "pageIndicator": "5/11"
-      }
-    },
-    "page6": {
-      "type": "company-introduction",
-      "content": {
-        "companyName": "日立製作所",
-        "companyLogo": "HITACHI Inspire the Next",
-        "buildingImage": "Hitachi building exterior",
-        "benefit": "家賃の50%を補助してもらえる 量もあり、毎月1.5万円で住める",
-        "backgroundColor": "beige",
-        "pageIndicator": "6/11"
-      }
-    },
-    "page7": {
-      "type": "company-introduction",
-      "content": {
-        "companyName": "ミクシィ",
-        "companyLogo": "MIXI logo",
-        "benefit": "渋谷から直線3km以内に住めば毎月3万円もらえる",
-        "backgroundColor": "beige",
-        "pageIndicator": "7/11"
-      }
-    },
-    "page8": {
-      "type": "company-introduction",
-      "content": {
-        "companyName": "京セラ",
-        "buildingImage": "Kyocera building exterior",
-        "benefit": "会社の寮に住めば家賃4000円で生活できる 寮にはペットや冷蔵庫など全て揃っている！",
-        "backgroundColor": "beige",
-        "pageIndicator": "8/11"
-      }
-    },
-    "page9": {
-      "type": "company-introduction",
-      "content": {
-        "companyName": "YKK",
-        "companyLogo": "YKK logo with tagline Little Parts. Big Difference.",
-        "backgroundImage": "water/ocean background",
-        "benefit": "家賃の7割を出してもらえる！単身者は上限5万円で結婚すると上限8万円に！",
-        "backgroundColor": "beige with blue accent",
-        "pageIndicator": "9/11"
-      }
-    },
-    "page10": {
-      "type": "cta",
-      "content": {
-        "mainMessage": "就活は「頼ったもん勝ち」",
-        "services": [
-          "平凡なエピソードでも上位5%に入るESの書き方",
-          "通過率100%の面接対策"
-        ],
-        "offer": "全て無料で教えます！「頼れる人がいない😭」そんなあなたに届け！",
-        "backgroundColor": "beige",
-        "pageIndicator": "10/11"
-      }
-    },
-    "page11": {
-      "type": "profile-cta",
-      "content": {
-        "mainText": "大学時代の実績や資格がない凡人学生の私でも大手3社内定できた攻略法は...",
-        "profilePreview": "Instagram profile preview showing follower count and bio",
-        "instruction": "プロフィール欄のURLからお受け取りください！",
-        "emphasis": "1冊のテキストにまとめています！",
-        "url": "job-hun.com/ab/shukatsu_sep-manga_ins",
-        "backgroundColor": "white",
-        "pageIndicator": "11/11"
-      }
+      "role": "企業紹介2",
+      "section": "mainContent",
+      "title": "家賃補助すごい会社8選（後半）",
+      "boxes": [
+        {
+          "name": "日立製作所",
+          "content": "家賃の50%補助、寮利用で毎月1.5万円で居住可能"
+        },
+        {
+          "name": "ミクシィ",
+          "content": "渋谷から直線3km以内居住で毎月3万円支給"
+        },
+        {
+          "name": "京セラ",
+          "content": "会社寮利用で家賃4000円、家具家電完備"
+        },
+        {
+          "name": "YKK",
+          "content": "家賃の7割補助、単身者上限5万円・既婚者上限8万円"
+        }
+      ]
     }
   }
 }

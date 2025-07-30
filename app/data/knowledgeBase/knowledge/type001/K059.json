@@ -54,16 +54,9 @@
   "knowledgeId": "K059_true",
   "targetIds": ["T002"],
   "targetReason": "仕事・キャリアに悩んでいる女性に対するコミュニケーション改善の実践的ノウハウ",
-  "pageStructurePattern": "typeID001-emotion-empathy-list",
+  "pageStructurePattern": "unified-template-05-comparison",
   "actualTitle": "なぜかナメられる人の特徴",
-  "pageCount": 9,
-  "templateOverrides": {
-    "3": "ng_good_comparison",
-    "4": "ng_good_comparison",
-    "5": "ng_good_comparison",
-    "6": "ng_good_comparison",
-    "7": "ng_good_comparison"
-  },
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
       "role": "タイトルページ・問題提起",
@@ -140,15 +133,6 @@
         "key_insight": "言ってることは同じでも、ひと工夫で周りの反応もがらりと変わる◎",
         "encouragement": "日々のコミュニケーションが少し楽になりますように♫",
         "character_image": "/misaki.png"
-      }
-    },
-    "page9": {
-      "role": "クロージング",
-      "section": "summary",
-      "content": {
-        "gratitude": "最後まで読んでくれてありがとう！",
-        "additional_value": "平日6:45～聞くだけで人間関係がラクになるLIVE毎朝やってるよ！",
-        "call_to_action": "フォローして遊びにきてね！"
       }
     }
   }

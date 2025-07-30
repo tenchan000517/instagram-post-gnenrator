@@ -60,22 +60,28 @@
   ],
   "marketingStage": "自己理解を深めたい段階の人、人間関係について学びたい段階",
   "knowledgeId": "K111",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-02-dual-section",
   "actualTitle": "あなたは何タイプ？MBTI診断 16タイプ特徴まとめ",
-  "pageCount": 10,
-  "hashTag": "#mbti診断 #性格診断 #相性 #相性診断 #16タイプ #性格分析 #性格診断テスト #infp #infpあるある #大人可愛い #大人可愛いコーデ #大人可愛いアクセサリー #大人可愛いファッション #大人女子 #大人女子ファッション #ピンク系 #トレンド #トレンドアイテム #新作アイテム",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "タイトルページ",
-      "layout": "中央配置のメインタイトル + 8つのキャラクターイラスト",
+      "role": "導入・問題提起",
+      "section": "introduction",
       "content": {
         "title": "あなたは何タイプ？MBTI診断 16タイプ特徴まとめ",
-        "visualElements": "ピンクの背景に職業別キャラクターイラスト8体配置",
-        "pageIndicator": "1/10"
+        "targetAudience": "自分の性格タイプを知りたい人、MBTIについて理解したい人",
+        "problems": [
+          "自分の性格タイプや特徴を知りたい",
+          "MBTIの16タイプについて詳しく理解したい",
+          "他人との相性を知りたい"
+        ],
+        "additionalMessage": "MBTI16タイプの特徴を詳細に解説し、各タイプの性格、人間関係、恋愛観、友人関係、好き嫌いを紹介",
+        "visualElements": "ピンクの背景に職業別キャラクターイラスト8体配置"
       }
     },
     "page2": {
       "role": "INTJ・INTPタイプ説明",
+      "section": "mainContent",
       "layout": "2分割レイアウト（上下）",
       "content": {
         "upperSection": {
@@ -106,6 +112,7 @@
     },
     "page3": {
       "role": "ENTJ・ENTPタイプ説明",
+      "section": "mainContent",
       "layout": "2分割レイアウト（上下）",
       "content": {
         "upperSection": {
@@ -136,6 +143,7 @@
     },
     "page4": {
       "role": "INFJ・INFPタイプ説明",
+      "section": "mainContent",
       "layout": "2分割レイアウト（上下）",
       "content": {
         "upperSection": {
@@ -166,6 +174,7 @@
     },
     "page5": {
       "role": "ENFJ・ENFPタイプ説明", 
+      "section": "mainContent",
       "layout": "2分割レイアウト（上下）",
       "content": {
         "upperSection": {
@@ -196,6 +205,7 @@
     },
     "page6": {
       "role": "ISTJ・ISFJタイプ説明",
+      "section": "mainContent",
       "layout": "2分割レイアウト（上下）",
       "content": {
         "upperSection": {
@@ -226,6 +236,7 @@
     },
     "page7": {
       "role": "ESTJ・ESFJタイプ説明",
+      "section": "mainContent",
       "layout": "2分割レイアウト（上下）",
       "content": {
         "upperSection": {
@@ -255,7 +266,8 @@
       }
     },
     "page8": {
-      "role": "ISTP・ISFPタイプ説明",
+      "role": "ISTP・ISFPタイプ説明・まとめ",
+      "section": "summary",
       "layout": "2分割レイアウト（上下）",
       "content": {
         "upperSection": {
@@ -283,50 +295,15 @@
           "compatibility": "相性が良い→ENTP, 相性が悪い→ENTJ"
         }
       }
-    },
-    "page9": {
-      "role": "ESTP・ESFPタイプ説明",
-      "layout": "2分割レイアウト（上下）",
-      "content": {
-        "upperSection": {
-          "type": "ESTP 起業家",
-          "subtitle": "陽キャNo.1 エネルギッシュな異端児",
-          "characteristics": [
-            "人間関係：初対面の人とすぐに仲良くなる",
-            "恋愛観：好きは言葉より行動で示す",
-            "友人関係：友達は楽しく過ぶ相手、恋しい時はメールで話すより、直接会いたい",
-            "好き嫌い：サプライズのプレゼントが好き、管理されたり、じっとしていることが嫌い"
-          ],
-          "hashtags": "#飾らない #お調子者 #急発進 #驚異 #行動力 #現実的",
-          "compatibility": "相性が良い→INFP, 相性が悪い→INFJ"
         },
-        "lowerSection": {
-          "type": "ESFP エンターテイナー",
-          "subtitle": "モテ度No.1 陽気で活発なお調子者",
-          "characteristics": [
-            "人間関係：どこに行っても盛り上げ役",
-            "恋愛観：常に自分を見てくれて、必要な時にさりげなく手助けしてくれる人が好き",
-            "友人関係：一度親しくなると、長く関係を維持する",
-            "好き嫌い：好奇心旺盛で、楽しいことが好き、規則が嫌い"
-          ],
-          "hashtags": "#エネルギー #人懐っこい #好奇心旺盛 #陽気 #愛嬌",
-          "compatibility": "相性が良い→INTP, 相性が悪い→INTJ"
-        }
-      }
-    },
-    "page10": {
-      "role": "CTA・フォロー促進ページ",
-      "layout": "プロフィール紹介 + 他コンテンツ紹介 + フォロー促進",
-      "content": {
-        "followPrompt": "フォロー、他の投稿はここから",
-        "engagementPrompt": "いいね＆コメント喜びます♡",
-        "profileDescription": "21歳/美容オタクが大人可愛いアイテムや垢抜け方法をお届け♡理想のあなたになるために〜。",
-        "relatedPosts": [
-          "ファッションブランド",
-          "通勤・通学バッグ",
-          "垢抜けのテク"
+        "summaryTitle": "MBTI 16タイプの特徴まとめ",
+        "achievementPoints": [
+          "NT系（分析家）: INTJ, INTP, ENTJ, ENTP",
+          "NF系（外交官）: INFJ, INFP, ENFJ, ENFP", 
+          "SJ系（番人）: ISTJ, ISFJ, ESTJ, ESFJ",
+          "SP系（探検家）: ISTP, ISFP, ESTP, ESFP"
         ],
-        "savePrompt": "見返せるように保存してね♡↓"
+        "encouragementMessage": "あなたの性格タイプを理解して、より良い人間関係を築いていきましょう"
       }
     }
   }

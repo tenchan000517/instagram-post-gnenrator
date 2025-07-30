@@ -51,15 +51,13 @@
   ],
   "marketingStage": "副業・スキルアップ検討初期段階（不安・迷い段階）",
   "knowledgeId": "K183",
-  "pageStructurePattern": "typeID001-emotional-empathy-story",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "副業始めたいけど、私にできるかな...",
   "pageCount": 8,
-  "targetIds": ["T001", "T002"],
-  "targetReason": "副業・スキルアップへの不安は性別や年齢を問わない感情的な悩みだが、特に女性の方が自信の問題として表出しやすく、男性も含めて幅広い層に共感を提供",
   "detailedContent": {
     "page1": {
       "role": "title-empathy",
-      "template": "emotional_empathy_cover",
+      "section": "introduction",
       "content": {
         "mainTitle": "副業始めたいけど、私にできるかな...",
         "emotionalSubtitle": "そんな不安を抱えているあなたへ",
@@ -70,7 +68,7 @@
     },
     "page2": {
       "role": "empathy-anxiety-list",
-      "template": "emotional_empathy_problems",
+      "section": "introduction",
       "content": {
         "empathyMessage": "こんな気持ち、ありませんか？",
         "anxietyList": [
@@ -87,7 +85,7 @@
     },
     "page3": {
       "role": "universal-experience",
-      "template": "emotional_empathy_universality",
+      "section": "mainContent",
       "content": {
         "mainMessage": "実は、みんな最初は同じでした",
         "storyIntro": "成功している人たちも、みんな最初は...",
@@ -103,7 +101,7 @@
     },
     "page4": {
       "role": "reframe-perspective",
-      "template": "emotional_empathy_reframing",
+      "section": "mainContent",
       "content": {
         "perspectiveShift": "実は、その不安こそが大切な証拠",
         "reframingPoints": [
@@ -130,7 +128,7 @@
     },
     "page5": {
       "role": "small-steps-value",
-      "template": "emotional_empathy_small_steps",
+      "section": "mainContent",
       "content": {
         "mainMessage": "小さな一歩が、大きな変化を生む",
         "smallStepsExamples": [
@@ -146,7 +144,7 @@
     },
     "page6": {
       "role": "success-story-relatability",
-      "template": "emotional_empathy_story",
+      "section": "mainContent",
       "content": {
         "storyTitle": "Aさんの場合（34歳、2児の母）",
         "initialState": "「私なんて...」から始まった",
@@ -164,7 +162,7 @@
     },
     "page7": {
       "role": "permission-to-start",
-      "template": "emotional_empathy_permission",
+      "section": "mainContent",
       "content": {
         "permissionMessage": "あなたには、挑戦する権利があります",
         "affirmations": [
@@ -181,7 +179,7 @@
     },
     "page8": {
       "role": "gentle-next-step",
-      "template": "emotional_empathy_next_step",
+      "section": "summary",
       "content": {
         "transitionMessage": "不安を感じるのは自然なこと。でも、その一歩を踏み出すことで未来は変わります。",
         "nextStepInvitation": "準備ができたら、具体的な副業・スキルアップの方法を一緒に探してみませんか？",

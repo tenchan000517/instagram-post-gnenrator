@@ -63,70 +63,70 @@
   ],
   "marketingStage": "社会人全般・仕事の効率化に悩む人・生産性向上を目指すビジネスパーソン",
   "knowledgeId": "K049",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-02-dual-section",
   "actualTitle": "効率よく仕事をこなせる 仕事が早い人の最強の習慣",
-  "pageCount": 10,
-  "hashTag": "#仕事が早い人は習慣から違います😊💭",
+  "pageCount": 5,
+  "hashTag": "#仕事が早い人は習慣から違います",
   "detailedContent": {
     "page1": {
-      "role": "title-introduction",
-      "content": "効率よく仕事をこなせる 仕事が早い人の最強の習慣",
-      "design": "白色半透明カード、PCで作業する人のイラスト、青色系背景",
-      "pageIndicator": "1/10"
+      "title": "効率よく仕事をこなせる",
+      "subtitle": "仕事が早い人の最強の習慣8選をご紹介します"
     },
     "page2": {
-      "role": "habit-presentation",
-      "content": "NUMBER 01 15分以上読書をする",
-      "design": "統一されたレイアウト、大きな番号表示、ブルー系背景",
-      "pageIndicator": "2/10"
+      "topSection": {
+        "title": "15分以上読書をする",
+        "content": "毎日の読書習慣により知識と思考力を向上させ、仕事のクオリティを高めます。新しい知識やアイデアを得ることで、業務への応用力も身につきます。",
+        "imageSrc": "/misaki_study.png",
+        "imageAlt": "勉強する女性"
+      },
+      "bottomSection": {
+        "title": "週に3回程度の筋トレ",
+        "content": "定期的な運動により体力と集中力を維持し、長時間の業務でも高いパフォーマンスを発揮します。運動により血流が改善され、脳の働きも活性化します。",
+        "imageSrc": "/iida_fighting.png",
+        "imageAlt": "モチベーション高い男性"
+      }
     },
     "page3": {
-      "role": "habit-presentation", 
-      "content": "NUMBER 02 週に3回程度の筋トレ",
-      "design": "統一されたレイアウト、大きな番号表示、ブルー系背景",
-      "pageIndicator": "3/10"
+      "topSection": {
+        "title": "7時間以上の睡眠を取る",
+        "content": "十分な睡眠により判断力と集中力を確保し、ミスを減らして効率的に作業を進めます。睡眠不足は生産性を大幅に低下させる要因です。",
+        "imageSrc": "/king.png",
+        "imageAlt": "笑顔の男性"
+      },
+      "bottomSection": {
+        "title": "身の回りを整理整頓している",
+        "content": "整理整頓された環境により作業効率が向上し、必要な物をすぐに見つけられます。物理的な整理は心の整理にもつながります。",
+        "imageSrc": "/kikuyo.png",
+        "imageAlt": "笑顔の女性"
+      }
     },
     "page4": {
-      "role": "habit-presentation",
-      "content": "NUMBER 03 7時間以上の睡眠を取る",
-      "design": "統一されたレイアウト、大きな番号表示、ブルー系背景", 
-      "pageIndicator": "4/10"
+      "topSection": {
+        "title": "仕事で使う情報を収集している",
+        "content": "常に最新の業務情報を収集し、スキルアップと業務効率化を継続的に図ります。情報収集により競合優位性を保つことができます。",
+        "imageSrc": "/ten.png",
+        "imageAlt": "笑顔の男性"
+      },
+      "bottomSection": {
+        "title": "身だしなみがしっかり整っている",
+        "content": "良好な身だしなみにより自信と信頼関係を構築し、スムーズなコミュニケーションを実現します。第一印象は仕事の成果に大きく影響します。",
+        "imageSrc": "/misaki_work.png",
+        "imageAlt": "楽しそうに仕事する女性"
+      }
     },
     "page5": {
-      "role": "habit-presentation",
-      "content": "NUMBER 04 身の回りを整理整頓している",
-      "design": "統一されたレイアウト、大きな番号表示、ブルー系背景",
-      "pageIndicator": "5/10"
-    },
-    "page6": {
-      "role": "habit-presentation",
-      "content": "NUMBER 05 仕事で使う情報を収集している",
-      "design": "統一されたレイアウト、大きな番号表示、ブルー系背景",
-      "pageIndicator": "6/10"
-    },
-    "page7": {
-      "role": "habit-presentation",
-      "content": "NUMBER 06 身だしなみがしっかり整っている",
-      "design": "統一されたレイアウト、大きな番号表示、ブルー系背景",
-      "pageIndicator": "7/10"
-    },
-    "page8": {
-      "role": "habit-presentation", 
-      "content": "NUMBER 07 寝る前にジャーナリングをする",
-      "design": "統一されたレイアウト、大きな番号表示、ブルー系背景",
-      "pageIndicator": "8/10"
-    },
-    "page9": {
-      "role": "habit-presentation",
-      "content": "NUMBER 08 プライベートを大切にする",
-      "design": "統一されたレイアウト、大きな番号表示、ブルー系背景",
-      "pageIndicator": "9/10"
-    },
-    "page10": {
-      "role": "summary-cta",
-      "content": "仕事が早い人の最強の習慣 まとめ + 8項目リスト + CTAメッセージ",
-      "design": "白色半透明カード、動物イラスト、番号付きリスト、エンゲージメント促進メッセージ",
-      "pageIndicator": "10/10"
+      "topSection": {
+        "title": "寝る前にジャーナリングをする",
+        "content": "日々の振り返りと計画の習慣により、継続的な改善と目標達成を実現します。書くことで思考が整理され、次の行動が明確になります。",
+        "imageSrc": "/misaki.png",
+        "imageAlt": "笑顔の女性"
+      },
+      "bottomSection": {
+        "title": "プライベートを大切にする",
+        "content": "プライベートの充実により仕事へのモチベーションを維持し、持続可能な高パフォーマンスを実現します。メリハリのある生活が長期的な成功につながります。",
+        "imageSrc": "/iida.png",
+        "imageAlt": "笑顔の男性"
+      }
     }
   }
 }

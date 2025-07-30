@@ -4,8 +4,6 @@
   "problemDescription": "自分がシゴデキかどうかわからない・シゴデキになるための要素を知りたい",
   "postType": "003",
   "postTypeReason": "シゴデキの15個の特徴を体系的に整理した純粋な知識・情報提供型コンテンツ",
-  "targetId": "T017",
-  "targetReason": "シゴデキの特徴という有益な仕事情報を知りたい人のニーズに合致",
   "solutionContent": {
     "概要": "仕事ができる人（シゴデキ）の15の特徴をチェックリスト形式で体系的に整理",
     "具体的手順": [
@@ -79,31 +77,24 @@
   ],
   "marketingStage": "仕事スキル向上段階（自己評価・能力開発検討時期）",
   "knowledgeId": "K148",
-  "pageStructurePattern": "info-strategic-data-4page",
+  "pageStructurePattern": "unified-template-04-item-grid",
   "actualTitle": "今すぐチェック！これができたらシゴデキ確定",
-  "pageCount": 8,
+  "pageCount": 7,
   "detailedContent": {
     "page1": {
-      "role": "タイトル・表紙",
-      "section": "introduction",
-      "content": {
-        "title": "今すぐチェック！これができたらシゴデキ確定",
-        "subtitle": "",
-        "description": "リモラボ"
-      }
-    },
-    "page2": {
       "role": "導入・問題提起",
       "section": "introduction",
       "content": {
-        "title": "はじめに",
-        "description": "がんばってるのに仕事ができない人って思われそう...",
+        "title": "今すぐチェック！これができたらシゴデキ確定",
+        "problems": [
+          "がんばってるのに仕事ができない人って思われそう",
+          "どうやったら仕事ができる人になれるか悩んでいました"
+        ],
         "empathy": "そう感じるときあります。",
-        "experience": "どうやったら仕事ができる人になれるか悩んでいました。",
         "solution": "シゴデキの特徴をマネしたらよくなったから紹介します！"
       }
     },
-    "page3": {
+    "page2": {
       "role": "特徴1-3",
       "section": "mainContent",
       "content": {
@@ -129,7 +120,7 @@
         ]
       }
     },
-    "page4": {
+    "page3": {
       "role": "特徴4-6",
       "section": "mainContent",
       "content": {
@@ -155,7 +146,7 @@
         ]
       }
     },
-    "page5": {
+    "page4": {
       "role": "特徴7-9",
       "section": "mainContent",
       "content": {
@@ -181,7 +172,7 @@
         ]
       }
     },
-    "page6": {
+    "page5": {
       "role": "特徴10-12",
       "section": "mainContent",
       "content": {
@@ -207,7 +198,7 @@
         ]
       }
     },
-    "page7": {
+    "page6": {
       "role": "特徴13-15",
       "section": "mainContent",
       "content": {
@@ -233,7 +224,7 @@
         ]
       }
     },
-    "page8": {
+    "page7": {
       "role": "まとめ・チェックリスト",
       "section": "summary",
       "content": {

@@ -58,95 +58,103 @@
   ],
   "marketingStage": "現在働いている社会人で、転職を検討している、または現職場に不満を持つ人",
   "knowledgeId": "K053",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "やめない方が良い職場6選",
-  "pageCount": 10,
-  "hashTag": "#経歴不安な人の転職攻略×仕事術",
+  "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "cover",
-      "backgroundImage": "スターバックスコーヒーカップとMacBookのある職場環境",
-      "titleText": "やめない方が良い職場6選",
-      "pageIndicator": "1/10"
+      "role": "introduction",
+      "section": "introduction",
+      "content": {
+        "questionBox": "今の職場って恵まれてるのかな？",
+        "mainMessage": "やめない方が良い職場には特徴がある！",
+        "description": "今回は辞めたら後悔する職場の特徴についてご紹介します\n損しないよう最後まで見て！",
+        "teaseElement": "辞めない方が良い職場を早速チェック"
+      }
     },
     "page2": {
-      "role": "introduction",
-      "questionBox": "今の職場って恵まれてるのかな？",
-      "mainMessage": "やめない方が良い職場には特徴がある！",
-      "description": "今回は辞めたら後悔する職場の特徴についてご紹介します\n損しないよう最後まで見て！",
-      "teaseElement": "辞めない方が良い職場を早速チェック"
+      "role": "content-item",
+      "section": "mainContent",
+      "content": {
+        "number": "01",
+        "title": "人間関係が良好",
+        "description": "上司・同僚との関係が穏やかで、風通しの良いコミュニケーションがある",
+        "point": "人間関係のストレスが少ない職場は長く働ける大きな要素",
+        "nextPreview": "適切な評価制度がある"
+      }
     },
     "page3": {
       "role": "content-item",
-      "number": "01",
-      "title": "人間関係が良好",
-      "description": "上司・同僚との関係が穏やかで、風通しの良いコミュニケーションがある",
-      "point": "人間関係のストレスが少ない職場は長く働ける大きな要素",
-      "nextPreview": "適切な評価制度がある"
+      "section": "mainContent",
+      "content": {
+        "number": "02",
+        "title": "適切な評価制度がある",
+        "description": "努力や成果がしっかり評価され、昇進や昇給に反映される。",
+        "point": "「ちゃんと見てくれている」と感じられる職場はモチベーションが保てる",
+        "nextPreview": "離職率が低い"
+      }
     },
     "page4": {
       "role": "content-item",
-      "number": "02",
-      "title": "適切な評価制度がある",
-      "description": "努力や成果がしっかり評価され、昇進や昇給に反映される。",
-      "point": "「ちゃんと見てくれている」と感じられる職場はモチベーションが保てる",
-      "nextPreview": "離職率が低い"
+      "section": "mainContent",
+      "content": {
+        "number": "03",
+        "title": "離職率が低い",
+        "description": "長く勤めている人が多い職場",
+        "point": "職場環境が良くないと人はすぐ辞める。定着率は正直なバロメーターとして判断しよう",
+        "nextPreview": "社内教育や成長支援がある"
+      }
     },
     "page5": {
       "role": "content-item",
-      "number": "03",
-      "title": "離職率が低い",
-      "description": "長く勤めている人が多い職場",
-      "point": "職場環境が良くないと人はすぐ辞める。定着率は正直なバロメーターとして判断しよう",
-      "nextPreview": "社内教育や成長支援がある"
+      "section": "mainContent",
+      "content": {
+        "number": "04",
+        "title": "社内教育や成長支援がある",
+        "description": "研修制度やスキルアップの機会がある",
+        "point": "人間関係のストレスが少ない職場は、長く働ける大きな要素",
+        "nextPreview": "経営が安定している"
+      }
     },
     "page6": {
       "role": "content-item",
-      "number": "04",
-      "title": "社内教育や成長支援がある",
-      "description": "研修制度やスキルアップの機会がある",
-      "point": "人間関係のストレスが少ない職場は、長く働ける大きな要素",
-      "nextPreview": "経営が安定している"
+      "section": "mainContent",
+      "content": {
+        "number": "05",
+        "title": "経営が安定している",
+        "description": "業績が安定していて、倒産リスクが低い",
+        "point": "安心して働ける土台\n特に家族がいる人には大事",
+        "nextPreview": "仕事にやりがいがある"
+      }
     },
     "page7": {
       "role": "content-item",
-      "number": "05",
-      "title": "経営が安定している",
-      "description": "業績が安定していて、倒産リスクが低い",
-      "point": "安心して働ける土台\n特に家族がいる人には大事",
-      "nextPreview": "仕事にやりがいがある"
+      "section": "mainContent",
+      "content": {
+        "number": "06",
+        "title": "仕事にやりがいがある",
+        "description": "自分の仕事が社会や誰かの役に立っていると感じられる",
+        "point": "やりがいがあるとモチベーションが持続しやすい",
+        "nextPreview": "まとめ"
+      }
     },
     "page8": {
-      "role": "content-item",
-      "number": "06",
-      "title": "仕事にやりがいがある",
-      "description": "自分の仕事が社会や誰かの役に立っていると感じられる",
-      "point": "やりがいがあるとモチベーションが持続しやすい",
-      "nextPreview": "まとめ"
-    },
-    "page9": {
       "role": "summary-checklist",
-      "header": "この投稿を保存して、職場の環境をチェックしよう！",
-      "title": "やめない方が良い職場6選",
-      "checklist": [
-        "人間関係が良好",
-        "適切な評価制度がある",
-        "離職率が低い",
-        "社内教育や成長支援がある",
-        "経営が安定している",
-        "仕事にやりがいがある"
-      ],
-      "bottomMessage": "今の職場が働きやすいなら\n無理に転職する必要はないよ！",
-      "savePrompt": "保存しておく"
-    },
-    "page10": {
-      "role": "cta-profile",
-      "message": "あと60秒ください。",
-      "subMessage": "いまの会社に不満がある人は..",
-      "ctaText": "転職活動始めよう",
-      "profileDescription": "実際に利用した転職サイトはここから見れる！",
-      "callToAction": "このチャンスを逃すずに！",
-      "profilePreview": "ken_tenshoku アカウント情報とハイライト表示"
+      "section": "summary",
+      "content": {
+        "header": "この投稿を保存して、職場の環境をチェックしよう！",
+        "title": "やめない方が良い職場6選",
+        "checklist": [
+          "人間関係が良好",
+          "適切な評価制度がある",
+          "離職率が低い",
+          "社内教育や成長支援がある",
+          "経営が安定している",
+          "仕事にやりがいがある"
+        ],
+        "bottomMessage": "今の職場が働きやすいなら\n無理に転職する必要はないよ！",
+        "savePrompt": "保存しておく"
+      }
     }
   }
 }
