@@ -58,101 +58,43 @@
   ],
   "marketingStage": "Canvaを使い始めているが無料版の限界を感じているデザイン初心者から中級者",
   "knowledgeId": "K107",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-07-item-list",
   "actualTitle": "意外と無料 Canvaテク",
-  "pageCount": 8,
-  "hashTag": "#インスタ投稿 #運用代行 #インスタ集客",
+  "pageCount": 2,
   "detailedContent": {
-    "page1": {
-      "role": "title-problem-presentation",
-      "content": "意外と無料 Canvaテク",
-      "visualElements": "手を重ねる温かい写真、Canvaロゴ（グラデーション）、ハート記号、最新版！吹き出し、1/8ページ表示"
-    },
-    "page2": {
-      "role": "problem-awareness-introduction",
-      "content": "無料版だからって諦めてない？Canvaはやっぱり有料版じゃないといけないのかな？って思ってる人必見！無料の神機能5選まとめたので保存必須でチェックしてね！超優秀ですよ→",
-      "visualElements": "青色ヘッダー、困った表情の女性の写真、手の指差しアクション、2/8ページ表示"
-    },
-    "page3": {
-      "role": "technique-detail-1",
-      "content": {
-        "header": "無料版でもOK神機能｜01 背景除去",
-        "steps": [
-          "①メニューからアプリを選択",
-          "②Background Eraser検索",
-          "③画像をアップロード",
-          "④Remove Backgroundを選択"
-        ],
-        "benefit": "有料版しか使えなかった背景除去がこれでできます！！！"
+    "title": "Canvaの無料版で使える高度テクニック",
+    "description": "無料版では限界があると考えていませんか？実はCanvaの無料版でも使える高度なデザイン機能がたくさんあります。プロレベルのデザインを無料で作成するための5つの実用テクニックをご紹介します。",
+    "items": [
+      {
+        "name": "背景除去",
+        "description": "メニューからアプリを選択し、Background Eraserを検索して使用します。画像をアップロード後、Remove Backgroundを選択するだけで簡単に背景除去ができます。有料版限定だった機能が無料で使えるため、プロフェッショナルなデザインを作成できます。",
+        "imageSrc": "/misaki_work.png",
+        "imageAlt": "デザイン作業をする女性"
       },
-      "visualElements": "青色ヘッダー、スマートフォン画面、Canvaアプリ界面、番号付きステップ、3/8ページ表示"
-    },
-    "page4": {
-      "role": "technique-detail-2",
-      "content": {
-        "header": "無料版でもOK神機能｜02 ぼかし",
-        "steps": [
-          "①使いたい画像を選択",
-          "②編集＞エフェクトを選択",
-          "③ぼかしを選択",
-          "④ぼかし濃度を調節",
-          "⑤背景除去した被写体を重ねる"
-        ],
-        "benefit": "実行するごとで立体感があり一気にプロっぽくみえます！"
+      {
+        "name": "ぼかしエフェクト",
+        "description": "使いたい画像を選択後、編集メニューからエフェクトを選択し、ぼかしを適用します。ぼかし濃度を調節し、背景除去した被写体を重ねることで、立体感のあるプロフェッショナルな仕上がりになります。",
+        "imageSrc": "/team_work.png",
+        "imageAlt": "チームワークのイラスト"
       },
-      "visualElements": "青色ヘッダー、カフェ内装の写真、Canvaアプリ界面、番号付きステップ、4/8ページ表示"
-    },
-    "page5": {
-      "role": "technique-detail-3",
-      "content": {
-        "header": "無料版でもOK神機能｜03 無料素材を検索",
-        "steps": [
-          "①メニューからアプリを選択",
-          "②Pixabayと検索",
-          "③使いたい素材を検索する"
-        ],
-        "benefit": "商用利用OKだから有料素材と見分けなくて◯ストレスフリー検索できるよ"
+      {
+        "name": "無料素材検索",
+        "description": "メニューからアプリを選択し、Pixabayを検索して使用します。商用利用可能な高品質な素材を無料で検索でき、有料素材との見分けがつかないためストレスフリーでデザイン作成ができます。",
+        "imageSrc": "/iida.png",
+        "imageAlt": "笑顔のキャラクター"
       },
-      "visualElements": "青色ヘッダー、Pixabay検索画面、Canvaアプリ界面、番号付きステップ、5/8ページ表示"
-    },
-    "page6": {
-      "role": "technique-detail-4",
-      "content": {
-        "header": "無料版でもOK神機能｜04 写真を文字にする",
-        "steps": [
-          "①メニューからアプリを選択",
-          "②TypeCutOutと検索",
-          "③使いたいテキストを入力し背景にしたい画像を選択",
-          "④画像の位置やフォントを決定",
-          "⑤Add to designを押す"
-        ],
-        "benefit": "デザインの幅がグーンと広がるストーリーで使えば映える！"
+      {
+        "name": "写真を文字に変換",
+        "description": "メニューからアプリを選択し、TypeCutOutを検索して使用します。テキストを入力し背景にしたい画像を選択、画像の位置やフォントを調整してデザインに追加します。デザインの幅が大きく広がり、ストーリーで使えば特に映えます。",
+        "imageSrc": "/misaki_study.png",
+        "imageAlt": "勉強する女性"
       },
-      "visualElements": "青色ヘッダー、Canvaアプリ界面、番号付きステップ、6/8ページ表示"
-    },
-    "page7": {
-      "role": "technique-detail-5",
-      "content": {
-        "header": "無料版でもOK神機能｜05 印画像に変換",
-        "steps": [
-          "①メニューからアプリを選択",
-          "②Design to imageと検索",
-          "③使いたい画像を選択する",
-          "④画像を入れたいページに追加する"
-        ],
-        "benefit": "ダウンロードしてアップロードする手間がなくなるから超時短！"
-      },
-      "visualElements": "青色ヘッダー、Canvaアプリ界面、番号付きステップ、7/8ページ表示"
-    },
-    "page8": {
-      "role": "related-content-cta",
-      "content": "過去1番人気の投稿コレ！「最新版！！「意外と無料Canvaテク」大人可愛いCanva素材」3児ワーママ・スマホだけでお小遣い+5万・インスタ爆伸び話 保存を押して後から見返そう！",
-      "visualElements": "関連投稿のカバー画像、アカウント紹介アイコン、保存促進メッセージ、矢印、8/8ページ表示"
-    },
-    "page9": {
-      "role": "hashtag-metadata",
-      "content": "今回は、インスタ運用に役立つキャンバで使える有益テクニックの話。思わず今すぐやってみたくなるものばかり。無料版だからって諦めなくて大丈夫！ストーリーも可愛いが止まらない。やみつきフォロワー続出中。これから伸ばしていきたい！って方はぜひ参考にしていただけたら嬉しいです。",
-      "hashtags": "#インスタ投稿 #運用代行 #インスタ集客"
-    }
+      {
+        "name": "画像変換機能",
+        "description": "メニューからアプリを選択し、Design to imageを検索して使用します。使いたい画像を選択し、デザインに直接追加できます。ダウンロードしてアップロードする手間が省けるため、作業時間を大幅に短縮できます。",
+        "imageSrc": "/iida_fighting.png",
+        "imageAlt": "モチベーションの高いキャラクター"
+      }
+    ]
   }
 }

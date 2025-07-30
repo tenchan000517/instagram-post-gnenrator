@@ -121,44 +121,44 @@
 ### Type004 (/app/data/knowledgeBase/knowledge/type004/) - 情報リソース型
 - [x] K009.json - unified-template-04-item-grid (2025-07-30)
 - [x] K012.json - unified-template-06-company-detail (2025-07-30)
-- [ ] K021.json
-- [ ] K022.json
-- [ ] K029.json
+- [x] K021.json - unified-template-09-dynamic-boxes (2025-07-30)
+- [x] K022.json - unified-template-09-dynamic-boxes (2025-07-30)
+- [x] K029.json - unified-template-07-item-list (2025-07-30)
 - [x] K033.json - unified-template-07-item-list (2025-07-30)
 - [x] K035.json - DELETED（時限性情報価値失効により削除 2025-07-30）
 - [x] K043.json - DELETED（時限性情報価値失効により削除 2025-07-30）
 - [x] K044.json - unified-template-04-item-grid (2025-07-30)
 - [ ] K046.json
 - [x] K047.json - unified-template-07-item-list (2025-07-30)
-- [ ] K049.json
-- [ ] K056.json
-- [ ] K057.json
-- [ ] K062.json
-- [ ] K071.json
-- [ ] K072.json
-- [ ] K074.json
-- [ ] K078.json
-- [ ] K079.json
+- [x] K049.json - unified-template-02-dual-section (2025-07-30)
+- [x] K056.json - unified-template-02-dual-section (2025-07-30)
+- [x] K057.json - unified-template-02-dual-section (2025-07-30)
+- [x] K062.json - unified-template-09-dynamic-boxes (2025-07-30)
+- [x] K071.json - unified-template-05-comparison (2025-07-30)
+- [x] K072.json - unified-template-04-item-grid (2025-07-30)
+- [x] K074.json - unified-template-07-item-list (2025-07-30)
+- [x] K078.json - unified-template-09-dynamic-boxes (2025-07-30)
+- [x] K079.json - unified-template-07-item-list (2025-07-30)
 - [ ] K080.json
-- [ ] K081.json
-- [ ] K082.json
-- [ ] K084.json
-- [ ] K085.json
-- [ ] K088.json
-- [ ] K092.json
-- [ ] K093.json
-- [ ] K096.json
-- [ ] K097.json
-- [ ] K098.json
-- [ ] K099.json
-- [ ] K100.json
-- [ ] K101.json
-- [ ] K102.json
+- [x] K081.json - unified-template-07-item-list (2025-07-30)
+- [x] K082.json - unified-template-07-item-list (2025-07-30)
+- [x] K084.json - unified-template-07-item-list (2025-07-30)
+- [x] K085.json - unified-template-09-dynamic-boxes (2025-07-30)
+- [x] K088.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K092.json - unified-template-07-item-list (2025-07-30)
+- [x] K093.json - unified-template-07-item-list (2025-07-30)
+- [x] K096.json - unified-template-02-dual-section (2025-07-30)
+- [x] K097.json - unified-template-07-item-list (2025-07-30)
+- [x] K098.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K099.json - unified-template-02-dual-section (2025-07-30)
+- [x] K100.json - unified-template-04-item-grid (2025-07-30)
+- [x] K101.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K102.json - unified-template-08-section-blocks (2025-07-30)
 - [ ] K104.json
-- [ ] K106.json
-- [ ] K107.json
-- [ ] K109.json
-- [ ] K113.json
+- [x] K106.json - unified-template-07-item-list (2025-07-30)
+- [x] K107.json - unified-template-07-item-list (2025-07-30)
+- [x] K109.json - unified-template-07-item-list (2025-07-30)
+- [x] K113.json - unified-template-04-item-grid (2025-07-30)
 - [ ] K116.json
 - [ ] K136.json
 - [ ] K146.json
