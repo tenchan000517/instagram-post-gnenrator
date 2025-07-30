@@ -53,100 +53,61 @@
   ],
   "marketingStage": "27卒の就活生で業界研究・志望動機策定段階",
   "knowledgeId": "K047",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-07-item-list",
   "actualTitle": "もう迷わない！業界別就活軸",
-  "pageCount": 7,
-  "hashTag": "#27卒 #27卒と繋がりたい #就活",
+  "pageCount": 2,
   "detailedContent": {
     "page1": {
-      "role": "title-page",
-      "elements": {
-        "background": "ビジネスマンのスーツ姿の画像",
-        "titleBox": "\\もう迷わない！/ 業界別就活軸",
-        "overlay": "白枠デコレーション",
-        "pageIndicator": "1/7"
+      "section": "introduction",
+      "content": {
+        "title": "もう迷わない！業界別就活軸",
+        "subtitle": "自分に合った業界を見つけるための志望動機例",
+        "description": "業界選択で迷っている就活生へ。主要6業界の特徴と代表的な志望動機例をまとめました。自分の価値観と照らし合わせて、適性のある業界を見つけましょう。",
+        "imageSrc": "/misaki_study.png",
+        "imageAlt": "勉強する女性"
       }
     },
     "page2": {
-      "role": "industry-category-commercial",
-      "elements": {
-        "background": "オフィスビル・商社の看板画像",
-        "industryLabel": "商社",
-        "motivationList": [
-          "グローバルに働きたい",
-          "スケールの大きい事業をしたい", 
-          "人々の生活にインパクトを与えたい",
-          "世の中に役に立つ価値を生み出したい"
-        ]
-      }
-    },
-    "page3": {
-      "role": "industry-category-media-entertainment",
-      "elements": {
-        "background": "人のシルエット・イラスト画像",
-        "industryLabel": "マスコミ・エンタメ",
-        "subtitle": "または人が通る場所での受検",
-        "note": "（何も飾られていない壁で実施してください）",
-        "motivationList": [
-          "日本文化を海外に届けたい",
-          "人々に感動や喜びを与えたい",
-          "大勢に頼できる情報を届けたい",
-          "社会課題をエンタメで解決したい"
-        ],
-        "additionalNote": "スクリーンショットや写真・動画撮影はNG"
-      }
-    },
-    "page4": {
-      "role": "industry-category-consulting",
-      "elements": {
-        "background": "カフェ・食事の画像",
-        "industryLabel": "コンサル",
-        "motivationList": [
-          "企業の成長をサポートしたい",
-          "組織の立ち上げに参加したい",
-          "企業を起点に産業の発展に貢献したい",
-          "多種多様な人と関わりたい",
-          "若いうちから活躍したい"
-        ]
-      }
-    },
-    "page5": {
-      "role": "industry-category-manufacturer",
-      "elements": {
-        "background": "手とノートPC・作業風景の画像",
-        "industryLabel": "メーカー",
-        "motivationList": [
-          "人々に感動を与えたい",
-          "想像したものを形にしたい",
-          "新しい価値を提供し続けたい",
-          "日本の商品を世界に届けたい"
-        ]
-      }
-    },
-    "page6": {
-      "role": "industry-category-it",
-      "elements": {
-        "background": "オフィスビル・エレベーター画像",
-        "industryLabel": "IT", 
-        "motivationList": [
-          "情報格差をなくしたい",
-          "自分の技術で生活をより豊かにしたい",
-          "ITを通じて企業の経営基盤を整えたい",
-          "専門的な知識、ノウハウを身に着けたい"
-        ]
-      }
-    },
-    "page7": {
-      "role": "industry-category-infrastructure",
-      "elements": {
-        "background": "夕日・建設現場風景の画像",
-        "industryLabel": "インフラ",
-        "motivationList": [
-          "人々の生活の根幹を支えたい",
-          "持続可能な都市づくりをしたい",
-          "地方活性化に取り組みたい",
-          "便利な生活を守る仕事がしたい",
-          "地図に残る仕事がしたい"
+      "section": "mainContent",
+      "content": {
+        "title": "業界別志望動機の軸となる価値観",
+        "items": [
+          {
+            "title": "商社",
+            "description": "グローバルに働きたい / スケールの大きい事業をしたい / 人々の生活にインパクトを与えたい / 世の中に役立つ価値を生み出したい",
+            "imageSrc": "/king.png",
+            "imageAlt": "ビジネスマン"
+          },
+          {
+            "title": "マスコミ・エンタメ",
+            "description": "日本文化を海外に届けたい / 人々に感動や喜びを与えたい / 信頼できる情報を届けたい / 社会課題をエンタメで解決したい",
+            "imageSrc": "/kikuyo.png",
+            "imageAlt": "女性キャラクター"
+          },
+          {
+            "title": "コンサルティング",
+            "description": "企業の成長をサポートしたい / 組織の立ち上げに参加したい / 企業を起点に産業の発展に貢献したい / 多種多様な人と関わりたい / 若いうちから活躍したい",
+            "imageSrc": "/iida.png",
+            "imageAlt": "男性キャラクター"
+          },
+          {
+            "title": "メーカー",
+            "description": "人々に感動を与えたい / 想像したものを形にしたい / 新しい価値を提供し続けたい / 日本の商品を世界に届けたい",
+            "imageSrc": "/ten.png",
+            "imageAlt": "男性キャラクター"
+          },
+          {
+            "title": "IT",
+            "description": "情報格差をなくしたい / 自分の技術で生活をより豊かにしたい / ITを通じて企業の経営基盤を整えたい / 専門的な知識・ノウハウを身に着けたい",
+            "imageSrc": "/misaki.png",
+            "imageAlt": "女性キャラクター"
+          },
+          {
+            "title": "インフラ",
+            "description": "人々の生活の根幹を支えたい / 持続可能な都市づくりをしたい / 地方活性化に取り組みたい / 便利な生活を守る仕事がしたい / 地図に残る仕事がしたい",
+            "imageSrc": "/iida_fighting.png",
+            "imageAlt": "やる気のある男性"
+          }
         ]
       }
     }
