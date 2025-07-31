@@ -43,7 +43,7 @@ export const getPageNumberIcon = (pageNumber: number) => {
   return PAGE_NUMBER_ICONS[pageNumber as keyof typeof PAGE_NUMBER_ICONS] || MdFilter1
 }
 
-// マークダウン記法を除去する関数
+// マークダウン記法と絵文字を除去する関数
 export const cleanMarkdown = (text: string): string => {
   if (!text) return text
   return text
@@ -53,6 +53,7 @@ export const cleanMarkdown = (text: string): string => {
     .replace(/_(.*?)_/g, '$1')       // _italic_ を除去
     .replace(/~~(.*?)~~/g, '$1')     // ~~strikethrough~~ を除去
     .replace(/`(.*?)`/g, '$1')       // `code` を除去
+    .replace(/[\u{1F600}-\u{1F64F}]|[\u{1F300}-\u{1F5FF}]|[\u{1F680}-\u{1F6FF}]|[\u{1F1E0}-\u{1F1FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]/gu, '') // 絵文字を除去
     .trim()
 }
 

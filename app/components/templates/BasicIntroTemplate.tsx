@@ -87,8 +87,8 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
       </div>
 
       {/* ターゲット質問 */}
-      <div className="bg-brown-200 rounded-full px-8 py-4 mb-8 max-w-md">
-        <p className="text-gray-800 text-2xl font-medium text-center">
+      <div className="bg-amber-400 rounded-xl px-8 py-4 mb-8 max-w-2xl">
+        <p className="text-white text-2xl font-medium text-center">
           {targetAudience}
         </p>
       </div>
@@ -100,7 +100,7 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
             <div className="flex-shrink-0 mt-0.5">
               <CheckSquare className="w-12 h-12 text-green-600" />
             </div>
-            <p className="text-gray-800 text-2xl leading-relaxed">
+            <p className="text-gray-800 text-xl font-bold leading-relaxed">
               {problem}
             </p>
           </div>
@@ -120,7 +120,7 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
 
       {/* 追加メッセージ */}
       <div className="text-center mb-6">
-        <p className="text-gray-700 text-2xl font-medium">
+        <p className="text-gray-700 text-xl font-bold">
           {additionalMessage}
         </p>
       </div>

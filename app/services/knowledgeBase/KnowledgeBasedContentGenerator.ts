@@ -83,12 +83,16 @@ export class KnowledgeBasedContentGenerator {
       // JSONパース
       const parsedContent = this.parseGeneratedContent(generatedText)
       
-      // 🎯 画像フィールドを元データから補完
+      // 🎯 画像フィールドを元データから強制的に上書き（AI生成を無視）
       const pageKey = `page${request.pageNumber}`
       const currentPageData = request.knowledgeData.detailedContent[pageKey]
-      if (currentPageData?.content?.illustrationImage && !parsedContent.illustrationImage) {
-        console.log('🖼️ 画像フィールドを補完:', currentPageData.content.illustrationImage)
-        parsedContent.illustrationImage = currentPageData.content.illustrationImage
+      if (currentPageData?.imageSrc) {
+        console.log('🖼️ ナレッジの画像パスで強制上書き:', currentPageData.imageSrc)
+        parsedContent.imageSrc = currentPageData.imageSrc
+        parsedContent.imageAlt = currentPageData.imageAlt || 'イラスト'
+        // AI生成の不正な画像パスを削除
+        delete parsedContent.image
+        delete parsedContent.illustrationImage
       }
       
       return {
@@ -194,10 +198,15 @@ ${knowledgeData.searchKeywords?.join(', ') || ''}
 4. **元のコンテンツと同程度の情報量を維持（Instagram投稿1ページに適した簡潔性重視）**
 5. **長文・詳細説明・リスト羅列を避け、要点のみを簡潔に表現**
 6. **CTA（「次のページへ」「保存してね」等）は含めない - コンテンツのみに集中**
-7. 上記のテンプレート構造に完璧に適合するJSONで出力
-8. ナレッジの解決策を必須活用（参考程度ではない）
-9. 解決密度を維持（一般化・抽象化禁止）
-10. **【重要】currentPageData.contentにillustrationImageが含まれている場合は、必ずそのまま出力JSONに含める**
+7. **絵文字は一切使用禁止 - テキストのみで表現すること**
+8. 上記のテンプレート構造に完璧に適合するJSONで出力
+9. ナレッジの解決策を必須活用（参考程度ではない）
+10. 解決密度を維持（一般化・抽象化禁止）
+11. **【重要画像ルール - 絶対遵守】**:
+   - 画像フィールド（imageSrc, image等）は一切出力しない
+   - AIが画像パスを生成することを完全に禁止
+   - システム側でナレッジデータから自動補完するため、AI生成は不要
+   - 画像関連の全てのフィールドを出力JSONから除外する
 
 【出力形式】
 上記のテンプレート構造と完全に一致するJSONのみを出力してください。

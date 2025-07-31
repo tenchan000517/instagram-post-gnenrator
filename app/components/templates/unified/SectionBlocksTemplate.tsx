@@ -57,7 +57,7 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
           {content.map((item, index) => (
             <li key={index} className="flex items-start gap-2">
               <Check className="w-4 h-4 text-green-500 mt-1 flex-shrink-0" />
-              <span className="text-gray-700 leading-relaxed">
+              <span className="text-gray-700 font-semibold leading-relaxed">
                 {cleanMarkdown(item)}
               </span>
             </li>
@@ -67,7 +67,7 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
     }
     
     return (
-      <p className="text-gray-700 leading-relaxed">
+      <p className="text-gray-700 font-semibold leading-relaxed">
         {cleanMarkdown(content)}
       </p>
     );
@@ -77,15 +77,18 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
     <div className="w-full h-full bg-white relative overflow-hidden">
       {/* ヘッダー */}
       {title && (
-        <div className="bg-green-400 px-8 py-6">
-          <h1 className="text-3xl font-bold text-white text-center leading-tight">
+        <div className="px-8 py-6 relative">
+          <h1 className="text-3xl font-bold text-black text-center leading-tight">
             {cleanMarkdown(title)}
           </h1>
+          <div className="flex justify-center mt-8">
+            <div className="w-3/4 border-b-2 border-dashed border-gray-400"></div>
+          </div>
         </div>
       )}
 
       {/* メインコンテンツ */}
-      <div className="p-8 flex flex-col bg-white">
+      <div className="p-8 flex flex-col">
 
         {/* セクションブロック */}
         <div className="flex-1 space-y-6">
@@ -93,7 +96,7 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
             <div key={index} className="space-y-4">
               {/* セクションヘッダー */}
               <div className="mb-3">
-                <h2 className="text-xl font-bold text-gray-800">
+                <h2 className="text-2xl font-bold text-gray-800">
                   {cleanMarkdown(section.name)}
                 </h2>
               </div>
@@ -114,14 +117,23 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
               )}
 
               {/* セクションコンテンツボックス */}
-              <div className="bg-gradient-to-br from-blue-50 to-gray-50 rounded-lg p-4 shadow-sm border border-gray-200">
+              <div 
+                className="bg-blue-50 p-4 shadow-sm border border-gray-200"
+                style={{
+                  backgroundImage: `
+                    linear-gradient(rgba(150, 150, 150, 0.25) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(150, 150, 150, 0.25) 1px, transparent 1px)
+                  `,
+                  backgroundSize: '20px 20px'
+                }}
+              >
                 <ContentDisplay content={section.content} />
               </div>
 
               {/* セクション下テキスト（オプショナル） */}
               {section.footerText && (
                 <div>
-                  <p className="text-sm text-gray-600 italic">
+                  <p className="text-base text-gray-600 italic">
                     {cleanMarkdown(section.footerText)}
                   </p>
                 </div>
@@ -132,11 +144,20 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
 
         {/* 下部2カラムセクション（キャラクター付き） */}
         {characterImage && (
-          <div className="mt-8 bg-white rounded-lg p-6">
-            <div className={`flex ${characterPosition === 'left' ? 'flex-row-reverse' : 'flex-row'} gap-6 items-center bg-white`}>
+          <div className="mt-8 rounded-lg p-6">
+            <div className={`flex ${characterPosition === 'left' ? 'flex-row-reverse' : 'flex-row'} gap-6 items-center`}>
               {/* テキストセクション */}
               <div className="flex-1 flex flex-col justify-center">
-                <div className="bg-gradient-to-br from-blue-50 to-gray-50 rounded-lg p-4 shadow-sm border border-gray-200">
+                <div 
+                  className="bg-green-50 p-4 shadow-sm border border-gray-200"
+                  style={{
+                    backgroundImage: `
+                      linear-gradient(rgba(150, 150, 150, 0.25) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(150, 150, 150, 0.25) 1px, transparent 1px)
+                    `,
+                    backgroundSize: '20px 20px'
+                  }}
+                >
                   {data.bottomSectionName && (
                     <h3 className="text-lg font-semibold text-gray-800 mb-3">
                       {cleanMarkdown(data.bottomSectionName)}
@@ -150,7 +171,7 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
 
               {/* キャラクター画像（指定がある場合のみ表示） */}
               {shouldShowImage && (
-                <div className="h-48 relative bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm" style={{ width: 'auto' }}>
+                <div className="h-48 relative rounded-lg flex items-center justify-center overflow-hidden" style={{ width: 'auto' }}>
                   <img
                     src={finalCharacterImage}
                     alt="キャラクター"
