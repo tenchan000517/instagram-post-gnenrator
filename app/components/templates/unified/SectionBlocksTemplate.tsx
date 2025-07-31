@@ -23,7 +23,31 @@ interface SectionBlocksData extends TemplateData {
 
 export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
   const sectionData = data as SectionBlocksData
-  const { title, sections = [], characterImage, characterPosition = 'right' } = sectionData
+  const { title, sections = [], characterImage, characterPosition = 'right', imageSrc } = sectionData
+  
+  // 画像パスの優先度: imageSrc > characterImage （デフォルト表示なし）
+  const rawImagePath = imageSrc || characterImage
+  
+  // 画像パスの正規化（相対パス→絶対パス、不正URL除外）
+  const normalizeImagePath = (path: string | undefined): string | null => {
+    if (!path) return null
+    
+    // 外部URLをブロック
+    if (path.includes('http://') || path.includes('https://')) {
+      console.warn('🚫 外部URL画像をブロック:', path)
+      return null
+    }
+    
+    // 相対パスを絶対パスに変換
+    if (path && !path.startsWith('/')) {
+      return `/${path}`
+    }
+    
+    return path
+  }
+  
+  const finalCharacterImage = normalizeImagePath(rawImagePath)
+  const shouldShowImage = !!finalCharacterImage
 
   // コンテンツ表示コンポーネント（description or list 対応）
   const ContentDisplay = ({ content }: { content: string | string[] }) => {
@@ -50,27 +74,25 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
   };
 
   return (
-    <div className="w-full h-full bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
+    <div className="w-full h-full bg-white relative overflow-hidden">
+      {/* ヘッダー */}
+      {title && (
+        <div className="bg-green-400 px-8 py-6">
+          <h1 className="text-3xl font-bold text-white text-center leading-tight">
+            {cleanMarkdown(title)}
+          </h1>
+        </div>
+      )}
+
       {/* メインコンテンツ */}
-      <div className="p-8 h-full flex flex-col">
-        {/* タイトル */}
-        {title && (
-          <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 leading-tight">
-              {cleanMarkdown(title)}
-            </h1>
-          </div>
-        )}
+      <div className="p-8 flex flex-col bg-white">
 
         {/* セクションブロック */}
         <div className="flex-1 space-y-6">
           {sections.map((section, index) => (
             <div key={index} className="space-y-4">
               {/* セクションヘッダー */}
-              <div className="flex items-center gap-3">
-                <span className="bg-blue-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
-                  {index + 1}
-                </span>
+              <div className="mb-3">
                 <h2 className="text-xl font-bold text-gray-800">
                   {cleanMarkdown(section.name)}
                 </h2>
@@ -92,13 +114,13 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
               )}
 
               {/* セクションコンテンツボックス */}
-              <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200 ml-11">
+              <div className="bg-gradient-to-br from-blue-50 to-gray-50 rounded-lg p-4 shadow-sm border border-gray-200">
                 <ContentDisplay content={section.content} />
               </div>
 
               {/* セクション下テキスト（オプショナル） */}
               {section.footerText && (
-                <div className="ml-11">
+                <div>
                   <p className="text-sm text-gray-600 italic">
                     {cleanMarkdown(section.footerText)}
                   </p>
@@ -110,34 +132,33 @@ export function SectionBlocksTemplate({ data }: SectionBlocksTemplateProps) {
 
         {/* 下部2カラムセクション（キャラクター付き） */}
         {characterImage && (
-          <div className="mt-8 bg-gray-50 rounded-lg p-6">
-            <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 items-center ${
-              characterPosition === 'left' ? '' : 'md:grid-flow-col-dense'
-            }`}>
+          <div className="mt-8 bg-white rounded-lg p-6">
+            <div className={`flex ${characterPosition === 'left' ? 'flex-row-reverse' : 'flex-row'} gap-6 items-center bg-white`}>
               {/* テキストセクション */}
-              <div className={characterPosition === 'left' ? 'md:col-start-2' : ''}>
-                {data.bottomSectionName && (
-                  <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                    {cleanMarkdown(data.bottomSectionName)}
-                  </h3>
-                )}
-                {data.bottomSectionContent && (
-                  <ContentDisplay content={data.bottomSectionContent} />
-                )}
-              </div>
-
-              {/* キャラクター画像 */}
-              <div className={`flex justify-center ${characterPosition === 'left' ? 'md:col-start-1' : ''}`}>
-                <div className="w-48 h-48 relative bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm">
-                  <Image
-                    src={characterImage}
-                    alt="キャラクター"
-                    width={192}
-                    height={192}
-                    className="w-full h-full object-cover rounded-lg"
-                  />
+              <div className="flex-1 flex flex-col justify-center">
+                <div className="bg-gradient-to-br from-blue-50 to-gray-50 rounded-lg p-4 shadow-sm border border-gray-200">
+                  {data.bottomSectionName && (
+                    <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                      {cleanMarkdown(data.bottomSectionName)}
+                    </h3>
+                  )}
+                  {data.bottomSectionContent && (
+                    <ContentDisplay content={data.bottomSectionContent} />
+                  )}
                 </div>
               </div>
+
+              {/* キャラクター画像（指定がある場合のみ表示） */}
+              {shouldShowImage && (
+                <div className="h-48 relative bg-white rounded-lg flex items-center justify-center overflow-hidden shadow-sm" style={{ width: 'auto' }}>
+                  <img
+                    src={finalCharacterImage}
+                    alt="キャラクター"
+                    className="h-full w-auto object-contain rounded-lg"
+                    style={{ width: 'auto', height: '100%' }}
+                  />
+                </div>
+              )}
             </div>
           </div>
         )}
