@@ -131,50 +131,118 @@ export class HashtagService {
 
   /**
    * コンテンツに基づいて最適なハッシュタグを選択
-   * 大カテゴリ3つ、中カテゴリ3つ、小カテゴリ2つ、メインジャンル3つ = 計11個
+   * 大規模4個、中規模4個、小規模4個、メインジャンル1個 = 計13個
    */
-  selectHashtags(content: string, additionalKeywords: string[] = []): {
+  selectHashtags(
+    content: string, 
+    additionalKeywords: string[] = [],
+    targetId?: string,
+    postType?: string
+  ): {
     large: string[]
     medium: string[]
     small: string[]
     all: string[]
   } {
-    const contentLower = content.toLowerCase()
-    const allKeywords = [...additionalKeywords.map(k => k.toLowerCase())]
-
-    // メインジャンル3つ（必須）
-    const mainGenres = ['#就活', '#キャリア', '#インターン']
+    // 大規模ハッシュタグ（4個）- 投稿タイプ別
+    const selectedLarge = this.getLargeHashtagsByPostType(postType, targetId)
     
-    // 大カテゴリから3つ選択（メインジャンルを除く）
-    const selectedLarge = this.selectFromCategory(
-      this.config.large.filter(tag => !mainGenres.includes(tag)),
-      contentLower,
-      allKeywords,
-      3
-    )
-
-    // 中カテゴリから3つ選択
-    const selectedMedium = this.selectFromCategory(
-      this.config.medium,
-      contentLower,
-      allKeywords,
-      3
-    )
-
-    // 小カテゴリから2つ選択
-    const selectedSmall = this.selectFromCategory(
-      this.config.small,
-      contentLower,
-      allKeywords,
-      2
-    )
+    // 中規模ハッシュタグ（4個）- ターゲット別
+    const selectedMedium = this.getMediumHashtagsByTarget(targetId)
+    
+    // 小規模ハッシュタグ（4個）- コンテンツ内容別
+    const selectedSmall = this.getSmallHashtagsByContent(content, additionalKeywords)
 
     return {
       large: selectedLarge,
       medium: selectedMedium,
       small: selectedSmall,
-      all: [...mainGenres, ...selectedLarge, ...selectedMedium, ...selectedSmall]
+      all: [...selectedLarge, ...selectedMedium, ...selectedSmall]
     }
+  }
+
+  /**
+   * 大規模ハッシュタグを投稿タイプ別に選択
+   */
+  private getLargeHashtagsByPostType(postType?: string, targetId?: string): string[] {
+    const baseTag = '#キャリア'
+    
+    switch (postType) {
+      case '001': // 悩み解決
+        const isStudent = targetId && ['T001', 'T004', 'T007', 'T008', 'T013', 'T019', 'T022'].includes(targetId)
+        return [baseTag, '#仕事', '#日常', isStudent ? '#学生' : '#社会人']
+      
+      case '002': // スキルアップ
+        return [baseTag, '#成長', '#自分磨き', '#仕事']
+      
+      case '003': // 業界情報
+        const isStudentT3 = targetId && ['T001', 'T004', 'T007', 'T008', 'T013', 'T019', 'T022'].includes(targetId)
+        return [baseTag, '#仕事', '#成長', isStudentT3 ? '#学生' : '#社会人']
+      
+      case '004': // 効率化
+        return [baseTag, '#仕事', '#成長', '#ライフスタイル']
+      
+      default:
+        return [baseTag, '#仕事', '#成長', '#社会人']
+    }
+  }
+
+  /**
+   * 中規模ハッシュタグをターゲット別に選択
+   */
+  private getMediumHashtagsByTarget(targetId?: string): string[] {
+    
+    const targetHashtagMap: { [key: string]: string[] } = {
+      // 学生系
+      'T001': ['#学生', '#就職活動', '#自己啓発', '#モチベーション'],
+      'T004': ['#学生', '#就職活動', '#自己啓発', '#モチベーション'],
+      'T007': ['#学生', '#就職活動', '#スキルアップ', '#自己啓発'],
+      'T008': ['#学生', '#フリーランス', '#モチベーション', '#自己啓発'],
+      'T013': ['#学生', '#就職活動', '#自己啓発', '#モチベーション'],
+      'T019': ['#学生', '#就職活動', '#スキルアップ', '#自己啓発'],
+      'T022': ['#学生', '#就職活動', '#スキルアップ', '#自己啓発'],
+      
+      // 女性系
+      'T002': ['#ワーママ', '#働く女性', '#キャリアウーマン', '#ポジティブ'],
+      'T005': ['#ワーママ', '#働く女性', '#転職', '#キャリアウーマン'],
+      'T009': ['#ワーママ', '#働く女性', '#スキルアップ', '#自分磨き'],
+      'T011': ['#女性起業家', '#働く女性', '#フリーランス', '#ポジティブ'],
+      'T020': ['#ワーママ', '#働く女性', '#スキルアップ', '#フリーランス'],
+      'T023': ['#ワーママ', '#働く女性', '#スキルアップ', '#フリーランス'],
+      
+      // 男性系
+      'T003': ['#転職', '#フリーランス', '#モチベーション', '#自己啓発'],
+      'T006': ['#転職', '#フリーランス', '#モチベーション', '#自己啓発'],
+      'T010': ['#スキルアップ', '#フリーランス', '#モチベーション', '#自己啓発'],
+      'T012': ['#フリーランス', '#モチベーション', '#スキルアップ', '#自己啓発'],
+      'T021': ['#フリーランス', '#スキルアップ', '#モチベーション', '#自己啓発'],
+      'T024': ['#フリーランス', '#スキルアップ', '#モチベーション', '#自己啓発'],
+      
+      // 一般系
+      'T014': ['#転職', '#転職活動', '#フリーランス', '#モチベーション'],
+      'T015': ['#フリーランス', '#女性起業家', '#モチベーション', '#自己啓発'],
+      'T016': ['#自己啓発', '#モチベーション', '#スキルアップ', '#就職活動'],
+      'T017': ['#自己啓発', '#モチベーション', '#スキルアップ', '#就職活動'],
+      'T018': ['#フリーランス', '#スキルアップ', '#モチベーション', '#自己啓発']
+    }
+    
+    const result = targetHashtagMap[targetId || ''] || ['#自己啓発', '#モチベーション', '#スキルアップ', '#就職活動']
+    return result
+  }
+
+  /**
+   * 小規模ハッシュタグをコンテンツ内容別に選択
+   */
+  private getSmallHashtagsByContent(content: string, additionalKeywords: string[]): string[] {
+    // 大規模・中規模で使用されるハッシュタグを除外
+    const smallHashtags = [
+      '#コミュニティ', '#目標達成', '#働き方', '#理系', '#アドバイス', 
+      '#可能性', '#本音', '#自己成長', '#モチベーションアップ', '#人脈', '#キャリアアップ',
+      '#時間管理', '#若手', '#ネットワーク', '#リーダーシップ', '#ライフハック', 
+      '#メンター', '#体験談', '#仕事術', '#裏話', '#ビジネススキル', '#タスク管理'
+    ]
+    
+    return this.selectFromCategory(smallHashtags, content.toLowerCase(), additionalKeywords, 4)
   }
 
   /**

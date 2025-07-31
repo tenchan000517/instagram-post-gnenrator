@@ -174,10 +174,10 @@ export class ContentGeneratorService {
       console.log(`📊 表分割完了: ${pages.length}ページ → ${finalPages.length}ページ`)
       
       // ハッシュタグ生成（現状維持）
-      const hashtags = await this.generateHashtags(userInput, finalPages)
+      const hashtags = await this.generateHashtags(userInput, finalPages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
       
       // キャプション生成（改善: 実際の生成内容を反映）
-      const caption = await this.generateCaptionWithFormat(userInput, finalPages)
+      const caption = await this.generateCaptionWithFormat(userInput, finalPages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
       
       const generatedContent: GeneratedContent = {
         pages: finalPages,
@@ -402,8 +402,8 @@ export class ContentGeneratorService {
       console.log('🎉 全ページ生成完了')
       
       // 既存のハッシュタグ・キャプション生成を使用
-      const hashtags = await this.generateHashtags(userInput, pages)
-      const caption = await this.generateCaptionWithFormat(userInput, pages)
+      const hashtags = await this.generateHashtags(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
+      const caption = await this.generateCaptionWithFormat(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
       
       const generatedContent: GeneratedContent = {
         pages,
@@ -438,14 +438,20 @@ export class ContentGeneratorService {
       `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
     ).join(' ')
 
+    // ターゲット別の文体調整
+    const targetTone = this.getTargetTone(content.targetId, content.postType)
+
     const prompt = `
 以下のコンテンツから、Instagram投稿用のプロフェッショナルなキャプションを生成してください。
 
 【コンテンツ】
 ${contentForCaption}
 
+【ターゲット別文体調整】
+${targetTone}
+
 【キャプション固定フォーマット】
-読者の心を掴む短い導入文（10文字程度の1文、タイトルをそのまま使用しない）
+読者の心を掴む短い導入文（10文字程度の1文、タイトルをそのまま使用しない、煽り表現は使用禁止）
 @find_to_do←他の投稿はこちら
 ━━━━━━━━━━━━━━━━━━━━
 
@@ -457,7 +463,7 @@ ${contentForCaption}
 
 ...
 
-読者の行動を促す温かいポジティブな分で終わる
+読者の行動を促す温かいポジティブな文で終わる
 
 【キャプション生成制約】
 - キャプションにはハッシュタグを一切含めない
@@ -471,6 +477,7 @@ ${contentForCaption}
 - ですます調を基本とし、感嘆符（！）の多用は避ける
 - カジュアルな親しみやすさを保ちつつ、フランクすぎない適度な距離感を維持
 - 自然な丁寧語を心がける
+- 煽り表現は絶対に使用禁止：「必見」「今すぐ」「緊急」「激推し」「絶対」「確実に」「99%」「劇的に」「格段に」等は使用しない
 
 【文体の指針】
 - 就活・キャリア系の専門的な内容に相応しい丁寧な文体
@@ -1210,12 +1217,17 @@ ${additionalInstructions || '品質を向上させて再生成してください
   /**
    * ハッシュタグ生成（新システム用）
    */
-  private async generateHashtags(_userInput: string, pages: GeneratedPage[]): Promise<GeneratedContent['hashtags']> {
+  private async generateHashtags(
+    _userInput: string, 
+    pages: GeneratedPage[],
+    targetId?: string,
+    postType?: string
+  ): Promise<GeneratedContent['hashtags']> {
     const contentForHashtags = pages.map(page => 
       `${page.content.title || ''} ${page.content.description || ''} ${page.content.subtitle || ''}`
     ).join(' ')
     
-    const properHashtags = hashtagService.selectHashtags(contentForHashtags)
+    const properHashtags = hashtagService.selectHashtags(contentForHashtags, [], targetId, postType)
     
     return {
       primary: properHashtags.large,
@@ -1233,8 +1245,13 @@ ${additionalInstructions || '品質を向上させて再生成してください
    */
   private async generateCaptionWithFormat(
     originalInput: string,
-    generatedPages: GeneratedPage[]
+    generatedPages: GeneratedPage[],
+    targetId?: string,
+    postType?: string
   ): Promise<string> {
+    
+    // ターゲット別の文体調整
+    const targetTone = this.getTargetTone(targetId, postType)
     
     const prompt = `
 以下のコンテンツから、Instagram投稿用のプロフェッショナルなキャプションを生成してください。
@@ -1243,8 +1260,11 @@ ${additionalInstructions || '品質を向上させて再生成してください
 【実際の生成ページ】
 ${generatedPages.map(p => `${p.content.title}: ${p.content.description || ''}`).join('\n')}
 
+【ターゲット別文体調整】
+${targetTone}
+
 【キャプション固定フォーマット】
-読者の心を掴む短い導入文（10文字程度の1文、タイトルをそのまま使用しない）
+読者の心を掴む短い導入文（10文字程度の1文、タイトルをそのまま使用しない、煽り表現は使用禁止）
 @find_to_do←他の投稿はこちら
 ━━━━━━━━━━━━━━━━━━━━
 
@@ -1256,7 +1276,7 @@ ${generatedPages.map(p => `${p.content.title}: ${p.content.description || ''}`).
 
 ...
 
-読者の行動を促す温かいポジティブな分で終わる
+読者の行動を促す温かいポジティブな文で終わる
 
 【キャプション生成制約】
 - キャプションにはハッシュタグを一切含めない
@@ -1270,6 +1290,7 @@ ${generatedPages.map(p => `${p.content.title}: ${p.content.description || ''}`).
 - ですます調を基本とし、感嘆符（！）の多用は避ける
 - カジュアルな親しみやすさを保ちつつ、フランクすぎない適度な距離感を維持
 - 自然な丁寧語を心がける
+- 煽り表現は絶対に使用禁止：「必見」「今すぐ」「緊急」「激推し」「絶対」「確実に」「99%」「劇的に」「格段に」等は使用しない
 
 【文体の指針】
 - 就活・キャリア系の専門的な内容に相応しい丁寧な文体
@@ -1345,11 +1366,48 @@ ${generatedPages.map(p => `${p.content.title}: ${p.content.description || ''}`).
     }
   }
 
+  /**
+   * ターゲット別の文体調整を取得
+   */
+  private getTargetTone(targetId?: string, postType?: string): string {
+    if (!targetId) return "一般的な就活・キャリア関心層向けの親しみやすい文体で作成"
+    
+    // 女性向けターゲット
+    const femaleTargets = ['T002', 'T005', 'T009', 'T011', 'T020', 'T023']
+    if (femaleTargets.includes(targetId)) {
+      return `女性向けの共感的で温かい文体で作成。働く女性の悩みや挑戦に寄り添う表現を使用。
+- 感情に訴える親しみやすい言葉遣い
+- 「一緒に頑張りましょう」「あなたらしく」といった応援メッセージ
+- ワークライフバランスや自己実現への理解を示す`
+    }
+    
+    // 男性向けターゲット
+    const maleTargets = ['T003', 'T006', 'T010', 'T012', 'T021', 'T024']
+    if (maleTargets.includes(targetId)) {
+      return `男性向けの実践的でロジカルな文体で作成。効率性と成果を重視した表現を使用。
+- データや具体的な手法を重視した説明
+- 「効率的に」「戦略的に」「結果を出す」といったビジネス寄りの表現
+- 実用性と即効性を強調`
+    }
+    
+    // 学生向けターゲット
+    const studentTargets = ['T001', 'T004', 'T007', 'T008', 'T013', 'T019', 'T022']
+    if (studentTargets.includes(targetId)) {
+      return `学生向けの親近感のある文体で作成。就活の不安や悩みに寄り添う表現を使用。
+- 先輩から後輩へのアドバイス的な温かい口調
+- 「一緒に頑張ろう」「大丈夫」といった励ましの言葉
+- 就活プロセスへの理解と共感を示す`
+    }
+    
+    return "一般的な就活・キャリア関心層向けの親しみやすい文体で作成"
+  }
+
 
   /**
    * ハッシュタグのみを再生成
    */
   async regenerateHashtags(content: GeneratedContent): Promise<GeneratedContent> {
+    
     try {
       const model = this.model
       
@@ -1433,10 +1491,10 @@ ${contentSummary}
       }))
 
       // ハッシュタグ生成
-      const hashtags = await this.generateHashtags(userInput, pages)
+      const hashtags = await this.generateHashtags(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
       
       // キャプション生成
-      const caption = await this.generateCaptionWithFormat(userInput, pages)
+      const caption = await this.generateCaptionWithFormat(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
 
       console.log('✅ 新統合システム結果変換完了')
 
