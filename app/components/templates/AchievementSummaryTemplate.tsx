@@ -1,5 +1,6 @@
 import React from 'react';
 import { TemplateMetadata } from './TemplateTypes';
+import { getT009DynamicFontClass, getT009BackgroundClass } from '../../utils/fontUtils';
 
 interface AchievementSummaryTemplateProps {
   data: {
@@ -10,9 +11,10 @@ interface AchievementSummaryTemplateProps {
     encouragementMessage?: string;
     finalMessage?: string;
   };
+  targetId?: string;
 }
 
-export default function AchievementSummaryTemplate({ data }: AchievementSummaryTemplateProps) {
+export default function AchievementSummaryTemplate({ data, targetId }: AchievementSummaryTemplateProps) {
   const {
     summaryTitle = '',
     title = '',
@@ -26,15 +28,20 @@ export default function AchievementSummaryTemplate({ data }: AchievementSummaryT
   const displayTitle = summaryTitle || title;
   const displayPoints = achievementPoints.length > 0 ? achievementPoints : habitsList;
   const displayMessage = finalMessage || encouragementMessage;
+  const dynamicFontClass = getT009DynamicFontClass(targetId);
+  const backgroundClass = getT009BackgroundClass(targetId);
   return (
     <div className="w-full h-full bg-white flex flex-col justify-center items-center p-6 relative">
-      {/* まとめタイトル */}
+      {/* ヘッダー */}
       {displayTitle && (
-        <div className="text-center mb-8">
-          <div className="border-2 border-gray-300 rounded-lg px-6 py-4 inline-block">
-            <h1 className="text-2xl md:text-3xl font-bold text-black leading-tight">
+        <div className="py-6 relative">
+          <div className="px-8">
+            <h1 className={`text-3xl font-bold text-black text-center leading-tight ${dynamicFontClass}`}>
               {displayTitle}
             </h1>
+          </div>
+          <div className="mt-8 px-2">
+            <div className="w-full border-b-2 border-dashed border-gray-400"></div>
           </div>
         </div>
       )}
@@ -57,11 +64,11 @@ export default function AchievementSummaryTemplate({ data }: AchievementSummaryT
                 {displayPoints.map((point, index) => (
                   <div key={index} className="flex items-start space-x-4">
                     {/* ポイント番号 - シンプルテキスト */}
-                    <span className="flex-shrink-0 text-2xl font-bold text-blue-500 pt-1">
+                    <span className={`flex-shrink-0 text-2xl font-bold text-blue-500 pt-1 ${dynamicFontClass}`}>
                       {index + 1}.
                     </span>
                     {/* ポイント内容 */}
-                    <p className="text-gray-700 text-2xl font-bold leading-relaxed flex-1 pt-1">
+                    <p className={`text-gray-700 text-2xl font-bold leading-relaxed flex-1 pt-1 ${dynamicFontClass}`}>
                       {point}
                     </p>
                   </div>
@@ -76,7 +83,7 @@ export default function AchievementSummaryTemplate({ data }: AchievementSummaryT
       {displayMessage && (
         <div className="text-center">
           <div className="bg-orange-100 rounded-lg px-6 py-4 shadow-sm">
-            <p className="text-xl text-gray-700 font-medium leading-relaxed">
+            <p className={`text-xl text-gray-700 font-medium leading-relaxed ${dynamicFontClass}`}>
               {displayMessage}
             </p>
           </div>

@@ -2,9 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import { TemplateData, cleanMarkdown } from '../TemplateTypes'
 import { Check } from 'lucide-react'
+import { getT009DynamicFontClass } from '../../../utils/fontUtils'
 
 interface ImagePointTemplateProps {
   data: TemplateData
+  targetId?: string
 }
 
 interface ImagePointData extends TemplateData {
@@ -18,8 +20,9 @@ interface ImagePointData extends TemplateData {
   };
 }
 
-export function ImagePointTemplate({ data }: ImagePointTemplateProps) {
+export function ImagePointTemplate({ data, targetId }: ImagePointTemplateProps) {
   const imagePointData = data as ImagePointData
+  const dynamicFontClass = getT009DynamicFontClass(targetId)
   const { 
     title, 
     mainImage, 
@@ -36,7 +39,7 @@ export function ImagePointTemplate({ data }: ImagePointTemplateProps) {
           {content.map((item, index) => (
             <li key={index} className="flex items-start gap-2">
               <Check className="w-4 h-4 text-green-500 mt-1 flex-shrink-0" />
-              <span className="text-gray-700 leading-relaxed">
+              <span className={`text-gray-700 leading-relaxed ${dynamicFontClass}`}>
                 {cleanMarkdown(item)}
               </span>
             </li>
@@ -46,7 +49,7 @@ export function ImagePointTemplate({ data }: ImagePointTemplateProps) {
     }
     
     return (
-      <p className="text-gray-700 leading-relaxed">
+      <p className={`text-gray-700 leading-relaxed ${dynamicFontClass}`}>
         {cleanMarkdown(content)}
       </p>
     );
@@ -59,7 +62,7 @@ export function ImagePointTemplate({ data }: ImagePointTemplateProps) {
         {/* タイトル */}
         {title && (
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 leading-tight">
+            <h1 className={`text-3xl font-bold text-gray-900 leading-tight ${dynamicFontClass}`}>
               {cleanMarkdown(title)}
             </h1>
           </div>
@@ -85,9 +88,9 @@ export function ImagePointTemplate({ data }: ImagePointTemplateProps) {
             <div className="bg-gradient-to-r from-yellow-400 to-orange-400 text-white p-6 rounded-lg shadow-lg w-full">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-2xl">💡</span>
-                <h2 className="text-lg font-bold">重要ポイント</h2>
+                <h2 className={`text-lg font-bold ${dynamicFontClass}`}>重要ポイント</h2>
               </div>
-              <p className="text-lg font-semibold leading-relaxed">
+              <p className={`text-lg font-semibold leading-relaxed ${dynamicFontClass}`}>
                 {cleanMarkdown(importantPoint)}
               </p>
             </div>
@@ -97,7 +100,7 @@ export function ImagePointTemplate({ data }: ImagePointTemplateProps) {
         {/* 2カラム下のテキスト（オプショナル） */}
         {description && (
           <div className="text-center mb-8">
-            <p className="text-gray-600 text-lg leading-relaxed max-w-4xl mx-auto">
+            <p className={`text-gray-600 text-lg leading-relaxed max-w-4xl mx-auto ${dynamicFontClass}`}>
               {cleanMarkdown(description)}
             </p>
           </div>
@@ -107,7 +110,7 @@ export function ImagePointTemplate({ data }: ImagePointTemplateProps) {
         {bottomSection && (
           <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200">
             {bottomSection.name && (
-              <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+              <h3 className={`text-xl font-bold text-gray-800 mb-4 flex items-center gap-2 ${dynamicFontClass}`}>
                 <span className="bg-purple-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
                   ✓
                 </span>
@@ -124,7 +127,7 @@ export function ImagePointTemplate({ data }: ImagePointTemplateProps) {
         {!importantPoint && !bottomSection && (
           <div className="flex-1 flex items-center justify-center">
             <div className="text-center text-gray-500">
-              <p className="text-lg">表示するコンテンツがありません</p>
+              <p className={`text-lg ${dynamicFontClass}`}>表示するコンテンツがありません</p>
             </div>
           </div>
         )}

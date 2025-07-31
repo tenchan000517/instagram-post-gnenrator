@@ -1,7 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&family=M+PLUS+Rounded+1c:wght@400;500;700&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=block');
 
 @layer base {
   :root {
@@ -54,6 +54,16 @@
   width: 1080px;
   height: 1920px;
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* T009専用フォント強制適用 - M PLUS Rounded 1c */
+.font-t009-special {
+  font-family: var(--font-mplus-rounded), 'Comic Sans MS', cursive !important;
+}
+
+/* T009専用背景色 */
+.bg-t009-special {
+  background-color: #DCC1C2 !important;
 }
 
 /* カラー定義 */

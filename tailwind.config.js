@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         'japanese': ['Noto Sans JP', 'sans-serif'],
         'heading': ['Inter', 'sans-serif'],
+        't009-special': ['M PLUS Rounded 1c', 'Noto Sans JP', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',

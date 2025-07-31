@@ -1,6 +1,7 @@
 import React from 'react';
 import { CheckSquare } from 'lucide-react';
 import { TemplateMetadata } from './TemplateTypes';
+import { getT009DynamicFontClass, getT009BackgroundClass } from '../../utils/fontUtils';
 
 interface BasicIntroTemplateProps {
   data: {
@@ -70,6 +71,8 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
   const config = TYPE_CONFIG[postType];
   const isJobType = isJobHuntingTarget(targetId);
   const isFemale = isFemaleTarget(targetId);
+  const dynamicFontClass = getT009DynamicFontClass(targetId);
+  const backgroundClass = getT009BackgroundClass(targetId);
   
   // 画像選択ロジック: 就活系 > 女性 > 通常の優先順位
   const characterImage = isJobType 
@@ -78,29 +81,29 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
       ? (config as any).femaleImage 
       : config.normalImage;
   return (
-    <div className={`w-full h-full bg-gradient-to-b ${config.bgGradient} to-white flex flex-col justify-center items-center p-8 relative`}>
+    <div className="w-full h-full bg-white flex flex-col justify-center items-center p-8 relative">
       {/* メインタイトル */}
       <div className="text-center mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
+        <h1 className={`text-3xl md:text-4xl font-bold text-gray-800 leading-tight ${dynamicFontClass}`}>
           {title}
         </h1>
       </div>
 
       {/* ターゲット質問 */}
-      <div className="bg-amber-400 rounded-xl px-8 py-4 mb-8 max-w-2xl">
-        <p className="text-white text-2xl font-medium text-center">
+      <div className={`${backgroundClass} px-8 py-4 mb-8 max-w-2xl`}>
+        <p className={`text-white text-2xl font-medium text-center ${dynamicFontClass}`}>
           {targetAudience}
         </p>
       </div>
 
       {/* 問題リスト */}
-      <div className="space-y-4 mb-8 w-full max-w-lg">
+      <div className="space-y-4 mb-2 w-full" style={{maxWidth: '37rem'}}>
         {(problems || []).map((problem, index) => (
           <div key={index} className="flex items-start space-x-3">
             <div className="flex-shrink-0 mt-0.5">
               <CheckSquare className="w-12 h-12 text-green-600" />
             </div>
-            <p className="text-gray-800 text-xl font-bold leading-relaxed">
+            <p className={`text-gray-800 text-xl font-bold leading-relaxed ${dynamicFontClass}`}>
               {problem}
             </p>
           </div>
@@ -108,7 +111,7 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
       </div>
 
       {/* 女性イラスト部分 */}
-      <div className="flex justify-center mb-6">
+      <div className="flex justify-center mb-4">
         <div className="w-80 h-80 rounded-full overflow-hidden">
           <img 
             src={characterImage} 
@@ -120,7 +123,7 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
 
       {/* 追加メッセージ */}
       <div className="text-center mb-6">
-        <p className="text-gray-700 text-xl font-bold">
+        <p className={`text-gray-700 text-xl font-bold ${dynamicFontClass}`}>
           {additionalMessage}
         </p>
       </div>

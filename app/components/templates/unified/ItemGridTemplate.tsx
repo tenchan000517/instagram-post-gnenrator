@@ -1,17 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
 import { TemplateData, cleanMarkdown } from '../TemplateTypes'
+import { getT009DynamicFontClass } from '../../../utils/fontUtils'
 
 interface ItemGridTemplateProps {
   data: TemplateData
+  targetId?: string
 }
 
-export function ItemGridTemplate({ data }: ItemGridTemplateProps) {
+export function ItemGridTemplate({ data, targetId }: ItemGridTemplateProps) {
   // データ構造解析 - 複数のフィールド名に対応
   const items = [data.items, data.examples, data.methods, data.tools]
     .find(arr => arr && arr.length > 0) || []
   const title = data.title || ''
   const subtitle = data.subtitle || ''
+  const dynamicFontClass = getT009DynamicFontClass(targetId)
 
   // レイアウト決定関数
   const getLayoutClass = (itemCount: number) => {
@@ -58,14 +61,14 @@ export function ItemGridTemplate({ data }: ItemGridTemplateProps) {
         
         {/* タイトル/名前 */}
         {itemName && (
-          <h3 className="text-lg font-bold text-gray-800 mb-2 text-center">
+          <h3 className={`text-lg font-bold text-gray-800 mb-2 text-center ${dynamicFontClass}`}>
             {cleanMarkdown(itemName)}
           </h3>
         )}
         
         {/* 説明文 */}
         {itemDescription && (
-          <p className="text-gray-700 text-sm leading-relaxed text-center">
+          <p className={`text-gray-700 text-sm leading-relaxed text-center ${dynamicFontClass}`}>
             {cleanMarkdown(itemDescription)}
           </p>
         )}
@@ -81,12 +84,12 @@ export function ItemGridTemplate({ data }: ItemGridTemplateProps) {
         {(title || subtitle) && (
           <div className="text-center mb-6">
             {title && (
-              <h1 className="text-2xl font-bold text-gray-900 mb-2">
+              <h1 className={`text-2xl font-bold text-gray-900 mb-2 ${dynamicFontClass}`}>
                 {cleanMarkdown(title)}
               </h1>
             )}
             {subtitle && (
-              <p className="text-lg text-gray-600">
+              <p className={`text-lg text-gray-600 ${dynamicFontClass}`}>
                 {cleanMarkdown(subtitle)}
               </p>
             )}
@@ -161,7 +164,7 @@ export function ItemGridTemplate({ data }: ItemGridTemplateProps) {
         {items.length === 0 && (
           <div className="flex-1 flex items-center justify-center">
             <div className="text-center text-gray-500">
-              <p className="text-lg">表示するアイテムがありません</p>
+              <p className={`text-lg ${dynamicFontClass}`}>表示するアイテムがありません</p>
             </div>
           </div>
         )}

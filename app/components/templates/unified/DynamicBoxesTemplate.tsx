@@ -1,9 +1,11 @@
 import React from 'react'
 import { TemplateData, cleanMarkdown } from '../TemplateTypes'
 import { Check } from 'lucide-react'
+import { getT009DynamicFontClass } from '../../../utils/fontUtils'
 
 interface DynamicBoxesTemplateProps {
   data: TemplateData
+  targetId?: string
 }
 
 interface BoxSection {
@@ -16,8 +18,9 @@ interface DynamicBoxesData extends TemplateData {
   boxes: BoxSection[];
 }
 
-export function DynamicBoxesTemplate({ data }: DynamicBoxesTemplateProps) {
+export function DynamicBoxesTemplate({ data, targetId }: DynamicBoxesTemplateProps) {
   const boxData = data as DynamicBoxesData
+  const dynamicFontClass = getT009DynamicFontClass(targetId)
   const { title, boxes = [] } = boxData
   
   // 最大4つまでのボックスを表示
@@ -31,7 +34,7 @@ export function DynamicBoxesTemplate({ data }: DynamicBoxesTemplateProps) {
           {content.map((item, index) => (
             <li key={index} className="flex items-start gap-2">
               <Check className="w-4 h-4 text-green-500 mt-1 flex-shrink-0" />
-              <span className="text-gray-700 leading-relaxed">
+              <span className={`text-gray-700 leading-relaxed ${dynamicFontClass}`}>
                 {cleanMarkdown(item)}
               </span>
             </li>
@@ -41,7 +44,7 @@ export function DynamicBoxesTemplate({ data }: DynamicBoxesTemplateProps) {
     }
     
     return (
-      <p className="text-gray-700 leading-relaxed">
+      <p className={`text-gray-700 leading-relaxed ${dynamicFontClass}`}>
         {cleanMarkdown(content)}
       </p>
     );
@@ -70,7 +73,7 @@ export function DynamicBoxesTemplate({ data }: DynamicBoxesTemplateProps) {
         {/* タイトル */}
         {title && (
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 leading-tight">
+            <h1 className={`text-3xl font-bold text-gray-900 leading-tight ${dynamicFontClass}`}>
               {cleanMarkdown(title)}
             </h1>
           </div>
@@ -89,7 +92,7 @@ export function DynamicBoxesTemplate({ data }: DynamicBoxesTemplateProps) {
                   <span className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold">
                     {index + 1}
                   </span>
-                  <h2 className="text-lg font-bold text-gray-800">
+                  <h2 className={`text-lg font-bold text-gray-800 ${dynamicFontClass}`}>
                     {cleanMarkdown(box.name)}
                   </h2>
                 </div>
@@ -107,7 +110,7 @@ export function DynamicBoxesTemplate({ data }: DynamicBoxesTemplateProps) {
         {displayBoxes.length === 0 && (
           <div className="flex-1 flex items-center justify-center">
             <div className="text-center text-gray-500">
-              <p className="text-lg">表示するボックスがありません</p>
+              <p className={`text-lg ${dynamicFontClass}`}>表示するボックスがありません</p>
             </div>
           </div>
         )}

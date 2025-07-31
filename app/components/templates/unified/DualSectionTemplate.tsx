@@ -2,15 +2,18 @@ import React from 'react'
 import Image from 'next/image'
 import { TemplateData, cleanMarkdown } from '../TemplateTypes'
 import { Check } from 'lucide-react'
+import { getT009DynamicFontClass } from '../../../utils/fontUtils'
 
 interface DualSectionTemplateProps {
   data: TemplateData
+  targetId?: string
 }
 
-export function DualSectionTemplate({ data }: DualSectionTemplateProps) {
+export function DualSectionTemplate({ data, targetId }: DualSectionTemplateProps) {
   // データ構造解析
   const contentArray = (data as any).content || {};
   const items = contentArray.items || data.items || [];
+  const dynamicFontClass = getT009DynamicFontClass(targetId);
   
   // 最初の2つのアイテムを取得
   const firstItem = items[0];
@@ -25,7 +28,7 @@ export function DualSectionTemplate({ data }: DualSectionTemplateProps) {
           {content.map((item, index) => (
             <li key={index} className="flex items-start gap-2">
               <Check className="w-5 h-5 text-green-500 mt-0.5 flex-shrink-0" />
-              <span className="text-gray-700 text-lg leading-relaxed">
+              <span className={`text-gray-700 text-lg leading-relaxed ${dynamicFontClass}`}>
                 {cleanMarkdown(item)}
               </span>
             </li>
@@ -36,7 +39,7 @@ export function DualSectionTemplate({ data }: DualSectionTemplateProps) {
     
     // 段落形式
     return (
-      <p className="text-gray-700 text-xl font-bold leading-relaxed">
+      <p className={`text-gray-700 text-xl font-bold leading-relaxed ${dynamicFontClass}`}>
         {cleanMarkdown(content)}
       </p>
     );
@@ -61,7 +64,7 @@ export function DualSectionTemplate({ data }: DualSectionTemplateProps) {
           <span className="text-7xl font-black text-orange-500 leading-none">
             {item.number || (index + 1)}
           </span>
-          <h3 className="text-3xl font-bold text-gray-800 leading-tight flex-1">
+          <h3 className={`text-3xl font-bold text-gray-800 leading-tight flex-1 ${dynamicFontClass}`}>
             {cleanMarkdown(item.title || '')}
           </h3>
         </div>
@@ -110,7 +113,7 @@ export function DualSectionTemplate({ data }: DualSectionTemplateProps) {
           {/* オプショナルフッターdescription */}
           {data.footerDescription && (
             <div className="text-center mt-6">
-              <p className="text-gray-600 text-lg">
+              <p className={`text-gray-600 text-lg ${dynamicFontClass}`}>
                 {cleanMarkdown(data.footerDescription)}
               </p>
             </div>
@@ -119,7 +122,7 @@ export function DualSectionTemplate({ data }: DualSectionTemplateProps) {
           {/* フォールバック: アイテムがない場合 */}
           {!firstItem && !secondItem && (
             <div className="text-center text-gray-500 py-16">
-              <p className="text-lg">表示するアイテムがありません</p>
+              <p className={`text-lg ${dynamicFontClass}`}>表示するアイテムがありません</p>
             </div>
           )}
         </div>

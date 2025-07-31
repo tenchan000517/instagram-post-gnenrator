@@ -1,9 +1,11 @@
 import React from 'react';
 import { X, Check } from 'lucide-react';
 import { TemplateData, cleanMarkdown } from '../TemplateTypes';
+import { getT009DynamicFontClass } from '../../../utils/fontUtils';
 
 interface ComparisonTemplateProps {
   data: TemplateData;
+  targetId?: string;
 }
 
 interface ComparisonSection {
@@ -19,9 +21,10 @@ interface ComparisonData {
   bottomSection?: ComparisonSection;
 }
 
-export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
+export function ComparisonTemplate({ data, targetId }: ComparisonTemplateProps) {
   // データ構造解析 - 複数パターンに対応
   const comparisonData = data as ComparisonData;
+  const dynamicFontClass = getT009DynamicFontClass(targetId);
   
   // フォールバック: 既存NgGoodパターンの解析
   const parseNgGoodContent = () => {
@@ -63,7 +66,7 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
           {content.map((item, index) => (
             <li key={index} className="flex items-start gap-2">
               <Check className="w-4 h-4 text-green-500 mt-1 flex-shrink-0" />
-              <span className="text-gray-700 leading-relaxed">
+              <span className={`text-gray-700 leading-relaxed ${dynamicFontClass}`}>
                 {cleanMarkdown(item)}
               </span>
             </li>
@@ -73,7 +76,7 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
     }
     
     return (
-      <p className="text-gray-700 leading-relaxed">
+      <p className={`text-gray-700 leading-relaxed ${dynamicFontClass}`}>
         {cleanMarkdown(content)}
       </p>
     );
@@ -85,11 +88,11 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
       <div className="w-full h-full bg-white p-8 flex flex-col">
         {/* タイトル */}
         <div className="text-center mb-6">
-          <h1 className="text-3xl font-bold text-gray-900 leading-tight">
+          <h1 className={`text-3xl font-bold text-gray-900 leading-tight ${dynamicFontClass}`}>
             {cleanMarkdown(comparisonData.title)}
           </h1>
           {comparisonData.description && (
-            <p className="text-lg text-gray-600 mt-2">
+            <p className={`text-lg text-gray-600 mt-2 ${dynamicFontClass}`}>
               {cleanMarkdown(comparisonData.description)}
             </p>
           )}
@@ -99,7 +102,7 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           {/* 左セクション */}
           <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-            <h2 className="text-xl font-semibold text-red-600 mb-4 flex items-center gap-2">
+            <h2 className={`text-xl font-semibold text-red-600 mb-4 flex items-center gap-2 ${dynamicFontClass}`}>
               <X className="w-5 h-5" />
               {cleanMarkdown(comparisonData.leftSection.name)}
             </h2>
@@ -108,7 +111,7 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
 
           {/* 右セクション */}
           <div className="bg-green-50 border border-green-200 rounded-lg p-6">
-            <h2 className="text-xl font-semibold text-green-600 mb-4 flex items-center gap-2">
+            <h2 className={`text-xl font-semibold text-green-600 mb-4 flex items-center gap-2 ${dynamicFontClass}`}>
               <Check className="w-5 h-5" />
               {cleanMarkdown(comparisonData.rightSection.name)}
             </h2>
@@ -120,7 +123,7 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
         {comparisonData.bottomSection && (
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
             {comparisonData.bottomSection.name && (
-              <h2 className="text-xl font-semibold text-blue-600 mb-4">
+              <h2 className={`text-xl font-semibold text-blue-600 mb-4 ${dynamicFontClass}`}>
                 {cleanMarkdown(comparisonData.bottomSection.name)}
               </h2>
             )}
@@ -146,7 +149,7 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
       {/* メイン説明 */}
       {parsedContent.mainText.trim() && (
         <div className="mb-8 text-center">
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className={`text-lg text-gray-700 leading-relaxed ${dynamicFontClass}`}>
             {cleanMarkdown(parsedContent.mainText.trim())}
           </p>
         </div>
@@ -159,12 +162,12 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
           <div className="space-y-4">
             <div className="flex items-center space-x-2 mb-4">
               <X className="w-6 h-6 text-red-500" />
-              <h2 className="text-xl font-semibold text-red-600">NG例</h2>
+              <h2 className={`text-xl font-semibold text-red-600 ${dynamicFontClass}`}>NG例</h2>
             </div>
             <div className="space-y-3">
               {parsedContent.ngItems.map((item: string, index: number) => (
                 <div key={index} className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
-                  <p className="text-gray-800">{cleanMarkdown(item)}</p>
+                  <p className={`text-gray-800 ${dynamicFontClass}`}>{cleanMarkdown(item)}</p>
                 </div>
               ))}
             </div>
@@ -176,12 +179,12 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
           <div className="space-y-4">
             <div className="flex items-center space-x-2 mb-4">
               <Check className="w-6 h-6 text-green-500" />
-              <h2 className="text-xl font-semibold text-green-600">GOOD例</h2>
+              <h2 className={`text-xl font-semibold text-green-600 ${dynamicFontClass}`}>GOOD例</h2>
             </div>
             <div className="space-y-3">
               {parsedContent.goodItems.map((item: string, index: number) => (
                 <div key={index} className="bg-green-50 border-l-4 border-green-400 p-4 rounded">
-                  <p className="text-gray-800">{cleanMarkdown(item)}</p>
+                  <p className={`text-gray-800 ${dynamicFontClass}`}>{cleanMarkdown(item)}</p>
                 </div>
               ))}
             </div>
@@ -193,7 +196,7 @@ export function ComparisonTemplate({ data }: ComparisonTemplateProps) {
       {parsedContent.ngItems.length === 0 && parsedContent.goodItems.length === 0 && (
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center text-gray-500">
-            <p className="text-lg">比較コンテンツがありません</p>
+            <p className={`text-lg ${dynamicFontClass}`}>比較コンテンツがありません</p>
           </div>
         </div>
       )}

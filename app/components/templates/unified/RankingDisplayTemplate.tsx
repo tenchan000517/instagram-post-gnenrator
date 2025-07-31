@@ -1,5 +1,6 @@
 import React from 'react';
 import { cleanMarkdown } from '../TemplateTypes';
+import { getT009DynamicFontClass } from '../../../utils/fontUtils';
 
 interface RankingItem {
   rank: number;
@@ -27,9 +28,10 @@ interface RankingDisplayTemplateData {
 
 interface RankingDisplayTemplateProps {
   data: RankingDisplayTemplateData;
+  targetId?: string;
 }
 
-const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data }) => {
+const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data, targetId }) => {
   const {
     title,
     subtitle,
@@ -39,6 +41,8 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data })
     displayType = 'ranking',
     tiers
   } = data;
+  
+  const dynamicFontClass = getT009DynamicFontClass(targetId);
 
   // ランキングの色を取得
   const getRankColor = (rank: number): string => {
@@ -74,14 +78,14 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data })
           
           {/* 企業・項目名 */}
           <div className="flex-grow">
-            <h3 className="text-lg font-semibold text-gray-800 mb-1">
+            <h3 className={`text-lg font-semibold text-gray-800 mb-1 ${dynamicFontClass}`}>
               {cleanMarkdown(item.name)}
             </h3>
             {item.description && (
-              <p className="text-sm text-gray-600">{cleanMarkdown(item.description)}</p>
+              <p className={`text-sm text-gray-600 ${dynamicFontClass}`}>{cleanMarkdown(item.description)}</p>
             )}
             {item.category && (
-              <span className="inline-block bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded mt-1">
+              <span className={`inline-block bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded mt-1 ${dynamicFontClass}`}>
                 {item.category}
               </span>
             )}
@@ -89,11 +93,11 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data })
           
           {/* 数値データ */}
           <div className="flex-shrink-0 text-right">
-            <div className="text-xl font-bold text-blue-600">
+            <div className={`text-xl font-bold text-blue-600 ${dynamicFontClass}`}>
               {item.primaryValue}
             </div>
             {item.secondaryValue && (
-              <div className="text-sm text-gray-500">
+              <div className={`text-sm text-gray-500 ${dynamicFontClass}`}>
                 {item.secondaryValue}
               </div>
             )}
@@ -123,10 +127,10 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data })
                          getTierColor(tierLevel).includes('orange') ? '#f97316' :
                          getTierColor(tierLevel).includes('yellow') ? '#eab308' : '#22c55e' }}
               >
-                <h4 className="font-semibold text-gray-800">{cleanMarkdown(item.name)}</h4>
+                <h4 className={`font-semibold text-gray-800 ${dynamicFontClass}`}>{cleanMarkdown(item.name)}</h4>
                 <div className="flex justify-between items-center mt-1">
-                  <span className="text-sm text-gray-600">{item.description && cleanMarkdown(item.description)}</span>
-                  <span className="font-bold text-blue-600">{item.primaryValue}</span>
+                  <span className={`text-sm text-gray-600 ${dynamicFontClass}`}>{item.description && cleanMarkdown(item.description)}</span>
+                  <span className={`font-bold text-blue-600 ${dynamicFontClass}`}>{item.primaryValue}</span>
                 </div>
               </div>
             ))}
@@ -140,11 +144,11 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data })
     <div className="w-full max-w-4xl mx-auto bg-gradient-to-br from-blue-50 to-indigo-100 p-6 rounded-xl shadow-lg">
       {/* ヘッダー */}
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold text-gray-800 mb-2 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+        <h1 className={`text-3xl font-bold text-gray-800 mb-2 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent ${dynamicFontClass}`}>
           {cleanMarkdown(title)}
         </h1>
         {subtitle && (
-          <p className="text-lg text-gray-600">{cleanMarkdown(subtitle)}</p>
+          <p className={`text-lg text-gray-600 ${dynamicFontClass}`}>{cleanMarkdown(subtitle)}</p>
         )}
       </div>
 
@@ -157,12 +161,12 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data })
       {(note || source) && (
         <div className="mt-8 pt-4 border-t border-gray-300">
           {note && (
-            <p className="text-sm text-gray-500 mb-2">
+            <p className={`text-sm text-gray-500 mb-2 ${dynamicFontClass}`}>
               📝 {cleanMarkdown(note)}
             </p>
           )}
           {source && (
-            <p className="text-xs text-gray-400">
+            <p className={`text-xs text-gray-400 ${dynamicFontClass}`}>
               出典: {cleanMarkdown(source)}
             </p>
           )}
