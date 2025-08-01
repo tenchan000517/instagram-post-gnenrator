@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckSquare } from 'lucide-react';
 import { TemplateMetadata } from './TemplateTypes';
-import { getT009DynamicFontClass, getT009BackgroundClass } from '../../utils/fontUtils';
+import { getT009DynamicFontClass, getTargetBackgroundClass } from '../../utils/fontUtils';
 
 interface BasicIntroTemplateProps {
   data: {
@@ -72,7 +72,7 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
   const isJobType = isJobHuntingTarget(targetId);
   const isFemale = isFemaleTarget(targetId);
   const dynamicFontClass = getT009DynamicFontClass(targetId);
-  const backgroundClass = getT009BackgroundClass(targetId);
+  const backgroundClass = getTargetBackgroundClass(targetId);
   
   // 画像選択ロジック: 就活系 > 女性 > 通常の優先順位
   const characterImage = isJobType 

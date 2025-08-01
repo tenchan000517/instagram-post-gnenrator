@@ -31,6 +31,8 @@ import { DualEnumerationEditor } from './editors/DualEnumerationEditor'
 import { AchievementSummaryEditor } from './editors/AchievementSummaryEditor'
 import { ToolsIntroEditor } from './editors/ToolsIntroEditor'
 import { MultipleItemsDisplayEditor } from './editors/MultipleItemsDisplayEditor'
+import { BasicIntroEditor } from './editors/BasicIntroEditor'
+import { SectionBlocksEditor } from './editors/SectionBlocksEditor'
 
 interface EditablePostGeneratorProps {
   generatedContent: GeneratedContent
@@ -73,8 +75,6 @@ export default function EditablePostGenerator({
 ここで見つけた「得意」が、人生を変えるきっかけになる。
 
 一人で頑張るより、みんなで挑戦する方が圧倒的に早く成長できる。
-
-4年間で40年分のキャリアネットワークを構築する。
 
 プロフィール欄のURLからお気軽にご参加ください！
 
@@ -220,6 +220,17 @@ FIND to DO(@find_to_do)では
 
     setIsGenerating(true)
     try {
+      // フォントのロード完了を待つ
+      try {
+        await document.fonts.ready;
+        console.log('✅ フォントロード完了（単一ページ）');
+      } catch (error) {
+        console.warn('⚠️ フォントロード待機中にエラー（単一ページ）:', error);
+      }
+      
+      // 追加で少し待機してフォントが確実に適用されるようにする
+      await new Promise(resolve => setTimeout(resolve, 100));
+      
       // 実際の要素の高さを取得
       const actualHeight = currentPageElement.offsetHeight
       console.log('📸 Single download element height:', actualHeight)
@@ -388,6 +399,17 @@ FIND to DO(@find_to_do)では
   }
 
   const downloadSinglePage = async (element: HTMLDivElement, filename: string) => {
+    // フォントのロード完了を待つ
+    try {
+      await document.fonts.ready;
+      console.log('✅ フォントロード完了');
+    } catch (error) {
+      console.warn('⚠️ フォントロード待機中にエラー:', error);
+    }
+    
+    // 追加で少し待機してフォントが確実に適用されるようにする
+    await new Promise(resolve => setTimeout(resolve, 100));
+    
     // 実際の要素の高さを取得
     const actualHeight = element.offsetHeight
     console.log('📸 Download element height:', actualHeight, 'for', filename)
@@ -416,14 +438,23 @@ FIND to DO(@find_to_do)では
       return <div className="text-red-500">テンプレートが見つかりません</div>
     }
 
+    // unifiedテンプレートリスト
+    const unifiedTemplates = [
+      'section_blocks', 'item_list', 'dual_section', 'ranking_display',
+      'item_grid', 'comparison', 'unified_company_detail', 'dynamic_boxes', 
+      'image_point', 'simple_intro'
+    ]
+    
     return (
       <TemplateComponent
         data={{
           ...page.templateData,
           pageNumber: page.pageNumber
         }}
-        {...(page.templateType === 'basic_intro' ? {
+        {...(page.templateType === 'basic_intro' || page.templateType === 'simple_intro' ? {
           postType: generatedContent.postType || '001',
+          targetId: generatedContent.targetId || 'T001'
+        } : page.templateType === 'achievement_summary' || unifiedTemplates.includes(page.templateType) ? {
           targetId: generatedContent.targetId || 'T001'
         } : {})}
       />
@@ -431,35 +462,36 @@ FIND to DO(@find_to_do)では
   }
 
   const renderAllPagesForDownload = () => {
+    // unifiedテンプレートリスト
+    const unifiedTemplates = [
+      'section_blocks', 'item_list', 'dual_section', 'ranking_display',
+      'item_grid', 'comparison', 'unified_company_detail', 'dynamic_boxes', 
+      'image_point', 'simple_intro'
+    ]
+    
     return currentContent.pages.map((page, index) => {
       const TemplateComponent = templateComponents[page.templateType]
       if (!TemplateComponent) return null
 
       // アイテム数に基づいて高さを計算
       const calculateHeight = () => {
-        console.log('🔍 calculateHeight - templateType:', page.templateType)
-        
         // 独立ボックス構造の場合
         if (page.templateType === 'item-n-title-content') {
           const itemCount = getItemCountForPage(page)
-          console.log('📊 Item count:', itemCount)
           
           if (itemCount >= 4) {
             // 4個以上の場合は高さを拡張、5個以上は改行考慮で追加余白
             const baseHeight = 280 + (itemCount * 170)
             const extraPadding = itemCount >= 5 ? 50 : 0 // 5個以上の場合は50px追加
             const calculatedHeight = `${baseHeight + extraPadding}px`
-            console.log('📏 Calculated height:', calculatedHeight)
             return calculatedHeight
           }
         }
         // デフォルトの高さ
-        console.log('📏 Using default height: 899px')
         return '899px'
       }
 
       const finalHeight = calculateHeight()
-      console.log('🎯 Final height being applied:', finalHeight, 'for page:', page.pageNumber)
 
       return (
         <div
@@ -485,8 +517,10 @@ FIND to DO(@find_to_do)では
               ...page.templateData,
               pageNumber: page.pageNumber
             }}
-            {...(page.templateType === 'basic_intro' ? {
+            {...(page.templateType === 'basic_intro' || page.templateType === 'simple_intro' ? {
               postType: generatedContent.postType || '001',
+              targetId: generatedContent.targetId || 'T001'
+            } : page.templateType === 'achievement_summary' || unifiedTemplates.includes(page.templateType) ? {
               targetId: generatedContent.targetId || 'T001'
             } : {})}
           />
@@ -861,6 +895,25 @@ FIND to DO(@find_to_do)では
                 />
               </div>
             )}
+            {/* BasicIntroTemplate専用エディタ */}
+            {page.templateType === 'basic_intro' && (
+              <div className="border-t pt-6 mt-6">
+                <BasicIntroEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
+
+            {/* SectionBlocks専用エディタ */}
+            {page.templateType === 'section_blocks' && (
+              <div className="border-t pt-6 mt-6">
+                <SectionBlocksEditor
+                  data={page.templateData}
+                  onUpdate={(newData) => handlePageDataUpdate(editingPage, newData)}
+                />
+              </div>
+            )}
 
             {/* Unified Templates専用エディタ */}
             {(
@@ -871,7 +924,6 @@ FIND to DO(@find_to_do)では
               page.templateType === 'comparison' ||
               page.templateType === 'company_detail' ||
               page.templateType === 'item_list' ||
-              page.templateType === 'section_blocks' ||
               page.templateType === 'dynamic_boxes' ||
               page.templateType === 'image_point'
             ) && (
@@ -1668,7 +1720,7 @@ FIND to DO(@find_to_do)では
                         
                         // HashtagServiceを使用してハッシュタグ生成
                         const { hashtagService } = await import('../config/hashtags')
-                        const newHashtags = hashtagService.selectHashtags(contentForHashtags)
+                        const newHashtags = hashtagService.selectHashtags(contentForHashtags, [], currentContent.targetId, currentContent.postType)
                         
                         setCurrentContent({
                           ...currentContent,
