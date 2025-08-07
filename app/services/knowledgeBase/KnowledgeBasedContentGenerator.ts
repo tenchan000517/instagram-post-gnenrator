@@ -57,7 +57,7 @@ export class KnowledgeBasedContentGenerator {
       throw new Error('NEXT_PUBLIC_GEMINI_API_KEY is not set')
     }
     this.genAI = new GoogleGenerativeAI(apiKey)
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.0-flash' })
+    this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' })
   }
 
   /**
@@ -65,8 +65,22 @@ export class KnowledgeBasedContentGenerator {
    */
   async generatePageContent(request: KnowledgeBasedGenerationRequest): Promise<KnowledgeBasedGenerationResult> {
     try {
-      console.log(`🎯 ナレッジベース起点生成開始 - ページ${request.pageNumber}`)
+      console.log(`🎯 ナレッジベース起点生成開始 - ページ${request.pageNumber} (一時的直接流し込みモード)`)
       
+      // 🚀 一時的にAI生成をバイパスして、ナレッジデータをそのまま使用
+      const pageKey = `page${request.pageNumber}`
+      const currentPageData = request.knowledgeData.detailedContent[pageKey]
+      
+      if (!currentPageData) {
+        throw new Error(`ページ${request.pageNumber}のナレッジデータが見つかりません`)
+      }
+      
+      console.log('✅ ナレッジデータ直接使用:', JSON.stringify(currentPageData, null, 2).substring(0, 200) + '...')
+      
+      // ナレッジデータの content 部分をそのまま使用
+      const parsedContent = currentPageData.content
+      
+      /* 一時的にコメントアウト - AI生成部分
       // プロンプトを構築
       const prompt = this.buildKnowledgeBasedPrompt(request)
       
@@ -82,10 +96,12 @@ export class KnowledgeBasedContentGenerator {
       
       // JSONパース
       const parsedContent = this.parseGeneratedContent(generatedText)
+      */
       
       // 🎯 画像フィールドを元データから強制的に上書き（AI生成を無視）
-      const pageKey = `page${request.pageNumber}`
-      const currentPageData = request.knowledgeData.detailedContent[pageKey]
+      // pageKeyとcurrentPageDataは既に上で定義済み
+      
+      // 直接的な画像フィールドの処理
       if (currentPageData?.imageSrc) {
         console.log('🖼️ ナレッジの画像パスで強制上書き:', currentPageData.imageSrc)
         parsedContent.imageSrc = currentPageData.imageSrc
@@ -93,6 +109,19 @@ export class KnowledgeBasedContentGenerator {
         // AI生成の不正な画像パスを削除
         delete parsedContent.image
         delete parsedContent.illustrationImage
+      }
+      
+      // items配列内の画像フィールドの処理
+      if (currentPageData?.content?.items && parsedContent.items) {
+        console.log('🖼️ items配列の画像情報をナレッジデータから統合')
+        for (let i = 0; i < currentPageData.content.items.length && i < parsedContent.items.length; i++) {
+          const originalItem = currentPageData.content.items[i]
+          if (originalItem.imageSrc) {
+            parsedContent.items[i].imageSrc = originalItem.imageSrc
+            parsedContent.items[i].imageAlt = originalItem.imageAlt || 'イラスト'
+            console.log(`🖼️ アイテム${i + 1}に画像統合:`, originalItem.imageSrc)
+          }
+        }
       }
       
       return {
@@ -122,10 +151,14 @@ export class KnowledgeBasedContentGenerator {
     
     // 現在のページ情報を取得（新方式: knowledgeData.detailedContentから直接取得）
     const pageKey = `page${pageNumber}`
-    const currentPageData = knowledgeData.detailedContent[pageKey]
+    const currentPageData = knowledgeData.detailedContent?.[pageKey]
     
     if (!currentPageData) {
-      throw new Error(`ページ${pageNumber}のデータが見つかりません`)
+      // デバッグ情報を出力
+      console.log('🔍 デバッグ: 利用可能なページキー:', Object.keys(knowledgeData.detailedContent || {}))
+      console.log('🔍 デバッグ: 探索対象ページキー:', pageKey)
+      console.log('🔍 デバッグ: knowledgeData構造:', JSON.stringify(knowledgeData, null, 2))
+      throw new Error(`ページ${pageNumber}のデータが見つかりません。利用可能なページ: ${Object.keys(knowledgeData.detailedContent || {}).join(', ')}`)
     }
 
     // テンプレート決定: pageStructureから基本テンプレート取得 → templateOverridesで上書き
@@ -263,7 +296,7 @@ ${knowledgeData.searchKeywords?.join(', ') || ''}
         context: 'string'
       },
       'sequential_dependency': {
-        pointNumber: 'number',
+        pointNumber: 'string',
         stepTitle: 'string',
         stepContent: 'string[]',
         actionItems: 'string[]?'

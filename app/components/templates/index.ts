@@ -50,6 +50,10 @@ export { ItemListTemplate } from './unified/ItemListTemplate'
 export { SectionBlocksTemplate } from './unified/SectionBlocksTemplate'
 export { DynamicBoxesTemplate } from './unified/DynamicBoxesTemplate'
 export { ImagePointTemplate } from './unified/ImagePointTemplate'
+export { EmpathyTemplate } from './unified/EmpathyTemplate'
+export { EnhancedCompanyDetailTemplate } from './unified/EnhancedCompanyDetailTemplate'
+export { ResourceSummaryTemplate } from './unified/ResourceSummaryTemplate'
+export { StepByStepTemplate } from './unified/StepByStepTemplate'
 
 // 新しいK004テスト用テンプレート
 export { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
@@ -153,6 +157,10 @@ import { ItemListTemplate } from './unified/ItemListTemplate'
 import { SectionBlocksTemplate } from './unified/SectionBlocksTemplate'
 import { DynamicBoxesTemplate } from './unified/DynamicBoxesTemplate'
 import { ImagePointTemplate } from './unified/ImagePointTemplate'
+import { EmpathyTemplate } from './unified/EmpathyTemplate'
+import { EnhancedCompanyDetailTemplate } from './unified/EnhancedCompanyDetailTemplate'
+import { ResourceSummaryTemplate } from './unified/ResourceSummaryTemplate'
+import { StepByStepTemplate } from './unified/StepByStepTemplate'
 
 import { TemplateType } from './TemplateTypes'
 
@@ -222,7 +230,11 @@ export const templateComponents = {
   'item_list': ItemListTemplate,
   'section_blocks': SectionBlocksTemplate,
   'dynamic_boxes': DynamicBoxesTemplate,
-  'image_point': ImagePointTemplate
+  'image_point': ImagePointTemplate,
+  'empathy': EmpathyTemplate,
+  'enhanced_company_detail': EnhancedCompanyDetailTemplate,
+  'resource_summary': ResourceSummaryTemplate,
+  'step_by_step': StepByStepTemplate
 } as const
 
 // テンプレートレンダラー
@@ -237,13 +249,28 @@ export function renderTemplate(
     return null
   }
   
-  // BasicIntroTemplateの場合のみ追加propsを渡す
-  if (templateType === 'basic_intro') {
+  // BasicIntroTemplateとSimpleIntroTemplateの場合、追加propsを渡す
+  if (templateType === 'basic_intro' || templateType === 'simple_intro') {
     return TemplateComponent({ 
       data, 
       postType: additionalProps?.postType as '001' | '002' | '003' | '004', 
       targetId: additionalProps?.targetId 
     })
+  }
+  
+  // AchievementSummaryTemplateの場合、targetIdを渡す
+  if (templateType === 'achievement_summary') {
+    return TemplateComponent({ data, targetId: additionalProps?.targetId })
+  }
+  
+  // Unifiedテンプレートの場合、targetIdを渡す
+  const unifiedTemplates = [
+    'section_blocks', 'item_list', 'dual_section', 'ranking_display',
+    'item_grid', 'comparison', 'unified_company_detail', 'dynamic_boxes', 'image_point', 'empathy',
+    'enhanced_company_detail', 'resource_summary', 'step_by_step'
+  ]
+  if (unifiedTemplates.includes(templateType)) {
+    return TemplateComponent({ data, targetId: additionalProps?.targetId })
   }
   
   return TemplateComponent({ data })

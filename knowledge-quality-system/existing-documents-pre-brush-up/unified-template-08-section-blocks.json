@@ -1,0 +1,56 @@
+{
+  "pageStructureId": "unified-template-08-section-blocks",
+  "name": "Unified Template 08 - Section Blocks Pattern",
+  "description": "導入・セクションブロック・まとめ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "index_template",
+      "optional": true,
+      "templateStructure": {
+        "indexTitle": "string",
+        "indexItems": "string[]"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "section_blocks",
+      "templateStructure": {
+        "title": "string",
+        "sections": [
+          {
+            "name": "string",
+            "content": "string | string[]",
+            "image": "string",
+            "footerText": "string"
+          }
+        ],
+        "characterImage": "string",
+        "characterPosition": "string",
+        "bottomSectionName": "string",
+        "bottomSectionContent": "string | string[]"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "title": "string",
+        "habitsList": "string[]",
+        "finalMessage": "string"
+      }
+    }
+  ]
+}

@@ -75,12 +75,11 @@ export function DualSectionTemplate({ data, targetId }: DualSectionTemplateProps
           {hasImage && (
             <div className="mb-3 flex justify-center">
               <div className="w-48 h-48 relative bg-gray-50 rounded-lg flex items-center justify-center overflow-hidden">
-                <Image
+                <img
                   src={item.imageSrc || item.image || "/misaki.png"}
                   alt={item.imageAlt || "イラスト"}
-                  width={192}
-                  height={192}
-                  className="w-full h-full object-cover rounded-lg"
+                  className="h-full w-auto object-contain rounded-lg"
+                  style={{ width: 'auto', height: '100%' }}
                 />
               </div>
             </div>

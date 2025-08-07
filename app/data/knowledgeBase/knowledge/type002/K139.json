@@ -58,7 +58,7 @@
   "knowledgeId": "K139",
   "targetIds": ["T009", "T010"],
   "targetReason": "自己分析・内省・言語化スキルは性別を問わず必要な汎用的なライフスキル",
-  "pageStructurePattern": "typeID002-sequential-dependency",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "本音がわかる！言語化ノート術",
   "pageCount": 7,
   "detailedContent": {
@@ -68,114 +68,96 @@
       "content": {
         "title": "本音がわかる！言語化ノート術",
         "subtitle": "自信がない、自分がやりたいこともよくわからない",
-        "description": "その気持ちわかります。リモートワークも自信がなくて本音がわからなかったことよくあったでしょう。でも実は、ジャーナリングで変わったから紹介します！"
+        "description": "その気持ちわかります。リモートワークも自信がなくて本音がわからなかったことよくあったでしょう。でも実は、ジャーナリングで変わったから紹介します"
       }
     },
     "page2": {
-      "role": "ジャーナリングとは", 
+      "role": "ジャーナリング基礎",
       "section": "mainContent",
       "content": {
-        "title": "ジャーナリングとは",
-        "subtitle": "書く瞑想と言われています！",
-        "benefits": [
+        "blocks": [
           {
-            "title": "頭の中がスッキリする",
-            "description": ""
-          },
-          {
-            "title": "自己肯定感がアップする", 
-            "description": ""
-          },
-          {
-            "title": "行動力が高まる",
-            "description": ""
+            "imageSrc": "/misaki_study.png",
+            "title": "ジャーナリングとは",
+            "description": "書く瞑想と言われています。思考が整理されて感情に振り回されなくなります",
+            "benefits": "頭の中がスッキリする・自己肯定感がアップする・行動力が高まる"
           }
-        ],
-        "summary": "思考が整理されて感情に振り回されなくなります。",
-        "nextPage": "次ページから具体例をお伝えします"
+        ]
       }
     },
     "page3": {
       "role": "ステップ1",
       "section": "mainContent",
       "content": {
-        "number": "1",
-        "title": "出来事を書く",
-        "subtitle": "心に残ったことを書き出す",
-        "examples": [
-          "資料のデザインを褒められた",
-          "予定より早くタスクが終わった"
-        ],
-        "benefit": "人生の充実感が増して自己理解もぐんと深まります！"
+        "blocks": [
+          {
+            "imageSrc": "/kikuyo_point.png",
+            "title": "STEP1: 出来事を書く",
+            "description": "心に残ったことを書き出します",
+            "examples": "資料のデザインを褒められた・予定より早くタスクが終わった",
+            "benefit": "人生の充実感が増して自己理解もぐんと深まります"
+          }
+        ]
       }
     },
     "page4": {
       "role": "ステップ2",
-      "section": "mainContent", 
+      "section": "mainContent",
       "content": {
-        "number": "2",
-        "title": "感情を書く",
-        "subtitle": "気持ちや考えを素直に書き出す",
-        "examples": [
-          "工夫が評価されて嬉しかった",
-          "自分を信頼できる気持ちになった"
-        ],
-        "benefit": "モヤモヤが解消されて心の安定につながります。"
+        "blocks": [
+          {
+            "imageSrc": "/king_point.png",
+            "title": "STEP2: 感情を書く",
+            "description": "気持ちや考えを素直に書き出します",
+            "examples": "工夫が評価されて嬉しかった・自分を信頼できる気持ちになった",
+            "benefit": "モヤモヤが解消されて心の安定につながります"
+          }
+        ]
       }
     },
     "page5": {
       "role": "ステップ3",
       "section": "mainContent",
       "content": {
-        "number": "3", 
-        "title": "理由を探る",
-        "subtitle": "なぜその感情になったのか？",
-        "examples": [
-          "相手に貢献できた実感があった",
-          "優先順位をつけて行動できた"
-        ],
-        "benefit": "自分の価値観や思考のクセがわかり自分らしく生きられます！"
+        "blocks": [
+          {
+            "imageSrc": "/misaki_work.png",
+            "title": "STEP3: 理由を探る",
+            "description": "なぜその感情になったのかを探ります",
+            "examples": "相手に貢献できた実感があった・優先順位をつけて行動できた",
+            "benefit": "自分の価値観や思考のクセがわかり自分らしく生きられます"
+          }
+        ]
       }
     },
     "page6": {
-      "role": "ステップ4-5",
+      "role": "ステップ4",
       "section": "mainContent",
       "content": {
-        "step4": {
-          "number": "4",
-          "title": "一言にまとめる", 
-          "subtitle": "心に残った言葉をピックアップ",
-          "examples": [
-            "相手に伝わる工夫をしている",
-            "自分のペースを大切にしている"
-          ],
-          "benefit": "価値観や本音が言語化されてブレない軸が育ちます。"
-        },
-        "step5": {
-          "number": "5",
-          "title": "行動目標を立てる",
-          "subtitle": "どう動くかを具体的に",
-          "examples": [
-            "相手に伝わるように結論から話す",
-            "優先タスクに集中する時間を作る"
-          ],
-          "benefit": "より良い日々を作る力がついて人生の舵をとれるようになります。"
-        }
+        "blocks": [
+          {
+            "imageSrc": "/ten.png",
+            "title": "STEP4: 一言にまとめる",
+            "description": "心に残った言葉をピックアップします",
+            "examples": "相手に伝わる工夫をしている・自分のペースを大切にしている",
+            "benefit": "価値観や本音が言語化されてブレない軸が育ちます"
+          }
+        ]
       }
     },
     "page7": {
-      "role": "まとめ・実践促進",
-      "section": "summary",
+      "role": "ステップ5",
+      "section": "mainContent",
       "content": {
-        "title": "まとめ",
-        "items": [
-          "①出来事を書く",
-          "②感情を書く", 
-          "③理由を探る",
-          "④一言にまとめる",
-          "⑤行動目標を立てる"
-        ],
-        "message": "モヤモヤの正体が言語化できて次に進むためのヒントが見つかります！"
+        "blocks": [
+          {
+            "imageSrc": "/team_work.png",
+            "title": "STEP5: 行動目標を立てる",
+            "description": "どう動くかを具体的に決めます",
+            "examples": "相手に伝わるように結論から話す・優先タスクに集中する時間を作る",
+            "benefit": "より良い日々を作る力がついて人生の舵をとれるようになります"
+          }
+        ]
       }
     }
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckSquare } from 'lucide-react';
 import { TemplateMetadata } from './TemplateTypes';
-import { getT009DynamicFontClass, getTargetBackgroundClass } from '../../utils/fontUtils';
+import { getT009DynamicFontClass, getTargetIntroBackgroundClass } from '../../utils/fontUtils';
 
 interface BasicIntroTemplateProps {
   data: {
@@ -15,8 +15,11 @@ interface BasicIntroTemplateProps {
   targetId?: string;
 }
 
+// kikuyoキャラクターターゲット（T013-T017）
+const KIKUYO_TARGETS = ['T013', 'T014', 'T015', 'T016', 'T017'];
+
 // 就活系ターゲット（「学生」含む）
-const JOB_HUNTING_TARGETS = ['T001', 'T004', 'T007', 'T008', 'T013', 'T019', 'T022'];
+const JOB_HUNTING_TARGETS = ['T001', 'T004', 'T007', 'T008', 'T019', 'T022'];
 
 // 女性ターゲット
 const FEMALE_TARGETS = ['T002', 'T005', 'T009', 'T011', 'T020', 'T023'];
@@ -30,7 +33,7 @@ const TYPE_CONFIG = {
     altText: 'キャラクター'
   },
   '002': { 
-    normalImage: '/king.png', 
+    normalImage: '/king_worry.png', 
     femaleImage: '/misaki.png',
     jobImage: '/iida.png', 
     bgGradient: 'from-orange-50',
@@ -49,6 +52,10 @@ const TYPE_CONFIG = {
     altText: 'キャラクター'
   }
 } as const;
+
+function isKikuyoTarget(targetId?: string): boolean {
+  return targetId ? KIKUYO_TARGETS.includes(targetId) : false;
+}
 
 function isJobHuntingTarget(targetId?: string): boolean {
   return targetId ? JOB_HUNTING_TARGETS.includes(targetId) : false;
@@ -69,17 +76,20 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
   
   // 動的設定を取得
   const config = TYPE_CONFIG[postType];
+  const isKikuyo = isKikuyoTarget(targetId);
   const isJobType = isJobHuntingTarget(targetId);
   const isFemale = isFemaleTarget(targetId);
   const dynamicFontClass = getT009DynamicFontClass(targetId);
-  const backgroundClass = getTargetBackgroundClass(targetId);
+  const backgroundClass = getTargetIntroBackgroundClass(targetId);
   
-  // 画像選択ロジック: 就活系 > 女性 > 通常の優先順位
-  const characterImage = isJobType 
-    ? config.jobImage 
-    : (postType === '002' && isFemale)
-      ? (config as any).femaleImage 
-      : config.normalImage;
+  // 画像選択ロジック: kikuyo > 就活系 > 女性 > 通常の優先順位
+  const characterImage = isKikuyo
+    ? '/kikuyo.png'
+    : isJobType 
+      ? config.jobImage 
+      : (postType === '002' && isFemale)
+        ? (config as any).femaleImage 
+        : config.normalImage;
   return (
     <div className="w-full h-full bg-white flex flex-col justify-center items-center p-8 relative">
       {/* メインタイトル */}
@@ -91,7 +101,7 @@ export default function BasicIntroTemplate({ data, postType = '001', targetId }:
 
       {/* ターゲット質問 */}
       <div className={`${backgroundClass} px-8 py-4 mb-8 max-w-2xl`}>
-        <p className={`text-white text-2xl font-medium text-center ${dynamicFontClass}`}>
+        <p className={`text-white text-2xl font-medium text-center mn-4 ${dynamicFontClass}`}>
           {targetAudience}
         </p>
       </div>

@@ -59,6 +59,7 @@
   ],
   "marketingStage": "社会人・就活生・転職検討者・キャリアに迷いのある人・自己理解を深めたい人",
   "knowledgeId": "K050",
+  "targetIds": ["T002"],
   "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "仕事がデキない人 特徴7選",
   "pageCount": 10,
@@ -75,35 +76,35 @@
       "section": "mainContent",
       "title": "自己理解が不十分",
       "content": "仕事選びやキャリア形成に失敗する最大の原因は自己理解不足です。自分の価値観、強み、志向を明確にできていないため、適切な仕事を選べないのです。",
-      "imageSrc": "/iida_worry.png"
+      "imageSrc": "/misaki_frustrated.png"
     },
     "page3": {
       "role": "特徴2",
       "section": "mainContent",
       "title": "言語化ができない",
       "content": "自分の考えや感情を言葉で表現するのが苦手です。思考が整理されておらず、他人とのコミュニケーションで誤解を生みやすく、仕事の成果も伝わりにくくなります。",
-      "imageSrc": "/ten_worry.png"
+      "imageSrc": "/misaki_mindfulness.png"
     },
     "page4": {
       "role": "特徴3",
       "section": "mainContent",
       "title": "主体性が欠如している",
       "content": "「どうしたらいいかわからない」と言って、自分で考えることを放棄してしまいます。他人の指示を待つだけでは、仕事での成長は期待できません。",
-      "imageSrc": "/kikuyo_worry.png"
+      "imageSrc": "/misaki_life_event.png"
     },
     "page5": {
       "role": "特徴4",
       "section": "mainContent",
       "title": "深く考える時間がない",
       "content": "忙しさを理由に、自分と向き合う時間を作りません。スマホやエンタメに時間を使い、重要な思考の時間を確保できていません。",
-      "imageSrc": "/king_worry.png"
+      "imageSrc": "/misaki_busy.png"
     },
     "page6": {
       "role": "特徴5",
       "section": "mainContent",
       "title": "教育システムの影響を受けている",
       "content": "日本の教育システムでは正解がある問題ばかりで、自分で考える能力や自己表現能力を育てる機会が少なかったことが、今の仕事の苦手意識につながっています。",
-      "imageSrc": "/iida_worry.png"
+      "imageSrc": "/misaki_study.png"
     },
     "page7": {
       "role": "特徴6",
@@ -117,21 +118,21 @@
       "section": "mainContent",
       "title": "完璧主義で行動できない",
       "content": "「完璧にできるようになってから」と考えて、行動を起こすのを先延ばししてしまいます。完璧でなくてもまず行動し、経験を通じて学んでいくことが大切です。",
-      "imageSrc": "/ten_worry.png"
+      "imageSrc": "/misaki_selfimage.png"
     },
     "page9": {
       "role": "改善方法",
       "section": "mainContent",
       "title": "今日から始められる改善方法",
       "content": "最初の一歩は、毎日最低1時間の自己対話の時間を作ることです。スマホを置いて、紙に自分の考えや感情を書き出してみましょう。小さな行動から始めて、少しずつ自己理解を深めていきましょう。",
-      "imageSrc": "/kikuyo.png"
+      "imageSrc": "/misaki_work.png"
     },
     "page10": {
       "role": "まとめ・励まし",
       "section": "mainContent",
       "title": "変わるのに遅すぎることはない",
       "content": "仕事がデキない理由は、意外にも基本的なところにあります。一つずつ改善していけば、必ず変化を実感できます。完璧でなくても、今日から一歩ずつ進んでいきましょう。",
-      "imageSrc": "/misaki.png"
+      "imageSrc": "/misaki_smile.png"
     }
   }
 }

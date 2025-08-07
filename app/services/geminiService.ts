@@ -52,7 +52,7 @@ export class GeminiService {
     this.client = getGeminiClient()
     // より安定したモデルに変更
     this.model = this.client.getGenerativeModel({ 
-      model: 'gemini-2.0-flash',
+      model: 'gemini-2.0-flash-lite',
       generationConfig: {
         temperature: 0.7,
         topP: 0.8,

@@ -63,47 +63,77 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data, t
     }
   };
 
-  // ランキング表示
+  // プログレスバー用の色と幅を計算（全て薄い青に統一）
+  const getProgressColor = (rank: number): string => {
+    return 'bg-gradient-to-r from-blue-200 to-blue-300';
+  };
+
+  const getProgressWidth = (rank: number, maxRank: number): number => {
+    return Math.max(20, ((maxRank - rank + 1) / maxRank) * 100);
+  };
+
+  // テーブル形式ランキング表示
   const renderRankingList = () => (
-    <div className="space-y-3">
-      {items.map((item, index) => (
-        <div
-          key={index}
-          className="flex items-center bg-white rounded-lg shadow-md p-4 border-l-4 border-blue-500"
-        >
-          {/* ランク表示 */}
-          <div className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold mr-4 ${getRankColor(item.rank)}`}>
-            {item.rank}
-          </div>
-          
-          {/* 企業・項目名 */}
-          <div className="flex-grow">
-            <h3 className={`text-lg font-semibold text-gray-800 mb-1 ${dynamicFontClass}`}>
-              {cleanMarkdown(item.name)}
-            </h3>
-            {item.description && (
-              <p className={`text-sm text-gray-600 ${dynamicFontClass}`}>{cleanMarkdown(item.description)}</p>
-            )}
-            {item.category && (
-              <span className={`inline-block bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded mt-1 ${dynamicFontClass}`}>
-                {item.category}
-              </span>
-            )}
-          </div>
-          
-          {/* 数値データ */}
-          <div className="flex-shrink-0 text-right">
-            <div className={`text-xl font-bold text-blue-600 ${dynamicFontClass}`}>
-              {item.primaryValue}
-            </div>
-            {item.secondaryValue && (
-              <div className={`text-sm text-gray-500 ${dynamicFontClass}`}>
-                {item.secondaryValue}
-              </div>
-            )}
-          </div>
-        </div>
-      ))}
+    <div className="bg-white rounded-b-lg shadow-lg overflow-hidden border-t-0">
+      <table className="w-full">
+        <tbody>
+          {items.map((item, index) => {
+            const progressWidth = getProgressWidth(item.rank, items.length);
+            const progressColor = getProgressColor(item.rank);
+            
+            return (
+              <tr key={index} className="border-b border-gray-200 last:border-b-0" style={{borderBottomWidth: '4px'}}>
+                {/* 順位セル */}
+                <td className="w-16 h-11 text-white font-bold text-2xl text-center align-middle border-b-white" style={{backgroundColor: '#5A60B8', borderBottomWidth: '4px', borderBottomColor: 'white'}}>
+                  {item.rank}
+                </td>
+                
+                {/* 企業情報セル */}
+                <td className="px-4 pt-1 pb-2 relative overflow-hidden">
+                  {/* プログレスバー背景 */}
+                  <div 
+                    className={`absolute inset-0 ${progressColor} opacity-10`}
+                    style={{ width: `${progressWidth}%` }}
+                  />
+                  
+                  {/* コンテンツ */}
+                  <div className="relative z-10">
+                    <div className="flex justify-between items-center">
+                      {/* 左側：企業名と説明 */}
+                      <div className="flex-1">
+                        <h3 className={`text-lg font-bold text-gray-800 leading-tight ${dynamicFontClass}`}>
+                          {cleanMarkdown(item.name)}
+                        </h3>
+                        <div className="text-sm text-gray-600 mt-0.5 mb-1">
+                          {item.description && (
+                            <span className={dynamicFontClass}>{cleanMarkdown(item.description)}</span>
+                          )}
+                          {item.category && item.description && ' '}
+                          {item.category && (
+                            <span className={`${dynamicFontClass}`}>{item.category}</span>
+                          )}
+                        </div>
+                      </div>
+                      
+                      {/* 右側：金額 */}
+                      <div className="text-right ml-4">
+                        <div className={`text-2xl font-bold text-blue-600 ${dynamicFontClass}`}>
+                          {item.primaryValue}
+                        </div>
+                        {item.secondaryValue && (
+                          <div className={`text-sm text-gray-500 ${dynamicFontClass}`}>
+                            {item.secondaryValue}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
     </div>
   );
 
@@ -141,37 +171,44 @@ const RankingDisplayTemplate: React.FC<RankingDisplayTemplateProps> = ({ data, t
   );
 
   return (
-    <div className="w-full max-w-4xl mx-auto bg-gradient-to-br from-blue-50 to-indigo-100 p-6 rounded-xl shadow-lg">
+    <div className="w-full max-w-4xl mx-auto my-4 px-16">
       {/* ヘッダー */}
-      <div className="text-center mb-8">
-        <h1 className={`text-3xl font-bold text-gray-800 mb-2 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent ${dynamicFontClass}`}>
-          {cleanMarkdown(title)}
-        </h1>
-        {subtitle && (
-          <p className={`text-lg text-gray-600 ${dynamicFontClass}`}>{cleanMarkdown(subtitle)}</p>
-        )}
+      <div className="text-white p-3 rounded-t-xl" style={{backgroundColor: '#21266D'}}>
+        <div className="flex items-center justify-center gap-4">
+          {/* キャラクター */}
+          <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center flex-shrink-0">
+            <img 
+              src="/kikuyo.png" 
+              alt="kikuyo" 
+              className="w-14 h-14 object-contain"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+                e.currentTarget.parentElement!.innerHTML = '<div class="text-blue-800 text-xl font-bold">👤</div>';
+              }}
+            />
+          </div>
+          
+          {/* タイトル */}
+          <div className="flex-1 text-center">
+            <h1 className={`text-3xl font-bold text-white ${dynamicFontClass}`}>
+              {cleanMarkdown(title)}
+            </h1>
+            {subtitle && (
+              <p className={`text-base text-blue-100 mt-1 ${dynamicFontClass}`}>
+                {cleanMarkdown(subtitle)}
+              </p>
+            )}
+          </div>
+          
+          {/* バランス用の空スペース */}
+          <div className="w-16 flex-shrink-0"></div>
+        </div>
       </div>
 
       {/* メインコンテンツ */}
-      <div className="mb-6">
+      <div className="mt-2">
         {displayType === 'tier' ? renderTierList() : renderRankingList()}
       </div>
-
-      {/* フッター情報 */}
-      {(note || source) && (
-        <div className="mt-8 pt-4 border-t border-gray-300">
-          {note && (
-            <p className={`text-sm text-gray-500 mb-2 ${dynamicFontClass}`}>
-              📝 {cleanMarkdown(note)}
-            </p>
-          )}
-          {source && (
-            <p className={`text-xs text-gray-400 ${dynamicFontClass}`}>
-              出典: {cleanMarkdown(source)}
-            </p>
-          )}
-        </div>
-      )}
     </div>
   );
 };

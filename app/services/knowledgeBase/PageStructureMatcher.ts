@@ -26,6 +26,9 @@ import unifiedTemplate07ItemList from './data/pageStructures/unified/unified-tem
 import unifiedTemplate08SectionBlocks from './data/pageStructures/unified/unified-template-08-section-blocks.json'
 import unifiedTemplate09DynamicBoxes from './data/pageStructures/unified/unified-template-09-dynamic-boxes.json'
 import unifiedTemplate10ImagePoint from './data/pageStructures/unified/unified-template-10-image-point.json'
+import unifiedTemplate11CompanyRanking from './data/pageStructures/unified/unified-template-11-company-ranking.json'
+import unifiedTemplate12CompanySpotlight from './data/pageStructures/unified/unified-template-12-company-spotlight.json'
+import unifiedTemplate13StepByStep from './data/pageStructures/unified/unified-template-13-step-by-step.json'
 
 export interface MatchingPattern {
   matchingKey: string;
@@ -89,7 +92,10 @@ export class PageStructureMatcher {
     'unified-template-07-item-list': unifiedTemplate07ItemList,
     'unified-template-08-section-blocks': unifiedTemplate08SectionBlocks,
     'unified-template-09-dynamic-boxes': unifiedTemplate09DynamicBoxes,
-    'unified-template-10-image-point': unifiedTemplate10ImagePoint
+    'unified-template-10-image-point': unifiedTemplate10ImagePoint,
+    'unified-template-11-company-ranking': unifiedTemplate11CompanyRanking,
+    'unified-template-12-company-spotlight': unifiedTemplate12CompanySpotlight,
+    'unified-template-13-step-by-step': unifiedTemplate13StepByStep
   };
 
   /**

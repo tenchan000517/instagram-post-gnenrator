@@ -3,17 +3,17 @@
   "problemCategory": "AIプロンプト作成スキル習得",
   "problemDescription": "良い指示文が作れずAIを使いこなせない。高品質なプロンプトを自動で作成できるようになりたい。Geminiを使った効果的な指示文作成の具体的な手順を学びたい",
   "postType": "002",
-  "postTypeReason": "Gemini 2.5 Proを使った高品質プロンプト自動作成の7ステップ手順を段階的に教える教育型コンテンツ。明確な学習目標（高品質指示文作成スキル習得）があり、順番依存の実践的手順ガイド",
+  "postTypeReason": "Gemini 2.5 Proを使った高品質プロンプト自動作成の7ステップを体系的に習得し、AI活用における技術的競争優位性を確立する実践型コンテンツ。明確な成果目標（市場価値向上）があり、順番依存の効率的手順ガイド",
   "solutionContent": {
     "概要": "Gemini 2.5 Proを使った高品質プロンプト自動作成の7ステップ完全ガイド",
     "具体的手順": [
-      "1. Google AI Studioに登録する",
-      "2. Gemini 2.5 Proを選ぶ",
-      "3. Temperatureを「1」にする", 
-      "4. Grounding with Google Searchをオフにする",
-      "5. URL contextをオフにする",
-      "6. 高品質プロンプト生成用の指示文をコピペする",
-      "7. Geminiで実行して結果を確認する"
+      "Google AI Studioに登録する",
+      "Gemini 2.5 Proを選ぶ",
+      "Temperatureを「1」にする", 
+      "Grounding with Google Searchをオフにする",
+      "URL contextをオフにする",
+      "高品質プロンプト生成用の指示文をコピペする",
+      "Geminiで実行して結果を確認する"
     ],
     "学習目標": [
       "AIプロンプトの品質を飛躍的に向上させる具体的手法の習得",
@@ -29,11 +29,11 @@
     ]
   },
   "effectiveExpressions": [
-    "カバー画像：ベージュ背景にAI上級者の具体的手法タイトル",
-    "ステップ形式：7つの手順を番号付きリストで明確化",
-    "実績証明：具体的な収益金額（12万4,000円）をスクリーンショットで提示",
-    "無料特典：動画講座と4つの特典で価値提供",
-    "CTA明確化：フォロー→コメント→案内送付の流れ"
+    "カバー画像：プロフェッショナル背景にAI上級者技術手法の明確提示",
+    "ステップ形式：7つの手順を論理的に番号付きで体系化",
+    "実績証明：具体的収益データ（12万4,000円）による効果実証",
+    "無料提供：動画講座と4つの特典による差別化価値",
+    "CTA戦略：フォロー→コメント→案内送付の効率的導線"
   ],
   "searchKeywords": [
     "AI記事作成",
@@ -45,133 +45,116 @@
     "AI活用法"
   ],
   "emotionalTriggers": [
-    "上級者向け技術情報への知的好奇心",
-    "プロレベル技術習得への向上心",
-    "技術的詳細データへの専門的興味",
-    "AI活用エキスパートレベルへの到達欲求"
+    "上級者向け技術情報による競争優位性確保欲求",
+    "プロレベル技術習得による市場価値向上への意欲",
+    "技術的詳細データによる効率化実現への関心",
+    "AI活用エキスパートレベル到達による差別化達成欲求"
   ],
-  "marketingStage": "基本的なAI活用を習得済みで、さらに高度なテクニックを学びたい中級者〜上級者。技術的詳細と最新情報を求めているAI活用エキスパート志向層",
+  "marketingStage": "基本的なAI活用を習得済みで、さらに高度なテクニックによる差別化を図りたい中級者〜上級者。技術的詳細と最新情報で競争優位性を求めるAI活用エキスパート志向層",
+  "targetIds": ["T010"],
+  "targetReason": "AIプロンプト作成スキル習得という新しい技術的スキルの学習ニーズで、T010（新しいスキルを身に着けたい男性）に該当する",
   "knowledgeId": "K003",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-01-simple-intro",
   "actualTitle": "AI上級者が使っている...最強プロンプトをつくる7ステップ",
   "pageCount": 9,
-  "templateOverrides": {
-    "7": "unified-template-01-simple-intro"
-  },
+  "templateOverrides": {},
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
       "section": "introduction",
       "content": {
         "title": "AI上級者が使っている...最強プロンプトをつくる7ステップ",
-        "targetAudience": "AIプロンプト作成に悩む人",
+        "targetAudience": "AIプロンプト作成で差別化を図りたい男性",
         "problems": [
-          "良い指示文がつくれずAIを使いこなせない",
-          "noteやbrainを買わないと指示文がつくれないと思っている",
-          "高品質なプロンプト作成方法がわからない"
+          "良い指示文が作れずAI活用で競争劣位に立たされている",
+          "有料教材に依存せずに高品質プロンプトを作成したい",
+          "技術的優位性を確立できるプロンプト作成方法を知りたい"
         ],
-        "additionalMessage": "実は、完全無料でプロレベルの指示文作成スキルが身につく7ステップ手順があります"
+        "additionalMessage": "完全無料でプロレベルの技術スキルを習得し、AI活用における競争優位性を確立する7ステップを公開する"
       }
     },
     "page2": {
-      "role": "ステップ1",
       "section": "mainContent",
       "content": {
-        "title": "Google AI Studioに登録する",
-        "stepNumber": "1",
-        "description": "無料で使える高品質AIです。英語が多いけど使いやすいから安心してください",
+        "title": "Google AI Studio登録・設定",
+        "description": "Google DeepMindの最新モデルを活用する高品質プラットフォーム。英語インターフェースだが操作は直感的で、完全無料でプロレベルのAI機能を利用可能。このプラットフォームでAPIキーを取得し、強力AI機能を統合する。",
         "imageSrc": "/imag/003/2.png",
-        "imageAlt": "Google AI Studio登録画面",
-        "detailText": "Build with the latest models from Google DeepMind - Get your API key and integrate powerful AI capabilities"
+        "imageAlt": "Google AI Studioのメインページ画面"
       }
     },
     "page3": {
-      "role": "ステップ2",
       "section": "mainContent",
       "content": {
-        "title": "Gemini 2.5 Proを選ぶ",
-        "stepNumber": "2",
-        "description": "25年7月時点の最新は2.5 Pro！最新のモデルを選択してください",
+        "title": "Gemini 2.5 Pro選択",
+        "description": "2025年7月時点の最新モデルで最高のパフォーマンスを実現。Run settingsでGemini 2.5 Proを指定することで、競合他社より優位な高品質プロンプト生成が可能。最新モデルを使用することで技術的競争優位性を確立する。",
         "imageSrc": "/imag/003/3.png",
-        "imageAlt": "Gemini 2.5 Pro選択画面",
-        "detailText": "Run settingsでGemini 2.5 Proを選択します"
+        "imageAlt": "Gemini 2.5 Pro選択画面"
       }
     },
     "page4": {
-      "role": "ステップ3",
       "section": "mainContent",
       "content": {
-        "title": "Temperatureを「1」にする",
-        "stepNumber": "3",
-        "description": "Temperatureは回答のランダム性です。数値が低いと予測しやすい結果になります",
+        "title": "Temperature「1」精密設定",
+        "description": "AIの創造性と予測可能性のバランスを調整する重要パラメータ。数値が低いと予測しやすい結果、高いとより創造的な出力を生成。Temperatureスライダーを1に設定することで、プロンプト生成に適度な創造性を付与し、競争優位性を確保する。",
         "imageSrc": "/imag/003/3.png",
-        "imageAlt": "Temperature設定画面",
-        "detailText": "Temperatureスライダーを1に設定してください"
+        "imageAlt": "Temperature設定画面"
       }
     },
     "page5": {
-      "role": "ステップ4",
       "section": "mainContent",
       "content": {
-        "title": "Grounding with Google Searchをオフにする",
-        "stepNumber": "4",
-        "description": "Google検索をして欲しいときはここをオンにします。今回は使わないのでオフに",
+        "title": "Grounding機能無効化",
+        "description": "Grounding機能はリアルタイム情報を参照して回答を生成する機能。ToolsセクションでGrounding with Google Searchをオフに設定することで、プロンプト生成に集中し外部情報の影響を排除。これにより純粋な生成能力を引き出し、精度を向上させる。",
         "imageSrc": "/imag/003/4.png",
-        "imageAlt": "Grounding設定画面",
-        "detailText": "ToolsセクションでGrounding with Google Searchをオフにします"
+        "imageAlt": "Grounding設定画面"
       }
     },
     "page6": {
-      "role": "ステップ5",
       "section": "mainContent",
       "content": {
-        "title": "URL contextをオフにする",
-        "stepNumber": "5", 
-        "description": "URLを読み込んで分析して欲しいときに使います。今回は使わないからオフで",
+        "title": "URL context無効化",
+        "description": "URL context機能は指定したURLのコンテンツを読み込んで分析する機能。同じToolsセクションでURL contextもオフに設定することで、プロンプト生成に集中し外部URLの影響を排除。集中したプロンプト生成環境を構築し、最高品質の出力を実現する。",
         "imageSrc": "/imag/003/4.png",
-        "imageAlt": "URL context設定画面",
-        "detailText": "同じToolsセクションでURL contextもオフにします"
+        "imageAlt": "URL context設定画面"
       }
     },
     "page7": {
-      "role": "ステップ6",
       "section": "mainContent",
       "content": {
+        "sectionNumber": "6",
         "title": "7つのRフレームワーク指示文を入力",
-        "stepNumber": "6",
-        "description": "以下の指示文をコピーしてGeminiに入力してください",
-        "promptText": "#Request 以下の「#User Input」で定義された内容に基づき、7つのRのフレームワーク（Request, Role, Rule, Regulation, Review & Refine, Reference, Run scenario）に準拠した、高品質なプロンプトを生成してください。\n\n#Role あなたは、[対象モデル]の特性と能力を深く理解している、経験豊富なプロンプトエンジニアです。あなたの任務は、ユーザーが直感的に利用でき、かつ安定的・高品質な出力を生成するための、論理的で再現性の高いプロンプトを設計することです。",
-        "displayType": "textbox",
-        "detailText": "この指示文を使用することで、7つのRフレームワークに基づいた高品質なプロンプトが自動生成されます"
+        "description": "高品質なプロンプトを自動生成するための最重要ステップです。",
+        "details": {
+          "concept": "7つのRフレームワーク（Request, Role, Rule, Regulation, Review & Refine, Reference, Run scenario）に基づいた高品質プロンプト自動生成",
+          "instruction": "以下の指示文をコピーしてGeminiに入力してください",
+          "promptFramework": "#Request 以下の「#User Input」で定義された内容に基づき、7つのRのフレームワークに準拠した、高品質なプロンプトを生成してください。\n\n#Role あなたは、[対象モデル]の特性と能力を深く理解している、経験豊富なプロンプトエンジニアです。",
+          "benefit": "この指示文を使用することで、論理的で再現性の高いプロンプトが自動生成されます"
+        }
       }
     },
     "page8": {
-      "role": "ステップ7",
-      "section": "mainContent", 
+      "section": "mainContent",
       "content": {
-        "title": "Geminiで実行する",
-        "stepNumber": "7",
-        "description": "高品質なプロンプトが自動生成されます。完全無料でプロレベルのスキルが身につきます",
+        "title": "高品質プロンプト生成・検証",
+        "description": "最終ステップで高品質なプロンプトを自動生成。実行ボタンを押して高品質なプロンプトを取得する。7つのRフレームワークに基づいた論理的で再現性の高いプロンプトが生成され、AI上級者レベルの技術スキル習得が完了。筋トレでも正しいフォームが重要だろ？AIプロンプトも同じだ。この7ステップで技術的競争優位性を確立し、完全無料でプロレベルの技術力を習得せよ。",
         "imageSrc": "/imag/003/6.png",
-        "imageAlt": "実行結果画面",
-        "detailText": "実行ボタンを押して高品質なプロンプトを取得"
+        "imageAlt": "高品質プロンプト生成結果画面"
       }
     },
     "page9": {
-      "role": "まとめ",
       "section": "summary",
       "content": {
-        "summaryTitle": "AI上級者の高品質プロンプト作成7ステップ",
-        "achievementPoints": [
-          "1. Google AI Studioに登録する",
-          "2. Gemini 2.5 Proを選ぶ",
-          "3. Temperatureを「1」にする",
-          "4. Grounding with Google Searchをオフにする",
-          "5. URL contextをオフにする",
-          "6. 7つのRフレームワーク指示文を入力",
-          "7. Geminiで実行して高品質プロンプト取得"
+        "title": "AI上級者プロンプト作成マスタリー完了",
+        "habitsList": [
+          "Google AI Studio活用技術",
+          "Gemini 2.5 Pro設定スキル",
+          "Temperature精密調整ノウハウ",
+          "Grounding管理手法",
+          "URL context設定技術",
+          "7つのRフレームワーク実装力",
+          "高品質プロンプト自動生成技術"
         ],
-        "encouragementMessage": "この7ステップで完全無料でプロレベルの指示文作成スキルが身につきます"
+        "finalMessage": "この7ステップで、AI活用における技術的競争優位性を確立完了。即座に実践し、市場価値向上を実現せよ。"
       }
     }
   }

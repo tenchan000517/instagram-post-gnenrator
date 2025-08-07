@@ -10,19 +10,19 @@
       "リアルな「あるある」場面の提示による即座の共感形成",
       "感情的な内面描写で深い共感と理解を促進",
       "「私たちは一人じゃない」というコミュニティ感の醸成",
-      "共感から戦略的解決への自然な橋渡し"
+      "自分らしい生き方への希望とエンパワーメント提供"
     ],
     "提供情報": [
       "働く女性のリアルな日常困りごと7パターン",
       "各場面での内面的感情の詳細描写",
       "共感メッセージと仲間意識の強化",
-      "解決に向けた希望と次のステップへの誘導"
+      "自分らしい働き方への希望とエンパワーメント"
     ],
     "実用的なアドバイス": [
       "感情的困りごとを一人で抱え込まずに共有することの重要性",
       "「あるある」体験による自己受容と前向きな気持ちの獲得",
-      "感情的共感から具体的解決策への段階的アプローチ",
-      "働く女性コミュニティでの支え合いと情報共有"
+      "自分の気持ちを大切にしながら自分らしい道を選ぶ力の発見",
+      "働く女性コミュニティでの支え合いと仲間意識の強化"
     ]
   },
   "effectiveExpressions": [
@@ -52,163 +52,192 @@
   ],
   "marketingStage": "働く女性の日常的な困りごとに共感を求める段階。感情的なつながりと「私だけじゃない」という安心感を必要とし、仲間意識を通じて前向きなエネルギーを得たい層",
   "knowledgeId": "K001",
-  "pageStructurePattern": "unified-template-01-simple-intro",
+  "targetIds": [
+    "T009"
+  ],
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "働く女性の理不尽あるある７選〜私たちは一人じゃない〜",
   "pageCount": 8,
   "detailedContent": {
     "page1": {
-      "role": "導入・共感誘発",
-      "layout": "あるある導入形式", 
-      "section": "empathy-intro",
+      "section": "introduction",
       "content": {
-        "title": "働く女性の理不尽あるある７選",
-        "subtitle": "〜私たちは一人じゃない〜",
-        "targetAudience": "働く女性のみなさん、これ「あるある！」って思いませんか？",
-        "empathyHooks": [
+        "title": "働く女性の理不尽あるある７選〜私たちは一人じゃない〜",
+        "targetAudience": "働く女性のみなさんへ",
+        "problems": [
           "「また私に雑用？」ってモヤモヤすること",
           "「女性だから」って理由で何かを任されること",
-          "体調悪いのに休みにくい空気感",
-          "将来への不安で夜眠れないこと"
+          "体調悪いのに休みにくい空気感"
         ],
-        "communityMessage": "一人で抱え込まずに、みんなで共感し合いましょう",
-        "emotionalPromise": "きっと「私だけじゃなかった」って安心できるはず"
+        "additionalMessage": "一人で抱え込まずに、みんなで共感し合いましょう。きっと「私だけじゃなかった」って安心できるはず"
       }
     },
     "page2": {
-      "section": "empathyContent",
-      "role": "emotional-resonance",
-      "number": "01",
-      "title": "『女性だから』雑用あるある",
-      "empathyPhrase": "あるある度: ★★★★★",
-      "situationDescription": [
-        "「お茶出して」「コピー取って」「電話出て」",
-        "もちろん快く引き受けます。それも大切な仕事だから。",
-        "でも...なんで私ばっかり？"
-      ],
-      "innerVoice": "（隣にいる男性社員、スマホいじってるけど？？）",
-      "emotionalExpression": "そんな時の心の叫び: 『それ、女性限定の仕事ですか？』",
-      "communityMessage": "みんなも思ったことあるよね...?",
-      "empathyLevel": "high"
+      "section": "mainContent",
+      "content": {
+        "title": "「女性だから」という理由で雑用",
+        "sections": [
+          {
+            "name": "よくある場面",
+            "content": [
+              "「お茶出して」",
+              "「コピー取って」",
+              "「電話出て」"
+            ],
+            "footerText": "なんで私ばっかり？と思ったことはないですか？"
+          },
+          {
+            "name": "そんな時の現実",
+            "content": "となりの男性社員はスマホをいじってる…",
+            "footerText": "なんてことはありませんか？"
+          }
+        ],
+        "characterImage": "/misaki_worry.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "こういった経験をされている方、実はたくさんいらっしゃるんですよね。他にも働く女性が感じる理不尽な場面があります。"
+      }
     },
     "page3": {
-      "section": "empathyContent",
-      "role": "emotional-resonance", 
-      "number": "02",
-      "title": "体調不良でも休めないあるある",
-      "empathyPhrase": "あるある度: ★★★★★",
-      "situationDescription": [
-        "よりによって大事な会議の日に生理痛...",
-        "お腹痛い、頭痛い、でも休めない空気",
-        "薬飲んで、なんとか笑顔で乗り切る"
-      ],
-      "innerVoice": "（私だって好きで体調崩してるわけじゃないのに...）",
-      "emotionalExpression": "女性の体って、本当に複雑で大変",
-      "empathyMessage": "みんなも我慢しながら頑張ってる...辛いよね",
-      "illustration": "体調不良でも頑張る女性イラスト",
-      "empathyLevel": "high"
+      "section": "mainContent",
+      "content": {
+        "title": "体調不良でも休めない",
+        "sections": [
+          {
+            "name": "よくある状況",
+            "content": [
+              "よりによって大事な会議の日に生理痛",
+              "お腹痛い、頭痛い、でも休めない空気",
+              "薬飲んで、なんとか笑顔で乗り切る"
+            ],
+            "footerText": "我慢しながら頑張ったことはありませんか？"
+          },
+          {
+            "name": "そんな時の気持ち",
+            "content": "私だって好きで体調崩してるわけじゃないのに…",
+            "footerText": "女性の体って、本当に複雑で大変ですよね"
+          }
+        ],
+        "characterImage": "/misaki_worry.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "女性特有の体調の変化、理解してもらいにくいこともありますが、無理をしすぎないことも大切ですね。"
+      }
     },
     "page4": {
-      "section": "empathyContent",
-      "role": "emotional-resonance",
-      "number": "03", 
-      "title": "キャリアと結婚・出産の板挟みあるある",
-      "empathyPhrase": "あるある度: ★★★★★",
-      "situationDescription": [
-        "いつかは結婚したいし、子どもも欲しい",
-        "でも頑張って積み上げたキャリアも大切",
-        "時短で働く？辞める？どちらも選べない..."
-      ],
-      "innerVoice": "（なんでこんなに選択しなきゃいけないの？）",
-      "emotionalExpression": "答えのない道で、一人で迷うしかないのが辛い",
-      "empathyMessage": "みんなの未来への不安、よくわかる...",
-      "illustration": "板挟みする女性イラスト",
-      "empathyLevel": "high"
+      "section": "mainContent",
+      "content": {
+        "title": "キャリアと結婚・出産の板挟み",
+        "sections": [
+          {
+            "name": "将来への悩み",
+            "content": [
+              "いつかは結婚したいし、子どもも欲しい",
+              "でも頑張って積み上げたキャリアも大切",
+              "時短で働く？辞める？どちらも選べない"
+            ],
+            "footerText": "このような選択で迷ったことはありませんか？"
+          },
+          {
+            "name": "心の中の声",
+            "content": "なんでこんなに選択しなきゃいけないの？",
+            "footerText": "答えのない道で、一人で迷うのは辛いですよね"
+          }
+        ],
+        "characterImage": "/kikuyo_worry.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "人生の重要な選択に悩まれる方、本当に多いんです。どの道を選んでも、それぞれに価値があると思います。"
+      }
     },
     "page5": {
-      "section": "empathyContent",
-      "role": "emotional-resonance",
-      "number": "04",
-      "title": "周りからのプライベート質問攻撃あるある", 
-      "empathyPhrase": "あるある度: ★★★★★",
-      "situationDescription": [
-        "「結婚しないの？」「子どもはまだ？」",
-        "「彼氏いるの？」「いつごろ家庭を...」",
-        "笑顔で対応するけど、内心はモヤモヤ"
-      ],
-      "innerVoice": "（それって....あなたに関係ありますか？）",
-      "emotionalExpression": "決めるのは私です。そっとしておいてください。",
-      "empathyMessage": "みんなもこんな質問攻撃、経験あるでしょ？",
-      "illustration": "プレッシャーを感じる女性イラスト",
-      "empathyLevel": "high"
+      "section": "mainContent",
+      "content": {
+        "title": "周りからのプライベート質問攻撃",
+        "sections": [
+          {
+            "name": "よく聞かれること",
+            "content": [
+              "「結婚しないの？」",
+              "「子どもはまだ？」",
+              "「彼氏いるの？」",
+              "「いつごろ家庭を…」"
+            ],
+            "footerText": "こんな質問を受けたことはありませんか？"
+          },
+          {
+            "name": "本当の気持ち",
+            "content": "それって…あなたに関係ありますか？",
+            "footerText": "決めるのは私です。そっとしておいてください"
+          }
+        ],
+        "characterImage": "/misaki_frustrated.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "プライベートなことへの質問、悪意はないのでしょうが、答えにくいこともありますよね。"
+      }
     },
     "page6": {
-      "section": "empathyContent",
-      "role": "emotional-resonance",
-      "number": "05",
-      "title": "仕事と育児両立のリアルあるある",
-      "empathyPhrase": "あるある度: ★★★★★",
-      "situationDescription": [
-        "「熱が出ちゃいました」保育園からの連絡",
-        "会議中でも飛び出さなきゃいけない現実",
-        "家ではママ、会社では社員、両方とも完璧でありたい"
-      ],
-      "innerVoice": "（一体いつ休めばいいの...？）",
-      "emotionalExpression": "想像してたよりも、ずっと大変だった",
-      "empathyMessage": "ワーキングママの皆さん、本当にお疲れ様...",
- 
-      "illustration": "疲れ切ったワーキングママイラスト",
-      "empathyLevel": "high"
+      "section": "mainContent",
+      "content": {
+        "title": "仕事と育児両立のリアル",
+        "sections": [
+          {
+            "name": "突然の出来事",
+            "content": [
+              "「熱が出ちゃいました」保育園からの連絡",
+              "会議中でも飛び出さなきゃいけない現実",
+              "家ではママ、会社では社員、両方とも完璧でありたい"
+            ],
+            "footerText": "一体いつ休めばいいの…と思ったことはありませんか？"
+          },
+          {
+            "name": "想像とのギャップ",
+            "content": "想像してたよりも、ずっと大変だった",
+            "footerText": "ワーキングママの皆さん、本当にお疲れ様です"
+          }
+        ],
+        "characterImage": "/misaki_busy.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "仕事と育児の両立、理想と現実のギャップに悩まれる方が多いのも現実ですね。"
+      }
     },
     "page7": {
-      "section": "empathyContent",
-      "role": "emotional-resonance",
-      "number": "06",
-      "title": "キャリアアップの見えない壁あるある",
-      "empathyPhrase": "あるある度: ★★★★★",
-      "situationDescription": [
-        "バリバリ働いて、いつかは管理職になりたい！",
-        "でも上を見上げると...男性ばかり",
-        "私にもチャンスってちゃんとあるの？"
-      ],
-      "innerVoice": "（頑張っても、結局ガラスの天井があるのかな...）",
-      "emotionalExpression": "仕事は好き、続けたい、でも道筋が見えないもどかしさ",
-      "empathyMessage": "同じように感じてる人、きっとたくさんいるよね...",
-      "illustration": "見えない壁を感じる女性イラスト",
-      "empathyLevel": "high"
+      "section": "mainContent",
+      "content": {
+        "title": "キャリアアップの見えない壁",
+        "sections": [
+          {
+            "name": "理想と現実",
+            "content": [
+              "バリバリ働いて、いつかは管理職になりたい",
+              "でも上を見上げると…男性ばかり",
+              "私にもチャンスってちゃんとあるの？"
+            ],
+            "footerText": "同じような疑問を感じたことはありませんか？"
+          },
+          {
+            "name": "もどかしい気持ち",
+            "content": "頑張っても、結局ガラスの天井があるのかな…",
+            "footerText": "仕事は好き、続けたい、でも道筋が見えないもどかしさ"
+          }
+        ],
+        "characterImage": "/misaki_worry.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "キャリアアップの道筋が見えにくいと感じる方、確かに多いですね。環境も少しずつ変わってきているとは思いますが。"
+      }
     },
     "page8": {
-      "section": "empathyClimax",
-      "role": "emotional-climax-to-hope-transition",
-      "number": "07",
-      "title": "それでも私たちは諦めない",
-      "emotionalClimax": {
-        "situations": [
-          "「辞めてどうするの？」「ちゃんと考えてるの？」",
-          "そんな質問攻撃にも負けない",
-          "なぜなら..."
+      "section": "summary",
+      "content": {
+        "title": "それでも私たちは諦めない",
+        "habitsList": [
+          "「女性だから」雑用を任される理不尽",
+          "体調不良でも休めない空気",
+          "キャリアと結婚・出産の板挟み",
+          "周りからのプライベート質問攻撃",
+          "仕事と育児両立の現実",
+          "キャリアアップの見えない壁",
+          "それでも自分らしく生きていきたい"
         ],
-        "climaxMessage": "考えてるよ。ちゃんと、真剣に。",
-        "innerStrength": [
-          "男女格差も、ライフイベントの大変さも、全部わかってる。",
-          "でも、自分の人生、自分のキャリア、諦めたくない。",
-          "もっと、もっと輝きたい。"
-        ]
-      },
-      "communityValidation": {
-        "message": "同じ気持ちの人、たくさんいませんか？",
-        "solidarity": "一人じゃない。みんなで支え合おう。",
-        "sharedDetermination": "理不尽に負けず、一緒に前に進もう。"
-      },
-      "hopeTransition": {
-        "empathyToStrategy": "感情だけじゃなく、戦略的に考えることで道は開ける",
-        "concreteHope": "実は、働く女性が困らない具体的な方法があります",
-        "bridgeToAction": "共感から、今度は実践へ。一緒に解決策を見つけませんか？",
-        "nextStepInvitation": "『女性が困らない働き方のヒント7選』で、具体的な一歩を踏み出しましょう"
-      },
-  
-      "illustration": "涙から希望へ転換する女性イラスト",
-      "empathyLevel": "climax",
-      "transitionLevel": "high"
+        "finalMessage": "私たちには選択肢がある。1つの会社にずっといることだけが全てじゃない。自分で選べる。自分らしい働き方を見つけられる。一歩ずつ、自分のペースで、自分らしい道を歩んでいこう。"
+      }
     }
   }
 }

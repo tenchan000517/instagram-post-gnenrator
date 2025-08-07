@@ -61,6 +61,18 @@ export {
   imagePointMetadata 
 } from './ImagePointTemplate'
 
+// 共感テンプレート: 感情共有型
+export { 
+  EmpathyTemplate, 
+  empathyMetadata 
+} from './EmpathyTemplate'
+
+// 手順ガイド型テンプレート
+export { 
+  StepByStepTemplate, 
+  stepByStepMetadata 
+} from './StepByStepTemplate'
+
 // 統一テンプレートマッピング
 export const UNIFIED_TEMPLATE_MAP = {
   // テンプレート①
@@ -121,6 +133,18 @@ export const UNIFIED_TEMPLATE_MAP = {
   'image_point': {
     component: 'ImagePointTemplate',
     metadata: 'imagePointMetadata'
+  },
+  
+  // 共感テンプレート
+  'empathy': {
+    component: 'EmpathyTemplate',
+    metadata: 'empathyMetadata'
+  },
+  
+  // 手順ガイド型テンプレート
+  'step_by_step': {
+    component: 'StepByStepTemplate',
+    metadata: 'stepByStepMetadata'
   }
 } as const
 
@@ -135,7 +159,9 @@ export const UNIFIED_TEMPLATES = [
   'item_list',
   'section_blocks',
   'dynamic_boxes',
-  'image_point'
+  'image_point',
+  'empathy',
+  'step_by_step'
 ] as const
 
 // 型定義

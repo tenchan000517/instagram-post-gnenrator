@@ -55,223 +55,182 @@
   ],
   "marketingStage": "コミュニケーション改善段階（人間関係スキル向上時期）",
   "knowledgeId": "K140",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "人を遠ざける地雷ワード",
   "pageCount": 7,
-  "templateOverrides": {
-    "2": "multiple_items_display",
-    "3": "multiple_items_display",
-    "4": "multiple_items_display",
-    "5": "multiple_items_display",
-    "6": "multiple_items_display",
-    "7": "category_summary"
-  },
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
       "section": "introduction",
       "content": {
-        "title": "人を遠ざける地雷ワード",
-        "subtitle": "まさか言ってない？",
-        "problemStatement": "無意識に使ってしまう言葉で相手を傷つけて関係を悪化させてしまう",
-        "hook": "この前、ちょっと言い過ぎたかも？悪気なかったんだけど..."
+        "title": "面接や職場で避けたい地雷ワード",
+        "targetAudience": "就活面接で印象を良くしたい学生",
+        "problems": [
+          "面接で無意識に使った言葉で印象を悪くしてしまう",
+          "職場での人間関係で相手を傷つけてしまう",
+          "コミュニケーション力不足で評価が下がる"
+        ],
+        "additionalMessage": "相手に寄り添う言葉選びで、面接や職場での印象を格段に良くしていきましょう"
       }
     },
     "page2": {
       "role": "突き放し系地雷ワード",
-      "section": "mainContent", 
+      "section": "mainContent",
       "content": {
-        "categoryNumber": "1",
-        "categoryName": "突き放し系",
-        "examples": [
+        "title": "突き放し系地雷ワード",
+        "sections": [
           {
-            "text": "今忙しいから！",
-            "description": "相手の話を聞く余裕がないことを伝える冷たい表現",
-            "imageSrc": "/misaki_worry.png"
+            "name": "相手を突き放す言葉",
+            "content": [
+              "今忙しいから！",
+              "で？何が言いたいの？",
+              "私には関係ないし。",
+              "もういいよ！私がやるから！"
+            ]
           },
           {
-            "text": "で？何が言いたいの？",
-            "description": "相手の話に興味がないことを示す表現",
-            "imageSrc": "/kikuyo_worry.png"
-          },
-          {
-            "text": "私には関係ないし。",
-            "description": "相手の問題に無関心であることを示す表現",
-            "imageSrc": "/ten_worry.png"
-          },
-          {
-            "text": "もういいよ！私がやるから！",
-            "description": "相手の能力を否定する突き放し表現",
-            "imageSrc": "/king_warry.png"
+            "name": "与える印象と改善方法",
+            "content": [
+              "本音が言えない人と思われる",
+              "相手の話を聞く姿勢を示す",
+              "関心を持って対話する"
+            ]
           }
         ],
-        "impact": "その一言で、本音が言えない人と思われてしまう"
+        "characterImage": "/iida_communication.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "面接では相手の話を最後まで聞く姿勢が大切です。突き放す言葉ではなく、共感を示す表現を心がけましょう。"
       }
     },
     "page3": {
       "role": "上から目線系地雷ワード",
       "section": "mainContent",
       "content": {
-        "categoryNumber": "2", 
-        "categoryName": "上から目線系",
-        "examples": [
+        "title": "上から目線系地雷ワード",
+        "sections": [
           {
-            "text": "普通こうじゃない？",
-            "description": "自分の常識を相手に押し付ける表現",
-            "imageSrc": "/misaki_worry.png"
+            "name": "相手を見下す言葉",
+            "content": [
+              "普通こうじゃない？",
+              "まだ終わってないの？",
+              "ちゃんと考えた？",
+              "あなたのために言ってるのよ。"
+            ]
           },
           {
-            "text": "まだ終わってないの？",
-            "description": "相手の進捗を責めるような表現",
-            "imageSrc": "/kikuyo_worry.png"
-          },
-          {
-            "text": "ちゃんと考えた？",
-            "description": "相手の思考力を疑うような表現",
-            "imageSrc": "/ten_worry.png"
-          },
-          {
-            "text": "あなたのために言ってるのよ。",
-            "description": "善意を装った上から目線の表現",
-            "imageSrc": "/king_warry.png"
+            "name": "与える印象と改善方法",
+            "content": [
+              "責められている気持ちにさせる",
+              "相手の立場を理解して発言する",
+              "共感と支援の姿勢を示す"
+            ]
           }
         ],
-        "impact": "正しさで押してしまうと責められてる気持ちになる"
+        "characterImage": "/iida_study.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "面接では謙虚な姿勢が大切です。自分の意見を伝えるときも、相手を尊重する表現を選びましょう。"
       }
     },
     "page4": {
       "role": "責任転嫁系地雷ワード",
       "section": "mainContent",
       "content": {
-        "categoryNumber": "3",
-        "categoryName": "責任転嫁系",
-        "examples": [
+        "title": "責任転嫁系地雷ワード",
+        "sections": [
           {
-            "text": "だから言ったじゃん！",
-            "description": "事前に警告したことを強調する責任転嫁表現",
-            "imageSrc": "/misaki_worry.png"
+            "name": "責任を相手に押し付ける言葉",
+            "content": [
+              "だから言ったじゃん！",
+              "やって言ったのあなたでしょ？",
+              "そんなの聞いてないけど？",
+              "私はちゃんと伝えたよ！"
+            ]
           },
           {
-            "text": "やって言ったのあなたでしょ？",
-            "description": "責任を相手に押し付ける表現",
-            "imageSrc": "/kikuyo_worry.png"
-          },
-          {
-            "text": "そんなの聞いてないけど？",
-            "description": "情報不足の責任を相手に転嫁する表現",
-            "imageSrc": "/ten_worry.png"
-          },
-          {
-            "text": "私はちゃんと伝えたよ！",
-            "description": "自分の責任を回避する表現",
-            "imageSrc": "/king_warry.png"
+            "name": "与える印象と改善方法",
+            "content": [
+              "誰が悪いかではなくどう解決するかを考える",
+              "前向きな解決策を提案する",
+              "相手と連携して改善を目指す"
+            ]
           }
         ],
-        "impact": "誰が悪い？じゃなくどう良くする？に意識を向ける"
+        "characterImage": "/iida_work.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "チームワークでは問題が起きたとき、責任を追及するより解決に向けて協力する姿勢が大切です。"
       }
     },
     "page5": {
       "role": "頭から否定系地雷ワード",
       "section": "mainContent",
       "content": {
-        "categoryNumber": "4",
-        "categoryName": "頭から否定系",
-        "examples": [
+        "title": "頭から否定系地雷ワード",
+        "sections": [
           {
-            "text": "は？それ意味ある？",
-            "description": "相手の提案を頭から否定する表現",
-            "imageSrc": "/misaki_worry.png"
+            "name": "相手を頭から否定する言葉",
+            "content": [
+              "は？それ意味ある？",
+              "ムリじゃない？",
+              "前もダメだったよね？",
+              "どうせうまくいかないよ。"
+            ]
           },
           {
-            "text": "ムリじゃない？",
-            "description": "可能性を最初から否定する表現",
-            "imageSrc": "/kikuyo_worry.png"
-          },
-          {
-            "text": "前もダメだったよね？",
-            "description": "過去の失敗を持ち出して否定する表現",
-            "imageSrc": "/ten_worry.png"
-          },
-          {
-            "text": "どうせうまくいかないよ。",
-            "description": "結果を悲観的に決めつける表現",
-            "imageSrc": "/king_warry.png"
+            "name": "与える印象と改善方法",
+            "content": [
+              "相手のアイデアややる気を気をつぶす",
+              "相手の意図をまず理解しようとする",
+              "建設的なフィードバックを提供する"
+            ]
           }
         ],
-        "impact": "否定は、相手の芽をつぶす。理解と応援を伝える"
+        "characterImage": "/iida_his_will.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "面接では相手の話を最初に否定せず、まず理解しようとする姿勢が大切です。前向きな提案をしましょう。"
       }
     },
     "page6": {
       "role": "お笑い風だけどNG系地雷ワード",
       "section": "mainContent",
       "content": {
-        "categoryNumber": "5",
-        "categoryName": "お笑い風だけどNG系",
-        "examples": [
+        "title": "お笑い風だけどNG系地雷ワード",
+        "sections": [
           {
-            "text": "ちょっと何言ってるかわからない。",
-            "description": "相手の話を理解できないことを軽い調子で表現",
-            "imageSrc": "/misaki_worry.png"
+            "name": "軽いノリで相手を傷つける言葉",
+            "content": [
+              "ちょっと何言ってるかわからない。",
+              "で？オチは？",
+              "はい、終了〜〜！",
+              "もうえぇわ！"
+            ]
           },
           {
-            "text": "で？オチは？",
-            "description": "相手の話にオチを求める軽い表現",
-            "imageSrc": "/king_warry.png"
-          },
-          {
-            "text": "はい、終了〜〜！",
-            "description": "話を勝手に終わらせる軽い表現",
-            "imageSrc": "/kikuyo_worry.png"
-          },
-          {
-            "text": "もうえぇわ！",
-            "description": "諦めや呆れを表現する軽い調子の言葉",
-            "imageSrc": "/ten_worry.png"
+            "name": "与える印象と改善方法",
+            "content": [
+              "バカにしているように感じて相手を傷つける",
+              "相手の話を最後まで真剣に聞く",
+              "やさしさと心遣いを持って対応する"
+            ]
           }
         ],
-        "impact": "バカにする笑いは人を傷つける。やさしさがあるユーモアにする"
+        "characterImage": "/iida_sorry.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "ユーモアもコミュニケーションの一つですが、相手を傷つけないよう気をつけることが大切です。"
       }
     },
     "page7": {
       "role": "改善方法とまとめ",
       "section": "summary",
       "content": {
-        "title": "言ってたかもと思った人へ",
-        "subtitle": "相手の気持ちを考えた言葉を選ぶといい",
-        "improvementExample": {
-          "before": "地雷ワード",
-          "beforeIcon": "は？それ意味ある？",
-          "after": "よりそいワード", 
-          "afterIcon": "どういう意図か聞かせて",
-          "tip": "ジャッジする言葉から寄り添う言葉を意識していく"
-        },
-        "categorySummary": [
-          {
-            "number": "1",
-            "name": "突き放し系",
-            "examples": ["今忙しいから！", "で？何が言いたいの？", "私には関係ないし。", "もういいよ！私がやるから！"]
-          },
-          {
-            "number": "2", 
-            "name": "上から目線系",
-            "examples": ["普通こうじゃない？", "まだ終わってないの？", "ちゃんと考えた？", "あなたのために言ってるのよ。"]
-          },
-          {
-            "number": "3",
-            "name": "責任転嫁系",
-            "examples": ["だから言ったじゃん！", "やって言ったのあなたでしょ？", "そんなの聞いてないけど？", "私はちゃんと伝えたよ！"]
-          },
-          {
-            "number": "4",
-            "name": "頭から否定系", 
-            "examples": ["は？それ意味ある？", "ムリじゃない？", "前もダメだったよね？", "どうせうまくいかないよ。"]
-          },
-          {
-            "number": "5",
-            "name": "お笑い風だけどNG系",
-            "examples": ["ちょっと何言ってるかわからない。", "で？オチは？", "はい、終了〜〜！", "もうえぇわ！"]
-          }
-        ]
+        "title": "面接と職場で信頼関係を築く習慣",
+        "habitsList": [
+          "相手の話を最後まで真剣に聞く習慣",
+          "相手の立場を理解して発言する習慣",
+          "前向きな解決策を一緒に考える習慣",
+          "相手の意図をまず理解しようとする習慣",
+          "やさしさと心遣いを持って対応する習慣"
+        ],
+        "finalMessage": "コミュニケーション力は就活や仕事での大きな武器になります。相手に寄り添う言葉選びを身につけて、信頼される人になりましょう。"
       }
     }
   }

@@ -236,7 +236,7 @@ export class HashtagService {
   private getSmallHashtagsByContent(content: string, additionalKeywords: string[]): string[] {
     // 大規模・中規模で使用されるハッシュタグを除外
     const smallHashtags = [
-      '#コミュニティ', '#目標達成', '#働き方', '#理系', '#アドバイス', 
+      '#コミュニティ', '#目標達成', '#働き方', '#アドバイス', 
       '#可能性', '#本音', '#自己成長', '#モチベーションアップ', '#人脈', '#キャリアアップ',
       '#時間管理', '#若手', '#ネットワーク', '#リーダーシップ', '#ライフハック', 
       '#メンター', '#体験談', '#仕事術', '#裏話', '#ビジネススキル', '#タスク管理'

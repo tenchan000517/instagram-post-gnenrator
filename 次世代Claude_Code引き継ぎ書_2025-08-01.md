@@ -113,8 +113,11 @@ T010ターゲットの15ファイルに対する品質修正作業。前任者�
   - `/king_study.png` - 学習・スキル習得関連
   - `/king_thinking.png` - 思考・分析関連
   - `/king_running.png` - アクション・実践関連
-  - `/iida_fighting.png` - モチベーション・やる気関連
-  - `/team_work.png` - チームワーク・協働関連
+  - `/king_fighting.png` - モチベーション・やる気関連（正しいファイル名）
+  - `/king.png` - 基本・汎用的コンテンツ
+  - `/team_work.png` - チームワーク・協働関連（要存在確認）
+
+**🚨 重要発見**: `/iida_fighting.png`は存在しない。実際は`/king_fighting.png`が正しい。
 
 - **同一画像の連続使用禁止**: 読者の視覚的飽きを防止
 

@@ -57,7 +57,20 @@ K018.json, K024.json, K026.json, K031.json, K036.json, K051.json, K089.json, K18
 
 ## Type003修正エビデンス一覧
 
-<!-- 各ファイルの修正エビデンスをここに記録 -->
+### 🔧 K018.json detailedContent修正エビデンス
+- **配置済みテンプレート**: unified-template-09-dynamic-boxes
+
+#### 修正後のdetailedContent構造
+**修正要否**: 必要
+**修正理由**: dynamic-boxesテンプレートの要求構造 `{title, boxes: [{name, content}]}` に適合させるため、既存の複雑なindustries構造を再構成
+
+#### 🎨 画像配置戦略
+**画像要否**: 不要
+**理由**: 業界マップの情報提供コンテンツであり、キャラクター配置よりも情報の視認性を重視
+
+**具体的配置**:
+- page1: 画像不要（introduction）
+- page2-5: 画像不要（各業界の詳細情報に集中）
 
 ## 作業統計（Type003）
 

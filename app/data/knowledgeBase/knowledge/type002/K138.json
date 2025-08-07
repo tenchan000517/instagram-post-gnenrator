@@ -79,9 +79,9 @@
   "knowledgeId": "K138",
   "targetIds": ["T009", "T010"],
   "targetReason": "セルフマネジメント・自分軸確立スキルは性別を問わず必要な汎用的なライフスキル",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "unified-template-09-dynamic-boxes",
   "actualTitle": "ごきげん体質に！自分軸が整うワザ",
-  "pageCount": 8,
+  "pageCount": 4,
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
@@ -89,153 +89,94 @@
       "content": {
         "title": "ごきげん体質に！自分軸が整うワザ",
         "subtitle": "職場でもプライベートでも気を使いすぎて疲れる、何もしたくない",
-        "description": "そういうお悩み多いです。リモートワークも周りの目を気にして自分を見失うことあったでしょう。実は、ある習慣を取り入れたら劇的に変わったから紹介します！"
+        "description": "そういうお悩み多いです。リモートワークも周りの目を気にして自分を見失うことあったでしょう。実は、ある習慣を取り入れたら劇的に変わったから紹介します"
       }
     },
     "page2": {
-      "role": "ワザ1-2",
+      "role": "ワザ1-4",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "自分軸が整うワザ（前編）",
+        "boxes": [
           {
-            "number": "1",
-            "title": "朝は整える時間",
-            "description": "目覚めに深呼吸で気分すっきりします。",
-            "advice": "内側が整うと落ち着いて行動できるようになります。",
+            "name": "朝は整える時間",
+            "content": "目覚めに深呼吸で気分すっきりします。内側が整うと落ち着いて行動できるようになります",
             "imageSrc": "/misaki.png"
           },
           {
-            "number": "2",
-            "title": "やる気より仕組み",
-            "description": "寝る前15分を読書タイムにします。",
-            "advice": "習慣になると無理なく続けられます。",
+            "name": "やる気より仕組み",
+            "content": "寝る前15分を読書タイムにします。習慣になると無理なく続けられます",
             "imageSrc": "/kikuyo.png"
+          },
+          {
+            "name": "歩けば脳も心も整う",
+            "content": "足を動かすたびにモヤモヤも遠のきます。外に出て体を動かすと気持ちを切り替えられます",
+            "imageSrc": "/ten_worry.png"
+          },
+          {
+            "name": "伝わる話し方の工夫",
+            "content": "リモートワークがこう思う理由は2つです。考えを整理して話すことで想いや価値観が伝わりやすくなります",
+            "imageSrc": "/king.png"
           }
         ]
       }
     },
     "page3": {
-      "role": "ワザ3-4", 
+      "role": "ワザ5-8",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "自分軸が整うワザ（中編）",
+        "boxes": [
           {
-            "number": "3",
-            "title": "歩けば脳も心も整う",
-            "description": "足を動かすたびにモヤモヤも遠のきます。",
-            "advice": "外に出て体を動かすと気持ちを切り替えられます。",
-            "imageSrc": "/ten_worry.png"
-          },
-          {
-            "number": "4",
-            "title": "伝わる話し方の工夫",
-            "description": "リモートワークがこう思う理由は2つです。",
-            "advice": "考えを整理して話すことで想いや価値観が伝わりやすくなります！",
-            "imageSrc": "/king.png"
-          }
-        ]
-      }
-    },
-    "page4": {
-      "role": "ワザ5-6",
-      "section": "mainContent",
-      "content": {
-        "items": [
-          {
-            "number": "5",
-            "title": "雑談が空気を変える",
-            "description": "「最近どう？」で距離が縮まります。",
-            "advice": "場の雰囲気がふんわり和らいで本音を話しやすくなります。",
+            "name": "雑談が空気を変える",
+            "content": "「最近どう？」で距離が縮まります。場の雰囲気がふんわり和らいで本音を話しやすくなります",
             "imageSrc": "/misaki_worry.png"
           },
           {
-            "number": "6",
-            "title": "失敗が判断力を育てる",
-            "description": "うまくいかない経験も栄養になります！",
-            "advice": "何が大事か明確になり周りに振り回されなくなります！",
+            "name": "失敗が判断力を育てる",
+            "content": "うまくいかない経験も栄養になります。何が大事か明確になり周りに振り回されなくなります",
             "imageSrc": "/kikuyo_worry.png"
-          }
-        ]
-      }
-    },
-    "page5": {
-      "role": "ワザ7-8",
-      "section": "mainContent",
-      "content": {
-        "items": [
-          {
-            "number": "7",
-            "title": "疲れる前に休む",
-            "description": "無理しないで自分を大切にします。",
-            "advice": "早めの休憩が元気を長持ちさせてくれます。",
-            "imageSrc": "/king_warry.png"
           },
           {
-            "number": "8",
-            "title": "食事は整える時間",
-            "description": "よく噛むと心も落ち着きます。",
-            "advice": "食べる時間を大切にすると焦りやイライラが和らぎます！",
+            "name": "疲れる前に休む",
+            "content": "無理しないで自分を大切にします。早めの休憩が元気を長持ちさせてくれます",
+            "imageSrc": "/king_worry.png"
+          },
+          {
+            "name": "食事は整える時間",
+            "content": "よく噛むと心も落ち着きます。食べる時間を大切にすると焦りやイライラが和らぎます",
             "imageSrc": "/iida.png"
           }
         ]
       }
     },
-    "page6": {
-      "role": "ワザ9-10",
+    "page4": {
+      "role": "ワザ9-12",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "自分軸が整うワザ（後編）",
+        "boxes": [
           {
-            "number": "9",
-            "title": "眠りは努力を支える",
-            "description": "ふかふかのおふとんでリセットします！",
-            "advice": "ぐっすり眠ると次の日の集中力とやる気が違います。",
+            "name": "眠りは努力を支える",
+            "content": "ふかふかのおふとんでリセットします。ぐっすり眠ると次の日の集中力とやる気が違います",
             "imageSrc": "/misaki.png"
           },
           {
-            "number": "10",
-            "title": "増やすより減らす",
-            "description": "手放したら心が軽くなったでしょう。",
-            "advice": "大切なことに気づき心に余裕が生まれます。",
+            "name": "増やすより減らす",
+            "content": "手放したら心が軽くなったでしょう。大切なことに気づき心に余裕が生まれます",
             "imageSrc": "/kikuyo.png"
-          }
-        ]
-      }
-    },
-    "page7": {
-      "role": "ワザ11-12",
-      "section": "mainContent",
-      "content": {
-        "items": [
+          },
           {
-            "number": "11",
-            "title": "頼り合えるチーム",
-            "description": "「困ったら声かけて」でつながります。",
-            "advice": "助け合う関係があると安心して前に進めます。",
+            "name": "頼り合えるチーム",
+            "content": "「困ったら声かけて」でつながります。助け合う関係があると安心して前に進めます",
             "imageSrc": "/ten_worry.png"
           },
           {
-            "number": "12",
-            "title": "信頼を育てる聞き方",
-            "description": "うなずきって気持ちが伝わりますね。",
-            "advice": "自然と信頼と人が集まって良い関係が築けます！",
+            "name": "信頼を育てる聞き方",
+            "content": "うなずきって気持ちが伝わりますね。自然と信頼と人が集まって良い関係が築けます",
             "imageSrc": "/king.png"
           }
         ]
-      }
-    },
-    "page8": {
-      "role": "まとめ・実践促進",
-      "section": "summary",
-      "content": {
-        "title": "まとめ",
-        "items": [
-          "①朝は整える時間", "②やる気より仕組み", "③歩けば脳も心も整う",
-          "④伝わる話し方の工夫", "⑤雑談が空気を変える", "⑥失敗が判断力を育てる",
-          "⑦疲れる前に休む", "⑧食事は整える時間", "⑨眠りは努力を支える",
-          "⑩増やすより減らす", "⑪頼り合えるチーム", "⑫信頼を育てる聞き方"
-        ],
-        "message": "自分軸が整うワザを取り入れてごきげん体質になりましょう！"
       }
     }
   }

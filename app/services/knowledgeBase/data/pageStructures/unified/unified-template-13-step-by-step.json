@@ -1,0 +1,42 @@
+{
+  "pageStructureId": "unified-template-13-step-by-step",
+  "name": "Unified Template 13 - Step by Step Guide Pattern",
+  "description": "導入・ステップバイステップ手順・まとめ構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string",
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "step_by_step",
+      "templateStructure": {
+        "stepNumber": "number",
+        "totalSteps": "number",
+        "stepTitle": "string",
+        "duration": "string",
+        "instructions": "string[]",
+        "tips": "string",
+        "imageSrc": "string",
+        "imageAlt": "string"
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "achievement_summary",
+      "optional": true,
+      "templateStructure": {
+        "summaryTitle": "string",
+        "achievementPoints": "string[]",
+        "encouragementMessage": "string"
+      }
+    }
+  ]
+}

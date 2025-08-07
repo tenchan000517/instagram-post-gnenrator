@@ -1,6 +1,6 @@
 import React from 'react';
 import { TemplateMetadata } from './TemplateTypes';
-import { getT009DynamicFontClass, getT009BackgroundClass } from '../../utils/fontUtils';
+import { getT009DynamicFontClass, getTargetSummaryBackgroundClass } from '../../utils/fontUtils';
 
 interface AchievementSummaryTemplateProps {
   data: {
@@ -29,7 +29,7 @@ export default function AchievementSummaryTemplate({ data, targetId }: Achieveme
   const displayPoints = achievementPoints.length > 0 ? achievementPoints : habitsList;
   const displayMessage = finalMessage || encouragementMessage;
   const dynamicFontClass = getT009DynamicFontClass(targetId);
-  const backgroundClass = getT009BackgroundClass(targetId);
+  const backgroundClass = getTargetSummaryBackgroundClass(targetId);
   return (
     <div className="w-full h-full bg-white flex flex-col justify-center items-center p-6 relative">
       {/* ヘッダー */}
@@ -48,7 +48,7 @@ export default function AchievementSummaryTemplate({ data, targetId }: Achieveme
 
       {/* 達成ポイントリスト */}
       {displayPoints.length > 0 && (
-        <div className="w-full max-w-xl mb-6">
+        <div className="w-full max-w-2xl mb-6">
           <div 
             className="bg-white rounded-lg shadow-sm border border-gray-100 px-3 py-4 flex justify-center"
             style={{
@@ -81,8 +81,17 @@ export default function AchievementSummaryTemplate({ data, targetId }: Achieveme
 
       {/* ファイナルメッセージ / 励ましメッセージ */}
       {displayMessage && (
-        <div className="text-center">
-          <div className="bg-orange-100 rounded-lg px-6 py-4 shadow-sm">
+        <div className="text-center max-w-2xl mx-auto">
+          <div 
+            className={`${backgroundClass} rounded-lg px-6 py-4 shadow-sm`}
+            style={{
+              backgroundImage: `
+                linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.3) 1px, transparent 1px)
+              `,
+              backgroundSize: '20px 20px'
+            }}
+          >
             <p className={`text-xl text-gray-700 font-medium leading-relaxed ${dynamicFontClass}`}>
               {displayMessage}
             </p>

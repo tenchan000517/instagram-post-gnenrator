@@ -1,0 +1,107 @@
+{
+  "source": "Type004実証型ナレッジ-デジタル情報疲れ解放システム",
+  "problemCategory": "業務効率化・デジタルウェルネス",
+  "postType": "004",
+  "knowledgeId": "K1001",
+  "pageStructurePattern": "unified-template-08-section-blocks",
+  "actualTitle": "AIとメール自動化で情報疲れから解放される5ステップ実装ガイド",
+  "targetIds": ["T019", "T020", "T021", "T022", "T023", "T024"],
+  "pageCount": 5,
+  "detailedContent": {
+    "page1": {
+      "role": "Type004実証型ナレッジの導入・問題提起",
+      "section": "introduction",
+      "content": {
+        "title": "毎日4時間のスマホ通知地獄、もう手作業でやってませんか？",
+        "targetAudience": "1日に何十回も来る通知に疲れ、SNSやメールの情報整理に追われているあなた",
+        "problems": [
+          "7割の人が経験するSNS疲れ（総務省統計）",
+          "1日平均4時間9分のデジタル接触で認知的過負荷",
+          "LINE・メール・SNSの返信プレッシャーで常に気が散る"
+        ],
+        "additionalMessage": "AIツール3つの組み合わせで情報処理時間を60%削減し、認知負荷を70%軽減する実装システムを5ステップで実現します"
+      }
+    },
+    "page2": {
+      "role": "実装手順詳細（Step1-2）",
+      "section": "mainContent",
+      "content": {
+        "title": "Step1・2：AI情報整理システム構築",
+        "sections": [
+          {
+            "name": "Step 1: ChatGPT Plus導入（20分）",
+            "content": "1. chat.openai.comにアクセス\n2. メールアドレスでアカウント作成\n3. 左下「Upgrade to Plus」をクリック\n4. クレジットカード情報入力（月額$20）\n5. 即座にGPT-4o利用開始",
+            "footerText": "これで30-50%の情報処理効率化が実現"
+          },
+          {
+            "name": "Step 2: 情報要約プロンプト設定（20分）",
+            "content": "ChatGPTに以下のテンプレートを保存：\n「長文メール・記事を3つのポイントに要約し、\n・重要度（高/中/低）\n・必要なアクション\n・返信の必要性\nを判定してください」",
+            "footerText": "このプロンプトで情報トリアージが自動化"
+          }
+        ],
+        "characterImage": "king_work",
+        "characterPosition": "left",
+        "bottomSectionContent": "最初の2ステップ完了！あなたの情報処理がもうAIの力で効率化され始めています"
+      }
+    },
+    "page3": {
+      "role": "実装手順詳細（Step3-4）",
+      "section": "mainContent",
+      "content": {
+        "title": "Step3・4：メール自動化システム導入",
+        "sections": [
+          {
+            "name": "Step 3: SaneBox設定（30分）",
+            "content": "1. sanebox.comにアクセス\n2. メールアドレスを入力してアカウント作成\n3. Snackプラン（月額$7）を選択\n4. Gmail/Outlookアカウントを認証\n5. AI学習開始（24時間で自動振り分け開始）",
+            "footerText": "週3-4時間のメール処理時間削減を実現"
+          },
+          {
+            "name": "Step 4: 重要メール自動判定設定（10分）",
+            "content": "SaneBoxの@SaneImportantフォルダに：\n・上司・重要な取引先を手動で数通移動\n・家族・緊急連絡先メールを移動\n・AIが24時間以内に学習・自動判定開始",
+            "footerText": "これで本当に重要なメールだけが通知される"
+          }
+        ],
+        "characterImage": "king_thinking",
+        "characterPosition": "left",
+        "bottomSectionContent": "メール地獄から解放される基盤が完成！あと1ステップで完全自動化です"
+      }
+    },
+    "page4": {
+      "role": "実装手順完了（Step5）",
+      "section": "mainContent",
+      "content": {
+        "title": "Step5：通知統合管理で完成",
+        "sections": [
+          {
+            "name": "Step 5: IFTTT通知制御（20分）",
+            "content": "1. ifttt.comにアクセス→アカウント作成\n2. Pro版（月額$2.92）にアップグレード\n3. 「重要メール以外は1日2回まとめて通知」設定\n4. 「SNS通知は平日18時以降のみ」設定\n5. スマートフォンの通知設定と連携",
+            "footerText": "通知ノイズが70-90%削減される"
+          },
+          {
+            "name": "完全自動化システム稼働開始",
+            "content": "・重要メールのみリアルタイム通知\n・その他は1日2回のまとめ通知\n・ChatGPTで情報要約・返信案自動生成\n・SaneBoxで優先度自動判定継続",
+            "footerText": "月額$30で週10時間の時間を取り戻すシステム完成"
+          }
+        ],
+        "characterImage": "king_goodjob",
+        "characterPosition": "left",
+        "bottomSectionContent": "おめでとうございます！あなたの情報疲れ解放システムが完成しました"
+      }
+    },
+    "page5": {
+      "role": "効果と継続価値の確認",
+      "section": "summary",
+      "content": {
+        "title": "デジタル情報疲れ解放システム完成",
+        "habitsList": [
+          "重要情報だけがリアルタイム通知される新しいワークフロー",
+          "ChatGPTによる情報要約で認知負荷を70%軽減",
+          "週10時間の時間節約（月15万円相当の価値創出）",
+          "SNS疲れから解放され、集中力が大幅向上",
+          "メール処理時間を週3-4時間削減し、本来の仕事に集中"
+        ],
+        "finalMessage": "このシステムは一度設定すれば永続的に価値を提供し続けます。月額$30の投資で年間520時間の時間を取り戻し、認知負荷を大幅軽減。さらにChatGPTの活用法を学ぶことで、他の知識労働にも応用でき、あなたの人生全体の効率化が可能になります"
+      }
+    }
+  }
+}

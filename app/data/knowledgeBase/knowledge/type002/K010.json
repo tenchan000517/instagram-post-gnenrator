@@ -60,7 +60,7 @@
     "差別化されたコミュニケーション力への向上心"
   ],
   "marketingStage": "電話対応スキルで競争優位性を確保したい就活生。論理的かつ効率的な習得プロセスで、面接獲得率向上と差別化を図りたい層",
-  "targetIds": ["T010"],
+  "targetIds": ["T010", "T007"],
   "targetReason": "電話対応という新しいビジネススキル習得のニーズで、T010（新しいスキルを身に着けたい男性）に該当する",
   "phoneMannerOptimization": {
     "learningPhases": {
@@ -98,14 +98,16 @@
   "detailedContent": {
     "page1": {
       "section": "introduction",
-      "title": "就活電話対応スキルで面接獲得率を向上させる方法",
-      "targetAudience": "電話対応スキルで競争優位性を確保したい就活生。論理的かつ効率的な習得プロセスで、面接獲得率向上と差別化を図りたい層",
-      "problems": [
-        "電話対応で良い印象を与えられず、面接機会を逃している",
-        "体系的な電話マナーを学ぶ機会がなく、自己流で対応している",
-        "クッション言葉や折り返し対応など、プロフェッショナルな対応力が不足"
-      ],
-      "additionalMessage": "就活における電話対応の完全マスターガイド。事前準備・基本マナー・クッション言葉・実践トーク例・折り返し対応まで、段階的かつ包括的に解説した統合版電話スキル習得コンテンツです。"
+      "content": {
+        "title": "企業との電話で好印象を与える方法",
+        "targetAudience": "電話対応で悩む就活生",
+        "problems": [
+          "電話対応で良い印象を与えられない",
+          "電話マナーがわからず自己流",
+          "折り返し対応などの対応力が不足"
+        ],
+        "additionalMessage": "事前準備・基本マナー・クッション言葉・実践トーク例・折り返し対応まで、段階的に解説します。"
+      }
     },
     "page2": {
       "section": "mainContent",
@@ -123,9 +125,9 @@
             "footerText": "適切なタイミングで成功率向上！"
           }
         ],
-        "characterImage": "/king_point.png",
+        "characterImage": "/iida_work.png",
         "characterPosition": "left",
-        "bottomSectionContent": "戦争で勝つには準備が8割だ！電話も同じだぞ。環境と時間を制する者が、相手の心を掴むんだ！"
+        "bottomSectionContent": "就活でも準備が8割とよく言います。電話も同じですね。環境を整えることが相手の心を掴む秘訣です！"
       }
     },
     "page3": {
@@ -144,9 +146,9 @@
             "footerText": "メモと台本で正確性を確保！"
           }
         ],
-        "characterImage": "/king_work.png",
+        "characterImage": "/iida_study.png",
         "characterPosition": "left",
-        "bottomSectionContent": "メモ・台本・表情、全てを整えてから戦いに臨め！"
+        "bottomSectionContent": "メモ・台本・表情、全てを整えてから電話に臨みましょう。一歩一歩、着実に成長していきましょう！"
       }
     },
     "page4": {
@@ -165,9 +167,9 @@
             "footerText": "相手への配慮を示す言葉選び！"
           }
         ],
-        "characterImage": "/king_study.png",
+        "characterImage": "/iida_fighting.png",
         "characterPosition": "left",
-        "bottomSectionContent": "言葉は武器だ！適切なクッション言葉で相手の心を開け！丁寧さこそが最強の戦略だぞ！"
+        "bottomSectionContent": "言葉は大切なコミュニケーションツールです。適切なクッション言葉で相手の心を開きましょう。丁寧さこそが本当の力です！"
       }
     },
     "page5": {
@@ -190,9 +192,9 @@
             "footerText": "状況に応じた柔軟な対応と丁寧な終了で印象を決める"
           }
         ],
-        "characterImage": "/king_study.png",
+        "characterImage": "/iida_goodjob.png",
         "characterPosition": "left",
-        "bottomSectionContent": "実戦で使える台本を完璧に覚えろ！基本トークができれば、どんな電話も恐くない！"
+        "bottomSectionContent": "実際に使える台本をしっかり覚えましょう。基本トークができれば、どんな電話でも自信を持って対応できます！"
       }
     },
     "page6": {
@@ -214,9 +216,9 @@
             "footerText": "柔軟な対応力でどんな状況でも対応可能"
           }
         ],
-        "characterImage": "/king_fighting.png",
+        "characterImage": "/iida_communication.png",
         "characterPosition": "left",
-        "bottomSectionContent": "折り返し電話こそ真のビジネススキルだ！相手への配慮と言葉遣いで印象を決めろ！"
+        "bottomSectionContent": "折り返し電話こそ真のコミュニケーションスキルです。相手への配慮と丁寧な対応で、きっと信頼される人になれます！"
       }
     },
     "page7": {
@@ -231,7 +233,7 @@
           "折り返し電話で信頼関係を構築",
           "継続的改善で電話スキルを向上"
         ],
-        "finalMessage": "準備→実践→振り返りのサイクルで継続的にスキル向上を図り、毎回の電話応対で競争優位性を確保しましょう。就活だけでなく将来のビジネスシーンでも活用できる貴重なスキルです。"
+        "finalMessage": "準備→実践→振り返りのサイクルで継続的にスキル向上を図り、毎回の電話応対で競争優位性を確保しましょう。"
       }
     }
   }

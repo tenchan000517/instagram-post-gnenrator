@@ -178,4 +178,59 @@
 
 ---
 
-**結論**: 現在の応急処置を体系化し、将来の効率的な開発基盤を構築する必要がある。
+## 📋 正しいdetailedContent構造ルール（2025-08-01追記）
+
+### **mainContentページの標準構造**
+```json
+{
+  "section": "mainContent",
+  "content": {
+    "title": "ページタイトル",
+    "sections": [
+      {
+        "name": "セクション名",
+        "content": "内容（文字列または配列）",
+        "footerText": "フッターテキスト"
+      }
+    ],
+    "characterImage": "/画像パス.png",
+    "characterPosition": "left",
+    "bottomSectionContent": "ボトムセクション内容"
+  }
+}
+```
+
+### **summaryページの標準構造**
+```json
+{
+  "section": "summary",
+  "content": {
+    "title": "まとめタイトル",
+    "habitsList": ["習慣1", "習慣2", ...],
+    "finalMessage": "最終メッセージ"
+  }
+}
+```
+
+### **introductionページの標準構造**
+```json
+{
+  "section": "introduction", 
+  "content": {
+    "title": "タイトル",
+    "targetAudience": "ターゲット",
+    "problems": ["問題1", "問題2", ...],
+    "additionalMessage": "追加メッセージ"
+  }
+}
+```
+
+### **重要な構造ルール**
+1. **全ページで`content`オブジェクトが必要**
+2. **mainContentでは`characterPosition: "left"`を設定**
+3. **summaryページは全テンプレート共通で`habitsList + finalMessage`構造**
+4. **参考事例**: K002.jsonを正しい構造のリファレンスとして活用
+
+---
+
+**結論**: 現在の応急処置を体系化し、将来の効率的な開発基盤を構築する必要がある。正しい構造ルールを全ドキュメントに記載し、構造の一貫性を確保する。

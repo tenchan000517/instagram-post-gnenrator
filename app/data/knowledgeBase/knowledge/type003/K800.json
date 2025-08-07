@@ -1,0 +1,569 @@
+{
+  "source": "contents-ranking-800",
+  "problemCategory": "就活・転職支援",
+  "knowledgeId": "K800",
+  "postType": "003",
+  "pageCount": 8,
+  "pageStructurePattern": "unified-template-11-company-ranking",
+  "targetIds": ["T013"],
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "template": "basic_intro",
+      "content": {
+        "title": "初任給が高い企業TOP10",
+        "targetAudience": "初任給って実際どのくらいもらえるの？",
+        "problems": [
+          "初任給の高い企業がどこかわからない",
+          "企業選びで給与面を重視したい",
+          "将来の生活設計のため初任給を知りたい"
+        ],
+        "additionalMessage": "2025年度最新データで客観的ランキングなのです！企業選びをサポートするのです",
+        "savePrompt": "このランキングを参考に、気になる企業をチェックしてください"
+      }
+    },
+    "page2": {
+      "section": "ranking",
+      "template": "ranking_display",
+      "content": {
+        "title": "初任給が高い企業TOP10",
+        "subtitle": "2025年度新卒採用データ",
+        "displayType": "ranking",
+        "items": [
+          {
+            "rank": 1,
+            "name": "サイバーエージェント",
+            "primaryValue": "42万円",
+            "secondaryValue": "固定残業代80時間含む",
+            "description": "インターネット広告業界トップクラス",
+            "category": "IT・広告"
+          },
+          {
+            "rank": 2,
+            "name": "楽天",
+            "primaryValue": "35万円",
+            "secondaryValue": "固定残業代40時間含む",
+            "description": "英語公用語のグローバル企業",
+            "category": "インターネット"
+          },
+          {
+            "rank": 3,
+            "name": "三菱商事",
+            "primaryValue": "34万円",
+            "secondaryValue": "平均年収2,033万円",
+            "description": "総合商社業界トップクラス",
+            "category": "総合商社"
+          },
+          {
+            "rank": 4,
+            "name": "伊藤忠商事",
+            "primaryValue": "32.5万円",
+            "secondaryValue": "朝型勤務制度で働き方改革",
+            "description": "働きやすい商社として注目",
+            "category": "総合商社"
+          },
+          {
+            "rank": 5,
+            "name": "住友商事",
+            "primaryValue": "32.5万円",
+            "secondaryValue": "住宅手当5万円/月支給",
+            "description": "福利厚生充実の総合商社",
+            "category": "総合商社"
+          },
+          {
+            "rank": 6,
+            "name": "三井物産",
+            "primaryValue": "32万円",
+            "secondaryValue": "中途採用比率41.4%",
+            "description": "グローバル展開の総合商社",
+            "category": "総合商社"
+          },
+          {
+            "rank": 7,
+            "name": "ソニー",
+            "primaryValue": "31.3万円",
+            "secondaryValue": "理系学生人気3年連続1位",
+            "description": "総合エンターテインメント企業",
+            "category": "電機・エンタメ"
+          },
+          {
+            "rank": 8,
+            "name": "丸紅",
+            "primaryValue": "30.5万円",
+            "secondaryValue": "健康経営銘柄8年連続認定",
+            "description": "働き方改革先進的な総合商社",
+            "category": "総合商社"
+          },
+          {
+            "rank": 9,
+            "name": "メルカリ",
+            "primaryValue": "30万円",
+            "secondaryValue": "45時間分固定残業代含む",
+            "description": "フリマアプリのパイオニア",
+            "category": "EC・フィンテック"
+          },
+          {
+            "rank": 10,
+            "name": "バンダイナムコ",
+            "primaryValue": "28万円",
+            "secondaryValue": "平均年収1,095万円",
+            "description": "エンターテインメント業界大手",
+            "category": "ゲーム・玩具"
+          }
+        ],
+        "note": "データは2024-2025年の各社公式発表に基づく",
+        "source": "企業情報データベース2025年版"
+      }
+    },
+    "page3": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "サイバーエージェント",
+            "rankInfo": {
+              "rank": 1,
+              "category": "初任給ランキング",
+              "score": "42万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "42万円",
+              "averageSalary": "882万円",
+              "bonus": "年2回+業績賞与",
+              "holidays": "データなし",
+              "overtime": "月13.3時間"
+            },
+            "parameterGraph": {
+              "salary": 95,
+              "benefits": 75,
+              "workLifeBalance": 85,
+              "growth": 90,
+              "stability": 80
+            },
+            "features": {
+              "industry": "インターネット広告業、メディア業、ゲーム業",
+              "employees": "7,720人",
+              "established": "1998年",
+              "headquarters": "東京都渋谷区"
+            },
+            "details": {
+              "overview": "インターネット広告事業、メディア事業（ABEMA等）、ゲーム事業、投資育成事業を展開。業界最高水準の報酬と起業家精神を重視する企業文化が特徴。",
+              "recruitment": ["エンジニア", "ビジネス職", "クリエイター", "デザイナー"],
+              "benefits": ["住宅手当（2駅ルール3万円/月）", "通勤交通費全額支給", "退職金制度", "裁量労働制"],
+              "uniqueFeatures": ["ENERGY制度（エンジニア向け成長支援）", "JBキャリアプログラム", "子会社社長登用制度", "無制限昇給制度"],
+              "keyHighlights": ["住宅手当3万円", "交通費全額", "無制限昇給", "裁量労働"]
+            },
+            "highlightMessage": "業界最高水準の初任給42万円でスタート"
+          },
+          {
+            "companyName": "楽天",
+            "rankInfo": {
+              "rank": 2,
+              "category": "初任給ランキング",
+              "score": "35万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "35万円",
+              "averageSalary": "820万円",
+              "bonus": "年2回（6月・12月）",
+              "holidays": "データなし",
+              "overtime": "月35時間"
+            },
+            "parameterGraph": {
+              "salary": 85,
+              "benefits": 80,
+              "workLifeBalance": 70,
+              "growth": 85,
+              "stability": 85
+            },
+            "features": {
+              "industry": "インターネットサービス、フィンテック、モバイル通信",
+              "employees": "29,334人",
+              "established": "1997年",
+              "headquarters": "東京都世田谷区"
+            },
+            "details": {
+              "overview": "Eコマース、金融、通信など70以上のサービスを提供する楽天エコシステム運営。社内公用語英語化によりグローバル人材育成に注力。",
+              "recruitment": ["エンジニア", "ビジネス", "デザイナー", "データサイエンティスト"],
+              "benefits": ["新卒入社者対象社員寮", "3食無料カフェテリア", "卵子凍結支援上限40万円", "産休・育休後復職率97%"],
+              "uniqueFeatures": ["楽天主義（企業理念）", "社内公用語英語化", "ニックネーム制度", "朝会文化"],
+              "keyHighlights": ["3食無料", "社員寮完備", "英語公用語", "復職率97%"]
+            },
+            "highlightMessage": "英語公用語企業として国際的なキャリア形成が可能"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "section": "mainContent", 
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "三菱商事",
+            "rankInfo": {
+              "rank": 3,
+              "category": "初任給ランキング",
+              "score": "34万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "34万円",
+              "averageSalary": "2,033万円",
+              "bonus": "年2回",
+              "holidays": "データなし",
+              "overtime": "月29.2時間"
+            },
+            "parameterGraph": {
+              "salary": 100,
+              "benefits": 90,
+              "workLifeBalance": 75,
+              "growth": 95,
+              "stability": 98
+            },
+            "features": {
+              "industry": "商社（総合商社）",
+              "employees": "4,477人",
+              "established": "1954年",
+              "headquarters": "東京都千代田区丸の内"
+            },
+            "details": {
+              "overview": "地球環境・エネルギー、金属資源、社会インフラ、モビリティ、食品産業など8つのグループで多角的に事業を展開。日本最高水準の平均年収を誇る。",
+              "recruitment": ["総合職", "地域限定職", "エンジニア", "金融・投資部門"],
+              "benefits": ["社宅制度", "語学学習等自己啓発支援", "財形貯蓄", "生活支援休暇"],
+              "uniqueFeatures": ["MC育児コンシェルジュ", "CareerChoice制度（手挙げ制異動制度）", "配偶者転勤に伴う再雇用制度", "WELL認証プラチナ取得"],
+              "keyHighlights": ["社宅制度", "自己啓発", "年収最高", "WELL認証"]
+            },
+            "highlightMessage": "平均年収2,033万円、総合商社業界トップクラス"
+          },
+          {
+            "companyName": "伊藤忠商事",
+            "rankInfo": {
+              "rank": 4,
+              "category": "初任給ランキング",
+              "score": "32.5万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "32.5万円",
+              "averageSalary": "1,805万円",
+              "bonus": "年2回（夏期、冬期）",
+              "holidays": "データなし",
+              "overtime": "月10.7時間"
+            },
+            "parameterGraph": {
+              "salary": 98,
+              "benefits": 85,
+              "workLifeBalance": 95,
+              "growth": 90,
+              "stability": 95
+            },
+            "features": {
+              "industry": "商社（総合商社）",
+              "employees": "4,215人",
+              "established": "1858年",
+              "headquarters": "東京都港区北青山"
+            },
+            "details": {
+              "overview": "繊維、機械、金属、食料、住生活、情報・金融等の各分野でトレーディングや事業投資を行う。朝型勤務制度で働き方改革をリードする総合商社。",
+              "recruitment": ["総合職", "地域限定職", "専門職", "事務職"],
+              "benefits": ["独身寮・社宅制度", "朝食無料提供", "ベビーシッター補助", "リフレッシュ休暇"],
+              "uniqueFeatures": ["朝型勤務制度（20時以降残業原則禁止）", "早朝勤務者インセンティブ", "育児休業取得率男性96%", "残業時間月10.7時間"],
+              "keyHighlights": ["朝食無料", "20時残業禁止", "男性育休96%", "残業月10h"]
+            },
+            "highlightMessage": "働き方改革のリーダー、最少残業時間で高収入を実現"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail", 
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "住友商事",
+            "rankInfo": {
+              "rank": 5,
+              "category": "初任給ランキング",
+              "score": "32.5万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "32.5万円",
+              "averageSalary": "1,759万円",
+              "bonus": "年2回（6月、12月）",
+              "holidays": "120日以上",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 96,
+              "benefits": 90,
+              "workLifeBalance": 85,
+              "growth": 90,
+              "stability": 95
+            },
+            "features": {
+              "industry": "商社（総合商社）",
+              "employees": "5,086人",
+              "established": "1919年",
+              "headquarters": "東京都千代田区大手町"
+            },
+            "details": {
+              "overview": "多様な商品・サービスの販売、輸出入および三国間取引、国内外における事業投資など多角的な事業活動を展開。福利厚生の充実で知られる。",
+              "recruitment": ["基幹職", "一般職", "専門職", "契約職"],
+              "benefits": ["住宅手当5万円/月（東京勤務5年間）", "キャリア休暇（5年毎連続5日）", "自律学習支援", "企業年金基金制度"],
+              "uniqueFeatures": ["WILL選考（配属先確約）", "OPEN選考", "プラチナくるみん認定", "健康経営優良法人認定"],
+              "keyHighlights": ["住宅手当5万円", "年休120日", "キャリア休暇", "くるみん"]
+            },
+            "highlightMessage": "福利厚生充実、年間休日120日以上で働きやすさ抜群"
+          },
+          {
+            "companyName": "三井物産",
+            "rankInfo": {
+              "rank": 6,
+              "category": "初任給ランキング",
+              "score": "32万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "32万円（Globalコース）",
+              "averageSalary": "1,996万円",
+              "bonus": "年2回（夏期、冬期）",
+              "holidays": "データなし",
+              "overtime": "月27.6時間"
+            },
+            "parameterGraph": {
+              "salary": 98,
+              "benefits": 85,
+              "workLifeBalance": 80,
+              "growth": 95,
+              "stability": 95
+            },
+            "features": {
+              "industry": "商社（総合商社）",
+              "employees": "5,388人",
+              "established": "1947年",
+              "headquarters": "東京都千代田区大手町"
+            },
+            "details": {
+              "overview": "金属資源、エネルギー、機械・インフラ、化学品、食料、流通事業、ウェルネス事業などをグローバルに展開。高い中途採用比率でキャリアチェンジを積極支援。",
+              "recruitment": ["Globalコース", "地域コース", "専門職", "エンジニア"],
+              "benefits": ["地方出身者向け家賃補助", "リフレッシュ休暇制度", "保育費用補助", "カフェテリアプラン"],
+              "uniqueFeatures": ["選考過程で自分史提出（2,000-2,500字エッセー）", "中途採用比率41.4%", "時差出勤制度", "\"志\"ワークショップ"],
+              "keyHighlights": ["家賃補助", "中途採用41%", "保育費補助", "時差出勤"]
+            },
+            "highlightMessage": "グローバル展開でキャリアの可能性を最大化"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "ソニー",
+            "rankInfo": {
+              "rank": 7,
+              "category": "初任給ランキング",
+              "score": "31.3万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "31.3万円",
+              "averageSalary": "1,118万円",
+              "bonus": "年2回6-7ヶ月分",
+              "holidays": "126日",
+              "overtime": "月24.1時間"
+            },
+            "parameterGraph": {
+              "salary": 90,
+              "benefits": 88,
+              "workLifeBalance": 82,
+              "growth": 90,
+              "stability": 95
+            },
+            "features": {
+              "industry": "総合電機メーカー・エンタテインメント複合企業",
+              "employees": "113,000人",
+              "established": "1946年",
+              "headquarters": "東京都港区"
+            },
+            "details": {
+              "overview": "ゲーム・音楽・映画・エレクトロニクス・半導体・金融サービス事業を展開。理系学生人気3年連続1位の安定した大手企業。",
+              "recruitment": ["エンジニア", "研究開発", "企画・営業", "クリエイティブ"],
+              "benefits": ["カフェテリアプラン", "子育て支援（ランドセル贈呈式）", "ベビーシッター費用補助", "フレックスホリデー"],
+              "uniqueFeatures": ["ジョブグレード制度", "Symphony Plan（両立支援制度）", "コアタイムなしフレックス制度", "平均年収1,118万円"],
+              "keyHighlights": ["理系人気No.1", "年休126日", "フレックス制", "子育て支援"]
+            },
+            "highlightMessage": "理系学生人気No.1の安定と成長を両立した企業"
+          },
+          {
+            "companyName": "丸紅",
+            "rankInfo": {
+              "rank": 8,
+              "category": "初任給ランキング",
+              "score": "30.5万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "30.5万円",
+              "averageSalary": "1,709万円",
+              "bonus": "年2回（7月、12月）",
+              "holidays": "データなし",
+              "overtime": "月15.8時間"
+            },
+            "parameterGraph": {
+              "salary": 95,
+              "benefits": 88,
+              "workLifeBalance": 88,
+              "growth": 90,
+              "stability": 92
+            },
+            "features": {
+              "industry": "商社（総合商社）",
+              "employees": "4,337人",
+              "established": "1949年",
+              "headquarters": "東京都千代田区大手町"
+            },
+            "details": {
+              "overview": "ライフスタイル、食料、アグリ、金属、エネルギー、化学品、電力、金融、不動産など多角的に事業を展開。健康経営で8年連続認定を受ける働きやすい環境。",
+              "recruitment": ["総合職", "地域職", "専門職", "技術職"],
+              "benefits": ["借り上げ社宅制度", "ワークスタイル手当", "プレミアム休暇", "ベネフィット・ステーション"],
+              "uniqueFeatures": ["Career Vision選考（配属先決め型）", "健康経営銘柄8年連続認定", "育児休業取得率男性95%", "在宅・サテライト・モバイルワーク対応"],
+              "keyHighlights": ["健康経営8年", "男性育休95%", "リモート対応", "借上社宅"]
+            },
+            "highlightMessage": "健康経営で働きやすさを追求する総合商社"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "メルカリ",
+            "rankInfo": {
+              "rank": 9,
+              "category": "初任給ランキング",
+              "score": "30万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "30万円",
+              "averageSalary": "1,167万円",
+              "bonus": "年2回（3月・9月）",
+              "holidays": "データなし",
+              "overtime": "月16.1-25時間"
+            },
+            "parameterGraph": {
+              "salary": 92,
+              "benefits": 85,
+              "workLifeBalance": 80,
+              "growth": 95,
+              "stability": 75
+            },
+            "features": {
+              "industry": "EC・フィンテック",
+              "employees": "1,000人",
+              "established": "2013年",
+              "headquarters": "東京都港区"
+            },
+            "details": {
+              "overview": "フリマアプリ「メルカリ」、決済サービス「メルペイ」の運営。日本初のテック・ユニコーンとして急成長を続けるスタートアップ企業。",
+              "recruitment": ["PM職", "エンジニア", "デザイナー", "データサイエンティスト"],
+              "benefits": ["シックリーブ年10日", "妊活サポート10年間", "有給消化率88.9%", "フルリモート可能"],
+              "uniqueFeatures": ["merci box独自福利厚生制度", "無制限昇給制", "再オファー制度", "360度評価制度"],
+              "keyHighlights": ["フルリモート", "有給消化89%", "無制限昇給", "妊活サポート"]
+            },
+            "highlightMessage": "平均年収1,167万円の高成長ユニコーン企業"
+          },
+          {
+            "companyName": "バンダイナムコ",
+            "rankInfo": {
+              "rank": 10,
+              "category": "初任給ランキング",
+              "score": "28万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "28万円",
+              "averageSalary": "1,095万円",
+              "bonus": "年2回業績連動型",
+              "holidays": "125日",
+              "overtime": "月32時間"
+            },
+            "parameterGraph": {
+              "salary": 88,
+              "benefits": 80,
+              "workLifeBalance": 75,
+              "growth": 85,
+              "stability": 90
+            },
+            "features": {
+              "industry": "エンターテインメント・玩具・ゲーム業界",
+              "employees": "790人（バンダイナムコエンターテインメント）",
+              "established": "2005年",
+              "headquarters": "東京都港区"
+            },
+            "details": {
+              "overview": "IP軸戦略による総合エンターテインメント事業（ゲーム、玩具、映像等）を展開。平均勤続年数19.9年の安定した企業。",
+              "recruitment": ["ゲーム開発", "企画・マーケティング", "デザイナー", "エンジニア"],
+              "benefits": ["エンタメ活動デー手当", "持株会制度（12%奨励金支給）", "月4回在宅勤務可", "フルフレックスタイム制"],
+              "uniqueFeatures": ["ブラザー制度（新人指導）", "キャリアプラン制度", "社員旅行・ファミリーイベント", "平均勤続年数19.9年"],
+              "keyHighlights": ["勤続19.9年", "年休125日", "在宅月4回", "持株会12%"]
+            },
+            "highlightMessage": "エンターテインメント業界で安定したキャリアを築ける"
+          }
+        ]
+      }
+    },
+    "page8": {
+      "section": "summary",
+      "template": "resource_summary",
+      "content": {
+        "title": "初任給が高い企業TOP10",
+        "summaryPoints": [
+          "サイバーエージェントが42万円でトップ、総合商社5社がランクインなのです",
+          "三菱商事の平均年収2,033万円は突出、商社業界の高待遇が明確なのです",
+          "初任給だけでなく働き方や福利厚生も含めて総合的に判断が重要なのです"
+        ],
+        "resourceList": [
+          {
+            "title": "各社採用ページ",
+            "items": [
+              "サイバーエージェント新卒採用サイト",
+              "楽天グループ採用情報",
+              "三菱商事採用サイト",
+              "伊藤忠商事採用情報",
+              "住友商事新卒採用サイト"
+            ]
+          },
+          {
+            "title": "業界研究ソース",
+            "items": [
+              "総合商社業界研究ガイド",
+              "IT業界動向レポート",
+              "就職四季報2025年版",
+              "商社vs他業界比較分析"
+            ]
+          },
+          {
+            "title": "企業分析ツール",
+            "items": [
+              "有価証券報告書の見方ガイド",
+              "企業口コミサイト活用法",
+              "初任給以外の比較ポイント",
+              "面接対策・企業研究方法"
+            ]
+          }
+        ],
+        "finalMessage": "初任給のデータは重要ですが、将来性・働きやすさ・成長機会も含めて総合的に分析することが大切なのです。皆さんらしいキャリアを築くために、これらの情報を上手に活用してくださいなのです！",
+        "characterImage": "kikuyo_point.png",
+        "characterPosition": "right"
+      }
+    }
+  }
+}

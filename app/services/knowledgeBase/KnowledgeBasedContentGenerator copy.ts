@@ -57,7 +57,7 @@ export class KnowledgeBasedContentGenerator {
       throw new Error('NEXT_PUBLIC_GEMINI_API_KEY is not set')
     }
     this.genAI = new GoogleGenerativeAI(apiKey)
-    this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
+    this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' })
   }
 
   /**

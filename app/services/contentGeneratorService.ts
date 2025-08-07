@@ -129,7 +129,7 @@ export class ContentGeneratorService {
       if (pageStructures.length > 0 && (pageStructures[0] as any).isStructuredGeneration) {
         console.log('🚀 新統合システム結果検出 - 段階2をスキップして直接結果を返却')
         // 新統合システムの結果を従来フォーマットに変換
-        return this.convertStructuredGenerationResult(pageStructures as PageStructureType[], userInput)
+        return this.convertStructuredGenerationResult(pageStructures as PageStructureType[], userInput, knowledgeBaseParams)
       }
       
       // 2段階目: 全ページ一括生成
@@ -324,19 +324,19 @@ export class ContentGeneratorService {
             console.log(`📝 オプショナルなlastページはスキップされました`)
           }
         } else {
-          // INDEXページの処理チェック
-          if (pageInfo.templateId === 'index_template' && pageInfo.optional) {
-            // indexセクションのページを特定
-            const indexPages = Object.keys(knowledgeData.detailedContent || {})
+          // 共感ページの処理チェック
+          if (pageInfo.templateId === 'empathy_template' && pageInfo.optional) {
+            // 共感セクションのページを特定
+            const empathyPages = Object.keys(knowledgeData.detailedContent || {})
               .filter(key => {
                 const pageData = knowledgeData.detailedContent?.[key]
-                return pageData?.section === "index"
+                return pageData?.section === "empathy"
               })
 
-            // INDEXページが存在する場合のみ処理
-            if (indexPages.length > 0) {
-              const indexPageKey = indexPages[0]
-              console.log(`🎨 ページ${pageInfo.pageNumber}生成中... (index from ${indexPageKey})`)
+            // 共感ページが存在する場合のみ処理
+            if (empathyPages.length > 0) {
+              const empathyPageKey = empathyPages[0]
+              console.log(`🎨 ページ${pageInfo.pageNumber}生成中... (empathy from ${empathyPageKey})`)
               
               const result = await generator.generatePageContent({
                 userInput,
@@ -1478,7 +1478,7 @@ ${contentSummary}
   /**
    * 新統合システムの結果を従来フォーマットに変換
    */
-  private async convertStructuredGenerationResult(pageStructures: PageStructureType[], userInput: string): Promise<GeneratedContent> {
+  private async convertStructuredGenerationResult(pageStructures: PageStructureType[], userInput: string, knowledgeBaseParams?: KnowledgeBaseParams): Promise<GeneratedContent> {
     console.log('🔄 新統合システム結果変換開始')
     
     try {

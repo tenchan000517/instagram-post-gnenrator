@@ -52,160 +52,145 @@
   ],
   "marketingStage": "就活中期（面接対策・実践段階）",
   "knowledgeId": "K118",
-  "pageStructurePattern": "",
+  "targetIds": ["T007"],
+  "targetReason": "就活における面接対策と突破ノウハウを知りたい学生向けの実践的指導",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "全面接の突破のコツ教えます",
-  "pageCount": 5,
-  "templateOverrides": {
-    "2": "ng_good_comparison",
-    "3": "category_explanation",
-    "4": "category_explanation"
-  },
+  "pageCount": 6,
   "detailedContent": {
     "page1": {
-      "role": "進度別突破のコツ一覧",
-      "layout": "ステップ形式",
-      "section": "mainContent",
+      "section": "introduction",
       "content": {
         "title": "全面接の突破のコツ教えます",
-        "subtitle": "進度別 / 突破するコツ",
-        "steps": [
-          {
-            "stage": "1次面接",
-            "point": "減点されないこと"
-          },
-          {
-            "stage": "2次面接",
-            "point": "貢献できる人材アピール"
-          },
-          {
-            "stage": "最終面接",
-            "point": "志望度MAXで挑む"
-          },
-          {
-            "stage": "さらに対策",
-            "point": ""
-          }
-        ]
+        "targetAudience": "面接対策で悩んでいる就活生",
+        "problems": [
+          "面接の段階別対策がわからない",
+          "何を重視すべきかわからない", 
+          "深掘り質問に答えられない"
+        ],
+        "additionalMessage": "1次・2次・最終面接の攻略ポイントを段階別に解説します"
       }
     },
     "page2": {
-      "role": "1次面接 - 減点されないこと",
-      "layout": "NG/GOOD比較形式",
       "section": "mainContent",
       "content": {
-        "stageNumber": "1次面接",
-        "stageTitle": "減点されないこと",
-        "ngExamples": [
+        "title": "1次面接は減点されないこと",
+        "sections": [
           {
-            "label": "落ちポイント",
-            "items": [
+            "name": "落ちる原因",
+            "content": [
               "質問への回答がズレている",
-              "表情に変化がなく暗い印象"
-            ]
-          }
-        ],
-        "goodExamples": [
+              "表情に変化がなく暗い印象",
+              "基本的なマナーができていない"
+            ],
+            "footerText": "1次面接では基本的なミスが致命的になります"
+          },
           {
-            "label": "合格ポイント",
-            "items": [
+            "name": "合格ポイント",
+            "content": [
               "身だしなみが清潔",
               "会話と表情が合っている",
               "基本的なビジネス敬語が使える",
-              "聞かれたことに答えられる"
-            ]
+              "聞かれたことに的確に答えられる"
+            ],
+            "footerText": "基本をしっかり押さえることが重要です"
           }
         ],
-        "footer": "面接練習の動画を撮って、客観的に自分を見てみよう！"
+        "characterImage": "/iida_study.png",
+        "characterPosition": "left",
+        "bottomSectionName": "面接練習のコツ",
+        "bottomSectionContent": "面接練習の動画を撮って、客観的に自分を見てみましょう。表情や話し方をチェックして改善することが大切です！"
       }
     },
     "page3": {
-      "role": "2次面接 - 貢献できる人材アピール",
-      "layout": "カテゴリ説明形式",
       "section": "mainContent",
       "content": {
-        "stageNumber": "2次面接",
-        "stageTitle": "貢献できる人材アピール",
-        "subtitle": "落ちポイント",
-        "ngPoints": [
-          "企業の事業への理解が浅い",
-          "自分のスキルのアピールが下手"
-        ],
-        "categories": [
+        "title": "2次面接は貢献できる人材アピール",
+        "sections": [
           {
-            "icon": "☑",
-            "title": "企業のビジネスモデルを調べる",
-            "description": ""
+            "name": "企業理解を深める",
+            "content": "企業のビジネスモデル（利益を生む仕組み）を理解することで、どう貢献できるかを具体的に話せるようになります",
+            "footerText": "求める人材像をHPで事前にチェックしておきましょう"
           },
           {
-            "icon": "☑",
-            "title": "HPで求める人材像をチェック",
-            "description": ""
-          },
-          {
-            "icon": "☑",
-            "title": "自己PRは再現性を意識する",
-            "description": ""
+            "name": "自己PRの再現性",
+            "content": [
+              "スキルが別の場所でも活かせることを示す",
+              "具体的なエピソードで能力を証明する",
+              "長期的な価値を持つ人材であることをアピール"
+            ],
+            "footerText": "再現性のあるスキルは企業にとって魅力的です"
           }
         ],
-        "footer": "ビジネスモデル...企業が利益を生む仕組み\n再現性...スキルが別の場所でも活かせるか"
+        "characterImage": "/iida_work.png",
+        "characterPosition": "left",
+        "bottomSectionName": "2次面接の落とし穴",
+        "bottomSectionContent": "企業の事業への理解が浅い、自分のスキルアピールが下手だと落ちやすくなります。しっかり準備して挑みましょう！"
       }
     },
     "page4": {
-      "role": "最終面接 - 志望度MAXで挑む",
-      "layout": "カテゴリ説明形式",
       "section": "mainContent",
       "content": {
-        "stageNumber": "最終面接",
-        "stageTitle": "志望度MAXで挑む",
-        "subtitle": "落ちポイント",
-        "ngPoints": [
-          "他の学生より熱意が低いと思われる",
-          "入社後のビジョンが薄い"
-        ],
-        "categories": [
+        "title": "最終面接は志望度MAXで挑む",
+        "sections": [
           {
-            "icon": "☑",
-            "title": "入社したい理由を最低3つ用意する",
-            "description": ""
+            "name": "志望度の具体的な表現",
+            "content": "入社したい理由を最低3つ用意し、志望動機に深みを持たせましょう。他の学生との差別化を図ることが重要です",
+            "footerText": "入社後にしたいことも最低3つ準備しておきます"
           },
           {
-            "icon": "☑",
-            "title": "入社後にしたいことを最低3つ用意する",
-            "description": ""
-          },
-          {
-            "icon": "☑",
-            "title": "その企業でないといけない理由を話せる",
-            "description": ""
+            "name": "企業選択の論理性",
+            "content": [
+              "その企業でないといけない理由を明確に",
+              "他社との違いを論理的に説明できる",
+              "具体的なビジョンで将来性をアピール"
+            ],
+            "footerText": "本気度と将来性を両方示すことがポイントです"
           }
-        ]
+        ],
+        "characterImage": "/iida_his_will.png",
+        "characterPosition": "left",
+        "bottomSectionName": "最終面接の落とし穴",
+        "bottomSectionContent": "他の学生より熱意が低い、入社後のビジョンが薄いと思われると落ちてしまいます。本気度を全力で伝えましょう！"
       }
     },
     "page5": {
-      "role": "深掘り質問例・まとめ",
-      "layout": "質問リスト形式",
       "section": "mainContent",
       "content": {
-        "title": "あるある深掘り質問",
-        "questions": [
+        "title": "よくある深掘り質問対策",
+        "sections": [
           {
-            "question": "志望動機を教えてください",
-            "followUp": "▷それは他社でもできますよね？"
+            "name": "志望動機への深掘り対応",
+            "content": "「志望動機を教えてください」→「それは他社でもできますよね？」この流れに対して、その企業特有の理由を明確に答えられるよう準備しましょう",
+            "footerText": "企業独自性を明確に理解しておくことが重要です"
           },
           {
-            "question": "弊社で達成したいことは？",
-            "followUp": "▷達成するためのビジョンはありますか？"
-          },
-          {
-            "question": "あなたの強みはなんですか？",
-            "followUp": "▷その強みが活きた他のエピソードは？"
-          },
-          {
-            "question": "あなたの短所と改善策はありますか？",
-            "followUp": "▷なぜ今も改善していないのですか？"
+            "name": "将来ビジョンと強み・短所への対応",
+            "content": [
+              "将来ビジョン：具体的な計画と実現への道筋を示す",
+              "強み：他のエピソードでも証明できるよう準備",
+              "短所：改善への取り組みを具体的に説明"
+            ],
+            "footerText": "深掘り質問は準備次第で大きな差が生まれます"
           }
         ],
-        "footer": "ここまで話せたら内定率はぐんとあがります！"
+        "characterImage": "/iida_fighting.png",
+        "characterPosition": "left",
+        "bottomSectionName": "内定率向上のカギ",
+        "bottomSectionContent": "深掘り質問にしっかり答えられるようになると、内定率はぐんと上がります。準備を怠らず、自信を持って挑みましょう！"
+      }
+    },
+    "page6": {
+      "section": "summary",
+      "content": {
+        "title": "面接突破の3つのポイント",
+        "habitsList": [
+          "1次面接は減点されない基本の徹底",
+          "2次面接は貢献できる人材のアピール",
+          "最終面接は志望度MAXで本気度を示す",
+          "深掘り質問への準備で差をつける"
+        ],
+        "finalMessage": "段階別の対策をしっかり行い、自信を持って面接に挑みましょう"
       }
     }
   }

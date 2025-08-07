@@ -62,7 +62,7 @@
   "knowledgeId": "K111",
   "pageStructurePattern": "unified-template-02-dual-section",
   "actualTitle": "あなたは何タイプ？MBTI診断 16タイプ特徴まとめ",
-  "pageCount": 8,
+  "pageCount": 9,
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
@@ -266,8 +266,8 @@
       }
     },
     "page8": {
-      "role": "ISTP・ISFPタイプ説明・まとめ",
-      "section": "summary",
+      "role": "ISTP・ISFPタイプ説明",
+      "section": "mainContent", 
       "layout": "2分割レイアウト（上下）",
       "content": {
         "upperSection": {
@@ -295,7 +295,11 @@
           "compatibility": "相性が良い→ENTP, 相性が悪い→ENTJ"
         }
       }
-        },
+    },
+    "page9": {
+      "role": "まとめ・総括",
+      "section": "summaryContent",
+      "content": {
         "summaryTitle": "MBTI 16タイプの特徴まとめ",
         "achievementPoints": [
           "NT系（分析家）: INTJ, INTP, ENTJ, ENTP",

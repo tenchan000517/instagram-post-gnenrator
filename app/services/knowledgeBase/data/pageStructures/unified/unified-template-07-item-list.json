@@ -16,7 +16,7 @@
     },
     {
       "pageNumber": 2,
-      "templateId": "index_template",
+      "templateId": "empathy_template",
       "optional": true,
       "templateStructure": {
         "indexTitle": "string",

@@ -19,9 +19,11 @@ export function AchievementSummaryEditor({ data, onUpdate }: AchievementSummaryE
     // summaryTitleの設定
     setSummaryTitle((data as any).summaryTitle || data.title || '')
     
-    // achievementPointsの設定
+    // achievementPointsの設定 - habitsListも考慮
     if ((data as any).achievementPoints && (data as any).achievementPoints.length > 0) {
       setAchievementPoints((data as any).achievementPoints)
+    } else if ((data as any).habitsList && (data as any).habitsList.length > 0) {
+      setAchievementPoints((data as any).habitsList)
     } else if (data.items && data.items.length > 0) {
       // itemsからの変換
       const points = data.items.map(item => 
@@ -37,8 +39,8 @@ export function AchievementSummaryEditor({ data, onUpdate }: AchievementSummaryE
       ])
     }
 
-    // encouragementMessageの設定
-    setEncouragementMessage((data as any).encouragementMessage || data.description || '')
+    // encouragementMessageの設定 - finalMessageも考慮
+    setEncouragementMessage((data as any).encouragementMessage || (data as any).finalMessage || data.description || '')
   }, [data])
 
   // データ更新
@@ -48,7 +50,9 @@ export function AchievementSummaryEditor({ data, onUpdate }: AchievementSummaryE
       title: newTitle,
       summaryTitle: newTitle,
       achievementPoints: newPoints,
+      habitsList: newPoints, // habitsListも更新
       encouragementMessage: newMessage,
+      finalMessage: newMessage, // finalMessageも更新
       items: newPoints // 互換性のため
     }
     onUpdate(updatedData)

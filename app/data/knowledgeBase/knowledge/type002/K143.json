@@ -14,7 +14,7 @@
       "ハイパー修正効果：ミスした箇所を深掘りして情報を強く記憶に残す",
       "復習は忘れる前に：昨日学んだことを振り返って記憶をしっかり定着させる",
       "ペンキ塗り式記憶法：朝昼夜で10分ずつ繰り返して何回も少しずつやる",
-      "3サイクル速習法：動画を2倍速で多く見て同じページを3回繰り返す",
+      "3サイクル速習法：動画を速めに見て同じページを3回繰り返す",
       "1分間ライティング：集中して脳をフル回転させて知識をきちんと自分のものにする",
       "学ぶ目的を持つ：1ヶ月ごとに目標を立てて取り組み、やらされる勉強から自分の勉強に変わる"
     ],
@@ -62,147 +62,185 @@
   "emotionalTriggers": [
     "学習効果への不安解消",
     "記憶力向上への期待",
-    "効率的な学習方法の提示",
+    "効果的な学習方法の提示",
     "具体的な実践方法による安心感",
     "短時間での成果実感"
   ],
   "marketingStage": "スキルアップ・自己学習段階（学習効率向上を求める時期）",
+  "targetIds": ["T010", "T012"],
+  "targetReason": "男性のビジネスシーンでの学習効率化、記憶力向上は競争優位性確立のための重要なスキル",
   "knowledgeId": "K143",
-  "pageStructurePattern": "",
-  "actualTitle": "1日10分で差がつく最強の記憶法",
+  "pageStructurePattern": "unified-template-08-section-blocks",
+  "actualTitle": "ビジネスマンのための最強記憶法",
   "pageCount": 7,
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
       "section": "introduction",
       "content": {
-        "title": "1日10分で差がつく最強の記憶法",
-        "targetAudience": "効率良く学ぶコツ、知りたくないですか？",
+        "title": "ビジネスマンのための最強記憶法",
+        "targetAudience": "学習効率を上げたいビジネスマン",
         "problems": [
           "やる気はあるのに覚えられない",
-          "前は学んだこともすぐに覚えられたけど、昨日の夕飯すら思い出せない"
+          "学習したことがすぐに忘れてしまう",
+          "忙しい中でも効率的に知識を身につけたい"
         ],
-        "additionalMessage": "同じ学習を繰り返しているあなたに学習効果が上がるコツを10個ご紹介します"
+        "additionalMessage": "そんなあなたに、ビジネスで差がつく学習効果が劇的に上がる記憶法を紹介します"
       }
     },
     "page2": {
-      "role": "記憶法1-2",
+      "role": "記憶定着の基本技術",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "記憶定着で学習効果を高める",
+        "sections": [
           {
-            "number": "1",
-            "title": "リトリーバル",
-            "description": "覚えたことを自分の言葉で書きます。何も見ずに思い出すと記憶が長く残るようになります。",
-            "imageSrc": "/misaki.png"
+            "name": "リトリーバル記憶法",
+            "content": "覚えたことを自分の言葉で書いて、何も見ずに思い出す練習を行います",
+            "footerText": "能動的な思い出しが記憶を長期間保持させます"
           },
           {
-            "number": "2",
-            "title": "ブレインダンプ",
-            "description": "学んだことを3つ紙に書きます。読んですぐ紙にまとめると、理解が深まり忘れにくくなります。",
-            "imageSrc": "/kikuyo.png"
+            "name": "ブレインダンプ記憶法",
+            "content": [
+              "学んだことを3つのポイントで紙に書き出す",
+              "読んですぐ紙にまとめると理解が深まり忘れにくくなる",
+              "アウトプット重視のアプローチで知識を確実に定着させる"
+            ],
+            "footerText": "即座のアウトプットが学習効果を高めてくれます"
           }
-        ]
+        ],
+        "characterImage": "/king_study.png",
+        "characterPosition": "left",
+        "bottomSectionName": "記憶の科学的アプローチ",
+        "bottomSectionContent": "筋トレでも反復することで筋肉が記憶するよな？学習も同じで反復が力になる。科学的記憶法で知識を確実に自分のものにしよう！"
       }
     },
     "page3": {
-      "role": "記憶法3-4",
+      "role": "学習効率向上",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "メタ認知と仲間との学習で効果アップ",
+        "sections": [
           {
-            "number": "3",
-            "title": "メタ認知",
-            "description": "チェックリストで確認してみます。自分の理解度を知ると学びのムダがなくなります。",
-            "imageSrc": "/king.png"
+            "name": "メタ認知による学習管理",
+            "content": "チェックリストで自分の理解度を客観的に確認し、学びのムダを完全に排除します",
+            "footerText": "自己分析能力が学習効率を劇的に向上させます"
           },
           {
-            "number": "4",
-            "title": "コラボ学習",
-            "description": "定期的に同僚と意見交換します。伝えようと言葉にすることで知識を改めて認識できます。",
-            "imageSrc": "/ten_worry.png"
+            "name": "コラボ学習による知識強化",
+            "content": [
+              "定期的に同僚と意見交換を行う",
+              "伝えようと言葉にすることで知識を改めて認識できる",
+              "他者との議論を通じて理解の深度を測定する"
+            ],
+            "footerText": "知識の共有と議論が理解レベルを向上させます"
           }
-        ]
+        ],
+        "characterImage": "/king_thinking.png",
+        "characterPosition": "left",
+        "bottomSectionName": "効果的な学習アプローチ",
+        "bottomSectionContent": "筋トレでもフォームチェックしてもらうと気づきがあるよな？学習も他人と意見交換して理解を深める。一人よりチームで効率アップだ！"
       }
     },
     "page4": {
-      "role": "記憶法5-6",
+      "role": "失敗活用と復習戦略",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "失敗を活かした記憶法と復習のコツ",
+        "sections": [
           {
-            "number": "5",
-            "title": "ハイパー修正効果",
-            "description": "ミスした箇所を深掘りします。間違えた部分を正すと情報が強く記憶に残ります。",
-            "imageSrc": "/misaki_worry.png"
+            "name": "ハイパー修正効果",
+            "content": "ミスした箇所を深掘りして、間違いからしっかり学んでいきます",
+            "footerText": "失敗体験が最も強力な記憶定着を生み出します"
           },
           {
-            "number": "6",
-            "title": "復習は忘れる前に",
-            "description": "昨日学んだことを振り返ります。完全に忘れる前に復習すると記憶がしっかり定着します。",
-            "imageSrc": "/kikuyo_worry.png"
+            "name": "効果的な復習タイミング",
+            "content": [
+              "完全に忘れる前に復習して記憶をしっかり定着させる",
+              "昨日学んだことを振り返る習慣を作る",
+              "忘却曲線を意識した科学的復習スケジュールを構築"
+            ],
+            "footerText": "タイミングを制する者が記憶を制します"
           }
-        ]
+        ],
+        "characterImage": "/king_work.png",
+        "characterPosition": "left",
+        "bottomSectionName": "失敗からの学習効果向上",
+        "bottomSectionContent": "筋トレでもフォームが崩れたときは動作を見直すよな？学習でもミスしたところを深堀りする。失敗から学ぶのが一番記憶に残る！"
       }
     },
     "page5": {
-      "role": "記憶法7-8",
+      "role": "反復学習と速習法",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "反復学習と速習法による時短学習",
+        "sections": [
           {
-            "number": "7",
-            "title": "ペンキ塗り式記憶法",
-            "description": "朝昼夜で10分ずつ繰り返します。一気にするより何回も少しずつやる方がよく覚えられます。",
-            "imageSrc": "/king_warry.png"
+            "name": "ペンキ塗り式記憶法",
+            "content": "朝昼夜で10分ずつ繰り返し、一気にするより何回も少しずつやる方が効果的です",
+            "footerText": "分散学習が記憶の長期定着を実現します"
           },
           {
-            "number": "8",
-            "title": "3サイクル速習法",
-            "description": "動画を2倍速で多く見ます。同じページを3回繰り返すとちゃんと頭に残ります。",
-            "imageSrc": "/iidaworry.png"
+            "name": "3サイクル速習法",
+            "content": [
+              "動画を速めに見て情報処理速度を上げる",
+              "同じページを3回繰り返してしっかり頭に残す",
+              "短時間集中のスピード学習で成果を上げる"
+            ],
+            "footerText": "速習法が忙しいビジネスマンの学習効率を最大化します"
           }
-        ]
+        ],
+        "characterImage": "/king_running.png",
+        "characterPosition": "left",
+        "bottomSectionName": "効率性と継続性の両立",
+        "bottomSectionContent": "長距離走でも一気に走るより適度に休むよな？学習も細かく分けて反復する。短時間集中で最大効果を狙え！"
       }
     },
     "page6": {
-      "role": "記憶法9-10",
+      "role": "集中力と目的意識",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "集中力と目的意識で学習成果を高める",
+        "sections": [
           {
-            "number": "9",
-            "title": "1分間ライティング",
-            "description": "集中して脳をフル回転します。たったこれだけで知識をきちんと自分のものにできます。",
-            "imageSrc": "/misaki.png"
+            "name": "1分間ライティング",
+            "content": "集中して脳をフル回転させて、短時間で知識をきちんと自分のものにします",
+            "footerText": "高強度の集中学習が記憶定着を加速します"
           },
           {
-            "number": "10",
-            "title": "学ぶ目的を持つ",
-            "description": "1ヶ月ごとに目標を立てて取り組みます。やらされる勉強から自分の勉強に変わります。",
-            "imageSrc": "/kikuyo.png"
+            "name": "明確な学習目的設定",
+            "content": [
+              "1ヶ月ごとに目標を立てて取り組む",
+              "やらされる勉強から自分の勉強に変わる",
+              "目的意識が学習のモチベーションと効果を向上させる"
+            ],
+            "footerText": "明確な目的が継続的な学習成果を生み出します"
           }
-        ]
+        ],
+        "characterImage": "/king_point.png",
+        "characterPosition": "left",
+        "bottomSectionName": "目標設定の重要性",
+        "bottomSectionContent": "筋トレでも明確な目標があるとモチベーションが上がるよな？学習でも目標を設定して集中力アップ。明確な目的で成果を積み重ねよう！"
       }
     },
     "page7": {
       "role": "まとめ・メッセージ",
       "section": "summary",
       "content": {
-        "summaryTitle": "最強の記憶法",
-        "achievementPoints": [
-          "リトリーバル",
-          "ブレインダンプ",
-          "メタ認知",
-          "コラボ学習",
+        "title": "ビジネスマンのための効果的学習法まとめ",
+        "habitsList": [
+          "リトリーバル記憶法",
+          "ブレインダンプ記憶法",
+          "メタ認知による学習管理",
+          "コラボ学習による知識強化",
           "ハイパー修正効果",
-          "復習は忘れる前に",
+          "効果的な復習タイミング",
           "ペンキ塗り式記憶法",
           "3サイクル速習法",
           "1分間ライティング",
-          "学ぶ目的を持つ"
+          "明確な学習目的設定"
         ],
-        "encouragementMessage": "保存して後で復習してください！"
+        "finalMessage": "これらの学習法を活用して、ビジネスで差がつく効果的な学習と知識定着力を手に入れましょう"
       }
     }
   }

@@ -53,102 +53,96 @@
   ],
   "marketingStage": "就職活動を控えた大学生、特に適性検査の対策方法がわからず不安を感じている段階の学生",
   "knowledgeId": "K045",
-  "pageStructurePattern": "",
+  "targetIds": ["T007"],
+  "targetReason": "就活における対策やノウハウを知りたい学生向け適性検査対策情報",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "選考に鬼門になる適性検査 こう解け",
   "pageCount": 4,
   "detailedContent": {
     "page1": {
-      "role": "problem-identification",
       "section": "introduction",
-      "title": "適性検査の対策",
-      "question": "めっちゃ不安じゃない？？",
       "content": {
-        "適性検査の種類": {
-          "能力診断": "国語・数学・社会・理科・一般常識などの分野から出題",
-          "性格診断": "性格の傾向を把握し、企業と職種のマッチングを見るために実施！特別な対策などは不要なので安心"
-        }
-      },
-      "warning": "一般的な問題ですが対策なしでは危険！志望企業に面接すら受けられないなんて悲しすぎます...",
-      "transition": "具体的な対策はこちら→",
-      "illustration": "ビジネスマン（スーツ姿、ポーズ）"
+        "title": "選考に鬼門になる適性検査 こう解け",
+        "targetAudience": "適性検査で悩んでいる就活生のあなたへ",
+        "problems": [
+          "適性検査の対策方法がわからない",
+          "志望企業に面接すら受けられないのが不安",
+          "Webテストの種類の見分け方がわからない"
+        ],
+        "additionalMessage": "対策なしでは危険です。適性検査を突破するための具体的な対策方法と攻略のコツをご紹介します"
+      }
     },
     "page2": {
-      "role": "detailed-explanation",
       "section": "mainContent",
-      "title": "対策方法（学力問題）",
       "content": {
-        "問題の種類": {
-          "非言語系": [
-            "四則演算：スピードと正確性",
-            "計算式問題：方程式や不等式の確認",
-            "定番問題：よく出題される学習"
-          ],
-          "言語系": [
-            "語彙力：対策本などで学習すること",
-            "文章力：助詞や助動詞への使い方を確認",
-            "読解力：文章の趣旨や論理性の理解を！"
-          ]
-        }
-      },
-      "keyMessage": "特に非言語系や語彙力などの問題でつまづく人が続出！今からコツコツ対策することが適性の鍵です。",
-      "transition": "具体的な対策はこちら→",
-      "illustration": "ビジネスマン（考えるポーズ）"
+        "title": "適性検査の2つの種類と対策方法",
+        "sections": [
+          {
+            "name": "適性検査の基本構成",
+            "content": [
+              "能力診断：国語・数学・社会・理科・一般常識などから出題",
+              "性格診断：性格の傾向を把握し、企業と職種のマッチングを確認"
+            ]
+          },
+          {
+            "name": "重点的に対策すべき分野",
+            "content": [
+              "非言語系：四則演算、計算式問題、定番問題をスピードと正確性で解く",
+              "言語系：語彙力、文章力、読解力を対策本で強化",
+              "特に非言語系や語彙力の問題でつまづく人が続出"
+            ]
+          }
+        ],
+        "characterImage": "/iida_study.png",
+        "characterPosition": "left",
+        "bottomSectionName": "対策のポイント",
+        "bottomSectionContent": "能力診断が重要です。性格診断は特別な対策は不要ですが、能力診断はしっかりと準備しましょう！"
+      }
     },
     "page3": {
-      "role": "solution-tips",
       "section": "mainContent",
-      "title": "この3つは意識してみて！！",
-      "subtitle": "突破のコツ",
-      "tips": [
-        {
-          "checkbox": "✓",
-          "title": "消去法を使おう！",
-          "description": "正解がはっきりわからなくても焦らないこと！明らかに間違っている選択肢を冷静に消そう"
-        },
-        {
-          "checkbox": "✓", 
-          "title": "時間配分を考える",
-          "description": "1つの設問を考え込んで最後まで解けないのは勿体無い。難しい問題はすぐに飛ばすこと。"
-        },
-        {
-          "checkbox": "✓",
-          "title": "出題パターンを押さえる", 
-          "description": "会社独自の問題以外は、毎年似たような問題が出題されます。対策本や過去問で十分に対策可能"
-        }
-      ],
-      "callout": "企業ごと実施しているWebテストは異なる！実は、実施する前に何のテストか見分ける方法があります！"
+      "content": {
+        "title": "この3つは意識してみて！突破のコツ",
+        "sections": [
+          {
+            "name": "実践的な解答テクニック",
+            "content": [
+              "消去法を使おう：正解がはっきりわからなくても焦らず明らかに間違っている選択肢を消す",
+              "時間配分を考える：1つの設問を考え込まず、難しい問題はすぐに飛ばす"
+            ]
+          },
+          {
+            "name": "効果的な対策方法",
+            "content": [
+              "出題パターンを押さえる：企業独自の問題以外は毎年似た問題が出題される",
+              "対策本で十分対策可能",
+              "実施前にテストの種類を見分ける方法があります"
+            ]
+          }
+        ],
+        "characterImage": "/iida_work.png",
+        "characterPosition": "left",
+        "bottomSectionName": "Webテスト見分け方",
+        "bottomSectionContent": [
+          "SPI：URLに「arorua」、玉手箱：「e-exams」「nsvs」「tsvs」",
+          "TG-WEB：「assessment c-personal」、TAL：「tal-sa」",
+          "企業からのメールでURLを確認し、事前にテスト種類を把握しましょう！"
+        ]
+      }
     },
     "page4": {
-      "role": "reference-table",
       "section": "summary",
-      "title": "WEBテストURL の見分け方",
-      "table": [
-        {
-          "testType": "SPI",
-          "identifier": "URLに「arorua」が入っている"
-        },
-        {
-          "testType": "玉手箱",
-          "identifier": "URLに「e-exams」「nsvs」「tsvs」が入っている"
-        },
-        {
-          "testType": "TG-WEB",
-          "identifier": "URLに「assessment c-personal」が入っている"
-        },
-        {
-          "testType": "TAL",
-          "identifier": "URLに「tal-sa」が入っている"
-        },
-        {
-          "testType": "CAB",
-          "identifier": "玉手箱と同じ　画面を開いて出題科目で判断"
-        },
-        {
-          "testType": "eF-1G",
-          "identifier": "URLに「ef-1g」が入っている"
-        }
-      ],
-      "callToAction": "企業からメールを確認して テストの種類を確認しよう！！"
+      "content": {
+        "title": "適性検査突破のポイント",
+        "habitsList": [
+          "能力診断と性格診断の違いを理解し、能力診断を重点的に対策",
+          "消去法を使い、正解がわからなくても冷静に間違った選択肢を消す",
+          "時間配分を考え、難しい問題はすぐに飛ばして最後まで解く",
+          "出題パターンを押さえ、対策本で毎年似た問題に備える",
+          "WebテストのURL特徴を確認し、事前にテスト種類を把握"
+        ],
+        "finalMessage": "適性検査は対策次第で必ず突破できます。事前の準備をしっかりと行い、志望企業の面接に進みましょう！"
+      }
     }
   }
 }

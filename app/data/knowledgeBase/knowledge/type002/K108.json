@@ -29,13 +29,13 @@
     ]
   },
   "effectiveExpressions": [
-    "ポートフォリオ作成で競争優位性を確保する戦略的アプローチ",
-    "効率的なポートフォリオ作成で案件獲得率を向上",
-    "具体的サイト比較で最適選択を支援",
-    "実践的なプロセスで即効性と成果を明示",
-    "プロフェッショナルなポートフォリオで市場価値を向上",
-    "戦略的ツール選択で効率的なブランディング",
-    "体系的なポートフォリオ活用でキャリアアップ"
+    "ポートフォリオ作成で案件獲得チャンスを広げる",
+    "初心者でも簡単に作れるサイト5選を紹介",
+    "具体的なサイト比較で自分に合った選択を支援",
+    "実践的なツール紹介で即日作成可能",
+    "プロフェッショナルなポートフォリオで信頼性向上",
+    "用途別のツール選択でブランディング強化",
+    "ポートフォリオ活用でキャリアアップを実現"
   ],
   "searchKeywords": [
     "ポートフォリオ",
@@ -60,68 +60,98 @@
   "targetIds": ["T010", "T012"],
   "targetReason": "ポートフォリオ作成という新しいスキル習得のニーズ（T010）と、起業・副業での案件獲得・個人ブランディングツールとしてのニーズ（T012）の両方に該当する",
   "knowledgeId": "K108",
-  "pageStructurePattern": "unified-template-09-dynamic-boxes",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "ポートフォリオ爆速作成サイト5選",
-  "pageCount": 4,
+  "pageCount": 5,
   "detailedContent": {
     "page1": {
       "role": "problem-identification",
       "section": "introduction",
-      "content": {
-        "title": "案件に応募したいけど、ポートフォリオの作り方がわからん...",
-        "description": "案件応募していく前にポートフォリオは必須！しかも...「どこで作ればいいの？」って悩み、めちゃくちゃ多い！",
-        "imageSrc": "/king_worry.png"
-      }
+      "title": "ポートフォリオ爆速作成サイト5選",
+      "targetAudience": "案件獲得のためポートフォリオ作成で悩む人",
+      "problems": [
+        "案件応募にはポートフォリオが必須だが作り方がわからない",
+        "どのサイトで作ればいいのか選択肢が多くて迷っている",
+        "時間をかけずに見栄えの良いポートフォリオを作りたい"
+      ],
+      "additionalMessage": "ドラッグ&ドロップで簡単に作れるポートフォリオ作成サイト5選を厳選紹介。忙しいあなたでも今日中に完成させられます！"
     },
     "page2": {
-      "role": "site-introduction-1-2",
+      "role": "site-introduction-overview",
       "section": "mainContent",
       "content": {
-        "title": "ポートフォリオ作成サイト5選（その1）",
-        "boxes": [
+        "title": "5つのサイトの特徴と選び方",
+        "sections": [
           {
-            "name": "salon.io",
-            "content": "直感操作でドラッグ&ドロップするだけ！数分で作成完了、忙しい人に超おすすめです。"
-          },
-          {
-            "name": "MATCH BOX",
-            "content": "画像やデータがあれば簡単にポートフォリオ完成！しかも全機能無料だから安心して試せます。"
+            "name": "各サイトの強みを理解する",
+            "content": "salon.io（時短重視）\nMATCH BOX（無料・初心者向け）\nportfolio box（カスタマイズ重視）\nStrikingly（テンプレート豊富）\nBehance（デザイン性重視）",
+            "footerText": "目的に合わせて最適なサイトを選ぼう！"
           }
-        ]
+        ],
+        "characterImage": "/king_point.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "まずは自分が何を重視するか明確にしよう！時短なのか、無料なのか、デザイン性なのか。目的が決まれば選択も簡単だ！"
       }
     },
     "page3": {
-      "role": "site-introduction-3-5",
+      "role": "site-details-1",
       "section": "mainContent",
       "content": {
-        "title": "ポートフォリオ作成サイト5選（その2）",
-        "boxes": [
+        "title": "時短&無料で始められるサイト",
+        "sections": [
           {
-            "name": "portfolio box",
-            "content": "世界中で使われていてテンプレも豊富！細かなカスタマイズで、唯一無二のポートフォリオが作れます。"
+            "name": "salon.io - 最速作成を実現",
+            "content": "ドラッグ&ドロップの直感操作で数分で完成\n忙しい人や今すぐ必要な人に最適\nシンプルながら必要十分な機能を搭載",
+            "footerText": "時間がない人の強い味方！"
           },
           {
-            "name": "Strikingly",
-            "content": "テンプレートが充実してて、動画埋め込みもOK！サイト上にあるテンプレを活かして、サクッと作りたい方におすすめです。"
+            "name": "MATCH BOX - 完全無料で安心",
+            "content": "画像とデータがあれば簡単に作成可能\n全機能が無料で使えるので初心者も安心\n基本的なポートフォリオ機能は全て網羅",
+            "footerText": "コストを気にせず始められる！"
+          }
+        ],
+        "characterImage": "/king_work.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "まずは無料で試してみるのが賢い選択だ！作りながら自分のスタイルを見つけていけばいい！"
+      }
+    },
+    "page4": {
+      "role": "site-details-2",
+      "section": "mainContent",
+      "content": {
+        "title": "カスタマイズ&デザイン重視のサイト",
+        "sections": [
+          {
+            "name": "portfolio box - オリジナリティを追求",
+            "content": "世界中で使われている信頼性の高いサービス\n豊富なテンプレートから選択可能\n細かなカスタマイズで他と差別化できる",
+            "footerText": "自分らしさを表現したい人へ！"
           },
           {
-            "name": "Behance",
-            "content": "Adobe運営だからデザイン性抜群！グラフィックに強く、見た目重視のポートフォリオを作りたい人に最適です。"
+            "name": "Strikingly - 動画も活用できる",
+            "content": "充実したテンプレートでサクッと作成\n動画埋め込みで動きのあるポートフォリオに\nレスポンシブ対応でスマホでも見やすい",
+            "footerText": "動画で魅力を伝えたい人に！"
+          },
+          {
+            "name": "Behance - プロ仕様のデザイン性",
+            "content": "Adobe運営で信頼性とデザイン性が抜群\nグラフィックやビジュアル重視の作品に最適\n世界中のクリエイターとの繋がりも生まれる",
+            "footerText": "デザインで勝負したい人向け！"
           }
         ]
       }
     },
-    "page4": {
+    "page5": {
       "section": "summary",
-      "title": "副業初心者向けポートフォリオ作成サイト5選",
-      "habitsList": [
-        "salon.io: ドラッグ&ドロップで数分作成、忙しい人に最適",
-        "MATCH BOX: 全機能無料で初心者でも簡単にポートフォリオ完成",
-        "portfolio box: 世界標準テンプレで細かなカスタマイズ可能",
-        "Strikingly: 動画埋め込み対応の豊富なテンプレート",
-        "Behance: Adobe運営でデザイン性重視のポートフォリオ作成"
-      ],
-      "finalMessage": "完璧を求めず、まずは自分の目的に合ったサイトで作成を始めましょう。作りながら改善していくことで、より良いポートフォリオに成長させることができます。"
+      "content": {
+        "title": "ポートフォリオ作成サイト5選まとめ",
+        "habitsList": [
+          "salon.io：時短重視で数分作成",
+          "MATCH BOX：完全無料で安心スタート",
+          "portfolio box：カスタマイズ自在",
+          "Strikingly：動画対応テンプレ豊富",
+          "Behance：デザイン性で差別化"
+        ],
+        "finalMessage": "完璧を求めず、まずは作ってみることが大切。案件獲得への第一歩を今日踏み出そう！"
+      }
     }
   }
 }

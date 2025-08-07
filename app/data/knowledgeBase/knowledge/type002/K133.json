@@ -56,8 +56,10 @@
     "効率化による達成感"
   ],
   "marketingStage": "仕事効率化・生産性向上を求める段階",
+  "targetIds": ["T010"],
+  "targetReason": "仕事効率化・時短スキル習得という新しいビジネススキル習得のニーズで、T010（新しいスキルを身に着けたい男性）に該当する",
   "knowledgeId": "K133",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-02-dual-section",
   "actualTitle": "マネするだけ！シゴデキの時短習慣",
   "pageCount": 5,
   "detailedContent": {
@@ -65,33 +67,34 @@
       "role": "導入・問題提起",
       "section": "introduction",
       "content": {
-        "title": "マネするだけ！シゴデキの時短習慣",
-        "targetAudience": "作業が遅くて毎日クタクタになってしまう人",
+        "title": "マネするだけ！仕事ができる人のルーティーン",
+        "targetAudience": "作業が終わらず毎日クタクタになってしまう人",
         "problems": [
           "作業が遅くていつもバタバタになってしまう",
           "なんで毎回こうなるのか分からない",
           "毎日やることに追われてクタクタになるだけの毎日"
         ],
-        "additionalMessage": "でも仕事が早い人の習慣を取り入れたら余裕ができたから紹介します！"
+        "additionalMessage": "仕事が速い人のルーティーンをマネることが近道です！"
       }
     },
     "page2": {
       "role": "習慣1-2",
       "section": "mainContent",
       "content": {
-        "title": "",
         "items": [
           {
-            "number": "1",
             "title": "簡単なタスクから片付ける",
+            "number": 1,
             "description": "重要企画の資料を仕上げるより5分でできる作業を先に済ませます",
-            "imageSrc": "/misaki.png"
+            "imageSrc": "/king_work.png",
+            "imageAlt": "King working efficiently"
           },
           {
-            "number": "2",
-            "title": "メ切を決める",
-            "description": "いつまでに何をやるかタスクごとに具体的に決めます",
-            "imageSrc": "/king.png"
+            "title": "期限を決める",
+            "number": 2,
+            "description": "いつまでに何をやるかタスクごとに具体的に決めます。スポーツでもタイムアタックが勝負を分けるだろう？",
+            "imageSrc": "/king_running.png",
+            "imageAlt": "King running with timer"
           }
         ]
       }
@@ -100,19 +103,20 @@
       "role": "習慣3-4",
       "section": "mainContent",
       "content": {
-        "title": "",
         "items": [
           {
-            "number": "3",
             "title": "思い出す時間を減らす",
-            "description": "後から見返すものはルールを決めてメモや管理をします",
-            "imageSrc": "/kikuyo.png"
+            "number": 3,
+            "description": "後から見返すものはルールを決めてメモや管理をします。アスリートもルーティンが勝負を分けるだろう？",
+            "imageSrc": "/king_thinking.png",
+            "imageAlt": "King thinking about organization"
           },
           {
-            "number": "4",
             "title": "探す手間を減らす",
-            "description": "デスクトップやフォルダを整理して名前のルールも決めます",
-            "imageSrc": "/kikuyo_worry.png"
+            "number": 4,
+            "description": "デスクトップやフォルダを整理して名前のルールも決めます。ジムでも器具の位置を知ってると集中できるだろう？",
+            "imageSrc": "/king_study.png",
+            "imageAlt": "King organizing workspace"
           }
         ]
       }
@@ -121,37 +125,38 @@
       "role": "習慣5-6",
       "section": "mainContent",
       "content": {
-        "title": "",
         "items": [
           {
-            "number": "5",
             "title": "準備しすぎず動き出す",
-            "description": "最低限の準備ができたら動き始めます",
-            "imageSrc": "/ten_worry.png"
+            "number": 5,
+            "description": "最低限の準備ができたら動き始めます。トレーニングでも考えすぎより実践が上達の近道だろう？",
+            "imageSrc": "/king_running.png",
+            "imageAlt": "King taking action"
           },
           {
-            "number": "6",
-            "title": "納期の2割で8割終わらせる",
-            "description": "ざっくり終わらせてからブラッシュアップします",
-            "imageSrc": "/king_warry.png"
+            "title": "期限の前半で大部分完成",
+            "number": 6,
+            "description": "ざっくり終わらせてからブラッシュアップします。コーチも素早い完成で微調整するだろう？",
+            "imageSrc": "/king_point.png",
+            "imageAlt": "King pointing to success"
           }
         ]
       }
     },
     "page5": {
-      "role": "まとめ・実践促進",
+      "role": "時短習慣のまとめ",
       "section": "summary",
       "content": {
-        "summaryTitle": "まとめ",
+        "summaryTitle": "仕事ができる人のルーティーン",
         "achievementPoints": [
           "簡単なタスクから片付ける",
-          "メ切を決める",
+          "期限を決める",
           "思い出す時間を減らす",
           "探す手間を減らす",
           "準備しすぎず動き出す",
-          "納期の2割で8割終わらせる"
+          "期限の前半で大部分完成"
         ],
-        "encouragementMessage": "シゴデキの習慣をマネするだけで仕事がサクサク進みます。今日からさっそく試してみましょう！"
+        "encouragementMessage": "習慣をマネするだけで仕事がサクサク進みます。"
       }
     }
   }

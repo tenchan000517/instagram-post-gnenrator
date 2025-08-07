@@ -1,0 +1,132 @@
+{
+  "structureId": "unified-template-12-company-spotlight",
+  "structureName": "企業スポットライト構成",
+  "description": "特定企業の詳細情報を7ページで徹底解説する構成",
+  "pageCount": 7,
+  "templateType": "unified",
+  "version": "1.0.0",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "section": "introduction",
+      "template": "basic_intro",
+      "content": {
+        "title": "required",
+        "targetAudience": "required",
+        "problems": "required",
+        "additionalMessage": "optional",
+        "savePrompt": "required"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "section": "overview",
+      "template": "company_overview",
+      "content": {
+        "title": "required",
+        "subtitle": "required",
+        "companyData": {
+          "name": "required",
+          "industry": "required",
+          "established": "required",
+          "employees": "required",
+          "headquarters": "required",
+          "stockListing": "required",
+          "revenue": "optional",
+          "businessAreas": "required"
+        },
+        "keyPoints": "required"
+      }
+    },
+    {
+      "pageNumber": 3,
+      "section": "compensation",
+      "template": "salary_benefits",
+      "content": {
+        "title": "required",
+        "subtitle": "required",
+        "salaryInfo": {
+          "initialSalary": "required",
+          "averageSalary": "required",
+          "salaryGrowth": "required",
+          "bonus": "required"
+        },
+        "benefitsHighlight": "required"
+      }
+    },
+    {
+      "pageNumber": 4,
+      "section": "workEnvironment",
+      "template": "work_life_balance",
+      "content": {
+        "title": "required",
+        "subtitle": "required",
+        "workStyle": {
+          "averageOvertime": "required",
+          "remoteWork": "required",
+          "flexTime": "required",
+          "holidays": "required"
+        },
+        "officeFeatures": "optional",
+        "workCulture": "required"
+      }
+    },
+    {
+      "pageNumber": 5,
+      "section": "careerGrowth",
+      "template": "career_development",
+      "content": {
+        "title": "required",
+        "subtitle": "required",
+        "careerPaths": "required",
+        "skillDevelopment": "required",
+        "successStories": "optional"
+      }
+    },
+    {
+      "pageNumber": 6,
+      "section": "recruitment",
+      "template": "recruitment_info",
+      "content": {
+        "title": "required",
+        "subtitle": "required",
+        "recruitmentData": {
+          "plannedHires": "required",
+          "targetPositions": "required",
+          "selectionProcess": "required"
+        },
+        "idealCandidate": "required",
+        "internship": "optional"
+      }
+    },
+    {
+      "pageNumber": 7,
+      "section": "summary",
+      "template": "resource_summary",
+      "content": {
+        "title": "required",
+        "summaryPoints": "required",
+        "resourceList": "required",
+        "finalMessage": "required"
+      }
+    }
+  ],
+  "requiredTemplates": [
+    "basic_intro",
+    "company_overview",
+    "salary_benefits",
+    "work_life_balance",
+    "career_development",
+    "recruitment_info",
+    "resource_summary"
+  ],
+  "targetUsage": {
+    "postTypes": ["003"],
+    "targetIds": ["T013"],
+    "suitableFor": [
+      "企業詳細情報の提供",
+      "就活生向け企業研究",
+      "特定企業の徹底解説"
+    ]
+  }
+}

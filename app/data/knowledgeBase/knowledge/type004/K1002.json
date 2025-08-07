@@ -1,0 +1,167 @@
+{
+  "source": "Type004実証型ナレッジ-ファイル整理完全システム",
+  "problemCategory": "デジタルファイル管理・業務効率化",
+  "postType": "004",
+  "knowledgeId": "K1002",
+  "pageStructurePattern": "unified-template-13-step-by-step",
+  "actualTitle": "1週間で完成！ファイル迷子ゼロの整理術",
+  "targetIds": ["T019", "T020", "T021", "T022", "T023", "T024"],
+  "pageCount": 8,
+  "detailedContent": {
+    "page1": {
+      "role": "basic_intro",
+      "section": "introduction",
+      "content": {
+        "title": "『あのファイルどこ？』から解放される1週間",
+        "targetAudience": "デスクトップがぐちゃぐちゃ、ファイル探しにうんざりしているあなた",
+        "problems": [
+          "週1〜2回、ファイル探しに平均20-40分消費",
+          "『あのファイルどこだっけ？』のストレス",
+          "バージョン違いでの混乱と取り違え",
+          "無秩序なデスクトップから感じる圧迫感"
+        ],
+        "additionalMessage": "これは個人の能力問題ではありません。適切なシステムが存在しないことによる必然的結果です。1週間で解決可能な実証済みアプローチを公開します"
+      }
+    },
+    "page2": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 1,
+        "totalSteps": 6,
+        "stepTitle": "完全なる集約 - 全ファイルを一箇所に",
+        "duration": "120分",
+        "instructions": [
+          "『000_SOURCE』フォルダをCドライブ直下に作成する",
+          "デスクトップ、ダウンロード、ドキュメント、ピクチャ、ミュージック、ビデオの全ファイルを移動",
+          "クラウド同期フォルダ（Dropbox、OneDrive、Google Drive）のファイルも忘れずに移動",
+          "外付けドライブ、USBメモリのファイルも確認して移動",
+          "デスクトップが完全に空になっていることを確認"
+        ],
+        "tips": "一時的にファイルが見つけにくくなりますが、これが整理の第一歩です",
+        "imageSrc": "/king_work.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page3": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 2,
+        "totalSteps": 6,
+        "stepTitle": "6つのコアフォルダ作成",
+        "duration": "30分",
+        "instructions": [
+          "ユーザーディレクトリ直下に以下の6フォルダを数字付きで作成",
+          "00_Inbox（一時保管エリア）",
+          "01_Projects（進行中の作業）",
+          "02_Areas（継続的な責任範囲）",
+          "03_Resources（関心のあるトピック）",
+          "04_Archive（完了・休止アイテム）",
+          "99_System（システム基盤）"
+        ],
+        "tips": "数字をつけることでアルファベット順を無視した論理的順序を保てます",
+        "imageSrc": "/king_goodjob.png",
+        "imageAlt": "キングがグッドジョブしている様子"
+      }
+    },
+    "page4": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 3,
+        "totalSteps": 6,
+        "stepTitle": "3つの質問で仕分け",
+        "duration": "3-5時間",
+        "instructions": [
+          "質問1：これが何か分かり、かつ即座にゴミだと判断できるか？",
+          "→ はい：ゴミ箱へ移動 / いいえ：質問2へ",
+          "質問2：今後3ヶ月以内に必要となる進行中の作業か？",
+          "→ はい：00_Inboxへ移動 / いいえ：質問3へ",
+          "質問3：法的、税務上、感傷的理由で保持が必要か？",
+          "→ はい：04_Archiveへ移動 / いいえ：ゴミ箱へ"
+        ],
+        "tips": "迷ったらInboxへ。完璧を求めず、000_SOURCEが空になることを目指しましょう",
+        "imageSrc": "/king_thinking.png",
+        "imageAlt": "キングが考えている様子"
+      }
+    },
+    "page5": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 4,
+        "totalSteps": 6,
+        "stepTitle": "分かりやすい命名規則",
+        "duration": "2-4時間",
+        "instructions": [
+          "基本フォーマット：YYYYMMDD_Category_Description_v##.拡張子",
+          "カテゴリコード例：REP（報告書）、MTG（議事録）、INV（請求書）、CTR（契約書）、PRS（プレゼン資料）",
+          "実例：20241225_MTG_企画会議議事録_v01.docx",
+          "00_Inboxの全ファイルを改名",
+          "改名後、01_Projects、02_Areas、03_Resourcesの適切な場所へ移動"
+        ],
+        "tips": "日付を先頭にすることで、自動的に時系列で並びます",
+        "imageSrc": "/king_study.png",
+        "imageAlt": "キングが勉強している様子"
+      }
+    },
+    "page6": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 5,
+        "totalSteps": 6,
+        "stepTitle": "重複ファイル完全消去",
+        "duration": "90分",
+        "instructions": [
+          "dupeGuru（無料ツール）をダウンロード・インストール",
+          "作成した全フォルダをスキャン対象に設定",
+          "ファイル内容（ハッシュ値）で重複検出を実行",
+          "『一つを残してすべてマーク』機能で効率的に選択",
+          "選択したファイルを削除して容量を解放"
+        ],
+        "tips": "平均30-50%の容量削減が可能。削除前に必ず内容を確認しましょう",
+        "imageSrc": "/king_work.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page7": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 6,
+        "totalSteps": 6,
+        "stepTitle": "自動バックアップ構築",
+        "duration": "60分",
+        "instructions": [
+          "外付けHDDまたはクラウドストレージを準備",
+          "Windows：ファイル履歴を設定（コントロールパネル→ファイル履歴）",
+          "Mac：Time Machineを設定（システム環境設定→Time Machine）",
+          "1時間ごとの自動バックアップを有効化",
+          "初回バックアップの完了を確認"
+        ],
+        "tips": "『設定したら忘れてよい』状態を作ることで、データ損失リスクをゼロに",
+        "imageSrc": "/king_goodjob.png",
+        "imageAlt": "キングがグッドジョブしている様子"
+      }
+    },
+    "page8": {
+      "role": "achievement_summary",
+      "section": "summary",
+      "content": {
+        "summaryTitle": "ファイル整理術完成・継続運用システム",
+        "achievementPoints": [
+          "ファイル検索が30秒→3秒に短縮",
+          "デスクトップの圧迫感から完全解放",
+          "バージョン管理の混乱が解消",
+          "週20-40分の無駄な時間を生産的活動へ",
+          "毎朝5分：Inbox処理で新規ファイル整理",
+          "週15分：プロジェクト見直しとゴミ箱整理",
+          "月30分：全体チェックとバックアップ確認"
+        ],
+        "encouragementMessage": "1週間の投資で得られる効果は一生続きます。年間で見れば1000時間以上の時間節約。もう『あのファイルどこだっけ？』と悩むことはありません。整理されたデジタル環境があなたの創造性と生産性を最大限に引き出します"
+      }
+    }
+  }
+}

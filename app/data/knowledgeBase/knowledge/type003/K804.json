@@ -1,0 +1,603 @@
+{
+  "knowledgeId": "K804",
+  "source": "contents-recruitment-ranking-001",
+  "problemCategory": "就職活動支援",
+  "postType": "003",
+  "pageCount": 8,
+  "pageStructurePattern": "unified-template-11-company-ranking",
+  "targetIds": ["T013"],
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "template": "basic_intro",
+      "content": {
+        "title": "新卒採用人数が多い企業TOP10",
+        "targetAudience": "新卒採用が多い企業って実際どこなの？",
+        "problems": [
+          "どの企業が多く採用してるかわからない",
+          "採用確率の高い企業を効率的に受けたい",
+          "大手企業の採用規模を把握したい"
+        ],
+        "additionalMessage": "採用人数の多い企業を狙って、効率的なエントリー戦略を立てることが大切なのです！",
+        "savePrompt": "この採用ランキングを参考に、エントリー企業を選んでください"
+      }
+    },
+    "page2": {
+      "section": "ranking",
+      "template": "ranking_display",
+      "content": {
+        "title": "新卒採用人数が多い企業TOP10",
+        "subtitle": "2024-2025年度採用実績",
+        "displayType": "ranking",
+        "items": [
+          {
+            "rank": 1,
+            "name": "デロイト・トーマツ・グループ",
+            "primaryValue": "1,507名採用",
+            "secondaryValue": "平均年収1,171万円・コンサル",
+            "description": "世界最大級のプロフェッショナルファーム",
+            "category": "コンサルティング業界"
+          },
+          {
+            "rank": 2,
+            "name": "日立製作所",
+            "primaryValue": "1,200名採用",
+            "secondaryValue": "平均年収896万円・総合電機",
+            "description": "社会イノベーション事業のグローバルリーダー",
+            "category": "総合電機業界"
+          },
+          {
+            "rank": 3,
+            "name": "富士通",
+            "primaryValue": "1,100名採用",
+            "secondaryValue": "平均年収859万円・IT",
+            "description": "DXカンパニーとして社会変革を牽引",
+            "category": "IT・システム業界"
+          },
+          {
+            "rank": 4,
+            "name": "ソフトバンク",
+            "primaryValue": "954名採用",
+            "secondaryValue": "平均年収849万円・通信",
+            "description": "Beyond Carrier戦略で事業多角化推進",
+            "category": "通信業界"
+          },
+          {
+            "rank": 5,
+            "name": "三菱電機",
+            "primaryValue": "920名採用",
+            "secondaryValue": "平均年収817万円・総合電機",
+            "description": "幅広い事業領域で社会インフラを支える",
+            "category": "総合電機業界"
+          },
+          {
+            "rank": 6,
+            "name": "東芝",
+            "primaryValue": "800名採用",
+            "secondaryValue": "平均年収868万円・総合電機",
+            "description": "エネルギー・インフラ事業に注力",
+            "category": "総合電機業界"
+          },
+          {
+            "rank": 7,
+            "name": "日本生命",
+            "primaryValue": "739名採用",
+            "secondaryValue": "平均年収688万円・生命保険",
+            "description": "国内生保最大手・安定経営",
+            "category": "金融業界"
+          },
+          {
+            "rank": 8,
+            "name": "NTTデータ",
+            "primaryValue": "697名採用",
+            "secondaryValue": "平均年収906万円・SI",
+            "description": "ITサービス国内最大手",
+            "category": "IT・システム業界"
+          },
+          {
+            "rank": 9,
+            "name": "東京海上日動",
+            "primaryValue": "678名採用",
+            "secondaryValue": "平均年収778万円・損害保険",
+            "description": "損保業界トップクラスの規模",
+            "category": "金融業界"
+          },
+          {
+            "rank": 10,
+            "name": "パナソニック",
+            "primaryValue": "600名採用",
+            "secondaryValue": "平均年収758万円・総合電機",
+            "description": "くらしアップデート企業として変革",
+            "category": "総合電機業界"
+          }
+        ],
+        "note": "データは各社有価証券報告書・採用サイトに基づく",
+        "source": "企業データベース2025年版"
+      }
+    },
+    "page3": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "デロイト・トーマツ・グループ",
+            "rankInfo": {
+              "rank": 1,
+              "category": "採用人数ランキング",
+              "score": "100点"
+            },
+            "keyMetrics": {
+              "initialSalary": "約500万円",
+              "averageSalary": "1,171万円",
+              "bonus": "年2回・業績連動",
+              "holidays": "約120日",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 95,
+              "benefits": 88,
+              "workLifeBalance": 75,
+              "growth": 95,
+              "stability": 92
+            },
+            "features": {
+              "industry": "コンサルティング業界",
+              "employees": "3,433人",
+              "established": "1993年",
+              "headquarters": "東京都千代田区有楽町"
+            },
+            "details": {
+              "overview": "世界最大級のプロフェッショナルサービスファーム。監査・税務・コンサルティング・ファイナンシャルアドバイザリーの4つの事業を展開し、年間1,507名の大規模採用を実施。BIG4の一角として安定性と成長性を両立し、多様なキャリアパスを提供。",
+              "recruitment": "新卒採用1,507名・全職種対象",
+              "benefits": ["研修制度充実", "グローバル経験", "専門資格支援"],
+              "uniqueFeatures": [
+                "年間1,507名の業界最大級採用規模",
+                "BIG4としての圧倒的ブランド力",
+                "監査・税務・コンサル・FAの4事業選択",
+                "グローバルネットワーク活用キャリア"
+              ],
+              "keyHighlights": ["最大採用", "BIG4", "4事業", "グローバル"]
+            },
+            "highlightMessage": "業界最大級の採用規模で、多様なキャリアと成長機会を提供する企業なのです"
+          },
+          {
+            "companyName": "日立製作所",
+            "rankInfo": {
+              "rank": 2,
+              "category": "採用人数ランキング",
+              "score": "95点"
+            },
+            "keyMetrics": {
+              "initialSalary": "約250万円",
+              "averageSalary": "896万円",
+              "bonus": "年2回約6ヶ月分",
+              "holidays": "約125日",
+              "overtime": "月20.9時間"
+            },
+            "parameterGraph": {
+              "salary": 88,
+              "benefits": 90,
+              "workLifeBalance": 85,
+              "growth": 88,
+              "stability": 95
+            },
+            "features": {
+              "industry": "総合電機業界",
+              "employees": "28,672人",
+              "established": "1910年",
+              "headquarters": "東京都千代田区丸の内"
+            },
+            "details": {
+              "overview": "社会イノベーション事業のグローバルリーダーとして、IT・エネルギー・インダストリー・モビリティの4事業を展開。年間1,200名の大規模採用で、多様な技術分野への配属が可能。創業113年の安定基盤と先端技術への挑戦を両立している。",
+              "recruitment": "新卒採用1,200名・技術系中心",
+              "benefits": ["社宅制度", "カフェテリアプラン", "資格取得支援"],
+              "uniqueFeatures": [
+                "年間1,200名の総合電機業界最大級採用",
+                "IT・エネルギー・産業・モビリティ4分野",
+                "創業113年の安定基盤と最新技術",
+                "グローバル展開による海外勤務機会"
+              ],
+              "keyHighlights": ["大規模採用", "4分野", "113年", "海外展開"]
+            },
+            "highlightMessage": "総合電機業界最大級の採用で、多分野での技術キャリアを構築できる企業なのです"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "富士通",
+            "rankInfo": {
+              "rank": 3,
+              "category": "採用人数ランキング",
+              "score": "90点"
+            },
+            "keyMetrics": {
+              "initialSalary": "約250万円",
+              "averageSalary": "859万円",
+              "bonus": "年2回約5.5ヶ月分",
+              "holidays": "約125日",
+              "overtime": "月19.7時間"
+            },
+            "parameterGraph": {
+              "salary": 85,
+              "benefits": 88,
+              "workLifeBalance": 88,
+              "growth": 90,
+              "stability": 90
+            },
+            "features": {
+              "industry": "IT・システム業界",
+              "employees": "124,000人",
+              "established": "1935年",
+              "headquarters": "東京都港区東新橋"
+            },
+            "details": {
+              "overview": "DXカンパニーとして社会変革を牽引するITサービス企業。年間1,100名の大規模採用で、システムエンジニア・コンサルタント・研究開発など多様な職種を募集。Purpose経営による社会課題解決とテクノロジーによる持続可能な世界の実現を目指している。",
+              "recruitment": "新卒採用1,100名・SE・コンサル中心",
+              "benefits": ["Work Life Shift", "カフェテリアプラン", "リモートワーク"],
+              "uniqueFeatures": [
+                "年間1,100名のIT業界大規模採用",
+                "DXカンパニーとしての先進的位置づけ",
+                "SE・コンサル・研究開発の多様職種",
+                "Purpose経営による社会課題解決"
+              ],
+              "keyHighlights": ["DX牽引", "多様職種", "社会課題", "大規模採用"]
+            },
+            "highlightMessage": "IT業界の大規模採用で、DXと社会課題解決の最前線に立てる企業なのです"
+          },
+          {
+            "companyName": "ソフトバンク",
+            "rankInfo": {
+              "rank": 4,
+              "category": "採用人数ランキング",
+              "score": "88点"
+            },
+            "keyMetrics": {
+              "initialSalary": "273,000円",
+              "averageSalary": "849万円",
+              "bonus": "年2回標準5ヶ月分",
+              "holidays": "124日",
+              "overtime": "月33時間"
+            },
+            "parameterGraph": {
+              "salary": 85,
+              "benefits": 85,
+              "workLifeBalance": 80,
+              "growth": 92,
+              "stability": 85
+            },
+            "features": {
+              "industry": "通信業界",
+              "employees": "55,400人",
+              "established": "1986年",
+              "headquarters": "東京都港区海岸"
+            },
+            "details": {
+              "overview": "Beyond Carrier戦略で通信事業から総合デジタルプラットフォーマーへ変革中。年間954名の大規模採用で、通信・IT・AI・ロボティクスなど最先端技術分野への配属が可能。ソフトバンクイノベンチャー制度で社内起業の機会も提供。",
+              "recruitment": "新卒採用954名・技術系・営業系",
+              "benefits": ["出産祝金制度", "スーパーフレックス", "副業制度"],
+              "uniqueFeatures": [
+                "年間954名の通信業界大規模採用",
+                "Beyond Carrier戦略による事業変革",
+                "AI・ロボティクス等最先端技術への参画",
+                "ソフトバンクイノベンチャー社内起業"
+              ],
+              "keyHighlights": ["事業変革", "最先端技術", "社内起業", "大規模採用"]
+            },
+            "highlightMessage": "通信から総合デジタルへの変革期に、最先端技術と起業精神を体験できる企業なのです"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "三菱電機",
+            "rankInfo": {
+              "rank": 5,
+              "category": "採用人数ランキング",
+              "score": "85点"
+            },
+            "keyMetrics": {
+              "initialSalary": "約250万円",
+              "averageSalary": "817万円",
+              "bonus": "年2回約5.8ヶ月分",
+              "holidays": "約125日",
+              "overtime": "月23.6時間"
+            },
+            "parameterGraph": {
+              "salary": 82,
+              "benefits": 88,
+              "workLifeBalance": 85,
+              "growth": 85,
+              "stability": 92
+            },
+            "features": {
+              "industry": "総合電機業界",
+              "employees": "36,162人",
+              "established": "1921年",
+              "headquarters": "東京都千代田区丸の内"
+            },
+            "details": {
+              "overview": "重電システム・産業メカトロニクス・情報通信システム・電子デバイス・家庭電器の5事業で社会インフラを支える総合電機メーカー。年間920名の大規模採用で技術系職種が中心。創業102年の安定基盤と宇宙・防衛分野での先端技術開発が特徴。",
+              "recruitment": "新卒採用920名・技術系中心",
+              "benefits": ["社宅制度", "財形貯蓄", "福利厚生施設"],
+              "uniqueFeatures": [
+                "年間920名の総合電機大規模採用",
+                "重電・産業・情報・電子・家電5事業",
+                "宇宙・防衛分野での先端技術開発",
+                "創業102年の安定経営基盤"
+              ],
+              "keyHighlights": ["5事業", "宇宙防衛", "102年", "大規模採用"]
+            },
+            "highlightMessage": "総合電機の安定基盤で、宇宙・防衛等の先端技術に挑戦できる企業なのです"
+          },
+          {
+            "companyName": "東芝",
+            "rankInfo": {
+              "rank": 6,
+              "category": "採用人数ランキング",
+              "score": "83点"
+            },
+            "keyMetrics": {
+              "initialSalary": "約250万円",
+              "averageSalary": "868万円",
+              "bonus": "年2回約6.2ヶ月分",
+              "holidays": "約125日",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 87,
+              "benefits": 85,
+              "workLifeBalance": 85,
+              "growth": 80,
+              "stability": 88
+            },
+            "features": {
+              "industry": "総合電機業界",
+              "employees": "106,648人",
+              "established": "1875年",
+              "headquarters": "東京都港区芝浦"
+            },
+            "details": {
+              "overview": "エネルギーシステム・インフラシステム・デバイス&ストレージ・デジタルソリューションの4事業を展開。年間800名の採用でエネルギー・社会インフラ分野に注力。創業148年の歴史と技術力で社会課題解決に取り組む日本を代表する総合電機メーカー。",
+              "recruitment": "新卒採用800名・技術系・事務系",
+              "benefits": ["社宅制度", "カフェテリアプラン", "資格取得支援"],
+              "uniqueFeatures": [
+                "年間800名のエネルギー・インフラ重点採用",
+                "エネルギーシステム分野での技術リーダー",
+                "創業148年の歴史と技術蓄積",
+                "社会課題解決型事業への特化"
+              ],
+              "keyHighlights": ["エネルギー", "148年", "技術力", "社会課題"]
+            },
+            "highlightMessage": "創業148年の技術力で、エネルギー・インフラ分野の社会課題に挑戦できる企業なのです"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "日本生命",
+            "rankInfo": {
+              "rank": 7,
+              "category": "採用人数ランキング",
+              "score": "80点"
+            },
+            "keyMetrics": {
+              "initialSalary": "約210万円",
+              "averageSalary": "688万円",
+              "bonus": "年2回約4.5ヶ月分",
+              "holidays": "約120日",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 68,
+              "benefits": 88,
+              "workLifeBalance": 85,
+              "growth": 78,
+              "stability": 95
+            },
+            "features": {
+              "industry": "金融業界（生命保険）",
+              "employees": "71,183人",
+              "established": "1889年",
+              "headquarters": "大阪府大阪市中央区"
+            },
+            "details": {
+              "overview": "国内生命保険業界最大手として安定経営を継続。年間739名の採用で営業職・事務職・アクチュアリー等の専門職を募集。創業134年の信頼と全国47都道府県のネットワークで、ライフプランニングからヘルスケア事業まで幅広く展開。",
+              "recruitment": "新卒採用739名・営業職・事務職中心",
+              "benefits": ["全国転勤制度", "資格取得支援", "育児支援制度"],
+              "uniqueFeatures": [
+                "年間739名の生保業界大規模採用",
+                "国内生保最大手の安定経営基盤",
+                "全国47都道府県のネットワーク展開",
+                "ライフプランニング専門性の習得"
+              ],
+              "keyHighlights": ["生保最大", "全国展開", "134年", "安定経営"]
+            },
+            "highlightMessage": "生保業界最大手の安定基盤で、全国規模のライフプランニング事業に参画できる企業なのです"
+          },
+          {
+            "companyName": "NTTデータ",
+            "rankInfo": {
+              "rank": 8,
+              "category": "採用人数ランキング",
+              "score": "78点"
+            },
+            "keyMetrics": {
+              "initialSalary": "262,790円",
+              "averageSalary": "906万円",
+              "bonus": "年2回5-7ヶ月分",
+              "holidays": "データなし",
+              "overtime": "月24.7時間"
+            },
+            "parameterGraph": {
+              "salary": 90,
+              "benefits": 88,
+              "workLifeBalance": 82,
+              "growth": 88,
+              "stability": 92
+            },
+            "features": {
+              "industry": "IT・システム業界",
+              "employees": "12,714人",
+              "established": "1988年",
+              "headquarters": "東京都江東区豊洲"
+            },
+            "details": {
+              "overview": "ITサービス国内最大手として官公庁・金融・製造業等の基幹システムを手がける。年間697名の採用でシステムエンジニア・コンサルタント職が中心。グローバル展開も積極的で、海外売上比率約50%を達成。DX推進とデジタル政府実現の中核企業。",
+              "recruitment": "新卒採用697名・SE・コンサル中心",
+              "benefits": ["住宅手当充実", "スーパーフレックス", "副業許可"],
+              "uniqueFeatures": [
+                "年間697名のITサービス業界大手採用",
+                "官公庁・金融・製造業基幹システム",
+                "海外売上比率約50%のグローバル展開",
+                "DX推進・デジタル政府実現の中核"
+              ],
+              "keyHighlights": ["IT最大手", "基幹システム", "海外50%", "DX中核"]
+            },
+            "highlightMessage": "ITサービス最大手で、社会インフラとDX推進の最前線に立てる企業なのです"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "東京海上日動",
+            "rankInfo": {
+              "rank": 9,
+              "category": "採用人数ランキング",
+              "score": "75点"
+            },
+            "keyMetrics": {
+              "initialSalary": "約210万円",
+              "averageSalary": "778万円",
+              "bonus": "年2回約5.0ヶ月分",
+              "holidays": "約125日",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 78,
+              "benefits": 85,
+              "workLifeBalance": 85,
+              "growth": 80,
+              "stability": 90
+            },
+            "features": {
+              "industry": "金融業界（損害保険）",
+              "employees": "17,004人",
+              "established": "1879年",
+              "headquarters": "東京都千代田区丸の内"
+            },
+            "details": {
+              "overview": "損害保険業界トップクラスの規模と収益力を誇る。年間678名の採用で営業職・損害サービス職・事務職を幅広く募集。創業144年の信頼と全国約280拠点のネットワークで、個人・企業の幅広いリスクに対応。デジタル化推進とESG経営にも注力。",
+              "recruitment": "新卒採用678名・営業・損サ・事務",
+              "benefits": ["全国転勤制度", "資格取得支援", "社宅制度"],
+              "uniqueFeatures": [
+                "年間678名の損保業界大規模採用",
+                "損保業界トップクラスの規模・収益力",
+                "全国約280拠点のネットワーク展開",
+                "個人・企業の幅広いリスク対応専門性"
+              ],
+              "keyHighlights": ["損保トップ", "280拠点", "144年", "リスク専門"]
+            },
+            "highlightMessage": "損保業界トップクラスの規模で、全国規模のリスクマネジメント事業に参画できる企業なのです"
+          },
+          {
+            "companyName": "パナソニック",
+            "rankInfo": {
+              "rank": 10,
+              "category": "採用人数ランキング",
+              "score": "73点"
+            },
+            "keyMetrics": {
+              "initialSalary": "約250万円",
+              "averageSalary": "758万円",
+              "bonus": "年2回約5.0ヶ月分",
+              "holidays": "約125日",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 76,
+              "benefits": 85,
+              "workLifeBalance": 85,
+              "growth": 78,
+              "stability": 88
+            },
+            "features": {
+              "industry": "総合電機業界",
+              "employees": "240,198人",
+              "established": "1918年",
+              "headquarters": "大阪府門真市"
+            },
+            "details": {
+              "overview": "「くらしアップデート」企業として住宅・車・店舗・工場等のソリューション事業に特化。年間600名の採用で技術系・事務系を幅広く募集。創業105年の歴史を持ちながら事業構造を大胆に変革し、BtoBソリューション企業への転換を推進中。",
+              "recruitment": "新卒採用600名・技術系・事務系",
+              "benefits": ["カフェテリアプラン", "社宅制度", "資格取得支援"],
+              "uniqueFeatures": [
+                "年間600名のソリューション事業採用",
+                "くらしアップデート企業への変革",
+                "住宅・車・店舗・工場BtoBソリューション",
+                "創業105年の歴史と大胆な事業転換"
+              ],
+              "keyHighlights": ["くらし変革", "BtoBソリューション", "105年", "事業転換"]
+            },
+            "highlightMessage": "創業105年の歴史を持ちながら、くらしアップデート事業で大胆変革に挑戦する企業なのです"
+          }
+        ]
+      }
+    },
+    "page8": {
+      "section": "summary",
+      "template": "resource_summary",
+      "content": {
+        "title": "新卒採用人数が多い企業TOP10",
+        "summaryPoints": [
+          "コンサル・総合電機業界が多数ランクインで採用チャンス豊富なのです",
+          "年間600名以上採用する大手企業10社で安定した就職機会なのです",
+          "業界多様性があり自分の興味分野で大規模採用企業を選択可能なのです"
+        ],
+        "resourceList": [
+          {
+            "title": "各社採用情報",
+            "items": ["新卒採用サイト", "会社説明会情報", "インターンシップ案内"]
+          },
+          {
+            "title": "就活対策リソース",
+            "items": ["ES対策ガイド", "面接対策資料", "業界研究シート"]
+          },
+          {
+            "title": "企業分析ツール",
+            "items": ["採用倍率計算機", "志望動機作成支援", "企業比較表"]
+          }
+        ],
+        "finalMessage": "採用人数の多い企業を狙って、効率的なエントリー戦略を立てることが大切なのです！",
+        "characterImage": "kikuyo_point.png",
+        "characterPosition": "right"
+      }
+    }
+  }
+}

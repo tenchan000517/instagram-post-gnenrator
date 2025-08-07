@@ -2,7 +2,7 @@
   "source": "contents-076",
   "problemCategory": "就活・AI活用",
   "problemDescription": "就活でAIを効果的に活用する方法が分からない、就活準備（自己分析、業界研究、ES準備、選考対策）が忙しすぎて負担を感じている",
-  "postType": "003",
+  "postType": "002",
   "postTypeReason": "AI活用術という特定の情報・知識の習得を目的とした投稿のため",
   "solutionContent": {
     "概要": "就活でAIを活用する3つの実用的活用術を紹介",
@@ -47,200 +47,215 @@
   ],
   "marketingStage": "就活を始めたばかりの大学生、AI活用に興味があるが具体的方法が分からない就活生",
   "knowledgeId": "K076",
-  "pageStructurePattern": "",
-  "actualTitle": "【AI使って差をつける！】最新AI活用術 就活編",
-  "pageCount": 8,
+  "targetIds": ["T007"],
+  "targetReason": "就活でAIツールを活用したい学生に対する具体的な活用術の提供",
+  "pageStructurePattern": "unified-template-08-section-blocks",
+  "actualTitle": "就活でAI活用して差をつける3つの方法",
+  "pageCount": 9,
   "detailedContent": {
     "page1": {
-      "role": "導入・問題提起",
       "section": "introduction",
-      "elements": {
-        "header": "▶ はじめに",
-        "problemStatement": "就活、忙しすぎない…？",
-        "problemDetails": "自己分析、業界・企業研究、ES準備、選考対策……やらないといけないことが多すぎる！",
-        "solution": "駆け出し就活生、だけど、日々様々なAIを使っている私が、今まさに実践中のAIの活用術を大公開！",
-        "benefitTags": ["⚡実践的", "✅今すぐ使える", "⭐差がつく"]
+      "content": {
+        "title": "就活でAI活用して差をつける3つの方法",
+        "targetAudience": "就活でAIの活用方法がわからない学生",
+        "problems": [
+          "就活でAIを効果的に活用する方法が分からない",
+          "就活準備が忙しすぎて負担を感じている",
+          "AI活用で他の就活生に差をつけたい"
+        ],
+        "additionalMessage": "実際に就活中の私が実践している3つのAI活用術を大公開します"
       }
     },
     "page2": {
-      "role": "活用術1の説明",
       "section": "mainContent",
-      "elements": {
-        "title": "💡 活用術1",
-        "subtitle": "\"エリート就活生バージョン\"の自分をつくる",
-        "visualFlow": "人物アイコン → AI（ロボット）アイコン → エリート就活生アイコン",
-        "steps": [
-          "1. AIに自分の情報を記憶させる（考え、自己分析、就活の軸、努力したエピソード、それによって生まれた価値観、志望業界など）",
-          "2. 「自分の分身」が完成（AIがあなたの特性を理解・分析し、より洗練された表現で再構築）",
-          "3. ES・面接用のカンペなどを一瞬で出力（「超エリート就活生」として最適な表現で出力してもらえる）"
-        ]
+      "content": {
+        "title": "エリート就活生バージョンの自分をつくる",
+        "sections": [
+          {
+            "name": "AIに自分を記憶させる",
+            "content": "自分の情報をAIに記憶させて、より洗練された表現で再構築してもらいます",
+            "footerText": "AIがあなたの特性を理解し、エリート就活生として最適化"
+          },
+          {
+            "name": "活用手順",
+            "content": [
+              "自分の考え・自己分析・就活の軸をAIに記憶させる",
+              "努力したエピソードや価値観も詳しく伝える",
+              "ES・面接用のカンペを一瞬で出力してもらう"
+            ],
+            "footerText": "「超エリート就活生」として最適な表現で出力"
+          }
+        ],
+        "characterImage": "/iida_study.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "自分の分身をAIに作ることで、いつでも最適化された表現が手に入ります。効率的ですね！"
       }
     },
     "page3": {
-      "role": "活用術1の詳細・コツ",
       "section": "mainContent",
-      "elements": {
-        "title": "💡 活用術1（つづき）",
-        "subtitle": "もっと効果的な活用のコツ",
-        "tipSection": {
-          "icon": "👤",
-          "title": "企業ごとに特性を見極めた最適化",
-          "description": "企業ごとに特性を見極めた最適な文章を作成。例：入力されれば、AIが企業のミッションや特性を調査し、より選考に受かりやすい出力をするよう設定することもできます。",
-          "point": "💡活用ポイント：その企業の価値観やキーワードも一緒にAIに伝えることで、より企業文化にマッチした文章を作成できます"
-        },
-        "warningSection": {
-          "icon": "⚠️",
-          "title": "注意点：個人情報の運用リスクに注意",
-          "description": "対策しないと入力した情報がAIの学習に使われてしまいます",
-          "solution": "🛡️対策：「オプトアウト設定」は対処に行いましょう。AIサービスの設定から「学習への使用を許可しない」オプションを有効にしてください"
-        }
+      "content": {
+        "title": "企業ごとの最適化と注意点",
+        "sections": [
+          {
+            "name": "企業特性に合わせた最適化",
+            "content": "企業のミッションや特性をAIに伝えることで、より選考に受かりやすい文章を作成できます",
+            "footerText": "企業文化にマッチした表現で差をつけましょう"
+          },
+          {
+            "name": "個人情報の運用リスク対策",
+            "content": [
+              "「オプトアウト設定」で学習使用を許可しない",
+              "AIサービスの設定で「学習への使用を許可しない」を有効化",
+              "個人情報の取り扱いには十分注意する"
+            ],
+            "footerText": "安全にAIを活用するための必須設定です"
+          }
+        ],
+        "characterImage": "/iida_work.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "セキュリティ対策をしっかりした上で、AIを味方につけて就活を進めましょう！"
       }
     },
     "page4": {
-      "role": "活用術2の説明",
       "section": "mainContent",
-      "elements": {
-        "title": "🔍 活用術2",
-        "subtitle": "企業や業界の情報収集を短時間で",
-        "toolIntroduction": {
-          "icon": "🌐",
-          "name": "DeepResearch",
-          "tags": ["💡最新トレンド", "📊詳細分析"],
-          "description": "ChatGPT含め、多くのAIに搭載されている強力な検索機能。最新の企業情報や業界動向を網羅的かつ詳細に収集できる"
-        },
-        "features": [
-          "普段の出力より時間はかかるが、より高度な検索&分析が可能",
-          "リアルタイム情報にアクセス可能",
-          "複数のソースから情報を統合して提示"
+      "content": {
+        "title": "DeepResearchで情報収集を短時間で",
+        "sections": [
+          {
+            "name": "DeepResearchとは",
+            "content": "ChatGPTに搭載されている強力な検索機能で、最新の企業情報や業界動向を詳細に収集できます",
+            "footerText": "リアルタイム情報にアクセス可能"
+          },
+          {
+            "name": "使い方の3ステップ",
+            "content": [
+              "ChatGPTの「Deep Research」ボタンを押す",
+              "検索したい企業名や業界名を入力",
+              "詳しく知りたい内容を具体的に指定"
+            ],
+            "footerText": "複数のソースから情報を統合して提示してくれます"
+          }
         ],
-        "howToUse": {
-          "title": "💻 ChatGPTでDeep Researchを使う簡単3ステップ",
-          "steps": [
-            "1. ChatGPTの入力欄下にある「Deep Research」ボタンを押す",
-            "2. 検索したい企業名や業界名を入力する",
-            "3. 詳しく知りたい内容（例：最新動向、課題、強み）を指定する"
-          ]
-        }
+        "characterImage": "/iida_his_will.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "最新情報の収集は就活の基本です。DeepResearchで効率的に情報を集めましょう！"
       }
     },
     "page5": {
-      "role": "活用術2の応用・効率化",
       "section": "mainContent",
-      "elements": {
-        "title": "🔍 活用術2（つづき）",
-        "subtitle": "情報収集をもっと効率的に（応用編）",
+      "content": {
+        "title": "情報収集をもっと効率的に",
         "sections": [
           {
-            "icon": "✅",
-            "title": "Claudeでビジュアル化",
-            "tag": "可視化",
-            "description": "「Claude」というAIはサイト作りが得意！「このデータを見やすいHTMLページに変換して」と、DeepResearchの出力をClaudeでサイト化することで良い文章出力もビジュアル的にわかりやすく！",
-            "tip": "💜Tips：「表・グラフ・リストを使って見やすく整理して」などど具体的に指示するとよりクオリティの高い出力が得られます"
+            "name": "Claudeでビジュアル化",
+            "content": "DeepResearchの出力をClaudeでHTMLページに変換すると、見やすく整理された情報になります",
+            "footerText": "表・グラフ・リストを使って見やすく整理"
           },
           {
-            "icon": "🔊",
-            "title": "NotebookLMで音声化",
-            "tags": ["🎧音声化", "⏰スキマ時間活用"],
-            "visualFlow": "📄 DeepResearchの出力をNotebook LMにコピペ → ⚙️「音声設定」機能を選択 → 🎧 移動中などスキマ時間に聞く",
-            "benefits": [
-              "通勤・通学のスキマ時間にインプット可能",
-              "目で読むよりも効率的に情報収集できる場合も",
-              "複数企業の情報をプレイリスト化して連続視聴"
-            ]
+            "name": "NotebookLMで音声化",
+            "content": [
+              "DeepResearchの出力をNotebook LMにコピペ",
+              "音声設定機能を選択して音声化",
+              "移動中などスキマ時間に聞いてインプット"
+            ],
+            "footerText": "複数企業の情報をプレイリスト化して連続視聴も可能"
           }
-        ]
+        ],
+        "characterImage": "/iida_goodjob.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "情報を音声化することで、通学時間も有効活用できますね。時間を有効に使いましょう！"
       }
     },
     "page6": {
-      "role": "活用術3の説明",
       "section": "mainContent",
-      "elements": {
-        "title": "💬 活用術3",
-        "subtitle": "いつでも練習できる\"AI面接官\"",
-        "leftSection": {
-          "icon": "🎤",
-          "title": "ChatGPTの音声会話機能",
-          "steps": [
-            "1. まずはプロンプトをテキストで入力（あなたは〜社の採用担当者です。〜分で面接を行ってください。)",
-            "2. 音声モードを起動し練習開始！"
-          ]
-        },
-        "rightSection": {
-          "icon": "💝",
-          "title": "フィードバック",
-          "subtitle": "追加でフィードバックを依頼しよう",
-          "categories": [
-            "📝回答内容の評価（論理性、具体力、感情などの観点から分析）",
-            "📝改善提案（より効果的な表現や構成についてアドバイス）",
-            "🔍見落としポイント（アピールできていない強みや経験を指摘）",
-            "💼会話の振り返り（文字起こしが残るので復習が可能）"
-          ]
-        },
-        "tip": "💡Tips：「採用面接官のロールプレイをしてください」と指示するとより本番に近い形で練習できます"
+      "content": {
+        "title": "いつでも練習できるAI面接官",
+        "sections": [
+          {
+            "name": "ChatGPTの音声会話機能",
+            "content": "音声モードを使ってAI面接官と実際に会話練習ができます",
+            "footerText": "いつでもどこでも面接練習が可能"
+          },
+          {
+            "name": "使い方と練習手順",
+            "content": [
+              "プロンプトで採用担当者の設定を入力",
+              "音声モードを起動して練習開始",
+              "フィードバックを依頼して改善点を確認"
+            ],
+            "footerText": "会話は文字起こしされるので後で復習可能"
+          }
+        ],
+        "characterImage": "/iida_communication.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "面接練習は繰り返しが大切です。AIなら恥ずかしがらずに何度でも練習できますね！"
       }
     },
     "page7": {
-      "role": "活用術3の応用・コツ",
       "section": "mainContent",
-      "elements": {
-        "title": "💬 活用術3（つづき）",
-        "subtitle": "人相手とAI相手の\"いいとこ取り\"がおすすめ",
-        "timingSection": {
-          "icon": "ℹ️",
-          "title": "AI面接練習の最適なタイミング",
-          "description": "前提、人を相手に練習する方が学びは多いかもしれません…が、",
-          "situations": [
-            "🕘大事な面接の直前の予行練習に最適",
-            "⏸️自分の頭の中の整理をするための練習として活用"
-          ]
-        },
-        "benefitsSection": {
-          "icon": "📊",
-          "title": "振り返りで効果倍増！",
-          "leftColumn": {
-            "icon": "🔄",
-            "title": "会話の文字起こし機能",
-            "description": "音声入力を終了すると、会話内容が全て自動で文字起こしされます"
+      "content": {
+        "title": "AI面接練習の効果的な活用法",
+        "sections": [
+          {
+            "name": "最適なタイミング",
+            "content": "大事な面接の直前の予行練習や、頭の中の整理をするための練習として最適です",
+            "footerText": "人相手の練習と組み合わせることで効果倍増"
           },
-          "rightColumn": {
-            "icon": "💾",
-            "title": "保存&共有",
-            "items": [
-              "面接練習の記録を保存",
-              "友人や先輩にアドバイス求めることも可能",
-              "後日の振り返り資料として活用"
-            ]
+          {
+            "name": "振り返りで効果向上",
+            "content": [
+              "会話内容が自動で文字起こしされる",
+              "面接練習の記録を保存して後日振り返り",
+              "友人や先輩にアドバイスを求めることも可能"
+            ],
+            "footerText": "「改善点はどこですか？」と追加質問すると具体的アドバイスが得られます"
           }
-        },
-        "tip": "💡Tips：面接練習後は「私の回答のここをもっと改善するには？」と聞くと、より具体的なアドバイスが得られます！"
+        ],
+        "characterImage": "/iida_fighting.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "練習の記録が残るのはAIならではの利点です。積極的に活用して成長しましょう！"
       }
     },
     "page8": {
-      "role": "まとめ・心得",
-      "section": "summary",
-      "elements": {
-        "title": "🏁 最後に",
-        "subtitle": "AI活用の心得",
+      "section": "mainContent",
+      "content": {
+        "title": "AI活用時の重要な心得",
         "sections": [
           {
-            "icon": "⚠️",
-            "title": "情報の真偽を見極めよう",
-            "description": "AIの出力はいつも正しいとは限りません。情報を鵜呑みにせず、自分で確かめる習慣をもとう！",
-            "action": "✓複数のソースで情報をクロスチェック"
+            "name": "情報の真偽を見極める",
+            "content": "AIの出力は完璧ではありません。複数のソースで情報をクロスチェックする習慣を持ちましょう",
+            "footerText": "情報を鵜呑みにせず、必ず自分で確認"
           },
           {
-            "icon": "🎓",
-            "title": "主役はあなた自身",
-            "description": "就活をするのはあなた！すべてAI任せにせず、AIは「強力なサポーター」にとどめよう。",
-            "action": "✓AIの提案を参考に、修正や微調整は自分で行う"
-          },
-          {
-            "icon": "💬",
-            "title": "もっと知りたいという人は",
-            "description": "詳しく活用術が知りたい、実際に人力するプロンプトが欲しい場合は店頭でわたし（はると）に話しかけてください！"
+            "name": "主役はあなた自身",
+            "content": [
+              "AIはサポーターとして活用する",
+              "AIの提案を参考に自分で修正・微調整",
+              "最終的な判断は自分で行う",
+              "あなたらしさを大切にする"
+            ],
+            "footerText": "AIと協力して、効率的かつ効果的な就職活動を"
           }
         ],
-        "cta": "AI × 就活で、あなたらしさを最大限に活かそう。AIを味方につけて、効率的かつ効果的な就職活動を！"
+        "characterImage": "/iida_laugh.png",
+        "characterPosition": "left",
+        "bottomSectionContent": "AIは強力な味方ですが、最終的に就活するのはあなたです。バランスよく活用していきましょう！"
+      }
+    },
+    "page9": {
+      "section": "summary",
+      "content": {
+        "title": "AI活用で差をつける就活術のまとめ",
+        "habitsList": [
+          "エリート就活生バージョンの自分をつくる",
+          "DeepResearchで効率的な情報収集",
+          "AI面接官でいつでも練習",
+          "企業ごとの特性に合わせた最適化",
+          "情報の真偽を見極める習慣",
+          "AIはサポーターとして活用",
+          "主役は自分自身であることを忘れない"
+        ],
+        "finalMessage": "AI × 就活で、あなたらしさを最大限に活かした効率的な就職活動を実現しましょう"
       }
     }
   }

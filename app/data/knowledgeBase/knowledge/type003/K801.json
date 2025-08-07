@@ -1,0 +1,98 @@
+{
+  "source": "contents-company-spotlight-801",
+  "problemCategory": "就活・転職支援",
+  "knowledgeId": "K801",
+  "postType": "003",
+  "pageCount": 4,
+  "pageStructurePattern": "unified-template-06-company-detail",
+  "targetIds": ["T013"],
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "template": "basic_intro",
+      "content": {
+        "title": "サイバーエージェント完全攻略ガイド",
+        "targetAudience": "IT業界を目指す就活生のあなたへ",
+        "problems": [
+          "サイバーエージェントの詳しい情報がわからない",
+          "IT業界トップクラスの企業で働きたい",
+          "高い初任給と成長機会を求めている"
+        ],
+        "additionalMessage": "業界最高水準の初任給42万円を誇る同社の魅力と実態を、最新データで徹底解説します",
+        "savePrompt": "このガイドを保存して、企業研究に活用してください"
+      }
+    },
+    "page2": {
+      "section": "empathy",
+      "template": "empathy_template",
+      "content": {
+        "indexTitle": "サイバーエージェント就活で気になるポイント",
+        "indexItems": [
+          "業界最高水準42万円の初任給の詳細",
+          "実際の働き方・残業時間の実態",
+          "若手の成長機会・キャリアパス",
+          "選考プロセス・求められる人物像",
+          "社内文化・起業家精神の環境"
+        ]
+      }
+    },
+    "page3": {
+      "section": "company_detail",
+      "template": "company_detail",
+      "content": {
+        "companyName": "サイバーエージェント",
+        "catchphrase": "業界最高水準の初任給42万円で急成長を支える",
+        "logo": "cyberagent",
+        "features": {
+          "industry": "インターネット広告業、メディア業、ゲーム業",
+          "salary": "初任給42万円（業界最高水準）",
+          "holidays": "データなし",
+          "overtime": "月13.3時間（業界最少レベル）",
+          "employees": "7,720人"
+        },
+        "details": {
+          "overview": "インターネット広告事業、メディア事業（ABEMA等）、ゲーム事業、投資育成事業を展開。業界最高水準の報酬と起業家精神を重視する企業文化が特徴。平均年収882万円、20代で子会社社長登用実績多数。",
+          "recruitment": [
+            "ビジネスコース（総合職）",
+            "エンジニアコース",
+            "クリエイターコース",
+            "データサイエンティストコース"
+          ],
+          "hiringCount": "約350名（2026年度予定）",
+          "benefits": [
+            "エキスパート認定制度（院卒）: 初任給72万円〜",
+            "2駅ルール: 住宅手当3万円/月",
+            "どこでもルール: 住宅手当5万円/月（勤続5年超）",
+            "ENERGY制度（エンジニア向け成長支援）",
+            "JBキャリアプログラム",
+            "子会社社長登用制度",
+            "裁量労働制（2年目以降）"
+          ]
+        },
+        "selectionProcess": [
+          "エントリーシート提出",
+          "Webテスト（SPI3）",
+          "1次面接（人事面接）",
+          "2次面接（現場社員面接）",
+          "最終面接（役員面接）"
+        ],
+        "highlightMessage": "起業家精神を持ち、インターネットビジネスで世界を変えたい人にとって最高の成長環境"
+      }
+    },
+    "page4": {
+      "section": "summary",
+      "template": "achievement_summary",
+      "content": {
+        "summaryTitle": "サイバーエージェント就活攻略まとめ",
+        "achievementPoints": [
+          "初任給42万円は業界最高水準、実力次第で急速な昇給も可能",
+          "平均残業13.3時間と働きやすさも両立、起業家精神を育む環境",
+          "20代で子会社社長や事業責任者になれるチャンスが豊富",
+          "インターンシップ参加で早期選考ルートも狙える",
+          "起業家精神とチャレンジ精神が最も重視される企業文化"
+        ],
+        "encouragementMessage": "サイバーエージェントは高い報酬と成長機会を提供する企業。起業家精神を持ち、インターネットビジネスで世界を変えたい人にとって最高の環境です。しっかりと企業研究を行い、自分の想いを伝えて内定を掴みましょう！"
+      }
+    }
+  }
+}

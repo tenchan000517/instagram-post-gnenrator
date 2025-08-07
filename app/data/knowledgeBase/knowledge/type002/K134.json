@@ -4,8 +4,8 @@
   "problemDescription": "謝るときの語彙がわからない・適切な謝り方ができない",
   "postType": "002",
   "postTypeReason": "印象を良くする謝り方の12個の表現を段階的に学習する実践的ノウハウ伝授型コンテンツ",
-  "targetIds": ["T007", "T009", "T010"],
-  "targetReason": "ビジネスマナーとしての謝り方は就活生・女性・男性すべてに共通して必要なスキル",
+  "targetIds": ["T007"],
+  "targetReason": "就活における面接やビジネスマナーで必要な謝罪表現を学びたい学生向けの実践的指導",
   "solutionContent": {
     "概要": "印象を激変させる12個の謝り方表現を段階的に学習し、再現率100%で活用できるようになる",
     "具体的手順": [
@@ -60,9 +60,9 @@
   ],
   "marketingStage": "就活準備段階（面接対策・ビジネスマナー習得時期）",
   "knowledgeId": "K134",
-  "pageStructurePattern": "",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "再現率100% 印象激変する謝り方",
-  "pageCount": 8,
+  "pageCount": 6,
   "detailedContent": {
     "page1": {
       "role": "導入・問題提起",
@@ -79,150 +79,136 @@
       }
     },
     "page2": {
-      "role": "表現1-2の学習",
+      "role": "基本的な謝罪表現の習得",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "基本的な謝罪表現",
+        "sections": [
           {
-            "number": "1",
-            "title": "恐れ入ります",
-            "goodExample": "急にお願いして恐れ入ります。",
-            "badExample": "すみません。",
-            "imageSrc": "/misaki.png"
+            "name": "丁寧なお詫びの基本",
+            "content": "ビジネスシーンでは「すみません」ではなく、より丁寧な表現を使うことが重要です。印象を良くする表現を身につけましょう",
+            "footerText": "段階的に学習して確実に身につけることが大切です"
           },
           {
-            "number": "2",
-            "title": "深く反省しております",
-            "goodExample": "今回の件、深く反省しております。",
-            "badExample": "以後気をつけます。",
-            "imageSrc": "/kikuyo.png"
+            "name": "よく使う謝罪表現",
+            "content": [
+              "恐れ入ります（急なお願い時）",
+              "深く反省しております（反省を示す時）",
+              "不手際でございます（自分の責任を認める時）",
+              "お詫び申し上げます（丁寧にお詫びする時）"
+            ],
+            "footerText": "場面に応じて適切な表現を選ぶことが重要です"
           }
-        ]
+        ],
+        "characterImage": "/iida_sorry.png",
+        "characterPosition": "left",
+        "bottomSectionName": "表現力向上のポイント",
+        "bottomSectionContent": "謝罪表現のレパートリーを増やすことで、相手に与える印象が大きく変わります。就活でも必ず役立ちますよ！"
       }
     },
     "page3": {
-      "role": "表現3-4の学習",
+      "role": "重ねてのお詫びと恐縮の表現",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "重ねてのお詫びと恐縮の表現",
+        "sections": [
           {
-            "number": "3",
-            "title": "不手際でございます",
-            "goodExample": "私の不手際でご迷惑をおかけしました。",
-            "badExample": "失敗しました。",
-            "imageSrc": "/king.png"
+            "name": "繰り返しの謝罪表現",
+            "content": "一度謝った後にさらに謝罪する場合や、恐縮の気持ちを表す時の表現を学びましょう",
+            "footerText": "相手への配慮を示す大切な表現です"
           },
           {
-            "number": "4",
-            "title": "お詫び申し上げます",
-            "goodExample": "心よりお詫び申し上げます。",
-            "badExample": "ごめんなさい。",
-            "imageSrc": "/ten_worry.png"
+            "name": "よく使う恐縮・重ねての表現",
+            "content": [
+              "重ねて申し上げます（再度謝罪する時）",
+              "大変恐縮ですが（お願い事の前置きで）",
+              "ご迷惑おかけしました（迷惑をかけた時）",
+              "認識が及ばず（知らなかったことを詫びる時）"
+            ],
+            "footerText": "相手の立場を考えた丁寧な表現が重要です"
           }
-        ]
+        ],
+        "characterImage": "/iida_sorry.png",
+        "characterPosition": "left",
+        "bottomSectionName": "使い分けのコツ",
+        "bottomSectionContent": "相手との関係性や状況に応じて適切な表現を選ぶことで、より良い印象を与えることができます！"
       }
     },
     "page4": {
-      "role": "表現5-6の学習",
+      "role": "報告・連絡時の丁寧な表現",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "報告・連絡時の丁寧な表現",
+        "sections": [
           {
-            "number": "5",
-            "title": "重ねて申し上げます",
-            "goodExample": "重ねてお詫び申し上げます。",
-            "badExample": "もう一度言います。",
-            "imageSrc": "/misaki_worry.png"
+            "name": "ビジネス報告の基本",
+            "content": "報告や連絡をする際も、丁寧な表現を使うことで相手への敬意を示すことができます",
+            "footerText": "就活の面接や職場でよく使われる表現です"
           },
           {
-            "number": "6",
-            "title": "大変恐縮ですが",
-            "goodExample": "大変恐縮ですがご確認お願いします。",
-            "badExample": "申し訳ないですがお願いします。",
-            "imageSrc": "/kikuyo_worry.png"
+            "name": "報告・連絡の丁寧表現",
+            "content": [
+              "ご報告申し上げます（報告する時）",
+              "ご連絡申し上げます（連絡する時）",
+              "至らぬ点（不十分だった時）",
+              "失念しておりました（忘れていた時）"
+            ],
+            "footerText": "これらの表現で相手への敬意を示しましょう"
           }
-        ]
+        ],
+        "characterImage": "/iida_study.png",
+        "characterPosition": "left",
+        "bottomSectionName": "就活での活用場面",
+        "bottomSectionContent": "面接や企業とのやり取りで使える表現ばかりです。自然に使えるよう練習しておきましょう！"
       }
     },
     "page5": {
-      "role": "表現7-8の学習",
+      "role": "実践的な使い方とまとめ",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "実践的な使い方とコツ",
+        "sections": [
           {
-            "number": "7",
-            "title": "ご報告申し上げます",
-            "goodExample": "訂正し、改めてご報告申し上げます。",
-            "badExample": "報告します。",
-            "imageSrc": "/king_warry.png"
+            "name": "場面別使い分けのポイント",
+            "content": "学んだ表現を実際のビジネスシーンで使い分けることが重要です。相手や状況に応じて最適な表現を選びましょう",
+            "footerText": "練習を重ねて自然に使えるようになることが大切です"
           },
           {
-            "number": "8",
-            "title": "ご連絡申し上げます",
-            "goodExample": "確認の上、ご連絡申し上げます。",
-            "badExample": "連絡します。",
-            "imageSrc": "/misaki.png"
+            "name": "就活で特に重要な表現",
+            "content": [
+              "面接で遅刻した時：恐れ入ります、申し訳ございません",
+              "質問を聞き返す時：大変恐縮ですが、もう一度お聞かせください",
+              "企業への連絡時：ご連絡申し上げます",
+              "ミスがあった時：不手際でございます、深く反省しております"
+            ],
+            "footerText": "これらの表現をマスターして就活を成功させましょう"
           }
-        ]
+        ],
+        "characterImage": "/iida_goodjob.png",
+        "characterPosition": "left",
+        "bottomSectionName": "継続学習のススメ",
+        "bottomSectionContent": "謝罪表現は一度覚えても使わないと忘れてしまいます。日常的に意識して使うことで自然に身につきますよ！"
       }
     },
     "page6": {
-      "role": "表現9-10の学習",
-      "section": "mainContent",
-      "content": {
-        "items": [
-          {
-            "number": "9",
-            "title": "ご迷惑おかけしました",
-            "goodExample": "ご迷惑をおかけして申し訳ありません。",
-            "badExample": "迷惑をかけました。",
-            "imageSrc": "/kikuyo.png"
-          },
-          {
-            "number": "10",
-            "title": "認識が及ばず",
-            "goodExample": "認識が及ばず申し訳ありません。",
-            "badExample": "知りませんでした。",
-            "imageSrc": "/king.png"
-          }
-        ]
-      }
-    },
-    "page7": {
-      "role": "表現11-12の学習",
-      "section": "mainContent",
-      "content": {
-        "items": [
-          {
-            "number": "11",
-            "title": "至らぬ点",
-            "goodExample": "至らぬ点がございました。",
-            "badExample": "できませんでした。",
-            "imageSrc": "/ten_worry.png"
-          },
-          {
-            "number": "12",
-            "title": "失念しておりました",
-            "goodExample": "お伝えするのを失念しておりました。",
-            "badExample": "伝え忘れていました。",
-            "imageSrc": "/misaki_worry.png"
-          }
-        ]
-      }
-    },
-    "page8": {
-      "role": "まとめ・実践促進",
       "section": "summary",
       "content": {
-        "title": "まとめ",
-        "summary": "12個の印象を良くする謝り方表現を段階的に学習しました",
-        "items": [
-          "1. 恐れ入ります", "2. 深く反省しております", "3. 不手際でございます", 
-          "4. お詫び申し上げます", "5. 重ねて申し上げます", "6. 大変恐縮ですが",
-          "7. ご報告申し上げます", "8. ご連絡申し上げます", "9. ご迷惑おかけしました",
-          "10. 認識が及ばず", "11. 至らぬ点", "12. 失念しておりました"
+        "title": "印象激変する謝り方12の表現",
+        "habitsList": [
+          "恐れ入ります（急なお願い時）",
+          "深く反省しております（反省を示す時）",
+          "不手際でございます（責任を認める時）",
+          "お詫び申し上げます（丁寧なお詫び）",
+          "重ねて申し上げます（再度の謝罪）",
+          "大変恐縮ですが（お願い事の前置き）",
+          "ご報告申し上げます（報告時）",
+          "ご連絡申し上げます（連絡時）",
+          "ご迷惑おかけしました（迷惑をかけた時）",
+          "認識が及ばず（知らなかった時）",
+          "至らぬ点（不十分だった時）",
+          "失念しておりました（忘れていた時）"
         ],
-        "actionPrompt": "保存して後で復習しましょう！"
+        "finalMessage": "これらの表現を使い分けて、印象の良いコミュニケーションを心がけましょう"
       }
     }
   }

@@ -41,38 +41,38 @@
 - [x] K183.json - unified-template-01-simple-intro (2025-07-30)
 
 ### Type002 (/app/data/knowledgeBase/knowledge/type002/) - 実践習得型
-- [ ] K002.json
-- [ ] K003.json (Type004から移動)
-- [ ] K004.json
-- [ ] K005.json
-- [ ] K010.json
-- [ ] K011.json
-- [ ] K023.json
-- [ ] K028.json
-- [ ] K034.json
-- [ ] K039.json
-- [ ] K040.json
-- [ ] K042.json
-- [ ] K045.json
-- [ ] K048.json
-- [ ] K064.json
-- [ ] K073.json
-- [ ] K075.json
-- [ ] K076.json
-- [ ] K077.json
-- [ ] K083.json
-- [ ] K090.json
-- [ ] K091.json
-- [ ] K103.json
-- [ ] K108.json
-- [ ] K110.json
-- [ ] K112.json
-- [ ] K117.json
-- [ ] K118.json
-- [ ] K132.json
-- [ ] K133.json
-- [ ] K134.json
-- [ ] K135.json
+- [x] K002.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K003.json - unified-template-08-section-blocks (2025-07-30) (Type004から移動)
+- [x] K004.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K005.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K010.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K011.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K023.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K028.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K034.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K039.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K040.json - unified-template-07-item-list (2025-07-30)
+- [x] K042.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K045.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K048.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K064.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K073.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K075.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K076.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K077.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K083.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K090.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K091.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K103.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K108.json - unified-template-09-dynamic-boxes (2025-07-30)
+- [x] K110.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K112.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K117.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K118.json - unified-template-08-section-blocks (2025-07-30)
+- [x] K132.json - unified-template-02-dual-section (2025-07-30)
+- [x] K133.json - unified-template-02-dual-section (2025-07-30)
+- [x] K134.json - unified-template-02-dual-section (2025-07-30)
+- [x] K135.json - unified-template-09-dynamic-boxes (2025-07-30)
 - [ ] K137.json
 - [ ] K138.json
 - [ ] K139.json
@@ -109,7 +109,7 @@
 - [ ] K186.json
 
 ### Type003 (/app/data/knowledgeBase/knowledge/type003/) - 分析・解説型（確定済み）
-- [ ] K018.json
+- [x] K018.json - unified-template-09-dynamic-boxes (2025-07-30)
 - [ ] K024.json
 - [ ] K026.json
 - [ ] K031.json

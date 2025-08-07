@@ -81,8 +81,10 @@
     "自信回復への道筋"
   ],
   "marketingStage": "就活準備段階（面接・プレゼンテーション対策時期）",
+  "targetIds": ["T007"],
+  "targetReason": "就活における面接やグループディスカッション、企業との対話で必要な説明スキル・コミュニケーション力を学びたい学生向けの実践的指導",
   "knowledgeId": "K135",
-  "pageStructurePattern": "typeID002-parallel-introduction",
+  "pageStructurePattern": "unified-template-08-section-blocks",
   "actualTitle": "実はカンタン！相手に伝わる説明のコツ",
   "pageCount": 8,
   "detailedContent": {
@@ -91,152 +93,161 @@
       "section": "introduction",
       "content": {
         "title": "実はカンタン！相手に伝わる説明のコツ",
-        "subtitle": "",
-        "problemStatement": "一生懸命話しても言いたいことが相手に伝わらなくて苦しい",
-        "empathy": "その気持ちわかります。以前は説明が下手だったので、うまく伝わる方法を模索しました。",
-        "valueProposal": "相手に伝わる説明のコツを知ったら効果抜群でしたので紹介いたします！"
+        "targetAudience": "一生懸命話しても伝わらない人",
+        "problems": [
+          "一生懸命話しても言いたいことが相手に伝わらない",
+          "説明が上手くできなくて苦しい",
+          "伝えたいことを整理して話せない"
+        ],
+        "additionalMessage": "その気持ちわかります。相手に伝わる説明のコツを知ったら効果抜群でしたので紹介いたします"
       }
     },
     "page2": {
-      "role": "コツ1-2",
+      "role": "コミュニケーションの基本",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "伝わる説明の基本コツ",
+        "sections": [
           {
-            "number": "1",
-            "title": "知りたいことを始めに",
-            "description": "まず結果からお伝えします！聞き手の集中力が高まって伝えたいことが届きやすくなります",
-            "imageSrc": "/misaki.png"
+            "name": "知りたいことを始めに",
+            "content": "まず結果からお伝えします。聞き手の集中力が高まって伝えたいことが届きやすくなります"
           },
           {
-            "number": "2",
-            "title": "話す順番に固執しない",
-            "description": "じっくり考えるタイプの人には背景から話してみます。相手に合わせて話す順番を工夫するとスムーズに伝わります",
-            "imageSrc": "/king.png"
+            "name": "話す順番に固執しない",
+            "content": "じっくり考えるタイプの人には背景から話してみます。相手に合わせて話の順番を工夫するとスムーズに伝わります"
           }
-        ]
+        ],
+        "characterImage": "/iida_communication.png",
+        "characterPosition": "left",
+        "bottomSectionName": "相手に合わせたコミュニケーション",
+        "bottomSectionContent": "面接でも相手の反応を見ながら説明方法を調整することが大切です。相手に合わせたアプローチを心がけましょう！"
       }
     },
     "page3": {
-      "role": "コツ3-4",
+      "role": "相手視点のコツ",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "相手の理解を深める方法",
+        "sections": [
           {
-            "number": "3",
-            "title": "ゴールを先に伝える",
-            "description": "今日はこれについて決めたいです！何の話をするのかを先に伝えると話を整理しながら聞きやすくなります",
-            "imageSrc": "/kikuyo.png"
+            "name": "ゴールを先に伝える",
+            "content": "今日はこれについて決めたいです。何の話をするのかを先に伝えると話を整理しながら聞きやすくなります"
           },
           {
-            "number": "4",
-            "title": "相手の言葉で比較",
-            "description": "クラウドはネット上の保存場所みたいなものです。相手が使う言葉で説明するとスッと頭に入ってきますね",
-            "imageSrc": "/ten_worry.png"
+            "name": "相手の言葉で比較",
+            "content": "クラウドはネット上の保存場所みたいなものです。相手が使う言葉で説明するとスッと頭に入ってきます"
           }
-        ]
+        ],
+        "characterImage": "/iida_study.png",
+        "characterPosition": "left",
+        "bottomSectionName": "相手の理解レベルを把握",
+        "bottomSectionContent": "グループディスカッションでも相手の理解レベルに合わせることが重要です。相手のペースを意識した説明を心がけましょう！"
       }
     },
     "page4": {
-      "role": "コツ5-6",
+      "role": "理解促進のコツ",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "相手の理解を深める方法",
+        "sections": [
           {
-            "number": "5",
-            "title": "似た例をだす",
-            "description": "この作業は料理でいう下ごしらえです！イメージしやすくなるから、誤解も減って会話がスムーズになります",
-            "imageSrc": "/misaki_worry.png"
+            "name": "似た例をだす",
+            "content": "この作業は料理でいう下ごしらえです。イメージしやすくなるから、誤解も減って会話がスムーズになります"
           },
           {
-            "number": "6",
-            "title": "主張を明確に",
-            "description": "クールビズに賛成です。伝えたいことがはっきりすると相手も正しく受け取ることができますね",
-            "imageSrc": "/king_warry.png"
+            "name": "主張を明確に",
+            "content": "クールビズに賛成です。伝えたいことがはっきりすると相手も正しく受け取ることができます"
           }
-        ]
+        ],
+        "characterImage": "/iida_communication.png",
+        "characterPosition": "left",
+        "bottomSectionName": "具体例と明確な主張",
+        "bottomSectionContent": "面接での自己PRでも具体例を使うことで説得力が増します。身近な例と明確な主張で相手の理解を深めましょう！"
       }
     },
     "page5": {
-      "role": "コツ7-8",
+      "role": "信頼構築のコツ",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "信頼関係を築く方法",
+        "sections": [
           {
-            "number": "7",
-            "title": "現在地を把握",
-            "description": "これが背景、次が提案です！説明が整理されている印象もついて、信頼されやすくなります",
-            "imageSrc": "/kikuyo_worry.png"
+            "name": "現在地を把握",
+            "content": "これが背景、次が提案です。説明が整理されている印象もついて、信頼されやすくなります"
           },
           {
-            "number": "8",
-            "title": "事実と意見をわける",
-            "description": "データでは○○、私の意見は△△です！情報の正確さが伝わると相手から信用してもらえます",
-            "imageSrc": "/misaki.png"
+            "name": "事実と意見を分ける",
+            "content": "データでは○○、私の意見は△△です。情報の正確さが伝わると相手から信用してもらえます"
           }
-        ]
+        ],
+        "characterImage": "/iida_work.png",
+        "characterPosition": "left",
+        "bottomSectionName": "信頼関係の構築",
+        "bottomSectionContent": "面接でも情報を整理して話すことで信頼感を与えられます。構造化と客観性を意識して話しましょう！"
       }
     },
     "page6": {
-      "role": "コツ9-10",
+      "role": "納得と集中のコツ",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "納得と集中を高める方法",
+        "sections": [
           {
-            "number": "9",
-            "title": "なぜを説明",
-            "description": "わかりやすさ重視でこの資料を選びました！理由を話せば、相手も背景がわかって納得しやすくなります",
-            "imageSrc": "/king.png"
+            "name": "なぜを説明",
+            "content": "わかりやすさ重視でこの資料を選びました。理由を話せば、相手も背景がわかって納得しやすくなります"
           },
           {
-            "number": "10",
-            "title": "時間内で説明",
-            "description": "3分で要点だけ話します！時間を意識して話すと集中力を保って要点が伝わります",
-            "imageSrc": "/ten_worry.png"
+            "name": "時間内で説明",
+            "content": "3分で要点だけ話します。時間を意識して話すと集中力を保って要点が伝わります"
           }
-        ]
+        ],
+        "characterImage": "/iida_his_will.png",
+        "characterPosition": "left",
+        "bottomSectionName": "時間管理と説得力",
+        "bottomSectionContent": "面接でも限られた時間で最大限アピールすることが重要です。理由説明と時間管理で相手の納得を獲得しましょう！"
       }
     },
     "page7": {
-      "role": "コツ11-12",
+      "role": "説得力向上のコツ",
       "section": "mainContent",
       "content": {
-        "items": [
+        "title": "説得力を高める最終コツ",
+        "sections": [
           {
-            "number": "11",
-            "title": "数字を2つ使う",
-            "description": "成約件数が5件から15件に増えました！比較があると、変化や成果を具体的にイメージしやすくなります",
-            "imageSrc": "/kikuyo.png"
+            "name": "数字を2つ使う",
+            "content": "成約件数が5件から15件に増えました。比較があると、変化や成果を具体的にイメージしやすくなります"
           },
           {
-            "number": "12",
-            "title": "3つにまとめる",
-            "description": "理由は3つあります。最後まで集中して聞いてもらいやすくなるから説得力もアップします",
-            "imageSrc": "/misaki_worry.png"
+            "name": "3つにまとめる",
+            "content": "理由は3つあります。最後まで集中して聞いてもらいやすくなるから説得力もアップします"
           }
-        ]
+        ],
+        "characterImage": "/iida_goodjob.png",
+        "characterPosition": "left",
+        "bottomSectionName": "数値とポイント整理",
+        "bottomSectionContent": "志望動機でも具体的な数値と3つのポイントで整理すると説得力が格段に上がります。構造化した説明を心がけましょう！"
       }
     },
     "page8": {
-      "role": "まとめ・実践促進",
+      "role": "説明スキルのまとめ",
       "section": "summary",
       "content": {
-        "title": "まとめ",
-        "gridItems": [
-          { "number": "1", "title": "知りたいことを始めに" },
-          { "number": "2", "title": "話す順番に固執しない" },
-          { "number": "3", "title": "ゴールを先に伝える" },
-          { "number": "4", "title": "相手の言葉で比較" },
-          { "number": "5", "title": "似た例をだす" },
-          { "number": "6", "title": "主張を明確に" },
-          { "number": "7", "title": "現在地を把握" },
-          { "number": "8", "title": "事実と意見をわける" },
-          { "number": "9", "title": "なぜを説明" },
-          { "number": "10", "title": "時間内で説明" },
-          { "number": "11", "title": "数字を2つ使う" },
-          { "number": "12", "title": "3つにまとめる" }
+        "title": "相手に伝わる説明のコツまとめ",
+        "habitsList": [
+          "知りたいことを始めに",
+          "話す順番に固執しない",
+          "ゴールを先に伝える",
+          "相手の言葉で比較",
+          "似た例をだす",
+          "主張を明確に",
+          "現在地を把握",
+          "事実と意見を分ける",
+          "なぜを説明",
+          "時間内で説明",
+          "数字を2つ使う",
+          "3つにまとめる"
         ],
-        "callToAction": "保存して後で復習しましょう！"
+        "finalMessage": "これらのコツを組み合わせることで、相手に確実に伝わる説明力が身につきます。"
       }
     }
   }

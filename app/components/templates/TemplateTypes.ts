@@ -161,7 +161,7 @@ export interface TemplateData {
   questions?: string[]
   
   // sequential_dependency用
-  pointNumber?: number
+  pointNumber?: string
   actionItems?: string[]
   
   // parallel_qa_discussion用

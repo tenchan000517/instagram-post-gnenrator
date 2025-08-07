@@ -16,7 +16,7 @@
     },
     {
       "pageNumber": 2,
-      "templateId": "index_template",
+      "templateId": "empathy_template",
       "optional": true,
       "templateStructure": {
         "indexTitle": "string",
@@ -47,9 +47,9 @@
       "templateId": "achievement_summary",
       "optional": true,
       "templateStructure": {
-        "summaryTitle": "string",
-        "achievementPoints": "string[]",
-        "encouragementMessage": "string"
+        "title": "string",
+        "habitsList": "string[]",
+        "finalMessage": "string"
       }
     }
   ]

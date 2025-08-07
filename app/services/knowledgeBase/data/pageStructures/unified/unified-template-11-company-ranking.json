@@ -1,0 +1,104 @@
+{
+  "pageStructureId": "unified-template-11-company-ranking",
+  "name": "Unified Template 11 - Company Ranking Pattern",
+  "description": "導入・ランキング表示・企業詳細（複数）・参考リソース構成",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "basic_intro",
+      "templateStructure": {
+        "title": "string",
+        "targetAudience": "string", 
+        "problems": "string[]",
+        "additionalMessage": "string",
+        "savePrompt": "string"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "templateId": "ranking_display",
+      "templateStructure": {
+        "title": "string",
+        "subtitle": "string",
+        "displayType": "string",
+        "items": [
+          {
+            "rank": "number",
+            "name": "string",
+            "primaryValue": "string | number",
+            "secondaryValue": "string | number",
+            "description": "string",
+            "category": "string"
+          }
+        ],
+        "tiers": {
+          "SSS": "RankingItem[]",
+          "SS": "RankingItem[]", 
+          "S": "RankingItem[]",
+          "A": "RankingItem[]"
+        },
+        "note": "string",
+        "source": "string"
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "enhanced_company_detail",
+      "templateStructure": {
+        "displayMode": "string",
+        "companies": [
+          {
+            "companyName": "string",
+            "rankInfo": {
+              "rank": "number",
+              "category": "string", 
+              "score": "string | number"
+            },
+            "keyMetrics": {
+              "initialSalary": "string",
+              "averageSalary": "string",
+              "bonus": "string",
+              "holidays": "string",
+              "overtime": "string"
+            },
+            "parameterGraph": {
+              "salary": "number",
+              "benefits": "number",
+              "workLifeBalance": "number",
+              "growth": "number",
+              "stability": "number"
+            },
+            "features": {
+              "industry": "string",
+              "employees": "string",
+              "established": "string",
+              "headquarters": "string"
+            },
+            "details": {
+              "overview": "string",
+              "recruitment": "string[]",
+              "benefits": "string[]",
+              "uniqueFeatures": "string[]"
+            },
+            "highlightMessage": "string"
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": "last",
+      "templateId": "resource_summary",
+      "templateStructure": {
+        "title": "string",
+        "summaryPoints": "string[]",
+        "resourceList": [
+          {
+            "title": "string",
+            "items": "string[]"
+          }
+        ],
+        "finalMessage": "string"
+      }
+    }
+  ]
+}

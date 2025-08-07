@@ -34,7 +34,7 @@ export function SequentialDependencyTemplate({ data }: SequentialDependencyTempl
         <div className="text-center mb-4">
           {(() => {
             const { badge, title } = splitTitleForBadge(data.title)
-            const pointNumber = data.stepNumber || data.pointNumber || 1
+            const pointNumber = data.stepNumber || data.pointNumber || '1'
             const badgeText = badge || data.badgeText || `Point ${pointNumber}`
             
             return (

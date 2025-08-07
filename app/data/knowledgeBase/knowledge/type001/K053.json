@@ -2,8 +2,10 @@
   "source": "contents-053",
   "problemCategory": "転職・職場選び",
   "problemDescription": "今の職場に恵まれているかわからない、良い職場を見極めたい",
-  "postType": "003",
+  "postType": "002",
   "postTypeReason": "良い職場の特徴についての具体的な情報・知識を6つのポイントで提供している",
+  "targetIds": ["T002"],
+  "targetReason": "仕事キャリア悩み女性（T002）：現在の職場環境への不安と転職判断に悩む女性向けコンテンツ",
   "solutionContent": {
     "概要": "やめない方が良い職場の6つの特徴を順次説明し、職場環境をチェックする指標を提供",
     "具体的手順": [
@@ -59,92 +61,79 @@
   "marketingStage": "現在働いている社会人で、転職を検討している、または現職場に不満を持つ人",
   "knowledgeId": "K053",
   "pageStructurePattern": "unified-template-01-simple-intro",
-  "actualTitle": "やめない方が良い職場6選",
+  "actualTitle": "居心地の良い職場の特徴6つ",
+  "targetAudience": "職場環境に悩む働く女性",
   "pageCount": 8,
   "detailedContent": {
     "page1": {
       "role": "introduction",
       "section": "introduction",
       "content": {
-        "questionBox": "今の職場って恵まれてるのかな？",
-        "mainMessage": "やめない方が良い職場には特徴がある！",
-        "description": "今回は辞めたら後悔する職場の特徴についてご紹介します\n損しないよう最後まで見て！",
-        "teaseElement": "辞めない方が良い職場を早速チェック"
+        "title": "居心地の良い職場の特徴6つ",
+        "description": "今の職場環境に不安を感じていませんか？転職を考える前に、まず現在の職場が本当に良い環境なのかを客観的にチェックしてみましょう。働きやすい職場には共通する特徴があります",
+        "imageSrc": "/misaki.png"
       }
     },
     "page2": {
       "role": "content-item",
       "section": "mainContent",
       "content": {
-        "number": "01",
         "title": "人間関係が良好",
-        "description": "上司・同僚との関係が穏やかで、風通しの良いコミュニケーションがある",
-        "point": "人間関係のストレスが少ない職場は長く働ける大きな要素",
-        "nextPreview": "適切な評価制度がある"
+        "description": "上司や同僚との関係が穏やかで、気軽に相談できる雰囲気があります。お互いを尊重し合い、困った時には自然に助け合える職場です",
+        "imageSrc": "/misaki_work.png"
       }
     },
     "page3": {
       "role": "content-item",
       "section": "mainContent",
       "content": {
-        "number": "02",
         "title": "適切な評価制度がある",
-        "description": "努力や成果がしっかり評価され、昇進や昇給に反映される。",
-        "point": "「ちゃんと見てくれている」と感じられる職場はモチベーションが保てる",
-        "nextPreview": "離職率が低い"
+        "description": "努力や成果がしっかり評価され、昇進や昇給に反映されます。頑張りを認めてもらえると、もっと成長したいという気持ちになりますね",
+        "imageSrc": "/misaki_smile.png"
       }
     },
     "page4": {
       "role": "content-item",
       "section": "mainContent",
       "content": {
-        "number": "03",
         "title": "離職率が低い",
-        "description": "長く勤めている人が多い職場",
-        "point": "職場環境が良くないと人はすぐ辞める。定着率は正直なバロメーターとして判断しよう",
-        "nextPreview": "社内教育や成長支援がある"
+        "description": "長く勤めている方が多く、安定した職場環境です。働きやすい職場だからこそ、皆さん長く続けていらっしゃるのだと思います",
+        "imageSrc": "/misaki_point.png"
       }
     },
     "page5": {
       "role": "content-item",
       "section": "mainContent",
       "content": {
-        "number": "04",
         "title": "社内教育や成長支援がある",
-        "description": "研修制度やスキルアップの機会がある",
-        "point": "人間関係のストレスが少ない職場は、長く働ける大きな要素",
-        "nextPreview": "経営が安定している"
+        "description": "研修制度やスキルアップの機会があり、成長をサポートしてくれます。将来のキャリア形成を考えて投資してくれる職場は本当に貴重ですね",
+        "imageSrc": "/misaki_study.png"
       }
     },
     "page6": {
       "role": "content-item",
       "section": "mainContent",
       "content": {
-        "number": "05",
         "title": "経営が安定している",
-        "description": "業績が安定していて、倒産リスクが低い",
-        "point": "安心して働ける土台\n特に家族がいる人には大事",
-        "nextPreview": "仕事にやりがいがある"
+        "description": "業績が安定していて、将来への不安が少ない職場です。安心して長期的なキャリアプランを立てることができるのは大きなメリットですね",
+        "imageSrc": "/misaki_mindfulness.png"
       }
     },
     "page7": {
       "role": "content-item",
       "section": "mainContent",
       "content": {
-        "number": "06",
         "title": "仕事にやりがいがある",
-        "description": "自分の仕事が社会や誰かの役に立っていると感じられる",
-        "point": "やりがいがあるとモチベーションが持続しやすい",
-        "nextPreview": "まとめ"
+        "description": "自分の仕事が社会や誰かの役に立っていると実感できます。毎日の業務に意味を感じられると、自然とモチベーションも上がりますね",
+        "imageSrc": "/misaki_selfimage.png"
       }
     },
     "page8": {
       "role": "summary-checklist",
       "section": "summary",
       "content": {
-        "header": "この投稿を保存して、職場の環境をチェックしよう！",
-        "title": "やめない方が良い職場6選",
-        "checklist": [
+        "title": "居心地の良い職場チェックリスト",
+        "habitsList": [
           "人間関係が良好",
           "適切な評価制度がある",
           "離職率が低い",
@@ -152,8 +141,7 @@
           "経営が安定している",
           "仕事にやりがいがある"
         ],
-        "bottomMessage": "今の職場が働きやすいなら\n無理に転職する必要はないよ！",
-        "savePrompt": "保存しておく"
+        "finalMessage": "今の職場が当てはまるなら、とても恵まれた環境ですね。転職を考える前に、現在の職場の良さを再認識してみてください"
       }
     }
   }

@@ -19,7 +19,7 @@ class GeminiClientSingleton {
     if (!this.model) {
       const client = this.getClient()
       this.model = client.getGenerativeModel({ 
-        model: 'gemini-1.5-pro',
+        model: 'gemini-2.0-flash-lite',
         generationConfig: {
           temperature: 0.7,
           topP: 0.8,

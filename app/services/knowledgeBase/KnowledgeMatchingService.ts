@@ -55,7 +55,7 @@ export class KnowledgeMatchingService {
       }
 
       const genAI = this.initializeAI()
-      const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' })
+      const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' })
 
       // プロンプト構築前の確認
       console.log('🔍 プロンプト構築前のknowledgeContents:', request.knowledgeContents.map(k => ({
@@ -171,13 +171,13 @@ ${request.knowledgeContents[1].knowledgeId} 0.7`
    * @returns 存在する直接指定されたナレッジID配列
    */
   private static extractDirectKnowledgeIds(userInput: string, knowledgeContents: any[]): string[] {
-    // K###パターンをすべて抽出（大文字小文字混在対応）
-    const knowledgeIdPattern = /[Kk](\d{3})/g
+    // K###パターンをすべて抽出（大文字小文字混在対応・3-4桁対応）
+    const knowledgeIdPattern = /[Kk](\d{3,4})/g
     const matches = userInput.match(knowledgeIdPattern)
     
     if (!matches) return []
     
-    // 正規化（大文字K + 3桁数字）して重複除去
+    // 正規化（大文字K + 数字）して重複除去
     const extractedIds = [...new Set(matches.map(match => match.toUpperCase()))]
     
     // 利用可能なナレッジリストに存在するIDのみを返す
@@ -203,8 +203,8 @@ ${request.knowledgeContents[1].knowledgeId} 0.7`
           const knowledgeId = match[1].toUpperCase()
           const score = parseFloat(match[2])
           
-          // バリデーション
-          if (score >= 0 && score <= 1 && /^K\d{3}$/.test(knowledgeId)) {
+          // バリデーション（3-4桁対応）
+          if (score >= 0 && score <= 1 && /^K\d{3,4}$/.test(knowledgeId)) {
             // 利用可能なナレッジIDリストがある場合は存在チェック
             if (availableKnowledgeIds.length === 0 || availableKnowledgeIds.includes(knowledgeId)) {
               results.push({ knowledgeId, score })
