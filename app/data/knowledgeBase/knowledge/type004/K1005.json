@@ -1,0 +1,103 @@
+{
+  "source": "Type004実証型ナレッジ-OpenAI GPT-OSS実体験ガイド",
+  "problemCategory": "AI・生産性効率化",
+  "postType": "004",
+  "knowledgeId": "K1005",
+  "pageStructurePattern": "unified-template-13-step-by-step",
+  "actualTitle": "MacBookでGPT-3.5級のAIが無料で使える",
+  "targetIds": ["T019", "T020", "T021", "T022", "T023", "T024"],
+  "pageCount": 6,
+  "detailedContent": {
+    "page1": {
+      "role": "basic_intro",
+      "section": "introduction",
+      "content": {
+        "title": "MacBookでGPT-3.5級のAIが無料で使える",
+        "targetAudience": "高性能AIを仕事でも使いたいあなた",
+        "problems": [
+          "ChatGPT Plus月額3000円を仕事用で検討中",
+          "機密情報をクラウドに送れない制約がある",
+          "オフラインでも高性能AIを使いたい",
+          "プライベートなAI環境が必要"
+        ],
+        "additionalMessage": "OpenAI GPT-OSSを15分でセットアップした方法"
+      }
+    },
+    "page2": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 1,
+        "totalSteps": 7,
+        "stepTitle": "ChatGPTとは別の新しいAI",
+        "duration": "理解3分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>ChatGPT Plus vs GPT-OSS 比較</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: #FEE2E2; padding: 18px; border-radius: 9px;'><div style='text-align: center; margin-bottom: 14px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#DC2626' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='margin: 0 auto 8px;'><circle cx='12' cy='12' r='10'></circle><path d='M12 6v6l4 2'></path></svg><strong style='color: #DC2626; font-size: 17px; display: block; margin-bottom: 7px;'>ChatGPT Plus</strong></div><div style='font-size: 14px; color: #6B7280; line-height: 1.5;'><div style='margin-bottom: 8px;'>月額3000円課金</div><div style='margin-bottom: 8px;'>ブラウザで手軽</div><div style='margin-bottom: 8px;'>最新情報対応</div><div>クラウド処理</div></div></div><div style='background: #D1FAE5; padding: 18px; border-radius: 9px;'><div style='text-align: center; margin-bottom: 14px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#059669' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='margin: 0 auto 8px;'><rect x='2' y='3' width='20' height='14' rx='2' ry='2'></rect><line x1='8' y1='21' x2='16' y2='21'></line><line x1='12' y1='17' x2='12' y2='21'></line></svg><strong style='color: #059669; font-size: 17px; display: block; margin-bottom: 7px;'>GPT-OSS（新登場）</strong></div><div style='font-size: 14px; color: #6B7280; line-height: 1.5;'><div style='margin-bottom: 8px;'>月額課金なし</div><div style='margin-bottom: 8px;'>PC内で動作</div><div style='margin-bottom: 8px;'>完全プライベート</div><div>オフライン可能</div></div></div></div><div style='background: #FFF7ED; padding: 16px; border-radius: 9px; text-align: center; border: 1px solid #FDBA74;'><strong style='color: #EA580C; font-size: 16px;'>ChatGPTの無料化ではなく全く別の新AI</strong><br><span style='color: #9CA3AF; font-size: 13px; margin-top: 4px; display: block;'>OpenAIが作った新しい選択肢</span></div></div></div>",
+        "instructions": [],
+        "tips": "ChatGPT Plusと併用することで最適活用",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page3": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 2,
+        "totalSteps": 7,
+        "stepTitle": "MacBookで実際に動かしてみた結果",
+        "duration": "体験3分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>MacBookで実際に使ってみた結果</strong></div><div style='display: flex; flex-direction: column; gap: 14px;'><div style='background: #D1FAE5; padding: 16px; border-radius: 9px;'><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 4px;'>応答速度：実用レベル</strong><span style='font-size: 13px; color: #6B7280;'>質問から回答まで数秒で応答</span></div><div style='background: #DBEAFE; padding: 16px; border-radius: 9px;'><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 4px;'>回答品質：GPT-3.5レベル</strong><span style='font-size: 13px; color: #6B7280;'>自然な日本語、コード生成も可能</span></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px;'><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 4px;'>メモリ使用量：11.68GB</strong><span style='font-size: 13px; color: #6B7280;'>16GBメモリで動作（8GBは厳しい）</span></div><div style='background: #FFF7ED; padding: 16px; border-radius: 9px; text-align: center; border: 1px solid #FDBA74;'><strong style='color: #EA580C; font-size: 16px;'>MacBook 16GBで実用性能を確認</strong></div></div></div>",
+        "instructions": [],
+        "tips": "LM Studioを使って実際にテストした結果",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page4": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 3,
+        "totalSteps": 5,
+        "stepTitle": "15分セットアップで高性能AIが使える",
+        "duration": "実行15分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>実際に15分でセットアップ完了</strong></div><div style='display: flex; flex-direction: column; gap: 14px;'><div style='background: #D1FAE5; padding: 16px; border-radius: 9px;'><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 4px;'>Step1: LM Studio ダウンロード（3分）</strong><span style='font-size: 13px; color: #6B7280;'>公式サイトから無料で取得。普通のアプリと同じ</span></div><div style='background: #DBEAFE; padding: 16px; border-radius: 9px;'><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 4px;'>Step2: GPT-OSS モデル取得（10分）</strong><span style='font-size: 13px; color: #6B7280;'>アプリ内で自動ダウンロード。待つだけ</span></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px;'><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 4px;'>Step3: チャット開始（2分）</strong><span style='font-size: 13px; color: #6B7280;'>ChatGPTと同じようなチャット画面で利用可能</span></div><div style='background: #FFF7ED; padding: 16px; border-radius: 9px; text-align: center; border: 1px solid #FDBA74;'><strong style='color: #EA580C; font-size: 16px;'>プログラミング知識ゼロでもOK</strong></div></div></div></div>",
+        "instructions": [],
+        "tips": "初回のみセットアップ、2回目以降はすぐに起動",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page5": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 4,
+        "totalSteps": 5,
+        "stepTitle": "実際の使用感：本当にChatGPTと同じ",
+        "duration": "体験3分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>ChatGPTレベルの実用性を実際に確認</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: #F8FAFC; border: 2px solid #CBD5E1; padding: 12px; border-radius: 8px;'><div style='font-size: 12px; color: #6B7280; margin-bottom: 8px;'>実際の質問例</div><div style='font-family: monospace; font-size: 11px; line-height: 1.3; color: #1E293B;'>「Excelマクロのサンプルコードを作って」</div></div><div style='background: #F0FDF4; border: 2px solid #BBF7D0; padding: 12px; border-radius: 8px;'><div style='font-size: 12px; color: #6B7280; margin-bottom: 8px;'>実際の回答品質</div><div style='font-size: 11px; line-height: 1.3; color: #1E293B;'>ChatGPTと同等の詳細で正確なコードを生成</div></div></div><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px;'><div style='background: #D1FAE5; padding: 16px; border-radius: 9px; text-align: center;'><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 7px;'>自然な対話を確認</strong><span style='font-size: 13px; color: #6B7280;'>人間らしい回答</span></div><div style='background: #DBEAFE; padding: 16px; border-radius: 9px; text-align: center;'><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 7px;'>正確な情報を確認</strong><span style='font-size: 13px; color: #6B7280;'>実用的な精度</span></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px; text-align: center;'><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 7px;'>日本語対応を確認</strong><span style='font-size: 13px; color: #6B7280;'>自然な日本語</span></div></div></div></div>",
+        "instructions": [],
+        "tips": "ビジネス用途でも十分実用的なレベルを確認済み",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page6": {
+      "role": "achievement_summary",
+      "section": "summary",
+      "content": {
+        "summaryTitle": "無料で高性能AIをPC内で使えるようになった",
+        "achievementPoints": [
+          "MacBook16GBで高性能AIを15分でセットアップ完了",
+          "GPT-3.5相当の回答品質をPC内で実現",
+          "月額課金なしで制限なく高性能AI利用",
+          "プライバシー完全保護でのAI活用が可能"
+        ],
+        "finalMessage": "仕事の機密データも安心。ChatGPTと使い分けでAI活用が自由自在に！",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    }
+  }
+}

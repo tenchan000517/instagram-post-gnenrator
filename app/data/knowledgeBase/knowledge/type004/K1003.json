@@ -1,0 +1,139 @@
+{
+  "source": "Type004実証型ナレッジ-ステータスフォルダ整理法",
+  "problemCategory": "プロジェクト管理・業務効率化",
+  "postType": "004",
+  "knowledgeId": "K1003",
+  "pageStructurePattern": "unified-template-13-step-by-step",
+  "actualTitle": "10分で始める！ステータスフォルダ整理術",
+  "targetIds": ["T019", "T020", "T021", "T022", "T023", "T024"],
+  "pageCount": 8,
+  "detailedContent": {
+    "page1": {
+      "role": "basic_intro",
+      "section": "introduction",
+      "content": {
+        "title": "プロジェクト管理で頭がぐちゃぐちゃ",
+        "targetAudience": "デスクトップがファイルだらけ、プロジェクト管理に悩むあなた",
+        "problems": [
+          "あのファイルどこだっけ？のストレス",
+          "プロジェクトの進捗が自分でもわからない",
+          "完了案件と進行中が混在して混乱",
+          "フォルダを開いては閉じての繰り返し"
+        ],
+        "additionalMessage": "たった4つのフォルダで整理するだけで、思考もディレクトリもすっきり。"
+      }
+    },
+    "page2": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 1,
+        "totalSteps": 6,
+        "stepTitle": "4つのフォルダを作成",
+        "duration": "1分",
+        "visualContent": "<div style='font-family: monospace; font-size: 16px; line-height: 1.8; color: #374151;'><strong>📂 デスクトップまたは作業フォルダ</strong><br/><br/>├── <strong style='color: #2563EB;'>📁 進行中</strong><br/>│&nbsp;&nbsp;&nbsp;&nbsp;└── 今まさに取り組んでいるプロジェクト<br/><br/>├── <strong style='color: #059669;'>📁 管理中</strong><br/>│&nbsp;&nbsp;&nbsp;&nbsp;└── 完了したが定期的に確認が必要<br/><br/>├── <strong style='color: #7C3AED;'>📁 データ</strong><br/>│&nbsp;&nbsp;&nbsp;&nbsp;└── 参考資料・テンプレート・分析用<br/><br/>└── <strong style='color: #DC2626;'>📁 保管</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 完全に終了したプロジェクト</div>",
+        "instructions": [],
+        "tips": "フォルダ名は日本語でOK。絵文字は見やすければ任意で追加",
+        "imageSrc": "/king_work.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page3": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 2,
+        "totalSteps": 6,
+        "stepTitle": "4つの質問で振り分けマスター",
+        "duration": "5分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 14px; line-height: 1.6; color: #374151;'><div style='background: #F9FAFB; padding: 20px; border-radius: 12px; border: 2px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #1F2937; font-size: 16px;'>📄 ファイル・フォルダの振り分けフロー</strong></div><div style='display: flex; flex-direction: column; gap: 12px;'><div style='background: #DBEAFE; padding: 12px; border-radius: 8px; border-left: 4px solid #2563EB;'><strong>Q1: まだ進めている？</strong><br/>👆 YES → <strong style='color: #2563EB;'>📁 進行中</strong></div><div style='text-align: center; color: #6B7280;'>↓ NO</div><div style='background: #D1FAE5; padding: 12px; border-radius: 8px; border-left: 4px solid #059669;'><strong>Q2: 定期的に確認する？</strong><br/>👆 YES → <strong style='color: #059669;'>📁 管理中</strong></div><div style='text-align: center; color: #6B7280;'>↓ NO</div><div style='background: #EDE9FE; padding: 12px; border-radius: 8px; border-left: 4px solid #7C3AED;'><strong>Q3: 参照・分析用？</strong><br/>👆 YES → <strong style='color: #7C3AED;'>📁 データ</strong></div><div style='text-align: center; color: #6B7280;'>↓ NO</div><div style='background: #FEE2E2; padding: 12px; border-radius: 8px; border-left: 4px solid #DC2626;'><strong>Q4: 終了・保存用？</strong><br/>👆 YES → <strong style='color: #DC2626;'>📁 保管</strong></div></div></div></div>",
+        "instructions": [],
+        "tips": "迷ったら上から順番に質問。最初は厳密でなくてOK",
+        "imageSrc": "/king_thinking.png",
+        "imageAlt": "キングが考えている様子"
+      }
+    },
+    "page4": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 3,
+        "totalSteps": 6,
+        "stepTitle": "プロジェクト階層で整理",
+        "duration": "10分",
+        "visualContent": "<div style='font-family: monospace; font-size: 14px; line-height: 1.6; color: #374151; display: flex; gap: 20px;'><div style='flex: 1;'><strong style='color: #2563EB;'>📁 進行中/</strong><br/>├── <strong>📁 A社_WEBサイト制作/</strong><br/>│&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 企画書作成/<br/>│&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 デザイン制作/<br/>│&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 コーディング/<br/>├── <strong>📁 B社_システム開発/</strong><br/>│&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 要件定義/<br/>│&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 開発作業/<br/>└── <strong>📁 C社_イベント企画/</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 企画立案/<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 実行準備/</div><div style='flex: 1; border-left: 2px solid #E5E7EB; padding-left: 20px;'><strong style='color: #059669;'>📁 管理中/ </strong><span style='color: #6B7280; font-size: 12px;'>← 完了後の移動先</span><br/>├── <strong>📁 X社_ECサイト構築/</strong><br/>│&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 月次報告/<br/>│&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 保守対応/<br/>├── <strong>📁 Y社_ブランディング/</strong><br/>│&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 効果測定/<br/>│&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 追加施策/<br/>└── <strong>📁 定期業務/</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── 📁 週次レポート/<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── 📁 月次会議/</div></div>",
+        "instructions": [],
+        "tips": "この階層構造により、プロジェクトの全体像が把握しやすくなります",
+        "imageSrc": "/king_study.png",
+        "imageAlt": "キングが勉強している様子"
+      }
+    },
+    "page5": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 4,
+        "totalSteps": 6,
+        "stepTitle": "命名規則で検索効率アップ",
+        "duration": "15分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 14px; line-height: 1.6; color: #374151;'><div style='background: #F9FAFB; padding: 20px; border-radius: 12px; margin-bottom: 16px;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #1F2937; font-size: 18px;'>📄 ファイル命名規則</strong></div><div style='background: #DBEAFE; padding: 16px; border-radius: 8px; text-align: center; margin-bottom: 16px;'><strong style='color: #2563EB; font-size: 16px;'>日付 _ 内容 _ バージョン</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px;'><div><div style='background: #D1FAE5; padding: 12px; border-radius: 8px; margin-bottom: 8px;'><strong style='color: #059669;'>✅ 良い例</strong></div><div style='background: white; padding: 8px; border-radius: 4px; font-family: monospace; font-size: 12px; margin-bottom: 4px;'>2025-0807_A社提案書_v3.docx</div><div style='background: white; padding: 8px; border-radius: 4px; font-family: monospace; font-size: 12px; margin-bottom: 4px;'>2025-0801_議事録_B社定例会.txt</div><div style='background: white; padding: 8px; border-radius: 4px; font-family: monospace; font-size: 12px;'>2025-0815_請求書_8月分.pdf</div></div><div><div style='background: #FEE2E2; padding: 12px; border-radius: 8px; margin-bottom: 8px;'><strong style='color: #DC2626;'>❌ 悪い例</strong></div><div style='background: #FEF2F2; padding: 8px; border-radius: 4px; font-family: monospace; font-size: 12px; margin-bottom: 4px; text-decoration: line-through;'>提案書最新.docx</div><div style='background: #FEF2F2; padding: 8px; border-radius: 4px; font-family: monospace; font-size: 12px; margin-bottom: 4px; text-decoration: line-through;'>メモ.txt</div><div style='background: #FEF2F2; padding: 8px; border-radius: 4px; font-family: monospace; font-size: 12px; text-decoration: line-through;'>資料.pdf</div></div></div></div></div>",
+        "instructions": [],
+        "tips": "日付を先頭にすると自動的に時系列で並びます",
+        "imageSrc": "/king_goodjob.png",
+        "imageAlt": "キングがグッドジョブしている様子"
+      }
+    },
+    "page6": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 5,
+        "totalSteps": 6,
+        "stepTitle": "運用フローを確立",
+        "duration": "5分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 13px; line-height: 1.5; color: #374151;'><div style='background: #F9FAFB; padding: 20px; border-radius: 12px;'><div style='text-align: center; margin-bottom: 20px;'><strong style='color: #1F2937; font-size: 16px;'>🔄 プロジェクトライフサイクル</strong></div><div style='display: flex; flex-direction: column; gap: 8px;'><div style='display: flex; align-items: center; gap: 12px;'><div style='background: #FEF3C7; padding: 8px 12px; border-radius: 20px; font-weight: bold; min-width: 80px; text-align: center;'>新規案件</div><div style='color: #6B7280;'>→</div><div style='background: #DBEAFE; padding: 8px 16px; border-radius: 8px; color: #2563EB; font-weight: bold;'>📁 進行中</div></div><div style='display: flex; align-items: center; gap: 12px;'><div style='background: #D1FAE5; padding: 8px 12px; border-radius: 20px; font-weight: bold; min-width: 80px; text-align: center; font-size: 11px;'>完了<br/>(定期確認有)</div><div style='color: #6B7280;'>→</div><div style='background: #D1FAE5; padding: 8px 16px; border-radius: 8px; color: #059669; font-weight: bold;'>📁 管理中</div></div><div style='display: flex; align-items: center; gap: 12px;'><div style='background: #FEE2E2; padding: 8px 12px; border-radius: 20px; font-weight: bold; min-width: 80px; text-align: center;'>完全終了</div><div style='color: #6B7280;'>→</div><div style='background: #FEE2E2; padding: 8px 16px; border-radius: 8px; color: #DC2626; font-weight: bold;'>📁 保管</div></div><div style='display: flex; align-items: center; gap: 12px;'><div style='background: #EDE9FE; padding: 8px 12px; border-radius: 20px; font-weight: bold; min-width: 80px; text-align: center;'>参考資料</div><div style='color: #6B7280;'>→</div><div style='background: #EDE9FE; padding: 8px 16px; border-radius: 8px; color: #7C3AED; font-weight: bold;'>📁 データ</div></div></div><div style='margin-top: 16px; background: #FEF3C7; padding: 12px; border-radius: 8px; text-align: center;'><strong>📅 毎週金曜5分「フォルダ整理タイム」</strong></div></div></div>",
+        "instructions": [],
+        "tips": "完璧を求めず、週1回の整理で十分効果があります",
+        "imageSrc": "/king_work.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page7": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 6,
+        "totalSteps": 6,
+        "stepTitle": "効果を実感・習慣化",
+        "duration": "継続",
+        "instructions": [
+          "必要なファイルがすぐ見つかる実感",
+          "今やるべきことが「進行中」で明確に",
+          "完了案件と進行中が混在しない安心感",
+          "頭の中も整理されて思考がクリアに",
+          "月1回、フォルダ構成を見直して最適化"
+        ],
+        "tips": "フォルダ整理 = 思考整理。仕事のストレスが確実に減ります",
+        "imageSrc": "/king_goodjob.png",
+        "imageAlt": "キングがグッドジョブしている様子"
+      }
+    },
+    "page8": {
+      "role": "achievement_summary",
+      "section": "summary",
+      "content": {
+        "summaryTitle": "ステータスフォルダ整理術・完成",
+        "achievementPoints": [
+          "たった10分で開始できる簡単さ",
+          "4つのフォルダと4つの質問だけのシンプル構造",
+          "新しいツール不要・追加費用ゼロ",
+          "ファイル探しのストレスから解放",
+          "プロジェクト状況が一目瞭然",
+          "思考の整理で仕事効率が向上",
+          "週5分の習慣で永続的な効果"
+        ],
+        "encouragementMessage": "もう「あのファイルどこだっけ？」と悩むことはありません。4つのフォルダがあなたの仕事を変えます。今すぐ始めて、明日から変化を実感してください"
+      }
+    }
+  }
+}

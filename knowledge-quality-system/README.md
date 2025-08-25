@@ -1,70 +1,95 @@
-# ナレッジデータベース品質システム - 最重要コアシステム
+# ナレッジデータベース品質システム - 新構造INDEX
 
-## 🎯 ディレクトリ目的
-Instagram投稿生成システムの**最も重要かつ核心部分**であるナレッジデータベース品質保証システムの構築作業専用ディレクトリ。
+## 🏗️ **整理完了！新ディレクトリ構造**
 
-## 📁 ディレクトリ構造
+### 📁 **core-system/** - システム中枢管理
+- **master-standards/** - 完成済み基準ドキュメント（99%品質レベル）
+  - `japanese-expression-master-standard.md` - 日本語表現品質マスター基準 🆕
+- **system-operations/** - システム運用・操作マニュアル
+- **integration-docs/** - 統合システムドキュメント
 
-```
-knowledge-quality-system/
-├── README.md                           # 本ファイル
-├── MASTER_SYSTEM_INDEX.md             # マスターシステムINDEX
-├── completed-standards/                # 完成済み基準ドキュメント
-│   ├── T007-complete-standard.md      # T007完全版（99%品質基準）
-│   ├── T010-male-standard.md          # T010男性版（95%品質基準）
-│   └── template-placement-master.md   # テンプレート配置マスター
-├── quality-checklists/                # Type別×ターゲット別チェックリスト
-│   ├── type001/                       # Type001感情共感型
-│   │   ├── T001-checklist.md
-│   │   ├── T002-checklist.md
-│   │   └── ... (T001-T023全23個)
-│   ├── type002/                       # Type002実践習得型
-│   │   ├── T001-checklist.md
-│   │   └── ... (T001-T023全23個)
-│   ├── type003/                       # Type003ランキング情報型
-│   │   └── ... (T001-T023全23個)
-│   └── type004/                       # Type004並列紹介型
-│       └── ... (T001-T023全23個)
-├── template-guides/                   # テンプレート別設計ガイド
-│   ├── unified-template-01-guide.md
-│   ├── unified-template-02-guide.md
-│   └── ... (01-10全10個)
-└── character-strategies/              # ターゲット別キャラクター戦略
-    ├── T001-character-strategy.md
-    ├── T002-character-strategy.md
-    └── ... (T001-T023全23個)
-```
+### 📁 **type004-system/** - Type004専用システム
+- **core-documents/** - Type004実証型設計の全核心ドキュメント
+- **research-data/** - 統計データ・調査結果（今後追加予定）
+- **implementation-guides/** - 実装ガイド集（今後追加予定）
+- **quality-standards/** - Type004専用品質基準（今後追加予定）
 
-## 🎯 作業方針
+### 📁 **specialized-systems/** - タイプ別システム
+- **type001-female/** - 感情共感型（女性ターゲット）システム
+- **type002-male/** - 実践習得型（男性ターゲット）システム
+- **type003-ranking/** - ランキング情報型システム
 
-### Phase 1: 基準ドキュメント整備
-1. 既存完成済みドキュメントをcompleted-standards/に整理
-2. マスターシステムINDEXの完成
+### 📁 **character-strategies/** - キャラクター戦略
+- 全キャラクター戦略・画像選択・メッセージテンプレート
 
-### Phase 2: 高優先度ドキュメント作成
-1. T010-T012男性版チェックリスト
-2. 主要テンプレートガイド（section-blocks, dynamic-boxes等）
+### 📁 **template-guides/** - テンプレート設計ガイド
+- 全10テンプレートの完全設計ガイド
 
-### Phase 3: 全体系統的作成
-1. 全Type×全ターゲットのチェックリスト（92個）
-2. 全テンプレートガイド（10個）
-3. 全キャラクター戦略（23個）
+### 📁 **expression-design-guides/** - 表現設計ガイド
+- ターゲット分析・表現戦略・デザインガイド
+- `japanese-expression-quality-guide.md` - 日本語表現品質ガイド 🆕
 
-## 🚨 重要原則
+### 📁 **quality-checklists/** - 品質チェックリスト
+- type001/, type003/, type004/ 各タイプ別チェックリスト
+- 🆕 全チェックリストに日本語表現品質項目を統合済み
 
-### 品質基準
-- **解釈の余地ゼロ**: 全項目がYes/Noで明確判断可能
-- **情報欠損完全回避**: どんな理由があっても価値ある情報削除禁止
-- **ターゲット特化**: 各ターゲットの特性に完全適合
-
-### 作業基準
-- **T007完全版レベル（99%品質）**を全ドキュメントで実現
-- **禁止表現完全排除**（「戦略的」「効率的」等）
-- **8ステップ思考プロセス**の全ドキュメント適用
-
-## 📊 完成目標
-**920パターン完全対応**（Type001-004 × T001-T023 × Template01-10）による世界最高クオリティのナレッジデータベース品質保証システム
+### 📁 **legacy-documents/** - 開発履歴・参考資料
+- **project-reports/** - フェーズ完了報告書
+- **development-prompts/** - 開発用プロンプト集
 
 ---
 
-**重要**: このディレクトリで作成される全ドキュメントは、Instagram投稿生成システムの品質を決定する最重要資産です。妥協のない99%品質レベルでの作成を徹底してください。
+## 🎯 **Type004システム - 核心ドキュメント**
+
+### **type004-system/core-documents/ 内の重要ファイル:**
+
+1. **type004-evidence-based-flow-complete.md** - 実証型フロー完成報告書
+2. **type004-evidence-based-design-requirements.md** - 設計要件・品質基準
+3. **type004-practical-pattern-design-guide.md** - 実用性パターン設計
+4. **type004-japanese-daily-tasks-summary.md** - 日本人継続作業データベース
+5. **type004-task-tool-matching-final.md** - 最終マッチング結果
+
+### **実装準備完了:**
+- 5つの最優先Type004ナレッジ候補特定済み
+- 実証基盤・効果測定・ROI計算完了
+- 量産体制構築完成
+
+---
+
+## 🚀 **次のステップ**
+
+### **📝 即座に使える実行コマンド**
+**START-PROMPT.md**（ルートディレクトリ）を使用：
+
+```
+【ナレッジ改善実行】
+
+対象: [ナレッジID例: K001]
+
+実行してください。
+```
+
+### **🎯 具体的作業**
+1. **Type004-001実装**: デジタル情報疲れ解放システム
+2. **品質基準適用**: core-system/master-standards/参照
+3. **キャラクター戦略統合**: character-strategies/参照
+4. **テンプレート選択**: template-guides/参照
+
+---
+
+## 📊 **システム統計**
+
+### **完成済み基準ドキュメント**: 3個
+- T007完全版（99%品質基準）
+- T010男性版（95%品質基準）  
+- テンプレート配置マスター
+
+### **Type004実装準備完了**: 5候補
+- 最優先3候補（スコア23-25点）
+- 高優先2候補（スコア21-22点）
+
+### **システム運用**: 完全対応
+- マスターINDEX・START-PROMPT完成
+- 統合品質管理システム構築済み
+
+**整理完了により、Type004ナレッジ作成フローが完全に明確化されました！**

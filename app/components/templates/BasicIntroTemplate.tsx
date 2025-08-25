@@ -46,7 +46,7 @@ const TYPE_CONFIG = {
     altText: 'キャラクター'
   },
   '004': { 
-    normalImage: '/ten.png', 
+    normalImage: '/ten_point.png', 
     jobImage: '/iida.png', 
     bgGradient: 'from-pink-50',
     altText: 'キャラクター'

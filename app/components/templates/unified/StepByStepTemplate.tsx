@@ -1,6 +1,6 @@
 import React from 'react'
 import { TemplateData, cleanMarkdown } from '../TemplateTypes'
-import { Clock, CheckCircle2 } from 'lucide-react'
+import { Check } from 'lucide-react'
 import { getT009DynamicFontClass } from '../../../utils/fontUtils'
 
 interface StepByStepTemplateProps {
@@ -25,45 +25,56 @@ export function StepByStepTemplate({ data, targetId }: StepByStepTemplateProps) 
 
   return (
     <div className="w-full h-full bg-white relative overflow-hidden flex flex-col">
-      {/* 進捗バー */}
-      <div className="absolute top-0 left-0 w-full h-2 bg-gray-200">
-        <div 
-          className="h-full bg-gradient-to-r from-blue-500 to-blue-600 transition-all duration-300"
-          style={{ width: `${(stepNumber / totalSteps) * 100}%` }}
-        />
-      </div>
-
       {/* メインコンテンツ */}
-      <div className="flex-1 p-8 flex flex-col">
+      <div className="flex-1 px-4 pb-4 pt-2 flex flex-col">
         {/* ステップヘッダー */}
         <div className="mb-6">
-          <div className="flex items-center justify-between mb-2">
-            <div className="flex items-baseline gap-3">
-              <span className="text-6xl font-black text-blue-600">
-                STEP {stepNumber}
-              </span>
-              <span className="text-2xl text-gray-500">
-                / {totalSteps}
-              </span>
+          <div className="flex items-baseline gap-3 mb-4 pb-4">
+            <span className="text-6xl font-black text-blue-600">
+              STEP {stepNumber}
+            </span>
+            <span className="text-2xl text-gray-500">
+              / {totalSteps}
+            </span>
+          </div>
+          
+          {/* 進捗バー */}
+          <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden shadow-inner mt-4">
+            <div 
+              className="h-full bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 relative rounded-full transition-all duration-500 ease-out"
+              style={{ 
+                width: `${(stepNumber / totalSteps) * 100}%`,
+                boxShadow: 'inset 0 1px 2px rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.1)'
+              }}
+            >
+              <div 
+                className="absolute inset-0 bg-gradient-to-b from-white/20 to-transparent rounded-full"
+              />
             </div>
-            {duration && (
-              <div className="flex items-center gap-2 bg-orange-100 px-4 py-2 rounded-full">
-                <Clock className="w-5 h-5 text-orange-600" />
-                <span className="text-lg font-bold text-orange-600">
-                  {duration}
-                </span>
-              </div>
-            )}
           </div>
           <h2 className={`text-3xl font-bold text-gray-800 ${dynamicFontClass}`}>
             {cleanMarkdown(stepTitle)}
           </h2>
         </div>
 
-        {/* 手順リスト */}
-        <div className="flex-1 flex gap-6">
-          <div className="flex-1">
-            <div className="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-200">
+        {/* メインコンテンツ - フル幅 */}
+        <div className="flex-1 mb-1">
+          <div className="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-200">
+            {/* HTML自由描画エリア（visualContent が存在する場合） */}
+            {contentArray.visualContent ? (
+              <div 
+                className="visual-content-area"
+                dangerouslySetInnerHTML={{ __html: contentArray.visualContent }}
+                style={{
+                  fontSize: '16px',
+                  lineHeight: '1.6',
+                  fontFamily: 'monospace',
+                  color: '#374151',
+                  whiteSpace: 'pre-wrap'
+                }}
+              />
+            ) : (
+              /* 従来のリスト形式 */
               <ul className="space-y-4">
                 {instructions.map((instruction: string, index: number) => (
                   <li key={index} className="flex items-start gap-3">
@@ -78,39 +89,46 @@ export function StepByStepTemplate({ data, targetId }: StepByStepTemplateProps) 
                   </li>
                 ))}
               </ul>
-            </div>
+            )}
+          </div>
+        </div>
 
-            {/* ヒント・補足 */}
-            {tips && (
-              <div className="mt-4 bg-yellow-50 rounded-lg p-4 border border-yellow-200">
+        {/* ヒント・補足とキャラクター */}
+        {tips && (
+          <div className="flex items-center gap-6">
+            <div className="flex-1">
+              <div 
+                className="bg-purple-50 rounded-lg p-4 border border-purple-200 overflow-visible"
+                style={{
+                  backgroundImage: `
+                    linear-gradient(rgba(0,0,0,0.08) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px)
+                  `,
+                  backgroundSize: '20px 20px',
+                  backgroundColor: '#faf5ff'
+                }}
+              >
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="w-5 h-5 text-yellow-600 mt-0.5 flex-shrink-0" />
+                  <Check className="w-5 h-6 text-purple-600 mt-1 flex-shrink-0" />
                   <p className={`text-gray-700 ${dynamicFontClass}`}>
                     {cleanMarkdown(tips)}
                   </p>
                 </div>
               </div>
-            )}
-          </div>
+            </div>
 
-          {/* キャラクター画像 */}
-          <div className="flex-shrink-0">
-            <div className="w-48 h-48 relative bg-gray-50 rounded-lg flex items-center justify-center overflow-hidden">
-              <img
-                src={imageSrc}
-                alt={imageAlt}
-                className="h-full w-auto object-contain"
-              />
+            {/* キャラクター画像 */}
+            <div className="flex-shrink-0">
+              <div className="w-32 h-32 relative bg-gray-50 rounded-lg flex items-center justify-center overflow-hidden">
+                <img
+                  src={imageSrc}
+                  alt={imageAlt}
+                  className="h-full w-auto object-contain"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* フッター */}
-      <div className="px-8 pb-6">
-        <div className="text-center text-gray-600 font-bold">
-          次のステップへ進む準備ができたら次のページへ
-        </div>
+        )}
       </div>
     </div>
   )

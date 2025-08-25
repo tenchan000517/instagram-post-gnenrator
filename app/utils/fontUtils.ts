@@ -100,6 +100,8 @@ const TARGET_CUSTOM_BACKGROUNDS: Record<string, { intro?: string; summary?: stri
   T008: { intro: 'bg-t007-intro', summary: 'bg-t007-summary' }, // T007と同じ色を使用
   T010: { summary: 'bg-t010-summary' }, // introは既存のbg-green-500を使用
   T012: { summary: 'bg-t010-summary' }, // T010と同じ薄い緑を使用
+  T021: { intro: 'bg-purple-500', summary: 'bg-purple-100' }, // 導入:濃い紫、サマリー:薄い紫
+  T024: { intro: 'bg-purple-500', summary: 'bg-purple-100' }, // 導入:濃い紫、サマリー:薄い紫
   // 今後追加例:
   // T001: { intro: 'bg-t001-intro', summary: 'bg-t001-summary' },
   // T002: { intro: 'bg-t002-intro', summary: 'bg-t002-summary' },

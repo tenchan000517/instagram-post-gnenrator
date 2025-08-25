@@ -1,0 +1,149 @@
+{
+  "source": "Type004実証型ナレッジ-オフライン会議完全自動化術",
+  "problemCategory": "会議・コミュニケーション効率化",
+  "postType": "004",
+  "knowledgeId": "K1004",
+  "pageStructurePattern": "unified-template-13-step-by-step",
+  "actualTitle": "有料ツール不要！オフライン会議自動化術",
+  "targetIds": ["T019", "T020", "T021", "T022", "T023", "T024"],
+  "pageCount": 9,
+  "detailedContent": {
+    "page1": {
+      "role": "basic_intro",
+      "section": "introduction",
+      "content": {
+        "title": "有料ツール不要でオフライン会議を議事録化",
+        "targetAudience": "会議の議事録作成に時間を取られているあなた",
+        "problems": [
+          "有料版なら便利だけど月額料金が痛い",
+          "オンライン会議は自動化、オフラインは手書き地獄",
+          "議事録作成に毎回1時間以上かかる",
+          "重要なタスクを聞き逃して後から混乱"
+        ],
+        "additionalMessage": "スマホとPCで無料の議事録作成システムを構築します"
+      }
+    },
+    "page2": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 1,
+        "totalSteps": 7,
+        "stepTitle": "スマホでGoogleドキュメント音声入力開始",
+        "duration": "3分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>スマホ設置の実際の手順と画面</strong></div><div style='display: grid; grid-template-columns: 200px 1fr; gap: 16px;'><img src='/imag/gemini/iphone.png' style='width: 200px; height: 400px; object-fit: contain; border-radius: 9px; border: 1px solid #E5E7EB;' alt='スマホのGoogleドキュメントアプリ画面'/><div style='display: flex; flex-direction: column; gap: 14px;'><div style='background: #DBEAFE; padding: 16px; border-radius: 9px; display: flex; align-items: center; gap: 12px;'><div style='color: #2563EB; font-size: 20px; font-weight: bold; margin-right: 8px;'>1.</div><div><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 4px;'>Googleドキュメントアプリを開く</strong><span style='font-size: 13px; color: #6B7280;'>ホーム画面からアプリをタップして起動</span></div></div><div style='background: #D1FAE5; padding: 16px; border-radius: 9px; display: flex; align-items: center; gap: 12px;'><div style='color: #059669; font-size: 20px; font-weight: bold; margin-right: 8px;'>2.</div><div><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 4px;'>新規ドキュメント作成</strong><span style='font-size: 13px; color: #6B7280;'>右下の「+」ボタンから新しい文書を作成</span></div></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px; display: flex; align-items: center; gap: 12px;'><div style='color: #D97706; font-size: 20px; font-weight: bold; margin-right: 8px;'>3.</div><div><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 4px;'>音声入力をタップ</strong><span style='font-size: 13px; color: #6B7280;'>キーボードのマイクボタンをタップして開始</span></div></div><div style='background: #FEE2E2; padding: 16px; border-radius: 9px; display: flex; align-items: center; gap: 12px;'><div style='color: #DC2626; font-size: 20px; font-weight: bold; margin-right: 8px;'>4.</div><div><strong style='color: #DC2626; font-size: 16px; display: block; margin-bottom: 4px;'>充電ケーブルを接続</strong><span style='font-size: 13px; color: #6B7280;'>長時間録音でバッテリー切れを防止</span></div></div></div></div></div></div>",
+        "instructions": [],
+        "tips": "充電とWi-Fi接続を確認してから開始してください",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page3": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 2,
+        "totalSteps": 7,
+        "stepTitle": "会議中はスマホを放置→音声がテキスト化",
+        "duration": "会議時間中",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>リアルタイム文字起こし実行中の画面</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: white; padding: 16px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);'><div style='display: flex; align-items: center; gap: 8px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #E5E7EB;'><svg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='#DC2626' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle></svg><span style='color: #DC2626; font-weight: bold;'>録音中</span><span style='color: #6B7280; font-size: 12px; margin-left: auto;'>00:15:42</span></div><div style='font-family: monospace; font-size: 12px; line-height: 1.6; color: #1F2937; height: 180px; overflow-y: auto;'><div style='margin-bottom: 6px;'><span style='color: #6B7280;'>15:35</span> 本日の会議を開始します</div><div style='margin-bottom: 6px;'><span style='color: #6B7280;'>15:40</span> 売上実績について報告します</div><div style='margin-bottom: 6px;'><span style='color: #6B7280;'>15:42</span> 来月の目標設定を検討...</div></div></div><div style='background: #EDE9FE; padding: 18px; border-radius: 9px; display: flex; flex-direction: column; justify-content: center;'><div style='text-align: center; margin-bottom: 14px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#0369A1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='margin: 0 auto 8px;'><path d='M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z'></path><path d='M19 10v2a7 7 0 0 1-14 0v-2'></path><line x1='12' y1='19' x2='12' y2='23'></line><line x1='8' y1='23' x2='16' y2='23'></line></svg><strong style='color: #0369A1; font-size: 17px; display: block; margin-bottom: 7px;'>スマホを放置で音声記録</strong></div><div style='font-size: 14px; color: #6B7280; text-align: center; line-height: 1.5;'>会議中は一切操作不要。話している内容が自動で文字化され、クラウドに保存されていきます</div></div></div><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px;'><div style='background: #DBEAFE; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #2563EB; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>1.</div><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 7px;'>自動で継続録音</strong><span style='font-size: 13px; color: #6B7280;'>一切触る必要なし</span></div><div style='background: #D1FAE5; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #059669; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>2.</div><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 7px;'>正確に文字起こし</strong><span style='font-size: 13px; color: #6B7280;'>音声を全てテキスト化</span></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #D97706; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>3.</div><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 7px;'>クラウド自動保存</strong><span style='font-size: 13px; color: #6B7280;'>データ消失の心配なし</span></div></div></div></div>",
+        "instructions": [],
+        "tips": "ごちゃごちゃのテキストでも次のステップで議事録形式に整理できます",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "キングが勉強している様子"
+      }
+    },
+    "page4": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 3,
+        "totalSteps": 7,
+        "stepTitle": "PCでGoogleドキュメントを開きGemini起動",
+        "duration": "3分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F3E8FF; padding: 20px; border-radius: 12px; border: 2px solid #DDD6FE;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #7C3AED; font-size: 18px;'>Gemini操作の実際の画面と手順</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><img src='/imag/gemini/interface.png' style='width: 100%; height: 265px; object-fit: cover; border-radius: 9px; border: 1px solid #E5E7EB;' alt='実際のGoogleドキュメントでGeminiを使用している画面'/><div style='background: #EDE9FE; padding: 18px; border-radius: 9px; display: flex; flex-direction: column; justify-content: center;'><div style='text-align: center; margin-bottom: 14px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#7C3AED' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='margin: 0 auto 8px;'><polygon points='12 2 2 7 12 12 22 7 12 2'></polygon><polyline points='2 17 12 22 22 17'></polyline><polyline points='2 12 12 17 22 12'></polyline></svg><strong style='color: #7C3AED; font-size: 17px; display: block; margin-bottom: 7px;'>操作はとても簡単</strong></div><div style='font-size: 14px; color: #6B7280; text-align: center; line-height: 1.5;'>PCでGoogleドキュメントを開き、メニューから「Gemini」を選択すると右側にチャット欄が表示されます</div></div></div><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px;'><div style='background: #DBEAFE; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #2563EB; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>1.</div><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 7px;'>ツール→Geminiクリック</strong><span style='font-size: 13px; color: #6B7280;'>メニューから選択</span></div><div style='background: #D1FAE5; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #059669; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>2.</div><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 7px;'>右側にGemini表示</strong><span style='font-size: 13px; color: #6B7280;'>サイドパネル出現</span></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #D97706; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>3.</div><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 7px;'>プロンプト貼り付け</strong><span style='font-size: 13px; color: #6B7280;'>コピー＆ペースト</span></div></div></div></div>",
+        "instructions": [],
+        "tips": "次のページのプロンプトで会話テキストが議事録形式に変換されます",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "キングが考えている様子"
+      }
+    },
+    "page5": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 4,
+        "totalSteps": 7,
+        "stepTitle": "Geminiチャット欄にプロンプト入力",
+        "duration": "コピペのみ",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #FEF3C7; padding: 20px; border-radius: 12px; border: 2px solid #FED7AA;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #D97706; font-size: 18px;'>Geminiに貼り付ける専用プロンプト</strong></div><div style='display: grid; grid-template-columns: 400px 1fr; gap: 16px;'><div style='background: #F8FAFC; border: 2px solid #CBD5E1; padding: 12px; border-radius: 8px; height: 420px; overflow-y: auto;'><div style='font-family: \"SF Mono\", \"Monaco\", \"Cascadia Code\", \"Roboto Mono\", monospace; font-size: 11px; line-height: 1.3; color: #1E293B; white-space: pre-wrap;'>以下の音声文字起こしテキストを、下記フォーマットで整理してください：\n\n【会議情報】\n- 日時：[推測または未記載]\n- 参加者：[発言から推測]\n- 議題：[内容から推測]\n\n【決定事項】\n1. [具体的な決定内容]\n2. [具体的な決定内容]\n\n【アクションアイテム】\n- [担当者名]：[具体的タスク]（期限：8/15 終日）\n- [担当者名]：[具体的タスク]（期限：8/16 14:00-15:00）\n\n【検討事項・課題】\n- [次回までに検討すべき項目]\n\n【次回予定】\n- [次回会議日時・場所・議題]\n\n補足指示：\n- 時間が不明な場合は「終日」で設定\n- 「やります」「対応します」は必ずアクションアイテムへ</div></div><div style='display: flex; flex-direction: column; gap: 14px;'><div style='background: #DBEAFE; padding: 16px; border-radius: 9px; display: flex; align-items: center; gap: 12px;'><div style='color: #2563EB; font-size: 20px; font-weight: bold; margin-right: 8px;'>1.</div><div><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 4px;'>プロンプト全文をコピー</strong><span style='font-size: 13px; color: #6B7280;'>左の内容を全て選択してコピー</span></div></div><div style='background: #D1FAE5; padding: 16px; border-radius: 9px; display: flex; align-items: center; gap: 12px;'><div style='color: #059669; font-size: 20px; font-weight: bold; margin-right: 8px;'>2.</div><div><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 4px;'>Googleドキュメント内Geminiに貼り付け</strong><span style='font-size: 13px; color: #6B7280;'>右側チャット欄にペーストしてEnter</span></div></div><div style='background: #EDE9FE; padding: 16px; border-radius: 9px; display: flex; align-items: center; gap: 12px;'><div style='color: #7C3AED; font-size: 20px; font-weight: bold; margin-right: 8px;'>3.</div><div><strong style='color: #7C3AED; font-size: 16px; display: block; margin-bottom: 4px;'>スマホの会話テキストをコピーして追加送信</strong><span style='font-size: 13px; color: #6B7280;'>Googleドキュメントの会話内容をコピーして送信</span></div></div><div style='background: #FFF7ED; padding: 16px; border-radius: 9px; text-align: center; border: 1px solid #FDBA74;'><div style='display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 8px;'><svg width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='#EA580C' stroke-width='2'><path d='M12 2L2 7l10 5 10-5-10-5z'></path><path d='M2 17l10 5 10-5'></path><path d='M2 12l10 5 10-5'></path></svg><strong style='color: #EA580C; font-size: 16px;'>議事録形式で表示</strong></div><span style='color: #9CA3AF; font-size: 13px;'>【決定事項】【アクションアイテム】等に整理されます</span></div></div></div></div></div>",
+        "instructions": [],
+        "tips": "プロンプト送信後、スマホの会話テキストをコピーして続けて送信してください",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "キングがグッドジョブしている様子"
+      }
+    },
+    "page6": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 5,
+        "totalSteps": 7,
+        "stepTitle": "ブラウザでGeminiを開き@Google Calendar",
+        "duration": "30秒",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #FEF3E2; padding: 20px; border-radius: 12px; border: 2px solid #FED7AA;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #EA580C; font-size: 18px;'>ブラウザGeminiで@Google Calendar</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><img src='/imag/gemini/chat@modal.png' style='width: 100%; height: 265px; object-fit: cover; border-radius: 9px; border: 1px solid #E5E7EB;' alt='Geminiの@Google Calendar選択画面'/><div style='background: #EDE9FE; padding: 18px; border-radius: 9px; display: flex; flex-direction: column; justify-content: center;'><div style='text-align: center; margin-bottom: 14px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#EA580C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='margin: 0 auto 8px;'><rect x='3' y='4' width='18' height='18' rx='2' ry='2'></rect><line x1='16' y1='2' x2='16' y2='6'></line><line x1='8' y1='2' x2='8' y2='6'></line><line x1='3' y1='10' x2='21' y2='10'></line></svg><strong style='color: #EA580C; font-size: 17px; display: block; margin-bottom: 7px;'>カレンダー連携準備</strong></div><div style='font-size: 14px; color: #6B7280; text-align: center; line-height: 1.5;'>gemini.google.comを開き@Google Calendarをメンションして議事録のアクションアイテムをコピーします</div></div></div><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px;'><div style='background: #DBEAFE; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #2563EB; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>1.</div><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 7px;'>ブラウザでGemini</strong><span style='font-size: 13px; color: #6B7280;'>gemini.google.com</span></div><div style='background: #D1FAE5; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #059669; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>2.</div><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 7px;'>@Google Calendar</strong><span style='font-size: 13px; color: #6B7280;'>メンション選択</span></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #D97706; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>3.</div><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 7px;'>アクションアイテムコピー</strong><span style='font-size: 13px; color: #6B7280;'>議事録からコピー</span></div></div></div></div>",
+        "instructions": [],
+        "tips": "Googleドキュメント内Geminiではカレンダー連携が不安定なため、ブラウザ版を使用します",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page7": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 6,
+        "totalSteps": 7,
+        "stepTitle": "アクションアイテム貼り付けでタスク登録",
+        "duration": "30秒",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0FDF4; padding: 20px; border-radius: 12px; border: 2px solid #BBF7D0;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #16A34A; font-size: 18px;'>アクションアイテムでカレンダー登録</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><img src='/imag/gemini/task.png' style='width: 100%; height: 265px; object-fit: cover; border-radius: 9px; border: 1px solid #E5E7EB;' alt='Geminiがカレンダーにタスクを自動登録している画面'/><div style='background: #EDE9FE; padding: 18px; border-radius: 9px; display: flex; flex-direction: column; justify-content: center;'><div style='text-align: center; margin-bottom: 14px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#16A34A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='margin: 0 auto 8px;'><polyline points='9 11 12 14 22 4'></polyline><path d='M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11'></path></svg><strong style='color: #16A34A; font-size: 17px; display: block; margin-bottom: 7px;'>タスクを自動登録</strong></div><div style='font-size: 14px; color: #6B7280; text-align: center; line-height: 1.5;'>コピーしたアクションアイテムを貼り付けて「タスク登録してください」と送信すると自動でカレンダーに登録されます</div></div></div><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px;'><div style='background: #DBEAFE; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #2563EB; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>1.</div><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 7px;'>メッセージ入力</strong><span style='font-size: 13px; color: #6B7280;'>タスク登録してください</span></div><div style='background: #D1FAE5; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #059669; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>2.</div><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 7px;'>アクションアイテム貼付</strong><span style='font-size: 13px; color: #6B7280;'>議事録からコピーして貼付</span></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #D97706; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>3.</div><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 7px;'>Enterで実行</strong><span style='font-size: 13px; color: #6B7280;'>送信してカレンダー登録</span></div></div></div></div>",
+        "instructions": [],
+        "tips": "@Google Calendar アクションアイテムをタスク登録してください と入力してアクションアイテムを貼り付けます",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page8": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 7,
+        "totalSteps": 8,
+        "stepTitle": "カレンダー登録結果を確認",
+        "duration": "1分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #EEF2FF; padding: 20px; border-radius: 12px; border: 2px solid #C7D2FE;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #4338CA; font-size: 18px;'>Googleカレンダー登録結果と設定詳細</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><img src='/imag/gemini/calendar.png' style='width: 100%; height: 265px; object-fit: cover; border-radius: 9px; border: 1px solid #E5E7EB;' alt='タスクが登録された実際のGoogleカレンダー画面'/><div style='background: #EDE9FE; padding: 18px; border-radius: 9px; display: flex; flex-direction: column; justify-content: center;'><div style='text-align: center; margin-bottom: 14px;'><svg width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='#4338CA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='margin: 0 auto 8px;'><rect x='3' y='4' width='18' height='18' rx='2' ry='2'></rect><line x1='16' y1='2' x2='16' y2='6'></line><line x1='8' y1='2' x2='8' y2='6'></line><line x1='3' y1='10' x2='21' y2='10'></line></svg><strong style='color: #4338CA; font-size: 17px; display: block; margin-bottom: 7px;'>アクションアイテムがカレンダーに表示</strong></div><div style='font-size: 14px; color: #6B7280; text-align: center; line-height: 1.5;'>会議のアクションアイテムが自動でカレンダーに登録され、期限と時間も適切に設定されます</div></div></div><div style='display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px;'><div style='background: #DBEAFE; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #2563EB; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>1.</div><strong style='color: #2563EB; font-size: 16px; display: block; margin-bottom: 7px;'>時間指定タスク</strong><span style='font-size: 13px; color: #6B7280;'>13:00-14:00自動設定</span></div><div style='background: #D1FAE5; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #059669; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>2.</div><strong style='color: #059669; font-size: 16px; display: block; margin-bottom: 7px;'>終日タスク</strong><span style='font-size: 13px; color: #6B7280;'>期限のみは終日設定</span></div><div style='background: #FEF3C7; padding: 16px; border-radius: 9px; text-align: center;'><div style='color: #D97706; font-size: 18px; font-weight: bold; margin-bottom: 8px;'>3.</div><strong style='color: #D97706; font-size: 16px; display: block; margin-bottom: 7px;'>通知も自動設定</strong><span style='font-size: 13px; color: #6B7280;'>忘れる心配なし</span></div></div></div></div>",
+        "instructions": [],
+        "tips": "@Google Calendarと入力するだけでアクションアイテムがカレンダーに登録されます",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "キングがグッドジョブしている様子"
+      }
+    },
+    "page9": {
+      "role": "achievement_summary",
+      "section": "summary",
+      "content": {
+        "summaryTitle": "オフライン会議の議事録作成システム完成",
+        "achievementPoints": [
+          "60分会議→5分で議事録作成",
+          "アクションアイテムがカレンダーに自動登録",
+          "全て無料・Googleサービスのみ",
+          "音声録音で聞き逃し・記録漏れなし",
+          "有料ツールと同等の自動化を実現",
+          "追加アプリ不要・時間制限なし",
+          "オンライン会議と同等の議事録作成効率"
+        ],
+        "encouragementMessage": "Googleサービスだけで60分の会議が5分で議事録完成。アクションアイテムも自動でカレンダー登録されます"
+      }
+    }
+  }
+}
