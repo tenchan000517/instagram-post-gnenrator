@@ -1,0 +1,62 @@
+{
+  "version": "2025-08-28",
+  "industry": "通信インフラ業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 1,
+  "averageSalary": 9230000,
+  "companies": [
+    {
+      "id": "TC001",
+      "companyName": "日本電信電話株式会社",
+      "industry": "通信インフラ業界",
+      "metrics": {
+        "salary": 9230000,
+        "initialSalary": 312940,
+        "initialSalaryGrad": 324940,
+        "holidays": null,
+        "overtime": null,
+        "employees": 341321,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "グループ全体の経営戦略策定、基盤的研究開発推進、総合ICT事業、グローバル・ソリューション事業等",
+        "specialization": "通信インフラ、ICTサービス",
+        "workStyle": "リモートワーク先進導入",
+        "growth": "巨大組織における人材管理課題、グループシナジー創出"
+      },
+      "recruitment": {
+        "positions": ["総合職", "技術職"],
+        "annualHiring": "データなし",
+        "midCareer": "積極的",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補助費（36,000円～40,200円）等",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "データなし",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1985,
+        "headquarters": "東京都千代田区大手町",
+        "businessContent": "グループ全体の経営戦略策定、基盤的研究開発推進、総合ICT事業、グローバル・ソリューション事業等",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "有価証券報告書、公式サイト"
+      }
+    }
+  ]
+}

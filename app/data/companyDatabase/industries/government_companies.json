@@ -1,0 +1,1235 @@
+{
+  "version": "2025-08-28",
+  "industry": "官公庁・公社・団体",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 20,
+  "averageSalary": null,
+  "companies": [
+    {
+      "id": "GOV001",
+      "companyName": "独立行政法人都市再生機構",
+      "industry": "都市再生・住宅",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 253400,
+        "initialSalaryGrad": 265400,
+        "holidays": null,
+        "overtime": null,
+        "employees": 3210,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [
+          "事務系総合職",
+          "技術系総合職"
+        ],
+        "annualHiring": "96",
+        "midCareer": "あり",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "社宅・寮あり",
+        "transportationAllowance": "通勤費全額支給",
+        "familyAllowance": "扶養手当あり",
+        "cafeteria": "",
+        "trainingSupport": "各種研修制度",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "始業時刻変更可",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": 2004,
+        "capital": 1075700000000000,
+        "listing": "独立行政法人",
+        "employees": 3210,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV002",
+      "companyName": "独立行政法人国際協力機構",
+      "industry": "国際協力",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": 2011,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [
+          "技術系総合職",
+          "事務系総合職"
+        ],
+        "annualHiring": "",
+        "midCareer": "あり",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "社宅・寮あり",
+        "transportationAllowance": "通勤費全額支給",
+        "familyAllowance": "扶養手当あり",
+        "cafeteria": "",
+        "trainingSupport": "語学・研修支援",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "あり",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": 2003,
+        "capital": 8498100000000,
+        "listing": "独立行政法人",
+        "employees": 2011,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV003",
+      "companyName": "外務省",
+      "industry": "外政・外交",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV004",
+      "companyName": "東京都庁",
+      "industry": "地方自治体（東京都）",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV005",
+      "companyName": "文部科学省",
+      "industry": "教育・科学技術",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV006",
+      "companyName": "国土交通省",
+      "industry": "国土交通",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV007",
+      "companyName": "独立行政法人日本貿易振興機構",
+      "industry": "貿易振興",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV008",
+      "companyName": "警察庁",
+      "industry": "治安・警察",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "TRA001",
+      "companyName": "東日本高速道路株式会社",
+      "industry": "高速道路運営",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV009",
+      "companyName": "国立研究開発法人 産業技術総合研究所",
+      "industry": "産業技術研究",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV010",
+      "companyName": "農林水産省",
+      "industry": "農林水産",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV011",
+      "companyName": "経済産業省",
+      "industry": "経済産業",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "FOD001",
+      "companyName": "全国農業協同組合連合会",
+      "industry": "農業協同組合（JA）",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV012",
+      "companyName": "宇宙航空研究開発機構",
+      "industry": "宇宙航空研究",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "TRA002",
+      "companyName": "西日本高速道路株式会社",
+      "industry": "高速道路運営",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV013",
+      "companyName": "警視庁",
+      "industry": "治安・警察",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV014",
+      "companyName": "環境省",
+      "industry": "環境行政",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV015",
+      "companyName": "日本年金機構",
+      "industry": "年金・社会保障",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "GOV016",
+      "companyName": "大阪府庁",
+      "industry": "地方自治体（大阪府）",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    },
+    {
+      "id": "TRA003",
+      "companyName": "阪神高速道路株式会社",
+      "industry": "高速道路運営",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "recruitment": {
+        "positions": [],
+        "annualHiring": "",
+        "midCareer": "",
+        "internship": ""
+      },
+      "welfare": {
+        "housingAllowance": "",
+        "transportationAllowance": "",
+        "familyAllowance": "",
+        "cafeteria": "",
+        "trainingSupport": "",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "workEnvironment": {
+        "averageAge": null,
+        "genderRatio": "",
+        "remoteWork": "",
+        "flextime": "",
+        "dressCode": "",
+        "officeLocation": "",
+        "workCulture": ""
+      },
+      "corporate": {
+        "established": null,
+        "capital": null,
+        "listing": null,
+        "employees": null,
+        "revenue": null,
+        "operatingIncome": null,
+        "netIncome": null
+      }
+    }
+  ]
+}

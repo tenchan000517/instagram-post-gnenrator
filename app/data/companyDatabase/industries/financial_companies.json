@@ -1,0 +1,274 @@
+{
+  "version": "2025-08-28",
+  "industry": "金融業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 5,
+  "averageSalary": 8500000,
+  "companies": [
+    {
+      "id": "FN001",
+      "companyName": "三菱UFJフィナンシャル・グループ",
+      "industry": "銀行業（総合金融）",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 310000,
+        "holidays": 120,
+        "overtime": null,
+        "employees": 138570,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 3.2,
+        "averageTenure": 16.6
+      },
+      "features": {
+        "businessModel": "銀行、信託、証券、カード、消費者金融など、グループ一体で多様な金融サービスを提供する持株会社",
+        "specialization": "総合金融・グループ一体サービス・デジタル化推進",
+        "workStyle": "リモートワーク・フレックスタイム制度あり",
+        "growth": "デジタル化推進・グループ一体での多様な金融サービス提供"
+      },
+      "recruitment": {
+        "positions": ["銀行業務", "信託業務", "証券業務", "システム"],
+        "annualHiring": "500",
+        "midCareer": "あり",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "社宅・独身寮制度あり（コースによる）",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "確定拠出年金、従業員持株会、ベビーシッターサービス、企業内保育園",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 2001,
+        "headquarters": "東京都千代田区丸の内",
+        "businessContent": "銀行、信託、証券、カード、消費者金融など、グループ一体で多様な金融サービスを提供する持株会社",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "企業公式サイト、有価証券報告書"
+      }
+    },
+    {
+      "id": "FN002",
+      "companyName": "三井住友銀行",
+      "industry": "銀行業",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 300000,
+        "holidays": 120,
+        "overtime": null,
+        "employees": 28063,
+        "vacationRate": 85,
+        "maleParentalLeaveRate": 116.1,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 3,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "預金、貸出、為替、有価証券売買・投資など、銀行業務全般",
+        "specialization": "銀行業務全般・5営業日連続休暇・働き方改革",
+        "workStyle": "リモートワーク制度あり",
+        "growth": "5営業日連続休暇・勤続休暇制度・働き方改革推進"
+      },
+      "recruitment": {
+        "positions": ["総合職", "銀行業務", "営業", "システム"],
+        "annualHiring": "481",
+        "midCareer": "あり",
+        "internship": "夏期に実施"
+      },
+      "welfare": {
+        "housingAllowance": "あり",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "5営業日連続休暇、勤続休暇制度、資格取得支援制度",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1912,
+        "headquarters": "東京都千代田区丸の内",
+        "businessContent": "預金、貸出、為替、有価証券売買・投資など、銀行業務全般",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "企業公式サイト、有価証券報告書"
+      }
+    },
+    {
+      "id": "FN003",
+      "companyName": "みずほフィナンシャルグループ",
+      "industry": "金融業界",
+      "metrics": {
+        "salary": 10727000,
+        "initialSalary": 280000,
+        "initialSalaryGrad": 300000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 52307,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 105,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 16.4
+      },
+      "features": {
+        "businessModel": "銀行持株会社としてグループ会社の経営管理及び附帯業務",
+        "specialization": "グループ5社共通新人事制度・グループ横断異動・副業制度",
+        "workStyle": "ハイブリッド（部署により制度導入）・フレックスタイム制度",
+        "growth": "従業員が自律的にキャリアをデザインすることを支援"
+      },
+      "recruitment": {
+        "positions": ["銀行業務", "証券", "信託", "システム"],
+        "annualHiring": "301",
+        "midCareer": "積極的（公式サイトにて多数のポジションを常時募集）",
+        "internship": "夏期・冬期等で実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補給金等の制度あり",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "通勤補給費全額支給、昼食費補助、グループ5社共通の新人事制度〈かなで〉",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 2003,
+        "headquarters": "東京都千代田区大手町",
+        "businessContent": "銀行持株会社としてグループ会社の経営管理及び附帯業務",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "CDP 気候変動スコア: A- (2023年評価)、FTSE4Good Index Series構成銘柄に選定、MSCI ESGレーティング: AA",
+        "dataSource": "2024年3月期有価証券報告書、公式サイト（採用ページ、サステナビリティレポート）、リクナビ2026、外部ESG評価機関"
+      }
+    },
+    {
+      "id": "FN004",
+      "companyName": "楽天銀行",
+      "industry": "ネット銀行",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 272000,
+        "initialSalaryGrad": 275500,
+        "holidays": 120,
+        "overtime": 19,
+        "employees": 877,
+        "vacationRate": 100,
+        "maleParentalLeaveRate": 55.5,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "インターネット等の電子メディアを介した銀行業。楽天エコシステムとの連携が強み",
+        "specialization": "ネット銀行・楽天エコシステム連携・テクノロジー重視",
+        "workStyle": "データなし",
+        "growth": "楽天エコシステム連携・高い中途採用比率・テクノロジー重視"
+      },
+      "recruitment": {
+        "positions": ["システム開発", "金融商品企画", "マーケティング", "データ分析"],
+        "annualHiring": "150",
+        "midCareer": "あり（中途採用比率44%、2024年度）",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "確定拠出型年金（401k）、資格取得支援、英語学習支援",
+        "welfareGrade": "B"
+      },
+      "scores": {
+        "salary": "B",
+        "worklife": "A",
+        "overall": "B",
+        "welfare": "B"
+      },
+      "companyDetails": {
+        "established": 2000,
+        "headquarters": "東京都港区港南",
+        "businessContent": "インターネット等の電子メディアを介した銀行業。楽天エコシステムとの連携が強み",
+        "listingStatus": "データなし",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "企業公式サイト、採用情報"
+      }
+    },
+    {
+      "id": "FN005",
+      "companyName": "りそな銀行",
+      "industry": "銀行業（都市銀行）",
+      "metrics": {
+        "salary": 7270000,
+        "initialSalary": 280000,
+        "initialSalaryGrad": 280000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 8216,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "フルラインの信託業務を併営する商業銀行。リテール分野に強み",
+        "specialization": "リテール分野・信託業務併営・商業銀行",
+        "workStyle": "データなし",
+        "growth": "リテール分野に強み・フルライン信託業務併営"
+      },
+      "recruitment": {
+        "positions": ["ソリューションコース", "銀行業務", "信託業務", "営業"],
+        "annualHiring": "データなし",
+        "midCareer": "データなし",
+        "internship": "データなし"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "データなし",
+        "welfareGrade": "B"
+      },
+      "scores": {
+        "salary": "B",
+        "worklife": "B",
+        "overall": "B",
+        "welfare": "B"
+      },
+      "companyDetails": {
+        "established": 2003,
+        "headquarters": "大阪府大阪市中央区",
+        "businessContent": "フルラインの信託業務を併営する商業銀行。リテール分野に強み",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "企業公式サイト、有価証券報告書"
+      }
+    }
+  ]
+}

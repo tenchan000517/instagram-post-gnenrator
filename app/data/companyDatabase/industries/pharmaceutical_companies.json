@@ -1,0 +1,62 @@
+{
+  "version": "2025-08-28",
+  "industry": "製薬・食品・化学・外資IT業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 10,
+  "averageSalary": 11170000,
+  "companies": [
+    {
+      "id": "PH001",
+      "companyName": "武田薬品工業株式会社",
+      "industry": "製薬業・医薬品製造業",
+      "metrics": {
+        "salary": 11040000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 325000,
+        "holidays": 123,
+        "overtime": 17.9,
+        "employees": 49095,
+        "vacationRate": 70.0,
+        "maleParentalLeaveRate": 83.0,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "消化器系・希少疾患・血漿分画製剤・オンコロジー・ニューロサイエンス・ワクチンの研究開発・製造・販売",
+        "specialization": "グローバル製薬企業、研究開発重視",
+        "workStyle": "データなし",
+        "growth": "グローバルキャリア制度、公募制度"
+      },
+      "recruitment": {
+        "positions": ["総合職", "研究職"],
+        "annualHiring": "データなし",
+        "midCareer": "積極的",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "借家補助費（家賃の約7割補助）、借上社宅制度",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "データなし",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1781,
+        "headquarters": "東京都中央区日本橋本町2-1-1（東京グローバル本社）",
+        "businessContent": "消化器系・希少疾患・血漿分画製剤・オンコロジー・ニューロサイエンス・ワクチンの研究開発・製造・販売",
+        "listingStatus": "東証プライム市場、NYSE上場",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "有価証券報告書、公式サイト"
+      }
+    }
+  ]
+}

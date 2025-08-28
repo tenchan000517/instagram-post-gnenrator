@@ -1,0 +1,673 @@
+[
+  {
+    "id": "RETAIL001",
+    "companyName": "株式会社ファーストリテイリング",
+    "industry": "アパレル製造小売業",
+    "metrics": {
+      "salary": 901,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 135,
+      "overtime": 16.3,
+      "employees": 58000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 74.6,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "「ユニクロ」「ジーユー」等を展開するアパレル製造小売業",
+      "specialization": "「LifeWear = 新しい産業」戦略・サステナブル素材転換",
+      "workStyle": null,
+      "growth": "販売員キャリアパス改革・多様なキャリアパス提供"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "実施あり"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "山口県山口市",
+      "workCulture": "LifeWear戦略・グローバル展開・多様性重視"
+    },
+    "corporate": {
+      "established": 1963,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 58000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL002",
+    "companyName": "株式会社パン・パシフィック・インターナショナルホールディングス",
+    "industry": "小売業界",
+    "metrics": {
+      "salary": 694,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 17168,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 55.6,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 14.6
+    },
+    "features": {
+      "businessModel": "「ドン・キホーテ」等を運営する子会社の経営企画・管理・不動産管理",
+      "specialization": "「圧縮陳列」による独特の店舗空間・深夜営業・驚安商品",
+      "workStyle": "シフト制（月9日休み）",
+      "growth": "権限委譲システム・現場担当者への大きな裁量付与"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "なし（社宅制度として賃貸物件の従業員優待あり）",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "ライフプラン手当1,000円/月・確定拠出年金全員加入",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都渋谷区道玄坂",
+      "workCulture": "権限委譲・現場重視・裁量労働"
+    },
+    "corporate": {
+      "established": 1980,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 17168,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL003",
+    "companyName": "株式会社高島屋",
+    "industry": "小売業界",
+    "metrics": {
+      "salary": 69,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 122,
+      "overtime": null,
+      "employees": 10494,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 25.1
+    },
+    "features": {
+      "businessModel": "百貨店業を核とした総合小売サービス事業",
+      "specialization": "創業1831年の老舗百貨店として業界をリード",
+      "workStyle": null,
+      "growth": "TSUNAGU ACTION・女性管理職比率向上施策"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": 62,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "社宅制度（対象者のみ、社内規則あり）",
+      "transportationAllowance": "通勤手当",
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "超過勤務手当・地域手当・社員買物制度",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "大阪府大阪市中央区難波・東京都中央区日本橋",
+      "workCulture": "伝統・サービス重視・女性活躍推進"
+    },
+    "corporate": {
+      "established": 1831,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 10494,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL004",
+    "companyName": "株式会社三越伊勢丹ホールディングス",
+    "industry": "百貨店業・小売業",
+    "metrics": {
+      "salary": 83,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 118,
+      "overtime": null,
+      "employees": 6264,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 81.8,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "百貨店業等の事業を行う子会社および関連会社の経営計画・管理",
+      "specialization": "1673年創業の歴史ある高級百貨店としての伝統と革新",
+      "workStyle": "一部可・サテライトオフィスや在宅勤務・フレックスタイム一部",
+      "growth": "連続休暇制度・チャレンジキャリア制度"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "採用あり",
+      "internship": "実施・詳細は決定次第案内"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助なし",
+      "transportationAllowance": "通勤費（会社指定最安値ルート）",
+      "familyAllowance": null,
+      "cafeteria": "ベネフィットステーション利用可",
+      "trainingSupport": null,
+      "uniqueBenefits": "社販制度",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "一部可・サテライトオフィスや在宅勤務",
+      "flextime": "フレックスタイム一部あり",
+      "dressCode": null,
+      "officeLocation": "東京都新宿区西新宿",
+      "workCulture": "伝統と革新・高級路線・おもてなし重視"
+    },
+    "corporate": {
+      "established": 2008,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 6264,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL005",
+    "companyName": "株式会社ゼンショーホールディングス",
+    "industry": "外食・小売業",
+    "metrics": {
+      "salary": 614,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 118,
+      "overtime": 20.0,
+      "employees": 18742,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "外食チェーン経営・食材加工・販売システム開発運営",
+      "specialization": "MMD（調達・製造・物流・販売一貫管理）ビジネスモデル",
+      "workStyle": "一部可・本社勤務では可能・フレックス一部あり",
+      "growth": "9コース制採用・DX認定事業者"
+    },
+    "recruitment": {
+      "positions": ["総合職", "グローバルバイヤー", "IT", "技術", "R&D", "介護", "法務", "建設", "水産"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "実施（各コース別）"
+    },
+    "welfare": {
+      "housingAllowance": "借り上げ社宅制度・家賃補助制度あり",
+      "transportationAllowance": null,
+      "familyAllowance": "家族手当",
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "営業手当・単身赴任手当・転勤補助手当・車両補助金",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "一部可・本社勤務では可能",
+      "flextime": "フレックス一部あり",
+      "dressCode": null,
+      "officeLocation": "東京都港区港南",
+      "workCulture": "MMD・多角化・DX推進"
+    },
+    "corporate": {
+      "established": 1982,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 18742,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL006",
+    "companyName": "株式会社すかいらーくホールディングス",
+    "industry": "外食・フードサービス業界",
+    "metrics": {
+      "salary": 695,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 103715,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 21.0
+    },
+    "features": {
+      "businessModel": "ファミリーレストラン・専門レストランチェーンの運営",
+      "specialization": "多様な業態での大規模チェーン展開",
+      "workStyle": "1ヶ月単位の変形労働時間制度・4・6・8・10時間振り分け",
+      "growth": "MSP（マネジャーステップアッププログラム）・確定拠出年金制度"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": 88,
+      "midCareer": "積極採用（アルムナイ採用制度あり）",
+      "internship": "「食のテーマパーク」体験型・年間6,000名参加"
+    },
+    "welfare": {
+      "housingAllowance": "地域相場の半額程度/月（条件あり）",
+      "transportationAllowance": "通勤手当",
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "時間外勤務手当・深夜勤務手当・転居手当・子育て看護休暇",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": "1ヶ月単位の変形労働時間制度",
+      "dressCode": null,
+      "officeLocation": "東京都武蔵野市西久保",
+      "workCulture": "ファミレス・多業態・大規模チェーン"
+    },
+    "corporate": {
+      "established": 1962,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 103715,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL007",
+    "companyName": "株式会社FOOD & LIFE COMPANIES",
+    "industry": "外食産業・回転寿司チェーン",
+    "metrics": {
+      "salary": 537,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 119,
+      "overtime": 30.0,
+      "employees": 32000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": 10.3,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "回転寿司「スシロー」等の外食チェーン運営・フランチャイズ事業",
+      "specialization": "回転寿司業界13年連続売上高第1位の圧倒的地位",
+      "workStyle": "3交代制シフト・月間変形労働時間制",
+      "growth": "ブロック・エリア限定勤務制度・デジタル化推進（デジロー導入）"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "積極採用（中途採用比率100％の部門あり）",
+      "internship": "実施・期間・報酬は要確認"
+    },
+    "welfare": {
+      "housingAllowance": "独身寮月2万円～（条件: 単身者対象）",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "役職手当・単身赴任手当・帰省交通費・地域手当・企業型保育園",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "大阪府吹田市江坂町",
+      "workCulture": "回転寿司業界No.1・デジタル化・効率性重視"
+    },
+    "corporate": {
+      "established": 1984,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 32000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL008",
+    "companyName": "日本マクドナルドホールディングス株式会社",
+    "industry": "小売・外食業界",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 119,
+      "overtime": 18.4,
+      "employees": 2703,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 50.0,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 61.5,
+      "femaleParentalLeaveRate": 90.0,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "ハンバーガーレストランチェーンを経営する会社の株式所有によるグループ経営",
+      "specialization": "フランチャイズ戦略・標準化オペレーション",
+      "workStyle": null,
+      "growth": "専門教育機関「ハンバーガー大学」での人材育成・地域社員制度"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": 150,
+      "midCareer": "採用あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "リフレッシュ休暇・永年勤続休暇",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都新宿区西新宿",
+      "workCulture": "フランチャイズ・標準化・人材育成重視"
+    },
+    "corporate": {
+      "established": 1971,
+      "capital": null,
+      "listing": "東証スタンダード",
+      "employees": 2703,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL009",
+    "companyName": "株式会社オリエンタルランド",
+    "industry": "小売・サービス・エンターテインメント業界",
+    "metrics": {
+      "salary": 594,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 120,
+      "overtime": 13.5,
+      "employees": 26713,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 101.6,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 69.0,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": 2.8,
+      "averageTenure": 10.3
+    },
+    "features": {
+      "businessModel": "東京ディズニーリゾートの経営・運営・ホテル経営・不動産賃貸事業",
+      "specialization": "東京ディズニーリゾートの唯一無二の体験価値",
+      "workStyle": "週に数日リモートワーク・フレックスタイム（コアタイム10:30-15:00）",
+      "growth": "「The Five Keys～5つの鍵～」行動規準・キャリア研修"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "実施あり"
+    },
+    "welfare": {
+      "housingAllowance": "なし（独身寮あり）",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "カフェテリアプラン",
+      "trainingSupport": null,
+      "uniqueBenefits": "パークチケット配付",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "週に数日リモートワーク",
+      "flextime": "フレックスタイム（コアタイム10:30-15:00）",
+      "dressCode": null,
+      "officeLocation": "千葉県浦安市舞浜",
+      "workCulture": "ディズニー・おもてなし・体験価値・夢と魔法"
+    },
+    "corporate": {
+      "established": 1960,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 26713,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL010",
+    "companyName": "東宝株式会社",
+    "industry": "エンターテインメント・メディア業界",
+    "metrics": {
+      "salary": 1084,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 447,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 11.0
+    },
+    "features": {
+      "businessModel": "映画（製作・配給）・アニメ・演劇・不動産経営を4本柱とする総合エンターテインメント",
+      "specialization": "『ゴジラ』『君の名は。』等の強力なIP保有・多角展開",
+      "workStyle": "一部職種で相談可・フレックスタイム",
+      "growth": "資格取得支援制度・自己啓発支援制度"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": 14,
+      "midCareer": "積極採用（プロデューサー職など）",
+      "internship": "実施あり（映画・演劇・不動産コース）"
+    },
+    "welfare": {
+      "housingAllowance": "なし（独身寮・住宅資金融資制度あり）",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "カフェテリアプラン",
+      "trainingSupport": null,
+      "uniqueBenefits": "確定給付/確定拠出年金",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "一部職種で相談可",
+      "flextime": "フレックスタイム",
+      "dressCode": null,
+      "officeLocation": "東京都千代田区有楽町",
+      "workCulture": "エンターテインメント・映画・演劇・コンテンツ重視"
+    },
+    "corporate": {
+      "established": 1932,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 447,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "RETAIL011",
+    "companyName": "IHG・ANA・ホテルズグループジャパン合同会社",
+    "industry": "ホテル・宿泊業",
+    "metrics": {
+      "salary": 518,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 105,
+      "overtime": null,
+      "employees": 175,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "国際ホテルブランド運営・10ブランド53ホテル約14,000室を展開",
+      "specialization": "ANAブランドとの相乗効果による独特なポジション",
+      "workStyle": "一部可・本社機能部門で在宅勤務制度・24時間営業によりシフト制",
+      "growth": "IHG One Rewards会員プログラム・ANAマイレージクラブとの連携"
+    },
+    "recruitment": {
+      "positions": ["ホテル運営職"],
+      "annualHiring": null,
+      "midCareer": "積極採用（多様な職種で中途採用実施）",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "グループホテル宿泊割引・アップグレード特典・IHG One Rewards会員特典",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "一部可・本社機能部門で在宅勤務制度",
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都港区虎ノ門",
+      "workCulture": "国際ホテルブランド・ANAブランド・ホスピタリティ重視"
+    },
+    "corporate": {
+      "established": 2006,
+      "capital": null,
+      "listing": "非上場",
+      "employees": 175,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]

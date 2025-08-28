@@ -1,0 +1,62 @@
+{
+  "version": "2025-08-28",
+  "industry": "インフラ業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 7,
+  "averageSalary": 7800000,
+  "companies": [
+    {
+      "id": "IF001",
+      "companyName": "東日本旅客鉄道株式会社",
+      "industry": "インフラ・鉄道業界",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": 39660,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "旅客鉄道事業を中核に、駅ナカ等の流通・サービス、不動産・ホテル事業、Suica事業等を展開",
+        "specialization": "鉄道インフラ、駅ナカ事業",
+        "workStyle": "データなし",
+        "growth": "データなし"
+      },
+      "recruitment": {
+        "positions": ["総合職", "技術職"],
+        "annualHiring": "データなし",
+        "midCareer": "積極的",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "データなし",
+        "welfareGrade": "B"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "B"
+      },
+      "companyDetails": {
+        "established": 1987,
+        "headquarters": "東京都渋谷区代々木",
+        "businessContent": "旅客鉄道事業を中核に、駅ナカ等の流通・サービス、不動産・ホテル事業、Suica事業等を展開",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "有価証券報告書、公式サイト"
+      }
+    }
+  ]
+}

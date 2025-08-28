@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "BAN001",
+    "companyName": "株式会社みずほフィナンシャルグループ",
+    "industry": "銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": 260000,
+      "initialSalaryGrad": null,
+      "holidays": 120,
+      "overtime": 21.2,
+      "employees": 52554,
+      "operatingMarginRate": 12.9,
+      "roe": 8.5,
+      "vacationRate": 83.4,
+      "parentalLeaveReturn": 94.1,
+      "maleParentalLeaveRate": 105,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "国内外の幅広い顧客に総合金融サービスを提供",
+      "specialization": "法人・個人向けの銀行・信託・証券サービスを展開",
+      "workStyle": "フレックス制度導入、多様な働き方を推進",
+      "growth": "社内公募・異動制度で多様なキャリア形成機会"
+    },
+    "recruitment": {
+      "positions": ["事務系", "営業系", "技術系", "IT系", "専門系"],
+      "annualHiring": 301,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "独身寮あり、住宅補給金支給",
+      "transportationAllowance": "交通費全額支給",
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "自己啓発費用補助など",
+      "uniqueBenefits": "週休3日制度、自分磨き休職、バースサポート:contentReference[oaicite:8]{index=8}",
+      "welfareGrade": "A",
+      "clubActivities": "サッカー部、野球部、ラグビー部、テニス部、卓球部など多彩な部活動:contentReference[oaicite:9]{index=9}"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性60:女性40:contentReference[oaicite:10]{index=10}",
+      "remoteWork": "一部導入 (週数日リモート可):contentReference[oaicite:11]{index=11}",
+      "flextime": "あり:contentReference[oaicite:12]{index=12}",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京都千代田区大手町1-5-5 大手町タワー:contentReference[oaicite:13]{index=13}",
+      "workCulture": "協調性と挑戦を重んじる風土"
+    },
+    "corporate": {
+      "established": 2003,
+      "capital": 1404065,
+      "listing": "プライム",
+      "employees": 52554,
+      "revenue": 9030374,
+      "operatingIncome": 1168141,
+      "netIncome": 885433
+    }
+  },
+  {
+    "id": "BAN002",
+    "companyName": "株式会社三菱UFJ銀行",
+    "industry": "銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 120,
+      "overtime": null,
+      "employees": 31427,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "銀行業務を中核に国内外の金融サービスを提供する大手銀行",
+      "specialization": "法人・個人の幅広い金融ニーズに対応",
+      "workStyle": "フレックス・在宅勤務制度あり",
+      "growth": "多様な研修制度とグループ間異動でキャリア形成"
+    },
+    "recruitment": {
+      "positions": ["総合職", "エリア職", "専門職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": "交通費全額支給",
+      "familyAllowance": null,
+      "cafeteria": "社員食堂あり",
+      "trainingSupport": "各種研修制度・資格取得支援",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "野球部、サッカー部など"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "スーツ",
+      "officeLocation": "東京都千代田区大手町",
+      "workCulture": "大手銀行らしい安定志向"
+    },
+    "corporate": {
+      "established": 1919,
+      "capital": 1711900,
+      "listing": "非上場",
+      "employees": 31427,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "BAN003",
+    "companyName": "株式会社三井住友銀行",
+    "industry": "銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 120,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "大手銀行グループの中核として総合金融サービスを提供",
+      "specialization": "法人融資・リテール銀行を中心に強み",
+      "workStyle": "フレックスタイム制度導入、サテライトオフィスあり",
+      "growth": "多様なキャリアパスと研修機会"
+    },
+    "recruitment": {
+      "positions": ["総合職", "コース別職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "住宅手当あり",
+      "transportationAllowance": "通勤手当全額",
+      "familyAllowance": "家族手当あり",
+      "cafeteria": "社員食堂あり",
+      "trainingSupport": "研修充実",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "テニス部、野球部など"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 5:5",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京都千代田区丸の内",
+      "workCulture": "成果主義を重視する風土"
+    },
+    "corporate": {
+      "established": 2001,
+      "capital": 316612,
+      "listing": "東証プライム",
+      "employees": 52039,
+      "revenue": 3890704,
+      "operatingIncome": 923086,
+      "netIncome": 724130
+    }
+  },
+  {
+    "id": "BAN004",
+    "companyName": "株式会社横浜銀行",
+    "industry": "銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 125,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "地域密着型の地方銀行として金融サービスを提供",
+      "specialization": "中小企業融資、個人向けローンに強み",
+      "workStyle": "フレックス制度・在宅勤務あり",
+      "growth": "研修制度が充実、横浜エリアでのキャリア機会"
+    },
+    "recruitment": {
+      "positions": ["総合職", "エリア職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "独身寮・借上社宅あり",
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": "家族手当",
+      "cafeteria": null,
+      "trainingSupport": "社内研修多数",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "野球部、バスケット部等"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性約50%:女性約50%",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "横浜市中区日本大通",
+      "workCulture": "地域志向で協調性重視"
+    },
+    "corporate": {
+      "established": 1920,
+      "capital": 41320,
+      "listing": "東証プライム",
+      "employees": 3098,
+      "revenue": 431299,
+      "operatingIncome": 149865,
+      "netIncome": 144033
+    }
+  },
+  {
+    "id": "BAN005",
+    "companyName": "株式会社西日本シティ銀行",
+    "industry": "銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 122,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "九州地方を中心に展開する地方銀行",
+      "specialization": "個人・中小企業向け金融サービス",
+      "workStyle": "フレックス制度あり",
+      "growth": "地域開発など新規事業の機会"
+    },
+    "recruitment": {
+      "positions": ["総合職", "エリア職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": "家族手当",
+      "cafeteria": null,
+      "trainingSupport": "研修制度有",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": "ソフトボール部など"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "スーツ",
+      "officeLocation": "福岡市博多区博多駅東",
+      "workCulture": "地域密着の温かい社風"
+    },
+    "corporate": {
+      "established": 1943,
+      "capital": 221000,
+      "listing": "東証プライム",
+      "employees": 3204,
+      "revenue": 238124,
+      "operatingIncome": 60212,
+      "netIncome": 33211
+    }
+  },
+  {
+    "id": "BAN006",
+    "companyName": "株式会社ふくおかフィナンシャルグループ",
+    "industry": "金融持株会社",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 121,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "福岡銀行等を傘下とする九州地域中心の金融持株会社",
+      "specialization": "地域金融とリテール金融で強み",
+      "workStyle": "フレックス制度導入、在宅勤務あり",
+      "growth": "九州経済支援を通じた多様な経験"
+    },
+    "recruitment": {
+      "positions": ["総合職", "地域職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "寮あり",
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "研修・資格取得支援",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": "ゴルフ・ソフトボール部など"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "福岡市中央区天神",
+      "workCulture": "家族的で協力的な職場風土"
+    },
+    "corporate": {
+      "established": 2007,
+      "capital": 500000,
+      "listing": "東証プライム",
+      "employees": 4399,
+      "revenue": 451276,
+      "operatingIncome": 119428,
+      "netIncome": 78500
+    }
+  },
+  {
+    "id": "BAN007",
+    "companyName": "株式会社りそなホールディングス",
+    "industry": "金融持株会社",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 121,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "大手金融グループの持株会社として銀行等運営",
+      "specialization": "個人金融と中小企業金融に強み",
+      "workStyle": "フレックス制度・多様な勤務形態導入",
+      "growth": "若手にもチャンスある風土"
+    },
+    "recruitment": {
+      "positions": ["総合職", "地域総合職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "社宅・独身寮あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "家族手当",
+      "cafeteria": "食堂あり",
+      "trainingSupport": "階層別研修",
+      "uniqueBenefits": "短時間勤務制度",
+      "welfareGrade": "B",
+      "clubActivities": "野球部、テニス部"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 5:5",
+      "remoteWork": "一部導入",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "大阪市中央区本町",
+      "workCulture": "安定かつオープンな社風"
+    },
+    "corporate": {
+      "established": 2003,
+      "capital": 224756,
+      "listing": "東証プライム",
+      "employees": 15750,
+      "revenue": 309057,
+      "operatingIncome": 94821,
+      "netIncome": 61520
+    }
+  },
+  {
+    "id": "BAN008",
+    "companyName": "株式会社京都銀行",
+    "industry": "銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 125,
+      "overtime": null,
+      "employees": 2783,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "京都府内で地盤を持つ地方銀行",
+      "specialization": "府内中小企業と個人金融に注力",
+      "workStyle": "ワークライフバランス重視の制度",
+      "growth": "地域経済の発展を支援できる環境"
+    },
+    "recruitment": {
+      "positions": ["総合職", "地域職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "独身寮あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": "社員食堂あり",
+      "trainingSupport": "研修充実",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": "野球部、ソフトテニス部"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "一部可",
+      "flextime": "なし",
+      "dressCode": "スーツ",
+      "officeLocation": "京都市下京区",
+      "workCulture": "地域密着の安定した文化"
+    },
+    "corporate": {
+      "established": 1927,
+      "capital": 15955,
+      "listing": "東証プライム",
+      "employees": 2783,
+      "revenue": 94800,
+      "operatingIncome": 31280,
+      "netIncome": 19250
+    }
+  },
+  {
+    "id": "BAN009",
+    "companyName": "株式会社あいちフィナンシャルグループ",
+    "industry": "金融持株会社",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 125,
+      "overtime": null,
+      "employees": 1763,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "名古屋銀行等を傘下にもつ地銀系持株会社",
+      "specialization": "愛知県内の地元企業支援に注力",
+      "workStyle": "フレックス・在宅勤務制度あり",
+      "growth": "地域経済に貢献できる機会多数"
+    },
+    "recruitment": {
+      "positions": ["総合職", "エリア総合職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "社宅・借上社宅あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "研修・セミナー",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": "野球部、バドミントン部"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "名古屋市中区丸の内",
+      "workCulture": "地域重視の落ち着いた風土"
+    },
+    "corporate": {
+      "established": 2005,
+      "capital": 204931,
+      "listing": "東証プライム",
+      "employees": 1763,
+      "revenue": 137838,
+      "operatingIncome": 27893,
+      "netIncome": 18912
+    }
+  },
+  {
+    "id": "BAN010",
+    "companyName": "株式会社名古屋銀行",
+    "industry": "銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 125,
+      "overtime": null,
+      "employees": 1763,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "愛知県を中心に展開する地元金融機関",
+      "specialization": "地域密着の法人・個人金融サービス",
+      "workStyle": "フレックス・在宅勤務導入",
+      "growth": "地元企業支援で多彩な経験"
+    },
+    "recruitment": {
+      "positions": ["総合職", "エリア総合職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "社宅・独身寮あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "各種研修制度",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": "サッカー部、野球部"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "一部導入",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "名古屋市中村区名駅",
+      "workCulture": "地域経済活性化志向"
+    },
+    "corporate": {
+      "established": 1877,
+      "capital": 112232,
+      "listing": "東証プライム",
+      "employees": 1763,
+      "revenue": 137838,
+      "operatingIncome": 27893,
+      "netIncome": 18912
+    }
+  },
+  {
+    "id": "BAN011",
+    "companyName": "日本銀行",
+    "industry": "中央銀行",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 4665,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "政府の委託を受け金融政策等を実施する中央銀行",
+      "specialization": "発券銀行、金融システム維持に特化",
+      "workStyle": "フレックス制度、時差出勤制度あり",
+      "growth": "金融経済の研究・国際業務経験"
+    },
+    "recruitment": {
+      "positions": ["一般職", "専門職"],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "寮制度あり",
+      "transportationAllowance": "通勤費全額",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "高度な研修機会",
+      "uniqueBenefits": null,
+      "welfareGrade": "A",
+      "clubActivities": "野球部、サッカー部"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 7:3",
+      "remoteWork": "限定的に導入",
+      "flextime": "あり",
+      "dressCode": "フォーマル",
+      "officeLocation": "東京都千代田区大手町1-9-9",
+      "workCulture": "公共性・規律重視"
+    },
+    "corporate": {
+      "established": 1882,
+      "capital": null,
+      "listing": "なし",
+      "employees": 4665,
+      "revenue": 103503,
+      "operatingIncome": 63629,
+      "netIncome": 11891
+    }
+  },
+  {
+    "id": "BAN012",
+    "companyName": "株式会社野村ホールディングス",
+    "industry": "証券業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 121,
+      "overtime": null,
+      "employees": 26916,
+      "operatingMarginRate": 28.7,
+      "roe": 7.4,
+      "vacationRate": 76.0,
+      "parentalLeaveReturn": 97.8,
+      "maleParentalLeaveRate": 73,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "国内最大手の総合証券グループ",
+      "specialization": "投資銀行・リテール・資産運用が強み",
+      "workStyle": "フレックス制度と在宅勤務導入",
+      "growth": "国際展開と多様なキャリア機会"
+    },
+    "recruitment": {
+      "positions": ["総合職", "事務職"],
+      "annualHiring": null,
+      "midCareer": "増員中",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "外部研修機会多数",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "野球部、登山部"
+    },
+    "workEnvironment": {
+      "averageAge": 33.8,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "スーツ",
+      "officeLocation": "東京都中央区日本橋",
+      "workCulture": "成果主義と自由闊達"
+    },
+    "corporate": {
+      "established": 1925,
+      "capital": 194681,
+      "listing": "東証プライム",
+      "employees": 26916,
+      "revenue": 391366,
+      "operatingIncome": 112149,
+      "netIncome": 57154
+    }
+  },
+  {
+    "id": "BAN013",
+    "companyName": "大和証券グループ本社",
+    "industry": "証券業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 121,
+      "overtime": null,
+      "employees": 9500,
+      "operatingMarginRate": 30.0,
+      "roe": 10.5,
+      "vacationRate": 75.0,
+      "parentalLeaveReturn": 96.5,
+      "maleParentalLeaveRate": 70,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "総合証券会社として国内外で金融サービス提供",
+      "specialization": "リテール営業とグローバル投資に強み",
+      "workStyle": "フレックス導入、テレワーク推進",
+      "growth": "多文化チームでグローバルな成長"
+    },
+    "recruitment": {
+      "positions": ["総合職", "リテールコース"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "社内外研修",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "野球部、ソフトテニス部"
+    },
+    "workEnvironment": {
+      "averageAge": 35.2,
+      "genderRatio": "男性:女性 = 5:5",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京都千代田区大手町",
+      "workCulture": "チャレンジ精神旺盛"
+    },
+    "corporate": {
+      "established": 1943,
+      "capital": 770284,
+      "listing": "東証プライム",
+      "employees": 9500,
+      "revenue": 339500,
+      "operatingIncome": 101850,
+      "netIncome": 35100
+    }
+  },
+  {
+    "id": "BAN014",
+    "companyName": "株式会社みずほ銀行",
+    "industry": "銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 120,
+      "overtime": 21.2,
+      "employees": 32094,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 83.4,
+      "parentalLeaveReturn": 94.1,
+      "maleParentalLeaveRate": 105,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "大手都市銀行として多様な金融サービス提供",
+      "specialization": "法人融資および国際業務に強み",
+      "workStyle": "フレックス制とリモート勤務あり",
+      "growth": "グループ横断の人事異動制度"
+    },
+    "recruitment": {
+      "positions": ["総合職", "地域総合職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "独身寮あり",
+      "transportationAllowance": "交通費全額",
+      "familyAllowance": "扶養手当",
+      "cafeteria": "社食あり",
+      "trainingSupport": "豊富な研修制度",
+      "uniqueBenefits": "子育て支援制度",
+      "welfareGrade": "A",
+      "clubActivities": "部活動多数"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京都千代田区大手町1-5-5",
+      "workCulture": "グループ一体の協力文化"
+    },
+    "corporate": {
+      "established": 1943,
+      "capital": 325225,
+      "listing": "東証プライム",
+      "employees": 32094,
+      "revenue": 3678000,
+      "operatingIncome": 904500,
+      "netIncome": 668300
+    }
+  },
+  {
+    "id": "BAN015",
+    "companyName": "株式会社三井住友信託銀行",
+    "industry": "信託銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 122,
+      "overtime": null,
+      "employees": 9275,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "信託銀行として資産運用・不動産・年金事業を展開",
+      "specialization": "信託・資産管理サービスに強み",
+      "workStyle": "フレックス制、テレワーク実施",
+      "growth": "専門性を活かせる研修制度"
+    },
+    "recruitment": {
+      "positions": ["総合職", "専門職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "独身寮あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "家族手当",
+      "cafeteria": null,
+      "trainingSupport": "各種研修・資格支援",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "テニス部など"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "一部導入",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京都千代田区有楽町",
+      "workCulture": "堅実志向"
+    },
+    "corporate": {
+      "established": 1925,
+      "capital": 103000,
+      "listing": "東証プライム",
+      "employees": 9275,
+      "revenue": 741200,
+      "operatingIncome": 182300,
+      "netIncome": 122800
+    }
+  },
+  {
+    "id": "BAN016",
+    "companyName": "株式会社三菱UFJ信託銀行",
+    "industry": "信託銀行業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 122,
+      "overtime": null,
+      "employees": 5925,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "三菱UFJグループの信託銀行として事業信託業務を担当",
+      "specialization": "不動産信託、資産運用、事業年金等に強み",
+      "workStyle": "フレックス制度、在宅勤務可",
+      "growth": "大手グループで安定したキャリア"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "独身寮あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "内部研修、資格取得支援",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "テニス部"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "一部あり",
+      "flextime": "あり",
+      "dressCode": "スーツ",
+      "officeLocation": "東京都中央区京橋",
+      "workCulture": "堅実で協調的"
+    },
+    "corporate": {
+      "established": 1925,
+      "capital": 60000,
+      "listing": "東証プライム",
+      "employees": 5925,
+      "revenue": 500000,
+      "operatingIncome": 130000,
+      "netIncome": 80000
+    }
+  },
+  {
+    "id": "BAN017",
+    "companyName": "株式会社みずほ証券",
+    "industry": "証券業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 121,
+      "overtime": null,
+      "employees": 7800,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "みずほグループの証券会社として営業・引受・マーケット業務を展開",
+      "specialization": "リテール営業と法人営業に強み",
+      "workStyle": "フレックス・リモート制度あり",
+      "growth": "グローバル業務での海外経験機会"
+    },
+    "recruitment": {
+      "positions": ["総合職", "一般職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "豊富な研修プログラム",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "野球部、フットサル部"
+    },
+    "workEnvironment": {
+      "averageAge": 32.1,
+      "genderRatio": "男性:女性 = 5:5",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京都千代田区大手町",
+      "workCulture": "グローバルかつアグレッシブ"
+    },
+    "corporate": {
+      "established": 1943,
+      "capital": 650000,
+      "listing": "東証プライム",
+      "employees": 7800,
+      "revenue": 301000,
+      "operatingIncome": 71000,
+      "netIncome": 40000
+    }
+  },
+  {
+    "id": "BAN018",
+    "companyName": "株式会社大和証券",
+    "industry": "証券業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 121,
+      "overtime": null,
+      "employees": 8400,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "大和証券グループの中核証券会社",
+      "specialization": "リテール拠点網を活かした営業が強み",
+      "workStyle": "フレックス・リモート制度導入",
+      "growth": "組織横断プロジェクトで自己成長"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "寮あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "外部セミナー補助",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "野球部、登山部"
+    },
+    "workEnvironment": {
+      "averageAge": 34.7,
+      "genderRatio": "男性:女性 = 5:5",
+      "remoteWork": "あり",
+      "flextime": "あり",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京都千代田区大手町",
+      "workCulture": "顧客本位で協調的"
+    },
+    "corporate": {
+      "established": 1943,
+      "capital": 522486,
+      "listing": "東証プライム",
+      "employees": 8400,
+      "revenue": 318000,
+      "operatingIncome": 82000,
+      "netIncome": 36000
+    }
+  },
+  {
+    "id": "BAN019",
+    "companyName": "SBIホールディングス株式会社",
+    "industry": "金融持株会社",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 120,
+      "overtime": null,
+      "employees": 6207,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "IT企業等を手掛けるインターネット金融グループ",
+      "specialization": "ネット証券、ネット銀行等のデジタル金融が強み",
+      "workStyle": "自由度高い勤務体系",
+      "growth": "ベンチャー型事業への挑戦機会"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "社宅あり",
+      "transportationAllowance": "通勤手当",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "社外研修支援",
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": "社内サークルあり"
+    },
+    "workEnvironment": {
+      "averageAge": 37.3,
+      "genderRatio": "男性:女性 = 7:3",
+      "remoteWork": "フルリモート可",
+      "flextime": "あり",
+      "dressCode": "自由",
+      "officeLocation": "東京都港区六本木",
+      "workCulture": "自由で挑戦的"
+    },
+    "corporate": {
+      "established": 1999,
+      "capital": 73586,
+      "listing": "東証プライム",
+      "employees": 6207,
+      "revenue": 512000,
+      "operatingIncome": 67000,
+      "netIncome": 41200
+    }
+  },
+  {
+    "id": "BAN020",
+    "companyName": "楽天証券株式会社",
+    "industry": "証券業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 121,
+      "overtime": null,
+      "employees": 1330,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "楽天グループのインターネット証券会社",
+      "specialization": "ネット証券取引のプラットフォーム提供",
+      "workStyle": "フルリモート可能",
+      "growth": "最先端技術を活用した業務経験"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": "ランチ補助",
+      "trainingSupport": "講演会・研修支援",
+      "uniqueBenefits": "部活動支援制度",
+      "welfareGrade": "B",
+      "clubActivities": "フットサル、ランニングなど"
+    },
+    "workEnvironment": {
+      "averageAge": 32.5,
+      "genderRatio": "男性:女性 = 6:4",
+      "remoteWork": "可能（高頻度）",
+      "flextime": "あり",
+      "dressCode": "自由",
+      "officeLocation": "東京都港区赤坂",
+      "workCulture": "革新的かつフラット"
+    },
+    "corporate": {
+      "established": 1999,
+      "capital": 50000,
+      "listing": "東証グロース",
+      "employees": 1330,
+      "revenue": 50000,
+      "operatingIncome": 12000,
+      "netIncome": 6000
+    }
+  }
+]

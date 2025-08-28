@@ -1,0 +1,221 @@
+{
+  "version": "2025-08-28",
+  "industry": "ゲーム・エンターテインメント業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 4,
+  "averageSalary": 8950000,
+  "companies": [
+    {
+      "id": "GM001",
+      "companyName": "任天堂",
+      "industry": "ゲーム・エンターテインメント業界",
+      "metrics": {
+        "salary": 9660000,
+        "initialSalary": 256000,
+        "initialSalaryGrad": 267000,
+        "holidays": 125,
+        "overtime": 23,
+        "employees": 8205,
+        "vacationRate": 86.0,
+        "maleParentalLeaveRate": 92.0,
+        "femaleParentalLeaveRate": 115.0,
+        "turnoverRate3Years": 1.9,
+        "averageTenure": 14.4
+      },
+      "features": {
+        "businessModel": "Nintendo Switchを中心とした家庭用ゲーム機器とソフトウェアの製造・販売",
+        "specialization": "ゲーム機器・ソフトウェア・家庭用ゲーム",
+        "workStyle": "フレックスタイム制（コアタイム10:00～15:00、標準労働時間7時間45分）",
+        "growth": "50歳以上対象週休3日制・短時間勤務制度・パートナーシップ制度・兼業副業許可範囲拡大"
+      },
+      "recruitment": {
+        "positions": ["ゲームプログラマー", "ゲームデザイナー", "サウンドクリエイター", "企画・開発"],
+        "annualHiring": "113",
+        "midCareer": "積極的",
+        "internship": "各種セミナー・ワークショップ形式で実施"
+      },
+      "welfare": {
+        "housingAllowance": "住宅支援制度あり（詳細非公開）",
+        "cafeteria": "選択型福利厚生制度",
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "50歳以上対象週休3日制・短時間勤務制度、パートナーシップ制度、兼業・副業許可範囲拡大、退職金制度",
+        "welfareGrade": "S"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "S",
+        "overall": "S",
+        "welfare": "S"
+      },
+      "companyDetails": {
+        "established": 1889,
+        "headquarters": "京都市南区上鳥羽鉾立町11-1",
+        "businessContent": "Nintendo Switchを中心とした家庭用ゲーム機器とソフトウェアの製造・販売",
+        "listingStatus": "東証プライム",
+        "awards": ["新入社員3年後定着率98.8%", "育児休業復職率100%"],
+        "esgRating": "TCFD提言に基づく気候変動対応、CO2削減目標設定・カーボンオフセット実施",
+        "dataSource": "任天堂公式サイト、新卒採用情報、CSR情報・ESGデータ集"
+      }
+    },
+    {
+      "id": "GM002",
+      "companyName": "バンダイナムコ",
+      "industry": "エンターテインメント・玩具・ゲーム業界",
+      "metrics": {
+        "salary": 10950000,
+        "initialSalary": 280000,
+        "initialSalaryGrad": 290000,
+        "holidays": 125,
+        "overtime": 32,
+        "employees": 790,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 19.9
+      },
+      "features": {
+        "businessModel": "IP軸戦略による総合エンターテインメント事業（ゲーム、玩具、映像等）",
+        "specialization": "IP軸戦略・総合エンターテインメント・玩具・ゲーム・映像",
+        "workStyle": "ハイブリッド（月4回在宅勤務可・フルフレックスタイム制・標準労働時間7.5時間/日）",
+        "growth": "IP軸戦略による総合エンターテインメント事業展開"
+      },
+      "recruitment": {
+        "positions": ["ゲーム開発", "企画・マーケティング", "デザイナー", "エンジニア"],
+        "annualHiring": "30",
+        "midCareer": "あり",
+        "internship": "実施（各種ワークショップ含む）"
+      },
+      "welfare": {
+        "housingAllowance": "基本給に組み込み済み",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "ブラザー制度（新入社員への先輩マンツーマン指導）、キャリアプラン制度、社員旅行・ファミリーイベント、エンタメ活動デー手当、持株会制度（12%奨励金支給）",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "A",
+        "overall": "S",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 2005,
+        "headquarters": "東京都港区芝5-37-8",
+        "businessContent": "IP軸戦略による総合エンターテインメント事業（ゲーム、玩具、映像等）",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "バンダイナムコホールディングス公式サイト・IR情報、2024年3月期有価証券報告書、リクナビ2025採用情報"
+      }
+    },
+    {
+      "id": "GM003",
+      "companyName": "オリエンタルランド",
+      "industry": "エンターテインメント・サービス業界",
+      "metrics": {
+        "salary": 6010000,
+        "initialSalary": 272000,
+        "initialSalaryGrad": null,
+        "holidays": 123,
+        "overtime": 15.02,
+        "employees": 5631,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 69.0,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 2.81,
+        "averageTenure": 10.4
+      },
+      "features": {
+        "businessModel": "東京ディズニーリゾートの運営・管理、ホテル事業、商業施設運営",
+        "specialization": "テーマパーク運営・ホテル事業・商業施設運営",
+        "workStyle": "ハイブリッド（業務内容に応じて在宅勤務制度・フレックスタイム制導入）",
+        "growth": "中途採用重視（中途採用比率73.0%）・約6%の賃上げ実施（2025年）"
+      },
+      "recruitment": {
+        "positions": ["運営", "企画・マーケティング", "施設管理", "ホテル運営"],
+        "annualHiring": "85",
+        "midCareer": "積極的（中途採用比率73.0%・2023年度）",
+        "internship": "各職種別にインターンシップ実施"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮完備、住宅手当詳細データなし",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "サンクスデー（年1回閉園後パーク内での感謝イベント）",
+        "healthSupport": null,
+        "uniqueBenefits": "メッセージカード交換制度、商品割引制度、テーマパスポート配布、財形貯蓄制度、通勤手当、時間外勤務手当",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "C",
+        "worklife": "A",
+        "overall": "B",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1960,
+        "headquarters": "千葉県浦安市舞浜1番地1",
+        "businessContent": "東京ディズニーリゾートの運営・管理、ホテル事業、商業施設運営",
+        "listingStatus": "東証プライム",
+        "awards": ["転職人気企業ランキング18位（doda 2024年）"],
+        "esgRating": "男女共同参画推進、LGBT+支援制度導入（2024年4月より同性婚・事実婚を福利厚生対象に拡大）",
+        "dataSource": "株式会社オリエンタルランド公式サイト、有価証券報告書、採用サイト、TalentSquare"
+      }
+    },
+    {
+      "id": "GM004",
+      "companyName": "カプコン",
+      "industry": "ゲーム・エンターテインメント業界",
+      "metrics": {
+        "salary": 9190000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 300000,
+        "holidays": 123,
+        "overtime": null,
+        "employees": 3379,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 66,
+        "femaleParentalLeaveRate": 114,
+        "turnoverRate3Years": null,
+        "averageTenure": 11.0
+      },
+      "features": {
+        "businessModel": "家庭用ゲームソフト、モバイルコンテンツ等の企画、開発、製造、販売、配信",
+        "specialization": "ワンコンテンツ・マルチユース戦略・IP戦略・グローバル展開",
+        "workStyle": "一部リモートワーク可（育児・介護者向け制度として在宅勤務あり）",
+        "growth": "株式報酬制度・IP多角展開戦略・AIなどの先端技術への投資"
+      },
+      "recruitment": {
+        "positions": ["ゲーム開発", "プログラマー", "デザイナー", "総合職"],
+        "annualHiring": "168",
+        "midCareer": "積極的（2024年度の中途採用比率は約43%）",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "地域手当として東京勤務の場合に支給",
+        "cafeteria": "社員食堂（大阪）",
+        "recreationFacilities": "マッサージルーム",
+        "healthSupport": null,
+        "uniqueBenefits": "株式報酬制度（初年度から140株（約49万円相当）の権利を付与）、社員寮・借上げ社宅、社員向け保育所（大阪）、持株会、財形貯蓄、特許報奨金制度",
+        "welfareGrade": "S"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "S"
+      },
+      "companyDetails": {
+        "established": 1979,
+        "headquarters": "大阪府大阪市中央区",
+        "businessContent": "家庭用ゲームソフト、モバイルコンテンツ等の企画、開発、製造、販売、配信",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "統合報告書を毎年発行、11期連続の営業増益を達成するなど持続的成長を重視、AIなどの先端技術への投資も積極的に行っている",
+        "dataSource": "有価証券報告書、統合報告書、公式サイト、リクナビ、マイナビ、TalentSquare"
+      }
+    }
+  ]
+}

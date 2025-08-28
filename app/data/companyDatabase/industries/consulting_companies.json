@@ -1,0 +1,246 @@
+[
+  {
+    "id": "CONS001",
+    "companyName": "マッキンゼー・アンド・カンパニー",
+    "industry": "経営戦略コンサルティング",
+    "metrics": {
+      "salary": null,
+      "initialSalary": 70,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "グローバル企業・政府機関への経営コンサルティング",
+      "specialization": "世界最高峰の戦略コンサル・MBA留学支援",
+      "workStyle": "リモートワーク・フレックス（プロジェクト依存）",
+      "growth": "世界最高峰の戦略コンサル・MBA留学支援"
+    },
+    "recruitment": {
+      "positions": ["コンサルタント", "アソシエイト", "シニアアソシエイト", "エンゲージメントマネージャー"],
+      "annualHiring": "20",
+      "midCareer": "あり（積極採用）",
+      "internship": "サマーアソシエイトプログラム実施"
+    },
+    "welfare": {
+      "housingAllowance": "あり",
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "MBA留学支援制度",
+      "uniqueBenefits": "Take Time制度・MBA留学支援・食費補助・PC/スマホ貸与・プロジェクト終了後長期休暇取得可能",
+      "welfareGrade": "S",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "リモートワーク可（プロジェクト依存）",
+      "flextime": "フレックスタイム制度あり",
+      "dressCode": null,
+      "officeLocation": "東京都港区（日本支社）",
+      "workCulture": "世界最高峰・成果主義・グローバル志向"
+    },
+    "corporate": {
+      "established": 1971,
+      "capital": null,
+      "listing": "非上場",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "CONS002",
+    "companyName": "ボストン・コンサルティング・グループ",
+    "industry": "戦略系経営コンサルティング",
+    "metrics": {
+      "salary": 1636,
+      "initialSalary": 70,
+      "initialSalaryGrad": 70,
+      "holidays": null,
+      "overtime": null,
+      "employees": 1100,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "戦略コンサル・デジタル変革・事業変革",
+      "specialization": "戦略コンサル・DX・BCG Accelerate",
+      "workStyle": "リモートワーク・フレックス制度あり",
+      "growth": "MBA留学支援・成果主義・1～2年で昇進"
+    },
+    "recruitment": {
+      "positions": ["コンサルタント", "プロジェクトリーダー", "プリンシパル", "パートナー"],
+      "annualHiring": "20",
+      "midCareer": "あり（積極採用）",
+      "internship": "BCG Accelerateプログラム実施"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "MBA留学支援・研修制度充実",
+      "uniqueBenefits": "BCG Accelerateプログラム・MBA留学支援・研修制度充実",
+      "welfareGrade": "S",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "リモートワーク可",
+      "flextime": "フレックスタイム制度あり",
+      "dressCode": null,
+      "officeLocation": "東京オフィス",
+      "workCulture": "戦略重視・成果主義・グローバル志向"
+    },
+    "corporate": {
+      "established": 1966,
+      "capital": null,
+      "listing": "非上場",
+      "employees": 1100,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "CONS003",
+    "companyName": "ベイン・アンド・カンパニー",
+    "industry": "経営戦略コンサルティング",
+    "metrics": {
+      "salary": 1930,
+      "initialSalary": 62.5,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": 73,
+      "employees": 275,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 71.5,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "経営戦略・全社戦略・トランスフォーメーション",
+      "specialization": "経営戦略・MBB中最高の従業員満足度",
+      "workStyle": null,
+      "growth": "海外オフィストランスファー・昇進時大幅昇給"
+    },
+    "recruitment": {
+      "positions": ["コンサルタント", "シニアアソシエイト", "プリンシパル", "パートナー"],
+      "annualHiring": "10",
+      "midCareer": "あり（2025年度過去最大規模採用予定）",
+      "internship": "サマーインターンシップ実施（3日間×2回）"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "食事代支給制度（日2,000円）・海外オフィストランスファー制度",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都港区赤坂9-7-1 ミッドタウン・タワー37階",
+      "workCulture": "MBB中最高の従業員満足度・成果主義"
+    },
+    "corporate": {
+      "established": 1981,
+      "capital": null,
+      "listing": "非上場",
+      "employees": 275,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "CONS004",
+    "companyName": "アクセンチュア",
+    "industry": "総合コンサルティング",
+    "metrics": {
+      "salary": 1070,
+      "initialSalary": 43,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 25000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "ストラテジー&コンサル・テクノロジー・オペレーション",
+      "specialization": "総合コンサル・ストラテジー&テクノロジー",
+      "workStyle": null,
+      "growth": "年1回昇給・昇進時大幅昇給"
+    },
+    "recruitment": {
+      "positions": ["コンサルタント", "マネージャー", "シニアマネージャー", "マネージングディレクター"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都港区赤坂1-8-1 赤坂インターシティAIR",
+      "workCulture": "総合コンサル・幅広い分野・グローバル"
+    },
+    "corporate": {
+      "established": 1995,
+      "capital": null,
+      "listing": null,
+      "employees": 25000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]

@@ -1,0 +1,274 @@
+{
+  "version": "2025-08-28",
+  "industry": "外資系IT・EC業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 5,
+  "averageSalary": 13000000,
+  "companies": [
+    {
+      "id": "FT001",
+      "companyName": "グーグル合同会社",
+      "industry": "外資系IT業界",
+      "metrics": {
+        "salary": 16240000,
+        "initialSalary": 700000,
+        "initialSalaryGrad": 1050000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 1300,
+        "vacationRate": 100.0,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "検索エンジン、オンライン広告、クラウド、ソフトウェア、ハードウェア等の開発・提供",
+        "specialization": "検索エンジン、クラウドサービス、AI技術",
+        "workStyle": "ハイブリッド（制度に寛容で、地方移住者も多数在籍）、フレックスタイム",
+        "growth": "20%ルール（業務時間の20%を自身の興味あるプロジェクトに利用可能）、360度評価"
+      },
+      "recruitment": {
+        "positions": ["ビジネス職", "エンジニア職"],
+        "annualHiring": "非公開（年間10～20名程度と推定）",
+        "midCareer": "積極的",
+        "internship": "実施あり（期間や報酬はポジションにより異なる）"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "無料の社員食堂",
+        "recreationFacilities": "無料ジム",
+        "healthSupport": "不妊治療サポート",
+        "uniqueBenefits": "確定拠出年金、産前産後・育児・介護休暇、スキルアップ支援、年に4週間のワーケーション",
+        "welfareGrade": "S"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "S",
+        "overall": "S",
+        "welfare": "S"
+      },
+      "companyDetails": {
+        "established": null,
+        "headquarters": "東京都渋谷区渋谷（渋谷ストリーム）",
+        "businessContent": "検索エンジン、オンライン広告、クラウド、ソフトウェア、ハードウェア等の開発・提供",
+        "listingStatus": "非上場（親会社Alphabet Inc.は米国NASDAQに上場）",
+        "awards": [],
+        "esgRating": "2024年環境報告書を公表、2030年までの事業およびバリューチェーン全体でのネットゼロ達成目標",
+        "dataSource": "公式サイト、Diamond Online、OpenWork、TalentSquare、2024年環境報告書"
+      }
+    },
+    {
+      "id": "FT002",
+      "companyName": "アマゾンジャパン合同会社",
+      "industry": "外資系IT・EC業界",
+      "metrics": {
+        "salary": 11500000,
+        "initialSalary": 354584,
+        "initialSalaryGrad": null,
+        "holidays": 120,
+        "overtime": 23.1,
+        "employees": null,
+        "vacationRate": 73.4,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ECサイト運営、クラウドサービス、デジタルコンテンツ配信等",
+        "specialization": "Eコマース、クラウドコンピューティング（AWS）",
+        "workStyle": "ハイブリッド（2023年6月より週3日出社義務化、残り2日在宅勤務可能）、コアタイムなしフレックス",
+        "growth": "OLP（Our Leadership Principles）14の原則に基づく人事評価"
+      },
+      "recruitment": {
+        "positions": ["コンシューマー総合職", "オペレーション総合職"],
+        "annualHiring": "データなし（中途採用メイン）",
+        "midCareer": "積極的（全ポジションの7-8割が中途採用）",
+        "internship": "コンシューマー総合職、オペレーション総合職等複数コース実施"
+      },
+      "welfare": {
+        "housingAllowance": "なし",
+        "cafeteria": "カフェテリアポイント（年間3万円程度）",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "通勤交通費（月5万円まで）、社員割引制度（年間16万円分まで10%オフ）",
+        "welfareGrade": "B"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "B",
+        "overall": "A",
+        "welfare": "B"
+      },
+      "companyDetails": {
+        "established": null,
+        "headquarters": "東京都目黒区下目黒1-8-1 ARCO TOWER",
+        "businessContent": "ECサイト運営、クラウドサービス、デジタルコンテンツ配信等",
+        "listingStatus": "非上場（親会社Amazon.com Inc.は米国NASDAQ上場）",
+        "awards": [],
+        "esgRating": "データなし",
+        "dataSource": "Amazon Japan公式キャリアサイト、TalentSquare、OpenWork、OpenMoney、転職口コミサイト"
+      }
+    },
+    {
+      "id": "FT003",
+      "companyName": "Apple Japan合同会社",
+      "industry": "外資系IT業界",
+      "metrics": {
+        "salary": 994000,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": 2900,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ハードウェア、ソフトウェア、サービスの開発・販売（iPhone、Mac、Apple Music等）",
+        "specialization": "プレミアムハードウェア、ソフトウェア統合",
+        "workStyle": "ハイブリッド（職種による）",
+        "growth": "段階的職場復帰プログラム（新しい子どもを迎えた社員をサポート）"
+      },
+      "recruitment": {
+        "positions": ["リテール職", "本社コーポレート職"],
+        "annualHiring": "定期採用はなし（不定期のインターンシップ経由や新卒向けポジションの公募がある）",
+        "midCareer": "積極的",
+        "internship": "不定期で実施（夏期インターンシップや年度を通じた参加が可能）"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "データなし",
+        "recreationFacilities": "フィットネス費用補助",
+        "healthSupport": "追加の医療給付",
+        "uniqueBenefits": "株式付与制度（全社員対象）、確定拠出年金、有給の育児・介護休暇、従業員割引",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "B",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1983,
+        "headquarters": "東京都港区六本木",
+        "businessContent": "ハードウェア、ソフトウェア、サービスの開発・販売（iPhone、Mac、Apple Music等）",
+        "listingStatus": "非上場（親会社Apple Inc.は米国NASDAQに上場）",
+        "awards": ["エンゲージ社の調査では総合評価4.0と高い評価"],
+        "esgRating": "製品、製造、パッケージにおける規制物質仕様書を定め、サプライヤー責任や環境負荷低減に厳格な基準を設定",
+        "dataSource": "公式サイト、OpenMoney、JobQ、doda、エンゲージ、東洋経済オンライン"
+      }
+    },
+    {
+      "id": "FT004",
+      "companyName": "日本マイクロソフト株式会社",
+      "industry": "外資系IT業界",
+      "metrics": {
+        "salary": 13030000,
+        "initialSalary": 620000,
+        "initialSalaryGrad": 640000,
+        "holidays": null,
+        "overtime": 32.3,
+        "employees": null,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ソフトウェア、クラウドサービス（Azure）、デバイス等の開発・販売",
+        "specialization": "クラウドサービス、オフィスソフトウェア、AI技術",
+        "workStyle": "ハイブリッド（2007年から在宅勤務制度を導入しており、リモートワークを推進）、フレックスタイム",
+        "growth": "Growth Mindset（成長型マインドセット）、フレキシブルなワークスタイル"
+      },
+      "recruitment": {
+        "positions": ["総合職"],
+        "annualHiring": "データなし",
+        "midCareer": "積極的",
+        "internship": "実施あり（夏期に2ヶ月間、月額35万円の給与が支給されるプログラムなどがある）"
+      },
+      "welfare": {
+        "housingAllowance": "なし（寮・社宅の提供なし）",
+        "cafeteria": "ベネフィットポイント",
+        "recreationFacilities": "マッサージルーム",
+        "healthSupport": "生命保険、医療保障保険",
+        "uniqueBenefits": "確定拠出年金、社員持株会、傷病・ファミリーケア休暇（年10日）、有給の看護介護・出産・育児休業、各種研修",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": null,
+        "headquarters": "東京都港区港南",
+        "businessContent": "ソフトウェア、クラウドサービス（Azure）、デバイス等の開発・販売",
+        "listingStatus": "非上場（親会社Microsoft Corporationは米国NASDAQに上場）",
+        "awards": ["Great Place to Work® Instituteによる「働きがいのある会社」ランキングに10年連続で選出", "エンゲージ社の調査でも総合評価3.9と高い"],
+        "esgRating": "親会社Microsoftとしてサステナビリティレポートを公表、自社の事業活動が環境に与える影響を評価し、改善に取り組んでいる",
+        "dataSource": "公式サイト、Openwork、OpenMoney、TalentSquare、エンゲージ、doda、Great Place to Work® Institute"
+      }
+    },
+    {
+      "id": "FT005",
+      "companyName": "株式会社セールスフォース・ジャパン",
+      "industry": "外資系IT業界",
+      "metrics": {
+        "salary": 12155000,
+        "initialSalary": 450000,
+        "initialSalaryGrad": 450000,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "クラウドベースのCRM（顧客関係管理）ソリューションを中心としたサービスの提供",
+        "specialization": "CRMソリューション、クラウドプラットフォーム",
+        "workStyle": "ハイブリッド（リモート勤務と出社のハイブリッドワークを推進）",
+        "growth": "1-1-1モデル（就業時間の1%、株式の1%、製品の1%を地域社会に還元する社会貢献モデル）"
+      },
+      "recruitment": {
+        "positions": ["営業職", "コンサルタント職", "エンジニア職"],
+        "annualHiring": "23名の実績（2025年度）",
+        "midCareer": "積極的",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "グローバル育児休暇制度（法定を上回る独自の育児休暇制度）、パートナーシップ制度（同性パートナーシップを結ぶ従業員に対し公正証書作成費用を補助、上限5万円）、ジェンダーインクルーシブベネフィット、自己啓発支援（MBA取得等のための学費を補助）",
+        "welfareGrade": "S"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "S"
+      },
+      "companyDetails": {
+        "established": 2000,
+        "headquarters": "東京都千代田区丸の内",
+        "businessContent": "クラウドベースのCRM（顧客関係管理）ソリューションを中心としたサービスの提供",
+        "listingStatus": "非上場（親会社Salesforce, Inc.は米国NYSEに上場）",
+        "awards": ["OpenWork「働きがいのある企業ランキング2025」で第2位", "Great Place to Work®「働きがいのある会社」ランキング2025で第5位", "「PRIDE指標」で4年連続「ゴールド」を受賞"],
+        "esgRating": "コアバリューの一つに「平等（Equality）」を掲げ、LGBTQ+支援に注力",
+        "dataSource": "公式サイト、マイナビ、type就活、OpenMoney、TalentSquare、ZDNet Japan、PR TIMES"
+      }
+    }
+  ]
+}

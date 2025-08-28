@@ -1,0 +1,612 @@
+[
+  {
+    "id": "IT001",
+    "companyName": "NTTデータ",
+    "industry": "システムインテグレーション業",
+    "metrics": {
+      "salary": 906,
+      "initialSalary": 262.79,
+      "initialSalaryGrad": 274.79,
+      "holidays": null,
+      "overtime": 24.7,
+      "employees": 12714,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 72.6,
+      "femaleParentalLeaveRate": 100,
+      "turnoverRate3Years": 3.0,
+      "averageTenure": 14.6
+    },
+    "features": {
+      "businessModel": "情報システム開発・構築・運用・DX支援",
+      "specialization": "デジタル変革推進・コンサルティング",
+      "workStyle": "ハイブリッド・リモート率63.2%",
+      "growth": "デジタル変革推進・AI技術活用"
+    },
+    "recruitment": {
+      "positions": ["システムエンジニア", "コンサルタント", "営業", "研究開発"],
+      "annualHiring": 697,
+      "midCareer": "積極採用",
+      "internship": "実施中"
+    },
+    "welfare": {
+      "housingAllowance": "独身41,000円/月、既婚70,900円/月",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "プロフェッショナルCDP",
+      "uniqueBenefits": "副業許可制・スーパーフレックス制度",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド（リモート率63.2%）",
+      "flextime": "スーパーフレックス制度",
+      "dressCode": null,
+      "officeLocation": "東京都江東区豊洲3-3-3",
+      "workCulture": "DX推進・技術革新重視"
+    },
+    "corporate": {
+      "established": 1988,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 12714,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT002",
+    "companyName": "ソフトバンク",
+    "industry": "電気通信業",
+    "metrics": {
+      "salary": 849,
+      "initialSalary": 273,
+      "initialSalaryGrad": 294.2,
+      "holidays": 124,
+      "overtime": 33,
+      "employees": 55400,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 77.7,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 68.5,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": 3.5,
+      "averageTenure": 9.6
+    },
+    "features": {
+      "businessModel": "移動通信サービス・5G・AI・IoT技術",
+      "specialization": "デジタル変革・新事業創出",
+      "workStyle": "ハイブリッド・テレワーク実施率95.3%",
+      "growth": "5G・AI技術による事業拡大"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "営業", "企画", "コンサルタント"],
+      "annualHiring": 954,
+      "midCareer": "積極採用",
+      "internship": "様々なプログラム開催"
+    },
+    "welfare": {
+      "housingAllowance": "30,000円/月（新卒3年間）",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "ベネフィット・ワン提携サービス",
+      "trainingSupport": null,
+      "uniqueBenefits": "出産祝金最大500万円・社内起業制度",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド（テレワーク実施率95.3%）",
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都港区海岸一丁目7番1号",
+      "workCulture": "イノベーション・挑戦重視"
+    },
+    "corporate": {
+      "established": 1986,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 55400,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT003",
+    "companyName": "楽天",
+    "industry": "インターネットサービス・フィンテック・モバイル通信",
+    "metrics": {
+      "salary": 820,
+      "initialSalary": 350,
+      "initialSalaryGrad": 360,
+      "holidays": null,
+      "overtime": 35,
+      "employees": 29334,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 80,
+      "parentalLeaveReturn": 97,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 5.1
+    },
+    "features": {
+      "businessModel": "楽天エコシステム・Eコマース・金融・通信",
+      "specialization": "70以上サービス・グローバル展開",
+      "workStyle": "一部可・在宅勤務制度R-Satellite",
+      "growth": "社内公用語英語化・国際化推進"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "ビジネス", "デザイナー", "データサイエンティスト"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "エンジニア職・ビジネス職各種プログラム"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助制度なし",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "3食無料カフェテリア（朝・昼・晩）",
+      "trainingSupport": null,
+      "uniqueBenefits": "楽天主義・ニックネーム制度・卵子凍結支援40万円",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "一部可（在宅勤務制度R-Satellite）",
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都世田谷区玉川一丁目14番1号",
+      "workCulture": "楽天主義・英語公用語・グローバル"
+    },
+    "corporate": {
+      "established": 1997,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 29334,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT004",
+    "companyName": "サイバーエージェント",
+    "industry": "インターネット広告業・メディア業・ゲーム業",
+    "metrics": {
+      "salary": 882,
+      "initialSalary": 420,
+      "initialSalaryGrad": 420,
+      "holidays": null,
+      "overtime": 13.3,
+      "employees": 7720,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 55,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 5.2
+    },
+    "features": {
+      "businessModel": "インターネット広告・ABEMA・ゲーム・投資育成",
+      "specialization": "メディア事業・起業家精神文化",
+      "workStyle": "一部可・職種により異なる・裁量労働制",
+      "growth": "業界最高水準報酬・無制限昇給制"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "ビジネス職", "クリエイター", "デザイナー"],
+      "annualHiring": 339,
+      "midCareer": "積極採用",
+      "internship": "就業型1か月間・短期2-3日間・選抜者限定"
+    },
+    "welfare": {
+      "housingAllowance": "2駅ルール30,000円/月・どこでも50,000円/月",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "ENERGY制度・子会社社長登用・無制限昇給制",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "一部可（職種により異なる）",
+      "flextime": "裁量労働制（2年目以降）",
+      "dressCode": null,
+      "officeLocation": "東京都渋谷区宇田川町40番1号",
+      "workCulture": "起業家精神・挑戦重視・成果主義"
+    },
+    "corporate": {
+      "established": 1998,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 7720,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT005",
+    "companyName": "メルカリ",
+    "industry": "EC・フィンテック",
+    "metrics": {
+      "salary": 1167,
+      "initialSalary": 300,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": 20.6,
+      "employees": 1000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 88.9,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "フリマアプリ・決済サービス運営",
+      "specialization": "日本初テック・ユニコーン企業",
+      "workStyle": "ハイブリッド・基本週2回以上出社",
+      "growth": "急成長スタートアップ・無制限昇給制"
+    },
+    "recruitment": {
+      "positions": ["PM職", "エンジニア", "デザイナー", "データサイエンティスト"],
+      "annualHiring": 60,
+      "midCareer": "積極採用",
+      "internship": "1-3ヶ月間の実務型インターン"
+    },
+    "welfare": {
+      "housingAllowance": "基本的になし（20代まで月1.2万円）",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "merci box・再オファー制度・妊活サポート10年間",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド（フルリモート可能）",
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都港区六本木6-10-1",
+      "workCulture": "急成長・ユニコーン・テック重視"
+    },
+    "corporate": {
+      "established": 2013,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 1000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT006",
+    "companyName": "LINEヤフー",
+    "industry": "インターネット・IT・通信",
+    "metrics": {
+      "salary": 884,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": 16.0,
+      "employees": 28606,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 75.1,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 60.9,
+      "femaleParentalLeaveRate": 100,
+      "turnoverRate3Years": 6.9,
+      "averageTenure": 7.1
+    },
+    "features": {
+      "businessModel": "インターネット広告・イーコマース・会員サービス",
+      "specialization": "LINE・Yahoo!統合プラットフォーム",
+      "workStyle": "ハイブリッド・利用率100%・フルフレックス",
+      "growth": "統合効果によるシナジー創出"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "デザイナー", "ビジネスコンサルタント", "プロダクトマネージャー"],
+      "annualHiring": 404,
+      "midCareer": "積極採用",
+      "internship": "2025年夏インターンシップ実施予定"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助制度なし",
+      "transportationAllowance": "通勤手当月15万円まで支給",
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "LINEヤフーテックアカデミー",
+      "uniqueBenefits": "グレード制人事制度G1～G6・アドレスフリー",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド（利用率100%）",
+      "flextime": "フルフレックス制度",
+      "dressCode": null,
+      "officeLocation": "東京都千代田区紀尾井町1番3号",
+      "workCulture": "統合シナジー・技術革新重視"
+    },
+    "corporate": {
+      "established": 1996,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 28606,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT007",
+    "companyName": "PayPay",
+    "industry": "フィンテック業界",
+    "metrics": {
+      "salary": 1370,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": 23.3,
+      "employees": 2100,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 67.5,
+      "femaleParentalLeaveRate": 100,
+      "turnoverRate3Years": null,
+      "averageTenure": 6
+    },
+    "features": {
+      "businessModel": "モバイルペイメント・電子決済サービス",
+      "specialization": "フィンテック・大規模トランザクション処理",
+      "workStyle": "ハイブリッド・WFA制度",
+      "growth": "急成長スタートアップ・完全中途採用"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "プロダクトマネージャー", "ビジネス職"],
+      "annualHiring": null,
+      "midCareer": "積極的（中途採用比率100%）",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "Work From Anywhere・在宅勤務手当・PayPay 5 senses",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド（WFA制度）",
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都新宿区四谷",
+      "workCulture": "スタートアップ・中途採用100%・フィンテック"
+    },
+    "corporate": {
+      "established": 2018,
+      "capital": null,
+      "listing": "非上場",
+      "employees": 2100,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT008",
+    "companyName": "プリファード・ネットワークス",
+    "industry": "AI・テック業界",
+    "metrics": {
+      "salary": 1380,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": 15,
+      "employees": 350,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": 100,
+      "maleParentalLeaveRate": 100,
+      "femaleParentalLeaveRate": 100,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "AI関連技術・AIチップ・計算基盤開発",
+      "specialization": "世界トップクラスAI研究・自社スパコン",
+      "workStyle": "ハイブリッド・フレックス制",
+      "growth": "AI技術革新・20%ルール・学習重視文化"
+    },
+    "recruitment": {
+      "positions": ["AI/MLエンジニア", "研究者", "エンジニア"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "実施あり（通年採用）"
+    },
+    "welfare": {
+      "housingAllowance": "なし",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "英会話学習100%補助",
+      "uniqueBenefits": "20%ルール・業務用PC20万円補助・4Kディスプレイ",
+      "welfareGrade": "S",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド（フレックス制）",
+      "flextime": "フレックス制",
+      "dressCode": null,
+      "officeLocation": "東京都千代田区大手町",
+      "workCulture": "AI研究・20%ルール・学習重視"
+    },
+    "corporate": {
+      "established": 2014,
+      "capital": null,
+      "listing": "非上場",
+      "employees": 350,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT009",
+    "companyName": "SmartHR",
+    "industry": "HR SaaS業界",
+    "metrics": {
+      "salary": 745,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": 15,
+      "employees": 1457,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 60,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 57.7,
+      "femaleParentalLeaveRate": 98.6,
+      "turnoverRate3Years": 6.06,
+      "averageTenure": 2.32
+    },
+    "features": {
+      "businessModel": "クラウド人事労務ソフト開発・運営",
+      "specialization": "HR SaaS・well-working文化実践",
+      "workStyle": "ハイブリッド・リモート率82.26%",
+      "growth": "2026年新卒採用開始・働きがい重視"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "ビジネス職", "デザイナー"],
+      "annualHiring": 10,
+      "midCareer": "積極的（中途採用比率100%）",
+      "internship": "実施あり"
+    },
+    "welfare": {
+      "housingAllowance": "なし",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "コアタイムなしフレックス・ワーケーション制度",
+      "welfareGrade": "A",
+      "clubActivities": "部活制度（1人1回1,500円補助）"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド（リモートワーク率82.26%）",
+      "flextime": "コアタイムなしフレックス（6:00-22:00）",
+      "dressCode": null,
+      "officeLocation": "東京都港区六本木",
+      "workCulture": "well-working・働きがい重視・オープン"
+    },
+    "corporate": {
+      "established": 2013,
+      "capital": null,
+      "listing": "非上場",
+      "employees": 1457,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "IT010",
+    "companyName": "SmartNews",
+    "industry": "メディア・テック業界",
+    "metrics": {
+      "salary": 900,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 450,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "ニュースアプリ開発・運営",
+      "specialization": "メディア・テック・アルゴリズム最適化",
+      "workStyle": null,
+      "growth": "IPO準備中・グローバル展開"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "データサイエンティスト", "ビジネス職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都渋谷区神宮前",
+      "workCulture": "IPO準備・グローバル・メディアテック"
+    },
+    "corporate": {
+      "established": 2012,
+      "capital": null,
+      "listing": "非上場（IPO準備中）",
+      "employees": 450,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]

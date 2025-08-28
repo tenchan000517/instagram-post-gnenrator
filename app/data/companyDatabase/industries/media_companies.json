@@ -1,0 +1,115 @@
+{
+  "version": "2025-08-28",
+  "industry": "メディア・広告業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 2,
+  "averageSalary": 1223500,
+  "companies": [
+    {
+      "id": "MD001",
+      "companyName": "株式会社電通グループ",
+      "industry": "総合広告代理店",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 355300,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": 45.7,
+        "employees": 1000,
+        "vacationRate": 55.3,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "純粋持株会社として、広告事業を中心とするグループ全体の経営戦略策定・推進",
+        "specialization": "マーケティング・コミュニケーション、クリエイティブサービス",
+        "workStyle": "ハイブリッド（リモートワーク・オフィスワークの組み合わせ）",
+        "growth": "HRMディレクター体制による人材育成、働き方改革推進"
+      },
+      "recruitment": {
+        "positions": ["総合職"],
+        "annualHiring": "143名（2024年4月入社実績）",
+        "midCareer": "積極的",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "住宅取得支援制度、社宅制度あり",
+        "cafeteria": "企業年金制度",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "リモートワーク手当5,600円、通勤手当、配偶者手当、子ども手当",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "B",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1901,
+        "headquarters": "東京都港区東新橋",
+        "businessContent": "純粋持株会社として、広告事業を中心とするグループ全体の経営戦略策定・推進",
+        "listingStatus": "東証プライム",
+        "awards": ["OpenWork「働きがいのある企業ランキング2025」第1位", "女性活躍推進企業認定「えるぼし」最高位（3つ星）"],
+        "esgRating": "「FTSE Blossom Japan Index」構成銘柄",
+        "dataSource": "2024年12月期有価証券報告書、公式サイト、OpenWork"
+      }
+    },
+    {
+      "id": "MD002",
+      "companyName": "株式会社博報堂DYホールディングス",
+      "industry": "ホールディングス（広告代理店）",
+      "metrics": {
+        "salary": 11580000,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": 28894,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 13.7
+      },
+      "features": {
+        "businessModel": "マーケティング・コミュニケーションサービス提供企業の経営管理",
+        "specialization": "総合的なマーケティングサービス",
+        "workStyle": "ハイブリッド（ベストプレイス制度、テレワークと出社の柔軟な組み合わせ）",
+        "growth": "グループ経営による多様性推進"
+      },
+      "recruitment": {
+        "positions": ["経営管理職"],
+        "annualHiring": "持株会社での直接採用は限定的、グループ各社で個別実施",
+        "midCareer": "積極的（グループ各社で積極実施）",
+        "internship": "グループ各社で実施"
+      },
+      "welfare": {
+        "housingAllowance": "財形持家転貸融資制度、住宅相談サービス",
+        "cafeteria": "博報堂健康保険組合加入",
+        "recreationFacilities": "保養施設利用",
+        "healthSupport": "博報堂診療所",
+        "uniqueBenefits": "事業所内保育所「はなさかす保育園」、結婚特別休暇（7日間）、多様なクラブ活動",
+        "welfareGrade": "S"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "S"
+      },
+      "companyDetails": {
+        "established": 2003,
+        "headquarters": "東京都港区赤坂5丁目3番1号 赤坂Bizタワー",
+        "businessContent": "マーケティング・コミュニケーションサービス提供企業の経営管理",
+        "listingStatus": "東証プライム",
+        "awards": ["Ad Age「World's 25 Largest Agency Companies」世界トップ10", "国内広告業界2位"],
+        "esgRating": "配偶者要件拡大（事実婚・同性パートナー含む）、多様性推進",
+        "dataSource": "博報堂DYホールディングス公式サイト、有価証券報告書、年収マスター、TalentSquare"
+      }
+    }
+  ]
+}

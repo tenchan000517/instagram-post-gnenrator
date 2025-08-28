@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "HR001",
+    "companyName": "株式会社リクルートホールディングス",
+    "industry": "人材サービス・情報サービス",
+    "metrics": {
+      "salary": 1119,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 64000,
+      "operatingMarginRate": 12.0,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "HRテク・求人情報・人材紹介の総合サービス",
+      "specialization": "デジタル人材マッチング・グローバル展開",
+      "workStyle": "フレックス・リモート・裁量労働制",
+      "growth": "海外事業・デジタル変革・新事業創出"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "営業", "マーケティング"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "長期・短期インターン充実"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助制度あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "家族手当あり",
+      "cafeteria": "社員食堂・カフェテリア",
+      "trainingSupport": "研修制度・資格取得支援",
+      "uniqueBenefits": "リフレッシュ休暇・社内ベンチャー制度",
+      "welfareGrade": "A",
+      "clubActivities": "多数の部活・サークル活動"
+    },
+    "workEnvironment": {
+      "averageAge": 39.8,
+      "genderRatio": "男性6:女性4",
+      "remoteWork": "フルリモート可・ハイブリッド",
+      "flextime": "フレックスタイム制度",
+      "dressCode": "カジュアル・自由",
+      "officeLocation": "東京（銀座）・グローバル拠点",
+      "workCulture": "挑戦志向・成果主義・多様性重視"
+    },
+    "corporate": {
+      "established": 1963,
+      "capital": 10000,
+      "listing": "東証プライム",
+      "employees": 64000,
+      "revenue": 3400000,
+      "operatingIncome": 407000,
+      "netIncome": 354000
+    }
+  },
+  {
+    "id": "HR002",
+    "companyName": "パーソルホールディングス株式会社",
+    "industry": "総合人材サービス",
+    "metrics": {
+      "salary": 812,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": 20,
+      "employees": 60000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "人材派遣・転職・アウトソーシング総合",
+      "specialization": "テンプスタッフ・DODA・総合人材",
+      "workStyle": "多様な働き方・柔軟な勤務形態",
+      "growth": "デジタル変革・グローバル展開"
+    },
+    "recruitment": {
+      "positions": ["営業", "コンサルタント", "エンジニア"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "インターン制度あり"
+    },
+    "welfare": {
+      "housingAllowance": "住宅手当制度",
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": "扶養手当あり",
+      "cafeteria": "社員食堂",
+      "trainingSupport": "充実の研修制度",
+      "uniqueBenefits": "ベビーシッター補助・介護支援",
+      "welfareGrade": "B",
+      "clubActivities": "社内クラブ活動"
+    },
+    "workEnvironment": {
+      "averageAge": 40.9,
+      "genderRatio": null,
+      "remoteWork": "リモートワーク推進",
+      "flextime": "フレックス制度",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京・全国拠点",
+      "workCulture": "多様性・働きがい重視"
+    },
+    "corporate": {
+      "established": 2008,
+      "capital": 17583,
+      "listing": "東証プライム",
+      "employees": 60000,
+      "revenue": 1320000,
+      "operatingIncome": null,
+      "netIncome": 29900
+    }
+  },
+  {
+    "id": "HR003",
+    "companyName": "株式会社アウトソーシング",
+    "industry": "製造業向けアウトソーシング",
+    "metrics": {
+      "salary": 371,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 12513,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "製造業特化型アウトソーシング",
+      "specialization": "設計開発・製造・品質管理",
+      "workStyle": "現場派遣・プロジェクト型",
+      "growth": "海外展開・技術者育成"
+    },
+    "recruitment": {
+      "positions": ["製造技術者", "設計エンジニア", "品質管理"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "技術研修制度",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京・全国製造拠点",
+      "workCulture": "技術重視・現場志向"
+    },
+    "corporate": {
+      "established": 1997,
+      "capital": 1423,
+      "listing": "東証プライム",
+      "employees": 12513,
+      "revenue": 749608,
+      "operatingIncome": null,
+      "netIncome": 5162
+    }
+  },
+  {
+    "id": "HR004",
+    "companyName": "パソナグループ株式会社",
+    "industry": "総合人材サービス",
+    "metrics": {
+      "salary": 627,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 17000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "人材派遣・転職・アウトソーシング",
+      "specialization": "女性活躍・ダイバーシティ推進",
+      "workStyle": "柔軟な働き方・地域密着",
+      "growth": "地方創生・新事業領域"
+    },
+    "recruitment": {
+      "positions": ["営業", "コンサルタント", "事務職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "インターン制度充実"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助",
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": "家族手当",
+      "cafeteria": "社員食堂",
+      "trainingSupport": "充実の研修制度",
+      "uniqueBenefits": "淡路島研修施設・保育所",
+      "welfareGrade": "A",
+      "clubActivities": "各種クラブ活動"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "女性比率高",
+      "remoteWork": "リモートワーク推進",
+      "flextime": "フレックス制度",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京・淡路島・全国",
+      "workCulture": "女性活躍・多様性重視"
+    },
+    "corporate": {
+      "established": 1988,
+      "capital": 11660,
+      "listing": "東証プライム",
+      "employees": 17000,
+      "revenue": 356700,
+      "operatingIncome": null,
+      "netIncome": 95800
+    }
+  },
+  {
+    "id": "HR005",
+    "companyName": "テクノプロ・ホールディングス株式会社",
+    "industry": "技術者派遣・エンジニアリング",
+    "metrics": {
+      "salary": 635,
+      "initialSalary": 275,
+      "initialSalaryGrad": 275,
+      "holidays": 125,
+      "overtime": 21,
+      "employees": 21000,
+      "operatingMarginRate": 11.4,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "技術者派遣・エンジニアリングサービス",
+      "specialization": "IT・機械・電気・化学・バイオ",
+      "workStyle": "プロジェクト型・技術者派遣",
+      "growth": "DX・AI・IoT分野の技術者育成"
+    },
+    "recruitment": {
+      "positions": ["ITエンジニア", "機械設計", "電気設計"],
+      "annualHiring": 2500,
+      "midCareer": "積極採用",
+      "internship": "技術系インターン充実"
+    },
+    "welfare": {
+      "housingAllowance": "借上社宅制度",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": "カフェテリアプラン",
+      "trainingSupport": "技術研修・資格取得支援",
+      "uniqueBenefits": "技術者向け教育制度充実",
+      "welfareGrade": "B",
+      "clubActivities": "技術系サークル"
+    },
+    "workEnvironment": {
+      "averageAge": 33.2,
+      "genderRatio": "男性7:女性3",
+      "remoteWork": "リモート・ハイブリッド",
+      "flextime": "フレックス制度",
+      "dressCode": "カジュアル・現場に応じて",
+      "officeLocation": "東京・全国技術拠点",
+      "workCulture": "技術重視・成長志向"
+    },
+    "corporate": {
+      "established": 2006,
+      "capital": 1395,
+      "listing": "東証プライム",
+      "employees": 21000,
+      "revenue": 237000,
+      "operatingIncome": 27000,
+      "netIncome": 17500
+    }
+  },
+  {
+    "id": "HR006",
+    "companyName": "ワールドホールディングス株式会社",
+    "industry": "総合人材サービス",
+    "metrics": {
+      "salary": null,
+      "initialSalary": 235,
+      "initialSalaryGrad": 247,
+      "holidays": 123,
+      "overtime": null,
+      "employees": 13000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "人材派遣・業務請負・転職支援",
+      "specialization": "製造業・物流・コールセンター",
+      "workStyle": "現場派遣・業務請負",
+      "growth": "海外展開・新分野開拓"
+    },
+    "recruitment": {
+      "positions": ["製造スタッフ", "物流スタッフ", "営業"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "福岡・全国拠点",
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 2006,
+      "capital": 1000,
+      "listing": "東証プライム",
+      "employees": 13000,
+      "revenue": 242200,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR007",
+    "companyName": "UTグループ株式会社",
+    "industry": "製造業向け人材サービス",
+    "metrics": {
+      "salary": 500,
+      "initialSalary": 240,
+      "initialSalaryGrad": null,
+      "holidays": 193,
+      "overtime": null,
+      "employees": 32000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 3.9
+    },
+    "features": {
+      "businessModel": "製造業特化型人材派遣・請負",
+      "specialization": "自動車・半導体・電子部品製造",
+      "workStyle": "現場作業・技能職中心",
+      "growth": "ものづくり人材育成・海外展開"
+    },
+    "recruitment": {
+      "positions": ["製造オペレーター", "技能職", "エンジニア"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "技能研修制度",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": "作業着・安全装備",
+      "officeLocation": "東京・全国製造拠点",
+      "workCulture": "ものづくり重視・現場第一"
+    },
+    "corporate": {
+      "established": 2008,
+      "capital": 6455,
+      "listing": "東証プライム",
+      "employees": 32000,
+      "revenue": 194700,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR008",
+    "companyName": "オープンアップグループ",
+    "industry": "IT・エンジニア人材サービス",
+    "metrics": {
+      "salary": null,
+      "initialSalary": 220,
+      "initialSalaryGrad": 240,
+      "holidays": 120,
+      "overtime": null,
+      "employees": 8500,
+      "operatingMarginRate": 8.2,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "IT・エンジニア特化型人材サービス",
+      "specialization": "システム開発・インフラ・データ分析",
+      "workStyle": "プロジェクト派遣・SES・受託開発",
+      "growth": "DX人材育成・AI・クラウド分野"
+    },
+    "recruitment": {
+      "positions": ["システムエンジニア", "プログラマー", "インフラエンジニア"],
+      "annualHiring": 1200,
+      "midCareer": "積極採用",
+      "internship": "IT系インターン充実"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": "IT研修・資格支援充実",
+      "uniqueBenefits": "エンジニア向け教育制度",
+      "welfareGrade": "B",
+      "clubActivities": "技術系コミュニティ"
+    },
+    "workEnvironment": {
+      "averageAge": 29.5,
+      "genderRatio": "男性8:女性2",
+      "remoteWork": "フルリモート可",
+      "flextime": "フレックス制度",
+      "dressCode": "カジュアル",
+      "officeLocation": "東京・全国開発拠点",
+      "workCulture": "技術重視・成長志向・若手活躍"
+    },
+    "corporate": {
+      "established": 2013,
+      "capital": 100,
+      "listing": "非上場",
+      "employees": 8500,
+      "revenue": 173200,
+      "operatingIncome": 14200,
+      "netIncome": 9800
+    }
+  },
+  {
+    "id": "HR009",
+    "companyName": "ウィルグループ",
+    "industry": "総合人材サービス",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 6000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 66.5,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 6.8
+    },
+    "features": {
+      "businessModel": "人材派遣・転職・アウトソーシング",
+      "specialization": "販売・接客・事務・軽作業",
+      "workStyle": "多様な働き方・短期長期対応",
+      "growth": "地域密着・新サービス展開"
+    },
+    "recruitment": {
+      "positions": ["営業", "コーディネーター", "事務職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京・全国拠点",
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1997,
+      "capital": 9900,
+      "listing": "東証スタンダード",
+      "employees": 6000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR010",
+    "companyName": "株式会社メイテック",
+    "industry": "エンジニアリングサービス",
+    "metrics": {
+      "salary": 655,
+      "initialSalary": 235,
+      "initialSalaryGrad": 255,
+      "holidays": 125,
+      "overtime": 25,
+      "employees": 8700,
+      "operatingMarginRate": 11.1,
+      "roe": 9.2,
+      "vacationRate": 65.0,
+      "parentalLeaveReturn": 95.0,
+      "maleParentalLeaveRate": 15.0,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": 12.5,
+      "averageTenure": 8.5
+    },
+    "features": {
+      "businessModel": "エンジニア派遣・設計開発受託",
+      "specialization": "機械・電気・IT・化学分野設計",
+      "workStyle": "プロジェクト派遣・技術者育成",
+      "growth": "DX・AI・IoT分野拡大・海外展開"
+    },
+    "recruitment": {
+      "positions": ["機械設計", "電気設計", "ソフト開発"],
+      "annualHiring": 800,
+      "midCareer": "積極採用",
+      "internship": "技術系インターン充実"
+    },
+    "welfare": {
+      "housingAllowance": "借上社宅・住宅補助",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "家族手当・子育て支援",
+      "cafeteria": "社員食堂・カフェテリア",
+      "trainingSupport": "技術研修・資格取得支援充実",
+      "uniqueBenefits": "技術者教育大学・永年勤続表彰",
+      "welfareGrade": "A",
+      "clubActivities": "技術系・スポーツ系多数"
+    },
+    "workEnvironment": {
+      "averageAge": 35.2,
+      "genderRatio": "男性8:女性2",
+      "remoteWork": "リモート・ハイブリッド対応",
+      "flextime": "フレックス制度",
+      "dressCode": "ビジネスカジュアル・現場対応",
+      "officeLocation": "東京・全国技術拠点",
+      "workCulture": "技術重視・長期キャリア・安定志向"
+    },
+    "corporate": {
+      "established": 1974,
+      "capital": 2744,
+      "listing": "東証プライム",
+      "employees": 8700,
+      "revenue": 84500,
+      "operatingIncome": 9400,
+      "netIncome": 6800
+    }
+  },
+  {
+    "id": "HR011",
+    "companyName": "ヒューマンホールディングス株式会社",
+    "industry": "教育・人材サービス",
+    "metrics": {
+      "salary": 485,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 5200,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "教育・人材・介護の総合サービス",
+      "specialization": "人材紹介・教育事業・介護",
+      "workStyle": "多様な働き方・地域密着",
+      "growth": "教育DX・介護人材・海外展開"
+    },
+    "recruitment": {
+      "positions": ["コンサルタント", "講師", "営業"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "教育系インターン"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助",
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": "家族手当",
+      "cafeteria": null,
+      "trainingSupport": "社内研修・資格支援",
+      "uniqueBenefits": "自社教育サービス利用可",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "部分的にリモート対応",
+      "flextime": null,
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京・全国拠点",
+      "workCulture": "教育重視・人材成長支援"
+    },
+    "corporate": {
+      "established": 1985,
+      "capital": 1000,
+      "listing": "東証スタンダード",
+      "employees": 5200,
+      "revenue": 105000,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR012",
+    "companyName": "日総工産株式会社",
+    "industry": "製造業向け人材サービス",
+    "metrics": {
+      "salary": 370,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 45000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "製造業特化型人材派遣・請負",
+      "specialization": "自動車・電子・食品・物流",
+      "workStyle": "現場作業・工場勤務中心",
+      "growth": "自動化技術・ロボット活用"
+    },
+    "recruitment": {
+      "positions": ["製造オペレーター", "品質管理", "保全技術"],
+      "annualHiring": 50,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "寮・社宅完備",
+      "transportationAllowance": "交通費支給",
+      "familyAllowance": null,
+      "cafeteria": "工場食堂",
+      "trainingSupport": "技能研修制度",
+      "uniqueBenefits": "寮・社宅完備",
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": "作業着・安全装備",
+      "officeLocation": "神奈川・全国製造拠点",
+      "workCulture": "現場重視・安全第一"
+    },
+    "corporate": {
+      "established": 1971,
+      "capital": 9530,
+      "listing": "東証プライム",
+      "employees": 45000,
+      "revenue": 162000,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR013",
+    "companyName": "レバレジーズ株式会社",
+    "industry": "IT・医療人材サービス",
+    "metrics": {
+      "salary": null,
+      "initialSalary": 350,
+      "initialSalaryGrad": 350,
+      "holidays": 125,
+      "overtime": null,
+      "employees": 1800,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "IT・医療・介護人材特化サービス",
+      "specialization": "レバテック・レバウェル・ハタラクティブ",
+      "workStyle": "リモート・フレックス・裁量労働",
+      "growth": "IT人材・医療DX・海外展開"
+    },
+    "recruitment": {
+      "positions": ["キャリアアドバイザー", "ITコンサルタント", "営業"],
+      "annualHiring": 650,
+      "midCareer": "積極採用",
+      "internship": "長期インターン充実"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "家族手当",
+      "cafeteria": "社員食堂・軽食提供",
+      "trainingSupport": "研修制度・書籍購入支援",
+      "uniqueBenefits": "マッサージ・ジム利用補助",
+      "welfareGrade": "A",
+      "clubActivities": "多数の部活動・イベント"
+    },
+    "workEnvironment": {
+      "averageAge": 28.5,
+      "genderRatio": "男性6:女性4",
+      "remoteWork": "フルリモート可",
+      "flextime": "フレックス・裁量労働制",
+      "dressCode": "カジュアル・自由",
+      "officeLocation": "東京・渋谷・大阪・福岡",
+      "workCulture": "成長志向・チャレンジ精神・若手活躍"
+    },
+    "corporate": {
+      "established": 2005,
+      "capital": 5000,
+      "listing": "非上場",
+      "employees": 1800,
+      "revenue": 65000,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR014",
+    "companyName": "ＮＭＳホールディングス株式会社",
+    "industry": "製造業向け人材サービス",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 8000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "製造業特化型人材派遣・請負",
+      "specialization": "自動車・電子部品・精密機器",
+      "workStyle": "現場派遣・技能職中心",
+      "growth": "自動化対応・海外展開"
+    },
+    "recruitment": {
+      "positions": ["製造技術者", "品質管理", "設備保全"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": "作業着",
+      "officeLocation": "愛知・全国製造拠点",
+      "workCulture": "現場重視"
+    },
+    "corporate": {
+      "established": 2006,
+      "capital": 1000,
+      "listing": "東証スタンダード",
+      "employees": 8000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR015",
+    "companyName": "エン・ジャパン株式会社",
+    "industry": "求人情報・人材紹介",
+    "metrics": {
+      "salary": 567,
+      "initialSalary": 290,
+      "initialSalaryGrad": 290,
+      "holidays": 125,
+      "overtime": 42,
+      "employees": 3800,
+      "operatingMarginRate": 15.2,
+      "roe": 8.9,
+      "vacationRate": 70.0,
+      "parentalLeaveReturn": 90.0,
+      "maleParentalLeaveRate": 25.0,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": 18.5,
+      "averageTenure": 6.2
+    },
+    "features": {
+      "businessModel": "求人メディア・人材紹介・採用支援",
+      "specialization": "エン転職・エンエージェント・エンゲージ",
+      "workStyle": "営業・企画・システム開発",
+      "growth": "HR Tech・AI活用・海外展開"
+    },
+    "recruitment": {
+      "positions": ["営業", "エンジニア", "企画・マーケティング"],
+      "annualHiring": 350,
+      "midCareer": "積極採用",
+      "internship": "長期・短期インターン充実"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助・借上社宅",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "家族手当・育児支援",
+      "cafeteria": "社員食堂・軽食提供",
+      "trainingSupport": "研修制度・資格支援・書籍購入",
+      "uniqueBenefits": "リフレッシュ休暇・社内表彰制度",
+      "welfareGrade": "A",
+      "clubActivities": "多数の部活動・同好会"
+    },
+    "workEnvironment": {
+      "averageAge": 30.5,
+      "genderRatio": "男性6:女性4",
+      "remoteWork": "ハイブリッド・リモート対応",
+      "flextime": "フレックス制度",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京・新宿・大阪・福岡",
+      "workCulture": "挑戦志向・成果主義・風通し良好"
+    },
+    "corporate": {
+      "established": 2000,
+      "capital": 1186,
+      "listing": "東証プライム",
+      "employees": 3800,
+      "revenue": 69500,
+      "operatingIncome": 10600,
+      "netIncome": 7200
+    }
+  },
+  {
+    "id": "HR016",
+    "companyName": "フルキャストホールディングス株式会社",
+    "industry": "短期・単発人材派遣",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 4500,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "短期・単発人材派遣・軽作業",
+      "specialization": "イベント・物流・軽作業・販売",
+      "workStyle": "短期・単発・フレキシブル",
+      "growth": "デジタル化・マッチング効率化"
+    },
+    "recruitment": {
+      "positions": ["コーディネーター", "営業", "事務職"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京・全国拠点",
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1990,
+      "capital": 1750,
+      "listing": "東証プライム",
+      "employees": 4500,
+      "revenue": 45000,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR017",
+    "companyName": "ヒト・コミュニケーションズ・ホールディングス株式会社",
+    "industry": "販売・接客人材サービス",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 15000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "販売・接客・営業人材派遣",
+      "specialization": "携帯販売・家電・化粧品・保険",
+      "workStyle": "店舗派遣・接客・営業",
+      "growth": "デジタル販売・オムニチャネル"
+    },
+    "recruitment": {
+      "positions": ["販売スタッフ", "営業", "スーパーバイザー"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "販売研修制度",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": "店舗・企業に準拠",
+      "officeLocation": "東京・全国店舗",
+      "workCulture": "接客重視・チームワーク"
+    },
+    "corporate": {
+      "established": 2000,
+      "capital": 1359,
+      "listing": "東証プライム",
+      "employees": 15000,
+      "revenue": 58000,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR018",
+    "companyName": "ライク株式会社",
+    "industry": "総合人材サービス",
+    "metrics": {
+      "salary": null,
+      "initialSalary": 300,
+      "initialSalaryGrad": null,
+      "holidays": 119,
+      "overtime": null,
+      "employees": 7000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "人材派遣・介護・保育サービス",
+      "specialization": "介護・保育・一般事務・軽作業",
+      "workStyle": "多様な働き方・地域密着",
+      "growth": "介護・保育人材・地方展開"
+    },
+    "recruitment": {
+      "positions": ["介護スタッフ", "保育士", "コーディネーター"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "介護・保育研修制度",
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京・全国拠点",
+      "workCulture": "福祉重視・地域貢献"
+    },
+    "corporate": {
+      "established": 1993,
+      "capital": 650,
+      "listing": "東証スタンダード",
+      "employees": 7000,
+      "revenue": 42000,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "HR019",
+    "companyName": "ビジョナル株式会社",
+    "industry": "HR Tech・求人プラットフォーム",
+    "metrics": {
+      "salary": 650,
+      "initialSalary": 335,
+      "initialSalaryGrad": 335,
+      "holidays": 130,
+      "overtime": 26,
+      "employees": 1200,
+      "operatingMarginRate": 18.5,
+      "roe": 12.5,
+      "vacationRate": 85.0,
+      "parentalLeaveReturn": 95.0,
+      "maleParentalLeaveRate": 35.0,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": 8.5,
+      "averageTenure": 4.2
+    },
+    "features": {
+      "businessModel": "HR Tech・転職プラットフォーム運営",
+      "specialization": "ビズリーチ・HRMOS・キャリトレ",
+      "workStyle": "リモート・フレックス・裁量労働",
+      "growth": "AI・データ分析・海外展開"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "プロダクトマネージャー", "営業"],
+      "annualHiring": 200,
+      "midCareer": "積極採用",
+      "internship": "長期インターン・新卒採用"
+    },
+    "welfare": {
+      "housingAllowance": "住宅補助・引越し支援",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "家族手当・育児支援充実",
+      "cafeteria": "社員食堂・軽食・ドリンク無料",
+      "trainingSupport": "研修・書籍・カンファレンス参加支援",
+      "uniqueBenefits": "株式付与・副業可・MacBook支給",
+      "welfareGrade": "A",
+      "clubActivities": "多数の部活動・社内イベント"
+    },
+    "workEnvironment": {
+      "averageAge": 32.8,
+      "genderRatio": "男性7:女性3",
+      "remoteWork": "フルリモート・ハイブリッド自由",
+      "flextime": "フレックス・裁量労働制",
+      "dressCode": "カジュアル・完全自由",
+      "officeLocation": "東京・渋谷・大阪・シンガポール",
+      "workCulture": "挑戦志向・データドリブン・成果主義"
+    },
+    "corporate": {
+      "established": 2009,
+      "capital": 1404,
+      "listing": "東証プライム",
+      "employees": 1200,
+      "revenue": 35800,
+      "operatingIncome": 6600,
+      "netIncome": 4500
+    }
+  },
+  {
+    "id": "HR020",
+    "companyName": "キャリアリンク株式会社",
+    "industry": "BPO・アウトソーシング",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 12000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "BPO・事務処理アウトソーシング",
+      "specialization": "コールセンター・データ入力・事務処理",
+      "workStyle": "オフィス勤務・在宅対応",
+      "growth": "デジタル化・AI活用・効率化"
+    },
+    "recruitment": {
+      "positions": ["オペレーター", "事務スタッフ", "スーパーバイザー"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": "C",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "部分的在宅対応",
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京・全国拠点",
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1996,
+      "capital": 9050,
+      "listing": "東証プライム",
+      "employees": 12000,
+      "revenue": 35000,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]

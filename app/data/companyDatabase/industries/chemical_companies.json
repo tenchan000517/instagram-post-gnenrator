@@ -1,0 +1,115 @@
+{
+  "version": "2025-08-28",
+  "industry": "化学業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 2,
+  "averageSalary": 9730000,
+  "companies": [
+    {
+      "id": "CH001",
+      "companyName": "信越化学工業株式会社",
+      "industry": "化学業界",
+      "metrics": {
+        "salary": 8865000,
+        "initialSalary": 295950,
+        "initialSalaryGrad": 320950,
+        "holidays": 120,
+        "overtime": 17.9,
+        "employees": 26004,
+        "vacationRate": 76.0,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 20.1
+      },
+      "features": {
+        "businessModel": "塩ビ・半導体シリコン等の製造・販売。生活環境基盤材料、電子材料、機能材料事業を展開",
+        "specialization": "塩化ビニル樹脂と半導体シリコンで世界トップシェア",
+        "workStyle": "本社・支店・一部研究所でフレックスタイム制",
+        "growth": "少数精鋭主義による専門人材の深耕、長期雇用による技術継承"
+      },
+      "recruitment": {
+        "positions": ["総合職"],
+        "annualHiring": "108名（2025年予定）",
+        "midCareer": "あり",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "家賃補助・住宅手当、独身寮・社宅制度あり",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "家族手当、社員持株会",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1926,
+        "headquarters": "東京都千代田区丸の内",
+        "businessContent": "塩ビ・半導体シリコン等の製造・販売。生活環境基盤材料、電子材料、機能材料事業を展開",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "事業を通じた「地球の未来への貢献」を価値創造の中心に据えている",
+        "dataSource": "有価証券報告書（2024年3月期）、統合報告書2024、公式サイト採用情報"
+      }
+    },
+    {
+      "id": "CH002",
+      "companyName": "三菱ケミカル株式会社",
+      "industry": "化学業界",
+      "metrics": {
+        "salary": 10600000,
+        "initialSalary": 278000,
+        "initialSalaryGrad": 300000,
+        "holidays": 123,
+        "overtime": 19.4,
+        "employees": 40736,
+        "vacationRate": 80.6,
+        "maleParentalLeaveRate": 76.3,
+        "femaleParentalLeaveRate": 100.0,
+        "turnoverRate3Years": 2.47,
+        "averageTenure": 19.9
+      },
+      "features": {
+        "businessModel": "機能商品（高機能ポリマー、MMA等）、ケミカルズ（石油化学、炭素）等の製造・販売",
+        "specialization": "石油化学から高機能材料、ヘルスケアまで幅広い事業領域",
+        "workStyle": "テレワーク制度、フレックスタイム",
+        "growth": "主体的なキャリア形成を支援する公募制度、KAITEKI経営によるサステナビリティ重視"
+      },
+      "recruitment": {
+        "positions": ["総合職"],
+        "annualHiring": "データなし",
+        "midCareer": "積極的（中途採用比率 51.2%、2023年度）",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮、単身赴任寮、転勤者支援金等の制度あり",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "家族手当、育児・介護と仕事の両立支援制度",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 2017,
+        "headquarters": "東京都千代田区丸の内",
+        "businessContent": "機能商品（高機能ポリマー、MMA等）、ケミカルズ（石油化学、炭素）等の製造・販売",
+        "listingStatus": "非上場（親会社の三菱ケミカルグループ株式会社が東証プライムに上場）",
+        "awards": [],
+        "esgRating": "中長期経営基本戦略「KAITEKI Vision 30」を掲げ、サステナビリティを経営の根幹に置く「KAITEKI経営」を推進",
+        "dataSource": "有価証券報告書（三菱ケミカルグループ）、公式サイト採用情報、マイナビ、各種メディア"
+      }
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+[
+  {
+    "id": "ELEC001",
+    "companyName": "ソニー",
+    "industry": "総合電機メーカー・エンタテインメント複合企業",
+    "metrics": {
+      "salary": 1118,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 126,
+      "overtime": 24.1,
+      "employees": 113000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 70.9,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 76.2,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": 1.3,
+      "averageTenure": 15.8
+    },
+    "features": {
+      "businessModel": "ゲーム・音楽・映画・エレクトロニクス・半導体・金融サービス",
+      "specialization": "エンタテインメント×テクノロジー・イメージセンサー・コンテンツ",
+      "workStyle": "ハイブリッド・在宅勤務・コアタイムなしフレックス",
+      "growth": "AI・IoT技術・クリエイティブ重視"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "コンテンツ企画", "営業", "研究開発"],
+      "annualHiring": 301,
+      "midCareer": "積極採用",
+      "internship": "ソニーグループ合同インターンシップ"
+    },
+    "welfare": {
+      "housingAllowance": "家賃補助制度・独身寮・借上げ住宅制度",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "カフェテリアプラン（ソニー独自）",
+      "trainingSupport": null,
+      "uniqueBenefits": "ジョブグレード制度・育児支援・フレックスホリデー",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド・在宅勤務制度",
+      "flextime": "コアタイムなしフレックス",
+      "dressCode": null,
+      "officeLocation": "東京都港区港南",
+      "workCulture": "エンタテインメント×テクノロジー・創造性重視"
+    },
+    "corporate": {
+      "established": 1946,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 113000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "ELEC002",
+    "companyName": "富士通",
+    "industry": "総合電機メーカー兼総合ITベンダー",
+    "metrics": {
+      "salary": 965,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 126,
+      "overtime": 20.2,
+      "employees": 124000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 71,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 100,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 18
+    },
+    "features": {
+      "businessModel": "ITサービス・システム統合・ソフトウェア開発・クラウドサービス・DX支援",
+      "specialization": "DX・AI・クラウド・社会インフラ",
+      "workStyle": "完全リモート・原則テレワーク・出社率25%上限",
+      "growth": "ジョブ型人材マネジメント2026年導入・単身赴任実質ゼロ"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "コンサルタント", "研究者", "営業"],
+      "annualHiring": 800,
+      "midCareer": "積極採用",
+      "internship": "実施中"
+    },
+    "welfare": {
+      "housingAllowance": "独身者33,000円・既婚者40,000円・独身寮月1万円",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "F Life+（カフェテリアプラン）",
+      "trainingSupport": null,
+      "uniqueBenefits": "ジョブ型人材マネジメント・単身赴任実質ゼロ制度",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "完全リモート・原則テレワーク",
+      "flextime": "コアタイムなしフルフレックス",
+      "dressCode": null,
+      "officeLocation": "神奈川県川崎市中原区",
+      "workCulture": "DX・イノベーション重視・働き方改革先進"
+    },
+    "corporate": {
+      "established": 1935,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 124000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "ELEC003",
+    "companyName": "パナソニックホールディングス",
+    "industry": "総合電機業界",
+    "metrics": {
+      "salary": 956,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 127,
+      "overtime": 30,
+      "employees": 59006,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": 3.4,
+      "averageTenure": 17.9
+    },
+    "features": {
+      "businessModel": "家電・空質空調・食品流通・電気設備・デバイス開発・製造・販売",
+      "specialization": "事業会社制・グリーンエナジー領域",
+      "workStyle": "ハイブリッド・週半分程度在宅勤務・ノンコア・フレックス",
+      "growth": "持続可能なグロース・グローバル事業拡大"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "研究開発", "営業", "企画"],
+      "annualHiring": null,
+      "midCareer": "積極採用",
+      "internship": "夏季インターンシップ（事業会社別コース）"
+    },
+    "welfare": {
+      "housingAllowance": "転勤者のみ7割補助",
+      "transportationAllowance": null,
+      "familyAllowance": "家族手当（子ども1人月1万円）",
+      "cafeteria": "カフェテリアポイント制度（年12万円）",
+      "trainingSupport": null,
+      "uniqueBenefits": "事業会社制による初期配属確約・社内公募制度",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド・週半分程度在宅勤務",
+      "flextime": "ノンコア・フレックス",
+      "dressCode": null,
+      "officeLocation": "大阪府門真市",
+      "workCulture": "事業会社制・持続可能性重視"
+    },
+    "corporate": {
+      "established": 1918,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 59006,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "ELEC004",
+    "companyName": "日立製作所",
+    "industry": "総合電機・社会インフラ業界",
+    "metrics": {
+      "salary": 961,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 126,
+      "overtime": 17.5,
+      "employees": 270000,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 80.5,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "IT・エネルギー・インフラ・産業機器による社会イノベーション事業",
+      "specialization": "社会イノベーション・ジョブ型採用・IT・エネルギー・インフラ",
+      "workStyle": "ハイブリッド・在宅勤務・サテライトオフィス勤務積極活用",
+      "growth": "2026年度から完全ジョブ型採用移行・中途採用重視"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "研究者", "コンサルタント", "営業"],
+      "annualHiring": 770,
+      "midCareer": "積極採用",
+      "internship": "ジョブ型インターンシップ2週間"
+    },
+    "welfare": {
+      "housingAllowance": "賃料半額補助（上限4-5万円、34歳まで）",
+      "transportationAllowance": null,
+      "familyAllowance": "家族手当",
+      "cafeteria": "カフェテリアプラン",
+      "trainingSupport": null,
+      "uniqueBenefits": "2026年度から完全ジョブ型採用移行・博士人財向けプログラム",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド・在宅勤務・サテライトオフィス勤務",
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都千代田区丸の内",
+      "workCulture": "社会イノベーション・ジョブ型・技術重視"
+    },
+    "corporate": {
+      "established": 1910,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 270000,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "ELEC005",
+    "companyName": "NEC",
+    "industry": "総合電機業界",
+    "metrics": {
+      "salary": 963,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 126,
+      "overtime": 23.1,
+      "employees": 104194,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 63.1,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": 100,
+      "turnoverRate3Years": 3.9,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "ITサービス（官公庁・社会公共・企業向け）・社会インフラ",
+      "specialization": "DX事業転換・AIや生体認証等の先端技術分野・官公庁",
+      "workStyle": "ハイブリッド・在宅勤務・サテライトオフィス勤務等柔軟",
+      "growth": "指名委員会等設置会社移行・多様な人材活用企業文化変革"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "研究者", "営業", "コンサルタント"],
+      "annualHiring": 800,
+      "midCareer": "積極採用",
+      "internship": "夏季インターンシップ等"
+    },
+    "welfare": {
+      "housingAllowance": "カフェテリアプランに家賃補助メニューあり",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "年間86,000円相当のポイント付与",
+      "trainingSupport": null,
+      "uniqueBenefits": "スーパーフレックス勤務制度・有給休暇最大40日",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド・在宅勤務・サテライトオフィス",
+      "flextime": "スーパーフレックス（コアタイムなし）",
+      "dressCode": null,
+      "officeLocation": "東京都港区芝",
+      "workCulture": "DX・AI技術・官公庁・社会インフラ重視"
+    },
+    "corporate": {
+      "established": 1899,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 104194,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "ELEC006",
+    "companyName": "三菱電機",
+    "industry": "総合電機業界",
+    "metrics": {
+      "salary": 870,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": 149914,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 16.3
+    },
+    "features": {
+      "businessModel": "インダストリー・モビリティ・ライフ・ビジネスエリア",
+      "specialization": "FA・インフラ・デジタル融合戦略・パワー半導体・空調",
+      "workStyle": null,
+      "growth": "大規模採用でDX人材獲得・配属確約制度・カムバック採用拡充"
+    },
+    "recruitment": {
+      "positions": ["エンジニア", "研究開発", "営業", "企画"],
+      "annualHiring": 1050,
+      "midCareer": "積極採用",
+      "internship": "実施あり"
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": "通勤費補助",
+      "familyAllowance": "扶養手当",
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "職種確約コース・配属先指定リクルート制度・カムバック採用",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都千代田区丸の内",
+      "workCulture": "FA・インフラ・デジタル融合・技術重視"
+    },
+    "corporate": {
+      "established": 1921,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 149914,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]

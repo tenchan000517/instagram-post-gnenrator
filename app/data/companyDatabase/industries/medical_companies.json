@@ -1,0 +1,63 @@
+[
+  {
+    "id": "MED001",
+    "companyName": "株式会社アインホールディングス",
+    "industry": "調剤薬局・ドラッグストア:contentReference[oaicite:0]{index=0}",
+    "metrics": {
+      "salary": 7090000,
+      "initialSalary": 230000,
+      "initialSalaryGrad": 244000,
+      "holidays": 123,
+      "overtime": 6.1,
+      "employees": 162,
+      "operatingMarginRate": 5.11,
+      "roe": 8.7,
+      "vacationRate": 66.9,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 34.8,
+      "femaleParentalLeaveRate": 97.8,
+      "turnoverRate3Years": 8.2,
+      "averageTenure": 11.3
+    },
+    "features": {
+      "businessModel": "調剤薬局及びドラッグストア運営の複合小売事業",
+      "specialization": "地域密着型店舗展開で調剤業務に強み",
+      "workStyle": "店舗シフト勤務中心、地域医療を支える",
+      "growth": "多様なキャリアパス・研修制度"
+    },
+    "recruitment": {
+      "positions": ["薬剤師", "医療事務", "ドラッグストア販売職"],
+      "annualHiring": "744名:contentReference[oaicite:1]{index=1}",
+      "midCareer": "中途採用あり",
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": "借上社宅制度で家賃の最大8割補助:contentReference[oaicite:2]{index=2}",
+      "transportationAllowance": "通勤交通費全額支給:contentReference[oaicite:3]{index=3}",
+      "familyAllowance": "配偶者・子供手当あり",
+      "cafeteria": "社員食堂なし",
+      "trainingSupport": "新入社員研修・OJTなど研修制度充実:contentReference[oaicite:4]{index=4}",
+      "uniqueBenefits": "最大9日間連続休暇取得可能な特別休暇制度",
+      "welfareGrade": "A",
+      "clubActivities": "各種部活動・サークルあり"
+    },
+    "workEnvironment": {
+      "averageAge": 48,
+      "genderRatio": "男性約17%・女性約83%:contentReference[oaicite:6]{index=6}",
+      "remoteWork": "なし",
+      "flextime": "なし",
+      "dressCode": "制服（白衣／オフィスカジュアル）",
+      "officeLocation": "北海道札幌市白石区（本社）:contentReference[oaicite:7]{index=7}",
+      "workCulture": "地域医療貢献を重視する風土"
+    },
+    "corporate": {
+      "established": 1969,
+      "capital": 21894000000,
+      "listing": "プライム市場:contentReference[oaicite:8]{index=8}",
+      "employees": 18300,
+      "revenue": 399824000000,
+      "operatingIncome": 20432000000,
+      "netIncome": 11401000000
+    }
+  }
+]

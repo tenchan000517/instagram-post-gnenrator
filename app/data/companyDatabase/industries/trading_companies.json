@@ -1,0 +1,429 @@
+[
+  {
+    "id": "TRADE001",
+    "companyName": "伊藤忠商事株式会社",
+    "industry": "商社（総合商社）",
+    "metrics": {
+      "salary": 1805,
+      "initialSalary": 325,
+      "initialSalaryGrad": 360,
+      "holidays": null,
+      "overtime": 10.7,
+      "employees": 4215,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 69.1,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 96.0,
+      "femaleParentalLeaveRate": 103.0,
+      "turnoverRate3Years": 3.7,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "繊維・機械・金属・食料・住生活・情報・金融",
+      "specialization": "朝型勤務制度・働き方改革",
+      "workStyle": "一部リモートワーク可（産前・育児・介護時）",
+      "growth": "働き方改革リーダー・最少残業時間"
+    },
+    "recruitment": {
+      "positions": ["総合職", "地域職", "専門職", "事務職"],
+      "annualHiring": 134,
+      "midCareer": "積極的",
+      "internship": "実施あり（ES・Webテスト・面接）"
+    },
+    "welfare": {
+      "housingAllowance": "独身寮・社宅制度あり",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "朝食無料提供",
+      "trainingSupport": null,
+      "uniqueBenefits": "朝型勤務制度（20時以降残業原則禁止）、早朝勤務者インセンティブ、ベビーシッター補助、リフレッシュ休暇、ボランティア休暇",
+      "welfareGrade": "S",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "一部リモートワーク可（産前・育児・介護時）",
+      "flextime": "朝型勤務制度",
+      "dressCode": null,
+      "officeLocation": "東京都港区北青山",
+      "workCulture": "働き方改革・朝型勤務・効率重視"
+    },
+    "corporate": {
+      "established": 1858,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 4215,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "TRADE002",
+    "companyName": "三菱商事株式会社",
+    "industry": "商社（総合商社）",
+    "metrics": {
+      "salary": 2033,
+      "initialSalary": 340,
+      "initialSalaryGrad": 375,
+      "holidays": null,
+      "overtime": 29.2,
+      "employees": 4477,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 71.0,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 36.0,
+      "femaleParentalLeaveRate": 115.0,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "地球環境・エネルギー・金属資源・社会インフラ等8グループ",
+      "specialization": "資源・エネルギー分野でのグローバル投資・トレーディング",
+      "workStyle": "基本出社（一部リモートワーク）",
+      "growth": "新事業投資拡大・DX推進"
+    },
+    "recruitment": {
+      "positions": ["総合職", "地域限定職", "エンジニア", "金融・投資部門"],
+      "annualHiring": 100,
+      "midCareer": "積極的",
+      "internship": "実施あり"
+    },
+    "welfare": {
+      "housingAllowance": "社宅制度あり",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "MC育児コンシェルジュ、CareerChoice制度（手挙げ制異動）、配偶者転勤に伴う再雇用制度、WELL認証プラチナ取得",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "基本出社（一部リモートワーク）",
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": "東京都千代田区丸の内",
+      "workCulture": "グローバル展開・新事業投資・DX推進"
+    },
+    "corporate": {
+      "established": 1954,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 4477,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "TRADE003",
+    "companyName": "三井物産株式会社",
+    "industry": "商社（総合商社）",
+    "metrics": {
+      "salary": 1996,
+      "initialSalary": 320,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": 27.6,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "金属資源・エネルギー・機械・インフラ・化学品・食料等",
+      "specialization": "グローバル展開・高中途採用比率でキャリアチェンジ支援",
+      "workStyle": "リモートワーク・時差出勤制度",
+      "growth": "グローバル人材育成・多様性重視"
+    },
+    "recruitment": {
+      "positions": ["Globalコース", "地域コース", "専門職", "エンジニア"],
+      "annualHiring": 129,
+      "midCareer": "積極的（中途採用比率41.4%）",
+      "internship": "実施あり（\"志\"ワークショップ等）"
+    },
+    "welfare": {
+      "housingAllowance": "地方出身者向け家賃補助",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "カフェテリアプラン",
+      "trainingSupport": null,
+      "uniqueBenefits": "リフレッシュ休暇制度、保育費用補助、選考で自分史提出（2000-2500字エッセー）、時差出勤制度",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "リモートワーク可",
+      "flextime": "時差出勤制度",
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": "グローバル展開・多様性重視・キャリアチェンジ支援"
+    },
+    "corporate": {
+      "established": null,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "TRADE004",
+    "companyName": "住友商事株式会社",
+    "industry": "商社（総合商社）",
+    "metrics": {
+      "salary": 1759,
+      "initialSalary": 325,
+      "initialSalaryGrad": 360,
+      "holidays": 120,
+      "overtime": null,
+      "employees": 5086,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 36.3,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": null,
+      "averageTenure": 18.3
+    },
+    "features": {
+      "businessModel": "多様な商品・サービス販売・輸出入・三国間取引",
+      "specialization": "福利厚生充実・年間休日120日以上",
+      "workStyle": "リモートワーク・フレックス（コアタイム11:00-15:00）",
+      "growth": "配属先確約WILL選考・プラチナくるみん認定"
+    },
+    "recruitment": {
+      "positions": ["基幹職", "一般職", "専門職", "契約職"],
+      "annualHiring": 98,
+      "midCareer": "積極的",
+      "internship": "実施あり（一部選考免除特典）"
+    },
+    "welfare": {
+      "housingAllowance": "50,000円/月（東京勤務5年間）",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "キャリア休暇（5年毎連続5日）、自律学習支援、企業年金基金、WILL選考・OPEN選考",
+      "welfareGrade": "S",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "リモートワーク可",
+      "flextime": "フレックスタイム（コアタイム11:00-15:00）",
+      "dressCode": null,
+      "officeLocation": "東京都千代田区大手町",
+      "workCulture": "多角的事業展開・働き方改革・プラチナくるみん認定"
+    },
+    "corporate": {
+      "established": 1919,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 5086,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "TRADE005",
+    "companyName": "丸紅株式会社",
+    "industry": "商社（総合商社）",
+    "metrics": {
+      "salary": 1709,
+      "initialSalary": 305,
+      "initialSalaryGrad": 340,
+      "holidays": null,
+      "overtime": 15.8,
+      "employees": 4337,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 71.1,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 95.0,
+      "femaleParentalLeaveRate": 95.2,
+      "turnoverRate3Years": null,
+      "averageTenure": 17.9
+    },
+    "features": {
+      "businessModel": "ライフスタイル・食料・アグリ・金属・エネルギー等多角事業",
+      "specialization": "健康経営8年連続認定・働きやすさ追求",
+      "workStyle": "リモートワーク（在宅・サテライト・モバイル対応）・フレックス",
+      "growth": "Career Vision選考（配属先決め型）・継続的健康経営"
+    },
+    "recruitment": {
+      "positions": ["総合職", "地域職", "専門職", "技術職"],
+      "annualHiring": 77,
+      "midCareer": "積極的（通年/ポジション別採用）",
+      "internship": "実施あり"
+    },
+    "welfare": {
+      "housingAllowance": "借り上げ社宅制度",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "ベネフィット・ステーション",
+      "trainingSupport": null,
+      "uniqueBenefits": "ワークスタイル手当、プレミアム休暇、ボランティア休暇、ブリッジ・ホリデー（有給取得奨励日）",
+      "welfareGrade": "S",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "リモートワーク（在宅・サテライト・モバイル対応）",
+      "flextime": "フレックスタイム制",
+      "dressCode": null,
+      "officeLocation": "東京都千代田区大手町",
+      "workCulture": "健康経営・働きやすさ追求・多角的事業展開"
+    },
+    "corporate": {
+      "established": 1949,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 4337,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "TRADE006",
+    "companyName": "豊田通商株式会社",
+    "industry": "専門商社",
+    "metrics": {
+      "salary": 1320,
+      "initialSalary": 330,
+      "initialSalaryGrad": 350,
+      "holidays": null,
+      "overtime": 21.8,
+      "employees": 3292,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 66.1,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": 2.0,
+      "averageTenure": 17.1
+    },
+    "features": {
+      "businessModel": "各種物品の国内・海外取引・事業投資・金属・自動車・機械等",
+      "specialization": "トヨタグループ中核商社として自動車関連事業に強み",
+      "workStyle": "一部リモートワーク可・フレックス（コアタイム11:00-14:00）",
+      "growth": "グローバル展開・中途採用重視（比率51.1%）"
+    },
+    "recruitment": {
+      "positions": ["グローバル職", "地域限定職", "総合職"],
+      "annualHiring": 78,
+      "midCareer": "積極的（中途採用比率51.1%）",
+      "internship": "実施あり（夏・冬5日間、特別選考ルート有り）"
+    },
+    "welfare": {
+      "housingAllowance": "借上げ独身寮・社宅制度",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": "カフェテリアプラン制度",
+      "trainingSupport": null,
+      "uniqueBenefits": "パートナー制度（定年後継続雇用）、グローバル職・地域限定職選択制",
+      "welfareGrade": "A",
+      "clubActivities": "軽井沢山荘・はまなこてーじ社有保養施設"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "一部リモートワーク可",
+      "flextime": "フレックスタイム（コアタイム11:00-14:00）",
+      "dressCode": null,
+      "officeLocation": "愛知県名古屋市・東京都港区（機能本社）",
+      "workCulture": "トヨタグループ・グローバル展開・中途採用重視"
+    },
+    "corporate": {
+      "established": 1948,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 3292,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "TRADE007",
+    "companyName": "双日株式会社",
+    "industry": "専門商社",
+    "metrics": {
+      "salary": 1274,
+      "initialSalary": 305,
+      "initialSalaryGrad": 340,
+      "holidays": 120,
+      "overtime": 23.0,
+      "employees": 2551,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 77.6,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": 75.0,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": 3.4,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "自動車・航空・インフラ・エネルギー・金属・化学品・食料等",
+      "specialization": "事業創造DNA・高付加価値分野での専門性",
+      "workStyle": "ハイブリッド（2017年より在宅勤務）・スーパーフレックス",
+      "growth": "若手裁量権・早期海外経験・次世代リーダー育成"
+    },
+    "recruitment": {
+      "positions": ["総合職"],
+      "annualHiring": 118,
+      "midCareer": "積極的（中途採用比率25.3%）",
+      "internship": "実施あり（国内遠方参加者交通費・宿泊手配）"
+    },
+    "welfare": {
+      "housingAllowance": "寮・社宅制度",
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": "在宅勤務手当（1日200円）、ファミリーサポート休暇（5日間）、事業創造文化",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "ハイブリッド（2017年より在宅勤務）",
+      "flextime": "スーパーフレックス（コアタイムなし）",
+      "dressCode": null,
+      "officeLocation": "東京都千代田区内幸町",
+      "workCulture": "事業創造DNA・若手裁量権・次世代リーダー育成"
+    },
+    "corporate": {
+      "established": 2003,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 2551,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]

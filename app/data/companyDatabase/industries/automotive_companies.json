@@ -1,0 +1,246 @@
+[
+  {
+    "id": "AUTO001",
+    "companyName": "トヨタ自動車株式会社",
+    "industry": "自動車・輸送機器",
+    "metrics": {
+      "salary": 983,
+      "initialSalary": 254,
+      "initialSalaryGrad": 276,
+      "holidays": 125,
+      "overtime": 22,
+      "employees": 71515,
+      "operatingMarginRate": 11.9,
+      "roe": null,
+      "vacationRate": 78.0,
+      "parentalLeaveReturn": 95.0,
+      "maleParentalLeaveRate": 45.0,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": null,
+      "averageTenure": 15.6
+    },
+    "features": {
+      "businessModel": "自動車製造・ハイブリッド車・金融・IT・住宅事業",
+      "specialization": "世界トップ自動車メーカー・電動化技術・HV・EV",
+      "workStyle": "リモートワーク・FTL制度・フレックス",
+      "growth": "電動化・自動運転・カーボンニュートラル"
+    },
+    "recruitment": {
+      "positions": ["技術系", "事務系", "業務職", "技能職"],
+      "annualHiring": 400,
+      "midCareer": "積極採用",
+      "internship": "5日間・10日間インターン実施"
+    },
+    "welfare": {
+      "housingAllowance": "寮・社宅・家賃援助制度",
+      "transportationAllowance": "通勤費全額支給",
+      "familyAllowance": "家族手当・育児支援",
+      "cafeteria": "WELBOX・社員食堂",
+      "trainingSupport": "技術研修・資格取得支援",
+      "uniqueBenefits": "新車購入補助・カムバック制度・託児所3箇所",
+      "welfareGrade": "A",
+      "clubActivities": "多数の部活・サークル活動"
+    },
+    "workEnvironment": {
+      "averageAge": 40.8,
+      "genderRatio": "男性8:女性2",
+      "remoteWork": "全国どこでも在宅勤務可・FTL制度",
+      "flextime": "フレックスタイム制度",
+      "dressCode": "ビジネスカジュアル・部署により異なる",
+      "officeLocation": "愛知豊田・東京・全国工場拠点",
+      "workCulture": "品質第一・継続改善・長期雇用重視"
+    },
+    "corporate": {
+      "established": 1937,
+      "capital": 635400,
+      "listing": "東証プライム",
+      "employees": 71515,
+      "revenue": 4509530,
+      "operatingIncome": 535290,
+      "netIncome": 394724
+    }
+  },
+  {
+    "id": "AUTO002",
+    "companyName": "本田技研工業株式会社",
+    "industry": "自動車・輸送機器",
+    "metrics": {
+      "salary": 863,
+      "initialSalary": 262,
+      "initialSalaryGrad": 288,
+      "holidays": 121,
+      "overtime": 26,
+      "employees": 46820,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 75.0,
+      "parentalLeaveReturn": 92.0,
+      "maleParentalLeaveRate": 40.0,
+      "femaleParentalLeaveRate": 100.0,
+      "turnoverRate3Years": null,
+      "averageTenure": 13.8
+    },
+    "features": {
+      "businessModel": "二輪・四輪・パワープロダクツ・航空機製造",
+      "specialization": "モビリティ総合メーカー・二輪世界首位",
+      "workStyle": "フレックス・リモートワーク対応",
+      "growth": "電動化・自動運転・航空宇宙事業拡大"
+    },
+    "recruitment": {
+      "positions": ["技術系", "事務系", "デザイン系"],
+      "annualHiring": 350,
+      "midCareer": "積極採用",
+      "internship": "技術・事務・デザイン系インターン"
+    },
+    "welfare": {
+      "housingAllowance": "独身寮・社宅・住宅補助",
+      "transportationAllowance": "通勤費全額支給",
+      "familyAllowance": "扶養手当・子育て支援",
+      "cafeteria": "社員食堂・軽食補助",
+      "trainingSupport": "技術研修・海外研修・資格支援",
+      "uniqueBenefits": "Honda製品購入補助・25年勤続旅行券",
+      "welfareGrade": "A",
+      "clubActivities": "企業スポーツチーム・文化部活動"
+    },
+    "workEnvironment": {
+      "averageAge": 44.5,
+      "genderRatio": "男性8:女性2",
+      "remoteWork": "フレックス・在宅勤務制度",
+      "flextime": "フレックスタイム制度",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "東京・埼玉・栃木・熊本・全国工場",
+      "workCulture": "自由闊達・チャレンジ精神・技術革新"
+    },
+    "corporate": {
+      "established": 1948,
+      "capital": 86067,
+      "listing": "東証プライム",
+      "employees": 46820,
+      "revenue": 2150000,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "AUTO003",
+    "companyName": "日産自動車株式会社",
+    "industry": "自動車・輸送機器",
+    "metrics": {
+      "salary": 877,
+      "initialSalary": 250,
+      "initialSalaryGrad": 270,
+      "holidays": 121,
+      "overtime": 28,
+      "employees": 24034,
+      "operatingMarginRate": 0.6,
+      "roe": null,
+      "vacationRate": 68.0,
+      "parentalLeaveReturn": 88.0,
+      "maleParentalLeaveRate": 51.4,
+      "femaleParentalLeaveRate": 95.0,
+      "turnoverRate3Years": null,
+      "averageTenure": 15.0
+    },
+    "features": {
+      "businessModel": "EV・e-POWER・SUV・スポーツカー製造",
+      "specialization": "電気自動車パイオニア・EV技術世界トップ",
+      "workStyle": "リモートワーク手当・スーパーフレックス",
+      "growth": "電動化・自動運転・アライアンス戦略"
+    },
+    "recruitment": {
+      "positions": ["技術系", "事務系"],
+      "annualHiring": 301,
+      "midCareer": "積極採用",
+      "internship": "夏期・冬期インターンシップ"
+    },
+    "welfare": {
+      "housingAllowance": "家賃補助・社宅制度",
+      "transportationAllowance": "通勤費全額支給",
+      "familyAllowance": "家族手当・育児支援",
+      "cafeteria": "社員食堂・カフェテリア",
+      "trainingSupport": "グローバル研修・技術教育",
+      "uniqueBenefits": "リモートワーク手当・社員車両購入・託児所",
+      "welfareGrade": "A",
+      "clubActivities": "スポーツ・文化系クラブ活動"
+    },
+    "workEnvironment": {
+      "averageAge": 42.1,
+      "genderRatio": "男性7:女性3",
+      "remoteWork": "リモートワーク手当・在宅勤務制度",
+      "flextime": "スーパーフレックス・コアタイムなし",
+      "dressCode": "ビジネスカジュアル・カジュアル",
+      "officeLocation": "横浜・厚木・追浜・栃木・九州",
+      "workCulture": "多様性重視・グローバル・イノベーション"
+    },
+    "corporate": {
+      "established": 1933,
+      "capital": 605814,
+      "listing": "東証プライム",
+      "employees": 24034,
+      "revenue": 1263320,
+      "operatingIncome": 69800,
+      "netIncome": -67090
+    }
+  },
+  {
+    "id": "AUTO004",
+    "companyName": "マツダ株式会社",
+    "industry": "自動車・輸送機器",
+    "metrics": {
+      "salary": 715,
+      "initialSalary": 241,
+      "initialSalaryGrad": 263,
+      "holidays": 121,
+      "overtime": 24,
+      "employees": 23391,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 72.0,
+      "parentalLeaveReturn": 85.0,
+      "maleParentalLeaveRate": 35.0,
+      "femaleParentalLeaveRate": 98.0,
+      "turnoverRate3Years": null,
+      "averageTenure": 16.2
+    },
+    "features": {
+      "businessModel": "SKYACTIV技術・魂動デザイン・プレミアム車",
+      "specialization": "独自技術・デザイン重視・走る歓び",
+      "workStyle": "スーパーフレックス・在宅勤務",
+      "growth": "電動化・SKYACTIV-X・海外展開"
+    },
+    "recruitment": {
+      "positions": ["技術系", "事務系"],
+      "annualHiring": 250,
+      "midCareer": "積極採用",
+      "internship": "技術系・事務系インターンシップ"
+    },
+    "welfare": {
+      "housingAllowance": "独身寮・社宅・住宅補助",
+      "transportationAllowance": "通勤費全額支給",
+      "familyAllowance": "家族手当・子育て支援",
+      "cafeteria": "社員食堂・カフェテリア",
+      "trainingSupport": "技術研修・海外研修",
+      "uniqueBenefits": "フレキシブル福利厚生・車両購入補助",
+      "welfareGrade": "B",
+      "clubActivities": "スポーツ・文化クラブ"
+    },
+    "workEnvironment": {
+      "averageAge": 42.5,
+      "genderRatio": "男性8:女性2",
+      "remoteWork": "スーパーフレックス・在宅勤務",
+      "flextime": "スーパーフレックス・コアタイムなし",
+      "dressCode": "ビジネスカジュアル",
+      "officeLocation": "広島本社・東京・横浜・山口・タイ・米国",
+      "workCulture": "技術へのこだわり・品質重視・チャレンジ"
+    },
+    "corporate": {
+      "established": 1920,
+      "capital": 28401,
+      "listing": "東証プライム",
+      "employees": 23391,
+      "revenue": 462800,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]

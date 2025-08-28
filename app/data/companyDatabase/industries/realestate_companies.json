@@ -1,0 +1,327 @@
+{
+  "version": "2025-08-28",
+  "industry": "不動産・建設業界",
+  "lastUpdated": "2025-08-28",
+  "totalCompanies": 6,
+  "averageSalary": 1147000,
+  "companies": [
+    {
+      "id": "RE001",
+      "companyName": "三井不動産株式会社",
+      "industry": "総合デベロッパー",
+      "metrics": {
+        "salary": 12890000,
+        "initialSalary": 320000,
+        "initialSalaryGrad": 370000,
+        "holidays": 125,
+        "overtime": 8.0,
+        "employees": null,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100.0,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 0.93,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "オフィスビル、商業施設、住宅、ホテル等の開発・賃貸・分譲・マネジメント",
+        "specialization": "総合不動産開発、都市開発",
+        "workStyle": "フレックスタイム制",
+        "growth": "海外トレーニー制度、資格取得奨励制度"
+      },
+      "recruitment": {
+        "positions": ["総合職"],
+        "annualHiring": "データなし",
+        "midCareer": "あり（2023年度の中途採用比率: 45.0%）",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "借家手当あり（独身寮あり）",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "通勤費（全額支給）、家族手当",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "S",
+        "overall": "S",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1941,
+        "headquarters": "東京都中央区日本橋室町",
+        "businessContent": "オフィスビル、商業施設、住宅、ホテル等の開発・賃貸・分譲・マネジメント",
+        "listingStatus": "東証プライム",
+        "awards": ["プラチナくるみン認定（2024年7月）", "DX銘柄における「DX注目企業2021」"],
+        "esgRating": "「FTSE4Good Index Series」「FTSE Blossom Japan Index」構成銘柄",
+        "dataSource": "2024年3月期有価証券報告書、公式サイト"
+      }
+    },
+    {
+      "id": "RE002",
+      "companyName": "住友不動産株式会社",
+      "industry": "総合デベロッパー",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 305000,
+        "initialSalaryGrad": 334000,
+        "holidays": 123,
+        "overtime": null,
+        "employees": 1000,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100.0,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "オフィスビル開発・賃貸、マンション分譲、住宅リフォーム、不動産仲介",
+        "specialization": "総合不動産開発",
+        "workStyle": "フルフレックスタイム制（コアタイムなし）",
+        "growth": "資格取得支援、財形貯蓄、従業員持株会"
+      },
+      "recruitment": {
+        "positions": ["総合職"],
+        "annualHiring": "26名（2025年入社予定）",
+        "midCareer": "積極的（営業職などで多数募集）",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "なし（社宅制度あり）",
+        "cafeteria": "財形貯蓄",
+        "recreationFacilities": "自社ホテル・フィットネスクラブ割引",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "PCシャットダウン制度（原則21時に自動シャットダウン）",
+        "welfareGrade": "B"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "B"
+      },
+      "companyDetails": {
+        "established": 1949,
+        "headquarters": "東京都新宿区西新宿",
+        "businessContent": "オフィスビル開発・賃貸、マンション分譲、住宅リフォーム、不動産仲介",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "「FTSE4Good Global Index」継続選定（2004年より）",
+        "dataSource": "2024年3月期有価証券報告書、公式サイト、リクナビ2026"
+      }
+    },
+    {
+      "id": "RE003",
+      "companyName": "三菱地所株式会社",
+      "industry": "総合デベロッパー",
+      "metrics": {
+        "salary": 12730000,
+        "initialSalary": 210000,
+        "initialSalaryGrad": 245000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 18384,
+        "vacationRate": 67.9,
+        "maleParentalLeaveRate": 82.4,
+        "femaleParentalLeaveRate": 100.0,
+        "turnoverRate3Years": 0.7,
+        "averageTenure": 15.15
+      },
+      "features": {
+        "businessModel": "オフィスビル・商業施設・住宅・ホテルの開発・賃貸・運営管理",
+        "specialization": "東京丸の内エリア開発、総合不動産開発",
+        "workStyle": "フレックスタイム（コアタイム11:00-15:00）、テレワーク制度",
+        "growth": "ボランティア休暇、社会学習制度"
+      },
+      "recruitment": {
+        "positions": ["総合職"],
+        "annualHiring": "48名（2024年度）",
+        "midCareer": "限定的（2024年度0名、2023年度48名）",
+        "internship": "サマーインターンシップ、ウィンターインターンシップ実施"
+      },
+      "welfare": {
+        "housingAllowance": "詳細データなし",
+        "cafeteria": "共済会",
+        "recreationFacilities": "契約保養所システム",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "従業員持株会、災害支援交通費補助",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1937,
+        "headquarters": "東京都千代田区大手町1-1-1 大手町パークビル",
+        "businessContent": "オフィスビル・商業施設・住宅・ホテルの開発・賃貸・運営管理",
+        "listingStatus": "東証プライム市場",
+        "awards": ["DBJ Green Building認証34件"],
+        "esgRating": "FTSE4Good Index Series、MSCI ESG指数構成銘柄選定",
+        "dataSource": "三菱地所サステナビリティレポート2024、IR資料、採用サイト"
+      }
+    },
+    {
+      "id": "RE004",
+      "companyName": "株式会社大林組",
+      "industry": "建設業界",
+      "metrics": {
+        "salary": 11400000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 320000,
+        "holidays": 125,
+        "overtime": 45.0,
+        "employees": 17305,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100.0,
+        "femaleParentalLeaveRate": 100.0,
+        "turnoverRate3Years": null,
+        "averageTenure": 16.4
+      },
+      "features": {
+        "businessModel": "建築・土木工事の設計・施工、不動産事業、再生可能エネルギー事業",
+        "specialization": "スーパーゼネコン技術、大型プロジェクト",
+        "workStyle": "テレワーク制度、時差出勤制度、時間単位年休制度",
+        "growth": "イクボス宣言制度、シニア・スーパーシニアスタッフ制度"
+      },
+      "recruitment": {
+        "positions": ["建築職", "土木職", "事務職"],
+        "annualHiring": "359名（2024年度）",
+        "midCareer": "積極的（98名・2024年度、アルムナイ採用制度導入）",
+        "internship": "建築職5Daysインターンシップ等、複数プログラム実施"
+      },
+      "welfare": {
+        "housingAllowance": "各種住宅支援制度あり",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "現場勤務者インセンティブ（最大35万円）、各種資格取得支援",
+        "welfareGrade": "A"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "B",
+        "overall": "A",
+        "welfare": "A"
+      },
+      "companyDetails": {
+        "established": 1892,
+        "headquarters": "東京都港区港南2-15-2 品川インターシティB棟",
+        "businessContent": "建築・土木工事の設計・施工、不動産事業、再生可能エネルギー事業",
+        "listingStatus": "東証プライム市場",
+        "awards": ["CDP Climate Change A List 3年連続選定", "Eruboshi認定取得"],
+        "esgRating": "FTSE4Good Index Series、MSCI ESG指数等の主要ESG指数構成銘柄",
+        "dataSource": "大林組ESGデータブック2024、IR資料、採用サイト"
+      }
+    },
+    {
+      "id": "RE005",
+      "companyName": "鹿島建設株式会社",
+      "industry": "建設業界",
+      "metrics": {
+        "salary": 11847000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 320000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 8854,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 16.4
+      },
+      "features": {
+        "businessModel": "土木建築工事、不動産開発、エンジニアリング、国内外における建設事業および関連事業",
+        "specialization": "スーパーゼネコン技術、現場の工場化",
+        "workStyle": "在宅勤務制度、K-flex（鹿島版フレックス制度）",
+        "growth": "ICT・ロボット技術による建設現場の生産性向上"
+      },
+      "recruitment": {
+        "positions": ["事務職", "技術職"],
+        "annualHiring": "346名（事務57名、技術289名）（2025年4月実績）",
+        "midCareer": "あり",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "社宅・独身寮制度あり",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "住宅融資制度、持株会、勤務間インターバル制度",
+        "welfareGrade": "B"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "B",
+        "overall": "A",
+        "welfare": "B"
+      },
+      "companyDetails": {
+        "established": 1930,
+        "headquarters": "東京都港区元赤坂",
+        "businessContent": "土木建築工事、不動産開発、エンジニアリング、国内外における建設事業および関連事業",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "鹿島グループ中期経営計画（2024～2026）でESG取り組み開示",
+        "dataSource": "有価証券報告書（2025年3月期）、統合報告書2024、公式サイト採用情報"
+      }
+    },
+    {
+      "id": "RE006",
+      "companyName": "大成建設株式会社",
+      "industry": "建設業界",
+      "metrics": {
+        "salary": 10247000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 320000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 8720,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 17.9
+      },
+      "features": {
+        "businessModel": "建築・土木工事の設計・施工、エンジニアリング、不動産開発、環境関連事業等",
+        "specialization": "総合建設業、技術革新",
+        "workStyle": "完全週休2日制",
+        "growth": "ICT活用による生産性向上と働き方改革の推進"
+      },
+      "recruitment": {
+        "positions": ["事務職", "建築職", "土木職"],
+        "annualHiring": "433名（事務62名、建築282名、土木107名）（2025年度実績）",
+        "midCareer": "あり",
+        "internship": "実施あり"
+      },
+      "welfare": {
+        "housingAllowance": "住宅融資制度あり。地域手当が初任給に含まれる。",
+        "cafeteria": "財形貯蓄制度",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "社員持株会",
+        "welfareGrade": "B"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "B",
+        "overall": "A",
+        "welfare": "B"
+      },
+      "companyDetails": {
+        "established": 1917,
+        "headquarters": "東京都新宿区西新宿",
+        "businessContent": "建築・土木工事の設計・施工、エンジニアリング、不動産開発、環境関連事業等",
+        "listingStatus": "東証プライム",
+        "awards": [],
+        "esgRating": "統合報告書にて、中長期的な経営戦略とESG経営への取り組みを幅広く紹介",
+        "dataSource": "有価証券報告書（2024年3月期）、公式サイト採用情報、各種メディア"
+      }
+    }
+  ]
+}

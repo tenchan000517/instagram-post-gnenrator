@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "MAC001",
+    "companyName": "三菱重工業株式会社",
+    "industry": "総合重工業（エネルギー・宇宙・防衛など）",
+    "metrics": {
+      "salary": 1018,
+      "initialSalary": 260000,
+      "initialSalaryGrad": 280000,
+      "holidays": 126,
+      "overtime": null,
+      "employees": 77274,
+      "operatingMarginRate": 4.25,
+      "roe": 10.69,
+      "vacationRate": null,
+      "parentalLeaveReturn": 100,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": 18.9
+    },
+    "features": {
+      "businessModel": "多様分野で技術・製品を提供する総合重工メーカー",
+      "specialization": "発電・航空宇宙・防衛技術に強み",
+      "workStyle": "在宅勤務やフレックスで柔軟な働き方",
+      "growth": "グローバル大型プロジェクトでキャリア開発"
+    },
+    "recruitment": {
+      "positions": ["研究開発", "設計", "営業"],
+      "annualHiring": null,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "賃貸住宅家賃補助（首都圏65,000円、その他45,000円、家族追加支給あり）",
+      "transportationAllowance": "全額支給（社内規定）",
+      "familyAllowance": "配偶者・子供に手当あり",
+      "cafeteria": "社員食堂あり",
+      "trainingSupport": "研修・通信教育・資格取得支援あり",
+      "uniqueBenefits": "在宅勤務制度、ボランティア休暇、寮社宅など",
+      "welfareGrade": "A",
+      "clubActivities": "野球・サッカー・陸上部などスポーツ多数"
+    },
+    "workEnvironment": {
+      "averageAge": 42.5,
+      "genderRatio": "男性約90%、女性約10%",
+      "remoteWork": "在宅勤務制度あり",
+      "flextime": "コアタイムなしフレックス",
+      "dressCode": "オフィスカジュアル",
+      "officeLocation": "本社（東京）ほか国内外拠点",
+      "workCulture": "技術志向で協調性重視の企業文化"
+    },
+    "corporate": {
+      "established": 1950,
+      "capital": 265608,
+      "listing": "東証プライム",
+      "employees": 77274,
+      "revenue": 1729653,
+      "operatingIncome": 73578,
+      "netIncome": 153071
+    }
+  },
+  {
+    "id": "MAC002",
+    "companyName": "株式会社クボタ",
+    "industry": "農業機械・建設機械メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": 274000,
+      "initialSalaryGrad": 297000,
+      "holidays": 125,
+      "overtime": null,
+      "employees": 52094,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "農業・水環境・建機製品を提供し社会課題解決に挑む",
+      "specialization": "農機・建機および水環境技術に強み",
+      "workStyle": "グローバル展開を支える多様な働き方",
+      "growth": "海外市場拡大と先進技術開発で成長機会"
+    },
+    "recruitment": {
+      "positions": ["機械設計", "生産技術", "営業"],
+      "annualHiring": 333,
+      "midCareer": "あり",
+      "internship": "あり"
+    },
+    "welfare": {
+      "housingAllowance": "寮・社宅制度あり",
+      "transportationAllowance": "全額支給",
+      "familyAllowance": "扶養手当あり",
+      "cafeteria": "社員食堂・カフェテリアあり",
+      "trainingSupport": "研修制度・自己啓発支援あり",
+      "uniqueBenefits": "財形貯蓄、従業員持株会、カフェテリアプラン",
+      "welfareGrade": "A",
+      "clubActivities": "マラソン・野球・釣り同好会など"
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": "男性約80%、女性約20%",
+      "remoteWork": "部門により可能",
+      "flextime": "なし",
+      "dressCode": "オフィスカジュアル",
+      "officeLocation": "本社（大阪）ほか全国主要拠点",
+      "workCulture": "挑戦と協働を重視する文化"
+    },
+    "corporate": {
+      "established": 1890,
+      "capital": 84100,
+      "listing": "東証プライム",
+      "employees": 52094,
+      "revenue": 3016300,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC003",
+    "companyName": "株式会社メイテック",
+    "industry": "技術者派遣・アウトソーシング",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": null,
+      "capital": null,
+      "listing": null,
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC004",
+    "companyName": "株式会社小松製作所",
+    "industry": "建設機械メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1921,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC005",
+    "companyName": "IHI株式会社",
+    "industry": "総合重工業",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1853,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC006",
+    "companyName": "ダイキン工業株式会社",
+    "industry": "空調機器メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1924,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC007",
+    "companyName": "株式会社マキタ",
+    "industry": "電動工具メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1915,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC008",
+    "companyName": "アウトソーシングテクノロジー株式会社",
+    "industry": "技術者派遣・ITサービス",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": null,
+      "capital": null,
+      "listing": null,
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC009",
+    "companyName": "住友重機械工業株式会社",
+    "industry": "重工業メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1888,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC010",
+    "companyName": "ヤンマーホールディングス株式会社",
+    "industry": "農機・エンジン・船舶メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1912,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC011",
+    "companyName": "株式会社ジェイテクト",
+    "industry": "自動車部品（ステアリング・ベアリング）メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 2006,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC012",
+    "companyName": "日立建機株式会社",
+    "industry": "建設機械メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1949,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC013",
+    "companyName": "日本精工株式会社 (NSK)",
+    "industry": "ベアリング・精密部品メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1916,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC014",
+    "companyName": "NTN株式会社",
+    "industry": "ベアリング・伝動機器メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1918,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC015",
+    "companyName": "SMC株式会社",
+    "industry": "自動制御機器メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1959,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC016",
+    "companyName": "荏原製作所",
+    "industry": "ポンプ・空調機器メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1912,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC017",
+    "companyName": "DMG森精機株式会社",
+    "industry": "工作機械メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1948,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC018",
+    "companyName": "アマダ株式会社",
+    "industry": "板金機械メーカー",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": 1946,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "MAC019",
+    "companyName": "株式会社タクマ",
+    "industry": "プラントエンジニアリング",
+    "metrics": {
+      "salary": null,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": null,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "",
+      "specialization": "",
+      "workStyle": "",
+      "growth": ""
+    },
+    "recruitment": {
+      "positions": [],
+      "annualHiring": null,
+      "midCareer": null,
+      "internship": null
+    },
+    "welfare": {
+      "housingAllowance": null,
+      "transportationAllowance": null,
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": null,
+      "uniqueBenefits": null,
+      "welfareGrade": null,
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": null,
+      "flextime": null,
+      "dressCode": null,
+      "officeLocation": null,
+      "workCulture": null
+    },
+    "corporate": {
+      "established": null,
+      "capital": null,
+      "listing": null,
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]
