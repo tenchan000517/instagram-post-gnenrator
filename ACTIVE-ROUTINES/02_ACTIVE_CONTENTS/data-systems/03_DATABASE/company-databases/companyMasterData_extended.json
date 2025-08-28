@@ -1,0 +1,522 @@
+{
+  "version": "2024-2025-extended",
+  "lastUpdated": "2025-07-30",
+  "companies": [
+    {
+      "id": "C001",
+      "companyName": "M&Aキャピタルパートナーズ",
+      "industry": "M&A仲介・アドバイザリー",
+      "metrics": {
+        "salary": 24780000,
+        "holidays": 120,
+        "overtime": 45,
+        "employees": 180,
+        "operatingMarginRate": 45.2,
+        "roe": 28.5,
+        "marketCap": 280000000000
+      },
+      "welfare": {
+        "housingAllowance": null,
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": null,
+        "welfareGrade": null
+      },
+      "features": {
+        "businessModel": "業績連動型賞与制",
+        "specialization": "事業承継案件特化",
+        "workStyle": "成果連動型",
+        "growth": "少数精鋭高収益"
+      },
+      "recruitment": {
+        "positions": ["営業職", "コンサルタント職", "事業推進職"],
+        "annualHiring": "20-30"
+      },
+      "scores": {
+        "salary": "S",
+        "worklife": "B",
+        "overall": "A",
+        "welfare": null
+      }
+    },
+    {
+      "id": "C009",
+      "companyName": "サントリーホールディングス",
+      "industry": "飲料・酒類製造販売",
+      "metrics": {
+        "salary": 10450000,
+        "holidays": 121,
+        "overtime": 22,
+        "employees": 2500,
+        "operatingMarginRate": 12.5,
+        "roe": 14.2,
+        "marketCap": 4200000000000
+      },
+      "welfare": {
+        "housingAllowance": 100000,
+        "cafeteria": "社員食堂完備",
+        "recreationFacilities": "保養施設・フィットネスルーム",
+        "healthSupport": "健康管理センター",
+        "uniqueBenefits": "家賃80%負担制度",
+        "welfareGrade": "S"
+      },
+      "features": {
+        "businessModel": "グローバル飲料事業",
+        "specialization": "飲料・酒類製造",
+        "workStyle": "ワークライフバランス重視",
+        "growth": "海外市場拡大"
+      },
+      "recruitment": {
+        "positions": ["営業職", "研究開発職", "企画職", "生産技術職"],
+        "annualHiring": "200-250"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "B",
+        "overall": "A",
+        "welfare": "S"
+      }
+    },
+    {
+      "id": "C010",
+      "companyName": "朝日新聞社",
+      "industry": "新聞・メディア",
+      "metrics": {
+        "salary": 12740000,
+        "holidays": 125,
+        "overtime": 20,
+        "employees": 3800,
+        "operatingMarginRate": 8.5,
+        "roe": 9.2,
+        "marketCap": 180000000000
+      },
+      "welfare": {
+        "housingAllowance": 95000,
+        "cafeteria": "社員食堂・診療所完備",
+        "recreationFacilities": "フィットネスルーム・保健所",
+        "healthSupport": "健康経営優良法人ホワイト500認定",
+        "uniqueBenefits": "5年間手厚い住宅補助制度",
+        "welfareGrade": "S"
+      },
+      "features": {
+        "businessModel": "新聞・デジタルメディア",
+        "specialization": "報道・メディア事業",
+        "workStyle": "報道倫理重視",
+        "growth": "デジタル転換推進"
+      },
+      "recruitment": {
+        "positions": ["記者職", "営業職", "企画職", "技術職"],
+        "annualHiring": "50-80"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "S"
+      }
+    },
+    {
+      "id": "C011",
+      "companyName": "住友生命保険",
+      "industry": "生命保険",
+      "metrics": {
+        "salary": 7420000,
+        "holidays": 120,
+        "overtime": 25,
+        "employees": 12000,
+        "operatingMarginRate": 6.8,
+        "roe": 11.5,
+        "marketCap": 920000000000
+      },
+      "welfare": {
+        "housingAllowance": 85000,
+        "cafeteria": "社員食堂",
+        "recreationFacilities": "保養施設多数",
+        "healthSupport": "企業内保育所・介護支援制度",
+        "uniqueBenefits": "3年目までの手厚い住宅支援",
+        "welfareGrade": "S"
+      },
+      "features": {
+        "businessModel": "生命保険事業",
+        "specialization": "保険商品開発・販売",
+        "workStyle": "顧客第一主義",
+        "growth": "デジタル化推進"
+      },
+      "recruitment": {
+        "positions": ["総合営業職", "総合キャリア職", "一般職"],
+        "annualHiring": "800-1000"
+      },
+      "scores": {
+        "salary": "B",
+        "worklife": "B",
+        "overall": "B",
+        "welfare": "S"
+      }
+    },
+    {
+      "id": "C012",
+      "companyName": "日本IBM",
+      "industry": "IT・システムサービス",
+      "metrics": {
+        "salary": 11850000,
+        "holidays": 128,
+        "overtime": 18,
+        "employees": 12500,
+        "operatingMarginRate": 18.2,
+        "roe": 16.8,
+        "marketCap": 850000000000
+      },
+      "welfare": {
+        "housingAllowance": 80000,
+        "cafeteria": "社員食堂（栄養管理されたメニュー）",
+        "recreationFacilities": "フレックスタイム・在宅勤務制度",
+        "healthSupport": "健康管理センター",
+        "uniqueBenefits": "カフェテリアプラン（選択型福利厚生）",
+        "welfareGrade": "A"
+      },
+      "features": {
+        "businessModel": "ITコンサルティング・システム構築",
+        "specialization": "AI・クラウド・データ分析",
+        "workStyle": "リモートワーク推進",
+        "growth": "デジタル変革支援"
+      },
+      "recruitment": {
+        "positions": ["ITコンサルタント", "SE", "営業職", "研究開発職"],
+        "annualHiring": "300-400"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      }
+    },
+    {
+      "id": "C013",
+      "companyName": "サイバーエージェント",
+      "industry": "IT・インターネット広告",
+      "metrics": {
+        "salary": 7710000,
+        "holidays": 120,
+        "overtime": 30,
+        "employees": 6500,
+        "operatingMarginRate": 15.8,
+        "roe": 18.2,
+        "marketCap": 1800000000000
+      },
+      "welfare": {
+        "housingAllowance": 30000,
+        "cafeteria": "オフィス内カフェ・軽食",
+        "recreationFacilities": "マッサージルーム無料月4回",
+        "healthSupport": "健康管理システム",
+        "uniqueBenefits": "2駅ルール・どこでもルール・卵子凍結補助",
+        "welfareGrade": "A"
+      },
+      "features": {
+        "businessModel": "インターネット広告・ゲーム・メディア",
+        "specialization": "デジタルマーケティング",
+        "workStyle": "チャレンジ精神重視",
+        "growth": "新規事業創出"
+      },
+      "recruitment": {
+        "positions": ["エンジニア", "デザイナー", "営業職", "企画職"],
+        "annualHiring": "400-500"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "B",
+        "overall": "A",
+        "welfare": "A"
+      }
+    },
+    {
+      "id": "C004",
+      "companyName": "オリエンタルランド",
+      "industry": "テーマパーク運営",
+      "metrics": {
+        "salary": 6650000,
+        "holidays": 135,
+        "overtime": 15,
+        "employees": 2900,
+        "operatingMarginRate": 18.5,
+        "roe": 8.2,
+        "vacationRate": 90
+      },
+      "welfare": {
+        "housingAllowance": 0,
+        "cafeteria": "社員食堂・カフェテリア",
+        "recreationFacilities": "独身寮2棟完備",
+        "healthSupport": "健康管理センター",
+        "uniqueBenefits": "テーマパークパスポート支給・園内商品割引・サンクスデー",
+        "welfareGrade": "A"
+      },
+      "features": {
+        "businessModel": "テーマパーク運営",
+        "specialization": "エンターテインメント",
+        "workStyle": "従業員満足度重視",
+        "growth": "パーク拡張計画"
+      },
+      "recruitment": {
+        "positions": ["運営職", "企画職", "技術職", "事務職"],
+        "annualHiring": "300-400"
+      },
+      "scores": {
+        "salary": "B",
+        "worklife": "S",
+        "overall": "A",
+        "welfare": "A"
+      }
+    },
+    {
+      "id": "C014",
+      "companyName": "Google Japan",
+      "industry": "IT・インターネット関連サービス",
+      "metrics": {
+        "salary": 13000000,
+        "holidays": 130,
+        "overtime": 10,
+        "employees": 2000,
+        "operatingMarginRate": 25.2,
+        "roe": 22.8,
+        "vacationRate": 90
+      },
+      "welfare": {
+        "housingAllowance": null,
+        "cafeteria": "3食無料（専属シェフによるバイキング）",
+        "recreationFacilities": "フィットネスジム・マッサージルーム・ゲームルーム",
+        "healthSupport": "包括的健康管理プログラム",
+        "uniqueBenefits": "20%ルール・完全フレックス制・各国郷土料理提供",
+        "welfareGrade": "A"
+      },
+      "features": {
+        "businessModel": "検索エンジン・クラウドサービス",
+        "specialization": "AI・機械学習・クラウド",
+        "workStyle": "イノベーション重視",
+        "growth": "AI技術開発"
+      },
+      "recruitment": {
+        "positions": ["エンジニア", "マーケティング", "営業", "データサイエンティスト"],
+        "annualHiring": "50-100"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "S",
+        "overall": "S",
+        "welfare": "A"
+      }
+    },
+    {
+      "id": "C015",
+      "companyName": "アズビル",
+      "industry": "制御・自動化機器",
+      "metrics": {
+        "salary": 7820000,
+        "holidays": 124,
+        "overtime": 18,
+        "employees": 9500,
+        "turnoverRate": 0.4,
+        "averageTenure": 18.2,
+        "vacationRate": 89,
+        "satisfactionScore": 76
+      },
+      "welfare": {
+        "housingAllowance": 50000,
+        "cafeteria": "あり",
+        "recreationFacilities": "あり",
+        "healthSupport": "充実",
+        "uniqueBenefits": "技術者支援制度",
+        "welfareGrade": "A"
+      },
+      "workplaceMetrics": {
+        "turnoverRate": 0.4,
+        "averageTenure": 18.2,
+        "vacationRate": 89,
+        "newGradThreeYearTurnover": 2.1,
+        "maternityReturnRate": 88,
+        "paternityReturnRate": 75,
+        "satisfactionScore": 76,
+        "workplaceGrade": "S"
+      },
+      "features": {
+        "businessModel": "制御機器・計測機器",
+        "specialization": "プロセス自動化",
+        "workStyle": "安定志向",
+        "growth": "老舗技術企業"
+      },
+      "recruitment": {
+        "positions": ["技術職", "営業職", "企画職", "研究開発職"],
+        "annualHiring": "80-120"
+      },
+      "scores": {
+        "salary": "B",
+        "worklife": "S",
+        "overall": "A",
+        "welfare": "A"
+      }
+    },
+    {
+      "id": "C016",
+      "companyName": "トヨタ自動車",
+      "industry": "自動車製造業",
+      "metrics": {
+        "salary": 8990000,
+        "holidays": 125,
+        "overtime": 20,
+        "employees": 366283,
+        "turnoverRate": 2.8,
+        "averageTenure": 16.4,
+        "vacationRate": 82,
+        "satisfactionScore": 78
+      },
+      "welfare": {
+        "housingAllowance": 80000,
+        "cafeteria": "あり",
+        "recreationFacilities": "充実",
+        "healthSupport": "充実",
+        "uniqueBenefits": "改善提案制度",
+        "welfareGrade": "A"
+      },
+      "workplaceMetrics": {
+        "turnoverRate": 2.8,
+        "averageTenure": 16.4,
+        "vacationRate": 82,
+        "newGradThreeYearTurnover": 8.5,
+        "maternityReturnRate": 95,
+        "paternityReturnRate": 87,
+        "satisfactionScore": 78,
+        "workplaceGrade": "A"
+      },
+      "features": {
+        "businessModel": "自動車製造・販売",
+        "specialization": "世界最大手",
+        "workStyle": "改善文化",
+        "growth": "グローバル展開"
+      },
+      "recruitment": {
+        "positions": ["技術職", "事務職", "業務職"],
+        "annualHiring": "800-1000"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      }
+    },
+    {
+      "id": "C017",
+      "companyName": "味の素",
+      "industry": "食品・調味料",
+      "metrics": {
+        "salary": 9510000,
+        "holidays": 130,
+        "overtime": 19,
+        "employees": 3462,
+        "turnoverRate": 3.2,
+        "averageTenure": 18.9,
+        "vacationRate": 88,
+        "satisfactionScore": 81
+      },
+      "welfare": {
+        "housingAllowance": 70000,
+        "cafeteria": "あり",
+        "recreationFacilities": "あり",
+        "healthSupport": "充実",
+        "uniqueBenefits": "健康経営制度",
+        "welfareGrade": "A"
+      },
+      "workplaceMetrics": {
+        "turnoverRate": 3.2,
+        "averageTenure": 18.9,
+        "vacationRate": 88,
+        "newGradThreeYearTurnover": 7.2,
+        "maternityReturnRate": 92,
+        "paternityReturnRate": 78,
+        "satisfactionScore": 81,
+        "workplaceGrade": "A"
+      },
+      "features": {
+        "businessModel": "食品・アミノ酸",
+        "specialization": "調味料・健康食品",
+        "workStyle": "働き方改革",
+        "growth": "グローバル食品企業"
+      },
+      "recruitment": {
+        "positions": ["研究開発職", "営業職", "生産技術職", "企画職"],
+        "annualHiring": "150-200"
+      },
+      "scores": {
+        "salary": "A",
+        "worklife": "A",
+        "overall": "A",
+        "welfare": "A"
+      }
+    }
+  ],
+  "rankings": {
+    "highSalary": {
+      "criteria": "salary",
+      "order": "desc",
+      "top15": ["C001", "C002", "C003", "C014", "C010", "C012", "C009", "C013", "C011", "C004"]
+    },
+    "whiteCompany": {
+      "criteria": ["holidays", "vacationRate", "overtime"],
+      "order": ["desc", "desc", "asc"],
+      "top15": ["C004", "C005", "C014", "C009", "C010", "C012", "C013", "C011"]
+    },
+    "welfare": {
+      "criteria": ["welfareGrade", "housingAllowance"],
+      "order": ["desc", "desc"],
+      "top15": ["C009", "C010", "C011", "C012", "C013", "C004", "C014"]
+    },
+    "overall": {
+      "criteria": ["overall", "salary", "worklife"],
+      "order": ["desc", "desc", "desc"],
+      "top15": ["C006", "C007", "C008", "C014", "C005", "C002", "C003", "C009", "C010", "C012"]
+    },
+    "workplaceEnvironment": {
+      "criteria": ["turnoverRate", "averageTenure", "vacationRate", "satisfactionScore"],
+      "order": ["asc", "desc", "desc", "desc"],
+      "top15": ["C015", "C016", "C017", "C004", "C005", "C009", "C010", "C011", "C012", "C013", "C014", "C006", "C007", "C008", "C001"]
+    }
+  },
+  "categories": {
+    "industry": {
+      "商社": ["C003"],
+      "製薬": ["C005"],
+      "自動車": ["C006"],
+      "電機": ["C007"],
+      "ゲーム": ["C008"],
+      "テーマパーク": ["C004"],
+      "精密機器": ["C002"],
+      "M&A": ["C001"],
+      "飲料": ["C009"],
+      "メディア": ["C010"],
+      "保険": ["C011"],
+      "IT": ["C012", "C013", "C014"],
+      "制御機器": ["C015"],
+      "食品": ["C017"]
+    },
+    "welfareGrade": {
+      "S級": ["C009", "C010", "C011"],
+      "A級": ["C012", "C013", "C004", "C014", "C015", "C016", "C017"],
+      "B級": [],
+      "未評価": ["C001", "C002", "C003", "C005", "C006", "C007", "C008"]
+    },
+    "workplaceGrade": {
+      "S級": ["C015"],
+      "A級": ["C016", "C017", "C004", "C005", "C009", "C010", "C011", "C012", "C013", "C014"],
+      "B級": ["C006", "C007", "C008"],
+      "未評価": ["C001", "C002", "C003"]
+    },
+    "housingAllowance": {
+      "10万円以上": ["C009"],
+      "8-10万円": ["C010", "C011", "C012"],
+      "5-8万円": [],
+      "3-5万円": ["C013"],
+      "3万円未満": [],
+      "なし": ["C004", "C014"]
+    }
+  }
+}

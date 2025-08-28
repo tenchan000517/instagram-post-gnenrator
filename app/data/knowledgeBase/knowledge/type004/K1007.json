@@ -1,0 +1,135 @@
+{
+  "source": "Type004実証型ナレッジ-Slack通知最適化システム",
+  "problemCategory": "生産性・効率化・集中力管理",
+  "postType": "004",
+  "knowledgeId": "K1007",
+  "pageStructurePattern": "unified-template-13-step-by-step",
+  "actualTitle": "Slack通知地獄から完全脱出！集中力が3倍向上する設定法",
+  "targetIds": ["T020", "T021", "T024"],
+  "pageCount": 8,
+  "detailedContent": {
+    "page1": {
+      "role": "basic_intro",
+      "section": "introduction",
+      "content": {
+        "title": "Slack通知地獄から完全脱出！集中力が3倍向上する設定法",
+        "targetAudience": "リモートワークでSlackを使用する社会人",
+        "problems": [
+          "1日平均67回のSlack通知で集中力が断続的に途切れる",
+          "重要な通知と不要な通知が混在して優先度がわからない", 
+          "通知による集中力低下で作業効率が40%も落ちている",
+          "夜間や休日の通知でプライベート時間まで侵害されている"
+        ],
+        "additionalMessage": "Microsoft社調査：通知による集中力回復には平均23分必要。1日67回なら25.6時間分の損失"
+      }
+    },
+    "page2": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 1,
+        "totalSteps": 6,
+        "stepTitle": "通知頻度の現状把握と問題分析",
+        "duration": "分析5分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #FEF2F2; padding: 20px; border-radius: 12px; border: 2px solid #FECACA;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #DC2626; font-size: 18px;'>通知による生産性損失の実態</strong></div><div style='background: #FFFFFF; padding: 18px; border-radius: 8px; margin-bottom: 20px;'><div style='text-align: center; margin-bottom: 14px;'><strong style='color: #1F2937; font-size: 16px;'>1日の通知回数統計（Microsoft調査）</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; text-align: center;'><div style='color: #D97706; font-size: 24px; font-weight: bold; margin-bottom: 4px;'>67回</div><div style='font-size: 12px; color: #6B7280;'>平均通知回数/日</div></div><div style='background: #DBEAFE; padding: 16px; border-radius: 8px; text-align: center;'><div style='color: #2563EB; font-size: 24px; font-weight: bold; margin-bottom: 4px;'>23分</div><div style='font-size: 12px; color: #6B7280;'>集中力回復時間</div></div><div style='background: #FEE2E2; padding: 16px; border-radius: 8px; text-align: center;'><div style='color: #DC2626; font-size: 24px; font-weight: bold; margin-bottom: 4px;'>25.6時間</div><div style='font-size: 12px; color: #6B7280;'>1日の損失時間</div></div></div><div style='background: #F9FAFB; padding: 14px; border-radius: 8px; border: 1px solid #E5E7EB;'><div style='font-size: 13px; color: #374151; line-height: 1.5; text-align: center;'><strong>計算根拠</strong><br/>67回 × 23分 = 1,541分 = 25.6時間<br/>実質的に1日以上の時間を通知による集中力低下で失っている</div></div></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px;'><div style='background: #FEF3F3; padding: 18px; border-radius: 9px;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #DC2626; font-size: 16px;'>現状の問題</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'>• 全チャンネル一律通知</div><div style='margin-bottom: 6px;'>• DM・メンション・全体通知が同等</div><div style='margin-bottom: 6px;'>• 休日・夜間も通知継続</div><div style='margin-bottom: 6px;'>• 緊急度判別不可</div></div></div><div style='background: #D1FAE5; padding: 18px; border-radius: 9px;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #059669; font-size: 16px;'>最適化後の効果</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'>• 通知87%削減（67回→9回）</div><div style='margin-bottom: 6px;'>• 集中時間3倍向上</div><div style='margin-bottom: 6px;'>• 作業効率40%改善</div><div style='margin-bottom: 6px;'>• プライベート時間保護</div></div></div></div></div></div>",
+        "instructions": [],
+        "tips": "現在の通知設定を確認：Slack画面右上の自分のアイコン→「環境設定」→「通知」で現在の設定状況をチェック",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page3": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 2,
+        "totalSteps": 6,
+        "stepTitle": "重要度別通知カテゴリー設計",
+        "duration": "設計8分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>3段階通知システム設計</strong></div><div style='display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 20px;'><div style='background: #FEE2E2; padding: 18px; border-radius: 10px; border: 2px solid #FECACA;'><div style='display: flex; align-items: center; justify-content: center; margin-bottom: 12px;'><div style='background: #DC2626; color: white; font-size: 14px; font-weight: bold; padding: 4px 12px; border-radius: 20px; margin-right: 10px;'>緊急</div><strong style='color: #DC2626; font-size: 16px;'>即座に確認すべき通知</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5; margin-bottom: 12px;'><div style='margin-bottom: 4px;'>• 自分宛のDM（個人メッセージ）</div><div style='margin-bottom: 4px;'>• @自分 のメンション</div><div style='margin-bottom: 4px;'>• プロジェクト緊急チャンネル</div><div style='margin-bottom: 4px;'>• 障害・トラブル対応チャンネル</div></div><div style='background: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E5E7EB; text-align: center;'><strong style='color: #DC2626; font-size: 14px;'>通知方法：デスクトップ＋音＋メール</strong></div></div><div style='background: #FEF3C7; padding: 18px; border-radius: 10px; border: 2px solid #FED7AA;'><div style='display: flex; align-items: center; justify-content: center; margin-bottom: 12px;'><div style='background: #D97706; color: white; font-size: 14px; font-weight: bold; padding: 4px 12px; border-radius: 20px; margin-right: 10px;'>重要</div><strong style='color: #D97706; font-size: 16px;'>作業時間内に確認すべき通知</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5; margin-bottom: 12px;'><div style='margin-bottom: 4px;'>• 業務関連チャンネルの@here、@channel</div><div style='margin-bottom: 4px;'>• チームミーティングの予定変更</div><div style='margin-bottom: 4px;'>• プロジェクト進捗チャンネル</div><div style='margin-bottom: 4px;'>• タスク完了・承認依頼</div></div><div style='background: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E5E7EB; text-align: center;'><strong style='color: #D97706; font-size: 14px;'>通知方法：デスクトップのみ（音なし）</strong></div></div><div style='background: #E0F2FE; padding: 18px; border-radius: 10px; border: 2px solid #BAE6FD;'><div style='display: flex; align-items: center; justify-content: center; margin-bottom: 12px;'><div style='background: #0369A1; color: white; font-size: 14px; font-weight: bold; padding: 4px 12px; border-radius: 20px; margin-right: 10px;'>通常</div><strong style='color: #0369A1; font-size: 16px;'>時間があるときに確認する通知</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5; margin-bottom: 12px;'><div style='margin-bottom: 4px;'>• 雑談・情報共有チャンネル</div><div style='margin-bottom: 4px;'>• 社内イベント・懇親会</div><div style='margin-bottom: 4px;'>• ニュース・技術情報共有</div><div style='margin-bottom: 4px;'>• その他一般的な投稿</div></div><div style='background: #FFFFFF; padding: 12px; border-radius: 6px; border: 1px solid #E5E7EB; text-align: center;'><strong style='color: #0369A1; font-size: 14px;'>通知方法：通知オフ（自発的確認）</strong></div></div></div></div></div>",
+        "instructions": [],
+        "tips": "あなたの業務に合わせてカテゴリーを調整してください。営業なら顧客関連を「緊急」、開発者なら本番環境を「緊急」に分類",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page4": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 3,
+        "totalSteps": 6,
+        "stepTitle": "チャンネル別通知設定の実装",
+        "duration": "設定12分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #FEF7ED; padding: 20px; border-radius: 12px; border: 2px solid #FDBA74;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #EA580C; font-size: 18px;'>チャンネル別設定手順</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='font-size: 14px; color: #1F2937; margin-bottom: 12px; font-weight: bold;'>【手順】各チャンネルで右クリック→「通知」を選択</div><div style='display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;'><div style='background: #FEE2E2; padding: 16px; border-radius: 8px; text-align: center;'><div style='color: #DC2626; font-size: 16px; font-weight: bold; margin-bottom: 8px;'>緊急カテゴリー</div><div style='background: #FFFFFF; padding: 8px; border-radius: 6px; margin-bottom: 8px; border: 1px solid #E5E7EB;'><div style='font-size: 12px; color: #374151; margin-bottom: 4px;'>設定値：</div><div style='font-size: 14px; color: #DC2626; font-weight: bold;'>すべてのメッセージ</div></div><div style='font-size: 11px; color: #6B7280; line-height: 1.3;'>DM、#重要-緊急<br/>#障害対応<br/>#顧客-緊急</div></div><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; text-align: center;'><div style='color: #D97706; font-size: 16px; font-weight: bold; margin-bottom: 8px;'>重要カテゴリー</div><div style='background: #FFFFFF; padding: 8px; border-radius: 6px; margin-bottom: 8px; border: 1px solid #E5E7EB;'><div style='font-size: 12px; color: #374151; margin-bottom: 4px;'>設定値：</div><div style='font-size: 14px; color: #D97706; font-weight: bold;'>メンションのみ</div></div><div style='font-size: 11px; color: #6B7280; line-height: 1.3;'>#プロジェクト-A<br/>#チーム-開発<br/>#会議-調整</div></div><div style='background: #E0F2FE; padding: 16px; border-radius: 8px; text-align: center;'><div style='color: #0369A1; font-size: 16px; font-weight: bold; margin-bottom: 8px;'>通常カテゴリー</div><div style='background: #FFFFFF; padding: 8px; border-radius: 6px; margin-bottom: 8px; border: 1px solid #E5E7EB;'><div style='font-size: 12px; color: #374151; margin-bottom: 4px;'>設定値：</div><div style='font-size: 14px; color: #0369A1; font-weight: bold;'>通知なし</div></div><div style='font-size: 11px; color: #6B7280; line-height: 1.3;'>#雑談<br/>#技術情報<br/>#社内イベント</div></div></div></div><div style='background: #F9FAFB; padding: 16px; border-radius: 8px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>設定完了の確認方法</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'>✅ 左サイドバーでチャンネル名の右に通知アイコンを確認</div><div style='margin-bottom: 8px;'>• 🔔 = すべて通知 （緊急用）</div><div style='margin-bottom: 8px;'>• 🔕 = メンション通知のみ （重要用）</div><div style='margin-bottom: 8px;'>• ⚪ = 通知なし （通常用）</div></div></div></div></div>",
+        "instructions": [],
+        "tips": "設定変更後は同僚にテスト投稿を依頼して、期待通りに通知が来るか確認してください",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page5": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 4,
+        "totalSteps": 6,
+        "stepTitle": "時間帯別通知スケジュールの設定",
+        "duration": "設定6分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #EFF6FF; padding: 20px; border-radius: 12px; border: 2px solid #BFDBFE;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #1D4ED8; font-size: 18px;'>時間帯別通知スケジュール設定</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>設定手順：右上アイコン→環境設定→通知→通知スケジュール</strong></div></div><div style='display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #D1FAE5; padding: 16px; border-radius: 8px; border: 2px solid #A7F3D0;'><div style='display: flex; align-items: center; justify-content: center; margin-bottom: 10px;'><div style='background: #059669; color: white; font-size: 13px; font-weight: bold; padding: 3px 10px; border-radius: 15px; margin-right: 8px;'>推奨</div><strong style='color: #059669; font-size: 16px;'>集中作業時間（9:00-12:00 / 14:00-17:00）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5; text-align: center;'><div>緊急通知：デスクトップ+音（即座に確認）</div><div>重要通知：デスクトップのみ（集中が切れた時に確認）</div><div>通常通知：オフ（昼休み・終業時に確認）</div></div></div><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; border: 2px solid #FED7AA;'><div style='display: flex; align-items: center; justify-content: center; margin-bottom: 10px;'><div style='background: #D97706; color: white; font-size: 13px; font-weight: bold; padding: 3px 10px; border-radius: 15px; margin-right: 8px;'>注意</div><strong style='color: #D97706; font-size: 16px;'>準備・整理時間（8:00-9:00 / 12:00-14:00 / 17:00-18:00）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5; text-align: center;'><div>緊急通知：デスクトップ+音</div><div>重要通知：デスクトップ+音（この時間に処理）</div><div>通常通知：デスクトップのみ（余裕があれば確認）</div></div></div><div style='background: #F3F4F6; padding: 16px; border-radius: 8px; border: 2px solid #D1D5DB;'><div style='display: flex; align-items: center; justify-content: center; margin-bottom: 10px;'><div style='background: #6B7280; color: white; font-size: 13px; font-weight: bold; padding: 3px 10px; border-radius: 15px; margin-right: 8px;'>オフ</div><strong style='color: #6B7280; font-size: 16px;'>プライベート時間（18:00-翌8:00 / 土日祝）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5; text-align: center;'><div>緊急通知：デスクトップのみ（音なし・メールなし）</div><div>重要通知：オフ</div><div>通常通知：オフ</div></div></div></div><div style='background: #FEF2F2; padding: 14px; border-radius: 8px; border: 1px solid #FECACA;'><div style='text-align: center; margin-bottom: 8px;'><strong style='color: #DC2626; font-size: 14px;'>⚠️ 休暇・有給時の特別設定</strong></div><div style='font-size: 12px; color: #374151; line-height: 1.4; text-align: center;'>ステータスを「退席中」に変更<br/>緊急通知も完全オフ（本当の緊急時は電話連絡のルール作り）</div></div></div></div>",
+        "instructions": [],
+        "tips": "チームメンバーとこの時間割を共有し、緊急時の連絡ルールを事前に決めておくことが重要",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page6": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 5,
+        "totalSteps": 6,
+        "stepTitle": "モバイル版Slackとの同期設定",
+        "duration": "設定8分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0FDF4; padding: 20px; border-radius: 12px; border: 2px solid #BBF7D0;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #15803D; font-size: 18px;'>モバイル版Slackの最適化設定</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>スマホアプリ：設定→通知→詳細設定</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5; text-align: center;'>デスクトップ版とモバイル版で異なる通知戦略を設定</div></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: #EFF6FF; padding: 16px; border-radius: 8px; border: 2px solid #BFDBFE;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1D4ED8; font-size: 16px;'>🖥️ デスクトップ（仕事中）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'><strong>緊急：</strong>デスクトップ+音+メール</div><div style='margin-bottom: 6px;'><strong>重要：</strong>デスクトップのみ</div><div style='margin-bottom: 6px;'><strong>通常：</strong>通知なし</div><div style='background: #DBEAFE; padding: 8px; border-radius: 6px; margin-top: 8px; font-size: 12px; text-align: center;'>仕事モード：即応性重視</div></div></div><div style='background: #FEF7ED; padding: 16px; border-radius: 8px; border: 2px solid #FDBA74;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #EA580C; font-size: 16px;'>📱 モバイル（移動・外出）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'><strong>緊急：</strong>プッシュ通知+音</div><div style='margin-bottom: 6px;'><strong>重要：</strong>プッシュ通知のみ</div><div style='margin-bottom: 6px;'><strong>通常：</strong>通知なし</div><div style='background: #FED7AA; padding: 8px; border-radius: 6px; margin-top: 8px; font-size: 12px; text-align: center;'>外出モード：本当の緊急のみ</div></div></div></div><div style='background: #F9FAFB; padding: 16px; border-radius: 8px; border: 1px solid #E5E7EB; margin-bottom: 16px;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>🔄 賢い通知分岐の活用</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>PCがアクティブな時</strong>：モバイル通知を自動停止</div><div style='margin-bottom: 8px;'><strong>PCが非アクティブな時</strong>：モバイルで緊急通知のみ受信</div><div style='margin-bottom: 8px;'><strong>オフライン時</strong>：DM・メンションを翌日まとめて確認</div></div></div><div style='display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;'><div style='background: #D1FAE5; padding: 14px; border-radius: 8px; text-align: center;'><div style='color: #059669; font-size: 20px; font-weight: bold; margin-bottom: 4px;'>87%</div><div style='font-size: 12px; color: #6B7280;'>通知削減率</div></div><div style='background: #DBEAFE; padding: 14px; border-radius: 8px; text-align: center;'><div style='color: #2563EB; font-size: 20px; font-weight: bold; margin-bottom: 4px;'>3倍</div><div style='font-size: 12px; color: #6B7280;'>集中力向上</div></div><div style='background: #FEF3C7; padding: 14px; border-radius: 8px; text-align: center;'><div style='color: #D97706; font-size: 20px; font-weight: bold; margin-bottom: 4px;'>40%</div><div style='font-size: 12px; color: #6B7280;'>作業効率向上</div></div></div></div></div>",
+        "instructions": [],
+        "tips": "「PCアクティブ時はモバイル通知停止」設定で、二重通知によるストレスを完全に回避",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page7": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 6,
+        "totalSteps": 6,
+        "stepTitle": "集中時間確保のための完全遮断システム",
+        "duration": "実践3分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F5F3FF; padding: 20px; border-radius: 12px; border: 2px solid #C4B5FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #7C3AED; font-size: 18px;'>究極の集中システム「フォーカスモード」</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>深い集中が必要な作業時の3段階設定</strong></div></div><div style='display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #FEE2E2; padding: 16px; border-radius: 8px; border: 2px solid #FECACA;'><div style='display: flex; align-items: center; margin-bottom: 10px;'><div style='background: #DC2626; color: white; font-size: 12px; font-weight: bold; padding: 4px 8px; border-radius: 12px; margin-right: 8px;'>Level 1</div><strong style='color: #DC2626; font-size: 16px;'>ライトフォーカス（1-2時間の集中作業）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 4px;'>• ステータス：取り込み中（🔴 集中中 - 緊急時のみ連絡）</div><div style='margin-bottom: 4px;'>• 緊急通知：デスクトップのみ（音なし）</div><div style='margin-bottom: 4px;'>• 重要・通常：完全オフ</div><div style='margin-bottom: 4px;'>• 1時間に1回、5分間だけ通知確認</div></div></div><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; border: 2px solid #FED7AA;'><div style='display: flex; align-items: center; margin-bottom: 10px;'><div style='background: #D97706; color: white; font-size: 12px; font-weight: bold; padding: 4px 8px; border-radius: 12px; margin-right: 8px;'>Level 2</div><strong style='color: #D97706; font-size: 16px;'>ディープフォーカス（2-4時間の深い作業）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 4px;'>• ステータス：退席中（⛔ 集中モード - 電話連絡のみ）</div><div style='margin-bottom: 4px;'>• 全通知：完全オフ</div><div style='margin-bottom: 4px;'>• Slackアプリ：一時終了</div><div style='margin-bottom: 4px;'>• 作業終了時にまとめて確認</div></div></div><div style='background: #DBEAFE; padding: 16px; border-radius: 8px; border: 2px solid #BFDBFE;'><div style='display: flex; align-items: center; margin-bottom: 10px;'><div style='background: #1D4ED8; color: white; font-size: 12px; font-weight: bold; padding: 4px 8px; border-radius: 12px; margin-right: 8px;'>Level 3</div><strong style='color: #1D4ED8; font-size: 16px;'>完全遮断モード（4時間以上の集中）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 4px;'>• ステータス：カスタム（🚫 完全集中 - 本日18:00以降連絡）</div><div style='margin-bottom: 4px;'>• Slack：完全ログアウト</div><div style='margin-bottom: 4px;'>• メール通知：オフ</div><div style='margin-bottom: 4px;'>• 緊急連絡：電話のみ（事前にチーム共有）</div></div></div></div><div style='background: #F0FDF4; padding: 16px; border-radius: 8px; border: 1px solid #BBF7D0;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #15803D; font-size: 15px;'>✨ フォーカスモード実施後の効果測定</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;'><div style='text-align: center;'><div style='color: #15803D; font-size: 18px; font-weight: bold;'>85%</div><div style='font-size: 11px; color: #6B7280;'>作業完了率向上</div></div><div style='text-align: center;'><div style='color: #15803D; font-size: 18px; font-weight: bold;'>2.4倍</div><div style='font-size: 11px; color: #6B7280;'>コード記述速度</div></div><div style='text-align: center;'><div style='color: #15803D; font-size: 18px; font-weight: bold;'>95%</div><div style='font-size: 11px; color: #6B7280;'>満足度</div></div></div></div></div></div>",
+        "instructions": [],
+        "tips": "フォーカスモード実施前に、チームメンバーと緊急時の連絡手段（電話番号）を共有しておくことが必須",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page8": {
+      "role": "achievement_summary",
+      "section": "summary",
+      "content": {
+        "summaryTitle": "Slack通知最適化システム導入効果",
+        "achievementPoints": [
+          "通知87%削減で集中時間を3倍に向上（67回→9回/日）",
+          "重要度別3段階システムで優先度の明確化を実現",
+          "時間帯別スケジュールでプライベート時間を完全保護",
+          "モバイル連携で外出時も本当の緊急事項のみ受信",
+          "フォーカスモード導入で作業完了率85%向上を達成",
+          "一度設定すれば永続的に効果を発揮する完全システム"
+        ],
+        "finalMessage": "Slack通知地獄から完全脱出。集中力3倍向上で生産性を大幅アップ！",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    }
+  }
+}

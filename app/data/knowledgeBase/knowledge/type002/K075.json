@@ -71,7 +71,7 @@
       "content": {
         "title": "生成AI活用の現状と利用率",
         "sections": [
-          {
+        {
             "name": "就活生の利用実態",
             "content": "マイナビ2025年調査によると、6割強の学生が生成AIを認知しており、37.2%が就活で利用経験があります",
             "footerText": "多くの学生が既に活用を始めています"
@@ -89,14 +89,14 @@
         "characterImage": "/iida_study.png",
         "characterPosition": "left",
         "bottomSectionContent": "データを見ると、もう生成AIは就活の常識になりつつありますね。活用方法を学んで差をつけましょう！"
-      }
+        }
     },
     "page3": {
       "section": "mainContent",
       "content": {
         "title": "活用用途ランキング",
         "sections": [
-          {
+        {
             "name": "主な活用用途",
             "content": "生成AIを使ったことがある学生の活用用途を調査しました",
             "footerText": "ES関連の活用が特に多い結果となりました"
@@ -116,14 +116,14 @@
         "characterImage": "/iida_work.png",
         "characterPosition": "left",
         "bottomSectionContent": "ES作成から面接対策まで幅広く活用できます。自分に合った使い方を見つけましょう！"
-      }
+        }
     },
     "page4": {
       "section": "mainContent",
       "content": {
         "title": "適切な活用方法と注意点",
         "sections": [
-          {
+        {
             "name": "バランスの取れた活用",
             "content": "生成AIは補助的に使用し、完全依存は避けることが重要です",
             "footerText": "面接では内容の一貫性が問われるため注意が必要です"
@@ -156,7 +156,7 @@
           "自分なりの活用方法を見つける"
         ],
         "finalMessage": "生成AIを上手に活用して、効率的で質の高い就活準備を進めましょう"
-      }
+        }
     }
   }
 }

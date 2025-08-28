@@ -1,0 +1,188 @@
+{
+  "source": "Type001リールコンテンツ変換-女性向け働き方バランス術",
+  "problemCategory": "仕事・家庭・両立・女性キャリア",
+  "postType": "001",
+  "knowledgeId": "K1009",
+  "pageStructurePattern": "unified-template-13-step-by-step",
+  "actualTitle": "完璧主義をやめたら仕事も人生もうまくいった話",
+  "targetIds": ["T001", "T002", "T003"],
+  "pageCount": 8,
+  "detailedContent": {
+    "page1": {
+      "role": "basic_intro",
+      "section": "introduction",
+      "content": {
+        "title": "完璧主義をやめたら仕事も人生もうまくいった話",
+        "targetAudience": "仕事と家庭の両立に悩む働く女性",
+        "problems": [
+          "いつも100%で頑張りすぎて疲れ果てている",
+          "完璧にやらないと気が済まなくて時間がかかりすぎる", 
+          "周りに機嫌悪く当たってしまい罪悪感を感じている",
+          "もっと余裕を持って働きたいのに方法がわからない"
+        ],
+        "additionalMessage": "実は「80%の力」が最も成果を出せる働き方。完璧主義より効率と継続性が重要です"
+      }
+    },
+    "page2": {
+      "role": "section_blocks",
+      "section": "empathy_understanding",
+      "content": {
+        "sectionTitle": "私も100%で頑張りすぎて疲れていました",
+        "blocks": [
+          {
+            "type": "empathy_story",
+            "content": {
+              "title": "以前の私：完璧主義で自分を追い詰める毎日",
+              "story": "資料は完璧に作らないと提出できない、メールは何度も見直してから送る、家事も手を抜けない。そんな毎日で心も体もクタクタでした。夫にも子どもにも機嫌悪く当たってしまって、「私って最低な母親だ」と自分を責める日々。でも、ある日気づいたんです。完璧を求めすぎて、本当に大切なことを見失っていることに。",
+              "emotions": ["疲労", "罪悪感", "焦燥感", "自己嫌悪"]
+            }
+          },
+          {
+            "type": "shared_experience", 
+            "content": {
+              "title": "あなたも同じような経験ありませんか？",
+              "situations": [
+                "夜遅くまで資料を完璧に仕上げようとして、家族との時間を削ってしまう",
+                "100点を取ろうと時間をかけすぎて、他の仕事が溜まってしまう",
+                "疲れて機嫌が悪くなり、周りの人に優しくできなくなる",
+                "「もっと完璧にやらなきゃ」と自分を追い詰めてしまう"
+              ],
+              "validation": "その気持ち、本当によくわかります。真面目で責任感が強いからこそ、完璧を求めてしまうんですよね。でも、それで疲れ果ててしまうなんて、もったいないと思いませんか？"
+            }
+          }
+        ]
+      }
+    },
+    "page3": {
+      "role": "section_blocks",
+      "section": "problem_analysis",
+      "content": {
+        "sectionTitle": "なぜ100%で頑張ると逆効果なのか？",
+        "blocks": [
+          {
+            "type": "problem_explanation",
+            "content": {
+              "title": "完璧主義が引き起こす3つの問題",
+              "problems": [
+                {
+                  "issue": "判断力の低下",
+                  "explanation": "疲れていると冷静な判断ができなくなり、かえって間違った判断をしてしまいます",
+                  "impact": "重要な決定を誤り、後で大きな修正が必要になる"
+                },
+                {
+                  "issue": "人間関係の悪化", 
+                  "explanation": "余裕がないと周りに対して機嫌よく振る舞えず、ギスギスした関係になってしまいます",
+                  "impact": "同僚や家族との関係が悪くなり、協力を得られなくなる"
+                },
+                {
+                  "issue": "創造性の欠如",
+                  "explanation": "いっぱいいっぱいの状態では新しいアイデアや工夫が生まれません",
+                  "impact": "単調な作業の繰り返しで、成長や改善の機会を逃す"
+                }
+              ]
+            }
+          },
+          {
+            "type": "root_cause",
+            "content": {
+              "title": "根本原因：「100%＝良い」という思い込み",
+              "cause": "私たちは小さい頃から「全力で頑張るのが良いこと」と教えられてきました。でも仕事は短期間の試験ではありません。長期戦だからこそ、持続可能なペースが必要なんです。",
+              "insight": "実は、80%の力でコンスタントに成果を出し続ける人の方が、長期的に見ると大きな成功を手にしています。"
+            }
+          }
+        ]
+      }
+    },
+    "page4": {
+      "role": "section_blocks", 
+      "section": "hope_vision",
+      "content": {
+        "sectionTitle": "80%の力で働けるようになったら",
+        "blocks": [
+          {
+            "type": "transformation_vision",
+            "content": {
+              "title": "こんな毎日が待っています",
+              "vision": "朝起きた時に「今日も楽しく働こう」と思える。仕事では余裕を持って的確な判断ができ、同僚からも「一緒に働きやすい人」と思われる。家に帰れば家族に笑顔で「お疲れさま」と迎えられる。そんな毎日です。",
+              "benefits": [
+                "疲れにくく、毎日を楽しく過ごせる",
+                "余裕があるから工夫や気遣いができる", 
+                "機嫌よく過ごせるので人間関係が良好",
+                "想定外の事態にも冷静に対応できる",
+                "家族との時間も大切にできる"
+              ]
+            }
+          },
+          {
+            "type": "success_image",
+            "content": {
+              "title": "あなたらしく輝いて働く姿",
+              "description": "80%の力で働くあなたは、完璧ではないかもしれないけれど、周りから愛され、信頼される存在になります。そして何より、自分自身を大切にできる素敵な女性として、毎日を充実して過ごせるようになります。",
+              "emotional_state": "安心感、充実感、自己肯定感、幸福感"
+            }
+          }
+        ]
+      }
+    },
+    "page5": {
+      "role": "step_by_step",
+      "section": "mainContent", 
+      "content": {
+        "stepNumber": 1,
+        "totalSteps": 4,
+        "stepTitle": "80%ルールの基本を理解する",
+        "duration": "理解5分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #FDF2F8; padding: 20px; border-radius: 12px; border: 2px solid #FECDD3;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #EC4899; font-size: 18px;'>80%ルール：働く女性の新しいスタンダード</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>80%と100%の決定的な違い</strong></div></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: #FEE2E2; padding: 18px; border-radius: 9px; border: 2px solid #FECACA;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #DC2626; font-size: 16px;'>❌ 100%モード（疲労蓄積型）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'>• 常に全力疾走でエネルギー枯渇</div><div style='margin-bottom: 6px;'>• 完璧を求めて時間がかかりすぎる</div><div style='margin-bottom: 6px;'>• 疲労で機嫌が悪くなりがち</div><div style='margin-bottom: 6px;'>• 想定外の出来事に対応できない</div><div style='margin-bottom: 6px;'>• 長期的に持続不可能</div></div></div><div style='background: #D1FAE5; padding: 18px; border-radius: 9px; border: 2px solid #A7F3D0;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #059669; font-size: 16px;'>✅ 80%モード（持続成長型）</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'>• 適度な余力で安定したパフォーマンス</div><div style='margin-bottom: 6px;'>• 効率を重視して無駄を省く</div><div style='margin-bottom: 6px;'>• 心の余裕で機嫌よく過ごせる</div><div style='margin-bottom: 6px;'>• 柔軟性があり変化に強い</div><div style='margin-bottom: 6px;'>• 長期的に大きな成果を生む</div></div></div></div><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; border: 1px solid #FED7AA;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #D97706; font-size: 15px;'>💡 80%ルールの本質</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'>手を抜くことではなく、「賢く働く」こと。残り20%の余力を、工夫・気遣い・緊急事態への対応に使う。これが本当の意味での「デキる女性」の働き方です。</div></div><div style='background: #F0F9FF; padding: 16px; border-radius: 8px; border: 1px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #0369A1; font-size: 15px;'>🌸 女性ならではの強み</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'>女性は元々マルチタスクが得意。80%ルールを使えば、その特性を活かしながら無理なく複数のことを両立できます。</div></div></div></div>",
+        "instructions": [],
+        "tips": "80%は「手抜き」ではなく「戦略的な力の配分」です。プロのマラソン選手も最初から全力では走りません。",
+        "imageSrc": "/ten_point.png", 
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page6": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 2,
+        "totalSteps": 4,
+        "stepTitle": "仕事での80%実践法",
+        "duration": "実践15分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #EFF6FF; padding: 20px; border-radius: 12px; border: 2px solid #BFDBFE;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #1D4ED8; font-size: 18px;'>仕事シーン別80%実践テクニック</strong></div><div style='display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #FEF7ED; padding: 16px; border-radius: 8px; border-left: 4px solid #F97316;'><div style='margin-bottom: 10px;'><strong style='color: #EA580C; font-size: 14px;'>📋 資料作成・企画書</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>80%アプローチ</strong>：「相手が理解できる」レベルを目指す</div><div style='margin-bottom: 4px;'>• 完璧なデザインより、内容の分かりやすさ重視</div><div style='margin-bottom: 4px;'>• 100%の資料を作る時間で、80%の資料を2つ作る</div><div style='margin-bottom: 4px;'>• フィードバックをもらってから細部を調整</div><div style='background: #FED7AA; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #9A3412;'><strong>効果</strong>：時間短縮＋相手のニーズに合致した資料完成</div></div></div></div><div style='background: #F0FDF4; padding: 16px; border-radius: 8px; border-left: 4px solid #22C55E;'><div style='margin-bottom: 10px;'><strong style='color: #16A34A; font-size: 14px;'>💌 メール・コミュニケーション</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>80%アプローチ</strong>：「伝わる」ことを最優先にする</div><div style='margin-bottom: 4px;'>• 何度も見直さず、一度読んで伝わるか確認するだけ</div><div style='margin-bottom: 4px;'>• 完璧な敬語より、相手への気遣いと感謝を込める</div><div style='margin-bottom: 4px;'>• 長文より、要点を3つに絞って簡潔に</div><div style='background: #BBF7D0; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #166534;'><strong>効果</strong>：返信が早くなり、コミュニケーションが円滑に</div></div></div></div><div style='background: #FDF4FF; padding: 16px; border-radius: 8px; border-left: 4px solid #A855F7;'><div style='margin-bottom: 10px;'><strong style='color: #9333EA; font-size: 14px;'>👥 会議・プレゼン</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>80%アプローチ</strong>：「参加者の満足」を目標にする</div><div style='margin-bottom: 4px;'>• 完璧な準備より、参加者が知りたいことに焦点</div><div style='margin-bottom: 4px;'>• 全部話すより、重要な3点を印象に残す</div><div style='margin-bottom: 4px;'>• 想定問答は主要なもの5個だけ準備</div><div style='background: #E9D5FF; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #7C2D92;'><strong>効果</strong>：余裕があるので質問にも的確に回答できる</div></div></div></div></div><div style='background: #F9FAFB; padding: 16px; border-radius: 8px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>🎯 80%実践のコツ</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'>「完璧」ではなく「相手が満足する結果」を目指す。そのために最も重要な要素に集中し、細かい部分は後回しにする勇気を持つ。</div></div></div></div>",
+        "instructions": [],
+        "tips": "「これで大丈夫かな？」と思った時点で、実は80%は達成できています。そこで止める勇気が大切です。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page7": {
+      "role": "step_by_step", 
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 3,
+        "totalSteps": 4,
+        "stepTitle": "家庭・プライベートでの80%活用",
+        "duration": "実践20分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #FDF2F8; padding: 20px; border-radius: 12px; border: 2px solid #FECDD3;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #EC4899; font-size: 18px;'>家庭でも80%で豊かな暮らしを実現</strong></div><div style='display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; border-left: 4px solid #F59E0B;'><div style='margin-bottom: 10px;'><strong style='color: #D97706; font-size: 14px;'>🏠 家事・育児</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>80%アプローチ</strong>：「家族が快適」を基準にする</div><div style='margin-bottom: 4px;'>• 掃除：完璧より、家族がリラックスできる空間作り</div><div style='margin-bottom: 4px;'>• 料理：栄養バランスと家族の笑顔を重視、見た目は二の次</div><div style='margin-bottom: 4px;'>• 育児：完璧な母親より、子どもと楽しく過ごす時間を大切に</div><div style='background: #FED7AA; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #92400E;'><strong>効果</strong>：家族との時間が増え、みんなが笑顔で過ごせる</div></div></div></div><div style='background: #EDE9FE; padding: 16px; border-radius: 8px; border-left: 4px solid #8B5CF6;'><div style='margin-bottom: 10px;'><strong style='color: #7C3AED; font-size: 14px;'>✨ 自分時間・セルフケア</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>80%アプローチ</strong>：「自分が満足」を大切にする</div><div style='margin-bottom: 4px;'>• 美容：完璧より、自分が好きになれるケアを選択</div><div style='margin-bottom: 4px;'>• 趣味：上達より、楽しい時間を過ごすことを重視</div><div style='margin-bottom: 4px;'>• 休息：罪悪感なく、心地よいと感じる休み方を選ぶ</div><div style='background: #DDD6FE; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #6D28D9;'><strong>効果</strong>：リフレッシュして、また頑張る元気が湧く</div></div></div></div><div style='background: #DBEAFE; padding: 16px; border-radius: 8px; border-left: 4px solid #3B82F6;'><div style='margin-bottom: 10px;'><strong style='color: #2563EB; font-size: 14px;'>👪 人間関係・コミュニケーション</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>80%アプローチ</strong>：「相手が喜ぶ」ことに集中する</div><div style='margin-bottom: 4px;'>• 友人関係：完璧な付き合いより、心からの気遣いを大切に</div><div style='margin-bottom: 4px;'>• 夫婦関係：理想の妻より、お互いが居心地良い関係性を目指す</div><div style='margin-bottom: 4px;'>• 親戚付き合い：形式より、相手への感謝と思いやりを表現</div><div style='background: #BFDBFE; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #1E40AF;'><strong>効果</strong>：自然体で愛される、長続きする関係が築ける</div></div></div></div></div><div style='background: #F0FDF4; padding: 16px; border-radius: 8px; border: 1px solid #BBF7D0;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #15803D; font-size: 15px;'>💕 家庭での80%が生む奇跡</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'>完璧を求めなくなった分、家族への笑顔が増えます。そして家族も「お母さん、最近優しいね」「一緒にいると楽しい」と言ってくれるようになります。これが本当の豊かさです。</div></div></div></div>",
+        "instructions": [],
+        "tips": "家庭では特に「完璧な〇〇」を目指すより、「みんなが笑顔でいられる」ことを大切にしてください。それが一番の成功です。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page8": {
+      "role": "step_by_step",
+      "section": "mainContent", 
+      "content": {
+        "stepNumber": 4,
+        "totalSteps": 4,
+        "stepTitle": "80%ライフスタイルの完成形",
+        "duration": "定着30日",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>80%ライフスタイルで手に入る理想の毎日</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>1日のタイムライン（80%モード）</strong></div></div><div style='display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #FEF3C7; padding: 14px; border-radius: 8px; border-left: 4px solid #F59E0B;'><div style='display: flex; align-items: center; margin-bottom: 8px;'><div style='background: #D97706; color: white; font-size: 12px; font-weight: bold; padding: 2px 8px; border-radius: 10px; margin-right: 8px;'>朝</div><strong style='color: #D97706; font-size: 14px;'>余裕を持って1日をスタート</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.4;'>完璧な身支度より、機嫌よく家族に「行ってきます」と言える朝。通勤時間も「今日も頑張ろう」という前向きな気持ちで過ごせます。</div></div><div style='background: #DBEAFE; padding: 14px; border-radius: 8px; border-left: 4px solid #3B82F6;'><div style='display: flex; align-items: center; margin-bottom: 8px;'><div style='background: #2563EB; color: white; font-size: 12px; font-weight: bold; padding: 2px 8px; border-radius: 10px; margin-right: 8px;'>仕事</div><strong style='color: #2563EB; font-size: 14px;'>適度な集中で質の高いパフォーマンス</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.4;'>80%の力で集中して成果を出し、同僚とも良好な関係。余裕があるから「手伝いましょうか？」と自然に声をかけられます。</div></div><div style='background: #FDF4FF; padding: 14px; border-radius: 8px; border-left: 4px solid #A855F7;'><div style='display: flex; align-items: center; margin-bottom: 8px;'><div style='background: #9333EA; color: white; font-size: 12px; font-weight: bold; padding: 2px 8px; border-radius: 10px; margin-right: 8px;'>夜</div><strong style='color: #9333EA; font-size: 14px;'>家族との大切な時間を満喫</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.4;'>疲れすぎていないので、家族の話をしっかり聞ける。完璧な手料理じゃなくても、みんなで食卓を囲む時間が幸せです。</div></div></div><div style='background: #F0FDF4; padding: 16px; border-radius: 8px; border: 1px solid #BBF7D0; margin-bottom: 16px;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #15803D; font-size: 15px;'>✨ 80%ライフスタイルで得られるもの</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;'><div style='text-align: center;'><div style='color: #15803D; font-size: 16px; font-weight: bold; margin-bottom: 4px;'>心の余裕</div><div style='font-size: 11px; color: #374151;'>いつも穏やかで<br/>機嫌よく過ごせる</div></div><div style='text-align: center;'><div style='color: #15803D; font-size: 16px; font-weight: bold; margin-bottom: 4px;'>良い関係</div><div style='font-size: 11px; color: #374151;'>職場でも家庭でも<br/>愛される存在に</div></div><div style='text-align: center;'><div style='color: #15803D; font-size: 16px; font-weight: bold; margin-bottom: 4px;'>持続性</div><div style='font-size: 11px; color: #374151;'>長期的に成果を<br/>出し続けられる</div></div></div></div><div style='background: #FEF2F2; padding: 16px; border-radius: 8px; border: 1px solid #FECACA;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #DC2626; font-size: 15px;'>💖 最後に：あなたはそのままで素晴らしい</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5; text-align: center;'>完璧でなくても、80%のあなたで十分愛されています。大切なのは、自分らしく輝いて、周りの人と幸せな時間を過ごすこと。今日から80%で、もっと楽に、もっと幸せに生きていきませんか？</div></div></div></div>",
+        "instructions": [],
+        "tips": "80%ライフスタイルは一日で身につくものではありません。完璧主義の自分を責めず、少しずつ変化を楽しんでください。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    }
+  }
+}

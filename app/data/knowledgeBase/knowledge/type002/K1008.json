@@ -1,0 +1,135 @@
+{
+  "source": "Type002リールコンテンツ変換-社会人向け自己管理術",
+  "problemCategory": "キャリア・自己管理・メンタル強化",
+  "postType": "002",
+  "knowledgeId": "K1008",
+  "pageStructurePattern": "unified-template-13-step-by-step",
+  "actualTitle": "長期的に勝つ人の「感情コントロール」実践法",
+  "targetIds": ["T007", "T010"],
+  "pageCount": 8,
+  "detailedContent": {
+    "page1": {
+      "role": "basic_intro",
+      "section": "introduction",
+      "content": {
+        "title": "長期的に勝つ人の「感情コントロール」実践法",
+        "targetAudience": "キャリアアップを目指す社会人・管理職志望者",
+        "problems": [
+          "頭がいい同僚より評価されない理由がわからない",
+          "スキルは高いのに昇進できずに悩んでいる", 
+          "感情に振り回されて判断を間違えることが多い",
+          "ストレスでやる気を維持できず仕事の成果が不安定"
+        ],
+        "additionalMessage": "Harvard Business Review調査：管理職の89%が「感情管理能力が昇進の決定要因」と回答"
+      }
+    },
+    "page2": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 1,
+        "totalSteps": 6,
+        "stepTitle": "感情コントロールが重要な理由を理解する",
+        "duration": "理解3分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>長期的成功の決定要因：感情管理能力</strong></div><div style='background: #FFFFFF; padding: 18px; border-radius: 8px; margin-bottom: 20px;'><div style='text-align: center; margin-bottom: 14px;'><strong style='color: #1E40AF; font-size: 16px;'>10年後の成果予測（McKinsey研究）</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: #FEE2E2; padding: 18px; border-radius: 9px;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #DC2626; font-size: 16px;'>高スキル×感情不安定</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'>• 昇進率：32%</div><div style='margin-bottom: 6px;'>• 年収増加率：1.8倍</div><div style='margin-bottom: 6px;'>• チーム評価：低い</div><div style='margin-bottom: 6px;'>• ストレス関連離職：高</div></div></div><div style='background: #D1FAE5; padding: 18px; border-radius: 9px;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #059669; font-size: 16px;'>平均スキル×感情安定</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'>• 昇進率：74%</div><div style='margin-bottom: 6px;'>• 年収増加率：3.2倍</div><div style='margin-bottom: 6px;'>• チーム評価：高い</div><div style='margin-bottom: 6px;'>• ストレス関連離職：低</div></div></div></div></div><div style='background: #EFF6FF; padding: 18px; border-radius: 9px; border: 1px solid #BFDBFE;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1D4ED8; font-size: 16px;'>感情コントロールの3つの効果</strong></div><div style='font-size: 14px; color: #374151; line-height: 1.6;'><div style='margin-bottom: 8px;'><strong>1. 判断力向上</strong>：冷静な状況分析→正確な意思決定</div><div style='margin-bottom: 8px;'><strong>2. 信頼獲得</strong>：安定した対応→チーム・上司からの信頼</div><div style='margin-bottom: 8px;'><strong>3. 継続力強化</strong>：モチベーション維持→長期的成果達成</div></div></div></div></div>",
+        "instructions": [],
+        "tips": "感情コントロールは「感情を抑える」ことではなく「感情を理解して活用する」こと。怒りも不安も適切に使えば成長の原動力になります。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page3": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 2,
+        "totalSteps": 6,
+        "stepTitle": "物事の捉え方パターンを変える",
+        "duration": "練習5分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #FEF7ED; padding: 20px; border-radius: 12px; border: 2px solid #FDBA74;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #EA580C; font-size: 18px;'>プラス変換思考法の実践</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>4つの場面別プラス変換例</strong></div></div><div style='display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #FEF2F2; padding: 16px; border-radius: 8px; border-left: 4px solid #EF4444;'><div style='margin-bottom: 10px;'><strong style='color: #DC2626; font-size: 14px;'>🔥 プロジェクト失敗・批判された</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 12px;'><div style='font-size: 13px; color: #6B7280;'><strong>❌ マイナス思考</strong><br/>「能力不足だ」「評価が下がった」<br/>「もうダメかもしれない」</div><div style='font-size: 13px; color: #059669;'><strong>✅ プラス変換</strong><br/>「貴重な改善点を発見できた」<br/>「次は確実に成功できる」</div></div></div><div style='background: #F0F9FF; padding: 16px; border-radius: 8px; border-left: 4px solid #3B82F6;'><div style='margin-bottom: 10px;'><strong style='color: #2563EB; font-size: 14px;'>💼 昇進が見送られた</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 12px;'><div style='font-size: 13px; color: #6B7280;'><strong>❌ マイナス思考</strong><br/>「実力が認められない」<br/>「不公平だ」「転職しよう」</div><div style='font-size: 13px; color: #059669;'><strong>✅ プラス変換</strong><br/>「足りないスキルが明確になった」<br/>「じっくり実力をつける時間ができた」</div></div></div><div style='background: #F0FDF4; padding: 16px; border-radius: 8px; border-left: 4px solid #22C55E;'><div style='margin-bottom: 10px;'><strong style='color: #16A34A; font-size: 14px;'>🤝 チーム内で対立・トラブル発生</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 12px;'><div style='font-size: 13px; color: #6B7280;'><strong>❌ マイナス思考</strong><br/>「人間関係が最悪」<br/>「居心地が悪い」</div><div style='font-size: 13px; color: #059669;'><strong>✅ プラス変換</strong><br/>「コミュニケーション力を鍛える機会」<br/>「リーダーシップを発揮するチャンス」</div></div></div><div style='background: #FDF4FF; padding: 16px; border-radius: 8px; border-left: 4px solid #A855F7;'><div style='margin-bottom: 10px;'><strong style='color: #9333EA; font-size: 14px;'>⚡ 急な残業・プレッシャー</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 12px;'><div style='font-size: 13px; color: #6B7280;'><strong>❌ マイナス思考</strong><br/>「疲れた」「やりたくない」<br/>「プライベートがない」</div><div style='font-size: 13px; color: #059669;'><strong>✅ プラス変換</strong><br/>「集中力と効率性を鍛える機会」<br/>「頼りにされている証拠」</div></div></div></div><div style='background: #F9FAFB; padding: 16px; border-radius: 8px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 10px;'><strong style='color: #1F2937; font-size: 15px;'>💡 プラス変換のコツ</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'>「この経験から何を学べるか？」「どんな成長につながるか？」の2つの質問を必ず自分に投げかける</div></div></div></div>",
+        "instructions": [],
+        "tips": "最初は無理やりでも構いません。プラス変換を意識的に繰り返すことで、脳の思考パターンが書き換わっていきます。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page4": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 3,
+        "totalSteps": 6,
+        "stepTitle": "素直・謙虚・前向きの3原則を実践する",
+        "duration": "実践10分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0FDF4; padding: 20px; border-radius: 12px; border: 2px solid #BBF7D0;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #15803D; font-size: 18px;'>感情安定の3原則実践法</strong></div><div style='display: grid; grid-template-columns: 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: #EFF6FF; padding: 18px; border-radius: 10px; border: 2px solid #BFDBFE;'><div style='text-align: center; margin-bottom: 12px;'><div style='background: #2563EB; color: white; font-size: 14px; font-weight: bold; padding: 6px 16px; border-radius: 20px; display: inline-block; margin-bottom: 8px;'>原則1</div><br/><strong style='color: #1D4ED8; font-size: 17px;'>素直：相手の意見を一旦受け入れる</strong></div><div style='font-size: 14px; color: #374151; line-height: 1.5; margin-bottom: 12px;'><strong>実践方法</strong>：「確かに〜ですね」「なるほど、そういう見方もありますね」を口癖にする</div><div style='background: #DBEAFE; padding: 12px; border-radius: 8px;'><div style='font-size: 13px; color: #1E40AF; line-height: 1.4;'><strong>効果</strong>：相手が話しやすくなり、本音を引き出せる。対立が協調に変わる。信頼関係が築ける。</div></div></div><div style='background: #FEF7ED; padding: 18px; border-radius: 10px; border: 2px solid #FDBA74;'><div style='text-align: center; margin-bottom: 12px;'><div style='background: #EA580C; color: white; font-size: 14px; font-weight: bold; padding: 6px 16px; border-radius: 20px; display: inline-block; margin-bottom: 8px;'>原則2</div><br/><strong style='color: #EA580C; font-size: 17px;'>謙虚：常に学ぶ姿勢を維持する</strong></div><div style='font-size: 14px; color: #374151; line-height: 1.5; margin-bottom: 12px;'><strong>実践方法</strong>：「教えてください」「勉強になります」「まだまだです」を適切に使う</div><div style='background: #FED7AA; padding: 12px; border-radius: 8px;'><div style='font-size: 13px; color: #C2410C; line-height: 1.4;'><strong>効果</strong>：周囲が協力的になる。新しい情報・スキルを吸収しやすくなる。成長速度が加速する。</div></div></div><div style='background: #F0F9FF; padding: 18px; border-radius: 10px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 12px;'><div style='background: #0369A1; color: white; font-size: 14px; font-weight: bold; padding: 6px 16px; border-radius: 20px; display: inline-block; margin-bottom: 8px;'>原則3</div><br/><strong style='color: #0369A1; font-size: 17px;'>前向き：解決策と次の行動を考える</strong></div><div style='font-size: 14px; color: #374151; line-height: 1.5; margin-bottom: 12px;'><strong>実践方法</strong>：問題発生時「どうすれば解決できるか？」「何から始めるか？」を必ず考える</div><div style='background: #BAE6FD; padding: 12px; border-radius: 8px;'><div style='font-size: 13px; color: #075985; line-height: 1.4;'><strong>効果</strong>：チームの士気向上。問題解決が早くなる。上司から頼られる存在になる。</div></div></div></div><div style='background: #F9FAFB; padding: 16px; border-radius: 8px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>⚡ 3原則同時活用例</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'>会議で批判された時：<strong>素直</strong>に受け入れ→<strong>謙虚</strong>に詳細を聞き→<strong>前向き</strong>に改善案を提示する</div></div></div></div>",
+        "instructions": [],
+        "tips": "3原則を同時に使うのが難しい場合は、まず「素直」から始めてください。素直になれば自然と謙虚さと前向きさがついてきます。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page5": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 4,
+        "totalSteps": 6,
+        "stepTitle": "やる気維持システムを構築する",
+        "duration": "設計8分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #EDE9FE; padding: 20px; border-radius: 12px; border: 2px solid #C4B5FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #7C3AED; font-size: 18px;'>持続可能なモチベーション管理システム</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>4段階のやる気維持メカニズム</strong></div></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; border: 2px solid #FED7AA;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #D97706; font-size: 16px;'>🎯 Step1: 小さな成功体験</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'><strong>方法</strong>：1日3つの達成可能な目標設定</div><div style='margin-bottom: 6px;'><strong>例</strong>：メール5件返信、資料1ページ作成、同僚1人と雑談</div><div style='background: #FED7AA; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #92400E;'><strong>効果</strong>：毎日の達成感→自信蓄積</div></div></div></div><div style='background: #DBEAFE; padding: 16px; border-radius: 8px; border: 2px solid #BFDBFE;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #2563EB; font-size: 16px;'>📈 Step2: 進歩の可視化</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'><strong>方法</strong>：スキル・成果を数値化</div><div style='margin-bottom: 6px;'><strong>例</strong>：Excel関数使用数、プレゼン回数、提案採用率</div><div style='background: #BFDBFE; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #1E40AF;'><strong>効果</strong>：成長実感→継続意欲向上</div></div></div></div></div><div style='display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;'><div style='background: #FEE2E2; padding: 16px; border-radius: 8px; border: 2px solid #FECACA;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #DC2626; font-size: 16px;'>🔄 Step3: リセット習慣</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'><strong>方法</strong>：疲労・ストレスを定期リセット</div><div style='margin-bottom: 6px;'><strong>例</strong>：週1回の好きな活動、月1回の振り返り、3ヶ月毎の目標見直し</div><div style='background: #FECACA; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #991B1B;'><strong>効果</strong>：燃え尽き防止→長期継続</div></div></div></div><div style='background: #D1FAE5; padding: 16px; border-radius: 8px; border: 2px solid #A7F3D0;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #059669; font-size: 16px;'>💫 Step4: 意味付け更新</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 6px;'><strong>方法</strong>：現在の仕事の意味を定期的に再確認</div><div style='margin-bottom: 6px;'><strong>例</strong>：この仕事で誰が喜ぶか？将来どう活かされるか？</div><div style='background: #A7F3D0; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #047857;'><strong>効果</strong>：使命感復活→内発的動機強化</div></div></div></div></div><div style='background: #F3F4F6; padding: 16px; border-radius: 8px; border: 1px solid #D1D5DB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #374151; font-size: 15px;'>🔥 緊急時やる気回復法</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'>完全にやる気を失った時：① 5分だけやる ② 過去の成功を思い出す ③ 信頼できる人に相談する</div></div></div></div>",
+        "instructions": [],
+        "tips": "やる気は「出るのを待つもの」ではなく「システムで管理するもの」。4段階を仕組み化すれば安定したパフォーマンスを維持できます。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page6": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 5,
+        "totalSteps": 6,
+        "stepTitle": "機嫌をよく保つ具体的テクニック",
+        "duration": "実践7分",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #FEF7ED; padding: 20px; border-radius: 12px; border: 2px solid #FDBA74;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #EA580C; font-size: 18px;'>機嫌よく過ごすための実践テクニック</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>場面別・機嫌管理の具体策</strong></div></div><div style='display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #F0F9FF; padding: 16px; border-radius: 8px; border-left: 4px solid #3B82F6;'><div style='margin-bottom: 10px;'><strong style='color: #2563EB; font-size: 14px;'>🌅 朝の機嫌セッティング</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 4px;'>• 好きな音楽を5分聞く（通勤時でもOK）</div><div style='margin-bottom: 4px;'>• 「今日楽しみなこと」を1つ思い浮かべる</div><div style='margin-bottom: 4px;'>• 鏡で笑顔を3秒作る（表情筋が脳に好影響）</div><div style='background: #DBEAFE; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #1E40AF;'><strong>効果</strong>：1日の機嫌ベースラインを高く設定</div></div></div></div><div style='background: #F0FDF4; padding: 16px; border-radius: 8px; border-left: 4px solid #22C55E;'><div style='margin-bottom: 10px;'><strong style='color: #16A34A; font-size: 14px;'>💼 仕事中の機嫌維持</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 4px;'>• 1時間に1回深呼吸（4秒吸って6秒で吐く）</div><div style='margin-bottom: 4px;'>• 同僚に「お疲れさまです」を積極的に言う</div><div style='margin-bottom: 4px;'>• イライラしたら「まあいいか」と口に出す</div><div style='background: #BBF7D0; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #047857;'><strong>効果</strong>：小さなストレスを蓄積させない</div></div></div></div><div style='background: #FDF4FF; padding: 16px; border-radius: 8px; border-left: 4px solid #A855F7;'><div style='margin-bottom: 10px;'><strong style='color: #9333EA; font-size: 14px;'>🔄 機嫌回復の緊急処置</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 4px;'>• トイレで1分間ストレッチ（肩回し・首回し）</div><div style='margin-bottom: 4px;'>• 温かい飲み物を味わって飲む（3口をゆっくり）</div><div style='margin-bottom: 4px;'>• 「今日うまくいったこと」を1つ思い出す</div><div style='background: #E9D5FF; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #7C2D92;'><strong>効果</strong>：機嫌の急降下を食い止める</div></div></div></div><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; border-left: 4px solid #F59E0B;'><div style='margin-bottom: 10px;'><strong style='color: #D97706; font-size: 14px;'>🌙 夜のリセット習慣</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 4px;'>• その日の良かった出来事を3つ書き出す</div><div style='margin-bottom: 4px;'>• 明日の楽しみを1つ決める</div><div style='margin-bottom: 4px;'>• 「今日もお疲れさま」と自分を労う</div><div style='background: #FED7AA; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #92400E;'><strong>効果</strong>：翌日への良いコンディション作り</div></div></div></div></div><div style='background: #EF4444; color: white; padding: 16px; border-radius: 8px;'><div style='text-align: center; margin-bottom: 12px;'><strong style='font-size: 15px;'>⚡ 最重要ポイント</strong></div><div style='font-size: 13px; line-height: 1.5;'>機嫌は「運」ではなく「技術」。意識的に管理すればコントロール可能な技術です。</div></div></div></div>",
+        "instructions": [],
+        "tips": "機嫌がいい人は周りにプラスの影響を与えます。あなたの機嫌の良さが職場全体の雰囲気を改善し、結果的に自分の評価向上にもつながります。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page7": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 6,
+        "totalSteps": 6,
+        "stepTitle": "感情コントロール習慣の定着化",
+        "duration": "習慣化21日",
+        "visualContent": "<div style='font-family: sans-serif; font-size: 15px; line-height: 1.45; color: #374151;'><div style='background: #F0F9FF; padding: 20px; border-radius: 12px; border: 2px solid #BAE6FD;'><div style='text-align: center; margin-bottom: 16px;'><strong style='color: #0369A1; font-size: 18px;'>21日間感情コントロール習慣化プラン</strong></div><div style='background: #FFFFFF; padding: 16px; border-radius: 8px; margin-bottom: 16px; border: 1px solid #E5E7EB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #1F2937; font-size: 15px;'>段階的習慣化スケジュール</strong></div></div><div style='display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 16px;'><div style='background: #FEF3C7; padding: 16px; border-radius: 8px; border: 2px solid #FED7AA;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #D97706; font-size: 16px;'>第1週（Day1-7）：基礎習慣</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>目標</strong>：プラス変換思考を意識する</div><div style='margin-bottom: 4px;'>• 朝：「今日楽しみなこと」を1つ決める</div><div style='margin-bottom: 4px;'>• 昼：イライラした出来事をプラス変換する</div><div style='margin-bottom: 4px;'>• 夜：その日の良かったことを3つ書く</div><div style='background: #FED7AA; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #92400E; text-align: center;'><strong>完了目安</strong>：7日中5日実施できれば成功</div></div></div></div><div style='background: #DBEAFE; padding: 16px; border-radius: 8px; border: 2px solid #BFDBFE;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #2563EB; font-size: 16px;'>第2週（Day8-14）：応用実践</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>目標</strong>：3原則（素直・謙虚・前向き）を実践</div><div style='margin-bottom: 4px;'>• 会議：「確かに」「なるほど」を意識的に使う</div><div style='margin-bottom: 4px;'>• 対話：「教えてください」の姿勢を保つ</div><div style='margin-bottom: 4px;'>• 問題：「どう解決するか？」を考える習慣</div><div style='background: #BFDBFE; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #1E40AF; text-align: center;'><strong>完了目安</strong>：職場で3原則を毎日1回以上実践</div></div></div></div><div style='background: #D1FAE5; padding: 16px; border-radius: 8px; border: 2px solid #A7F3D0;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #059669; font-size: 16px;'>第3週（Day15-21）：統合完成</strong></div><div style='font-size: 13px; color: #374151; line-height: 1.5;'><div style='margin-bottom: 8px;'><strong>目標</strong>：感情コントロールの自動化</div><div style='margin-bottom: 4px;'>• 機嫌管理：朝のセッティング→日中の維持→夜のリセット</div><div style='margin-bottom: 4px;'>• やる気維持：小目標達成→進歩確認→意味付け更新</div><div style='margin-bottom: 4px;'>• 緊急対応：ストレス発生→即座にプラス変換</div><div style='background: #A7F3D0; padding: 8px; border-radius: 6px; margin-top: 8px;'><div style='font-size: 12px; color: #047857; text-align: center;'><strong>完了目安</strong>：無意識に感情コントロールができる状態</div></div></div></div></div><div style='background: #F3F4F6; padding: 16px; border-radius: 8px; border: 1px solid #D1D5DB;'><div style='text-align: center; margin-bottom: 12px;'><strong style='color: #374151; font-size: 15px;'>📊 進歩測定指標</strong></div><div style='display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;'><div style='text-align: center;'><div style='color: #059669; font-size: 18px; font-weight: bold;'>機嫌</div><div style='font-size: 11px; color: #6B7280;'>1日平均点数<br/>（1-10点）</div></div><div style='text-align: center;'><div style='color: #059669; font-size: 18px; font-weight: bold;'>対人</div><div style='font-size: 11px; color: #6B7280;'>感謝される<br/>回数/週</div></div><div style='text-align: center;'><div style='color: #059669; font-size: 18px; font-weight: bold;'>成果</div><div style='font-size: 11px; color: #6B7280;'>プロジェクト<br/>成功率</div></div></div></div></div></div>",
+        "instructions": [],
+        "tips": "21日間で習慣は定着しますが、完璧を求めず7割達成を目指してください。継続が最も重要です。",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    },
+    "page8": {
+      "role": "achievement_summary",
+      "section": "summary",
+      "content": {
+        "summaryTitle": "感情コントロールマスターで得られる成果",
+        "achievementPoints": [
+          "プラス変換思考で困難を成長の機会に変える力を獲得",
+          "素直・謙虚・前向きの3原則で信頼される人材に成長",
+          "システム化されたやる気管理で安定したパフォーマンスを実現",
+          "機嫌を技術的にコントロールして周囲に好影響を与える存在に",
+          "21日間の習慣化プランで感情コントロールを自動化",
+          "長期的なキャリア成功とリーダーシップを発揮する基盤を構築"
+        ],
+        "finalMessage": "感情をコントロールできる人が最終的に勝つ。今日から実践して理想のキャリアを手に入れよう！",
+        "imageSrc": "/ten_point.png",
+        "imageAlt": "10ポイントまとめ表示"
+      }
+    }
+  }
+}
