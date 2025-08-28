@@ -1,0 +1,194 @@
+{
+  "habitBehaviorDatabase": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-08-25",
+    "totalEntries": 3,
+    "scope": "朝に実施する習慣のみ抽出",
+    "classificationCriteria": "habitNameに「朝」「起床」「ゴールデンタイム」を含む習慣",
+    "researchCredibility": {
+      "totalSources": 150,
+      "highCredibilitySources": 98,
+      "practitionerInterviews": 75,
+      "academicStudies": 45,
+      "industryReports": 30
+    },
+    "categories": [
+      {
+        "id": "CAT001",
+        "name": "時間管理",
+        "description": "時間の使い方、スケジュール管理に関する習慣",
+        "habits": [
+          {
+            "habitId": "H001",
+            "habitName": "朝のゴールデンタイム活用（5:00-6:30起床）",
+            "category": "CAT001",
+            "shortDescription": "起床後2-3時間を戦略的タスクに集中",
+            "detailedDescription": "5:00-6:30に起床し、明確な思考と戦略的企画時間を確保。脳が最も活性化している時間帯に創造的な仕事や重要な意思決定を行う",
+            "targetPersona": ["経営者", "管理職", "コンサルタント", "起業家"],
+            "effectiveness": {
+              "overallScore": 95,
+              "productivity": 95,
+              "wellbeing": 85,
+              "career": 90,
+              "learning": 85
+            },
+            "practiceRate": 73,
+            "evidence": {
+              "primarySource": "Harvard Business Review CEO Study 2024",
+              "additionalSources": [
+                "McKinsey Executive Research",
+                "Fortune 500 Daily Routine Analysis"
+              ],
+              "sampleSize": 2500,
+              "studyYear": 2024,
+              "reliabilityLevel": "A",
+              "industrySupport": "19/20業界"
+            },
+            "implementation": {
+              "difficulty": "中",
+              "timeRequired": "21日",
+              "dailyTime": "2-3時間",
+              "cost": "無料",
+              "tools": ["スケジュール管理アプリ", "タイマー", "遮光カーテン"]
+            },
+            "tips": {
+              "startingTips": [
+                "最初は15分早起きから段階的に開始",
+                "前日に翌日の最重要タスクを決定",
+                "スマホは別室に保管"
+              ],
+              "commonMistakes": [
+                "いきなり1時間早起きして挫折",
+                "朝にメールチェックから始める",
+                "完璧主義で継続できない"
+              ],
+              "successIndicators": [
+                "重要タスクの完了率向上",
+                "午後の疲労感減少",
+                "創造的アイデアの増加"
+              ]
+            },
+            "relatedHabits": ["H002", "H025", "H030"],
+            "industryAdaptations": {
+              "金融": "市場オープン準備、グローバル時差監視",
+              "医療": "患者安全レビュー、夜間インシデント分析",
+              "製造": "生産計画、安全ブリーフィング",
+              "コンサル": "クライアント準備、分析作業",
+              "技術": "プロダクト更新、開発計画"
+            },
+            "successMetrics": {
+              "productivityIncrease": "25-40%",
+              "decisionQuality": "+35%",
+              "stressReduction": "+45%"
+            }
+          },
+          {
+            "habitId": "H002",
+            "habitName": "スクリーンフリー朝時間",
+            "category": "CAT001",
+            "shortDescription": "起床後20-30分間デジタルデバイス使用禁止",
+            "detailedDescription": "起床直後の20-30分間はスマホ、PC等のデジタルデバイスを一切使用せず、精神的明晰性と集中力を確保する",
+            "targetPersona": ["クリエイター", "管理職", "メディア関係者"],
+            "effectiveness": {
+              "overallScore": 80,
+              "productivity": 85,
+              "wellbeing": 90,
+              "career": 70,
+              "learning": 75
+            },
+            "practiceRate": 45,
+            "evidence": {
+              "primarySource": "CMO Success Habits Study",
+              "additionalSources": [
+                "Mindfulness Research Institute",
+                "Digital Wellness Studies"
+              ],
+              "sampleSize": 800,
+              "studyYear": 2024,
+              "reliabilityLevel": "B",
+              "industrySupport": "12/20業界"
+            },
+            "implementation": {
+              "difficulty": "低",
+              "timeRequired": "14日",
+              "dailyTime": "20-30分",
+              "cost": "無料",
+              "tools": ["アナログ目覚まし時計"]
+            },
+            "tips": {
+              "startingTips": [
+                "スマホを寝室外に置く",
+                "アナログ朝ルーティンを作成",
+                "段階的に30分まで延長"
+              ],
+              "commonMistakes": [
+                "習慣化前に長時間設定",
+                "緊急連絡を理由に例外を作る",
+                "週末の例外設定"
+              ],
+              "successIndicators": [
+                "創造性の向上30%",
+                "集中力改善25%",
+                "ストレス軽減40%"
+              ]
+            },
+            "relatedHabits": ["H001", "H030"],
+            "successMetrics": {
+              "creativityBoost": "+30%",
+              "focusImprovement": "+25%",
+              "stressReduction": "+40%"
+            }
+          }
+        ]
+      },
+      {
+        "id": "CAT005",
+        "name": "健康・メンタル",
+        "description": "身体的フィットネス、栄養、睡眠最適化、ストレス管理、マインドフルネス実践",
+        "habits": [
+          {
+            "habitId": "H028",
+            "habitName": "毎日瞑想実践",
+            "category": "CAT005",
+            "shortDescription": "起床後30分以内での10-20分毎日瞑想による存在感と明晰性獲得",
+            "detailedDescription": "起床後30分以内に10-20分間の瞑想を毎日実践し、存在感（プレゼンス）と精神的明晰性を獲得し、リーダーシップの質を向上させる",
+            "targetPersona": ["マーケティング幹部", "創造業界リーダー", "技術専門職"],
+            "effectiveness": {
+              "overallScore": 82,
+              "productivity": 80,
+              "wellbeing": 95,
+              "career": 75,
+              "learning": 80
+            },
+            "practiceRate": 35,
+            "evidence": {
+              "primarySource": "Executive Mindfulness Study",
+              "additionalSources": [
+                "Meditation Impact Research",
+                "Leadership Presence Analysis"
+              ],
+              "sampleSize": 1000,
+              "studyYear": 2024,
+              "reliabilityLevel": "A",
+              "industrySupport": "12/20業界"
+            },
+            "implementation": {
+              "difficulty": "中",
+              "timeRequired": "21日",
+              "dailyTime": "10-20分",
+              "cost": "無料",
+              "tools": ["瞑想アプリ", "タイマー", "静寂な空間"]
+            },
+            "relatedHabits": ["H001", "H002"]
+          }
+        ]
+      }
+    ],
+    "universalHighImpactHabits": [
+      "H001"
+    ],
+    "habitCombinations": {
+      "morningExcellenceStack": ["H001", "H002", "H028"]
+    }
+  }
+}
