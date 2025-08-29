@@ -1,0 +1,16 @@
+{
+  "id": "MP005",
+  "name": "年収2000万円以上企業TOP5",
+  "target": "男性社会人",
+  "criteria": "salary",
+  "limit": 5,
+  "filters": {
+    "salaryRange": [
+      20000000,
+      null
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.111Z",
+  "resultCount": 0,
+  "ranking": []
+}

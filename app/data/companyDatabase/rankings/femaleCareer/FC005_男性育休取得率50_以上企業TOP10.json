@@ -1,0 +1,392 @@
+{
+  "id": "FC005",
+  "name": "男性育休取得率50%以上企業TOP10",
+  "target": "女性キャリア",
+  "criteria": "maleParentalLeave",
+  "limit": 10,
+  "filters": {},
+  "generatedAt": "2025-08-29T02:03:31.022Z",
+  "resultCount": 10,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "FN002",
+      "name": "三井住友銀行",
+      "industry": "銀行業",
+      "value": 116.1,
+      "formattedValue": "116.1%",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 300000,
+        "holidays": 120,
+        "overtime": null,
+        "employees": 28063,
+        "vacationRate": 85,
+        "maleParentalLeaveRate": 116.1,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 3,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "預金、貸出、為替、有価証券売買・投資など、銀行業務全般",
+        "specialization": "銀行業務全般・5営業日連続休暇・働き方改革",
+        "workStyle": "リモートワーク制度あり",
+        "growth": "5営業日連続休暇・勤続休暇制度・働き方改革推進"
+      },
+      "welfare": {
+        "housingAllowance": "あり",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "5営業日連続休暇、勤続休暇制度、資格取得支援制度",
+        "welfareGrade": "A"
+      },
+      "description": "銀行業。銀行業務全般・5営業日連続休暇・働き方改革、リモートワーク制度あり。"
+    },
+    {
+      "rank": 2,
+      "id": "FN003",
+      "name": "みずほフィナンシャルグループ",
+      "industry": "金融業界",
+      "value": 105,
+      "formattedValue": "105%",
+      "metrics": {
+        "salary": 10727000,
+        "initialSalary": 280000,
+        "initialSalaryGrad": 300000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 52307,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 105,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 16.4
+      },
+      "features": {
+        "businessModel": "銀行持株会社としてグループ会社の経営管理及び附帯業務",
+        "specialization": "グループ5社共通新人事制度・グループ横断異動・副業制度",
+        "workStyle": "ハイブリッド（部署により制度導入）・フレックスタイム制度",
+        "growth": "従業員が自律的にキャリアをデザインすることを支援"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補給金等の制度あり",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "通勤補給費全額支給、昼食費補助、グループ5社共通の新人事制度〈かなで〉",
+        "welfareGrade": "A"
+      },
+      "description": "金融業界。グループ5社共通新人事制度・グループ横断異動・副業制度、ハイブリッド（部署により制度導入）・フレックスタイム制度。"
+    },
+    {
+      "rank": 3,
+      "id": "BAN001",
+      "name": "株式会社みずほフィナンシャルグループ",
+      "industry": "銀行業",
+      "value": 105,
+      "formattedValue": "105%",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 260000,
+        "initialSalaryGrad": null,
+        "holidays": 120,
+        "overtime": 21.2,
+        "employees": 52554,
+        "operatingMarginRate": 12.9,
+        "roe": 8.5,
+        "vacationRate": 83.4,
+        "parentalLeaveReturn": 94.1,
+        "maleParentalLeaveRate": 105,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "国内外の幅広い顧客に総合金融サービスを提供",
+        "specialization": "法人・個人向けの銀行・信託・証券サービスを展開",
+        "workStyle": "フレックス制度導入、多様な働き方を推進",
+        "growth": "社内公募・異動制度で多様なキャリア形成機会"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮あり、住宅補給金支給",
+        "transportationAllowance": "交通費全額支給",
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": "自己啓発費用補助など",
+        "uniqueBenefits": "週休3日制度、自分磨き休職、バースサポート:contentReference[oaicite:8]{index=8}",
+        "welfareGrade": "A",
+        "clubActivities": "サッカー部、野球部、ラグビー部、テニス部、卓球部など多彩な部活動:contentReference[oaicite:9]{index=9}"
+      },
+      "description": "銀行業。法人・個人向けの銀行・信託・証券サービスを展開、フレックス制度導入、多様な働き方を推進。"
+    },
+    {
+      "rank": 4,
+      "id": "BAN014",
+      "name": "株式会社みずほ銀行",
+      "industry": "銀行業",
+      "value": 105,
+      "formattedValue": "105%",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 120,
+        "overtime": 21.2,
+        "employees": 32094,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 83.4,
+        "parentalLeaveReturn": 94.1,
+        "maleParentalLeaveRate": 105,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "大手都市銀行として多様な金融サービス提供",
+        "specialization": "法人融資および国際業務に強み",
+        "workStyle": "フレックス制とリモート勤務あり",
+        "growth": "グループ横断の人事異動制度"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮あり",
+        "transportationAllowance": "交通費全額",
+        "familyAllowance": "扶養手当",
+        "cafeteria": "社食あり",
+        "trainingSupport": "豊富な研修制度",
+        "uniqueBenefits": "子育て支援制度",
+        "welfareGrade": "A",
+        "clubActivities": "部活動多数"
+      },
+      "description": "銀行業。法人融資および国際業務に強み、フレックス制とリモート勤務あり。"
+    },
+    {
+      "rank": 5,
+      "id": "IT008",
+      "name": "プリファード・ネットワークス",
+      "industry": "AI・テック業界",
+      "value": 100,
+      "formattedValue": "100%",
+      "metrics": {
+        "salary": 1380,
+        "initialSalary": 600,
+        "initialSalaryGrad": 650,
+        "holidays": 125,
+        "overtime": 15,
+        "employees": 350,
+        "operatingMarginRate": 1.3,
+        "roe": 2.5,
+        "vacationRate": 90,
+        "parentalLeaveReturn": 100,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 3.5,
+        "averageTenure": 6.8
+      },
+      "features": {
+        "businessModel": "AI関連技術・AIチップ・計算基盤開発",
+        "specialization": "世界トップクラスAI研究・自社スパコン",
+        "workStyle": "ハイブリッド・フレックス制",
+        "growth": "AI技術革新・20%ルール・学習重視文化"
+      },
+      "welfare": {
+        "housingAllowance": "なし",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": "英会話学習100%補助",
+        "uniqueBenefits": "20%ルール・業務用PC20万円補助・4Kディスプレイ",
+        "welfareGrade": "S",
+        "clubActivities": null
+      },
+      "description": "AI・テック業界。世界トップクラスAI研究・自社スパコン、ハイブリッド・フレックス制。"
+    },
+    {
+      "rank": 6,
+      "id": "ELEC002",
+      "name": "富士通",
+      "industry": "総合電機メーカー兼総合ITベンダー",
+      "value": 100,
+      "formattedValue": "100%",
+      "metrics": {
+        "salary": 965,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 126,
+        "overtime": 20.2,
+        "employees": 124000,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 71,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 18
+      },
+      "features": {
+        "businessModel": "ITサービス・システム統合・ソフトウェア開発・クラウドサービス・DX支援",
+        "specialization": "DX・AI・クラウド・社会インフラ",
+        "workStyle": "完全リモート・原則テレワーク・出社率25%上限",
+        "growth": "ジョブ型人材マネジメント2026年導入・単身赴任実質ゼロ"
+      },
+      "welfare": {
+        "housingAllowance": "独身者33,000円・既婚者40,000円・独身寮月1万円",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": "F Life+（カフェテリアプラン）",
+        "trainingSupport": null,
+        "uniqueBenefits": "ジョブ型人材マネジメント・単身赴任実質ゼロ制度",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "総合電機メーカー兼総合ITベンダー。DX・AI・クラウド・社会インフラ、完全リモート・原則テレワーク・出社率25%上限。"
+    },
+    {
+      "rank": 7,
+      "id": "FN001",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "industry": "銀行業（総合金融）",
+      "value": 100,
+      "formattedValue": "100%",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 310000,
+        "holidays": 120,
+        "overtime": null,
+        "employees": 138570,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 3.2,
+        "averageTenure": 16.6
+      },
+      "features": {
+        "businessModel": "銀行、信託、証券、カード、消費者金融など、グループ一体で多様な金融サービスを提供する持株会社",
+        "specialization": "総合金融・グループ一体サービス・デジタル化推進",
+        "workStyle": "リモートワーク・フレックスタイム制度あり",
+        "growth": "デジタル化推進・グループ一体での多様な金融サービス提供"
+      },
+      "welfare": {
+        "housingAllowance": "社宅・独身寮制度あり（コースによる）",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "確定拠出年金、従業員持株会、ベビーシッターサービス、企業内保育園",
+        "welfareGrade": "A"
+      },
+      "description": "銀行業（総合金融）。総合金融・グループ一体サービス・デジタル化推進、リモートワーク・フレックスタイム制度あり。"
+    },
+    {
+      "rank": 8,
+      "id": "RE001",
+      "name": "三井不動産株式会社",
+      "industry": "総合デベロッパー",
+      "value": 100,
+      "formattedValue": "100%",
+      "metrics": {
+        "salary": 12890000,
+        "initialSalary": 320000,
+        "initialSalaryGrad": 370000,
+        "holidays": 125,
+        "overtime": 8,
+        "employees": null,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 0.93,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "オフィスビル、商業施設、住宅、ホテル等の開発・賃貸・分譲・マネジメント",
+        "specialization": "総合不動産開発、都市開発",
+        "workStyle": "フレックスタイム制",
+        "growth": "海外トレーニー制度、資格取得奨励制度"
+      },
+      "welfare": {
+        "housingAllowance": "借家手当あり（独身寮あり）",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "通勤費（全額支給）、家族手当",
+        "welfareGrade": "A"
+      },
+      "description": "総合デベロッパー。総合不動産開発、都市開発、フレックスタイム制。"
+    },
+    {
+      "rank": 9,
+      "id": "RE002",
+      "name": "住友不動産株式会社",
+      "industry": "総合デベロッパー",
+      "value": 100,
+      "formattedValue": "100%",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 305000,
+        "initialSalaryGrad": 334000,
+        "holidays": 123,
+        "overtime": null,
+        "employees": 1000,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "オフィスビル開発・賃貸、マンション分譲、住宅リフォーム、不動産仲介",
+        "specialization": "総合不動産開発",
+        "workStyle": "フルフレックスタイム制（コアタイムなし）",
+        "growth": "資格取得支援、財形貯蓄、従業員持株会"
+      },
+      "welfare": {
+        "housingAllowance": "なし（社宅制度あり）",
+        "cafeteria": "財形貯蓄",
+        "recreationFacilities": "自社ホテル・フィットネスクラブ割引",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "PCシャットダウン制度（原則21時に自動シャットダウン）",
+        "welfareGrade": "B"
+      },
+      "description": "総合デベロッパー。総合不動産開発、フルフレックスタイム制（コアタイムなし）。"
+    },
+    {
+      "rank": 10,
+      "id": "RE004",
+      "name": "株式会社大林組",
+      "industry": "建設業界",
+      "value": 100,
+      "formattedValue": "100%",
+      "metrics": {
+        "salary": 11400000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 320000,
+        "holidays": 125,
+        "overtime": 45,
+        "employees": 17305,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": null,
+        "averageTenure": 16.4
+      },
+      "features": {
+        "businessModel": "建築・土木工事の設計・施工、不動産事業、再生可能エネルギー事業",
+        "specialization": "スーパーゼネコン技術、大型プロジェクト",
+        "workStyle": "テレワーク制度、時差出勤制度、時間単位年休制度",
+        "growth": "イクボス宣言制度、シニア・スーパーシニアスタッフ制度"
+      },
+      "welfare": {
+        "housingAllowance": "各種住宅支援制度あり",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "現場勤務者インセンティブ（最大35万円）、各種資格取得支援",
+        "welfareGrade": "A"
+      },
+      "description": "建設業界。スーパーゼネコン技術、大型プロジェクト、テレワーク制度、時差出勤制度、時間単位年休制度。"
+    }
+  ]
+}

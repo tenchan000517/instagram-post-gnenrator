@@ -1,0 +1,19 @@
+{
+  "id": "MP028",
+  "name": "商社業界×年収1500万以上TOP5",
+  "target": "男性社会人",
+  "criteria": "salary",
+  "limit": 5,
+  "filters": {
+    "industries": [
+      "商社業界"
+    ],
+    "salaryRange": [
+      15000000,
+      null
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.183Z",
+  "resultCount": 0,
+  "ranking": []
+}

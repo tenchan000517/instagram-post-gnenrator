@@ -1,0 +1,17 @@
+{
+  "id": "MP013",
+  "name": "年収1500万以上×東証プライムTOP10",
+  "target": "男性社会人",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "salaryRange": [
+      15000000,
+      null
+    ],
+    "listingStatus": "東証プライム"
+  },
+  "generatedAt": "2025-08-29T02:03:31.138Z",
+  "resultCount": 0,
+  "ranking": []
+}

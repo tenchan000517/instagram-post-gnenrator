@@ -1,0 +1,53 @@
+{
+  "id": "MP003",
+  "name": "年収1500万円以上企業TOP10",
+  "target": "男性社会人",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "salaryRange": [
+      15000000,
+      null
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.106Z",
+  "resultCount": 1,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "FT001",
+      "name": "グーグル合同会社",
+      "industry": "外資系IT業界",
+      "value": 16240000,
+      "formattedValue": "1624万円",
+      "metrics": {
+        "salary": 16240000,
+        "initialSalary": 700000,
+        "initialSalaryGrad": 1050000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 1300,
+        "vacationRate": 100,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "検索エンジン、オンライン広告、クラウド、ソフトウェア、ハードウェア等の開発・提供",
+        "specialization": "検索エンジン、クラウドサービス、AI技術",
+        "workStyle": "ハイブリッド（制度に寛容で、地方移住者も多数在籍）、フレックスタイム",
+        "growth": "20%ルール（業務時間の20%を自身の興味あるプロジェクトに利用可能）、360度評価"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "無料の社員食堂",
+        "recreationFacilities": "無料ジム",
+        "healthSupport": "不妊治療サポート",
+        "uniqueBenefits": "確定拠出年金、産前産後・育児・介護休暇、スキルアップ支援、年に4週間のワーケーション",
+        "welfareGrade": "S"
+      },
+      "description": "外資系IT業界。検索エンジン、クラウドサービス、AI技術、ハイブリッド（制度に寛容で、地方移住者も多数在籍）、フレックスタイム。"
+    }
+  ]
+}

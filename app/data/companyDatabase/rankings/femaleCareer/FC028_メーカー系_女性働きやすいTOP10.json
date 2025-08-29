@@ -1,0 +1,213 @@
+{
+  "id": "FC028",
+  "name": "メーカー系×女性働きやすいTOP10",
+  "target": "女性キャリア",
+  "criteria": "overall",
+  "limit": 10,
+  "filters": {
+    "industries": [
+      "自動車業界",
+      "総合電機業界",
+      "化学業界"
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.090Z",
+  "resultCount": 5,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "CH002",
+      "name": "三菱ケミカル株式会社",
+      "industry": "化学業界",
+      "value": 65.81666666666666,
+      "formattedValue": "65.8点",
+      "metrics": {
+        "salary": 10600000,
+        "initialSalary": 278000,
+        "initialSalaryGrad": 300000,
+        "holidays": 123,
+        "overtime": 19.4,
+        "employees": 40736,
+        "vacationRate": 80.6,
+        "maleParentalLeaveRate": 76.3,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 2.47,
+        "averageTenure": 19.9
+      },
+      "features": {
+        "businessModel": "機能商品（高機能ポリマー、MMA等）、ケミカルズ（石油化学、炭素）等の製造・販売",
+        "specialization": "石油化学から高機能材料、ヘルスケアまで幅広い事業領域",
+        "workStyle": "テレワーク制度、フレックスタイム",
+        "growth": "主体的なキャリア形成を支援する公募制度、KAITEKI経営によるサステナビリティ重視"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮、単身赴任寮、転勤者支援金等の制度あり",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "家族手当、育児・介護と仕事の両立支援制度",
+        "welfareGrade": "A"
+      },
+      "description": "化学業界。石油化学から高機能材料、ヘルスケアまで幅広い事業領域、テレワーク制度、フレックスタイム。"
+    },
+    {
+      "rank": 2,
+      "id": "CH001",
+      "name": "信越化学工業株式会社",
+      "industry": "化学業界",
+      "value": 59.69,
+      "formattedValue": "59.7点",
+      "metrics": {
+        "salary": 8865000,
+        "initialSalary": 295950,
+        "initialSalaryGrad": 320950,
+        "holidays": 120,
+        "overtime": 17.9,
+        "employees": 26004,
+        "vacationRate": 76,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 20.1
+      },
+      "features": {
+        "businessModel": "塩ビ・半導体シリコン等の製造・販売。生活環境基盤材料、電子材料、機能材料事業を展開",
+        "specialization": "塩化ビニル樹脂と半導体シリコンで世界トップシェア",
+        "workStyle": "本社・支店・一部研究所でフレックスタイム制",
+        "growth": "少数精鋭主義による専門人材の深耕、長期雇用による技術継承"
+      },
+      "welfare": {
+        "housingAllowance": "家賃補助・住宅手当、独身寮・社宅制度あり",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "家族手当、社員持株会",
+        "welfareGrade": "A"
+      },
+      "description": "化学業界。塩化ビニル樹脂と半導体シリコンで世界トップシェア、本社・支店・一部研究所でフレックスタイム制。"
+    },
+    {
+      "rank": 3,
+      "id": "ELEC005",
+      "name": "NEC",
+      "industry": "総合電機業界",
+      "value": 37.952568,
+      "formattedValue": "38.0点",
+      "metrics": {
+        "salary": 963,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 126,
+        "overtime": 23.1,
+        "employees": 104194,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 63.1,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 3.9,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ITサービス（官公庁・社会公共・企業向け）・社会インフラ",
+        "specialization": "DX事業転換・AIや生体認証等の先端技術分野・官公庁",
+        "workStyle": "ハイブリッド・在宅勤務・サテライトオフィス勤務等柔軟",
+        "growth": "指名委員会等設置会社移行・多様な人材活用企業文化変革"
+      },
+      "welfare": {
+        "housingAllowance": "カフェテリアプランに家賃補助メニューあり",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": "年間86,000円相当のポイント付与",
+        "trainingSupport": null,
+        "uniqueBenefits": "スーパーフレックス勤務制度・有給休暇最大40日",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "総合電機業界。DX事業転換・AIや生体認証等の先端技術分野・官公庁、ハイブリッド・在宅勤務・サテライトオフィス勤務等柔軟。"
+    },
+    {
+      "rank": 4,
+      "id": "ELEC003",
+      "name": "パナソニックホールディングス",
+      "industry": "総合電機業界",
+      "value": 35.252549333333334,
+      "formattedValue": "35.3点",
+      "metrics": {
+        "salary": 956,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 127,
+        "overtime": 30,
+        "employees": 59006,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 3.4,
+        "averageTenure": 17.9
+      },
+      "features": {
+        "businessModel": "家電・空質空調・食品流通・電気設備・デバイス開発・製造・販売",
+        "specialization": "事業会社制・グリーンエナジー領域",
+        "workStyle": "ハイブリッド・週半分程度在宅勤務・ノンコア・フレックス",
+        "growth": "持続可能なグロース・グローバル事業拡大"
+      },
+      "welfare": {
+        "housingAllowance": "転勤者のみ7割補助",
+        "transportationAllowance": null,
+        "familyAllowance": "家族手当（子ども1人月1万円）",
+        "cafeteria": "カフェテリアポイント制度（年12万円）",
+        "trainingSupport": null,
+        "uniqueBenefits": "事業会社制による初期配属確約・社内公募制度",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "総合電機業界。事業会社制・グリーンエナジー領域、ハイブリッド・週半分程度在宅勤務・ノンコア・フレックス。"
+    },
+    {
+      "rank": 5,
+      "id": "ELEC006",
+      "name": "三菱電機",
+      "industry": "総合電機業界",
+      "value": -59.99768,
+      "formattedValue": "-60.0点",
+      "metrics": {
+        "salary": 870,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": null,
+        "employees": 149914,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 16.3
+      },
+      "features": {
+        "businessModel": "インダストリー・モビリティ・ライフ・ビジネスエリア",
+        "specialization": "FA・インフラ・デジタル融合戦略・パワー半導体・空調",
+        "workStyle": null,
+        "growth": "大規模採用でDX人材獲得・配属確約制度・カムバック採用拡充"
+      },
+      "welfare": {
+        "housingAllowance": null,
+        "transportationAllowance": "通勤費補助",
+        "familyAllowance": "扶養手当",
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "職種確約コース・配属先指定リクルート制度・カムバック採用",
+        "welfareGrade": "B",
+        "clubActivities": null
+      },
+      "description": "総合電機業界。FA・インフラ・デジタル融合戦略・パワー半導体・空調。"
+    }
+  ]
+}

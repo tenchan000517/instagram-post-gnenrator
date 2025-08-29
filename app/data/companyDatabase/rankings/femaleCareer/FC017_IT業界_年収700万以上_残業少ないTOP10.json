@@ -1,0 +1,23 @@
+{
+  "id": "FC017",
+  "name": "IT業界×年収700万以上×残業少ないTOP10",
+  "target": "女性キャリア",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "industries": [
+      "IT業界"
+    ],
+    "salaryRange": [
+      7000000,
+      null
+    ],
+    "overtimeRange": [
+      null,
+      25
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.059Z",
+  "resultCount": 0,
+  "ranking": []
+}

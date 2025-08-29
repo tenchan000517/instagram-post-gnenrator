@@ -1,0 +1,570 @@
+{
+  "id": "FC024",
+  "name": "東証プライム×女性働きやすいTOP15",
+  "target": "女性キャリア",
+  "criteria": "overall",
+  "limit": 15,
+  "filters": {
+    "listingStatus": "東証プライム",
+    "overtimeRange": [
+      null,
+      25
+    ]
+  },
+  "generatedAt": "2025-08-28T07:39:48.029Z",
+  "resultCount": 15,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "RE001",
+      "name": "三井不動産株式会社",
+      "industry": "総合デベロッパー",
+      "value": 79.12333333333333,
+      "formattedValue": "79.1点",
+      "metrics": {
+        "salary": 12890000,
+        "initialSalary": 320000,
+        "initialSalaryGrad": 370000,
+        "holidays": 125,
+        "overtime": 8,
+        "employees": null,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 0.93,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "オフィスビル、商業施設、住宅、ホテル等の開発・賃貸・分譲・マネジメント",
+        "specialization": "総合不動産開発、都市開発",
+        "workStyle": "フレックスタイム制",
+        "growth": "海外トレーニー制度、資格取得奨励制度"
+      },
+      "welfare": {
+        "housingAllowance": "借家手当あり（独身寮あり）",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "通勤費（全額支給）、家族手当",
+        "welfareGrade": "A"
+      },
+      "description": "総合デベロッパー。総合不動産開発、都市開発、フレックスタイム制。"
+    },
+    {
+      "rank": 2,
+      "id": "RT001",
+      "name": "株式会社ファーストリテイリング",
+      "industry": "アパレル製造小売業",
+      "value": 72.12666666666667,
+      "formattedValue": "72.1点",
+      "metrics": {
+        "salary": 9010000,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 135,
+        "overtime": 16.3,
+        "employees": 58000,
+        "vacationRate": 74.6,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "「ユニクロ」「ジーユー」等を展開するアパレル製造小売業",
+        "specialization": "「LifeWear = 新しい産業」戦略、サステナブル素材転換",
+        "workStyle": "データなし",
+        "growth": "販売員キャリアパス改革、多様なキャリアパス提供"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "データなし",
+        "welfareGrade": "A"
+      },
+      "description": "アパレル製造小売業。「LifeWear = 新しい産業」戦略、サステナブル素材転換、データなし。"
+    },
+    {
+      "rank": 3,
+      "id": "PH001",
+      "name": "武田薬品工業株式会社",
+      "industry": "製薬業・医薬品製造業",
+      "value": 67.74,
+      "formattedValue": "67.7点",
+      "metrics": {
+        "salary": 11040000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 325000,
+        "holidays": 123,
+        "overtime": 17.9,
+        "employees": 49095,
+        "vacationRate": 70,
+        "maleParentalLeaveRate": 83,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "消化器系・希少疾患・血漿分画製剤・オンコロジー・ニューロサイエンス・ワクチンの研究開発・製造・販売",
+        "specialization": "グローバル製薬企業、研究開発重視",
+        "workStyle": "データなし",
+        "growth": "グローバルキャリア制度、公募制度"
+      },
+      "welfare": {
+        "housingAllowance": "借家補助費（家賃の約7割補助）、借上社宅制度",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "データなし",
+        "welfareGrade": "A"
+      },
+      "description": "製薬業・医薬品製造業。グローバル製薬企業、研究開発重視、データなし。"
+    },
+    {
+      "rank": 4,
+      "id": "TR007",
+      "name": "双日",
+      "industry": "専門商社",
+      "value": 67.47333333333333,
+      "formattedValue": "67.5点",
+      "metrics": {
+        "salary": 12740000,
+        "initialSalary": 305000,
+        "initialSalaryGrad": 340000,
+        "holidays": 120,
+        "overtime": 23,
+        "employees": 2551,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 77.6,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 75,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 3.4,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "自動車・航空・インフラ・エネルギー・金属・化学品・食料・リテール等各分野事業展開",
+        "specialization": "事業創造DNA・高付加価値分野での専門性",
+        "workStyle": "ハイブリッド（2017年より在宅勤務）・スーパーフレックス（コアタイムなし）",
+        "growth": "若手裁量権・早期海外経験・次世代リーダー育成"
+      },
+      "welfare": {
+        "housingAllowance": "寮・社宅制度",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": "くるみん認定取得",
+        "uniqueBenefits": "在宅勤務手当（1日200円）、ファミリーサポート休暇（5日間）、事業創造文化",
+        "welfareGrade": "A"
+      },
+      "description": "専門商社。事業創造DNA・高付加価値分野での専門性、ハイブリッド（2017年より在宅勤務）・スーパーフレックス（コアタイムなし）。"
+    },
+    {
+      "rank": 5,
+      "id": "EL001",
+      "name": "ソニー",
+      "industry": "総合電機メーカー・エンタテインメント複合企業",
+      "value": 67.26333333333334,
+      "formattedValue": "67.3点",
+      "metrics": {
+        "salary": 11180000,
+        "initialSalary": 313000,
+        "initialSalaryGrad": 343000,
+        "holidays": 126,
+        "overtime": 24.1,
+        "employees": 113000,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 70.9,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 76.2,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 1.3,
+        "averageTenure": 15.8
+      },
+      "features": {
+        "businessModel": "ゲーム・音楽・映画・エレクトロニクス・半導体・金融サービス事業",
+        "specialization": "エンタテインメント×テクノロジー・イメージセンサー・コンテンツ",
+        "workStyle": "ハイブリッド（在宅勤務制度・コアタイムなしフレックス）",
+        "growth": "AI・IoT技術・クリエイティブ重視"
+      },
+      "welfare": {
+        "housingAllowance": "家賃補助制度・独身寮・借上げ住宅制度",
+        "cafeteria": "カフェテリアプラン（ソニー独自）",
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "ジョブグレード制度、Symphony Plan（育児・介護・がん治療両立支援）、フレックスホリデー、子育て支援（ランドセル贈呈式・ベビーシッター費用補助）",
+        "welfareGrade": "S"
+      },
+      "description": "総合電機メーカー・エンタテインメント複合企業。エンタテインメント×テクノロジー・イメージセンサー・コンテンツ、ハイブリッド（在宅勤務制度・コアタイムなしフレックス）。"
+    },
+    {
+      "rank": 6,
+      "id": "EL004",
+      "name": "日立製作所",
+      "industry": "総合電機・社会インフラ業界",
+      "value": 66.37666666666668,
+      "formattedValue": "66.4点",
+      "metrics": {
+        "salary": 9610000,
+        "initialSalary": 269000,
+        "initialSalaryGrad": 294000,
+        "holidays": 126,
+        "overtime": 17.5,
+        "employees": 270000,
+        "vacationRate": 80.5,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "IT・エネルギー・インフラ・産業機器による社会イノベーション事業",
+        "specialization": "社会イノベーション・ジョブ型採用・IT・エネルギー・インフラ",
+        "workStyle": "ハイブリッド（在宅勤務・サテライトオフィス勤務積極活用・首都圈数十拠点利用可）",
+        "growth": "2026年度から完全ジョブ型採用移行・中途採用重視・博士人財向けプログラム"
+      },
+      "welfare": {
+        "housingAllowance": "賃料半額補助（上限4-5万円、34歳まで）",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": null,
+        "healthSupport": "健康経営優良法人「ホワイト500」認定",
+        "uniqueBenefits": "2026年度から完全ジョブ型採用移行、文理問わない採用、博士人財向けキャリア相談窓口、家族手当、資格手当",
+        "welfareGrade": "S"
+      },
+      "description": "総合電機・社会インフラ業界。社会イノベーション・ジョブ型採用・IT・エネルギー・インフラ、ハイブリッド（在宅勤務・サテライトオフィス勤務積極活用・首都圈数十拠点利用可）。"
+    },
+    {
+      "rank": 7,
+      "id": "CH002",
+      "name": "三菱ケミカル株式会社",
+      "industry": "化学業界",
+      "value": 65.81666666666666,
+      "formattedValue": "65.8点",
+      "metrics": {
+        "salary": 10600000,
+        "initialSalary": 278000,
+        "initialSalaryGrad": 300000,
+        "holidays": 123,
+        "overtime": 19.4,
+        "employees": 40736,
+        "vacationRate": 80.6,
+        "maleParentalLeaveRate": 76.3,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 2.47,
+        "averageTenure": 19.9
+      },
+      "features": {
+        "businessModel": "機能商品（高機能ポリマー、MMA等）、ケミカルズ（石油化学、炭素）等の製造・販売",
+        "specialization": "石油化学から高機能材料、ヘルスケアまで幅広い事業領域",
+        "workStyle": "テレワーク制度、フレックスタイム",
+        "growth": "主体的なキャリア形成を支援する公募制度、KAITEKI経営によるサステナビリティ重視"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮、単身赴任寮、転勤者支援金等の制度あり",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "家族手当、育児・介護と仕事の両立支援制度",
+        "welfareGrade": "A"
+      },
+      "description": "化学業界。石油化学から高機能材料、ヘルスケアまで幅広い事業領域、テレワーク制度、フレックスタイム。"
+    },
+    {
+      "rank": 8,
+      "id": "EL002",
+      "name": "富士通",
+      "industry": "総合電機メーカー兼総合ITベンダー",
+      "value": 65.13333333333333,
+      "formattedValue": "65.1点",
+      "metrics": {
+        "salary": 9650000,
+        "initialSalary": 264000,
+        "initialSalaryGrad": null,
+        "holidays": 126,
+        "overtime": 20.2,
+        "employees": 124000,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 71,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 18
+      },
+      "features": {
+        "businessModel": "ITサービス・システム統合・ソフトウェア開発・クラウドサービス・DX支援",
+        "specialization": "DX・AI・クラウド・社会インフラ",
+        "workStyle": "完全リモート（Work Life Shift・原則テレワーク・出社率25%上限）",
+        "growth": "ジョブ型人材マネジメント2026年導入・単身赴任実質ゼロ"
+      },
+      "welfare": {
+        "housingAllowance": "独身者33,000円/月、既婚者40,000円/月、独身寮月1万円程度",
+        "cafeteria": "F Life+（カフェテリアプラン）",
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "ジョブ型人材マネジメント、Work Life Shift、単身赴任実質ゼロ制度、財形貯蓄、コアタイムなしフルフレックス",
+        "welfareGrade": "S"
+      },
+      "description": "総合電機メーカー兼総合ITベンダー。DX・AI・クラウド・社会インフラ、完全リモート（Work Life Shift・原則テレワーク・出社率25%上限）。"
+    },
+    {
+      "rank": 9,
+      "id": "EL005",
+      "name": "NEC",
+      "industry": "総合電機業界",
+      "value": 63.63000000000001,
+      "formattedValue": "63.6点",
+      "metrics": {
+        "salary": 9630000,
+        "initialSalary": 294000,
+        "initialSalaryGrad": 314400,
+        "holidays": 126,
+        "overtime": 23.1,
+        "employees": 104194,
+        "vacationRate": 63.1,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 3.9,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ITサービス事業（官公庁、社会公共、企業向け）、社会インフラ事業（通信、宇宙・防衛等）",
+        "specialization": "DX事業転換・AIや生体認証等の先端技術分野・官公庁・社会インフラ",
+        "workStyle": "ハイブリッド（在宅勤務、サテライトオフィス勤務等、柔軟な働き方が可能）",
+        "growth": "指名委員会等設置会社移行・多様な人材活用企業文化変革・中途採用重視"
+      },
+      "welfare": {
+        "housingAllowance": "カフェテリアプランに家賃補助メニューあり",
+        "cafeteria": "年間86,000円相当のポイント付与",
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "スーパーフレックス勤務制度（コアタイムなし）、ファミリーフレンドリー休暇、有給休暇最大40日（積立可）",
+        "welfareGrade": "A"
+      },
+      "description": "総合電機業界。DX事業転換・AIや生体認証等の先端技術分野・官公庁・社会インフラ、ハイブリッド（在宅勤務、サテライトオフィス勤務等、柔軟な働き方が可能）。"
+    },
+    {
+      "rank": 10,
+      "id": "GM001",
+      "name": "任天堂",
+      "industry": "ゲーム・エンターテインメント業界",
+      "value": 63.010000000000005,
+      "formattedValue": "63.0点",
+      "metrics": {
+        "salary": 9660000,
+        "initialSalary": 256000,
+        "initialSalaryGrad": 267000,
+        "holidays": 125,
+        "overtime": 23,
+        "employees": 8205,
+        "vacationRate": 86,
+        "maleParentalLeaveRate": 92,
+        "femaleParentalLeaveRate": 115,
+        "turnoverRate3Years": 1.9,
+        "averageTenure": 14.4
+      },
+      "features": {
+        "businessModel": "Nintendo Switchを中心とした家庭用ゲーム機器とソフトウェアの製造・販売",
+        "specialization": "ゲーム機器・ソフトウェア・家庭用ゲーム",
+        "workStyle": "フレックスタイム制（コアタイム10:00～15:00、標準労働時間7時間45分）",
+        "growth": "50歳以上対象週休3日制・短時間勤務制度・パートナーシップ制度・兼業副業許可範囲拡大"
+      },
+      "welfare": {
+        "housingAllowance": "住宅支援制度あり（詳細非公開）",
+        "cafeteria": "選択型福利厚生制度",
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "50歳以上対象週休3日制・短時間勤務制度、パートナーシップ制度、兼業・副業許可範囲拡大、退職金制度",
+        "welfareGrade": "S"
+      },
+      "description": "ゲーム・エンターテインメント業界。ゲーム機器・ソフトウェア・家庭用ゲーム、フレックスタイム制（コアタイム10:00～15:00、標準労働時間7時間45分）。"
+    },
+    {
+      "rank": 11,
+      "id": "CH001",
+      "name": "信越化学工業株式会社",
+      "industry": "化学業界",
+      "value": 59.69,
+      "formattedValue": "59.7点",
+      "metrics": {
+        "salary": 8865000,
+        "initialSalary": 295950,
+        "initialSalaryGrad": 320950,
+        "holidays": 120,
+        "overtime": 17.9,
+        "employees": 26004,
+        "vacationRate": 76,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 20.1
+      },
+      "features": {
+        "businessModel": "塩ビ・半導体シリコン等の製造・販売。生活環境基盤材料、電子材料、機能材料事業を展開",
+        "specialization": "塩化ビニル樹脂と半導体シリコンで世界トップシェア",
+        "workStyle": "本社・支店・一部研究所でフレックスタイム制",
+        "growth": "少数精鋭主義による専門人材の深耕、長期雇用による技術継承"
+      },
+      "welfare": {
+        "housingAllowance": "家賃補助・住宅手当、独身寮・社宅制度あり",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "家族手当、社員持株会",
+        "welfareGrade": "A"
+      },
+      "description": "化学業界。塩化ビニル樹脂と半導体シリコンで世界トップシェア、本社・支店・一部研究所でフレックスタイム制。"
+    },
+    {
+      "rank": 12,
+      "id": "GM003",
+      "name": "オリエンタルランド",
+      "industry": "エンターテインメント・サービス業界",
+      "value": 55.766666666666666,
+      "formattedValue": "55.8点",
+      "metrics": {
+        "salary": 6010000,
+        "initialSalary": 272000,
+        "initialSalaryGrad": null,
+        "holidays": 123,
+        "overtime": 15.02,
+        "employees": 5631,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 69,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 2.81,
+        "averageTenure": 10.4
+      },
+      "features": {
+        "businessModel": "東京ディズニーリゾートの運営・管理、ホテル事業、商業施設運営",
+        "specialization": "テーマパーク運営・ホテル事業・商業施設運営",
+        "workStyle": "ハイブリッド（業務内容に応じて在宅勤務制度・フレックスタイム制導入）",
+        "growth": "中途採用重視（中途採用比率73.0%）・約6%の賃上げ実施（2025年）"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮完備、住宅手当詳細データなし",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "サンクスデー（年1回閉園後パーク内での感謝イベント）",
+        "healthSupport": null,
+        "uniqueBenefits": "メッセージカード交換制度、商品割引制度、テーマパスポート配布、財形貯蓄制度、通勤手当、時間外勤務手当",
+        "welfareGrade": "A"
+      },
+      "description": "エンターテインメント・サービス業界。テーマパーク運営・ホテル事業・商業施設運営、ハイブリッド（業務内容に応じて在宅勤務制度・フレックスタイム制導入）。"
+    },
+    {
+      "rank": 13,
+      "id": "RT009",
+      "name": "株式会社オリエンタルランド",
+      "industry": "小売・サービス・エンターテインメント業界",
+      "value": 54.09,
+      "formattedValue": "54.1点",
+      "metrics": {
+        "salary": 5940000,
+        "initialSalary": 232000,
+        "initialSalaryGrad": null,
+        "holidays": 120,
+        "overtime": 13.5,
+        "employees": 26713,
+        "vacationRate": 101.6,
+        "maleParentalLeaveRate": 69,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 2.8,
+        "averageTenure": 10.3
+      },
+      "features": {
+        "businessModel": "東京ディズニーリゾートの経営・運営を中核事業とし、ホテル経営や不動産賃貸事業も展開",
+        "specialization": "東京ディズニーリゾートの唯一無二の体験価値",
+        "workStyle": "週に数日リモートワーク、フレックスタイム（コアタイム 10:30-15:00）",
+        "growth": "「The Five Keys～5つの鍵～」という行動規準、テーマパークオペレーション社員向けキャリア研修"
+      },
+      "welfare": {
+        "housingAllowance": "なし（独身寮あり）",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "パークチケット配付",
+        "welfareGrade": "A"
+      },
+      "description": "小売・サービス・エンターテインメント業界。東京ディズニーリゾートの唯一無二の体験価値、週に数日リモートワーク、フレックスタイム（コアタイム 10:30-15:00）。"
+    },
+    {
+      "rank": 14,
+      "id": "RT005",
+      "name": "株式会社ゼンショーホールディングス",
+      "industry": "外食・小売業",
+      "value": 49.87333333333333,
+      "formattedValue": "49.9点",
+      "metrics": {
+        "salary": 6140000,
+        "initialSalary": 312000,
+        "initialSalaryGrad": 330000,
+        "holidays": 118,
+        "overtime": 20,
+        "employees": 18742,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "外食チェーン経営、食材加工・販売システム開発運営",
+        "specialization": "MMD（調達・製造・物流・販売一貫管理）ビジネスモデル",
+        "workStyle": "一部可（本社勤務では可能だが利用者少数、店舗勤務では基本なし）、フレックス一部あり",
+        "growth": "9コース制採用、DX認定事業者"
+      },
+      "welfare": {
+        "housingAllowance": "借り上げ社宅制度・家賃補助制度あり",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "インフルエンザワクチン補助金",
+        "uniqueBenefits": "営業手当、単身赴任手当、家族手当、転勤補助手当、車両補助金、株式持株会制度",
+        "welfareGrade": "B"
+      },
+      "description": "外食・小売業。MMD（調達・製造・物流・販売一貫管理）ビジネスモデル、一部可（本社勤務では可能だが利用者少数、店舗勤務では基本なし）、フレックス一部あり。"
+    },
+    {
+      "rank": 15,
+      "id": "TR001",
+      "name": "伊藤忠商事",
+      "industry": "商社（総合商社）",
+      "value": -10.349999999999998,
+      "formattedValue": "-10.3点",
+      "metrics": {
+        "salary": 18050000,
+        "initialSalary": 325000,
+        "initialSalaryGrad": 360000,
+        "holidays": null,
+        "overtime": 10.7,
+        "employees": 4215,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 69.1,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 96,
+        "femaleParentalLeaveRate": 103,
+        "turnoverRate3Years": 3.7,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "繊維・機械・金属・食料・住生活・情報・金融分野でのトレーディング・事業投資",
+        "specialization": "朝型勤務制度・働き方改革",
+        "workStyle": "一部リモートワーク可（産前・育児・介護時）",
+        "growth": "働き方改革リーダー・最少残業時間"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮・社宅制度あり",
+        "cafeteria": "朝食無料提供",
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "朝型勤務制度（20時以降残業原則禁止）、早朝勤務者インセンティブ、ベビーシッター補助、リフレッシュ休暇、ボランティア休暇",
+        "welfareGrade": "S"
+      },
+      "description": "商社（総合商社）。朝型勤務制度・働き方改革、一部リモートワーク可（産前・育児・介護時）。"
+    }
+  ]
+}

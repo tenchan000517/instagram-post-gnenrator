@@ -1,0 +1,15 @@
+{
+  "id": "MP009",
+  "name": "コンサル業界年収TOP5",
+  "target": "男性社会人",
+  "criteria": "salary",
+  "limit": 5,
+  "filters": {
+    "industries": [
+      "コンサルティング業界"
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.125Z",
+  "resultCount": 0,
+  "ranking": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "FC007",
+  "name": "金融業界×年間休日多い企業TOP10",
+  "target": "女性キャリア",
+  "criteria": "holidays",
+  "limit": 10,
+  "filters": {
+    "industries": [
+      "金融業界"
+    ],
+    "holidaysRange": [
+      120,
+      null
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.028Z",
+  "resultCount": 0,
+  "ranking": []
+}

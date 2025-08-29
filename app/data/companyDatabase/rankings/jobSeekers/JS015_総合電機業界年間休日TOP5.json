@@ -1,0 +1,98 @@
+{
+  "id": "JS015",
+  "name": "総合電機業界年間休日TOP5",
+  "target": "就活生",
+  "criteria": "holidays",
+  "limit": 5,
+  "filters": {
+    "industries": [
+      "総合電機業界"
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:30.958Z",
+  "resultCount": 2,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "ELEC003",
+      "name": "パナソニックホールディングス",
+      "industry": "総合電機業界",
+      "value": 127,
+      "formattedValue": "127日",
+      "metrics": {
+        "salary": 956,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 127,
+        "overtime": 30,
+        "employees": 59006,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 3.4,
+        "averageTenure": 17.9
+      },
+      "features": {
+        "businessModel": "家電・空質空調・食品流通・電気設備・デバイス開発・製造・販売",
+        "specialization": "事業会社制・グリーンエナジー領域",
+        "workStyle": "ハイブリッド・週半分程度在宅勤務・ノンコア・フレックス",
+        "growth": "持続可能なグロース・グローバル事業拡大"
+      },
+      "welfare": {
+        "housingAllowance": "転勤者のみ7割補助",
+        "transportationAllowance": null,
+        "familyAllowance": "家族手当（子ども1人月1万円）",
+        "cafeteria": "カフェテリアポイント制度（年12万円）",
+        "trainingSupport": null,
+        "uniqueBenefits": "事業会社制による初期配属確約・社内公募制度",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "総合電機業界。事業会社制・グリーンエナジー領域、ハイブリッド・週半分程度在宅勤務・ノンコア・フレックス。"
+    },
+    {
+      "rank": 2,
+      "id": "ELEC005",
+      "name": "NEC",
+      "industry": "総合電機業界",
+      "value": 126,
+      "formattedValue": "126日",
+      "metrics": {
+        "salary": 963,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 126,
+        "overtime": 23.1,
+        "employees": 104194,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 63.1,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 3.9,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ITサービス（官公庁・社会公共・企業向け）・社会インフラ",
+        "specialization": "DX事業転換・AIや生体認証等の先端技術分野・官公庁",
+        "workStyle": "ハイブリッド・在宅勤務・サテライトオフィス勤務等柔軟",
+        "growth": "指名委員会等設置会社移行・多様な人材活用企業文化変革"
+      },
+      "welfare": {
+        "housingAllowance": "カフェテリアプランに家賃補助メニューあり",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": "年間86,000円相当のポイント付与",
+        "trainingSupport": null,
+        "uniqueBenefits": "スーパーフレックス勤務制度・有給休暇最大40日",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "総合電機業界。DX事業転換・AIや生体認証等の先端技術分野・官公庁、ハイブリッド・在宅勤務・サテライトオフィス勤務等柔軟。"
+    }
+  ]
+}

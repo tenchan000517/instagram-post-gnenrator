@@ -1,0 +1,23 @@
+{
+  "id": "MP027",
+  "name": "金融業界×年収1200万以上×安定性TOP10",
+  "target": "男性社会人",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "industries": [
+      "金融業界"
+    ],
+    "salaryRange": [
+      12000000,
+      null
+    ],
+    "tenureRange": [
+      15,
+      null
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.181Z",
+  "resultCount": 0,
+  "ranking": []
+}

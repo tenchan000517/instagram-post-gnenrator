@@ -1,0 +1,19 @@
+{
+  "id": "FC006",
+  "name": "IT業界×残業少ない企業TOP10",
+  "target": "女性キャリア",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "industries": [
+      "IT業界"
+    ],
+    "overtimeRange": [
+      null,
+      25
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.025Z",
+  "resultCount": 0,
+  "ranking": []
+}

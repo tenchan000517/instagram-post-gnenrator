@@ -1,0 +1,740 @@
+{
+  "executedAt": "2025-08-29T02:03:31.193Z",
+  "totalPatterns": 90,
+  "successCount": 87,
+  "errorCount": 3,
+  "successRate": 96.66666666666667,
+  "targetStats": {
+    "就活生": {
+      "total": 30,
+      "success": 28
+    },
+    "女性キャリア": {
+      "total": 30,
+      "success": 29
+    },
+    "男性社会人": {
+      "total": 30,
+      "success": 30
+    }
+  },
+  "patterns": [
+    {
+      "id": "JS001",
+      "name": "初任給ランキングTOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "JS001_初任給ランキングTOP10.json"
+    },
+    {
+      "id": "JS002",
+      "name": "初任給ランキングTOP20",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 20,
+      "fileName": "JS002_初任給ランキングTOP20.json"
+    },
+    {
+      "id": "JS003",
+      "name": "年間休日数ランキングTOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "JS003_年間休日数ランキングTOP10.json"
+    },
+    {
+      "id": "JS004",
+      "name": "3年離職率が低い企業TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "JS004_3年離職率が低い企業TOP10.json"
+    },
+    {
+      "id": "JS005",
+      "name": "総合スコアTOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "JS005_総合スコアTOP10.json"
+    },
+    {
+      "id": "JS006",
+      "name": "IT業界初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS006_IT業界初任給TOP10.json"
+    },
+    {
+      "id": "JS007",
+      "name": "商社業界初任給TOP5",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS007_商社業界初任給TOP5.json"
+    },
+    {
+      "id": "JS008",
+      "name": "金融業界初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "JS008_金融業界初任給TOP10.json"
+    },
+    {
+      "id": "JS009",
+      "name": "コンサル業界初任給TOP5",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS009_コンサル業界初任給TOP5.json"
+    },
+    {
+      "id": "JS010",
+      "name": "外資系IT初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "JS010_外資系IT初任給TOP10.json"
+    },
+    {
+      "id": "JS011",
+      "name": "IT業界年間休日TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS011_IT業界年間休日TOP10.json"
+    },
+    {
+      "id": "JS012",
+      "name": "金融業界年間休日TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS012_金融業界年間休日TOP10.json"
+    },
+    {
+      "id": "JS013",
+      "name": "商社業界年間休日TOP5",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS013_商社業界年間休日TOP5.json"
+    },
+    {
+      "id": "JS014",
+      "name": "自動車業界年間休日TOP5",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS014_自動車業界年間休日TOP5.json"
+    },
+    {
+      "id": "JS015",
+      "name": "総合電機業界年間休日TOP5",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 2,
+      "fileName": "JS015_総合電機業界年間休日TOP5.json"
+    },
+    {
+      "id": "JS016",
+      "name": "大企業(1万人以上)初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "JS016_大企業_1万人以上_初任給TOP10.json"
+    },
+    {
+      "id": "JS017",
+      "name": "中堅企業(1000-1万人)初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "JS017_中堅企業_1000_1万人_初任給TOP10.json"
+    },
+    {
+      "id": "JS018",
+      "name": "ベンチャー企業(1000人以下)初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 6,
+      "fileName": "JS018_ベンチャー企業_1000人以下_初任給TOP10.json"
+    },
+    {
+      "id": "JS019",
+      "name": "老舗企業(設立50年以上)初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "JS019_老舗企業_設立50年以上_初任給TOP10.json"
+    },
+    {
+      "id": "JS020",
+      "name": "成長企業(設立20年以内)初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 2,
+      "fileName": "JS020_成長企業_設立20年以内_初任給TOP10.json"
+    },
+    {
+      "id": "JS021",
+      "name": "IT業界×年間休日125日以上TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS021_IT業界_年間休日125日以上TOP10.json"
+    },
+    {
+      "id": "JS022",
+      "name": "金融業界×大企業初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "JS022_金融業界_大企業初任給TOP10.json"
+    },
+    {
+      "id": "JS023",
+      "name": "商社業界×総合スコアTOP5",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS023_商社業界_総合スコアTOP5.json"
+    },
+    {
+      "id": "JS024",
+      "name": "コンサル業界×初任給TOP5",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS024_コンサル業界_初任給TOP5.json"
+    },
+    {
+      "id": "JS025",
+      "name": "東証プライム企業初任給TOP15",
+      "target": "就活生",
+      "success": false,
+      "error": "Cannot read properties of undefined (reading 'listingStatus')"
+    },
+    {
+      "id": "JS026",
+      "name": "東証プライム企業年間休日TOP15",
+      "target": "就活生",
+      "success": false,
+      "error": "Cannot read properties of undefined (reading 'listingStatus')"
+    },
+    {
+      "id": "JS027",
+      "name": "IT・外資系IT初任給TOP15",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "JS027_IT・外資系IT初任給TOP15.json"
+    },
+    {
+      "id": "JS028",
+      "name": "金融・商社初任給TOP15",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "JS028_金融・商社初任給TOP15.json"
+    },
+    {
+      "id": "JS029",
+      "name": "メーカー系(自動車・電機)初任給TOP10",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "JS029_メーカー系_自動車・電機_初任給TOP10.json"
+    },
+    {
+      "id": "JS030",
+      "name": "全業界初任給30万円以上企業TOP20",
+      "target": "就活生",
+      "success": true,
+      "resultCount": 20,
+      "fileName": "JS030_全業界初任給30万円以上企業TOP20.json"
+    },
+    {
+      "id": "FC001",
+      "name": "ワークライフバランス企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "FC001_ワークライフバランス企業TOP10.json"
+    },
+    {
+      "id": "FC002",
+      "name": "年間休日130日以上企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 3,
+      "fileName": "FC002_年間休日130日以上企業TOP10.json"
+    },
+    {
+      "id": "FC003",
+      "name": "残業月20時間以内企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "FC003_残業月20時間以内企業TOP10.json"
+    },
+    {
+      "id": "FC004",
+      "name": "有給取得率80%以上企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "FC004_有給取得率80_以上企業TOP10.json"
+    },
+    {
+      "id": "FC005",
+      "name": "男性育休取得率50%以上企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "FC005_男性育休取得率50_以上企業TOP10.json"
+    },
+    {
+      "id": "FC006",
+      "name": "IT業界×残業少ない企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "FC006_IT業界_残業少ない企業TOP10.json"
+    },
+    {
+      "id": "FC007",
+      "name": "金融業界×年間休日多い企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "FC007_金融業界_年間休日多い企業TOP10.json"
+    },
+    {
+      "id": "FC008",
+      "name": "外資系×ワークライフバランスTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "FC008_外資系_ワークライフバランスTOP10.json"
+    },
+    {
+      "id": "FC009",
+      "name": "コンサル業界×働きやすさTOP5",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "FC009_コンサル業界_働きやすさTOP5.json"
+    },
+    {
+      "id": "FC010",
+      "name": "商社業界×有給取得しやすいTOP5",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "FC010_商社業界_有給取得しやすいTOP5.json"
+    },
+    {
+      "id": "FC011",
+      "name": "平均勤続年数15年以上企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "FC011_平均勤続年数15年以上企業TOP10.json"
+    },
+    {
+      "id": "FC012",
+      "name": "平均勤続年数20年以上企業TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 3,
+      "fileName": "FC012_平均勤続年数20年以上企業TOP10.json"
+    },
+    {
+      "id": "FC013",
+      "name": "大企業×平均勤続年数長いTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "FC013_大企業_平均勤続年数長いTOP10.json"
+    },
+    {
+      "id": "FC014",
+      "name": "年収800万以上×残業少ないTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 6,
+      "fileName": "FC014_年収800万以上_残業少ないTOP10.json"
+    },
+    {
+      "id": "FC015",
+      "name": "年収600万以上×年間休日125日以上TOP15",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 4,
+      "fileName": "FC015_年収600万以上_年間休日125日以上TOP15.json"
+    },
+    {
+      "id": "FC016",
+      "name": "年収1000万以上×ワークライフバランスTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 6,
+      "fileName": "FC016_年収1000万以上_ワークライフバランスTOP10.json"
+    },
+    {
+      "id": "FC017",
+      "name": "IT業界×年収700万以上×残業少ないTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "FC017_IT業界_年収700万以上_残業少ないTOP10.json"
+    },
+    {
+      "id": "FC018",
+      "name": "金融業界×年収800万以上×休日多いTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "FC018_金融業界_年収800万以上_休日多いTOP10.json"
+    },
+    {
+      "id": "FC019",
+      "name": "外資系×年収1000万以上×働きやすいTOP5",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "FC019_外資系_年収1000万以上_働きやすいTOP5.json"
+    },
+    {
+      "id": "FC020",
+      "name": "大企業×働きやすさTOP15",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 15,
+      "fileName": "FC020_大企業_働きやすさTOP15.json"
+    },
+    {
+      "id": "FC021",
+      "name": "中堅企業×ワークライフバランスTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "FC021_中堅企業_ワークライフバランスTOP10.json"
+    },
+    {
+      "id": "FC022",
+      "name": "成長企業×働きやすさTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 2,
+      "fileName": "FC022_成長企業_働きやすさTOP10.json"
+    },
+    {
+      "id": "FC023",
+      "name": "老舗企業×安定性重視TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 5,
+      "fileName": "FC023_老舗企業_安定性重視TOP10.json"
+    },
+    {
+      "id": "FC024",
+      "name": "東証プライム×女性働きやすいTOP15",
+      "target": "女性キャリア",
+      "success": false,
+      "error": "Cannot read properties of undefined (reading 'listingStatus')"
+    },
+    {
+      "id": "FC025",
+      "name": "年収×休日×残業バランス最優秀TOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 2,
+      "fileName": "FC025_年収_休日_残業バランス最優秀TOP10.json"
+    },
+    {
+      "id": "FC026",
+      "name": "IT・金融・商社働きやすさTOP15",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "FC026_IT・金融・商社働きやすさTOP15.json"
+    },
+    {
+      "id": "FC027",
+      "name": "全業界×年収700万以上×働きやすいTOP20",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 7,
+      "fileName": "FC027_全業界_年収700万以上_働きやすいTOP20.json"
+    },
+    {
+      "id": "FC028",
+      "name": "メーカー系×女性働きやすいTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 5,
+      "fileName": "FC028_メーカー系_女性働きやすいTOP10.json"
+    },
+    {
+      "id": "FC029",
+      "name": "サービス業×ワークライフバランスTOP10",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "FC029_サービス業_ワークライフバランスTOP10.json"
+    },
+    {
+      "id": "FC030",
+      "name": "全業界×有給取得率90%以上企業TOP15",
+      "target": "女性キャリア",
+      "success": true,
+      "resultCount": 4,
+      "fileName": "FC030_全業界_有給取得率90_以上企業TOP15.json"
+    },
+    {
+      "id": "MP001",
+      "name": "年収ランキングTOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "MP001_年収ランキングTOP10.json"
+    },
+    {
+      "id": "MP002",
+      "name": "年収ランキングTOP20",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 20,
+      "fileName": "MP002_年収ランキングTOP20.json"
+    },
+    {
+      "id": "MP003",
+      "name": "年収1500万円以上企業TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "MP003_年収1500万円以上企業TOP10.json"
+    },
+    {
+      "id": "MP004",
+      "name": "年収1000万円以上企業TOP20",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 14,
+      "fileName": "MP004_年収1000万円以上企業TOP20.json"
+    },
+    {
+      "id": "MP005",
+      "name": "年収2000万円以上企業TOP5",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "MP005_年収2000万円以上企業TOP5.json"
+    },
+    {
+      "id": "MP006",
+      "name": "IT業界年収TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "MP006_IT業界年収TOP10.json"
+    },
+    {
+      "id": "MP007",
+      "name": "商社業界年収TOP5",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "MP007_商社業界年収TOP5.json"
+    },
+    {
+      "id": "MP008",
+      "name": "金融業界年収TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "MP008_金融業界年収TOP10.json"
+    },
+    {
+      "id": "MP009",
+      "name": "コンサル業界年収TOP5",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "MP009_コンサル業界年収TOP5.json"
+    },
+    {
+      "id": "MP010",
+      "name": "外資系IT年収TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "MP010_外資系IT年収TOP10.json"
+    },
+    {
+      "id": "MP011",
+      "name": "年収1000万以上×平均勤続15年以上TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 7,
+      "fileName": "MP011_年収1000万以上_平均勤続15年以上TOP10.json"
+    },
+    {
+      "id": "MP012",
+      "name": "年収800万以上×大企業TOP15",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 11,
+      "fileName": "MP012_年収800万以上_大企業TOP15.json"
+    },
+    {
+      "id": "MP013",
+      "name": "年収1500万以上×東証プライムTOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "MP013_年収1500万以上_東証プライムTOP10.json"
+    },
+    {
+      "id": "MP014",
+      "name": "IT・外資系IT年収TOP15",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "MP014_IT・外資系IT年収TOP15.json"
+    },
+    {
+      "id": "MP015",
+      "name": "金融・商社年収TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "MP015_金融・商社年収TOP10.json"
+    },
+    {
+      "id": "MP016",
+      "name": "コンサル・外資系年収TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 1,
+      "fileName": "MP016_コンサル・外資系年収TOP10.json"
+    },
+    {
+      "id": "MP017",
+      "name": "大企業(1万人以上)年収TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "MP017_大企業_1万人以上_年収TOP10.json"
+    },
+    {
+      "id": "MP018",
+      "name": "中堅企業(1000-1万人)年収TOP15",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 15,
+      "fileName": "MP018_中堅企業_1000_1万人_年収TOP15.json"
+    },
+    {
+      "id": "MP019",
+      "name": "成長企業(設立20年以内)年収TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 2,
+      "fileName": "MP019_成長企業_設立20年以内_年収TOP10.json"
+    },
+    {
+      "id": "MP020",
+      "name": "年収×安定性×成長性総合TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "MP020_年収_安定性_成長性総合TOP10.json"
+    },
+    {
+      "id": "MP021",
+      "name": "転職価値総合ランキングTOP15",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 14,
+      "fileName": "MP021_転職価値総合ランキングTOP15.json"
+    },
+    {
+      "id": "MP022",
+      "name": "30代で年収1000万到達可能企業TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 10,
+      "fileName": "MP022_30代で年収1000万到達可能企業TOP10.json"
+    },
+    {
+      "id": "MP023",
+      "name": "年収1200万以上×残業40時間以内TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 2,
+      "fileName": "MP023_年収1200万以上_残業40時間以内TOP10.json"
+    },
+    {
+      "id": "MP024",
+      "name": "年収1000万以上×年間休日120日以上TOP15",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 6,
+      "fileName": "MP024_年収1000万以上_年間休日120日以上TOP15.json"
+    },
+    {
+      "id": "MP025",
+      "name": "高年収×働きやすさバランスTOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 6,
+      "fileName": "MP025_高年収_働きやすさバランスTOP10.json"
+    },
+    {
+      "id": "MP026",
+      "name": "IT業界×年収1000万以上×成長性TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "MP026_IT業界_年収1000万以上_成長性TOP10.json"
+    },
+    {
+      "id": "MP027",
+      "name": "金融業界×年収1200万以上×安定性TOP10",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "MP027_金融業界_年収1200万以上_安定性TOP10.json"
+    },
+    {
+      "id": "MP028",
+      "name": "商社業界×年収1500万以上TOP5",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 0,
+      "fileName": "MP028_商社業界_年収1500万以上TOP5.json"
+    },
+    {
+      "id": "MP029",
+      "name": "全業界×年収1000万超×転職価値TOP20",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 9,
+      "fileName": "MP029_全業界_年収1000万超_転職価値TOP20.json"
+    },
+    {
+      "id": "MP030",
+      "name": "全業界×年収・規模・安定性最優秀TOP15",
+      "target": "男性社会人",
+      "success": true,
+      "resultCount": 9,
+      "fileName": "MP030_全業界_年収・規模・安定性最優秀TOP15.json"
+    }
+  ]
+}

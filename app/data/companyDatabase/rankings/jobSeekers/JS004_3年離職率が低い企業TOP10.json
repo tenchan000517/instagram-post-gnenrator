@@ -1,0 +1,422 @@
+{
+  "id": "JS004",
+  "name": "3年離職率が低い企業TOP10",
+  "target": "就活生",
+  "criteria": "turnoverRate",
+  "limit": 10,
+  "filters": {},
+  "generatedAt": "2025-08-29T02:03:30.916Z",
+  "resultCount": 10,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "HR015",
+      "name": "エン・ジャパン株式会社",
+      "industry": "求人情報・人材紹介",
+      "value": 18.5,
+      "formattedValue": "18.5",
+      "metrics": {
+        "salary": 567,
+        "initialSalary": 290,
+        "initialSalaryGrad": 290,
+        "holidays": 125,
+        "overtime": 42,
+        "employees": 3800,
+        "operatingMarginRate": 15.2,
+        "roe": 8.9,
+        "vacationRate": 70,
+        "parentalLeaveReturn": 90,
+        "maleParentalLeaveRate": 25,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 18.5,
+        "averageTenure": 6.2
+      },
+      "features": {
+        "businessModel": "求人メディア・人材紹介・採用支援",
+        "specialization": "エン転職・エンエージェント・エンゲージ",
+        "workStyle": "営業・企画・システム開発",
+        "growth": "HR Tech・AI活用・海外展開"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補助・借上社宅",
+        "transportationAllowance": "全額支給",
+        "familyAllowance": "家族手当・育児支援",
+        "cafeteria": "社員食堂・軽食提供",
+        "trainingSupport": "研修制度・資格支援・書籍購入",
+        "uniqueBenefits": "リフレッシュ休暇・社内表彰制度",
+        "welfareGrade": "A",
+        "clubActivities": "多数の部活動・同好会"
+      },
+      "description": "求人情報・人材紹介。エン転職・エンエージェント・エンゲージ、営業・企画・システム開発。"
+    },
+    {
+      "rank": 2,
+      "id": "IT004",
+      "name": "サイバーエージェント",
+      "industry": "インターネット広告業・メディア業・ゲーム業",
+      "value": 12.5,
+      "formattedValue": "12.5",
+      "metrics": {
+        "salary": 882,
+        "initialSalary": 420,
+        "initialSalaryGrad": 420,
+        "holidays": 125,
+        "overtime": 13.3,
+        "employees": 7720,
+        "operatingMarginRate": 5.2,
+        "roe": 15.8,
+        "vacationRate": 55,
+        "parentalLeaveReturn": 88.5,
+        "maleParentalLeaveRate": 25,
+        "femaleParentalLeaveRate": 95,
+        "turnoverRate3Years": 12.5,
+        "averageTenure": 5.2
+      },
+      "features": {
+        "businessModel": "インターネット広告・ABEMA・ゲーム・投資育成",
+        "specialization": "メディア事業・起業家精神文化",
+        "workStyle": "一部可・職種により異なる・裁量労働制",
+        "growth": "業界最高水準報酬・無制限昇給制"
+      },
+      "welfare": {
+        "housingAllowance": "2駅ルール30,000円/月・どこでも50,000円/月",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "ENERGY制度・子会社社長登用・無制限昇給制",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "インターネット広告業・メディア業・ゲーム業。メディア事業・起業家精神文化、一部可・職種により異なる・裁量労働制。"
+    },
+    {
+      "rank": 3,
+      "id": "HR010",
+      "name": "株式会社メイテック",
+      "industry": "エンジニアリングサービス",
+      "value": 12.5,
+      "formattedValue": "12.5",
+      "metrics": {
+        "salary": 655,
+        "initialSalary": 235,
+        "initialSalaryGrad": 255,
+        "holidays": 125,
+        "overtime": 25,
+        "employees": 8700,
+        "operatingMarginRate": 11.1,
+        "roe": 9.2,
+        "vacationRate": 65,
+        "parentalLeaveReturn": 95,
+        "maleParentalLeaveRate": 15,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 12.5,
+        "averageTenure": 8.5
+      },
+      "features": {
+        "businessModel": "エンジニア派遣・設計開発受託",
+        "specialization": "機械・電気・IT・化学分野設計",
+        "workStyle": "プロジェクト派遣・技術者育成",
+        "growth": "DX・AI・IoT分野拡大・海外展開"
+      },
+      "welfare": {
+        "housingAllowance": "借上社宅・住宅補助",
+        "transportationAllowance": "全額支給",
+        "familyAllowance": "家族手当・子育て支援",
+        "cafeteria": "社員食堂・カフェテリア",
+        "trainingSupport": "技術研修・資格取得支援充実",
+        "uniqueBenefits": "技術者教育大学・永年勤続表彰",
+        "welfareGrade": "A",
+        "clubActivities": "技術系・スポーツ系多数"
+      },
+      "description": "エンジニアリングサービス。機械・電気・IT・化学分野設計、プロジェクト派遣・技術者育成。"
+    },
+    {
+      "rank": 4,
+      "id": "IT010",
+      "name": "SmartNews",
+      "industry": "メディア・テック業界",
+      "value": 10.5,
+      "formattedValue": "10.5",
+      "metrics": {
+        "salary": 900,
+        "initialSalary": 350,
+        "initialSalaryGrad": 370,
+        "holidays": 120,
+        "overtime": 25,
+        "employees": 450,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 75,
+        "parentalLeaveReturn": 85,
+        "maleParentalLeaveRate": 40,
+        "femaleParentalLeaveRate": 95,
+        "turnoverRate3Years": 10.5,
+        "averageTenure": 4.8
+      },
+      "features": {
+        "businessModel": "ニュースアプリ開発・運営",
+        "specialization": "メディア・テック・アルゴリズム最適化",
+        "workStyle": null,
+        "growth": "IPO準備中・グローバル展開"
+      },
+      "welfare": {
+        "housingAllowance": null,
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": null,
+        "welfareGrade": null,
+        "clubActivities": null
+      },
+      "description": "メディア・テック業界。メディア・テック・アルゴリズム最適化。"
+    },
+    {
+      "rank": 5,
+      "id": "RETAIL007",
+      "name": "株式会社FOOD & LIFE COMPANIES",
+      "industry": "外食産業・回転寿司チェーン",
+      "value": 10.3,
+      "formattedValue": "10.3",
+      "metrics": {
+        "salary": 537,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 119,
+        "overtime": 30,
+        "employees": 32000,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 10.3,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "回転寿司「スシロー」等の外食チェーン運営・フランチャイズ事業",
+        "specialization": "回転寿司業界13年連続売上高第1位の圧倒的地位",
+        "workStyle": "3交代制シフト・月間変形労働時間制",
+        "growth": "ブロック・エリア限定勤務制度・デジタル化推進（デジロー導入）"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮月2万円～（条件: 単身者対象）",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "役職手当・単身赴任手当・帰省交通費・地域手当・企業型保育園",
+        "welfareGrade": "B",
+        "clubActivities": null
+      },
+      "description": "外食産業・回転寿司チェーン。回転寿司業界13年連続売上高第1位の圧倒的地位、3交代制シフト・月間変形労働時間制。"
+    },
+    {
+      "rank": 6,
+      "id": "IT003",
+      "name": "楽天",
+      "industry": "インターネットサービス・フィンテック・モバイル通信",
+      "value": 8.5,
+      "formattedValue": "8.5",
+      "metrics": {
+        "salary": 820,
+        "initialSalary": 350,
+        "initialSalaryGrad": 360,
+        "holidays": 120,
+        "overtime": 35,
+        "employees": 29334,
+        "operatingMarginRate": 2.3,
+        "roe": 8.5,
+        "vacationRate": 80,
+        "parentalLeaveReturn": 97,
+        "maleParentalLeaveRate": 45,
+        "femaleParentalLeaveRate": 98.5,
+        "turnoverRate3Years": 8.5,
+        "averageTenure": 5.1
+      },
+      "features": {
+        "businessModel": "楽天エコシステム・Eコマース・金融・通信",
+        "specialization": "70以上サービス・グローバル展開",
+        "workStyle": "一部可・在宅勤務制度R-Satellite",
+        "growth": "社内公用語英語化・国際化推進"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補助制度なし",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": "3食無料カフェテリア（朝・昼・晩）",
+        "trainingSupport": null,
+        "uniqueBenefits": "楽天主義・ニックネーム制度・卵子凍結支援40万円",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "インターネットサービス・フィンテック・モバイル通信。70以上サービス・グローバル展開、一部可・在宅勤務制度R-Satellite。"
+    },
+    {
+      "rank": 7,
+      "id": "HR019",
+      "name": "ビジョナル株式会社",
+      "industry": "HR Tech・求人プラットフォーム",
+      "value": 8.5,
+      "formattedValue": "8.5",
+      "metrics": {
+        "salary": 650,
+        "initialSalary": 335,
+        "initialSalaryGrad": 335,
+        "holidays": 130,
+        "overtime": 26,
+        "employees": 1200,
+        "operatingMarginRate": 18.5,
+        "roe": 12.5,
+        "vacationRate": 85,
+        "parentalLeaveReturn": 95,
+        "maleParentalLeaveRate": 35,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 8.5,
+        "averageTenure": 4.2
+      },
+      "features": {
+        "businessModel": "HR Tech・転職プラットフォーム運営",
+        "specialization": "ビズリーチ・HRMOS・キャリトレ",
+        "workStyle": "リモート・フレックス・裁量労働",
+        "growth": "AI・データ分析・海外展開"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補助・引越し支援",
+        "transportationAllowance": "全額支給",
+        "familyAllowance": "家族手当・育児支援充実",
+        "cafeteria": "社員食堂・軽食・ドリンク無料",
+        "trainingSupport": "研修・書籍・カンファレンス参加支援",
+        "uniqueBenefits": "株式付与・副業可・MacBook支給",
+        "welfareGrade": "A",
+        "clubActivities": "多数の部活動・社内イベント"
+      },
+      "description": "HR Tech・求人プラットフォーム。ビズリーチ・HRMOS・キャリトレ、リモート・フレックス・裁量労働。"
+    },
+    {
+      "rank": 8,
+      "id": "IT005",
+      "name": "メルカリ",
+      "industry": "EC・フィンテック",
+      "value": 8.2,
+      "formattedValue": "8.2",
+      "metrics": {
+        "salary": 1167,
+        "initialSalary": 300,
+        "initialSalaryGrad": 300,
+        "holidays": 120,
+        "overtime": 20.6,
+        "employees": 1000,
+        "operatingMarginRate": 9.5,
+        "roe": 18.2,
+        "vacationRate": 88.9,
+        "parentalLeaveReturn": 92,
+        "maleParentalLeaveRate": 55,
+        "femaleParentalLeaveRate": 98,
+        "turnoverRate3Years": 8.2,
+        "averageTenure": 4.5
+      },
+      "features": {
+        "businessModel": "フリマアプリ・決済サービス運営",
+        "specialization": "日本初テック・ユニコーン企業",
+        "workStyle": "ハイブリッド・基本週2回以上出社",
+        "growth": "急成長スタートアップ・無制限昇給制"
+      },
+      "welfare": {
+        "housingAllowance": "基本的になし（20代まで月1.2万円）",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "merci box・再オファー制度・妊活サポート10年間",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "EC・フィンテック。日本初テック・ユニコーン企業、ハイブリッド・基本週2回以上出社。"
+    },
+    {
+      "rank": 9,
+      "id": "MED001",
+      "name": "株式会社アインホールディングス",
+      "industry": "調剤薬局・ドラッグストア:contentReference[oaicite:0]{index=0}",
+      "value": 8.2,
+      "formattedValue": "8.2",
+      "metrics": {
+        "salary": 7090000,
+        "initialSalary": 230000,
+        "initialSalaryGrad": 244000,
+        "holidays": 123,
+        "overtime": 6.1,
+        "employees": 162,
+        "operatingMarginRate": 5.11,
+        "roe": 8.7,
+        "vacationRate": 66.9,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 34.8,
+        "femaleParentalLeaveRate": 97.8,
+        "turnoverRate3Years": 8.2,
+        "averageTenure": 11.3
+      },
+      "features": {
+        "businessModel": "調剤薬局及びドラッグストア運営の複合小売事業",
+        "specialization": "地域密着型店舗展開で調剤業務に強み",
+        "workStyle": "店舗シフト勤務中心、地域医療を支える",
+        "growth": "多様なキャリアパス・研修制度"
+      },
+      "welfare": {
+        "housingAllowance": "借上社宅制度で家賃の最大8割補助:contentReference[oaicite:2]{index=2}",
+        "transportationAllowance": "通勤交通費全額支給:contentReference[oaicite:3]{index=3}",
+        "familyAllowance": "配偶者・子供手当あり",
+        "cafeteria": "社員食堂なし",
+        "trainingSupport": "新入社員研修・OJTなど研修制度充実:contentReference[oaicite:4]{index=4}",
+        "uniqueBenefits": "最大9日間連続休暇取得可能な特別休暇制度",
+        "welfareGrade": "A",
+        "clubActivities": "各種部活動・サークルあり"
+      },
+      "description": "調剤薬局・ドラッグストア:contentReference[oaicite:0]{index=0}。地域密着型店舗展開で調剤業務に強み、店舗シフト勤務中心、地域医療を支える。"
+    },
+    {
+      "rank": 10,
+      "id": "IT006",
+      "name": "LINEヤフー",
+      "industry": "インターネット・IT・通信",
+      "value": 6.9,
+      "formattedValue": "6.9",
+      "metrics": {
+        "salary": 884,
+        "initialSalary": 280,
+        "initialSalaryGrad": 300,
+        "holidays": 120,
+        "overtime": 16,
+        "employees": 28606,
+        "operatingMarginRate": 12.8,
+        "roe": 11.2,
+        "vacationRate": 75.1,
+        "parentalLeaveReturn": 90,
+        "maleParentalLeaveRate": 60.9,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 6.9,
+        "averageTenure": 7.1
+      },
+      "features": {
+        "businessModel": "インターネット広告・イーコマース・会員サービス",
+        "specialization": "LINE・Yahoo!統合プラットフォーム",
+        "workStyle": "ハイブリッド・利用率100%・フルフレックス",
+        "growth": "統合効果によるシナジー創出"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補助制度なし",
+        "transportationAllowance": "通勤手当月15万円まで支給",
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": "LINEヤフーテックアカデミー",
+        "uniqueBenefits": "グレード制人事制度G1～G6・アドレスフリー",
+        "welfareGrade": "B",
+        "clubActivities": null
+      },
+      "description": "インターネット・IT・通信。LINE・Yahoo!統合プラットフォーム、ハイブリッド・利用率100%・フルフレックス。"
+    }
+  ]
+}

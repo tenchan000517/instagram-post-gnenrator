@@ -1,0 +1,431 @@
+{
+  "id": "FC021",
+  "name": "中堅企業×ワークライフバランスTOP10",
+  "target": "女性キャリア",
+  "criteria": "overall",
+  "limit": 10,
+  "filters": {
+    "employeesRange": [
+      1000,
+      4999
+    ],
+    "overtimeRange": [
+      null,
+      30
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.071Z",
+  "resultCount": 10,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "IT009",
+      "name": "SmartHR",
+      "industry": "HR SaaS業界",
+      "value": 41.25198666666667,
+      "formattedValue": "41.3点",
+      "metrics": {
+        "salary": 745,
+        "initialSalary": 320,
+        "initialSalaryGrad": 340,
+        "holidays": 125,
+        "overtime": 15,
+        "employees": 1457,
+        "operatingMarginRate": 15.2,
+        "roe": 12.8,
+        "vacationRate": 60,
+        "parentalLeaveReturn": 88,
+        "maleParentalLeaveRate": 57.7,
+        "femaleParentalLeaveRate": 98.6,
+        "turnoverRate3Years": 6.06,
+        "averageTenure": 2.32
+      },
+      "features": {
+        "businessModel": "クラウド人事労務ソフト開発・運営",
+        "specialization": "HR SaaS・well-working文化実践",
+        "workStyle": "ハイブリッド・リモート率82.26%",
+        "growth": "2026年新卒採用開始・働きがい重視"
+      },
+      "welfare": {
+        "housingAllowance": "なし",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "コアタイムなしフレックス・ワーケーション制度",
+        "welfareGrade": "A",
+        "clubActivities": "部活制度（1人1回1,500円補助）"
+      },
+      "description": "HR SaaS業界。HR SaaS・well-working文化実践、ハイブリッド・リモート率82.26%。"
+    },
+    {
+      "rank": 2,
+      "id": "HR019",
+      "name": "ビジョナル株式会社",
+      "industry": "HR Tech・求人プラットフォーム",
+      "value": 39.501733333333334,
+      "formattedValue": "39.5点",
+      "metrics": {
+        "salary": 650,
+        "initialSalary": 335,
+        "initialSalaryGrad": 335,
+        "holidays": 130,
+        "overtime": 26,
+        "employees": 1200,
+        "operatingMarginRate": 18.5,
+        "roe": 12.5,
+        "vacationRate": 85,
+        "parentalLeaveReturn": 95,
+        "maleParentalLeaveRate": 35,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 8.5,
+        "averageTenure": 4.2
+      },
+      "features": {
+        "businessModel": "HR Tech・転職プラットフォーム運営",
+        "specialization": "ビズリーチ・HRMOS・キャリトレ",
+        "workStyle": "リモート・フレックス・裁量労働",
+        "growth": "AI・データ分析・海外展開"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補助・引越し支援",
+        "transportationAllowance": "全額支給",
+        "familyAllowance": "家族手当・育児支援充実",
+        "cafeteria": "社員食堂・軽食・ドリンク無料",
+        "trainingSupport": "研修・書籍・カンファレンス参加支援",
+        "uniqueBenefits": "株式付与・副業可・MacBook支給",
+        "welfareGrade": "A",
+        "clubActivities": "多数の部活動・社内イベント"
+      },
+      "description": "HR Tech・求人プラットフォーム。ビズリーチ・HRMOS・キャリトレ、リモート・フレックス・裁量労働。"
+    },
+    {
+      "rank": 3,
+      "id": "RETAIL008",
+      "name": "日本マクドナルドホールディングス株式会社",
+      "industry": "小売・外食業界",
+      "value": 35.05,
+      "formattedValue": "35.0点",
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "initialSalaryGrad": null,
+        "holidays": 119,
+        "overtime": 18.4,
+        "employees": 2703,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 50,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 61.5,
+        "femaleParentalLeaveRate": 90,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ハンバーガーレストランチェーンを経営する会社の株式所有によるグループ経営",
+        "specialization": "フランチャイズ戦略・標準化オペレーション",
+        "workStyle": null,
+        "growth": "専門教育機関「ハンバーガー大学」での人材育成・地域社員制度"
+      },
+      "welfare": {
+        "housingAllowance": null,
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "リフレッシュ休暇・永年勤続休暇",
+        "welfareGrade": "B",
+        "clubActivities": null
+      },
+      "description": "小売・外食業界。フランチャイズ戦略・標準化オペレーション。"
+    },
+    {
+      "rank": 4,
+      "id": "IT005",
+      "name": "メルカリ",
+      "industry": "EC・フィンテック",
+      "value": 34.703112,
+      "formattedValue": "34.7点",
+      "metrics": {
+        "salary": 1167,
+        "initialSalary": 300,
+        "initialSalaryGrad": 300,
+        "holidays": 120,
+        "overtime": 20.6,
+        "employees": 1000,
+        "operatingMarginRate": 9.5,
+        "roe": 18.2,
+        "vacationRate": 88.9,
+        "parentalLeaveReturn": 92,
+        "maleParentalLeaveRate": 55,
+        "femaleParentalLeaveRate": 98,
+        "turnoverRate3Years": 8.2,
+        "averageTenure": 4.5
+      },
+      "features": {
+        "businessModel": "フリマアプリ・決済サービス運営",
+        "specialization": "日本初テック・ユニコーン企業",
+        "workStyle": "ハイブリッド・基本週2回以上出社",
+        "growth": "急成長スタートアップ・無制限昇給制"
+      },
+      "welfare": {
+        "housingAllowance": "基本的になし（20代まで月1.2万円）",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "merci box・再オファー制度・妊活サポート10年間",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "EC・フィンテック。日本初テック・ユニコーン企業、ハイブリッド・基本週2回以上出社。"
+    },
+    {
+      "rank": 5,
+      "id": "TRADE007",
+      "name": "双日株式会社",
+      "industry": "専門商社",
+      "value": 33.50339733333333,
+      "formattedValue": "33.5点",
+      "metrics": {
+        "salary": 1274,
+        "initialSalary": 305,
+        "initialSalaryGrad": 340,
+        "holidays": 120,
+        "overtime": 23,
+        "employees": 2551,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 77.6,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 75,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 3.4,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "自動車・航空・インフラ・エネルギー・金属・化学品・食料等",
+        "specialization": "事業創造DNA・高付加価値分野での専門性",
+        "workStyle": "ハイブリッド（2017年より在宅勤務）・スーパーフレックス",
+        "growth": "若手裁量権・早期海外経験・次世代リーダー育成"
+      },
+      "welfare": {
+        "housingAllowance": "寮・社宅制度",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "在宅勤務手当（1日200円）、ファミリーサポート休暇（5日間）、事業創造文化",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "専門商社。事業創造DNA・高付加価値分野での専門性、ハイブリッド（2017年より在宅勤務）・スーパーフレックス。"
+    },
+    {
+      "rank": 6,
+      "id": "IT007",
+      "name": "PayPay",
+      "industry": "フィンテック業界",
+      "value": 33.353653333333334,
+      "formattedValue": "33.4点",
+      "metrics": {
+        "salary": 1370,
+        "initialSalary": 400,
+        "initialSalaryGrad": 420,
+        "holidays": 120,
+        "overtime": 23.3,
+        "employees": 2100,
+        "operatingMarginRate": 18.5,
+        "roe": 22,
+        "vacationRate": 85,
+        "parentalLeaveReturn": 95,
+        "maleParentalLeaveRate": 67.5,
+        "femaleParentalLeaveRate": 100,
+        "turnoverRate3Years": 5.5,
+        "averageTenure": 6
+      },
+      "features": {
+        "businessModel": "モバイルペイメント・電子決済サービス",
+        "specialization": "フィンテック・大規模トランザクション処理",
+        "workStyle": "ハイブリッド・WFA制度",
+        "growth": "急成長スタートアップ・完全中途採用"
+      },
+      "welfare": {
+        "housingAllowance": null,
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "Work From Anywhere・在宅勤務手当・PayPay 5 senses",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "フィンテック業界。フィンテック・大規模トランザクション処理、ハイブリッド・WFA制度。"
+    },
+    {
+      "rank": 7,
+      "id": "TRADE001",
+      "name": "伊藤忠商事株式会社",
+      "industry": "商社（総合商社）",
+      "value": -50.34518666666666,
+      "formattedValue": "-50.3点",
+      "metrics": {
+        "salary": 1805,
+        "initialSalary": 325,
+        "initialSalaryGrad": 360,
+        "holidays": null,
+        "overtime": 10.7,
+        "employees": 4215,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 69.1,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 96,
+        "femaleParentalLeaveRate": 103,
+        "turnoverRate3Years": 3.7,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "繊維・機械・金属・食料・住生活・情報・金融",
+        "specialization": "朝型勤務制度・働き方改革",
+        "workStyle": "一部リモートワーク可（産前・育児・介護時）",
+        "growth": "働き方改革リーダー・最少残業時間"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮・社宅制度あり",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": "朝食無料提供",
+        "trainingSupport": null,
+        "uniqueBenefits": "朝型勤務制度（20時以降残業原則禁止）、早朝勤務者インセンティブ、ベビーシッター補助、リフレッシュ休暇、ボランティア休暇",
+        "welfareGrade": "S",
+        "clubActivities": null
+      },
+      "description": "商社（総合商社）。朝型勤務制度・働き方改革、一部リモートワーク可（産前・育児・介護時）。"
+    },
+    {
+      "rank": 8,
+      "id": "TRADE005",
+      "name": "丸紅株式会社",
+      "industry": "商社（総合商社）",
+      "value": -52.89544266666666,
+      "formattedValue": "-52.9点",
+      "metrics": {
+        "salary": 1709,
+        "initialSalary": 305,
+        "initialSalaryGrad": 340,
+        "holidays": null,
+        "overtime": 15.8,
+        "employees": 4337,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 71.1,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 95,
+        "femaleParentalLeaveRate": 95.2,
+        "turnoverRate3Years": null,
+        "averageTenure": 17.9
+      },
+      "features": {
+        "businessModel": "ライフスタイル・食料・アグリ・金属・エネルギー等多角事業",
+        "specialization": "健康経営8年連続認定・働きやすさ追求",
+        "workStyle": "リモートワーク（在宅・サテライト・モバイル対応）・フレックス",
+        "growth": "Career Vision選考（配属先決め型）・継続的健康経営"
+      },
+      "welfare": {
+        "housingAllowance": "借り上げ社宅制度",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": "ベネフィット・ステーション",
+        "trainingSupport": null,
+        "uniqueBenefits": "ワークスタイル手当、プレミアム休暇、ボランティア休暇、ブリッジ・ホリデー（有給取得奨励日）",
+        "welfareGrade": "S",
+        "clubActivities": null
+      },
+      "description": "商社（総合商社）。健康経営8年連続認定・働きやすさ追求、リモートワーク（在宅・サテライト・モバイル対応）・フレックス。"
+    },
+    {
+      "rank": 9,
+      "id": "TRADE006",
+      "name": "豊田通商株式会社",
+      "industry": "専門商社",
+      "value": -55.896480000000004,
+      "formattedValue": "-55.9点",
+      "metrics": {
+        "salary": 1320,
+        "initialSalary": 330,
+        "initialSalaryGrad": 350,
+        "holidays": null,
+        "overtime": 21.8,
+        "employees": 3292,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 66.1,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 2,
+        "averageTenure": 17.1
+      },
+      "features": {
+        "businessModel": "各種物品の国内・海外取引・事業投資・金属・自動車・機械等",
+        "specialization": "トヨタグループ中核商社として自動車関連事業に強み",
+        "workStyle": "一部リモートワーク可・フレックス（コアタイム11:00-14:00）",
+        "growth": "グローバル展開・中途採用重視（比率51.1%）"
+      },
+      "welfare": {
+        "housingAllowance": "借上げ独身寮・社宅制度",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": "カフェテリアプラン制度",
+        "trainingSupport": null,
+        "uniqueBenefits": "パートナー制度（定年後継続雇用）、グローバル職・地域限定職選択制",
+        "welfareGrade": "A",
+        "clubActivities": "軽井沢山荘・はまなこてーじ社有保養施設"
+      },
+      "description": "専門商社。トヨタグループ中核商社として自動車関連事業に強み、一部リモートワーク可・フレックス（コアタイム11:00-14:00）。"
+    },
+    {
+      "rank": 10,
+      "id": "TRADE002",
+      "name": "三菱商事株式会社",
+      "industry": "商社（総合商社）",
+      "value": -59.59457866666667,
+      "formattedValue": "-59.6点",
+      "metrics": {
+        "salary": 2033,
+        "initialSalary": 340,
+        "initialSalaryGrad": 375,
+        "holidays": null,
+        "overtime": 29.2,
+        "employees": 4477,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": 71,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": 36,
+        "femaleParentalLeaveRate": 115,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "地球環境・エネルギー・金属資源・社会インフラ等8グループ",
+        "specialization": "資源・エネルギー分野でのグローバル投資・トレーディング",
+        "workStyle": "基本出社（一部リモートワーク）",
+        "growth": "新事業投資拡大・DX推進"
+      },
+      "welfare": {
+        "housingAllowance": "社宅制度あり",
+        "transportationAllowance": null,
+        "familyAllowance": null,
+        "cafeteria": null,
+        "trainingSupport": null,
+        "uniqueBenefits": "MC育児コンシェルジュ、CareerChoice制度（手挙げ制異動）、配偶者転勤に伴う再雇用制度、WELL認証プラチナ取得",
+        "welfareGrade": "A",
+        "clubActivities": null
+      },
+      "description": "商社（総合商社）。資源・エネルギー分野でのグローバル投資・トレーディング、基本出社（一部リモートワーク）。"
+    }
+  ]
+}

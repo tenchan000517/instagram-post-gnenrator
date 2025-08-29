@@ -1,0 +1,382 @@
+{
+  "id": "JS017",
+  "name": "中堅企業(1000-1万人)初任給TOP10",
+  "target": "就活生",
+  "criteria": "initialSalary",
+  "limit": 10,
+  "filters": {
+    "employeesRange": [
+      1000,
+      9999
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:30.967Z",
+  "resultCount": 10,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "FT001",
+      "name": "グーグル合同会社",
+      "industry": "外資系IT業界",
+      "value": 700000,
+      "formattedValue": "70万円",
+      "metrics": {
+        "salary": 16240000,
+        "initialSalary": 700000,
+        "initialSalaryGrad": 1050000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 1300,
+        "vacationRate": 100,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "検索エンジン、オンライン広告、クラウド、ソフトウェア、ハードウェア等の開発・提供",
+        "specialization": "検索エンジン、クラウドサービス、AI技術",
+        "workStyle": "ハイブリッド（制度に寛容で、地方移住者も多数在籍）、フレックスタイム",
+        "growth": "20%ルール（業務時間の20%を自身の興味あるプロジェクトに利用可能）、360度評価"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "無料の社員食堂",
+        "recreationFacilities": "無料ジム",
+        "healthSupport": "不妊治療サポート",
+        "uniqueBenefits": "確定拠出年金、産前産後・育児・介護休暇、スキルアップ支援、年に4週間のワーケーション",
+        "welfareGrade": "S"
+      },
+      "description": "外資系IT業界。検索エンジン、クラウドサービス、AI技術、ハイブリッド（制度に寛容で、地方移住者も多数在籍）、フレックスタイム。"
+    },
+    {
+      "rank": 2,
+      "id": "MD001",
+      "name": "株式会社電通グループ",
+      "industry": "総合広告代理店",
+      "value": 355300,
+      "formattedValue": "36万円",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 355300,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": 45.7,
+        "employees": 1000,
+        "vacationRate": 55.3,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "純粋持株会社として、広告事業を中心とするグループ全体の経営戦略策定・推進",
+        "specialization": "マーケティング・コミュニケーション、クリエイティブサービス",
+        "workStyle": "ハイブリッド（リモートワーク・オフィスワークの組み合わせ）",
+        "growth": "HRMディレクター体制による人材育成、働き方改革推進"
+      },
+      "welfare": {
+        "housingAllowance": "住宅取得支援制度、社宅制度あり",
+        "cafeteria": "企業年金制度",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "リモートワーク手当5,600円、通勤手当、配偶者手当、子ども手当",
+        "welfareGrade": "A"
+      },
+      "description": "総合広告代理店。マーケティング・コミュニケーション、クリエイティブサービス、ハイブリッド（リモートワーク・オフィスワークの組み合わせ）。"
+    },
+    {
+      "rank": 3,
+      "id": "RE002",
+      "name": "住友不動産株式会社",
+      "industry": "総合デベロッパー",
+      "value": 305000,
+      "formattedValue": "31万円",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 305000,
+        "initialSalaryGrad": 334000,
+        "holidays": 123,
+        "overtime": null,
+        "employees": 1000,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "オフィスビル開発・賃貸、マンション分譲、住宅リフォーム、不動産仲介",
+        "specialization": "総合不動産開発",
+        "workStyle": "フルフレックスタイム制（コアタイムなし）",
+        "growth": "資格取得支援、財形貯蓄、従業員持株会"
+      },
+      "welfare": {
+        "housingAllowance": "なし（社宅制度あり）",
+        "cafeteria": "財形貯蓄",
+        "recreationFacilities": "自社ホテル・フィットネスクラブ割引",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "PCシャットダウン制度（原則21時に自動シャットダウン）",
+        "welfareGrade": "B"
+      },
+      "description": "総合デベロッパー。総合不動産開発、フルフレックスタイム制（コアタイムなし）。"
+    },
+    {
+      "rank": 4,
+      "id": "GM004",
+      "name": "カプコン",
+      "industry": "ゲーム・エンターテインメント業界",
+      "value": 300000,
+      "formattedValue": "30万円",
+      "metrics": {
+        "salary": 9190000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 300000,
+        "holidays": 123,
+        "overtime": null,
+        "employees": 3379,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 66,
+        "femaleParentalLeaveRate": 114,
+        "turnoverRate3Years": null,
+        "averageTenure": 11
+      },
+      "features": {
+        "businessModel": "家庭用ゲームソフト、モバイルコンテンツ等の企画、開発、製造、販売、配信",
+        "specialization": "ワンコンテンツ・マルチユース戦略・IP戦略・グローバル展開",
+        "workStyle": "一部リモートワーク可（育児・介護者向け制度として在宅勤務あり）",
+        "growth": "株式報酬制度・IP多角展開戦略・AIなどの先端技術への投資"
+      },
+      "welfare": {
+        "housingAllowance": "地域手当として東京勤務の場合に支給",
+        "cafeteria": "社員食堂（大阪）",
+        "recreationFacilities": "マッサージルーム",
+        "healthSupport": null,
+        "uniqueBenefits": "株式報酬制度（初年度から140株（約49万円相当）の権利を付与）、社員寮・借上げ社宅、社員向け保育所（大阪）、持株会、財形貯蓄、特許報奨金制度",
+        "welfareGrade": "S"
+      },
+      "description": "ゲーム・エンターテインメント業界。ワンコンテンツ・マルチユース戦略・IP戦略・グローバル展開、一部リモートワーク可（育児・介護者向け制度として在宅勤務あり）。"
+    },
+    {
+      "rank": 5,
+      "id": "RE005",
+      "name": "鹿島建設株式会社",
+      "industry": "建設業界",
+      "value": 300000,
+      "formattedValue": "30万円",
+      "metrics": {
+        "salary": 11847000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 320000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 8854,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 16.4
+      },
+      "features": {
+        "businessModel": "土木建築工事、不動産開発、エンジニアリング、国内外における建設事業および関連事業",
+        "specialization": "スーパーゼネコン技術、現場の工場化",
+        "workStyle": "在宅勤務制度、K-flex（鹿島版フレックス制度）",
+        "growth": "ICT・ロボット技術による建設現場の生産性向上"
+      },
+      "welfare": {
+        "housingAllowance": "社宅・独身寮制度あり",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "住宅融資制度、持株会、勤務間インターバル制度",
+        "welfareGrade": "B"
+      },
+      "description": "建設業界。スーパーゼネコン技術、現場の工場化、在宅勤務制度、K-flex（鹿島版フレックス制度）。"
+    },
+    {
+      "rank": 6,
+      "id": "RE006",
+      "name": "大成建設株式会社",
+      "industry": "建設業界",
+      "value": 300000,
+      "formattedValue": "30万円",
+      "metrics": {
+        "salary": 10247000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 320000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 8720,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": 17.9
+      },
+      "features": {
+        "businessModel": "建築・土木工事の設計・施工、エンジニアリング、不動産開発、環境関連事業等",
+        "specialization": "総合建設業、技術革新",
+        "workStyle": "完全週休2日制",
+        "growth": "ICT活用による生産性向上と働き方改革の推進"
+      },
+      "welfare": {
+        "housingAllowance": "住宅融資制度あり。地域手当が初任給に含まれる。",
+        "cafeteria": "財形貯蓄制度",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "社員持株会",
+        "welfareGrade": "B"
+      },
+      "description": "建設業界。総合建設業、技術革新、完全週休2日制。"
+    },
+    {
+      "rank": 7,
+      "id": "FN005",
+      "name": "りそな銀行",
+      "industry": "銀行業（都市銀行）",
+      "value": 280000,
+      "formattedValue": "28万円",
+      "metrics": {
+        "salary": 7270000,
+        "initialSalary": 280000,
+        "initialSalaryGrad": 280000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 8216,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "フルラインの信託業務を併営する商業銀行。リテール分野に強み",
+        "specialization": "リテール分野・信託業務併営・商業銀行",
+        "workStyle": "データなし",
+        "growth": "リテール分野に強み・フルライン信託業務併営"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "データなし",
+        "welfareGrade": "B"
+      },
+      "description": "銀行業（都市銀行）。リテール分野・信託業務併営・商業銀行、データなし。"
+    },
+    {
+      "rank": 8,
+      "id": "GM003",
+      "name": "オリエンタルランド",
+      "industry": "エンターテインメント・サービス業界",
+      "value": 272000,
+      "formattedValue": "27万円",
+      "metrics": {
+        "salary": 6010000,
+        "initialSalary": 272000,
+        "initialSalaryGrad": null,
+        "holidays": 123,
+        "overtime": 15.02,
+        "employees": 5631,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 69,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 2.81,
+        "averageTenure": 10.4
+      },
+      "features": {
+        "businessModel": "東京ディズニーリゾートの運営・管理、ホテル事業、商業施設運営",
+        "specialization": "テーマパーク運営・ホテル事業・商業施設運営",
+        "workStyle": "ハイブリッド（業務内容に応じて在宅勤務制度・フレックスタイム制導入）",
+        "growth": "中途採用重視（中途採用比率73.0%）・約6%の賃上げ実施（2025年）"
+      },
+      "welfare": {
+        "housingAllowance": "独身寮完備、住宅手当詳細データなし",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "サンクスデー（年1回閉園後パーク内での感謝イベント）",
+        "healthSupport": null,
+        "uniqueBenefits": "メッセージカード交換制度、商品割引制度、テーマパスポート配布、財形貯蓄制度、通勤手当、時間外勤務手当",
+        "welfareGrade": "A"
+      },
+      "description": "エンターテインメント・サービス業界。テーマパーク運営・ホテル事業・商業施設運営、ハイブリッド（業務内容に応じて在宅勤務制度・フレックスタイム制導入）。"
+    },
+    {
+      "rank": 9,
+      "id": "GM001",
+      "name": "任天堂",
+      "industry": "ゲーム・エンターテインメント業界",
+      "value": 256000,
+      "formattedValue": "26万円",
+      "metrics": {
+        "salary": 9660000,
+        "initialSalary": 256000,
+        "initialSalaryGrad": 267000,
+        "holidays": 125,
+        "overtime": 23,
+        "employees": 8205,
+        "vacationRate": 86,
+        "maleParentalLeaveRate": 92,
+        "femaleParentalLeaveRate": 115,
+        "turnoverRate3Years": 1.9,
+        "averageTenure": 14.4
+      },
+      "features": {
+        "businessModel": "Nintendo Switchを中心とした家庭用ゲーム機器とソフトウェアの製造・販売",
+        "specialization": "ゲーム機器・ソフトウェア・家庭用ゲーム",
+        "workStyle": "フレックスタイム制（コアタイム10:00～15:00、標準労働時間7時間45分）",
+        "growth": "50歳以上対象週休3日制・短時間勤務制度・パートナーシップ制度・兼業副業許可範囲拡大"
+      },
+      "welfare": {
+        "housingAllowance": "住宅支援制度あり（詳細非公開）",
+        "cafeteria": "選択型福利厚生制度",
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "50歳以上対象週休3日制・短時間勤務制度、パートナーシップ制度、兼業・副業許可範囲拡大、退職金制度",
+        "welfareGrade": "S"
+      },
+      "description": "ゲーム・エンターテインメント業界。ゲーム機器・ソフトウェア・家庭用ゲーム、フレックスタイム制（コアタイム10:00～15:00、標準労働時間7時間45分）。"
+    },
+    {
+      "rank": 10,
+      "id": "GOV001",
+      "name": "独立行政法人都市再生機構",
+      "industry": "都市再生・住宅",
+      "value": 253400,
+      "formattedValue": "25万円",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 253400,
+        "initialSalaryGrad": 265400,
+        "holidays": null,
+        "overtime": null,
+        "employees": 3210,
+        "operatingMarginRate": null,
+        "roe": null,
+        "vacationRate": null,
+        "parentalLeaveReturn": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "",
+        "specialization": "",
+        "workStyle": "",
+        "growth": ""
+      },
+      "welfare": {
+        "housingAllowance": "社宅・寮あり",
+        "transportationAllowance": "通勤費全額支給",
+        "familyAllowance": "扶養手当あり",
+        "cafeteria": "",
+        "trainingSupport": "各種研修制度",
+        "uniqueBenefits": "",
+        "welfareGrade": "",
+        "clubActivities": ""
+      },
+      "description": "都市再生・住宅。。"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "id": "JS001",
+  "name": "初任給ランキングTOP10",
+  "target": "就活生",
+  "criteria": "initialSalary",
+  "limit": 10,
+  "filters": {},
+  "generatedAt": "2025-08-29T02:03:30.906Z",
+  "resultCount": 10,
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "FT001",
+      "name": "グーグル合同会社",
+      "industry": "外資系IT業界",
+      "value": 700000,
+      "formattedValue": "70万円",
+      "metrics": {
+        "salary": 16240000,
+        "initialSalary": 700000,
+        "initialSalaryGrad": 1050000,
+        "holidays": null,
+        "overtime": null,
+        "employees": 1300,
+        "vacationRate": 100,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "検索エンジン、オンライン広告、クラウド、ソフトウェア、ハードウェア等の開発・提供",
+        "specialization": "検索エンジン、クラウドサービス、AI技術",
+        "workStyle": "ハイブリッド（制度に寛容で、地方移住者も多数在籍）、フレックスタイム",
+        "growth": "20%ルール（業務時間の20%を自身の興味あるプロジェクトに利用可能）、360度評価"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "無料の社員食堂",
+        "recreationFacilities": "無料ジム",
+        "healthSupport": "不妊治療サポート",
+        "uniqueBenefits": "確定拠出年金、産前産後・育児・介護休暇、スキルアップ支援、年に4週間のワーケーション",
+        "welfareGrade": "S"
+      },
+      "description": "外資系IT業界。検索エンジン、クラウドサービス、AI技術、ハイブリッド（制度に寛容で、地方移住者も多数在籍）、フレックスタイム。"
+    },
+    {
+      "rank": 2,
+      "id": "FT004",
+      "name": "日本マイクロソフト株式会社",
+      "industry": "外資系IT業界",
+      "value": 620000,
+      "formattedValue": "62万円",
+      "metrics": {
+        "salary": 13030000,
+        "initialSalary": 620000,
+        "initialSalaryGrad": 640000,
+        "holidays": null,
+        "overtime": 32.3,
+        "employees": null,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ソフトウェア、クラウドサービス（Azure）、デバイス等の開発・販売",
+        "specialization": "クラウドサービス、オフィスソフトウェア、AI技術",
+        "workStyle": "ハイブリッド（2007年から在宅勤務制度を導入しており、リモートワークを推進）、フレックスタイム",
+        "growth": "Growth Mindset（成長型マインドセット）、フレキシブルなワークスタイル"
+      },
+      "welfare": {
+        "housingAllowance": "なし（寮・社宅の提供なし）",
+        "cafeteria": "ベネフィットポイント",
+        "recreationFacilities": "マッサージルーム",
+        "healthSupport": "生命保険、医療保障保険",
+        "uniqueBenefits": "確定拠出年金、社員持株会、傷病・ファミリーケア休暇（年10日）、有給の看護介護・出産・育児休業、各種研修",
+        "welfareGrade": "A"
+      },
+      "description": "外資系IT業界。クラウドサービス、オフィスソフトウェア、AI技術、ハイブリッド（2007年から在宅勤務制度を導入しており、リモートワークを推進）、フレックスタイム。"
+    },
+    {
+      "rank": 3,
+      "id": "FT005",
+      "name": "株式会社セールスフォース・ジャパン",
+      "industry": "外資系IT業界",
+      "value": 450000,
+      "formattedValue": "45万円",
+      "metrics": {
+        "salary": 12155000,
+        "initialSalary": 450000,
+        "initialSalaryGrad": 450000,
+        "holidays": null,
+        "overtime": null,
+        "employees": null,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "クラウドベースのCRM（顧客関係管理）ソリューションを中心としたサービスの提供",
+        "specialization": "CRMソリューション、クラウドプラットフォーム",
+        "workStyle": "ハイブリッド（リモート勤務と出社のハイブリッドワークを推進）",
+        "growth": "1-1-1モデル（就業時間の1%、株式の1%、製品の1%を地域社会に還元する社会貢献モデル）"
+      },
+      "welfare": {
+        "housingAllowance": "データなし",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "グローバル育児休暇制度（法定を上回る独自の育児休暇制度）、パートナーシップ制度（同性パートナーシップを結ぶ従業員に対し公正証書作成費用を補助、上限5万円）、ジェンダーインクルーシブベネフィット、自己啓発支援（MBA取得等のための学費を補助）",
+        "welfareGrade": "S"
+      },
+      "description": "外資系IT業界。CRMソリューション、クラウドプラットフォーム、ハイブリッド（リモート勤務と出社のハイブリッドワークを推進）。"
+    },
+    {
+      "rank": 4,
+      "id": "MD001",
+      "name": "株式会社電通グループ",
+      "industry": "総合広告代理店",
+      "value": 355300,
+      "formattedValue": "36万円",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 355300,
+        "initialSalaryGrad": null,
+        "holidays": null,
+        "overtime": 45.7,
+        "employees": 1000,
+        "vacationRate": 55.3,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "純粋持株会社として、広告事業を中心とするグループ全体の経営戦略策定・推進",
+        "specialization": "マーケティング・コミュニケーション、クリエイティブサービス",
+        "workStyle": "ハイブリッド（リモートワーク・オフィスワークの組み合わせ）",
+        "growth": "HRMディレクター体制による人材育成、働き方改革推進"
+      },
+      "welfare": {
+        "housingAllowance": "住宅取得支援制度、社宅制度あり",
+        "cafeteria": "企業年金制度",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "リモートワーク手当5,600円、通勤手当、配偶者手当、子ども手当",
+        "welfareGrade": "A"
+      },
+      "description": "総合広告代理店。マーケティング・コミュニケーション、クリエイティブサービス、ハイブリッド（リモートワーク・オフィスワークの組み合わせ）。"
+    },
+    {
+      "rank": 5,
+      "id": "FT002",
+      "name": "アマゾンジャパン合同会社",
+      "industry": "外資系IT・EC業界",
+      "value": 354584,
+      "formattedValue": "35万円",
+      "metrics": {
+        "salary": 11500000,
+        "initialSalary": 354584,
+        "initialSalaryGrad": null,
+        "holidays": 120,
+        "overtime": 23.1,
+        "employees": null,
+        "vacationRate": 73.4,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "ECサイト運営、クラウドサービス、デジタルコンテンツ配信等",
+        "specialization": "Eコマース、クラウドコンピューティング（AWS）",
+        "workStyle": "ハイブリッド（2023年6月より週3日出社義務化、残り2日在宅勤務可能）、コアタイムなしフレックス",
+        "growth": "OLP（Our Leadership Principles）14の原則に基づく人事評価"
+      },
+      "welfare": {
+        "housingAllowance": "なし",
+        "cafeteria": "カフェテリアポイント（年間3万円程度）",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "通勤交通費（月5万円まで）、社員割引制度（年間16万円分まで10%オフ）",
+        "welfareGrade": "B"
+      },
+      "description": "外資系IT・EC業界。Eコマース、クラウドコンピューティング（AWS）、ハイブリッド（2023年6月より週3日出社義務化、残り2日在宅勤務可能）、コアタイムなしフレックス。"
+    },
+    {
+      "rank": 6,
+      "id": "RE001",
+      "name": "三井不動産株式会社",
+      "industry": "総合デベロッパー",
+      "value": 320000,
+      "formattedValue": "32万円",
+      "metrics": {
+        "salary": 12890000,
+        "initialSalary": 320000,
+        "initialSalaryGrad": 370000,
+        "holidays": 125,
+        "overtime": 8,
+        "employees": null,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 0.93,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "オフィスビル、商業施設、住宅、ホテル等の開発・賃貸・分譲・マネジメント",
+        "specialization": "総合不動産開発、都市開発",
+        "workStyle": "フレックスタイム制",
+        "growth": "海外トレーニー制度、資格取得奨励制度"
+      },
+      "welfare": {
+        "housingAllowance": "借家手当あり（独身寮あり）",
+        "cafeteria": "カフェテリアプラン",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "通勤費（全額支給）、家族手当",
+        "welfareGrade": "A"
+      },
+      "description": "総合デベロッパー。総合不動産開発、都市開発、フレックスタイム制。"
+    },
+    {
+      "rank": 7,
+      "id": "TC001",
+      "name": "日本電信電話株式会社",
+      "industry": "通信インフラ業界",
+      "value": 312940,
+      "formattedValue": "31万円",
+      "metrics": {
+        "salary": 9230000,
+        "initialSalary": 312940,
+        "initialSalaryGrad": 324940,
+        "holidays": null,
+        "overtime": null,
+        "employees": 341321,
+        "vacationRate": null,
+        "maleParentalLeaveRate": null,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "グループ全体の経営戦略策定、基盤的研究開発推進、総合ICT事業、グローバル・ソリューション事業等",
+        "specialization": "通信インフラ、ICTサービス",
+        "workStyle": "リモートワーク先進導入",
+        "growth": "巨大組織における人材管理課題、グループシナジー創出"
+      },
+      "welfare": {
+        "housingAllowance": "住宅補助費（36,000円～40,200円）等",
+        "cafeteria": "データなし",
+        "recreationFacilities": "データなし",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "データなし",
+        "welfareGrade": "A"
+      },
+      "description": "通信インフラ業界。通信インフラ、ICTサービス、リモートワーク先進導入。"
+    },
+    {
+      "rank": 8,
+      "id": "RE002",
+      "name": "住友不動産株式会社",
+      "industry": "総合デベロッパー",
+      "value": 305000,
+      "formattedValue": "31万円",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 305000,
+        "initialSalaryGrad": 334000,
+        "holidays": 123,
+        "overtime": null,
+        "employees": 1000,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": null,
+        "averageTenure": null
+      },
+      "features": {
+        "businessModel": "オフィスビル開発・賃貸、マンション分譲、住宅リフォーム、不動産仲介",
+        "specialization": "総合不動産開発",
+        "workStyle": "フルフレックスタイム制（コアタイムなし）",
+        "growth": "資格取得支援、財形貯蓄、従業員持株会"
+      },
+      "welfare": {
+        "housingAllowance": "なし（社宅制度あり）",
+        "cafeteria": "財形貯蓄",
+        "recreationFacilities": "自社ホテル・フィットネスクラブ割引",
+        "healthSupport": "データなし",
+        "uniqueBenefits": "PCシャットダウン制度（原則21時に自動シャットダウン）",
+        "welfareGrade": "B"
+      },
+      "description": "総合デベロッパー。総合不動産開発、フルフレックスタイム制（コアタイムなし）。"
+    },
+    {
+      "rank": 9,
+      "id": "GM004",
+      "name": "カプコン",
+      "industry": "ゲーム・エンターテインメント業界",
+      "value": 300000,
+      "formattedValue": "30万円",
+      "metrics": {
+        "salary": 9190000,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 300000,
+        "holidays": 123,
+        "overtime": null,
+        "employees": 3379,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 66,
+        "femaleParentalLeaveRate": 114,
+        "turnoverRate3Years": null,
+        "averageTenure": 11
+      },
+      "features": {
+        "businessModel": "家庭用ゲームソフト、モバイルコンテンツ等の企画、開発、製造、販売、配信",
+        "specialization": "ワンコンテンツ・マルチユース戦略・IP戦略・グローバル展開",
+        "workStyle": "一部リモートワーク可（育児・介護者向け制度として在宅勤務あり）",
+        "growth": "株式報酬制度・IP多角展開戦略・AIなどの先端技術への投資"
+      },
+      "welfare": {
+        "housingAllowance": "地域手当として東京勤務の場合に支給",
+        "cafeteria": "社員食堂（大阪）",
+        "recreationFacilities": "マッサージルーム",
+        "healthSupport": null,
+        "uniqueBenefits": "株式報酬制度（初年度から140株（約49万円相当）の権利を付与）、社員寮・借上げ社宅、社員向け保育所（大阪）、持株会、財形貯蓄、特許報奨金制度",
+        "welfareGrade": "S"
+      },
+      "description": "ゲーム・エンターテインメント業界。ワンコンテンツ・マルチユース戦略・IP戦略・グローバル展開、一部リモートワーク可（育児・介護者向け制度として在宅勤務あり）。"
+    },
+    {
+      "rank": 10,
+      "id": "FN001",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "industry": "銀行業（総合金融）",
+      "value": 300000,
+      "formattedValue": "30万円",
+      "metrics": {
+        "salary": null,
+        "initialSalary": 300000,
+        "initialSalaryGrad": 310000,
+        "holidays": 120,
+        "overtime": null,
+        "employees": 138570,
+        "vacationRate": null,
+        "maleParentalLeaveRate": 100,
+        "femaleParentalLeaveRate": null,
+        "turnoverRate3Years": 3.2,
+        "averageTenure": 16.6
+      },
+      "features": {
+        "businessModel": "銀行、信託、証券、カード、消費者金融など、グループ一体で多様な金融サービスを提供する持株会社",
+        "specialization": "総合金融・グループ一体サービス・デジタル化推進",
+        "workStyle": "リモートワーク・フレックスタイム制度あり",
+        "growth": "デジタル化推進・グループ一体での多様な金融サービス提供"
+      },
+      "welfare": {
+        "housingAllowance": "社宅・独身寮制度あり（コースによる）",
+        "cafeteria": null,
+        "recreationFacilities": null,
+        "healthSupport": null,
+        "uniqueBenefits": "確定拠出年金、従業員持株会、ベビーシッターサービス、企業内保育園",
+        "welfareGrade": "A"
+      },
+      "description": "銀行業（総合金融）。総合金融・グループ一体サービス・デジタル化推進、リモートワーク・フレックスタイム制度あり。"
+    }
+  ]
+}

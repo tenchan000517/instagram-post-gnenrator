@@ -1,0 +1,15 @@
+{
+  "id": "FC009",
+  "name": "コンサル業界×働きやすさTOP5",
+  "target": "女性キャリア",
+  "criteria": "overall",
+  "limit": 5,
+  "filters": {
+    "industries": [
+      "コンサルティング業界"
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.033Z",
+  "resultCount": 0,
+  "ranking": []
+}

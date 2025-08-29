@@ -1,0 +1,16 @@
+{
+  "id": "JS029",
+  "name": "メーカー系(自動車・電機)初任給TOP10",
+  "target": "就活生",
+  "criteria": "initialSalary",
+  "limit": 10,
+  "filters": {
+    "industries": [
+      "自動車業界",
+      "総合電機業界"
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:31.002Z",
+  "resultCount": 0,
+  "ranking": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "JS024",
+  "name": "コンサル業界×初任給TOP5",
+  "target": "就活生",
+  "criteria": "initialSalary",
+  "limit": 5,
+  "filters": {
+    "industries": [
+      "コンサルティング業界"
+    ]
+  },
+  "generatedAt": "2025-08-29T02:03:30.992Z",
+  "resultCount": 0,
+  "ranking": []
+}
