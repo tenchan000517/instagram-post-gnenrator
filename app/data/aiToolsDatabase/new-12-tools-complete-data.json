@@ -1,7 +1,7 @@
 {
   "newToolsData": [
     {
-      "id": "AI073",
+      "id": "AI093",
       "toolName": "V0",
       "category": "開発支援・コーディング",
       "subCategory": "AI Web UI生成",
@@ -162,7 +162,7 @@
       "additionalNotes": "Vercelが開発するReact UI特化生成ツール。デザインからコードへの橋渡し革新。開発者の生産性向上に貢献。"
     },
     {
-      "id": "AI074",
+      "id": "AI094",
       "toolName": "NapkinAI",
       "category": "プレゼンテーション・資料作成",
       "subCategory": "AI図解・インフォグラフィック",
@@ -329,7 +329,7 @@
       "additionalNotes": "テキストから自動的に適切な図解を生成。プレゼンテーション資料作成の大幅な効率化を実現。急成長中のスタートアップ。"
     },
     {
-      "id": "AI075",
+      "id": "AI095",
       "toolName": "Gladia",
       "category": "音声関連",
       "subCategory": "AI音声認識・転写",
@@ -500,7 +500,7 @@
       "additionalNotes": "業界最高精度99.8%を誇る音声転写API。100言語対応で多言語処理のグローバルスタンダード。医療・法務分野で信頼性高い。"
     },
     {
-      "id": "AI076",
+      "id": "AI096",
       "toolName": "Lark",
       "category": "生産性管理",
       "subCategory": "オールインワン生産性スイート",
@@ -672,7 +672,7 @@
       "additionalNotes": "ByteDance開発のオールインワン生産性スイート。TikTokの技術力を活用し、特にアジア市場で急成長。無料100ユーザー対応が特徴。"
     },
     {
-      "id": "AI077",
+      "id": "AI097",
       "toolName": "Felo",
       "category": "検索・情報収集",
       "subCategory": "AI多言語検索エンジン",
@@ -839,7 +839,7 @@
       "additionalNotes": "多言語AI検索の新興プレイヤー。120言語対応でグローバル市場をターゲット。特にアジア地域で急成長中。"
     },
     {
-      "id": "AI078",
+      "id": "AI098",
       "toolName": "ImageFX",
       "category": "画像生成・編集",
       "subCategory": "AI画像生成",
@@ -1005,7 +1005,7 @@
       "additionalNotes": "Google最新のImagen 3技術を活用。現在無料提供中で高品質画像生成を実現。将来的にGoogle AI Premium統合予定。"
     },
     {
-      "id": "AI079",
+      "id": "AI099",
       "toolName": "イルシル",
       "category": "プレゼンテーション・資料作成",
       "subCategory": "AI日本語プレゼン生成",
@@ -1165,7 +1165,7 @@
       "additionalNotes": "日本語特化プレゼン生成のパイオニア。日本企業のビジネス文化に最適化されたテンプレートが特徴。急成長中の国産スタートアップ。"
     },
     {
-      "id": "AI080",
+      "id": "AI100",
       "toolName": "Recraft",
       "category": "画像生成・編集",
       "subCategory": "AI ブランド特化画像生成",
@@ -1334,7 +1334,7 @@
       "additionalNotes": "ブランド一貫性を重視する企業向けAI画像生成ツール。ベクター対応とスタイル統一機能で差別化。デザイナーとマーケター向け。"
     },
     {
-      "id": "AI081",
+      "id": "AI101",
       "toolName": "Clove note",
       "category": "ノート・記録",
       "subCategory": "AIノート・メモ",
@@ -1499,7 +1499,7 @@
       "additionalNotes": "ベータ段階のAIノートアプリ。手書き認識と音声転写が特徴だが、まだ機能制限あり。将来性はあるが現時点では発展途上。"
     },
     {
-      "id": "AI082",
+      "id": "AI102",
       "toolName": "Kling",
       "category": "動画生成・編集",
       "subCategory": "AI動画生成",
@@ -1667,7 +1667,7 @@
       "additionalNotes": "快手開発のAI動画生成プラットフォーム。10分長尺・4K対応で技術的に先進。特にアジア市場で圧倒的シェア。"
     },
     {
-      "id": "AI083",
+      "id": "AI103",
       "toolName": "Vidu",
       "category": "動画生成・編集",
       "subCategory": "AI動画生成",
@@ -1835,7 +1835,7 @@
       "additionalNotes": "清華大学発のAI動画生成スタートアップ。学術研究基盤で高品質動画を実現。中国市場特化だが技術力は世界水準。"
     },
     {
-      "id": "AI084",
+      "id": "AI104",
       "toolName": "Pika",
       "category": "動画生成・編集",
       "subCategory": "AI動画生成",
