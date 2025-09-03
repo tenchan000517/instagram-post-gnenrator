@@ -1,0 +1,1111 @@
+{
+  "totalTools": 48,
+  "batchAnalysis": {
+    "2": {
+      "toolCount": 8,
+      "evaluationFields": {},
+      "samples": [
+        {
+          "toolName": "Notion AI",
+          "evaluationFields": {
+            "evaluation": {
+              "immediacy": 85,
+              "simplicity": 80,
+              "popularity": 95,
+              "costPerformance": 60,
+              "specialization": 90,
+              "productivityGain": 90,
+              "tenScore": 82.25
+            },
+            "evaluation.immediacy": 85,
+            "evaluation.simplicity": 80,
+            "evaluation.popularity": 95,
+            "evaluation.costPerformance": 60,
+            "evaluation.specialization": 90,
+            "evaluation.productivityGain": 90,
+            "evaluation.tenScore": 82.25
+          }
+        },
+        {
+          "toolName": "n8n",
+          "evaluationFields": {
+            "evaluation": {
+              "immediacy": 70,
+              "simplicity": 40,
+              "popularity": 60,
+              "costPerformance": 95,
+              "specialization": 95,
+              "productivityGain": 95,
+              "tenScore": 71.75
+            },
+            "evaluation.immediacy": 70,
+            "evaluation.simplicity": 40,
+            "evaluation.popularity": 60,
+            "evaluation.costPerformance": 95,
+            "evaluation.specialization": 95,
+            "evaluation.productivityGain": 95,
+            "evaluation.tenScore": 71.75
+          }
+        }
+      ]
+    },
+    "3": {
+      "toolCount": 8,
+      "evaluationFields": {},
+      "samples": [
+        {
+          "toolName": "Midjourney",
+          "evaluationFields": {
+            "evaluation": {
+              "immediacy": 88,
+              "simplicity": 75,
+              "popularity": 92,
+              "costPerformance": 70,
+              "specialization": 95,
+              "productivityGain": 85,
+              "tenScore": 84.75
+            },
+            "evaluation.immediacy": 88,
+            "evaluation.simplicity": 75,
+            "evaluation.popularity": 92,
+            "evaluation.costPerformance": 70,
+            "evaluation.specialization": 95,
+            "evaluation.productivityGain": 85,
+            "evaluation.tenScore": 84.75
+          }
+        },
+        {
+          "toolName": "DALL-E",
+          "evaluationFields": {
+            "evaluation": {
+              "immediacy": 85,
+              "simplicity": 90,
+              "popularity": 90,
+              "costPerformance": 75,
+              "specialization": 85,
+              "productivityGain": 88,
+              "tenScore": 85.95
+            },
+            "evaluation.immediacy": 85,
+            "evaluation.simplicity": 90,
+            "evaluation.popularity": 90,
+            "evaluation.costPerformance": 75,
+            "evaluation.specialization": 85,
+            "evaluation.productivityGain": 88,
+            "evaluation.tenScore": 85.95
+          }
+        }
+      ]
+    },
+    "4": {
+      "toolCount": 8,
+      "evaluationFields": {},
+      "samples": [
+        {
+          "toolName": "Jasper AI",
+          "evaluationFields": {
+            "tenScore": {
+              "immediacy": 85,
+              "simplicity": 80,
+              "popularity": 90,
+              "costEffectiveness": 70,
+              "functionalSpecialty": 95,
+              "productivityBoost": 90,
+              "totalScore": 85,
+              "reasoning": "High scores for functionality and popularity due to strong brand voice features and extensive integrations. Cost-effectiveness lower due to premium pricing. Strong productivity boost with 95% workflow efficiency improvement reported by users."
+            },
+            "tenScore.immediacy": 85,
+            "tenScore.simplicity": 80,
+            "tenScore.popularity": 90,
+            "tenScore.totalScore": 85
+          }
+        },
+        {
+          "toolName": "Copy.ai",
+          "evaluationFields": {
+            "tenScore": {
+              "immediacy": 90,
+              "simplicity": 85,
+              "popularity": 75,
+              "costEffectiveness": 85,
+              "functionalSpecialty": 80,
+              "productivityBoost": 85,
+              "totalScore": 83,
+              "reasoning": "High immediacy and simplicity scores due to quick content generation and user-friendly interface. Good cost-effectiveness with Pro plan at $36/month annually. Strong productivity boost with users reporting 3x efficiency improvement."
+            },
+            "tenScore.immediacy": 90,
+            "tenScore.simplicity": 85,
+            "tenScore.popularity": 75,
+            "tenScore.totalScore": 83
+          }
+        }
+      ]
+    },
+    "5": {
+      "toolCount": 8,
+      "evaluationFields": {},
+      "samples": [
+        {
+          "toolName": "Character.AI",
+          "evaluationFields": {
+            "evaluation": {
+              "immediacy": null,
+              "simplicity": null,
+              "popularity": null,
+              "costPerformance": null,
+              "specialization": null,
+              "productivityGain": null
+            },
+            "evaluation.immediacy": null,
+            "evaluation.simplicity": null,
+            "evaluation.popularity": null,
+            "evaluation.costPerformance": null,
+            "evaluation.specialization": null,
+            "evaluation.productivityGain": null
+          }
+        },
+        {
+          "toolName": "Poe",
+          "evaluationFields": {
+            "evaluation": {
+              "immediacy": null,
+              "simplicity": null,
+              "popularity": null,
+              "costPerformance": null,
+              "specialization": null,
+              "productivityGain": null
+            },
+            "evaluation.immediacy": null,
+            "evaluation.simplicity": null,
+            "evaluation.popularity": null,
+            "evaluation.costPerformance": null,
+            "evaluation.specialization": null,
+            "evaluation.productivityGain": null
+          }
+        }
+      ]
+    },
+    "6": {
+      "toolCount": 8,
+      "evaluationFields": {},
+      "samples": [
+        {
+          "toolName": "Cursor",
+          "evaluationFields": {
+            "tenEvaluation": {
+              "immediacy": 90,
+              "simplicity": 75,
+              "popularity": 80,
+              "costPerformance": 70,
+              "specialization": 95,
+              "productivityGain": 92,
+              "tenScore": 83.4,
+              "grade": "B",
+              "evaluationDate": "2025-08-31",
+              "totalScore": 502.2
+            },
+            "tenEvaluation.immediacy": 90,
+            "tenEvaluation.simplicity": 75,
+            "tenEvaluation.popularity": 80,
+            "tenEvaluation.costPerformance": 70,
+            "tenEvaluation.specialization": 95,
+            "tenEvaluation.productivityGain": 92,
+            "tenEvaluation.tenScore": 83.4,
+            "tenEvaluation.grade": "B",
+            "tenEvaluation.evaluationDate": "2025-08-31",
+            "tenEvaluation.totalScore": 502.2
+          }
+        },
+        {
+          "toolName": "Replit",
+          "evaluationFields": {
+            "tenEvaluation": {
+              "immediacy": 95,
+              "simplicity": 95,
+              "popularity": 90,
+              "costPerformance": 85,
+              "specialization": 80,
+              "productivityGain": 88,
+              "tenScore": 89.25,
+              "grade": "B",
+              "evaluationDate": "2025-08-31",
+              "totalScore": 534.3
+            },
+            "tenEvaluation.immediacy": 95,
+            "tenEvaluation.simplicity": 95,
+            "tenEvaluation.popularity": 90,
+            "tenEvaluation.costPerformance": 85,
+            "tenEvaluation.specialization": 80,
+            "tenEvaluation.productivityGain": 88,
+            "tenEvaluation.tenScore": 89.25,
+            "tenEvaluation.grade": "B",
+            "tenEvaluation.evaluationDate": "2025-08-31",
+            "tenEvaluation.totalScore": 534.3
+          }
+        }
+      ]
+    },
+    "9": {
+      "toolCount": 8,
+      "evaluationFields": {},
+      "samples": [
+        {
+          "toolName": "Framer AI",
+          "evaluationFields": {
+            "tenEvaluation": {
+              "immediateEffect": 85,
+              "simplicity": 90,
+              "popularity": 75,
+              "costEffectiveness": 80,
+              "functionalSpecialty": 90,
+              "productivityBoost": 85,
+              "totalScore": 84.25,
+              "evaluationDate": "2025-08-31",
+              "evaluationNotes": "優秀なAI機能とノーコード環境、急成長中の$2Bバリュエーション企業"
+            },
+            "tenEvaluation.simplicity": 90,
+            "tenEvaluation.popularity": 75,
+            "tenEvaluation.totalScore": 84.25,
+            "tenEvaluation.evaluationDate": "2025-08-31",
+            "tenEvaluation.evaluationNotes": "優秀なAI機能とノーコード環境、急成長中の$2Bバリュエーション企業"
+          }
+        },
+        {
+          "toolName": "Looka",
+          "evaluationFields": {
+            "tenEvaluation": {
+              "immediateEffect": 95,
+              "simplicity": 95,
+              "popularity": 80,
+              "costEffectiveness": 85,
+              "functionalSpecialty": 85,
+              "productivityBoost": 90,
+              "totalScore": 88.5,
+              "evaluationDate": "2025-08-31",
+              "evaluationNotes": "非常に使いやすく高速、100万ユーザーの信頼、包括的ブランドソリューション"
+            },
+            "tenEvaluation.simplicity": 95,
+            "tenEvaluation.popularity": 80,
+            "tenEvaluation.totalScore": 88.5,
+            "tenEvaluation.evaluationDate": "2025-08-31",
+            "tenEvaluation.evaluationNotes": "非常に使いやすく高速、100万ユーザーの信頼、包括的ブランドソリューション"
+          }
+        }
+      ]
+    }
+  },
+  "evaluationPatterns": {
+    "evaluation:object": {
+      "count": 24,
+      "batches": [
+        2,
+        3,
+        5
+      ],
+      "samples": [
+        {
+          "batch": 2,
+          "tool": "Notion AI",
+          "value": {
+            "immediacy": 85,
+            "simplicity": 80,
+            "popularity": 95,
+            "costPerformance": 60,
+            "specialization": 90,
+            "productivityGain": 90,
+            "tenScore": 82.25
+          }
+        },
+        {
+          "batch": 2,
+          "tool": "n8n",
+          "value": {
+            "immediacy": 70,
+            "simplicity": 40,
+            "popularity": 60,
+            "costPerformance": 95,
+            "specialization": 95,
+            "productivityGain": 95,
+            "tenScore": 71.75
+          }
+        },
+        {
+          "batch": 2,
+          "tool": "Synthesia",
+          "value": {
+            "immediacy": 90,
+            "simplicity": 90,
+            "popularity": 85,
+            "costPerformance": 70,
+            "specialization": 85,
+            "productivityGain": 85,
+            "tenScore": 84.25
+          }
+        }
+      ]
+    },
+    "evaluation.immediacy:number": {
+      "count": 16,
+      "batches": [
+        2,
+        3
+      ],
+      "samples": [
+        {
+          "batch": 2,
+          "tool": "Notion AI",
+          "value": 85
+        },
+        {
+          "batch": 2,
+          "tool": "n8n",
+          "value": 70
+        },
+        {
+          "batch": 2,
+          "tool": "Synthesia",
+          "value": 90
+        }
+      ]
+    },
+    "evaluation.simplicity:number": {
+      "count": 16,
+      "batches": [
+        2,
+        3
+      ],
+      "samples": [
+        {
+          "batch": 2,
+          "tool": "Notion AI",
+          "value": 80
+        },
+        {
+          "batch": 2,
+          "tool": "n8n",
+          "value": 40
+        },
+        {
+          "batch": 2,
+          "tool": "Synthesia",
+          "value": 90
+        }
+      ]
+    },
+    "evaluation.popularity:number": {
+      "count": 16,
+      "batches": [
+        2,
+        3
+      ],
+      "samples": [
+        {
+          "batch": 2,
+          "tool": "Notion AI",
+          "value": 95
+        },
+        {
+          "batch": 2,
+          "tool": "n8n",
+          "value": 60
+        },
+        {
+          "batch": 2,
+          "tool": "Synthesia",
+          "value": 85
+        }
+      ]
+    },
+    "evaluation.costPerformance:number": {
+      "count": 16,
+      "batches": [
+        2,
+        3
+      ],
+      "samples": [
+        {
+          "batch": 2,
+          "tool": "Notion AI",
+          "value": 60
+        },
+        {
+          "batch": 2,
+          "tool": "n8n",
+          "value": 95
+        },
+        {
+          "batch": 2,
+          "tool": "Synthesia",
+          "value": 70
+        }
+      ]
+    },
+    "evaluation.specialization:number": {
+      "count": 16,
+      "batches": [
+        2,
+        3
+      ],
+      "samples": [
+        {
+          "batch": 2,
+          "tool": "Notion AI",
+          "value": 90
+        },
+        {
+          "batch": 2,
+          "tool": "n8n",
+          "value": 95
+        },
+        {
+          "batch": 2,
+          "tool": "Synthesia",
+          "value": 85
+        }
+      ]
+    },
+    "evaluation.productivityGain:number": {
+      "count": 16,
+      "batches": [
+        2,
+        3
+      ],
+      "samples": [
+        {
+          "batch": 2,
+          "tool": "Notion AI",
+          "value": 90
+        },
+        {
+          "batch": 2,
+          "tool": "n8n",
+          "value": 95
+        },
+        {
+          "batch": 2,
+          "tool": "Synthesia",
+          "value": 85
+        }
+      ]
+    },
+    "evaluation.tenScore:number": {
+      "count": 16,
+      "batches": [
+        2,
+        3
+      ],
+      "samples": [
+        {
+          "batch": 2,
+          "tool": "Notion AI",
+          "value": 82.25
+        },
+        {
+          "batch": 2,
+          "tool": "n8n",
+          "value": 71.75
+        },
+        {
+          "batch": 2,
+          "tool": "Synthesia",
+          "value": 84.25
+        }
+      ]
+    },
+    "tenScore:object": {
+      "count": 8,
+      "batches": [
+        4
+      ],
+      "samples": [
+        {
+          "batch": 4,
+          "tool": "Jasper AI",
+          "value": {
+            "immediacy": 85,
+            "simplicity": 80,
+            "popularity": 90,
+            "costEffectiveness": 70,
+            "functionalSpecialty": 95,
+            "productivityBoost": 90,
+            "totalScore": 85,
+            "reasoning": "High scores for functionality and popularity due to strong brand voice features and extensive integrations. Cost-effectiveness lower due to premium pricing. Strong productivity boost with 95% workflow efficiency improvement reported by users."
+          }
+        },
+        {
+          "batch": 4,
+          "tool": "Copy.ai",
+          "value": {
+            "immediacy": 90,
+            "simplicity": 85,
+            "popularity": 75,
+            "costEffectiveness": 85,
+            "functionalSpecialty": 80,
+            "productivityBoost": 85,
+            "totalScore": 83,
+            "reasoning": "High immediacy and simplicity scores due to quick content generation and user-friendly interface. Good cost-effectiveness with Pro plan at $36/month annually. Strong productivity boost with users reporting 3x efficiency improvement."
+          }
+        },
+        {
+          "batch": 4,
+          "tool": "Grammarly",
+          "value": {
+            "immediacy": 95,
+            "simplicity": 90,
+            "popularity": 95,
+            "costEffectiveness": 90,
+            "functionalSpecialty": 85,
+            "productivityBoost": 90,
+            "totalScore": 91,
+            "reasoning": "Highest scores for immediacy, simplicity, and popularity due to 30M daily users and seamless integration. Strong cost-effectiveness at $144/year. Excellent productivity boost with real-time assistance across all platforms."
+          }
+        }
+      ]
+    },
+    "tenScore.immediacy:number": {
+      "count": 8,
+      "batches": [
+        4
+      ],
+      "samples": [
+        {
+          "batch": 4,
+          "tool": "Jasper AI",
+          "value": 85
+        },
+        {
+          "batch": 4,
+          "tool": "Copy.ai",
+          "value": 90
+        },
+        {
+          "batch": 4,
+          "tool": "Grammarly",
+          "value": 95
+        }
+      ]
+    },
+    "tenScore.simplicity:number": {
+      "count": 8,
+      "batches": [
+        4
+      ],
+      "samples": [
+        {
+          "batch": 4,
+          "tool": "Jasper AI",
+          "value": 80
+        },
+        {
+          "batch": 4,
+          "tool": "Copy.ai",
+          "value": 85
+        },
+        {
+          "batch": 4,
+          "tool": "Grammarly",
+          "value": 90
+        }
+      ]
+    },
+    "tenScore.popularity:number": {
+      "count": 8,
+      "batches": [
+        4
+      ],
+      "samples": [
+        {
+          "batch": 4,
+          "tool": "Jasper AI",
+          "value": 90
+        },
+        {
+          "batch": 4,
+          "tool": "Copy.ai",
+          "value": 75
+        },
+        {
+          "batch": 4,
+          "tool": "Grammarly",
+          "value": 95
+        }
+      ]
+    },
+    "tenScore.totalScore:number": {
+      "count": 8,
+      "batches": [
+        4
+      ],
+      "samples": [
+        {
+          "batch": 4,
+          "tool": "Jasper AI",
+          "value": 85
+        },
+        {
+          "batch": 4,
+          "tool": "Copy.ai",
+          "value": 83
+        },
+        {
+          "batch": 4,
+          "tool": "Grammarly",
+          "value": 91
+        }
+      ]
+    },
+    "evaluation.immediacy:object": {
+      "count": 8,
+      "batches": [
+        5
+      ],
+      "samples": [
+        {
+          "batch": 5,
+          "tool": "Character.AI",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "Poe",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "You.com",
+          "value": null
+        }
+      ]
+    },
+    "evaluation.simplicity:object": {
+      "count": 8,
+      "batches": [
+        5
+      ],
+      "samples": [
+        {
+          "batch": 5,
+          "tool": "Character.AI",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "Poe",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "You.com",
+          "value": null
+        }
+      ]
+    },
+    "evaluation.popularity:object": {
+      "count": 8,
+      "batches": [
+        5
+      ],
+      "samples": [
+        {
+          "batch": 5,
+          "tool": "Character.AI",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "Poe",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "You.com",
+          "value": null
+        }
+      ]
+    },
+    "evaluation.costPerformance:object": {
+      "count": 8,
+      "batches": [
+        5
+      ],
+      "samples": [
+        {
+          "batch": 5,
+          "tool": "Character.AI",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "Poe",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "You.com",
+          "value": null
+        }
+      ]
+    },
+    "evaluation.specialization:object": {
+      "count": 8,
+      "batches": [
+        5
+      ],
+      "samples": [
+        {
+          "batch": 5,
+          "tool": "Character.AI",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "Poe",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "You.com",
+          "value": null
+        }
+      ]
+    },
+    "evaluation.productivityGain:object": {
+      "count": 8,
+      "batches": [
+        5
+      ],
+      "samples": [
+        {
+          "batch": 5,
+          "tool": "Character.AI",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "Poe",
+          "value": null
+        },
+        {
+          "batch": 5,
+          "tool": "You.com",
+          "value": null
+        }
+      ]
+    },
+    "tenEvaluation:object": {
+      "count": 16,
+      "batches": [
+        6,
+        9
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": {
+            "immediacy": 90,
+            "simplicity": 75,
+            "popularity": 80,
+            "costPerformance": 70,
+            "specialization": 95,
+            "productivityGain": 92,
+            "tenScore": 83.4,
+            "grade": "B",
+            "evaluationDate": "2025-08-31",
+            "totalScore": 502.2
+          }
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": {
+            "immediacy": 95,
+            "simplicity": 95,
+            "popularity": 90,
+            "costPerformance": 85,
+            "specialization": 80,
+            "productivityGain": 88,
+            "tenScore": 89.25,
+            "grade": "B",
+            "evaluationDate": "2025-08-31",
+            "totalScore": 534.3
+          }
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": {
+            "immediacy": 88,
+            "simplicity": 85,
+            "popularity": 75,
+            "costPerformance": 70,
+            "specialization": 90,
+            "productivityGain": 82,
+            "tenScore": 81.7,
+            "grade": "B",
+            "evaluationDate": "2025-08-31",
+            "totalScore": 495.3
+          }
+        }
+      ]
+    },
+    "tenEvaluation.immediacy:number": {
+      "count": 8,
+      "batches": [
+        6
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": 90
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": 95
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": 88
+        }
+      ]
+    },
+    "tenEvaluation.simplicity:number": {
+      "count": 16,
+      "batches": [
+        6,
+        9
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": 75
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": 95
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": 85
+        }
+      ]
+    },
+    "tenEvaluation.popularity:number": {
+      "count": 16,
+      "batches": [
+        6,
+        9
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": 80
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": 90
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": 75
+        }
+      ]
+    },
+    "tenEvaluation.costPerformance:number": {
+      "count": 8,
+      "batches": [
+        6
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": 70
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": 85
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": 70
+        }
+      ]
+    },
+    "tenEvaluation.specialization:number": {
+      "count": 8,
+      "batches": [
+        6
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": 95
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": 80
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": 90
+        }
+      ]
+    },
+    "tenEvaluation.productivityGain:number": {
+      "count": 8,
+      "batches": [
+        6
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": 92
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": 88
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": 82
+        }
+      ]
+    },
+    "tenEvaluation.tenScore:number": {
+      "count": 8,
+      "batches": [
+        6
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": 83.4
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": 89.25
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": 81.7
+        }
+      ]
+    },
+    "tenEvaluation.grade:string": {
+      "count": 8,
+      "batches": [
+        6
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": "B"
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": "B"
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": "B"
+        }
+      ]
+    },
+    "tenEvaluation.evaluationDate:string": {
+      "count": 16,
+      "batches": [
+        6,
+        9
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": "2025-08-31"
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": "2025-08-31"
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": "2025-08-31"
+        }
+      ]
+    },
+    "tenEvaluation.totalScore:number": {
+      "count": 16,
+      "batches": [
+        6,
+        9
+      ],
+      "samples": [
+        {
+          "batch": 6,
+          "tool": "Cursor",
+          "value": 502.2
+        },
+        {
+          "batch": 6,
+          "tool": "Replit",
+          "value": 534.3
+        },
+        {
+          "batch": 6,
+          "tool": "Tabnine",
+          "value": 495.3
+        }
+      ]
+    },
+    "tenEvaluation.evaluationNotes:string": {
+      "count": 8,
+      "batches": [
+        9
+      ],
+      "samples": [
+        {
+          "batch": 9,
+          "tool": "Framer AI",
+          "value": "優秀なAI機能とノーコード環境、急成長中の$2Bバリュエーション企業"
+        },
+        {
+          "batch": 9,
+          "tool": "Looka",
+          "value": "非常に使いやすく高速、100万ユーザーの信頼、包括的ブランドソリューション"
+        },
+        {
+          "batch": 9,
+          "tool": "Brandmark",
+          "value": "高度な深層学習技術、優れたカスタマイズ性、人間デザイナーオプション"
+        }
+      ]
+    }
+  },
+  "inconsistencies": []
+}

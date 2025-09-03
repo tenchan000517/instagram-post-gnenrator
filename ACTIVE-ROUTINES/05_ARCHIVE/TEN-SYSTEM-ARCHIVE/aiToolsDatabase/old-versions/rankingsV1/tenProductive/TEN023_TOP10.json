@@ -1,0 +1,13 @@
+{
+  "rankingId": "TEN023",
+  "rankingName": "即効×簡単ツールTOP10",
+  "description": "即効性があり使いやすいAIツール",
+  "generatedAt": "2025-08-31T06:55:19.737Z",
+  "criteria": "immediacy",
+  "filters": {
+    "easinessMin": 80
+  },
+  "totalCandidates": 0,
+  "displayCount": 0,
+  "tools": []
+}

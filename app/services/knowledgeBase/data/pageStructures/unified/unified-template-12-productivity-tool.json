@@ -1,0 +1,114 @@
+{
+  "pageStructureId": "unified-template-12-productivity-tool",
+  "name": "Unified Template 12 - Productivity Tool Pattern",
+  "description": "TEN専用：導入・ツール一覧・詳細説明・まとめ構成（ランキング表示なし）",
+  "colorScheme": {
+    "primary": "#2D5016",
+    "secondary": "#4A7C2A", 
+    "accent": "#6B9F3E",
+    "background": "#F8FBF4",
+    "text": "#1A1A1A"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "templateId": "ten_intro",
+      "templateStructure": {
+        "title": "string",
+        "catchphrase": "string",
+        "problems": "string[]",
+        "solution": "string",
+        "callToAction": "string",
+        "tenCharacter": {
+          "message": "string",
+          "tone": "古風な武士口調"
+        }
+      }
+    },
+    {
+      "pageNumber": "dynamic",
+      "templateId": "enhanced_tool_detail",
+      "templateStructure": {
+        "displayMode": "grid",
+        "tools": [
+          {
+            "toolName": "string",
+            "category": "string",
+            "position": "number",
+            "tenScores": {
+              "immediateEffect": "number",
+              "easeOfUse": "number", 
+              "popularity": "number",
+              "costEffectiveness": "number",
+              "lazyFriendly": "number"
+            },
+            "keyMetrics": {
+              "price": "string",
+              "setupTime": "string",
+              "platforms": "string[]",
+              "userBase": "string"
+            },
+            "parameterGraph": {
+              "timeReduction": "number",
+              "simplicity": "number", 
+              "versatility": "number",
+              "reliability": "number",
+              "trendiness": "number"
+            },
+            "features": {
+              "type": "string",
+              "developer": "string", 
+              "launched": "string",
+              "specialization": "string"
+            },
+            "details": {
+              "overview": "string",
+              "useCases": "string[]",
+              "pros": "string[]",
+              "tips": "string[]"
+            },
+            "tenRecommendation": "string"
+          }
+        ]
+      }
+    },
+    {
+      "pageNumber": 7,
+      "templateId": "tool_showcase",
+      "templateStructure": {
+        "title": "string",
+        "subtitle": "string", 
+        "displayType": "showcase",
+        "tools": [
+          {
+            "position": "number",
+            "name": "string",
+            "category": "string",
+            "primaryScore": "string",
+            "highlight": "string",
+            "logoPath": "string"
+          }
+        ],
+        "evaluationNote": "string"
+      }
+    },
+    {
+      "pageNumber": 8,
+      "templateId": "ten_summary",
+      "templateStructure": {
+        "title": "TEN DATABASE",
+        "subtitle": "string",
+        "summaryPoints": "string[]",
+        "actionSteps": [
+          {
+            "step": "string",
+            "description": "string"
+          }
+        ],
+        "finalMessage": "string",
+        "databaseImage": "/images/ten_point.png",
+        "additionalInfo": "string"
+      }
+    }
+  ]
+}

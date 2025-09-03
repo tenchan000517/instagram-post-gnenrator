@@ -1,0 +1,184 @@
+{
+  "version": "V2-2025-08-31",
+  "rankingType": "クリエイティブAITOP10",
+  "description": "画像・動画・音声制作AI",
+  "generatedDate": "2025-08-31T08:43:51.989Z",
+  "targetCategories": [
+    "AI Image Generation",
+    "AI画像生成",
+    "動画作成・編集",
+    "AI動画生成・編集",
+    "音声生成",
+    "音声生成・処理"
+  ],
+  "totalCandidates": 11,
+  "selectedCount": 10,
+  "ranking": [
+    {
+      "rank": 1,
+      "toolName": "InVideo",
+      "category": "動画作成・編集",
+      "totalScore": 525,
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 95,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 90,
+        "totalScore": 525
+      },
+      "companyName": "InVideo Inc.",
+      "officialUrl": "https://invideo.io"
+    },
+    {
+      "rank": 2,
+      "toolName": "DALL-E",
+      "category": "AI Image Generation",
+      "totalScore": 513,
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 90,
+        "popularity": 90,
+        "costPerformance": 75,
+        "specialization": 85,
+        "productivityGain": 88,
+        "totalScore": 513
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "Murf",
+      "category": "音声生成",
+      "totalScore": 510,
+      "tenEvaluation": {
+        "immediacy": 80,
+        "simplicity": 90,
+        "popularity": 85,
+        "costPerformance": 82,
+        "specialization": 88,
+        "productivityGain": 85,
+        "totalScore": 510
+      },
+      "companyName": "Murf AI",
+      "officialUrl": "https://murf.ai"
+    },
+    {
+      "rank": 4,
+      "toolName": "Midjourney",
+      "category": "AI Image Generation",
+      "totalScore": 505,
+      "tenEvaluation": {
+        "immediacy": 88,
+        "simplicity": 75,
+        "popularity": 92,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 85,
+        "totalScore": 505
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Midjourney",
+      "category": "AI画像生成",
+      "totalScore": 495,
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 75,
+        "popularity": 100,
+        "costPerformance": 60,
+        "specialization": 95,
+        "productivityGain": 80,
+        "totalScore": 495
+      },
+      "companyName": "Midjourney",
+      "officialUrl": "https://www.midjourney.com/"
+    },
+    {
+      "rank": 6,
+      "toolName": "Steve.AI",
+      "category": "動画作成・編集",
+      "totalScore": 492,
+      "tenEvaluation": {
+        "immediacy": 92,
+        "simplicity": 80,
+        "popularity": 65,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 90,
+        "totalScore": 492
+      },
+      "companyName": "Steve.AI Inc.",
+      "officialUrl": "https://www.steve.ai"
+    },
+    {
+      "rank": 7,
+      "toolName": "FlexClip",
+      "category": "動画作成・編集",
+      "totalScore": 485,
+      "tenEvaluation": {
+        "immediacy": 80,
+        "simplicity": 92,
+        "popularity": 75,
+        "costPerformance": 90,
+        "specialization": 70,
+        "productivityGain": 78,
+        "totalScore": 485
+      },
+      "companyName": "PearlMountain Technology",
+      "officialUrl": "https://www.flexclip.com"
+    },
+    {
+      "rank": 8,
+      "toolName": "Pictory",
+      "category": "動画作成・編集",
+      "totalScore": 475,
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 80,
+        "popularity": 75,
+        "costPerformance": 70,
+        "specialization": 85,
+        "productivityGain": 80,
+        "totalScore": 475
+      },
+      "companyName": "Pictory Inc.",
+      "officialUrl": "https://pictory.ai"
+    },
+    {
+      "rank": 9,
+      "toolName": "Lumen5",
+      "category": "動画作成・編集",
+      "totalScore": 475,
+      "tenEvaluation": {
+        "immediacy": 78,
+        "simplicity": 82,
+        "popularity": 70,
+        "costPerformance": 75,
+        "specialization": 90,
+        "productivityGain": 80,
+        "totalScore": 475
+      },
+      "companyName": "Lumen5 Technologies Inc.",
+      "officialUrl": "https://lumen5.com"
+    },
+    {
+      "rank": 10,
+      "toolName": "Fish Audio",
+      "category": "音声生成・処理",
+      "totalScore": 470,
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 80,
+        "popularity": 50,
+        "costPerformance": 90,
+        "specialization": 90,
+        "productivityGain": 75,
+        "totalScore": 470
+      },
+      "companyName": "Hanabi AI Inc. (OpenAudio)",
+      "officialUrl": "https://fish.audio"
+    }
+  ]
+}

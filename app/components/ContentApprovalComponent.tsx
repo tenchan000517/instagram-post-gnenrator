@@ -510,8 +510,8 @@ export default function ContentApprovalComponent({
             if (b.templateType === 'index') return 1
             return a.pageNumber - b.pageNumber
           })
-          .map((page) => (
-            <div key={`${page.templateType}-${page.pageNumber}`}>
+          .map((page, index) => (
+            <div key={`${page.templateType}-${page.pageNumber}-${index}`}>
               {renderPageContent(page)}
             </div>
           ))}

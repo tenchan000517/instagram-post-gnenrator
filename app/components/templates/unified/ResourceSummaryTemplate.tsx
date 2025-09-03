@@ -11,7 +11,8 @@ interface ResourceItem {
 interface ResourceSummaryTemplateData extends TemplateData {
   title: string;
   summaryPoints: string[];
-  resourceList: ResourceItem[];
+  resourceList?: ResourceItem[];
+  databaseImage?: string;
   finalMessage: string;
   characterImage?: string;
   characterPosition?: 'left' | 'right';
@@ -27,6 +28,7 @@ export function ResourceSummaryTemplate({ data, targetId }: ResourceSummaryTempl
     title,
     summaryPoints,
     resourceList,
+    databaseImage,
     finalMessage,
     characterImage,
     characterPosition = 'right',
@@ -95,32 +97,46 @@ export function ResourceSummaryTemplate({ data, targetId }: ResourceSummaryTempl
           </div>
         </div>
 
-        {/* リソースセクション */}
+        {/* リソースセクション - databaseImageがある場合は画像表示、なければresourceList表示 */}
         <div className="mb-1">
-          <h2 className={`text-lg font-bold text-gray-800 mb-2 flex items-center ${dynamicFontClass}`}>
-            <Link className="w-8 h-8 mr-2 text-blue-500" />
-            <span className="pb-1">参考ソース</span>
-          </h2>
-          <div className="space-y-2">
-            {resourceList.map((resource, index) => (
-              <div key={index} className="bg-gray-50 p-2 rounded-md">
-                <h3 className={`text-sm font-semibold text-gray-800 mb-1 flex items-center ${dynamicFontClass}`}>
-                  <span className="mr-1">{getResourceIcon(resource.title)}</span>
-                  <span className="mb-2 pb-1">{cleanMarkdown(resource.title)}</span>
-                </h3>
-                <div className="grid grid-cols-2 gap-1">
-                  {resource.items.map((item, itemIndex) => (
-                    <div key={itemIndex} className="flex items-start p-1 bg-white rounded text-xs">
-                      <span className="text-blue-500 mr-1 flex-shrink-0 mt-0.5" style={{transform: 'translateY(-4px)'}}>•</span>
-                      <p className={`text-gray-700 mb-2 ${dynamicFontClass}`} style={{fontSize: '11px'}}>
-                        {cleanMarkdown(item)}
-                      </p>
-                    </div>
-                  ))}
-                </div>
+          {databaseImage ? (
+            <div className="w-full">
+              <div className="bg-gray-50 p-2 rounded-md">
+                <img
+                  src={`/imag/template/${databaseImage}`}
+                  alt="KIKUYO DATABASE"
+                  className="w-10/12 mx-auto h-auto object-contain rounded-lg"
+                />
               </div>
-            ))}
-          </div>
+            </div>
+          ) : resourceList ? (
+            <>
+              <h2 className={`text-lg font-bold text-gray-800 mb-2 flex items-center ${dynamicFontClass}`}>
+                <Link className="w-8 h-8 mr-2 text-blue-500" />
+                <span className="pb-1">参考ソース</span>
+              </h2>
+              <div className="space-y-2">
+                {resourceList.map((resource, index) => (
+                  <div key={index} className="bg-gray-50 p-2 rounded-md">
+                    <h3 className={`text-sm font-semibold text-gray-800 mb-1 flex items-center ${dynamicFontClass}`}>
+                      <span className="mr-1">{getResourceIcon(resource.title)}</span>
+                      <span className="mb-2 pb-1">{cleanMarkdown(resource.title)}</span>
+                    </h3>
+                    <div className="grid grid-cols-2 gap-1">
+                      {resource.items.map((item, itemIndex) => (
+                        <div key={itemIndex} className="flex items-start p-1 bg-white rounded text-xs">
+                          <span className="text-blue-500 mr-1 flex-shrink-0 mt-0.5" style={{transform: 'translateY(-4px)'}}>•</span>
+                          <p className={`text-gray-700 mb-2 ${dynamicFontClass}`} style={{fontSize: '11px'}}>
+                            {cleanMarkdown(item)}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
+          ) : null}
         </div>
 
         {/* 最終メッセージ（2カラム+キャラクター） */}

@@ -1,0 +1,100 @@
+{
+  "rankingId": "DEV002",
+  "rankingName": "GitHub Copilot代替ツールTOP5",
+  "criteria": "adjustedTenScore",
+  "totalCandidates": 8,
+  "displayCount": 5,
+  "generatedAt": "2025-08-31T15:06:41.047Z",
+  "rankings": [
+    {
+      "rank": 1,
+      "toolName": "Claude Code",
+      "totalScore": 524,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Anthropic",
+      "description": "undefined...",
+      "criteriaScore": 524,
+      "evaluation": {
+        "immediacy": 84,
+        "simplicity": 74,
+        "popularity": 72,
+        "costPerformance": 94,
+        "specialization": 100,
+        "productivityGain": 100
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "GitHub Copilot",
+      "totalScore": 523,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "GitHub (Microsoft)",
+      "description": "undefined...",
+      "criteriaScore": 523,
+      "evaluation": {
+        "immediacy": 93,
+        "simplicity": 88,
+        "popularity": 93,
+        "costPerformance": 88,
+        "specialization": 78,
+        "productivityGain": 83
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "CrewAI",
+      "totalScore": 512,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "CrewAI Inc.",
+      "description": "undefined...",
+      "criteriaScore": 512,
+      "evaluation": {
+        "immediacy": 68,
+        "simplicity": 58,
+        "popularity": 100,
+        "costPerformance": 88,
+        "specialization": 100,
+        "productivityGain": 98
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "Codeium",
+      "totalScore": 505,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Exafunction Inc.",
+      "description": "undefined...",
+      "criteriaScore": 505,
+      "evaluation": {
+        "immediacy": 85,
+        "simplicity": 92,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 75,
+        "productivityGain": 80
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Cursor",
+      "totalScore": 502,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Anysphere",
+      "description": "undefined...",
+      "criteriaScore": 502,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 75,
+        "popularity": 80,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 92
+      }
+    }
+  ]
+}

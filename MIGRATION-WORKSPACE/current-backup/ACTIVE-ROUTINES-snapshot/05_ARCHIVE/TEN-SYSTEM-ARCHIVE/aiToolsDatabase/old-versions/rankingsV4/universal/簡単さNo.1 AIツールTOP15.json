@@ -1,0 +1,280 @@
+{
+  "rankingId": "UN001",
+  "rankingName": "簡単さNo.1 AIツールTOP15",
+  "criteria": "simplicity",
+  "totalCandidates": 65,
+  "displayCount": 15,
+  "generatedAt": "2025-08-31T15:06:41.214Z",
+  "rankings": [
+    {
+      "rank": 1,
+      "toolName": "Perplexity",
+      "totalScore": 545,
+      "starRating": "★★★★",
+      "category": "検索・情報収集",
+      "developer": "Perplexity AI",
+      "description": "undefined...",
+      "criteriaScore": 100,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 90,
+        "productivityGain": 85
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "Claude",
+      "totalScore": 570,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "Anthropic",
+      "description": "undefined...",
+      "criteriaScore": 100,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 100,
+        "productivityGain": 100
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "Gemini",
+      "totalScore": 559,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "Google",
+      "description": "undefined...",
+      "criteriaScore": 99,
+      "evaluation": {
+        "immediacy": 94,
+        "simplicity": 99,
+        "popularity": 89,
+        "costPerformance": 99,
+        "specialization": 89,
+        "productivityGain": 89
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "Character.AI",
+      "totalScore": 521,
+      "starRating": "★★★★",
+      "category": "AI チャットボット・キャラクター",
+      "developer": "Character Technologies Inc",
+      "description": "undefined...",
+      "criteriaScore": 97,
+      "evaluation": {
+        "immediacy": 92,
+        "simplicity": 97,
+        "popularity": 91,
+        "costPerformance": 87,
+        "specialization": 82,
+        "productivityGain": 72
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "ChatGPT",
+      "totalScore": 560,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "OpenAI",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 100,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 95
+      }
+    },
+    {
+      "rank": 6,
+      "toolName": "Looka",
+      "totalScore": 530,
+      "starRating": "★★★★",
+      "category": "AI ロゴ・ブランドデザイン",
+      "developer": "Looka",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 80,
+        "costPerformance": 85,
+        "specialization": 85,
+        "productivityGain": 90
+      }
+    },
+    {
+      "rank": 7,
+      "toolName": "Otter.ai",
+      "totalScore": 515,
+      "starRating": "★★★★",
+      "category": "AI音声認識・文字起こし",
+      "developer": "Otter.ai",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 100,
+        "simplicity": 95,
+        "popularity": 70,
+        "costPerformance": 80,
+        "specialization": 80,
+        "productivityGain": 90
+      }
+    },
+    {
+      "rank": 8,
+      "toolName": "tl;dv",
+      "totalScore": 540,
+      "starRating": "★★★★",
+      "category": "会議・コミュニケーション",
+      "developer": "tl;dv",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 95,
+        "popularity": 80,
+        "costPerformance": 90,
+        "specialization": 90,
+        "productivityGain": 95
+      }
+    },
+    {
+      "rank": 9,
+      "toolName": "Synthesia",
+      "totalScore": 537,
+      "starRating": "★★★★",
+      "category": "AI動画生成",
+      "developer": "Synthesia",
+      "description": "undefined...",
+      "criteriaScore": 94,
+      "evaluation": {
+        "immediacy": 94,
+        "simplicity": 94,
+        "popularity": 97,
+        "costPerformance": 74,
+        "specialization": 89,
+        "productivityGain": 89
+      }
+    },
+    {
+      "rank": 10,
+      "toolName": "Namelix",
+      "totalScore": 518,
+      "starRating": "★★★★",
+      "category": "AI 会社名・ブランド名生成",
+      "developer": "Brandmark (Namelix)",
+      "description": "undefined...",
+      "criteriaScore": 93,
+      "evaluation": {
+        "immediacy": 93,
+        "simplicity": 93,
+        "popularity": 78,
+        "costPerformance": 93,
+        "specialization": 73,
+        "productivityGain": 88
+      }
+    },
+    {
+      "rank": 11,
+      "toolName": "Murf",
+      "totalScore": 535,
+      "starRating": "★★★★",
+      "category": "音声生成",
+      "developer": "Murf AI",
+      "description": "undefined...",
+      "criteriaScore": 93,
+      "evaluation": {
+        "immediacy": 83,
+        "simplicity": 93,
+        "popularity": 95,
+        "costPerformance": 85,
+        "specialization": 91,
+        "productivityGain": 88
+      }
+    },
+    {
+      "rank": 12,
+      "toolName": "Speechify",
+      "totalScore": 523,
+      "starRating": "★★★★",
+      "category": "テキスト読み上げ",
+      "developer": "Speechify",
+      "description": "undefined...",
+      "criteriaScore": 92,
+      "evaluation": {
+        "immediacy": 88,
+        "simplicity": 92,
+        "popularity": 95,
+        "costPerformance": 78,
+        "specialization": 82,
+        "productivityGain": 88
+      }
+    },
+    {
+      "rank": 13,
+      "toolName": "Calendly",
+      "totalScore": 536,
+      "starRating": "★★★★",
+      "category": "AI Scheduling",
+      "developer": "Calendly Inc.",
+      "description": "AI-enhanced scheduling platform that automates meeting coordination with intelligent routing, availability optimization,...",
+      "criteriaScore": 92,
+      "evaluation": {
+        "immediacy": 97,
+        "simplicity": 92,
+        "popularity": 91,
+        "costPerformance": 82,
+        "specialization": 82,
+        "productivityGain": 92
+      }
+    },
+    {
+      "rank": 14,
+      "toolName": "Upscale.media",
+      "totalScore": 531,
+      "starRating": "★★★★",
+      "category": "AI 画像編集・加工",
+      "developer": "Upscale.media",
+      "description": "undefined...",
+      "criteriaScore": 92,
+      "evaluation": {
+        "immediacy": 82,
+        "simplicity": 92,
+        "popularity": 91,
+        "costPerformance": 87,
+        "specialization": 92,
+        "productivityGain": 87
+      }
+    },
+    {
+      "rank": 15,
+      "toolName": "Codeium",
+      "totalScore": 505,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Exafunction Inc.",
+      "description": "undefined...",
+      "criteriaScore": 92,
+      "evaluation": {
+        "immediacy": 85,
+        "simplicity": 92,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 75,
+        "productivityGain": 80
+      }
+    }
+  ]
+}

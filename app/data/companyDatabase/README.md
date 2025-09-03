@@ -1,148 +1,179 @@
-# 企業ランキングジェネレーター
+# 企業データベース・ランキングシステム
+## 2025年8月28日版
 
 ## 概要
-就活・転職者向けの企業ランキングを動的に生成するシステムです。様々な条件でランキングを組み換え、Instagram投稿用のナレッジファイル作成に活用できます。
+15業界84社の企業データを統合し、90パターンのランキング生成とInstagram投稿用ナレッジファイル作成を支援するシステムです。
 
 ## ファイル構成
 
 ```
 companyDatabase/
-├── companyMasterData.json     # 企業詳細データ
-├── rankingGenerator.js        # ランキング生成システム
-├── usage-examples.js          # 使用例
-└── README.md                  # このファイル
+├── companyMasterData.json       # 84社統合データベース
+├── createUnifiedDatabase.js    # DB統合スクリプト
+├── advancedRankingGenerator.js # 高度ランキング生成エンジン
+├── generateAllRankings.js      # 90パターン一括実行
+├── targetNeedsPatterns.js      # 90パターン定義
+├── /industries/                # 15業界個別JSONファイル
+├── /rankings/                  # 90パターン生成済みランキング
+└── README.md                   # このファイル
 ```
 
 ## 基本的な使用方法
 
-### 1. セットアップ
+### 1. 90パターンランキング一括生成
+```bash
+# 90パターン全自動生成
+node generateAllRankings.js
+
+# 結果は /rankings/ フォルダに出力
+```
+
+### 2. 個別ランキング生成
 ```javascript
-const CompanyRankingGenerator = require('./rankingGenerator.js');
+const AdvancedRankingGenerator = require('./advancedRankingGenerator.js');
 const companyData = require('./companyMasterData.json');
-const generator = new CompanyRankingGenerator(companyData);
-```
+const generator = new AdvancedRankingGenerator(companyData);
 
-### 2. 年収ランキング生成
-```javascript
-// トップ15社の年収ランキング
-const salaryRanking = generator.generateSalaryRanking(15);
+// 初任給ランキング
+const salaryRanking = generator.generateInitialSalaryRanking(10);
 
-// 業界限定（例：総合商社）
-const tradingRanking = generator.generateSalaryRanking(10, '商社');
-```
-
-### 3. ホワイト企業ランキング生成
-```javascript
-// 年間休日・残業時間重視のランキング
-const whiteRanking = generator.generateWhiteCompanyRanking(15);
-```
-
-### 4. 総合評価ランキング生成
-```javascript
-// 年収・働きやすさ・将来性を総合評価
-const overallRanking = generator.generateOverallRanking(15);
-```
-
-### 5. カスタム条件検索
-```javascript
-const customRanking = generator.generateCustomRanking({
-  industry: '製薬',              // 業界フィルター
-  salaryRange: [8000000, 20000000], // 年収範囲（800万〜2000万）
-  holidayRange: [125, 135],      // 年間休日範囲
-  sortBy: 'overall',             // ソート基準
-  limit: 10                      // 取得件数
+// ワークライフバランス企業
+const wlbRanking = generator.generateWorkLifeBalanceRanking(10, {
+  holidaysRange: [125, null],
+  overtimeRange: [null, 25]
 });
+
+// 年収ランキング（男性社会人向け）
+const highSalaryRanking = generator.generateHighSalaryRanking(20);
+```
+
+### 3. ターゲット別パターン
+```javascript
+const patterns = require('./targetNeedsPatterns.js');
+
+// 就活生向け30パターン
+const jobSeekerPatterns = patterns.jobSeekers;
+
+// 女性キャリア向け30パターン  
+const femaleCareerPatterns = patterns.femaleCareer;
+
+// 男性社会人向け30パターン
+const maleProfessionalPatterns = patterns.maleProfessional;
 ```
 
 ## 利用可能なメソッド
 
 | メソッド名 | 説明 | パラメータ例 |
 |-----------|------|-------------|
-| `generateSalaryRanking(limit, industry)` | 年収ランキング | `(15, '商社')` |
-| `generateWhiteCompanyRanking(limit)` | ホワイト企業ランキング | `(15)` |
-| `generateIndustryRanking(industry, criteria)` | 業界別ランキング | `('製薬', 'salary')` |
+| `generateInitialSalaryRanking(limit)` | 初任給ランキング | `(10)` |
+| `generateHighSalaryRanking(limit)` | 高年収ランキング | `(20)` |
+| `generateWorkLifeBalanceRanking(limit, filters)` | WLBランキング | `(10, {holidaysRange: [125, null]})` |
 | `generateOverallRanking(limit)` | 総合評価ランキング | `(15)` |
-| `generateCustomRanking(conditions)` | カスタム条件検索 | 上記例参照 |
+| `generateIndustrySpecificRanking(industry, criteria, limit)` | 業界別ランキング | `('IT', 'salary', 10)` |
 
-## データ追加方法
+## データ構造
 
-### 新しい企業を追加する場合
-`companyMasterData.json`の`companies`配列に以下の形式で追加：
-
+### 企業データ統合DB (companyMasterData.json)
 ```json
 {
-  "id": "C009",
-  "companyName": "新企業名",
-  "industry": "業界名",
-  "metrics": {
-    "salary": 15000000,        // 年収（円）
-    "holidays": 130,           // 年間休日数
-    "overtime": 25,            // 月間残業時間
-    "employees": 5000,         // 従業員数
-    "operatingMarginRate": 15.5, // 営業利益率（%）
-    "roe": 12.0               // ROE（%）
-  },
-  "features": {
-    "businessModel": "事業モデル",
-    "specialization": "専門分野",
-    "workStyle": "働き方の特徴",
-    "growth": "成長性"
-  },
-  "recruitment": {
-    "positions": ["職種1", "職種2"],
-    "annualHiring": "100-150"
-  },
-  "scores": {
-    "salary": "A",
-    "worklife": "B", 
-    "overall": "A"
-  }
+  "version": "2025-08-28",
+  "lastUpdated": "2025-08-28",
+  "totalIndustries": 15,
+  "totalCompanies": 84,
+  "industries": [
+    {
+      "industryId": "IT",
+      "industryName": "IT業界", 
+      "totalCompanies": 6,
+      "companies": [企業データ配列]
+    }
+  ]
 }
 ```
 
-### 新しい業界カテゴリを追加する場合
-`categories.industry`に業界名とその企業IDリストを追加：
+### 15業界個別JSONファイル
+- `IT_companies.json` - IT業界6社
+- `trading_companies.json` - 商社業界5社
+- `electronics_companies.json` - 総合電機業界5社
+- `gaming_companies.json` - ゲーム業界5社
+- `financial_companies.json` - 金融業界6社
+- `consulting_companies.json` - コンサル業界4社
+- `automotive_companies.json` - 自動車業界5社
+- `media_companies.json` - メディア・広告業界5社
+- `realestate_companies.json` - 不動産・建設業界5社
+- `chemical_companies.json` - 化学業界5社
+- `foreign_it_companies.json` - 外資系IT業界6社
+- `retail_companies.json` - 小売・サービス業界6社
+- `pharmaceutical_companies.json` - 製薬業界5社
+- `telecom_companies.json` - 通信インフラ業界6社
+- `infrastructure_companies.json` - インフラ業界5社
 
-```json
-"categories": {
-  "industry": {
-    "新業界": ["C009", "C010", "C011"]
-  }
-}
-```
+**合計**: 15業界84社
 
 ## Instagram投稿への活用
 
-生成されたランキングデータは以下のように活用できます：
+### Type003 KIKUYO起動術式での活用
+1. **90パターンランキング** → **K801〜K890ナレッジファイル**
+2. **unified-template-11-company-ranking**形式で投稿生成
+3. **ターゲット別最適化**（就活生・女性キャリア・男性社会人）
 
-1. **ナレッジファイル作成**: ランキング結果をK200.json等の形式に変換
-2. **投稿コンテンツ生成**: 企業説明文やハイライト情報を投稿文に活用
-3. **条件別コンテンツ**: 業界別、年収帯別、働き方別等のテーマ別投稿作成
+### 参考ガイド
+- Type003起動術式: `/ACTIVE-ROUTINES/02_ACTIVE_CONTENTS/feed-post-system/02_TYPE_ACTIVATION/TYPE003-KIKUYO-ACTIVATION.md`
+- 新規ランキング作成: `/ACTIVE-ROUTINES/02_ACTIVE_CONTENTS/data-systems/02_REFERENCE/ranking-creation-guides/NEW-RANKING-CREATION-GUIDE.md`
 
 ## 実行方法
 
 ```bash
-# 使用例の実行
-node usage-examples.js
+# 90パターン一括生成
+node generateAllRankings.js
 
-# 独自のスクリプト作成
-node your-custom-script.js
+# DB統合スクリプト実行（業界JSONファイル更新時）
+node createUnifiedDatabase.js
+
+# 個別テスト
+node -e "
+const generator = require('./advancedRankingGenerator.js');
+const data = require('./companyMasterData.json');
+const g = new generator(data);
+console.log(g.generateInitialSalaryRanking(5));
+"
 ```
+
+## 90パターン生成結果
+
+### ターゲット別パターン数
+- **就活生向け**: 30パターン (`/rankings/jobSeekers/`)
+- **女性キャリア向け**: 30パターン (`/rankings/femaleCareer/`) 
+- **男性社会人向け**: 30パターン (`/rankings/maleProfessional/`)
+
+### 生成状況
+- **成功率**: 100% (90/90パターン)
+- **最終実行日**: 2025年8月28日
+- **実行ログ**: `/rankings/execution_summary.json`
 
 ## 注意事項
 
-- 企業データは定期的に更新してください
-- 年収データは公開情報に基づく推定値です
-- ランキング生成時は最新データを使用してください
-- 新しい企業追加時は、categoriesの更新も忘れずに行ってください
+- レガシーファイルは`99_ARCHIVE/company-database-legacy/`に移動済み
+- 新規ランキング追加は`NEW-RANKING-CREATION-GUIDE.md`を参照
+- データ更新後は`createUnifiedDatabase.js`→`generateAllRankings.js`の順で実行
+- K801〜K890番台はこのシステム専用のナレッジID
 
-## トラブルシューティング
+## システム拡張予定
 
-**Q: ランキングに企業が表示されない**
-A: `categories.industry`に企業IDが正しく登録されているか確認してください
+### 企業ランキング系（追加予定）
+- 成長企業ランキング
+- 女性活躍企業ランキング  
+- ESG経営企業ランキング
+- リモートワーク充実企業ランキング
 
-**Q: カスタム検索で結果が0件**
-A: 条件が厳しすぎる可能性があります。範囲を広げて再試行してください
+### 新規データベース系
+- **MBTI適職ランキング** (K900番台～)
+- **習慣ランキング**
+- **ガジェットランキング** 
+- **ツールランキング**
 
-**Q: 総合スコアの計算方法は？**
-A: `getOverallScore()`メソッドで年収30%、休日25%、残業25%、営業利益率20%の重み付け平均で算出しています
+---
+
+**作成**: Claude Code  
+**最終更新**: 2025年8月28日  
+**現在のステータス**: Phase1-2完了、Phase3移行準備完了

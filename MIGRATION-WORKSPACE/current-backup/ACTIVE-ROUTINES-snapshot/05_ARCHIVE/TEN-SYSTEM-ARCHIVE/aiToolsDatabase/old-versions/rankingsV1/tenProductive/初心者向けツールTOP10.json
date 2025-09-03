@@ -1,0 +1,201 @@
+{
+  "rankingId": "TEN020",
+  "rankingName": "初心者向けツールTOP10",
+  "description": "初心者でも簡単に使えるAIツール",
+  "generatedAt": "2025-08-31T08:28:41.390Z",
+  "criteria": "easiness",
+  "filters": {
+    "difficultyLevel": "beginner"
+  },
+  "totalCandidates": 30,
+  "displayCount": 10,
+  "tools": [
+    {
+      "rank": 1,
+      "toolId": "AI002",
+      "name": "ChatGPT",
+      "category": "AI会話・アシスタント",
+      "developer": "OpenAI",
+      "totalScore": 560,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Advanced Voice mode（動画・画面共有対応）",
+        "o-series推論モデル",
+        "Sora動画生成",
+        "Deep research agent"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 1
+    },
+    {
+      "rank": 2,
+      "toolId": "AI008",
+      "name": "Gemini",
+      "category": "AI会話・アシスタント",
+      "developer": "Google",
+      "totalScore": 535,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Deep Research（自動ウェブ調査）",
+        "Veo 3動画生成",
+        "Google Workspace完全統合",
+        "1Mトークンコンテキスト"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 1
+    },
+    {
+      "rank": 3,
+      "toolId": "AI042",
+      "name": "Replit",
+      "category": "開発支援・コーディング",
+      "developer": "Replit Inc.",
+      "totalScore": 533,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Replit Agent（自然言語からアプリ構築）",
+        "50+プログラミング言語対応",
+        "リアルタイム協業機能"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 6
+    },
+    {
+      "rank": 4,
+      "toolId": "AI066",
+      "name": "Looka",
+      "category": "AI ロゴ・ブランドデザイン",
+      "developer": "Looka",
+      "totalScore": 530,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "機械学習による個人化されたロゴ提案",
+        "300+ブランド素材テンプレート",
+        "完全なブランドガイドライン",
+        "無制限編集・ダウンロード"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 9
+    },
+    {
+      "rank": 5,
+      "toolId": "AI005",
+      "name": "Perplexity",
+      "category": "検索・情報収集",
+      "developer": "Perplexity AI",
+      "totalScore": 515,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "リアルタイムウェブ検索",
+        "ソース引用付き回答",
+        "Perplexity Assistant（2025年1月）",
+        "Comet AI browser（2025年7月）"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 1
+    },
+    {
+      "rank": 6,
+      "toolId": "AI015",
+      "name": "Otter.ai",
+      "category": "AI音声認識・文字起こし",
+      "developer": "Otter.ai",
+      "totalScore": 515,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "95%精度",
+        "AIミーティングエージェント",
+        "多言語対応",
+        "音声コマンド"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 2
+    },
+    {
+      "rank": 7,
+      "toolId": "AI033",
+      "name": "Character.AI",
+      "category": "AI チャットボット・キャラクター",
+      "developer": "Character Technologies Inc",
+      "totalScore": 505,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "キャラクター作成",
+        "グループチャット(Rooms)",
+        "音声会話",
+        "多言語対応"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 5
+    },
+    {
+      "rank": 8,
+      "toolId": "AI012",
+      "name": "Mapify",
+      "category": "AIマインドマップ生成",
+      "developer": "Mapify",
+      "totalScore": 455,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "7時間動画対応",
+        "200,000文字文書対応",
+        "100言語翻訳",
+        "リアルタイムAIチャット"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 2
+    },
+    {
+      "rank": 9,
+      "toolId": "AI044",
+      "name": "Codeium",
+      "category": "開発支援・コーディング",
+      "developer": "Exafunction Inc.",
+      "totalScore": 505,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "永続無料プラン（無制限）",
+        "リポジトリ全体コンテキスト理解",
+        "40+ IDE・70+ 言語対応"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 92,
+      "batchNumber": 6
+    },
+    {
+      "rank": 10,
+      "toolId": "AI047",
+      "name": "Google Colab",
+      "category": "AI研究・実行環境",
+      "developer": "Google LLC",
+      "totalScore": 551,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Data Science Agent（DSA）",
+        "Gemini 2.5 Flash統合",
+        "自律解析フロー・エラー自動修正"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 90,
+      "batchNumber": 6
+    }
+  ]
+}

@@ -1058,10 +1058,10 @@
         "immediacy": 90,
         "simplicity": 85,
         "popularity": 90,
-        "costPerformance": 95,
+        "costPerformance": 90,
         "specialization": 95,
         "productivityGain": 90,
-        "totalScore": 545
+        "totalScore": 540
       },
       "batchNumber": 1,
       "toolRange": "1-8"
@@ -8825,13 +8825,13 @@
         "employeeCount": 45
       },
       "tenEvaluation": {
-        "immediacy": 95,
+        "immediacy": 93,
         "simplicity": 90,
         "popularity": 88,
-        "costPerformance": 92,
-        "specialization": 98,
+        "costPerformance": 89,
+        "specialization": 93,
         "productivityGain": 84,
-        "totalScore": 547
+        "totalScore": 537
       },
       "batchNumber": 10,
       "toolRange": "66-77",
@@ -9331,12 +9331,12 @@
       },
       "tenEvaluation": {
         "immediacy": 92,
-        "simplicity": 95,
-        "popularity": 90,
-        "costPerformance": 100,
+        "simplicity": 93,
+        "popularity": 83,
+        "costPerformance": 95,
         "specialization": 88,
         "productivityGain": 85,
-        "totalScore": 550
+        "totalScore": 536
       },
       "batchNumber": 10,
       "toolRange": "66-77",
@@ -9992,13 +9992,13 @@
         "employeeCount": 300
       },
       "tenEvaluation": {
-        "immediacy": 90,
+        "immediacy": 85,
         "simplicity": 88,
         "popularity": 95,
-        "costPerformance": 92,
+        "costPerformance": 87,
         "specialization": 95,
         "productivityGain": 93,
-        "totalScore": 553
+        "totalScore": 543
       },
       "batchNumber": 10,
       "toolRange": "66-77",
@@ -10328,11 +10328,11 @@
       "tenEvaluation": {
         "immediacy": 92,
         "simplicity": 95,
-        "popularity": 90,
-        "costPerformance": 88,
-        "specialization": 90,
-        "productivityGain": 91,
-        "totalScore": 546
+        "popularity": 88,
+        "costPerformance": 86,
+        "specialization": 87,
+        "productivityGain": 87,
+        "totalScore": 535
       },
       "batchNumber": 10,
       "toolRange": "66-77",

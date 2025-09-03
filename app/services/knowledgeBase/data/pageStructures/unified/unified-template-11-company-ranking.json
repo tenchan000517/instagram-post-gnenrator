@@ -1,17 +1,15 @@
 {
   "pageStructureId": "unified-template-11-company-ranking",
-  "name": "Unified Template 11 - Company Ranking Pattern",
-  "description": "導入・ランキング表示・企業詳細（複数）・参考リソース構成",
+  "name": "Unified Template 11 - Company Ranking Pattern (KIKUYO)",
+  "description": "KIKUYO専用：導入・ランキング表示・企業詳細（複数）・サマリー構成",
   "pages": [
     {
       "pageNumber": 1,
-      "templateId": "basic_intro",
+      "templateId": "kikuyo_intro",
       "templateStructure": {
-        "title": "string",
-        "targetAudience": "string", 
         "problems": "string[]",
-        "additionalMessage": "string",
-        "savePrompt": "string"
+        "introMessage": "string",
+        "solution": "string"
       }
     },
     {
@@ -87,17 +85,20 @@
     },
     {
       "pageNumber": "last",
-      "templateId": "resource_summary",
+      "templateId": "kikuyo_summary",
       "templateStructure": {
         "title": "string",
+        "subtitle": "string",
         "summaryPoints": "string[]",
-        "resourceList": [
+        "actionSteps": [
           {
-            "title": "string",
-            "items": "string[]"
+            "step": "string",
+            "description": "string"
           }
         ],
-        "finalMessage": "string"
+        "finalMessage": "string",
+        "databaseImage": "string",
+        "additionalInfo": "string"
       }
     }
   ]

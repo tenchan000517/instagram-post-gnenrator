@@ -1,4 +1,5 @@
 // テンプレートの型定義とメタデータ
+import React from 'react'
 import { MdFilter1, MdFilter2, MdFilter3, MdFilter4, MdFilter5, MdFilter6, MdFilter7, MdFilter8, MdFilter9 } from 'react-icons/md'
 
 // ページ番号アイコンのマッピング
@@ -55,6 +56,12 @@ export const cleanMarkdown = (text: string): string => {
     .replace(/`(.*?)`/g, '$1')       // `code` を除去
     .replace(/[\u{1F600}-\u{1F64F}]|[\u{1F300}-\u{1F5FF}]|[\u{1F680}-\u{1F6FF}]|[\u{1F1E0}-\u{1F1FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]/gu, '') // 絵文字を除去
     .trim()
+}
+
+// 改行処理のためのテキスト分割関数（各テンプレートで使用）
+export const splitTextByLines = (text: string): string[] => {
+  if (!text) return ['']
+  return cleanMarkdown(text).split('\n')
 }
 
 export interface TemplateMetadata {
@@ -293,6 +300,11 @@ export type TemplateType =
   | 'section_blocks'               // ㊽セクションブロック型（unified）
   | 'dynamic_boxes'                // ㊾ダイナミックボックス型（unified）
   | 'image_point'                  // ㊿画像ポイント型（unified）
+  // TEN専用テンプレート
+  | 'ten_intro'                    // 🔟TEN導入型
+  | 'tool_showcase'                // 🔟ツール一覧型
+  | 'enhanced_tool_detail'         // 🔟強化ツール詳細型
+  | 'ten_summary'                  // 🔟TENまとめ型
 
 // テンプレートコンポーネントのプロパティ型
 export interface TemplateProps {

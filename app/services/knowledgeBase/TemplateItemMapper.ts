@@ -125,14 +125,18 @@ export class TemplateItemMapper {
     } catch (error) {
       console.warn(`⚠️ Knowledge base extraction failed for page ${page.pageNumber}, falling back to AI generation`);
       
-      // フォールバック: AI生成
-      const mappingPrompt = this.buildMappingPrompt(input, page, targetCombination);
-      const result = await this.model.generateContent(mappingPrompt);
-      const response = await result.response;
-      const text = response.text();
+      // 🚫 AI生成フォールバックを無効化 - 緊急対応
+      // const mappingPrompt = this.buildMappingPrompt(input, page, targetCombination);
+      // const result = await this.model.generateContent(mappingPrompt);
+      // const response = await result.response;
+      // const text = response.text();
       
-      const cleanText = text.replace(/```json\n?|```\n?/g, '').trim();
-      const mappedItems = JSON.parse(cleanText);
+      // const cleanText = text.replace(/```json\n?|```\n?/g, '').trim();
+      // const mappedItems = JSON.parse(cleanText);
+      
+      // 緊急フォールバック: エラー時は空データ返却
+      console.error('🚫 AI生成無効化中 - 空のマッピング結果を返却');
+      const mappedItems = [];
 
       return {
         pageNumber: page.pageNumber,

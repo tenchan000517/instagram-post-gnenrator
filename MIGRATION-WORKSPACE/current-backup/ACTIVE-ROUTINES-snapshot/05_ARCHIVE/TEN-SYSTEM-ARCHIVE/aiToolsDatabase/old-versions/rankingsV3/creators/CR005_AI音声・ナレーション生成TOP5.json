@@ -1,0 +1,47 @@
+{
+  "id": "CR005",
+  "title": "AI音声・ナレーション生成TOP5",
+  "description": "クリエイター・デザイナー向けのAI音声・ナレーション生成TOP5です。調整済みスコアに基づいて選出しています。",
+  "category": "クリエイター向けAIツール",
+  "targetAudience": "T004: 26-29歳会社員・クリエイター・デザイナー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "音声生成・クローニング"
+  },
+  "generatedAt": "2025-08-31T10:50:18.703Z",
+  "totalMatched": 1,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "ElevenLabs",
+      "category": "音声生成・クローニング",
+      "companyName": "ElevenLabs",
+      "score": 397.5,
+      "originalScore": 530,
+      "officialUrl": "https://elevenlabs.io",
+      "metrics": {
+        "immediacy": 85,
+        "simplicity": 88,
+        "popularity": 92,
+        "costPerformance": 82,
+        "specialization": 95,
+        "productivityGain": 88
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 5,
+        "currency": "USD"
+      }
+    }
+  ]
+}

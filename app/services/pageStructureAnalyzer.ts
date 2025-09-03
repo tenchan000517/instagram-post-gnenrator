@@ -145,7 +145,8 @@ ${input}
 `
 
     try {
-      const result = await this.model.generateContent(basePrompt)
+      // 🚫 AI API呼び出しをコメントアウト - 緊急対応
+// const result = await this.model.generateContent(basePrompt)
       const response = await result.response
       const text = response.text()
 

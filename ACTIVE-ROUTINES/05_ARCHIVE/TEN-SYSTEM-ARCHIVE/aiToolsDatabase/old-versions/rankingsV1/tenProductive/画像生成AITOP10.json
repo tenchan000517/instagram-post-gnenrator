@@ -1,0 +1,13 @@
+{
+  "rankingId": "TEN010",
+  "rankingName": "画像生成AITOP10",
+  "description": "画像生成・編集AIツール",
+  "generatedAt": "2025-08-31T08:28:41.354Z",
+  "criteria": "tenScore",
+  "filters": {
+    "category": "image-generation"
+  },
+  "totalCandidates": 0,
+  "displayCount": 0,
+  "tools": []
+}

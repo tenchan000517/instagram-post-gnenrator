@@ -1,0 +1,97 @@
+{
+  "patternId": "JS064",
+  "patternName": "総合電機業界初任給TOP10",
+  "criteria": "initialSalary",
+  "limit": 10,
+  "filters": {
+    "industry": "総合電機業界"
+  },
+  "generatedAt": "2025-08-29T12:30:22.795Z",
+  "totalMatched": 6,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "ソニー",
+      "industry": "総合電機メーカー・エンタテインメント複合企業",
+      "score": 0,
+      "metrics": {
+        "salary": 11180000,
+        "initialSalary": null,
+        "holidays": 126,
+        "overtime": 24.1,
+        "vacationRate": 70.9,
+        "turnoverRate3Years": 1.3
+      }
+    },
+    {
+      "rank": 2,
+      "companyName": "富士通",
+      "industry": "総合電機メーカー兼総合ITベンダー",
+      "score": 0,
+      "metrics": {
+        "salary": 9650000,
+        "initialSalary": null,
+        "holidays": 126,
+        "overtime": 20.2,
+        "vacationRate": 71,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 3,
+      "companyName": "パナソニックホールディングス",
+      "industry": "総合電機業界",
+      "score": 0,
+      "metrics": {
+        "salary": 9560000,
+        "initialSalary": null,
+        "holidays": 127,
+        "overtime": 30,
+        "vacationRate": null,
+        "turnoverRate3Years": 3.4
+      }
+    },
+    {
+      "rank": 4,
+      "companyName": "日立製作所",
+      "industry": "総合電機・社会インフラ業界",
+      "score": 0,
+      "metrics": {
+        "salary": 9610000,
+        "initialSalary": null,
+        "holidays": 126,
+        "overtime": 17.5,
+        "vacationRate": 80.5,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 5,
+      "companyName": "NEC",
+      "industry": "総合電機業界",
+      "score": 0,
+      "metrics": {
+        "salary": 9630000,
+        "initialSalary": null,
+        "holidays": 126,
+        "overtime": 23.1,
+        "vacationRate": 63.1,
+        "turnoverRate3Years": 3.9
+      }
+    },
+    {
+      "rank": 6,
+      "companyName": "三菱電機",
+      "industry": "総合電機業界",
+      "score": 0,
+      "metrics": {
+        "salary": 8700000,
+        "initialSalary": null,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    }
+  ]
+}

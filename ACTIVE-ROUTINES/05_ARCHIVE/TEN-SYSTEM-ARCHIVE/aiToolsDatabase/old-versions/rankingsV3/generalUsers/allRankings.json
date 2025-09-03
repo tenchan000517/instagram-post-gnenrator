@@ -1,0 +1,2279 @@
+{
+  "AU001": {
+    "rankingId": "AU001",
+    "rankingName": "AIツール総合ランキングTOP10",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 65,
+    "displayCount": 10,
+    "generatedAt": "2025-08-31T15:02:17.945Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Claude",
+        "totalScore": 570,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 570,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://claude.ai",
+        "pricing": "{\"freeTier\":\"月20メッセージ制限、基本機能利用可\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Pro: 月間メッセージ無制限、優先アクセス\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":100,\"maxPrice200\":200,\"maxFeatures\":\"Claude Opus 4.1、高速応答、長文対応\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 560,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 3,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 559,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 4,
+        "toolName": "Perplexity",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "検索・情報収集",
+        "developer": "Perplexity AI",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.perplexity.ai",
+        "pricing": "{\"freeTier\":\"無制限Quick Searches、5 Pro Searches/日\",\"freeFeatures\":\"基本AI検索、ソース引用\",\"proPrice\":20,\"proFeatures\":\"無制限クエリ、高速応答、高度AIモデルアクセス\",\"enterpriseProPrice\":40,\"enterpriseProFeatures\":\"チーム機能、管理ダッシュボード、優先サポート\",\"annualDiscount\":\"$400/年（Enterprise Pro）\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 5,
+        "toolName": "Fish Audio",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "音声生成・処理",
+        "developer": "Hanabi AI Inc. (OpenAudio)",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 85,
+          "popularity": 90,
+          "costPerformance": 95,
+          "specialization": 95,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://fish.audio",
+        "pricing": "{\"freeTier\":\"10,000文字/月\",\"freeFeatures\":\"基本TTS・音声クローニング\",\"premiumPrice\":9.99,\"premiumFeatures\":\"無制限音声生成、優先処理、商用利用権、API クレジット$10/月\",\"proPrice\":99.99,\"proFeatures\":\"高品質リファレンス音声、最新AIモデル優先アクセス\",\"proStatus\":\"予定\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 6,
+        "toolName": "Genspark",
+        "totalScore": 543,
+        "starRating": "★★★★",
+        "category": "AI検索・リサーチ",
+        "developer": "Mainfunc Inc.",
+        "description": "undefined...",
+        "criteriaScore": 543,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 88,
+          "popularity": 83,
+          "costPerformance": 98,
+          "specialization": 93,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://genspark.ai",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 7,
+        "toolName": "tl;dv",
+        "totalScore": 540,
+        "starRating": "★★★★",
+        "category": "会議・コミュニケーション",
+        "developer": "tl;dv",
+        "description": "undefined...",
+        "criteriaScore": 540,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 95,
+          "popularity": 80,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://tldv.io",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 8,
+        "toolName": "Manus",
+        "totalScore": 539,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Monica (Manus AI)",
+        "description": "undefined...",
+        "criteriaScore": 539,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 90,
+          "popularity": 90,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://manus.im",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 9,
+        "toolName": "Gamma",
+        "totalScore": 538,
+        "starRating": "★★★★",
+        "category": "プレゼンテーション・資料作成",
+        "developer": "Gamma Technologies Inc.",
+        "description": "undefined...",
+        "criteriaScore": 538,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 90,
+          "popularity": 89,
+          "costPerformance": 90,
+          "specialization": 89,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://gamma.app",
+        "pricing": "{\"freeTier\":\"月3プレゼンテーション、基本テンプレート\",\"freeCredits\":400,\"starterPrice\":8,\"starterFeatures\":\"Plus: 月10プレゼン、プレミアムテンプレート\",\"proPrice\":20,\"proFeatures\":\"Pro: 無制限プレゼン、AI機能フル、チーム共有\",\"enterprisePrice\":\"要相談\",\"enterpriseFeatures\":\"Enterprise: 高度な管理機能、SSO、優先サポート\"}"
+      },
+      {
+        "rank": 10,
+        "toolName": "Notion AI",
+        "totalScore": 538,
+        "starRating": "★★★★",
+        "category": "生産性・文書作成",
+        "developer": "Notion Labs",
+        "description": "undefined...",
+        "criteriaScore": 538,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 89,
+          "popularity": 90,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://www.notion.com",
+        "pricing": "{\"freeTier\":\"AI機能限定トライアル\",\"freeNote\":\"2025年5月以降、新規ユーザーは限定トライアルのみ\",\"plusPrice\":null,\"plusNote\":\"AI機能は限定トライアルのみ\",\"businessPrice\":20,\"businessFeatures\":\"AI完全アクセス・GPT-4.1・Claude 3.7 Sonnet・チーム機能\",\"businessAnnualPrice\":20,\"enterprisePrice\":\"要問合せ\",\"enterpriseFeatures\":\"エンタープライズ機能・高度セキュリティ\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU002": {
+    "rankingId": "AU002",
+    "rankingName": "AIツール総合ランキングTOP20",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 65,
+    "displayCount": 20,
+    "generatedAt": "2025-08-31T15:02:17.946Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Claude",
+        "totalScore": 570,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 570,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://claude.ai",
+        "pricing": "{\"freeTier\":\"月20メッセージ制限、基本機能利用可\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Pro: 月間メッセージ無制限、優先アクセス\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":100,\"maxPrice200\":200,\"maxFeatures\":\"Claude Opus 4.1、高速応答、長文対応\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 560,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 3,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 559,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 4,
+        "toolName": "Perplexity",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "検索・情報収集",
+        "developer": "Perplexity AI",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.perplexity.ai",
+        "pricing": "{\"freeTier\":\"無制限Quick Searches、5 Pro Searches/日\",\"freeFeatures\":\"基本AI検索、ソース引用\",\"proPrice\":20,\"proFeatures\":\"無制限クエリ、高速応答、高度AIモデルアクセス\",\"enterpriseProPrice\":40,\"enterpriseProFeatures\":\"チーム機能、管理ダッシュボード、優先サポート\",\"annualDiscount\":\"$400/年（Enterprise Pro）\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 5,
+        "toolName": "Fish Audio",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "音声生成・処理",
+        "developer": "Hanabi AI Inc. (OpenAudio)",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 85,
+          "popularity": 90,
+          "costPerformance": 95,
+          "specialization": 95,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://fish.audio",
+        "pricing": "{\"freeTier\":\"10,000文字/月\",\"freeFeatures\":\"基本TTS・音声クローニング\",\"premiumPrice\":9.99,\"premiumFeatures\":\"無制限音声生成、優先処理、商用利用権、API クレジット$10/月\",\"proPrice\":99.99,\"proFeatures\":\"高品質リファレンス音声、最新AIモデル優先アクセス\",\"proStatus\":\"予定\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 6,
+        "toolName": "Genspark",
+        "totalScore": 543,
+        "starRating": "★★★★",
+        "category": "AI検索・リサーチ",
+        "developer": "Mainfunc Inc.",
+        "description": "undefined...",
+        "criteriaScore": 543,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 88,
+          "popularity": 83,
+          "costPerformance": 98,
+          "specialization": 93,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://genspark.ai",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 7,
+        "toolName": "tl;dv",
+        "totalScore": 540,
+        "starRating": "★★★★",
+        "category": "会議・コミュニケーション",
+        "developer": "tl;dv",
+        "description": "undefined...",
+        "criteriaScore": 540,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 95,
+          "popularity": 80,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://tldv.io",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 8,
+        "toolName": "Manus",
+        "totalScore": 539,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Monica (Manus AI)",
+        "description": "undefined...",
+        "criteriaScore": 539,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 90,
+          "popularity": 90,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://manus.im",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 9,
+        "toolName": "Gamma",
+        "totalScore": 538,
+        "starRating": "★★★★",
+        "category": "プレゼンテーション・資料作成",
+        "developer": "Gamma Technologies Inc.",
+        "description": "undefined...",
+        "criteriaScore": 538,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 90,
+          "popularity": 89,
+          "costPerformance": 90,
+          "specialization": 89,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://gamma.app",
+        "pricing": "{\"freeTier\":\"月3プレゼンテーション、基本テンプレート\",\"freeCredits\":400,\"starterPrice\":8,\"starterFeatures\":\"Plus: 月10プレゼン、プレミアムテンプレート\",\"proPrice\":20,\"proFeatures\":\"Pro: 無制限プレゼン、AI機能フル、チーム共有\",\"enterprisePrice\":\"要相談\",\"enterpriseFeatures\":\"Enterprise: 高度な管理機能、SSO、優先サポート\"}"
+      },
+      {
+        "rank": 10,
+        "toolName": "Notion AI",
+        "totalScore": 538,
+        "starRating": "★★★★",
+        "category": "生産性・文書作成",
+        "developer": "Notion Labs",
+        "description": "undefined...",
+        "criteriaScore": 538,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 89,
+          "popularity": 90,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://www.notion.com",
+        "pricing": "{\"freeTier\":\"AI機能限定トライアル\",\"freeNote\":\"2025年5月以降、新規ユーザーは限定トライアルのみ\",\"plusPrice\":null,\"plusNote\":\"AI機能は限定トライアルのみ\",\"businessPrice\":20,\"businessFeatures\":\"AI完全アクセス・GPT-4.1・Claude 3.7 Sonnet・チーム機能\",\"businessAnnualPrice\":20,\"enterprisePrice\":\"要問合せ\",\"enterpriseFeatures\":\"エンタープライズ機能・高度セキュリティ\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 11,
+        "toolName": "Synthesia",
+        "totalScore": 537,
+        "starRating": "★★★★",
+        "category": "AI動画生成",
+        "developer": "Synthesia",
+        "description": "undefined...",
+        "criteriaScore": 537,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 94,
+          "popularity": 97,
+          "costPerformance": 74,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://www.synthesia.io/",
+        "pricing": "{\"freeTier\":\"3分/月・9種類アバター・140言語対応\",\"freeCredits\":\"3\",\"starterPrice\":\"$29/月\",\"starterFeatures\":\"10分/月・125+アバター・1個人アバター・ロゴ削除\",\"proPrice\":\"$89/月\",\"proFeatures\":\"30分/月・180+アバター・5個人アバター・動画吹替・API\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額/年額\"}"
+      },
+      {
+        "rank": 12,
+        "toolName": "Canva",
+        "totalScore": 537,
+        "starRating": "★★★★",
+        "category": "AI統合デザインプラットフォーム",
+        "developer": "Canva Pty Ltd",
+        "description": "undefined...",
+        "criteriaScore": 537,
+        "evaluation": {
+          "immediacy": 89,
+          "simplicity": 90,
+          "popularity": 89,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://www.canva.com/",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 13,
+        "toolName": "Calendly",
+        "totalScore": 536,
+        "starRating": "★★★★",
+        "category": "AI Scheduling",
+        "developer": "Calendly Inc.",
+        "description": "AI-enhanced scheduling platform that automates meeting coordination with intelligent routing, availability optimization,...",
+        "criteriaScore": 536,
+        "evaluation": {
+          "immediacy": 97,
+          "simplicity": 92,
+          "popularity": 91,
+          "costPerformance": 82,
+          "specialization": 82,
+          "productivityGain": 92
+        },
+        "officialUrl": "https://calendly.com",
+        "pricing": "{\"freePlan\":\"Basic scheduling for one event type, unlimited meetings\",\"paidPlans\":[{\"planName\":\"Standard\",\"monthlyPrice\":\"$12\",\"annualPrice\":\"$10/month ($120/year)\",\"features\":[\"Unlimited event types\",\"Connect 6 calendars\",\"Group events\",\"Custom branding\",\"Live chat support\"]},{\"planName\":\"Teams\",\"monthlyPrice\":\"$20\",\"annualPrice\":\"$16/month ($192/year)\",\"features\":[\"Round-robin scheduling\",\"Collective scheduling\",\"Salesforce integration\",\"Team reporting\",\"Advanced analytics\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"~$42 ($15,000/year minimum)\",\"annualPrice\":\"$15,000+/year\",\"features\":[\"SAML SSO\",\"Advanced security\",\"Dedicated account partner\",\"Microsoft Dynamics 365\",\"Premium support\"]}]}"
+      },
+      {
+        "rank": 14,
+        "toolName": "Murf",
+        "totalScore": 535,
+        "starRating": "★★★★",
+        "category": "音声生成",
+        "developer": "Murf AI",
+        "description": "undefined...",
+        "criteriaScore": 535,
+        "evaluation": {
+          "immediacy": 83,
+          "simplicity": 93,
+          "popularity": 95,
+          "costPerformance": 85,
+          "specialization": 91,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://murf.ai",
+        "pricing": "{\"freeTier\":\"10分生成時間、200+音声利用可\",\"freeCredits\":\"10分\",\"starterPrice\":19,\"starterFeatures\":\"Creator: $19/月（年払い）、60音声、10言語\",\"proPrice\":26,\"proFeatures\":\"Pro: $26/月、120+音声、20+言語、商用利用権\",\"enterprisePrice\":75,\"enterpriseFeatures\":\"Enterprise: $75/月（5ユーザー）、無制限生成・転写\"}"
+      },
+      {
+        "rank": 15,
+        "toolName": "Zapier",
+        "totalScore": 533,
+        "starRating": "★★★★",
+        "category": "AI Workflow Automation",
+        "developer": "Zapier Inc.",
+        "description": "AI-orchestration platform enabling workflow automation across 8,000+ apps with AI agents, chatbots, and natural language...",
+        "criteriaScore": 533,
+        "evaluation": {
+          "immediacy": 87,
+          "simplicity": 82,
+          "popularity": 98,
+          "costPerformance": 72,
+          "specialization": 97,
+          "productivityGain": 97
+        },
+        "officialUrl": "https://zapier.com",
+        "pricing": "{\"freePlan\":\"100 tasks/month, 2-step Zaps, AI power-ups, unlimited Zaps\",\"paidPlans\":[{\"planName\":\"Professional\",\"monthlyPrice\":\"$29.99\",\"annualPrice\":\"Not specified\",\"features\":[\"Unlimited premium apps\",\"Multi-step Zaps\",\"Webhooks\",\"Email/chat support\",\"AI workflows\"]},{\"planName\":\"Team\",\"monthlyPrice\":\"$103.50\",\"annualPrice\":\"Not specified\",\"features\":[\"Shared workspaces\",\"Shared connections\",\"SAML SSO\",\"25 users\",\"Advanced AI features\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"Custom\",\"annualPrice\":\"Custom\",\"features\":[\"Advanced security\",\"Dedicated support\",\"Custom integrations\",\"Enterprise AI agents\"]}]}"
+      },
+      {
+        "rank": 16,
+        "toolName": "Veo 3",
+        "totalScore": 532,
+        "starRating": "★★★★",
+        "category": "動画生成・編集",
+        "developer": "Google DeepMind",
+        "description": "undefined...",
+        "criteriaScore": 532,
+        "evaluation": {
+          "immediacy": 89,
+          "simplicity": 89,
+          "popularity": 89,
+          "costPerformance": 88,
+          "specialization": 89,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://deepmind.google/models/veo/",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 17,
+        "toolName": "Upscale.media",
+        "totalScore": 531,
+        "starRating": "★★★★",
+        "category": "AI 画像編集・加工",
+        "developer": "Upscale.media",
+        "description": "undefined...",
+        "criteriaScore": 531,
+        "evaluation": {
+          "immediacy": 82,
+          "simplicity": 92,
+          "popularity": 91,
+          "costPerformance": 87,
+          "specialization": 92,
+          "productivityGain": 87
+        },
+        "officialUrl": "https://upscale.media",
+        "pricing": "{\"freeTier\":\"月3クレジット、日次2画像変換\",\"freeCredits\":3,\"starterPrice\":6.99,\"starterFeatures\":\"月100クレジット\",\"proPrice\":14.99,\"proFeatures\":\"月500クレジット\",\"maxPrice100\":19.99,\"maxPrice200\":null,\"maxFeatures\":\"年間12,000クレジット、最大コスト効率\",\"enterprisePrice\":\"カスタム\",\"billingCycle\":\"月額/年額/従量課金\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 18,
+        "toolName": "Grammarly",
+        "totalScore": 530,
+        "starRating": "★★★★",
+        "category": "AI Writing Assistance",
+        "developer": "Grammarly Inc.",
+        "description": "AI-powered writing assistant that provides grammar checking, style suggestions, tone detection, and generative AI featur...",
+        "criteriaScore": 530,
+        "evaluation": {
+          "immediacy": 88,
+          "simplicity": 89,
+          "popularity": 88,
+          "costPerformance": 89,
+          "specialization": 88,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://www.grammarly.com",
+        "pricing": "{\"freePlan\":\"Basic grammar and spelling checks, tone detection, 100 AI prompts per month\",\"paidPlans\":[{\"planName\":\"Pro\",\"monthlyPrice\":\"$30\",\"annualPrice\":\"$12/month ($144/year)\",\"features\":[\"2,000 monthly AI generative prompts\",\"Advanced grammar and style fixes\",\"Clarity suggestions\",\"Tone adjustments\",\"Plagiarism checker\",\"Team features\",\"Style guides\",\"Brand tones\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"Custom pricing\",\"annualPrice\":\"Custom pricing\",\"features\":[\"All Pro features\",\"Unlimited AI prompts\",\"Advanced security\",\"User groups\",\"Advanced access control\",\"Team management tools\"]}]}"
+      },
+      {
+        "rank": 19,
+        "toolName": "ElevenLabs",
+        "totalScore": 530,
+        "starRating": "★★★★",
+        "category": "音声生成・クローニング",
+        "developer": "ElevenLabs",
+        "description": "undefined...",
+        "criteriaScore": 530,
+        "evaluation": {
+          "immediacy": 85,
+          "simplicity": 88,
+          "popularity": 92,
+          "costPerformance": 82,
+          "specialization": 95,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://elevenlabs.io",
+        "pricing": "{\"freeTier\":\"10,000文字/月（12-15分音声）\",\"freeCredits\":\"10,000文字\",\"starterPrice\":5,\"starterFeatures\":\"Starter: $4.17/月、30,000文字、IVC利用可\",\"proPrice\":22,\"proFeatures\":\"Creator: $11/月、100,000文字\",\"enterprisePrice\":99,\"enterpriseFeatures\":\"Pro: $82.5/月、500,000文字、PVC利用可\"}"
+      },
+      {
+        "rank": 20,
+        "toolName": "Looka",
+        "totalScore": 530,
+        "starRating": "★★★★",
+        "category": "AI ロゴ・ブランドデザイン",
+        "developer": "Looka",
+        "description": "undefined...",
+        "criteriaScore": 530,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 80,
+          "costPerformance": 85,
+          "specialization": 85,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://looka.com",
+        "pricing": "{\"freeTier\":\"無料トライアル: ロゴ生成・プレビュー無制限\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Basic: 低解像度PNG\",\"proPrice\":65,\"proFeatures\":\"Premium: 高解像度ファイル一式、全形式対応\",\"maxPrice100\":96,\"maxPrice200\":129,\"maxFeatures\":\"Brand Kit: 300+マーケティング素材、Webサイト付き\",\"enterprisePrice\":\"カスタム\",\"billingCycle\":\"一回払い/年額\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU003": {
+    "rankingId": "AU003",
+    "rankingName": "汎用AI会話アシスタントTOP5",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 4,
+    "displayCount": 4,
+    "generatedAt": "2025-08-31T15:02:17.946Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Claude",
+        "totalScore": 570,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 570,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://claude.ai",
+        "pricing": "{\"freeTier\":\"月20メッセージ制限、基本機能利用可\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Pro: 月間メッセージ無制限、優先アクセス\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":100,\"maxPrice200\":200,\"maxFeatures\":\"Claude Opus 4.1、高速応答、長文対応\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 560,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 3,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 559,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 4,
+        "toolName": "Manus",
+        "totalScore": 539,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Monica (Manus AI)",
+        "description": "undefined...",
+        "criteriaScore": 539,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 90,
+          "popularity": 90,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://manus.im",
+        "pricing": "N/A"
+      }
+    ]
+  },
+  "AU004": {
+    "rankingId": "AU004",
+    "rankingName": "無料で使えるAI会話ツールTOP5",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 3,
+    "displayCount": 3,
+    "generatedAt": "2025-08-31T15:02:17.946Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Claude",
+        "totalScore": 570,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 570,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://claude.ai",
+        "pricing": "{\"freeTier\":\"月20メッセージ制限、基本機能利用可\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Pro: 月間メッセージ無制限、優先アクセス\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":100,\"maxPrice200\":200,\"maxFeatures\":\"Claude Opus 4.1、高速応答、長文対応\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 560,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 3,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 559,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU005": {
+    "rankingId": "AU005",
+    "rankingName": "AI文章作成・ライティング支援TOP5",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 1,
+    "displayCount": 1,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Grammarly",
+        "totalScore": 530,
+        "starRating": "★★★★",
+        "category": "AI Writing Assistance",
+        "developer": "Grammarly Inc.",
+        "description": "AI-powered writing assistant that provides grammar checking, style suggestions, tone detection, and generative AI featur...",
+        "criteriaScore": 530,
+        "evaluation": {
+          "immediacy": 88,
+          "simplicity": 89,
+          "popularity": 88,
+          "costPerformance": 89,
+          "specialization": 88,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://www.grammarly.com",
+        "pricing": "{\"freePlan\":\"Basic grammar and spelling checks, tone detection, 100 AI prompts per month\",\"paidPlans\":[{\"planName\":\"Pro\",\"monthlyPrice\":\"$30\",\"annualPrice\":\"$12/month ($144/year)\",\"features\":[\"2,000 monthly AI generative prompts\",\"Advanced grammar and style fixes\",\"Clarity suggestions\",\"Tone adjustments\",\"Plagiarism checker\",\"Team features\",\"Style guides\",\"Brand tones\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"Custom pricing\",\"annualPrice\":\"Custom pricing\",\"features\":[\"All Pro features\",\"Unlimited AI prompts\",\"Advanced security\",\"User groups\",\"Advanced access control\",\"Team management tools\"]}]}"
+      }
+    ]
+  },
+  "AU006": {
+    "rankingId": "AU006",
+    "rankingName": "日本語対応AI文章ツールTOP5",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 0,
+    "displayCount": 0,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": []
+  },
+  "AU007": {
+    "rankingId": "AU007",
+    "rankingName": "AI検索・情報収集ツールTOP5",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 1,
+    "displayCount": 1,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Perplexity",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "検索・情報収集",
+        "developer": "Perplexity AI",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.perplexity.ai",
+        "pricing": "{\"freeTier\":\"無制限Quick Searches、5 Pro Searches/日\",\"freeFeatures\":\"基本AI検索、ソース引用\",\"proPrice\":20,\"proFeatures\":\"無制限クエリ、高速応答、高度AIモデルアクセス\",\"enterpriseProPrice\":40,\"enterpriseProFeatures\":\"チーム機能、管理ダッシュボード、優先サポート\",\"annualDiscount\":\"$400/年（Enterprise Pro）\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU008": {
+    "rankingId": "AU008",
+    "rankingName": "音声生成・クローニングAITOP5",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 1,
+    "displayCount": 1,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "ElevenLabs",
+        "totalScore": 530,
+        "starRating": "★★★★",
+        "category": "音声生成・クローニング",
+        "developer": "ElevenLabs",
+        "description": "undefined...",
+        "criteriaScore": 530,
+        "evaluation": {
+          "immediacy": 85,
+          "simplicity": 88,
+          "popularity": 92,
+          "costPerformance": 82,
+          "specialization": 95,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://elevenlabs.io",
+        "pricing": "{\"freeTier\":\"10,000文字/月（12-15分音声）\",\"freeCredits\":\"10,000文字\",\"starterPrice\":5,\"starterFeatures\":\"Starter: $4.17/月、30,000文字、IVC利用可\",\"proPrice\":22,\"proFeatures\":\"Creator: $11/月、100,000文字\",\"enterprisePrice\":99,\"enterpriseFeatures\":\"Pro: $82.5/月、500,000文字、PVC利用可\"}"
+      }
+    ]
+  },
+  "AU009": {
+    "rankingId": "AU009",
+    "rankingName": "AI文字起こし・音声認識TOP5",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 1,
+    "displayCount": 1,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Otter.ai",
+        "totalScore": 515,
+        "starRating": "★★★★",
+        "category": "AI音声認識・文字起こし",
+        "developer": "Otter.ai",
+        "description": "undefined...",
+        "criteriaScore": 515,
+        "evaluation": {
+          "immediacy": 100,
+          "simplicity": 95,
+          "popularity": 70,
+          "costPerformance": 80,
+          "specialization": 80,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://otter.ai/",
+        "pricing": "{\"freeTier\":\"300分/月・30分/会話・3ファイル生涯\",\"freeCredits\":\"300\",\"starterPrice\":\"$10/月（年額払い）\",\"starterFeatures\":\"1200分/月・90分/会話・学生割引20%\",\"proPrice\":\"$20/月（年額払い）\",\"proFeatures\":\"6000分/月・4時間/会話・無制限ファイルアップロード\",\"enterprisePrice\":\"要問合せ（平均$17,424/年）\",\"billingCycle\":\"月額/年額\"}"
+      }
+    ]
+  },
+  "AU010": {
+    "rankingId": "AU010",
+    "rankingName": "テキスト読み上げAITOP3",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 1,
+    "displayCount": 1,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Speechify",
+        "totalScore": 523,
+        "starRating": "★★★★",
+        "category": "テキスト読み上げ",
+        "developer": "Speechify",
+        "description": "undefined...",
+        "criteriaScore": 523,
+        "evaluation": {
+          "immediacy": 88,
+          "simplicity": 92,
+          "popularity": 95,
+          "costPerformance": 78,
+          "specialization": 82,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://speechify.com",
+        "pricing": "{\"freeTier\":\"10音声、5言語、1x速度\",\"freeCredits\":null,\"starterPrice\":12,\"starterFeatures\":\"Premium: $11.58/月（年払い）、200+音声、5x速度\",\"proPrice\":29,\"proFeatures\":\"Premium月払い: $29/月\",\"enterprisePrice\":null,\"enterpriseFeatures\":\"API: $10/100万文字\"}"
+      }
+    ]
+  },
+  "AU011": {
+    "rankingId": "AU011",
+    "rankingName": "AIワークフロー自動化ツールTOP3",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 1,
+    "displayCount": 1,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Zapier",
+        "totalScore": 533,
+        "starRating": "★★★★",
+        "category": "AI Workflow Automation",
+        "developer": "Zapier Inc.",
+        "description": "AI-orchestration platform enabling workflow automation across 8,000+ apps with AI agents, chatbots, and natural language...",
+        "criteriaScore": 533,
+        "evaluation": {
+          "immediacy": 87,
+          "simplicity": 82,
+          "popularity": 98,
+          "costPerformance": 72,
+          "specialization": 97,
+          "productivityGain": 97
+        },
+        "officialUrl": "https://zapier.com",
+        "pricing": "{\"freePlan\":\"100 tasks/month, 2-step Zaps, AI power-ups, unlimited Zaps\",\"paidPlans\":[{\"planName\":\"Professional\",\"monthlyPrice\":\"$29.99\",\"annualPrice\":\"Not specified\",\"features\":[\"Unlimited premium apps\",\"Multi-step Zaps\",\"Webhooks\",\"Email/chat support\",\"AI workflows\"]},{\"planName\":\"Team\",\"monthlyPrice\":\"$103.50\",\"annualPrice\":\"Not specified\",\"features\":[\"Shared workspaces\",\"Shared connections\",\"SAML SSO\",\"25 users\",\"Advanced AI features\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"Custom\",\"annualPrice\":\"Custom\",\"features\":[\"Advanced security\",\"Dedicated support\",\"Custom integrations\",\"Enterprise AI agents\"]}]}"
+      }
+    ]
+  },
+  "AU012": {
+    "rankingId": "AU012",
+    "rankingName": "AIスケジューリング・管理ツールTOP3",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 1,
+    "displayCount": 1,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Calendly",
+        "totalScore": 536,
+        "starRating": "★★★★",
+        "category": "AI Scheduling",
+        "developer": "Calendly Inc.",
+        "description": "AI-enhanced scheduling platform that automates meeting coordination with intelligent routing, availability optimization,...",
+        "criteriaScore": 536,
+        "evaluation": {
+          "immediacy": 97,
+          "simplicity": 92,
+          "popularity": 91,
+          "costPerformance": 82,
+          "specialization": 82,
+          "productivityGain": 92
+        },
+        "officialUrl": "https://calendly.com",
+        "pricing": "{\"freePlan\":\"Basic scheduling for one event type, unlimited meetings\",\"paidPlans\":[{\"planName\":\"Standard\",\"monthlyPrice\":\"$12\",\"annualPrice\":\"$10/month ($120/year)\",\"features\":[\"Unlimited event types\",\"Connect 6 calendars\",\"Group events\",\"Custom branding\",\"Live chat support\"]},{\"planName\":\"Teams\",\"monthlyPrice\":\"$20\",\"annualPrice\":\"$16/month ($192/year)\",\"features\":[\"Round-robin scheduling\",\"Collective scheduling\",\"Salesforce integration\",\"Team reporting\",\"Advanced analytics\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"~$42 ($15,000/year minimum)\",\"annualPrice\":\"$15,000+/year\",\"features\":[\"SAML SSO\",\"Advanced security\",\"Dedicated account partner\",\"Microsoft Dynamics 365\",\"Premium support\"]}]}"
+      }
+    ]
+  },
+  "AU013": {
+    "rankingId": "AU013",
+    "rankingName": "初心者におすすめAIツールTOP10",
+    "criteria": "simplicity",
+    "totalCandidates": 65,
+    "displayCount": 10,
+    "generatedAt": "2025-08-31T15:02:17.947Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Perplexity",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "検索・情報収集",
+        "developer": "Perplexity AI",
+        "description": "undefined...",
+        "criteriaScore": 100,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.perplexity.ai",
+        "pricing": "{\"freeTier\":\"無制限Quick Searches、5 Pro Searches/日\",\"freeFeatures\":\"基本AI検索、ソース引用\",\"proPrice\":20,\"proFeatures\":\"無制限クエリ、高速応答、高度AIモデルアクセス\",\"enterpriseProPrice\":40,\"enterpriseProFeatures\":\"チーム機能、管理ダッシュボード、優先サポート\",\"annualDiscount\":\"$400/年（Enterprise Pro）\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "Claude",
+        "totalScore": 570,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 100,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://claude.ai",
+        "pricing": "{\"freeTier\":\"月20メッセージ制限、基本機能利用可\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Pro: 月間メッセージ無制限、優先アクセス\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":100,\"maxPrice200\":200,\"maxFeatures\":\"Claude Opus 4.1、高速応答、長文対応\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 3,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 99,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 4,
+        "toolName": "Character.AI",
+        "totalScore": 521,
+        "starRating": "★★★★",
+        "category": "AI チャットボット・キャラクター",
+        "developer": "Character Technologies Inc",
+        "description": "undefined...",
+        "criteriaScore": 97,
+        "evaluation": {
+          "immediacy": 92,
+          "simplicity": 97,
+          "popularity": 91,
+          "costPerformance": 87,
+          "specialization": 82,
+          "productivityGain": 72
+        },
+        "officialUrl": "https://character.ai/",
+        "pricing": "{\"freeTier\":\"基本的なキャラクター作成・会話機能\",\"freeCredits\":null,\"starterPrice\":\"$9.99/月\",\"starterFeatures\":\"c.ai+ プレミアム機能・優先アクセス・独占機能\",\"proPrice\":null,\"proFeatures\":null,\"enterprisePrice\":null,\"billingCycle\":\"月額\"}"
+      },
+      {
+        "rank": 5,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 6,
+        "toolName": "Looka",
+        "totalScore": 530,
+        "starRating": "★★★★",
+        "category": "AI ロゴ・ブランドデザイン",
+        "developer": "Looka",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 80,
+          "costPerformance": 85,
+          "specialization": 85,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://looka.com",
+        "pricing": "{\"freeTier\":\"無料トライアル: ロゴ生成・プレビュー無制限\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Basic: 低解像度PNG\",\"proPrice\":65,\"proFeatures\":\"Premium: 高解像度ファイル一式、全形式対応\",\"maxPrice100\":96,\"maxPrice200\":129,\"maxFeatures\":\"Brand Kit: 300+マーケティング素材、Webサイト付き\",\"enterprisePrice\":\"カスタム\",\"billingCycle\":\"一回払い/年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 7,
+        "toolName": "Otter.ai",
+        "totalScore": 515,
+        "starRating": "★★★★",
+        "category": "AI音声認識・文字起こし",
+        "developer": "Otter.ai",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 100,
+          "simplicity": 95,
+          "popularity": 70,
+          "costPerformance": 80,
+          "specialization": 80,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://otter.ai/",
+        "pricing": "{\"freeTier\":\"300分/月・30分/会話・3ファイル生涯\",\"freeCredits\":\"300\",\"starterPrice\":\"$10/月（年額払い）\",\"starterFeatures\":\"1200分/月・90分/会話・学生割引20%\",\"proPrice\":\"$20/月（年額払い）\",\"proFeatures\":\"6000分/月・4時間/会話・無制限ファイルアップロード\",\"enterprisePrice\":\"要問合せ（平均$17,424/年）\",\"billingCycle\":\"月額/年額\"}"
+      },
+      {
+        "rank": 8,
+        "toolName": "tl;dv",
+        "totalScore": 540,
+        "starRating": "★★★★",
+        "category": "会議・コミュニケーション",
+        "developer": "tl;dv",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 95,
+          "popularity": 80,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://tldv.io",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 9,
+        "toolName": "Synthesia",
+        "totalScore": 537,
+        "starRating": "★★★★",
+        "category": "AI動画生成",
+        "developer": "Synthesia",
+        "description": "undefined...",
+        "criteriaScore": 94,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 94,
+          "popularity": 97,
+          "costPerformance": 74,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://www.synthesia.io/",
+        "pricing": "{\"freeTier\":\"3分/月・9種類アバター・140言語対応\",\"freeCredits\":\"3\",\"starterPrice\":\"$29/月\",\"starterFeatures\":\"10分/月・125+アバター・1個人アバター・ロゴ削除\",\"proPrice\":\"$89/月\",\"proFeatures\":\"30分/月・180+アバター・5個人アバター・動画吹替・API\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額/年額\"}"
+      },
+      {
+        "rank": 10,
+        "toolName": "Namelix",
+        "totalScore": 518,
+        "starRating": "★★★★",
+        "category": "AI 会社名・ブランド名生成",
+        "developer": "Brandmark (Namelix)",
+        "description": "undefined...",
+        "criteriaScore": 93,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 93,
+          "popularity": 78,
+          "costPerformance": 93,
+          "specialization": 73,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://namelix.com",
+        "pricing": "{\"freeTier\":\"完全無料: 無制限名前生成・ドメイン確認\",\"freeCredits\":null,\"starterPrice\":0,\"starterFeatures\":\"全機能無料利用\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":null,\"maxPrice200\":null,\"maxFeatures\":\"Brandmarkロゴ生成連携\",\"enterprisePrice\":\"無料\",\"billingCycle\":\"無料\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU014": {
+    "rankingId": "AU014",
+    "rankingName": "即効性重視AIツールTOP10",
+    "criteria": "immediacy",
+    "totalCandidates": 65,
+    "displayCount": 10,
+    "generatedAt": "2025-08-31T15:02:17.948Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Otter.ai",
+        "totalScore": 515,
+        "starRating": "★★★★",
+        "category": "AI音声認識・文字起こし",
+        "developer": "Otter.ai",
+        "description": "undefined...",
+        "criteriaScore": 100,
+        "evaluation": {
+          "immediacy": 100,
+          "simplicity": 95,
+          "popularity": 70,
+          "costPerformance": 80,
+          "specialization": 80,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://otter.ai/",
+        "pricing": "{\"freeTier\":\"300分/月・30分/会話・3ファイル生涯\",\"freeCredits\":\"300\",\"starterPrice\":\"$10/月（年額払い）\",\"starterFeatures\":\"1200分/月・90分/会話・学生割引20%\",\"proPrice\":\"$20/月（年額払い）\",\"proFeatures\":\"6000分/月・4時間/会話・無制限ファイルアップロード\",\"enterprisePrice\":\"要問合せ（平均$17,424/年）\",\"billingCycle\":\"月額/年額\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "Calendly",
+        "totalScore": 536,
+        "starRating": "★★★★",
+        "category": "AI Scheduling",
+        "developer": "Calendly Inc.",
+        "description": "AI-enhanced scheduling platform that automates meeting coordination with intelligent routing, availability optimization,...",
+        "criteriaScore": 97,
+        "evaluation": {
+          "immediacy": 97,
+          "simplicity": 92,
+          "popularity": 91,
+          "costPerformance": 82,
+          "specialization": 82,
+          "productivityGain": 92
+        },
+        "officialUrl": "https://calendly.com",
+        "pricing": "{\"freePlan\":\"Basic scheduling for one event type, unlimited meetings\",\"paidPlans\":[{\"planName\":\"Standard\",\"monthlyPrice\":\"$12\",\"annualPrice\":\"$10/month ($120/year)\",\"features\":[\"Unlimited event types\",\"Connect 6 calendars\",\"Group events\",\"Custom branding\",\"Live chat support\"]},{\"planName\":\"Teams\",\"monthlyPrice\":\"$20\",\"annualPrice\":\"$16/month ($192/year)\",\"features\":[\"Round-robin scheduling\",\"Collective scheduling\",\"Salesforce integration\",\"Team reporting\",\"Advanced analytics\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"~$42 ($15,000/year minimum)\",\"annualPrice\":\"$15,000+/year\",\"features\":[\"SAML SSO\",\"Advanced security\",\"Dedicated account partner\",\"Microsoft Dynamics 365\",\"Premium support\"]}]}"
+      },
+      {
+        "rank": 3,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 4,
+        "toolName": "Looka",
+        "totalScore": 530,
+        "starRating": "★★★★",
+        "category": "AI ロゴ・ブランドデザイン",
+        "developer": "Looka",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 80,
+          "costPerformance": 85,
+          "specialization": 85,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://looka.com",
+        "pricing": "{\"freeTier\":\"無料トライアル: ロゴ生成・プレビュー無制限\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Basic: 低解像度PNG\",\"proPrice\":65,\"proFeatures\":\"Premium: 高解像度ファイル一式、全形式対応\",\"maxPrice100\":96,\"maxPrice200\":129,\"maxFeatures\":\"Brand Kit: 300+マーケティング素材、Webサイト付き\",\"enterprisePrice\":\"カスタム\",\"billingCycle\":\"一回払い/年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 5,
+        "toolName": "Perplexity",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "検索・情報収集",
+        "developer": "Perplexity AI",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.perplexity.ai",
+        "pricing": "{\"freeTier\":\"無制限Quick Searches、5 Pro Searches/日\",\"freeFeatures\":\"基本AI検索、ソース引用\",\"proPrice\":20,\"proFeatures\":\"無制限クエリ、高速応答、高度AIモデルアクセス\",\"enterpriseProPrice\":40,\"enterpriseProFeatures\":\"チーム機能、管理ダッシュボード、優先サポート\",\"annualDiscount\":\"$400/年（Enterprise Pro）\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 6,
+        "toolName": "Claude",
+        "totalScore": 570,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://claude.ai",
+        "pricing": "{\"freeTier\":\"月20メッセージ制限、基本機能利用可\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Pro: 月間メッセージ無制限、優先アクセス\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":100,\"maxPrice200\":200,\"maxFeatures\":\"Claude Opus 4.1、高速応答、長文対応\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 7,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 94,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 8,
+        "toolName": "Synthesia",
+        "totalScore": 537,
+        "starRating": "★★★★",
+        "category": "AI動画生成",
+        "developer": "Synthesia",
+        "description": "undefined...",
+        "criteriaScore": 94,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 94,
+          "popularity": 97,
+          "costPerformance": 74,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://www.synthesia.io/",
+        "pricing": "{\"freeTier\":\"3分/月・9種類アバター・140言語対応\",\"freeCredits\":\"3\",\"starterPrice\":\"$29/月\",\"starterFeatures\":\"10分/月・125+アバター・1個人アバター・ロゴ削除\",\"proPrice\":\"$89/月\",\"proFeatures\":\"30分/月・180+アバター・5個人アバター・動画吹替・API\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額/年額\"}"
+      },
+      {
+        "rank": 9,
+        "toolName": "Namelix",
+        "totalScore": 518,
+        "starRating": "★★★★",
+        "category": "AI 会社名・ブランド名生成",
+        "developer": "Brandmark (Namelix)",
+        "description": "undefined...",
+        "criteriaScore": 93,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 93,
+          "popularity": 78,
+          "costPerformance": 93,
+          "specialization": 73,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://namelix.com",
+        "pricing": "{\"freeTier\":\"完全無料: 無制限名前生成・ドメイン確認\",\"freeCredits\":null,\"starterPrice\":0,\"starterFeatures\":\"全機能無料利用\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":null,\"maxPrice200\":null,\"maxFeatures\":\"Brandmarkロゴ生成連携\",\"enterprisePrice\":\"無料\",\"billingCycle\":\"無料\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 10,
+        "toolName": "GitHub Copilot",
+        "totalScore": 523,
+        "starRating": "★★★★",
+        "category": "開発支援・コーディング",
+        "developer": "GitHub (Microsoft)",
+        "description": "undefined...",
+        "criteriaScore": 93,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 88,
+          "popularity": 93,
+          "costPerformance": 88,
+          "specialization": 78,
+          "productivityGain": 83
+        },
+        "officialUrl": "https://github.com/features/copilot",
+        "pricing": "{\"freeTier\":\"2,000コード補完/月\",\"freeFeatures\":\"基本コード補完\",\"proPrice\":20,\"proFeatures\":\"無制限補完、プレミアムモデル、コーディングエージェント、300プレミアムリクエスト/月\",\"proPlusPrice\":null,\"proPlusFeatures\":\"より大きなプレミアム許可量\",\"businessPrice\":19,\"businessFeatures\":\"組織向け機能\",\"enterprisePrice\":\"GitHub Enterprise Cloudに含有\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU015": {
+    "rankingId": "AU015",
+    "rankingName": "コスパ最強AIツールTOP10",
+    "criteria": "costPerformance",
+    "totalCandidates": 65,
+    "displayCount": 10,
+    "generatedAt": "2025-08-31T15:02:17.948Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 99,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "Obsidian",
+        "totalScore": 473,
+        "starRating": "★★★★",
+        "category": "知識管理・ノート",
+        "developer": "Dynalist Inc",
+        "description": "undefined...",
+        "criteriaScore": 98,
+        "evaluation": {
+          "immediacy": 63,
+          "simplicity": 43,
+          "popularity": 83,
+          "costPerformance": 98,
+          "specialization": 98,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://obsidian.md",
+        "pricing": "{\"freeTier\":\"個人利用無制限・ローカルストレージ\",\"syncPrice\":10,\"syncFeatures\":\"クラウド同期・バージョン履歴・複数デバイス\",\"publishPrice\":10,\"publishFeatures\":\"ウェブ公開・カスタマイズ可能\",\"commercialPrice\":50,\"commercialFeatures\":\"商用ライセンス・優先サポート・年額\",\"commercialNote\":\"2名以上の営利組織向け\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 3,
+        "toolName": "Genspark",
+        "totalScore": 543,
+        "starRating": "★★★★",
+        "category": "AI検索・リサーチ",
+        "developer": "Mainfunc Inc.",
+        "description": "undefined...",
+        "criteriaScore": 98,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 88,
+          "popularity": 83,
+          "costPerformance": 98,
+          "specialization": 93,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://genspark.ai",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 4,
+        "toolName": "Bing AI (Microsoft Copilot)",
+        "totalScore": 505,
+        "starRating": "★★★★",
+        "category": "AI検索・統合アシスタント",
+        "developer": "Microsoft Corporation",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 85,
+          "simplicity": 90,
+          "popularity": 80,
+          "costPerformance": 95,
+          "specialization": 70,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.microsoft.com/en-us/microsoft-copilot/",
+        "pricing": "{\"freeTier\":\"基本Copilot機能・制限付きアクセス\",\"freeCredits\":null,\"starterPrice\":\"$20/月\",\"starterFeatures\":\"Copilot Pro - 優先アクセス・Microsoft 365統合\",\"proPrice\":\"$30/月\",\"proFeatures\":\"Microsoft 365 Copilot - 全機能統合\",\"enterprisePrice\":\"$5/月\",\"billingCycle\":\"月額\"}"
+      },
+      {
+        "rank": 5,
+        "toolName": "Codeium",
+        "totalScore": 505,
+        "starRating": "★★★★",
+        "category": "開発支援・コーディング",
+        "developer": "Exafunction Inc.",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 85,
+          "simplicity": 92,
+          "popularity": 78,
+          "costPerformance": 95,
+          "specialization": 75,
+          "productivityGain": 80
+        },
+        "officialUrl": "https://codeium.com",
+        "pricing": "{\"freeTier\":\"無制限オートコンプリート・チャット・コマンド\",\"freeCredits\":null,\"starterPrice\":0,\"starterFeatures\":\"無制限オートコンプリート・チャット・コマンド\",\"proPrice\":15,\"proFeatures\":\"優先アクセス、高度なコンテキスト、高速補完\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 6,
+        "toolName": "Rev AI",
+        "totalScore": 505,
+        "starRating": "★★★★",
+        "category": "転写・字幕",
+        "developer": "Rev AI",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 85,
+          "simplicity": 82,
+          "popularity": 78,
+          "costPerformance": 95,
+          "specialization": 80,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.rev.ai",
+        "pricing": "{\"freeTier\":\"無料クレジット提供\",\"freeCredits\":\"初回クレジット\",\"starterPrice\":null,\"starterFeatures\":\"0.3¢/分（最安値水準）\",\"proPrice\":null,\"proFeatures\":\"大量利用者向け割引あり\",\"enterprisePrice\":null,\"enterpriseFeatures\":\"オンプレミス対応、カスタム価格\"}"
+      },
+      {
+        "rank": 7,
+        "toolName": "Stable Diffusion",
+        "totalScore": 485,
+        "starRating": "★★★★",
+        "category": "Open Source AI Image Generation",
+        "developer": "Stability AI",
+        "description": "Leading open-source AI image generation model with extensive customization options...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 75,
+          "simplicity": 60,
+          "popularity": 85,
+          "costPerformance": 95,
+          "specialization": 90,
+          "productivityGain": 80
+        },
+        "officialUrl": "https://stability.ai",
+        "pricing": "{\"model\":\"Open Source + Memberships\",\"freeTier\":true,\"paidPlans\":[{\"name\":\"Open Source\",\"price\":\"Free\",\"features\":[\"Self-hosted\",\"Full model access\",\"Commercial use\"]},{\"name\":\"Stability AI Membership\",\"price\":\"$9/month minimum\",\"features\":[\"Cloud hosting\",\"Enhanced features\",\"Priority support\"]},{\"name\":\"Commercial License\",\"price\":\"Custom\",\"features\":[\"Enterprise support\",\"Commercial guarantees\"]}]}"
+      },
+      {
+        "rank": 8,
+        "toolName": "Fish Audio",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "音声生成・処理",
+        "developer": "Hanabi AI Inc. (OpenAudio)",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 85,
+          "popularity": 90,
+          "costPerformance": 95,
+          "specialization": 95,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://fish.audio",
+        "pricing": "{\"freeTier\":\"10,000文字/月\",\"freeFeatures\":\"基本TTS・音声クローニング\",\"premiumPrice\":9.99,\"premiumFeatures\":\"無制限音声生成、優先処理、商用利用権、API クレジット$10/月\",\"proPrice\":99.99,\"proFeatures\":\"高品質リファレンス音声、最新AIモデル優先アクセス\",\"proStatus\":\"予定\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 9,
+        "toolName": "n8n",
+        "totalScore": 465,
+        "starRating": "★★★★",
+        "category": "ワークフロー自動化",
+        "developer": "n8n GmbH",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 70,
+          "simplicity": 50,
+          "popularity": 65,
+          "costPerformance": 95,
+          "specialization": 95,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://n8n.io",
+        "pricing": "{\"freeTier\":\"Community Edition・無制限ワークフロー\",\"freeFeatures\":\"オープンソース・セルフホスト・基本機能\",\"businessPrice\":\"カスタム\",\"businessFeatures\":\"中堅企業向け・エンタープライズ機能・セルフホスト\",\"enterprisePrice\":\"要問合せ\",\"enterpriseFeatures\":\"SSO・RBAC・監査ログ・SLA・専用サポート\",\"executionBased\":true,\"overagePrice\":4000,\"overageNote\":\"EUR・300,000実行追加毎\",\"billingCycle\":\"年額\",\"currency\":\"EUR\"}"
+      },
+      {
+        "rank": 10,
+        "toolName": "Claude Code",
+        "totalScore": 524,
+        "starRating": "★★★★",
+        "category": "開発支援・コーディング",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 94,
+        "evaluation": {
+          "immediacy": 84,
+          "simplicity": 74,
+          "popularity": 72,
+          "costPerformance": 94,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://www.anthropic.com/claude-code",
+        "pricing": "{\"freeTier\":null,\"freeCredits\":null,\"standalonePrice\":20,\"proIncluded\":true,\"maxIncluded\":true,\"teamPremiumSeat\":\"Team plan premium seats\",\"enterprisePremiumSeat\":\"Enterprise plan premium seats\",\"apiPricing\":\"標準Anthropic API価格\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU016": {
+    "rankingId": "AU016",
+    "rankingName": "人気AIツールTOP10",
+    "criteria": "popularity",
+    "totalCandidates": 65,
+    "displayCount": 10,
+    "generatedAt": "2025-08-31T15:02:17.948Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 100,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "CrewAI",
+        "totalScore": 512,
+        "starRating": "★★★★",
+        "category": "開発支援・コーディング",
+        "developer": "CrewAI Inc.",
+        "description": "undefined...",
+        "criteriaScore": 100,
+        "evaluation": {
+          "immediacy": 68,
+          "simplicity": 58,
+          "popularity": 100,
+          "costPerformance": 88,
+          "specialization": 100,
+          "productivityGain": 98
+        },
+        "officialUrl": "https://www.crewai.com",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 3,
+        "toolName": "Zapier",
+        "totalScore": 533,
+        "starRating": "★★★★",
+        "category": "AI Workflow Automation",
+        "developer": "Zapier Inc.",
+        "description": "AI-orchestration platform enabling workflow automation across 8,000+ apps with AI agents, chatbots, and natural language...",
+        "criteriaScore": 98,
+        "evaluation": {
+          "immediacy": 87,
+          "simplicity": 82,
+          "popularity": 98,
+          "costPerformance": 72,
+          "specialization": 97,
+          "productivityGain": 97
+        },
+        "officialUrl": "https://zapier.com",
+        "pricing": "{\"freePlan\":\"100 tasks/month, 2-step Zaps, AI power-ups, unlimited Zaps\",\"paidPlans\":[{\"planName\":\"Professional\",\"monthlyPrice\":\"$29.99\",\"annualPrice\":\"Not specified\",\"features\":[\"Unlimited premium apps\",\"Multi-step Zaps\",\"Webhooks\",\"Email/chat support\",\"AI workflows\"]},{\"planName\":\"Team\",\"monthlyPrice\":\"$103.50\",\"annualPrice\":\"Not specified\",\"features\":[\"Shared workspaces\",\"Shared connections\",\"SAML SSO\",\"25 users\",\"Advanced AI features\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"Custom\",\"annualPrice\":\"Custom\",\"features\":[\"Advanced security\",\"Dedicated support\",\"Custom integrations\",\"Enterprise AI agents\"]}]}"
+      },
+      {
+        "rank": 4,
+        "toolName": "Jasper",
+        "totalScore": 528,
+        "starRating": "★★★★",
+        "category": "AI Content Generation",
+        "developer": "Jasper AI Inc.",
+        "description": "AI-powered writing platform designed for marketing teams to create on-brand content at scale, featuring generative AI fo...",
+        "criteriaScore": 98,
+        "evaluation": {
+          "immediacy": 88,
+          "simplicity": 83,
+          "popularity": 98,
+          "costPerformance": 78,
+          "specialization": 93,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://www.jasper.ai",
+        "pricing": "{\"freePlan\":\"7-day free trial available\",\"paidPlans\":[{\"planName\":\"Creator\",\"monthlyPrice\":\"$49\",\"annualPrice\":\"$39/month ($468/year)\",\"features\":[\"Unlimited words\",\"One brand voice\",\"50+ AI copy generators\",\"User-friendly document editor\",\"Chatbot assistance\"]},{\"planName\":\"Pro\",\"monthlyPrice\":\"$69\",\"annualPrice\":\"$59/month ($708/year)\",\"features\":[\"All Creator features\",\"One-click text improvement\",\"Content repurposing\",\"Copyscape integration\",\"Team collaboration\",\"Document sharing\"]},{\"planName\":\"Business\",\"monthlyPrice\":\"Custom pricing\",\"annualPrice\":\"Custom pricing\",\"features\":[\"All Pro features\",\"100% instance control\",\"Single sign-on (SSO)\",\"Complete data protection\",\"Team training\",\"Tech support\"]}]}"
+      },
+      {
+        "rank": 5,
+        "toolName": "Midjourney",
+        "totalScore": 528,
+        "starRating": "★★★★",
+        "category": "AI画像生成",
+        "developer": "Midjourney",
+        "description": "undefined...",
+        "criteriaScore": 98,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 83,
+          "popularity": 98,
+          "costPerformance": 68,
+          "specialization": 98,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://www.midjourney.com/",
+        "pricing": "{\"freeTier\":\"なし（2025年時点）\",\"freeCredits\":\"0\",\"starterPrice\":\"$8/月（年額払い）\",\"starterFeatures\":\"3.3GPU時間/月・約200生成・リラックスモードなし\",\"proPrice\":\"$48/月（年額払い）\",\"proFeatures\":\"30GPU時間/月・無制限リラックス・ステルスモード\",\"enterprisePrice\":\"$48/月（年額払い・Megaプラン）\",\"billingCycle\":\"月額/年額\"}"
+      },
+      {
+        "rank": 6,
+        "toolName": "Synthesia",
+        "totalScore": 537,
+        "starRating": "★★★★",
+        "category": "AI動画生成",
+        "developer": "Synthesia",
+        "description": "undefined...",
+        "criteriaScore": 97,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 94,
+          "popularity": 97,
+          "costPerformance": 74,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://www.synthesia.io/",
+        "pricing": "{\"freeTier\":\"3分/月・9種類アバター・140言語対応\",\"freeCredits\":\"3\",\"starterPrice\":\"$29/月\",\"starterFeatures\":\"10分/月・125+アバター・1個人アバター・ロゴ削除\",\"proPrice\":\"$89/月\",\"proFeatures\":\"30分/月・180+アバター・5個人アバター・動画吹替・API\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額/年額\"}"
+      },
+      {
+        "rank": 7,
+        "toolName": "Runway Gen-3",
+        "totalScore": 528,
+        "starRating": "★★★★",
+        "category": "動画生成・編集",
+        "developer": "Runway",
+        "description": "undefined...",
+        "criteriaScore": 96,
+        "evaluation": {
+          "immediacy": 78,
+          "simplicity": 83,
+          "popularity": 96,
+          "costPerformance": 78,
+          "specialization": 100,
+          "productivityGain": 93
+        },
+        "officialUrl": "https://runwayml.com",
+        "pricing": "{\"freeTier\":\"125クレジット・透かし付き・制限機能\",\"standardPrice\":12,\"standardFeatures\":\"年払い・2250クレジット・カスタムAI訓練\",\"standardMonthlyPrice\":15,\"proPrice\":28,\"proFeatures\":\"2250クレジット・カスタム音声・500GBストレージ\",\"proMonthlyPrice\":28,\"unlimitedPrice\":76,\"unlimitedFeatures\":\"年払い・無制限生成・全モデルアクセス\",\"unlimitedMonthlyPrice\":78,\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 8,
+        "toolName": "Speechify",
+        "totalScore": 523,
+        "starRating": "★★★★",
+        "category": "テキスト読み上げ",
+        "developer": "Speechify",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 88,
+          "simplicity": 92,
+          "popularity": 95,
+          "costPerformance": 78,
+          "specialization": 82,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://speechify.com",
+        "pricing": "{\"freeTier\":\"10音声、5言語、1x速度\",\"freeCredits\":null,\"starterPrice\":12,\"starterFeatures\":\"Premium: $11.58/月（年払い）、200+音声、5x速度\",\"proPrice\":29,\"proFeatures\":\"Premium月払い: $29/月\",\"enterprisePrice\":null,\"enterpriseFeatures\":\"API: $10/100万文字\"}"
+      },
+      {
+        "rank": 9,
+        "toolName": "Murf",
+        "totalScore": 535,
+        "starRating": "★★★★",
+        "category": "音声生成",
+        "developer": "Murf AI",
+        "description": "undefined...",
+        "criteriaScore": 95,
+        "evaluation": {
+          "immediacy": 83,
+          "simplicity": 93,
+          "popularity": 95,
+          "costPerformance": 85,
+          "specialization": 91,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://murf.ai",
+        "pricing": "{\"freeTier\":\"10分生成時間、200+音声利用可\",\"freeCredits\":\"10分\",\"starterPrice\":19,\"starterFeatures\":\"Creator: $19/月（年払い）、60音声、10言語\",\"proPrice\":26,\"proFeatures\":\"Pro: $26/月、120+音声、20+言語、商用利用権\",\"enterprisePrice\":75,\"enterpriseFeatures\":\"Enterprise: $75/月（5ユーザー）、無制限生成・転写\"}"
+      },
+      {
+        "rank": 10,
+        "toolName": "GitHub Copilot",
+        "totalScore": 523,
+        "starRating": "★★★★",
+        "category": "開発支援・コーディング",
+        "developer": "GitHub (Microsoft)",
+        "description": "undefined...",
+        "criteriaScore": 93,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 88,
+          "popularity": 93,
+          "costPerformance": 88,
+          "specialization": 78,
+          "productivityGain": 83
+        },
+        "officialUrl": "https://github.com/features/copilot",
+        "pricing": "{\"freeTier\":\"2,000コード補完/月\",\"freeFeatures\":\"基本コード補完\",\"proPrice\":20,\"proFeatures\":\"無制限補完、プレミアムモデル、コーディングエージェント、300プレミアムリクエスト/月\",\"proPlusPrice\":null,\"proPlusFeatures\":\"より大きなプレミアム許可量\",\"businessPrice\":19,\"businessFeatures\":\"組織向け機能\",\"enterprisePrice\":\"GitHub Enterprise Cloudに含有\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU017": {
+    "rankingId": "AU017",
+    "rankingName": "話題のAIツールTOP15",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 0,
+    "displayCount": 0,
+    "generatedAt": "2025-08-31T15:02:17.948Z",
+    "rankings": []
+  },
+  "AU018": {
+    "rankingId": "AU018",
+    "rankingName": "無料で使えるAIツールTOP10",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 54,
+    "displayCount": 10,
+    "generatedAt": "2025-08-31T15:02:17.948Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Claude",
+        "totalScore": 570,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 570,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://claude.ai",
+        "pricing": "{\"freeTier\":\"月20メッセージ制限、基本機能利用可\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Pro: 月間メッセージ無制限、優先アクセス\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":100,\"maxPrice200\":200,\"maxFeatures\":\"Claude Opus 4.1、高速応答、長文対応\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 560,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 3,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 559,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 4,
+        "toolName": "Perplexity",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "検索・情報収集",
+        "developer": "Perplexity AI",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.perplexity.ai",
+        "pricing": "{\"freeTier\":\"無制限Quick Searches、5 Pro Searches/日\",\"freeFeatures\":\"基本AI検索、ソース引用\",\"proPrice\":20,\"proFeatures\":\"無制限クエリ、高速応答、高度AIモデルアクセス\",\"enterpriseProPrice\":40,\"enterpriseProFeatures\":\"チーム機能、管理ダッシュボード、優先サポート\",\"annualDiscount\":\"$400/年（Enterprise Pro）\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 5,
+        "toolName": "Fish Audio",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "音声生成・処理",
+        "developer": "Hanabi AI Inc. (OpenAudio)",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 85,
+          "popularity": 90,
+          "costPerformance": 95,
+          "specialization": 95,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://fish.audio",
+        "pricing": "{\"freeTier\":\"10,000文字/月\",\"freeFeatures\":\"基本TTS・音声クローニング\",\"premiumPrice\":9.99,\"premiumFeatures\":\"無制限音声生成、優先処理、商用利用権、API クレジット$10/月\",\"proPrice\":99.99,\"proFeatures\":\"高品質リファレンス音声、最新AIモデル優先アクセス\",\"proStatus\":\"予定\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 6,
+        "toolName": "Gamma",
+        "totalScore": 538,
+        "starRating": "★★★★",
+        "category": "プレゼンテーション・資料作成",
+        "developer": "Gamma Technologies Inc.",
+        "description": "undefined...",
+        "criteriaScore": 538,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 90,
+          "popularity": 89,
+          "costPerformance": 90,
+          "specialization": 89,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://gamma.app",
+        "pricing": "{\"freeTier\":\"月3プレゼンテーション、基本テンプレート\",\"freeCredits\":400,\"starterPrice\":8,\"starterFeatures\":\"Plus: 月10プレゼン、プレミアムテンプレート\",\"proPrice\":20,\"proFeatures\":\"Pro: 無制限プレゼン、AI機能フル、チーム共有\",\"enterprisePrice\":\"要相談\",\"enterpriseFeatures\":\"Enterprise: 高度な管理機能、SSO、優先サポート\"}"
+      },
+      {
+        "rank": 7,
+        "toolName": "Notion AI",
+        "totalScore": 538,
+        "starRating": "★★★★",
+        "category": "生産性・文書作成",
+        "developer": "Notion Labs",
+        "description": "undefined...",
+        "criteriaScore": 538,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 89,
+          "popularity": 90,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://www.notion.com",
+        "pricing": "{\"freeTier\":\"AI機能限定トライアル\",\"freeNote\":\"2025年5月以降、新規ユーザーは限定トライアルのみ\",\"plusPrice\":null,\"plusNote\":\"AI機能は限定トライアルのみ\",\"businessPrice\":20,\"businessFeatures\":\"AI完全アクセス・GPT-4.1・Claude 3.7 Sonnet・チーム機能\",\"businessAnnualPrice\":20,\"enterprisePrice\":\"要問合せ\",\"enterpriseFeatures\":\"エンタープライズ機能・高度セキュリティ\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 8,
+        "toolName": "Synthesia",
+        "totalScore": 537,
+        "starRating": "★★★★",
+        "category": "AI動画生成",
+        "developer": "Synthesia",
+        "description": "undefined...",
+        "criteriaScore": 537,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 94,
+          "popularity": 97,
+          "costPerformance": 74,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://www.synthesia.io/",
+        "pricing": "{\"freeTier\":\"3分/月・9種類アバター・140言語対応\",\"freeCredits\":\"3\",\"starterPrice\":\"$29/月\",\"starterFeatures\":\"10分/月・125+アバター・1個人アバター・ロゴ削除\",\"proPrice\":\"$89/月\",\"proFeatures\":\"30分/月・180+アバター・5個人アバター・動画吹替・API\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額/年額\"}"
+      },
+      {
+        "rank": 9,
+        "toolName": "Calendly",
+        "totalScore": 536,
+        "starRating": "★★★★",
+        "category": "AI Scheduling",
+        "developer": "Calendly Inc.",
+        "description": "AI-enhanced scheduling platform that automates meeting coordination with intelligent routing, availability optimization,...",
+        "criteriaScore": 536,
+        "evaluation": {
+          "immediacy": 97,
+          "simplicity": 92,
+          "popularity": 91,
+          "costPerformance": 82,
+          "specialization": 82,
+          "productivityGain": 92
+        },
+        "officialUrl": "https://calendly.com",
+        "pricing": "{\"freePlan\":\"Basic scheduling for one event type, unlimited meetings\",\"paidPlans\":[{\"planName\":\"Standard\",\"monthlyPrice\":\"$12\",\"annualPrice\":\"$10/month ($120/year)\",\"features\":[\"Unlimited event types\",\"Connect 6 calendars\",\"Group events\",\"Custom branding\",\"Live chat support\"]},{\"planName\":\"Teams\",\"monthlyPrice\":\"$20\",\"annualPrice\":\"$16/month ($192/year)\",\"features\":[\"Round-robin scheduling\",\"Collective scheduling\",\"Salesforce integration\",\"Team reporting\",\"Advanced analytics\"]},{\"planName\":\"Enterprise\",\"monthlyPrice\":\"~$42 ($15,000/year minimum)\",\"annualPrice\":\"$15,000+/year\",\"features\":[\"SAML SSO\",\"Advanced security\",\"Dedicated account partner\",\"Microsoft Dynamics 365\",\"Premium support\"]}]}"
+      },
+      {
+        "rank": 10,
+        "toolName": "Murf",
+        "totalScore": 535,
+        "starRating": "★★★★",
+        "category": "音声生成",
+        "developer": "Murf AI",
+        "description": "undefined...",
+        "criteriaScore": 535,
+        "evaluation": {
+          "immediacy": 83,
+          "simplicity": 93,
+          "popularity": 95,
+          "costPerformance": 85,
+          "specialization": 91,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://murf.ai",
+        "pricing": "{\"freeTier\":\"10分生成時間、200+音声利用可\",\"freeCredits\":\"10分\",\"starterPrice\":19,\"starterFeatures\":\"Creator: $19/月（年払い）、60音声、10言語\",\"proPrice\":26,\"proFeatures\":\"Pro: $26/月、120+音声、20+言語、商用利用権\",\"enterprisePrice\":75,\"enterpriseFeatures\":\"Enterprise: $75/月（5ユーザー）、無制限生成・転写\"}"
+      }
+    ]
+  },
+  "AU019": {
+    "rankingId": "AU019",
+    "rankingName": "有料でも使う価値があるAIツールTOP10",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 65,
+    "displayCount": 10,
+    "generatedAt": "2025-08-31T15:02:17.948Z",
+    "rankings": [
+      {
+        "rank": 1,
+        "toolName": "Claude",
+        "totalScore": 570,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Anthropic",
+        "description": "undefined...",
+        "criteriaScore": 570,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 100,
+          "productivityGain": 100
+        },
+        "officialUrl": "https://claude.ai",
+        "pricing": "{\"freeTier\":\"月20メッセージ制限、基本機能利用可\",\"freeCredits\":null,\"starterPrice\":20,\"starterFeatures\":\"Pro: 月間メッセージ無制限、優先アクセス\",\"proPrice\":null,\"proFeatures\":null,\"maxPrice100\":100,\"maxPrice200\":200,\"maxFeatures\":\"Claude Opus 4.1、高速応答、長文対応\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 2,
+        "toolName": "ChatGPT",
+        "totalScore": 560,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "OpenAI",
+        "description": "undefined...",
+        "criteriaScore": 560,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 95,
+          "popularity": 100,
+          "costPerformance": 85,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://chat.openai.com",
+        "pricing": "{\"freeTier\":\"GPT-4o mini、限定GPT-4oアクセス、ウェブ検索、ファイルアップロード\",\"freeCredits\":null,\"plusPrice\":20,\"plusFeatures\":\"80メッセージ/3時間、GPT-4o無制限、Advanced Voice\",\"goPrice\":399,\"goPriceNote\":\"インド限定（₹399/月）\",\"proPrice\":200,\"proFeatures\":\"o1 pro mode、無制限アクセス、高度な計算能力\",\"teamPrice\":25,\"teamPriceNote\":\"年契約、月払い$30\",\"enterprisePrice\":\"要問合せ\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 3,
+        "toolName": "Gemini",
+        "totalScore": 559,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Google",
+        "description": "undefined...",
+        "criteriaScore": 559,
+        "evaluation": {
+          "immediacy": 94,
+          "simplicity": 99,
+          "popularity": 89,
+          "costPerformance": 99,
+          "specialization": 89,
+          "productivityGain": 89
+        },
+        "officialUrl": "https://gemini.google.com",
+        "pricing": "{\"freeTier\":\"Gemini基本機能・制限付きアクセス\",\"freeCredits\":null,\"aiProPrice\":20,\"aiProFeatures\":\"2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus\",\"aiUltraPrice\":null,\"aiUltraFeatures\":\"Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス\",\"workspaceIntegrated\":true,\"workspaceNote\":\"2025年1月15日からWorkspace全プランに統合\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 4,
+        "toolName": "Perplexity",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "検索・情報収集",
+        "developer": "Perplexity AI",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 95,
+          "simplicity": 100,
+          "popularity": 85,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 85
+        },
+        "officialUrl": "https://www.perplexity.ai",
+        "pricing": "{\"freeTier\":\"無制限Quick Searches、5 Pro Searches/日\",\"freeFeatures\":\"基本AI検索、ソース引用\",\"proPrice\":20,\"proFeatures\":\"無制限クエリ、高速応答、高度AIモデルアクセス\",\"enterpriseProPrice\":40,\"enterpriseProFeatures\":\"チーム機能、管理ダッシュボード、優先サポート\",\"annualDiscount\":\"$400/年（Enterprise Pro）\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 5,
+        "toolName": "Fish Audio",
+        "totalScore": 545,
+        "starRating": "★★★★",
+        "category": "音声生成・処理",
+        "developer": "Hanabi AI Inc. (OpenAudio)",
+        "description": "undefined...",
+        "criteriaScore": 545,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 85,
+          "popularity": 90,
+          "costPerformance": 95,
+          "specialization": 95,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://fish.audio",
+        "pricing": "{\"freeTier\":\"10,000文字/月\",\"freeFeatures\":\"基本TTS・音声クローニング\",\"premiumPrice\":9.99,\"premiumFeatures\":\"無制限音声生成、優先処理、商用利用権、API クレジット$10/月\",\"proPrice\":99.99,\"proFeatures\":\"高品質リファレンス音声、最新AIモデル優先アクセス\",\"proStatus\":\"予定\",\"billingCycle\":\"月額\",\"currency\":\"USD\"}"
+      },
+      {
+        "rank": 6,
+        "toolName": "Genspark",
+        "totalScore": 543,
+        "starRating": "★★★★",
+        "category": "AI検索・リサーチ",
+        "developer": "Mainfunc Inc.",
+        "description": "undefined...",
+        "criteriaScore": 543,
+        "evaluation": {
+          "immediacy": 93,
+          "simplicity": 88,
+          "popularity": 83,
+          "costPerformance": 98,
+          "specialization": 93,
+          "productivityGain": 88
+        },
+        "officialUrl": "https://genspark.ai",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 7,
+        "toolName": "tl;dv",
+        "totalScore": 540,
+        "starRating": "★★★★",
+        "category": "会議・コミュニケーション",
+        "developer": "tl;dv",
+        "description": "undefined...",
+        "criteriaScore": 540,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 95,
+          "popularity": 80,
+          "costPerformance": 90,
+          "specialization": 90,
+          "productivityGain": 95
+        },
+        "officialUrl": "https://tldv.io",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 8,
+        "toolName": "Manus",
+        "totalScore": 539,
+        "starRating": "★★★★",
+        "category": "AI会話・アシスタント",
+        "developer": "Monica (Manus AI)",
+        "description": "undefined...",
+        "criteriaScore": 539,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 90,
+          "popularity": 90,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://manus.im",
+        "pricing": "N/A"
+      },
+      {
+        "rank": 9,
+        "toolName": "Gamma",
+        "totalScore": 538,
+        "starRating": "★★★★",
+        "category": "プレゼンテーション・資料作成",
+        "developer": "Gamma Technologies Inc.",
+        "description": "undefined...",
+        "criteriaScore": 538,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 90,
+          "popularity": 89,
+          "costPerformance": 90,
+          "specialization": 89,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://gamma.app",
+        "pricing": "{\"freeTier\":\"月3プレゼンテーション、基本テンプレート\",\"freeCredits\":400,\"starterPrice\":8,\"starterFeatures\":\"Plus: 月10プレゼン、プレミアムテンプレート\",\"proPrice\":20,\"proFeatures\":\"Pro: 無制限プレゼン、AI機能フル、チーム共有\",\"enterprisePrice\":\"要相談\",\"enterpriseFeatures\":\"Enterprise: 高度な管理機能、SSO、優先サポート\"}"
+      },
+      {
+        "rank": 10,
+        "toolName": "Notion AI",
+        "totalScore": 538,
+        "starRating": "★★★★",
+        "category": "生産性・文書作成",
+        "developer": "Notion Labs",
+        "description": "undefined...",
+        "criteriaScore": 538,
+        "evaluation": {
+          "immediacy": 90,
+          "simplicity": 89,
+          "popularity": 90,
+          "costPerformance": 89,
+          "specialization": 90,
+          "productivityGain": 90
+        },
+        "officialUrl": "https://www.notion.com",
+        "pricing": "{\"freeTier\":\"AI機能限定トライアル\",\"freeNote\":\"2025年5月以降、新規ユーザーは限定トライアルのみ\",\"plusPrice\":null,\"plusNote\":\"AI機能は限定トライアルのみ\",\"businessPrice\":20,\"businessFeatures\":\"AI完全アクセス・GPT-4.1・Claude 3.7 Sonnet・チーム機能\",\"businessAnnualPrice\":20,\"enterprisePrice\":\"要問合せ\",\"enterpriseFeatures\":\"エンタープライズ機能・高度セキュリティ\",\"billingCycle\":\"月額・年額\",\"currency\":\"USD\"}"
+      }
+    ]
+  },
+  "AU020": {
+    "rankingId": "AU020",
+    "rankingName": "日本語完全対応AIツールTOP10",
+    "criteria": "adjustedTenScore",
+    "totalCandidates": 0,
+    "displayCount": 0,
+    "generatedAt": "2025-08-31T15:02:17.949Z",
+    "rankings": []
+  }
+}

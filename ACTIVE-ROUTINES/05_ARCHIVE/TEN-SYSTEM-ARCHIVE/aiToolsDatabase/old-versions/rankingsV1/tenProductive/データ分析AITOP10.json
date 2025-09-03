@@ -1,0 +1,13 @@
+{
+  "rankingId": "TEN012",
+  "rankingName": "データ分析AITOP10",
+  "description": "データ分析・可視化AIツール",
+  "generatedAt": "2025-08-31T08:28:41.363Z",
+  "criteria": "tenScore",
+  "filters": {
+    "category": "data-analysis"
+  },
+  "totalCandidates": 0,
+  "displayCount": 0,
+  "tools": []
+}

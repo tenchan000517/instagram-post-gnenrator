@@ -1,0 +1,13 @@
+{
+  "rankingId": "TEN016",
+  "rankingName": "ビジネス活用AITOP10",
+  "description": "ビジネス特化AIツール",
+  "generatedAt": "2025-08-31T08:28:41.376Z",
+  "criteria": "tenScore",
+  "filters": {
+    "category": "business"
+  },
+  "totalCandidates": 0,
+  "displayCount": 0,
+  "tools": []
+}

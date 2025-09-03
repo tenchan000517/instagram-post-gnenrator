@@ -1,0 +1,49 @@
+{
+  "id": "AU010",
+  "title": "テキスト読み上げAITOP3",
+  "description": "一般ユーザー向けのテキスト読み上げAITOP3です。調整済みスコアに基づいて選出しています。",
+  "category": "AIツール総合",
+  "targetAudience": "T004: 26-29歳会社員・一般ユーザー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "テキスト読み上げ"
+  },
+  "generatedAt": "2025-08-31T10:50:18.606Z",
+  "totalMatched": 1,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Speechify",
+      "category": "テキスト読み上げ",
+      "companyName": "Speechify",
+      "score": 339.95,
+      "originalScore": 523,
+      "officialUrl": "https://speechify.com",
+      "metrics": {
+        "immediacy": 88,
+        "simplicity": 92,
+        "popularity": 95,
+        "costPerformance": 78,
+        "specialization": 82,
+        "productivityGain": 88
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "macOS",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 12,
+        "currency": "USD"
+      }
+    }
+  ]
+}

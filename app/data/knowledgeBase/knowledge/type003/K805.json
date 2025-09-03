@@ -1,0 +1,538 @@
+{
+  "source": "contents-ranking-806",
+  "problemCategory": "就活・転職支援",
+  "knowledgeId": "K805",
+  "postType": "003",
+  "pageCount": 8,
+  "pageStructurePattern": "unified-template-11-company-ranking",
+  "targetIds": ["T013"],
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "template": "kikuyo_intro",
+      "content": {
+        "problems": [
+          "外資系IT企業の年収が1600万円を超えるって本当？",
+          "日本のIT企業でも1000万円以上稼げる会社を知りたい",
+          "エンジニアとして最高年収を狙える企業はどこ？"
+        ],
+        "introMessage": "「年収が高いIT企業ランキング」を紹介！",
+        "solution": "2025年最新データで判明したIT企業の年収実態なのです！\n夢の年収1000万円超えは現実的な目標なのです"
+      }
+    },
+    "page2": {
+      "section": "ranking",
+      "template": "ranking_display",
+      "content": {
+        "title": "IT業界年収ランキング",
+        "subtitle": "2025年度最新年収データ",
+        "displayType": "ranking",
+        "items": [
+          {
+            "rank": 1,
+            "name": "グーグル",
+            "primaryValue": "1,624万円",
+            "secondaryValue": "世界最高水準の技術力",
+            "description": "世界的検索エンジン・クラウド事業",
+            "category": "外資系テック"
+          },
+          {
+            "rank": 2,
+            "name": "プリファード・ネットワークス",
+            "primaryValue": "1,380万円",
+            "secondaryValue": "AI研究の最前線",
+            "description": "日本トップクラスAI・機械学習企業",
+            "category": "AI・テック"
+          },
+          {
+            "rank": 3,
+            "name": "日本マイクロソフト",
+            "primaryValue": "1,303万円",
+            "secondaryValue": "クラウド市場シェア2位",
+            "description": "Azure・Office365を展開",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 4,
+            "name": "セールスフォース・ジャパン",
+            "primaryValue": "1,216万円",
+            "secondaryValue": "CRM分野世界No.1",
+            "description": "顧客関係管理システムの世界的リーダー",
+            "category": "外資系SaaS"
+          },
+          {
+            "rank": 5,
+            "name": "メルカリ",
+            "primaryValue": "1,167万円",
+            "secondaryValue": "日本初ユニコーン企業",
+            "description": "フリマアプリ・フィンテック事業",
+            "category": "国内テック"
+          },
+          {
+            "rank": 6,
+            "name": "アマゾンジャパン",
+            "primaryValue": "1,150万円",
+            "secondaryValue": "EC・クラウド世界最大手",
+            "description": "AWS・物流・AI技術の革新企業",
+            "category": "外資系テック"
+          },
+          {
+            "rank": 7,
+            "name": "富士通",
+            "primaryValue": "965万円",
+            "secondaryValue": "DX支援で社会変革",
+            "description": "総合ITサービス・システム統合",
+            "category": "国内大手IT"
+          },
+          {
+            "rank": 8,
+            "name": "NTTデータ",
+            "primaryValue": "906万円",
+            "secondaryValue": "官公庁システム最大手",
+            "description": "システムインテグレーション業界トップ",
+            "category": "国内SI"
+          },
+          {
+            "rank": 9,
+            "name": "LINEヤフー",
+            "primaryValue": "884万円",
+            "secondaryValue": "国内インターネット最大級",
+            "description": "LINE・Yahoo!統合プラットフォーム",
+            "category": "国内ネット"
+          },
+          {
+            "rank": 10,
+            "name": "サイバーエージェント",
+            "primaryValue": "882万円",
+            "secondaryValue": "ABEMA・ゲーム事業好調",
+            "description": "インターネット広告・メディア業界大手",
+            "category": "国内ネット"
+          }
+        ],
+        "note": "データは2024-2025年の各社有価証券報告書・公式発表に基づく",
+        "source": "企業情報データベース2025年版・年収データ分析"
+      }
+    },
+    "page3": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "グーグル",
+            "rankInfo": {
+              "rank": 1,
+              "category": "IT業界年収ランキング",
+              "score": "1,624万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "データなし",
+              "averageSalary": "1,624万円",
+              "bonus": "業績連動ボーナス",
+              "holidays": "無制限有給",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 100,
+              "benefits": 95,
+              "workLifeBalance": 90,
+              "growth": 100,
+              "stability": 95
+            },
+            "features": {
+              "industry": "検索エンジン・クラウドサービス・AI技術",
+              "employees": "約4,000人（日本）",
+              "established": "2001年（日本法人）",
+              "headquarters": "東京都港区六本木"
+            },
+            "details": {
+              "overview": "世界最大の検索エンジンGoogle、クラウドプラットフォームGoogle Cloud、AI・機械学習技術で世界をリード。技術力とイノベーションで業界を牽引する最先端企業なのです。",
+              "recruitment": ["ソフトウェアエンジニア", "データサイエンティスト", "プロダクトマネージャー", "営業職"],
+              "benefits": ["無制限有給制度", "社員食堂無料", "通勤手当全額", "健康管理プログラム"],
+              "uniqueFeatures": ["20%ルール（業務時間の20%を自由研究に充当）", "世界最高水準の技術環境", "グローバルキャリア機会", "AI・機械学習最前線"],
+              "keyHighlights": ["無制限有給", "食堂無料", "20%ルール", "世界最先端"]
+            },
+            "highlightMessage": "世界最高水準1,624万円の年収と最先端技術環境"
+          },
+          {
+            "companyName": "プリファード・ネットワークス",
+            "rankInfo": {
+              "rank": 2,
+              "category": "IT業界年収ランキング",
+              "score": "1,380万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "60万円",
+              "averageSalary": "1,380万円",
+              "bonus": "業績連動型",
+              "holidays": "125日",
+              "overtime": "月15時間"
+            },
+            "parameterGraph": {
+              "salary": 95,
+              "benefits": 90,
+              "workLifeBalance": 95,
+              "growth": 100,
+              "stability": 80
+            },
+            "features": {
+              "industry": "AI・機械学習・計算基盤開発",
+              "employees": "350人",
+              "established": "2014年",
+              "headquarters": "東京都千代田区"
+            },
+            "details": {
+              "overview": "AI関連技術、AIチップ開発、自社スーパーコンピューターによる計算基盤を提供。世界トップクラスのAI研究と実用化で日本のテック業界をリードする企業なのです。",
+              "recruitment": ["AIエンジニア", "機械学習研究者", "ソフトウェア開発", "ハードウェア設計"],
+              "benefits": ["有給消化率90%", "育児復職率100%", "男女育休100%", "自社スパコン利用可"],
+              "uniqueFeatures": ["世界レベルAI研究環境", "自社製スーパーコンピューター", "論文発表支援制度", "博士号取得者多数在籍"],
+              "keyHighlights": ["有給消化90%", "育休100%", "自社スパコン", "世界レベル研究"]
+            },
+            "highlightMessage": "日本トップクラスAI企業で最前線の技術開発に参加"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "section": "mainContent", 
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "日本マイクロソフト",
+            "rankInfo": {
+              "rank": 3,
+              "category": "IT業界年収ランキング",
+              "score": "1,303万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "データなし",
+              "averageSalary": "1,303万円",
+              "bonus": "年2回+業績賞与",
+              "holidays": "データなし",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 92,
+              "benefits": 95,
+              "workLifeBalance": 90,
+              "growth": 95,
+              "stability": 95
+            },
+            "features": {
+              "industry": "クラウドサービス・ソフトウェア開発",
+              "employees": "約2,500人",
+              "established": "1986年",
+              "headquarters": "東京都港区"
+            },
+            "details": {
+              "overview": "Microsoft Azure、Office365、Teams等のクラウドサービスを提供。働きがいのある会社ランキング10年連続選出の優良外資系IT企業なのです。",
+              "recruitment": ["クラウドアーキテクト", "ソリューション営業", "テクニカルスペシャリスト", "プロダクトマーケティング"],
+              "benefits": ["フレックスタイム制", "リモートワーク推進", "学習支援制度", "ダイバーシティ推進"],
+              "uniqueFeatures": ["働きがいのある会社10年連続認定", "Microsoft認定資格取得支援", "グローバル昇進機会", "ESG経営推進"],
+              "keyHighlights": ["働きがい10年", "資格取得支援", "リモート推進", "ESG経営"]
+            },
+            "highlightMessage": "クラウド市場シェア2位、働きやすさでも業界最高水準"
+          },
+          {
+            "companyName": "セールスフォース・ジャパン",
+            "rankInfo": {
+              "rank": 4,
+              "category": "IT業界年収ランキング",
+              "score": "1,216万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "45万円",
+              "averageSalary": "1,216万円",
+              "bonus": "四半期業績連動",
+              "holidays": "データなし",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 90,
+              "benefits": 92,
+              "workLifeBalance": 88,
+              "growth": 95,
+              "stability": 90
+            },
+            "features": {
+              "industry": "CRMソリューション・クラウドプラットフォーム",
+              "employees": "データなし",
+              "established": "2000年",
+              "headquarters": "東京都千代田区"
+            },
+            "details": {
+              "overview": "顧客関係管理（CRM）分野で世界No.1シェアを誇るSalesforce社の日本法人。1-1-1モデルで社会貢献活動にも力を入れる先進企業なのです。",
+              "recruitment": ["営業職", "コンサルタント職", "カスタマーサクセス", "エンジニア"],
+              "benefits": ["ハイブリッドワーク", "V2MOM目標設定", "平等推進制度", "LGBTQ+支援"],
+              "uniqueFeatures": ["OpenWork働きがいランキング2位", "Great Place to Work5位", "PRIDE指標ゴールド4年連続", "1-1-1社会貢献モデル"],
+              "keyHighlights": ["働きがい2位", "PRIDE指標", "1-1-1モデル", "平等推進"]
+            },
+            "highlightMessage": "CRM世界No.1企業で働きがいランキング上位の職場環境"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail", 
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "メルカリ",
+            "rankInfo": {
+              "rank": 5,
+              "category": "IT業界年収ランキング",
+              "score": "1,167万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "30万円",
+              "averageSalary": "1,167万円",
+              "bonus": "年2回（3月・9月）",
+              "holidays": "120日",
+              "overtime": "月20.6時間"
+            },
+            "parameterGraph": {
+              "salary": 88,
+              "benefits": 85,
+              "workLifeBalance": 85,
+              "growth": 95,
+              "stability": 80
+            },
+            "features": {
+              "industry": "EC・フィンテック",
+              "employees": "1,000人",
+              "established": "2013年",
+              "headquarters": "東京都港区"
+            },
+            "details": {
+              "overview": "フリマアプリ「メルカリ」、決済サービス「メルペイ」の運営。日本初のテック・ユニコーンとして急成長を続け、データ分析重視の企業文化が特徴なのです。",
+              "recruitment": ["PM職", "エンジニア", "デザイナー", "データサイエンティスト"],
+              "benefits": ["シックリーブ年10日", "妊活サポート10年間", "有給消化率88.9%", "フルリモート可能"],
+              "uniqueFeatures": ["merci box独自福利厚生制度", "無制限昇給制", "再オファー制度", "360度評価制度"],
+              "keyHighlights": ["フルリモート", "有給消化89%", "無制限昇給", "妊活サポート"]
+            },
+            "highlightMessage": "日本初ユニコーン企業で平均年収1,167万円の高成長環境"
+          },
+          {
+            "companyName": "アマゾンジャパン",
+            "rankInfo": {
+              "rank": 6,
+              "category": "IT業界年収ランキング",
+              "score": "1,150万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "データなし",
+              "averageSalary": "1,150万円",
+              "bonus": "株式報酬含む",
+              "holidays": "データなし",
+              "overtime": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 87,
+              "benefits": 85,
+              "workLifeBalance": 75,
+              "growth": 95,
+              "stability": 95
+            },
+            "features": {
+              "industry": "EC・クラウド・物流・AI",
+              "employees": "約15,000人",
+              "established": "2000年",
+              "headquarters": "東京都目黒区"
+            },
+            "details": {
+              "overview": "EC事業、AWSクラウドサービス、Amazon Prime、物流革新など多角的にビジネスを展開。世界最大級のテック企業として最先端技術を日本市場に提供するのです。",
+              "recruitment": ["ソフトウェア開発エンジニア", "クラウドアーキテクト", "データサイエンティスト", "プロダクトマネージャー"],
+              "benefits": ["株式報酬制度", "学習支援プログラム", "キャリア開発支援", "ダイバーシティ推進"],
+              "uniqueFeatures": ["AWS技術最前線", "Amazon Web Services認定", "Customer Obsession文化", "世界規模のインフラ技術"],
+              "keyHighlights": ["株式報酬", "AWS最前線", "学習支援", "世界規模技術"]
+            },
+            "highlightMessage": "世界最大級テック企業でクラウド・AI技術の最前線を体験"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "富士通",
+            "rankInfo": {
+              "rank": 7,
+              "category": "IT業界年収ランキング",
+              "score": "965万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "データなし",
+              "averageSalary": "965万円",
+              "bonus": "年2回",
+              "holidays": "126日",
+              "overtime": "月20.2時間"
+            },
+            "parameterGraph": {
+              "salary": 75,
+              "benefits": 88,
+              "workLifeBalance": 85,
+              "growth": 80,
+              "stability": 95
+            },
+            "features": {
+              "industry": "総合電機メーカー兼総合ITベンダー",
+              "employees": "124,000人",
+              "established": "1935年",
+              "headquarters": "東京都港区"
+            },
+            "details": {
+              "overview": "ITサービス・システム統合・ソフトウェア開発・クラウドサービス・DX支援を展開。DX・AI・クラウド・社会インフラで日本の企業変革を支える総合ITベンダーなのです。",
+              "recruitment": ["ITコンサルタント", "システムエンジニア", "データサイエンティスト", "プロジェクトマネージャー"],
+              "benefits": ["有給消化率71%", "男性育児休業取得率100%", "平均勤続年数18年", "フレックスタイム制"],
+              "uniqueFeatures": ["社会インフラシステム構築実績", "政府・自治体システム多数", "DXコンサルティング", "スーパーコンピューター「富岳」"],
+              "keyHighlights": ["年休126日", "男性育休100%", "勤続18年", "富岳開発"]
+            },
+            "highlightMessage": "安定した大手ITベンダーでDX・AI技術の社会実装を推進"
+          },
+          {
+            "companyName": "NTTデータ",
+            "rankInfo": {
+              "rank": 8,
+              "category": "IT業界年収ランキング",
+              "score": "906万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "26.3万円",
+              "averageSalary": "906万円",
+              "bonus": "年2回",
+              "holidays": "123日",
+              "overtime": "月24.7時間"
+            },
+            "parameterGraph": {
+              "salary": 72,
+              "benefits": 85,
+              "workLifeBalance": 82,
+              "growth": 85,
+              "stability": 98
+            },
+            "features": {
+              "industry": "システムインテグレーション業",
+              "employees": "197,800人",
+              "established": "1988年",
+              "headquarters": "東京都江東区"
+            },
+            "details": {
+              "overview": "情報システム開発・構築・運用・DX支援を手がけるSI業界のリーディングカンパニー。官公庁システム、金融システムで圧倒的なシェアを持つ安定企業なのです。",
+              "recruitment": ["システムエンジニア", "ITコンサルタント", "プロジェクトマネージャー", "データアナリスト"],
+              "benefits": ["有給消化率65.5%", "育児復職率95%", "男性育休取得率72.6%", "平均勤続年数14.6年"],
+              "uniqueFeatures": ["官公庁システム最大手", "金融機関基幹システム", "海外展開積極推進", "NTTグループの信頼性"],
+              "keyHighlights": ["官公庁最大手", "育児復職95%", "男性育休73%", "NTTブランド"]
+            },
+            "highlightMessage": "SI業界トップ企業で社会インフラを支える重要システムを開発"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "LINEヤフー",
+            "rankInfo": {
+              "rank": 9,
+              "category": "IT業界年収ランキング",
+              "score": "884万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "28-30万円",
+              "averageSalary": "884万円",
+              "bonus": "年2回",
+              "holidays": "120日",
+              "overtime": "月16時間"
+            },
+            "parameterGraph": {
+              "salary": 70,
+              "benefits": 82,
+              "workLifeBalance": 88,
+              "growth": 85,
+              "stability": 88
+            },
+            "features": {
+              "industry": "インターネット・IT・通信",
+              "employees": "28,606人",
+              "established": "2023年（統合）",
+              "headquarters": "東京都千代田区"
+            },
+            "details": {
+              "overview": "LINE・Yahoo!統合によるインターネット広告・イーコマース・会員サービスの総合プラットフォーム。国内最大級のユーザーベースを活用したサービス展開が特徴なのです。",
+              "recruitment": ["エンジニア", "データサイエンティスト", "プロダクトマネージャー", "デザイナー"],
+              "benefits": ["有給消化率75.1%", "育児復職率90%", "男性育休取得率60.9%", "平均勤続年数7.1年"],
+              "uniqueFeatures": ["LINE・Yahoo!統合シナジー", "国内最大級ユーザーベース", "フィンテック・決済事業", "AI・データ分析技術"],
+              "keyHighlights": ["有給消化75%", "育児復職90%", "統合シナジー", "最大級ユーザー"]
+            },
+            "highlightMessage": "国内インターネット最大級企業で幅広いサービス開発に参加"
+          },
+          {
+            "companyName": "サイバーエージェント",
+            "rankInfo": {
+              "rank": 10,
+              "category": "IT業界年収ランキング",
+              "score": "882万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "42万円",
+              "averageSalary": "882万円",
+              "bonus": "年2回+業績賞与",
+              "holidays": "125日",
+              "overtime": "月13.3時間"
+            },
+            "parameterGraph": {
+              "salary": 70,
+              "benefits": 75,
+              "workLifeBalance": 85,
+              "growth": 90,
+              "stability": 80
+            },
+            "features": {
+              "industry": "インターネット広告業・メディア業・ゲーム業",
+              "employees": "7,720人",
+              "established": "1998年",
+              "headquarters": "東京都渋谷区"
+            },
+            "details": {
+              "overview": "インターネット広告事業、メディア事業（ABEMA等）、ゲーム事業、投資育成事業を展開。業界最高水準の初任給42万円と起業家精神を重視する企業文化が特徴なのです。",
+              "recruitment": ["エンジニア", "ビジネス職", "クリエイター", "デザイナー"],
+              "benefits": ["住宅手当（2駅ルール3万円/月）", "通勤交通費全額支給", "退職金制度", "裁量労働制"],
+              "uniqueFeatures": ["初任給業界最高42万円", "ABEMA事業成長", "起業家輩出多数", "子会社社長登用制度"],
+              "keyHighlights": ["初任給42万円", "住宅手当3万円", "起業家輩出", "ABEMA成長"]
+            },
+            "highlightMessage": "業界最高初任給42万円で起業家精神とメディア事業を学ぶ"
+          }
+        ]
+      }
+    },
+    "page8": {
+      "section": "summary",
+      "template": "kikuyo_summary",
+      "content": {
+        "title": "IT業界年収ランキング",
+        "subtitle": "データが証明する高年収企業",
+        "summaryPoints": [
+          "外資系テック企業が上位を独占、年収1,000万円超が当たり前なのです",
+          "国内企業ではデータ分析・AI技術が高く評価される時代なのです",
+          "働きやすさと技術成長のバランスが重要な選択基準なのです"
+        ],
+        "finalMessage": "IT業界は技術力とデータ分析スキルが直接年収に反映される実力主義の世界なのです。\n皆さんの技術キャリアを応援しているのです！",
+        "databaseImage": "/imag/template/KIKUYO_DATABASE.png",
+        "additionalInfo": "詳細データはプロフィールのリンクから確認"
+      }
+    }
+  }
+}

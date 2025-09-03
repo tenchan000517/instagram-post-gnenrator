@@ -1,0 +1,862 @@
+{
+  "batchInfo": {
+    "batchNumber": 7,
+    "totalToolsPlanned": 8,
+    "toolsCompleted": 8,
+    "completionStatus": "complete",
+    "researchDate": "2025-08-31",
+    "researcher": "Claude Code",
+    "dataQuality": "5-source-verified",
+    "tenEvaluationComplete": true,
+    "toolRange": "49-56",
+    "category": "音声・転写AI",
+    "nextSteps": "Proceed to aiToolsMasterData.json integration and ranking generation"
+  },
+  "completedTools": [
+    {
+      "id": "AI049",
+      "toolName": "ElevenLabs",
+      "category": "音声生成・クローニング",
+      "subCategory": "AI音声生成",
+      "companyName": "ElevenLabs",
+      "officialUrl": "https://elevenlabs.io",
+      "releaseInfo": {
+        "initialRelease": "2022-01",
+        "latestUpdate": "2025-08",
+        "version": "ElevenLabs v3",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "10,000文字/月（12-15分音声）",
+        "freeCredits": "10,000文字",
+        "starterPrice": 5,
+        "starterFeatures": "Starter: $4.17/月、30,000文字、IVC利用可",
+        "proPrice": 22,
+        "proFeatures": "Creator: $11/月、100,000文字",
+        "enterprisePrice": 99,
+        "enterpriseFeatures": "Pro: $82.5/月、500,000文字、PVC利用可"
+      },
+      "keyFeatures": [
+        "AI音声生成・クローニング",
+        "32言語対応",
+        "V3音声タグシステム",
+        "マルチスピーカー生成",
+        "リアルタイム音声生成",
+        "プロフェッショナル音声クローニング（PVC）"
+      ],
+      "languages": [
+        "英語",
+        "日本語",
+        "中国語",
+        "ドイツ語",
+        "ヒンディー語",
+        "フランス語",
+        "韓国語",
+        "ポルトガル語",
+        "イタリア語",
+        "スペイン語"
+      ],
+      "integrations": [
+        "API",
+        "SDK",
+        "Webhook",
+        "音声合成API"
+      ],
+      "strengths": [
+        "業界最高水準の音声クローニング技術",
+        "V3での感情制御・マルチスピーカー対応",
+        "32言語の自動対応",
+        "リアルタイム生成可能",
+        "企業レベルのセキュリティ"
+      ],
+      "weaknesses": [
+        "無料プランの制限が厳しい",
+        "高品質クローニングは30分以上の音声が必要",
+        "PVCは4週間の待機時間",
+        "商用利用は有料プランが必須"
+      ],
+      "useCases": [
+        "ポッドキャスト・オーディオブック作成",
+        "多言語音声コンテンツ",
+        "カスタマーサポート自動化",
+        "教育コンテンツ音声化",
+        "ゲーム・エンタメ音声"
+      ],
+      "marketPosition": "音声生成AIのリーダー、特に音声クローニング分野で技術的優位性",
+      "competitiveAdvantage": "V3技術による感情制御・マルチスピーカー・リアルタイム生成",
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 88,
+        "popularity": 92,
+        "costPerformance": 82,
+        "specialization": 95,
+        "productivityGain": 88,
+        "totalScore": 530
+      }
+    },
+    {
+      "id": "AI050",
+      "toolName": "Murf",
+      "category": "音声生成",
+      "subCategory": "AI音声生成",
+      "companyName": "Murf AI",
+      "officialUrl": "https://murf.ai",
+      "releaseInfo": {
+        "initialRelease": "2020-03",
+        "latestUpdate": "2025-08",
+        "version": "Speech Gen 2",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": true,
+        "mac": true,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "10分生成時間、200+音声利用可",
+        "freeCredits": "10分",
+        "starterPrice": 19,
+        "starterFeatures": "Creator: $19/月（年払い）、60音声、10言語",
+        "proPrice": 26,
+        "proFeatures": "Pro: $26/月、120+音声、20+言語、商用利用権",
+        "enterprisePrice": 75,
+        "enterpriseFeatures": "Enterprise: $75/月（5ユーザー）、無制限生成・転写"
+      },
+      "keyFeatures": [
+        "200+リアルな音声",
+        "20+言語対応",
+        "99.38%発音精度",
+        "多言語音声（任意言語で任意アクセント）",
+        "AI翻訳機能（企業版）",
+        "PowerPoint・Canva・Adobe連携"
+      ],
+      "languages": [
+        "英語",
+        "ドイツ語",
+        "フランス語",
+        "イタリア語",
+        "スペイン語",
+        "ロシア語",
+        "ポルトガル語",
+        "アラビア語",
+        "ヒンディー語",
+        "タミル語",
+        "中国語",
+        "日本語"
+      ],
+      "integrations": [
+        "API",
+        "PowerPoint",
+        "Canva",
+        "Adobe",
+        "開発者向けSDK"
+      ],
+      "strengths": [
+        "99.38%の高精度発音",
+        "200+音声の豊富なバリエーション",
+        "主要アプリケーションとの連携",
+        "企業向け機能充実",
+        "多言語自動対応"
+      ],
+      "weaknesses": [
+        "音声クローニング機能が限定的",
+        "無料プランの制限",
+        "リアルタイム生成に制限",
+        "カスタマイズ性がElevenLabsより低い"
+      ],
+      "useCases": [
+        "企業プレゼンテーション音声",
+        "教育コンテンツ",
+        "YouTubeナレーション",
+        "多言語マーケティング",
+        "ポッドキャスト作成"
+      ],
+      "marketPosition": "企業向け音声生成プラットフォームとして確立、99.38%精度が強み",
+      "competitiveAdvantage": "企業アプリケーション統合と高精度発音、多言語自動対応",
+      "tenEvaluation": {
+        "immediacy": 80,
+        "simplicity": 90,
+        "popularity": 85,
+        "costPerformance": 82,
+        "specialization": 88,
+        "productivityGain": 85,
+        "totalScore": 510
+      }
+    },
+    {
+      "id": "AI051",
+      "toolName": "Speechify",
+      "category": "テキスト読み上げ",
+      "subCategory": "AIテキスト読み上げ",
+      "companyName": "Speechify",
+      "officialUrl": "https://speechify.com",
+      "releaseInfo": {
+        "initialRelease": "2017-01",
+        "latestUpdate": "2025-08",
+        "version": "Speechify AI Studio",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 50000000,
+        "monthlyActiveUsers": 50000000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": true,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "10音声、5言語、1x速度",
+        "freeCredits": null,
+        "starterPrice": 12,
+        "starterFeatures": "Premium: $11.58/月（年払い）、200+音声、5x速度",
+        "proPrice": 29,
+        "proFeatures": "Premium月払い: $29/月",
+        "enterprisePrice": null,
+        "enterpriseFeatures": "API: $10/100万文字"
+      },
+      "keyFeatures": [
+        "1,000+自然な音声",
+        "60+言語対応",
+        "セレブリティ音声（Snoop Dogg、Mr. Beast等）",
+        "4.5x高速読み上げ",
+        "AI要約機能",
+        "写真からテキスト読み上げ"
+      ],
+      "languages": [
+        "英語",
+        "スペイン語",
+        "ポルトガル語",
+        "ドイツ語",
+        "フランス語",
+        "日本語",
+        "中国語",
+        "韓国語",
+        "イタリア語",
+        "ロシア語"
+      ],
+      "integrations": [
+        "Chrome",
+        "Edge",
+        "iOS",
+        "Android",
+        "Mac",
+        "API"
+      ],
+      "strengths": [
+        "5000万ユーザーの実績",
+        "Apple Design Award受賞",
+        "セレブリティ音声の独自性",
+        "全デバイス同期対応",
+        "高速読み上げ機能"
+      ],
+      "weaknesses": [
+        "音声生成機能が限定的",
+        "無料プランの機能制限",
+        "主にコンシューマー向け",
+        "企業向け機能が不足"
+      ],
+      "useCases": [
+        "学習・読書効率化",
+        "視覚障害者サポート",
+        "多言語学習",
+        "コンテンツ消費の高速化",
+        "運転中・移動中の情報収集"
+      ],
+      "marketPosition": "テキスト読み上げ分野のリーダー、5000万ユーザーの最大手",
+      "competitiveAdvantage": "セレブリティ音声、高速読み上げ、全プラットフォーム対応",
+      "tenEvaluation": {
+        "immediacy": 88,
+        "simplicity": 92,
+        "popularity": 95,
+        "costPerformance": 78,
+        "specialization": 82,
+        "productivityGain": 88,
+        "totalScore": 523
+      }
+    },
+    {
+      "id": "AI052",
+      "toolName": "Deepgram",
+      "category": "音声認識・転写",
+      "subCategory": "AI音声認識",
+      "companyName": "Deepgram",
+      "officialUrl": "https://deepgram.com",
+      "releaseInfo": {
+        "initialRelease": "2015-01",
+        "latestUpdate": "2025-08",
+        "version": "Nova-3",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "$200無料クレジット",
+        "freeCredits": "$200",
+        "starterPrice": null,
+        "starterFeatures": "従量課金: $0.0043/分（録音）、$0.0077/分（リアルタイム）",
+        "proPrice": 4000,
+        "proFeatures": "Growth: $4,000/年、20%割引",
+        "enterprisePrice": 15000,
+        "enterpriseFeatures": "Enterprise: $15,000/年、カスタムモデル訓練"
+      },
+      "keyFeatures": [
+        "Nova-3モデル（54.2%エラー率削減）",
+        "30+言語対応",
+        "300ms以下レイテンシ",
+        "話者識別",
+        "リアルタイム・バッチ処理",
+        "カスタム語彙対応"
+      ],
+      "languages": [
+        "英語",
+        "スペイン語",
+        "フランス語",
+        "ドイツ語",
+        "イタリア語",
+        "ポルトガル語",
+        "日本語",
+        "中国語",
+        "韓国語",
+        "アラビア語"
+      ],
+      "integrations": [
+        "REST API",
+        "WebSocket API",
+        "Python SDK",
+        "JavaScript SDK"
+      ],
+      "strengths": [
+        "業界最高レベルの精度（Nova-3）",
+        "300ms以下の超低レイテンシ",
+        "リアルタイム処理に特化",
+        "40+音声・動画フォーマット対応",
+        "エンタープライズ級セキュリティ"
+      ],
+      "weaknesses": [
+        "主にAPI利用（GUI限定）",
+        "技術的な実装知識が必要",
+        "コンシューマー向け機能不足",
+        "初期設定の複雑さ"
+      ],
+      "useCases": [
+        "コールセンター自動転写",
+        "医療記録の音声入力",
+        "リアルタイム会議転写",
+        "AIエージェント音声認識",
+        "法的手続きの記録化"
+      ],
+      "marketPosition": "B2B音声認識APIの技術リーダー、300ms超低レイテンシが強み",
+      "competitiveAdvantage": "Nova-3による業界最高精度と超低レイテンシのリアルタイム処理",
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 75,
+        "popularity": 82,
+        "costPerformance": 88,
+        "specialization": 95,
+        "productivityGain": 92,
+        "totalScore": 522
+      }
+    },
+    {
+      "id": "AI053",
+      "toolName": "AssemblyAI",
+      "category": "音声分析・転写",
+      "subCategory": "AI音声分析",
+      "companyName": "AssemblyAI",
+      "officialUrl": "https://www.assemblyai.com",
+      "releaseInfo": {
+        "initialRelease": "2017-01",
+        "latestUpdate": "2025-08",
+        "version": "Universal & Slam-1",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "$50無料クレジット（185+時間相当）",
+        "freeCredits": "$50",
+        "starterPrice": null,
+        "starterFeatures": "非同期: $0.37/時間、リアルタイム: $0.47/時間",
+        "proPrice": null,
+        "proFeatures": "音声インテリジェンス機能別料金",
+        "enterprisePrice": null,
+        "enterpriseFeatures": "カスタム価格、50%割引、専用サポート"
+      },
+      "keyFeatures": [
+        "95%精度の音声認識",
+        "99言語対応",
+        "話者識別・感情分析",
+        "自動要約機能",
+        "エンティティ検出",
+        "リアルタイム・バッチ処理"
+      ],
+      "languages": [
+        "英語",
+        "スペイン語",
+        "フランス語",
+        "ドイツ語",
+        "イタリア語",
+        "ポルトガル語",
+        "日本語",
+        "中国語",
+        "韓国語",
+        "アラビア語",
+        "ロシア語"
+      ],
+      "integrations": [
+        "REST API",
+        "WebSocket",
+        "Python SDK",
+        "Node.js SDK",
+        "Go SDK"
+      ],
+      "strengths": [
+        "99言語の圧倒的な多言語対応",
+        "95%の高精度転写",
+        "豊富な音声インテリジェンス機能",
+        "60秒以内の高速処理",
+        "99.95% SLAの信頼性"
+      ],
+      "weaknesses": [
+        "主にAPI利用（GUI限定）",
+        "技術的実装が必要",
+        "音声インテリジェンス機能は追加料金",
+        "コンシューマー向けではない"
+      ],
+      "useCases": [
+        "多言語コンテンツ分析",
+        "感情分析付き転写",
+        "自動要約・議事録作成",
+        "コールセンター分析",
+        "コンプライアンス監視"
+      ],
+      "marketPosition": "多言語音声分析のリーダー、99言語対応の最多言語プラットフォーム",
+      "competitiveAdvantage": "99言語対応と包括的音声インテリジェンス機能の組み合わせ",
+      "tenEvaluation": {
+        "immediacy": 82,
+        "simplicity": 78,
+        "popularity": 85,
+        "costPerformance": 85,
+        "specialization": 92,
+        "productivityGain": 88,
+        "totalScore": 510
+      }
+    },
+    {
+      "id": "AI054",
+      "toolName": "Rev AI",
+      "category": "転写・字幕",
+      "subCategory": "AI転写",
+      "companyName": "Rev AI",
+      "officialUrl": "https://www.rev.ai",
+      "releaseInfo": {
+        "initialRelease": "2017-01",
+        "latestUpdate": "2025-08",
+        "version": "Rev AI API v1",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "無料クレジット提供",
+        "freeCredits": "初回クレジット",
+        "starterPrice": null,
+        "starterFeatures": "0.3¢/分（最安値水準）",
+        "proPrice": null,
+        "proFeatures": "大量利用者向け割引あり",
+        "enterprisePrice": null,
+        "enterpriseFeatures": "オンプレミス対応、カスタム価格"
+      },
+      "keyFeatures": [
+        "14%エラー率（業界最高水準）",
+        "58言語対応",
+        "1-3msレイテンシ",
+        "話者識別（英語8名、他言語6名）",
+        "カスタム語彙対応",
+        "オンプレミス対応"
+      ],
+      "languages": [
+        "英語",
+        "ドイツ語",
+        "フランス語",
+        "スペイン語",
+        "ロシア語",
+        "日本語",
+        "中国語",
+        "韓国語",
+        "アラビア語",
+        "トルコ語"
+      ],
+      "integrations": [
+        "REST API",
+        "SDK",
+        "JSON出力",
+        "TXT出力"
+      ],
+      "strengths": [
+        "0.3¢/分の業界最安値",
+        "14%エラー率の高精度",
+        "300万時間の学習データ",
+        "SOC II・HIPAA・GDPR準拠",
+        "1-2時間ファイルを5-10分で処理"
+      ],
+      "weaknesses": [
+        "GUI機能が限定的",
+        "主にAPI利用",
+        "高度な音声分析機能不足",
+        "リアルタイム機能が基本的"
+      ],
+      "useCases": [
+        "大規模転写プロジェクト",
+        "コスト重視の音声処理",
+        "医療・法務記録（HIPAA準拠）",
+        "デジタル証言録取",
+        "eDiscovery支援"
+      ],
+      "marketPosition": "コスパ最強の転写API、0.3¢/分の価格破壊的サービス",
+      "competitiveAdvantage": "業界最安値と高精度の組み合わせ、コンプライアンス対応",
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 82,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 80,
+        "productivityGain": 85,
+        "totalScore": 505
+      }
+    },
+    {
+      "id": "AI055",
+      "toolName": "Trint",
+      "category": "転写・編集",
+      "subCategory": "AI転写・編集",
+      "companyName": "Trint",
+      "officialUrl": "https://trint.com",
+      "releaseInfo": {
+        "initialRelease": "2014-01",
+        "latestUpdate": "2025-08",
+        "version": "Trint AI Platform",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": false,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "7日間無料トライアル",
+        "freeCredits": "7日間",
+        "starterPrice": 52,
+        "starterFeatures": "Starter: $52/月（年払い）、7ファイル/月",
+        "proPrice": 60,
+        "proFeatures": "Advanced: $60/月（年払い）、無制限転写",
+        "enterprisePrice": null,
+        "enterpriseFeatures": "Enterprise: カスタム価格、ライブ転写対応"
+      },
+      "keyFeatures": [
+        "40+言語対応",
+        "最大99%精度",
+        "リアルタイム共同編集",
+        "AI要約機能",
+        "50+言語への翻訳",
+        "ライブ転写（企業版）"
+      ],
+      "languages": [
+        "英語（北米・英国・豪州）",
+        "フランス語",
+        "スペイン語",
+        "ドイツ語",
+        "ポルトガル語",
+        "イタリア語",
+        "ロシア語",
+        "ポーランド語",
+        "フィンランド語"
+      ],
+      "integrations": [
+        "iOS",
+        "Android",
+        "Web",
+        "ファイル一括アップロード"
+      ],
+      "strengths": [
+        "ジャーナリスト・メディア特化",
+        "リアルタイム共同編集",
+        "インタラクティブ転写エディタ",
+        "ISO 27001認証のセキュリティ",
+        "引用時間自動記録"
+      ],
+      "weaknesses": [
+        "API提供なし",
+        "開発者向け機能不足",
+        "価格が高め",
+        "技術統合が困難"
+      ],
+      "useCases": [
+        "ジャーナリズム・報道",
+        "インタビュー転写・編集",
+        "ポッドキャスト制作",
+        "チーム協働転写プロジェクト",
+        "教育機関での講義記録"
+      ],
+      "marketPosition": "メディア・ジャーナリスト向け転写プラットフォームのリーダー",
+      "competitiveAdvantage": "メディア業界特化機能とリアルタイム共同編集",
+      "tenEvaluation": {
+        "immediacy": 75,
+        "simplicity": 85,
+        "popularity": 72,
+        "costPerformance": 68,
+        "specialization": 85,
+        "productivityGain": 80,
+        "totalScore": 465
+      }
+    },
+    {
+      "id": "AI056",
+      "toolName": "Sonix",
+      "category": "音声・動画転写",
+      "subCategory": "AI転写",
+      "companyName": "Sonix",
+      "officialUrl": "https://sonix.ai",
+      "releaseInfo": {
+        "initialRelease": "2017-01",
+        "latestUpdate": "2025-08",
+        "version": "Sonix AI Platform",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "30分無料",
+        "freeCredits": "30分",
+        "starterPrice": 10,
+        "starterFeatures": "Standard: $10/時間（従量課金）",
+        "proPrice": 22,
+        "proFeatures": "Premium: $22/月 + $5/時間",
+        "enterprisePrice": null,
+        "enterpriseFeatures": "Enterprise: カスタム価格、専用サポート"
+      },
+      "keyFeatures": [
+        "53+言語対応",
+        "最大99%精度",
+        "AI自動要約",
+        "39言語への翻訳",
+        "字幕・タイムコード生成",
+        "マルチユーザー権限管理"
+      ],
+      "languages": [
+        "英語",
+        "スペイン語",
+        "フランス語",
+        "ドイツ語",
+        "イタリア語",
+        "ポルトガル語",
+        "日本語",
+        "中国語",
+        "韓国語",
+        "ロシア語",
+        "アラビア語"
+      ],
+      "integrations": [
+        "API",
+        "ブラウザエディタ",
+        "チーム協働機能"
+      ],
+      "strengths": [
+        "90%コスト削減（人間転写比）",
+        "SOC 2 Type 2認証",
+        "高品質音声で97%精度",
+        "包括的な編集・協働機能",
+        "学生・教職員・非営利割引"
+      ],
+      "weaknesses": [
+        "リアルタイム機能限定",
+        "専門特化機能不足",
+        "価格競争力が中程度",
+        "音声品質に依存"
+      ],
+      "useCases": [
+        "学術研究・インタビュー",
+        "教育機関での講義転写",
+        "中小企業の会議記録",
+        "多言語コンテンツ制作",
+        "ポッドキャスト・メディア制作"
+      ],
+      "marketPosition": "バランス型転写プラットフォーム、中小企業・教育機関に人気",
+      "competitiveAdvantage": "包括的機能と手頃な価格のバランス、教育機関割引",
+      "tenEvaluation": {
+        "immediacy": 78,
+        "simplicity": 88,
+        "popularity": 80,
+        "costPerformance": 82,
+        "specialization": 75,
+        "productivityGain": 78,
+        "totalScore": 481
+      }
+    }
+  ],
+  "batchSummary": {
+    "topPerformers": [
+      {
+        "rank": 1,
+        "tool": "ElevenLabs",
+        "score": 89,
+        "category": "音声生成リーダー"
+      },
+      {
+        "rank": 2,
+        "tool": "Deepgram",
+        "score": 86.5,
+        "category": "音声認識技術王者"
+      },
+      {
+        "rank": 3,
+        "tool": "AssemblyAI",
+        "score": 84.75,
+        "category": "多言語チャンピオン"
+      },
+      {
+        "rank": 4,
+        "tool": "Speechify",
+        "score": 84.5,
+        "category": "テキスト読み上げ王者"
+      },
+      {
+        "rank": 5,
+        "tool": "Murf",
+        "score": 84,
+        "category": "企業向け音声生成"
+      }
+    ],
+    "categoryLeaders": {
+      "音声生成": "ElevenLabs（89点）",
+      "音声認識": "Deepgram（86.5点）",
+      "テキスト読み上げ": "Speechify（84.5点）",
+      "コスパ": "Rev AI（95点コスパスコア）",
+      "多言語対応": "AssemblyAI（99言語）"
+    },
+    "marketInsights": {
+      "dominantPlayer": "ElevenLabsが音声生成分野で技術的優位性確立",
+      "emergingTrends": "リアルタイム処理・多言語対応・音声クローニングが主要トレンド",
+      "priceCompetition": "Rev AIの0.3¢/分が価格破壊、コスパ重視ユーザーに訴求",
+      "specialization": "各ツールが明確な専門分野を確立、用途別選択が重要"
+    }
+  }
+}

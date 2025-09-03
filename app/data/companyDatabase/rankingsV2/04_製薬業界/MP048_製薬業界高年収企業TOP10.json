@@ -1,0 +1,153 @@
+{
+  "patternId": "MP048",
+  "patternName": "製薬業界高年収企業TOP10",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "industry": "製薬業界"
+  },
+  "generatedAt": "2025-08-29T10:28:52.869Z",
+  "totalMatched": 152,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "グーグル合同会社",
+      "industry": "外資系IT業界",
+      "score": 16240000,
+      "metrics": {
+        "salary": 16240000,
+        "initialSalary": 700000,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": 100,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 2,
+      "companyName": "日本マイクロソフト株式会社",
+      "industry": "外資系IT業界",
+      "score": 13030000,
+      "metrics": {
+        "salary": 13030000,
+        "initialSalary": 620000,
+        "holidays": null,
+        "overtime": 32.3,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 3,
+      "companyName": "三井不動産株式会社",
+      "industry": "総合デベロッパー",
+      "score": 12890000,
+      "metrics": {
+        "salary": 12890000,
+        "initialSalary": 320000,
+        "holidays": 125,
+        "overtime": 8,
+        "vacationRate": null,
+        "turnoverRate3Years": 0.93
+      }
+    },
+    {
+      "rank": 4,
+      "companyName": "三菱地所株式会社",
+      "industry": "総合デベロッパー",
+      "score": 12730000,
+      "metrics": {
+        "salary": 12730000,
+        "initialSalary": 210000,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": 67.9,
+        "turnoverRate3Years": 0.7
+      }
+    },
+    {
+      "rank": 5,
+      "companyName": "株式会社セールスフォース・ジャパン",
+      "industry": "外資系IT業界",
+      "score": 12155000,
+      "metrics": {
+        "salary": 12155000,
+        "initialSalary": 450000,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 6,
+      "companyName": "鹿島建設株式会社",
+      "industry": "建設業界",
+      "score": 11847000,
+      "metrics": {
+        "salary": 11847000,
+        "initialSalary": 300000,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 7,
+      "companyName": "株式会社博報堂DYホールディングス",
+      "industry": "ホールディングス（広告代理店）",
+      "score": 11580000,
+      "metrics": {
+        "salary": 11580000,
+        "initialSalary": null,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 8,
+      "companyName": "アマゾンジャパン合同会社",
+      "industry": "外資系IT・EC業界",
+      "score": 11500000,
+      "metrics": {
+        "salary": 11500000,
+        "initialSalary": 354584,
+        "holidays": 120,
+        "overtime": 23.1,
+        "vacationRate": 73.4,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 9,
+      "companyName": "株式会社大林組",
+      "industry": "建設業界",
+      "score": 11400000,
+      "metrics": {
+        "salary": 11400000,
+        "initialSalary": 300000,
+        "holidays": 125,
+        "overtime": 45,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 10,
+      "companyName": "武田薬品工業株式会社",
+      "industry": "製薬業・医薬品製造業",
+      "score": 11040000,
+      "metrics": {
+        "salary": 11040000,
+        "initialSalary": 300000,
+        "holidays": 123,
+        "overtime": 17.9,
+        "vacationRate": 70,
+        "turnoverRate3Years": null
+      }
+    }
+  ]
+}

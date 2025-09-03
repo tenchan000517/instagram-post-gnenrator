@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "warnings": [
+    "スコア不整合: AI100: 計算値533 vs 記録値543, AI101: 計算値420 vs 記録値370"
+  ],
+  "info": [],
+  "statistics": {
+    "totalTools": 77,
+    "categories": 47,
+    "topCategories": [
+      [
+        "開発支援・コーディング",
+        9
+      ],
+      [
+        "動画生成・編集",
+        5
+      ],
+      [
+        "AI会話・アシスタント",
+        4
+      ],
+      [
+        "プレゼンテーション・資料作成",
+        4
+      ],
+      [
+        "動画作成・編集",
+        4
+      ]
+    ],
+    "scoreStats": {
+      "average": 514.69,
+      "min": 370,
+      "max": 570,
+      "count": 77
+    },
+    "uniqueCompanies": 70
+  }
+}

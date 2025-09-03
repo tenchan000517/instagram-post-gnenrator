@@ -1,0 +1,198 @@
+{
+  "rankingId": "TEN017",
+  "rankingName": "有料ツール高コスパTOP10",
+  "description": "有料だがコスパに優れるAIツール",
+  "generatedAt": "2025-08-31T06:55:19.708Z",
+  "criteria": "costEffectiveness",
+  "filters": {
+    "pricingTier": "paid",
+    "hasFreeVersion": true
+  },
+  "totalCandidates": 14,
+  "displayCount": 10,
+  "tools": [
+    {
+      "rank": 1,
+      "toolId": "AI047",
+      "name": "Google Colab",
+      "category": "AI研究・実行環境",
+      "developer": "Google LLC",
+      "totalScore": 550.5,
+      "tenScore": 91.85,
+      "grade": "A",
+      "keyFeatures": [
+        "Data Science Agent（DSA）",
+        "Gemini 2.5 Flash統合",
+        "自律解析フロー・エラー自動修正"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 98,
+      "batchNumber": 6
+    },
+    {
+      "rank": 2,
+      "toolId": "AI044",
+      "name": "Codeium",
+      "category": "開発支援・コーディング",
+      "developer": "Exafunction Inc.",
+      "totalScore": 506.1,
+      "tenScore": 84.25,
+      "grade": "B",
+      "keyFeatures": [
+        "永続無料プラン（無制限）",
+        "リポジトリ全体コンテキスト理解",
+        "40+ IDE・70+ 言語対応"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 6
+    },
+    {
+      "rank": 3,
+      "toolId": "AI042",
+      "name": "Replit",
+      "category": "開発支援・コーディング",
+      "developer": "Replit Inc.",
+      "totalScore": 534.3,
+      "tenScore": 89.25,
+      "grade": "B",
+      "keyFeatures": [
+        "Replit Agent（自然言語からアプリ構築）",
+        "50+プログラミング言語対応",
+        "リアルタイム協業機能"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 85,
+      "batchNumber": 6
+    },
+    {
+      "rank": 4,
+      "toolId": "AI046",
+      "name": "Amazon Q Developer",
+      "category": "開発支援・コーディング",
+      "developer": "Amazon Web Services",
+      "totalScore": 451.8,
+      "tenScore": 75.45,
+      "grade": "C",
+      "keyFeatures": [
+        "自律エージェント（マルチステップタスク）",
+        "コード変換・アップグレード（Java 8→17等）",
+        "AWS サービス統合・最適化"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 80,
+      "batchNumber": 6
+    },
+    {
+      "rank": 5,
+      "toolId": "AI045",
+      "name": "Sourcegraph Cody",
+      "category": "開発支援・コーディング",
+      "developer": "Sourcegraph Inc.",
+      "totalScore": 471,
+      "tenScore": 78.25,
+      "grade": "C",
+      "keyFeatures": [
+        "コードベース全体解析・検索",
+        "Claude 3.5 Sonnet統合",
+        "企業向けセキュリティ・監査ログ"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 75,
+      "batchNumber": 6
+    },
+    {
+      "rank": 6,
+      "toolId": "AI041",
+      "name": "Cursor",
+      "category": "開発支援・コーディング",
+      "developer": "Anysphere",
+      "totalScore": 502.2,
+      "tenScore": 83.4,
+      "grade": "B",
+      "keyFeatures": [
+        "Agent Mode（自動タスク実行）",
+        "複数AIモデル対応（GPT-4, Claude 3.5, Gemini）",
+        "リポジトリ全体理解・コンテキスト保持"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 70,
+      "batchNumber": 6
+    },
+    {
+      "rank": 7,
+      "toolId": "AI043",
+      "name": "Tabnine",
+      "category": "開発支援・コーディング",
+      "developer": "Tabnine Ltd.",
+      "totalScore": 495.3,
+      "tenScore": 81.7,
+      "grade": "B",
+      "keyFeatures": [
+        "チーム学習アルゴリズム",
+        "プライベートコードモデル（企業版）",
+        "完全オンプレミス展開可能"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 70,
+      "batchNumber": 6
+    },
+    {
+      "rank": 8,
+      "toolId": "AI065",
+      "name": "Framer AI",
+      "category": "AI Webデザイン・開発",
+      "developer": "Framer",
+      "totalScore": 175.5,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "AI チャットによる自動サイト生成",
+        "レスポンシブデザイン自動生成",
+        "リアルタイムコラボレーション",
+        "高度なアニメーション機能"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 0,
+      "batchNumber": 9
+    },
+    {
+      "rank": 9,
+      "toolId": "AI066",
+      "name": "Looka",
+      "category": "AI ロゴ・ブランドデザイン",
+      "developer": "Looka",
+      "totalScore": 186,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "機械学習による個人化されたロゴ提案",
+        "300+ブランド素材テンプレート",
+        "完全なブランドガイドライン",
+        "無制限編集・ダウンロード"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 0,
+      "batchNumber": 9
+    },
+    {
+      "rank": 10,
+      "toolId": "AI067",
+      "name": "Brandmark",
+      "category": "AI ロゴ・ブランドデザイン",
+      "developer": "Brandmark",
+      "totalScore": 171,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "数百万ロゴ学習済み深層学習AI",
+        "無制限デザイン調整",
+        "商用利用完全権利込み",
+        "人間デザイナーオプション"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 0,
+      "batchNumber": 9
+    }
+  ]
+}

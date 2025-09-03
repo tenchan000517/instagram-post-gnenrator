@@ -1,0 +1,27 @@
+{
+  "patternId": "JS053",
+  "patternName": "製薬業界年収TOP10",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "industry": "製薬業界"
+  },
+  "generatedAt": "2025-08-29T12:30:22.737Z",
+  "totalMatched": 1,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "武田薬品工業株式会社",
+      "industry": "製薬業・医薬品製造業",
+      "score": 11040000,
+      "metrics": {
+        "salary": 11040000,
+        "initialSalary": 300000,
+        "holidays": 123,
+        "overtime": 17.9,
+        "vacationRate": 70,
+        "turnoverRate3Years": null
+      }
+    }
+  ]
+}

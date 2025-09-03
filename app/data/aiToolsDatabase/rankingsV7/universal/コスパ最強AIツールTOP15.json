@@ -1,0 +1,1989 @@
+{
+  "patternId": "UN002",
+  "patternName": "コスパ最強AIツールTOP15",
+  "criteria": "costPerformance",
+  "limit": 15,
+  "filters": {},
+  "generatedAt": "2025-09-02T00:50:37.420Z",
+  "totalMatched": 77,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Gemini",
+      "score": 99,
+      "totalScore": 559,
+      "starRating": "★★★★",
+      "id": "AI008",
+      "category": "AI会話・アシスタント",
+      "subCategory": "統合型AI（Google）",
+      "companyName": "Google",
+      "officialUrl": "https://gemini.google.com",
+      "releaseInfo": {
+        "initialRelease": "2023-12",
+        "latestUpdate": "2025-08",
+        "version": "Gemini 2.5 Pro + Deep Think + Veo 3",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "businessUsers": 10000000,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "Gemini基本機能・制限付きアクセス",
+        "freeCredits": null,
+        "aiProPrice": 20,
+        "aiProFeatures": "2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus",
+        "aiUltraPrice": null,
+        "aiUltraFeatures": "Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス",
+        "workspaceIntegrated": true,
+        "workspaceNote": "2025年1月15日からWorkspace全プランに統合",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "統合型AI会話・作業支援・検索",
+        "uniqueFeatures": [
+          "Deep Research（自動ウェブ調査）",
+          "Veo 3動画生成",
+          "Google Workspace完全統合",
+          "1Mトークンコンテキスト"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "画像",
+          "音声",
+          "動画",
+          "ドキュメント"
+        ],
+        "outputFormats": [
+          "テキスト",
+          "画像",
+          "動画",
+          "音声",
+          "ドキュメント"
+        ],
+        "integrations": [
+          "Google Workspace",
+          "Gmail",
+          "Drive",
+          "Docs",
+          "Sheets"
+        ],
+        "apiAvailability": "Gemini API・Vertex AI"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-3秒",
+        "accuracyRate": "95%+",
+        "dataPrivacy": "エンタープライズ：学習に不使用",
+        "dataRetention": "ユーザー設定による",
+        "compliance": [
+          "SOC 2",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "maxTokens": 1000000,
+        "supportedLanguages": 100
+      },
+      "localization": {
+        "supportedLanguages": [
+          "日本語",
+          "英語",
+          "中国語",
+          "韓国語",
+          "他96言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": true
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 1,
+        "dailyUsageTime": "10-60分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.9%",
+        "scalability": "極高（Google Cloud基盤）",
+        "updateFrequency": "週1-2回",
+        "bugReports": null,
+        "serverLocation": "世界各地",
+        "loadTime": "1秒未満"
+      },
+      "community": {
+        "communitySize": 5000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "極めて活発",
+        "officialSupport": "Google Support",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "ChatGPT",
+          "Claude",
+          "Microsoft Copilot"
+        ],
+        "keyDifferentiators": [
+          "Google Workspace統合",
+          "Deep Research機能",
+          "企業向け無料統合（2025年変更）"
+        ],
+        "marketPosition": "企業統合AI（Google生態系）",
+        "marketShare": "推定20%"
+      },
+      "tenEvaluation": {
+        "immediacy": 94,
+        "simplicity": 99,
+        "popularity": 89,
+        "costPerformance": 99,
+        "specialization": 89,
+        "productivityGain": 89,
+        "totalScore": 559
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-31",
+      "sources": [
+        "https://gemini.google.com/subscriptions/",
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://one.google.com/about/google-ai-plans/",
+        "https://promevo.com/blog/gemini-ai-joins-the-google-workspace-suite",
+        "https://techcrunch.com/2025/07/16/google-rolls-out-ai-powered-business-calling-feature-brings-gemini-2-5-pro-to-ai-mode/"
+      ],
+      "additionalNotes": "2025年1月からGoogle Workspaceに標準統合。追加料金なしでAI機能提供により企業導入が加速。Deep Research・Veo 3で差別化。"
+    },
+    {
+      "rank": 2,
+      "toolName": "Obsidian",
+      "score": 98,
+      "totalScore": 473,
+      "starRating": "★",
+      "id": "AI014",
+      "category": "知識管理・ノート",
+      "subCategory": "AIプラグイン対応ナレッジマネジメント",
+      "companyName": "Dynalist Inc",
+      "officialUrl": "https://obsidian.md",
+      "releaseInfo": {
+        "initialRelease": "2020-03",
+        "latestUpdate": "2025-08",
+        "version": "v1.6+ with AI Plugin Ecosystem",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "millionsOfFans": true,
+        "discordMembers": 12000,
+        "communityPlugins": 2000,
+        "downloadCount": null
+      },
+      "platform": {
+        "web": false,
+        "ios": true,
+        "android": true,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "個人利用無制限・ローカルストレージ",
+        "syncPrice": 10,
+        "syncFeatures": "クラウド同期・バージョン履歴・複数デバイス",
+        "publishPrice": 10,
+        "publishFeatures": "ウェブ公開・カスタマイズ可能",
+        "commercialPrice": 50,
+        "commercialFeatures": "商用ライセンス・優先サポート・年額",
+        "commercialNote": "2名以上の営利組織向け",
+        "billingCycle": "月額・年額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "ローカル優先ナレッジマネジメント・双方向リンク",
+        "uniqueFeatures": [
+          "完全ローカルストレージ（.md形式）",
+          "双方向リンク・グラフビュー",
+          "2000+コミュニティプラグイン",
+          "AI統合プラグイン豊富"
+        ],
+        "inputFormats": [
+          "Markdown",
+          "画像",
+          "PDF",
+          "音声",
+          "各種インポート"
+        ],
+        "outputFormats": [
+          "Markdown",
+          "PDF",
+          "HTML",
+          "各種エクスポート"
+        ],
+        "integrations": [
+          "GitHub",
+          "Zotero",
+          "Readwise",
+          "各種クラウドサービス"
+        ],
+        "apiAvailability": "Plugin API・Community API"
+      },
+      "technicalSpecs": {
+        "responseTime": "即座（ローカル処理）",
+        "accuracyRate": "100%（ローカルデータ）",
+        "dataPrivacy": "完全ローカル・ユーザー制御",
+        "dataRetention": "永続（ユーザー制御）",
+        "compliance": [
+          "GDPR準拠（ローカル処理）"
+        ],
+        "offline": true,
+        "fileFormat": "Markdown (.md)",
+        "syncCapability": "オプション・暗号化"
+      },
+      "localization": {
+        "supportedLanguages": [
+          "日本語",
+          "英語",
+          "中国語",
+          "韓国語",
+          "フランス語",
+          "他15言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Hard",
+        "setupTime": 30,
+        "dailyUsageTime": "60-300分",
+        "targetUserLevel": "中級〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.9%（ローカル処理）",
+        "scalability": "高（ローカル制限のみ）",
+        "updateFrequency": "月1-2回",
+        "bugReports": "軽微・コミュニティ修正活発",
+        "serverLocation": "なし（ローカル）",
+        "loadTime": "即座"
+      },
+      "community": {
+        "communitySize": 1000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "極めて活発（Discord・フォーラム）",
+        "officialSupport": "商用：優先サポート",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Notion",
+          "Roam Research",
+          "Logseq"
+        ],
+        "keyDifferentiators": [
+          "完全ローカルストレージ",
+          "Markdown標準",
+          "豊富なプラグインエコシステム",
+          "データ所有権保証"
+        ],
+        "marketPosition": "プライバシー重視ナレッジマネジメント",
+        "marketShare": "推定20%（個人ナレッジ管理市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 63,
+        "simplicity": 43,
+        "popularity": 83,
+        "costPerformance": 98,
+        "specialization": 98,
+        "productivityGain": 88,
+        "totalScore": 473
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-31",
+      "sources": [
+        "https://obsidian.md/",
+        "https://www.lindy.ai/blog/obsidian-pricing",
+        "https://www.eesel.ai/blog/obsidian-ai",
+        "https://medium.com/@petermilovcik/obsidian-ai-plugins-overview-a6747d52977e",
+        "https://www.cloudwards.net/obsidian-review/"
+      ],
+      "additionalNotes": "完全ローカル・プライバシー重視で差別化。2000+プラグインで豊富なAI統合。研究者・ライター・プライバシー重視ユーザーに高評価。"
+    },
+    {
+      "rank": 3,
+      "toolName": "Genspark",
+      "score": 98,
+      "totalScore": 543,
+      "starRating": "★★★",
+      "id": "AI087",
+      "category": "AI検索・リサーチ",
+      "subCategory": "AIパワード検索エンジン",
+      "companyName": "Mainfunc Inc.",
+      "officialUrl": "https://genspark.ai",
+      "releaseInfo": {
+        "initialRelease": "2023-09",
+        "latestUpdate": "2025-04",
+        "version": "Super Agent System",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 5000000,
+        "monthlyActiveUsers": 2000000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "userReviews": {
+          "positive": 92,
+          "neutral": 6,
+          "negative": 2
+        }
+      },
+      "tenEvaluation": {
+        "immediacy": 93,
+        "simplicity": 88,
+        "popularity": 83,
+        "costPerformance": 98,
+        "specialization": 93,
+        "productivityGain": 88,
+        "totalScore": 543
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "n8n",
+      "score": 95,
+      "totalScore": 465,
+      "starRating": "★",
+      "id": "AI010",
+      "category": "ワークフロー自動化",
+      "subCategory": "AI統合ワークフロー自動化",
+      "companyName": "n8n GmbH",
+      "officialUrl": "https://n8n.io",
+      "releaseInfo": {
+        "initialRelease": "2019",
+        "latestUpdate": "2025-08",
+        "version": "Fair-code + AI統合",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "activeUsers": 200000,
+        "enterpriseCustomers": 3000,
+        "communitySize": 45000,
+        "githubStars": 70000,
+        "downloadCount": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "selfHosted": true
+      },
+      "pricing": {
+        "freeTier": "Community Edition・無制限ワークフロー",
+        "freeFeatures": "オープンソース・セルフホスト・基本機能",
+        "businessPrice": "カスタム",
+        "businessFeatures": "中堅企業向け・エンタープライズ機能・セルフホスト",
+        "enterprisePrice": "要問合せ",
+        "enterpriseFeatures": "SSO・RBAC・監査ログ・SLA・専用サポート",
+        "executionBased": true,
+        "overagePrice": 4000,
+        "overageNote": "EUR・300,000実行追加毎",
+        "billingCycle": "年額",
+        "currency": "EUR"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AIワークフロー自動化・ビジネスプロセス統合",
+        "uniqueFeatures": [
+          "400+統合済みサービス",
+          "Fair-codeライセンス",
+          "220実行/秒のパフォーマンス",
+          "カスタムコード統合"
+        ],
+        "inputFormats": [
+          "API",
+          "Webhook",
+          "ファイル",
+          "データベース"
+        ],
+        "outputFormats": [
+          "自動化アクション",
+          "データ変換",
+          "通知"
+        ],
+        "integrations": [
+          "Slack",
+          "GitHub",
+          "AWS",
+          "Google",
+          "Microsoft",
+          "その他400+"
+        ],
+        "apiAvailability": "REST API・Webhook"
+      },
+      "technicalSpecs": {
+        "executionRate": "220実行/秒（単一インスタンス）",
+        "accuracyRate": "99%（ワークフロー実行）",
+        "dataPrivacy": "完全セルフホスト可能",
+        "dataRetention": "ユーザー制御",
+        "compliance": [
+          "GDPR準拠",
+          "SOC 2対応"
+        ],
+        "offline": true,
+        "scalability": "無制限",
+        "supportedLanguages": 20
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "ドイツ語",
+          "日本語",
+          "中国語",
+          "フランス語",
+          "他15言語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "部分対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": true
+      },
+      "usability": {
+        "learningCurve": "Hard",
+        "setupTime": 30,
+        "dailyUsageTime": "60-240分",
+        "targetUserLevel": "中級〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.5%",
+        "scalability": "極高（水平スケーリング対応）",
+        "updateFrequency": "月2-4回",
+        "bugReports": null,
+        "serverLocation": "ユーザー選択（セルフホスト）",
+        "loadTime": "2-5秒"
+      },
+      "community": {
+        "communitySize": 45000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "極めて活発（フォーラム）",
+        "officialSupport": "エンタープライズ：SLA対応",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Zapier",
+          "Microsoft Power Automate",
+          "Make"
+        ],
+        "keyDifferentiators": [
+          "Fair-codeオープンソース",
+          "完全セルフホスト可能",
+          "カスタムコード統合",
+          "実行ベース価格"
+        ],
+        "marketPosition": "エンタープライズ向けオープン自動化",
+        "marketShare": "推定8%"
+      },
+      "businessMetrics": {
+        "totalFunding": 330000000,
+        "seriesBFunding": 60000000,
+        "fundingDate": "2025-03",
+        "valuation": null,
+        "userBaseDistribution": "50%米国・50%欧州アジア",
+        "aiAdoptionRate": "75%"
+      },
+      "tenEvaluation": {
+        "immediacy": 70,
+        "simplicity": 50,
+        "popularity": 65,
+        "costPerformance": 95,
+        "specialization": 95,
+        "productivityGain": 90,
+        "totalScore": 465
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-31",
+      "sources": [
+        "https://n8n.io/pricing/",
+        "https://blog.n8n.io/build-without-limits-everything-you-need-to-know-about-n8ns-new-pricing/",
+        "https://techcrunch.com/2025/03/24/fair-code-pioneer-n8n-raises-60m-for-ai-powered-workflow-automation/",
+        "https://n8n.io/ai/",
+        "https://community.n8n.io/"
+      ],
+      "additionalNotes": "Fair-codeオープンソースで差別化。75%のユーザーがAIワークフロー利用。2025年Series B $60Mでエンタープライズ市場拡大中。"
+    },
+    {
+      "rank": 5,
+      "toolName": "Stable Diffusion",
+      "score": 95,
+      "totalScore": 485,
+      "starRating": "★★",
+      "id": 19,
+      "category": "Open Source AI Image Generation",
+      "userMetrics": {
+        "activeUsers": "Millions",
+        "downloads": null,
+        "rating": null,
+        "reviews": null
+      },
+      "pricing": {
+        "model": "Open Source + Memberships",
+        "freeTier": true,
+        "paidPlans": [
+          {
+            "name": "Open Source",
+            "price": "Free",
+            "features": [
+              "Self-hosted",
+              "Full model access",
+              "Commercial use"
+            ]
+          },
+          {
+            "name": "Stability AI Membership",
+            "price": "$9/month minimum",
+            "features": [
+              "Cloud hosting",
+              "Enhanced features",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Commercial License",
+            "price": "Custom",
+            "features": [
+              "Enterprise support",
+              "Commercial guarantees"
+            ]
+          }
+        ]
+      },
+      "technicalSpecs": {
+        "latestVersion": "3.5 Large",
+        "apiAvailable": true,
+        "offlineCapable": true,
+        "systemRequirements": "2.4GB VRAM minimum"
+      },
+      "tenEvaluation": {
+        "immediacy": 75,
+        "simplicity": 60,
+        "popularity": 85,
+        "costPerformance": 95,
+        "specialization": 90,
+        "productivityGain": 80,
+        "totalScore": 485
+      },
+      "batchNumber": 3,
+      "toolRange": "17-24"
+    },
+    {
+      "rank": 6,
+      "toolName": "Bing AI (Microsoft Copilot)",
+      "score": 95,
+      "totalScore": 505,
+      "starRating": "★★",
+      "id": "AI036",
+      "category": "AI検索・統合アシスタント",
+      "companyName": "Microsoft Corporation",
+      "officialUrl": "https://www.microsoft.com/en-us/microsoft-copilot/",
+      "releaseInfo": {
+        "initialRelease": "2023-02",
+        "latestUpdate": "2025-08-31",
+        "version": "Copilot Pro"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": true,
+        "mac": true,
+        "linux": false,
+        "apiAccess": true
+      },
+      "pricing": {
+        "freeTier": "基本Copilot機能・制限付きアクセス",
+        "freeCredits": null,
+        "starterPrice": "$20/月",
+        "starterFeatures": "Copilot Pro - 優先アクセス・Microsoft 365統合",
+        "proPrice": "$30/月",
+        "proFeatures": "Microsoft 365 Copilot - 全機能統合",
+        "enterprisePrice": "$5/月",
+        "billingCycle": "月額"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AI検索・文書作成・生産性向上",
+        "uniqueFeatures": [
+          "Microsoft 365統合",
+          "Deep Research",
+          "Copilot Pages",
+          "Voice機能",
+          "Think Deeper"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "音声",
+          "画像"
+        ],
+        "outputFormats": [
+          "テキスト",
+          "画像",
+          "文書",
+          "レポート"
+        ],
+        "integrations": [
+          "Microsoft 365",
+          "Windows",
+          "Edge",
+          "Teams"
+        ],
+        "apiAvailability": "Enterprise API提供"
+      },
+      "technicalSpecs": {
+        "responseTime": "高速",
+        "accuracyRate": "高",
+        "dataPrivacy": "Microsoft標準",
+        "dataRetention": "企業向け設定可能",
+        "compliance": [
+          "SOC 2",
+          "GDPR",
+          "HIPAA"
+        ],
+        "offline": false
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "日本語",
+          "20+言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true
+      },
+      "usability": {
+        "learningCurve": "Medium",
+        "setupTime": "10",
+        "dailyUsageTime": "60-180分",
+        "targetUserLevel": "一般～ビジネスユーザー"
+      },
+      "performance": {
+        "reliability": "非常に高い",
+        "scalability": "非常に高い",
+        "updateFrequency": "月次",
+        "bugReports": "軽微な問題"
+      },
+      "community": {
+        "communitySize": "非常に大規模",
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "非常に活発"
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Google Gemini",
+          "ChatGPT",
+          "Claude"
+        ],
+        "keyDifferentiators": [
+          "Office統合",
+          "エンタープライズ特化",
+          "Windows統合"
+        ],
+        "marketPosition": "エンタープライズAI市場リーダー"
+      },
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 90,
+        "popularity": 80,
+        "costPerformance": 95,
+        "specialization": 70,
+        "productivityGain": 85,
+        "totalScore": 505
+      },
+      "batchNumber": 5,
+      "toolRange": "33-40",
+      "lastVerified": "2025-08-31",
+      "sources": [
+        "https://www.microsoft.com/en-us/store/b/copilotpro",
+        "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals",
+        "https://startupnews.fyi/2025/08/29/microsoft-copilot-pricing-explained-plans-features-and-what-businesses-should-know/",
+        "https://learn.microsoft.com/en-us/copilot/overview",
+        "https://blogs.microsoft.com/blog/2023/07/18/furthering-our-ai-ambitions-announcing-bing-chat-enterprise-and-microsoft-365-copilot-pricing/"
+      ],
+      "additionalNotes": "2025年2月にGPT-5対応・Voice機能無料化。macOSアプリ追加"
+    },
+    {
+      "rank": 7,
+      "toolName": "Codeium",
+      "score": 95,
+      "totalScore": 505,
+      "starRating": "★★",
+      "id": "AI044",
+      "category": "開発支援・コーディング",
+      "subCategory": "AIプログラミングアシスタント",
+      "companyName": "Exafunction Inc.",
+      "officialUrl": "https://codeium.com",
+      "releaseInfo": {
+        "initialRelease": "2022-09",
+        "latestUpdate": "2025-08-30",
+        "version": "1.8.42",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 3000000,
+        "monthlyActiveUsers": 1500000,
+        "downloadCount": 2250000,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "無制限オートコンプリート・チャット・コマンド",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "無制限オートコンプリート・チャット・コマンド",
+        "proPrice": 15,
+        "proFeatures": "優先アクセス、高度なコンテキスト、高速補完",
+        "enterprisePrice": "要問合せ",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "無料AIプログラミングアシスタント・コード補完",
+        "uniqueFeatures": [
+          "永続無料プラン（無制限）",
+          "リポジトリ全体コンテキスト理解",
+          "40+ IDE・70+ 言語対応"
+        ],
+        "inputFormats": [
+          "コード",
+          "自然言語",
+          "コメント"
+        ],
+        "outputFormats": [
+          "コード補完",
+          "コード生成",
+          "リファクタリング"
+        ],
+        "integrations": [
+          "VS Code",
+          "JetBrains",
+          "Vim",
+          "Neovim"
+        ],
+        "apiAvailability": "REST API、拡張API"
+      },
+      "technicalSpecs": {
+        "responseTime": "200-800ms",
+        "accuracyRate": "82%（コード補完）",
+        "dataPrivacy": "暗号化転送・ゼロ保持オプション",
+        "dataRetention": "オプショナル（設定可能）",
+        "compliance": [
+          "GDPR",
+          "CCPA"
+        ],
+        "offline": false,
+        "maxTokens": null,
+        "supportedLanguages": 70
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "70+ プログラミング言語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "基本対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Very Easy",
+        "setupTime": 3,
+        "dailyUsageTime": "30-360分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "98.5%",
+        "scalability": "中（クラウドベース）",
+        "updateFrequency": "月2-4回",
+        "bugReports": null,
+        "serverLocation": "米国",
+        "loadTime": "1-2秒"
+      },
+      "community": {
+        "communitySize": 300000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（Discord、Reddit）",
+        "officialSupport": "メール・Discord",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot",
+          "Tabnine",
+          "Amazon Q Developer"
+        ],
+        "keyDifferentiators": [
+          "完全無料プラン（無制限）",
+          "多IDE対応（40+）",
+          "個人向け特化"
+        ],
+        "marketPosition": "無料代替ソリューション",
+        "marketShare": "6%（AI補完ツール市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 92,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 75,
+        "productivityGain": 80,
+        "totalScore": 505
+      },
+      "batchNumber": 6,
+      "toolRange": "41-48",
+      "dataCollectionBatch": 6,
+      "lastVerified": "2025-08-31",
+      "sources": [
+        "https://www.toolsforhumans.ai/ai-tools/codeium",
+        "https://aihungry.com/tools/codeium/pricing",
+        "https://towardsdatascience.com/finding-my-ai-coding-assistant-why-codeium-wins-over-copilot-ef5b1d275599/",
+        "https://powerusers.ai/ai-tool/codeium/",
+        "https://www.toksta.com/products/codeium"
+      ],
+      "additionalNotes": "無料でCopilot相当の機能を提供する代替ソリューション。個人開発者・学習者に人気。最近価格体系変更で議論。"
+    },
+    {
+      "rank": 8,
+      "toolName": "Rev AI",
+      "score": 95,
+      "totalScore": 505,
+      "starRating": "★★",
+      "id": "AI054",
+      "category": "転写・字幕",
+      "subCategory": "AI転写",
+      "companyName": "Rev AI",
+      "officialUrl": "https://www.rev.ai",
+      "releaseInfo": {
+        "initialRelease": "2017-01",
+        "latestUpdate": "2025-08",
+        "version": "Rev AI API v1",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "無料クレジット提供",
+        "freeCredits": "初回クレジット",
+        "starterPrice": null,
+        "starterFeatures": "0.3¢/分（最安値水準）",
+        "proPrice": null,
+        "proFeatures": "大量利用者向け割引あり",
+        "enterprisePrice": null,
+        "enterpriseFeatures": "オンプレミス対応、カスタム価格"
+      },
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 82,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 80,
+        "productivityGain": 85,
+        "totalScore": 505
+      },
+      "batchNumber": 7,
+      "toolRange": "49-56"
+    },
+    {
+      "rank": 9,
+      "toolName": "Lark",
+      "score": 95,
+      "totalScore": 517,
+      "starRating": "★★",
+      "id": "AI096",
+      "category": "生産性管理",
+      "subCategory": "オールインワン生産性スイート",
+      "companyName": "ByteDance (字節跳動)",
+      "officialUrl": "https://www.larksuite.com",
+      "releaseInfo": {
+        "initialRelease": "2019-04",
+        "latestUpdate": "2025-08",
+        "version": "6.18",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 10000000,
+        "monthlyActiveUsers": 8000000,
+        "businessUsers": 500000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": 4.3,
+        "googlePlayRating": 4.2
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "100ユーザーまで、基本機能、10GBストレージ",
+        "freeCredits": null,
+        "starterPrice": 12,
+        "starterFeatures": "Pro: 無制限ユーザー、1TBストレージ、高度機能",
+        "proPrice": null,
+        "proFeatures": null,
+        "maxPrice100": 100,
+        "maxPrice200": 200,
+        "maxFeatures": "Enterprise: カスタム統合、高度セキュリティ、専用サポート",
+        "enterprisePrice": "要問合せ",
+        "billingCycle": "月額・年額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "統合生産性スイート（チャット・ドキュメント・カレンダー・ビデオ会議）",
+        "uniqueFeatures": [
+          "オールインワン設計",
+          "リアルタイムコラボレーション",
+          "100言語自動翻訳",
+          "ByteDanceのAI技術統合"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "音声",
+          "動画",
+          "ファイル"
+        ],
+        "outputFormats": [
+          "ドキュメント",
+          "スプレッドシート",
+          "プレゼンテーション",
+          "PDF"
+        ],
+        "integrations": [
+          "Google Workspace",
+          "Microsoft 365",
+          "Slack",
+          "Zoom"
+        ],
+        "apiAvailability": "REST API、Webhook"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-2秒",
+        "accuracyRate": "95%（翻訳機能）",
+        "dataPrivacy": "エンタープライズデータ暗号化",
+        "dataRetention": "ユーザー制御",
+        "compliance": [
+          "SOC 2",
+          "ISO 27001",
+          "GDPR準拠"
+        ],
+        "offline": true,
+        "maxTokens": null,
+        "supportedLanguages": 100
+      },
+      "localization": {
+        "supportedLanguages": [
+          "日本語",
+          "英語",
+          "中国語",
+          "韓国語",
+          "フランス語",
+          "ドイツ語",
+          "他94言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": true
+      },
+      "usability": {
+        "learningCurve": "Medium",
+        "setupTime": 10,
+        "dailyUsageTime": "120-480分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.9%",
+        "scalability": "極高（ByteDanceインフラ）",
+        "updateFrequency": "月2-3回",
+        "bugReports": null,
+        "serverLocation": "世界各地",
+        "loadTime": "1-2秒"
+      },
+      "community": {
+        "communitySize": 1000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "活発",
+        "officialSupport": "24時間チャット・メール",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Microsoft Teams",
+          "Google Workspace",
+          "Slack + Notion",
+          "Monday.com"
+        ],
+        "keyDifferentiators": [
+          "オールインワン統合",
+          "ByteDance AI技術",
+          "100言語自動翻訳",
+          "無料100ユーザー"
+        ],
+        "marketPosition": "統合生産性プラットフォーム",
+        "marketShare": "推定8%"
+      },
+      "businessMetrics": {
+        "annualizedRevenue": 800000000,
+        "projectedRevenue2025": 1200000000,
+        "totalFunding": null,
+        "valuation": null,
+        "employeeCount": 2000
+      },
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 82,
+        "popularity": 85,
+        "costPerformance": 95,
+        "specialization": 88,
+        "productivityGain": 82,
+        "totalScore": 517
+      },
+      "batchNumber": 10,
+      "toolRange": "66-77",
+      "dataCollectionBatch": 10,
+      "lastVerified": "2025-09-01",
+      "sources": [
+        "https://www.larksuite.com",
+        "https://www.larksuite.com/pricing",
+        "https://open.larksuite.com/document/",
+        "https://techcrunch.com/tag/lark/",
+        "https://www.statista.com/topics/6138/lark/"
+      ],
+      "additionalNotes": "ByteDance開発のオールインワン生産性スイート。TikTokの技術力を活用し、特にアジア市場で急成長。無料100ユーザー対応が特徴。"
+    },
+    {
+      "rank": 10,
+      "toolName": "ImageFX",
+      "score": 95,
+      "totalScore": 536,
+      "starRating": "★★★",
+      "id": "AI098",
+      "category": "画像生成・編集",
+      "subCategory": "AI画像生成",
+      "companyName": "Google DeepMind",
+      "officialUrl": "https://aitestkitchen.withgoogle.com/tools/image-fx",
+      "releaseInfo": {
+        "initialRelease": "2024-02",
+        "latestUpdate": "2025-08",
+        "version": "Imagen 3",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 5000000,
+        "monthlyActiveUsers": 3000000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "月100画像、基本品質",
+        "freeCredits": "100",
+        "starterPrice": null,
+        "starterFeatures": "無料版のみ（2025年8月現在）",
+        "proPrice": null,
+        "proFeatures": null,
+        "maxPrice100": 100,
+        "maxPrice200": 200,
+        "maxFeatures": "将来的にGoogle AI Premium統合予定",
+        "enterprisePrice": "要問合せ（Vertex AI経由）",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "高品質AI画像生成（Imagen 3ベース）",
+        "uniqueFeatures": [
+          "Google Imagen 3技術",
+          "フォトリアリスティック生成",
+          "安全フィルター内蔵",
+          "プロンプト支援機能"
+        ],
+        "inputFormats": [
+          "テキストプロンプト",
+          "参照画像"
+        ],
+        "outputFormats": [
+          "PNG",
+          "JPG",
+          "高解像度画像"
+        ],
+        "integrations": [
+          "AI Test Kitchen",
+          "Vertex AI",
+          "Google Cloud"
+        ],
+        "apiAvailability": "Vertex AI経由"
+      },
+      "technicalSpecs": {
+        "responseTime": "5-15秒",
+        "accuracyRate": "95%（プロンプト理解）",
+        "dataPrivacy": "Googleプライバシーポリシー準拠",
+        "dataRetention": "ユーザー制御",
+        "compliance": [
+          "Google AI Principles",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "maxTokens": null,
+        "supportedLanguages": 50
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "日本語",
+          "中国語",
+          "韓国語",
+          "フランス語",
+          "ドイツ語",
+          "他44言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 1,
+        "dailyUsageTime": "10-60分",
+        "targetUserLevel": "初心者〜中級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": false
+      },
+      "performance": {
+        "reliability": "99%",
+        "scalability": "極高（Google Cloud）",
+        "updateFrequency": "月1-2回",
+        "bugReports": null,
+        "serverLocation": "世界各地",
+        "loadTime": "2-3秒"
+      },
+      "community": {
+        "communitySize": 500000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "良好",
+        "officialSupport": "Google Support",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "DALL-E 3",
+          "Midjourney",
+          "Stable Diffusion",
+          "Adobe Firefly"
+        ],
+        "keyDifferentiators": [
+          "Google Imagen 3技術",
+          "無料アクセス",
+          "安全性重視",
+          "Google生態系統合"
+        ],
+        "marketPosition": "Google AI画像生成",
+        "marketShare": "推定15%"
+      },
+      "businessMetrics": {
+        "annualizedRevenue": null,
+        "projectedRevenue2025": null,
+        "totalFunding": null,
+        "valuation": null,
+        "employeeCount": null
+      },
+      "tenEvaluation": {
+        "immediacy": 92,
+        "simplicity": 93,
+        "popularity": 83,
+        "costPerformance": 95,
+        "specialization": 88,
+        "productivityGain": 85,
+        "totalScore": 536
+      },
+      "batchNumber": 10,
+      "toolRange": "66-77",
+      "dataCollectionBatch": 10,
+      "lastVerified": "2025-09-01",
+      "sources": [
+        "https://aitestkitchen.withgoogle.com/tools/image-fx",
+        "https://cloud.google.com/vertex-ai/generative-ai/docs/image/overview",
+        "https://blog.google/technology/ai/google-imagen-3/",
+        "https://techcrunch.com/tag/imagen/",
+        "https://www.theverge.com/2024/2/1/24058382/google-imagen-3-ai-image-generator"
+      ],
+      "additionalNotes": "Google最新のImagen 3技術を活用。現在無料提供中で高品質画像生成を実現。将来的にGoogle AI Premium統合予定。"
+    },
+    {
+      "rank": 11,
+      "toolName": "Claude Code",
+      "score": 94,
+      "totalScore": 524,
+      "starRating": "★★★",
+      "id": "AI003",
+      "category": "開発支援・コーディング",
+      "subCategory": "AI統合開発環境",
+      "companyName": "Anthropic",
+      "officialUrl": "https://www.anthropic.com/claude-code",
+      "releaseInfo": {
+        "initialRelease": "2025-01",
+        "latestUpdate": "2025-08",
+        "version": "Claude Opus 4.1 based",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "enterpriseUsers": "数百人規模導入（複数企業）"
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": null,
+        "freeCredits": null,
+        "standalonePrice": 20,
+        "proIncluded": true,
+        "maxIncluded": true,
+        "teamPremiumSeat": "Team plan premium seats",
+        "enterprisePremiumSeat": "Enterprise plan premium seats",
+        "apiPricing": "標準Anthropic API価格",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AI統合開発環境・コード生成・デバッグ",
+        "uniqueFeatures": [
+          "全コードベース理解",
+          "直接ファイル編集・コマンド実行",
+          "VS Code/JetBrains統合",
+          "プロジェクト構造自動マッピング"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "コード",
+          "コマンド",
+          "ファイル"
+        ],
+        "outputFormats": [
+          "コード",
+          "コマンド実行",
+          "ファイル編集"
+        ],
+        "integrations": [
+          "VS Code",
+          "JetBrains",
+          "Terminal",
+          "Git",
+          "API"
+        ],
+        "apiAvailability": "Anthropic API経由"
+      },
+      "technicalSpecs": {
+        "responseTime": "2-10秒",
+        "accuracyRate": "高精度（具体値未公表）",
+        "dataPrivacy": "Enterprise: 学習に不使用",
+        "dataRetention": "30日",
+        "compliance": [
+          "SOC 2",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "codebaseSize": "無制限",
+        "supportedLanguages": "主要プログラミング言語全対応"
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語主体",
+          "日本語部分対応"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "部分対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Medium",
+        "setupTime": 10,
+        "dailyUsageTime": "60-480分",
+        "targetUserLevel": "中級〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "90-95%（月7回以上障害）",
+        "scalability": "高（需要急増で制限導入）",
+        "updateFrequency": "月2-4回",
+        "bugReports": "高需要による接続問題",
+        "serverLocation": "米国・欧州",
+        "loadTime": "5-15秒"
+      },
+      "community": {
+        "communitySize": 100000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（Discord）",
+        "officialSupport": "メール・チャット",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot",
+          "Cursor",
+          "Replit"
+        ],
+        "keyDifferentiators": [
+          "全コードベース理解",
+          "直接環境操作",
+          "Claude Opus 4.1の高性能"
+        ],
+        "marketPosition": "プレミアム開発環境AI",
+        "marketShare": "推定5%未満"
+      },
+      "tenEvaluation": {
+        "immediacy": 84,
+        "simplicity": 74,
+        "popularity": 72,
+        "costPerformance": 94,
+        "specialization": 100,
+        "productivityGain": 100,
+        "totalScore": 524
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-30",
+      "sources": [
+        "https://www.anthropic.com/claude-code",
+        "https://docs.anthropic.com/en/docs/claude-code/overview",
+        "https://techcrunch.com/2025/07/28/anthropic-unveils-new-rate-limits-to-curb-claude-code-power-users/",
+        "https://techcrunch.com/2025/08/20/anthropic-bundles-claude-code-into-enterprise-plans/",
+        "https://www.anthropic.com/news/claude-code-on-team-and-enterprise"
+      ],
+      "additionalNotes": "前例なき需要で制限導入。企業での開発生産性を劇的向上させる。Anthropicの企業市場攻略の主力製品。"
+    },
+    {
+      "rank": 12,
+      "toolName": "Writesonic",
+      "score": 94,
+      "totalScore": 528,
+      "starRating": "★★★",
+      "id": "AI086",
+      "category": "AI Content Generation",
+      "companyName": "Writesonic",
+      "officialUrl": "https://writesonic.com",
+      "pricing": {
+        "freePlan": "Sandbox access to core features (AI Writer, Chatsonic, SEO Agent)",
+        "paidPlans": [
+          {
+            "planName": "Lite",
+            "monthlyPrice": "$49",
+            "annualPrice": "$39/month (20% discount)",
+            "features": [
+              "Long-form content creation",
+              "Basic SEO optimization",
+              "Limited AI credits",
+              "Email support"
+            ]
+          },
+          {
+            "planName": "Professional",
+            "monthlyPrice": "Not specified",
+            "annualPrice": "Not specified (20% annual discount)",
+            "features": [
+              "AI Search Visibility (GEO)",
+              "Google Analytics integration",
+              "Search Console integration",
+              "Automatic SEO fixes",
+              "Advanced content optimization"
+            ]
+          },
+          {
+            "planName": "Advanced",
+            "monthlyPrice": "$499",
+            "annualPrice": "Not specified (20% annual discount)",
+            "features": [
+              "AI Platform Visibility",
+              "ChatGPT/Perplexity/Gemini monitoring",
+              "Google AI Overviews tracking",
+              "Sentiment Analysis",
+              "AI Search Volume insights"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 89,
+        "simplicity": 79,
+        "popularity": 93,
+        "costPerformance": 94,
+        "specialization": 89,
+        "productivityGain": 84,
+        "totalScore": 528
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://writesonic.com/pricing",
+        "https://searchatlas.com/blog/writesonic-review/",
+        "https://todaytesting.com/writesonic-pricing/",
+        "https://team-gpt.com/blog/writesonic-review/",
+        "https://writesonic.com/blog/ai-seo-tools"
+      ]
+    },
+    {
+      "rank": 13,
+      "toolName": "Namelix",
+      "score": 93,
+      "totalScore": 518,
+      "starRating": "★★",
+      "id": "AI068",
+      "category": "AI 会社名・ブランド名生成",
+      "subCategory": "AIネーミングジェネレーター",
+      "companyName": "Brandmark (Namelix)",
+      "officialUrl": "https://namelix.com",
+      "releaseInfo": {
+        "initialRelease": "2018-01",
+        "latestUpdate": "2025-08",
+        "version": "Namelix 2025",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 2000000,
+        "monthlyActiveUsers": 1500000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": false,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "完全無料: 無制限名前生成・ドメイン確認",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "全機能無料利用",
+        "proPrice": null,
+        "proFeatures": null,
+        "maxPrice100": null,
+        "maxPrice200": null,
+        "maxFeatures": "Brandmarkロゴ生成連携",
+        "enterprisePrice": "無料",
+        "billingCycle": "無料",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AI機械学習による会社名・ブランド名生成",
+        "uniqueFeatures": [
+          "実ブランドデータ学習済みML",
+          "個人化学習機能",
+          "リアルタイムドメイン確認",
+          "Brandmarkロゴ生成連携"
+        ],
+        "inputFormats": [
+          "キーワード",
+          "業界",
+          "長さ設定"
+        ],
+        "outputFormats": [
+          "テキスト名前",
+          "ドメイン情報",
+          "ロゴ連携"
+        ],
+        "integrations": [
+          "Brandmark",
+          "ドメインレジストラ"
+        ],
+        "apiAvailability": "なし"
+      },
+      "technicalSpecs": {
+        "responseTime": "即座（1秒未満）",
+        "accuracyRate": "92%（ネーミング適合度推定）",
+        "dataPrivacy": "最小限データ収集、学習用保存なし",
+        "dataRetention": "セッションのみ",
+        "compliance": [
+          "プライバシー保護",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "maxTokens": null,
+        "supportedLanguages": 1
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "なし",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Very Easy",
+        "setupTime": 0,
+        "dailyUsageTime": "5-15分",
+        "targetUserLevel": "全レベル",
+        "mobileOptimized": true,
+        "keyboardShortcuts": false
+      },
+      "performance": {
+        "reliability": "99%",
+        "scalability": "高（軽量ツール）",
+        "updateFrequency": "四半期1回",
+        "supportResponseTime": "コミュニティ対応",
+        "uptimeGuarantee": "99%"
+      },
+      "tenEvaluation": {
+        "immediacy": 93,
+        "simplicity": 93,
+        "popularity": 78,
+        "costPerformance": 93,
+        "specialization": 73,
+        "productivityGain": 88,
+        "totalScore": 518
+      },
+      "batchNumber": 9,
+      "toolRange": "65-72"
+    },
+    {
+      "rank": 14,
+      "toolName": "Claude",
+      "score": 90,
+      "totalScore": 570,
+      "starRating": "★★★★★",
+      "id": "AI001",
+      "category": "AI会話・アシスタント",
+      "subCategory": "汎用対話AI",
+      "companyName": "Anthropic",
+      "officialUrl": "https://claude.ai",
+      "releaseInfo": {
+        "initialRelease": "2022-07",
+        "latestUpdate": "2025-08",
+        "version": "Claude 4 Family (Opus 4.1, Sonnet 4, Haiku 3.5)",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 18900000,
+        "monthlyActiveUsers": 18900000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "月20メッセージ制限、基本機能利用可",
+        "freeCredits": null,
+        "starterPrice": 20,
+        "starterFeatures": "Pro: 月間メッセージ無制限、優先アクセス",
+        "proPrice": null,
+        "proFeatures": null,
+        "maxPrice100": 100,
+        "maxPrice200": 200,
+        "maxFeatures": "Claude Opus 4.1、高速応答、長文対応",
+        "enterprisePrice": "要問合せ",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "汎用AI会話・文章作成・コーディング支援",
+        "uniqueFeatures": [
+          "Constitutional AI（安全性重視）",
+          "1M tokensコンテキストウィンドウ",
+          "長文読解・要約（最大200,000文字）",
+          "コードレビュー・生成"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "画像",
+          "ドキュメント"
+        ],
+        "outputFormats": [
+          "テキスト",
+          "コード",
+          "マークダウン"
+        ],
+        "integrations": [
+          "API",
+          "Slack",
+          "Web"
+        ],
+        "apiAvailability": "REST API、Python SDK、JavaScript SDK"
+      },
+      "technicalSpecs": {
+        "responseTime": "2-5秒",
+        "accuracyRate": "95%（文章生成推定）",
+        "dataPrivacy": "会話データは学習に使用しない、30日後削除",
+        "dataRetention": "30日",
+        "compliance": [
+          "SOC 2",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "maxTokens": 1000000,
+        "supportedLanguages": 95
+      },
+      "localization": {
+        "supportedLanguages": [
+          "日本語",
+          "英語",
+          "中国語",
+          "韓国語",
+          "フランス語",
+          "他90言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応（ネイティブレベル）",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 2,
+        "dailyUsageTime": "10-60分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.9%",
+        "scalability": "高（クラウドベース）",
+        "updateFrequency": "月1-2回",
+        "bugReports": null,
+        "serverLocation": "米国・欧州",
+        "loadTime": "1-2秒"
+      },
+      "community": {
+        "communitySize": 1000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（Discord、Reddit）",
+        "officialSupport": "メール・チャット",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "ChatGPT",
+          "Gemini",
+          "Microsoft Copilot"
+        ],
+        "keyDifferentiators": [
+          "constitutional AI（安全性重視）",
+          "長文処理能力",
+          "コンテキスト理解精度"
+        ],
+        "marketPosition": "プレミアム対話AI（安全性・品質重視）",
+        "marketShare": "推定15%（対話AI市場）"
+      },
+      "businessMetrics": {
+        "annualizedRevenue": 850000000,
+        "projectedRevenue2025": 2200000000,
+        "totalFunding": 4200000000,
+        "valuation": null,
+        "employeeCount": null
+      },
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 100,
+        "productivityGain": 100,
+        "totalScore": 570
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-30",
+      "sources": [
+        "https://claude.ai",
+        "https://www.anthropic.com",
+        "https://techcrunch.com/tag/anthropic/",
+        "https://analyzify.com/statsup/anthropic",
+        "https://www.cloudzero.com/blog/claude-pricing/"
+      ],
+      "additionalNotes": "Constitutional AIアプローチで安全性を重視。企業利用での信頼性が高い。2025年に大幅な成長を予測。"
+    },
+    {
+      "rank": 15,
+      "toolName": "Perplexity",
+      "score": 90,
+      "totalScore": 545,
+      "starRating": "★★★",
+      "id": "AI005",
+      "category": "検索・情報収集",
+      "subCategory": "AI検索エンジン",
+      "companyName": "Perplexity AI",
+      "officialUrl": "https://www.perplexity.ai",
+      "releaseInfo": {
+        "initialRelease": "2022-12",
+        "latestUpdate": "2025-08",
+        "version": "Perplexity + Comet browser",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 22000000,
+        "monthlyActiveUsers": 22000000,
+        "monthlyVisitors": 120000000,
+        "dailyActiveUsers": 2000000,
+        "dailyQueries": 30000000
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "無制限Quick Searches、5 Pro Searches/日",
+        "freeFeatures": "基本AI検索、ソース引用",
+        "proPrice": 20,
+        "proFeatures": "無制限クエリ、高速応答、高度AIモデルアクセス",
+        "enterpriseProPrice": 40,
+        "enterpriseProFeatures": "チーム機能、管理ダッシュボード、優先サポート",
+        "annualDiscount": "$400/年（Enterprise Pro）",
+        "billingCycle": "月額・年額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AI搭載リアルタイム検索・情報要約",
+        "uniqueFeatures": [
+          "リアルタイムウェブ検索",
+          "ソース引用付き回答",
+          "Perplexity Assistant（2025年1月）",
+          "Comet AI browser（2025年7月）"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "音声",
+          "画像"
+        ],
+        "outputFormats": [
+          "テキスト要約",
+          "引用リンク",
+          "表・グラフ"
+        ],
+        "integrations": [
+          "ブラウザ拡張",
+          "API",
+          "モバイルアプリ"
+        ],
+        "apiAvailability": "Perplexity API"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-3秒",
+        "accuracyRate": "高精度（ソース確認可能）",
+        "dataPrivacy": "検索履歴管理オプション",
+        "dataRetention": "ユーザー設定により制御",
+        "compliance": [
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "realTimeData": true,
+        "sourceVerification": "多数ソース自動引用"
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "日本語",
+          "中国語",
+          "その他多言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 1,
+        "dailyUsageTime": "10-60分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": false
+      },
+      "performance": {
+        "reliability": "99%+",
+        "scalability": "高（急速拡大中）",
+        "updateFrequency": "週1-2回",
+        "bugReports": null,
+        "serverLocation": "世界各地",
+        "loadTime": "1-2秒"
+      },
+      "community": {
+        "communitySize": 1000000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発",
+        "officialSupport": "メール・チャット",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Google Search",
+          "Bing AI",
+          "You.com"
+        ],
+        "keyDifferentiators": [
+          "AI要約+ソース引用",
+          "リアルタイム検索",
+          "会話形式インターフェース"
+        ],
+        "marketPosition": "AI検索の革新者",
+        "marketShare": "6.2%（AI検索市場）"
+      },
+      "businessMetrics": {
+        "annualRevenue": 100000000,
+        "annualRecurringRevenue": 80000000,
+        "valuation": 14000000000,
+        "totalFunding": 500000000,
+        "employeeCount": 247,
+        "monthlyQueries": 780000000,
+        "monthlyGrowth": "20%+"
+      },
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 90,
+        "productivityGain": 85,
+        "totalScore": 545
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-30",
+      "sources": [
+        "https://www.perplexity.ai",
+        "https://taptwicedigital.com/stats/perplexity",
+        "https://www.demandsage.com/perplexity-ai-statistics/",
+        "https://www.perplexity.ai/enterprise/pricing",
+        "https://team-gpt.com/blog/perplexity-pricing"
+      ],
+      "additionalNotes": "AI検索市場の先駆者として急成長。リアルタイム情報とソース引用で差別化。$14Bの高評価。"
+    }
+  ]
+}

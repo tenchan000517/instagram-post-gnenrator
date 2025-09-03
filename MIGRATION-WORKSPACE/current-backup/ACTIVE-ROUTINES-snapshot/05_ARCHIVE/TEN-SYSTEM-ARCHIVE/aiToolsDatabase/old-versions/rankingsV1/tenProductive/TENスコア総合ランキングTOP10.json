@@ -1,0 +1,194 @@
+{
+  "rankingId": "TEN001",
+  "rankingName": "TENスコア総合ランキングTOP10",
+  "description": "TEN評価軸による総合スコアランキング",
+  "generatedAt": "2025-08-31T08:28:41.317Z",
+  "criteria": "tenScore",
+  "filters": {},
+  "totalCandidates": 78,
+  "displayCount": 10,
+  "tools": [
+    {
+      "rank": 1,
+      "toolId": "AI071",
+      "name": "Remove.bg",
+      "category": "AI 画像編集・加工",
+      "developer": "Canva (Remove.bg)",
+      "totalScore": 580,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "5秒自動背景除去",
+        "50MP高解像度対応",
+        "Magic Brush手動修正機能",
+        "バルク処理・API統合"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 580,
+      "batchNumber": 9
+    },
+    {
+      "rank": 2,
+      "toolId": "AI002",
+      "name": "ChatGPT",
+      "category": "AI会話・アシスタント",
+      "developer": "OpenAI",
+      "totalScore": 560,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Advanced Voice mode（動画・画面共有対応）",
+        "o-series推論モデル",
+        "Sora動画生成",
+        "Deep research agent"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 560,
+      "batchNumber": 1
+    },
+    {
+      "rank": 3,
+      "toolId": "AI068",
+      "name": "Namelix",
+      "category": "AI 会社名・ブランド名生成",
+      "developer": "Brandmark (Namelix)",
+      "totalScore": 560,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "実ブランドデータ学習済みML",
+        "個人化学習機能",
+        "リアルタイムドメイン確認",
+        "Brandmarkロゴ生成連携"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 560,
+      "batchNumber": 9
+    },
+    {
+      "rank": 4,
+      "toolId": "AI047",
+      "name": "Google Colab",
+      "category": "AI研究・実行環境",
+      "developer": "Google LLC",
+      "totalScore": 551,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Data Science Agent（DSA）",
+        "Gemini 2.5 Flash統合",
+        "自律解析フロー・エラー自動修正"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 551,
+      "batchNumber": 6
+    },
+    {
+      "rank": 5,
+      "toolId": 24,
+      "name": "Unknown Tool",
+      "category": "Enterprise AI API Platform",
+      "developer": "Unknown",
+      "totalScore": 546,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [],
+      "pricingTier": "Unknown",
+      "criteriaValue": 546,
+      "batchNumber": 3
+    },
+    {
+      "rank": 6,
+      "toolId": 21,
+      "name": "Unknown Tool",
+      "category": "AI-Powered Design Platform",
+      "developer": "Unknown",
+      "totalScore": 545,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [],
+      "pricingTier": "Free",
+      "criteriaValue": 545,
+      "batchNumber": 3
+    },
+    {
+      "rank": 7,
+      "toolId": "AI004",
+      "name": "GitHub Copilot",
+      "category": "開発支援・コーディング",
+      "developer": "GitHub (Microsoft)",
+      "totalScore": 535,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "リアルタイムコード提案",
+        "GitHub Copilot Spaces（チーム向け）",
+        "コーディングエージェント（Issue自動処理）",
+        "カスタム指示"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 535,
+      "batchNumber": 1
+    },
+    {
+      "rank": 8,
+      "toolId": "AI008",
+      "name": "Gemini",
+      "category": "AI会話・アシスタント",
+      "developer": "Google",
+      "totalScore": 535,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Deep Research（自動ウェブ調査）",
+        "Veo 3動画生成",
+        "Google Workspace完全統合",
+        "1Mトークンコンテキスト"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 535,
+      "batchNumber": 1
+    },
+    {
+      "rank": 9,
+      "toolId": "AI042",
+      "name": "Replit",
+      "category": "開発支援・コーディング",
+      "developer": "Replit Inc.",
+      "totalScore": 533,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Replit Agent（自然言語からアプリ構築）",
+        "50+プログラミング言語対応",
+        "リアルタイム協業機能"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 533,
+      "batchNumber": 6
+    },
+    {
+      "rank": 10,
+      "toolId": "tool_9",
+      "name": "Unknown Tool",
+      "category": "AI Writing Assistance",
+      "developer": "Unknown",
+      "totalScore": 530,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "GrammarlyGo AI Assistant",
+        "Real-time grammar checking",
+        "Style and tone suggestions",
+        "Plagiarism detection",
+        "AI content detection",
+        "Brand voice consistency",
+        "Full-sentence rewrites",
+        "Citation finder"
+      ],
+      "pricingTier": "Unknown",
+      "criteriaValue": 530,
+      "batchNumber": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "CR011",
+  "title": "AIネーミング・命名支援TOP3",
+  "description": "クリエイター・デザイナー向けのAIネーミング・命名支援TOP3です。調整済みスコアに基づいて選出しています。",
+  "category": "クリエイター向けAIツール",
+  "targetAudience": "T004: 26-29歳会社員・クリエイター・デザイナー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "AI 会社名・ブランド名生成"
+  },
+  "generatedAt": "2025-08-31T10:50:18.719Z",
+  "totalMatched": 1,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Namelix",
+      "category": "AI 会社名・ブランド名生成",
+      "companyName": "Brandmark (Namelix)",
+      "score": 224,
+      "originalScore": 560,
+      "officialUrl": "https://namelix.com",
+      "metrics": {
+        "immediacy": 100,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 100,
+        "specialization": 80,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "AI機械学習による会社名・ブランド名生成",
+        "uniqueFeatures": [
+          "実ブランドデータ学習済みML",
+          "個人化学習機能",
+          "リアルタイムドメイン確認",
+          "Brandmarkロゴ生成連携"
+        ],
+        "platforms": [
+          "Web"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    }
+  ]
+}

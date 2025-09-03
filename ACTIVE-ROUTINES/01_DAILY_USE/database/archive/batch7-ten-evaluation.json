@@ -1,0 +1,252 @@
+{
+  "evaluationInfo": {
+    "evaluationDate": "2025-08-31",
+    "evaluator": "Claude Code",
+    "evaluationMethod": "TEN評価軸V3",
+    "scoringFormula": "即効性(20%) + 簡単さ(20%) + 人気度(15%) + コスパ(15%) + 機能専門性(20%) + 生産性UP度(10%)",
+    "maxScore": 100,
+    "batchNumber": 7,
+    "batchRange": "49-56",
+    "batchTheme": "音声・音響AI特化ツール",
+    "toolsEvaluated": 8
+  },
+  "tenEvaluations": [
+    {
+      "id": "AI049",
+      "toolName": "ElevenLabs",
+      "evaluation": {
+        "immediacy": 90,
+        "immediacyReason": "30秒でボイスクローニング、5秒で音声生成",
+        "simplicity": 85,
+        "simplicityReason": "5分設定、直感的UI、音声アップロードだけで開始",
+        "popularity": 95,
+        "popularityReason": "業界リーダー、トップクリエイター・企業採用、V3最新技術",
+        "costPerformance": 80,
+        "costPerformanceReason": "$4.17-1100/月と幅広い、無料版1万文字/月",
+        "specialization": 95,
+        "specializationReason": "IVC/PVC技術、32言語、マルチスピーカー生成、業界最高品質",
+        "productivityGain": 90,
+        "productivityGainReason": "音声制作で劇的時短、企業レベルの自動化実現",
+        "tenScore": 89,
+        "calculation": "90×0.2 + 85×0.2 + 95×0.15 + 80×0.15 + 95×0.2 + 90×0.1 = 89"
+      },
+      "rank": 1,
+      "category": "音声生成業界リーダー"
+    },
+    {
+      "id": "AI050", 
+      "toolName": "Murf",
+      "evaluation": {
+        "immediacy": 85,
+        "immediacyReason": "即座に音声生成開始、2-5分で完成",
+        "simplicity": 90,
+        "simplicityReason": "3分設定、200+ボイス選択だけで即利用",
+        "popularity": 85,
+        "popularityReason": "企業採用多数、99.38%発音精度で信頼性高い",
+        "costPerformance": 75,
+        "costPerformanceReason": "$19-75/月、無料版10分制限、B2B価格帯",
+        "specialization": 85,
+        "specializationReason": "200+ボイス、20+言語、API提供、企業特化",
+        "productivityGain": 85,
+        "productivityGainReason": "音声コンテンツ制作で大幅効率化、企業導入効果",
+        "tenScore": 84,
+        "calculation": "85×0.2 + 90×0.2 + 85×0.15 + 75×0.15 + 85×0.2 + 85×0.1 = 84"
+      },
+      "rank": 2,
+      "category": "企業向け音声生成"
+    },
+    {
+      "id": "AI051",
+      "toolName": "Speechify", 
+      "evaluation": {
+        "immediacy": 95,
+        "immediacyReason": "即座にテキスト読み上げ、リアルタイム処理",
+        "simplicity": 95,
+        "simplicityReason": "1分設定、テキスト貼り付けだけで即利用",
+        "popularity": 90,
+        "popularityReason": "1000+ボイス、セレブボイス（Snoop Dogg等）で話題性",
+        "costPerformance": 70,
+        "costPerformanceReason": "$11.58-29/月、無料版制限厳しい、API高額",
+        "specialization": 80,
+        "specializationReason": "60+言語、セレブボイス、読み上げ特化",
+        "productivityGain": 80,
+        "productivityGainReason": "読書・学習効率化、アクセシビリティ向上",
+        "tenScore": 84.5,
+        "calculation": "95×0.2 + 95×0.2 + 90×0.15 + 70×0.15 + 80×0.2 + 80×0.1 = 84.5"
+      },
+      "rank": 3,
+      "category": "テキスト読み上げ特化"
+    },
+    {
+      "id": "AI052",
+      "toolName": "Deepgram",
+      "evaluation": {
+        "immediacy": 100,
+        "immediacyReason": "300ms以下の業界最速レスポンス、リアルタイム",
+        "simplicity": 70,
+        "simplicityReason": "API主体、開発者向け、統合に技術知識要",
+        "popularity": 80,
+        "popularityReason": "Nova-3で54.2%エラー減、API市場で高評価",
+        "costPerformance": 90,
+        "costPerformanceReason": "$0.0043-0.0077/分、$200無料クレジット、従量制",
+        "specialization": 95,
+        "specializationReason": "Nova-3モデル、30+言語、業界最高精度・速度",
+        "productivityGain": 85,
+        "productivityGain": "音声認識・転写で大幅自動化、企業システム統合",
+        "tenScore": 86.5,
+        "calculation": "100×0.2 + 70×0.2 + 80×0.15 + 90×0.15 + 95×0.2 + 85×0.1 = 86.5"
+      },
+      "rank": 4,
+      "category": "音声認識API最高峰"
+    },
+    {
+      "id": "AI053",
+      "toolName": "AssemblyAI",
+      "evaluation": {
+        "immediacy": 90,
+        "immediacyReason": "高速処理、リアルタイム対応",
+        "simplicity": 75,
+        "simplicityReason": "API中心、統合は中級者以上向け",
+        "popularity": 85,
+        "popularityReason": "95%精度、99言語対応、企業採用増加",
+        "costPerformance": 85,
+        "costPerformanceReason": "$0.37-0.47/時間、$50無料クレジット（185+時間）",
+        "specialization": 90,
+        "specializationReason": "Universal・Slam-1モデル、99言語、99.95% SLA",
+        "productivityGain": 80,
+        "productivityGainReason": "音声分析・転写自動化、多言語対応で効率化",
+        "tenScore": 84.75,
+        "calculation": "90×0.2 + 75×0.2 + 85×0.15 + 85×0.15 + 90×0.2 + 80×0.1 = 84.75"
+      },
+      "rank": 5,
+      "category": "多言語音声分析"
+    },
+    {
+      "id": "AI054",
+      "toolName": "Rev AI",
+      "evaluation": {
+        "immediacy": 95,
+        "immediacyReason": "1-3ms超低遅延、リアルタイム最高水準",
+        "simplicity": 70,
+        "simplicityReason": "API主体、セキュリティ重視で設定複雑",
+        "popularity": 75,
+        "popularityReason": "14%エラー率で業界最高精度、企業信頼性",
+        "costPerformance": 95,
+        "costPerformanceReason": "0.3¢/分の業界最安水準、従量課金",
+        "specialization": 85,
+        "specializationReason": "58言語、SOC II/HIPAA準拠、オンプレ対応",
+        "productivityGain": 80,
+        "productivityGainReason": "転写・字幕制作で大幅効率化",
+        "tenScore": 83.5,
+        "calculation": "95×0.2 + 70×0.2 + 75×0.15 + 95×0.15 + 85×0.2 + 80×0.1 = 83.5"
+      },
+      "rank": 6,
+      "category": "エンタープライズ転写"
+    },
+    {
+      "id": "AI055",
+      "toolName": "Trint",
+      "evaluation": {
+        "immediacy": 80,
+        "immediacyReason": "転写後の編集機能充実、処理は標準的",
+        "simplicity": 80,
+        "simplicityReason": "10分設定、UIは直感的、コラボ機能豊富",
+        "popularity": 70,
+        "popularityReason": "40+言語対応、ジャーナリズム・研究分野で評価",
+        "costPerformance": 70,
+        "costPerformanceReason": "$52-60/月、年払い必須、やや高額",
+        "specialization": 80,
+        "specializationReason": "40+言語、最大99%精度、ISO27001認証",
+        "productivityGain": 75,
+        "productivityGainReason": "リアルタイムコラボ、編集機能で効率化",
+        "tenScore": 76,
+        "calculation": "80×0.2 + 80×0.2 + 70×0.15 + 70×0.15 + 80×0.2 + 75×0.1 = 76"
+      },
+      "rank": 7,
+      "category": "コラボ重視転写"
+    },
+    {
+      "id": "AI056",
+      "toolName": "Sonix",
+      "evaluation": {
+        "immediacy": 85,
+        "immediacyReason": "音声・動画両対応、処理速度良好",
+        "simplicity": 85,
+        "simplicityReason": "5分設定、直感的操作、30分無料お試し",
+        "popularity": 75,
+        "popularityReason": "53+言語対応、SOC 2認証で企業採用",
+        "costPerformance": 80,
+        "costPerformanceReason": "$10/時間または$22/月、90%コスト削減実績",
+        "specialization": 80,
+        "specializationReason": "53+言語、最大99%精度、音声・動画両対応",
+        "productivityGain": 80,
+        "productivityGainReason": "転写自動化で90%コスト削減、多言語効率化",
+        "tenScore": 81,
+        "calculation": "85×0.2 + 85×0.2 + 75×0.15 + 80×0.15 + 80×0.2 + 80×0.1 = 81"
+      },
+      "rank": 8,
+      "category": "音声・動画統合転写"
+    }
+  ],
+  "rankingSummary": {
+    "top5Tools": [
+      {"rank": 1, "tool": "ElevenLabs", "score": 89, "reason": "音声生成業界絶対リーダー・最高技術力"},
+      {"rank": 2, "tool": "Deepgram", "score": 86.5, "reason": "音声認識最高峰・300ms以下の超低遅延"},
+      {"rank": 3, "tool": "AssemblyAI", "score": 84.75, "reason": "99言語対応・95%精度・企業信頼性"},
+      {"rank": 4, "tool": "Speechify", "score": 84.5, "reason": "読み上げ特化・即効性抜群・セレブボイス"},
+      {"rank": 5, "tool": "Murf", "score": 84, "reason": "企業向け音声生成・99.38%発音精度"}
+    ],
+    "specializedTools": [
+      {"tool": "Rev AI", "score": 83.5, "specialty": "エンタープライズ転写・14%エラー率・最安価格"},
+      {"tool": "Sonix", "score": 81, "specialty": "音声・動画統合転写・90%コスト削減"},
+      {"tool": "Trint", "score": 76, "specialty": "コラボ重視転写・リアルタイム編集"}
+    ],
+    "marketLeader": {
+      "tool": "ElevenLabs",
+      "score": 89,
+      "dominance": "音声生成市場の絶対的リーダー、V3技術で他社を圧倒"
+    },
+    "bestValue": {
+      "tool": "Rev AI", 
+      "score": 83.5,
+      "value": "0.3¢/分の業界最安＋14%エラー率の最高精度"
+    },
+    "emerging": {
+      "tool": "Deepgram",
+      "score": 86.5, 
+      "trend": "Nova-3で54.2%エラー減、API市場で急成長"
+    }
+  },
+  "categoryAnalysis": {
+    "voiceGeneration": {
+      "leaders": ["ElevenLabs", "Murf"],
+      "trend": "企業採用加速、品質競争激化",
+      "avgScore": 86.5
+    },
+    "speechToText": {
+      "leaders": ["Deepgram", "AssemblyAI", "Rev AI"], 
+      "trend": "API化進行、リアルタイム処理重視",
+      "avgScore": 84.9
+    },
+    "textToSpeech": {
+      "leaders": ["Speechify"],
+      "trend": "セレブボイス・エンタメ要素強化",
+      "avgScore": 84.5
+    },
+    "transcription": {
+      "leaders": ["Trint", "Sonix"],
+      "trend": "コラボ機能・編集体験重視", 
+      "avgScore": 78.5
+    }
+  },
+  "marketInsights": {
+    "keyTrends": [
+      "リアルタイム処理能力の重要性増大",
+      "多言語対応が競争優位の鍵",
+      "API化でB2B市場拡大",
+      "エンタープライズ向けセキュリティ重視"
+    ],
+    "competitiveLandscape": "音声生成はElevenLabsが独走、音声認識はDeepgram・AssemblyAIが激戦",
+    "futureOutlook": "2025年はリアルタイム性能と多言語精度が勝敗を分ける"
+  }
+}

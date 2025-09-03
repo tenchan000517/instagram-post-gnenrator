@@ -1,0 +1,379 @@
+{
+  "id": "AU013",
+  "title": "初心者におすすめAIツールTOP10",
+  "description": "一般ユーザー向けの初心者におすすめAIツールTOP10です。調整済みスコアに基づいて選出しています。",
+  "category": "AIツール総合",
+  "targetAudience": "T004: 26-29歳会社員・一般ユーザー",
+  "criteria": "simplicity",
+  "filters": {},
+  "generatedAt": "2025-08-31T10:50:18.618Z",
+  "totalMatched": 66,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Remove.bg",
+      "category": "AI 画像編集・加工",
+      "companyName": "Canva (Remove.bg)",
+      "score": 290,
+      "originalScore": 580,
+      "officialUrl": "https://remove.bg",
+      "metrics": {
+        "immediacy": 100,
+        "simplicity": 100,
+        "popularity": 100,
+        "costPerformance": 90,
+        "specialization": 95,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "AI自動背景除去・画像編集",
+        "uniqueFeatures": [
+          "5秒自動背景除去",
+          "50MP高解像度対応",
+          "Magic Brush手動修正機能",
+          "バルク処理・API統合"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 9,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "Namelix",
+      "category": "AI 会社名・ブランド名生成",
+      "companyName": "Brandmark (Namelix)",
+      "score": 224,
+      "originalScore": 560,
+      "officialUrl": "https://namelix.com",
+      "metrics": {
+        "immediacy": 100,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 100,
+        "specialization": 80,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "AI機械学習による会社名・ブランド名生成",
+        "uniqueFeatures": [
+          "実ブランドデータ学習済みML",
+          "個人化学習機能",
+          "リアルタイムドメイン確認",
+          "Brandmarkロゴ生成連携"
+        ],
+        "platforms": [
+          "Web"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "ChatGPT",
+      "category": "AI会話・アシスタント",
+      "companyName": "OpenAI",
+      "score": 560,
+      "originalScore": 560,
+      "officialUrl": "https://chat.openai.com",
+      "metrics": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 100,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "汎用AI会話・作業支援・推論",
+        "uniqueFeatures": [
+          "Advanced Voice mode（動画・画面共有対応）",
+          "o-series推論モデル",
+          "Sora動画生成",
+          "Deep research agent"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "Gemini",
+      "category": "AI会話・アシスタント",
+      "companyName": "Google",
+      "score": 535,
+      "originalScore": 535,
+      "officialUrl": "https://gemini.google.com",
+      "metrics": {
+        "immediacy": 90,
+        "simplicity": 95,
+        "popularity": 85,
+        "costPerformance": 95,
+        "specialization": 85,
+        "productivityGain": 85
+      },
+      "features": {
+        "primaryFunction": "統合型AI会話・作業支援・検索",
+        "uniqueFeatures": [
+          "Deep Research（自動ウェブ調査）",
+          "Veo 3動画生成",
+          "Google Workspace完全統合",
+          "1Mトークンコンテキスト"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Perplexity",
+      "category": "検索・情報収集",
+      "companyName": "Perplexity AI",
+      "score": 437.75,
+      "originalScore": 515,
+      "officialUrl": "https://www.perplexity.ai",
+      "metrics": {
+        "immediacy": 90,
+        "simplicity": 95,
+        "popularity": 80,
+        "costPerformance": 85,
+        "specialization": 85,
+        "productivityGain": 80
+      },
+      "features": {
+        "primaryFunction": "AI搭載リアルタイム検索・情報要約",
+        "uniqueFeatures": [
+          "リアルタイムウェブ検索",
+          "ソース引用付き回答",
+          "Perplexity Assistant（2025年1月）",
+          "Comet AI browser（2025年7月）"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 6,
+      "toolName": "Otter.ai",
+      "category": "AI音声認識・文字起こし",
+      "companyName": "Otter.ai",
+      "score": 360.5,
+      "originalScore": 515,
+      "officialUrl": "https://otter.ai/",
+      "metrics": {
+        "immediacy": 100,
+        "simplicity": 95,
+        "popularity": 70,
+        "costPerformance": 80,
+        "specialization": 80,
+        "productivityGain": 90
+      },
+      "features": {
+        "primaryFunction": "リアルタイム音声認識・AIミーティングアシスタント",
+        "uniqueFeatures": [
+          "95%精度",
+          "AIミーティングエージェント",
+          "多言語対応",
+          "音声コマンド"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$10/月（年額払い）",
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 7,
+      "toolName": "Looka",
+      "category": "AI ロゴ・ブランドデザイン",
+      "companyName": "Looka",
+      "score": 238.5,
+      "originalScore": 530,
+      "officialUrl": "https://looka.com",
+      "metrics": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 80,
+        "costPerformance": 85,
+        "specialization": 85,
+        "productivityGain": 90
+      },
+      "features": {
+        "primaryFunction": "AIロゴ生成・ブランドアイデンティティ作成",
+        "uniqueFeatures": [
+          "機械学習による個人化されたロゴ提案",
+          "300+ブランド素材テンプレート",
+          "完全なブランドガイドライン",
+          "無制限編集・ダウンロード"
+        ],
+        "platforms": [
+          "Web"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 20,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 8,
+      "toolName": "Character.AI",
+      "category": "AI チャットボット・キャラクター",
+      "companyName": "Character Technologies Inc",
+      "score": 151.5,
+      "originalScore": 505,
+      "officialUrl": "https://character.ai/",
+      "metrics": {
+        "immediacy": 90,
+        "simplicity": 95,
+        "popularity": 85,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 70
+      },
+      "features": {
+        "primaryFunction": "AIキャラクターとの対話・創作・ロールプレイ",
+        "uniqueFeatures": [
+          "キャラクター作成",
+          "グループチャット(Rooms)",
+          "音声会話",
+          "多言語対応"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$9.99/月",
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 9,
+      "toolName": "Mapify",
+      "category": "AIマインドマップ生成",
+      "companyName": "Mapify",
+      "score": 136.5,
+      "originalScore": 455,
+      "officialUrl": "https://mapify.so/",
+      "metrics": {
+        "immediacy": 90,
+        "simplicity": 95,
+        "popularity": 30,
+        "costPerformance": 85,
+        "specialization": 75,
+        "productivityGain": 80
+      },
+      "features": {
+        "primaryFunction": "多様なコンテンツからAIマインドマップ自動生成",
+        "uniqueFeatures": [
+          "7時間動画対応",
+          "200,000文字文書対応",
+          "100言語翻訳",
+          "リアルタイムAIチャット"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$5.99/月（年額払い）",
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 10,
+      "toolName": "Codeium",
+      "category": "開発支援・コーディング",
+      "companyName": "Exafunction Inc.",
+      "score": 479.75,
+      "originalScore": 505,
+      "officialUrl": "https://codeium.com",
+      "metrics": {
+        "immediacy": 85,
+        "simplicity": 92,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 75,
+        "productivityGain": 80
+      },
+      "features": {
+        "primaryFunction": "無料AIプログラミングアシスタント・コード補完",
+        "uniqueFeatures": [
+          "永続無料プラン（無制限）",
+          "リポジトリ全体コンテキスト理解",
+          "40+ IDE・70+ 言語対応"
+        ],
+        "platforms": [
+          "Web",
+          "Windows",
+          "macOS",
+          "Linux",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    }
+  ]
+}

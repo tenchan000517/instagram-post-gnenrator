@@ -1,0 +1,365 @@
+{
+  "evaluationInfo": {
+    "evaluationDate": "2025-08-31",
+    "evaluator": "Claude Code",
+    "evaluationMethod": "TEN評価軸V3",
+    "scoringFormula": "即効性(20%) + 簡単さ(20%) + 人気度(15%) + コスパ(15%) + 機能専門性(20%) + 生産性UP度(10%)",
+    "maxScore": 100,
+    "batchNumber": 1,
+    "toolsEvaluated": 15
+  },
+  "tenEvaluations": [
+    {
+      "id": "AI001",
+      "toolName": "Claude",
+      "evaluation": {
+        "immediacy": 85,
+        "immediaciReason": "即座の高品質応答、長文処理も数秒",
+        "simplicity": 90,
+        "simplicityReason": "直感的インターフェース、設定不要で即利用",
+        "popularity": 75,
+        "popularityReason": "18.9Mユーザー、成長中だが市場シェア15%",
+        "costPerformance": 80,
+        "costPerformanceReason": "$20/月で高品質AI、無料版も充実",
+        "specialization": 90,
+        "specializationReason": "Constitutional AI、1Mトークン、安全性特化",
+        "productivityGain": 90,
+        "productivityGainReason": "文章作成・コーディング・分析で大幅時短",
+        "tenScore": 85.5,
+        "calculation": "85×0.2 + 90×0.2 + 75×0.15 + 80×0.15 + 90×0.2 + 90×0.1 = 85.5"
+      },
+      "rank": 2,
+      "category": "プレミアム対話AI"
+    },
+    {
+      "id": "AI002",
+      "toolName": "ChatGPT",
+      "evaluation": {
+        "immediacy": 95,
+        "immediaciReason": "1-3秒の高速応答、リアルタイム処理",
+        "simplicity": 95,
+        "simplicityReason": "最も直感的、1分で利用開始可能",
+        "popularity": 100,
+        "popularityReason": "700M WAU、62.5%市場シェア、絶対的リーダー",
+        "costPerformance": 85,
+        "costPerformanceReason": "$20/月、無料版も強力、幅広い選択肢",
+        "specialization": 90,
+        "specializationReason": "o-series推論、マルチモーダル、最新技術",
+        "productivityGain": 95,
+        "productivityGainReason": "あらゆる作業で劇的効率化、業界標準",
+        "tenScore": 92.75,
+        "calculation": "95×0.2 + 95×0.2 + 100×0.15 + 85×0.15 + 90×0.2 + 95×0.1 = 92.75"
+      },
+      "rank": 1,
+      "category": "汎用AI市場リーダー"
+    },
+    {
+      "id": "AI003",
+      "toolName": "Claude Code",
+      "evaluation": {
+        "immediacy": 80,
+        "immediaciReason": "2-10秒応答、プロジェクト理解に時間",
+        "simplicity": 70,
+        "simplicityReason": "10分設定、中級者以上向け",
+        "popularity": 60,
+        "popularityReason": "制限導入レベルの需要、まだニッチ",
+        "costPerformance": 90,
+        "costPerformanceReason": "$20で2-10倍生産性、ROI極めて高い",
+        "specialization": 100,
+        "specializationReason": "開発特化、全コードベース理解、唯一無二",
+        "productivityGain": 100,
+        "productivityGainReason": "2-10倍開発速度向上、革命的効率化",
+        "tenScore": 82.5,
+        "calculation": "80×0.2 + 70×0.2 + 60×0.15 + 90×0.15 + 100×0.2 + 100×0.1 = 82.5"
+      },
+      "rank": 3,
+      "category": "開発者専用革命的ツール"
+    },
+    {
+      "id": "AI004",
+      "toolName": "GitHub Copilot",
+      "evaluation": {
+        "immediacy": 95,
+        "immediaciReason": "100-500ms、リアルタイム補完",
+        "simplicity": 90,
+        "simplicityReason": "5分設定、IDE統合でシームレス",
+        "popularity": 95,
+        "popularityReason": "20Mユーザー、Fortune 100の90%、業界標準",
+        "costPerformance": 90,
+        "costPerformanceReason": "$20、無料版2000補完、企業ROI高い",
+        "specialization": 80,
+        "specializationReason": "コード補完特化、GitHub統合で差別化",
+        "productivityGain": 85,
+        "productivityGainReason": "開発速度大幅向上、Fortune 100実証済み",
+        "tenScore": 89.25,
+        "calculation": "95×0.2 + 90×0.2 + 95×0.15 + 90×0.15 + 80×0.2 + 85×0.1 = 89.25"
+      },
+      "rank": 2,
+      "category": "開発ツール業界標準"
+    },
+    {
+      "id": "AI005",
+      "toolName": "Perplexity",
+      "evaluation": {
+        "immediacy": 90,
+        "immediaciReason": "1-3秒で検索結果+AI要約",
+        "simplicity": 95,
+        "simplicityReason": "1分設定、検索感覚で即利用",
+        "popularity": 80,
+        "popularityReason": "22M MAU、20%成長、急拡大中",
+        "costPerformance": 85,
+        "costPerformanceReason": "$20、無料版充実、検索+AI統合でコスパ良",
+        "specialization": 85,
+        "specializationReason": "AI検索特化、リアルタイム+ソース引用",
+        "productivityGain": 80,
+        "productivityGainReason": "調査・情報収集で大幅時短",
+        "tenScore": 86.25,
+        "calculation": "90×0.2 + 95×0.2 + 80×0.15 + 85×0.15 + 85×0.2 + 80×0.1 = 86.25"
+      },
+      "rank": 4,
+      "category": "次世代検索・調査ツール"
+    },
+    {
+      "id": "AI006",
+      "toolName": "Fish Audio",
+      "evaluation": {
+        "immediacy": 85,
+        "immediaciReason": "30秒でクローニング、数秒で音声生成",
+        "simplicity": 80,
+        "simplicityReason": "5分設定、30秒音声アップロードで即利用",
+        "popularity": 50,
+        "popularityReason": "ニッチ市場、150+ KOL利用",
+        "costPerformance": 90,
+        "costPerformanceReason": "$9.99で無制限、オープンソース基盤",
+        "specialization": 90,
+        "specializationReason": "30秒クローニング、200k+ボイス、8言語",
+        "productivityGain": 75,
+        "productivityGainReason": "音声制作で大幅時短、特定用途で高効率",
+        "tenScore": 78.5,
+        "calculation": "85×0.2 + 80×0.2 + 50×0.15 + 90×0.15 + 90×0.2 + 75×0.1 = 78.5"
+      },
+      "rank": 10,
+      "category": "音声生成専門ツール"
+    },
+    {
+      "id": "AI007",
+      "toolName": "Motion",
+      "evaluation": {
+        "immediacy": 80,
+        "immediaciReason": "設定後即効果、2.3時間/日節約",
+        "simplicity": 75,
+        "simplicityReason": "10分設定、カレンダー統合が必要",
+        "popularity": 70,
+        "popularityReason": "100万専門職、最速成長1位",
+        "costPerformance": 70,
+        "costPerformanceReason": "$19-34/月、ROI高いが価格やや高め",
+        "specialization": 85,
+        "specializationReason": "AI Employees、自動スケジューリング特化",
+        "productivityGain": 90,
+        "productivityGainReason": "2.3時間節約、137%生産性向上実証",
+        "tenScore": 78.5,
+        "calculation": "80×0.2 + 75×0.2 + 70×0.15 + 70×0.15 + 85×0.2 + 90×0.1 = 78.5"
+      },
+      "rank": 9,
+      "category": "AIスケジュール最適化"
+    },
+    {
+      "id": "AI008",
+      "toolName": "Gemini",
+      "evaluation": {
+        "immediacy": 90,
+        "immediaciReason": "1-3秒応答、Google統合で即利用",
+        "simplicity": 95,
+        "simplicityReason": "1秒設定、Google アカウントで即開始",
+        "popularity": 85,
+        "popularityReason": "1000万企業ユーザー、Google生態系",
+        "costPerformance": 95,
+        "costPerformanceReason": "$20、Workspace統合で追加料金なし",
+        "specialization": 85,
+        "specializationReason": "Deep Research、Veo 3、Workspace統合",
+        "productivityGain": 85,
+        "productivityGainReason": "Google生態系での効率化、企業導入効果",
+        "tenScore": 89,
+        "calculation": "90×0.2 + 95×0.2 + 85×0.15 + 95×0.15 + 85×0.2 + 85×0.1 = 89"
+      },
+      "rank": 3,
+      "category": "Google統合AI"
+    },
+    {
+      "id": "AI009",
+      "toolName": "Notion AI",
+      "evaluation": {
+        "immediacy": 85,
+        "immediaciReason": "2-5秒応答、既存ワークスペース即活用",
+        "simplicity": 80,
+        "simplicityReason": "5分設定、Notion習得が前提",
+        "popularity": 85,
+        "popularityReason": "150M月間訪問、80%海外ユーザー",
+        "costPerformance": 85,
+        "costPerformanceReason": "$20でGPT-4.1+Claude 3.7両方利用",
+        "specialization": 90,
+        "specializationReason": "複数AIモデル統合、データベース+AI",
+        "productivityGain": 85,
+        "productivityGainReason": "ドキュメント作業で大幅効率化",
+        "tenScore": 85,
+        "calculation": "85×0.2 + 80×0.2 + 85×0.15 + 85×0.15 + 90×0.2 + 85×0.1 = 85"
+      },
+      "rank": 5,
+      "category": "統合ワークスペースAI"
+    },
+    {
+      "id": "AI010",
+      "toolName": "n8n",
+      "evaluation": {
+        "immediacy": 70,
+        "immediaciReason": "30分設定後、220実行/秒の高速処理",
+        "simplicity": 50,
+        "simplicityReason": "高い学習コスト、上級者向け",
+        "popularity": 65,
+        "popularityReason": "20万ユーザー、3000企業、ニッチだが成長",
+        "costPerformance": 95,
+        "costPerformanceReason": "オープンソース、実行ベース、柔軟価格",
+        "specialization": 95,
+        "specializationReason": "Fair-code、400+統合、AI統合率75%",
+        "productivityGain": 90,
+        "productivityGainReason": "ワークフロー自動化で劇的効率化",
+        "tenScore": 76.5,
+        "calculation": "70×0.2 + 50×0.2 + 65×0.15 + 95×0.15 + 95×0.2 + 90×0.1 = 76.5"
+      },
+      "rank": 12,
+      "category": "エンタープライズ自動化"
+    },
+    {
+      "id": "AI011",
+      "toolName": "Synthesia",
+      "evaluation": {
+        "immediacy": 75,
+        "immediaciReason": "5-15分で動画生成、設定は10分",
+        "simplicity": 85,
+        "simplicityReason": "10分設定、直感的インターフェース",
+        "popularity": 85,
+        "popularityReason": "60k企業、100万ユーザー、Fortune 100の60%",
+        "costPerformance": 75,
+        "costPerformanceReason": "$18-64/月、B2B価格としては適正",
+        "specialization": 90,
+        "specializationReason": "230+アバター、B2B特化、エンタープライズ",
+        "productivityGain": 85,
+        "productivityGainReason": "動画制作で大幅時短、企業トレーニング効率化",
+        "tenScore": 82.5,
+        "calculation": "75×0.2 + 85×0.2 + 85×0.15 + 75×0.15 + 90×0.2 + 85×0.1 = 82.5"
+      },
+      "rank": 6,
+      "category": "B2B動画生成"
+    },
+    {
+      "id": "AI012",
+      "toolName": "Mapify",
+      "evaluation": {
+        "immediacy": 90,
+        "immediaciReason": "1分未満でマインドマップ生成",
+        "simplicity": 90,
+        "simplicityReason": "3分設定、直感的操作",
+        "popularity": 60,
+        "popularityReason": "教育・研究分野で高評価、ニッチ市場",
+        "costPerformance": 90,
+        "costPerformanceReason": "$5.99-17.99/月、年払い大幅割引",
+        "specialization": 85,
+        "specializationReason": "7時間動画・20万文字解析、Xmindブランド",
+        "productivityGain": 80,
+        "productivityGainReason": "情報整理・学習効率で時短効果",
+        "tenScore": 82,
+        "calculation": "90×0.2 + 90×0.2 + 60×0.15 + 90×0.15 + 85×0.2 + 80×0.1 = 82"
+      },
+      "rank": 7,
+      "category": "AI情報可視化"
+    },
+    {
+      "id": "AI013",
+      "toolName": "Runway Gen-3",
+      "evaluation": {
+        "immediacy": 70,
+        "immediaciReason": "30秒-5分生成、設定5分",
+        "simplicity": 75,
+        "simplicityReason": "5分設定、中級者向けインターフェース",
+        "popularity": 75,
+        "popularityReason": "クリエイター市場で高評価、$4B評価",
+        "costPerformance": 70,
+        "costPerformanceReason": "$15-78/月、クリエイティブツールとしては標準",
+        "specialization": 95,
+        "specializationReason": "Gen-4最新モデル、ハリウッド連携、API",
+        "productivityGain": 85,
+        "productivityGainReason": "動画制作で革命的効率化",
+        "tenScore": 78,
+        "calculation": "70×0.2 + 75×0.2 + 75×0.15 + 70×0.15 + 95×0.2 + 85×0.1 = 78"
+      },
+      "rank": 11,
+      "category": "クリエイティブAI動画"
+    },
+    {
+      "id": "AI014",
+      "toolName": "Obsidian",
+      "evaluation": {
+        "immediacy": 60,
+        "immediaciReason": "30分設定、効果発現まで時間要",
+        "simplicity": 40,
+        "simplicityReason": "高い学習コスト、複雑なカスタマイズ",
+        "popularity": 80,
+        "popularityReason": "100万ファン、研究者・ライターに絶大支持",
+        "costPerformance": 95,
+        "costPerformanceReason": "基本無料、$10オプション、完全データ所有",
+        "specialization": 95,
+        "specializationReason": "完全ローカル、2000+プラグイン、データ所有権",
+        "productivityGain": 85,
+        "productivityGainReason": "知識管理・研究で長期的大幅効率化",
+        "tenScore": 75.5,
+        "calculation": "60×0.2 + 40×0.2 + 80×0.15 + 95×0.15 + 95×0.2 + 85×0.1 = 75.5"
+      },
+      "rank": 13,
+      "category": "プライバシー重視ナレッジ"
+    },
+    {
+      "id": "AI015",
+      "toolName": "Otter.ai",
+      "evaluation": {
+        "immediacy": 95,
+        "immediaciReason": "リアルタイム処理、5分設定",
+        "simplicity": 90,
+        "simplicityReason": "5分設定、直感的操作",
+        "popularity": 70,
+        "popularityReason": "2016年パイオニア、2025年競争激化で相対低下",
+        "costPerformance": 60,
+        "costPerformanceReason": "$10-30/月、制限厳しく利用頻度で割高感",
+        "specialization": 60,
+        "specializationReason": "文字起こし標準化、日本語未対応が弱点",
+        "productivityGain": 70,
+        "productivityGainReason": "会議効率化だが83%精度・言語制限で限定的",
+        "tenScore": 74,
+        "calculation": "95×0.2 + 90×0.2 + 70×0.15 + 60×0.15 + 60×0.2 + 70×0.1 = 74"
+      },
+      "rank": 15,
+      "category": "文字起こし（競争激化）"
+    }
+  ],
+  "rankingSummary": {
+    "top5Tools": [
+      {"rank": 1, "tool": "ChatGPT", "score": 92.75, "reason": "絶対的市場リーダー・最高の使いやすさ"},
+      {"rank": 2, "tool": "GitHub Copilot", "score": 89.25, "reason": "開発業界標準・Fortune 100実績"},
+      {"rank": 3, "tool": "Gemini", "score": 89, "reason": "Google統合・企業導入コスパ最高"},
+      {"rank": 4, "tool": "Perplexity", "score": 86.25, "reason": "次世代検索・急成長中"},
+      {"rank": 5, "tool": "Claude", "score": 85.5, "reason": "プレミアム品質・安全性重視"}
+    ],
+    "specializedTools": [
+      {"tool": "Claude Code", "score": 82.5, "specialty": "開発者革命・最高の専門性"},
+      {"tool": "Synthesia", "score": 82.5, "specialty": "B2B動画生成リーダー"},
+      {"tool": "n8n", "score": 76.5, "specialty": "エンタープライズ自動化・オープンソース"}
+    ],
+    "emergingTools": [
+      {"tool": "Motion", "score": 78.5, "note": "AIスケジューリング・最速成長"},
+      {"tool": "Mapify", "score": 82, "note": "AI情報可視化・教育特化"}
+    ],
+    "challengedTools": [
+      {"tool": "Otter.ai", "score": 74, "issue": "市場競争激化・言語制限"},
+      {"tool": "Obsidian", "score": 75.5, "issue": "学習コスト高・即効性低"}
+    ]
+  }
+}

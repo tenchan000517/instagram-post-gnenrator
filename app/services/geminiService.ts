@@ -174,55 +174,60 @@ ${templateSelectionPrompt}
 }
 `
 
+    // 🚫 AI API呼び出しをコメントアウト - 緊急対応
     // 単一試行のみ（リトライなし、負荷軽減）
-    try {
-      console.log('Gemini API call...')
+    // try {
+    //   console.log('Gemini API call...')
       
-      const result = await this.model.generateContent(prompt)
-      const response = await result.response
-      const text = response.text()
+    //   const result = await this.model.generateContent(prompt)
+    //   const response = await result.response
+    //   const text = response.text()
       
-      console.log('Gemini API response received')
+    //   console.log('Gemini API response received')
       
-      // JSONレスポンスを解析
-      const jsonMatch = text.match(/\{[\s\S]*\}/)
-      if (jsonMatch) {
-        try {
-          // 制御文字を除去してからパース
-          const cleanJson = jsonMatch[0]
-            .replace(/[\x00-\x1F\x7F-\x9F]/g, '') // 制御文字を除去
-            .replace(/\n/g, '\\n') // 改行をエスケープ
-            .replace(/\r/g, '\\r') // 復帰文字をエスケープ
-            .replace(/\t/g, '\\t') // タブをエスケープ
+    //   // JSONレスポンスを解析
+    //   const jsonMatch = text.match(/\{[\s\S]*\}/)
+    //   if (jsonMatch) {
+    //     try {
+    //       // 制御文字を除去してからパース
+    //       const cleanJson = jsonMatch[0]
+    //         .replace(/[\x00-\x1F\x7F-\x9F]/g, '') // 制御文字を除去
+    //         .replace(/\n/g, '\\n') // 改行をエスケープ
+    //         .replace(/\r/g, '\\r') // 復帰文字をエスケープ
+    //         .replace(/\t/g, '\\t') // タブをエスケープ
           
-          const parsed = JSON.parse(cleanJson)
-          console.log('Successfully parsed AI analysis')
+    //       const parsed = JSON.parse(cleanJson)
+    //       console.log('Successfully parsed AI analysis')
           
-          // 🎯 生成された生のデータをコンソールに出力
-          console.log('='.repeat(60))
-          console.log('🤖 AI生成成功 - 生のデータ')
-          console.log('='.repeat(60))
-          console.log('📝 生のレスポンステキスト:')
-          console.log(text)
-          console.log('-'.repeat(40))
-          console.log('🗂️ パース済みデータ:')
-          console.log(JSON.stringify(parsed, null, 2))
-          console.log('='.repeat(60))
+    //       // 🎯 生成された生のデータをコンソールに出力
+    //       console.log('='.repeat(60))
+    //       console.log('🤖 AI生成成功 - 生のデータ')
+    //       console.log('='.repeat(60))
+    //       console.log('📝 生のレスポンステキスト:')
+    //       console.log(text)
+    //       console.log('-'.repeat(40))
+    //       console.log('🗂️ パース済みデータ:')
+    //       console.log(JSON.stringify(parsed, null, 2))
+    //       console.log('='.repeat(60))
           
-          return parsed
-        } catch (parseError) {
-          console.error('JSON parse error:', parseError)
-          console.error('Raw response:', jsonMatch[0])
-          throw new Error('Failed to parse JSON response from Gemini')
-        }
-      }
+    //       return parsed
+    //     } catch (parseError) {
+    //       console.error('JSON parse error:', parseError)
+    //       console.error('Raw response:', jsonMatch[0])
+    //       throw new Error('Failed to parse JSON response from Gemini')
+    //     }
+    //   }
       
-      throw new Error('Invalid JSON response from Gemini')
+    //   throw new Error('Invalid JSON response from Gemini')
       
-    } catch (error: any) {
-      console.error('Gemini API Error:', error)
-      throw error // エラーをそのまま投げる（PostGeneratorでハンドリング）
-    }
+    // } catch (error: any) {
+    //   console.error('Gemini API Error:', error)
+    //   throw error // エラーをそのまま投げる（PostGeneratorでハンドリング）
+    // }
+    
+    // 🚫 AI呼び出し無効化 - フォールバックのみ使用
+    console.log('🚫 AI API呼び出し無効化中 - フォールバック分析を使用')
+    return this.getFallbackAnalysis(content, strategy)
   }
 
   // コンテンツを要約・最適化する関数
@@ -426,16 +431,21 @@ ${templateSelectionPrompt}
 カンマ区切りで回答してください。
 `
 
-    try {
-      const result = await this.model.generateContent(prompt)
-      const response = await result.response
-      const text = response.text()
+    // 🚫 AI API呼び出しをコメントアウト - 緊急対応
+    // try {
+    //   const result = await this.model.generateContent(prompt)
+    //   const response = await result.response
+    //   const text = response.text()
       
-      return text.split(',').map((tag: string) => tag.trim()).filter((tag: string) => tag.startsWith('#'))
-    } catch (error) {
-      console.error('Hashtag optimization error:', error)
-      return ['#就活', '#学生成長', '#キャリア', '#スキルアップ', '#自己成長']
-    }
+    //   return text.split(',').map((tag: string) => tag.trim()).filter((tag: string) => tag.startsWith('#'))
+    // } catch (error) {
+    //   console.error('Hashtag optimization error:', error)
+    //   return ['#就活', '#学生成長', '#キャリア', '#スキルアップ', '#自己成長']
+    // }
+    
+    // 🚫 AI呼び出し無効化 - デフォルトハッシュタグのみ使用
+    console.log('🚫 AI ハッシュタグ最適化無効化中 - デフォルトハッシュタグを使用')
+    return ['#就活', '#学生成長', '#キャリア', '#スキルアップ', '#自己成長']
   }
 }
 

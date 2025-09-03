@@ -1,0 +1,994 @@
+{
+  "batchInfo": {
+    "batchNumber": 3,
+    "toolsCount": 8,
+    "researchDate": "2025-08-31",
+    "researcher": "Claude Code",
+    "dataQuality": "5-source-verified"
+  },
+  "tools": [
+    {
+      "id": 17,
+      "name": "Midjourney",
+      "developer": "Midjourney Inc.",
+      "category": "AI Image Generation",
+      "launchDate": "2022",
+      "description": "Premium AI image generation service known for artistic quality and coherence",
+      "officialWebsite": "https://midjourney.com",
+      "platforms": [
+        "Discord",
+        "Web Interface"
+      ],
+      "languages": [
+        "English"
+      ],
+      "features": {
+        "primary": [
+          "Text-to-image generation",
+          "Image prompts",
+          "Draft Mode",
+          "Turbo mode",
+          "Relax mode"
+        ],
+        "advanced": [
+          "V7 model",
+          "Enhanced text rendering",
+          "Body/hand coherence",
+          "Stealth mode"
+        ],
+        "integrations": [
+          "Discord bot",
+          "Standalone web app"
+        ]
+      },
+      "pricing": {
+        "model": "Subscription",
+        "freeTier": false,
+        "paidPlans": [
+          {
+            "name": "Basic",
+            "price": "$10/month",
+            "annualPrice": "$8/month",
+            "features": [
+              "3.3 Fast Hours",
+              "~200 generations",
+              "Standard commercial terms"
+            ]
+          },
+          {
+            "name": "Standard",
+            "price": "$30/month",
+            "annualPrice": "$24/month",
+            "features": [
+              "Unlimited Relax mode",
+              "Standard commercial terms"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$60/month",
+            "annualPrice": "$48/month",
+            "features": [
+              "30 Fast Hours",
+              "Stealth mode",
+              "General commercial terms"
+            ]
+          },
+          {
+            "name": "Mega",
+            "price": "$120/month",
+            "features": [
+              "60 Fast Hours",
+              "All Pro features",
+              "General commercial terms"
+            ]
+          }
+        ]
+      },
+      "userMetrics": {
+        "activeUsers": null,
+        "downloads": null,
+        "rating": null,
+        "reviews": null
+      },
+      "technicalSpecs": {
+        "latestVersion": "V7",
+        "apiAvailable": false,
+        "offlineCapable": false,
+        "systemRequirements": "Internet connection required"
+      },
+      "marketPosition": {
+        "strengths": [
+          "First major AI image service",
+          "Artistic quality",
+          "Brand recognition"
+        ],
+        "competitors": [
+          "DALL-E",
+          "Stable Diffusion",
+          "Adobe Firefly"
+        ],
+        "uniqueFeatures": [
+          "Discord-first experience",
+          "Community-driven prompting"
+        ]
+      },
+      "updates2025": [
+        "V7 model release with improved text rendering",
+        "Enhanced prompt understanding",
+        "Draft Mode for rapid generation",
+        "Mobile app development in progress"
+      ],
+      "tenEvaluation": {
+        "immediacy": 88,
+        "simplicity": 75,
+        "popularity": 92,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 85,
+        "totalScore": 505
+      }
+    },
+    {
+      "id": 18,
+      "name": "DALL-E",
+      "developer": "OpenAI",
+      "category": "AI Image Generation",
+      "launchDate": "2023 (DALL-E 3)",
+      "description": "OpenAI's AI image generation system integrated with ChatGPT ecosystem",
+      "officialWebsite": "https://openai.com/dall-e",
+      "platforms": [
+        "Web",
+        "API",
+        "ChatGPT Plus"
+      ],
+      "languages": [
+        "Multiple languages"
+      ],
+      "features": {
+        "primary": [
+          "Text-to-image",
+          "Image editing",
+          "Inpainting",
+          "Precise instruction following"
+        ],
+        "advanced": [
+          "GPT-Image-1 model",
+          "GPT-4o integration",
+          "Safety filters"
+        ],
+        "integrations": [
+          "OpenAI API",
+          "Azure OpenAI Service",
+          "ChatGPT"
+        ]
+      },
+      "pricing": {
+        "model": "Pay-per-use + Subscription",
+        "freeTier": false,
+        "paidPlans": [
+          {
+            "name": "GPT-Image-1",
+            "price": "$0.02-$0.19 per image",
+            "features": [
+              "Quality-dependent pricing",
+              "API access"
+            ]
+          },
+          {
+            "name": "Traditional DALL-E",
+            "price": "$0.01-$0.17 per image",
+            "features": [
+              "Standard generation",
+              "API access"
+            ]
+          },
+          {
+            "name": "GPT-4o Image",
+            "price": "$0.035 per 1024×1024 image",
+            "features": [
+              "Integrated with GPT-4o"
+            ]
+          },
+          {
+            "name": "ChatGPT Plus",
+            "price": "$20/month",
+            "features": [
+              "Consumer access",
+              "Integrated experience"
+            ]
+          }
+        ]
+      },
+      "userMetrics": {
+        "activeUsers": null,
+        "downloads": null,
+        "rating": null,
+        "reviews": null
+      },
+      "technicalSpecs": {
+        "latestVersion": "GPT-Image-1",
+        "apiAvailable": true,
+        "offlineCapable": false,
+        "systemRequirements": "API key required"
+      },
+      "marketPosition": {
+        "strengths": [
+          "OpenAI ecosystem integration",
+          "Safety focus",
+          "Instruction following"
+        ],
+        "competitors": [
+          "Midjourney",
+          "Stable Diffusion",
+          "Adobe Firefly"
+        ],
+        "uniqueFeatures": [
+          "ChatGPT integration",
+          "Conversational image generation"
+        ]
+      },
+      "updates2025": [
+        "GPT-Image-1 model with better instruction following",
+        "Text rendering capabilities",
+        "Image editing and inpainting features",
+        "Regional expansion in Asia"
+      ],
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 90,
+        "popularity": 90,
+        "costPerformance": 75,
+        "specialization": 85,
+        "productivityGain": 88,
+        "totalScore": 513
+      }
+    },
+    {
+      "id": 19,
+      "name": "Stable Diffusion",
+      "developer": "Stability AI",
+      "category": "Open Source AI Image Generation",
+      "launchDate": "2022",
+      "description": "Leading open-source AI image generation model with extensive customization options",
+      "officialWebsite": "https://stability.ai",
+      "platforms": [
+        "Open Source",
+        "Local Installation",
+        "Cloud Services"
+      ],
+      "languages": [
+        "Multiple languages"
+      ],
+      "features": {
+        "primary": [
+          "Text-to-image",
+          "Image-to-image",
+          "Inpainting",
+          "Outpainting"
+        ],
+        "advanced": [
+          "3.5 Large model",
+          "Turbo variants",
+          "ControlNet",
+          "LoRA training"
+        ],
+        "integrations": [
+          "Extensive third-party ecosystem",
+          "ComfyUI",
+          "Automatic1111"
+        ]
+      },
+      "pricing": {
+        "model": "Open Source + Memberships",
+        "freeTier": true,
+        "paidPlans": [
+          {
+            "name": "Open Source",
+            "price": "Free",
+            "features": [
+              "Self-hosted",
+              "Full model access",
+              "Commercial use"
+            ]
+          },
+          {
+            "name": "Stability AI Membership",
+            "price": "$9/month minimum",
+            "features": [
+              "Cloud hosting",
+              "Enhanced features",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Commercial License",
+            "price": "Custom",
+            "features": [
+              "Enterprise support",
+              "Commercial guarantees"
+            ]
+          }
+        ]
+      },
+      "userMetrics": {
+        "activeUsers": "Millions",
+        "downloads": null,
+        "rating": null,
+        "reviews": null
+      },
+      "technicalSpecs": {
+        "latestVersion": "3.5 Large",
+        "apiAvailable": true,
+        "offlineCapable": true,
+        "systemRequirements": "2.4GB VRAM minimum"
+      },
+      "marketPosition": {
+        "strengths": [
+          "Open source",
+          "Hardware accessibility",
+          "Customization",
+          "Community"
+        ],
+        "competitors": [
+          "Midjourney",
+          "DALL-E",
+          "Adobe Firefly"
+        ],
+        "uniqueFeatures": [
+          "Full model access",
+          "Local generation",
+          "Extensive fine-tuning"
+        ]
+      },
+      "updates2025": [
+        "3.5 family with improved efficiency",
+        "Better consumer hardware optimization",
+        "Enhanced prompt adherence",
+        "Multiple resolution support (0.25-2 megapixel)"
+      ],
+      "tenEvaluation": {
+        "immediacy": 75,
+        "simplicity": 60,
+        "popularity": 85,
+        "costPerformance": 95,
+        "specialization": 90,
+        "productivityGain": 80,
+        "totalScore": 485
+      }
+    },
+    {
+      "id": 20,
+      "name": "Adobe Firefly",
+      "developer": "Adobe Inc.",
+      "category": "Integrated AI Creative Suite",
+      "launchDate": "2023",
+      "description": "Adobe's commercially safe AI generation platform integrated with Creative Cloud",
+      "officialWebsite": "https://firefly.adobe.com",
+      "platforms": [
+        "Web App",
+        "Creative Cloud",
+        "Mobile Apps"
+      ],
+      "languages": [
+        "Multiple languages"
+      ],
+      "features": {
+        "primary": [
+          "Image generation",
+          "Video generation",
+          "Audio generation",
+          "Vector generation"
+        ],
+        "advanced": [
+          "Sound effects",
+          "Firefly Image Model 4",
+          "5-second video clips"
+        ],
+        "integrations": [
+          "Photoshop",
+          "Premiere Pro",
+          "Adobe Express",
+          "Creative Cloud"
+        ]
+      },
+      "pricing": {
+        "model": "Freemium + Creative Cloud",
+        "freeTier": true,
+        "paidPlans": [
+          {
+            "name": "Free Tier",
+            "price": "Free",
+            "features": [
+              "Limited generations",
+              "Basic features"
+            ]
+          },
+          {
+            "name": "Firefly Standard",
+            "price": null,
+            "features": [
+              "Enhanced features",
+              "More generations"
+            ]
+          },
+          {
+            "name": "Firefly Pro",
+            "price": null,
+            "features": [
+              "Professional features",
+              "Commercial use"
+            ]
+          },
+          {
+            "name": "Creative Cloud Integration",
+            "price": "Included",
+            "features": [
+              "Full Creative Suite integration"
+            ]
+          }
+        ]
+      },
+      "userMetrics": {
+        "activeUsers": null,
+        "downloads": null,
+        "rating": null,
+        "reviews": null,
+        "generationsTotal": "18 billion assets globally"
+      },
+      "technicalSpecs": {
+        "latestVersion": "Firefly Image Model 4",
+        "apiAvailable": true,
+        "offlineCapable": false,
+        "systemRequirements": "Creative Cloud subscription recommended"
+      },
+      "marketPosition": {
+        "strengths": [
+          "Creative Cloud integration",
+          "Commercial safety",
+          "Enterprise adoption"
+        ],
+        "competitors": [
+          "Midjourney",
+          "DALL-E",
+          "Canva AI"
+        ],
+        "uniqueFeatures": [
+          "Commercially safe training data",
+          "Creative workflow integration"
+        ]
+      },
+      "updates2025": [
+        "Firefly Image Model 4 with enhanced realism",
+        "Video generation capabilities (5-second clips)",
+        "Mobile app launch (iOS/Android)",
+        "Google Gemini 2.5 Flash integration",
+        "Sound effects generation"
+      ],
+      "tenEvaluation": {
+        "immediacy": 82,
+        "simplicity": 88,
+        "popularity": 80,
+        "costPerformance": 85,
+        "specialization": 88,
+        "productivityGain": 90,
+        "totalScore": 513
+      }
+    },
+    {
+      "id": 21,
+      "name": "Canva AI",
+      "developer": "Canva",
+      "category": "AI-Powered Design Platform",
+      "launchDate": "2023 (Magic Studio)",
+      "description": "User-friendly AI design platform with comprehensive template ecosystem",
+      "officialWebsite": "https://canva.com",
+      "platforms": [
+        "Web",
+        "Mobile Apps",
+        "Desktop"
+      ],
+      "languages": [
+        "100+ languages"
+      ],
+      "features": {
+        "primary": [
+          "Magic Media",
+          "Magic Edit",
+          "Background Generator",
+          "Magic Design"
+        ],
+        "advanced": [
+          "Canva AI assistant",
+          "Canva Code",
+          "Interactive experiences"
+        ],
+        "integrations": [
+          "Extensive template ecosystem",
+          "Third-party apps",
+          "Enterprise systems"
+        ]
+      },
+      "pricing": {
+        "model": "Freemium",
+        "freeTier": true,
+        "paidPlans": [
+          {
+            "name": "Free",
+            "price": "Free",
+            "features": [
+              "Limited Magic Studio access",
+              "25 uses"
+            ]
+          },
+          {
+            "name": "Canva Pro",
+            "price": "$15/month or $120/year",
+            "features": [
+              "250 Magic Studio uses",
+              "Premium templates",
+              "Brand kit"
+            ]
+          },
+          {
+            "name": "Canva for Teams",
+            "price": "$100/year/person",
+            "features": [
+              "Minimum 3 users",
+              "Team collaboration",
+              "Advanced features"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom pricing",
+            "features": [
+              "Custom solutions",
+              "Advanced security",
+              "Priority support"
+            ]
+          }
+        ]
+      },
+      "userMetrics": {
+        "activeUsers": "170+ million globally",
+        "downloads": null,
+        "rating": null,
+        "reviews": null,
+        "magicStudioUses": "16+ billion since 2023"
+      },
+      "technicalSpecs": {
+        "latestVersion": "Magic Studio 2025",
+        "apiAvailable": true,
+        "offlineCapable": false,
+        "systemRequirements": "Web browser or mobile app"
+      },
+      "marketPosition": {
+        "strengths": [
+          "User-friendly",
+          "Template ecosystem",
+          "SMB market",
+          "Education market"
+        ],
+        "competitors": [
+          "Adobe Creative Suite",
+          "Figma",
+          "Adobe Firefly"
+        ],
+        "uniqueFeatures": [
+          "Accessibility focus",
+          "No-design-skills-required",
+          "Collaborative features"
+        ]
+      },
+      "updates2025": [
+        "Canva AI conversational assistant",
+        "Canva Code (no-code interactive experiences)",
+        "Enhanced Photo Editor with AI",
+        "Magic Studio at Scale",
+        "Canva Sheets integration"
+      ],
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 98,
+        "popularity": 95,
+        "costPerformance": 90,
+        "specialization": 75,
+        "productivityGain": 92,
+        "totalScore": 545
+      }
+    },
+    {
+      "id": 22,
+      "name": "Microsoft Copilot",
+      "developer": "Microsoft Corporation",
+      "category": "Integrated Productivity AI",
+      "launchDate": "2023",
+      "description": "Microsoft's comprehensive AI assistant integrated across productivity suite",
+      "officialWebsite": "https://copilot.microsoft.com",
+      "platforms": [
+        "Microsoft 365",
+        "Windows",
+        "Edge",
+        "Mobile Apps"
+      ],
+      "languages": [
+        "Multiple languages"
+      ],
+      "features": {
+        "primary": [
+          "Document creation",
+          "Data analysis",
+          "Coding assistance",
+          "Web search",
+          "Image generation"
+        ],
+        "advanced": [
+          "GPT-5 integration",
+          "Multi-agent orchestration",
+          "Copilot Memory"
+        ],
+        "integrations": [
+          "Teams",
+          "Word",
+          "Excel",
+          "PowerPoint",
+          "Outlook",
+          "Windows"
+        ]
+      },
+      "pricing": {
+        "model": "Subscription",
+        "freeTier": false,
+        "paidPlans": [
+          {
+            "name": "Microsoft 365 Copilot",
+            "price": "$30/month/user",
+            "features": [
+              "Annual commitment",
+              "Full Office integration",
+              "Enterprise features"
+            ]
+          },
+          {
+            "name": "Copilot Pro",
+            "price": "Varies",
+            "features": [
+              "Consumer features",
+              "Enhanced capabilities"
+            ]
+          },
+          {
+            "name": "Pay-as-you-go",
+            "price": "Variable",
+            "features": [
+              "Specific services",
+              "Usage-based"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "features": [
+              "Custom arrangements",
+              "Volume discounts"
+            ]
+          }
+        ]
+      },
+      "userMetrics": {
+        "activeUsers": null,
+        "downloads": null,
+        "rating": null,
+        "reviews": null,
+        "agentStoreAgents": "70+ agents available"
+      },
+      "technicalSpecs": {
+        "latestVersion": "GPT-5 integration",
+        "apiAvailable": true,
+        "offlineCapable": false,
+        "systemRequirements": "Microsoft 365 subscription recommended"
+      },
+      "marketPosition": {
+        "strengths": [
+          "Microsoft ecosystem",
+          "Enterprise focus",
+          "Comprehensive integration"
+        ],
+        "competitors": [
+          "Google Workspace AI",
+          "Claude",
+          "ChatGPT Enterprise"
+        ],
+        "uniqueFeatures": [
+          "Deep Office integration",
+          "Enterprise security",
+          "Multi-agent system"
+        ]
+      },
+      "updates2025": [
+        "GPT-5 model integration",
+        "Agent Store launch",
+        "Multi-agent orchestration",
+        "Copilot Memory functionality",
+        "Enhanced file processing (512MB, 50% longer summaries)"
+      ],
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 82,
+        "popularity": 88,
+        "costPerformance": 70,
+        "specialization": 92,
+        "productivityGain": 95,
+        "totalScore": 512
+      }
+    },
+    {
+      "id": 23,
+      "name": "Anthropic API",
+      "developer": "Anthropic",
+      "category": "Enterprise AI API",
+      "launchDate": "2023",
+      "description": "Premium enterprise AI API platform focused on safety and reasoning",
+      "officialWebsite": "https://anthropic.com",
+      "platforms": [
+        "API",
+        "Web Interface",
+        "Claude Code IDE"
+      ],
+      "languages": [
+        "Multiple languages"
+      ],
+      "features": {
+        "primary": [
+          "Text generation",
+          "Coding",
+          "Analysis",
+          "1M token context"
+        ],
+        "advanced": [
+          "Claude Opus 4.1",
+          "Sonnet 4",
+          "Haiku 3.5",
+          "Batch API"
+        ],
+        "integrations": [
+          "Enterprise systems",
+          "Development environments",
+          "IDE integration"
+        ]
+      },
+      "pricing": {
+        "model": "Pay-per-token",
+        "freeTier": false,
+        "paidPlans": [
+          {
+            "name": "Claude Opus 4.1",
+            "price": "$15/1M input, $75/1M output tokens",
+            "features": [
+              "Highest capability",
+              "Complex reasoning",
+              "Agentic performance"
+            ]
+          },
+          {
+            "name": "Claude Sonnet 4",
+            "price": "$3/1M input, $15/1M output tokens",
+            "features": [
+              "Balanced performance",
+              "Fast response",
+              "Cost-effective"
+            ]
+          },
+          {
+            "name": "Claude Haiku 3.5",
+            "price": "$0.80/1M input, $4/1M output tokens",
+            "features": [
+              "Fast responses",
+              "Simple tasks",
+              "High throughput"
+            ]
+          },
+          {
+            "name": "Batch API",
+            "price": "50% discount",
+            "features": [
+              "Bulk processing",
+              "Cost savings",
+              "Delayed processing"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom pricing",
+            "features": [
+              "Volume discounts",
+              "Custom terms",
+              "Priority support"
+            ]
+          }
+        ]
+      },
+      "userMetrics": {
+        "activeUsers": "Hundreds of enterprise customers",
+        "downloads": null,
+        "rating": null,
+        "reviews": null
+      },
+      "technicalSpecs": {
+        "latestVersion": "Claude Opus 4.1",
+        "apiAvailable": true,
+        "offlineCapable": false,
+        "systemRequirements": "API key required"
+      },
+      "marketPosition": {
+        "strengths": [
+          "Safety focus",
+          "Reasoning capability",
+          "Enterprise trust",
+          "Developer-friendly"
+        ],
+        "competitors": [
+          "OpenAI API",
+          "Google AI Platform",
+          "Microsoft Copilot"
+        ],
+        "uniqueFeatures": [
+          "1M token context",
+          "Constitutional AI",
+          "Safety-first design"
+        ]
+      },
+      "updates2025": [
+        "Claude Opus 4.1 with enhanced agentic performance",
+        "1M token context window beta",
+        "Compliance API for enterprise governance",
+        "Files API and code execution tools",
+        "Max plan for individual users"
+      ],
+      "tenEvaluation": {
+        "immediacy": 88,
+        "simplicity": 85,
+        "popularity": 75,
+        "costPerformance": 80,
+        "specialization": 95,
+        "productivityGain": 92,
+        "totalScore": 515
+      }
+    },
+    {
+      "id": 24,
+      "name": "OpenAI API",
+      "developer": "OpenAI",
+      "category": "Enterprise AI API Platform",
+      "launchDate": "2020 (API), 2025 (GPT-5)",
+      "description": "Market-leading enterprise AI API platform with comprehensive model ecosystem",
+      "officialWebsite": "https://openai.com",
+      "platforms": [
+        "API",
+        "Azure OpenAI",
+        "ChatGPT Enterprise"
+      ],
+      "languages": [
+        "Multiple languages"
+      ],
+      "features": {
+        "primary": [
+          "Text generation",
+          "Reasoning",
+          "272K context",
+          "Real-time API"
+        ],
+        "advanced": [
+          "GPT-5",
+          "GPT-5-mini",
+          "GPT-5-nano",
+          "Cache optimization"
+        ],
+        "integrations": [
+          "Microsoft ecosystem",
+          "Enterprise systems",
+          "Development platforms"
+        ]
+      },
+      "pricing": {
+        "model": "Pay-per-token",
+        "freeTier": false,
+        "paidPlans": [
+          {
+            "name": "GPT-5",
+            "price": "$1.25/1M input, $10/1M output tokens",
+            "features": [
+              "Premium model",
+              "Best performance",
+              "272K context"
+            ]
+          },
+          {
+            "name": "GPT-5-mini",
+            "price": "$0.25/1M input, $2/1M output",
+            "features": [
+              "Cost-effective",
+              "Good performance",
+              "Fast responses"
+            ]
+          },
+          {
+            "name": "GPT-5-nano",
+            "price": "$0.05/1M input, $0.40/1M output",
+            "features": [
+              "Ultra-fast",
+              "Simple tasks",
+              "Lowest cost"
+            ]
+          },
+          {
+            "name": "Cache Discount",
+            "price": "90% for recent tokens",
+            "features": [
+              "Cost optimization",
+              "Repeated queries",
+              "Efficiency"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom arrangements",
+            "features": [
+              "Volume discounts",
+              "Custom terms",
+              "Priority access"
+            ]
+          }
+        ]
+      },
+      "userMetrics": {
+        "activeUsers": "700 million weekly ChatGPT users",
+        "downloads": null,
+        "rating": null,
+        "reviews": null,
+        "businessUsers": "5 million paid business users"
+      },
+      "technicalSpecs": {
+        "latestVersion": "GPT-5",
+        "apiAvailable": true,
+        "offlineCapable": false,
+        "systemRequirements": "API key required"
+      },
+      "marketPosition": {
+        "strengths": [
+          "Market leader",
+          "Comprehensive ecosystem",
+          "Strong adoption",
+          "Brand recognition"
+        ],
+        "competitors": [
+          "Anthropic API",
+          "Google AI Platform",
+          "Microsoft Copilot"
+        ],
+        "uniqueFeatures": [
+          "Largest user base",
+          "Model variety",
+          "Microsoft partnership"
+        ]
+      },
+      "updates2025": [
+        "GPT-5 launch with 30-40% cost savings vs GPT-4",
+        "272K input token capacity",
+        "Realtime API with 20% price reduction",
+        "EU data residency support",
+        "Enhanced enterprise security features"
+      ],
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 88,
+        "popularity": 98,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 95,
+        "totalScore": 546
+      }
+    }
+  ]
+}

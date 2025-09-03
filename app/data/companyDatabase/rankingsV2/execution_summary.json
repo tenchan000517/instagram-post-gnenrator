@@ -1,0 +1,24 @@
+{
+  "executedAt": "2025-08-29T12:30:23.611Z",
+  "statistics": {
+    "total": 189,
+    "success": 189,
+    "errors": 0,
+    "successRate": "100.0%"
+  },
+  "targetStatistics": {
+    "jobSeekers": {
+      "total": 74,
+      "success": 74
+    },
+    "femaleCareer": {
+      "total": 60,
+      "success": 60
+    },
+    "maleProfessional": {
+      "total": 55,
+      "success": 55
+    }
+  },
+  "errors": []
+}

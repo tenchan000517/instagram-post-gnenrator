@@ -1,0 +1,1356 @@
+{
+  "batchInfo": {
+    "batchNumber": 6,
+    "toolsCount": 8,
+    "researchDate": "2025-08-31",
+    "researcher": "Claude",
+    "dataQuality": "5-source-verified"
+  },
+  "tools": [
+    {
+      "id": "AI041",
+      "toolName": "Cursor",
+      "category": "開発支援・コーディング",
+      "subCategory": "AI統合コードエディター",
+      "companyName": "Anysphere",
+      "officialUrl": "https://cursor.com",
+      "releaseInfo": {
+        "initialRelease": "2023-03",
+        "latestUpdate": "2025-08-30",
+        "version": "0.42",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 1000000,
+        "monthlyActiveUsers": 360000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": false,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "月50回の高速リクエスト、基本AI機能",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "月50回の高速リクエスト、基本AI機能",
+        "proPrice": 20,
+        "proFeatures": "月500回の高速リクエスト、無制限低速プール、全AIモデル",
+        "enterprisePrice": 40,
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AI統合コードエディター・VS Code拡張版",
+        "uniqueFeatures": [
+          "Agent Mode（自動タスク実行）",
+          "複数AIモデル対応（GPT-4, Claude 3.5, Gemini）",
+          "リポジトリ全体理解・コンテキスト保持"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "コード",
+          "自然言語プロンプト"
+        ],
+        "outputFormats": [
+          "コード",
+          "テキスト",
+          "差分表示"
+        ],
+        "integrations": [
+          "VS Code",
+          "Git",
+          "GitHub"
+        ],
+        "apiAvailability": "API利用可"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-3秒",
+        "accuracyRate": "92%（コード生成）",
+        "dataPrivacy": "データ保持なし・学習不使用",
+        "dataRetention": "なし",
+        "compliance": [
+          "SOC 2",
+          "Enterprise Grade"
+        ],
+        "offline": false,
+        "maxTokens": 200000,
+        "supportedLanguages": 40
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "40+ プログラミング言語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "基本対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 5,
+        "dailyUsageTime": "60-480分",
+        "targetUserLevel": "中級者〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.5%",
+        "scalability": "高（クラウド基盤）",
+        "updateFrequency": "週1-2回",
+        "bugReports": null,
+        "serverLocation": "米国",
+        "loadTime": "2-3秒"
+      },
+      "community": {
+        "communitySize": 50000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（Discord、フォーラム）",
+        "officialSupport": "メール・チャット",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot",
+          "Tabnine",
+          "Codeium"
+        ],
+        "keyDifferentiators": [
+          "Agent Mode自動実行",
+          "VS Code完全フォーク版",
+          "複数AIモデル同時利用"
+        ],
+        "marketPosition": "プレミアムAIコードエディター",
+        "marketShare": "4%（AI開発ツール市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 75,
+        "popularity": 80,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 92,
+        "tenScore": 83.4,
+        "grade": "B",
+        "evaluationDate": "2025-08-31",
+        "totalScore": 502.2
+      },
+      "useCases": [
+        "大規模コードベース開発",
+        "AIペアプログラミング",
+        "リファクタリング・バグ修正",
+        "新機能自動実装"
+      ],
+      "strengths": [
+        "強力なAgent Mode",
+        "複数AIモデル対応",
+        "VS Code完全互換"
+      ],
+      "weaknesses": [
+        "有料プランが高額",
+        "日本語UI未対応",
+        "学習コストあり"
+      ],
+      "additionalNotes": "VS Codeフォーク版でAI機能を大幅強化。Agent Modeによる自動タスク実行が特徴。急成長中のスタートアップ。",
+      "lastVerified": "2025-08-31",
+      "dataCollectionBatch": 6,
+      "sources": [
+        "https://cursor.com",
+        "https://intenvo.com/cursor-ai-user-and-revenue-statistics/",
+        "https://taptwicedigital.com/stats/cursor",
+        "https://medium.com/@laurentkubaski/cursor-ai-pricing-explained-bf7444746ffe",
+        "https://getdx.com/blog/ai-coding-assistant-pricing/"
+      ]
+    },
+    {
+      "id": "AI042",
+      "toolName": "Replit",
+      "category": "開発支援・コーディング",
+      "subCategory": "AIプログラミング環境",
+      "companyName": "Replit Inc.",
+      "officialUrl": "https://replit.com",
+      "releaseInfo": {
+        "initialRelease": "2016-05",
+        "latestUpdate": "2025-08-30",
+        "version": "2025.8",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 30000000,
+        "monthlyActiveUsers": 15000000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "10開発アプリ、パブリック限定、Agent試用版",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "10開発アプリ、パブリック限定、Agent試用版",
+        "proPrice": 20,
+        "proFeatures": "完全Agent機能、月25ドルクレジット、無制限アプリ",
+        "enterprisePrice": 40,
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AIプログラミング環境・ウェブアプリ構築",
+        "uniqueFeatures": [
+          "Replit Agent（自然言語からアプリ構築）",
+          "50+プログラミング言語対応",
+          "リアルタイム協業機能"
+        ],
+        "inputFormats": [
+          "自然言語",
+          "コード",
+          "テキスト"
+        ],
+        "outputFormats": [
+          "ウェブアプリ",
+          "コード",
+          "デプロイメント"
+        ],
+        "integrations": [
+          "GitHub",
+          "Google Drive",
+          "Figma"
+        ],
+        "apiAvailability": "REST API、GraphQL API"
+      },
+      "technicalSpecs": {
+        "responseTime": "3-10秒（Agent）",
+        "accuracyRate": "88%（アプリ生成）",
+        "dataPrivacy": "利用規約準拠・学習使用あり",
+        "dataRetention": "30日",
+        "compliance": [
+          "GDPR",
+          "CCPA"
+        ],
+        "offline": false,
+        "maxTokens": null,
+        "supportedLanguages": 50
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "50+ プログラミング言語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "基本対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Very Easy",
+        "setupTime": 2,
+        "dailyUsageTime": "30-240分",
+        "targetUserLevel": "初心者〜中級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.2%",
+        "scalability": "高（クラウドネイティブ）",
+        "updateFrequency": "週2-3回",
+        "bugReports": null,
+        "serverLocation": "米国・欧州",
+        "loadTime": "2-4秒"
+      },
+      "community": {
+        "communitySize": 5000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "非常に活発（Discord、フォーラム）",
+        "officialSupport": "24/7チャット・メール",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "CodeSandbox",
+          "Glitch",
+          "GitHub Codespaces"
+        ],
+        "keyDifferentiators": [
+          "自然言語からアプリ生成",
+          "教育機関での高い採用率",
+          "モバイル対応開発環境"
+        ],
+        "marketPosition": "教育・プロトタイピング特化",
+        "marketShare": "12%（クラウドIDE市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 90,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 88,
+        "tenScore": 89.25,
+        "grade": "B",
+        "evaluationDate": "2025-08-31",
+        "totalScore": 534.3
+      },
+      "useCases": [
+        "プログラミング学習・教育",
+        "プロトタイプ開発",
+        "ウェブアプリ構築",
+        "協業プロジェクト"
+      ],
+      "strengths": [
+        "非常に簡単な使い始め",
+        "強力なAI Agent機能",
+        "豊富な言語・フレームワーク対応"
+      ],
+      "weaknesses": [
+        "企業利用には制限あり",
+        "高度な開発には不向き",
+        "クレジット制課金システム"
+      ],
+      "additionalNotes": "教育からプロまで幅広く使われるクラウドIDE。Agentによる自然言語アプリ構築が革新的。急速成長中。",
+      "lastVerified": "2025-08-31",
+      "dataCollectionBatch": 6,
+      "sources": [
+        "https://replit.com/pricing",
+        "https://replit.com/ai",
+        "https://www.toolsforhumans.ai/ai-tools/replit-ghostwriter",
+        "https://www.baytechconsulting.com/blog/replit-an-analysis-of-the-ai-powered-cloud-development-platform",
+        "https://blog.zumvu.com/replit-review"
+      ]
+    },
+    {
+      "id": "AI043",
+      "toolName": "Tabnine",
+      "category": "開発支援・コーディング",
+      "subCategory": "AIコード補完",
+      "companyName": "Tabnine Ltd.",
+      "officialUrl": "https://www.tabnine.com",
+      "releaseInfo": {
+        "initialRelease": "2019-01",
+        "latestUpdate": "2025-08-30",
+        "version": "4.18.0",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 5000000,
+        "monthlyActiveUsers": 2500000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": false,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "ローカル実行、基本コード補完",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "ローカル実行、基本コード補完",
+        "proPrice": 12,
+        "proFeatures": "AIチャット、パーソナライズ、モデル切り替え",
+        "enterprisePrice": 39,
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AIコード補完・プライベート学習",
+        "uniqueFeatures": [
+          "チーム学習アルゴリズム",
+          "プライベートコードモデル（企業版）",
+          "完全オンプレミス展開可能"
+        ],
+        "inputFormats": [
+          "コード",
+          "テキスト"
+        ],
+        "outputFormats": [
+          "コード補完",
+          "コード生成",
+          "説明"
+        ],
+        "integrations": [
+          "VS Code",
+          "JetBrains",
+          "Vim",
+          "Emacs"
+        ],
+        "apiAvailability": "REST API、IDE拡張"
+      },
+      "technicalSpecs": {
+        "responseTime": "100-500ms",
+        "accuracyRate": "85%（コード補完）",
+        "dataPrivacy": "ゼロデータ保持・プライベート学習",
+        "dataRetention": "なし（有料版）",
+        "compliance": [
+          "SOC 2",
+          "ISO 27001",
+          "GDPR"
+        ],
+        "offline": true,
+        "maxTokens": null,
+        "supportedLanguages": 600
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "600+ プログラミング言語・フレームワーク"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "基本対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 5,
+        "dailyUsageTime": "60-480分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.8%",
+        "scalability": "高（オンプレミス・クラウド）",
+        "updateFrequency": "月2-3回",
+        "bugReports": null,
+        "serverLocation": "グローバル・オンプレミス可",
+        "loadTime": "100-500ms"
+      },
+      "community": {
+        "communitySize": 500000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "中程度（Discord、Slack）",
+        "officialSupport": "メール・チャット",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot",
+          "Codeium",
+          "Amazon Q Developer"
+        ],
+        "keyDifferentiators": [
+          "完全プライベート学習",
+          "オンプレミス展開",
+          "企業特化セキュリティ"
+        ],
+        "marketPosition": "プライバシー重視企業向け",
+        "marketShare": "8%（AI補完ツール市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 88,
+        "simplicity": 85,
+        "popularity": 75,
+        "costPerformance": 70,
+        "specialization": 90,
+        "productivityGain": 82,
+        "tenScore": 81.7,
+        "grade": "B",
+        "evaluationDate": "2025-08-31",
+        "totalScore": 495.3
+      },
+      "useCases": [
+        "企業コード補完",
+        "セキュリティ重視開発",
+        "チーム開発効率化",
+        "レガシーコード理解"
+      ],
+      "strengths": [
+        "強力なプライバシー保護",
+        "企業向けセキュリティ",
+        "600+言語対応"
+      ],
+      "weaknesses": [
+        "高額な企業プラン",
+        "無料版の機能制限",
+        "UIが古い印象"
+      ],
+      "additionalNotes": "プライバシーファーストのAIコード補完。企業向けセキュリティ機能が充実。金融・医療業界での採用多数。",
+      "lastVerified": "2025-08-31",
+      "dataCollectionBatch": 6,
+      "sources": [
+        "https://www.tabnine.com/pricing/",
+        "https://www.tabnine.com/",
+        "https://getdx.com/blog/ai-coding-assistant-pricing/",
+        "https://www.g2.com/products/tabnine/reviews",
+        "https://gigatoolbox.com/tabnine/"
+      ]
+    },
+    {
+      "id": "AI044",
+      "toolName": "Codeium",
+      "category": "開発支援・コーディング",
+      "subCategory": "AIプログラミングアシスタント",
+      "companyName": "Exafunction Inc.",
+      "officialUrl": "https://codeium.com",
+      "releaseInfo": {
+        "initialRelease": "2022-09",
+        "latestUpdate": "2025-08-30",
+        "version": "1.8.42",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 3000000,
+        "monthlyActiveUsers": 1500000,
+        "downloadCount": 2250000,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "無制限オートコンプリート・チャット・コマンド",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "無制限オートコンプリート・チャット・コマンド",
+        "proPrice": 15,
+        "proFeatures": "優先アクセス、高度なコンテキスト、高速補完",
+        "enterprisePrice": "要問合せ",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "無料AIプログラミングアシスタント・コード補完",
+        "uniqueFeatures": [
+          "永続無料プラン（無制限）",
+          "リポジトリ全体コンテキスト理解",
+          "40+ IDE・70+ 言語対応"
+        ],
+        "inputFormats": [
+          "コード",
+          "自然言語",
+          "コメント"
+        ],
+        "outputFormats": [
+          "コード補完",
+          "コード生成",
+          "リファクタリング"
+        ],
+        "integrations": [
+          "VS Code",
+          "JetBrains",
+          "Vim",
+          "Neovim"
+        ],
+        "apiAvailability": "REST API、拡張API"
+      },
+      "technicalSpecs": {
+        "responseTime": "200-800ms",
+        "accuracyRate": "82%（コード補完）",
+        "dataPrivacy": "暗号化転送・ゼロ保持オプション",
+        "dataRetention": "オプショナル（設定可能）",
+        "compliance": [
+          "GDPR",
+          "CCPA"
+        ],
+        "offline": false,
+        "maxTokens": null,
+        "supportedLanguages": 70
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "70+ プログラミング言語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "基本対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Very Easy",
+        "setupTime": 3,
+        "dailyUsageTime": "30-360分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "98.5%",
+        "scalability": "中（クラウドベース）",
+        "updateFrequency": "月2-4回",
+        "bugReports": null,
+        "serverLocation": "米国",
+        "loadTime": "1-2秒"
+      },
+      "community": {
+        "communitySize": 300000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（Discord、Reddit）",
+        "officialSupport": "メール・Discord",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot",
+          "Tabnine",
+          "Amazon Q Developer"
+        ],
+        "keyDifferentiators": [
+          "完全無料プラン（無制限）",
+          "多IDE対応（40+）",
+          "個人向け特化"
+        ],
+        "marketPosition": "無料代替ソリューション",
+        "marketShare": "6%（AI補完ツール市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 92,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 75,
+        "productivityGain": 80,
+        "tenScore": 84.25,
+        "grade": "B",
+        "evaluationDate": "2025-08-31",
+        "totalScore": 506.1
+      },
+      "useCases": [
+        "個人開発・学習",
+        "スタートアップ開発",
+        "オープンソースプロジェクト",
+        "プロトタイピング"
+      ],
+      "strengths": [
+        "完全無料プラン",
+        "豊富なIDE対応",
+        "使いやすいインターフェース"
+      ],
+      "weaknesses": [
+        "企業機能が限定的",
+        "新料金体系への批判",
+        "Windsurf移行戦略への懸念"
+      ],
+      "additionalNotes": "無料でCopilot相当の機能を提供する代替ソリューション。個人開発者・学習者に人気。最近価格体系変更で議論。",
+      "lastVerified": "2025-08-31",
+      "dataCollectionBatch": 6,
+      "sources": [
+        "https://www.toolsforhumans.ai/ai-tools/codeium",
+        "https://aihungry.com/tools/codeium/pricing",
+        "https://towardsdatascience.com/finding-my-ai-coding-assistant-why-codeium-wins-over-copilot-ef5b1d275599/",
+        "https://powerusers.ai/ai-tool/codeium/",
+        "https://www.toksta.com/products/codeium"
+      ]
+    },
+    {
+      "id": "AI045",
+      "toolName": "Sourcegraph Cody",
+      "category": "開発支援・コーディング",
+      "subCategory": "AIコードアシスタント",
+      "companyName": "Sourcegraph Inc.",
+      "officialUrl": "https://sourcegraph.com/cody",
+      "releaseInfo": {
+        "initialRelease": "2023-05",
+        "latestUpdate": "2025-08-30",
+        "version": "1.28.0",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 1200000,
+        "monthlyActiveUsers": 400000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "無制限オートコンプリート・月200チャット",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "無制限オートコンプリート・月200チャット",
+        "proPrice": 9,
+        "proFeatures": "拡張コンテキスト（100万トークン）・高速モデル",
+        "enterprisePrice": 59,
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "企業向けAIコードアシスタント・コードベース理解",
+        "uniqueFeatures": [
+          "コードベース全体解析・検索",
+          "Claude 3.5 Sonnet統合",
+          "企業向けセキュリティ・監査ログ"
+        ],
+        "inputFormats": [
+          "コード",
+          "自然言語",
+          "クエリ"
+        ],
+        "outputFormats": [
+          "コード補完",
+          "コード生成",
+          "説明・解析"
+        ],
+        "integrations": [
+          "VS Code",
+          "JetBrains",
+          "GitHub",
+          "GitLab"
+        ],
+        "apiAvailability": "GraphQL API、REST API"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-3秒",
+        "accuracyRate": "90%（コンテキスト理解）",
+        "dataPrivacy": "完全データ分離・保持なし・学習不使用",
+        "dataRetention": "なし",
+        "compliance": [
+          "SOC 2",
+          "ISO 27001",
+          "GDPR"
+        ],
+        "offline": false,
+        "maxTokens": 1000000,
+        "supportedLanguages": 30
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "30+ プログラミング言語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "基本対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Medium",
+        "setupTime": 10,
+        "dailyUsageTime": "60-480分",
+        "targetUserLevel": "中級者〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.5%",
+        "scalability": "高（企業向け設計）",
+        "updateFrequency": "月2-3回",
+        "bugReports": null,
+        "serverLocation": "米国・欧州",
+        "loadTime": "2-4秒"
+      },
+      "community": {
+        "communitySize": 150000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "中程度（Slack、Discord）",
+        "officialSupport": "企業向け24/7・専任担当",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot Enterprise",
+          "Tabnine Enterprise",
+          "Amazon Q Developer"
+        ],
+        "keyDifferentiators": [
+          "コードベース全体検索・解析",
+          "大手企業・政府機関採用実績",
+          "Claude統合による高精度"
+        ],
+        "marketPosition": "エンタープライズAIコーディング",
+        "marketShare": "3%（企業向けAIコーディング市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 80,
+        "simplicity": 70,
+        "popularity": 65,
+        "costPerformance": 75,
+        "specialization": 95,
+        "productivityGain": 85,
+        "tenScore": 78.25,
+        "grade": "C",
+        "evaluationDate": "2025-08-31",
+        "totalScore": 471
+      },
+      "useCases": [
+        "大規模企業開発",
+        "レガシーコード理解・移行",
+        "コードベース検索・ナビゲーション",
+        "セキュリティ重視開発"
+      ],
+      "strengths": [
+        "強力なコードベース理解",
+        "企業向けセキュリティ",
+        "大手企業採用実績"
+      ],
+      "weaknesses": [
+        "高額な企業プラン",
+        "セットアップ複雑",
+        "個人向けには過剰機能"
+      ],
+      "additionalNotes": "米大手銀行4/6、政府機関15+、大手IT企業7/10が採用。コードベース理解に特化したエンタープライズ向けソリューション。",
+      "lastVerified": "2025-08-31",
+      "dataCollectionBatch": 6,
+      "sources": [
+        "https://sourcegraph.com/cody",
+        "https://sourcegraph.com/pricing",
+        "https://findmyaitool.io/tool/sourcegraph-cody/",
+        "https://www.anthropic.com/customers/sourcegraph",
+        "https://sourcegraph.com/docs/cody/usage-and-pricing"
+      ]
+    },
+    {
+      "id": "AI046",
+      "toolName": "Amazon Q Developer",
+      "category": "開発支援・コーディング",
+      "subCategory": "Amazon AIコーディング",
+      "companyName": "Amazon Web Services",
+      "officialUrl": "https://aws.amazon.com/q/developer/",
+      "releaseInfo": {
+        "initialRelease": "2022-06",
+        "latestUpdate": "2025-08-30",
+        "version": "Q Developer 2025",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 2000000,
+        "monthlyActiveUsers": 800000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "月50エージェントリクエスト（個人利用）",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "月50エージェントリクエスト（個人利用）",
+        "proPrice": 19,
+        "proFeatures": "月1000エージェントリクエスト・4000行/月",
+        "enterprisePrice": "要問合せ",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AWS統合AIコーディング・自動エージェント",
+        "uniqueFeatures": [
+          "自律エージェント（マルチステップタスク）",
+          "コード変換・アップグレード（Java 8→17等）",
+          "AWS サービス統合・最適化"
+        ],
+        "inputFormats": [
+          "コード",
+          "自然言語",
+          "設定ファイル"
+        ],
+        "outputFormats": [
+          "コード生成",
+          "コード変換",
+          "AWS設定"
+        ],
+        "integrations": [
+          "VS Code",
+          "JetBrains",
+          "AWS Console",
+          "GitHub"
+        ],
+        "apiAvailability": "AWS SDK、REST API"
+      },
+      "technicalSpecs": {
+        "responseTime": "2-8秒",
+        "accuracyRate": "87%（コード生成）",
+        "dataPrivacy": "データ分離・IP保護・学習不使用",
+        "dataRetention": "なし（プロ版）",
+        "compliance": [
+          "SOC",
+          "ISO",
+          "HIPAA",
+          "PCI"
+        ],
+        "offline": false,
+        "maxTokens": null,
+        "supportedLanguages": 15
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "15+ プログラミング言語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "基本対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Medium",
+        "setupTime": 15,
+        "dailyUsageTime": "60-360分",
+        "targetUserLevel": "中級者〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.9%",
+        "scalability": "最高（AWS基盤）",
+        "updateFrequency": "月1-2回",
+        "bugReports": null,
+        "serverLocation": "AWS グローバルリージョン",
+        "loadTime": "3-5秒"
+      },
+      "community": {
+        "communitySize": 200000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "中程度（AWS forums）",
+        "officialSupport": "AWS Premium Support",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot",
+          "Sourcegraph Cody",
+          "Tabnine"
+        ],
+        "keyDifferentiators": [
+          "AWS 統合・最適化",
+          "自律エージェント機能",
+          "規制対応環境での利用可"
+        ],
+        "marketPosition": "AWS エコシステム特化",
+        "marketShare": "5%（クラウド統合AI市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 75,
+        "simplicity": 65,
+        "popularity": 70,
+        "costPerformance": 80,
+        "specialization": 85,
+        "productivityGain": 78,
+        "tenScore": 75.45,
+        "grade": "C",
+        "evaluationDate": "2025-08-31",
+        "totalScore": 451.8
+      },
+      "useCases": [
+        "AWS アプリケーション開発",
+        "レガシーコード移行・アップグレード",
+        "クラウドネイティブ開発",
+        "規制対応システム開発"
+      ],
+      "strengths": [
+        "AWS 完全統合",
+        "規制環境対応",
+        "自律エージェント機能"
+      ],
+      "weaknesses": [
+        "AWS 依存",
+        "セットアップ複雑",
+        "無料版制限多い"
+      ],
+      "additionalNotes": "CodeWhispererの後継。AWS エコシステムに特化したAIコーディングツール。規制環境での利用に適している。",
+      "lastVerified": "2025-08-31",
+      "dataCollectionBatch": 6,
+      "sources": [
+        "https://www.superblocks.com/blog/amazon-qdeveloper-pricing",
+        "https://pieces.app/blog/aws-codewhisperer-vs-copilot-features-and-issues",
+        "https://www.amazon.science/latest-news/aws-codewhisperer-creates-computer-code-from-natural-language",
+        "https://www.openxcell.com/blog/codewhisperer-vs-copilot/",
+        "https://medium.com/@anil.goyal0057/github-copilot-vs-amazon-codewhisperer-3ae42f2911f9"
+      ]
+    },
+    {
+      "id": "AI047",
+      "toolName": "Google Colab",
+      "category": "AI研究・実行環境",
+      "subCategory": "AI研究・実行環境",
+      "companyName": "Google LLC",
+      "officialUrl": "https://colab.research.google.com",
+      "releaseInfo": {
+        "initialRelease": "2017-10",
+        "latestUpdate": "2025-08-30",
+        "version": "2025.8",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 20000000,
+        "monthlyActiveUsers": 10000000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "Tesla T4 GPU・12GB RAM・12時間セッション",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "Tesla T4 GPU・12GB RAM・12時間セッション",
+        "proPrice": 10,
+        "proFeatures": "高速GPU（A100/V100）・24時間・優先アクセス",
+        "enterprisePrice": 50,
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "クラウドJupyter・AI研究環境・GPU提供",
+        "uniqueFeatures": [
+          "Data Science Agent（DSA）",
+          "Gemini 2.5 Flash統合",
+          "自律解析フロー・エラー自動修正"
+        ],
+        "inputFormats": [
+          "Python",
+          "Jupyter Notebook",
+          "データファイル"
+        ],
+        "outputFormats": [
+          "ノートブック",
+          "可視化",
+          "モデル"
+        ],
+        "integrations": [
+          "Google Drive",
+          "GitHub",
+          "Kaggle",
+          "BigQuery"
+        ],
+        "apiAvailability": "Google Cloud API、REST API"
+      },
+      "technicalSpecs": {
+        "responseTime": "3-10秒（GPU起動）",
+        "accuracyRate": "95%（計算処理）",
+        "dataPrivacy": "Google Privacy Policy準拠",
+        "dataRetention": "90日（非アクティブ）",
+        "compliance": [
+          "GDPR",
+          "SOC 2",
+          "ISO 27001"
+        ],
+        "offline": false,
+        "maxTokens": null,
+        "supportedLanguages": 5
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "Python",
+          "R",
+          "Julia",
+          "Scala"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "部分対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 0,
+        "dailyUsageTime": "60-720分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "98.5%",
+        "scalability": "高（Google Cloud基盤）",
+        "updateFrequency": "月3-4回",
+        "bugReports": null,
+        "serverLocation": "Google グローバルデータセンター",
+        "loadTime": "2-5秒"
+      },
+      "community": {
+        "communitySize": 5000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "非常に活発（Stack Overflow、Reddit）",
+        "officialSupport": "コミュニティサポート",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Jupyter Hub",
+          "Kaggle Kernels",
+          "Paperspace",
+          "AWS SageMaker"
+        ],
+        "keyDifferentiators": [
+          "完全無料GPU利用",
+          "Google サービス統合",
+          "教育・研究特化"
+        ],
+        "marketPosition": "AI研究・教育スタンダード",
+        "marketShare": "40%（クラウドJupyter市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 90,
+        "popularity": 95,
+        "costPerformance": 98,
+        "specialization": 85,
+        "productivityGain": 88,
+        "tenScore": 91.85,
+        "grade": "A",
+        "evaluationDate": "2025-08-31",
+        "totalScore": 550.5
+      },
+      "useCases": [
+        "機械学習・ディープラーニング研究",
+        "データサイエンス・分析",
+        "プログラミング教育",
+        "プロトタイピング・実験"
+      ],
+      "strengths": [
+        "完全無料でGPU利用可",
+        "セットアップ不要",
+        "豊富なライブラリプリインストール"
+      ],
+      "weaknesses": [
+        "セッション時間制限",
+        "計算資源が不安定",
+        "企業利用には制限"
+      ],
+      "additionalNotes": "AI研究・教育の事実上の標準環境。2025年にAIファーストに再設計されGemini統合で大幅強化。無料GPU提供が最大の魅力。",
+      "lastVerified": "2025-08-31",
+      "dataCollectionBatch": 6,
+      "sources": [
+        "https://colab.research.google.com/signup",
+        "https://cloud.google.com/colab/pricing",
+        "https://developers.googleblog.com/en/fully-reimagined-ai-first-google-colab/",
+        "https://sites.google.com/view/aitoolfree/google-colab-review",
+        "http://mccormickml.com/2024/04/23/colab-gpus-features-and-pricing/"
+      ]
+    },
+    {
+      "id": "AI048",
+      "toolName": "Jupyter AI",
+      "category": "AI研究・実行環境",
+      "subCategory": "Jupyter統合AI",
+      "companyName": "Project Jupyter",
+      "officialUrl": "https://github.com/jupyterlab/jupyter-ai",
+      "releaseInfo": {
+        "initialRelease": "2023-05",
+        "latestUpdate": "2025-08-30",
+        "version": "2.21.0",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 500000,
+        "monthlyActiveUsers": 200000,
+        "downloadCount": 150000,
+        "githubStars": 3200,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "完全無料・オープンソース",
+        "freeCredits": null,
+        "starterPrice": 0,
+        "starterFeatures": "完全機能・無制限利用",
+        "proPrice": 0,
+        "proFeatures": "完全機能・無制限利用",
+        "enterprisePrice": 0,
+        "billingCycle": "無料",
+        "currency": "無料"
+      },
+      "coreFeatures": {
+        "primaryFunction": "Jupyter統合AI・チャットアシスタント・マジックコマンド",
+        "uniqueFeatures": [
+          "%%ai マジックコマンド",
+          "ネイティブJupyterLab チャットUI",
+          "ローカルモデル対応（Ollama・GPT4All）"
+        ],
+        "inputFormats": [
+          "Python",
+          "自然言語",
+          "Jupyter Cell"
+        ],
+        "outputFormats": [
+          "コード生成",
+          "ノートブック",
+          "説明・解析"
+        ],
+        "integrations": [
+          "JupyterLab",
+          "VS Code",
+          "Google Colab",
+          "多数AI Provider"
+        ],
+        "apiAvailability": "Jupyter拡張API"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-5秒（モデル依存）",
+        "accuracyRate": "90%（AI Provider依存）",
+        "dataPrivacy": "ユーザーコントロール・明示的同意のみ送信",
+        "dataRetention": "AI Provider依存",
+        "compliance": [
+          "オープンソース",
+          "透明性"
+        ],
+        "offline": true,
+        "maxTokens": null,
+        "supportedLanguages": 10
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "Python",
+          "R",
+          "Julia",
+          "他プログラミング言語"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "AI Provider依存",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Medium",
+        "setupTime": 10,
+        "dailyUsageTime": "30-360分",
+        "targetUserLevel": "中級者〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "95%",
+        "scalability": "中（ローカル・クラウド）",
+        "updateFrequency": "月1-2回",
+        "bugReports": "GitHub Issues",
+        "serverLocation": "ローカル・選択可能",
+        "loadTime": "2-8秒"
+      },
+      "community": {
+        "communitySize": 50000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（GitHub、Discord）",
+        "officialSupport": "コミュニティベース",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot",
+          "Cursor",
+          "Google Colab AI"
+        ],
+        "keyDifferentiators": [
+          "完全オープンソース・無料",
+          "Jupyter特化設計",
+          "プライバシー重視・ローカル実行可"
+        ],
+        "marketPosition": "オープンソースJupyter AI",
+        "marketShare": "2%（Jupyter拡張市場）"
+      },
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 70,
+        "popularity": 60,
+        "costPerformance": 100,
+        "specialization": 90,
+        "productivityGain": 80,
+        "tenScore": 80.25,
+        "grade": "B",
+        "evaluationDate": "2025-08-31",
+        "totalScore": 486
+      },
+      "useCases": [
+        "Jupyter環境でのAI補完",
+        "データサイエンス支援",
+        "機械学習コード生成",
+        "プライバシー重視AI利用"
+      ],
+      "strengths": [
+        "完全無料・オープンソース",
+        "Jupyter完全統合",
+        "プライバシー保護"
+      ],
+      "weaknesses": [
+        "セットアップ必要",
+        "AIモデル費用別途",
+        "一般ユーザーには敷居高"
+      ],
+      "additionalNotes": "Project Jupyter公式AI統合。完全オープンソースでプライバシー重視。研究者・データサイエンティストに人気。",
+      "lastVerified": "2025-08-31",
+      "dataCollectionBatch": 6,
+      "sources": [
+        "https://github.com/jupyterlab/jupyter-ai",
+        "https://medium.com/@techlatest.net/jupyter-ai-its-ai-features-how-to-use-it-179eb3ac619c",
+        "https://www.analyticsvidhya.com/blog/2024/05/jupyter-notebooks-with-jupyterai/",
+        "https://sebastien-sime.medium.com/learning-with-ai-in-jupyter-notebooks-32385c39ad82",
+        "https://medium.com/@marc.bolle/jupyter-ai-a-generative-ai-extension-for-jupyterlab-9f072b00e266"
+      ]
+    }
+  ]
+}

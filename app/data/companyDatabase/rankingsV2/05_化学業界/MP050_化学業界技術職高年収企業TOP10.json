@@ -1,0 +1,41 @@
+{
+  "patternId": "MP050",
+  "patternName": "化学業界技術職高年収企業TOP10",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "industry": "化学業界"
+  },
+  "generatedAt": "2025-08-29T12:30:23.563Z",
+  "totalMatched": 2,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "三菱ケミカル株式会社",
+      "industry": "化学業界",
+      "score": 10600000,
+      "metrics": {
+        "salary": 10600000,
+        "initialSalary": 278000,
+        "holidays": 123,
+        "overtime": 19.4,
+        "vacationRate": 80.6,
+        "turnoverRate3Years": 2.47
+      }
+    },
+    {
+      "rank": 2,
+      "companyName": "信越化学工業株式会社",
+      "industry": "化学業界",
+      "score": 8865000,
+      "metrics": {
+        "salary": 8865000,
+        "initialSalary": 295950,
+        "holidays": 120,
+        "overtime": 17.9,
+        "vacationRate": 76,
+        "turnoverRate3Years": null
+      }
+    }
+  ]
+}

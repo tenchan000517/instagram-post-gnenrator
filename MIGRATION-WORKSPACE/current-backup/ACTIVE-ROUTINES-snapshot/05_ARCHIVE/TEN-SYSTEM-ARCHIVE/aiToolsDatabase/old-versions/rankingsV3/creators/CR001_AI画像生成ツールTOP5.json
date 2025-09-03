@@ -1,0 +1,49 @@
+{
+  "id": "CR001",
+  "title": "AI画像生成ツールTOP5",
+  "description": "クリエイター・デザイナー向けのAI画像生成ツールTOP5です。調整済みスコアに基づいて選出しています。",
+  "category": "クリエイター向けAIツール",
+  "targetAudience": "T004: 26-29歳会社員・クリエイター・デザイナー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "AI画像生成"
+  },
+  "generatedAt": "2025-08-31T10:50:18.690Z",
+  "totalMatched": 1,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Midjourney",
+      "category": "AI画像生成",
+      "companyName": "Midjourney",
+      "score": 148.5,
+      "originalScore": 495,
+      "officialUrl": "https://www.midjourney.com/",
+      "metrics": {
+        "immediacy": 85,
+        "simplicity": 75,
+        "popularity": 100,
+        "costPerformance": 60,
+        "specialization": 95,
+        "productivityGain": 80
+      },
+      "features": {
+        "primaryFunction": "アーティスティックAI画像生成・デザイナー向け",
+        "uniqueFeatures": [
+          "V7ドラフトモード",
+          "オムニリファレンス",
+          "AI動画生成",
+          "Web統合エディタ"
+        ],
+        "platforms": [
+          "Web"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$8/月（年額払い）",
+        "currency": "USD"
+      }
+    }
+  ]
+}

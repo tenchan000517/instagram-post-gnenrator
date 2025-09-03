@@ -1,0 +1,51 @@
+{
+  "id": "AU009",
+  "title": "AI文字起こし・音声認識TOP5",
+  "description": "一般ユーザー向けのAI文字起こし・音声認識TOP5です。調整済みスコアに基づいて選出しています。",
+  "category": "AIツール総合",
+  "targetAudience": "T004: 26-29歳会社員・一般ユーザー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "AI音声認識・文字起こし"
+  },
+  "generatedAt": "2025-08-31T10:50:18.602Z",
+  "totalMatched": 1,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Otter.ai",
+      "category": "AI音声認識・文字起こし",
+      "companyName": "Otter.ai",
+      "score": 360.5,
+      "originalScore": 515,
+      "officialUrl": "https://otter.ai/",
+      "metrics": {
+        "immediacy": 100,
+        "simplicity": 95,
+        "popularity": 70,
+        "costPerformance": 80,
+        "specialization": 80,
+        "productivityGain": 90
+      },
+      "features": {
+        "primaryFunction": "リアルタイム音声認識・AIミーティングアシスタント",
+        "uniqueFeatures": [
+          "95%精度",
+          "AIミーティングエージェント",
+          "多言語対応",
+          "音声コマンド"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$10/月（年額払い）",
+        "currency": "USD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1154 @@
+{
+  "version": "2025-08-29",
+  "lastUpdated": "2025-08-29",
+  "totalCategories": 17,
+  "totalItems": 10,
+  "categories": [
+    {
+      "categoryId": "TOOLS",
+      "categoryName": "生産性ツール",
+      "totalItems": 10,
+      "averageScore": 86,
+      "items": [
+        {
+          "id": "T001",
+          "toolName": "Notion",
+          "category": "ノートアプリ",
+          "subCategory": "オールインワン",
+          "metrics": {
+            "productivity_score": 95,
+            "ease_of_use": 80,
+            "setup_time": 15,
+            "learning_curve": 70,
+            "popularity": 90,
+            "price_score": 85,
+            "feature_richness": 95,
+            "reliability": 85,
+            "support_quality": 80,
+            "update_frequency": 85
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "個人利用無制限",
+            "paid": {
+              "monthly": 800,
+              "yearly": 8000,
+              "enterprise": 1600
+            },
+            "trial": {
+              "available": true,
+              "duration": 30
+            }
+          },
+          "features": {
+            "ai_powered": true,
+            "collaboration": true,
+            "mobile_app": true,
+            "offline_support": false,
+            "automation": true,
+            "integration": true,
+            "customization": true,
+            "security": true,
+            "backup": true,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": true,
+            "mac": true,
+            "ios": true,
+            "android": true,
+            "linux": false
+          },
+          "target_users": [
+            "ビジネスパーソン",
+            "フリーランス",
+            "学生",
+            "チームリーダー"
+          ],
+          "use_cases": [
+            "メモ・ノート管理",
+            "プロジェクト管理",
+            "ドキュメント作成",
+            "データベース構築"
+          ],
+          "pros": [
+            "豊富な機能",
+            "カスタマイズ性が高い",
+            "チーム協業に最適",
+            "テンプレートが豊富"
+          ],
+          "cons": [
+            "学習コストがやや高い",
+            "オフライン機能が限定的",
+            "高機能すぎて複雑"
+          ],
+          "company_info": {
+            "developer": "Notion Labs Inc.",
+            "headquarters": "San Francisco, CA",
+            "founded": 2016,
+            "employees": "約1,000人",
+            "funding": "シリーズC"
+          },
+          "alternatives": [
+            "Obsidian",
+            "Roam Research",
+            "Evernote",
+            "OneNote"
+          ],
+          "ratings": {
+            "app_store": 4.5,
+            "google_play": 4.2,
+            "product_hunt": 4.8,
+            "capterra": 4.7
+          },
+          "ten_criteria": {
+            "immediate_effect": 75,
+            "low_barrier": 70,
+            "trend_factor": 95,
+            "cost_effectiveness": 90,
+            "lazy_friendly": 65
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T002",
+          "toolName": "Todoist",
+          "category": "タスク管理",
+          "subCategory": "個人",
+          "metrics": {
+            "productivity_score": 90,
+            "ease_of_use": 95,
+            "setup_time": 5,
+            "learning_curve": 90,
+            "popularity": 85,
+            "price_score": 80,
+            "feature_richness": 85,
+            "reliability": 90,
+            "support_quality": 85,
+            "update_frequency": 80
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "80プロジェクト、5人まで",
+            "paid": {
+              "monthly": 600,
+              "yearly": 6000,
+              "enterprise": null
+            },
+            "trial": {
+              "available": true,
+              "duration": 30
+            }
+          },
+          "features": {
+            "ai_powered": false,
+            "collaboration": true,
+            "mobile_app": true,
+            "offline_support": true,
+            "automation": false,
+            "integration": true,
+            "customization": true,
+            "security": true,
+            "backup": true,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": true,
+            "mac": true,
+            "ios": true,
+            "android": true,
+            "linux": true
+          },
+          "target_users": [
+            "ビジネスパーソン",
+            "学生",
+            "フリーランス",
+            "個人"
+          ],
+          "use_cases": [
+            "タスク管理",
+            "プロジェクト管理",
+            "習慣化",
+            "チーム協業"
+          ],
+          "pros": [
+            "直感的で使いやすい",
+            "自然言語入力対応",
+            "豊富な統合機能",
+            "オフライン対応"
+          ],
+          "cons": [
+            "高度な機能は有料",
+            "カスタマイズ性が限定的",
+            "大規模チーム向きでない"
+          ],
+          "company_info": {
+            "developer": "Doist",
+            "headquarters": "Chile",
+            "founded": 2007,
+            "employees": "約100人",
+            "funding": "プライベート"
+          },
+          "alternatives": [
+            "Things 3",
+            "Any.do",
+            "Microsoft To Do",
+            "TickTick"
+          ],
+          "ratings": {
+            "app_store": 4.6,
+            "google_play": 4.4,
+            "product_hunt": 4.5,
+            "capterra": 4.6
+          },
+          "ten_criteria": {
+            "immediate_effect": 95,
+            "low_barrier": 95,
+            "trend_factor": 80,
+            "cost_effectiveness": 85,
+            "lazy_friendly": 90
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T003",
+          "toolName": "Slack",
+          "category": "コミュニケーション",
+          "subCategory": "チャット",
+          "metrics": {
+            "productivity_score": 85,
+            "ease_of_use": 85,
+            "setup_time": 10,
+            "learning_curve": 80,
+            "popularity": 95,
+            "price_score": 70,
+            "feature_richness": 90,
+            "reliability": 90,
+            "support_quality": 85,
+            "update_frequency": 90
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "10,000メッセージ履歴",
+            "paid": {
+              "monthly": 1050,
+              "yearly": 10500,
+              "enterprise": 1800
+            },
+            "trial": {
+              "available": true,
+              "duration": 30
+            }
+          },
+          "features": {
+            "ai_powered": true,
+            "collaboration": true,
+            "mobile_app": true,
+            "offline_support": false,
+            "automation": true,
+            "integration": true,
+            "customization": true,
+            "security": true,
+            "backup": true,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": true,
+            "mac": true,
+            "ios": true,
+            "android": true,
+            "linux": true
+          },
+          "target_users": [
+            "チーム",
+            "企業",
+            "リモートワーカー",
+            "プロジェクトマネージャー"
+          ],
+          "use_cases": [
+            "チャットコミュニケーション",
+            "ファイル共有",
+            "プロジェクト管理",
+            "リモート会議"
+          ],
+          "pros": [
+            "豊富な統合機能",
+            "検索機能が強力",
+            "カスタマイズ性高い",
+            "大規模チーム対応"
+          ],
+          "cons": [
+            "通知が多くて集中しにくい",
+            "無料版は履歴制限",
+            "学習コストがある"
+          ],
+          "company_info": {
+            "developer": "Slack Technologies",
+            "headquarters": "San Francisco, CA",
+            "founded": 2009,
+            "employees": "約12,000人",
+            "funding": "上場企業"
+          },
+          "alternatives": [
+            "Microsoft Teams",
+            "Discord",
+            "Chatwork",
+            "Google Chat"
+          ],
+          "ratings": {
+            "app_store": 4.1,
+            "google_play": 4,
+            "product_hunt": 4.3,
+            "capterra": 4.5
+          },
+          "ten_criteria": {
+            "immediate_effect": 80,
+            "low_barrier": 75,
+            "trend_factor": 90,
+            "cost_effectiveness": 70,
+            "lazy_friendly": 70
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T004",
+          "toolName": "Trello",
+          "category": "プロジェクト管理",
+          "subCategory": "かんばん",
+          "metrics": {
+            "productivity_score": 85,
+            "ease_of_use": 95,
+            "setup_time": 3,
+            "learning_curve": 95,
+            "popularity": 80,
+            "price_score": 90,
+            "feature_richness": 75,
+            "reliability": 85,
+            "support_quality": 80,
+            "update_frequency": 75
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "個人利用・10チームボード",
+            "paid": {
+              "monthly": 600,
+              "yearly": 6000,
+              "enterprise": 2100
+            },
+            "trial": {
+              "available": true,
+              "duration": 14
+            }
+          },
+          "features": {
+            "ai_powered": false,
+            "collaboration": true,
+            "mobile_app": true,
+            "offline_support": false,
+            "automation": true,
+            "integration": true,
+            "customization": true,
+            "security": true,
+            "backup": true,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": false,
+            "mac": false,
+            "ios": true,
+            "android": true,
+            "linux": false
+          },
+          "target_users": [
+            "プロジェクトマネージャー",
+            "チーム",
+            "フリーランス",
+            "学生"
+          ],
+          "use_cases": [
+            "プロジェクト管理",
+            "タスク管理",
+            "チーム協業",
+            "進捗管理"
+          ],
+          "pros": [
+            "視覚的でわかりやすい",
+            "簡単セットアップ",
+            "豊富なテンプレート",
+            "無料版が充実"
+          ],
+          "cons": [
+            "高度な機能は有料",
+            "大規模プロジェクト不向き",
+            "レポート機能が弱い"
+          ],
+          "company_info": {
+            "developer": "Atlassian",
+            "headquarters": "Sydney, Australia",
+            "founded": 2011,
+            "employees": "約8,000人",
+            "funding": "上場企業"
+          },
+          "alternatives": [
+            "Asana",
+            "Monday.com",
+            "ClickUp",
+            "Jira"
+          ],
+          "ratings": {
+            "app_store": 4.3,
+            "google_play": 4.1,
+            "product_hunt": 4.2,
+            "capterra": 4.5
+          },
+          "ten_criteria": {
+            "immediate_effect": 90,
+            "low_barrier": 95,
+            "trend_factor": 75,
+            "cost_effectiveness": 90,
+            "lazy_friendly": 85
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T005",
+          "toolName": "Google Drive",
+          "category": "クラウドストレージ",
+          "subCategory": "ファイル共有",
+          "metrics": {
+            "productivity_score": 80,
+            "ease_of_use": 90,
+            "setup_time": 2,
+            "learning_curve": 95,
+            "popularity": 100,
+            "price_score": 95,
+            "feature_richness": 85,
+            "reliability": 95,
+            "support_quality": 75,
+            "update_frequency": 85
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "15GB無料",
+            "paid": {
+              "monthly": 250,
+              "yearly": 2500,
+              "enterprise": 1800
+            },
+            "trial": {
+              "available": false,
+              "duration": 0
+            }
+          },
+          "features": {
+            "ai_powered": true,
+            "collaboration": true,
+            "mobile_app": true,
+            "offline_support": true,
+            "automation": false,
+            "integration": true,
+            "customization": false,
+            "security": true,
+            "backup": true,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": true,
+            "mac": true,
+            "ios": true,
+            "android": true,
+            "linux": false
+          },
+          "target_users": [
+            "全てのユーザー",
+            "ビジネスパーソン",
+            "学生",
+            "個人"
+          ],
+          "use_cases": [
+            "ファイル保存・共有",
+            "ドキュメント作成",
+            "写真・動画保存",
+            "チーム協業"
+          ],
+          "pros": [
+            "Googleアカウントで即利用",
+            "オフィスソフト統合",
+            "リアルタイム協業",
+            "15GB無料"
+          ],
+          "cons": [
+            "プライバシー懸念",
+            "カスタマイズ性低い",
+            "オフライン機能限定"
+          ],
+          "company_info": {
+            "developer": "Google",
+            "headquarters": "Mountain View, CA",
+            "founded": 2012,
+            "employees": "約170,000人",
+            "funding": "上場企業"
+          },
+          "alternatives": [
+            "Dropbox",
+            "OneDrive",
+            "Box",
+            "iCloud"
+          ],
+          "ratings": {
+            "app_store": 4.4,
+            "google_play": 4.3,
+            "product_hunt": 4,
+            "capterra": 4.6
+          },
+          "ten_criteria": {
+            "immediate_effect": 95,
+            "low_barrier": 100,
+            "trend_factor": 85,
+            "cost_effectiveness": 100,
+            "lazy_friendly": 95
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T006",
+          "toolName": "Zoom",
+          "category": "コミュニケーション",
+          "subCategory": "Web会議",
+          "metrics": {
+            "productivity_score": 85,
+            "ease_of_use": 90,
+            "setup_time": 5,
+            "learning_curve": 90,
+            "popularity": 95,
+            "price_score": 75,
+            "feature_richness": 90,
+            "reliability": 85,
+            "support_quality": 80,
+            "update_frequency": 85
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "40分制限、100人まで",
+            "paid": {
+              "monthly": 2000,
+              "yearly": 20000,
+              "enterprise": 2700
+            },
+            "trial": {
+              "available": true,
+              "duration": 30
+            }
+          },
+          "features": {
+            "ai_powered": true,
+            "collaboration": true,
+            "mobile_app": true,
+            "offline_support": false,
+            "automation": false,
+            "integration": true,
+            "customization": true,
+            "security": true,
+            "backup": false,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": true,
+            "mac": true,
+            "ios": true,
+            "android": true,
+            "linux": true
+          },
+          "target_users": [
+            "ビジネスパーソン",
+            "教育関係者",
+            "リモートワーカー",
+            "チーム"
+          ],
+          "use_cases": [
+            "Web会議",
+            "オンライン研修",
+            "ウェビナー",
+            "画面共有"
+          ],
+          "pros": [
+            "高品質な音声・映像",
+            "安定した接続",
+            "豊富な機能",
+            "大人数対応"
+          ],
+          "cons": [
+            "無料版は時間制限",
+            "セキュリティ懸念",
+            "高機能で複雑"
+          ],
+          "company_info": {
+            "developer": "Zoom Video Communications",
+            "headquarters": "San Jose, CA",
+            "founded": 2011,
+            "employees": "約6,700人",
+            "funding": "上場企業"
+          },
+          "alternatives": [
+            "Google Meet",
+            "Microsoft Teams",
+            "Skype",
+            "WebEx"
+          ],
+          "ratings": {
+            "app_store": 4.4,
+            "google_play": 4.3,
+            "product_hunt": 4.1,
+            "capterra": 4.6
+          },
+          "ten_criteria": {
+            "immediate_effect": 90,
+            "low_barrier": 85,
+            "trend_factor": 90,
+            "cost_effectiveness": 80,
+            "lazy_friendly": 80
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T007",
+          "toolName": "Loom",
+          "category": "コミュニケーション",
+          "subCategory": "画面録画",
+          "metrics": {
+            "productivity_score": 90,
+            "ease_of_use": 95,
+            "setup_time": 3,
+            "learning_curve": 95,
+            "popularity": 70,
+            "price_score": 85,
+            "feature_richness": 80,
+            "reliability": 85,
+            "support_quality": 80,
+            "update_frequency": 85
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "25動画、5分制限",
+            "paid": {
+              "monthly": 1000,
+              "yearly": 10000,
+              "enterprise": 1600
+            },
+            "trial": {
+              "available": true,
+              "duration": 14
+            }
+          },
+          "features": {
+            "ai_powered": true,
+            "collaboration": false,
+            "mobile_app": true,
+            "offline_support": false,
+            "automation": false,
+            "integration": true,
+            "customization": true,
+            "security": true,
+            "backup": true,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": true,
+            "mac": true,
+            "ios": true,
+            "android": true,
+            "linux": false
+          },
+          "target_users": [
+            "営業",
+            "教育関係者",
+            "サポート担当",
+            "フリーランス"
+          ],
+          "use_cases": [
+            "画面録画",
+            "動画マニュアル作成",
+            "プレゼン録画",
+            "バグ報告"
+          ],
+          "pros": [
+            "簡単操作で高品質録画",
+            "即座に共有可能",
+            "AI字幕生成",
+            "リンクで簡単共有"
+          ],
+          "cons": [
+            "無料版は制限多い",
+            "編集機能が限定的",
+            "ストレージ容量制限"
+          ],
+          "company_info": {
+            "developer": "Loom",
+            "headquarters": "San Francisco, CA",
+            "founded": 2015,
+            "employees": "約300人",
+            "funding": "シリーズC"
+          },
+          "alternatives": [
+            "OBS Studio",
+            "Camtasia",
+            "ScreenFlow",
+            "Snagit"
+          ],
+          "ratings": {
+            "app_store": 4.7,
+            "google_play": 4.5,
+            "product_hunt": 4.8,
+            "capterra": 4.7
+          },
+          "ten_criteria": {
+            "immediate_effect": 95,
+            "low_barrier": 90,
+            "trend_factor": 85,
+            "cost_effectiveness": 85,
+            "lazy_friendly": 90
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T008",
+          "toolName": "Grammarly",
+          "category": "文章校正",
+          "subCategory": "AI校正",
+          "metrics": {
+            "productivity_score": 85,
+            "ease_of_use": 90,
+            "setup_time": 2,
+            "learning_curve": 95,
+            "popularity": 85,
+            "price_score": 80,
+            "feature_richness": 85,
+            "reliability": 90,
+            "support_quality": 85,
+            "update_frequency": 90
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "基本的な校正",
+            "paid": {
+              "monthly": 1500,
+              "yearly": 15000,
+              "enterprise": null
+            },
+            "trial": {
+              "available": true,
+              "duration": 7
+            }
+          },
+          "features": {
+            "ai_powered": true,
+            "collaboration": false,
+            "mobile_app": true,
+            "offline_support": false,
+            "automation": false,
+            "integration": true,
+            "customization": true,
+            "security": true,
+            "backup": false,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": true,
+            "mac": true,
+            "ios": true,
+            "android": true,
+            "linux": false
+          },
+          "target_users": [
+            "ライター",
+            "学生",
+            "ビジネスパーソン",
+            "非英語ネイティブ"
+          ],
+          "use_cases": [
+            "英文校正",
+            "論文作成",
+            "メール作成",
+            "ブログ執筆"
+          ],
+          "pros": [
+            "高精度なAI校正",
+            "リアルタイム添削",
+            "ブラウザ拡張対応",
+            "学習機能付き"
+          ],
+          "cons": [
+            "英語のみ対応",
+            "高度機能は有料",
+            "時々過剰修正"
+          ],
+          "company_info": {
+            "developer": "Grammarly Inc.",
+            "headquarters": "San Francisco, CA",
+            "founded": 2009,
+            "employees": "約2,000人",
+            "funding": "シリーズC"
+          },
+          "alternatives": [
+            "ProWritingAid",
+            "Hemingway Editor",
+            "LanguageTool",
+            "Ginger"
+          ],
+          "ratings": {
+            "app_store": 4.5,
+            "google_play": 4.1,
+            "product_hunt": 4.5,
+            "capterra": 4.7
+          },
+          "ten_criteria": {
+            "immediate_effect": 85,
+            "low_barrier": 90,
+            "trend_factor": 80,
+            "cost_effectiveness": 85,
+            "lazy_friendly": 85
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T009",
+          "toolName": "Bitwarden",
+          "category": "パスワード管理",
+          "subCategory": "セキュリティ",
+          "metrics": {
+            "productivity_score": 80,
+            "ease_of_use": 85,
+            "setup_time": 10,
+            "learning_curve": 80,
+            "popularity": 75,
+            "price_score": 95,
+            "feature_richness": 90,
+            "reliability": 95,
+            "support_quality": 80,
+            "update_frequency": 85
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "無制限パスワード、1デバイス",
+            "paid": {
+              "monthly": 300,
+              "yearly": 3000,
+              "enterprise": 300
+            },
+            "trial": {
+              "available": false,
+              "duration": 0
+            }
+          },
+          "features": {
+            "ai_powered": false,
+            "collaboration": true,
+            "mobile_app": true,
+            "offline_support": true,
+            "automation": true,
+            "integration": true,
+            "customization": true,
+            "security": true,
+            "backup": true,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": true,
+            "mac": true,
+            "ios": true,
+            "android": true,
+            "linux": true
+          },
+          "target_users": [
+            "セキュリティ重視ユーザー",
+            "ビジネスパーソン",
+            "個人",
+            "チーム"
+          ],
+          "use_cases": [
+            "パスワード管理",
+            "2要素認証",
+            "セキュアメモ",
+            "チーム共有"
+          ],
+          "pros": [
+            "オープンソース",
+            "無料版が充実",
+            "高いセキュリティ",
+            "全プラットフォーム対応"
+          ],
+          "cons": [
+            "UIがシンプル過ぎ",
+            "高度機能は有料",
+            "初期設定がやや複雑"
+          ],
+          "company_info": {
+            "developer": "Bitwarden Inc.",
+            "headquarters": "Santa Barbara, CA",
+            "founded": 2015,
+            "employees": "約100人",
+            "funding": "シリーズA"
+          },
+          "alternatives": [
+            "1Password",
+            "LastPass",
+            "Dashlane",
+            "KeePass"
+          ],
+          "ratings": {
+            "app_store": 4.6,
+            "google_play": 4.4,
+            "product_hunt": 4.7,
+            "capterra": 4.6
+          },
+          "ten_criteria": {
+            "immediate_effect": 70,
+            "low_barrier": 75,
+            "trend_factor": 75,
+            "cost_effectiveness": 95,
+            "lazy_friendly": 75
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        },
+        {
+          "id": "T010",
+          "toolName": "IFTTT",
+          "category": "自動化",
+          "subCategory": "連携自動化",
+          "metrics": {
+            "productivity_score": 85,
+            "ease_of_use": 80,
+            "setup_time": 15,
+            "learning_curve": 70,
+            "popularity": 70,
+            "price_score": 85,
+            "feature_richness": 90,
+            "reliability": 80,
+            "support_quality": 75,
+            "update_frequency": 75
+          },
+          "pricing": {
+            "free": true,
+            "freeTier": "3アプレット制限",
+            "paid": {
+              "monthly": 400,
+              "yearly": 4000,
+              "enterprise": null
+            },
+            "trial": {
+              "available": true,
+              "duration": 7
+            }
+          },
+          "features": {
+            "ai_powered": false,
+            "collaboration": false,
+            "mobile_app": true,
+            "offline_support": false,
+            "automation": true,
+            "integration": true,
+            "customization": true,
+            "security": false,
+            "backup": false,
+            "multi_platform": true
+          },
+          "platforms": {
+            "web": true,
+            "windows": false,
+            "mac": false,
+            "ios": true,
+            "android": true,
+            "linux": false
+          },
+          "target_users": [
+            "自動化好き",
+            "効率化マニア",
+            "スマートホーム利用者",
+            "ソーシャルメディア管理者"
+          ],
+          "use_cases": [
+            "アプリ間連携",
+            "SNS自動投稿",
+            "スマートホーム制御",
+            "通知自動化"
+          ],
+          "pros": [
+            "700+サービス連携",
+            "ノーコード自動化",
+            "豊富なテンプレート",
+            "スマホ対応"
+          ],
+          "cons": [
+            "無料版は制限大",
+            "レスポンスが遅い",
+            "高度な処理は不可"
+          ],
+          "company_info": {
+            "developer": "IFTTT Inc.",
+            "headquarters": "San Francisco, CA",
+            "founded": 2010,
+            "employees": "約100人",
+            "funding": "プライベート"
+          },
+          "alternatives": [
+            "Zapier",
+            "Microsoft Power Automate",
+            "Make (Integromat)",
+            "n8n"
+          ],
+          "ratings": {
+            "app_store": 4,
+            "google_play": 3.8,
+            "product_hunt": 4.2,
+            "capterra": 4.1
+          },
+          "ten_criteria": {
+            "immediate_effect": 80,
+            "low_barrier": 70,
+            "trend_factor": 75,
+            "cost_effectiveness": 85,
+            "lazy_friendly": 85
+          },
+          "categoryId": "TOOLS",
+          "categoryName": "生産性ツール"
+        }
+      ]
+    },
+    {
+      "categoryId": "NOTE",
+      "categoryName": "ノートアプリ",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "TASK",
+      "categoryName": "タスク管理",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "AUTOMATION",
+      "categoryName": "自動化ツール",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "PASSWORD",
+      "categoryName": "パスワード管理",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "KEYBOARD",
+      "categoryName": "キーボード",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "MOUSE",
+      "categoryName": "マウス",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "MONITOR",
+      "categoryName": "モニター",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "HEADPHONE",
+      "categoryName": "ヘッドホン",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "DESK",
+      "categoryName": "デスクアクセサリー",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "MOBILE",
+      "categoryName": "モバイル生産性",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "LEARNING",
+      "categoryName": "学習アプリ",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "HABIT",
+      "categoryName": "習慣化アプリ",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "MORNING",
+      "categoryName": "朝活ルーティン",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "WORK",
+      "categoryName": "仕事効率化ルーティン",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "CERT",
+      "categoryName": "すぐとれる資格",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    },
+    {
+      "categoryId": "SKILL",
+      "categoryName": "スキル学習プラットフォーム",
+      "totalItems": 0,
+      "averageScore": 0,
+      "items": []
+    }
+  ],
+  "metadata": {
+    "target_persona": "TEN",
+    "target_age": "26-29",
+    "psychology": "手段は決まっているが行動しない層",
+    "focus": "即効性・簡単さ・人気度・コスパ"
+  }
+}

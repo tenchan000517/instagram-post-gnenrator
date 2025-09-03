@@ -1,0 +1,493 @@
+{
+  "title": "無料で使える生産性向上ツールTOP10",
+  "subtitle": "TEN特化ランキング - 即効性・簡単さ・人気度重視",
+  "criteria": "TENスコア",
+  "filters": {
+    "priceType": "free",
+    "immediateEffect": 70,
+    "lowBarrier": 70
+  },
+  "generated": "2025-08-30T00:40:06.837Z",
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "T005",
+      "name": "Google Drive",
+      "category": "クラウドストレージ",
+      "subCategory": "ファイル共有",
+      "value": 95,
+      "formattedValue": "95点",
+      "metrics": {
+        "productivity_score": 80,
+        "ease_of_use": 90,
+        "setup_time": 2,
+        "learning_curve": 95,
+        "popularity": 100,
+        "price_score": 95,
+        "feature_richness": 85,
+        "reliability": 95,
+        "support_quality": 75,
+        "update_frequency": 85
+      },
+      "features": {
+        "ai_powered": true,
+        "collaboration": true,
+        "mobile_app": true,
+        "offline_support": true,
+        "automation": false,
+        "integration": true,
+        "customization": false,
+        "security": true,
+        "backup": true,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "15GB無料",
+        "paid": {
+          "monthly": 250,
+          "yearly": 2500,
+          "enterprise": 1800
+        },
+        "trial": {
+          "available": false,
+          "duration": 0
+        }
+      },
+      "tenScore": 95,
+      "description": "クラウドストレージ。AI搭載、チーム協業、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 2,
+      "id": "T002",
+      "name": "Todoist",
+      "category": "タスク管理",
+      "subCategory": "個人",
+      "value": 90,
+      "formattedValue": "90点",
+      "metrics": {
+        "productivity_score": 90,
+        "ease_of_use": 95,
+        "setup_time": 5,
+        "learning_curve": 90,
+        "popularity": 85,
+        "price_score": 80,
+        "feature_richness": 85,
+        "reliability": 90,
+        "support_quality": 85,
+        "update_frequency": 80
+      },
+      "features": {
+        "ai_powered": false,
+        "collaboration": true,
+        "mobile_app": true,
+        "offline_support": true,
+        "automation": false,
+        "integration": true,
+        "customization": true,
+        "security": true,
+        "backup": true,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "80プロジェクト、5人まで",
+        "paid": {
+          "monthly": 600,
+          "yearly": 6000,
+          "enterprise": null
+        },
+        "trial": {
+          "available": true,
+          "duration": 30
+        }
+      },
+      "tenScore": 90,
+      "description": "タスク管理。チーム協業、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 3,
+      "id": "T007",
+      "name": "Loom",
+      "category": "コミュニケーション",
+      "subCategory": "画面録画",
+      "value": 89,
+      "formattedValue": "89点",
+      "metrics": {
+        "productivity_score": 90,
+        "ease_of_use": 95,
+        "setup_time": 3,
+        "learning_curve": 95,
+        "popularity": 70,
+        "price_score": 85,
+        "feature_richness": 80,
+        "reliability": 85,
+        "support_quality": 80,
+        "update_frequency": 85
+      },
+      "features": {
+        "ai_powered": true,
+        "collaboration": false,
+        "mobile_app": true,
+        "offline_support": false,
+        "automation": false,
+        "integration": true,
+        "customization": true,
+        "security": true,
+        "backup": true,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "25動画、5分制限",
+        "paid": {
+          "monthly": 1000,
+          "yearly": 10000,
+          "enterprise": 1600
+        },
+        "trial": {
+          "available": true,
+          "duration": 14
+        }
+      },
+      "tenScore": 89,
+      "description": "コミュニケーション。AI搭載、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 4,
+      "id": "T004",
+      "name": "Trello",
+      "category": "プロジェクト管理",
+      "subCategory": "かんばん",
+      "value": 88,
+      "formattedValue": "88点",
+      "metrics": {
+        "productivity_score": 85,
+        "ease_of_use": 95,
+        "setup_time": 3,
+        "learning_curve": 95,
+        "popularity": 80,
+        "price_score": 90,
+        "feature_richness": 75,
+        "reliability": 85,
+        "support_quality": 80,
+        "update_frequency": 75
+      },
+      "features": {
+        "ai_powered": false,
+        "collaboration": true,
+        "mobile_app": true,
+        "offline_support": false,
+        "automation": true,
+        "integration": true,
+        "customization": true,
+        "security": true,
+        "backup": true,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "個人利用・10チームボード",
+        "paid": {
+          "monthly": 600,
+          "yearly": 6000,
+          "enterprise": 2100
+        },
+        "trial": {
+          "available": true,
+          "duration": 14
+        }
+      },
+      "tenScore": 88,
+      "description": "プロジェクト管理。チーム協業、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 5,
+      "id": "T006",
+      "name": "Zoom",
+      "category": "コミュニケーション",
+      "subCategory": "Web会議",
+      "value": 86,
+      "formattedValue": "86点",
+      "metrics": {
+        "productivity_score": 85,
+        "ease_of_use": 90,
+        "setup_time": 5,
+        "learning_curve": 90,
+        "popularity": 95,
+        "price_score": 75,
+        "feature_richness": 90,
+        "reliability": 85,
+        "support_quality": 80,
+        "update_frequency": 85
+      },
+      "features": {
+        "ai_powered": true,
+        "collaboration": true,
+        "mobile_app": true,
+        "offline_support": false,
+        "automation": false,
+        "integration": true,
+        "customization": true,
+        "security": true,
+        "backup": false,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "40分制限、100人まで",
+        "paid": {
+          "monthly": 2000,
+          "yearly": 20000,
+          "enterprise": 2700
+        },
+        "trial": {
+          "available": true,
+          "duration": 30
+        }
+      },
+      "tenScore": 86,
+      "description": "コミュニケーション。AI搭載、チーム協業、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 6,
+      "id": "T008",
+      "name": "Grammarly",
+      "category": "文章校正",
+      "subCategory": "AI校正",
+      "value": 85,
+      "formattedValue": "85点",
+      "metrics": {
+        "productivity_score": 85,
+        "ease_of_use": 90,
+        "setup_time": 2,
+        "learning_curve": 95,
+        "popularity": 85,
+        "price_score": 80,
+        "feature_richness": 85,
+        "reliability": 90,
+        "support_quality": 85,
+        "update_frequency": 90
+      },
+      "features": {
+        "ai_powered": true,
+        "collaboration": false,
+        "mobile_app": true,
+        "offline_support": false,
+        "automation": false,
+        "integration": true,
+        "customization": true,
+        "security": true,
+        "backup": false,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "基本的な校正",
+        "paid": {
+          "monthly": 1500,
+          "yearly": 15000,
+          "enterprise": null
+        },
+        "trial": {
+          "available": true,
+          "duration": 7
+        }
+      },
+      "tenScore": 85,
+      "description": "文章校正。AI搭載、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 7,
+      "id": "T001",
+      "name": "Notion",
+      "category": "ノートアプリ",
+      "subCategory": "オールインワン",
+      "value": 80,
+      "formattedValue": "80点",
+      "metrics": {
+        "productivity_score": 95,
+        "ease_of_use": 80,
+        "setup_time": 15,
+        "learning_curve": 70,
+        "popularity": 90,
+        "price_score": 85,
+        "feature_richness": 95,
+        "reliability": 85,
+        "support_quality": 80,
+        "update_frequency": 85
+      },
+      "features": {
+        "ai_powered": true,
+        "collaboration": true,
+        "mobile_app": true,
+        "offline_support": false,
+        "automation": true,
+        "integration": true,
+        "customization": true,
+        "security": true,
+        "backup": true,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "個人利用無制限",
+        "paid": {
+          "monthly": 800,
+          "yearly": 8000,
+          "enterprise": 1600
+        },
+        "trial": {
+          "available": true,
+          "duration": 30
+        }
+      },
+      "tenScore": 80,
+      "description": "ノートアプリ。AI搭載、チーム協業、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 8,
+      "id": "T003",
+      "name": "Slack",
+      "category": "コミュニケーション",
+      "subCategory": "チャット",
+      "value": 78,
+      "formattedValue": "78点",
+      "metrics": {
+        "productivity_score": 85,
+        "ease_of_use": 85,
+        "setup_time": 10,
+        "learning_curve": 80,
+        "popularity": 95,
+        "price_score": 70,
+        "feature_richness": 90,
+        "reliability": 90,
+        "support_quality": 85,
+        "update_frequency": 90
+      },
+      "features": {
+        "ai_powered": true,
+        "collaboration": true,
+        "mobile_app": true,
+        "offline_support": false,
+        "automation": true,
+        "integration": true,
+        "customization": true,
+        "security": true,
+        "backup": true,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "10,000メッセージ履歴",
+        "paid": {
+          "monthly": 1050,
+          "yearly": 10500,
+          "enterprise": 1800
+        },
+        "trial": {
+          "available": true,
+          "duration": 30
+        }
+      },
+      "tenScore": 78,
+      "description": "コミュニケーション。AI搭載、チーム協業、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 9,
+      "id": "T009",
+      "name": "Bitwarden",
+      "category": "パスワード管理",
+      "subCategory": "セキュリティ",
+      "value": 78,
+      "formattedValue": "78点",
+      "metrics": {
+        "productivity_score": 80,
+        "ease_of_use": 85,
+        "setup_time": 10,
+        "learning_curve": 80,
+        "popularity": 75,
+        "price_score": 95,
+        "feature_richness": 90,
+        "reliability": 95,
+        "support_quality": 80,
+        "update_frequency": 85
+      },
+      "features": {
+        "ai_powered": false,
+        "collaboration": true,
+        "mobile_app": true,
+        "offline_support": true,
+        "automation": true,
+        "integration": true,
+        "customization": true,
+        "security": true,
+        "backup": true,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "無制限パスワード、1デバイス",
+        "paid": {
+          "monthly": 300,
+          "yearly": 3000,
+          "enterprise": 300
+        },
+        "trial": {
+          "available": false,
+          "duration": 0
+        }
+      },
+      "tenScore": 78,
+      "description": "パスワード管理。チーム協業、無料版あり、スマホ対応。"
+    },
+    {
+      "rank": 10,
+      "id": "T010",
+      "name": "IFTTT",
+      "category": "自動化",
+      "subCategory": "連携自動化",
+      "value": 78,
+      "formattedValue": "78点",
+      "metrics": {
+        "productivity_score": 85,
+        "ease_of_use": 80,
+        "setup_time": 15,
+        "learning_curve": 70,
+        "popularity": 70,
+        "price_score": 85,
+        "feature_richness": 90,
+        "reliability": 80,
+        "support_quality": 75,
+        "update_frequency": 75
+      },
+      "features": {
+        "ai_powered": false,
+        "collaboration": false,
+        "mobile_app": true,
+        "offline_support": false,
+        "automation": true,
+        "integration": true,
+        "customization": true,
+        "security": false,
+        "backup": false,
+        "multi_platform": true
+      },
+      "pricing": {
+        "free": true,
+        "freeTier": "3アプレット制限",
+        "paid": {
+          "monthly": 400,
+          "yearly": 4000,
+          "enterprise": null
+        },
+        "trial": {
+          "available": true,
+          "duration": 7
+        }
+      },
+      "tenScore": 78,
+      "description": "自動化。無料版あり、スマホ対応。"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "rankingId": "DEV003",
+  "rankingName": "無料コーディング支援AITOP5",
+  "criteria": "adjustedTenScore",
+  "totalCandidates": 6,
+  "displayCount": 5,
+  "generatedAt": "2025-08-31T15:06:41.053Z",
+  "rankings": [
+    {
+      "rank": 1,
+      "toolName": "GitHub Copilot",
+      "totalScore": 523,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "GitHub (Microsoft)",
+      "description": "undefined...",
+      "criteriaScore": 523,
+      "evaluation": {
+        "immediacy": 93,
+        "simplicity": 88,
+        "popularity": 93,
+        "costPerformance": 88,
+        "specialization": 78,
+        "productivityGain": 83
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "Codeium",
+      "totalScore": 505,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Exafunction Inc.",
+      "description": "undefined...",
+      "criteriaScore": 505,
+      "evaluation": {
+        "immediacy": 85,
+        "simplicity": 92,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 75,
+        "productivityGain": 80
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "Cursor",
+      "totalScore": 502,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Anysphere",
+      "description": "undefined...",
+      "criteriaScore": 502,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 75,
+        "popularity": 80,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 92
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "Tabnine",
+      "totalScore": 490,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Tabnine Ltd.",
+      "description": "undefined...",
+      "criteriaScore": 490,
+      "evaluation": {
+        "immediacy": 88,
+        "simplicity": 85,
+        "popularity": 75,
+        "costPerformance": 70,
+        "specialization": 90,
+        "productivityGain": 82
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Sourcegraph Cody",
+      "totalScore": 470,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Sourcegraph Inc.",
+      "description": "undefined...",
+      "criteriaScore": 470,
+      "evaluation": {
+        "immediacy": 80,
+        "simplicity": 70,
+        "popularity": 65,
+        "costPerformance": 75,
+        "specialization": 95,
+        "productivityGain": 85
+      }
+    }
+  ]
+}

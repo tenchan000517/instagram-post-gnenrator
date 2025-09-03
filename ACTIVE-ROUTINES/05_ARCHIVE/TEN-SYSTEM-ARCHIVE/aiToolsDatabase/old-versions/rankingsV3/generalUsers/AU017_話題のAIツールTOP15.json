@@ -1,0 +1,86 @@
+{
+  "id": "AU017",
+  "title": "話題のAIツールTOP15",
+  "description": "一般ユーザー向けの話題のAIツールTOP15です。調整済みスコアに基づいて選出しています。",
+  "category": "AIツール総合",
+  "targetAudience": "T004: 26-29歳会社員・一般ユーザー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "releaseYear": "2024"
+  },
+  "generatedAt": "2025-08-31T10:50:18.633Z",
+  "totalMatched": 2,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Mapify",
+      "category": "AIマインドマップ生成",
+      "companyName": "Mapify",
+      "score": 136.5,
+      "originalScore": 455,
+      "officialUrl": "https://mapify.so/",
+      "metrics": {
+        "immediacy": 90,
+        "simplicity": 95,
+        "popularity": 30,
+        "costPerformance": 85,
+        "specialization": 75,
+        "productivityGain": 80
+      },
+      "features": {
+        "primaryFunction": "多様なコンテンツからAIマインドマップ自動生成",
+        "uniqueFeatures": [
+          "7時間動画対応",
+          "200,000文字文書対応",
+          "100言語翻訳",
+          "リアルタイムAIチャット"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$5.99/月（年額払い）",
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "Runway Gen-3",
+      "category": "AI動画生成・編集",
+      "companyName": "Runway",
+      "score": 133.5,
+      "originalScore": 445,
+      "officialUrl": "https://runwayml.com/",
+      "metrics": {
+        "immediacy": 70,
+        "simplicity": 70,
+        "popularity": 80,
+        "costPerformance": 50,
+        "specialization": 100,
+        "productivityGain": 75
+      },
+      "features": {
+        "primaryFunction": "最先端AI動画生成・テキスト/画像から動画作成",
+        "uniqueFeatures": [
+          "Gen-4最新モデル",
+          "一貫性のあるキャラクター",
+          "10秒動画生成",
+          "スタイル参照機能"
+        ],
+        "platforms": [
+          "Web",
+          "API"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$12/月（年額払い）",
+        "currency": "USD"
+      }
+    }
+  ]
+}

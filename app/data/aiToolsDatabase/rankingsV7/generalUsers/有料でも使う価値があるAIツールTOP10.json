@@ -1,0 +1,550 @@
+{
+  "patternId": "AU019",
+  "patternName": "有料でも使う価値があるAIツールTOP10",
+  "criteria": "adjustedTenScore",
+  "limit": 10,
+  "filters": {
+    "isPaidOnly": true
+  },
+  "generatedAt": "2025-09-02T00:50:37.355Z",
+  "totalMatched": 5,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Claude Code",
+      "score": 524,
+      "totalScore": 524,
+      "starRating": "★★★",
+      "id": "AI003",
+      "category": "開発支援・コーディング",
+      "subCategory": "AI統合開発環境",
+      "companyName": "Anthropic",
+      "officialUrl": "https://www.anthropic.com/claude-code",
+      "releaseInfo": {
+        "initialRelease": "2025-01",
+        "latestUpdate": "2025-08",
+        "version": "Claude Opus 4.1 based",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "enterpriseUsers": "数百人規模導入（複数企業）"
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": true,
+        "mac": true,
+        "linux": true,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": null,
+        "freeCredits": null,
+        "standalonePrice": 20,
+        "proIncluded": true,
+        "maxIncluded": true,
+        "teamPremiumSeat": "Team plan premium seats",
+        "enterprisePremiumSeat": "Enterprise plan premium seats",
+        "apiPricing": "標準Anthropic API価格",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AI統合開発環境・コード生成・デバッグ",
+        "uniqueFeatures": [
+          "全コードベース理解",
+          "直接ファイル編集・コマンド実行",
+          "VS Code/JetBrains統合",
+          "プロジェクト構造自動マッピング"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "コード",
+          "コマンド",
+          "ファイル"
+        ],
+        "outputFormats": [
+          "コード",
+          "コマンド実行",
+          "ファイル編集"
+        ],
+        "integrations": [
+          "VS Code",
+          "JetBrains",
+          "Terminal",
+          "Git",
+          "API"
+        ],
+        "apiAvailability": "Anthropic API経由"
+      },
+      "technicalSpecs": {
+        "responseTime": "2-10秒",
+        "accuracyRate": "高精度（具体値未公表）",
+        "dataPrivacy": "Enterprise: 学習に不使用",
+        "dataRetention": "30日",
+        "compliance": [
+          "SOC 2",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "codebaseSize": "無制限",
+        "supportedLanguages": "主要プログラミング言語全対応"
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語主体",
+          "日本語部分対応"
+        ],
+        "japaneseUI": false,
+        "japaneseSupport": "部分対応",
+        "japaneseDocumentation": false,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Medium",
+        "setupTime": 10,
+        "dailyUsageTime": "60-480分",
+        "targetUserLevel": "中級〜上級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "90-95%（月7回以上障害）",
+        "scalability": "高（需要急増で制限導入）",
+        "updateFrequency": "月2-4回",
+        "bugReports": "高需要による接続問題",
+        "serverLocation": "米国・欧州",
+        "loadTime": "5-15秒"
+      },
+      "community": {
+        "communitySize": 100000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（Discord）",
+        "officialSupport": "メール・チャット",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "GitHub Copilot",
+          "Cursor",
+          "Replit"
+        ],
+        "keyDifferentiators": [
+          "全コードベース理解",
+          "直接環境操作",
+          "Claude Opus 4.1の高性能"
+        ],
+        "marketPosition": "プレミアム開発環境AI",
+        "marketShare": "推定5%未満"
+      },
+      "tenEvaluation": {
+        "immediacy": 84,
+        "simplicity": 74,
+        "popularity": 72,
+        "costPerformance": 94,
+        "specialization": 100,
+        "productivityGain": 100,
+        "totalScore": 524
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-30",
+      "sources": [
+        "https://www.anthropic.com/claude-code",
+        "https://docs.anthropic.com/en/docs/claude-code/overview",
+        "https://techcrunch.com/2025/07/28/anthropic-unveils-new-rate-limits-to-curb-claude-code-power-users/",
+        "https://techcrunch.com/2025/08/20/anthropic-bundles-claude-code-into-enterprise-plans/",
+        "https://www.anthropic.com/news/claude-code-on-team-and-enterprise"
+      ],
+      "additionalNotes": "前例なき需要で制限導入。企業での開発生産性を劇的向上させる。Anthropicの企業市場攻略の主力製品。"
+    },
+    {
+      "rank": 2,
+      "toolName": "DALL-E",
+      "score": 513,
+      "totalScore": 513,
+      "starRating": "★★",
+      "id": 18,
+      "category": "AI Image Generation",
+      "userMetrics": {
+        "activeUsers": null,
+        "downloads": null,
+        "rating": null,
+        "reviews": null
+      },
+      "pricing": {
+        "model": "Pay-per-use + Subscription",
+        "freeTier": false,
+        "paidPlans": [
+          {
+            "name": "GPT-Image-1",
+            "price": "$0.02-$0.19 per image",
+            "features": [
+              "Quality-dependent pricing",
+              "API access"
+            ]
+          },
+          {
+            "name": "Traditional DALL-E",
+            "price": "$0.01-$0.17 per image",
+            "features": [
+              "Standard generation",
+              "API access"
+            ]
+          },
+          {
+            "name": "GPT-4o Image",
+            "price": "$0.035 per 1024×1024 image",
+            "features": [
+              "Integrated with GPT-4o"
+            ]
+          },
+          {
+            "name": "ChatGPT Plus",
+            "price": "$20/month",
+            "features": [
+              "Consumer access",
+              "Integrated experience"
+            ]
+          }
+        ]
+      },
+      "technicalSpecs": {
+        "latestVersion": "GPT-Image-1",
+        "apiAvailable": true,
+        "offlineCapable": false,
+        "systemRequirements": "API key required"
+      },
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 90,
+        "popularity": 90,
+        "costPerformance": 75,
+        "specialization": 85,
+        "productivityGain": 88,
+        "totalScore": 513
+      },
+      "batchNumber": 3,
+      "toolRange": "17-24"
+    },
+    {
+      "rank": 3,
+      "toolName": "Microsoft Copilot",
+      "score": 512,
+      "totalScore": 512,
+      "starRating": "★★",
+      "id": 22,
+      "category": "Integrated Productivity AI",
+      "userMetrics": {
+        "activeUsers": null,
+        "downloads": null,
+        "rating": null,
+        "reviews": null,
+        "agentStoreAgents": "70+ agents available"
+      },
+      "pricing": {
+        "model": "Subscription",
+        "freeTier": false,
+        "paidPlans": [
+          {
+            "name": "Microsoft 365 Copilot",
+            "price": "$30/month/user",
+            "features": [
+              "Annual commitment",
+              "Full Office integration",
+              "Enterprise features"
+            ]
+          },
+          {
+            "name": "Copilot Pro",
+            "price": "Varies",
+            "features": [
+              "Consumer features",
+              "Enhanced capabilities"
+            ]
+          },
+          {
+            "name": "Pay-as-you-go",
+            "price": "Variable",
+            "features": [
+              "Specific services",
+              "Usage-based"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "features": [
+              "Custom arrangements",
+              "Volume discounts"
+            ]
+          }
+        ]
+      },
+      "technicalSpecs": {
+        "latestVersion": "GPT-5 integration",
+        "apiAvailable": true,
+        "offlineCapable": false,
+        "systemRequirements": "Microsoft 365 subscription recommended"
+      },
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 82,
+        "popularity": 88,
+        "costPerformance": 70,
+        "specialization": 92,
+        "productivityGain": 95,
+        "totalScore": 512
+      },
+      "batchNumber": 3,
+      "toolRange": "17-24"
+    },
+    {
+      "rank": 4,
+      "toolName": "Midjourney",
+      "score": 505,
+      "totalScore": 505,
+      "starRating": "★★",
+      "id": 17,
+      "category": "AI Image Generation",
+      "userMetrics": {
+        "activeUsers": null,
+        "downloads": null,
+        "rating": null,
+        "reviews": null
+      },
+      "pricing": {
+        "model": "Subscription",
+        "freeTier": false,
+        "paidPlans": [
+          {
+            "name": "Basic",
+            "price": "$10/month",
+            "annualPrice": "$8/month",
+            "features": [
+              "3.3 Fast Hours",
+              "~200 generations",
+              "Standard commercial terms"
+            ]
+          },
+          {
+            "name": "Standard",
+            "price": "$30/month",
+            "annualPrice": "$24/month",
+            "features": [
+              "Unlimited Relax mode",
+              "Standard commercial terms"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$60/month",
+            "annualPrice": "$48/month",
+            "features": [
+              "30 Fast Hours",
+              "Stealth mode",
+              "General commercial terms"
+            ]
+          },
+          {
+            "name": "Mega",
+            "price": "$120/month",
+            "features": [
+              "60 Fast Hours",
+              "All Pro features",
+              "General commercial terms"
+            ]
+          }
+        ]
+      },
+      "technicalSpecs": {
+        "latestVersion": "V7",
+        "apiAvailable": false,
+        "offlineCapable": false,
+        "systemRequirements": "Internet connection required"
+      },
+      "tenEvaluation": {
+        "immediacy": 88,
+        "simplicity": 75,
+        "popularity": 92,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 85,
+        "totalScore": 505
+      },
+      "batchNumber": 3,
+      "toolRange": "17-24"
+    },
+    {
+      "rank": 5,
+      "toolName": "Motion",
+      "score": 470,
+      "totalScore": 470,
+      "starRating": "★",
+      "id": "AI007",
+      "category": "生産性・スケジュール管理",
+      "subCategory": "AIスケジュール最適化",
+      "companyName": "Motion",
+      "officialUrl": "https://www.usemotion.com",
+      "releaseInfo": {
+        "initialRelease": "2019",
+        "latestUpdate": "2025-08",
+        "version": "AI Employees + Motion Calendar",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 1000000,
+        "professionals": 1000000,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": null,
+        "freeCredits": null,
+        "individualPrice": 19,
+        "individualFeatures": "年払い・AIスケジューリング・カレンダー統合",
+        "individualMonthlyPrice": 34,
+        "teamLightPrice": 33,
+        "teamLightFeatures": "AI Employee Light・3ユーザー・25,000 AIクレジット/月",
+        "teamStandardPrice": 29.9,
+        "teamStandardFeatures": "AI Employee Standard・10ユーザー・100,000 AIクレジット/月",
+        "teamPlusPrice": 23.96,
+        "teamPlusFeatures": "AI Employee Plus・25ユーザー・250,000 AIクレジット/月",
+        "billingCycle": "月額・年額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AIスケジュール最適化・タスク自動配置",
+        "uniqueFeatures": [
+          "AI Employees（自立型AIエージェント）",
+          "自動タスク優先度設定",
+          "カレンダー統合（Google・Outlook・iCloud）",
+          "自動スケジューリング"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "カレンダーデータ",
+          "タスクリスト"
+        ],
+        "outputFormats": [
+          "スケジュール",
+          "タスクリスト",
+          "カレンダー"
+        ],
+        "integrations": [
+          "Google Calendar",
+          "Microsoft Outlook",
+          "iCloud",
+          "Slack"
+        ],
+        "apiAvailability": "REST API"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-3秒",
+        "accuracyRate": "95%（スケジューリング精度）",
+        "dataPrivacy": "エンタープライズレベル暗号化",
+        "dataRetention": "ユーザー設定による",
+        "compliance": [
+          "SOC 2"
+        ],
+        "offline": false,
+        "maxTasks": "無制限",
+        "supportedLanguages": 10
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "日本語",
+          "スペイン語",
+          "フランス語",
+          "ドイツ語",
+          "その他5言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Medium",
+        "setupTime": 10,
+        "dailyUsageTime": "10-30分",
+        "targetUserLevel": "初心者〜中級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.5%",
+        "scalability": "高（クラウドベース）",
+        "updateFrequency": "月2-3回",
+        "bugReports": null,
+        "serverLocation": "米国・欧州",
+        "loadTime": "2-4秒"
+      },
+      "community": {
+        "communitySize": 100000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発",
+        "officialSupport": "チャット・メール",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Reclaim AI",
+          "Clockify",
+          "Calendly"
+        ],
+        "keyDifferentiators": [
+          "AI Employees機能",
+          "自動タスク優先度設定",
+          "複数カレンダー統合"
+        ],
+        "marketPosition": "プレミアムAIスケジューラー",
+        "marketShare": "推定10%未満"
+      },
+      "tenEvaluation": {
+        "immediacy": 80,
+        "simplicity": 75,
+        "popularity": 70,
+        "costPerformance": 70,
+        "specialization": 85,
+        "productivityGain": 90,
+        "totalScore": 470
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-31",
+      "sources": [
+        "https://www.usemotion.com",
+        "https://www.usemotion.com/pricing",
+        "https://www.kristian-larsen.com/reviews/motion-review/",
+        "https://max-productive.ai/ai-tools/motion-ai/",
+        "https://thebusinessdive.com/motion-app-review"
+      ],
+      "additionalNotes": "2025年のAI Employees導入により、単なるスケジューラーから自立型AIチーム支援ツールに進化。Amplitude社調査で最速成長プロダクト1位。"
+    }
+  ]
+}

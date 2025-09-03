@@ -1,0 +1,111 @@
+{
+  "patternId": "FC050",
+  "patternName": "食品業界女性長期キャリア企業TOP10",
+  "criteria": "averageTenure",
+  "limit": 10,
+  "filters": {
+    "industry": "食品・農林・水産"
+  },
+  "generatedAt": "2025-08-29T12:30:23.173Z",
+  "totalMatched": 7,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "サントリーホールディングス株式会社",
+      "industry": "飲料・酒類・食品",
+      "score": 16995021,
+      "metrics": {
+        "salary": 11330000,
+        "initialSalary": null,
+        "holidays": 121,
+        "overtime": null,
+        "vacationRate": 16.7,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 2,
+      "companyName": "味の素株式会社",
+      "industry": "食品・調味料",
+      "score": 15555028,
+      "metrics": {
+        "salary": 10370000,
+        "initialSalary": 275,
+        "holidays": 124,
+        "overtime": 24,
+        "vacationRate": null,
+        "turnoverRate3Years": 1.5
+      }
+    },
+    {
+      "rank": 3,
+      "companyName": "株式会社クボタ",
+      "industry": "農業機械・建設機械メーカー",
+      "score": 1389,
+      "metrics": {
+        "salary": null,
+        "initialSalary": 274000,
+        "holidays": 125,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 4,
+      "companyName": "アサヒ飲料株式会社",
+      "industry": "飲料・食品",
+      "score": 20,
+      "metrics": {
+        "salary": null,
+        "initialSalary": 288.5,
+        "holidays": 123,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 5,
+      "companyName": "農林水産省",
+      "industry": "農林水産",
+      "score": 0,
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 6,
+      "companyName": "全国農業協同組合連合会",
+      "industry": "農業協同組合（JA）",
+      "score": 0,
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 7,
+      "companyName": "ヤンマーホールディングス株式会社",
+      "industry": "農機・エンジン・船舶メーカー",
+      "score": 0,
+      "metrics": {
+        "salary": null,
+        "initialSalary": null,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    }
+  ]
+}

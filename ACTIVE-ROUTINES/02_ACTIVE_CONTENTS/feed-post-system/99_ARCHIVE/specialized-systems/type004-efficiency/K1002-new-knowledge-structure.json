@@ -1,0 +1,164 @@
+{
+  "source": "Type004実証型ナレッジ-ステータスフォルダ整理法",
+  "problemCategory": "プロジェクト管理・業務効率化",
+  "postType": "004",
+  "knowledgeId": "K1002",
+  "pageStructurePattern": "unified-template-13-step-by-step",
+  "actualTitle": "10分で始める！ステータスフォルダ整理術",
+  "targetIds": ["T019", "T020", "T021", "T022", "T023", "T024"],
+  "pageCount": 8,
+  "detailedContent": {
+    "page1": {
+      "role": "basic_intro",
+      "section": "introduction",
+      "content": {
+        "title": "プロジェクト管理で頭がぐちゃぐちゃ",
+        "targetAudience": "デスクトップがファイルだらけ、プロジェクト管理に悩むあなた",
+        "problems": [
+          "あのファイルどこだっけ？のストレス",
+          "プロジェクトの進捗が自分でもわからない",
+          "完了案件と進行中が混在して混乱",
+          "フォルダを開いては閉じての繰り返し"
+        ],
+        "additionalMessage": "たった4つのフォルダで整理するだけで、思考もディレクトリもすっきり。新しいツールは一切不要、今すぐ無料でできます"
+      }
+    },
+    "page2": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 1,
+        "totalSteps": 6,
+        "stepTitle": "4つのフォルダを作成",
+        "duration": "1分",
+        "instructions": [
+          "デスクトップまたは作業フォルダに以下4つを作成",
+          "📁 進行中 - 今まさに取り組んでいるプロジェクト",
+          "📁 管理中 - 完了したけど定期的に確認が必要なもの",
+          "📁 データ - 参考資料・テンプレート・分析用データ",
+          "📁 保管 - 完全に終了したプロジェクトのアーカイブ"
+        ],
+        "tips": "フォルダアイコンの絵文字は任意。見やすければOK",
+        "imageSrc": "/king_work.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page3": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 2,
+        "totalSteps": 6,
+        "stepTitle": "4つの質問で振り分けマスター",
+        "duration": "5分",
+        "instructions": [
+          "Q1: まだ進めている？ → YES なら 📁 進行中",
+          "Q2: 定期的に確認する？ → YES なら 📁 管理中",
+          "Q3: 参照・分析用？ → YES なら 📁 データ",
+          "Q4: 終了・保存用？ → YES なら 📁 保管",
+          "迷ったら上から順番に質問すれば必ず振り分けられる"
+        ],
+        "tips": "最初は厳密でなくてOK。使いながら調整していきましょう",
+        "imageSrc": "/king_thinking.png",
+        "imageAlt": "キングが考えている様子"
+      }
+    },
+    "page4": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 3,
+        "totalSteps": 6,
+        "stepTitle": "プロジェクト階層で整理",
+        "duration": "10分",
+        "instructions": [
+          "プロジェクトフォルダを作成：クライアント名_案件内容",
+          "例：📁 A社_WEBサイト制作",
+          "プロジェクト内にタスクフォルダを作成",
+          "例：📁 企画書作成、📁 デザイン制作、📁 コーディング",
+          "既存ファイルをプロジェクト・タスク単位で整理"
+        ],
+        "tips": "移動はプロジェクトフォルダごと。中身は一緒に移動します",
+        "imageSrc": "/king_study.png",
+        "imageAlt": "キングが勉強している様子"
+      }
+    },
+    "page5": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 4,
+        "totalSteps": 6,
+        "stepTitle": "命名規則で検索効率アップ",
+        "duration": "15分",
+        "instructions": [
+          "基本ルール：日付_内容_バージョン",
+          "良い例：2025-0807_A社提案書_v3.docx",
+          "良い例：2025-0801_議事録_B社定例会.txt",
+          "既存ファイルの主要なものから命名変更",
+          "新規ファイルは必ずこのルールで作成"
+        ],
+        "tips": "日付を先頭にすると自動的に時系列で並びます",
+        "imageSrc": "/king_goodjob.png",
+        "imageAlt": "キングがグッドジョブしている様子"
+      }
+    },
+    "page6": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 5,
+        "totalSteps": 6,
+        "stepTitle": "運用フローを確立",
+        "duration": "5分",
+        "instructions": [
+          "新規案件 → 📁 進行中 に作成",
+          "完了（定期確認あり）→ 📁 管理中 へ移動",
+          "完全終了 → 📁 保管 へ移動",
+          "参考資料 → 最初から 📁 データ へ",
+          "毎週金曜5分を「フォルダ整理タイム」に設定"
+        ],
+        "tips": "完璧を求めず、週1回の整理で十分効果があります",
+        "imageSrc": "/king_work.png",
+        "imageAlt": "キングが作業している様子"
+      }
+    },
+    "page7": {
+      "role": "step_by_step",
+      "section": "mainContent",
+      "content": {
+        "stepNumber": 6,
+        "totalSteps": 6,
+        "stepTitle": "効果を実感・習慣化",
+        "duration": "継続",
+        "instructions": [
+          "必要なファイルがすぐ見つかる実感",
+          "今やるべきことが「進行中」で明確に",
+          "完了案件と進行中が混在しない安心感",
+          "頭の中も整理されて思考がクリアに",
+          "月1回、フォルダ構成を見直して最適化"
+        ],
+        "tips": "フォルダ整理 = 思考整理。仕事のストレスが確実に減ります",
+        "imageSrc": "/king_goodjob.png",
+        "imageAlt": "キングがグッドジョブしている様子"
+      }
+    },
+    "page8": {
+      "role": "achievement_summary",
+      "section": "summary",
+      "content": {
+        "summaryTitle": "ステータスフォルダ整理術・完成",
+        "achievementPoints": [
+          "たった10分で開始できる簡単さ",
+          "4つのフォルダと4つの質問だけのシンプル構造",
+          "新しいツール不要・追加費用ゼロ",
+          "ファイル探しのストレスから解放",
+          "プロジェクト状況が一目瞭然",
+          "思考の整理で仕事効率が向上",
+          "週5分の習慣で永続的な効果"
+        ],
+        "encouragementMessage": "もう「あのファイルどこだっけ？」と悩むことはありません。4つのフォルダがあなたの仕事を変えます。今すぐ始めて、明日から変化を実感してください"
+      }
+    }
+  }
+}

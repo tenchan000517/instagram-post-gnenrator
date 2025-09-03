@@ -1,0 +1,42 @@
+{
+  "id": "AU005",
+  "title": "AI文章作成・ライティング支援TOP5",
+  "description": "一般ユーザー向けのAI文章作成・ライティング支援TOP5です。調整済みスコアに基づいて選出しています。",
+  "category": "AIツール総合",
+  "targetAudience": "T004: 26-29歳会社員・一般ユーザー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "AI Writing Assistance"
+  },
+  "generatedAt": "2025-08-31T10:50:18.592Z",
+  "totalMatched": 1,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Grammarly",
+      "category": "AI Writing Assistance",
+      "companyName": "Grammarly Inc.",
+      "score": 477,
+      "originalScore": 530,
+      "officialUrl": "https://www.grammarly.com",
+      "metrics": {
+        "immediacy": 95,
+        "simplicity": 90,
+        "popularity": 95,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 85
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": []
+      },
+      "pricing": {
+        "hasFreeVersion": false,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    }
+  ]
+}

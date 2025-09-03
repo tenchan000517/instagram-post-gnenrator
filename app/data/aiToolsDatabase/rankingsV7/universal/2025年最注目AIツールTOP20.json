@@ -1,0 +1,576 @@
+{
+  "patternId": "UN008",
+  "patternName": "2025年最注目AIツールTOP20",
+  "criteria": "adjustedTenScore",
+  "limit": 20,
+  "filters": {
+    "isLatest": true
+  },
+  "generatedAt": "2025-09-02T00:50:37.459Z",
+  "totalMatched": 8,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Calendly AI",
+      "score": 536,
+      "totalScore": 536,
+      "starRating": "★★★",
+      "id": "AI080",
+      "category": "AI Scheduling",
+      "companyName": "Calendly",
+      "officialUrl": "https://calendly.com",
+      "pricing": {
+        "freePlan": "Basic scheduling for one event type, unlimited meetings",
+        "paidPlans": [
+          {
+            "planName": "Standard",
+            "monthlyPrice": "$12",
+            "annualPrice": "$10/month ($120/year)",
+            "features": [
+              "Unlimited event types",
+              "Connect 6 calendars",
+              "Group events",
+              "Custom branding",
+              "Live chat support"
+            ]
+          },
+          {
+            "planName": "Teams",
+            "monthlyPrice": "$20",
+            "annualPrice": "$16/month ($192/year)",
+            "features": [
+              "Round-robin scheduling",
+              "Collective scheduling",
+              "Salesforce integration",
+              "Team reporting",
+              "Advanced analytics"
+            ]
+          },
+          {
+            "planName": "Enterprise",
+            "monthlyPrice": "~$42 ($15,000/year minimum)",
+            "annualPrice": "$15,000+/year",
+            "features": [
+              "SAML SSO",
+              "Advanced security",
+              "Dedicated account partner",
+              "Microsoft Dynamics 365",
+              "Premium support"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 97,
+        "simplicity": 92,
+        "popularity": 91,
+        "costPerformance": 82,
+        "specialization": 82,
+        "productivityGain": 92,
+        "totalScore": 536
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://calendly.com/pricing",
+        "https://meetergo.com/en/magazine/calendly-plans",
+        "https://zeeg.me/en/blog/post/calendly-pricing",
+        "https://help.calendly.com/hc/en-us/articles/8815568416535-Choose-the-right-Calendly-plan-for-your-team",
+        "https://growjo.com/company/Calendly"
+      ]
+    },
+    {
+      "rank": 2,
+      "toolName": "Zapier AI",
+      "score": 533,
+      "totalScore": 533,
+      "starRating": "★★★",
+      "id": "AI082",
+      "category": "AI Workflow Automation",
+      "companyName": "Zapier",
+      "officialUrl": "https://zapier.com",
+      "pricing": {
+        "freePlan": "100 tasks/month, 2-step Zaps, AI power-ups, unlimited Zaps",
+        "paidPlans": [
+          {
+            "planName": "Professional",
+            "monthlyPrice": "$29.99",
+            "annualPrice": "Not specified",
+            "features": [
+              "Unlimited premium apps",
+              "Multi-step Zaps",
+              "Webhooks",
+              "Email/chat support",
+              "AI workflows"
+            ]
+          },
+          {
+            "planName": "Team",
+            "monthlyPrice": "$103.50",
+            "annualPrice": "Not specified",
+            "features": [
+              "Shared workspaces",
+              "Shared connections",
+              "SAML SSO",
+              "25 users",
+              "Advanced AI features"
+            ]
+          },
+          {
+            "planName": "Enterprise",
+            "monthlyPrice": "Custom",
+            "annualPrice": "Custom",
+            "features": [
+              "Advanced security",
+              "Dedicated support",
+              "Custom integrations",
+              "Enterprise AI agents"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 87,
+        "simplicity": 82,
+        "popularity": 98,
+        "costPerformance": 72,
+        "specialization": 97,
+        "productivityGain": 97,
+        "totalScore": 533
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://zapier.com/pricing",
+        "https://zapier.com/ai",
+        "https://electroiq.com/stats/zapier-statistics/",
+        "https://taptwicedigital.com/stats/zapier",
+        "https://www.g2.com/products/zapier/reviews"
+      ]
+    },
+    {
+      "rank": 3,
+      "toolName": "Grammarly",
+      "score": 530,
+      "totalScore": 530,
+      "starRating": "★★★",
+      "id": "AI015",
+      "category": "AI Writing Assistance",
+      "companyName": "Grammarly Inc.",
+      "officialUrl": "https://www.grammarly.com",
+      "pricing": {
+        "freePlan": "Basic grammar and spelling checks, tone detection, 100 AI prompts per month",
+        "paidPlans": [
+          {
+            "planName": "Pro",
+            "monthlyPrice": "$30",
+            "annualPrice": "$12/month ($144/year)",
+            "features": [
+              "2,000 monthly AI generative prompts",
+              "Advanced grammar and style fixes",
+              "Clarity suggestions",
+              "Tone adjustments",
+              "Plagiarism checker",
+              "Team features",
+              "Style guides",
+              "Brand tones"
+            ]
+          },
+          {
+            "planName": "Enterprise",
+            "monthlyPrice": "Custom pricing",
+            "annualPrice": "Custom pricing",
+            "features": [
+              "All Pro features",
+              "Unlimited AI prompts",
+              "Advanced security",
+              "User groups",
+              "Advanced access control",
+              "Team management tools"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 88,
+        "simplicity": 89,
+        "popularity": 88,
+        "costPerformance": 89,
+        "specialization": 88,
+        "productivityGain": 88,
+        "totalScore": 530
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://www.grammarly.com/plans",
+        "https://grammar.blackfriday/grammarly-statistics/",
+        "https://electroiq.com/stats/grammarly-ai-statistics/",
+        "https://techcrunch.com/2025/08/18/grammarly-gets-a-design-overhaul-multiple-ai-features/",
+        "https://nikolaroza.com/grammarly-statistics-facts-trends/"
+      ]
+    },
+    {
+      "rank": 4,
+      "toolName": "Descript",
+      "score": 528,
+      "totalScore": 528,
+      "starRating": "★★★",
+      "id": "AI083",
+      "category": "AI Video/Audio Editing",
+      "companyName": "Descript",
+      "officialUrl": "https://www.descript.com",
+      "pricing": {
+        "freePlan": "1 hour transcription/month, 720p video export, 5GB cloud storage",
+        "paidPlans": [
+          {
+            "planName": "Creator",
+            "monthlyPrice": "$15",
+            "annualPrice": "$12/month ($144/year)",
+            "features": [
+              "10 hours transcription/month",
+              "Remote recording",
+              "Unlimited 4K video exports",
+              "Overdub with 1,000-word vocabulary",
+              "Basic AI features"
+            ]
+          },
+          {
+            "planName": "Pro",
+            "monthlyPrice": "$30",
+            "annualPrice": "$24/month ($288/year)",
+            "features": [
+              "30 hours transcription/month",
+              "Unlimited Overdub vocabulary",
+              "1TB cloud storage",
+              "Unlimited AI Green Screen",
+              "AI Eye Contact",
+              "Studio Sound"
+            ]
+          },
+          {
+            "planName": "Education/Non-profit",
+            "monthlyPrice": "$5",
+            "annualPrice": "$5/month",
+            "features": [
+              "4 hours monthly transcription",
+              "Educational features",
+              "Non-profit pricing"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 83,
+        "simplicity": 88,
+        "popularity": 88,
+        "costPerformance": 78,
+        "specialization": 98,
+        "productivityGain": 93,
+        "totalScore": 528
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://www.descript.com/pricing",
+        "https://www.allaboutai.com/ai-reviews/descript-ai/",
+        "https://www.meetjamie.ai/blog/descript-pricing",
+        "https://tekpon.com/software/descript/pricing/",
+        "https://www.notta.ai/en/blog/descript-review"
+      ]
+    },
+    {
+      "rank": 5,
+      "toolName": "Jasper AI",
+      "score": 528,
+      "totalScore": 528,
+      "starRating": "★★★",
+      "id": "AI084",
+      "category": "AI Content Generation",
+      "companyName": "Jasper",
+      "officialUrl": "https://www.jasper.ai",
+      "pricing": {
+        "freePlan": "7-day free trial available",
+        "paidPlans": [
+          {
+            "planName": "Creator",
+            "monthlyPrice": "$49",
+            "annualPrice": "$39/month ($468/year)",
+            "features": [
+              "Unlimited words",
+              "One brand voice",
+              "50+ AI copy generators",
+              "User-friendly document editor",
+              "Chatbot assistance"
+            ]
+          },
+          {
+            "planName": "Pro",
+            "monthlyPrice": "$69",
+            "annualPrice": "$59/month ($708/year)",
+            "features": [
+              "All Creator features",
+              "One-click text improvement",
+              "Content repurposing",
+              "Copyscape integration",
+              "Team collaboration",
+              "Document sharing"
+            ]
+          },
+          {
+            "planName": "Business",
+            "monthlyPrice": "Custom pricing",
+            "annualPrice": "Custom pricing",
+            "features": [
+              "All Pro features",
+              "100% instance control",
+              "Single sign-on (SSO)",
+              "Complete data protection",
+              "Team training",
+              "Tech support"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 88,
+        "simplicity": 83,
+        "popularity": 98,
+        "costPerformance": 78,
+        "specialization": 93,
+        "productivityGain": 88,
+        "totalScore": 528
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://www.jasper.ai/pricing",
+        "https://electroiq.com/stats/jasper-ai-statistics/",
+        "https://www.g2.com/products/jasper-ai/reviews",
+        "https://sqmagazine.co.uk/jasper-ai-statistics/",
+        "https://cybernews.com/ai-tools/jasper-ai-review/"
+      ]
+    },
+    {
+      "rank": 6,
+      "toolName": "Writesonic",
+      "score": 528,
+      "totalScore": 528,
+      "starRating": "★★★",
+      "id": "AI086",
+      "category": "AI Content Generation",
+      "companyName": "Writesonic",
+      "officialUrl": "https://writesonic.com",
+      "pricing": {
+        "freePlan": "Sandbox access to core features (AI Writer, Chatsonic, SEO Agent)",
+        "paidPlans": [
+          {
+            "planName": "Lite",
+            "monthlyPrice": "$49",
+            "annualPrice": "$39/month (20% discount)",
+            "features": [
+              "Long-form content creation",
+              "Basic SEO optimization",
+              "Limited AI credits",
+              "Email support"
+            ]
+          },
+          {
+            "planName": "Professional",
+            "monthlyPrice": "Not specified",
+            "annualPrice": "Not specified (20% annual discount)",
+            "features": [
+              "AI Search Visibility (GEO)",
+              "Google Analytics integration",
+              "Search Console integration",
+              "Automatic SEO fixes",
+              "Advanced content optimization"
+            ]
+          },
+          {
+            "planName": "Advanced",
+            "monthlyPrice": "$499",
+            "annualPrice": "Not specified (20% annual discount)",
+            "features": [
+              "AI Platform Visibility",
+              "ChatGPT/Perplexity/Gemini monitoring",
+              "Google AI Overviews tracking",
+              "Sentiment Analysis",
+              "AI Search Volume insights"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 89,
+        "simplicity": 79,
+        "popularity": 93,
+        "costPerformance": 94,
+        "specialization": 89,
+        "productivityGain": 84,
+        "totalScore": 528
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://writesonic.com/pricing",
+        "https://searchatlas.com/blog/writesonic-review/",
+        "https://todaytesting.com/writesonic-pricing/",
+        "https://team-gpt.com/blog/writesonic-review/",
+        "https://writesonic.com/blog/ai-seo-tools"
+      ]
+    },
+    {
+      "rank": 7,
+      "toolName": "Loom AI",
+      "score": 515,
+      "totalScore": 515,
+      "starRating": "★★",
+      "id": "AI081",
+      "category": "AI Video Recording",
+      "companyName": "Loom",
+      "officialUrl": "https://www.loom.com",
+      "pricing": {
+        "freePlan": "5-minute recording limit, basic features",
+        "paidPlans": [
+          {
+            "planName": "Business",
+            "monthlyPrice": "$15",
+            "annualPrice": "$15/month",
+            "features": [
+              "Unlimited recording time",
+              "HD video quality",
+              "Custom branding",
+              "Team management",
+              "Analytics"
+            ]
+          },
+          {
+            "planName": "Business + AI",
+            "monthlyPrice": "$20",
+            "annualPrice": "$20/month",
+            "features": [
+              "All Business features",
+              "Auto-generated titles/summaries",
+              "Filler word removal",
+              "Silence removal",
+              "Transcript-based editing",
+              "Auto CTA",
+              "Auto Tasks",
+              "AI workflows"
+            ]
+          },
+          {
+            "planName": "Enterprise",
+            "monthlyPrice": "Custom",
+            "annualPrice": "Custom",
+            "features": [
+              "All AI features",
+              "Advanced security",
+              "SSO",
+              "Custom integrations",
+              "Dedicated support"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 90,
+        "popularity": 85,
+        "costPerformance": 70,
+        "specialization": 85,
+        "productivityGain": 95,
+        "totalScore": 515
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://www.loom.com/pricing",
+        "https://www.loom.com/ai",
+        "https://www.claap.io/blog/loom-pricing",
+        "https://techcrunch.com/2023/10/12/atlassian-to-acquire-former-unicorn-loom-for-975m/",
+        "https://support.loom.com/hc/en-us/articles/11331500832157-Loom-AI-features"
+      ]
+    },
+    {
+      "rank": 8,
+      "toolName": "Copy.ai",
+      "score": 505,
+      "totalScore": 505,
+      "starRating": "★★",
+      "id": "AI085",
+      "category": "AI Content Generation",
+      "companyName": "Copy.ai",
+      "officialUrl": "https://www.copy.ai",
+      "pricing": {
+        "freePlan": "2,000 words per month, 200 Workflow Credits",
+        "paidPlans": [
+          {
+            "planName": "Pro",
+            "monthlyPrice": "$49",
+            "annualPrice": "$36/month ($432/year)",
+            "features": [
+              "Unlimited AI content generation",
+              "Infobase feature",
+              "Brand voice consistency",
+              "90+ templates",
+              "25+ languages",
+              "Plagiarism checker"
+            ]
+          },
+          {
+            "planName": "Team",
+            "monthlyPrice": "$249",
+            "annualPrice": "$186/month ($2,232/year)",
+            "features": [
+              "All Pro features",
+              "Unlimited word generation",
+              "Priority support",
+              "Team collaboration",
+              "Advanced workflows"
+            ]
+          },
+          {
+            "planName": "Growth",
+            "monthlyPrice": "Custom",
+            "annualPrice": "Custom",
+            "features": [
+              "Up to 75 users",
+              "Advanced team features",
+              "Custom integrations"
+            ]
+          },
+          {
+            "planName": "Scale",
+            "monthlyPrice": "$4,000",
+            "annualPrice": "$36,000",
+            "features": [
+              "Enterprise-level features",
+              "Unlimited users",
+              "Custom solutions"
+            ]
+          }
+        ]
+      },
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 75,
+        "costPerformance": 80,
+        "specialization": 85,
+        "productivityGain": 90,
+        "totalScore": 505
+      },
+      "batchNumber": 4,
+      "toolRange": "25-32",
+      "sources": [
+        "https://www.copy.ai/prices",
+        "https://www.g2.com/products/copy-ai/reviews",
+        "https://www.capterra.com/p/236813/CopyAI/reviews/",
+        "https://reply.io/blog/copy-ai-review/",
+        "https://www.dimmo.ai/products/copy-ai"
+      ]
+    }
+  ]
+}

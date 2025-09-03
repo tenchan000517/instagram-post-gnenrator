@@ -1,0 +1,190 @@
+{
+  "rankingId": "AU015",
+  "rankingName": "コスパ最強AIツールTOP10",
+  "criteria": "costPerformance",
+  "totalCandidates": 65,
+  "displayCount": 10,
+  "generatedAt": "2025-08-31T15:06:41.004Z",
+  "rankings": [
+    {
+      "rank": 1,
+      "toolName": "Gemini",
+      "totalScore": 559,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "Google",
+      "description": "undefined...",
+      "criteriaScore": 99,
+      "evaluation": {
+        "immediacy": 94,
+        "simplicity": 99,
+        "popularity": 89,
+        "costPerformance": 99,
+        "specialization": 89,
+        "productivityGain": 89
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "Obsidian",
+      "totalScore": 473,
+      "starRating": "★★★★",
+      "category": "知識管理・ノート",
+      "developer": "Dynalist Inc",
+      "description": "undefined...",
+      "criteriaScore": 98,
+      "evaluation": {
+        "immediacy": 63,
+        "simplicity": 43,
+        "popularity": 83,
+        "costPerformance": 98,
+        "specialization": 98,
+        "productivityGain": 88
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "Genspark",
+      "totalScore": 543,
+      "starRating": "★★★★",
+      "category": "AI検索・リサーチ",
+      "developer": "Mainfunc Inc.",
+      "description": "undefined...",
+      "criteriaScore": 98,
+      "evaluation": {
+        "immediacy": 93,
+        "simplicity": 88,
+        "popularity": 83,
+        "costPerformance": 98,
+        "specialization": 93,
+        "productivityGain": 88
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "Bing AI (Microsoft Copilot)",
+      "totalScore": 505,
+      "starRating": "★★★★",
+      "category": "AI検索・統合アシスタント",
+      "developer": "Microsoft Corporation",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 85,
+        "simplicity": 90,
+        "popularity": 80,
+        "costPerformance": 95,
+        "specialization": 70,
+        "productivityGain": 85
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Codeium",
+      "totalScore": 505,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Exafunction Inc.",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 85,
+        "simplicity": 92,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 75,
+        "productivityGain": 80
+      }
+    },
+    {
+      "rank": 6,
+      "toolName": "Rev AI",
+      "totalScore": 505,
+      "starRating": "★★★★",
+      "category": "転写・字幕",
+      "developer": "Rev AI",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 85,
+        "simplicity": 82,
+        "popularity": 78,
+        "costPerformance": 95,
+        "specialization": 80,
+        "productivityGain": 85
+      }
+    },
+    {
+      "rank": 7,
+      "toolName": "Stable Diffusion",
+      "totalScore": 485,
+      "starRating": "★★★★",
+      "category": "Open Source AI Image Generation",
+      "developer": "Stability AI",
+      "description": "Leading open-source AI image generation model with extensive customization options...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 75,
+        "simplicity": 60,
+        "popularity": 85,
+        "costPerformance": 95,
+        "specialization": 90,
+        "productivityGain": 80
+      }
+    },
+    {
+      "rank": 8,
+      "toolName": "Fish Audio",
+      "totalScore": 545,
+      "starRating": "★★★★",
+      "category": "音声生成・処理",
+      "developer": "Hanabi AI Inc. (OpenAudio)",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 90,
+        "costPerformance": 95,
+        "specialization": 95,
+        "productivityGain": 90
+      }
+    },
+    {
+      "rank": 9,
+      "toolName": "n8n",
+      "totalScore": 465,
+      "starRating": "★★★★",
+      "category": "ワークフロー自動化",
+      "developer": "n8n GmbH",
+      "description": "undefined...",
+      "criteriaScore": 95,
+      "evaluation": {
+        "immediacy": 70,
+        "simplicity": 50,
+        "popularity": 65,
+        "costPerformance": 95,
+        "specialization": 95,
+        "productivityGain": 90
+      }
+    },
+    {
+      "rank": 10,
+      "toolName": "Claude Code",
+      "totalScore": 524,
+      "starRating": "★★★★",
+      "category": "開発支援・コーディング",
+      "developer": "Anthropic",
+      "description": "undefined...",
+      "criteriaScore": 94,
+      "evaluation": {
+        "immediacy": 84,
+        "simplicity": 74,
+        "popularity": 72,
+        "costPerformance": 94,
+        "specialization": 100,
+        "productivityGain": 100
+      }
+    }
+  ]
+}

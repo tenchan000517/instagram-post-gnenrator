@@ -1,0 +1,153 @@
+{
+  "patternId": "JS039",
+  "patternName": "IT業界年収TOP10",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "industry": "IT業界"
+  },
+  "generatedAt": "2025-08-29T14:00:00.000Z",
+  "totalMatched": 10,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "グーグル合同会社",
+      "industry": "外資系IT業界",
+      "score": 16240000,
+      "metrics": {
+        "salary": 16240000,
+        "initialSalary": 700000,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": 100,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 2,
+      "companyName": "プリファード・ネットワークス",
+      "industry": "AI・テック業界",
+      "score": 13800000,
+      "metrics": {
+        "salary": 13800000,
+        "initialSalary": 600000,
+        "holidays": 125,
+        "overtime": 15,
+        "vacationRate": 90,
+        "turnoverRate3Years": 3.5
+      }
+    },
+    {
+      "rank": 3,
+      "companyName": "日本マイクロソフト株式会社",
+      "industry": "外資系IT業界",
+      "score": 13030000,
+      "metrics": {
+        "salary": 13030000,
+        "initialSalary": 620000,
+        "holidays": null,
+        "overtime": 32.3,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 4,
+      "companyName": "株式会社セールスフォース・ジャパン",
+      "industry": "外資系IT業界",
+      "score": 12155000,
+      "metrics": {
+        "salary": 12155000,
+        "initialSalary": 450000,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 5,
+      "companyName": "メルカリ",
+      "industry": "EC・フィンテック",
+      "score": 11670000,
+      "metrics": {
+        "salary": 11670000,
+        "initialSalary": 300000,
+        "holidays": null,
+        "overtime": 16.1,
+        "vacationRate": 88.9,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 6,
+      "companyName": "アマゾンジャパン合同会社",
+      "industry": "外資系IT・EC業界",
+      "score": 11500000,
+      "metrics": {
+        "salary": 11500000,
+        "initialSalary": 354584,
+        "holidays": 120,
+        "overtime": 23.1,
+        "vacationRate": 73.4,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 7,
+      "companyName": "富士通",
+      "industry": "総合電機メーカー兼総合ITベンダー",
+      "score": 9650000,
+      "metrics": {
+        "salary": 9650000,
+        "initialSalary": null,
+        "holidays": 125,
+        "overtime": 29.5,
+        "vacationRate": 79.7,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 8,
+      "companyName": "NTTデータ",
+      "industry": "システムインテグレーション業",
+      "score": 9060000,
+      "metrics": {
+        "salary": 9060000,
+        "initialSalary": 262790,
+        "holidays": 123,
+        "overtime": 24.7,
+        "vacationRate": 65.5,
+        "turnoverRate3Years": 3
+      }
+    },
+    {
+      "rank": 9,
+      "companyName": "LINEヤフー",
+      "industry": "インターネット・IT・通信",
+      "score": 8840000,
+      "metrics": {
+        "salary": 8840000,
+        "initialSalary": 280000,
+        "holidays": 120,
+        "overtime": 16,
+        "vacationRate": 75.1,
+        "turnoverRate3Years": 6.9
+      }
+    },
+    {
+      "rank": 10,
+      "companyName": "サイバーエージェント",
+      "industry": "インターネット広告業・メディア業・ゲーム業",
+      "score": 8820000,
+      "metrics": {
+        "salary": 8820000,
+        "initialSalary": 420000,
+        "holidays": null,
+        "overtime": 13.3,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    }
+  ]
+}

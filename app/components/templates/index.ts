@@ -55,6 +55,38 @@ export { EnhancedCompanyDetailTemplate } from './unified/EnhancedCompanyDetailTe
 export { ResourceSummaryTemplate } from './unified/ResourceSummaryTemplate'
 export { StepByStepTemplate } from './unified/StepByStepTemplate'
 
+// TEN専用テンプレート群
+export { 
+  default as TenIntroTemplate, 
+  tenIntroMetadata 
+} from './unified/TenIntroTemplate'
+
+export { 
+  default as ToolShowcaseTemplate, 
+  toolShowcaseMetadata 
+} from './unified/ToolShowcaseTemplate'
+
+export { 
+  default as EnhancedToolDetailTemplate, 
+  enhancedToolDetailMetadata 
+} from './unified/EnhancedToolDetailTemplate'
+
+export { 
+  default as TenSummaryTemplate, 
+  tenSummaryMetadata 
+} from './unified/TenSummaryTemplate'
+
+// KIKUYO専用テンプレート群
+export { 
+  default as KikuyoIntroTemplate, 
+  kikuyoIntroMetadata 
+} from './unified/KikuyoIntroTemplate'
+
+export { 
+  default as KikuyoSummaryTemplate, 
+  kikuyoSummaryMetadata 
+} from './unified/KikuyoSummaryTemplate'
+
 // 新しいK004テスト用テンプレート
 export { ProblemIntroductionTemplate } from './ProblemIntroductionTemplate'
 export { MethodDetailCardTemplate } from './MethodDetailCardTemplate'
@@ -162,6 +194,16 @@ import { EnhancedCompanyDetailTemplate } from './unified/EnhancedCompanyDetailTe
 import { ResourceSummaryTemplate } from './unified/ResourceSummaryTemplate'
 import { StepByStepTemplate } from './unified/StepByStepTemplate'
 
+// TEN専用テンプレートのインポート
+import TenIntroTemplate from './unified/TenIntroTemplate'
+import ToolShowcaseTemplate from './unified/ToolShowcaseTemplate'
+import EnhancedToolDetailTemplate from './unified/EnhancedToolDetailTemplate'
+import TenSummaryTemplate from './unified/TenSummaryTemplate'
+
+// KIKUYO専用テンプレートのインポート
+import KikuyoIntroTemplate from './unified/KikuyoIntroTemplate'
+import KikuyoSummaryTemplate from './unified/KikuyoSummaryTemplate'
+
 import { TemplateType } from './TemplateTypes'
 
 export const templateComponents = {
@@ -234,7 +276,15 @@ export const templateComponents = {
   'empathy': EmpathyTemplate,
   'enhanced_company_detail': EnhancedCompanyDetailTemplate,
   'resource_summary': ResourceSummaryTemplate,
-  'step_by_step': StepByStepTemplate
+  'step_by_step': StepByStepTemplate,
+  // TEN専用テンプレート
+  'ten_intro': TenIntroTemplate,
+  'tool_showcase': ToolShowcaseTemplate,
+  'enhanced_tool_detail': EnhancedToolDetailTemplate,
+  'ten_summary': TenSummaryTemplate,
+  // KIKUYO専用テンプレート
+  'kikuyo_intro': KikuyoIntroTemplate,
+  'kikuyo_summary': KikuyoSummaryTemplate
 } as const
 
 // テンプレートレンダラー

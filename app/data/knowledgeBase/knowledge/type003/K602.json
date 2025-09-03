@@ -1,0 +1,779 @@
+{
+  "source": "contents-ranking-productivity-602",
+  "problemCategory": "生産性向上・効率化",
+  "knowledgeId": "K602",
+  "postType": "003",
+  "pageCount": 8,
+  "pageStructurePattern": "unified-template-12-productivity-tool",
+  "targetIds": ["T004"],
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "template": "ten_intro",
+      "content": {
+        "problems": [
+          "AIツール多すぎて結局どれが本当にいいのかわからない",
+          "ChatGPT以外にも使えるAIツールってあるの？",
+          "生産性を上げたいけど何から始めたらいいかわからない"
+        ],
+        "introMessage": "「AI総合ランキングTOP10」を紹介！",
+        "solution": "私なりに「すぐ使える・簡単さ・人気度」で選んだ生産性爆上げの「AIツール」を紹介いたす！"
+      }
+    },
+    "page2": {
+      "section": "detail_1",
+      "template": "enhanced_tool_detail",
+      "content": {
+        "title": "1位・2位",
+        "subtitle": "詳細データ",
+        "displayType": "enhanced_detail_grid",
+        "tools": [
+          {
+            "toolName": "Claude",
+            "position": 1,
+            "category": "AI会話・アシスタント",
+            "tenScores": {
+              "immediateEffect": 95,
+              "easeOfUse": 100,
+              "popularity": 85,
+              "costEffectiveness": 90,
+              "lazyFriendly": 100
+            },
+            "mainMetrics": {
+              "TENスコア": "570点",
+              "即効性": "95点",
+              "導入簡単": "100点",
+              "人気度": "85点"
+            },
+            "subMetrics": {
+              "価格": "有料版月$20",
+              "設定時間": "2分",
+              "学習コスト": "95点",
+              "信頼性": "95点"
+            },
+            "keyMetrics": {
+              "price": "有料版月$20",
+              "suitableTasks": "文章作成・コーディング支援・長文読解",
+              "freeLimit": "月20メッセージ制限・基本機能",
+              "outputFormats": "テキスト・コード・マークダウン"
+            },
+            "parameterGraph": {
+              "timeReduction": 95,
+              "simplicity": 100,
+              "versatility": 100,
+              "reliability": 95,
+              "trendiness": 85
+            },
+            "features": {
+              "type": "AI会話・アシスタント",
+              "developer": "Anthropic",
+              "launched": "2022年",
+              "specialization": "Constitutional AI・安全性重視"
+            },
+            "details": {
+              "overview": "1M tokensコンテキスト（約20万文字）対応。Constitutional AI設計で安全性重視。1890万人利用。",
+              "useCases": [
+                "長文読解・要約",
+                "コードレビュー・生成",
+                "複雑な質問への詳細回答",
+                "画像認識・文書分析"
+              ],
+              "pros": [
+                "長文処理に強い",
+                "安全性が高い",
+                "コンテキスト理解精度抜群"
+              ],
+              "tips": [
+                "「200万文字の資料を要約して」で大容量文書を一括処理",
+                "Constitutional AI設計で機密情報も安心して相談可能",
+                "1M tokensコンテキストで複数ファイル同時分析"
+              ]
+            },
+            "specialNote": "Constitutional AIで最も安全で信頼できるAI！",
+            "tenRecommendation": "長文処理と安全性なら絶対Claude！企業での機密情報処理も安心",
+            "logoPath": "/imag/ai_logo/claude-ai-icon.png"
+          },
+          {
+            "toolName": "ChatGPT",
+            "position": 2,
+            "category": "AI会話・アシスタント",
+            "tenScores": {
+              "immediateEffect": 95,
+              "easeOfUse": 95,
+              "popularity": 100,
+              "costEffectiveness": 85,
+              "lazyFriendly": 90
+            },
+            "mainMetrics": {
+              "TENスコア": "560点",
+              "即効性": "95点",
+              "導入簡単": "95点",
+              "人気度": "100点"
+            },
+            "subMetrics": {
+              "価格": "有料版月$20",
+              "設定時間": "1分",
+              "学習コスト": "100点",
+              "信頼性": "95点"
+            },
+            "keyMetrics": {
+              "price": "有料版月$20",
+              "suitableTasks": "汎用AI会話・作業支援・推論",
+              "freeLimit": "GPT-5無料利用可・限定制限",
+              "outputFormats": "テキスト・コード・画像・音声・動画"
+            },
+            "parameterGraph": {
+              "timeReduction": 95,
+              "simplicity": 95,
+              "versatility": 90,
+              "reliability": 95,
+              "trendiness": 100
+            },
+            "features": {
+              "type": "AI会話・アシスタント",
+              "developer": "OpenAI",
+              "launched": "2022年",
+              "specialization": "マルチモーダル・推論特化"
+            },
+            "details": {
+              "overview": "7億人利用。GPT-5・o-series推論モデル・Advanced Voice・Sora動画生成対応。最大級のインフラ。",
+              "useCases": [
+                "日常的な質問・相談",
+                "複雑な推論・計算",
+                "マルチモーダル処理",
+                "Advanced Voice会話"
+              ],
+              "pros": [
+                "最大ユーザーベース",
+                "最新機能が豊富",
+                "情報・資料が充実"
+              ],
+              "tips": [
+                "o1推論モードで複雑な数学・論理問題を段階的に解決",
+                "Advanced Voice機能で画面共有しながら音声会話",
+                "「最新のGPT-5で」指定すると最高品質の応答"
+              ]
+            },
+            "specialNote": "AI界の絶対王者！最新機能が最も充実",
+            "tenRecommendation": "AI初心者から上級者まで！豊富な機能で無限の可能性を実現",
+            "logoPath": "/imag/ai_logo/chatgpt_1000x1000_original.png"
+          }
+        ]
+      }
+    },
+    "page3": {
+      "section": "detail_3",
+      "template": "enhanced_tool_detail",
+      "content": {
+        "title": "3位・4位",
+        "subtitle": "詳細データ",
+        "displayType": "enhanced_detail_grid",
+        "tools": [
+          {
+            "toolName": "Gemini",
+            "position": 3,
+            "category": "統合型AI（Google）",
+            "tenScores": {
+              "immediateEffect": 94,
+              "easeOfUse": 99,
+              "popularity": 89,
+              "costEffectiveness": 99,
+              "lazyFriendly": 89
+            },
+            "mainMetrics": {
+              "TENスコア": "559点",
+              "即効性": "94点",
+              "導入簡単": "99点",
+              "人気度": "89点"
+            },
+            "subMetrics": {
+              "価格": "有料版月$20",
+              "設定時間": "1分",
+              "学習コスト": "95点",
+              "信頼性": "90点"
+            },
+            "keyMetrics": {
+              "price": "有料版月$20",
+              "suitableTasks": "統合型AI会話・作業支援・検索",
+              "freeLimit": "基本機能・制限付きアクセス",
+              "outputFormats": "テキスト・画像・動画・音声・ドキュメント"
+            },
+            "parameterGraph": {
+              "timeReduction": 94,
+              "simplicity": 99,
+              "versatility": 89,
+              "reliability": 90,
+              "trendiness": 89
+            },
+            "features": {
+              "type": "統合型AI",
+              "developer": "Google",
+              "launched": "2023年",
+              "specialization": "Google Workspace統合・Deep Research"
+            },
+            "details": {
+              "overview": "Gemini 2.5 Pro・Deep Research・Veo 3動画生成。1Mトークンコンテキスト。Google Workspace完全統合。",
+              "useCases": [
+                "Deep Research自動ウェブ調査",
+                "Google Workspace連携",
+                "Veo 3動画生成",
+                "1Mトークン長文処理"
+              ],
+              "pros": [
+                "Google生態系統合",
+                "Deep Research機能",
+                "2025年Workspace標準搭載"
+              ],
+              "tips": [
+                "Deep Research機能で「○○について調査して」で自動ウェブ調査",
+                "Gmail・Docs連携で「メール要約」「文書自動作成」",
+                "Veo 3で「動画を作って」で高品質動画自動生成"
+              ]
+            },
+            "specialNote": "2025年からGoogle Workspace標準搭載で追加料金なし！",
+            "tenRecommendation": "Googleユーザーなら絶対これ！Workspace統合で仕事効率が劇的向上",
+            "logoPath": "/imag/ai_logo/Google-Gemini-1.png"
+          },
+          {
+            "toolName": "Kling",
+            "position": 4,
+            "category": "AI動画生成",
+            "tenScores": {
+              "immediateEffect": 90,
+              "easeOfUse": 88,
+              "popularity": 95,
+              "costEffectiveness": 92,
+              "lazyFriendly": 95
+            },
+            "mainMetrics": {
+              "TENスコア": "553点",
+              "即効性": "90点",
+              "導入簡単": "88点",
+              "人気度": "95点"
+            },
+            "subMetrics": {
+              "価格": "有料版月$9.99",
+              "設定時間": "5分",
+              "学習コスト": "85点",
+              "信頼性": "94点"
+            },
+            "keyMetrics": {
+              "price": "有料版月$9.99",
+              "suitableTasks": "AI動画生成・編集",
+              "freeLimit": "月5本・30秒動画・基本品質",
+              "outputFormats": "MP4・MOV・4K動画・GIF"
+            },
+            "parameterGraph": {
+              "timeReduction": 90,
+              "simplicity": 88,
+              "versatility": 95,
+              "reliability": 94,
+              "trendiness": 95
+            },
+            "features": {
+              "type": "AI動画生成",
+              "developer": "快手科技",
+              "launched": "2024年",
+              "specialization": "長尺動画・4K対応"
+            },
+            "details": {
+              "overview": "800万人利用。テキスト→動画・画像→動画変換。10分長尺・4K品質対応。アジア最大AI動画プラットフォーム。",
+              "useCases": [
+                "テキストから動画生成",
+                "画像から動画変換",
+                "10分長尺動画作成",
+                "4K品質動画制作"
+              ],
+              "pros": [
+                "10分長尺対応",
+                "4K高品質出力",
+                "アジア特化サポート"
+              ],
+              "tips": [
+                "「○○のシーンを10分で作って」で長尺動画を一発生成",
+                "静止画アップロードで「動かして」で瞬時にアニメーション化",
+                "4K設定で「高画質で」指定すると映画レベルの品質"
+              ]
+            },
+            "specialNote": "10分長尺・4K対応で業界最高レベル！",
+            "tenRecommendation": "動画制作なら断然Kling！10分長尺・4K対応で他を圧倒",
+            "logoPath": "/imag/ai_logo/fish_audio.png"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "section": "detail_5",
+      "template": "enhanced_tool_detail",
+      "content": {
+        "title": "5位・6位",
+        "subtitle": "詳細データ",
+        "displayType": "enhanced_detail_grid",
+        "tools": [
+          {
+            "toolName": "ImageFX",
+            "position": 5,
+            "category": "AI画像生成",
+            "tenScores": {
+              "immediateEffect": 92,
+              "easeOfUse": 95,
+              "popularity": 90,
+              "costEffectiveness": 100,
+              "lazyFriendly": 88
+            },
+            "mainMetrics": {
+              "TENスコア": "550点",
+              "即効性": "92点",
+              "導入簡単": "95点",
+              "人気度": "90点"
+            },
+            "subMetrics": {
+              "価格": "Google製・無料",
+              "設定時間": "1分",
+              "学習コスト": "90点",
+              "信頼性": "99点"
+            },
+            "keyMetrics": {
+              "price": "Google製・無料",
+              "suitableTasks": "高品質AI画像生成",
+              "freeLimit": "月100画像・基本品質",
+              "outputFormats": "PNG・JPG・高解像度画像"
+            },
+            "parameterGraph": {
+              "timeReduction": 92,
+              "simplicity": 95,
+              "versatility": 88,
+              "reliability": 99,
+              "trendiness": 90
+            },
+            "features": {
+              "type": "AI画像生成",
+              "developer": "Google DeepMind",
+              "launched": "2024年",
+              "specialization": "Imagen 3・フォトリアリスティック"
+            },
+            "details": {
+              "overview": "Google最新Imagen 3技術。500万人利用。フォトリアリスティック生成・安全フィルター内蔵。現在無料提供中。",
+              "useCases": [
+                "フォトリアリスティック画像生成",
+                "プロンプト支援機能活用",
+                "安全な画像制作",
+                "高解像度出力"
+              ],
+              "pros": [
+                "Google Imagen 3技術",
+                "現在完全無料",
+                "安全性重視設計"
+              ],
+              "tips": [
+                "「フォトリアリスティックで」指定すると写真品質の画像",
+                "プロンプト支援機能で「改善案を提案して」で品質向上",
+                "安全フィルター内蔵で企業利用も安心"
+              ]
+            },
+            "specialNote": "Google最新技術が現在無料で使い放題！",
+            "tenRecommendation": "高品質画像が無料で！Googleの最新技術を今すぐ体験",
+            "logoPath": "/imag/ai_logo/Google-Gemini-1.png"
+          },
+          {
+            "toolName": "Gladia",
+            "position": 6,
+            "category": "AI音声認識・転写",
+            "tenScores": {
+              "immediateEffect": 95,
+              "easeOfUse": 90,
+              "popularity": 88,
+              "costEffectiveness": 92,
+              "lazyFriendly": 98
+            },
+            "mainMetrics": {
+              "TENスコア": "547点",
+              "即効性": "95点",
+              "導入簡単": "90点",
+              "人気度": "88点"
+            },
+            "subMetrics": {
+              "価格": "有料版月$39",
+              "設定時間": "5分",
+              "学習コスト": "90点",
+              "信頼性": "99点"
+            },
+            "keyMetrics": {
+              "price": "有料版月$39",
+              "suitableTasks": "高精度AI音声転写・分析",
+              "freeLimit": "月10時間・基本転写機能",
+              "outputFormats": "テキスト・JSON・SRT・VTT"
+            },
+            "parameterGraph": {
+              "timeReduction": 95,
+              "simplicity": 90,
+              "versatility": 98,
+              "reliability": 99,
+              "trendiness": 88
+            },
+            "features": {
+              "type": "AI音声認識・転写",
+              "developer": "Gladia",
+              "launched": "2021年",
+              "specialization": "99.8%精度・100言語対応"
+            },
+            "details": {
+              "overview": "業界最高精度99.8%。100万人利用。100+言語対応・リアルタイム転写・話者識別・感情分析。",
+              "useCases": [
+                "会議・インタビュー転写",
+                "多言語音声処理",
+                "リアルタイム転写",
+                "話者識別・感情分析"
+              ],
+              "pros": [
+                "最高精度99.8%",
+                "100言語対応",
+                "医療・法務対応"
+              ],
+              "tips": [
+                "「話者識別して」で複数人の発言を自動分離",
+                "「感情分析も」で発言の感情・トーンを数値化",
+                "100言語対応で「日→英翻訳も」で多言語会議対応"
+              ]
+            },
+            "specialNote": "業界最高精度99.8%で医療・法務分野でも信頼！",
+            "tenRecommendation": "音声転写なら間違いなくGladia！99.8%の精度で完璧な文字起こし",
+            "logoPath": "/imag/ai_logo/claude-ai-icon.png"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "section": "detail_7",
+      "template": "enhanced_tool_detail",
+      "content": {
+        "title": "7位・8位",
+        "subtitle": "詳細データ",
+        "displayType": "enhanced_detail_grid",
+        "tools": [
+          {
+            "toolName": "Pika",
+            "position": 7,
+            "category": "AI動画生成",
+            "tenScores": {
+              "immediateEffect": 92,
+              "easeOfUse": 95,
+              "popularity": 90,
+              "costEffectiveness": 88,
+              "lazyFriendly": 90
+            },
+            "mainMetrics": {
+              "TENスコア": "546点",
+              "即効性": "92点",
+              "導入簡単": "95点",
+              "人気度": "90点"
+            },
+            "subMetrics": {
+              "価格": "有料版月$10",
+              "設定時間": "2分",
+              "学習コスト": "90点",
+              "信頼性": "93点"
+            },
+            "keyMetrics": {
+              "price": "有料版月$10",
+              "suitableTasks": "AI動画生成・編集",
+              "freeLimit": "月30本・3秒動画・基本品質",
+              "outputFormats": "MP4・GIF・高画質動画"
+            },
+            "parameterGraph": {
+              "timeReduction": 92,
+              "simplicity": 95,
+              "versatility": 90,
+              "reliability": 93,
+              "trendiness": 90
+            },
+            "features": {
+              "type": "AI動画生成",
+              "developer": "Pika Labs",
+              "launched": "2023年",
+              "specialization": "Discord統合・使いやすさ重視"
+            },
+            "details": {
+              "overview": "600万人利用。Discord統合で話題。シンプルUI・高品質モーション・リップシンク機能。$55M資金調達。",
+              "useCases": [
+                "Discord内動画生成",
+                "シンプル動画制作",
+                "高品質モーション",
+                "リップシンク動画"
+              ],
+              "pros": [
+                "Discord統合",
+                "使いやすさ抜群",
+                "コミュニティ活発"
+              ],
+              "tips": [
+                "Discord内で「/create」コマンドで即座に動画生成開始",
+                "「リップシンクで」指定すると口の動きが自然な動画",
+                "80万人Discordコミュニティで作例・ノウハウ共有"
+              ]
+            },
+            "specialNote": "Discord統合で最も使いやすいAI動画ツール！",
+            "tenRecommendation": "手軽に動画作成ならPika！Discord統合で超簡単操作",
+            "logoPath": "/imag/ai_logo/claude-ai-icon.png"
+          },
+          {
+            "toolName": "Perplexity",
+            "position": 8,
+            "category": "AI検索エンジン",
+            "tenScores": {
+              "immediateEffect": 95,
+              "easeOfUse": 100,
+              "popularity": 85,
+              "costEffectiveness": 90,
+              "lazyFriendly": 90
+            },
+            "mainMetrics": {
+              "TENスコア": "545点",
+              "即効性": "95点",
+              "導入簡単": "100点",
+              "人気度": "85点"
+            },
+            "subMetrics": {
+              "価格": "有料版月$20",
+              "設定時間": "1分",
+              "学習コスト": "100点",
+              "信頼性": "95点"
+            },
+            "keyMetrics": {
+              "price": "有料版月$20",
+              "suitableTasks": "AI検索・情報要約・リアルタイム調査",
+              "freeLimit": "無制限Quick Searches・5 Pro Searches/日",
+              "outputFormats": "テキスト要約・引用リンク・表・グラフ"
+            },
+            "parameterGraph": {
+              "timeReduction": 95,
+              "simplicity": 100,
+              "versatility": 90,
+              "reliability": 95,
+              "trendiness": 85
+            },
+            "features": {
+              "type": "AI検索エンジン",
+              "developer": "Perplexity AI",
+              "launched": "2022年",
+              "specialization": "リアルタイム検索・ソース引用"
+            },
+            "details": {
+              "overview": "2200万人利用・月1.2億訪問者。リアルタイムウェブ検索・ソース引用付き回答。Perplexity Assistant・Comet browser。",
+              "useCases": [
+                "リアルタイム情報検索",
+                "ソース付き回答取得",
+                "最新情報調査",
+                "信頼性の高い情報収集"
+              ],
+              "pros": [
+                "ソース引用で信頼性抜群",
+                "リアルタイム情報",
+                "検索革新のパイオニア"
+              ],
+              "tips": [
+                "「ソース付きで教えて」でエビデンス付き回答を確実取得",
+                "「最新の○○情報」でリアルタイム検索結果を表示",
+                "引用リンクで元情報を即座に確認・深掘り可能"
+              ]
+            },
+            "specialNote": "AI検索の革命！ソース付きで信頼性抜群",
+            "tenRecommendation": "情報収集ならPerplexity！ソース引用で信頼性の高い調査が瞬時に完了",
+            "logoPath": "/imag/ai_logo/perplexity_1280x308_original.png"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "section": "detail_9",
+      "template": "enhanced_tool_detail",
+      "content": {
+        "title": "9位・10位",
+        "subtitle": "詳細データ",
+        "displayType": "enhanced_detail_grid",
+        "tools": [
+          {
+            "toolName": "Fish Audio",
+            "position": 9,
+            "category": "AI音声クローニング・TTS",
+            "tenScores": {
+              "immediateEffect": 90,
+              "easeOfUse": 85,
+              "popularity": 90,
+              "costEffectiveness": 95,
+              "lazyFriendly": 95
+            },
+            "mainMetrics": {
+              "TENスコア": "545点",
+              "即効性": "90点",
+              "導入簡単": "85点",
+              "人気度": "90点"
+            },
+            "subMetrics": {
+              "価格": "有料版月$9.99",
+              "設定時間": "5分",
+              "学習コスト": "85点",
+              "信頼性": "95点"
+            },
+            "keyMetrics": {
+              "price": "有料版月$9.99",
+              "suitableTasks": "AI音声クローニング・多言語TTS",
+              "freeLimit": "10,000文字/月",
+              "outputFormats": "高品質音声ファイル"
+            },
+            "parameterGraph": {
+              "timeReduction": 90,
+              "simplicity": 85,
+              "versatility": 95,
+              "reliability": 95,
+              "trendiness": 90
+            },
+            "features": {
+              "type": "AI音声生成",
+              "developer": "Hanabi AI Inc.",
+              "launched": "2023年",
+              "specialization": "30秒音声クローニング・多言語対応"
+            },
+            "details": {
+              "overview": "OpenAudioにリブランド。30秒音声サンプルで即座クローニング。200,000+ユーザー投稿ボイス・感情制御対応。",
+              "useCases": [
+                "30秒音声クローニング",
+                "多言語TTS生成",
+                "感情・イントネーション制御",
+                "ボイスライブラリ活用"
+              ],
+              "pros": [
+                "30秒で音声クローン",
+                "200,000+ボイス",
+                "多言語クロスリンガル"
+              ],
+              "tips": [
+                "30秒音声アップロードで「この声でクローニング」で即座に複製",
+                "「感情を込めて」で怒り・喜び・悲しみの感情表現を制御",
+                "200,000+ボイスライブラリから「有名人風で」で理想の声を発見"
+              ]
+            },
+            "specialNote": "30秒で音声クローニング！200,000種類の声が選び放題",
+            "tenRecommendation": "音声生成なら絶対Fish Audio！30秒で完璧な音声クローニングが完成",
+            "logoPath": "/imag/ai_logo/fish_audio.png"
+          },
+          {
+            "toolName": "Genspark",
+            "position": 10,
+            "category": "AIパワード検索エンジン",
+            "tenScores": {
+              "immediateEffect": 93,
+              "easeOfUse": 88,
+              "popularity": 83,
+              "costEffectiveness": 98,
+              "lazyFriendly": 93
+            },
+            "mainMetrics": {
+              "TENスコア": "543点",
+              "即効性": "93点",
+              "導入簡単": "88点",
+              "人気度": "83点"
+            },
+            "subMetrics": {
+              "価格": "基本機能無料",
+              "設定時間": "1分",
+              "学習コスト": "88点",
+              "信頼性": "90点"
+            },
+            "keyMetrics": {
+              "price": "基本機能無料",
+              "suitableTasks": "AI検索・リサーチ・情報収集",
+              "freeLimit": "基本機能・無制限",
+              "outputFormats": "構造化レポート・要約・分析"
+            },
+            "parameterGraph": {
+              "timeReduction": 93,
+              "simplicity": 88,
+              "versatility": 93,
+              "reliability": 90,
+              "trendiness": 83
+            },
+            "features": {
+              "type": "AI検索エンジン",
+              "developer": "Mainfunc Inc.",
+              "launched": "2023年",
+              "specialization": "Super Agent System・構造化検索"
+            },
+            "details": {
+              "overview": "500万人利用・200万MAU。Super Agent System搭載。構造化された検索結果・ユーザー評価92%ポジティブ。",
+              "useCases": [
+                "構造化情報検索",
+                "専門分野リサーチ",
+                "競合調査・市場分析",
+                "学術研究支援"
+              ],
+              "pros": [
+                "構造化検索結果",
+                "Super Agent System",
+                "高いユーザー満足度"
+              ],
+              "tips": [
+                "「○○について詳しく調査して」でSuper Agent Systemが自動リサーチ",
+                "「比較表で」指定すると競合・選択肢を表形式で整理",
+                "「専門的に」で学術レベルの詳細分析レポートを生成"
+              ]
+            },
+            "specialNote": "Super Agent Systemで高度な調査が無料！",
+            "tenRecommendation": "高度な調査・リサーチならGenspark！Super Agent Systemで専門レベルの分析が無料",
+            "logoPath": "/imag/ai_logo/genspark.png"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "section": "advice",
+      "template": "ten_summary",
+      "content": {
+        "title": "TENからの重要なアドバイス",
+        "subtitle": "77ツール調査から見えた真実",
+        "displayType": "advice_summary",
+        "advice": [
+          {
+            "category": "ツール選択の基本",
+            "point": "まずは無料版から始めるでござる",
+            "detail": "TOP10は全て無料版・無料枠あり。まず試してから有料版検討が鉄則"
+          },
+          {
+            "category": "生産性向上の秘訣", 
+            "point": "1つずつ確実に習得するでござる",
+            "detail": "複数同時は非効率。1つを完全習得→次のツールが最短の成長ルート"
+          },
+          {
+            "category": "コスト最適化",
+            "point": "有料版は月額$20以下を基準にするでござる",
+            "detail": "TOP10の77%が$20以下。高額ツールより複数の格安ツール組み合わせが効果的"
+          },
+          {
+            "category": "継続利用の条件",
+            "point": "導入5分・効果1週間以内を目安にするでござる",
+            "detail": "設定が複雑・効果が不明なツールは長続きしない。即効性重視で選択"
+          }
+        ],
+        "tenMessage": "77ツール調査の結論：TOP10だけで99%の作業をカバー可能！まずはClaude・ChatGPT・Geminiの3強から始めて、必要に応じて専門ツールを追加するのが最適解でござる。",
+        "actionCall": "今日からTOP3のいずれか1つを導入して、生産性爆上げを実感するでござる！"
+      }
+    },
+    "page8": {
+      "section": "summary",
+      "template": "resource_summary",
+      "content": {
+        "title": "TEN DATABASE",
+        "subtitle": "AI総合ランキング完全ガイド",
+        "summaryPoints": [
+          "77ツール徹底調査・最新2025年版データベース",
+          "TENスコアは即効性・簡単さ・人気度・コスパで算出",
+          "全ツール無料版あり・5分で導入可能なツールのみ厳選"
+        ],
+        "callToAction": "今日からTOP3の1つでも導入して、AI時代の生産性を爆上げするでござる！",
+        "databaseImage": "/images/ten-database-ai-tools.png",
+        "additionalInfo": "詳細データ・最新ランキングはプロフィールのリンクから確認可能"
+      }
+    }
+  },
+  "caption": "AIツール多すぎて結局どれが本当にいいのかわからない...そんな悩みを77ツール徹底調査で一発解決！TENが厳選したAI総合ランキングTOP10を紹介！\n\n@find_to_do←他の投稿はこちら\n━━━━━━━━━━━━━━━━━━━━\n\n▶ 2025年最新・77ツール徹底調査の結果\nChatGPT・Claude・Geminiの3強は当然として、動画生成Kling・画像生成ImageFX・音声転写Gladiaなど、各分野の最強ツールを完全網羅。TENスコア（即効性・簡単さ・人気度・コスパ・生産性UP度）で客観的に評価し、本当に使えるツールだけを厳選。\n\n▶ TOP10ツール詳細紹介\n  ① Claude（1位・570点）\n  Constitutional AI設計で安全性抜群。1M tokens対応で長文処理最強。企業での機密情報処理も安心して任せられる信頼性。\n  \n  ② ChatGPT（2位・560点）\n  7億人利用の絶対王者。GPT-5・o-series・Advanced Voice・Sora動画生成まで最新機能が全て詰まった万能ツール。\n  \n  ③ Gemini（3位・559点）\n  2025年からGoogle Workspace標準搭載。Deep Research・Veo 3動画生成で差別化。Googleユーザーなら必須。\n\n  ④ Kling（4位・553点）\n  10分長尺・4K対応の動画生成最強ツール。800万人が選ぶアジア最大のAI動画プラットフォーム。\n\n  ⑤ ImageFX（5位・550点）\n  Google最新Imagen 3技術が現在無料！フォトリアリスティック画像を月100枚まで制限なしで生成可能。\n\n▶ 今すぐ行動して生産性を爆上げしよう\nTOP3（Claude・ChatGPT・Gemini）だけで99%の作業をカバー可能。まずは1つを完全習得してから次のツールに挑戦。77ツール調査で判明した最適解を今日から実践！\n\n━━━━━━━━━━━━━━━━━━━━\n\n「自分には何もない」から\n「自分にはこれがある」が見つかるコミュニティ\n\n最初は誰でも初心者。\nここで見つけた「得意」が、人生を変えるきっかけになる。\n\n一人で頑張るより、みんなで挑戦する方が圧倒的に早く成長できる。\n\nプロフィール欄のURLからお気軽にご参加ください！\n\n@find_to_do\n\n━━━━━━━━━━━━━━━━━━━━\n\nいいね・コメント・シェアありがとうございます！\n\nFIND to DO(@find_to_do)では\n✅ 毎日キャリアに役立つクイズをストーリーで配信\n✅ 開催イベントの情報をお届け\n✅ キャリアに役立つノウハウを配信中\n\nフォローして参考にしてください！\n\n━━━━━━━━━━━━━━━━━━━━\n\n#AI #AIツール #生産性向上 #効率化 #ChatGPT #Claude #Gemini #副業 #フリーランス #転職 #キャリア #スキルアップ"
+}

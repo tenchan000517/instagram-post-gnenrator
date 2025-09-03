@@ -1,0 +1,154 @@
+{
+  "rankingId": "UN008",
+  "rankingName": "2025年最注目AIツールTOP20",
+  "criteria": "adjustedTenScore",
+  "totalCandidates": 8,
+  "displayCount": 8,
+  "generatedAt": "2025-08-31T15:06:41.251Z",
+  "rankings": [
+    {
+      "rank": 1,
+      "toolName": "Calendly",
+      "totalScore": 536,
+      "starRating": "★★★★",
+      "category": "AI Scheduling",
+      "developer": "Calendly Inc.",
+      "description": "AI-enhanced scheduling platform that automates meeting coordination with intelligent routing, availability optimization,...",
+      "criteriaScore": 536,
+      "evaluation": {
+        "immediacy": 97,
+        "simplicity": 92,
+        "popularity": 91,
+        "costPerformance": 82,
+        "specialization": 82,
+        "productivityGain": 92
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "Zapier",
+      "totalScore": 533,
+      "starRating": "★★★★",
+      "category": "AI Workflow Automation",
+      "developer": "Zapier Inc.",
+      "description": "AI-orchestration platform enabling workflow automation across 8,000+ apps with AI agents, chatbots, and natural language...",
+      "criteriaScore": 533,
+      "evaluation": {
+        "immediacy": 87,
+        "simplicity": 82,
+        "popularity": 98,
+        "costPerformance": 72,
+        "specialization": 97,
+        "productivityGain": 97
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "Grammarly",
+      "totalScore": 530,
+      "starRating": "★★★★",
+      "category": "AI Writing Assistance",
+      "developer": "Grammarly Inc.",
+      "description": "AI-powered writing assistant that provides grammar checking, style suggestions, tone detection, and generative AI featur...",
+      "criteriaScore": 530,
+      "evaluation": {
+        "immediacy": 88,
+        "simplicity": 89,
+        "popularity": 88,
+        "costPerformance": 89,
+        "specialization": 88,
+        "productivityGain": 88
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "Descript",
+      "totalScore": 528,
+      "starRating": "★★★★",
+      "category": "AI Video/Audio Editing",
+      "developer": "Descript Inc.",
+      "description": "AI-powered video and audio editing platform that allows text-based editing, featuring Underlord AI co-editor for content...",
+      "criteriaScore": 528,
+      "evaluation": {
+        "immediacy": 83,
+        "simplicity": 88,
+        "popularity": 88,
+        "costPerformance": 78,
+        "specialization": 98,
+        "productivityGain": 93
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Jasper",
+      "totalScore": 528,
+      "starRating": "★★★★",
+      "category": "AI Content Generation",
+      "developer": "Jasper AI Inc.",
+      "description": "AI-powered writing platform designed for marketing teams to create on-brand content at scale, featuring generative AI fo...",
+      "criteriaScore": 528,
+      "evaluation": {
+        "immediacy": 88,
+        "simplicity": 83,
+        "popularity": 98,
+        "costPerformance": 78,
+        "specialization": 93,
+        "productivityGain": 88
+      }
+    },
+    {
+      "rank": 6,
+      "toolName": "Writesonic",
+      "totalScore": 528,
+      "starRating": "★★★★",
+      "category": "AI Content Generation",
+      "developer": "Writesonic Inc.",
+      "description": "AI-powered content creation platform specializing in SEO-optimized content, offering generative engine optimization (GEO...",
+      "criteriaScore": 528,
+      "evaluation": {
+        "immediacy": 89,
+        "simplicity": 79,
+        "popularity": 93,
+        "costPerformance": 94,
+        "specialization": 89,
+        "productivityGain": 84
+      }
+    },
+    {
+      "rank": 7,
+      "toolName": "Loom",
+      "totalScore": 515,
+      "starRating": "★★★★",
+      "category": "AI Video Recording",
+      "developer": "Loom Inc. (acquired by Atlassian)",
+      "description": "AI-powered video messaging and screen recording platform with automated editing features, acquired by Atlassian for enha...",
+      "criteriaScore": 515,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 90,
+        "popularity": 85,
+        "costPerformance": 70,
+        "specialization": 85,
+        "productivityGain": 95
+      }
+    },
+    {
+      "rank": 8,
+      "toolName": "Copy.ai",
+      "totalScore": 505,
+      "starRating": "★★★★",
+      "category": "AI Content Generation",
+      "developer": "Copy.ai",
+      "description": "Go-to-Market AI Platform that leverages artificial intelligence to streamline efficiency and productivity for GTM strate...",
+      "criteriaScore": 505,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 75,
+        "costPerformance": 80,
+        "specialization": 85,
+        "productivityGain": 90
+      }
+    }
+  ]
+}

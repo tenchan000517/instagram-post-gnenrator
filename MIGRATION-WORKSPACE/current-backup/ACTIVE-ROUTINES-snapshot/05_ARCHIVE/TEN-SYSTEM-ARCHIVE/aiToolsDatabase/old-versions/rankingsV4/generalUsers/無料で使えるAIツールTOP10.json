@@ -1,0 +1,190 @@
+{
+  "rankingId": "AU018",
+  "rankingName": "無料で使えるAIツールTOP10",
+  "criteria": "adjustedTenScore",
+  "totalCandidates": 54,
+  "displayCount": 10,
+  "generatedAt": "2025-08-31T15:06:41.027Z",
+  "rankings": [
+    {
+      "rank": 1,
+      "toolName": "Claude",
+      "totalScore": 570,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "Anthropic",
+      "description": "undefined...",
+      "criteriaScore": 570,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 100,
+        "productivityGain": 100
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "ChatGPT",
+      "totalScore": 560,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "OpenAI",
+      "description": "undefined...",
+      "criteriaScore": 560,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 100,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 95
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "Gemini",
+      "totalScore": 559,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "Google",
+      "description": "undefined...",
+      "criteriaScore": 559,
+      "evaluation": {
+        "immediacy": 94,
+        "simplicity": 99,
+        "popularity": 89,
+        "costPerformance": 99,
+        "specialization": 89,
+        "productivityGain": 89
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "Perplexity",
+      "totalScore": 545,
+      "starRating": "★★★★",
+      "category": "検索・情報収集",
+      "developer": "Perplexity AI",
+      "description": "undefined...",
+      "criteriaScore": 545,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 90,
+        "productivityGain": 85
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Fish Audio",
+      "totalScore": 545,
+      "starRating": "★★★★",
+      "category": "音声生成・処理",
+      "developer": "Hanabi AI Inc. (OpenAudio)",
+      "description": "undefined...",
+      "criteriaScore": 545,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 90,
+        "costPerformance": 95,
+        "specialization": 95,
+        "productivityGain": 90
+      }
+    },
+    {
+      "rank": 6,
+      "toolName": "Gamma",
+      "totalScore": 538,
+      "starRating": "★★★★",
+      "category": "プレゼンテーション・資料作成",
+      "developer": "Gamma Technologies Inc.",
+      "description": "undefined...",
+      "criteriaScore": 538,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 90,
+        "popularity": 89,
+        "costPerformance": 90,
+        "specialization": 89,
+        "productivityGain": 90
+      }
+    },
+    {
+      "rank": 7,
+      "toolName": "Notion AI",
+      "totalScore": 538,
+      "starRating": "★★★★",
+      "category": "生産性・文書作成",
+      "developer": "Notion Labs",
+      "description": "undefined...",
+      "criteriaScore": 538,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 89,
+        "popularity": 90,
+        "costPerformance": 89,
+        "specialization": 90,
+        "productivityGain": 90
+      }
+    },
+    {
+      "rank": 8,
+      "toolName": "Synthesia",
+      "totalScore": 537,
+      "starRating": "★★★★",
+      "category": "AI動画生成",
+      "developer": "Synthesia",
+      "description": "undefined...",
+      "criteriaScore": 537,
+      "evaluation": {
+        "immediacy": 94,
+        "simplicity": 94,
+        "popularity": 97,
+        "costPerformance": 74,
+        "specialization": 89,
+        "productivityGain": 89
+      }
+    },
+    {
+      "rank": 9,
+      "toolName": "Calendly",
+      "totalScore": 536,
+      "starRating": "★★★★",
+      "category": "AI Scheduling",
+      "developer": "Calendly Inc.",
+      "description": "AI-enhanced scheduling platform that automates meeting coordination with intelligent routing, availability optimization,...",
+      "criteriaScore": 536,
+      "evaluation": {
+        "immediacy": 97,
+        "simplicity": 92,
+        "popularity": 91,
+        "costPerformance": 82,
+        "specialization": 82,
+        "productivityGain": 92
+      }
+    },
+    {
+      "rank": 10,
+      "toolName": "Murf",
+      "totalScore": 535,
+      "starRating": "★★★★",
+      "category": "音声生成",
+      "developer": "Murf AI",
+      "description": "undefined...",
+      "criteriaScore": 535,
+      "evaluation": {
+        "immediacy": 83,
+        "simplicity": 93,
+        "popularity": 95,
+        "costPerformance": 85,
+        "specialization": 91,
+        "productivityGain": 88
+      }
+    }
+  ]
+}

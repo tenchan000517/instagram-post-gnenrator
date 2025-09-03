@@ -1,0 +1,232 @@
+{
+  "version": "V2-2025-08-31",
+  "rankingType": "総合ランキング（重要度補正版）",
+  "description": "カテゴリ重要度を考慮した総合ランキング。汎用AI・ビジネス活用AIを重視。",
+  "generatedDate": "2025-08-31T08:43:51.973Z",
+  "totalCandidates": 77,
+  "selectedCount": 10,
+  "categoryWeights": {
+    "AI会話・アシスタント": 1,
+    "汎用AIアシスタント": 1,
+    "AI対話・チャット": 1,
+    "AI Content Generation": 0.95,
+    "AI Writing Assistance": 0.95,
+    "AIコンテンツ生成": 0.95,
+    "AI文章生成・校正": 0.95,
+    "AI API・開発者向けプラットフォーム": 0.9,
+    "AIモデルプラットフォーム・コミュニティ": 0.9,
+    "開発支援・コーディング": 0.9,
+    "AI開発・実験": 0.9,
+    "マルチAIプラットフォーム": 0.9,
+    "AI統合デザインプラットフォーム": 0.85,
+    "AI Image Generation": 0.8,
+    "AI画像生成": 0.8,
+    "動画作成・編集": 0.8,
+    "AI動画生成・編集": 0.8,
+    "音声生成": 0.75,
+    "音声生成・処理": 0.75,
+    "音声認識・転写": 0.7,
+    "AI Scheduling": 0.8,
+    "AI Workflow Automation": 0.8,
+    "AI Video/Audio Editing": 0.75,
+    "AI Video Recording": 0.75,
+    "AI検索・チャット": 0.75,
+    "AI検索・統合アシスタント": 0.75,
+    "検索・情報収集": 0.7,
+    "AI 画像編集・加工": 0.6,
+    "AI背景除去ツール": 0.6,
+    "AI ロゴ・ブランドデザイン": 0.65,
+    "AIロゴジェネレーター": 0.65,
+    "AI 会社名・ブランド名生成": 0.6,
+    "AIネーミングジェネレーター": 0.6,
+    "Unknown": 0.5
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "toolName": "ChatGPT",
+      "category": "AI会話・アシスタント",
+      "weightedScore": 560,
+      "originalScore": 560,
+      "categoryWeight": 1,
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 100,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 95,
+        "totalScore": 560
+      },
+      "companyName": "OpenAI",
+      "officialUrl": "https://chat.openai.com"
+    },
+    {
+      "rank": 2,
+      "toolName": "Gemini",
+      "category": "AI会話・アシスタント",
+      "weightedScore": 535,
+      "originalScore": 535,
+      "categoryWeight": 1,
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 95,
+        "popularity": 85,
+        "costPerformance": 95,
+        "specialization": 85,
+        "productivityGain": 85,
+        "totalScore": 535
+      },
+      "companyName": "Google",
+      "officialUrl": "https://gemini.google.com"
+    },
+    {
+      "rank": 3,
+      "toolName": "Claude",
+      "category": "AI会話・アシスタント",
+      "weightedScore": 510,
+      "originalScore": 510,
+      "categoryWeight": 1,
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 90,
+        "popularity": 75,
+        "costPerformance": 80,
+        "specialization": 90,
+        "productivityGain": 90,
+        "totalScore": 510
+      },
+      "companyName": "Anthropic",
+      "officialUrl": "https://claude.ai"
+    },
+    {
+      "rank": 4,
+      "toolName": "Grammarly",
+      "category": "AI Writing Assistance",
+      "weightedScore": 504,
+      "originalScore": 530,
+      "categoryWeight": 0.95,
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 90,
+        "popularity": 95,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 85,
+        "totalScore": 530
+      },
+      "officialUrl": "https://www.grammarly.com"
+    },
+    {
+      "rank": 5,
+      "toolName": "GitHub Copilot",
+      "category": "開発支援・コーディング",
+      "weightedScore": 482,
+      "originalScore": 535,
+      "categoryWeight": 0.9,
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 90,
+        "popularity": 95,
+        "costPerformance": 90,
+        "specialization": 80,
+        "productivityGain": 85,
+        "totalScore": 535
+      },
+      "companyName": "GitHub (Microsoft)",
+      "officialUrl": "https://github.com/features/copilot"
+    },
+    {
+      "rank": 6,
+      "toolName": "Replit",
+      "category": "開発支援・コーディング",
+      "weightedScore": 480,
+      "originalScore": 533,
+      "categoryWeight": 0.9,
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 90,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 88,
+        "totalScore": 533
+      },
+      "companyName": "Replit Inc.",
+      "officialUrl": "https://replit.com"
+    },
+    {
+      "rank": 7,
+      "toolName": "Jasper AI",
+      "category": "AI Content Generation",
+      "weightedScore": 480,
+      "originalScore": 505,
+      "categoryWeight": 0.95,
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 80,
+        "popularity": 90,
+        "costPerformance": 75,
+        "specialization": 90,
+        "productivityGain": 85,
+        "totalScore": 505
+      },
+      "officialUrl": "https://www.jasper.ai"
+    },
+    {
+      "rank": 8,
+      "toolName": "Copy.ai",
+      "category": "AI Content Generation",
+      "weightedScore": 480,
+      "originalScore": 505,
+      "categoryWeight": 0.95,
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 75,
+        "costPerformance": 80,
+        "specialization": 85,
+        "productivityGain": 90,
+        "totalScore": 505
+      },
+      "officialUrl": "https://www.copy.ai"
+    },
+    {
+      "rank": 9,
+      "toolName": "Writesonic",
+      "category": "AI Content Generation",
+      "weightedScore": 475,
+      "originalScore": 500,
+      "categoryWeight": 0.95,
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 75,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 85,
+        "productivityGain": 80,
+        "totalScore": 500
+      },
+      "officialUrl": "https://writesonic.com"
+    },
+    {
+      "rank": 10,
+      "toolName": "Poe",
+      "category": "マルチAIプラットフォーム",
+      "weightedScore": 468,
+      "originalScore": 520,
+      "categoryWeight": 0.9,
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 75,
+        "costPerformance": 90,
+        "specialization": 95,
+        "productivityGain": 85,
+        "totalScore": 520
+      },
+      "companyName": "Quora Inc",
+      "officialUrl": "https://poe.com/"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "rankingId": "DEV004",
+  "rankingName": "開発者向けAI APIサービス比較TOP5",
+  "criteria": "adjustedTenScore",
+  "totalCandidates": 65,
+  "displayCount": 5,
+  "generatedAt": "2025-08-31T15:06:41.058Z",
+  "rankings": [
+    {
+      "rank": 1,
+      "toolName": "Claude",
+      "totalScore": 570,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "Anthropic",
+      "description": "undefined...",
+      "criteriaScore": 570,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 100,
+        "productivityGain": 100
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "ChatGPT",
+      "totalScore": 560,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "OpenAI",
+      "description": "undefined...",
+      "criteriaScore": 560,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 100,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 95
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "Gemini",
+      "totalScore": 559,
+      "starRating": "★★★★",
+      "category": "AI会話・アシスタント",
+      "developer": "Google",
+      "description": "undefined...",
+      "criteriaScore": 559,
+      "evaluation": {
+        "immediacy": 94,
+        "simplicity": 99,
+        "popularity": 89,
+        "costPerformance": 99,
+        "specialization": 89,
+        "productivityGain": 89
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "Perplexity",
+      "totalScore": 545,
+      "starRating": "★★★★",
+      "category": "検索・情報収集",
+      "developer": "Perplexity AI",
+      "description": "undefined...",
+      "criteriaScore": 545,
+      "evaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 90,
+        "productivityGain": 85
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Fish Audio",
+      "totalScore": 545,
+      "starRating": "★★★★",
+      "category": "音声生成・処理",
+      "developer": "Hanabi AI Inc. (OpenAudio)",
+      "description": "undefined...",
+      "criteriaScore": 545,
+      "evaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 90,
+        "costPerformance": 95,
+        "specialization": 95,
+        "productivityGain": 90
+      }
+    }
+  ]
+}

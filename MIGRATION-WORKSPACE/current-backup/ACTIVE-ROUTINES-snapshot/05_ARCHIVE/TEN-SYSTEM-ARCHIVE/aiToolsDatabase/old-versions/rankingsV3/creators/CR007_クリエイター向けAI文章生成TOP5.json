@@ -1,0 +1,43 @@
+{
+  "id": "CR007",
+  "title": "クリエイター向けAI文章生成TOP5",
+  "description": "クリエイター・デザイナー向けのクリエイター向けAI文章生成TOP5です。調整済みスコアに基づいて選出しています。",
+  "category": "クリエイター向けAIツール",
+  "targetAudience": "T004: 26-29歳会社員・クリエイター・デザイナー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "AI Writing Assistance",
+    "targetUser": "creator"
+  },
+  "generatedAt": "2025-08-31T10:50:18.708Z",
+  "totalMatched": 1,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Grammarly",
+      "category": "AI Writing Assistance",
+      "companyName": "Grammarly Inc.",
+      "score": 477,
+      "originalScore": 530,
+      "officialUrl": "https://www.grammarly.com",
+      "metrics": {
+        "immediacy": 95,
+        "simplicity": 90,
+        "popularity": 95,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 85
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": []
+      },
+      "pricing": {
+        "hasFreeVersion": false,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    }
+  ]
+}

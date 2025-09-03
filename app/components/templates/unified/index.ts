@@ -73,6 +73,38 @@ export {
   stepByStepMetadata 
 } from './StepByStepTemplate'
 
+// TEN専用テンプレート群
+export { 
+  default as TenIntroTemplate, 
+  tenIntroMetadata 
+} from './TenIntroTemplate'
+
+export { 
+  default as ToolShowcaseTemplate, 
+  toolShowcaseMetadata 
+} from './ToolShowcaseTemplate'
+
+export { 
+  default as EnhancedToolDetailTemplate, 
+  enhancedToolDetailMetadata 
+} from './EnhancedToolDetailTemplate'
+
+export { 
+  default as TenSummaryTemplate, 
+  tenSummaryMetadata 
+} from './TenSummaryTemplate'
+
+// KIKUYO専用テンプレート群
+export { 
+  default as KikuyoIntroTemplate, 
+  kikuyoIntroMetadata 
+} from './KikuyoIntroTemplate'
+
+export { 
+  default as KikuyoSummaryTemplate, 
+  kikuyoSummaryMetadata 
+} from './KikuyoSummaryTemplate'
+
 // 統一テンプレートマッピング
 export const UNIFIED_TEMPLATE_MAP = {
   // テンプレート①
@@ -145,6 +177,34 @@ export const UNIFIED_TEMPLATE_MAP = {
   'step_by_step': {
     component: 'StepByStepTemplate',
     metadata: 'stepByStepMetadata'
+  },
+
+  // TEN専用テンプレート群
+  'ten_intro': {
+    component: 'TenIntroTemplate',
+    metadata: 'tenIntroMetadata'
+  },
+  'tool_showcase': {
+    component: 'ToolShowcaseTemplate',
+    metadata: 'toolShowcaseMetadata'
+  },
+  'enhanced_tool_detail': {
+    component: 'EnhancedToolDetailTemplate',
+    metadata: 'enhancedToolDetailMetadata'
+  },
+  'ten_summary': {
+    component: 'TenSummaryTemplate',
+    metadata: 'tenSummaryMetadata'
+  },
+  
+  // KIKUYO専用テンプレート群
+  'kikuyo_intro': {
+    component: 'KikuyoIntroTemplate',
+    metadata: 'kikuyoIntroMetadata'
+  },
+  'kikuyo_summary': {
+    component: 'KikuyoSummaryTemplate',
+    metadata: 'kikuyoSummaryMetadata'
   }
 } as const
 
@@ -161,7 +221,13 @@ export const UNIFIED_TEMPLATES = [
   'dynamic_boxes',
   'image_point',
   'empathy',
-  'step_by_step'
+  'step_by_step',
+  'ten_intro',
+  'tool_showcase',
+  'enhanced_tool_detail',
+  'ten_summary',
+  'kikuyo_intro',
+  'kikuyo_summary'
 ] as const
 
 // 型定義

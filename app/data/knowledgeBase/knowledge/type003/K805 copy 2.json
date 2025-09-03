@@ -1,0 +1,737 @@
+{
+  "source": "contents-ranking-fc042",
+  "problemCategory": "キャリア・就職支援",
+  "knowledgeId": "K805",
+  "postType": "003",
+  "pageCount": 8,
+  "pageStructurePattern": "unified-template-11-company-ranking",
+  "targetIds": ["T013"],
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "template": "basic_intro",
+      "content": {
+        "title": "女性が活躍してるIT企業年収ランキング",
+        "subtitle": "FIND to DOコミュニティ調べ",
+        "targetAudience": "女性でもIT業界で高年収って本当に実現できるの？",
+        "problems": [
+          "IT業界は男性中心で、女性が本当に活躍できる企業が見つからない",
+          "出産・育児後も続けられる高年収のIT企業を知りたい",
+          "女性管理職がいて、ロールモデルがある企業で働きたい"
+        ],
+        "persona": "KIKUYO",
+        "additionalMessage": "2025年最新データで客観的分析したのです！\n女性のIT業界でのキャリア構築をサポートするのです"
+      }
+    },
+    "page2": {
+      "section": "ranking",
+      "template": "ranking_display",
+      "content": {
+        "title": "女性が活躍してるIT企業年収ランキング",
+        "subtitle": "FIND to DOコミュニティ独自調査による",
+        "note": "2025年8月時点・KIKUYO調べ",
+        "items": [
+          {
+            "rank": 1,
+            "name": "グーグル合同会社",
+            "primaryValue": "1,624万円",
+            "secondaryValue": "初任給70万円",
+            "description": "AI・検索技術",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 2,
+            "name": "プリファード・ネットワークス",
+            "primaryValue": "1,380万円",
+            "secondaryValue": "残業15時間",
+            "description": "AI・深層学習",
+            "category": "AI・テック"
+          },
+          {
+            "rank": 3,
+            "name": "日本マイクロソフト株式会社",
+            "primaryValue": "1,303万円",
+            "secondaryValue": "初任給62万円",
+            "description": "クラウド・ソフトウェア",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 4,
+            "name": "株式会社セールスフォース・ジャパン",
+            "primaryValue": "1,216万円",
+            "secondaryValue": "初任給45万円",
+            "description": "CRM・営業支援",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 5,
+            "name": "アマゾンジャパン合同会社",
+            "primaryValue": "1,150万円",
+            "secondaryValue": "年休120日",
+            "description": "EC・クラウド",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 6,
+            "name": "NTTデータ",
+            "primaryValue": "906万円",
+            "secondaryValue": "年休123日",
+            "description": "システムインテグレーション",
+            "category": "SI業界"
+          },
+          {
+            "rank": 7,
+            "name": "LINEヤフー",
+            "primaryValue": "884万円",
+            "secondaryValue": "残業16時間",
+            "description": "インターネット・IT・通信",
+            "category": "IT・通信"
+          },
+          {
+            "rank": 8,
+            "name": "オープンアップグループ",
+            "primaryValue": "664万円",
+            "secondaryValue": "初任給22万円",
+            "description": "IT・エンジニア人材サービス",
+            "category": "人材サービス"
+          },
+          {
+            "rank": 9,
+            "name": "レバレジーズ株式会社",
+            "primaryValue": "597万円",
+            "secondaryValue": "初任給35万円",
+            "description": "IT・医療人材サービス",
+            "category": "人材サービス"
+          },
+          {
+            "rank": 10,
+            "name": "Apple Japan合同会社",
+            "primaryValue": "990万円",
+            "secondaryValue": "プロダクト開発",
+            "description": "デバイス・ソフトウェア",
+            "category": "外資系IT"
+          }
+        ]
+      }
+    },
+    "page3": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "グーグル合同会社",
+            "rankInfo": {
+              "rank": 1,
+              "score": "1,624万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "70万円",
+              "averageSalary": "1,624万円",
+              "overtime": "データなし",
+              "holidays": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 81,
+              "benefits": 100,
+              "workLifeBalance": 85,
+              "growth": 95,
+              "stability": 80
+            },
+            "features": {
+              "industry": "外資系IT業界",
+              "employees": "1,100人",
+              "established": "2001年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "世界最大の検索エンジンとAI技術を持つテクノロジー企業なのです。女性エンジニアの比率も高く、多様性を重視した職場環境が整っているのです。AI・機械学習・クラウド技術など最先端技術に携われるのです。",
+              "recruitment": [
+                "ソフトウェアエンジニア",
+                "プロダクトマネージャー",
+                "データサイエンティスト",
+                "UXデザイナー"
+              ],
+              "benefits": [
+                "年収1600万円超",
+                "女性エンジニア比率高",
+                "最先端技術研修",
+                "出産育児支援"
+              ],
+              "uniqueFeatures": [
+                "Google式20%ルール",
+                "世界トップクラスの技術環境",
+                "多様性重視の企業文化",
+                "グローバルキャリア機会"
+              ],
+              "keyHighlights": [
+                "高年収",
+                "リモート",
+                "育児支援",
+                "技術研修"
+              ]
+            }
+          },
+          {
+            "companyName": "プリファード・ネットワークス",
+            "rankInfo": {
+              "rank": 2,
+              "score": "1,380万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "60万円",
+              "averageSalary": "1,380万円",
+              "overtime": "15時間",
+              "holidays": "125日"
+            },
+            "parameterGraph": {
+              "salary": 69,
+              "benefits": 75,
+              "workLifeBalance": 81,
+              "growth": 95,
+              "stability": 60
+            },
+            "features": {
+              "industry": "AI・テック業界",
+              "employees": "400人",
+              "established": "2014年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "深層学習とAI技術の最先端を走るテック企業なのです。機械学習エンジニアや研究者として、世界レベルの技術開発に携わることができるのです。女性研究者の比率も高く、学術的な環境が整っているのです。",
+              "recruitment": [
+                "機械学習エンジニア",
+                "研究開発エンジニア",
+                "データサイエンティスト",
+                "ソフトウェアエンジニア"
+              ],
+              "benefits": [
+                "技術研究環境",
+                "年休125日",
+                "学会参加支援",
+                "論文執筆支援"
+              ],
+              "uniqueFeatures": [
+                "世界トップクラスのAI研究",
+                "学術論文執筆機会",
+                "国際学会参加",
+                "研究資金潤沢"
+              ],
+              "keyHighlights": [
+                "AI研究",
+                "年休125",
+                "学会支援",
+                "論文執筆"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "page4": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "日本マイクロソフト株式会社",
+            "rankInfo": {
+              "rank": 3,
+              "score": "1,303万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "62万円",
+              "averageSalary": "1,303万円",
+              "overtime": "32時間",
+              "holidays": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 65,
+              "benefits": 95,
+              "workLifeBalance": 60,
+              "growth": 90,
+              "stability": 90
+            },
+            "features": {
+              "industry": "外資系IT業界",
+              "employees": "2,800人",
+              "established": "1986年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "世界最大のソフトウェア企業として、クラウド技術とAI分野でリードしているのです。女性リーダーの育成にも積極的で、キャリア支援制度が充実なのです。",
+              "recruitment": [
+                "クラウドソリューションアーキテクト",
+                "テクニカルスペシャリスト",
+                "プロダクトマーケティング",
+                "カスタマーサクセス"
+              ],
+              "benefits": [
+                "年収1300万円",
+                "フレックスタイム制",
+                "研修制度充実",
+                "女性リーダー育成"
+              ],
+              "uniqueFeatures": [
+                "マイクロソフト認定資格取得支援",
+                "世界規模のプロジェクト参加",
+                "ダイバーシティ推進",
+                "テクノロジー最前線"
+              ],
+              "keyHighlights": [
+                "高年収",
+                "研修充実",
+                "女性支援",
+                "認定資格"
+              ]
+            }
+          },
+          {
+            "companyName": "株式会社セールスフォース・ジャパン",
+            "rankInfo": {
+              "rank": 4,
+              "score": "1,216万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "45万円",
+              "averageSalary": "1,216万円",
+              "overtime": "データなし",
+              "holidays": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 61,
+              "benefits": 90,
+              "workLifeBalance": 80,
+              "growth": 85,
+              "stability": 80
+            },
+            "features": {
+              "industry": "外資系IT業界",
+              "employees": "2,500人",
+              "established": "2000年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "世界No.1のCRMプラットフォームを提供するクラウド企業なのです。営業支援ソフトウェア分野では圧倒的なシェアを持ち、女性の営業職・エンジニア職の両方で活躍機会があるのです。",
+              "recruitment": [
+                "セールスエンジニア",
+                "ソリューションエンジニア",
+                "アカウントエグゼクティブ",
+                "カスタマーサクセス"
+              ],
+              "benefits": [
+                "年収1200万円超",
+                "成果主義報酬",
+                "セールス研修",
+                "キャリア支援"
+              ],
+              "uniqueFeatures": [
+                "Salesforce認定取得支援",
+                "営業×技術のハイブリッド職",
+                "グローバル案件参加",
+                "成果連動型報酬"
+              ],
+              "keyHighlights": [
+                "高年収",
+                "成果主義",
+                "認定支援",
+                "営業技術"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "page5": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "アマゾンジャパン合同会社",
+            "rankInfo": {
+              "rank": 5,
+              "score": "1,150万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "35万円",
+              "averageSalary": "1,150万円",
+              "overtime": "23時間",
+              "holidays": "120日"
+            },
+            "parameterGraph": {
+              "salary": 58,
+              "benefits": 85,
+              "workLifeBalance": 71,
+              "growth": 90,
+              "stability": 85
+            },
+            "features": {
+              "industry": "外資系IT・EC業界",
+              "employees": "15,000人",
+              "established": "2000年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "世界最大のEC・クラウドサービス企業として、AWS、EC事業で急成長を続けているのです。女性の活躍機会が豊富で、スケールの大きい仕事に携われるのです。",
+              "recruitment": [
+                "ソフトウェア開発エンジニア",
+                "クラウドソリューションアーキテクト",
+                "プロダクトマネージャー",
+                "ビジネスアナリスト"
+              ],
+              "benefits": [
+                "年収1150万円",
+                "年休120日",
+                "AWS研修",
+                "株式報酬"
+              ],
+              "uniqueFeatures": [
+                "世界最大級のインフラ運用",
+                "AWS技術の最前線",
+                "グローバル規模のプロジェクト",
+                "ストックオプション制度"
+              ],
+              "keyHighlights": [
+                "高年収",
+                "年休120",
+                "AWS研修",
+                "株式報酬"
+              ]
+            }
+          },
+          {
+            "companyName": "NTTデータ",
+            "rankInfo": {
+              "rank": 6,
+              "score": "906万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "26万円",
+              "averageSalary": "906万円",
+              "overtime": "25時間",
+              "holidays": "123日"
+            },
+            "parameterGraph": {
+              "salary": 45,
+              "benefits": 70,
+              "workLifeBalance": 69,
+              "growth": 75,
+              "stability": 85
+            },
+            "features": {
+              "industry": "システムインテグレーション業",
+              "employees": "197,800人",
+              "established": "1988年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "国内最大級のシステムインテグレーション企業として、企業のDX推進を支援しているのです。女性エンジニアのキャリア支援制度が充実しているのです。",
+              "recruitment": [
+                "システムエンジニア",
+                "プロジェクトマネージャー",
+                "ITコンサルタント",
+                "データアナリスト"
+              ],
+              "benefits": [
+                "研修制度充実",
+                "年休123日",
+                "住宅手当",
+                "女性長期キャリア"
+              ],
+              "uniqueFeatures": [
+                "大規模システム開発",
+                "DX推進プロジェクト",
+                "官公庁案件参加",
+                "長期キャリア形成支援"
+              ],
+              "keyHighlights": [
+                "研修充実",
+                "年休123",
+                "住宅手当",
+                "女性支援"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "page6": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "LINEヤフー",
+            "rankInfo": {
+              "rank": 7,
+              "score": "884万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "28万円",
+              "averageSalary": "884万円",
+              "overtime": "16時間",
+              "holidays": "120日"
+            },
+            "parameterGraph": {
+              "salary": 44,
+              "benefits": 75,
+              "workLifeBalance": 80,
+              "growth": 80,
+              "stability": 75
+            },
+            "features": {
+              "industry": "インターネット・IT・通信",
+              "employees": "18,000人",
+              "established": "2019年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "日本最大級のインターネットサービス企業として、検索・EC・メッセージングアプリを運営しているのです。女性エンジニア・デザイナー・プロダクトマネージャーが多数活躍しているのです。",
+              "recruitment": [
+                "ソフトウェアエンジニア",
+                "プロダクトマネージャー",
+                "UX/UIデザイナー",
+                "データエンジニア"
+              ],
+              "benefits": [
+                "残業16時間",
+                "年休120日",
+                "リモート勤務",
+                "副業OK"
+              ],
+              "uniqueFeatures": [
+                "日本最大級のユーザー基盤",
+                "BtoC向けサービス開発",
+                "アジア市場展開",
+                "副業制度充実"
+              ],
+              "keyHighlights": [
+                "残業少",
+                "年休120",
+                "リモート",
+                "副業OK"
+              ]
+            }
+          },
+          {
+            "companyName": "オープンアップグループ",
+            "rankInfo": {
+              "rank": 8,
+              "score": "664万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "22万円",
+              "averageSalary": "664万円",
+              "overtime": "データなし",
+              "holidays": "120日"
+            },
+            "parameterGraph": {
+              "salary": 33,
+              "benefits": 60,
+              "workLifeBalance": 75,
+              "growth": 70,
+              "stability": 65
+            },
+            "features": {
+              "industry": "IT・エンジニア人材サービス",
+              "employees": "8,500人",
+              "established": "2012年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "IT人材サービスとエンジニア派遣事業を展開している企業なのです。未経験からのエンジニアキャリア支援に力を入れており、女性の技術職転身をサポートする制度が充実しているのです。",
+              "recruitment": [
+                "ITエンジニア",
+                "インフラエンジニア",
+                "プログラマー",
+                "システム運用"
+              ],
+              "benefits": [
+                "未経験OK",
+                "年休120日",
+                "研修制度",
+                "資格取得支援"
+              ],
+              "uniqueFeatures": [
+                "未経験からエンジニア転身",
+                "技術研修カリキュラム",
+                "資格取得全額補助",
+                "キャリアチェンジ支援"
+              ],
+              "keyHighlights": [
+                "未経験",
+                "年休120",
+                "研修制度",
+                "資格支援"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "page7": {
+      "section": "mainContent",
+      "template": "enhanced_company_detail",
+      "content": {
+        "displayMode": "dual",
+        "companies": [
+          {
+            "companyName": "レバレジーズ株式会社",
+            "rankInfo": {
+              "rank": 9,
+              "score": "597万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "35万円",
+              "averageSalary": "597万円",
+              "overtime": "データなし",
+              "holidays": "125日"
+            },
+            "parameterGraph": {
+              "salary": 30,
+              "benefits": 65,
+              "workLifeBalance": 80,
+              "growth": 75,
+              "stability": 70
+            },
+            "features": {
+              "industry": "IT・医療人材サービス",
+              "employees": "1,800人",
+              "established": "2005年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "IT・医療分野の人材サービスを手がけている成長企業なのです。エンジニア向けキャリア支援サービス「レバテック」を運営しており、女性エンジニアのキャリア形成をサポートしているのです。",
+              "recruitment": [
+                "キャリアアドバイザー",
+                "ITコンサルタント",
+                "営業",
+                "エンジニア"
+              ],
+              "benefits": [
+                "初任給35万",
+                "年休125日",
+                "キャリア支援",
+                "成長環境"
+              ],
+              "uniqueFeatures": [
+                "エンジニア転職支援ノウハウ",
+                "IT業界の豊富な情報",
+                "キャリア相談制度",
+                "急成長ベンチャー"
+              ],
+              "keyHighlights": [
+                "初任給高",
+                "年休125",
+                "支援制度",
+                "成長環境"
+              ]
+            }
+          },
+          {
+            "companyName": "Apple Japan合同会社",
+            "rankInfo": {
+              "rank": 10,
+              "score": "99万円"
+            },
+            "keyMetrics": {
+              "initialSalary": "データなし",
+              "averageSalary": "99万円",
+              "overtime": "データなし",
+              "holidays": "データなし"
+            },
+            "parameterGraph": {
+              "salary": 5,
+              "benefits": 90,
+              "workLifeBalance": 75,
+              "growth": 85,
+              "stability": 90
+            },
+            "features": {
+              "industry": "外資系IT業界",
+              "employees": "4,000人",
+              "established": "1983年",
+              "headquarters": "東京"
+            },
+            "details": {
+              "overview": "世界的なテクノロジー企業として、iPhone、Mac、iPadなどの革新的製品を開発しているのです。デザイン思考とユーザー体験を重視する文化で、女性デザイナーやエンジニアが活躍しているのです。",
+              "recruitment": [
+                "ソフトウェアエンジニア",
+                "UX/UIデザイナー",
+                "プロダクトマネージャー",
+                "マーケティング"
+              ],
+              "benefits": [
+                "製品割引",
+                "研修制度",
+                "健康支援",
+                "福利厚生"
+              ],
+              "uniqueFeatures": [
+                "革新的プロダクト開発",
+                "デザイン思考文化",
+                "グローバルブランド",
+                "従業員製品割引"
+              ],
+              "keyHighlights": [
+                "製品割引",
+                "研修制度",
+                "健康支援",
+                "福利厚生"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "page8": {
+      "section": "summary",
+      "template": "resource_summary",
+      "content": {
+        "title": "女性が活躍してるIT企業年収ランキング",
+        "subtitle": "KIKUYOデータベース",
+        "summaryPoints": [
+          "グーグル1,624万円がトップで、プリファード・ネットワークス1,380万円が2位となったのです。AI技術特化企業の高待遇が明確なのです",
+          "上位5社の平均年収は1,332万円と圧倒的な高さで、技術力と専門性があれば高収入が実現可能なのです",
+          "中堅企業のオープンアップ664万円、レバレジーズ597万円でも、女性のキャリア形成支援が充実しているのです"
+        ],
+        "resourceList": [
+          {
+            "title": "各社採用ページ",
+            "items": [
+              "グーグル合同会社採用サイト",
+              "プリファード・ネットワークス採用",
+              "マイクロソフト日本法人",
+              "セールスフォース・ジャパン",
+              "アマゾンジャパン採用"
+            ]
+          },
+          {
+            "title": "IT業界研究ソース",
+            "items": [
+              "外資系IT企業研究ガイド",
+              "AI・テック企業分析レポート",
+              "女性エンジニアキャリア事例集",
+              "IT業界給与水準レポート"
+            ]
+          },
+          {
+            "title": "キャリア分析ツール",
+            "items": [
+              "技術スキル評価チェックリスト",
+              "年収比較シミュレーション",
+              "企業文化適性診断",
+              "キャリアパス設計ワークシート"
+            ]
+          }
+        ],
+        "finalMessage": "データ分析の結果、AI技術・クラウド技術・専門性の3点が高年収の鍵ということが分かったのです。\n\n皆さんらしいITキャリアを築くために、これらの情報を上手に活用してくださいなのです！"
+      }
+    }
+  }
+}

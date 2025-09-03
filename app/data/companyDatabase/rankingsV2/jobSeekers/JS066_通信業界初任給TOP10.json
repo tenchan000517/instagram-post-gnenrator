@@ -1,0 +1,27 @@
+{
+  "patternId": "JS066",
+  "patternName": "通信業界初任給TOP10",
+  "criteria": "initialSalary",
+  "limit": 10,
+  "filters": {
+    "industry": "通信インフラ業界"
+  },
+  "generatedAt": "2025-08-29T12:30:22.806Z",
+  "totalMatched": 1,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "日本電信電話株式会社",
+      "industry": "通信インフラ業界",
+      "score": 312940,
+      "metrics": {
+        "salary": 9230000,
+        "initialSalary": 312940,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    }
+  ]
+}

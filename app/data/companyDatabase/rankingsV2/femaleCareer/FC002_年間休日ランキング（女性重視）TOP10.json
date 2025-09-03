@@ -1,0 +1,151 @@
+{
+  "patternId": "FC002",
+  "patternName": "年間休日ランキング（女性重視）TOP10",
+  "criteria": "holidays",
+  "limit": 10,
+  "filters": {},
+  "generatedAt": "2025-08-29T12:30:22.855Z",
+  "totalMatched": 152,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "UTグループ株式会社",
+      "industry": "製造業向け人材サービス",
+      "score": 193,
+      "metrics": {
+        "salary": 5000000,
+        "initialSalary": 240,
+        "holidays": 193,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 2,
+      "companyName": "株式会社ファーストリテイリング",
+      "industry": "アパレル製造小売業",
+      "score": 135,
+      "metrics": {
+        "salary": 9010000,
+        "initialSalary": null,
+        "holidays": 135,
+        "overtime": 16.3,
+        "vacationRate": 74.6,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 3,
+      "companyName": "ビジョナル株式会社",
+      "industry": "HR Tech・求人プラットフォーム",
+      "score": 130,
+      "metrics": {
+        "salary": 6500000,
+        "initialSalary": 335,
+        "holidays": 130,
+        "overtime": 26,
+        "vacationRate": 85,
+        "turnoverRate3Years": 8.5
+      }
+    },
+    {
+      "rank": 4,
+      "companyName": "パナソニックホールディングス",
+      "industry": "総合電機業界",
+      "score": 127,
+      "metrics": {
+        "salary": 9560000,
+        "initialSalary": null,
+        "holidays": 127,
+        "overtime": 30,
+        "vacationRate": null,
+        "turnoverRate3Years": 3.4
+      }
+    },
+    {
+      "rank": 5,
+      "companyName": "ソニー",
+      "industry": "総合電機メーカー・エンタテインメント複合企業",
+      "score": 126,
+      "metrics": {
+        "salary": 11180000,
+        "initialSalary": null,
+        "holidays": 126,
+        "overtime": 24.1,
+        "vacationRate": 70.9,
+        "turnoverRate3Years": 1.3
+      }
+    },
+    {
+      "rank": 6,
+      "companyName": "富士通",
+      "industry": "総合電機メーカー兼総合ITベンダー",
+      "score": 126,
+      "metrics": {
+        "salary": 9650000,
+        "initialSalary": null,
+        "holidays": 126,
+        "overtime": 20.2,
+        "vacationRate": 71,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 7,
+      "companyName": "日立製作所",
+      "industry": "総合電機・社会インフラ業界",
+      "score": 126,
+      "metrics": {
+        "salary": 9610000,
+        "initialSalary": null,
+        "holidays": 126,
+        "overtime": 17.5,
+        "vacationRate": 80.5,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 8,
+      "companyName": "NEC",
+      "industry": "総合電機業界",
+      "score": 126,
+      "metrics": {
+        "salary": 9630000,
+        "initialSalary": null,
+        "holidays": 126,
+        "overtime": 23.1,
+        "vacationRate": 63.1,
+        "turnoverRate3Years": 3.9
+      }
+    },
+    {
+      "rank": 9,
+      "companyName": "三菱重工業株式会社",
+      "industry": "総合重工業（エネルギー・宇宙・防衛など）",
+      "score": 126,
+      "metrics": {
+        "salary": 10180000,
+        "initialSalary": 260000,
+        "holidays": 126,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 10,
+      "companyName": "サイバーエージェント",
+      "industry": "インターネット広告業・メディア業・ゲーム業",
+      "score": 125,
+      "metrics": {
+        "salary": 8820000,
+        "initialSalary": 420,
+        "holidays": 125,
+        "overtime": 13.3,
+        "vacationRate": 55,
+        "turnoverRate3Years": 12.5
+      }
+    }
+  ]
+}

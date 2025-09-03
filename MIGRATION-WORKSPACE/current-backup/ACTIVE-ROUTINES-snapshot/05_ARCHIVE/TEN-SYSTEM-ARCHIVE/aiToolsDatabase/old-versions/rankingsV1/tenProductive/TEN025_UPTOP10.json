@@ -1,0 +1,166 @@
+{
+  "rankingId": "TEN025",
+  "rankingName": "人気×生産性UPツールTOP10",
+  "description": "人気があり生産性向上効果が高いツール",
+  "generatedAt": "2025-08-31T06:55:19.747Z",
+  "criteria": "popularity",
+  "filters": {
+    "productivityBoostMin": 80
+  },
+  "totalCandidates": 8,
+  "displayCount": 8,
+  "tools": [
+    {
+      "rank": 1,
+      "toolId": "AI071",
+      "name": "Remove.bg",
+      "category": "AI 画像編集・加工",
+      "developer": "Canva (Remove.bg)",
+      "totalScore": 210,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "5秒自動背景除去",
+        "50MP高解像度対応",
+        "Magic Brush手動修正機能",
+        "バルク処理・API統合"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 100,
+      "batchNumber": 9
+    },
+    {
+      "rank": 2,
+      "toolId": "AI068",
+      "name": "Namelix",
+      "category": "AI 会社名・ブランド名生成",
+      "developer": "Brandmark (Namelix)",
+      "totalScore": 196.5,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "実ブランドデータ学習済みML",
+        "個人化学習機能",
+        "リアルタイムドメイン確認",
+        "Brandmarkロゴ生成連携"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 85,
+      "batchNumber": 9
+    },
+    {
+      "rank": 3,
+      "toolId": "AI070",
+      "name": "Designs.ai",
+      "category": "AI統合デザインプラットフォーム",
+      "developer": "Designs.ai",
+      "totalScore": 166.5,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "AI Chat統合（GPT-4、Claude 3.5、Gemini）",
+        "動画・音声・画像AI統合",
+        "20,000+デザインテンプレート",
+        "チームコラボレーション機能"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 85,
+      "batchNumber": 9
+    },
+    {
+      "rank": 4,
+      "toolId": "AI072",
+      "name": "Upscale.media",
+      "category": "AI 画像編集・加工",
+      "developer": "Upscale.media",
+      "totalScore": 184.5,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "2X/4X/8X画像拡大",
+        "JPEG アーティファクト除去",
+        "バルク処理対応",
+        "API統合・自動化"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 85,
+      "batchNumber": 9
+    },
+    {
+      "rank": 5,
+      "toolId": "AI066",
+      "name": "Looka",
+      "category": "AI ロゴ・ブランドデザイン",
+      "developer": "Looka",
+      "totalScore": 186,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "機械学習による個人化されたロゴ提案",
+        "300+ブランド素材テンプレート",
+        "完全なブランドガイドライン",
+        "無制限編集・ダウンロード"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 80,
+      "batchNumber": 9
+    },
+    {
+      "rank": 6,
+      "toolId": "AI065",
+      "name": "Framer AI",
+      "category": "AI Webデザイン・開発",
+      "developer": "Framer",
+      "totalScore": 175.5,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "AI チャットによる自動サイト生成",
+        "レスポンシブデザイン自動生成",
+        "リアルタイムコラボレーション",
+        "高度なアニメーション機能"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 75,
+      "batchNumber": 9
+    },
+    {
+      "rank": 7,
+      "toolId": "AI069",
+      "name": "LogoAI",
+      "category": "AI ロゴ・ブランドデザイン",
+      "developer": "LogoAI",
+      "totalScore": 169.5,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "ワンクリックブランドセンター",
+        "ブランド一貫性自動維持",
+        "SNS・マーケティング素材自動生成",
+        "Word・PPTテンプレート"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 75,
+      "batchNumber": 9
+    },
+    {
+      "rank": 8,
+      "toolId": "AI067",
+      "name": "Brandmark",
+      "category": "AI ロゴ・ブランドデザイン",
+      "developer": "Brandmark",
+      "totalScore": 171,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "数百万ロゴ学習済み深層学習AI",
+        "無制限デザイン調整",
+        "商用利用完全権利込み",
+        "人間デザイナーオプション"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 70,
+      "batchNumber": 9
+    }
+  ]
+}

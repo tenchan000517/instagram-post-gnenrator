@@ -1,0 +1,172 @@
+{
+  "metaInfo": {
+    "batchNumber": 11,
+    "researchDate": "2025-09-01",
+    "researcher": "Claude Code",
+    "toolRange": "AI105-AI112",
+    "totalToolsInBatch": 8,
+    "dataQuality": "5-source-verified",
+    "lastVerified": "2025-09-01"
+  },
+  "tools": [
+    {
+      "id": "AI105",
+      "toolName": "ExampleAI",
+      "category": "AI会話・アシスタント",
+      "subCategory": "汎用対話AI",
+      "companyName": "Example Corp",
+      "officialUrl": "https://example.ai",
+      
+      "releaseInfo": {
+        "initialRelease": "2024-01",
+        "latestUpdate": "2025-08",
+        "version": "2.0",
+        "developmentStatus": "Active"
+      },
+      
+      "userMetrics": {
+        "userCount": 1000000,
+        "monthlyActiveUsers": 800000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": 4.5,
+        "googlePlayRating": 4.3
+      },
+      
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      
+      "pricing": {
+        "freeTier": "基本機能・月10回まで",
+        "freeCredits": 100,
+        "proPrice": 20,
+        "proFeatures": "無制限利用・高速レスポンス",
+        "enterprisePrice": "要問合せ",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      
+      "coreFeatures": {
+        "primaryFunction": "AI会話・文章作成支援",
+        "uniqueFeatures": [
+          "独自機能1",
+          "独自機能2",
+          "独自機能3"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "画像"
+        ],
+        "outputFormats": [
+          "テキスト",
+          "コード"
+        ],
+        "integrations": [
+          "API",
+          "Slack"
+        ],
+        "apiAvailability": "REST API"
+      },
+      
+      "technicalSpecs": {
+        "responseTime": "2-5秒",
+        "accuracyRate": "95%",
+        "dataPrivacy": "データ学習不使用",
+        "dataRetention": "30日",
+        "compliance": [
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "maxTokens": 100000,
+        "supportedLanguages": 50
+      },
+      
+      "localization": {
+        "supportedLanguages": [
+          "日本語",
+          "英語",
+          "中国語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 5,
+        "dailyUsageTime": "30-60分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      
+      "performance": {
+        "reliability": "99%",
+        "scalability": "高",
+        "updateFrequency": "月1-2回",
+        "bugReports": null,
+        "serverLocation": "米国・欧州",
+        "loadTime": "2-3秒"
+      },
+      
+      "community": {
+        "communitySize": 100000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発",
+        "officialSupport": "メール・チャット",
+        "userGenContent": true
+      },
+      
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "競合A",
+          "競合B"
+        ],
+        "keyDifferentiators": [
+          "差別化要因1",
+          "差別化要因2"
+        ],
+        "marketPosition": "ニッチ特化",
+        "marketShare": "推定5%"
+      },
+      
+      "businessMetrics": {
+        "annualRevenue": 50000000,
+        "valuation": null,
+        "totalFunding": 10000000,
+        "employeeCount": 50
+      },
+      
+      "tenEvaluation": {
+        "immediacy": 85,
+        "simplicity": 90,
+        "popularity": 75,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 85,
+        "totalScore": 500
+      },
+      
+      "sources": [
+        "https://example.ai/pricing",
+        "https://example.ai/docs",
+        "https://techcrunch.com/example-ai",
+        "https://crunchbase.com/example-corp",
+        "https://github.com/example-ai"
+      ],
+      
+      "additionalNotes": "特筆すべき特徴やマーケット動向"
+    }
+  ]
+}

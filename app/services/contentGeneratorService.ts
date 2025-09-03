@@ -177,7 +177,7 @@ export class ContentGeneratorService {
       const hashtags = await this.generateHashtags(userInput, finalPages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
       
       // キャプション生成（改善: 実際の生成内容を反映）
-      const caption = await this.generateCaptionWithFormat(userInput, finalPages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
+      const caption = await this.generateCaptionWithFormat(userInput, finalPages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId, knowledgeBaseParams)
       
       const generatedContent: GeneratedContent = {
         pages: finalPages,
@@ -235,17 +235,18 @@ export class ContentGeneratorService {
       for (const pageInfo of pageStructure.pages) {
         // dynamicページの展開処理
         if (pageInfo.pageNumber === "dynamic") {
-          // mainContentセクションのページを特定
-          const mainContentPages = Object.keys(knowledgeData.detailedContent || {})
+          // dynamicページ（mainContentまたはdetail_*セクション）を特定
+          const dynamicPages = Object.keys(knowledgeData.detailedContent || {})
             .filter(key => {
               const pageData = knowledgeData.detailedContent?.[key]
-              return pageData?.section === "mainContent"
+              return pageData?.section === "mainContent" || 
+                     (pageData?.section && pageData.section.startsWith("detail_"))
             })
             .map(key => parseInt(key.replace('page', '')))
             .sort((a, b) => a - b)
 
-          // 各mainContentページを生成
-          for (const actualPageNumber of mainContentPages) {
+          // 各dynamicページを生成
+          for (const actualPageNumber of dynamicPages) {
             console.log(`🎨 ページ${actualPageNumber}生成中... (dynamic)`)
             
             const result = await generator.generatePageContent({
@@ -403,7 +404,7 @@ export class ContentGeneratorService {
       
       // 既存のハッシュタグ・キャプション生成を使用
       const hashtags = await this.generateHashtags(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
-      const caption = await this.generateCaptionWithFormat(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
+      const caption = await this.generateCaptionWithFormat(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId, knowledgeBaseParams)
       
       const generatedContent: GeneratedContent = {
         pages,
@@ -528,7 +529,8 @@ ${targetTone}
 
     try {
       console.log('🚀 キャプション再生成開始...')
-      const result = await this.model.generateContent(prompt)
+      // 🚫 AI API呼び出しをコメントアウト - 緊急対応
+      // const result = await this.model.generateContent(prompt)
       const response = await result.response
       const caption = response.text().trim()
       
@@ -688,7 +690,8 @@ ${targetTone}
 
     try {
       console.log('🚀 ページ再生成開始...', pageNumber)
-      const result = await this.model.generateContent(prompt)
+      // 🚫 AI API呼び出しをコメントアウト - 緊急対応
+      // const result = await this.model.generateContent(prompt)
       const response = await result.response
       const text = response.text()
       
@@ -1247,7 +1250,8 @@ ${additionalInstructions || '品質を向上させて再生成してください
     originalInput: string,
     generatedPages: GeneratedPage[],
     targetId?: string,
-    postType?: string
+    postType?: string,
+    knowledgeBaseParams?: KnowledgeBaseParams
   ): Promise<string> {
     
     // ターゲット別の文体調整
@@ -1342,12 +1346,27 @@ ${targetTone}
 `
     
     try {
-      const result = await this.model.generateContent(prompt)
-      const response = await result.response
-      const caption = response.text().trim()
+      // 🚫 AI API呼び出しをコメントアウト - 緊急対応
+      // const result = await this.model.generateContent(prompt)
+      // const response = await result.response
+      // const caption = response.text().trim()
+      
+      // 🎯 フォールバック: ナレッジベースからキャプション読み込み
+      let caption = `${originalInput.substring(0, 50)}についてまとめました。\n\n詳しい内容は投稿をご覧ください。\n\nFIND to DOで一緒に成長していきませんか。`
+      
+      // ナレッジベースパラメータがある場合はそこからキャプションを取得
+      if (knowledgeBaseParams?.knowledgeContents?.[0]) {
+        const knowledgeData = knowledgeBaseParams.knowledgeContents[0] as any
+        if (knowledgeData.caption && typeof knowledgeData.caption === 'string') {
+          caption = knowledgeData.caption
+          console.log('✅ ナレッジベースからキャプション読み込み完了')
+        } else {
+          console.log('⚠️ ナレッジベースにcaptionフィールドが見つからず、デフォルトキャプション使用')
+        }
+      }
       
       // 🎯 デバッグ: 生のレスポンスの改行確認
-      console.log('🔍 デバッグ: generateCaptionWithFormat改行確認')
+      console.log('🔍 デバッグ: generateCaptionWithFormat改行確認（フォールバック）')
       console.log('改行文字数:', (caption.match(/\n/g) || []).length)
       console.log('生のレスポンス:', JSON.stringify(caption))
       
@@ -1448,7 +1467,8 @@ ${contentSummary}
 }
 `
 
-      const result = await model.generateContent(prompt)
+      // 🚫 AI API呼び出しをコメントアウト - 緊急対応
+      // const result = await model.generateContent(prompt)
       const responseText = result.response.text()
       
       try {
@@ -1494,7 +1514,7 @@ ${contentSummary}
       const hashtags = await this.generateHashtags(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
       
       // キャプション生成
-      const caption = await this.generateCaptionWithFormat(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId)
+      const caption = await this.generateCaptionWithFormat(userInput, pages, knowledgeBaseParams?.targetId, knowledgeBaseParams?.typeId, knowledgeBaseParams)
 
       console.log('✅ 新統合システム結果変換完了')
 

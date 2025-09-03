@@ -1,0 +1,69 @@
+{
+  "patternId": "JS067",
+  "patternName": "メディア・広告業界年収TOP10",
+  "criteria": "salary",
+  "limit": 10,
+  "filters": {
+    "industry": "メディア・広告業界"
+  },
+  "generatedAt": "2025-08-29T12:30:22.810Z",
+  "totalMatched": 4,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "株式会社博報堂DYホールディングス",
+      "industry": "ホールディングス（広告代理店）",
+      "score": 11580000,
+      "metrics": {
+        "salary": 11580000,
+        "initialSalary": null,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 2,
+      "companyName": "東宝株式会社",
+      "industry": "エンターテインメント・メディア業界",
+      "score": 10840000,
+      "metrics": {
+        "salary": 10840000,
+        "initialSalary": null,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 3,
+      "companyName": "サイバーエージェント",
+      "industry": "インターネット広告業・メディア業・ゲーム業",
+      "score": 8820000,
+      "metrics": {
+        "salary": 8820000,
+        "initialSalary": 420,
+        "holidays": 125,
+        "overtime": 13.3,
+        "vacationRate": 55,
+        "turnoverRate3Years": 12.5
+      }
+    },
+    {
+      "rank": 4,
+      "companyName": "株式会社電通グループ",
+      "industry": "総合広告代理店",
+      "score": 0,
+      "metrics": {
+        "salary": null,
+        "initialSalary": 355300,
+        "holidays": null,
+        "overtime": 45.7,
+        "vacationRate": 55.3,
+        "turnoverRate3Years": null
+      }
+    }
+  ]
+}

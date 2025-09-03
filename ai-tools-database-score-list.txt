@@ -1,0 +1,79 @@
+=== AIツールデータベース全77ツール - スコア調整用リスト ===
+
+1位: Claude - 570点
+2位: ChatGPT - 560点
+3位: Gemini - 559点
+4位: Kling - 543点
+5位: ImageFX - 536点
+6位: Gladia - 537点
+7位: Pika - 535点
+8位: Perplexity - 545点
+9位: Fish Audio - 540点
+10位: Genspark - 543点
+11位: イルシル - 533点
+12位: Recraft - 533点
+13位: Manus - 539点
+14位: Notion AI - 533点
+15位: Gamma - 538点
+16位: Synthesia - 532点
+17位: Canva - 537点
+18位: Calendly AI - 536点
+19位: Murf - 535点
+20位: tl;dv - 537点
+21位: Zapier AI - 533点
+22位: Veo 3 - 532点
+23位: V0 - 538点
+24位: NapkinAI - 537点
+25位: Upscale.media - 527点
+26位: Grammarly - 530点
+27位: ElevenLabs - 530点
+28位: Looka - 530点
+29位: Vidu - 533点
+30位: Runway Gen-3 - 534点
+31位: Midjourney - 528点
+32位: Descript - 528点
+33位: Jasper AI - 528点
+34位: Writesonic - 528点
+35位: Felo - 528点
+36位: Claude Code - 524点
+37位: GitHub Copilot - 523点
+38位: Speechify - 523点
+39位: Deepgram - 522点
+40位: Character.AI - 521点
+41位: Namelix - 518点
+42位: Remove.bg - 517点
+43位: Lark - 517点
+44位: Otter.ai - 515点
+45位: Loom AI - 515点
+46位: DALL-E - 513点
+47位: Adobe Firefly - 513点
+48位: Microsoft Copilot - 512点
+49位: CrewAI - 512点
+50位: LogoAI - 511点
+51位: AssemblyAI - 510点
+52位: Designs.ai - 510点
+53位: Midjourney - 505点　重複してる
+54位: Bing AI (Microsoft Copilot) - 505点
+55位: Codeium - 505点
+56位: Rev AI - 505点
+57位: Framer AI - 505点
+58位: Brandmark - 505点
+59位: Copy.ai - 505点
+60位: Cursor - 502点
+61位: Mapify - 537点
+62位: Steve.AI - 492点
+63位: Tabnine - 490点
+64位: Pictory - 487点
+65位: Stable Diffusion - 485点
+66位: FlexClip - 485点
+67位: Sonix - 481点
+68位: Lumen5 - 475点
+69位: Obsidian - 473点
+70位: Motion - 470点
+71位: Sourcegraph Cody - 470点
+72位: n8n - 465点
+73位: You.com - 465点
+74位: Trint - 465点
+75位: Amazon Q Developer - 453点
+76位: Beautiful.AI - 450点
+77位: Clove note - 370点

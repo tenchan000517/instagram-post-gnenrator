@@ -1,0 +1,151 @@
+{
+  "patternId": "FC038",
+  "patternName": "総合ランキングTOP10",
+  "criteria": "overallScore",
+  "limit": 10,
+  "filters": {},
+  "generatedAt": "2025-08-29T12:30:23.071Z",
+  "totalMatched": 152,
+  "companies": [
+    {
+      "rank": 1,
+      "companyName": "三菱商事株式会社",
+      "industry": "商社（総合商社）",
+      "score": 30495019,
+      "metrics": {
+        "salary": 20330000,
+        "initialSalary": 340,
+        "holidays": null,
+        "overtime": 29.2,
+        "vacationRate": 71,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 2,
+      "companyName": "三井物産株式会社",
+      "industry": "商社（総合商社）",
+      "score": 29940008,
+      "metrics": {
+        "salary": 19960000,
+        "initialSalary": 320,
+        "holidays": null,
+        "overtime": 27.6,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 3,
+      "companyName": "ベイン・アンド・カンパニー",
+      "industry": "経営戦略コンサルティング",
+      "score": 28950011,
+      "metrics": {
+        "salary": 19300000,
+        "initialSalary": 62.5,
+        "holidays": null,
+        "overtime": 73,
+        "vacationRate": 71.5,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 4,
+      "companyName": "伊藤忠商事株式会社",
+      "industry": "商社（総合商社）",
+      "score": 27075024,
+      "metrics": {
+        "salary": 18050000,
+        "initialSalary": 325,
+        "holidays": null,
+        "overtime": 10.7,
+        "vacationRate": 69.1,
+        "turnoverRate3Years": 3.7
+      }
+    },
+    {
+      "rank": 5,
+      "companyName": "住友商事株式会社",
+      "industry": "商社（総合商社）",
+      "score": 26385020,
+      "metrics": {
+        "salary": 17590000,
+        "initialSalary": 325,
+        "holidays": 120,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 6,
+      "companyName": "丸紅株式会社",
+      "industry": "商社（総合商社）",
+      "score": 25635022,
+      "metrics": {
+        "salary": 17090000,
+        "initialSalary": 305,
+        "holidays": null,
+        "overtime": 15.8,
+        "vacationRate": 71.1,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 7,
+      "companyName": "ボストン・コンサルティング・グループ",
+      "industry": "戦略系経営コンサルティング",
+      "score": 24540000,
+      "metrics": {
+        "salary": 16360000,
+        "initialSalary": 70,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": null,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 8,
+      "companyName": "グーグル合同会社",
+      "industry": "外資系IT業界",
+      "score": 24363515,
+      "metrics": {
+        "salary": 16240000,
+        "initialSalary": 700000,
+        "holidays": null,
+        "overtime": null,
+        "vacationRate": 100,
+        "turnoverRate3Years": null
+      }
+    },
+    {
+      "rank": 9,
+      "companyName": "プリファード・ネットワークス",
+      "industry": "AI・テック業界",
+      "score": 20700046,
+      "metrics": {
+        "salary": 13800000,
+        "initialSalary": 600,
+        "holidays": 125,
+        "overtime": 15,
+        "vacationRate": 90,
+        "turnoverRate3Years": 3.5
+      }
+    },
+    {
+      "rank": 10,
+      "companyName": "PayPay",
+      "industry": "フィンテック業界",
+      "score": 20550041,
+      "metrics": {
+        "salary": 13700000,
+        "initialSalary": 400,
+        "holidays": 120,
+        "overtime": 23.3,
+        "vacationRate": 85,
+        "turnoverRate3Years": 5.5
+      }
+    }
+  ]
+}

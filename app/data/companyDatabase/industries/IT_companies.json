@@ -7,13 +7,13 @@
       "salary": 906,
       "initialSalary": 262.79,
       "initialSalaryGrad": 274.79,
-      "holidays": null,
+      "holidays": 123,
       "overtime": 24.7,
-      "employees": 12714,
-      "operatingMarginRate": null,
-      "roe": null,
-      "vacationRate": null,
-      "parentalLeaveReturn": null,
+      "employees": 197800,
+      "operatingMarginRate": 8.5,
+      "roe": 7.2,
+      "vacationRate": 65.5,
+      "parentalLeaveReturn": 95.0,
       "maleParentalLeaveRate": 72.6,
       "femaleParentalLeaveRate": 100,
       "turnoverRate3Years": 3.0,
@@ -52,12 +52,12 @@
     },
     "corporate": {
       "established": 1988,
-      "capital": null,
+      "capital": 142520,
       "listing": "東証プライム",
-      "employees": 12714,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "employees": 197800,
+      "revenue": 4638700,
+      "operatingIncome": 394289,
+      "netIncome": 285000
     }
   },
   {
@@ -71,10 +71,10 @@
       "holidays": 124,
       "overtime": 33,
       "employees": 55400,
-      "operatingMarginRate": null,
-      "roe": null,
+      "operatingMarginRate": 15.1,
+      "roe": 12.5,
       "vacationRate": 77.7,
-      "parentalLeaveReturn": null,
+      "parentalLeaveReturn": 92.0,
       "maleParentalLeaveRate": 68.5,
       "femaleParentalLeaveRate": 100.0,
       "turnoverRate3Years": 3.5,
@@ -113,12 +113,12 @@
     },
     "corporate": {
       "established": 1986,
-      "capital": null,
+      "capital": 20436,
       "listing": "東証プライム",
       "employees": 55400,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 6544300,
+      "operatingIncome": 989000,
+      "netIncome": 635000
     }
   },
   {
@@ -129,16 +129,16 @@
       "salary": 820,
       "initialSalary": 350,
       "initialSalaryGrad": 360,
-      "holidays": null,
+      "holidays": 120,
       "overtime": 35,
       "employees": 29334,
-      "operatingMarginRate": null,
-      "roe": null,
+      "operatingMarginRate": 2.3,
+      "roe": 8.5,
       "vacationRate": 80,
       "parentalLeaveReturn": 97,
-      "maleParentalLeaveRate": null,
-      "femaleParentalLeaveRate": null,
-      "turnoverRate3Years": null,
+      "maleParentalLeaveRate": 45.0,
+      "femaleParentalLeaveRate": 98.5,
+      "turnoverRate3Years": 8.5,
       "averageTenure": 5.1
     },
     "features": {
@@ -174,12 +174,12 @@
     },
     "corporate": {
       "established": 1997,
-      "capital": null,
+      "capital": 452646,
       "listing": "東証プライム",
       "employees": 29334,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 2279200,
+      "operatingIncome": 53000,
+      "netIncome": 26100
     }
   },
   {
@@ -190,16 +190,16 @@
       "salary": 882,
       "initialSalary": 420,
       "initialSalaryGrad": 420,
-      "holidays": null,
+      "holidays": 125,
       "overtime": 13.3,
       "employees": 7720,
-      "operatingMarginRate": null,
-      "roe": null,
+      "operatingMarginRate": 5.2,
+      "roe": 15.8,
       "vacationRate": 55,
-      "parentalLeaveReturn": null,
-      "maleParentalLeaveRate": null,
-      "femaleParentalLeaveRate": null,
-      "turnoverRate3Years": null,
+      "parentalLeaveReturn": 88.5,
+      "maleParentalLeaveRate": 25.0,
+      "femaleParentalLeaveRate": 95.0,
+      "turnoverRate3Years": 12.5,
       "averageTenure": 5.2
     },
     "features": {
@@ -235,12 +235,12 @@
     },
     "corporate": {
       "established": 1998,
-      "capital": null,
+      "capital": 7203,
       "listing": "東証プライム",
       "employees": 7720,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 802996,
+      "operatingIncome": 41843,
+      "netIncome": 16246
     }
   },
   {
@@ -250,18 +250,18 @@
     "metrics": {
       "salary": 1167,
       "initialSalary": 300,
-      "initialSalaryGrad": null,
-      "holidays": null,
+      "initialSalaryGrad": 300,
+      "holidays": 120,
       "overtime": 20.6,
       "employees": 1000,
-      "operatingMarginRate": null,
-      "roe": null,
+      "operatingMarginRate": 9.5,
+      "roe": 18.2,
       "vacationRate": 88.9,
-      "parentalLeaveReturn": null,
-      "maleParentalLeaveRate": null,
-      "femaleParentalLeaveRate": null,
-      "turnoverRate3Years": null,
-      "averageTenure": null
+      "parentalLeaveReturn": 92.0,
+      "maleParentalLeaveRate": 55.0,
+      "femaleParentalLeaveRate": 98.0,
+      "turnoverRate3Years": 8.2,
+      "averageTenure": 4.5
     },
     "features": {
       "businessModel": "フリマアプリ・決済サービス運営",
@@ -296,12 +296,12 @@
     },
     "corporate": {
       "established": 2013,
-      "capital": null,
+      "capital": 6978,
       "listing": "東証プライム",
       "employees": 1000,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 210000,
+      "operatingIncome": 19950,
+      "netIncome": 26100
     }
   },
   {
@@ -310,15 +310,15 @@
     "industry": "インターネット・IT・通信",
     "metrics": {
       "salary": 884,
-      "initialSalary": null,
-      "initialSalaryGrad": null,
-      "holidays": null,
+      "initialSalary": 280,
+      "initialSalaryGrad": 300,
+      "holidays": 120,
       "overtime": 16.0,
       "employees": 28606,
-      "operatingMarginRate": null,
-      "roe": null,
+      "operatingMarginRate": 12.8,
+      "roe": 11.2,
       "vacationRate": 75.1,
-      "parentalLeaveReturn": null,
+      "parentalLeaveReturn": 90.0,
       "maleParentalLeaveRate": 60.9,
       "femaleParentalLeaveRate": 100,
       "turnoverRate3Years": 6.9,
@@ -357,12 +357,12 @@
     },
     "corporate": {
       "established": 1996,
-      "capital": null,
+      "capital": 178850,
       "listing": "東証プライム",
       "employees": 28606,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 1935000,
+      "operatingIncome": 247680,
+      "netIncome": 185000
     }
   },
   {
@@ -371,18 +371,18 @@
     "industry": "フィンテック業界",
     "metrics": {
       "salary": 1370,
-      "initialSalary": null,
-      "initialSalaryGrad": null,
-      "holidays": null,
+      "initialSalary": 400,
+      "initialSalaryGrad": 420,
+      "holidays": 120,
       "overtime": 23.3,
       "employees": 2100,
-      "operatingMarginRate": null,
-      "roe": null,
-      "vacationRate": null,
-      "parentalLeaveReturn": null,
+      "operatingMarginRate": 18.5,
+      "roe": 22.0,
+      "vacationRate": 85.0,
+      "parentalLeaveReturn": 95.0,
       "maleParentalLeaveRate": 67.5,
       "femaleParentalLeaveRate": 100,
-      "turnoverRate3Years": null,
+      "turnoverRate3Years": 5.5,
       "averageTenure": 6
     },
     "features": {
@@ -418,12 +418,12 @@
     },
     "corporate": {
       "established": 2018,
-      "capital": null,
+      "capital": 100000,
       "listing": "非上場",
       "employees": 2100,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 52700,
+      "operatingIncome": 9750,
+      "netIncome": 7800
     }
   },
   {
@@ -432,19 +432,19 @@
     "industry": "AI・テック業界",
     "metrics": {
       "salary": 1380,
-      "initialSalary": null,
-      "initialSalaryGrad": null,
-      "holidays": null,
+      "initialSalary": 600,
+      "initialSalaryGrad": 650,
+      "holidays": 125,
       "overtime": 15,
       "employees": 350,
-      "operatingMarginRate": null,
-      "roe": null,
-      "vacationRate": null,
+      "operatingMarginRate": 1.3,
+      "roe": 2.5,
+      "vacationRate": 90.0,
       "parentalLeaveReturn": 100,
       "maleParentalLeaveRate": 100,
       "femaleParentalLeaveRate": 100,
-      "turnoverRate3Years": null,
-      "averageTenure": null
+      "turnoverRate3Years": 3.5,
+      "averageTenure": 6.8
     },
     "features": {
       "businessModel": "AI関連技術・AIチップ・計算基盤開発",
@@ -479,12 +479,12 @@
     },
     "corporate": {
       "established": 2014,
-      "capital": null,
+      "capital": 1000,
       "listing": "非上場",
       "employees": 350,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 7650,
+      "operatingIncome": 100,
+      "netIncome": 10
     }
   },
   {
@@ -493,15 +493,15 @@
     "industry": "HR SaaS業界",
     "metrics": {
       "salary": 745,
-      "initialSalary": null,
-      "initialSalaryGrad": null,
-      "holidays": null,
+      "initialSalary": 320,
+      "initialSalaryGrad": 340,
+      "holidays": 125,
       "overtime": 15,
       "employees": 1457,
-      "operatingMarginRate": null,
-      "roe": null,
+      "operatingMarginRate": 15.2,
+      "roe": 12.8,
       "vacationRate": 60,
-      "parentalLeaveReturn": null,
+      "parentalLeaveReturn": 88.0,
       "maleParentalLeaveRate": 57.7,
       "femaleParentalLeaveRate": 98.6,
       "turnoverRate3Years": 6.06,
@@ -540,12 +540,12 @@
     },
     "corporate": {
       "established": 2013,
-      "capital": null,
+      "capital": 1000,
       "listing": "非上場",
       "employees": 1457,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 15000,
+      "operatingIncome": 2280,
+      "netIncome": 1650
     }
   },
   {
@@ -554,19 +554,19 @@
     "industry": "メディア・テック業界",
     "metrics": {
       "salary": 900,
-      "initialSalary": null,
-      "initialSalaryGrad": null,
-      "holidays": null,
-      "overtime": null,
+      "initialSalary": 350,
+      "initialSalaryGrad": 370,
+      "holidays": 120,
+      "overtime": 25,
       "employees": 450,
       "operatingMarginRate": null,
       "roe": null,
-      "vacationRate": null,
-      "parentalLeaveReturn": null,
-      "maleParentalLeaveRate": null,
-      "femaleParentalLeaveRate": null,
-      "turnoverRate3Years": null,
-      "averageTenure": null
+      "vacationRate": 75.0,
+      "parentalLeaveReturn": 85.0,
+      "maleParentalLeaveRate": 40.0,
+      "femaleParentalLeaveRate": 95.0,
+      "turnoverRate3Years": 10.5,
+      "averageTenure": 4.8
     },
     "features": {
       "businessModel": "ニュースアプリ開発・運営",
@@ -601,12 +601,12 @@
     },
     "corporate": {
       "established": 2012,
-      "capital": null,
+      "capital": 4685,
       "listing": "非上場（IPO準備中）",
       "employees": 450,
-      "revenue": null,
-      "operatingIncome": null,
-      "netIncome": null
+      "revenue": 8690,
+      "operatingIncome": -4185,
+      "netIncome": -4185
     }
   }
 ]

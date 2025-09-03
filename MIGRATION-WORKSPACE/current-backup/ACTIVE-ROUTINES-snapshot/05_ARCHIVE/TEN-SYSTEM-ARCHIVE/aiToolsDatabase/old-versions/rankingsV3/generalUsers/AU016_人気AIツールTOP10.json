@@ -1,0 +1,347 @@
+{
+  "id": "AU016",
+  "title": "人気AIツールTOP10",
+  "description": "一般ユーザー向けの人気AIツールTOP10です。調整済みスコアに基づいて選出しています。",
+  "category": "AIツール総合",
+  "targetAudience": "T004: 26-29歳会社員・一般ユーザー",
+  "criteria": "popularity",
+  "filters": {},
+  "generatedAt": "2025-08-31T10:50:18.630Z",
+  "totalMatched": 66,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "ChatGPT",
+      "category": "AI会話・アシスタント",
+      "companyName": "OpenAI",
+      "score": 560,
+      "originalScore": 560,
+      "officialUrl": "https://chat.openai.com",
+      "metrics": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 100,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "汎用AI会話・作業支援・推論",
+        "uniqueFeatures": [
+          "Advanced Voice mode（動画・画面共有対応）",
+          "o-series推論モデル",
+          "Sora動画生成",
+          "Deep research agent"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "Remove.bg",
+      "category": "AI 画像編集・加工",
+      "companyName": "Canva (Remove.bg)",
+      "score": 290,
+      "originalScore": 580,
+      "officialUrl": "https://remove.bg",
+      "metrics": {
+        "immediacy": 100,
+        "simplicity": 100,
+        "popularity": 100,
+        "costPerformance": 90,
+        "specialization": 95,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "AI自動背景除去・画像編集",
+        "uniqueFeatures": [
+          "5秒自動背景除去",
+          "50MP高解像度対応",
+          "Magic Brush手動修正機能",
+          "バルク処理・API統合"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 9,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 3,
+      "toolName": "Midjourney",
+      "category": "AI画像生成",
+      "companyName": "Midjourney",
+      "score": 148.5,
+      "originalScore": 495,
+      "officialUrl": "https://www.midjourney.com/",
+      "metrics": {
+        "immediacy": 85,
+        "simplicity": 75,
+        "popularity": 100,
+        "costPerformance": 60,
+        "specialization": 95,
+        "productivityGain": 80
+      },
+      "features": {
+        "primaryFunction": "アーティスティックAI画像生成・デザイナー向け",
+        "uniqueFeatures": [
+          "V7ドラフトモード",
+          "オムニリファレンス",
+          "AI動画生成",
+          "Web統合エディタ"
+        ],
+        "platforms": [
+          "Web"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$8/月（年額払い）",
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 4,
+      "toolName": "GitHub Copilot",
+      "category": "開発支援・コーディング",
+      "companyName": "GitHub (Microsoft)",
+      "score": 508.25,
+      "originalScore": 535,
+      "officialUrl": "https://github.com/features/copilot",
+      "metrics": {
+        "immediacy": 95,
+        "simplicity": 90,
+        "popularity": 95,
+        "costPerformance": 90,
+        "specialization": 80,
+        "productivityGain": 85
+      },
+      "features": {
+        "primaryFunction": "AIコード補完・生成・チャット支援",
+        "uniqueFeatures": [
+          "リアルタイムコード提案",
+          "GitHub Copilot Spaces（チーム向け）",
+          "コーディングエージェント（Issue自動処理）",
+          "カスタム指示"
+        ],
+        "platforms": [
+          "Web",
+          "Windows",
+          "macOS",
+          "Linux",
+          "API"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 5,
+      "toolName": "Grammarly",
+      "category": "AI Writing Assistance",
+      "companyName": "Grammarly Inc.",
+      "score": 477,
+      "originalScore": 530,
+      "officialUrl": "https://www.grammarly.com",
+      "metrics": {
+        "immediacy": 95,
+        "simplicity": 90,
+        "popularity": 95,
+        "costPerformance": 85,
+        "specialization": 80,
+        "productivityGain": 85
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": []
+      },
+      "pricing": {
+        "hasFreeVersion": false,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 6,
+      "toolName": "Speechify",
+      "category": "テキスト読み上げ",
+      "companyName": "Speechify",
+      "score": 339.95,
+      "originalScore": 523,
+      "officialUrl": "https://speechify.com",
+      "metrics": {
+        "immediacy": 88,
+        "simplicity": 92,
+        "popularity": 95,
+        "costPerformance": 78,
+        "specialization": 82,
+        "productivityGain": 88
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "macOS",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 12,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 7,
+      "toolName": "Notion AI",
+      "category": "文書作成・ナレッジマネジメント",
+      "companyName": "Notion Labs",
+      "score": 150,
+      "originalScore": 500,
+      "officialUrl": "https://www.notion.com/",
+      "metrics": {
+        "immediacy": 85,
+        "simplicity": 80,
+        "popularity": 95,
+        "costPerformance": 60,
+        "specialization": 90,
+        "productivityGain": 90
+      },
+      "features": {
+        "primaryFunction": "AIを統合したノート作成・文書管理・ナレッジベース構築",
+        "uniqueFeatures": [
+          "AI Q&A機能",
+          "AIオートフィル",
+          "AIライター",
+          "データベース自動作成"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "Windows",
+          "macOS",
+          "API"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": "$10/月（年額払い）",
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 8,
+      "toolName": "ElevenLabs",
+      "category": "音声生成・クローニング",
+      "companyName": "ElevenLabs",
+      "score": 397.5,
+      "originalScore": 530,
+      "officialUrl": "https://elevenlabs.io",
+      "metrics": {
+        "immediacy": 85,
+        "simplicity": 88,
+        "popularity": 92,
+        "costPerformance": 82,
+        "specialization": 95,
+        "productivityGain": 88
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 5,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 9,
+      "toolName": "undefined",
+      "category": "AI Image Generation",
+      "companyName": "undefined",
+      "score": 151.5,
+      "originalScore": 505,
+      "officialUrl": "",
+      "metrics": {
+        "immediacy": 88,
+        "simplicity": 75,
+        "popularity": 92,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 85
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": []
+      },
+      "pricing": {
+        "hasFreeVersion": false,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 10,
+      "toolName": "undefined",
+      "category": "AI Workflow Automation",
+      "companyName": "undefined",
+      "score": 412,
+      "originalScore": 515,
+      "officialUrl": "https://zapier.com",
+      "metrics": {
+        "immediacy": 85,
+        "simplicity": 80,
+        "popularity": 90,
+        "costPerformance": 70,
+        "specialization": 95,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": []
+      },
+      "pricing": {
+        "hasFreeVersion": false,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    }
+  ]
+}

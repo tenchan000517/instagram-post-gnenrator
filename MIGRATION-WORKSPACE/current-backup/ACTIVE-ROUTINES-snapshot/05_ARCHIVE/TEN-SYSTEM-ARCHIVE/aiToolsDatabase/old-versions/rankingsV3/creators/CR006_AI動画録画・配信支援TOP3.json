@@ -1,0 +1,42 @@
+{
+  "id": "CR006",
+  "title": "AI動画録画・配信支援TOP3",
+  "description": "クリエイター・デザイナー向けのAI動画録画・配信支援TOP3です。調整済みスコアに基づいて選出しています。",
+  "category": "クリエイター向けAIツール",
+  "targetAudience": "T004: 26-29歳会社員・クリエイター・デザイナー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "AI Video Recording"
+  },
+  "generatedAt": "2025-08-31T10:50:18.706Z",
+  "totalMatched": 1,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "undefined",
+      "category": "AI Video Recording",
+      "companyName": "undefined",
+      "score": 309,
+      "originalScore": 515,
+      "officialUrl": "https://www.loom.com",
+      "metrics": {
+        "immediacy": 90,
+        "simplicity": 90,
+        "popularity": 85,
+        "costPerformance": 70,
+        "specialization": 85,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "",
+        "uniqueFeatures": [],
+        "platforms": []
+      },
+      "pricing": {
+        "hasFreeVersion": false,
+        "starterPrice": null,
+        "currency": "USD"
+      }
+    }
+  ]
+}

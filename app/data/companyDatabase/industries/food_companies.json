@@ -1,8 +1,185 @@
-{
-  "version": "2025-08-28",
-  "industry": "食品・農林・水産",
-  "lastUpdated": "2025-08-28",
-  "totalCompanies": 0,
-  "averageSalary": null,
-  "companies": []
-}
+[
+  {
+    "id": "FOOD001",
+    "companyName": "味の素株式会社",
+    "industry": "食品・調味料",
+    "metrics": {
+      "salary": 1037,
+      "initialSalary": 275,
+      "initialSalaryGrad": 287,
+      "holidays": 124,
+      "overtime": 24,
+      "employees": 34860,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": 1.5,
+      "averageTenure": 19.9
+    },
+    "features": {
+      "businessModel": "アミノ酸・調味料・冷凍食品の製造・販売事業",
+      "specialization": "アミノ酸技術を活用した食品・健康・バイオ事業",
+      "workStyle": "フレックスタイム制・テレワーク制度完備",
+      "growth": "グローバル展開・新規事業開発機会豊富"
+    },
+    "recruitment": {
+      "positions": ["営業", "マーケティング", "研究開発"],
+      "annualHiring": null,
+      "midCareer": "積極的に中途採用実施",
+      "internship": "夏季・冬季インターンシップ実施"
+    },
+    "welfare": {
+      "housingAllowance": "借上社宅制度",
+      "transportationAllowance": "通勤費全額支給",
+      "familyAllowance": "家族手当支給",
+      "cafeteria": "社員食堂・昼食補助あり",
+      "trainingSupport": "住宅財形制度・資格取得支援",
+      "uniqueBenefits": "退職年金制度・健康サポート制度",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": 44.3,
+      "genderRatio": null,
+      "remoteWork": "テレワーク制度あり",
+      "flextime": "フレックスタイム制度",
+      "dressCode": null,
+      "officeLocation": "東京（京橋）・国内外拠点",
+      "workCulture": "創造性重視・チャレンジ支援文化"
+    },
+    "corporate": {
+      "established": 1909,
+      "capital": null,
+      "listing": "東証プライム",
+      "employees": 34860,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "FOOD002",
+    "companyName": "アサヒ飲料株式会社",
+    "industry": "飲料・食品",
+    "metrics": {
+      "salary": null,
+      "initialSalary": 288.5,
+      "initialSalaryGrad": 303.5,
+      "holidays": 123,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": null,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "清涼飲料水・アルコール飲料の製造・販売",
+      "specialization": "機能性飲料・健康志向商品開発",
+      "workStyle": "スーパーフレックス・テレワーク制度",
+      "growth": "新商品開発・マーケティング強化機会"
+    },
+    "recruitment": {
+      "positions": ["営業", "マーケティング", "研究開発"],
+      "annualHiring": null,
+      "midCareer": "中途採用実施",
+      "internship": "インターンシップ実施"
+    },
+    "welfare": {
+      "housingAllowance": "住宅手当",
+      "transportationAllowance": "通勤手当（実費支給）",
+      "familyAllowance": "家族手当",
+      "cafeteria": null,
+      "trainingSupport": "研修制度・資格支援",
+      "uniqueBenefits": "在宅勤務手当・直行直帰制度",
+      "welfareGrade": "B",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "テレワーク制度（回数制限なし）",
+      "flextime": "スーパーフレックスタイム制度",
+      "dressCode": null,
+      "officeLocation": "全国転勤あり",
+      "workCulture": "チャレンジ精神・革新重視"
+    },
+    "corporate": {
+      "established": null,
+      "capital": null,
+      "listing": null,
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  },
+  {
+    "id": "FOOD003",
+    "companyName": "サントリーホールディングス株式会社",
+    "industry": "飲料・酒類・食品",
+    "metrics": {
+      "salary": 1133,
+      "initialSalary": null,
+      "initialSalaryGrad": null,
+      "holidays": 121,
+      "overtime": null,
+      "employees": null,
+      "operatingMarginRate": null,
+      "roe": null,
+      "vacationRate": 16.7,
+      "parentalLeaveReturn": null,
+      "maleParentalLeaveRate": null,
+      "femaleParentalLeaveRate": null,
+      "turnoverRate3Years": null,
+      "averageTenure": null
+    },
+    "features": {
+      "businessModel": "酒類・飲料・健康食品の製造・販売事業",
+      "specialization": "プレミアムブランド・健康価値創造",
+      "workStyle": "フレックス勤務・テレワーク制度",
+      "growth": "グローバル展開・MBA留学制度"
+    },
+    "recruitment": {
+      "positions": ["営業", "マーケティング", "専門スタッフ"],
+      "annualHiring": null,
+      "midCareer": "中途採用実施",
+      "internship": "インターンシップ実施"
+    },
+    "welfare": {
+      "housingAllowance": "社宅制度・家賃補助",
+      "transportationAllowance": "通勤費支給",
+      "familyAllowance": null,
+      "cafeteria": null,
+      "trainingSupport": "サントリー大学・MBA留学制度",
+      "uniqueBenefits": "海外トレーニー・リフレッシュ休暇",
+      "welfareGrade": "A",
+      "clubActivities": null
+    },
+    "workEnvironment": {
+      "averageAge": null,
+      "genderRatio": null,
+      "remoteWork": "テレワーク勤務制度",
+      "flextime": "フレックス勤務制度",
+      "dressCode": null,
+      "officeLocation": "東京・全国・海外拠点",
+      "workCulture": "挑戦・革新・やってみなはれ精神"
+    },
+    "corporate": {
+      "established": 1899,
+      "capital": null,
+      "listing": "非上場",
+      "employees": null,
+      "revenue": null,
+      "operatingIncome": null,
+      "netIncome": null
+    }
+  }
+]

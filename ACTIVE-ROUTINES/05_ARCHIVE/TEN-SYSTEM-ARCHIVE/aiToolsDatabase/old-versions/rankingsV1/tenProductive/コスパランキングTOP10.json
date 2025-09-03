@@ -1,0 +1,204 @@
+{
+  "rankingId": "TEN005",
+  "rankingName": "コスパランキングTOP10",
+  "description": "価格対機能・価値重視ランキング",
+  "generatedAt": "2025-08-31T08:28:41.333Z",
+  "criteria": "costEffectiveness",
+  "filters": {},
+  "totalCandidates": 78,
+  "displayCount": 10,
+  "tools": [
+    {
+      "rank": 1,
+      "toolId": "AI068",
+      "name": "Namelix",
+      "category": "AI 会社名・ブランド名生成",
+      "developer": "Brandmark (Namelix)",
+      "totalScore": 560,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "実ブランドデータ学習済みML",
+        "個人化学習機能",
+        "リアルタイムドメイン確認",
+        "Brandmarkロゴ生成連携"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 100,
+      "batchNumber": 9
+    },
+    {
+      "rank": 2,
+      "toolId": "AI048",
+      "name": "Jupyter AI",
+      "category": "AI研究・実行環境",
+      "developer": "Project Jupyter",
+      "totalScore": 485,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "%%ai マジックコマンド",
+        "ネイティブJupyterLab チャットUI",
+        "ローカルモデル対応（Ollama・GPT4All）"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 100,
+      "batchNumber": 6
+    },
+    {
+      "rank": 3,
+      "toolId": "AI014",
+      "name": "Obsidian",
+      "category": "ナレッジマネジメント",
+      "developer": "Dynalist Inc.",
+      "totalScore": 440,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "グラフビュー",
+        "双方向リンク",
+        "1000+プラグイン",
+        "ローカルファイル"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 100,
+      "batchNumber": 2
+    },
+    {
+      "rank": 4,
+      "toolId": "AI047",
+      "name": "Google Colab",
+      "category": "AI研究・実行環境",
+      "developer": "Google LLC",
+      "totalScore": 551,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Data Science Agent（DSA）",
+        "Gemini 2.5 Flash統合",
+        "自律解析フロー・エラー自動修正"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 98,
+      "batchNumber": 6
+    },
+    {
+      "rank": 5,
+      "toolId": "AI008",
+      "name": "Gemini",
+      "category": "AI会話・アシスタント",
+      "developer": "Google",
+      "totalScore": 535,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Deep Research（自動ウェブ調査）",
+        "Veo 3動画生成",
+        "Google Workspace完全統合",
+        "1Mトークンコンテキスト"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 1
+    },
+    {
+      "rank": 6,
+      "toolId": "AI037",
+      "name": "Bard (Google Gemini)",
+      "category": "汎用AIアシスタント",
+      "developer": "Google LLC",
+      "totalScore": 520,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "マルチモーダル処理",
+        "Google統合",
+        "Deep Think",
+        "Gems",
+        "Extensions"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 5
+    },
+    {
+      "rank": 7,
+      "toolId": "AI036",
+      "name": "Bing AI (Microsoft Copilot)",
+      "category": "AI検索・統合アシスタント",
+      "developer": "Microsoft Corporation",
+      "totalScore": 505,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "Microsoft 365統合",
+        "Deep Research",
+        "Copilot Pages",
+        "Voice機能",
+        "Think Deeper"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 5
+    },
+    {
+      "rank": 8,
+      "toolId": "AI039",
+      "name": "Hugging Face",
+      "category": "AIモデルプラットフォーム・コミュニティ",
+      "developer": "Hugging Face Inc",
+      "totalScore": 505,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "30万+モデル",
+        "5万+データセット",
+        "Spaces",
+        "Inference API",
+        "AutoTrain"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 5
+    },
+    {
+      "rank": 9,
+      "toolId": "AI044",
+      "name": "Codeium",
+      "category": "開発支援・コーディング",
+      "developer": "Exafunction Inc.",
+      "totalScore": 505,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "永続無料プラン（無制限）",
+        "リポジトリ全体コンテキスト理解",
+        "40+ IDE・70+ 言語対応"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 6
+    },
+    {
+      "rank": 10,
+      "toolId": "AI054",
+      "name": "Rev AI",
+      "category": "転写・字幕",
+      "developer": "Rev AI",
+      "totalScore": 505,
+      "tenScore": 0,
+      "grade": "N/A",
+      "keyFeatures": [
+        "14%エラー率（業界最高水準）",
+        "58言語対応",
+        "1-3msレイテンシ",
+        "話者識別（英語8名、他言語6名）",
+        "カスタム語彙対応",
+        "オンプレミス対応"
+      ],
+      "pricingTier": "Free",
+      "criteriaValue": 95,
+      "batchNumber": 7
+    }
+  ]
+}

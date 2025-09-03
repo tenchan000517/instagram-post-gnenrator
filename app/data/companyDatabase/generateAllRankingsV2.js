@@ -223,10 +223,29 @@ function generateRanking(companies, pattern) {
 function filterCompanies(companies, filters) {
   let result = [...companies];
   
-  // 業界フィルター
-  if (filters.industries && filters.industries.length > 0) {
+  // 業界フィルター（単数・複数両対応 + 業界マッピング）
+  if (filters.industry || (filters.industries && filters.industries.length > 0)) {
+    const industryMapping = getIndustryMappingForFiltering();
+    let targetIndustries = [];
+    
+    if (filters.industry) {
+      // 単数形の場合、マッピングを使って関連業界を取得
+      targetIndustries = industryMapping[filters.industry] || [filters.industry];
+    }
+    
+    if (filters.industries && filters.industries.length > 0) {
+      // 複数形の場合、各業界のマッピングを展開
+      filters.industries.forEach(industry => {
+        const mapped = industryMapping[industry] || [industry];
+        targetIndustries.push(...mapped);
+      });
+    }
+    
+    // 重複除去
+    targetIndustries = [...new Set(targetIndustries)];
+    
     result = result.filter(c => 
-      filters.industries.some(ind => 
+      targetIndustries.some(ind => 
         c.industryName === ind || c.industry === ind
       )
     );
@@ -365,6 +384,77 @@ function saveRanking(targetKey, pattern, ranking) {
 }
 
 /**
+ * フィルタリング用業界マッピング
+ */
+function getIndustryMappingForFiltering() {
+  return {
+    "IT業界": [
+      "システムインテグレーション業",
+      "AI・テック業界",
+      "IT・エンジニア人材サービス",
+      "IT・医療人材サービス",
+      "インターネット・IT・通信",
+      "外資系IT業界",
+      "外資系IT・EC業界"
+    ],
+    "食品・農林・水産": [
+      "食品業界",
+      "食品・調味料",
+      "飲料・酒類・食品",
+      "飲料・食品",
+      "農林水産",
+      "農業協同組合（JA）",
+      "農業機械・建設機械メーカー",
+      "農機・エンジン・船舶メーカー"
+    ],
+    "金融業界": [
+      "金融業界",
+      "銀行業界",
+      "証券業界",
+      "保険業界",
+      "信託銀行業界",
+      "ネット銀行",
+      "フィンテック業界",
+      "EC・フィンテック"
+    ],
+    "製薬業・医薬品製造業": [
+      "製薬業・医薬品製造業",
+      "製薬・医療機器業界",
+      "医薬品・医療機器業界",
+      "製薬業界"
+    ],
+    "化学業界": [
+      "化学業界",
+      "化学・素材業界",
+      "石油化学業界"
+    ],
+    "総合電機業界": [
+      "総合電機業界",
+      "電機・電子業界",
+      "電子部品業界",
+      "精密機器業界"
+    ],
+    "通信業界": [
+      "通信業界",
+      "インターネットサービス・フィンテック・モバイル通信",
+      "インターネット・IT・通信",
+      "モバイル通信業界"
+    ],
+    "メディア・広告業界": [
+      "メディア・広告業界",
+      "インターネット広告業・メディア業・ゲーム業",
+      "エンターテインメント・メディア業界",
+      "ホールディングス（広告代理店）"
+    ],
+    "コンサル業界": [
+      "コンサルティング業界",
+      "経営コンサルティング業界",
+      "ITコンサルティング業界"
+    ]
+  };
+}
+
+/**
  * 業界名からディレクトリ名を取得
  */
 function getIndustryDirectory(industryName) {
@@ -372,12 +462,12 @@ function getIndustryDirectory(industryName) {
     'IT業界': '01_IT業界',
     '食品・農林・水産': '02_食品業界',
     '金融業界': '03_金融業界',
-    '製薬業界': '04_製薬業界',
+    '製薬業・医薬品製造業': '04_製薬業界',
     '化学業界': '05_化学業界',
     '総合電機業界': '06_総合電機業界',
-    '通信インフラ業界': '07_通信業界',
+    '通信業界': '07_通信業界',
     'メディア・広告業界': '08_メディア・広告業界',
-    'コンサルティング業界': '09_コンサル業界'
+    'コンサル業界': '09_コンサル業界'
   };
   
   return industryMapping[industryName] || null;

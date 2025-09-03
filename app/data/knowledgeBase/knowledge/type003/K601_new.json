@@ -1,0 +1,24 @@
+{
+  "source": "contents-ranking-productivity-601",
+  "problemCategory": "生産性向上・効率化", 
+  "knowledgeId": "K601",
+  "postType": "003",
+  "pageCount": 8,
+  "pageStructurePattern": "unified-template-12-productivity-tool",
+  "targetIds": ["T004"],
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "template": "ten_intro",
+      "content": {
+        "problems": [
+          "AIツール多すぎて、どれを使えばいいかわからない",
+          "ChatGPT以外に使えるものってあるの？", 
+          "生産性を上げたいけど結局何がベストなのかわからない"
+        ],
+        "introMessage": "「AI生産性向上ツール」を紹介！",
+        "solution": "AIツール多すぎて、どれを使えばいいかわからない...\n\n私なりに「即効性・簡単さ・人気度」で選んだAI生産性向上ツールを紹介。"
+      }
+    }
+  }
+}

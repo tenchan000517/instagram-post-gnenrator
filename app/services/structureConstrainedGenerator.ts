@@ -62,9 +62,13 @@ ${templateStructureInstructions}
 `
 
     try {
-      const result = await this.model.generateContent(prompt)
-      const response = await result.response
-      const text = response.text()
+      // 🚫 AI API呼び出しをコメントアウト - 緊急対応
+      // const result = await this.model.generateContent(prompt)
+      // const response = await result.response
+      // const text = response.text()
+      
+      // 緊急フォールバック: 空のレスポンスを返却
+      const text = '[]'
       
       console.log('🎯 StructureConstrainedGenerator - 一括生成レスポンス:', text)
       
@@ -169,9 +173,13 @@ ${this.getTemplateSpecificInstructions(pageStructure.template)}
 `
 
     try {
-      const result = await this.model.generateContent(prompt)
-      const response = await result.response
-      const text = response.text()
+      // 🚫 AI API呼び出しをコメントアウト - 緊急対応
+      // const result = await this.model.generateContent(prompt)
+      // const response = await result.response
+      // const text = response.text()
+      
+      // 緊急フォールバック: 空のレスポンスを返却
+      const text = '[]'
       
       console.log('🎯 StructureConstrainedGenerator - 生のレスポンス:', text)
       

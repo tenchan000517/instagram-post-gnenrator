@@ -1,0 +1,834 @@
+{
+  "patternId": "DEV011",
+  "patternName": "学習・教育向けAIツールTOP5",
+  "criteria": "adjustedTenScore",
+  "limit": 5,
+  "filters": {
+    "isEducational": true
+  },
+  "generatedAt": "2025-09-02T00:50:37.390Z",
+  "totalMatched": 36,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Claude",
+      "score": 570,
+      "totalScore": 570,
+      "starRating": "★★★★★",
+      "id": "AI001",
+      "category": "AI会話・アシスタント",
+      "subCategory": "汎用対話AI",
+      "companyName": "Anthropic",
+      "officialUrl": "https://claude.ai",
+      "releaseInfo": {
+        "initialRelease": "2022-07",
+        "latestUpdate": "2025-08",
+        "version": "Claude 4 Family (Opus 4.1, Sonnet 4, Haiku 3.5)",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 18900000,
+        "monthlyActiveUsers": 18900000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "月20メッセージ制限、基本機能利用可",
+        "freeCredits": null,
+        "starterPrice": 20,
+        "starterFeatures": "Pro: 月間メッセージ無制限、優先アクセス",
+        "proPrice": null,
+        "proFeatures": null,
+        "maxPrice100": 100,
+        "maxPrice200": 200,
+        "maxFeatures": "Claude Opus 4.1、高速応答、長文対応",
+        "enterprisePrice": "要問合せ",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "汎用AI会話・文章作成・コーディング支援",
+        "uniqueFeatures": [
+          "Constitutional AI（安全性重視）",
+          "1M tokensコンテキストウィンドウ",
+          "長文読解・要約（最大200,000文字）",
+          "コードレビュー・生成"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "画像",
+          "ドキュメント"
+        ],
+        "outputFormats": [
+          "テキスト",
+          "コード",
+          "マークダウン"
+        ],
+        "integrations": [
+          "API",
+          "Slack",
+          "Web"
+        ],
+        "apiAvailability": "REST API、Python SDK、JavaScript SDK"
+      },
+      "technicalSpecs": {
+        "responseTime": "2-5秒",
+        "accuracyRate": "95%（文章生成推定）",
+        "dataPrivacy": "会話データは学習に使用しない、30日後削除",
+        "dataRetention": "30日",
+        "compliance": [
+          "SOC 2",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "maxTokens": 1000000,
+        "supportedLanguages": 95
+      },
+      "localization": {
+        "supportedLanguages": [
+          "日本語",
+          "英語",
+          "中国語",
+          "韓国語",
+          "フランス語",
+          "他90言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応（ネイティブレベル）",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 2,
+        "dailyUsageTime": "10-60分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.9%",
+        "scalability": "高（クラウドベース）",
+        "updateFrequency": "月1-2回",
+        "bugReports": null,
+        "serverLocation": "米国・欧州",
+        "loadTime": "1-2秒"
+      },
+      "community": {
+        "communitySize": 1000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（Discord、Reddit）",
+        "officialSupport": "メール・チャット",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "ChatGPT",
+          "Gemini",
+          "Microsoft Copilot"
+        ],
+        "keyDifferentiators": [
+          "constitutional AI（安全性重視）",
+          "長文処理能力",
+          "コンテキスト理解精度"
+        ],
+        "marketPosition": "プレミアム対話AI（安全性・品質重視）",
+        "marketShare": "推定15%（対話AI市場）"
+      },
+      "businessMetrics": {
+        "annualizedRevenue": 850000000,
+        "projectedRevenue2025": 2200000000,
+        "totalFunding": 4200000000,
+        "valuation": null,
+        "employeeCount": null
+      },
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 100,
+        "productivityGain": 100,
+        "totalScore": 570
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-30",
+      "sources": [
+        "https://claude.ai",
+        "https://www.anthropic.com",
+        "https://techcrunch.com/tag/anthropic/",
+        "https://analyzify.com/statsup/anthropic",
+        "https://www.cloudzero.com/blog/claude-pricing/"
+      ],
+      "additionalNotes": "Constitutional AIアプローチで安全性を重視。企業利用での信頼性が高い。2025年に大幅な成長を予測。"
+    },
+    {
+      "rank": 2,
+      "toolName": "ChatGPT",
+      "score": 560,
+      "totalScore": 560,
+      "starRating": "★★★★",
+      "id": "AI002",
+      "category": "AI会話・アシスタント",
+      "subCategory": "汎用対話AI",
+      "companyName": "OpenAI",
+      "officialUrl": "https://chat.openai.com",
+      "releaseInfo": {
+        "initialRelease": "2022-11",
+        "latestUpdate": "2025-08",
+        "version": "GPT-5 (無料利用可), GPT-4o, o-series (o1, o3-mini, o3)",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 700000000,
+        "weeklyActiveUsers": 700000000,
+        "paidSubscribers": 10000000,
+        "downloadCount": null,
+        "githubStars": null,
+        "appStoreRating": null,
+        "googlePlayRating": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "GPT-5無料利用可、GPT-4o mini、ウェブ検索、ファイルアップロード",
+        "freeCredits": null,
+        "plusPrice": 20,
+        "plusFeatures": "80メッセージ/3時間、GPT-4o無制限、Advanced Voice",
+        "goPrice": 399,
+        "goPriceNote": "インド限定（₹399/月）",
+        "proPrice": 200,
+        "proFeatures": "o1 pro mode、無制限アクセス、高度な計算能力",
+        "teamPrice": 25,
+        "teamPriceNote": "年契約、月払い$30",
+        "enterprisePrice": "要問合せ",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "汎用AI会話・作業支援・推論",
+        "uniqueFeatures": [
+          "GPT-5無料アクセス（限定）",
+          "Advanced Voice mode（動画・画面共有対応）",
+          "o-series推論モデル",
+          "Sora動画生成",
+          "Deep research agent"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "画像",
+          "音声",
+          "動画"
+        ],
+        "outputFormats": [
+          "テキスト",
+          "コード",
+          "画像",
+          "音声",
+          "動画"
+        ],
+        "integrations": [
+          "API",
+          "Microsoft製品",
+          "サードパーティ多数"
+        ],
+        "apiAvailability": "REST API、Python library、Node.js library"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-3秒",
+        "accuracyRate": "推定95%+",
+        "dataPrivacy": "Enterpriseデータは学習に不使用",
+        "dataRetention": "30日（Enterprise除く）",
+        "compliance": [
+          "SOC 2",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "maxTokens": 128000,
+        "supportedLanguages": 100
+      },
+      "localization": {
+        "supportedLanguages": [
+          "日本語",
+          "英語",
+          "中国語",
+          "他97言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": true
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 1,
+        "dailyUsageTime": "10-120分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.9%",
+        "scalability": "極高（世界最大級インフラ）",
+        "updateFrequency": "週1-2回",
+        "bugReports": null,
+        "serverLocation": "世界各地",
+        "loadTime": "1秒未満"
+      },
+      "community": {
+        "communitySize": 50000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "極めて活発",
+        "officialSupport": "チャット・メール",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Claude",
+          "Gemini",
+          "Microsoft Copilot"
+        ],
+        "keyDifferentiators": [
+          "最大ユーザーベース",
+          "最新のマルチモーダル機能",
+          "推論特化モデル（o-series）"
+        ],
+        "marketPosition": "AI会話市場のリーダー",
+        "marketShare": "62.5%"
+      },
+      "businessMetrics": {
+        "annualizedRevenue": 12000000000,
+        "monthlyRevenue": 1000000000,
+        "valuation": 157000000000,
+        "totalFunding": null,
+        "employeeCount": null
+      },
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 95,
+        "popularity": 100,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 95,
+        "totalScore": 560
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-30",
+      "sources": [
+        "https://openai.com/chatgpt/pricing/",
+        "https://openai.com/api/pricing/",
+        "https://techcrunch.com/2025/02/25/how-much-does-chatgpt-cost-everything-you-need-to-know-about-openais-pricing-plans/",
+        "https://backlinko.com/chatgpt-stats",
+        "https://www.brainchat.ai/blog/chatgpt-pricing"
+      ],
+      "additionalNotes": "AI会話市場の絶対的リーダー。最新のマルチモーダル機能と推論能力で差別化。Proプランは既に全売上の5.8%を占める。"
+    },
+    {
+      "rank": 3,
+      "toolName": "Gemini",
+      "score": 559,
+      "totalScore": 559,
+      "starRating": "★★★★",
+      "id": "AI008",
+      "category": "AI会話・アシスタント",
+      "subCategory": "統合型AI（Google）",
+      "companyName": "Google",
+      "officialUrl": "https://gemini.google.com",
+      "releaseInfo": {
+        "initialRelease": "2023-12",
+        "latestUpdate": "2025-08",
+        "version": "Gemini 2.5 Pro + Deep Think + Veo 3",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "businessUsers": 10000000,
+        "monthlyActiveUsers": null,
+        "downloadCount": null,
+        "githubStars": null
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "Gemini基本機能・制限付きアクセス",
+        "freeCredits": null,
+        "aiProPrice": 20,
+        "aiProFeatures": "2TB storage・Gemini 2.5 Pro・Deep Research・NotebookLM Plus",
+        "aiUltraPrice": null,
+        "aiUltraFeatures": "Gemini 2.5 Deep Think・Veo 3動画生成・最高レベルアクセス",
+        "workspaceIntegrated": true,
+        "workspaceNote": "2025年1月15日からWorkspace全プランに統合",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "統合型AI会話・作業支援・検索",
+        "uniqueFeatures": [
+          "Deep Research（自動ウェブ調査）",
+          "Veo 3動画生成",
+          "Google Workspace完全統合",
+          "1Mトークンコンテキスト"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "画像",
+          "音声",
+          "動画",
+          "ドキュメント"
+        ],
+        "outputFormats": [
+          "テキスト",
+          "画像",
+          "動画",
+          "音声",
+          "ドキュメント"
+        ],
+        "integrations": [
+          "Google Workspace",
+          "Gmail",
+          "Drive",
+          "Docs",
+          "Sheets"
+        ],
+        "apiAvailability": "Gemini API・Vertex AI"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-3秒",
+        "accuracyRate": "95%+",
+        "dataPrivacy": "エンタープライズ：学習に不使用",
+        "dataRetention": "ユーザー設定による",
+        "compliance": [
+          "SOC 2",
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "maxTokens": 1000000,
+        "supportedLanguages": 100
+      },
+      "localization": {
+        "supportedLanguages": [
+          "日本語",
+          "英語",
+          "中国語",
+          "韓国語",
+          "他96言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": true
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 1,
+        "dailyUsageTime": "10-60分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": true
+      },
+      "performance": {
+        "reliability": "99.9%",
+        "scalability": "極高（Google Cloud基盤）",
+        "updateFrequency": "週1-2回",
+        "bugReports": null,
+        "serverLocation": "世界各地",
+        "loadTime": "1秒未満"
+      },
+      "community": {
+        "communitySize": 5000000,
+        "documentationQuality": "Excellent",
+        "tutorialAvailability": true,
+        "communitySupport": "極めて活発",
+        "officialSupport": "Google Support",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "ChatGPT",
+          "Claude",
+          "Microsoft Copilot"
+        ],
+        "keyDifferentiators": [
+          "Google Workspace統合",
+          "Deep Research機能",
+          "企業向け無料統合（2025年変更）"
+        ],
+        "marketPosition": "企業統合AI（Google生態系）",
+        "marketShare": "推定20%"
+      },
+      "tenEvaluation": {
+        "immediacy": 94,
+        "simplicity": 99,
+        "popularity": 89,
+        "costPerformance": 99,
+        "specialization": 89,
+        "productivityGain": 89,
+        "totalScore": 559
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-31",
+      "sources": [
+        "https://gemini.google.com/subscriptions/",
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://one.google.com/about/google-ai-plans/",
+        "https://promevo.com/blog/gemini-ai-joins-the-google-workspace-suite",
+        "https://techcrunch.com/2025/07/16/google-rolls-out-ai-powered-business-calling-feature-brings-gemini-2-5-pro-to-ai-mode/"
+      ],
+      "additionalNotes": "2025年1月からGoogle Workspaceに標準統合。追加料金なしでAI機能提供により企業導入が加速。Deep Research・Veo 3で差別化。"
+    },
+    {
+      "rank": 4,
+      "toolName": "Perplexity",
+      "score": 545,
+      "totalScore": 545,
+      "starRating": "★★★",
+      "id": "AI005",
+      "category": "検索・情報収集",
+      "subCategory": "AI検索エンジン",
+      "companyName": "Perplexity AI",
+      "officialUrl": "https://www.perplexity.ai",
+      "releaseInfo": {
+        "initialRelease": "2022-12",
+        "latestUpdate": "2025-08",
+        "version": "Perplexity + Comet browser",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": 22000000,
+        "monthlyActiveUsers": 22000000,
+        "monthlyVisitors": 120000000,
+        "dailyActiveUsers": 2000000,
+        "dailyQueries": 30000000
+      },
+      "platform": {
+        "web": true,
+        "ios": true,
+        "android": true,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": true
+      },
+      "pricing": {
+        "freeTier": "無制限Quick Searches、5 Pro Searches/日",
+        "freeFeatures": "基本AI検索、ソース引用",
+        "proPrice": 20,
+        "proFeatures": "無制限クエリ、高速応答、高度AIモデルアクセス",
+        "enterpriseProPrice": 40,
+        "enterpriseProFeatures": "チーム機能、管理ダッシュボード、優先サポート",
+        "annualDiscount": "$400/年（Enterprise Pro）",
+        "billingCycle": "月額・年額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AI搭載リアルタイム検索・情報要約",
+        "uniqueFeatures": [
+          "リアルタイムウェブ検索",
+          "ソース引用付き回答",
+          "Perplexity Assistant（2025年1月）",
+          "Comet AI browser（2025年7月）"
+        ],
+        "inputFormats": [
+          "テキスト",
+          "音声",
+          "画像"
+        ],
+        "outputFormats": [
+          "テキスト要約",
+          "引用リンク",
+          "表・グラフ"
+        ],
+        "integrations": [
+          "ブラウザ拡張",
+          "API",
+          "モバイルアプリ"
+        ],
+        "apiAvailability": "Perplexity API"
+      },
+      "technicalSpecs": {
+        "responseTime": "1-3秒",
+        "accuracyRate": "高精度（ソース確認可能）",
+        "dataPrivacy": "検索履歴管理オプション",
+        "dataRetention": "ユーザー設定により制御",
+        "compliance": [
+          "GDPR準拠"
+        ],
+        "offline": false,
+        "realTimeData": true,
+        "sourceVerification": "多数ソース自動引用"
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "日本語",
+          "中国語",
+          "その他多言語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 1,
+        "dailyUsageTime": "10-60分",
+        "targetUserLevel": "初心者〜上級者",
+        "mobileOptimized": true,
+        "keyboardShortcuts": false
+      },
+      "performance": {
+        "reliability": "99%+",
+        "scalability": "高（急速拡大中）",
+        "updateFrequency": "週1-2回",
+        "bugReports": null,
+        "serverLocation": "世界各地",
+        "loadTime": "1-2秒"
+      },
+      "community": {
+        "communitySize": 1000000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発",
+        "officialSupport": "メール・チャット",
+        "userGenContent": false
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "Google Search",
+          "Bing AI",
+          "You.com"
+        ],
+        "keyDifferentiators": [
+          "AI要約+ソース引用",
+          "リアルタイム検索",
+          "会話形式インターフェース"
+        ],
+        "marketPosition": "AI検索の革新者",
+        "marketShare": "6.2%（AI検索市場）"
+      },
+      "businessMetrics": {
+        "annualRevenue": 100000000,
+        "annualRecurringRevenue": 80000000,
+        "valuation": 14000000000,
+        "totalFunding": 500000000,
+        "employeeCount": 247,
+        "monthlyQueries": 780000000,
+        "monthlyGrowth": "20%+"
+      },
+      "tenEvaluation": {
+        "immediacy": 95,
+        "simplicity": 100,
+        "popularity": 85,
+        "costPerformance": 90,
+        "specialization": 90,
+        "productivityGain": 85,
+        "totalScore": 545
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-30",
+      "sources": [
+        "https://www.perplexity.ai",
+        "https://taptwicedigital.com/stats/perplexity",
+        "https://www.demandsage.com/perplexity-ai-statistics/",
+        "https://www.perplexity.ai/enterprise/pricing",
+        "https://team-gpt.com/blog/perplexity-pricing"
+      ],
+      "additionalNotes": "AI検索市場の先駆者として急成長。リアルタイム情報とソース引用で差別化。$14Bの高評価。"
+    },
+    {
+      "rank": 5,
+      "toolName": "Fish Audio",
+      "score": 540,
+      "totalScore": 540,
+      "starRating": "★★★",
+      "id": "AI006",
+      "category": "音声生成・処理",
+      "subCategory": "AI音声クローニング・TTS",
+      "companyName": "Hanabi AI Inc. (OpenAudio)",
+      "officialUrl": "https://fish.audio",
+      "releaseInfo": {
+        "initialRelease": "2023",
+        "latestUpdate": "2025-08",
+        "version": "OpenAudio-S1 (rebranded)",
+        "developmentStatus": "Active"
+      },
+      "userMetrics": {
+        "userCount": null,
+        "kolUsers": 150,
+        "voiceLibrarySize": 200000,
+        "downloadCount": null,
+        "githubStars": null
+      },
+      "platform": {
+        "web": true,
+        "ios": false,
+        "android": false,
+        "windows": false,
+        "mac": false,
+        "linux": false,
+        "apiAccess": true,
+        "browserExtension": false
+      },
+      "pricing": {
+        "freeTier": "10,000文字/月",
+        "freeFeatures": "基本TTS・音声クローニング",
+        "premiumPrice": 9.99,
+        "premiumFeatures": "無制限音声生成、優先処理、商用利用権、API クレジット$10/月",
+        "proPrice": 99.99,
+        "proFeatures": "高品質リファレンス音声、最新AIモデル優先アクセス",
+        "proStatus": "予定",
+        "billingCycle": "月額",
+        "currency": "USD"
+      },
+      "coreFeatures": {
+        "primaryFunction": "AI音声クローニング・多言語TTS",
+        "uniqueFeatures": [
+          "30秒音声サンプルで即座クローニング",
+          "200,000+ユーザー投稿ボイス",
+          "感情・イントネーション制御",
+          "ゼロショット・フューショットTTS"
+        ],
+        "inputFormats": [
+          "音声ファイル（30秒）",
+          "テキスト"
+        ],
+        "outputFormats": [
+          "高品質音声ファイル"
+        ],
+        "integrations": [
+          "API",
+          "GitHub",
+          "Web"
+        ],
+        "apiAvailability": "RESTful API"
+      },
+      "technicalSpecs": {
+        "characterErrorRate": "0.4%",
+        "wordErrorRate": "0.8%",
+        "realTimeFactor": "1:7（RTX 4090）",
+        "sampleDuration": "10-30秒",
+        "responseTime": "数秒〜数分",
+        "accuracyRate": "95%+",
+        "dataPrivacy": "ユーザー音声データ保護",
+        "dataRetention": "設定により制御",
+        "compliance": null,
+        "offline": false
+      },
+      "localization": {
+        "supportedLanguages": [
+          "英語",
+          "日本語",
+          "韓国語",
+          "中国語",
+          "フランス語",
+          "ドイツ語",
+          "アラビア語",
+          "スペイン語"
+        ],
+        "japaneseUI": true,
+        "japaneseSupport": "完全対応",
+        "japaneseDocumentation": true,
+        "localizedPricing": false
+      },
+      "usability": {
+        "learningCurve": "Easy",
+        "setupTime": 5,
+        "dailyUsageTime": "10-60分",
+        "targetUserLevel": "初心者〜中級者",
+        "mobileOptimized": false,
+        "keyboardShortcuts": false
+      },
+      "performance": {
+        "reliability": "95%",
+        "scalability": "中（クラウドベース）",
+        "updateFrequency": "月1-2回",
+        "bugReports": null,
+        "serverLocation": "米国・アジア",
+        "loadTime": "3-10秒"
+      },
+      "community": {
+        "communitySize": 50000,
+        "documentationQuality": "Good",
+        "tutorialAvailability": true,
+        "communitySupport": "活発（Discord）",
+        "officialSupport": "メール",
+        "userGenContent": true
+      },
+      "competitiveAnalysis": {
+        "mainCompetitors": [
+          "ElevenLabs",
+          "Murf",
+          "Bark"
+        ],
+        "keyDifferentiators": [
+          "200,000+ボイスライブラリ",
+          "30秒クローニング",
+          "多言語クロスリンガル対応"
+        ],
+        "marketPosition": "オープンソース系音声AI",
+        "marketShare": "推定5%未満"
+      },
+      "tenEvaluation": {
+        "immediacy": 90,
+        "simplicity": 85,
+        "popularity": 90,
+        "costPerformance": 90,
+        "specialization": 95,
+        "productivityGain": 90,
+        "totalScore": 540
+      },
+      "batchNumber": 1,
+      "toolRange": "1-8",
+      "dataCollectionBatch": 1,
+      "lastVerified": "2025-08-30",
+      "sources": [
+        "https://fish.audio",
+        "https://github.com/fishaudio/fish-speech",
+        "https://www.toolify.ai/ai-news/ai-voice-cloning-a-comprehensive-guide-to-fish-audio-in-2025-3304590",
+        "https://aifounderkit.com/ai-tools/fish-audio-review-features-pricing-alternatives/",
+        "https://www.trendingaitools.com/ai-tools/fish-audio/"
+      ],
+      "additionalNotes": "OpenAudioにリブランド。オープンソース基盤で高品質音声生成。150+ KOL利用の実績。"
+    }
+  ]
+}

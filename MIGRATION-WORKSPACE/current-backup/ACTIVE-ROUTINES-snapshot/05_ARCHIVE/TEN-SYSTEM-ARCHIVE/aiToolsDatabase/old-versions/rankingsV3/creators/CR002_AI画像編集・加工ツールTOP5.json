@@ -1,0 +1,88 @@
+{
+  "id": "CR002",
+  "title": "AI画像編集・加工ツールTOP5",
+  "description": "クリエイター・デザイナー向けのAI画像編集・加工ツールTOP5です。調整済みスコアに基づいて選出しています。",
+  "category": "クリエイター向けAIツール",
+  "targetAudience": "T004: 26-29歳会社員・クリエイター・デザイナー",
+  "criteria": "adjustedTenScore",
+  "filters": {
+    "category": "AI 画像編集・加工"
+  },
+  "generatedAt": "2025-08-31T10:50:18.693Z",
+  "totalMatched": 2,
+  "tools": [
+    {
+      "rank": 1,
+      "toolName": "Remove.bg",
+      "category": "AI 画像編集・加工",
+      "companyName": "Canva (Remove.bg)",
+      "score": 290,
+      "originalScore": 580,
+      "officialUrl": "https://remove.bg",
+      "metrics": {
+        "immediacy": 100,
+        "simplicity": 100,
+        "popularity": 100,
+        "costPerformance": 90,
+        "specialization": 95,
+        "productivityGain": 95
+      },
+      "features": {
+        "primaryFunction": "AI自動背景除去・画像編集",
+        "uniqueFeatures": [
+          "5秒自動背景除去",
+          "50MP高解像度対応",
+          "Magic Brush手動修正機能",
+          "バルク処理・API統合"
+        ],
+        "platforms": [
+          "Web",
+          "iOS",
+          "Android",
+          "API",
+          "Browser Extension"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 9,
+        "currency": "USD"
+      }
+    },
+    {
+      "rank": 2,
+      "toolName": "Upscale.media",
+      "category": "AI 画像編集・加工",
+      "companyName": "Upscale.media",
+      "score": 257.5,
+      "originalScore": 515,
+      "officialUrl": "https://upscale.media",
+      "metrics": {
+        "immediacy": 80,
+        "simplicity": 90,
+        "popularity": 85,
+        "costPerformance": 85,
+        "specialization": 90,
+        "productivityGain": 85
+      },
+      "features": {
+        "primaryFunction": "AI画像高画質化・拡大・品質向上",
+        "uniqueFeatures": [
+          "2X/4X/8X画像拡大",
+          "JPEG アーティファクト除去",
+          "バルク処理対応",
+          "API統合・自動化"
+        ],
+        "platforms": [
+          "Web",
+          "API"
+        ]
+      },
+      "pricing": {
+        "hasFreeVersion": true,
+        "starterPrice": 6.99,
+        "currency": "USD"
+      }
+    }
+  ]
+}
