@@ -119,7 +119,7 @@ const TitleSection: React.FC<{ title: string; dynamicFontClass: string }> = ({ t
 const ToolGridSection: React.FC<{ tools: Tool[]; dynamicFontClass: string }> = ({ tools, dynamicFontClass }) => (
   <div className={STYLES.gridContainer}>
     <div 
-      className={`grid grid-cols-${GRID_CONFIG.columns} ${GRID_CONFIG.gridGap} ${GRID_CONFIG.gridPadding}`}
+      className={`grid grid-cols-5 ${GRID_CONFIG.gridGap} ${GRID_CONFIG.gridPadding}`}
       style={STYLES.gridBackground}
     >
       {tools.slice(0, GRID_CONFIG.maxTools).map((tool, index) => (

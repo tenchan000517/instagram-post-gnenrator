@@ -1,0 +1,376 @@
+{
+  "source": "contents-ranking-fc042-test",
+  "problemCategory": "キャリア・就職支援",
+  "knowledgeId": "K805_test",
+  "postType": "003",
+  "pageCount": 8,
+  "pageStructurePattern": "unified-template-11-company-ranking",
+  "targetIds": ["T013"],
+  "detailedContent": {
+    "page1": {
+      "section": "introduction",
+      "template": "basic_intro",
+      "content": {
+        "title": "女性が活躍してるIT企業年収ランキング",
+        "subtitle": "FIND to DOコミュニティ調べ",
+        "targetAudience": "女性でもIT業界で高年収って本当に実現できるの？",
+        "problems": [
+          "IT業界は男性中心で、女性が本当に活躍できる企業が見つからない",
+          "出産・育児後も続けられる高年収のIT企業を知りたい",
+          "女性管理職がいて、ロールモデルがある企業で働きたい"
+        ],
+        "persona": "KIKUYO",
+        "additionalMessage": "2025年最新データで客観的分析したのです！\n女性のIT業界でのキャリア構築をサポートするのです"
+      }
+    },
+    "page2": {
+      "section": "ranking",
+      "template": "ranking_display",
+      "content": {
+        "title": "女性が活躍してるIT企業年収ランキング",
+        "subtitle": "FIND to DOコミュニティ独自調査による",
+        "note": "2025年9月時点・KIKUYO調べ",
+        "items": [
+          {
+            "rank": 1,
+            "name": "グーグル合同会社",
+            "primaryValue": "1,624万円",
+            "secondaryValue": "初任給70万円",
+            "description": "AI・検索技術",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 2,
+            "name": "プリファード・ネットワークス",
+            "primaryValue": "1,380万円",
+            "secondaryValue": "残業15時間",
+            "description": "AI・深層学習",
+            "category": "AI・テック"
+          },
+          {
+            "rank": 3,
+            "name": "日本マイクロソフト株式会社",
+            "primaryValue": "1,303万円",
+            "secondaryValue": "初任給62万円",
+            "description": "クラウド・ソフトウェア",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 4,
+            "name": "株式会社セールスフォース・ジャパン",
+            "primaryValue": "1,216万円",
+            "secondaryValue": "初任給45万円",
+            "description": "CRM・営業支援",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 5,
+            "name": "アマゾンジャパン合同会社",
+            "primaryValue": "1,150万円",
+            "secondaryValue": "年休120日",
+            "description": "EC・クラウド",
+            "category": "外資系IT"
+          },
+          {
+            "rank": 6,
+            "name": "NTTデータ",
+            "primaryValue": "906万円",
+            "secondaryValue": "年休123日",
+            "description": "システムインテグレーション",
+            "category": "SI業界"
+          },
+          {
+            "rank": 7,
+            "name": "LINEヤフー",
+            "primaryValue": "884万円",
+            "secondaryValue": "残業16時間",
+            "description": "インターネット・IT・通信",
+            "category": "IT・通信"
+          },
+          {
+            "rank": 8,
+            "name": "オープンアップグループ",
+            "primaryValue": "664万円",
+            "secondaryValue": "初任給22万円",
+            "description": "IT・エンジニア人材サービス",
+            "category": "人材サービス"
+          },
+          {
+            "rank": 9,
+            "name": "レバレジーズ株式会社",
+            "primaryValue": "597万円",
+            "secondaryValue": "年休125日",
+            "description": "IT・医療人材サービス",
+            "category": "人材サービス"
+          },
+          {
+            "rank": 10,
+            "name": "Apple Japan合同会社",
+            "primaryValue": "994万円",
+            "secondaryValue": "柔軟な働き方",
+            "description": "ハードウェア・ソフトウェア",
+            "category": "外資系IT"
+          }
+        ]
+      }
+    },
+    "page3": {
+      "section": "details",
+      "template": "enhanced_company_detail",
+      "content": {
+        "layoutType": "dual",
+        "companies": [
+          {
+            "rank": 1,
+            "companyName": "グーグル合同会社",
+            "overview": "世界最大級の検索エンジンとAI技術を持つテクノロジー企業なのです。女性エンジニアの活躍を積極的に支援し、育児支援制度も充実しているのです。フレキシブルな働き方と高い報酬で、女性のキャリア形成に理想的な環境を提供しているのですわ。",
+            "parameterGraph": {
+              "salary": 100,
+              "workLifeBalance": 95,
+              "growth": 98,
+              "stability": 90,
+              "jobSatisfaction": 96
+            },
+            "keyHighlights": [
+              "年収1624万",
+              "有給100%",
+              "柔軟勤務",
+              "女性支援充実"
+            ],
+            "highlightMessage": "世界最高水準の報酬と女性が働きやすい環境が両立しているのです"
+          },
+          {
+            "rank": 2,
+            "companyName": "プリファード・ネットワークス",
+            "overview": "日本発のAI技術開発企業として世界的に注目されているのです。残業時間月15時間という驚異的な働きやすさと、1,380万円の高年収を実現しているのです。女性研究者も多く活躍し、最先端技術に携われる環境なのですわ。",
+            "parameterGraph": {
+              "salary": 85,
+              "workLifeBalance": 98,
+              "growth": 95,
+              "stability": 75,
+              "jobSatisfaction": 93
+            },
+            "keyHighlights": [
+              "年収1380万",
+              "残業月15h",
+              "有給90%",
+              "年休125日"
+            ],
+            "highlightMessage": "AI最先端×ワークライフバランス最高の理想的環境なのです"
+          }
+        ]
+      }
+    },
+    "page4": {
+      "section": "details",
+      "template": "enhanced_company_detail",
+      "content": {
+        "layoutType": "dual",
+        "companies": [
+          {
+            "rank": 3,
+            "companyName": "日本マイクロソフト株式会社",
+            "overview": "世界的ソフトウェア企業の日本法人として、クラウド・AIサービスを展開しているのです。女性の管理職比率向上に積極的で、産休・育休後の復職率も高いのです。初任給62万円という高水準からスタートできるのですわ。",
+            "parameterGraph": {
+              "salary": 80,
+              "workLifeBalance": 85,
+              "growth": 90,
+              "stability": 95,
+              "jobSatisfaction": 88
+            },
+            "keyHighlights": [
+              "年収1303万",
+              "初任給62万",
+              "残業月32h",
+              "外資安定"
+            ],
+            "highlightMessage": "グローバル企業の安定性と高年収が魅力的なのです"
+          },
+          {
+            "rank": 4,
+            "companyName": "株式会社セールスフォース・ジャパン",
+            "overview": "世界最大級のCRM企業として、営業支援ツールを提供しているのです。ダイバーシティを重視し、女性社員の活躍を積極的に支援しているのです。年収1,216万円という高報酬で、キャリアアップも期待できるのですわ。",
+            "parameterGraph": {
+              "salary": 75,
+              "workLifeBalance": 82,
+              "growth": 88,
+              "stability": 85,
+              "jobSatisfaction": 86
+            },
+            "keyHighlights": [
+              "年収1216万",
+              "初任給45万",
+              "CRM最大手",
+              "D&I推進"
+            ],
+            "highlightMessage": "CRM業界トップの安定性と女性活躍推進が魅力なのです"
+          }
+        ]
+      }
+    },
+    "page5": {
+      "section": "details",
+      "template": "enhanced_company_detail",
+      "content": {
+        "layoutType": "dual",
+        "companies": [
+          {
+            "rank": 5,
+            "companyName": "アマゾンジャパン合同会社",
+            "overview": "世界最大のECプラットフォームとクラウドサービスAWSを展開しているのです。年間休日120日と充実した休暇制度があり、女性も働きやすい環境なのです。年収1,150万円という高水準で安定したキャリアを築けるのですわ。",
+            "parameterGraph": {
+              "salary": 71,
+              "workLifeBalance": 80,
+              "growth": 92,
+              "stability": 88,
+              "jobSatisfaction": 84
+            },
+            "keyHighlights": [
+              "年収1150万",
+              "年休120日",
+              "残業月23h",
+              "有給73%"
+            ],
+            "highlightMessage": "EC×クラウドの二大事業で安定成長が見込めるのです"
+          },
+          {
+            "rank": 6,
+            "companyName": "NTTデータ",
+            "overview": "日本最大級のシステムインテグレーターとして、DX推進をリードしているのです。男性育休取得率72.6%、女性育休取得率100%という驚異的な実績があるのです。年収906万円で、長期的に安定したキャリアが築けるのですわ。",
+            "parameterGraph": {
+              "salary": 56,
+              "workLifeBalance": 88,
+              "growth": 75,
+              "stability": 93,
+              "jobSatisfaction": 82
+            },
+            "keyHighlights": [
+              "年収906万",
+              "年休123日",
+              "育休100%",
+              "男性育休73%"
+            ],
+            "highlightMessage": "日本企業トップクラスの育児支援制度が魅力なのです"
+          }
+        ]
+      }
+    },
+    "page6": {
+      "section": "details",
+      "template": "enhanced_company_detail",
+      "content": {
+        "layoutType": "dual",
+        "companies": [
+          {
+            "rank": 7,
+            "companyName": "LINEヤフー",
+            "overview": "日本最大級のインターネットサービス企業として、検索・メッセージング・ECなど幅広く展開しているのです。残業月16時間という働きやすさと、年収884万円を実現しているのです。女性エンジニアも多く活躍しているのですわ。",
+            "parameterGraph": {
+              "salary": 54,
+              "workLifeBalance": 90,
+              "growth": 80,
+              "stability": 85,
+              "jobSatisfaction": 83
+            },
+            "keyHighlights": [
+              "年収884万",
+              "残業月16h",
+              "有給75%",
+              "年休120日"
+            ],
+            "highlightMessage": "日本最大級IT企業で安定性とワークライフバランスが魅力なのです"
+          },
+          {
+            "rank": 8,
+            "companyName": "オープンアップグループ",
+            "overview": "IT・エンジニア人材サービスのリーディングカンパニーとして成長を続けているのです。年収664万円、初任給22万円からスタートし、着実にキャリアアップできる環境なのです。年間休日120日でプライベートも充実するのですわ。",
+            "parameterGraph": {
+              "salary": 41,
+              "workLifeBalance": 82,
+              "growth": 70,
+              "stability": 72,
+              "jobSatisfaction": 75
+            },
+            "keyHighlights": [
+              "年収664万",
+              "初任給22万",
+              "年休120日",
+              "人材成長"
+            ],
+            "highlightMessage": "IT人材サービスでキャリア形成をサポートする企業なのです"
+          }
+        ]
+      }
+    },
+    "page7": {
+      "section": "details",
+      "template": "enhanced_company_detail",
+      "content": {
+        "layoutType": "dual",
+        "companies": [
+          {
+            "rank": 9,
+            "companyName": "レバレジーズ株式会社",
+            "overview": "IT・医療分野の人材サービスを展開する成長企業なのです。年間休日125日という業界トップクラスの休暇制度があり、初任給35万円と新卒でも高待遇なのです。年収597万円で、ワークライフバランスを重視する方に最適なのですわ。",
+            "parameterGraph": {
+              "salary": 37,
+              "workLifeBalance": 92,
+              "growth": 78,
+              "stability": 70,
+              "jobSatisfaction": 77
+            },
+            "keyHighlights": [
+              "年収597万",
+              "初任給35万",
+              "年休125日",
+              "医療IT特化"
+            ],
+            "highlightMessage": "年間休日125日で最高のワークライフバランスを実現なのです"
+          },
+          {
+            "rank": 10,
+            "companyName": "Apple Japan合同会社",
+            "overview": "世界的なハードウェア・ソフトウェア企業の日本法人として、革新的な製品を提供しているのです。年収994万円という高水準で、柔軟な働き方が可能なのです。女性の活躍を推進し、多様性を重視する文化があるのですわ。",
+            "parameterGraph": {
+              "salary": 61,
+              "workLifeBalance": 85,
+              "growth": 85,
+              "stability": 90,
+              "jobSatisfaction": 90
+            },
+            "keyHighlights": [
+              "年収994万",
+              "柔軟勤務",
+              "革新的製品",
+              "D&I推進"
+            ],
+            "highlightMessage": "世界的ブランドで革新的な仕事に携われるのです"
+          }
+        ]
+      }
+    },
+    "page8": {
+      "section": "summary",
+      "template": "resource_summary",
+      "content": {
+        "title": "まとめ",
+        "summaryPoints": [
+          "外資系IT企業が年収ランキング上位を独占しているのです",
+          "女性の育休取得率100%、男性育休も推進している企業が増えているのですわ",
+          "ワークライフバランスと高年収の両立が可能になってきたのです"
+        ],
+        "actionCall": "データに基づいて、あなたに最適なIT企業を見つけてくださいね",
+        "resources": [
+          {
+            "title": "企業研究のポイント",
+            "description": "年収だけでなく、育児支援制度や女性管理職比率も確認することが大切なのです"
+          },
+          {
+            "title": "転職準備のアドバイス",
+            "description": "スキルアップと並行して、企業文化のマッチングも重視しましょう"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -134,7 +134,7 @@ export class MasterDataService {
    */
   static async getKnowledgeContent(knowledgeId: string): Promise<any | null> {
     // 各typeディレクトリを試行
-    const typeDirectories = ['type001', 'type002', 'type003', 'type004']
+    const typeDirectories = ['type001', 'type002', 'type003', 'type004', 'type005']
     
     for (const typeDir of typeDirectories) {
       try {
@@ -191,7 +191,7 @@ export class MasterDataService {
     const errors: string[] = []
 
     // TypeIDの存在チェック
-    const expectedTypes = ['001', '002', '003', '004']
+    const expectedTypes = ['001', '002', '003', '004', '005']
     for (const typeId of expectedTypes) {
       if (!this.relations.typeToTargets[typeId]) {
         errors.push(`Missing typeId: ${typeId}`)

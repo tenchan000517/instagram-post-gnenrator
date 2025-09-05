@@ -171,14 +171,18 @@ ${request.knowledgeContents[1].knowledgeId} 0.7`
    * @returns 存在する直接指定されたナレッジID配列
    */
   private static extractDirectKnowledgeIds(userInput: string, knowledgeContents: any[]): string[] {
-    // K###パターンをすべて抽出（大文字小文字混在対応・3-4桁対応）
-    const knowledgeIdPattern = /[Kk](\d{3,4})/g
+    // 新命名規則対応: K###, M###, KN###, T###, KY###, I###パターンをすべて抽出
+    const knowledgeIdPattern = /([KkMmTtIi]|KN|kn|KY|ky)(\d{3,4})/g
     const matches = userInput.match(knowledgeIdPattern)
     
     if (!matches) return []
     
-    // 正規化（大文字K + 数字）して重複除去
-    const extractedIds = [...new Set(matches.map(match => match.toUpperCase()))]
+    // 正規化（大文字 + 数字）して重複除去
+    const extractedIds = [...new Set(matches.map(match => {
+      const normalized = match.toUpperCase()
+      // KN, KY の正規化
+      return normalized.replace(/^KN/, 'KN').replace(/^KY/, 'KY')
+    }))]
     
     // 利用可能なナレッジリストに存在するIDのみを返す
     const availableIds = knowledgeContents.map(k => k.knowledgeId)
@@ -196,15 +200,17 @@ ${request.knowledgeContents[1].knowledgeId} 0.7`
       const lines = response.split('\n').map(line => line.trim()).filter(line => line)
       
       for (const line of lines) {
-        // "K001 0.85" 形式をパース（大文字小文字対応）
-        const match = line.match(/^([Kk]\d{3})\s+([\d.]+)$/)
+        // 新命名規則対応: "K001 0.85", "M001 0.85", "KN001 0.85", "T001 0.85", "KY001 0.85", "I001 0.85" 形式をパース
+        const match = line.match(/^(([KkMmTtIi]|KN|kn|KY|ky)\d{3,4})\s+([\d.]+)$/)
         if (match) {
-          // システム一貫形式に正規化（大文字K + 3桁数字）
-          const knowledgeId = match[1].toUpperCase()
-          const score = parseFloat(match[2])
+          // システム一貫形式に正規化（大文字 + 数字）
+          let knowledgeId = match[1].toUpperCase()
+          // KN, KY の正規化
+          knowledgeId = knowledgeId.replace(/^KN/, 'KN').replace(/^KY/, 'KY')
+          const score = parseFloat(match[3])
           
-          // バリデーション（3-4桁対応）
-          if (score >= 0 && score <= 1 && /^K\d{3,4}$/.test(knowledgeId)) {
+          // バリデーション（3-4桁対応・新命名規則対応）
+          if (score >= 0 && score <= 1 && /^(K|M|KN|T|KY|I)\d{3,4}$/.test(knowledgeId)) {
             // 利用可能なナレッジIDリストがある場合は存在チェック
             if (availableKnowledgeIds.length === 0 || availableKnowledgeIds.includes(knowledgeId)) {
               results.push({ knowledgeId, score })

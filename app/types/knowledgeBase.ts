@@ -69,7 +69,7 @@ export interface GenerationResult {
 }
 
 // TypeID選択用の型定義
-export type TypeID = '001' | '002' | '003' | '004';
+export type TypeID = '001' | '002' | '003' | '004' | '005';
 
 export interface TypeOption {
   id: TypeID;
@@ -80,8 +80,8 @@ export interface TypeOption {
   recommendedFor: string[];
 }
 
-// TargetID 選択用の型定義（24ターゲット：4投稿タイプ×6ターゲット）
-export type TargetID = 'T001' | 'T002' | 'T003' | 'T004' | 'T005' | 'T006' | 'T007' | 'T008' | 'T009' | 'T010' | 'T011' | 'T012' | 'T013' | 'T014' | 'T015' | 'T016' | 'T017' | 'T018' | 'T019' | 'T020' | 'T021' | 'T022' | 'T023' | 'T024';
+// TargetID 選択用の型定義（30ターゲット：5投稿タイプ×6ターゲット）
+export type TargetID = 'T001' | 'T002' | 'T003' | 'T004' | 'T005' | 'T006' | 'T007' | 'T008' | 'T009' | 'T010' | 'T011' | 'T012' | 'T013' | 'T014' | 'T015' | 'T016' | 'T017' | 'T018' | 'T019' | 'T020' | 'T021' | 'T022' | 'T023' | 'T024' | 'T025' | 'T026' | 'T027' | 'T028' | 'T029' | 'T030';
 
 export interface TargetOption {
   id: TargetID;
