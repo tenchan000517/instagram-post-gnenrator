@@ -1,0 +1,1586 @@
+{
+  "batchInfo": {
+    "batchNumber": 3,
+    "idRange": "Q031-Q045",
+    "totalQualifications": 15,
+    "completedDate": "2025-09-05",
+    "dataSource": "公式サイト調査",
+    "version": "1.0"
+  },
+  "qualifications": [
+    {
+      "id": "Q031",
+      "basicInfo": {
+        "name": "防災士",
+        "englishName": "Disaster Prevention Specialist",
+        "category": "安全・防災系",
+        "subCategory": "防災管理",
+        "qualificationType": "民間資格",
+        "organizingBody": "日本防災士機構",
+        "officialUrl": "https://bousaisi.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "講習+試験",
+        "examFrequency": "年数回（地域により異なる）",
+        "examFormat": "会場型マークシート",
+        "onlineOption": false,
+        "examFee": 3000,
+        "passingRate": 95,
+        "eligibilityRequirements": "講習受講必須",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 20,
+        "recommendedStudyMethod": ["講習会", "テキスト学習"],
+        "studyPeriod": 1,
+        "textbookCost": 5000,
+        "schoolCost": null,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["自治体", "防災関連企業", "教育機関"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": null,
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "地域防災活動でのリーダーシップ"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "講習＋簡単な確認テスト",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 20
+          }
+        },
+        "specialization": {
+          "score": 2,
+          "description": "特定分野の入門知識",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "あれば少し有利",
+          "detailFactors": {
+            "industryDemand": "あれば良い",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "小"
+          }
+        },
+        "incomeImpact": {
+          "score": 1,
+          "description": "収入への影響なし",
+          "detailFactors": {
+            "allowanceRange": "0",
+            "salaryIncrease": "0",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 5,
+          "description": "極易取得",
+          "detailFactors": {
+            "monetaryCost": 8000,
+            "timeCost": 1,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 12
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": true,
+        "workshopDuration": "2日間（12時間）",
+        "workshopTestDifficulty": "簡単（合格率95%以上）"
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["日本防災士機構公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "講習受講が必須の民間資格"
+      }
+    },
+    {
+      "id": "Q032",
+      "basicInfo": {
+        "name": "中小企業診断士",
+        "englishName": "SME Management Consultant",
+        "category": "ビジネス・経営系",
+        "subCategory": "経営コンサルタント",
+        "qualificationType": "国家資格",
+        "organizingBody": "経済産業省",
+        "officialUrl": "https://www.j-smeca.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（1次：8月、2次：10月）",
+        "examFormat": "1次：CBT、2次：論述+口述",
+        "onlineOption": true,
+        "examFee": 14500,
+        "passingRate": 23.7,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 60,
+        "renewalRequirements": "更新講習",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "実務補習15日間"
+      },
+      "learningInfo": {
+        "standardStudyHours": 1000,
+        "recommendedStudyMethod": ["独学", "通信講座", "予備校"],
+        "studyPeriod": 24,
+        "textbookCost": 30000,
+        "schoolCost": 300000,
+        "onlineCourseCost": 150000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["コンサルティング", "金融業", "製造業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 20000,
+          "max": 50000,
+          "average": 35000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["経営診断", "経営指導"],
+        "careerAdvancement": "経営コンサルタントとしての独立開業可能"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "超難関",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": true,
+            "examDifficulty": "超難",
+            "studyHours": 1000
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "経営分野の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "複数業界で高く評価される必須資格",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 5,
+          "description": "独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "20000-50000",
+            "salaryIncrease": "30+",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得",
+          "detailFactors": {
+            "monetaryCost": 500000,
+            "timeCost": 24,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 20
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["中小企業診断協会公式サイト", "経済産業省データ"],
+        "verificationStatus": "verified",
+        "notes": "経営コンサルタント唯一の国家資格"
+      }
+    },
+    {
+      "id": "Q033",
+      "basicInfo": {
+        "name": "ファイナンシャル・プランニング技能士",
+        "englishName": "Financial Planning Technician",
+        "category": "ビジネス・経営系",
+        "subCategory": "金融・保険",
+        "qualificationType": "国家資格",
+        "organizingBody": "金融財政事情研究会・日本FP協会",
+        "officialUrl": "https://www.kinzai.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年3回（1月・5月・9月）",
+        "examFormat": "CBT試験+実技",
+        "onlineOption": true,
+        "examFee": 8000,
+        "passingRate": 40,
+        "eligibilityRequirements": "なし（3級）",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 150,
+        "recommendedStudyMethod": ["独学", "通信講座", "スクール"],
+        "studyPeriod": 6,
+        "textbookCost": 8000,
+        "schoolCost": 80000,
+        "onlineCourseCost": 30000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["金融業", "保険業", "不動産業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 20000,
+          "average": 10000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": [],
+        "careerAdvancement": "金融業界でのキャリアアップに有利"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 150
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "金融分野の実務知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "金融業界で必須レベル",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当あり",
+          "detailFactors": {
+            "allowanceRange": "5000-20000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "取得しやすい",
+          "detailFactors": {
+            "monetaryCost": 38000,
+            "timeCost": 6,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["金融財政事情研究会公式サイト", "日本FP協会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "3級から1級まで段階的取得可能"
+      }
+    },
+    {
+      "id": "Q034",
+      "basicInfo": {
+        "name": "キャリアコンサルタント",
+        "englishName": "Career Consultant",
+        "category": "ビジネス・経営系",
+        "subCategory": "人材・キャリア",
+        "qualificationType": "国家資格",
+        "organizingBody": "厚生労働省",
+        "officialUrl": "https://www.cc-exam.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年3回（3月・7月・11月）",
+        "examFormat": "学科（マークシート）+実技（ロールプレイ+論述）",
+        "onlineOption": false,
+        "examFee": 29900,
+        "passingRate": 60,
+        "eligibilityRequirements": "養成講習修了または実務経験3年",
+        "validityPeriod": 60,
+        "renewalRequirements": "更新講習",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "養成講習150時間または実務経験3年"
+      },
+      "learningInfo": {
+        "standardStudyHours": 200,
+        "recommendedStudyMethod": ["養成講習", "通信講座"],
+        "studyPeriod": 6,
+        "textbookCost": 10000,
+        "schoolCost": 300000,
+        "onlineCourseCost": 200000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["人材紹介業", "教育機関", "企業人事"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 30000,
+          "average": 20000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["職業選択・職業能力開発の支援"],
+        "careerAdvancement": "人事・教育分野でのキャリアアップ"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能だが実技あり",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": true,
+            "examDifficulty": "中",
+            "studyHours": 200
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "人材・キャリア分野の実務知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "人材業界で必須レベル",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当あり",
+          "detailFactors": {
+            "allowanceRange": "10000-30000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "取得困難",
+          "detailFactors": {
+            "monetaryCost": 330000,
+            "timeCost": 6,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 15
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["キャリアコンサルティング協議会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "2016年に国家資格化された比較的新しい資格"
+      }
+    },
+    {
+      "id": "Q035",
+      "basicInfo": {
+        "name": "日商簿記検定",
+        "englishName": "JCCI Bookkeeping Test",
+        "category": "ビジネス・経営系",
+        "subCategory": "会計・簿記",
+        "qualificationType": "公的資格",
+        "organizingBody": "日本商工会議所",
+        "officialUrl": "https://www.kentei.ne.jp/bookkeeping"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年3回（6月・11月・2月）+ CBT随時",
+        "examFormat": "CBT試験+統一試験",
+        "onlineOption": true,
+        "examFee": 2850,
+        "passingRate": 50,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 100,
+        "recommendedStudyMethod": ["独学", "通信講座", "スクール"],
+        "studyPeriod": 3,
+        "textbookCost": 3000,
+        "schoolCost": 50000,
+        "onlineCourseCost": 15000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["会計事務所", "一般企業経理", "金融業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 3000,
+          "max": 10000,
+          "average": 5000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "経理・会計分野への就職・転職に有利"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 100
+          }
+        },
+        "specialization": {
+          "score": 2,
+          "description": "特定分野の入門知識",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "経理分野で重視される",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "資格手当あり（少額）",
+          "detailFactors": {
+            "allowanceRange": "3000-10000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "取得しやすい",
+          "detailFactors": {
+            "monetaryCost": 18000,
+            "timeCost": 3,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 14
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["日本商工会議所公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "最も知名度の高い簿記資格、3級から1級まで"
+      }
+    },
+    {
+      "id": "Q036",
+      "basicInfo": {
+        "name": "秘書技能検定",
+        "englishName": "Secretary Proficiency Test",
+        "category": "ビジネス・経営系",
+        "subCategory": "事務・秘書",
+        "qualificationType": "公的資格",
+        "organizingBody": "実務技能検定協会",
+        "officialUrl": "https://jitsumu-kentei.jp/HS/index"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年3回（6月・11月・2月）",
+        "examFormat": "筆記試験+実技（面接）",
+        "onlineOption": false,
+        "examFee": 4100,
+        "passingRate": 65,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 80,
+        "recommendedStudyMethod": ["独学", "通信講座"],
+        "studyPeriod": 3,
+        "textbookCost": 2500,
+        "schoolCost": 30000,
+        "onlineCourseCost": 15000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["一般企業", "医療機関", "法律事務所"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 2000,
+          "max": 8000,
+          "average": 5000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "秘書・事務職への就職に有利"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "講習＋簡単な確認テスト",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 80
+          }
+        },
+        "specialization": {
+          "score": 1,
+          "description": "汎用的基礎知識",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "あれば少し有利",
+          "detailFactors": {
+            "industryDemand": "あれば良い",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "小"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "資格手当あり（少額）",
+          "detailFactors": {
+            "allowanceRange": "2000-8000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "取得しやすい",
+          "detailFactors": {
+            "monetaryCost": 17500,
+            "timeCost": 3,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 11
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["実務技能検定協会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "ビジネスマナーの基礎を学べる人気資格"
+      }
+    },
+    {
+      "id": "Q037",
+      "basicInfo": {
+        "name": "小学校教諭一種免許状",
+        "englishName": "Elementary School Teacher License",
+        "category": "教育系",
+        "subCategory": "教員免許",
+        "qualificationType": "国家資格",
+        "organizingBody": "文部科学省",
+        "officialUrl": "https://www.mext.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "課程履修",
+        "examFrequency": "教員採用試験（年1回・各自治体）",
+        "examFormat": "筆記試験+実技+面接",
+        "onlineOption": false,
+        "examFee": 0,
+        "passingRate": 30,
+        "eligibilityRequirements": "大学卒業+教職課程修了",
+        "validityPeriod": 120,
+        "renewalRequirements": "免許更新講習",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "教育実習4週間+介護等体験7日間"
+      },
+      "learningInfo": {
+        "standardStudyHours": 2000,
+        "recommendedStudyMethod": ["大学教職課程"],
+        "studyPeriod": 48,
+        "textbookCost": 50000,
+        "schoolCost": 4000000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["公立学校", "私立学校", "教育関連企業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": null,
+        "independenceCapability": false,
+        "exclusiveOperations": ["小学校での教育活動"],
+        "careerAdvancement": "教育管理職への道筋"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "専門教育必要",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": true,
+            "examDifficulty": "難",
+            "studyHours": 2000
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "教育分野の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "教育業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "公務員として安定収入",
+          "detailFactors": {
+            "allowanceRange": "0",
+            "salaryIncrease": "20-30",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得",
+          "detailFactors": {
+            "monetaryCost": 4000000,
+            "timeCost": 48,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 18
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["文部科学省公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "大学での4年間の教職課程履修が必要"
+      }
+    },
+    {
+      "id": "Q038",
+      "basicInfo": {
+        "name": "保育士",
+        "englishName": "Childcare Worker",
+        "category": "教育系",
+        "subCategory": "保育・福祉",
+        "qualificationType": "国家資格",
+        "organizingBody": "厚生労働省",
+        "officialUrl": "https://www.hoyokyo.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験または養成校卒業",
+        "examFrequency": "年2回（4月・10月）",
+        "examFormat": "筆記試験+実技",
+        "onlineOption": false,
+        "examFee": 12950,
+        "passingRate": 25,
+        "eligibilityRequirements": "高校卒業以上+実務経験2年または大学卒業",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし（試験の場合）"
+      },
+      "learningInfo": {
+        "standardStudyHours": 500,
+        "recommendedStudyMethod": ["独学", "通信講座", "養成校"],
+        "studyPeriod": 12,
+        "textbookCost": 20000,
+        "schoolCost": 2000000,
+        "onlineCourseCost": 100000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["保育園", "幼稚園", "児童福祉施設"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 15000,
+          "average": 10000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["保育業務"],
+        "careerAdvancement": "保育施設の管理職"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "専門教育推奨",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "難",
+            "studyHours": 500
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "保育分野の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "保育業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当あり",
+          "detailFactors": {
+            "allowanceRange": "5000-15000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "取得困難",
+          "detailFactors": {
+            "monetaryCost": 120000,
+            "timeCost": 12,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["全国保育士養成協議会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "保育士不足により高いニーズがある国家資格"
+      }
+    },
+    {
+      "id": "Q039",
+      "basicInfo": {
+        "name": "日本語教育能力検定",
+        "englishName": "Japanese Language Teaching Competency Test",
+        "category": "教育系",
+        "subCategory": "語学教育",
+        "qualificationType": "公的資格",
+        "organizingBody": "日本国際教育支援協会",
+        "officialUrl": "https://www.jees.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（10月）",
+        "examFormat": "筆記試験+聴解+記述",
+        "onlineOption": false,
+        "examFee": 17000,
+        "passingRate": 28,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 400,
+        "recommendedStudyMethod": ["独学", "通信講座", "養成講座"],
+        "studyPeriod": 12,
+        "textbookCost": 15000,
+        "schoolCost": 500000,
+        "onlineCourseCost": 200000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["日本語学校", "大学", "国際交流機関"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 20000,
+          "average": 15000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": [],
+        "careerAdvancement": "日本語教師としての専門性向上"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "高度な専門知識必要",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "難",
+            "studyHours": 400
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "日本語教育の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "日本語教育分野で重視",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "専門業務可能",
+          "detailFactors": {
+            "allowanceRange": "10000-20000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度",
+          "detailFactors": {
+            "monetaryCost": 200000,
+            "timeCost": 12,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 16
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["日本国際教育支援協会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "日本語教師になるための代表的な資格"
+      }
+    },
+    {
+      "id": "Q040",
+      "basicInfo": {
+        "name": "獣医師",
+        "englishName": "Veterinarian",
+        "category": "動物・農業系",
+        "subCategory": "動物医療",
+        "qualificationType": "国家資格",
+        "organizingBody": "農林水産省",
+        "officialUrl": "https://www.maff.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（2月）",
+        "examFormat": "筆記試験+実地試験",
+        "onlineOption": false,
+        "examFee": 16800,
+        "passingRate": 72,
+        "eligibilityRequirements": "獣医学部6年制課程修了",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "獣医学実習"
+      },
+      "learningInfo": {
+        "standardStudyHours": 5000,
+        "recommendedStudyMethod": ["獣医学部"],
+        "studyPeriod": 72,
+        "textbookCost": 200000,
+        "schoolCost": 12000000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["動物病院", "農業共済", "製薬会社"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": null,
+        "independenceCapability": true,
+        "exclusiveOperations": ["動物の診療", "公衆衛生業務"],
+        "careerAdvancement": "動物病院開業や専門分野への特化"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "超難関（6年制大学必須）",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": true,
+            "examDifficulty": "超難",
+            "studyHours": 5000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "動物医療分野で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 5,
+          "description": "独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "0",
+            "salaryIncrease": "30+",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得",
+          "detailFactors": {
+            "monetaryCost": 12000000,
+            "timeCost": 72,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 21
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["農林水産省公式サイト", "日本獣医師会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "獣医学部6年制課程修了が必須の医師系国家資格"
+      }
+    },
+    {
+      "id": "Q041",
+      "basicInfo": {
+        "name": "愛玩動物看護師",
+        "englishName": "Veterinary Nurse",
+        "category": "動物・農業系",
+        "subCategory": "動物看護",
+        "qualificationType": "国家資格",
+        "organizingBody": "農林水産省・環境省",
+        "officialUrl": "https://www.ccrvn.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（2月）",
+        "examFormat": "筆記試験",
+        "onlineOption": false,
+        "examFee": 18700,
+        "passingRate": 95,
+        "eligibilityRequirements": "養成所3年以上または大学卒業",
+        "validityPeriod": 60,
+        "renewalRequirements": "生涯研修",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "臨地実習"
+      },
+      "learningInfo": {
+        "standardStudyHours": 1800,
+        "recommendedStudyMethod": ["養成所", "大学"],
+        "studyPeriod": 36,
+        "textbookCost": 50000,
+        "schoolCost": 3000000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["動物病院", "動物関連施設"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 25000,
+          "average": 18000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["診療補助業務"],
+        "careerAdvancement": "動物看護師としての専門性向上"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "専門学校必須だが合格率高い",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": true,
+            "examDifficulty": "易",
+            "studyHours": 1800
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "動物看護の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "動物医療業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当あり",
+          "detailFactors": {
+            "allowanceRange": "10000-25000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "取得困難（養成校必須）",
+          "detailFactors": {
+            "monetaryCost": 3000000,
+            "timeCost": 36,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 16
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["愛玩動物看護師カリキュラム等検討会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "2019年に新設された動物看護師初の国家資格"
+      }
+    },
+    {
+      "id": "Q042",
+      "basicInfo": {
+        "name": "航空機操縦士",
+        "englishName": "Airline Transport Pilot",
+        "category": "航空・船舶系",
+        "subCategory": "航空操縦",
+        "qualificationType": "国家資格",
+        "organizingBody": "国土交通省",
+        "officialUrl": "https://www.mlit.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年12回（CBT）",
+        "examFormat": "CBT+実技試験",
+        "onlineOption": true,
+        "examFee": 5600,
+        "passingRate": 70,
+        "eligibilityRequirements": "飛行経験1500時間",
+        "validityPeriod": 24,
+        "renewalRequirements": "技能証明更新",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "飛行経験1500時間"
+      },
+      "learningInfo": {
+        "standardStudyHours": 2000,
+        "recommendedStudyMethod": ["航空大学校", "民間フライトスクール"],
+        "studyPeriod": 60,
+        "textbookCost": 100000,
+        "schoolCost": 15000000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["航空会社", "航空機使用事業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": null,
+        "independenceCapability": false,
+        "exclusiveOperations": ["航空機操縦"],
+        "careerAdvancement": "機長への昇格、管理職への道"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "超難関（高額費用と長期間）",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": true,
+            "examDifficulty": "超難",
+            "studyHours": 2000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "航空操縦の高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "航空業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 5,
+          "description": "超高収入",
+          "detailFactors": {
+            "allowanceRange": "0",
+            "salaryIncrease": "30+",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得",
+          "detailFactors": {
+            "monetaryCost": 15000000,
+            "timeCost": 60,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 21
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["国土交通省航空局公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "最高難度かつ最高収入の国家資格の一つ"
+      }
+    },
+    {
+      "id": "Q043",
+      "basicInfo": {
+        "name": "小型船舶操縦士",
+        "englishName": "Small Boat Operator",
+        "category": "航空・船舶系",
+        "subCategory": "船舶操縦",
+        "qualificationType": "国家資格",
+        "organizingBody": "国土交通省",
+        "officialUrl": "https://www.jmra.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年数十回",
+        "examFormat": "学科+実技試験",
+        "onlineOption": false,
+        "examFee": 18900,
+        "passingRate": 95,
+        "eligibilityRequirements": "なし（1級・2級）",
+        "validityPeriod": 60,
+        "renewalRequirements": "更新講習",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 20,
+        "recommendedStudyMethod": ["教習所", "独学"],
+        "studyPeriod": 1,
+        "textbookCost": 3000,
+        "schoolCost": 150000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["マリンレジャー業", "漁業", "海運業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 15000,
+          "average": 10000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["小型船舶操縦"],
+        "careerAdvancement": "海事関連業務への展開"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "講習＋簡単な確認テスト",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 20
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "船舶操縦の実務知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "特定業界で有利",
+          "detailFactors": {
+            "industryDemand": "あれば良い",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "小"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "専門業務可能",
+          "detailFactors": {
+            "allowanceRange": "5000-15000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度",
+          "detailFactors": {
+            "monetaryCost": 150000,
+            "timeCost": 1,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 12
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["日本海洋レジャー安全・振興協会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "海のレジャーや業務に必要な国家資格"
+      }
+    },
+    {
+      "id": "Q044",
+      "basicInfo": {
+        "name": "TOEIC",
+        "englishName": "Test of English for International Communication",
+        "category": "語学・国際系",
+        "subCategory": "英語能力",
+        "qualificationType": "国際資格",
+        "organizingBody": "国際ビジネスコミュニケーション協会",
+        "officialUrl": "https://www.iibc-global.org/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年10回",
+        "examFormat": "マークシート（リスニング+リーディング）",
+        "onlineOption": true,
+        "examFee": 7810,
+        "passingRate": 100,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 24,
+        "renewalRequirements": "なし（スコア有効期限2年）",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 200,
+        "recommendedStudyMethod": ["独学", "オンライン学習", "英会話スクール"],
+        "studyPeriod": 6,
+        "textbookCost": 5000,
+        "schoolCost": 200000,
+        "onlineCourseCost": 30000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["全業界", "外資系企業", "商社"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 3000,
+          "max": 20000,
+          "average": 10000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "国際的なキャリア形成に有利"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 200
+          }
+        },
+        "specialization": {
+          "score": 2,
+          "description": "汎用的語学知識",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "多くの業界で重視",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当あり",
+          "detailFactors": {
+            "allowanceRange": "3000-20000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "取得しやすい",
+          "detailFactors": {
+            "monetaryCost": 35000,
+            "timeCost": 6,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 16
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["国際ビジネスコミュニケーション協会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "世界共通の英語コミュニケーション能力測定テスト"
+      }
+    },
+    {
+      "id": "Q045",
+      "basicInfo": {
+        "name": "実用英語技能検定（英検）",
+        "englishName": "EIKEN Test in Practical English Proficiency",
+        "category": "語学・国際系",
+        "subCategory": "英語能力",
+        "qualificationType": "公的資格",
+        "organizingBody": "日本英語検定協会",
+        "officialUrl": "https://www.eiken.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年3回（6月・10月・1月）",
+        "examFormat": "筆記試験+リスニング+面接",
+        "onlineOption": false,
+        "examFee": 10500,
+        "passingRate": 25,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 300,
+        "recommendedStudyMethod": ["独学", "英会話スクール", "通信講座"],
+        "studyPeriod": 12,
+        "textbookCost": 8000,
+        "schoolCost": 150000,
+        "onlineCourseCost": 50000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["教育業", "商社", "外資系企業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 3000,
+          "max": 15000,
+          "average": 8000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "英語力の客観的証明として有効"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能だが面接あり",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 300
+          }
+        },
+        "specialization": {
+          "score": 2,
+          "description": "汎用的語学知識",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "特定業界で重視",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "資格手当あり（少額）",
+          "detailFactors": {
+            "allowanceRange": "3000-15000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度",
+          "detailFactors": {
+            "monetaryCost": 58000,
+            "timeCost": 12,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 13
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["日本英語検定協会公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "日本で最も歴史のある英語資格試験"
+      }
+    }
+  ]
+}

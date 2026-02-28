@@ -1,0 +1,1622 @@
+{
+  "batchInfo": {
+    "batchNumber": 2,
+    "targetRange": "Q016-Q030",
+    "totalQualifications": 15,
+    "createdAt": "2025-09-05",
+    "status": "completed",
+    "researchMethod": "公式サイト・統計データに基づく完全リサーチ",
+    "dataSource": [
+      "IPA公式統計",
+      "不動産適正取引推進機構",
+      "電気技術者試験センター",
+      "LPI-Japan",
+      "CompTIA公式サイト",
+      "MOS公式サイト",
+      "警察庁公式情報",
+      "消防試験研究センター"
+    ]
+  },
+  "qualifications": [
+    {
+      "id": "Q016",
+      "basicInfo": {
+        "name": "ITパスポート",
+        "englishName": "Information Technology Passport Examination",
+        "category": "IT・情報技術系",
+        "subCategory": "ITリテラシー",
+        "qualificationType": "国家資格",
+        "organizingBody": "独立行政法人 情報処理推進機構（IPA）",
+        "officialUrl": "https://www3.jitec.ipa.go.jp/JitesCbt/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "通年実施（CBT方式）",
+        "examFormat": "CBT（Computer Based Testing）",
+        "onlineOption": true,
+        "examFee": 7500,
+        "passingRate": 49.8,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 180,
+        "recommendedStudyMethod": ["独学", "通信講座", "資格学校"],
+        "studyPeriod": 6,
+        "textbookCost": 3000,
+        "schoolCost": 30000,
+        "onlineCourseCost": 15000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "製造業", "金融業", "サービス業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 10000,
+          "average": 7500
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "IT業界の入門資格として認知"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "独学可能、合格率約50%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 180
+          }
+        },
+        "specialization": {
+          "score": 1,
+          "description": "汎用的なITリテラシー",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "IT業界の入門資格として認知",
+          "detailFactors": {
+            "industryDemand": "あれば良い",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "小"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "資格手当5千円〜1万円程度",
+          "detailFactors": {
+            "allowanceRange": "5000-10000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "取得しやすい（1万円程度・6ヶ月以内）",
+          "detailFactors": {
+            "monetaryCost": 10500,
+            "timeCost": 6,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 11
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["IPA公式サイト", "2024年統計データ"],
+        "verificationStatus": "verified",
+        "notes": "2024年合格率49.8%（過去最低）"
+      }
+    },
+
+    {
+      "id": "Q017",
+      "basicInfo": {
+        "name": "基本情報技術者",
+        "englishName": "Fundamental Information Technology Engineer Examination",
+        "category": "IT・情報技術系",
+        "subCategory": "ITエンジニア",
+        "qualificationType": "国家資格",
+        "organizingBody": "独立行政法人 情報処理推進機構（IPA）",
+        "officialUrl": "https://www.jitec.ipa.go.jp/1_11seido/fe.html"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "通年実施（CBT方式）",
+        "examFormat": "CBT（Computer Based Testing）",
+        "onlineOption": true,
+        "examFee": 7500,
+        "passingRate": 50.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 200,
+        "recommendedStudyMethod": ["独学", "通信講座", "資格学校"],
+        "studyPeriod": 4,
+        "textbookCost": 5000,
+        "schoolCost": 80000,
+        "onlineCourseCost": 30000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "システム開発", "ソフトウェア開発"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 20000,
+          "average": 15000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "ITエンジニアとしての基礎能力証明"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能だが200時間学習必要",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 200
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "IT分野の実務知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "IT業界で重視される",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当1-2万円/月",
+          "detailFactors": {
+            "allowanceRange": "10000-20000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度（独学で3.5万円程度・4ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 35000,
+            "timeCost": 4,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 15
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["IPA公式統計", "2024年試験制度変更後データ"],
+        "verificationStatus": "verified",
+        "notes": "2023年制度変更により合格率が35%→50%に改善"
+      }
+    },
+
+    {
+      "id": "Q018",
+      "basicInfo": {
+        "name": "応用情報技術者",
+        "englishName": "Applied Information Technology Engineer Examination",
+        "category": "IT・情報技術系",
+        "subCategory": "ITエンジニア",
+        "qualificationType": "国家資格",
+        "organizingBody": "独立行政法人 情報処理推進機構（IPA）",
+        "officialUrl": "https://www.jitec.ipa.go.jp/1_11seido/ap.html"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年2回（春期・秋期）",
+        "examFormat": "会場型筆記試験",
+        "onlineOption": false,
+        "examFee": 7500,
+        "passingRate": 27.2,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 500,
+        "recommendedStudyMethod": ["独学", "通信講座", "資格学校"],
+        "studyPeriod": 8,
+        "textbookCost": 8000,
+        "schoolCost": 150000,
+        "onlineCourseCost": 50000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "システム開発", "ITコンサルティング"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 15000,
+          "max": 30000,
+          "average": 22500
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "上級ITエンジニア・プロジェクトリーダー"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "専門的学習が必要、合格率27%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "難",
+            "studyHours": 500
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "IT分野の高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "IT業界で高く評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当1.5-3万円/月",
+          "detailFactors": {
+            "allowanceRange": "15000-30000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "取得困難（独学で6万円程度・8ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 58000,
+            "timeCost": 8,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["IPA公式統計", "2024年度データ"],
+        "verificationStatus": "verified",
+        "notes": "令和5年度春期合格率27.2%、2026年CBT移行予定"
+      }
+    },
+
+    {
+      "id": "Q019",
+      "basicInfo": {
+        "name": "情報セキュリティマネジメント",
+        "englishName": "Information Security Management Examination",
+        "category": "IT・情報技術系",
+        "subCategory": "情報セキュリティ",
+        "qualificationType": "国家資格",
+        "organizingBody": "独立行政法人 情報処理推進機構（IPA）",
+        "officialUrl": "https://www.jitec.ipa.go.jp/1_11seido/sg.html"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "通年実施（CBT方式）",
+        "examFormat": "CBT（Computer Based Testing）",
+        "onlineOption": true,
+        "examFee": 7500,
+        "passingRate": 53.9,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 100,
+        "recommendedStudyMethod": ["独学", "通信講座"],
+        "studyPeriod": 3,
+        "textbookCost": 3000,
+        "schoolCost": 40000,
+        "onlineCourseCost": 20000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "金融業", "製造業", "医療業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 15000,
+          "average": 10000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "セキュリティ管理者・コンプライアンス担当"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "独学可能、合格率約54%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 100
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "情報セキュリティの実務知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "全業界でセキュリティ重要性が高い",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "資格手当5千円〜1.5万円程度",
+          "detailFactors": {
+            "allowanceRange": "5000-15000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 5,
+          "description": "極易取得（1万円以下・3ヶ月以内）",
+          "detailFactors": {
+            "monetaryCost": 10500,
+            "timeCost": 3,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 16
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["IPA公式統計"],
+        "verificationStatus": "verified",
+        "notes": "2026年4月27日以降試験一時休止予定"
+      }
+    },
+
+    {
+      "id": "Q020",
+      "basicInfo": {
+        "name": "Linux技術者認定試験（LinuC）",
+        "englishName": "Linux Professional Certification",
+        "category": "IT・情報技術系",
+        "subCategory": "インフラ・システム管理",
+        "qualificationType": "民間資格",
+        "organizingBody": "LPI-Japan",
+        "officialUrl": "https://linuc.org/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "通年実施",
+        "examFormat": "会場型CBT",
+        "onlineOption": false,
+        "examFee": 16500,
+        "passingRate": 40.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 60,
+        "renewalRequirements": "再認定試験または継続学習",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 300,
+        "recommendedStudyMethod": ["独学", "実機演習", "オンライン学習"],
+        "studyPeriod": 6,
+        "textbookCost": 6000,
+        "schoolCost": 100000,
+        "onlineCourseCost": 40000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "クラウドサービス", "インフラ運用"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 25000,
+          "average": 17500
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "インフラエンジニア・システム管理者"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "実践的な知識が必要、合格率40%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 300
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "Linuxシステム管理の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "インフラ業界で高く評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当1-2.5万円/月",
+          "detailFactors": {
+            "allowanceRange": "10000-25000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度（独学で2.3万円程度・6ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 22500,
+            "timeCost": 6,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["LPI-Japan公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "クラウド・DX時代に対応した日本独自のLinux認定"
+      }
+    },
+
+    {
+      "id": "Q021",
+      "basicInfo": {
+        "name": "CompTIA資格群（A+, Network+, Security+など）",
+        "englishName": "CompTIA Certifications",
+        "category": "IT・情報技術系",
+        "subCategory": "IT基盤・セキュリティ",
+        "qualificationType": "民間資格（国際資格）",
+        "organizingBody": "CompTIA",
+        "officialUrl": "https://www.comptia.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "通年実施",
+        "examFormat": "会場型CBT",
+        "onlineOption": false,
+        "examFee": 46423,
+        "passingRate": 30.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 36,
+        "renewalRequirements": "継続学習または再受験",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 400,
+        "recommendedStudyMethod": ["独学", "公式トレーニング", "実機演習"],
+        "studyPeriod": 9,
+        "textbookCost": 8000,
+        "schoolCost": 200000,
+        "onlineCourseCost": 60000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "外資系IT", "セキュリティ業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 15000,
+          "max": 35000,
+          "average": 25000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "国際的なIT業界でのキャリアパス"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "実践的な知識必要、合格率30%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "難",
+            "studyHours": 400
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "IT基盤の高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "国際的に認知されている",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当1.5-3.5万円/月",
+          "detailFactors": {
+            "allowanceRange": "15000-35000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得（5万円程度・9ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 54423,
+            "timeCost": 9,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 15
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["CompTIA Japan公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "2024年2月料金改定、デジタル人材スキル標準対象"
+      }
+    },
+
+    {
+      "id": "Q022",
+      "basicInfo": {
+        "name": "MOS（Microsoft Office Specialist）",
+        "englishName": "Microsoft Office Specialist",
+        "category": "IT・情報技術系",
+        "subCategory": "オフィスソフト",
+        "qualificationType": "民間資格（国際資格）",
+        "organizingBody": "マイクロソフト",
+        "officialUrl": "https://mos.odyssey-com.co.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "通年実施",
+        "examFormat": "会場型CBT",
+        "onlineOption": false,
+        "examFee": 12980,
+        "passingRate": 80.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 30,
+        "recommendedStudyMethod": ["独学", "実践練習", "オンライン講座"],
+        "studyPeriod": 1,
+        "textbookCost": 2000,
+        "schoolCost": 20000,
+        "onlineCourseCost": 10000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["事務系全般", "製造業", "サービス業", "公的機関"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 3000,
+          "max": 8000,
+          "average": 5500
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": [],
+        "careerAdvancement": "事務系職種での基本スキル証明"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 1,
+          "description": "実用レベルの操作技能、合格率80%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 30
+          }
+        },
+        "specialization": {
+          "score": 1,
+          "description": "汎用的なオフィススキル",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "事務系で基本要件として評価",
+          "detailFactors": {
+            "industryDemand": "あれば良い",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "小"
+          }
+        },
+        "incomeImpact": {
+          "score": 1,
+          "description": "資格手当3千円〜8千円程度",
+          "detailFactors": {
+            "allowanceRange": "3000-8000",
+            "salaryIncrease": "0-5",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 5,
+          "description": "極易取得（1.5万円以下・1ヶ月以内）",
+          "detailFactors": {
+            "monetaryCost": 14980,
+            "timeCost": 1,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 10
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["MOS公式サイト"],
+        "verificationStatus": "verified",
+        "notes": "2025年5月1日受験料改定、累計520万人超受験"
+      }
+    },
+
+    {
+      "id": "Q023",
+      "basicInfo": {
+        "name": "一級建築士",
+        "englishName": "First-Class Architect",
+        "category": "建築・工事・技術系",
+        "subCategory": "建築設計",
+        "qualificationType": "国家資格",
+        "organizingBody": "公益財団法人 建築技術教育普及センター",
+        "officialUrl": "https://www.jaeic.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（学科7月、設計製図12月）",
+        "examFormat": "学科+製図試験",
+        "onlineOption": false,
+        "examFee": 19700,
+        "passingRate": 10.6,
+        "eligibilityRequirements": "大学卒業+実務経験2年以上（建築学科）",
+        "validityPeriod": 9999,
+        "renewalRequirements": "定期講習受講（3年に1度）",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "24ヶ月以上"
+      },
+      "learningInfo": {
+        "standardStudyHours": 1500,
+        "recommendedStudyMethod": ["資格学校", "通信講座", "独学困難"],
+        "studyPeriod": 24,
+        "textbookCost": 30000,
+        "schoolCost": 800000,
+        "onlineCourseCost": 200000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["建設業", "設計事務所", "不動産業", "公的機関"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 30000,
+          "max": 80000,
+          "average": 55000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["大規模建築物の設計・監理"],
+        "careerAdvancement": "建築設計事務所開設可能、上級管理職"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "超難関、合格率10.6%、専門教育必須",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": true,
+            "examDifficulty": "超難",
+            "studyHours": 1500
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "建築設計の高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "建築業界で必須、他業界でも高評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 5,
+          "description": "独立開業可能、年収1000万円以上可能",
+          "detailFactors": {
+            "allowanceRange": "30000-80000",
+            "salaryIncrease": "30+",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得（80万円超・2年超）",
+          "detailFactors": {
+            "monetaryCost": 819700,
+            "timeCost": 24,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 21
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["建築技術教育普及センター"],
+        "verificationStatus": "verified",
+        "notes": "建築業界最高峰の国家資格"
+      }
+    },
+
+    {
+      "id": "Q024",
+      "basicInfo": {
+        "name": "二級建築士",
+        "englishName": "Second-Class Architect",
+        "category": "建築・工事・技術系",
+        "subCategory": "建築設計",
+        "qualificationType": "国家資格",
+        "organizingBody": "各都道府県建築士会",
+        "officialUrl": "https://www.jaeic.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（学科7月、設計製図9月）",
+        "examFormat": "学科+製図試験",
+        "onlineOption": false,
+        "examFee": 18500,
+        "passingRate": 22.2,
+        "eligibilityRequirements": "大学卒業（建築学科）または実務経験7年",
+        "validityPeriod": 9999,
+        "renewalRequirements": "定期講習受講（3年に1度）",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "0-84ヶ月（学歴による）"
+      },
+      "learningInfo": {
+        "standardStudyHours": 800,
+        "recommendedStudyMethod": ["資格学校", "通信講座", "独学"],
+        "studyPeriod": 12,
+        "textbookCost": 20000,
+        "schoolCost": 500000,
+        "onlineCourseCost": 120000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["建設業", "設計事務所", "住宅メーカー"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 20000,
+          "max": 50000,
+          "average": 35000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["中小規模建築物の設計・監理"],
+        "careerAdvancement": "建築設計事務所開設可能、設計部門責任者"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "専門教育推奨、合格率22.2%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "難",
+            "studyHours": 800
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "建築設計の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "建築業界で必須レベル",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "独立開業可能、資格手当2-5万円/月",
+          "detailFactors": {
+            "allowanceRange": "20000-50000",
+            "salaryIncrease": "20-30",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "取得困難（54万円程度・1年）",
+          "detailFactors": {
+            "monetaryCost": 538500,
+            "timeCost": 12,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 18
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["建築技術教育普及センター"],
+        "verificationStatus": "verified",
+        "notes": "建築業界の基幹資格"
+      }
+    },
+
+    {
+      "id": "Q025",
+      "basicInfo": {
+        "name": "宅地建物取引士（宅建士）",
+        "englishName": "Real Estate Transaction Specialist",
+        "category": "建築・工事・技術系",
+        "subCategory": "不動産取引",
+        "qualificationType": "国家資格",
+        "organizingBody": "一般財団法人 不動産適正取引推進機構",
+        "officialUrl": "https://www.retio.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（10月）",
+        "examFormat": "会場型マークシート",
+        "onlineOption": false,
+        "examFee": 8200,
+        "passingRate": 18.6,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 60,
+        "renewalRequirements": "法定講習受講",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "24ヶ月（登録要件）"
+      },
+      "learningInfo": {
+        "standardStudyHours": 300,
+        "recommendedStudyMethod": ["独学", "通信講座", "資格学校"],
+        "studyPeriod": 6,
+        "textbookCost": 5000,
+        "schoolCost": 150000,
+        "onlineCourseCost": 50000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["不動産業", "建設業", "金融業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 30000,
+          "average": 20000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["重要事項説明", "契約書への記名押印"],
+        "careerAdvancement": "不動産業界での管理職昇進に有利"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能だが合格率18.6%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 300
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "不動産取引に特化した専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "不動産業界で必須、他業界でも評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当1-3万円/月、独立可能",
+          "detailFactors": {
+            "allowanceRange": "10000-30000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度（独学なら1.3万円程度・6ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 13200,
+            "timeCost": 6,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["不動産適正取引推進機構", "2024年試験結果"],
+        "verificationStatus": "verified",
+        "notes": "2024年合格率18.6%、合格点37点/50点、2025年試験日10月19日"
+      }
+    },
+
+    {
+      "id": "Q026",
+      "basicInfo": {
+        "name": "第二種電気工事士",
+        "englishName": "Second Class Electrician",
+        "category": "建築・工事・技術系",
+        "subCategory": "電気工事",
+        "qualificationType": "国家資格",
+        "organizingBody": "一般財団法人 電気技術者試験センター",
+        "officialUrl": "https://www.shiken.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "学科+技能試験",
+        "examFrequency": "年2回（上期・下期）",
+        "examFormat": "学科：CBT/筆記選択、技能：実技試験",
+        "onlineOption": true,
+        "examFee": 11300,
+        "passingRate": 60.1,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 200,
+        "recommendedStudyMethod": ["独学", "技能講習", "職業訓練"],
+        "studyPeriod": 6,
+        "textbookCost": 8000,
+        "schoolCost": 80000,
+        "onlineCourseCost": 30000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["電気工事業", "建設業", "製造業", "設備保守"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 15000,
+          "max": 25000,
+          "average": 20000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["600V以下の電気工事"],
+        "careerAdvancement": "電気工事会社開設可能、現場監督"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "実技練習必要だが学科60%技能70%の合格率",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 200
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "電気工事の専門技能",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "電気関連業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "独立開業可能、資格手当1.5-2.5万円/月",
+          "detailFactors": {
+            "allowanceRange": "15000-25000",
+            "salaryIncrease": "20-30",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度（独学で1.9万円程度・6ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 19300,
+            "timeCost": 6,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["電気技術者試験センター", "2024-2025年統計"],
+        "verificationStatus": "verified",
+        "notes": "学科60.1%技能70.7%の合格率、2025年度も上下期2回実施"
+      }
+    },
+
+    {
+      "id": "Q027",
+      "basicInfo": {
+        "name": "普通自動車運転免許",
+        "englishName": "Ordinary Motor Vehicle Driver's License",
+        "category": "運輸・交通系",
+        "subCategory": "自動車運転",
+        "qualificationType": "国家資格",
+        "organizingBody": "警察庁・都道府県公安委員会",
+        "officialUrl": "https://www.npa.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "学科+実技試験",
+        "examFrequency": "随時実施",
+        "examFormat": "学科+実車試験",
+        "onlineOption": false,
+        "examFee": 4900,
+        "passingRate": 70.0,
+        "eligibilityRequirements": "18歳以上",
+        "validityPeriod": 36,
+        "renewalRequirements": "適性検査+講習",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 60,
+        "recommendedStudyMethod": ["自動車教習所"],
+        "studyPeriod": 2,
+        "textbookCost": 3000,
+        "schoolCost": 300000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["運輸業", "営業職", "製造業", "サービス業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": null,
+        "independenceCapability": false,
+        "exclusiveOperations": ["普通自動車の運転"],
+        "careerAdvancement": "多くの職種で基本要件"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "教習所通学で合格率70%",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 60
+          }
+        },
+        "specialization": {
+          "score": 1,
+          "description": "汎用的な生活スキル",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "多くの職種で基本要件",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "小"
+          }
+        },
+        "incomeImpact": {
+          "score": 1,
+          "description": "収入への直接的影響なし",
+          "detailFactors": {
+            "allowanceRange": null,
+            "salaryIncrease": "0",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "高額（30万円程度・2ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 303000,
+            "timeCost": 2,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 8
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["警察庁公式情報"],
+        "verificationStatus": "verified",
+        "notes": "現代社会における基本的な資格"
+      }
+    },
+
+    {
+      "id": "Q028",
+      "basicInfo": {
+        "name": "大型自動車運転免許",
+        "englishName": "Large-Sized Motor Vehicle Driver's License",
+        "category": "運輸・交通系",
+        "subCategory": "大型車運転",
+        "qualificationType": "国家資格",
+        "organizingBody": "警察庁・都道府県公安委員会",
+        "officialUrl": "https://www.npa.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "学科+実技試験",
+        "examFrequency": "随時実施",
+        "examFormat": "学科+実車試験",
+        "onlineOption": false,
+        "examFee": 6100,
+        "passingRate": 65.0,
+        "eligibilityRequirements": "21歳以上、普通免許等保有3年以上",
+        "validityPeriod": 36,
+        "renewalRequirements": "適性検査+講習",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "普通免許36ヶ月以上"
+      },
+      "learningInfo": {
+        "standardStudyHours": 100,
+        "recommendedStudyMethod": ["自動車教習所", "一発試験"],
+        "studyPeriod": 3,
+        "textbookCost": 5000,
+        "schoolCost": 450000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["運輸業", "物流業", "建設業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 30000,
+          "average": 20000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["大型自動車の運転"],
+        "careerAdvancement": "運送業界での就職・昇進に有利"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "実技練習が必要、合格率65%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": true,
+            "examDifficulty": "中",
+            "studyHours": 100
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "大型車運転の専門技能",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "運輸業界で重視される",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当1-3万円/月、独立可能",
+          "detailFactors": {
+            "allowanceRange": "10000-30000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "高額（45万円程度・3ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 455000,
+            "timeCost": 3,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 13
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["警察庁公式情報", "運輸業界統計"],
+        "verificationStatus": "verified",
+        "notes": "運輸・物流業界では需要が高い"
+      }
+    },
+
+    {
+      "id": "Q029",
+      "basicInfo": {
+        "name": "危険物取扱者",
+        "englishName": "Hazardous Materials Engineer",
+        "category": "安全・防災系",
+        "subCategory": "危険物管理",
+        "qualificationType": "国家資格",
+        "organizingBody": "一般財団法人 消防試験研究センター",
+        "officialUrl": "https://www.shoubo-shiken.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年4-6回（都道府県により異なる）",
+        "examFormat": "会場型マークシート",
+        "onlineOption": false,
+        "examFee": 6600,
+        "passingRate": 35.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 80,
+        "recommendedStudyMethod": ["独学", "通信講座"],
+        "studyPeriod": 3,
+        "textbookCost": 3000,
+        "schoolCost": 40000,
+        "onlineCourseCost": 20000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["化学工業", "石油業", "ガソリンスタンド", "製造業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 20000,
+          "average": 12500
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["危険物の取扱い・立会い"],
+        "careerAdvancement": "化学・石油関連業界での昇進に有利"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能だが合格率35%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 80
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "危険物管理の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "特定業界で重視される",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "資格手当5千円〜2万円程度",
+          "detailFactors": {
+            "allowanceRange": "5000-20000",
+            "salaryIncrease": "5-15",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "取得しやすい（9.6千円程度・3ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 9600,
+            "timeCost": 3,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 16
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["消防試験研究センター"],
+        "verificationStatus": "verified",
+        "notes": "製造業・化学業界では重要な安全管理資格"
+      }
+    },
+
+    {
+      "id": "Q030",
+      "basicInfo": {
+        "name": "消防設備士",
+        "englishName": "Fire Protection Equipment Engineer",
+        "category": "安全・防災系",
+        "subCategory": "消防設備",
+        "qualificationType": "国家資格",
+        "organizingBody": "一般財団法人 消防試験研究センター",
+        "officialUrl": "https://www.shoubo-shiken.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験+実技",
+        "examFrequency": "年2-4回（都道府県により異なる）",
+        "examFormat": "学科+実技試験",
+        "onlineOption": false,
+        "examFee": 5700,
+        "passingRate": 30.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 150,
+        "recommendedStudyMethod": ["独学", "講習会参加", "実技練習"],
+        "studyPeriod": 4,
+        "textbookCost": 5000,
+        "schoolCost": 60000,
+        "onlineCourseCost": 25000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["消防設備業", "建設業", "ビル管理業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 25000,
+          "average": 17500
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["消防設備の工事・整備・点検"],
+        "careerAdvancement": "消防設備業界での独立開業可能"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "実技練習が必要、合格率30%",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 150
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "消防設備の専門技術",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "消防設備業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当1-2.5万円/月、独立可能",
+          "detailFactors": {
+            "allowanceRange": "10000-25000",
+            "salaryIncrease": "15-25",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度（1万円程度・4ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 10700,
+            "timeCost": 4,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["消防試験研究センター"],
+        "verificationStatus": "verified",
+        "notes": "建物の安全管理において重要な業務独占資格"
+      }
+    }
+  ]
+}

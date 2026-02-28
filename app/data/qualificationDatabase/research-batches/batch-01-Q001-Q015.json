@@ -1,0 +1,1591 @@
+{
+  "qualifications": [
+    {
+      "id": "Q001",
+      "basicInfo": {
+        "name": "司法試験",
+        "englishName": "Japan Bar Examination",
+        "category": "法律・行政",
+        "subCategory": "法律",
+        "qualificationType": "国家資格",
+        "organizingBody": "法務省",
+        "officialUrl": "https://www.moj.go.jp/jinji/shihoushiken/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（7月）",
+        "examFormat": "筆記試験（短答式・論文式）",
+        "onlineOption": false,
+        "examFee": 28000,
+        "passingRate": 42.1,
+        "eligibilityRequirements": "法科大学院修了または予備試験合格",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "司法修習1年"
+      },
+      "learningInfo": {
+        "standardStudyHours": 6000,
+        "recommendedStudyMethod": ["法科大学院", "予備校", "通信講座"],
+        "studyPeriod": 72,
+        "textbookCost": 100000,
+        "schoolCost": 4000000,
+        "onlineCourseCost": 800000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["法律業", "企業法務", "公共機関"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": null,
+        "independenceCapability": true,
+        "exclusiveOperations": ["法廷代理", "法律文書作成", "法律相談"],
+        "careerAdvancement": "弁護士として独立開業、企業法務、裁判官・検察官への道"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "超難関資格（合格率約40%だが法科大学院修了または予備試験合格が必要）",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": false,
+            "examDifficulty": "超難",
+            "studyHours": 6000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "法律分野の最高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "法律業界で必須、他業界でも最高レベルの評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 5,
+          "description": "独立開業可能、年収1000万円以上も可能",
+          "detailFactors": {
+            "allowanceRange": "50000+",
+            "salaryIncrease": "30+",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得（400万円超・6年以上）",
+          "detailFactors": {
+            "monetaryCost": 4000000,
+            "timeCost": 72,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 21
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["法務省公式サイト", "司法試験結果データ", "弁護士会統計"],
+        "verificationStatus": "verified",
+        "notes": "法科大学院修了または予備試験合格が受験の前提条件"
+      }
+    },
+    {
+      "id": "Q002",
+      "basicInfo": {
+        "name": "公認会計士",
+        "englishName": "Certified Public Accountant",
+        "category": "金融・会計",
+        "subCategory": "会計",
+        "qualificationType": "国家資格",
+        "organizingBody": "金融庁公認会計士・監査審査会",
+        "officialUrl": "https://www.fsa.go.jp/cpaaob/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年2回（短答式）・年1回（論文式）",
+        "examFormat": "筆記試験（短答式・論文式）",
+        "onlineOption": false,
+        "examFee": 19500,
+        "passingRate": 7.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "継続的専門研修（CPE）",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "実務経験2年"
+      },
+      "learningInfo": {
+        "standardStudyHours": 4000,
+        "recommendedStudyMethod": ["予備校", "通信講座", "独学"],
+        "studyPeriod": 36,
+        "textbookCost": 80000,
+        "schoolCost": 800000,
+        "onlineCourseCost": 400000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["監査法人", "企業経理", "税理士法人", "コンサルティング"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 20000,
+          "max": 50000,
+          "average": 35000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["監査業務", "証明業務"],
+        "careerAdvancement": "BIG4監査法人パートナー、CFO、独立開業"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "超難関資格（合格率7%）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "超難",
+            "studyHours": 4000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "会計・監査分野の最高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "監査法人で必須、企業でも高評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 5,
+          "description": "BIG4で高年収、独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "30000-50000",
+            "salaryIncrease": "30+",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得（80万円超・3年以上）",
+          "detailFactors": {
+            "monetaryCost": 800000,
+            "timeCost": 36,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 21
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["金融庁公式サイト", "公認会計士協会データ", "監査法人統計"],
+        "verificationStatus": "verified",
+        "notes": "日本の三大国家資格の一つ、監査業務の独占資格"
+      }
+    },
+    {
+      "id": "Q003",
+      "basicInfo": {
+        "name": "行政書士",
+        "englishName": "Administrative Scrivener",
+        "category": "法律・行政",
+        "subCategory": "行政",
+        "qualificationType": "国家資格",
+        "organizingBody": "一般財団法人行政書士試験研究センター",
+        "officialUrl": "https://gyosei-shiken.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（11月）",
+        "examFormat": "筆記試験（択一・記述）",
+        "onlineOption": false,
+        "examFee": 10400,
+        "passingRate": 12.9,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "研修受講（任意）",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 800,
+        "recommendedStudyMethod": ["独学", "通信講座", "資格学校"],
+        "studyPeriod": 12,
+        "textbookCost": 30000,
+        "schoolCost": 200000,
+        "onlineCourseCost": 80000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["法律事務所", "行政書士事務所", "企業法務", "公共機関"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 20000,
+          "average": 12000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["官公署提出書類作成", "権利義務書類作成", "事実証明書類作成"],
+        "careerAdvancement": "独立開業、企業法務部門"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "独学可能だが合格率13%程度",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 800
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "行政法務に特化した専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "特定業界で重視される",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当あり、独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "10000-20000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度（独学なら5万円程度）",
+          "detailFactors": {
+            "monetaryCost": 50000,
+            "timeCost": 12,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 16
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["行政書士試験研究センター", "行政書士会統計"],
+        "verificationStatus": "verified",
+        "notes": "街の法律家として幅広い業務を担う"
+      }
+    },
+    {
+      "id": "Q004",
+      "basicInfo": {
+        "name": "司法書士",
+        "englishName": "Judicial Scrivener",
+        "category": "法律・行政",
+        "subCategory": "登記・司法",
+        "qualificationType": "国家資格",
+        "organizingBody": "法務省",
+        "officialUrl": "https://www.moj.go.jp/shikaku_saiyo_index3.html"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（7月）",
+        "examFormat": "筆記試験（択一・記述）",
+        "onlineOption": false,
+        "examFee": 8000,
+        "passingRate": 5.3,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "研修受講",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 3000,
+        "recommendedStudyMethod": ["予備校", "通信講座", "独学"],
+        "studyPeriod": 24,
+        "textbookCost": 60000,
+        "schoolCost": 500000,
+        "onlineCourseCost": 200000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["司法書士事務所", "法律事務所", "不動産業", "金融業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 15000,
+          "max": 40000,
+          "average": 25000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["不動産登記", "商業登記", "裁判所提出書類作成", "簡易裁判所代理"],
+        "careerAdvancement": "独立開業、企業法務、不動産会社顧問"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "超難関資格（合格率5%）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "超難",
+            "studyHours": 3000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "登記・司法分野の高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "司法・不動産業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "高額手当、独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "30000-50000",
+            "salaryIncrease": "20-30",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "取得困難（50万円以下・2年以内）",
+          "detailFactors": {
+            "monetaryCost": 500000,
+            "timeCost": 24,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 20
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["法務省公式サイト", "司法書士会統計"],
+        "verificationStatus": "verified",
+        "notes": "登記業務の独占資格、簡裁代理権も取得可能"
+      }
+    },
+    {
+      "id": "Q005",
+      "basicInfo": {
+        "name": "弁理士",
+        "englishName": "Patent Attorney",
+        "category": "法律・行政",
+        "subCategory": "知的財産",
+        "qualificationType": "国家資格",
+        "organizingBody": "経済産業省特許庁",
+        "officialUrl": "https://www.jpo.go.jp/news/benrishi/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（短答式5月・論文式6-7月・口述10月）",
+        "examFormat": "筆記試験（短答式・論文式）・口述試験",
+        "onlineOption": false,
+        "examFee": 12000,
+        "passingRate": 6.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "研修受講",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 3000,
+        "recommendedStudyMethod": ["予備校", "通信講座"],
+        "studyPeriod": 24,
+        "textbookCost": 80000,
+        "schoolCost": 600000,
+        "onlineCourseCost": 300000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["特許事務所", "企業知財部", "法律事務所"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 20000,
+          "max": 50000,
+          "average": 35000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["特許出願", "商標登録", "意匠登録", "特許庁代理"],
+        "careerAdvancement": "独立開業、企業知財部長、特許事務所パートナー"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "超難関資格（合格率6%）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "超難",
+            "studyHours": 3000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "知的財産分野の最高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "知財業界で必須、企業でも高評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "高額手当、独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "30000-50000",
+            "salaryIncrease": "20-30",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "取得困難（60万円以下・2年以内）",
+          "detailFactors": {
+            "monetaryCost": 600000,
+            "timeCost": 24,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 20
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["特許庁公式サイト", "日本弁理士会統計"],
+        "verificationStatus": "verified",
+        "notes": "知的財産業務の独占資格、理系背景者に有利"
+      }
+    },
+    {
+      "id": "Q006",
+      "basicInfo": {
+        "name": "税理士",
+        "englishName": "Tax Accountant",
+        "category": "金融・会計",
+        "subCategory": "税務",
+        "qualificationType": "国家資格",
+        "organizingBody": "国税庁",
+        "officialUrl": "https://www.nta.go.jp/taxes/zeirishi/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（8月）",
+        "examFormat": "筆記試験",
+        "onlineOption": false,
+        "examFee": 10000,
+        "passingRate": 13.5,
+        "eligibilityRequirements": "大学3年次修了または簿記1級など",
+        "validityPeriod": 9999,
+        "renewalRequirements": "研修受講",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "実務経験2年"
+      },
+      "learningInfo": {
+        "standardStudyHours": 4000,
+        "recommendedStudyMethod": ["予備校", "通信講座", "独学"],
+        "studyPeriod": 36,
+        "textbookCost": 100000,
+        "schoolCost": 800000,
+        "onlineCourseCost": 400000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["税理士事務所", "会計事務所", "企業経理", "コンサルティング"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 20000,
+          "max": 40000,
+          "average": 30000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["税務代理", "税務書類作成", "税務相談"],
+        "careerAdvancement": "独立開業、税理士法人パートナー、企業CFO"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "難関資格（科目合格制で長期戦）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "難",
+            "studyHours": 4000
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "税務分野の高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "税務業界で必須、企業でも高評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "高額手当、独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "30000-50000",
+            "salaryIncrease": "20-30",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得（80万円超・3年以上）",
+          "detailFactors": {
+            "monetaryCost": 800000,
+            "timeCost": 36,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["国税庁公式サイト", "日本税理士会連合会統計"],
+        "verificationStatus": "verified",
+        "notes": "科目合格制、税務業務の独占資格"
+      }
+    },
+    {
+      "id": "Q007",
+      "basicInfo": {
+        "name": "社会保険労務士",
+        "englishName": "Social Insurance Labor Consultant",
+        "category": "法律・行政",
+        "subCategory": "労務・社会保険",
+        "qualificationType": "国家資格",
+        "organizingBody": "社会保険労務士試験研究センター",
+        "officialUrl": "https://www.sharosi-siken.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（8月）",
+        "examFormat": "筆記試験（択一・選択）",
+        "onlineOption": false,
+        "examFee": 15000,
+        "passingRate": 6.9,
+        "eligibilityRequirements": "大学卒業または実務経験3年など",
+        "validityPeriod": 9999,
+        "renewalRequirements": "研修受講",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 1000,
+        "recommendedStudyMethod": ["予備校", "通信講座", "独学"],
+        "studyPeriod": 12,
+        "textbookCost": 50000,
+        "schoolCost": 300000,
+        "onlineCourseCost": 150000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["社労士事務所", "企業人事", "コンサルティング"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 30000,
+          "average": 20000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["労働社会保険手続", "帳簿書類作成", "事務代理"],
+        "careerAdvancement": "独立開業、企業人事部長、コンサルタント"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "難関資格（合格率7%）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "難",
+            "studyHours": 1000
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "労務・社会保険分野の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "人事労務分野で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "資格手当あり、独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "10000-30000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度（30万円程度・1年）",
+          "detailFactors": {
+            "monetaryCost": 300000,
+            "timeCost": 12,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 18
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["社会保険労務士試験研究センター", "全国社会保険労務士会連合会"],
+        "verificationStatus": "verified",
+        "notes": "労務管理・社会保険業務の独占資格"
+      }
+    },
+    {
+      "id": "Q008",
+      "basicInfo": {
+        "name": "国家公務員総合職",
+        "englishName": "National Civil Service Comprehensive Career Track",
+        "category": "行政・公務員",
+        "subCategory": "国家公務員",
+        "qualificationType": "国家資格",
+        "organizingBody": "人事院",
+        "officialUrl": "https://www.jinji.go.jp/saiyo/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年2回（春・秋）",
+        "examFormat": "筆記試験・面接・官庁訪問",
+        "onlineOption": false,
+        "examFee": 0,
+        "passingRate": 17.5,
+        "eligibilityRequirements": "大学卒業程度",
+        "validityPeriod": 1,
+        "renewalRequirements": "採用試験合格後官庁訪問",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 2000,
+        "recommendedStudyMethod": ["公務員予備校", "通信講座", "独学"],
+        "studyPeriod": 18,
+        "textbookCost": 50000,
+        "schoolCost": 500000,
+        "onlineCourseCost": 200000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["中央省庁", "外務省", "財務省", "経済産業省"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": null,
+        "independenceCapability": false,
+        "exclusiveOperations": ["政策立案", "行政運営", "外交業務"],
+        "careerAdvancement": "事務次官、局長、大使"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "難関試験（倍率5-6倍、官庁訪問含む）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "難",
+            "studyHours": 2000
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "行政・政策分野の実務知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "官庁で必須、民間でも最高評価",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "高水準の公務員給与、退職後も高評価",
+          "detailFactors": {
+            "allowanceRange": "50000+",
+            "salaryIncrease": "20-30",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "中程度（50万円以下・1.5年程度）",
+          "detailFactors": {
+            "monetaryCost": 500000,
+            "timeCost": 18,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 19
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["人事院公式サイト", "各省庁採用データ"],
+        "verificationStatus": "verified",
+        "notes": "国家公務員のキャリア官僚採用試験、受験料無料"
+      }
+    },
+    {
+      "id": "Q009",
+      "basicInfo": {
+        "name": "司書",
+        "englishName": "Librarian",
+        "category": "教育・文化",
+        "subCategory": "図書館",
+        "qualificationType": "資格",
+        "organizingBody": "文部科学省",
+        "officialUrl": "https://www.mext.go.jp/a_menu/shougai/gakugei/shisyo/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "大学・講習",
+        "examFrequency": "年1回（司書講習：7-9月）",
+        "examFormat": "講習・レポート・試験",
+        "onlineOption": true,
+        "examFee": 0,
+        "passingRate": 95.0,
+        "eligibilityRequirements": "大学卒業または短大卒業",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 400,
+        "recommendedStudyMethod": ["大学通信教育", "司書講習", "科目等履修"],
+        "studyPeriod": 6,
+        "textbookCost": 30000,
+        "schoolCost": 250000,
+        "onlineCourseCost": 160000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["公共図書館", "大学図書館", "学校図書館", "企業図書室"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 15000,
+          "average": 10000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["図書館資料選択", "目録作成", "レファレンス業務"],
+        "careerAdvancement": "図書館長、図書館司書主任"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "講習受講で取得可能（合格率95%）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 400
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "図書館業務の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "図書館業界でのみ重視",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "小"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "専門業務可能（間接的影響）",
+          "detailFactors": {
+            "allowanceRange": "10000-15000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "取得しやすい（25万円以下・6ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 250000,
+            "timeCost": 6,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 13
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": true,
+        "workshopDuration": 2,
+        "workshopTestDifficulty": "易"
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["文部科学省公式サイト", "日本図書館協会"],
+        "verificationStatus": "verified",
+        "notes": "司書講習または大学の司書課程で取得可能"
+      }
+    },
+    {
+      "id": "Q010",
+      "basicInfo": {
+        "name": "医師",
+        "englishName": "Medical Doctor",
+        "category": "医療・福祉",
+        "subCategory": "医師",
+        "qualificationType": "国家資格",
+        "organizingBody": "厚生労働省",
+        "officialUrl": "https://www.mhlw.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（2月）",
+        "examFormat": "筆記試験（一般・臨床実地）",
+        "onlineOption": false,
+        "examFee": 15300,
+        "passingRate": 92.3,
+        "eligibilityRequirements": "医学部6年修了",
+        "validityPeriod": 24,
+        "renewalRequirements": "医師届・研修受講",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "臨床研修2年"
+      },
+      "learningInfo": {
+        "standardStudyHours": 10000,
+        "recommendedStudyMethod": ["医学部", "医師国試予備校"],
+        "studyPeriod": 72,
+        "textbookCost": 500000,
+        "schoolCost": 20000000,
+        "onlineCourseCost": 300000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["病院", "診療所", "医療機関", "研究機関"],
+        "jobDemandLevel": "極高",
+        "qualificationAllowance": null,
+        "independenceCapability": true,
+        "exclusiveOperations": ["診断", "治療", "処方箋作成", "手術"],
+        "careerAdvancement": "開業医、病院長、医学部教授"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "医学部入学・修了が前提（6年間）",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 10000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "医学分野の最高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "医療業界で必須、社会的地位最高",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "極大"
+          }
+        },
+        "incomeImpact": {
+          "score": 5,
+          "description": "高収入職業、開業で年収数千万可能",
+          "detailFactors": {
+            "allowanceRange": "50000+",
+            "salaryIncrease": "30+",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得（2000万円超・6年以上）",
+          "detailFactors": {
+            "monetaryCost": 20000000,
+            "timeCost": 72,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 21
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["厚生労働省公式サイト", "医師国家試験結果"],
+        "verificationStatus": "verified",
+        "notes": "医学部6年修了が必須、医療業務の独占資格"
+      }
+    },
+    {
+      "id": "Q011",
+      "basicInfo": {
+        "name": "歯科医師",
+        "englishName": "Dentist",
+        "category": "医療・福祉",
+        "subCategory": "歯科医師",
+        "qualificationType": "国家資格",
+        "organizingBody": "厚生労働省",
+        "officialUrl": "https://www.mhlw.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（2月）",
+        "examFormat": "筆記試験（一般・臨床実地）",
+        "onlineOption": false,
+        "examFee": 18900,
+        "passingRate": 70.3,
+        "eligibilityRequirements": "歯学部6年修了",
+        "validityPeriod": 24,
+        "renewalRequirements": "歯科医師届・研修受講",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "臨床研修1年"
+      },
+      "learningInfo": {
+        "standardStudyHours": 10000,
+        "recommendedStudyMethod": ["歯学部", "歯科医師国試予備校"],
+        "studyPeriod": 72,
+        "textbookCost": 400000,
+        "schoolCost": 18000000,
+        "onlineCourseCost": 250000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["歯科診療所", "病院歯科", "研究機関"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": null,
+        "independenceCapability": true,
+        "exclusiveOperations": ["歯科診断", "歯科治療", "歯科手術"],
+        "careerAdvancement": "歯科医院開業、病院歯科部長、歯学部教授"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "歯学部入学・修了が前提（6年間）",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 10000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "歯科医学の最高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "歯科医療業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 5,
+          "description": "高収入職業、開業で高収入可能",
+          "detailFactors": {
+            "allowanceRange": "50000+",
+            "salaryIncrease": "30+",
+            "independenceIncome": "高収入可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得（1800万円超・6年以上）",
+          "detailFactors": {
+            "monetaryCost": 18000000,
+            "timeCost": 72,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 20
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["厚生労働省公式サイト", "歯科医師国家試験結果"],
+        "verificationStatus": "verified",
+        "notes": "歯学部6年修了が必須、歯科医療業務の独占資格"
+      }
+    },
+    {
+      "id": "Q012",
+      "basicInfo": {
+        "name": "薬剤師",
+        "englishName": "Pharmacist",
+        "category": "医療・福祉",
+        "subCategory": "薬剤師",
+        "qualificationType": "国家資格",
+        "organizingBody": "厚生労働省",
+        "officialUrl": "https://www.mhlw.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（2月）",
+        "examFormat": "筆記試験（基礎・実践・薬事関係法規）",
+        "onlineOption": false,
+        "examFee": 6800,
+        "passingRate": 68.9,
+        "eligibilityRequirements": "薬学部6年修了",
+        "validityPeriod": 9999,
+        "renewalRequirements": "継続研修",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 8000,
+        "recommendedStudyMethod": ["薬学部", "薬剤師国試予備校"],
+        "studyPeriod": 72,
+        "textbookCost": 300000,
+        "schoolCost": 12000000,
+        "onlineCourseCost": 200000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["調剤薬局", "病院薬局", "ドラッグストア", "製薬会社"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 30000,
+          "average": 20000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["調剤", "服薬指導", "医薬品販売管理"],
+        "careerAdvancement": "薬局開業、病院薬剤部長、製薬会社管理職"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "薬学部修了が前提（6年間）",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 8000
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "薬学の高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "医療・薬事業界で必須",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "安定高収入、開業可能",
+          "detailFactors": {
+            "allowanceRange": "20000-30000",
+            "salaryIncrease": "20-30",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "極難取得（1200万円超・6年）",
+          "detailFactors": {
+            "monetaryCost": 12000000,
+            "timeCost": 72,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 18
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["厚生労働省公式サイト", "薬剤師国家試験結果"],
+        "verificationStatus": "verified",
+        "notes": "薬学部6年修了が必須、調剤業務の独占資格"
+      }
+    },
+    {
+      "id": "Q013",
+      "basicInfo": {
+        "name": "看護師",
+        "englishName": "Registered Nurse",
+        "category": "医療・福祉",
+        "subCategory": "看護師",
+        "qualificationType": "国家資格",
+        "organizingBody": "厚生労働省",
+        "officialUrl": "https://www.mhlw.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（2月）",
+        "examFormat": "筆記試験（必修・一般・状況設定）",
+        "onlineOption": false,
+        "examFee": 5400,
+        "passingRate": 90.1,
+        "eligibilityRequirements": "看護学校3年修了または看護系大学4年修了",
+        "validityPeriod": 9999,
+        "renewalRequirements": "業務従事者届",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 3000,
+        "recommendedStudyMethod": ["看護学校", "看護系大学", "通信制"],
+        "studyPeriod": 36,
+        "textbookCost": 200000,
+        "schoolCost": 3000000,
+        "onlineCourseCost": 100000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["病院", "診療所", "介護施設", "訪問看護"],
+        "jobDemandLevel": "極高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 20000,
+          "average": 10000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["療養上の世話", "診療補助"],
+        "careerAdvancement": "看護師長、看護部長、認定看護師"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "看護学校修了が前提（合格率90%）",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 3000
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "看護学の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "医療業界で必須、高い需要",
+          "detailFactors": {
+            "industryDemand": "必須",
+            "recruitmentAdvantage": "極高",
+            "promotionImpact": "大"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "安定収入、手当あり",
+          "detailFactors": {
+            "allowanceRange": "10000-20000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "取得困難（300万円・3年間）",
+          "detailFactors": {
+            "monetaryCost": 3000000,
+            "timeCost": 36,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["厚生労働省公式サイト", "看護師国家試験結果"],
+        "verificationStatus": "verified",
+        "notes": "看護学校または看護系大学修了が必須、需要極めて高い"
+      }
+    },
+    {
+      "id": "Q014",
+      "basicInfo": {
+        "name": "登録販売者",
+        "englishName": "Registered Drug Seller",
+        "category": "医療・福祉",
+        "subCategory": "医薬品販売",
+        "qualificationType": "公的資格",
+        "organizingBody": "各都道府県",
+        "officialUrl": "https://www.mhlw.go.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "年1回（8-12月、都道府県により異なる）",
+        "examFormat": "筆記試験（択一式）",
+        "onlineOption": false,
+        "examFee": 15000,
+        "passingRate": 45.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 60,
+        "renewalRequirements": "継続研修受講",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 400,
+        "recommendedStudyMethod": ["独学", "通信講座", "通学講座"],
+        "studyPeriod": 6,
+        "textbookCost": 20000,
+        "schoolCost": 150000,
+        "onlineCourseCost": 50000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["ドラッグストア", "薬局", "コンビニエンスストア"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 3000,
+          "max": 10000,
+          "average": 6000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["一般用医薬品販売", "相談対応"],
+        "careerAdvancement": "店長、エリアマネージャー、薬事担当"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "独学可能（合格率45%）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "易",
+            "studyHours": 400
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "一般用医薬品の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "ドラッグストア業界で重視",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "小額手当あり",
+          "detailFactors": {
+            "allowanceRange": "3000-10000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "取得しやすい（5万円以下・6ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 50000,
+            "timeCost": 6,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 14
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["各都道府県試験情報", "厚生労働省"],
+        "verificationStatus": "verified",
+        "notes": "一般用医薬品販売の専門資格、ドラッグストア業界で需要高い"
+      }
+    },
+    {
+      "id": "Q015",
+      "basicInfo": {
+        "name": "衛生管理者",
+        "englishName": "Health Supervisor",
+        "category": "安全・労働",
+        "subCategory": "労働安全衛生",
+        "qualificationType": "国家資格",
+        "organizingBody": "公益財団法人安全衛生技術試験協会",
+        "officialUrl": "https://www.exam.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "試験",
+        "examFrequency": "月1-3回（地域により異なる）",
+        "examFormat": "筆記試験（択一式）",
+        "onlineOption": false,
+        "examFee": 6800,
+        "passingRate": 47.0,
+        "eligibilityRequirements": "大学卒業+実務経験1年または高校卒業+実務経験3年など",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "実務経験1-3年"
+      },
+      "learningInfo": {
+        "standardStudyHours": 200,
+        "recommendedStudyMethod": ["独学", "通信講座", "講習会"],
+        "studyPeriod": 3,
+        "textbookCost": 15000,
+        "schoolCost": 80000,
+        "onlineCourseCost": 30000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["製造業", "建設業", "サービス業", "すべての業種"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 15000,
+          "average": 8000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["衛生管理業務", "職場巡視", "衛生教育"],
+        "careerAdvancement": "安全衛生管理者、総務部長、人事部長"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "独学可能（合格率47%）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": true,
+            "examDifficulty": "易",
+            "studyHours": 200
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "労働安全衛生の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "すべての業界で評価される",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "小額手当あり",
+          "detailFactors": {
+            "allowanceRange": "5000-15000",
+            "salaryIncrease": "0-10",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 5,
+          "description": "極易取得（3万円以下・3ヶ月）",
+          "detailFactors": {
+            "monetaryCost": 30000,
+            "timeCost": 3,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 15
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-05",
+        "updatedAt": "2025-09-05",
+        "dataSource": ["安全衛生技術試験協会", "厚生労働省"],
+        "verificationStatus": "verified",
+        "notes": "常時50人以上の労働者を使用する事業場で選任義務あり"
+      }
+    }
+  ],
+  "databaseInfo": {
+    "version": "1.0.0",
+    "totalQualifications": 15,
+    "lastUpdated": "2025-09-05",
+    "categories": {
+      "法律・行政": 5,
+      "金融・会計": 2,
+      "行政・公務員": 1,
+      "教育・文化": 1,
+      "医療・福祉": 5,
+      "安全・労働": 1
+    }
+  }
+}

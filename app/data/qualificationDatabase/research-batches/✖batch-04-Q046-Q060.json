@@ -1,0 +1,1594 @@
+{
+  "qualifications": [
+    {
+      "id": "Q046",
+      "basicInfo": {
+        "name": "通訳案内士",
+        "englishName": "National Government Licensed Guide Interpreter",
+        "category": "語学・国際関係",
+        "subCategory": "通訳・翻訳",
+        "qualificationType": "国家資格",
+        "organizingBody": "観光庁・日本政府観光局(JNTO)",
+        "officialUrl": "https://www.jnto.go.jp/projects/visitor-support/interpreter-guide-exams/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "筆記試験+口述試験",
+        "examFrequency": "年1回",
+        "examFormat": "筆記試験（マーク式・記述式）・口述試験",
+        "onlineOption": false,
+        "examFee": 14850,
+        "passingRate": 15.0,
+        "eligibilityRequirements": "年齢、性別、学歴、国籍等の制限なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 600,
+        "recommendedStudyMethod": ["独学", "通信講座"],
+        "studyPeriod": 12,
+        "textbookCost": 30000,
+        "schoolCost": 200000,
+        "onlineCourseCost": 80000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["観光業", "旅行業", "ホテル業", "航空業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 15000,
+          "average": 10000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["なし（業務独占廃止）"],
+        "careerAdvancement": "通訳・翻訳業界でのキャリアアップ"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "高難度（専門教育推奨）",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "高",
+            "studyHours": 600
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "通訳・翻訳特化の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "観光業界中心に評価",
+          "detailFactors": {
+            "industryDemand": "推奨",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "独立・フリーランス可能",
+          "detailFactors": {
+            "allowanceRange": "5000-15000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "高コスト・長期学習必要",
+          "detailFactors": {
+            "monetaryCost": 80000,
+            "timeCost": 12,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 16
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["観光庁公式サイト", "JNTO", "通訳案内士試験統計"],
+        "verificationStatus": "verified",
+        "notes": "観光業界で需要が高い専門資格"
+      }
+    },
+    {
+      "id": "Q047",
+      "basicInfo": {
+        "name": "管理栄養士",
+        "englishName": "Registered Dietitian",
+        "category": "医療・福祉",
+        "subCategory": "栄養・食品",
+        "qualificationType": "国家資格",
+        "organizingBody": "厚生労働省",
+        "officialUrl": "https://www.mhlw.go.jp/kouseiroudoushou/shikaku_shiken/kanrieiyoushi/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "国家試験（筆記のみ）",
+        "examFrequency": "年1回",
+        "examFormat": "筆記試験（マーク式）",
+        "onlineOption": false,
+        "examFee": 6800,
+        "passingRate": 48.0,
+        "eligibilityRequirements": "4年制管理栄養士養成課程修了または栄養士免許取得後実務経験",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "栄養士の場合必要"
+      },
+      "learningInfo": {
+        "standardStudyHours": 3360,
+        "recommendedStudyMethod": ["大学・専門学校での専門教育"],
+        "studyPeriod": 48,
+        "textbookCost": 50000,
+        "schoolCost": 4000000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["医療機関", "学校給食", "福祉施設", "食品企業"],
+        "jobDemandLevel": "非常に高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 20000,
+          "average": 15000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["栄養指導・栄養管理業務"],
+        "careerAdvancement": "医療・福祉分野での専門職キャリア"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "専門教育必須・高難度",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": false,
+            "examDifficulty": "高",
+            "studyHours": 3360
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "栄養学・医学の高度専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "医療・福祉業界で高評価",
+          "detailFactors": {
+            "industryDemand": "非常に高",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "高"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "専門職として安定収入",
+          "detailFactors": {
+            "allowanceRange": "10000-20000",
+            "salaryIncrease": "15-25",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "高額学費・長期教育必要",
+          "detailFactors": {
+            "monetaryCost": 4000000,
+            "timeCost": 48,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 18
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["厚生労働省公式サイト", "管理栄養士国家試験統計"],
+        "verificationStatus": "verified",
+        "notes": "医療・福祉分野で需要が高い専門資格"
+      }
+    },
+    {
+      "id": "Q048",
+      "basicInfo": {
+        "name": "調理師",
+        "englishName": "Cook License",
+        "category": "飲食・サービス",
+        "subCategory": "調理・製菓",
+        "qualificationType": "国家資格",
+        "organizingBody": "各都道府県・調理技術技能センター",
+        "officialUrl": "https://chouri-ggc.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "筆記試験または専門学校修了",
+        "examFrequency": "年1回",
+        "examFormat": "筆記試験（マーク式）",
+        "onlineOption": false,
+        "examFee": 6400,
+        "passingRate": 65.0,
+        "eligibilityRequirements": "中学校卒業以上+実務経験2年以上",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "2年以上"
+      },
+      "learningInfo": {
+        "standardStudyHours": 180,
+        "recommendedStudyMethod": ["独学", "実務経験"],
+        "studyPeriod": 6,
+        "textbookCost": 8000,
+        "schoolCost": 1200000,
+        "onlineCourseCost": 30000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["飲食業", "ホテル業", "病院給食", "学校給食"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 3000,
+          "max": 8000,
+          "average": 5000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "調理業界での技術証明・昇進"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "実務経験要・中程度",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": true,
+            "examDifficulty": "中",
+            "studyHours": 180
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "調理技術の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "飲食業界で評価",
+          "detailFactors": {
+            "industryDemand": "高",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "技能手当程度",
+          "detailFactors": {
+            "allowanceRange": "3000-8000",
+            "salaryIncrease": "5-15",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "実務経験必要も取得しやすい",
+          "detailFactors": {
+            "monetaryCost": 30000,
+            "timeCost": 6,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 14
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["調理技術技能センター", "各都道府県調理師試験統計"],
+        "verificationStatus": "verified",
+        "notes": "飲食業界での技術証明として重要"
+      }
+    },
+    {
+      "id": "Q049",
+      "basicInfo": {
+        "name": "食品衛生責任者",
+        "englishName": "Food Sanitation Supervisor",
+        "category": "飲食・サービス",
+        "subCategory": "食品安全・衛生",
+        "qualificationType": "講習修了証",
+        "organizingBody": "各都道府県食品衛生協会",
+        "officialUrl": "https://www.n-shokuei.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "講習受講のみ",
+        "examFrequency": "随時（月1回以上）",
+        "examFormat": "講習（6時間）+簡単な確認テスト",
+        "onlineOption": true,
+        "examFee": 10000,
+        "passingRate": 98.0,
+        "eligibilityRequirements": "17歳以上（高校生除く）",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 6,
+        "recommendedStudyMethod": ["講習受講"],
+        "studyPeriod": 1,
+        "textbookCost": 2000,
+        "schoolCost": null,
+        "onlineCourseCost": 10000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["飲食業", "食品販売業", "食品製造業"],
+        "jobDemandLevel": "非常に高",
+        "qualificationAllowance": {
+          "min": 0,
+          "max": 0,
+          "average": 0
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["飲食店営業に必須"],
+        "careerAdvancement": "飲食業開業の必須要件"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 1,
+          "description": "講習のみ・極めて容易",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "極易",
+            "studyHours": 6
+          }
+        },
+        "specialization": {
+          "score": 2,
+          "description": "食品衛生の基礎知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "飲食業開業には必須",
+          "detailFactors": {
+            "industryDemand": "非常に高",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "低"
+          }
+        },
+        "incomeImpact": {
+          "score": 1,
+          "description": "直接的な収入効果なし",
+          "detailFactors": {
+            "allowanceRange": "0-0",
+            "salaryIncrease": "0-0",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 5,
+          "description": "1日で取得可能",
+          "detailFactors": {
+            "monetaryCost": 10000,
+            "timeCost": 1,
+            "opportunityCost": "極低"
+          }
+        },
+        "totalScore": 11
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": true,
+        "workshopDuration": "1日（6時間）",
+        "workshopTestDifficulty": "簡単（合格率95%以上）"
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["各都道府県食品衛生協会", "食品衛生法"],
+        "verificationStatus": "verified",
+        "notes": "飲食店営業許可に必須の資格"
+      }
+    },
+    {
+      "id": "Q050",
+      "basicInfo": {
+        "name": "美容師",
+        "englishName": "Beautician",
+        "category": "美容・ファッション",
+        "subCategory": "美容・理容",
+        "qualificationType": "国家資格",
+        "organizingBody": "公益財団法人理容師美容師試験研修センター",
+        "officialUrl": "https://www.rbc.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "専門学校修了+国家試験",
+        "examFrequency": "年2回",
+        "examFormat": "実技試験+筆記試験",
+        "onlineOption": false,
+        "examFee": 25000,
+        "passingRate": 88.0,
+        "eligibilityRequirements": "美容師養成施設修了",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 2010,
+        "recommendedStudyMethod": ["専門学校での専門教育"],
+        "studyPeriod": 24,
+        "textbookCost": 80000,
+        "schoolCost": 2500000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["美容業", "ブライダル業", "エンターテイメント業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 12000,
+          "average": 8000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["美容業務全般"],
+        "careerAdvancement": "美容業界での独立・店舗経営"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 4,
+          "description": "専門教育必須・実技重視",
+          "detailFactors": {
+            "needsSchool": true,
+            "needsWorkExperience": false,
+            "examDifficulty": "高",
+            "studyHours": 2010
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "美容技術の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "美容業界で必須・高評価",
+          "detailFactors": {
+            "industryDemand": "高",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "高"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "独立開業可能",
+          "detailFactors": {
+            "allowanceRange": "5000-12000",
+            "salaryIncrease": "10-25",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 2,
+          "description": "高額学費・長期教育",
+          "detailFactors": {
+            "monetaryCost": 2500000,
+            "timeCost": 24,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["理容師美容師試験研修センター", "美容師国家試験統計"],
+        "verificationStatus": "verified",
+        "notes": "美容業界での独立開業に必須"
+      }
+    },
+    {
+      "id": "Q051",
+      "basicInfo": {
+        "name": "ネイリスト技能検定",
+        "englishName": "Nail Technician Skills Test",
+        "category": "美容・ファッション",
+        "subCategory": "ネイル",
+        "qualificationType": "民間資格",
+        "organizingBody": "公益財団法人日本ネイリスト検定試験センター",
+        "officialUrl": "https://www.nail-kentei.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "実技試験+筆記試験",
+        "examFrequency": "年4回",
+        "examFormat": "実技試験+筆記試験",
+        "onlineOption": false,
+        "examFee": 12800,
+        "passingRate": 45.0,
+        "eligibilityRequirements": "なし（3級）、下位級合格（2級・1級）",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": true,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 300,
+        "recommendedStudyMethod": ["専門スクールでの実技指導"],
+        "studyPeriod": 12,
+        "textbookCost": 15000,
+        "schoolCost": 400000,
+        "onlineCourseCost": null
+      },
+      "practicalInfo": {
+        "mainIndustries": ["美容業", "ネイルサロン", "ブライダル業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 2000,
+          "max": 5000,
+          "average": 3000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "ネイル業界での技術証明・独立"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "実技習得が必要・中程度",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 300
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "ネイル技術の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "低",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "ネイル業界で評価",
+          "detailFactors": {
+            "industryDemand": "中",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 2,
+          "description": "限定的な収入効果",
+          "detailFactors": {
+            "allowanceRange": "2000-5000",
+            "salaryIncrease": "5-15",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "実技練習が必要",
+          "detailFactors": {
+            "monetaryCost": 400000,
+            "timeCost": 12,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 15
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["日本ネイリスト検定試験センター", "ネイリスト技能検定統計"],
+        "verificationStatus": "verified",
+        "notes": "ネイル業界での技術証明として重要"
+      }
+    },
+    {
+      "id": "Q052",
+      "basicInfo": {
+        "name": "色彩検定",
+        "englishName": "Color Coordination Test",
+        "category": "デザイン・芸術",
+        "subCategory": "色彩・デザイン",
+        "qualificationType": "民間資格",
+        "organizingBody": "公益社団法人色彩検定協会",
+        "officialUrl": "https://www.aft.or.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "筆記試験",
+        "examFrequency": "年2回",
+        "examFormat": "筆記試験（マーク式+記述式）",
+        "onlineOption": false,
+        "examFee": 7000,
+        "passingRate": 75.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 80,
+        "recommendedStudyMethod": ["独学", "公式テキスト"],
+        "studyPeriod": 3,
+        "textbookCost": 3000,
+        "schoolCost": null,
+        "onlineCourseCost": 15000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["デザイン業", "ファッション業", "建築業", "広告業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 1000,
+          "max": 3000,
+          "average": 2000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "デザイン・企画職でのスキル証明"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "基礎的・取得しやすい",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "低",
+            "studyHours": 80
+          }
+        },
+        "specialization": {
+          "score": 3,
+          "description": "色彩理論の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "デザイン系で評価",
+          "detailFactors": {
+            "industryDemand": "中",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "低"
+          }
+        },
+        "incomeImpact": {
+          "score": 1,
+          "description": "限定的な収入効果",
+          "detailFactors": {
+            "allowanceRange": "1000-3000",
+            "salaryIncrease": "0-5",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "低コスト・短期取得可能",
+          "detailFactors": {
+            "monetaryCost": 15000,
+            "timeCost": 3,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 12
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["色彩検定協会", "色彩検定試験統計"],
+        "verificationStatus": "verified",
+        "notes": "デザイン・ファッション業界でのスキル証明"
+      }
+    },
+    {
+      "id": "Q053",
+      "basicInfo": {
+        "name": "ITストラテジスト試験",
+        "englishName": "IT Strategist Examination",
+        "category": "IT・情報処理",
+        "subCategory": "IT戦略・経営",
+        "qualificationType": "国家資格",
+        "organizingBody": "独立行政法人情報処理推進機構(IPA)",
+        "officialUrl": "https://www.ipa.go.jp/shiken/kubun/st.html"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "筆記試験（論述含む）",
+        "examFrequency": "年1回",
+        "examFormat": "多肢選択式+記述式+論述式",
+        "onlineOption": false,
+        "examFee": 7500,
+        "passingRate": 14.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 500,
+        "recommendedStudyMethod": ["独学", "実務経験"],
+        "studyPeriod": 12,
+        "textbookCost": 25000,
+        "schoolCost": null,
+        "onlineCourseCost": 50000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "コンサルティング業", "製造業", "金融業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 20000,
+          "max": 40000,
+          "average": 30000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "CIO・CTO・ITコンサルタント"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "最高難度・実務経験必須",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "最高",
+            "studyHours": 500
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "IT戦略の最高位専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "IT業界最高位評価",
+          "detailFactors": {
+            "industryDemand": "高",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "高"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "高額資格手当・昇進効果",
+          "detailFactors": {
+            "allowanceRange": "20000-40000",
+            "salaryIncrease": "20-40",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "最難関・長期学習必要",
+          "detailFactors": {
+            "monetaryCost": 50000,
+            "timeCost": 12,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 20
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["IPA公式サイト", "ITストラテジスト試験統計"],
+        "verificationStatus": "verified",
+        "notes": "IT業界の最高位戦略資格"
+      }
+    },
+    {
+      "id": "Q054",
+      "basicInfo": {
+        "name": "ネットワークスペシャリスト試験",
+        "englishName": "Network Specialist Examination",
+        "category": "IT・情報処理",
+        "subCategory": "ネットワーク・インフラ",
+        "qualificationType": "国家資格",
+        "organizingBody": "独立行政法人情報処理推進機構(IPA)",
+        "officialUrl": "https://www.ipa.go.jp/shiken/kubun/nw.html"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "筆記試験（論述含む）",
+        "examFrequency": "年1回",
+        "examFormat": "多肢選択式+記述式+論述式",
+        "onlineOption": false,
+        "examFee": 7500,
+        "passingRate": 14.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 400,
+        "recommendedStudyMethod": ["独学", "実務経験"],
+        "studyPeriod": 10,
+        "textbookCost": 20000,
+        "schoolCost": null,
+        "onlineCourseCost": 40000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "通信業", "製造業", "金融業"],
+        "jobDemandLevel": "非常に高",
+        "qualificationAllowance": {
+          "min": 15000,
+          "max": 35000,
+          "average": 25000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "ネットワークエンジニア・インフラエンジニア"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 5,
+          "description": "最高難度・実務経験推奨",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "最高",
+            "studyHours": 400
+          }
+        },
+        "specialization": {
+          "score": 5,
+          "description": "ネットワークの最高位専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 5,
+          "description": "IT業界で最高位評価",
+          "detailFactors": {
+            "industryDemand": "非常に高",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "高"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "高額資格手当・転職有利",
+          "detailFactors": {
+            "allowanceRange": "15000-35000",
+            "salaryIncrease": "20-35",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 1,
+          "description": "最難関・長期学習必要",
+          "detailFactors": {
+            "monetaryCost": 40000,
+            "timeCost": 10,
+            "opportunityCost": "高"
+          }
+        },
+        "totalScore": 20
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["IPA公式サイト", "ネットワークスペシャリスト試験統計"],
+        "verificationStatus": "verified",
+        "notes": "ネットワーク・インフラ分野の最高位資格"
+      }
+    },
+    {
+      "id": "Q055",
+      "basicInfo": {
+        "name": "日商PC検定試験",
+        "englishName": "Japan Chamber of Commerce and Industry PC Test",
+        "category": "IT・情報処理",
+        "subCategory": "オフィスソフト",
+        "qualificationType": "民間資格",
+        "organizingBody": "日本商工会議所",
+        "officialUrl": "https://www.kentei.ne.jp/pc"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "筆記試験+実技試験",
+        "examFrequency": "随時（CBT）",
+        "examFormat": "CBT方式（知識+実技）",
+        "onlineOption": true,
+        "examFee": 5240,
+        "passingRate": 80.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 50,
+        "recommendedStudyMethod": ["独学", "実践練習"],
+        "studyPeriod": 2,
+        "textbookCost": 3000,
+        "schoolCost": null,
+        "onlineCourseCost": 8000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["事務職全般", "IT業", "製造業", "サービス業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 2000,
+          "max": 5000,
+          "average": 3000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "事務職・IT関連職でのスキル証明"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "基礎的・取得しやすい",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "低",
+            "studyHours": 50
+          }
+        },
+        "specialization": {
+          "score": 2,
+          "description": "基本的なPCスキル",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "事務職で基本評価",
+          "detailFactors": {
+            "industryDemand": "高",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "低"
+          }
+        },
+        "incomeImpact": {
+          "score": 1,
+          "description": "基本的な手当程度",
+          "detailFactors": {
+            "allowanceRange": "2000-5000",
+            "salaryIncrease": "0-5",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "短期・低コスト取得",
+          "detailFactors": {
+            "monetaryCost": 8000,
+            "timeCost": 2,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 11
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["日本商工会議所", "日商PC検定試験統計"],
+        "verificationStatus": "verified",
+        "notes": "事務職での基本PCスキル証明"
+      }
+    },
+    {
+      "id": "Q056",
+      "basicInfo": {
+        "name": "AWS認定資格",
+        "englishName": "AWS Certification",
+        "category": "IT・情報処理",
+        "subCategory": "クラウドコンピューティング",
+        "qualificationType": "民間資格",
+        "organizingBody": "Amazon Web Services",
+        "officialUrl": "https://aws.amazon.com/certification/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "CBT試験",
+        "examFrequency": "随時（CBT）",
+        "examFormat": "CBT方式（多肢選択式）",
+        "onlineOption": true,
+        "examFee": 15000,
+        "passingRate": 65.0,
+        "eligibilityRequirements": "なし（推奨実務経験あり）",
+        "validityPeriod": 36,
+        "renewalRequirements": "再受験または継続教育",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "推奨あり"
+      },
+      "learningInfo": {
+        "standardStudyHours": 100,
+        "recommendedStudyMethod": ["実践", "オンライン学習"],
+        "studyPeriod": 6,
+        "textbookCost": 8000,
+        "schoolCost": null,
+        "onlineCourseCost": 50000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "クラウド事業者", "製造業", "金融業"],
+        "jobDemandLevel": "非常に高",
+        "qualificationAllowance": {
+          "min": 10000,
+          "max": 30000,
+          "average": 20000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "クラウドエンジニア・アーキテクト"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "実践重視・中程度",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 100
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "クラウド技術の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "クラウド分野で高評価",
+          "detailFactors": {
+            "industryDemand": "非常に高",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 4,
+          "description": "高額手当・転職有利",
+          "detailFactors": {
+            "allowanceRange": "10000-30000",
+            "salaryIncrease": "15-30",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "実践学習が必要",
+          "detailFactors": {
+            "monetaryCost": 50000,
+            "timeCost": 6,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 18
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["AWS公式サイト", "AWS認定試験統計"],
+        "verificationStatus": "verified",
+        "notes": "クラウド分野で急速に需要拡大中"
+      }
+    },
+    {
+      "id": "Q057",
+      "basicInfo": {
+        "name": "Googleデジタルワークショップ認定",
+        "englishName": "Google Digital Workshop Certification",
+        "category": "マーケティング・広告",
+        "subCategory": "デジタルマーケティング",
+        "qualificationType": "民間認定",
+        "organizingBody": "Google",
+        "officialUrl": "https://learndigital.withgoogle.com/digitalworkshop-jp"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "オンライン講習+修了テスト",
+        "examFrequency": "随時",
+        "examFormat": "オンライン学習+確認テスト",
+        "onlineOption": true,
+        "examFee": 0,
+        "passingRate": 95.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 40,
+        "recommendedStudyMethod": ["オンライン講習"],
+        "studyPeriod": 1,
+        "textbookCost": 0,
+        "schoolCost": null,
+        "onlineCourseCost": 0
+      },
+      "practicalInfo": {
+        "mainIndustries": ["広告業", "マーケティング業", "EC事業", "IT業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 0,
+          "max": 0,
+          "average": 0
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "デジタルマーケティングの基礎知識証明"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 1,
+          "description": "無料オンライン講習・極易",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "極易",
+            "studyHours": 40
+          }
+        },
+        "specialization": {
+          "score": 2,
+          "description": "デジタルマーケティング基礎",
+          "detailFactors": {
+            "fieldSpecificity": "中",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "基礎知識証明程度",
+          "detailFactors": {
+            "industryDemand": "中",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "低"
+          }
+        },
+        "incomeImpact": {
+          "score": 1,
+          "description": "直接的収入効果なし",
+          "detailFactors": {
+            "allowanceRange": "0-0",
+            "salaryIncrease": "0-0",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 5,
+          "description": "無料・短期取得可能",
+          "detailFactors": {
+            "monetaryCost": 0,
+            "timeCost": 1,
+            "opportunityCost": "極低"
+          }
+        },
+        "totalScore": 11
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": true,
+        "workshopDuration": "自習（約40時間）",
+        "workshopTestDifficulty": "簡単（合格率95%以上）"
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["Google公式サイト", "デジタルワークショップ統計"],
+        "verificationStatus": "verified",
+        "notes": "デジタルマーケティングの入門資格"
+      }
+    },
+    {
+      "id": "Q058",
+      "basicInfo": {
+        "name": "PHP技術者認定試験",
+        "englishName": "PHP Certification Exam",
+        "category": "IT・情報処理",
+        "subCategory": "プログラミング",
+        "qualificationType": "民間資格",
+        "organizingBody": "PHP技術者認定機構",
+        "officialUrl": "https://www.phpexam.jp/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "CBT試験",
+        "examFrequency": "随時（CBT）",
+        "examFormat": "CBT方式（多肢選択式）",
+        "onlineOption": true,
+        "examFee": 12000,
+        "passingRate": 70.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 100,
+        "recommendedStudyMethod": ["独学", "実践開発"],
+        "studyPeriod": 4,
+        "textbookCost": 5000,
+        "schoolCost": null,
+        "onlineCourseCost": 30000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "Web開発業", "システム開発業"],
+        "jobDemandLevel": "高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 12000,
+          "average": 8000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "PHPエンジニア・Web開発者"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 3,
+          "description": "プログラミング経験要・中程度",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "中",
+            "studyHours": 100
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "PHP開発の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 3,
+          "description": "Web開発分野で評価",
+          "detailFactors": {
+            "industryDemand": "高",
+            "recruitmentAdvantage": "中",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "開発職で収入効果",
+          "detailFactors": {
+            "allowanceRange": "5000-12000",
+            "salaryIncrease": "10-20",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 3,
+          "description": "実践学習が必要",
+          "detailFactors": {
+            "monetaryCost": 30000,
+            "timeCost": 4,
+            "opportunityCost": "中"
+          }
+        },
+        "totalScore": 16
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["PHP技術者認定機構", "PHP試験統計"],
+        "verificationStatus": "verified",
+        "notes": "Web開発における主要言語の認定資格"
+      }
+    },
+    {
+      "id": "Q059",
+      "basicInfo": {
+        "name": "P検（ICTプロフィシエンシー検定）",
+        "englishName": "P-ken (ICT Proficiency Test)",
+        "category": "IT・情報処理",
+        "subCategory": "ICT総合",
+        "qualificationType": "民間資格",
+        "organizingBody": "ICTプロフィシエンシー検定協会",
+        "officialUrl": "https://www.pken.com/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "CBT試験",
+        "examFrequency": "随時（CBT）",
+        "examFormat": "CBT方式（実技+筆記）",
+        "onlineOption": true,
+        "examFee": 6200,
+        "passingRate": 75.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 60,
+        "recommendedStudyMethod": ["独学", "模擬試験"],
+        "studyPeriod": 3,
+        "textbookCost": 2500,
+        "schoolCost": null,
+        "onlineCourseCost": 10000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["事務職全般", "教育業", "製造業", "サービス業"],
+        "jobDemandLevel": "中",
+        "qualificationAllowance": {
+          "min": 1000,
+          "max": 3000,
+          "average": 2000
+        },
+        "independenceCapability": false,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "ICTスキルの総合的な証明"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "基礎的・取得しやすい",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "低",
+            "studyHours": 60
+          }
+        },
+        "specialization": {
+          "score": 2,
+          "description": "ICT総合基礎スキル",
+          "detailFactors": {
+            "fieldSpecificity": "低",
+            "transferability": "高",
+            "uniqueSkills": false
+          }
+        },
+        "careerValue": {
+          "score": 2,
+          "description": "基本スキル証明程度",
+          "detailFactors": {
+            "industryDemand": "中",
+            "recruitmentAdvantage": "低",
+            "promotionImpact": "低"
+          }
+        },
+        "incomeImpact": {
+          "score": 1,
+          "description": "限定的な収入効果",
+          "detailFactors": {
+            "allowanceRange": "1000-3000",
+            "salaryIncrease": "0-5",
+            "independenceIncome": "不可"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "短期・低コスト取得",
+          "detailFactors": {
+            "monetaryCost": 10000,
+            "timeCost": 3,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 11
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["ICTプロフィシエンシー検定協会", "P検試験統計"],
+        "verificationStatus": "verified",
+        "notes": "ICTスキルの総合的な基礎証明"
+      }
+    },
+    {
+      "id": "Q060",
+      "basicInfo": {
+        "name": "Python3エンジニア認定基礎試験",
+        "englishName": "Python 3 Engineer Certification Basic Exam",
+        "category": "IT・情報処理",
+        "subCategory": "プログラミング",
+        "qualificationType": "民間資格",
+        "organizingBody": "Pythonエンジニア育成推進協会",
+        "officialUrl": "https://www.pythonic-exam.com/"
+      },
+      "acquisitionInfo": {
+        "acquisitionMethod": "CBT試験",
+        "examFrequency": "随時（CBT）",
+        "examFormat": "CBT方式（多肢選択式）",
+        "onlineOption": true,
+        "examFee": 11000,
+        "passingRate": 77.0,
+        "eligibilityRequirements": "なし",
+        "validityPeriod": 9999,
+        "renewalRequirements": "なし",
+        "practicalTrainingRequired": false,
+        "workExperienceRequired": "なし"
+      },
+      "learningInfo": {
+        "standardStudyHours": 80,
+        "recommendedStudyMethod": ["独学", "実践プログラミング"],
+        "studyPeriod": 3,
+        "textbookCost": 3000,
+        "schoolCost": null,
+        "onlineCourseCost": 20000
+      },
+      "practicalInfo": {
+        "mainIndustries": ["IT業", "AI・データサイエンス業", "Web開発業"],
+        "jobDemandLevel": "非常に高",
+        "qualificationAllowance": {
+          "min": 5000,
+          "max": 15000,
+          "average": 10000
+        },
+        "independenceCapability": true,
+        "exclusiveOperations": ["なし"],
+        "careerAdvancement": "Pythonエンジニア・データサイエンティスト"
+      },
+      "evaluationScores": {
+        "difficultyLevel": {
+          "score": 2,
+          "description": "基礎レベル・取得しやすい",
+          "detailFactors": {
+            "needsSchool": false,
+            "needsWorkExperience": false,
+            "examDifficulty": "低",
+            "studyHours": 80
+          }
+        },
+        "specialization": {
+          "score": 4,
+          "description": "Python開発の専門知識",
+          "detailFactors": {
+            "fieldSpecificity": "高",
+            "transferability": "中",
+            "uniqueSkills": true
+          }
+        },
+        "careerValue": {
+          "score": 4,
+          "description": "AI・データサイエンス分野で高評価",
+          "detailFactors": {
+            "industryDemand": "非常に高",
+            "recruitmentAdvantage": "高",
+            "promotionImpact": "中"
+          }
+        },
+        "incomeImpact": {
+          "score": 3,
+          "description": "開発職で収入効果",
+          "detailFactors": {
+            "allowanceRange": "5000-15000",
+            "salaryIncrease": "10-25",
+            "independenceIncome": "可能"
+          }
+        },
+        "acquisitionEase": {
+          "score": 4,
+          "description": "短期・低コスト取得",
+          "detailFactors": {
+            "monetaryCost": 20000,
+            "timeCost": 3,
+            "opportunityCost": "低"
+          }
+        },
+        "totalScore": 17
+      },
+      "workshopOnly": {
+        "isWorkshopOnly": false,
+        "workshopDuration": null,
+        "workshopTestDifficulty": null
+      },
+      "metadata": {
+        "createdAt": "2025-09-06",
+        "updatedAt": "2025-09-06",
+        "dataSource": ["Pythonエンジニア育成推進協会", "Python認定試験統計"],
+        "verificationStatus": "verified",
+        "notes": "AI・データサイエンス分野で急速に需要拡大"
+      }
+    }
+  ]
+}

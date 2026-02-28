@@ -182,7 +182,7 @@ JSONデータ: /mnt/c/instagram-course/instagram-post-generator/app/data/company
    - [ ] 習慣ランキング要件理解
 
 **引き継ぎ完了**: 上記全項目確認後、リサーチプロンプト再現性確保フェーズ開始
-
+勝手な解釈で作業は始めないでください
 ---
 
 **責任引き継ぎ完了日**: 2025-08-28  
